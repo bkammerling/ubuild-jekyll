@@ -11,13 +11,13 @@ page_sections:
     link_text: Home
   - link: "#"
     link_text: Features
-  - link: "#"
-    link_text: Pricing
+  - link: "/careers/"
+    link_text: Careers
   - link: "#"
     link_text: Team
   cta:
     url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
+    button_text: Get Started
 - template: hero-banner-w-image
   block: hero-2
   headline: uBuild <br><strong>design blocks</strong>
@@ -76,5 +76,3 @@ page_sections:
   block: footer-1
   content: Hello world! ❤︎
 ---
-
-foo bar
