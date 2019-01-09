@@ -15,10 +15,10 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: ''
+  path: pages
   label: Pages
   create: all
-  match: "**/*.md"
+  match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
 upload_dir: uploads
