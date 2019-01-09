@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/_global.yml
   label: Site Settings
-  match: "**/*"
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
