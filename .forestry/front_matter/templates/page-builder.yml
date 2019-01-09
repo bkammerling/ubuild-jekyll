@@ -32,3 +32,5 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
+pages:
+- pages/careers/culture.md
