@@ -2,7 +2,6 @@
 label: hero-banner-w-image
 hide_body: false
 is_partial: true
-display_field: block
 fields:
 - type: text
   hidden: true
