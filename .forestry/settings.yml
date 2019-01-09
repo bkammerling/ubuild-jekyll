@@ -23,3 +23,6 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_command: jekyll build
+  output_directory: _site
