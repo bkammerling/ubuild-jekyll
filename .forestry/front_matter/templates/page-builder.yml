@@ -34,5 +34,6 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- pages/careers/careers.md
 - pages/home.md
 - pages/careers/culture.md
