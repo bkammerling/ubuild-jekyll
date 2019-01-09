@@ -4,3 +4,117 @@ main:
   url: "/"
   weight: 1
   title: Home
+- identifier: solutions
+  url: "#"
+  weight: 2
+  title: Solutions
+  sub:
+  - identifier: fleet
+    url: "/fleet"
+    weight: 1
+    title: Fleet
+    parent: solutions
+  - identifier: carpool
+    url: "/carpool"
+    weight: 2
+    title: Carpool
+    parent:  solutions
+  - identifier: shuttle
+    url: "/shuttle"
+    weight: 3
+    title: Shuttle
+    parent:  solutions
+- identifier: careers
+  url: "/careers/"
+  title: Careers
+  weight: 3
+
+footer:
+- identifier: solutions
+  title: Solutions
+  col: 1
+  items:
+  - identifier: fleet
+    url: "/fleet"
+    weight: 1
+    title: Fleet
+    parent: solutions
+  - identifier: carpool
+    url: "/carpool"
+    weight: 2
+    title: Carpool
+    parent:  solutions
+  - identifier: shuttle
+    url: "/shuttle"
+    weight: 3
+    title: Shuttle
+    parent:  solutions
+- identifier: wunder_app
+  title: Wunder App
+  col: 2
+  items:
+  - identifier: app
+    url: "/carpool-app"
+    weight: 1
+    title: Carpool App
+    parent: wunder_app
+  - identifier: helpers
+    url: "https://help.wunder.org"
+    weight: 2
+    title: Help
+    parent:  wunder_app
+- identifier: company
+  title: Company
+  col: 2
+  items:
+  - identifier: careers
+    url: "/careers/"
+    weight: 1
+    title: Careers
+    parent: company
+  - identifier: press
+    url: "/press"
+    weight: 2
+    title: Press
+    parent:  company
+- identifier: offices
+  title: Offices
+  col: 3
+  items:
+  - identifier: dortmund
+    url: "https://goo.gl/1xLGbX"
+    weight: 1
+    title: Dortmund
+    parent: offices
+    newtab: 1
+  - identifier: delhi
+    url: "https://goo.gl/LZpDXn"
+    weight: 2
+    title: Delhi
+    parent:  offices
+    newtab: 1
+  - identifier: manila
+    url: ""
+    weight: 3
+    title: Manila
+    parent:  offices
+  - identifier: rio
+    url: "https://goo.gl/wZcded"
+    weight: 4
+    title: Rio de Janeiro
+    parent:  offices
+    newtab: 1
+
+footerbottom:
+- identifier: privacy
+  url: ""
+  title: Privacy
+  weight: 1
+- identifier: terms
+  url: ""
+  title: Terms & Conditions
+  weight: 2
+- identifier: imprint
+  url: ""
+  title: Imprint
+  weight: 3

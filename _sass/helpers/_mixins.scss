@@ -1,0 +1,193 @@
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@mixin rwd($point) {
+  @if $point == mobile-up {
+    @media (min-width: $mobile) {
+      @content;
+    }
+  }
+  @else if $point == tablet-up {
+    @media (min-width: $tablet) {
+      @content;
+    }
+  }
+  @else if $point == desktop-up {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  }
+  @else if $point == wide-up {
+    @media (min-width: $desktop-wide) {
+      @content;
+    }
+  }
+  @else {
+    @media (min-width: $point) {
+      @content;
+    }
+  }
+}
+
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+
+
+// Prefix for Hover class names
+$nameSpace: 'hvr' !default;
+
+// Durations
+$fastDuration: .1s !default;
+$mediumDuration: .3s !default;
+$slowDuration: .5s !default;
+
+// Colors
+$primaryColor: #e1e1e1 !default;
+$secondaryColor: #666 !default;
+$highlightColor: #ccc !default;
+$activeColor: #2098D1 !default;
+$shadowColor: rgba(0, 0, 0, .6) !default;
+
+// Speech bubbles options
+$tipWidth: 10px !default;  //the width of the speech bubble tip
+$tipHeight: 10px !default; //the height of the speech bubble tip
+$tipColor: $primaryColor !default;
+
+// Arrows options
+$spaceBetweenTextAndArrows: 2.2em !default;
+
+// Curl dimensions
+$curlWidth: 25px !default;
+$curlHeight: 25px !default;
+
+// Curl colors
+$revealAreaColor: white !default;    // reveal area behind the curl
+$curlLineColor: #aaa !default;       // crease line
+$curlTransitionColor: #ccc !default;	// color transitioning from crease line to final color
+$curlLastColor: white !default;		// final color of the back of the curl
+
+// Browser Prefixes - Which CSS prefixes should be used?
+$webkit: true !default;
+$moz: false !default;
+$ms: false !default;
+$o: false !default;
+
+// Compile with or without classes
+$includeClasses: true !default;
+
+/* Underline From Left */
+@mixin underline-from-left {
+	$duration: $mediumDuration;
+
+	@include hacks();
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		right: 100%;
+		bottom: 0;
+		background: rgba($black, 0.2);
+		height: 1px;
+		@include prefixed(transition-property, "right");
+		@include prefixed(transition-duration, $duration);
+		@include prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+
+		&:before {
+			right: 0;
+		}
+	}
+}
+
+// prefix declarations
+@mixin prefixed($property, $value) {
+  @if $webkit == true {
+    -webkit-#{$property}: #{$value};
+  }
+
+  @if $moz == true {
+    -moz-#{$property}: #{$value};
+  }
+
+  @if $ms == true {
+    -ms-#{$property}: #{$value};
+  }
+
+  @if $o == true {
+    -o-#{$property}: #{$value};
+  }
+
+  #{$property}: #{$value};
+}
+
+// prefix keyframes
+@mixin keyframes($name) {
+  @if $webkit == true {
+    @-webkit-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $moz == true {
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $ms == true {
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $o == true {
+    @-o-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// As is often the case, some devices/browsers need additional code to get CSS to work
+// in the most desired way. These mixins are used to quickly drop in hacks for each element
+// Find out more here: https://github.com/IanLunn/Hover/wiki/Hacks-Explained
+
+@mixin hardwareAccel() {
+	// Improve performance on mobile/tablet devices
+	// Perspective reduces blurryness of text in Chrome
+	@include prefixed(transform, perspective(1px) translateZ(0));
+}
+
+@mixin improveAntiAlias() {
+	// Improve aliasing on mobile/tablet devices
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@mixin forceBlockLevel() {
+	// Transforms need to be block-level to work
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@mixin hacks() {
+	@include forceBlockLevel();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+}

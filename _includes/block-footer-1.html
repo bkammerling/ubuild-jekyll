@@ -1,5 +1,69 @@
-<footer class="block block-footer-1">
+<footer class="footer block block-footer-1">
   <div class="container">
-    <p>{{ section.content }}</p>
+      <div class="footer__wrapper row justify-content-md-between align-items-start">
+          <div class="col-md">
+            <img src="{{ site.data.global.footerlogo | relative_url }}" alt="Wunder" class="footer__logotype">
+          </div>
+
+          <div class="col-md">
+          {% for menu_cat in site.menus.footer %}
+            {% if menu_cat.col == 1 %}
+              <h4>{{ menu_cat.title }}</h4>
+              <ul>
+                {% for menu_item in menu_cat.items %}
+                  <li><a href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+          </div>
+
+          <div class="col-md">
+          {% for menu_cat in site.menus.footer %}
+            {% if menu_cat.col == 2 %}
+              <h4>{{ menu_cat.title }}</h4>
+              <ul>
+                {% for menu_item in menu_cat.items %}
+                  <li><a href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+          </div>
+
+          <div class="col-md">
+          {% for menu_cat in site.menus.footer %}
+            {% if menu_cat.col == 3 %}
+              <h4>{{ menu_cat.title }}</h4>
+              <ul>
+                {% for menu_item in menu_cat.items %}
+                  <li><a href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+          </div>
+
+          <div class="col-md">
+            <h4>Social Media</h4>
+            <ul class="footer__socialmedia">
+              <li><a href="{{ site.twitter }}" alt="{{ site.title }} on Twitter"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+              <li><a href="{{ site.linkedin }}" alt="{{ site.title }} on LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+          </div>
+
+
+
+      </div>
+
+      <div class="footer__bottom">
+          <ul>
+            <li>© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+            {% for menu_item in site.menus.footerbottom %}
+              <li><a href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+            {% endfor %}
+          </ul>
+      </div>
+
   </div>
 </footer>

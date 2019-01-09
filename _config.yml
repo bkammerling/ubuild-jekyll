@@ -1,10 +1,8 @@
-title: uBuild Design Blocks
-author: Forestry.io
-email: support@forestry.io
+title: Wunder Mobility
+author: Ben Kammerling
+email: website@wundermobility.com
 description: >-
-  ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature.
-  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI
-  that will empower content editors to construct their own webpages.
+  A smart mobility marketplace and tech platform providing carpooling, smart shuttles, and scooter/car-sharing to end customers, corporates, and cities.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # your site's origin, e.g. https://forestry.io
 
@@ -20,6 +18,7 @@ gems:
   - jekyll-menus
 sass:
   sass_dir: _sass
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

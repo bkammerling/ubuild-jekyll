@@ -2,4 +2,12 @@
 ---
 
 // Imports
-@import "base";
+@import "bootstrap/bootstrap";
+@import "helpers/_variables";
+@import "helpers/_mixins";
+
+@import "base/_typography";
+@import "base/_base";
+@import "base/_fonts";
+
+@import "_global";
