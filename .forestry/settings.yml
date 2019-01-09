@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/_global.yml
+  path: _data/global.yml
   label: Site Settings
 - type: document
   path: FORESTRY-README.md
