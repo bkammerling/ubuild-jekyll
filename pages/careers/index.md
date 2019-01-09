@@ -1,7 +1,6 @@
 ---
 layout: blocks
 title: Careers
-permalink: /careers/
 date: 2017-11-22 23:00:00 +0000
 page_sections:
 - template: navigation-header-w-button
@@ -65,4 +64,5 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
+
 ---
