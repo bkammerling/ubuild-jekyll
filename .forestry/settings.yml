@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/_global.yml
+  label: Site Settings
+  match: "**/*"
+- type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
   read_only: true
