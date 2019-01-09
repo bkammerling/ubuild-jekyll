@@ -1,5 +1,5 @@
 ---
-label: hero-banner-w-image
+label: hero-banner-w-intro
 hide_body: false
 is_partial: true
 fields:
@@ -11,16 +11,6 @@ fields:
 - type: file
   name: background_image
   label: Background Image
-- type: field_group
-  name: image
-  label: Image
-  fields:
-  - type: file
-    name: image
-    label: Image
-  - type: text
-    name: alt_text
-    label: Alt Text
 - type: textarea
   name: headline
   label: Headline
@@ -29,12 +19,13 @@ fields:
     schema:
       format: html
 - type: textarea
-  name: content
-  label: Content
+  name: intro_text
+  label: Intro Text
+  description: Text that appears in blue box under banner
   config:
     wysiwyg: true
     schema:
-      format: html
+      format: markdown
 - type: field_group
   name: cta
   label: Call-to-action
