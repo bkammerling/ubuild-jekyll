@@ -18,7 +18,7 @@ sections:
   path: pages
   label: Pages
   create: all
-  match: "*.md"
+  match: "**/*"
   exclude: "*README.md"
   new_doc_ext: md
 upload_dir: uploads
