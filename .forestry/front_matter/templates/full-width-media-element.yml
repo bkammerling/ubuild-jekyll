@@ -2,6 +2,7 @@
 label: 1-col-video
 hide_body: false
 is_partial: true
+display_field: heading
 fields:
 - type: text
   hidden: true
