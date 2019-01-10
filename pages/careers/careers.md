@@ -27,6 +27,11 @@ page_sections:
     title: Impact Delhi
   - title: Impact Manila
     image: "/uploads/2019/01/10/impact_manila@2x.jpg"
+  - title: Our Impact
+    heading: Our Impact
+    content: Our technology is used in over 30 cities across Asia, Europe, South America
+      and North America.
+    heading_colour: black
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
