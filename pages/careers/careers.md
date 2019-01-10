@@ -48,6 +48,11 @@ page_sections:
     image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
   - title: 'Values: Devran'
     image: "/uploads/2019/01/10/our_values_devran@2x.jpg"
+  - title: Our Values
+    heading: Our Values
+    content: We believe in disruption and challenge the status quo in everything we
+      do. While having fun!
+    heading_colour: black
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
