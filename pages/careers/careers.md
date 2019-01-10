@@ -57,6 +57,7 @@ page_sections:
     alt: Young man enjoying a VR headset
   - title: 'Values: Devran'
     image: "/uploads/2019/01/10/our_values_devran@2x.jpg"
+    alt: Young man wearing white t-shirt working at a laptop
   - title: Our Values
     heading: Our Values
     content: We believe in disruption and challenge the status quo in everything we
