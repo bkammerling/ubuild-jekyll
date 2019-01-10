@@ -50,6 +50,8 @@ page_sections:
     heading_colour: green
   - image: "/uploads/2019/01/10/impact_3@2x.jpg"
     title: Woman on scooter
+    col_count: '1'
+    alt: Woman on blue scooter in a European city
   - title: 'Values: Ben'
     image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
   - title: 'Values: Devran'
