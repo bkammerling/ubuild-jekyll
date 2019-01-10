@@ -19,6 +19,10 @@ fields:
     min: '2'
     max: '12'
   fields:
+  - type: text
+    name: title
+    label: Title
+    description: Give this grid item a name (for CMS only)
   - type: file
     name: image
     label: Image
@@ -40,3 +44,4 @@ fields:
       - black
       - green
     label: Heading Colour
+  - type: text
