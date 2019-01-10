@@ -3,9 +3,16 @@ label: 3-col-image-text-grid
 hide_body: false
 is_partial: true
 fields:
-- type: field_group_list
-  label: Block
+- type: text
   name: block
+  label: Block
+  hidden: true
+  config:
+    required: true
+  default: landing-grid
+- type: field_group_list
+  label: Item
+  name: item
   description: Each block of the 3-col grid
   config:
     min: '2'
