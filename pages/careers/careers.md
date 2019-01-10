@@ -17,8 +17,7 @@ page_sections:
 - template: 3-col-image-text-grid
   block: landing-grid
   item:
-  - title: Our Vision
-    heading: Our Vision
+  - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
     title: Our Vision
@@ -64,6 +63,11 @@ page_sections:
     content: We believe in disruption and challenge the status quo in everything we
       do. While having fun!
     heading_colour: black
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/308066143?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: "#FACESOFWUNDER"
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
