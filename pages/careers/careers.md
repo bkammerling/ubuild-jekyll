@@ -17,6 +17,17 @@ page_sections:
 - template: 3-col-image-text-grid
   block: 3-col-grid
   item:
+  - {}
+  - title: 'Stat: Cars off road'
+    heading: 30,000+
+    content: cars are taken off the road daily in Manila, one of the most congested
+      cities in the world.
+    heading_colour: green
+  - title: CO2 Saved
+    heading: 12,000kg
+    content: CO2 was reduced in Delhi, one of the most polluted cities in the world
+      just last month.
+    heading_colour: green
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
