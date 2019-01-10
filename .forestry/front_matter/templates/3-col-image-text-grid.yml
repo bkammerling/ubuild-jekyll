@@ -28,6 +28,20 @@ fields:
     description: Either 1-col (680x680px) or 2-col (1360x680px)
     config:
       maxSize: '3'
+  - type: select
+    name: col_count
+    config:
+      source:
+        type: simple
+      options:
+      - '1'
+      - '2'
+    label: "# of Columns"
+    description: If image block, is it 1 col or 2 col
+  - type: text
+    name: alt
+    label: Alt
+    description: Alt text for image
   - type: text
     name: heading
     label: Heading
@@ -43,4 +57,4 @@ fields:
       - black
       - green
     label: Heading Colour
-  - type: text
+    description: Leave blank for dark grey
