@@ -14,6 +14,14 @@ page_sections:
   cta:
     url: "/jobs"
     button_text: Browse Jobs
+- template: 3-col-image-text-grid
+  block: 3-col-grid
+  item:
+  - heading: Our Vision
+    content: To enable communities globally to deploy new mobility services fast!
+    heading_colour: black
+  - {}
+  - {}
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
