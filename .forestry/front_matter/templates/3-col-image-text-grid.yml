@@ -10,7 +10,7 @@ fields:
   hidden: true
   config:
     required: false
-  default: landing-grid
+  default: 3-col-grid
 - type: field_group_list
   label: Item
   name: item
