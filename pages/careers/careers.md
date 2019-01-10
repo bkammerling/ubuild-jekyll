@@ -27,6 +27,8 @@ page_sections:
     alt: Birdseye photo of a busy highway junction
   - image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
     title: Impact Delhi
+    col_count: '1'
+    alt: Polluted and hazy street in Delhi
   - title: Impact Manila
     image: "/uploads/2019/01/10/impact_manila@2x.jpg"
   - title: Our Impact
