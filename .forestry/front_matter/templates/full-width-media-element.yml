@@ -1,5 +1,5 @@
 ---
-label: full-width-media-element
+label: 1-col-video
 hide_body: false
 is_partial: true
 fields:
@@ -7,10 +7,14 @@ fields:
   hidden: true
   label: block
   name: block
-  default: media-1
-- type: file
-  name: image
-  label: Image
+  default: video-1
 - type: text
-  name: caption
-  label: Caption
+  name: heading
+  label: Heading
+  description: Heading above the video
+- type: text
+  name: iframe
+  label: Vimeo Iframe
+  description: Full iframe embed element (must start with '<iframe' and end in '</iframe>')
+  config:
+    required: true
