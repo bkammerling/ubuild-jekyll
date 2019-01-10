@@ -1,0 +1,21 @@
+---
+label: 1-col-video
+hide_body: false
+is_partial: true
+display_field: heading
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: video-1
+- type: text
+  name: heading
+  label: Heading
+  description: Heading above the video
+- type: text
+  name: iframe
+  label: Vimeo Iframe
+  description: Full iframe embed element (must start with '<iframe' and end in '</iframe>')
+  config:
+    required: true
