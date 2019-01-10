@@ -46,6 +46,8 @@ page_sections:
     title: Woman on scooter
   - title: 'Values: Ben'
     image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
+  - title: 'Values: Devran'
+    image: "/uploads/2019/01/10/our_values_devran@2x.jpg"
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
