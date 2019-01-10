@@ -23,7 +23,7 @@ page_sections:
     content: cars are taken off the road daily in Manila, one of the most congested
       cities in the world.
     heading_colour: green
-  - title: CO2 Saved
+  - title: 'Stat: CO2 Saved'
     heading: 12,000kg
     content: CO2 was reduced in Delhi, one of the most polluted cities in the world
       just last month.
