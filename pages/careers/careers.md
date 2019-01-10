@@ -54,6 +54,7 @@ page_sections:
     alt: Woman on blue scooter in a European city
   - title: 'Values: Ben'
     image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
+    alt: Young man enjoying a VR headset
   - title: 'Values: Devran'
     image: "/uploads/2019/01/10/our_values_devran@2x.jpg"
   - title: Our Values
