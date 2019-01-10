@@ -15,7 +15,7 @@ page_sections:
     url: "/jobs"
     button_text: Browse Jobs
 - template: 3-col-image-text-grid
-  block: 3-col-grid
+  block: landing-grid
   item:
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
