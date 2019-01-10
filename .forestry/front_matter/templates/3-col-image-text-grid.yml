@@ -2,6 +2,7 @@
 label: 3-col-image-text-grid
 hide_body: false
 is_partial: true
+display_field: block
 fields:
 - type: text
   name: block
