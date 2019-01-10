@@ -17,14 +17,14 @@ page_sections:
 - template: 3-col-image-text-grid
   block: landing-grid
   item:
-  - heading: Our Vision
+  - title: Our Vision
+    heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
-    title: Our Vision
-  - image: "/uploads/2019/01/10/vision@2x.jpg"
-    title: Vision 2-Col Image
-  - image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
-    title: Impact Delhi
+  - title: Vision 2-Col Image
+    image: "/uploads/2019/01/10/vision@2x.jpg"
+  - title: Impact Delhi
+    image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
   - title: Impact Manila
     image: "/uploads/2019/01/10/impact_manila@2x.jpg"
   - title: Our Impact
