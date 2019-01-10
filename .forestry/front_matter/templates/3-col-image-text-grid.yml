@@ -2,7 +2,6 @@
 label: 3-col-image-text-grid
 hide_body: false
 is_partial: true
-display_field: block
 fields:
 - type: text
   name: block
@@ -10,7 +9,7 @@ fields:
   hidden: true
   config:
     required: false
-  default: 3-col-grid
+  default: landing-grid
 - type: field_group_list
   label: Item
   name: item
