@@ -21,12 +21,19 @@ page_sections:
     heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
-  - title: Vision 2-Col Image
-    image: "/uploads/2019/01/10/vision@2x.jpg"
-  - title: Impact Delhi
-    image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
+    title: Our Vision
+  - image: "/uploads/2019/01/10/vision@2x.jpg"
+    title: Vision 2-Col Image
+    col_count: '2'
+    alt: Birdseye photo of a busy highway junction
+  - image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
+    title: Impact Delhi
+    col_count: '1'
+    alt: Polluted and hazy street in Delhi
   - title: Impact Manila
     image: "/uploads/2019/01/10/impact_manila@2x.jpg"
+    alt: Busy street in Manila with lots of traffic
+    col_count: '1'
   - title: Our Impact
     heading: Our Impact
     content: Our technology is used in over 30 cities across Asia, Europe, South America
@@ -44,10 +51,14 @@ page_sections:
     heading_colour: green
   - image: "/uploads/2019/01/10/impact_3@2x.jpg"
     title: Woman on scooter
+    col_count: '1'
+    alt: Woman on blue scooter in a European city
   - title: 'Values: Ben'
     image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
+    alt: Young man enjoying a VR headset
   - title: 'Values: Devran'
     image: "/uploads/2019/01/10/our_values_devran@2x.jpg"
+    alt: Young man wearing white t-shirt working at a laptop
   - title: Our Values
     heading: Our Values
     content: We believe in disruption and challenge the status quo in everything we
