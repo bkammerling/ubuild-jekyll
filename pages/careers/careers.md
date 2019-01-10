@@ -20,7 +20,7 @@ page_sections:
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
-  - {}
+  - image: "/uploads/2019/01/10/vision@2x.jpg"
   - {}
 - template: simple-footer
   block: footer-1
