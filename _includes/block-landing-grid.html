@@ -5,14 +5,14 @@
       {% for block in section.item %}
       {% if block.image %}
         <!-- #Start Grid Item -->
-        <div class="landing-grid__image xs-50 {% if block.col_count = 2 %}long{% endif %}">
+        <div class="landing-grid__image {% if block.col_count == '2' %}long{% else %}xs-50{% endif %}">
           <img src="{{ block.image  | relative_url }}" class="lazyload" alt="{{ block.alt }}" />
         </div>
         <!-- #End Grid Item -->
       {% else %}
         <!-- #Start Grid Item -->
-        <div class="landing-grid__text {% if forloop.last %}transparent{% endiof %}">
-          <div class="landing-grid__content {% if block.heading_colour = green %}stat{% endif %}">
+        <div class="landing-grid__text {% if forloop.last %}transparent{% endif %}">
+          <div class="landing-grid__content {% if block.heading_colour == 'green' %}stat{% endif %}">
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true">
               <h2>{{ block.heading }}</h2>
               <p>{{ block.content }}</p>

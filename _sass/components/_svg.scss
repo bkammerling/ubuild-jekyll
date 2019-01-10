@@ -1,0 +1,165 @@
+.maptooltip {
+  display: none;
+  background: $olive-matt;
+  color: $white;
+  margin-left: 30px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.diversity {
+  margin: rem(60px) 0;
+  max-width: 100%;
+  overflow: scroll;
+  @include rwd(tablet-up) {
+    overflow: visible;
+  }
+  .page-heading {
+    margin-bottom: rem(20px);
+  }
+
+  > *:not(svg) {
+    position: relative;
+    z-index: 1;
+  }
+
+
+
+  svg {
+    margin: 1rem 0 1rem;
+    transition: all 0.4s;
+    z-index: 0;
+    @include rwd(tablet-up) {
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+
+  }
+  path {
+    fill: white;
+  }
+  #AR,#AU,#BA,#BE,#BG,#BR,#CA,#CN,#CO,#CZ,#DE,#EG,#ES,#FR,#GB,#HN,#IN,#IR,#KR,#KZ,#LC,#MX,#NL,#PA,#PL,#PH,#PT,#PY,#RO,#RS,#RU,#SG,#SV,#TH,#TN,#TR,#TW,#TZ,#UA,#US,#ZA {
+    fill: #D8D8D8;
+    transition: fill 0.5s;
+    //cursor: zoom-in;
+    &:hover {
+      fill: $sky-blue;
+      //fill: url(#MyGradient)
+    }
+
+  }
+} // END of Diversity styling
+
+
+
+.benefitstooltip {
+  opacity: 0;
+  transition: opacity 0.2s;
+  background: $white;
+  color: $olive-matt;
+  box-shadow: 0 0 12px 3px rgba(0,0,0,.1);
+  margin-left: 20px;
+  text-align: left;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 20px 25px 25px;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 1000;
+  max-width: 115px;
+  font-size: 15px;
+  box-sizing: content-box;
+  line-height: 20px;
+  &.mouseover {
+      opacity: 1;
+  }
+}
+
+.benefits {
+  display: none;
+  @include rwd(tablet-up) {
+    display: block;
+  }
+  margin-top: rem(80px);
+  margin-bottom: rem(80px);
+  .title-row {
+    margin-bottom: rem(40px);
+  }
+
+  circle.cls-109, rect.cls-57, #Group-402 path, #Group-402 polygon {
+    transition: fill 0.4s;
+  }
+
+  rect.cls-57 {
+    fill: #fafafa;
+  }
+  #map-path path {
+    transition: stroke 0.25s;
+    stroke: black;
+  }
+  #map-path circle  {
+    transition: fill 0.25s;
+    fill: black;
+  }
+  path.cls-28 {
+    pointer-events: none;
+  }
+  g.grayoverlay {
+    filter: url(#grayscale);
+    opacity: 1;
+    transition: opacity 0.4s;
+    &:hover {
+      opacity: 0;
+    }
+  }
+
+  svg {
+    &.balloon g#balloonOverlay, &.treasure g#treasureOverlay, &.beer g#beerOverlay, &.calendar g#calendarOverlay, &.gym g#gymOverlay, &.food g#foodOverlay{
+      opacity: 0;
+    }
+    &.map, #map:hover  {
+      rect.cls-57 {
+        //fill: ;
+      }
+      #Group-402 path, #Group-402 polygon {
+        fill: #06a0e3;
+      }
+      #map-path path {
+        //stroke: white;
+      }
+      #map-path circle  {
+        //fill: white;
+      }
+    }
+  }
+
+  g#girl-top {
+    transform: rotate(6deg);
+    animation: helloRotate 10s infinite;
+    transform-origin: 75% 200%;
+    position: relative;
+    //transition: transform 1s;
+  }
+  path#batman-arm {
+    //animation: batmanArm 12s infinite;
+    //transform: rotate(-3deg) translate(-63px,15px)
+  }
+  @keyframes helloRotate {
+    //0%   { transform: rotate(6deg); }
+    20%  { transform: rotate(0deg); }
+    55%  { transform: rotate(0deg); }
+    70% { transform: rotate(6deg); }
+  }
+  @keyframes batmanArm {
+    //0%   { transform: rotate(6deg); }
+    10%  { transform: translateX(0px); }
+    55%  { transform: translateX(0px); }
+    65% { transform: rotate(-3deg) translate(-63px,15px); }
+  }
+
+
+}

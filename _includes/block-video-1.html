@@ -1,0 +1,16 @@
+<section class="block block-video-1">
+  <div class="container ">
+    <div class="home-video">
+      <h2 class="page-heading">{{ section.heading }}</h2>
+
+      <div class="plyr__video-embed" id="player">
+
+        {% if section.iframe %}
+          {{ section.iframe }}
+        {% endif %}
+
+      </div>
+      <a id="video-btn" class="dark round-cta">Watch Video</a>
+    </div>
+  </div>
+</section>

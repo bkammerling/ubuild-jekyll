@@ -73,7 +73,7 @@ header {
 }
 
 
-.round-cta {
+a.round-cta {
   background: $white;
   color: #06A0E3;
   text-align: center;
@@ -120,7 +120,7 @@ header {
 
   &.dark {
     background: $sky-blue;
-    color: $white;
+    color: $white !important;
     &:after {
       background: $sky-blue url(../uploads/global/arrow-right-white.svg) no-repeat center;
       background-size: 16px;

@@ -1,0 +1,32 @@
+.home-video {
+  margin: rem(80px) 0;
+  position: relative;
+  h2 {
+    margin-bottom: rem(30px);
+  }
+  img {
+    max-width: 100%;
+  }
+  a.round-cta {
+    opacity: 1;
+    position: absolute;
+    top: calc(50% + 10px);
+    right: calc(50% - 100px);
+  }
+  .plyr__poster {
+    background-color: #fff;
+  }
+}
+
+.plyr--stopped {
+  pointer-events: none;
+  .round-cta {
+    pointer-events: all;
+  }
+}
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+  background: $sky-blue;
+}
+.plyr--full-ui input[type=range] {
+  color: $sky-blue;
+}
