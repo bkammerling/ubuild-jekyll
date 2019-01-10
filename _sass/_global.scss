@@ -7,6 +7,130 @@ header {
 }
 
 
+.video-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+
+  padding: rem(120px) rem(30px) rem(80px);
+
+  @include rwd(tablet-up) {
+    padding: rem(170px) 0;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .video-banner__title-wrapper {
+    max-width: rem(800px);
+    position: relative;
+    color: $white;
+    display: inline-block;
+    z-index: 2;
+    p {
+      font-weight: 500;
+    }
+  }
+}
+
+.intro-text {
+  width: 90%;
+  margin: 0 auto;
+  background: #07c6eb;
+  background: -moz-linear-gradient(-45deg, #07c6eb 0%, #06a0e3 100%);
+  background: -webkit-linear-gradient(-45deg, #07c6eb 0%,#06a0e3 100%);
+  background: linear-gradient(135deg, #07c6eb 0%,#06a0e3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c6eb', endColorstr='#06a0e3',GradientType=1 );
+  position: relative;
+  padding: rem(60px) rem(25px);
+  transform: translateY(rem(-35px));
+  max-width: rem(1200px);
+
+  @include rwd(tablet-up) {
+    padding: rem(70px);
+    transform: translateY(rem(-75px));
+  }
+
+  .round-cta {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: -19px;
+  }
+
+  p {
+    color: $white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+}
+
+
+.round-cta {
+  background: $white;
+  color: #06A0E3;
+  text-align: center;
+  border-radius: 30px;
+  text-transform: uppercase;
+  line-height: 22px;
+  padding: rem(13px) rem(65px) rem(11px) rem(30px);
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 12px;
+  min-width: 200px;
+  width: fit-content;
+  position: relative;
+  height: 46px;
+  display: inline-block;
+  transition: all 0.2s linear;
+  max-width: 270px;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    display: block;
+    background: $white url(../uploads/global/arrow-right.svg) no-repeat center;
+    background-size: 46px;
+    width: 46px;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    pointer-events: none;
+    transition: right 0.2s ;
+  }
+
+  &:hover {
+    background: #357FB0;
+    color: $white;
+    &:after {
+      background: $white url(../uploads/global/arrow-right.svg) no-repeat center;
+      background-size: 46px;
+      right: 0;
+    }
+  }
+
+  &.dark {
+    background: $sky-blue;
+    color: $white;
+    &:after {
+      background: $sky-blue url(../uploads/global/arrow-right-white.svg) no-repeat center;
+      background-size: 16px;
+    }
+    &:hover {
+      background: #357FB0;
+    }
+  }
+} /* end of round-cta */
+
+
 .footer {
   background: $olive-matt;
   padding: rem(80px) rem(30px) rem(40px);

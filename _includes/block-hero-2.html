@@ -1,19 +1,24 @@
-<section class="block block-hero-2" 
-{% if section.background_image %}
-style="background-image: url('{{ section.background_image | relative_url }}')"
-{% endif %}>
+<section class="block block-hero-2">
+  <div class="video-banner" {% if section.background_image %}
+  style="background-image: url('{{ section.background_image | relative_url }}')"
+  {% endif %}>
+    <div class="container">
+        <div class="video-banner__title-wrapper">
+            <h1 class="video-banner__title">{{ section.headline }}</h1>
+        </div>
+    </div>
+</section>
+{% if section.intro_text %}
+<div class="intro-text">
+  <a class="round-cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
   <div class="container">
-    <div class="columns">
-      <div class="column text">
-        <h1><span class="light">{{ section.headline }}</span></h1>
-        <p>{{ section.content }}</p>
-        {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
-        {% endif %}
-      </div>
-      <div class="column media">
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
+    <div class="row">
+      <div class="intro-text__content offset-sm-2 col-sm-8">
+        <p>
+          {{ section.intro_text }}
+        </p>
       </div>
     </div>
   </div>
-</section>
+</div>
+{% endif %}
