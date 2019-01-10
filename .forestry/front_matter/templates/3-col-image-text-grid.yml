@@ -1,0 +1,34 @@
+---
+label: 3-col-image-text-grid
+hide_body: false
+is_partial: true
+fields:
+- type: field_group_list
+  label: Block
+  name: block
+  description: Each block of the 3-col grid
+  config:
+    min: '2'
+    max: '12'
+  fields:
+  - type: file
+    name: image
+    label: Image
+    description: Either 1-col (680x680px) or 2-col (1360x680px)
+    config:
+      maxSize: '3'
+  - type: text
+    name: heading
+    label: Heading
+  - type: textarea
+    name: content
+    label: Content
+  - type: select
+    name: heading_colour
+    config:
+      source:
+        type: simple
+      options:
+      - black
+      - green
+    label: Heading Colour
