@@ -31,6 +31,8 @@ page_sections:
     alt: Polluted and hazy street in Delhi
   - title: Impact Manila
     image: "/uploads/2019/01/10/impact_manila@2x.jpg"
+    alt: Busy street in Manila with lots of traffic
+    col_count: '1'
   - title: Our Impact
     heading: Our Impact
     content: Our technology is used in over 30 cities across Asia, Europe, South America
