@@ -20,8 +20,13 @@ page_sections:
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
+    title: Our Vision
   - image: "/uploads/2019/01/10/vision@2x.jpg"
-  - {}
+    title: Vision 2-Col Image
+  - image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
+    title: Impact Delhi
+  - title: Impact Manila
+    image: "/uploads/2019/01/10/impact_manila@2x.jpg"
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
