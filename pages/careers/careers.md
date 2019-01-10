@@ -17,17 +17,6 @@ page_sections:
 - template: 3-col-image-text-grid
   block: 3-col-grid
   item:
-  - {}
-  - title: 'Stat: Cars off road'
-    heading: 30,000+
-    content: cars are taken off the road daily in Manila, one of the most congested
-      cities in the world.
-    heading_colour: green
-  - title: 'Stat: CO2 Saved'
-    heading: 12,000kg
-    content: CO2 was reduced in Delhi, one of the most polluted cities in the world
-      just last month.
-    heading_colour: green
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black
@@ -43,6 +32,20 @@ page_sections:
     content: Our technology is used in over 30 cities across Asia, Europe, South America
       and North America.
     heading_colour: black
+  - title: 'Stat: CO2 Saved'
+    heading: 12,000kg
+    content: CO2 was reduced in Delhi, one of the most polluted cities in the world
+      just last month.
+    heading_colour: green
+  - title: 'Stat: Cars off road'
+    heading: 30,000+
+    content: cars are taken off the road daily in Manila, one of the most congested
+      cities in the world.
+    heading_colour: green
+  - image: "/uploads/2019/01/10/impact_3@2x.jpg"
+    title: Woman on scooter
+  - title: 'Values: Ben'
+    image: "/uploads/2019/01/10/our_values_ben@2x.jpg"
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
