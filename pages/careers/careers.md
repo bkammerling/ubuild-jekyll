@@ -23,6 +23,8 @@ page_sections:
     title: Our Vision
   - image: "/uploads/2019/01/10/vision@2x.jpg"
     title: Vision 2-Col Image
+    col_count: '2'
+    alt: Birdseye photo of a busy highway junction
   - image: "/uploads/2019/01/10/impact_delhi@2x.jpg"
     title: Impact Delhi
   - title: Impact Manila
