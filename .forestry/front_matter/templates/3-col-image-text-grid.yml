@@ -5,10 +5,10 @@ is_partial: true
 fields:
 - type: text
   name: block
-  label: Block
+  label: block
   hidden: true
   config:
-    required: true
+    required: false
   default: landing-grid
 - type: field_group_list
   label: Item
