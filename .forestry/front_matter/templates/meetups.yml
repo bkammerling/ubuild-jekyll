@@ -1,0 +1,15 @@
+---
+label: Meetups
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: false
+  default: ''
