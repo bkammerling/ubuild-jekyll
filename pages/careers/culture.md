@@ -49,6 +49,15 @@ page_sections:
   block: slider-team
   heading: We are Wunder
   item:
+  - big_image: "/uploads/2019/01/11/Rachit_big@2x.jpg"
+    big_alt: Rachit, an Indian Wunder employee, smiles at the camera
+    small_image: "/uploads/2019/01/11/Rachit@2x.jpg"
+    small_alt: Rachit, an Indian Wunder employee, smiles at the camera
+    quote: We make sure we have each other’s back. This is the extra effort that the
+      team at Wunder makes, that you are part of a family and you feel at home here.
+    author: Rachit (India)
+    department: Marketing
+    location: Wunder HQ Hamburg
   - big_image: "/uploads/2019/01/11/Jwani_big@2x.jpg"
     big_alt: Jwani, a female Wunder employee, smiling
     small_image: "/uploads/2019/01/11/Jwani@2x.jpg"
