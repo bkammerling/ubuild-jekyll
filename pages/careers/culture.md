@@ -51,7 +51,7 @@ page_sections:
   heading: We are Wunder
   item:
   - big_image: "/uploads/2019/01/11/Bruno_big@2x.jpg"
-    big_alt: Bruno, a Wunder employee, wearing a chequered shirt and smiling
+    big_alt: Bruno , a Wunder employee, wearing a chequered shirt and smiling
     small_image: "/uploads/2019/01/11/Bruno@2x.jpg"
     small_alt: Bruno, a Wunder employee, wearing a chequered shirt and smiling
     quote: Since many of us moved from our home countries to Germany, we have formed
