@@ -1,0 +1,16 @@
+---
+label: Image Content Block
+hide_body: false
+is_partial: true
+fields:
+- type: field_group_list
+  label: Item
+  name: item
+  config:
+    min: '2'
+    max: '8'
+  fields:
+  - type: include
+    template: image-content
+    label: block
+    name: block
