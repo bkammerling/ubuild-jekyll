@@ -1,0 +1,21 @@
+---
+label: image-content
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: image
+  label: Image
+  config:
+    maxSize: '3'
+- type: file
+  name: icon
+  label: Icon
+  config:
+    maxSize: '1'
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: content
+  label: Content
