@@ -17,7 +17,6 @@ page_sections:
     url: "/jobs"
     button_text: Browse Jobs
 - template: image-content-block
-  block: two-column-1
   item:
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
@@ -46,10 +45,19 @@ page_sections:
     title: Wunder Mobility Summit
   heading: We believe in communities because we are one
 - block: icon-text-links
-- block: diversity-1
-  subdirectory: static
-- block: slider-team
-  subdirectory: static
+- template: picture-slider
+  block: slider-team
+  heading: We are Wunder
+  item:
+  - big_image: "/uploads/2019/01/11/Devran_big@2x.jpg"
+    small_image: "/uploads/2019/01/11/Devran@2x.jpg"
+    small_alt: Wunder male employee with dark hair smiling
+    quote: I love working at Wunder because it's agile and diverse. At the same time,
+      it's very professional.
+    author: Devran (Germany)
+    department: Design
+    location: Wunder HQ Hamburg
+    big_alt: Devran, a male Wunder employee with dark hair smiling
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"
