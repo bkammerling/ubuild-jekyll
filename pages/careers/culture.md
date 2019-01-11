@@ -18,6 +18,13 @@ page_sections:
     button_text: Browse Jobs
 - template: image-content-block
   item:
+  - icon: "/uploads/2019/01/11/team-spirit-05.svg"
+    image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
+    content: Wunder Mobility Summit is a first-of-its-kind conference that brings
+      together stalwarts of the mobility industry from across the world. With over
+      300 international experts, the Wunder Mobility Summit is the largest, most exclusive
+      conference of its kind in Germany.
+    title: Wunder Mobility Summit
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
     title: Team Events & Happy Hour
