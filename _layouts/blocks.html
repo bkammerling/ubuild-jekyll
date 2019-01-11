@@ -1,8 +1,9 @@
 {% include head.html %}
 {% for section in page.page_sections %}
-{% include block-{{ section.block }}.html %}
+{% if section.subdirectory %}
+  {% include {{ section.subdirectory }}/block-{{ section.block }}.html %}
+{% else %}
+  {% include block-{{ section.block }}.html %}
+{% endif %}
 {% endfor %}
-<script type="text/javascript">
-  var pagetitle = "{{ page.title }}";
-</script>
 {% include footer.html %}

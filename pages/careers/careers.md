@@ -71,6 +71,7 @@ page_sections:
   heading: "#FACESOFWUNDER"
 - block: icon-text-links
 - block: benefits-1
+  subdirectory: static
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"

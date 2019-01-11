@@ -99,40 +99,13 @@ var menu = {
   }
 };
 
-slider.init(".simple-slider", {
-  dots: true,
-  lazyLoad: 'ondemand',
-  prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/img/slider-arrow.svg" alt="Prev"/></span>',
-  nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/img/slider-arrow.svg" alt="Next"/></span>',
-    adaptiveHeight: false,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          adaptiveHeight: true
-        }
-      }
-    ]
-});
-
-slider.init("body:not(.careers) .picture-slider", {
-  dots: true,
-  lazyLoad: 'ondemand',
-  prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/img/slider-arrow.svg" alt="Prev"/></span>',
-  nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/img/slider-arrow.svg" alt="Next"/></span>'
-});
-
-slider.init(".careers .picture-slider", {
+slider.init(".picture-slider", {
   dots: false,
   lazyLoad: 'ondemand',
   prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/img/careers/arrow-left.svg" alt="Prev"/></span>',
+    '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
   nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/img/careers/arrow-right.svg" alt="Next"/></span>'
+    '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
 });
 
 menu.init();
@@ -382,7 +355,7 @@ var diversityMap = {
   }
 
 }
-if($("body").data("menu") == 0) diversityMap.init();
+if(pagetitle == "Culture") diversityMap.init();
 
 
 var benefits = {

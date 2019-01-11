@@ -17,14 +17,8 @@ page_sections:
     url: "/jobs"
     button_text: Browse Jobs
 - template: image-content-block
+  block: two-column-1
   item:
-  - icon: "/uploads/2019/01/11/team-spirit-05.svg"
-    image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
-    content: Wunder Mobility Summit is a first-of-its-kind conference that brings
-      together stalwarts of the mobility industry from across the world. With over
-      300 international experts, the Wunder Mobility Summit is the largest, most exclusive
-      conference of its kind in Germany.
-    title: Wunder Mobility Summit
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
     title: Team Events & Happy Hour
@@ -43,14 +37,19 @@ page_sections:
     content: We are dedicated to connecting the German tech community. We host regular
       meet-ups in our stunning office space in HafenCity and bring together professionals
       with similar interests and passions.
+  - icon: "/uploads/2019/01/11/team-spirit-05.svg"
+    image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
+    content: Wunder Mobility Summit is a first-of-its-kind conference that brings
+      together stalwarts of the mobility industry from across the world. With over
+      300 international experts, the Wunder Mobility Summit is the largest, most exclusive
+      conference of its kind in Germany.
+    title: Wunder Mobility Summit
   heading: We believe in communities because we are one
-- template: 1-col-video
-  block: video-1
-  iframe: <iframe src="https://player.vimeo.com/video/308066143?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: "#FACESOFWUNDER"
 - block: icon-text-links
-- block: benefits-1
+- block: diversity-1
+  subdirectory: static
+- block: slider-team
+  subdirectory: static
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"

@@ -26,6 +26,12 @@
     z-index: 1;
   }
 
+  .after-message {
+    @include rwd(tablet-up) {
+      padding: 0 7.5rem;
+    }
+  }
+
 
 
   svg {
