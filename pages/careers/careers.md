@@ -72,6 +72,10 @@ page_sections:
 - block: benefits-1
 - template: cta-banner
   block: footer-cta-1
+  background_image: "/uploads/2019/01/11/homepage@2x.jpg"
+  heading: Find Your Career
+  cta_text: Browse Jobs
+  cta_link: "/careers/jobs"
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
