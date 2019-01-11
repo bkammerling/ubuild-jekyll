@@ -49,6 +49,16 @@ page_sections:
   block: slider-team
   heading: We are Wunder
   item:
+  - big_image: "/uploads/2019/01/11/Bruno_big@2x.jpg"
+    big_alt: Bruno, a Wunder employee, wearing a chequered shirt and smiling
+    small_image: "/uploads/2019/01/11/Bruno@2x.jpg"
+    small_alt: Bruno, a Wunder employee, wearing a chequered shirt and smiling
+    quote: Since many of us moved from our home countries to Germany, we have formed
+      a tight community. Working at Wunder gave me the opportunity to make not just
+      colleagues, but also friends, with people who are in the same situation as me.
+    author: Bruno (Brazil)
+    department: Engineering (Backend)
+    location: Wunder HQ Hamburg
   - big_image: "/uploads/2019/01/11/Alycia_big@2x.jpg"
     big_alt: Alycia, a female Wunder employee smiles towards the camera
     small_image: "/uploads/2019/01/11/Alycia@2x.jpg"
