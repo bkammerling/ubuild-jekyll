@@ -17,3 +17,8 @@ fields:
     template: image-content
     label: block
     name: block
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: two-column-1
