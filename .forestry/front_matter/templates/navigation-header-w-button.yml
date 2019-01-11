@@ -18,3 +18,14 @@ fields:
   - type: text
     name: button_text
     label: Button Text
+- type: select
+  config:
+    source:
+      type: simple
+      file: _data/global.yml
+    options:
+    - careers
+    - main
+  label: Menu
+  name: menu
+  description: Default is main menu
