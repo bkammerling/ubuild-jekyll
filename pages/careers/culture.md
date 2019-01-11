@@ -49,6 +49,16 @@ page_sections:
   block: slider-team
   heading: We are Wunder
   item:
+  - big_image: "/uploads/2019/01/11/Alycia_big@2x.jpg"
+    big_alt: Alycia, a female Wunder employee smiles towards the camera
+    small_image: "/uploads/2019/01/11/Alycia@2x.jpg"
+    small_alt: Alycia, a female Wunder employee smiles towards the camera
+    quote: I love Hamburg, I’ve been here for many many years now. It’s the gateway
+      to the world and the awesome thing is that our office is right in the middle
+      of the harbour, with great views of the HafenCity.
+    author: Alycia (USA)
+    department: Talent
+    location: Wunder HQ Hamburg
   - big_image: "/uploads/2019/01/11/Rachit_big@2x.jpg"
     big_alt: Rachit, an Indian Wunder employee, smiles at the camera
     small_image: "/uploads/2019/01/11/Rachit@2x.jpg"
