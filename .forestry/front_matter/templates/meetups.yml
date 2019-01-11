@@ -1,15 +1,15 @@
 ---
 label: Meetups
-hide_body: 
-is_partial: 
+hide_body: true
+is_partial: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: url
-  label: Url
-  type: text
-  hidden: false
-  default: ''
+- type: field_group_list
+  name: events
+  label: Events
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: url
+    label: URL
