@@ -17,6 +17,7 @@ page_sections:
     url: "/jobs"
     button_text: Browse Jobs
 - template: image-content-block
+  block: two-column-1
   item:
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
