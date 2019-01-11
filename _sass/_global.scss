@@ -4,6 +4,21 @@ header {
     width: 240px;
   }
 
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar > .container, .navbar > .container-fluid {
+    display: inline;
+    @include rwd(desktop-up) {
+      display: flex;
+    }
+  }
+
+  .navbar-toggler {
+    float: right;
+  }
+
 }
 
 
@@ -132,13 +147,34 @@ a.round-cta {
 } /* end of round-cta */
 
 
+
+.cta-banner {
+    padding: rem(150px) 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/careers/teams.jpg);
+    background-position: center;
+    transform: translateY(50px);
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url(../img/careers/teams@2x.jpg);
+    }
+    h2 {
+      margin-bottom: rem(38px);
+    }
+  }
+
+  .block-footer-cta-1 ~ footer {
+    padding-top: rem(125px);
+  }
+
+
 .footer {
-  background: $olive-matt;
+  background: $white;
   padding: rem(80px) rem(30px) rem(40px);
   clear: both;
 
   a {
-    color: $white;
+    color: $olive-matt;
     font-weight: $font-bold;
 
     &:hover {
@@ -148,7 +184,7 @@ a.round-cta {
 
   h4 {
     margin-bottom: rem(10px);
-    color: #647378;
+    color: $grey-heading;
   }
 
   ul {
@@ -161,7 +197,7 @@ a.round-cta {
     list-style: none;
 
     p {
-      color: $white;
+      color: $olive-matt;
       font-size: rem(16px);
       line-height: 1.5;
     }
@@ -196,7 +232,7 @@ a.round-cta {
 }
 
 .footer__bottom {
-  color: $olive-light;
+  color: $grey-heading;
   margin-right: -15px;
   margin-left: -15px;
   font-size: rem(14px);
@@ -210,7 +246,7 @@ a.round-cta {
   }
 
   a {
-    color: $olive-light;
+    color: $grey-heading;
     font-weight: $font-regular;
   }
 
@@ -246,13 +282,12 @@ ul.footer__socialmedia {
   }
 
   ion-icon {
-    color: $white;
+    color: $olive-matt;
     font-size: 24px;
   }
 
   @include rwd(tablet-up) {
     ion-icon {
-      color: $white;
       font-size: 20px;
     }
   }
