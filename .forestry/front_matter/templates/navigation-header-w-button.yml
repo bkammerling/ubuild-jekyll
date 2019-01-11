@@ -8,16 +8,6 @@ fields:
   label: block
   name: block
   default: header-2
-- type: field_group
-  name: cta
-  label: Call-to-action
-  fields:
-  - type: text
-    name: url
-    label: URL
-  - type: text
-    name: button_text
-    label: Button Text
 - type: select
   config:
     source:
@@ -29,3 +19,13 @@ fields:
   label: Menu
   name: menu
   description: Default is main menu
+- type: field_group
+  name: cta
+  label: Call-to-action
+  fields:
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: button_text
+    label: Button Text

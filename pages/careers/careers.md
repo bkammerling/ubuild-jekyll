@@ -5,6 +5,7 @@ permalink: "/careers/"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
+  menu: careers
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
