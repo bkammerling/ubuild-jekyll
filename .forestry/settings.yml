@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/meetups.yml
   label: Meetups
-  match: "**/*"
   read_only: true
 - type: document
   path: _data/global.yml
