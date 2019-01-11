@@ -1,4 +1,5 @@
 ---
+
 main:
 - identifier: home
   url: "/"
@@ -29,7 +30,8 @@ main:
   title: Careers
   weight: 3
 
-careers:
+
+career:
 - identifier: culture
   url: "/careers/culture"
   weight: 1
@@ -42,6 +44,7 @@ careers:
   url: "/careers/jobs"
   title: Jobs
   weight: 3
+
 
 footer:
 - identifier: solutions

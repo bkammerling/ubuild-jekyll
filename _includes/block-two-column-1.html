@@ -1,14 +1,25 @@
 <section class="block block-two-column-1">
   <div class="container">
-    <div class="columns">
-      <div class="column">
-        <h3>{{ section.col_1.headline }}</h3>
-        <p>{{ section.col_1.content }}</p>
+    <div class="team-spirit image-captions">
+      <h2 class="page-heading">{{ section.heading }}</h2>
+      <div class="image-captions__grid">
+        {% for block in section.item %}
+        <!-- #Start Image-Caption Item -->
+        <div class="image-captions__item">
+          <div class="image-captions__image">
+            <img src="{{ block.image }}" class="lazyload" />
+          </div>
+          <div class="image-captions__content">
+            <div class="image-captions__title">
+              <img src="{{ block.icon }}" />
+              <h3>{{ block.title }}</h3>
+            </div>
+            <p>{{ block.content }}</p>
+          </div>
+        </div>
+        <!-- #End Image-Caption Item -->
+        {% endfor %}
       </div>
-      <div class="column">
-        <h3>{{ section.col_2.headline }}</h3>
-        <p>{{ section.col_2.content }}</p>
-      </div>           
     </div>
   </div>
 </section>

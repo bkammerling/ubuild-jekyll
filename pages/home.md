@@ -6,6 +6,7 @@ permalink: /
 page_sections:
 - template: navigation-header-w-button
   block: header-2
+  menu: main
 - template: hero-banner-w-image
   block: hero-2
 - template: simple-footer
