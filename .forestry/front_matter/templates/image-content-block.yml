@@ -3,6 +3,9 @@ label: Image Content Block
 hide_body: false
 is_partial: true
 fields:
+- type: text
+  name: heading
+  label: Heading
 - type: field_group_list
   label: Item
   name: item
