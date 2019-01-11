@@ -45,7 +45,8 @@ page_sections:
       conference of its kind in Germany.
     title: Wunder Mobility Summit
   heading: We believe in communities because we are one
-- block: icon-text-links
+- block: diversity-1
+  subdirectory: static
 - template: picture-slider
   block: slider-team
   heading: We are Wunder
@@ -97,6 +98,8 @@ page_sections:
     department: Design
     location: Wunder HQ Hamburg
     big_alt: Devran, a male Wunder employee with dark hair smiling
+- block: values
+  subdirectory: static
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"

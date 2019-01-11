@@ -24,7 +24,7 @@
     <div class="picture-slider__menu">
       {% for block in section.item %}
       <!-- Slider Menu Item -->
-      <div class="picture-slider__menu-image current">
+      <div class="picture-slider__menu-image {% if forloop.first %}current{% endif %}">
         <img src="{{ block.small_image }}" alt="{{ block.small_alt }}" />
       </div>
       <!-- #end Slider Menu Item -->

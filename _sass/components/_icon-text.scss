@@ -130,3 +130,51 @@
   }
 
 }
+
+
+  .wunder-values {
+    margin: rem(100px) 0 rem(80px);
+  }
+  .wunder-values__grid {
+    margin-top: rem(36px);
+    display: flex;
+    flex-flow: wrap;
+    .wunder-values__item {
+      background-color: $white;
+      flex: 1 1 40%;
+      text-align: center;
+      padding: rem(25px) rem(15px) rem(22px);
+      margin-right: rem(2px);
+      margin-bottom: rem(2px);
+      img {
+        margin-bottom: rem(16px);
+      }
+      h4 {
+        margin-bottom: rem(6px);
+      }
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+      @include rwd(mobile-up) {
+        flex: 1 1 32%;
+        padding: rem(25px) rem(40px) rem(22px);
+        &:nth-child(even) {
+          margin-right: rem(2px);
+        }
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+
+      }
+      @include rwd(tablet-up) {
+        flex: 1 1 32%;
+        &:nth-child(3n) {
+          margin-right: rem(2px);
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }

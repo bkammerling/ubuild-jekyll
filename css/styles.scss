@@ -3,6 +3,7 @@
 
 // Imports
 @import "bootstrap/bootstrap";
+@import "components/slick";
 @import "helpers/_variables";
 @import "helpers/_mixins";
 
@@ -14,5 +15,6 @@
 @import "components/_video";
 @import "components/_icon-text";
 @import "components/_svg";
+@import "components/_picture-slider";
 
 @import "_global";

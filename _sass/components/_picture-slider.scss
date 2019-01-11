@@ -97,9 +97,7 @@
 }
 
 .picture-slider__quote {
-  font-size: rem(24px);
   color: $white;
-  font-weight: $font-bold;
 }
 
 .picture-slider {
@@ -236,6 +234,9 @@
     @include rwd(tablet-up) {
       justify-content: center;
     }
+    img {
+      max-width: 80px;
+    }
     margin-top: rem(40px);
     .picture-slider__menu-image {
       margin-right: rem(30px);
@@ -253,3 +254,20 @@
       }
     }
   }
+
+  .slider__arrow {
+  width: rem(56px);
+  height: rem(56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  top: rem(110px);
+  z-index: 2;
+  cursor: pointer;
+  transition: all .5s;
+
+}

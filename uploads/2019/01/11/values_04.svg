@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>assets/homepage/values_03</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wunder-Careers-04-Cultures-Mobile" transform="translate(-158.000000, -1824.000000)" fill="#04DE47">
+            <g id="Wunder-Values" transform="translate(20.000000, 668.000000)">
+                <g id="Trust" transform="translate(0.000000, 1104.000000)">
+                    <g transform="translate(70.000000, 52.000000)" id="Group-24">
+                        <g transform="translate(68.000000, 0.000000)">
+                            <g id="security-guard" transform="translate(9.000000, 7.000000)">
+                                <path d="M34,2 L34,16 C34,24.4874 23.6256,38 15,38 C12.2145464,37.8256206 9.55196283,36.7906373 7.38,35.038 C11.1514,40.0234 16.3262,44 21,44 C29.6256,44 40,30.4874 40,22 L40,2 L34,2 Z" id="Path" opacity="0.149999991"></path>
+                                <path d="M0,0 L0,22 C0,31.25 10.875,46 21,46 C31.125,46 42,31.25 42,22 L42,0 L0,0 Z M40,22 C40,30.4874 29.6256,44 21,44 C12.3744,44 2,30.4874 2,22 L2,2 L40,2 L40,22 Z" id="Shape" fill-rule="nonzero"></path>
+                                <path d="M21,40 C21.5522847,40 22,39.5522847 22,39 C22,38.4477153 21.5522847,38 21,38 C15.0986,38 8,28.7872 8,23 L8,8 L17,8 C17.5522847,8 18,7.55228475 18,7 C18,6.44771525 17.5522847,6 17,6 L7,6 C6.44771525,6 6,6.44771525 6,7 L6,23 C6,29.8672 13.9014,40 21,40 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
