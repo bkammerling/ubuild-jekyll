@@ -21,3 +21,5 @@ fields:
   type: text
   hidden: false
   default: ''
+pages:
+- _data/global.yml
