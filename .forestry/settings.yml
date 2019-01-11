@@ -7,7 +7,7 @@ sections:
 - type: document
   path: _data/meetups.yml
   label: Meetups
-  read_only: true
+  read_only: false
 - type: document
   path: _data/global.yml
   label: Site Settings
