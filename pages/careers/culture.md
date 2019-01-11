@@ -30,6 +30,12 @@ page_sections:
     content: Wunder Engineering goes beyond the curly brackets of our code. Facilitated
       by the tech team, Code Cafe strives to create a relaxed environment where developers
       can break the divide between different technologies in a comfortable setting!
+  - image: "/uploads/2019/01/11/culture_page_team_spirit_meet_ups@2x.jpg"
+    icon: "/uploads/2019/01/11/team-spirit-04.svg"
+    title: Meet-Ups
+    content: We are dedicated to connecting the German tech community. We host regular
+      meet-ups in our stunning office space in HafenCity and bring together professionals
+      with similar interests and passions.
   heading: We believe in communities because we are one
 - template: 1-col-video
   block: video-1
