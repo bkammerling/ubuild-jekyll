@@ -1,13 +1,11 @@
 ---
 label: Global Settings
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
-- name: logo
+- type: file
+  name: logo
   label: Logo
-  type: text
-  hidden: false
-  default: ''
 - name: footerlogo
   label: Footerlogo
   type: file
