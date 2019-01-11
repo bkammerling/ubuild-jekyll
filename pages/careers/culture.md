@@ -49,6 +49,15 @@ page_sections:
   block: slider-team
   heading: We are Wunder
   item:
+  - big_image: "/uploads/2019/01/11/Jwani_big@2x.jpg"
+    big_alt: Jwani, a female Wunder employee, smiling
+    small_image: "/uploads/2019/01/11/Jwani@2x.jpg"
+    small_alt: Jwani, a female Wunder employee, smiling
+    quote: Wunder has a rich environment and the team members are open-minded, very
+      talented and up for any challenge.
+    author: Jwani (Tanzania)
+    department: Business Development
+    location: Wunder HQ Hamburg
   - big_image: "/uploads/2019/01/11/Devran_big@2x.jpg"
     small_image: "/uploads/2019/01/11/Devran@2x.jpg"
     small_alt: Wunder male employee with dark hair smiling
