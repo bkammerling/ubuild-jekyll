@@ -18,18 +18,18 @@ page_sections:
     button_text: Browse Jobs
 - template: image-content-block
   item:
-  - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
-    title: Code Cafe
-    icon: "/uploads/2019/01/11/team-spirit-03.svg"
-    content: Wunder Engineering goes beyond the curly brackets of our code. Facilitated
-      by the tech team, Code Cafe strives to create a relaxed environment where developers
-      can break the divide between different technologies in a comfortable setting!
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
     title: Team Events & Happy Hour
     content: We want every employee to be happy and this extends outside work hours.
       We throw team events every month and Friday beer o'clock has become a Wunder
       happy hour tradition!
+  - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
+    title: Code Cafe
+    icon: "/uploads/2019/01/11/team-spirit-03.svg"
+    content: Wunder Engineering goes beyond the curly brackets of our code. Facilitated
+      by the tech team, Code Cafe strives to create a relaxed environment where developers
+      can break the divide between different technologies in a comfortable setting!
   heading: We believe in communities because we are one
 - template: 1-col-video
   block: video-1
