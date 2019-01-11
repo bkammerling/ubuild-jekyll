@@ -1,0 +1,25 @@
+---
+label: CTA Banner
+hide_body: false
+is_partial: true
+display_field: heading
+fields:
+- type: file
+  name: background_image
+  label: Background Image
+  config:
+    maxSize: '3'
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: footer-cta-1
+- type: text
+  name: heading
+  label: Heading
+- type: text
+  name: cta_text
+  label: CTA Text
+- type: text
+  name: cta_link
+  label: CTA Link
