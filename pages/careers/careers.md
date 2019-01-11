@@ -70,7 +70,8 @@ page_sections:
   heading: "#FACESOFWUNDER"
 - block: icon-text-links
 - block: benefits-1
-- block: footer-cta-1
+- template: cta-banner
+  block: footer-cta-1
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
