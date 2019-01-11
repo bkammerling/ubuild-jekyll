@@ -1,0 +1,41 @@
+---
+label: picture-slider
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: slider-team
+- type: field_group_list
+  name: item
+  label: Item
+  fields:
+  - type: file
+    name: big_image
+    label: Big Image
+  - type: text
+    name: big_alt
+    label: Big Alt
+  - type: file
+    name: small_image
+    label: Small Image
+  - type: text
+    name: small_alt
+    label: Small Alt
+  - type: textarea
+    name: quote
+    label: Quote
+  - type: text
+    name: author
+    label: Author
+  - type: text
+    name: department
+    label: Department
+  - type: text
+    name: location
+    label: Location
