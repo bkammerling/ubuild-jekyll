@@ -29,6 +29,20 @@ main:
   title: Careers
   weight: 3
 
+careers:
+- identifier: culture
+  url: "/careers/culture"
+  weight: 1
+  title: Culture
+- identifier: locations
+  url: "/careers/locations"
+  weight: 2
+  title: Locations
+- identifier: jobs
+  url: "/careers/jobs"
+  title: Jobs
+  weight: 3
+
 footer:
 - identifier: solutions
   title: Solutions
