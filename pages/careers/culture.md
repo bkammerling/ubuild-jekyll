@@ -41,7 +41,10 @@ page_sections:
     image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
     content: |-
       Wunder Mobility Summit is a first-of-its-kind conference that brings together stalwarts of the mobility industry from across the world. With over 300 international experts, the Wunder Mobility Summit is the largest, most exclusive conference of its kind in Germany.
+      <br>
+      <br>
       <a href="https://wundermobilitysummit.splashthat.com/" class="with-arrow">WMS18 Homepage</a>
+      <br>
       <a href="https://www.youtube.com/watch?v=oFUBuJ1IsPE" class="with-arrow">WMS18 Aftermovie</a>
     title: Wunder Mobility Summit
   heading: We believe in communities because we are one
