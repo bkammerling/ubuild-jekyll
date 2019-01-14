@@ -2,7 +2,6 @@
 label: Image Content Block
 hide_body: false
 is_partial: true
-display_field: item
 fields:
 - type: text
   name: heading
