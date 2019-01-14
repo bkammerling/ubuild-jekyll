@@ -19,6 +19,7 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
+  - custom-content
   - picture-slider
   - image-content-block
   - 3-col-image-text-grid
