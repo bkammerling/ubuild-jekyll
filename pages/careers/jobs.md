@@ -1,6 +1,7 @@
 ---
 layout: blocks
 title: Jobs
+permalink: "/careers/jobs"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -10,6 +11,7 @@ page_sections:
   background_image: "/uploads/2019/01/14/banner-jobs@2x.jpg"
   headline: "<strong>Join the Ride</strong>"
 - template: custom-content
+  block: custom-html
   content: <p>&lt;div class="job-list container"&gt;</p><p>  &lt;div class="job-filters
     row"&gt;</p><p>    &lt;div class="job-filter col"&gt;</p><p>      &lt;p class="job-filter__type"&gt;City&lt;/p&gt;</p><p>      &lt;div
     class="select-wrapper"&gt;</p><p>        &lt;select data-type="location" class="location-select"&gt;</p><p>          &lt;option
