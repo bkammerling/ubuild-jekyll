@@ -13,5 +13,3 @@ fields:
   - type: text
     name: url
     label: URL
-pages:
-- _data/meetups.yml
