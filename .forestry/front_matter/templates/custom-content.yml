@@ -19,5 +19,6 @@ fields:
 - type: text
   name: block
   label: block
-  description: custom-html
+  description: ''
   hidden: true
+  default: custom-html
