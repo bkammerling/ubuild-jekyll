@@ -37,6 +37,7 @@ page_sections:
     content: We are dedicated to connecting the German tech community. We host regular
       meet-ups in our stunning office space in HafenCity and bring together professionals
       with similar interests and passions.
+    meetups: []
   - icon: "/uploads/2019/01/11/team-spirit-05.svg"
     image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
     content: |-
