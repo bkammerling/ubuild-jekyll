@@ -12,7 +12,7 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: html
   default: "<p></p>"
   label: Content
   name: content
