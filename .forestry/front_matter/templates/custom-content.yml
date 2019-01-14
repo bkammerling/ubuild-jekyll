@@ -11,3 +11,8 @@ fields:
   default: "<p></p>"
   label: Content
   name: content
+- type: text
+  name: block
+  label: block
+  description: custom-html
+  hidden: true
