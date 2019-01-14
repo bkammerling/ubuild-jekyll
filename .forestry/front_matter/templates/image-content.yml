@@ -20,3 +20,12 @@ fields:
 - type: textarea
   name: content
   label: Content
+- type: list
+  name: meetups
+  label: Meetups
+  config:
+    use_select: true
+    source:
+      type: documents
+      file: _data/meetups.yml
+      section: meetups
