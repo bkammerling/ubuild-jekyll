@@ -20,12 +20,7 @@ fields:
 - type: textarea
   name: content
   label: Content
-- type: list
-  name: meetups
-  label: Meetups
-  config:
-    use_select: true
-    source:
-      type: documents
-      file: _data/meetups.yml
-      section: meetups
+- type: boolean
+  name: show_meetups
+  label: Show Meetups
+  description: Will display a list of meetups from the data file
