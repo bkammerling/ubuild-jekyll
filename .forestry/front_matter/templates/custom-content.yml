@@ -10,10 +10,10 @@ fields:
   description: Label the custom block
 - type: textarea
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: html-blocks
-  default: "<p></p>"
+  default: ''
   label: Content
   name: content
 - type: text
