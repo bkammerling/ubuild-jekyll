@@ -12,8 +12,8 @@ page_sections:
   headline: "<strong>Join the Ride</strong>"
 - template: custom-content
   block: custom-html
-  content: '&lt;div class="job-list container"&gt; &lt;div class="job-filters row"&gt;
-    &lt;div class="job-filter col"&gt; &lt;p class="job-filter__type"&gt;City&lt;/p&gt;
+  content: <pre><code>&lt;div class="job-list container"&gt; &lt;div class="job-filters
+    row"&gt; &lt;div class="job-filter col"&gt; &lt;p class="job-filter__type"&gt;City&lt;/p&gt;
     &lt;div class="select-wrapper"&gt; &lt;select data-type="location" class="location-select"&gt;
     &lt;option value=""&gt;All Locations&lt;/option&gt; &lt;option name="location"
     value="hamburg"&gt;Hamburg&lt;/option&gt; &lt;option name="location" value="dortmund"&gt;Dortmund&lt;/option&gt;
@@ -36,7 +36,7 @@ page_sections:
     href="#"&gt;&lt;/a&gt; &lt;div class="job-details col-sm-2 col-12"&gt; &lt;p class="job-detail
     job-category"&gt;&lt;/p&gt; &lt;p class="job-detail job-location"&gt;&lt;/p&gt;
     &lt;/div&gt; &lt;p class="job-excerpt col-sm-6 col-12"&gt;&lt;/p&gt; &lt;/div&gt;
-    &lt;/div&gt; &lt;/div&gt;&lt;/div&gt;'
+    &lt;/div&gt; &lt;/div&gt;&lt;/div&gt;</code></pre>
   name: Job list
 - template: simple-footer
   block: footer-1
