@@ -29,3 +29,7 @@ fields:
   - type: text
     name: button_text
     label: Button Text
+- type: file
+  name: sub_logo
+  label: Sub Logo
+  description: Appears to the right of Wunder Mobility logo
