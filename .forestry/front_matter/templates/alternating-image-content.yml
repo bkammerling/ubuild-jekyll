@@ -21,3 +21,4 @@ fields:
   name: block
   label: block
   default: alternating-image-content
+  hidden: true

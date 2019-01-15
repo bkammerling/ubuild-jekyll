@@ -50,6 +50,7 @@ page_sections:
     content: One of the most polluted cities in the world, Delhi is in dire need of
       help and our local team there is working round the clock in order to make it
       happen with our carpooling solution.
+  heading: Offices around the world
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"
