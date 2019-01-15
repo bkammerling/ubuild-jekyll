@@ -26,17 +26,29 @@ page_sections:
   content: Home to our Fleet product, the only thing that matches up to our local
     team's passion to solve mobility, is probably football!
   items:
+  - image: "/uploads/2019/01/15/dortmund_2@2x-1.png"
+    title: Dortmund
+    sub_title: Germany
+    content: Home to our Fleet product, the only thing that matches up to our local
+      team's passion to solve mobility, is probably football!
+  - title: Manila
+    sub_title: Philippines
+    image: "/uploads/2019/01/15/manila_1@2x.png"
+    content: Manila is home to some of the most urgent problems being faced by mobility
+      as an industry. Our community in this city helps us create the best solutions
+      in the world
+  - title: Rio de Janeiro
+    sub_title: Brazil
+    content: Known as the city that sets trends in all of LATAM, Rio is our bet on
+      the future of mobility in the region and in less than a year, we're already
+      leading the pack!
+    image: "/uploads/2019/01/15/rio_2@2x.png"
   - image: "/uploads/2019/01/15/delhi_1@2x.png"
     title: Delhi
     sub_title: India
     content: One of the most polluted cities in the world, Delhi is in dire need of
       help and our local team there is working round the clock in order to make it
       happen with our carpooling solution.
-  - image: "/uploads/2019/01/15/dortmund_2@2x-1.png"
-    title: Dortmund
-    sub_title: Germany
-    content: Home to our Fleet product, the only thing that matches up to our local
-      team's passion to solve mobility, is probably football!
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"
