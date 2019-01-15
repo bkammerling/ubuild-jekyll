@@ -2,7 +2,7 @@
 label: Alternating Image-Content
 hide_body: true
 is_partial: true
-display_field: items
+display_field: title
 fields:
 - type: field_group_list
   name: items
