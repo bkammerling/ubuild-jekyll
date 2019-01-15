@@ -19,6 +19,7 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
+  - alternating-image-content
   - custom-content
   - picture-slider
   - image-content-block
