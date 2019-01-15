@@ -15,6 +15,7 @@ fields:
 - type: text
   name: thin_title
   label: Sub Title
+  description: 'If filled, shows: Title, Sub Title'
 - type: textarea
   name: content
   label: Content
