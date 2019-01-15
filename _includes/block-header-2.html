@@ -1,5 +1,5 @@
 <header class="block block-header-2">
-
+{% assign menu = site.menus.[section.menu] %}
   <nav class="absolute-header">
     <div class="container header">
       <div class="grouped-logo">
@@ -7,8 +7,8 @@
           <img src="{{ site.data.global.logo | relative_url }}" alt="{{ site.title }}" class="header__logotype">
         </a>
         <div class="dividing-line"></div>
-        <a href="/">
-          <img src="{{ page.sublogo | relative_url }}" alt="{% if page.parent %}{{ page.parent.title }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
+        <a href="{% if page.dir %}{{ page.dir }}{% else %}{{ page.permalink }}{% endif %}">
+          <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
         </a>
       </div>
       <button class="header__icon" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
         <span></span>
       </button>
       <ul class="header__nav list-unstyled">
-          {% for nav_item in site.menus.[section.menu] %}
+          {% for nav_item in menu %}
             <li class="underline-from-left header__nav-item menu-item-{{ loop.index }} {% if page.url == nav_item.url %}active{% endif %}">
               {% if nav_item.sub %}
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav_item.title }}</a>

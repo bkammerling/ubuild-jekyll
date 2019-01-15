@@ -96,7 +96,7 @@ $includeClasses: true !default;
 		left: 0;
 		right: 100%;
 		bottom: 0;
-		background: rgba($black, 0.2);
+		background: $white;
 		height: 1px;
 		@include prefixed(transition-property, "right");
 		@include prefixed(transition-duration, $duration);

@@ -18,7 +18,7 @@
       @include rwd(tablet-up) {
         padding: rem(40px) 0 rem(20px);
       }
-      .header__logotype {
+      .grouped-logo img {
         filter: none;
       }
       .header__nav-item a {
@@ -26,10 +26,7 @@
           color: $olive-matt;
         }
       }
-      .header__icon span {
-        background: $olive-matt;
-      }
-      .dividing-line {
+      .dividing-line, .underline-from-left:before, .header__icon span {
         background: $olive-matt;
       }
     }
@@ -51,9 +48,7 @@
 
 .header__logotype {
   flex-basis: 30%;
-  filter: brightness(600%);
   width: 210px;
-  transition: 0.4s;
 
   @include rwd(tablet-up) {
     //width: 190px;
@@ -66,6 +61,10 @@
 
 .grouped-logo {
   align-self: flex-end;
+  img {
+    transition: 0.4s;
+    filter: brightness(570%);
+  }
   .dividing-line {
     display: inline-block;
     height: 20px;

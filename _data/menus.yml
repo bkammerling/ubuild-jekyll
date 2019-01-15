@@ -36,14 +36,17 @@ career:
   url: "/careers/culture"
   weight: 1
   title: Culture
+  parent: careers
 - identifier: locations
   url: "/careers/locations"
   weight: 2
   title: Locations
+  parent: careers
 - identifier: jobs
   url: "/careers/jobs"
   title: Jobs
   weight: 3
+  parent: careers
 
 
 footer:
