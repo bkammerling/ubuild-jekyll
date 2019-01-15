@@ -10,8 +10,8 @@ fields:
   label: Item
   name: item
   config:
-    min: '2'
-    max: '8'
+    min: ''
+    max: ''
   fields:
   - type: include
     template: image-content
