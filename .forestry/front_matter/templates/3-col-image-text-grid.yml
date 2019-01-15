@@ -17,6 +17,7 @@ fields:
   config:
     min: '2'
     max: '12'
+    labelField: title
   fields:
   - type: text
     name: title
