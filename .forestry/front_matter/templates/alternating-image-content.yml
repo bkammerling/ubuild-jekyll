@@ -4,9 +4,11 @@ hide_body: true
 is_partial: true
 display_field: items
 fields:
-- type: blocks
+- type: field_group_list
   name: items
   label: Items
-  config: {}
-  template_types:
-  - image-content
+  fields:
+  - type: include
+    template: image-content
+    label: Image + Content
+    name: image_content
