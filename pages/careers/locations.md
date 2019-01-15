@@ -19,6 +19,18 @@ page_sections:
     enabled: true
 - block: featured-place
   subdirectory: static
+- template: alternating-image-content
+  image: "/uploads/2019/01/15/dortmund_2@2x.png"
+  title: Dortmund
+  thin_title: Germany
+  content: Home to our Fleet product, the only thing that matches up to our local
+    team's passion to solve mobility, is probably football!
+  items:
+  - image: "/uploads/2019/01/15/dortmund_2@2x-1.png"
+    title: Dortmund
+    sub_title: Germany
+    content: Home to our Fleet product, the only thing that matches up to our local
+      team's passion to solve mobility, is probably football!
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"
