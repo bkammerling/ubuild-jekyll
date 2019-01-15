@@ -1,0 +1,131 @@
+
+
+.hq-location{
+  > img {
+    display: block;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    @include rwd(tablet-up) {
+      height: auto;
+      object-fit: fill;
+    }
+  }
+}
+.hq-location__row {
+  display: flex;
+  flex-direction: column;
+  @include rwd(tablet-up) {
+    flex-direction: row;
+  }
+}
+.hq-location__content {
+  background: $white;
+  padding: rem(60px) rem(50px) rem(100px);
+  @include rwd(tablet-up) {
+    padding-bottom: rem(20px);
+  }
+
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+
+
+  .hq-location__title {
+    flex: 1 1 35%;
+    h3 {
+      margin-bottom: rem(12px);
+    }
+  }
+  @include rwd(tablet-up) {
+    flex: 1 1 65%;
+  }
+  @include rwd(desktop-up) {
+    flex-direction: row;
+    flex: 1 1 66%;
+  }
+
+  .hq-location__text {
+    margin-top: rem(20px);
+    flex: 4 1 60%;
+    @include rwd(desktop-up) {
+      padding-left: rem(25px);
+      flex: 2 1 66%;
+      margin-top: 0;
+    }
+  }
+
+}
+.location__content-image {
+  @include rwd(tablet-up) {
+    flex: 1 1 40%;
+  }
+  @include rwd(tablet-up) {
+    flex: 1 1 33%;
+  }
+  img {
+    height: 100%;
+  }
+}
+
+
+
+.other-locations {
+  margin: rem(80px) 0;
+  h2 {
+    margin-bottom: rem(20px);
+  }
+
+  .other-locations__row {
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    .flex-image {
+      flex: 1 1 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      img {
+        clip-path: inset(0 4% 0 0);
+      }
+    }
+
+    &.image-right {
+      flex-direction: column-reverse;
+      img {
+        clip-path: inset(0 0 0 4%);
+      }
+    }
+
+    .other-locations__content {
+      flex: 1 1 33%;
+      padding: rem(48px) rem(25px);
+      h3 {
+        margin-bottom: rem(15px);
+      }
+    }
+
+    @include rwd(mobile-up) {
+      flex-direction: row !important;
+      .flex-image, .other-locations__content {
+        flex: 1 1 50%;
+        overflow: hidden;
+      }
+    }
+    @include rwd(tablet-up) {
+      .flex-image {
+        flex: 1 1 66%;
+        img {
+          clip-path: none;
+        }
+      }
+    }
+    @include rwd(desktop-up) {
+      .flex-image {
+        overflow: visible;
+      }
+    }
+
+  }
+
+}

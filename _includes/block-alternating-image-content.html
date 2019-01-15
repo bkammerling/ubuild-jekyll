@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="other-locations">
+    <h2 class="page-heading">{{ section.title }}</h2>
+    {% for item in section.items %}
+    {% capture thecycle %}{% cycle 'image-left', 'image-right' %}{% endcapture %}
+    <div class="other-locations__row {{ thecycle }}">
+      <div class="flex-image">
+        <img src="{{ item.image }}" class="lazyload" alt="{{ item.title }}" />
+      </div>
+      <div class="other-locations__content">
+        <h3>{{ item.title }}{% if item.thin_title %}, <span class="thin">{{ item.thin_title }}</span>{% endif %}</h3>
+        <p>{{ item.content }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

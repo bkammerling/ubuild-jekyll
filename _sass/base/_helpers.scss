@@ -1,0 +1,41 @@
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.accordion-title {
+  cursor: pointer;
+}
+
+.max-showmore {
+  display: block;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.accordion-content {
+  display: none;
+}
+
+hr.light {
+    opacity: 0.4;
+}
+
+.hidden-xs {
+  @media only screen and (max-width: 575px) {
+    display: none !important;
+  }
+}
+.hidden-sm {
+  @media only screen and (max-width: 767px) {
+    display: none !important;
+  }
+}
+.visible-sm {
+  @include rwd(tablet-up) {
+    display: none !important;
+  }
+}

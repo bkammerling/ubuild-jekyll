@@ -17,6 +17,8 @@ page_sections:
     url: "/careers/jobs"
     button_text: Browse Jobs
     enabled: true
+- block: featured-place
+  subdirectory: static
 - template: cta-banner
   block: footer-cta-1
   background_image: "/uploads/2019/01/11/homepage@2x.jpg"

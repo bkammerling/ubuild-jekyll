@@ -34,6 +34,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
       max-width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1054px;
+  }
+}
+
+
 
 .text-left {
   text-align: left !important;
