@@ -26,6 +26,12 @@ page_sections:
   content: Home to our Fleet product, the only thing that matches up to our local
     team's passion to solve mobility, is probably football!
   items:
+  - image: "/uploads/2019/01/15/delhi_1@2x.png"
+    title: Delhi
+    sub_title: India
+    content: One of the most polluted cities in the world, Delhi is in dire need of
+      help and our local team there is working round the clock in order to make it
+      happen with our carpooling solution.
   - image: "/uploads/2019/01/15/dortmund_2@2x-1.png"
     title: Dortmund
     sub_title: Germany
