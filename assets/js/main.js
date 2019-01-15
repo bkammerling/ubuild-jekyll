@@ -272,7 +272,7 @@ var jobs = {
   }
 };
 
-if($("body").data("menu") == 2 && $("body").hasClass('careers')) jobs.init();
+if(pagetitle == "Jobs") jobs.init();
 
 
 var accordion = {

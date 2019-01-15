@@ -1,0 +1,109 @@
+
+.job-list {
+  padding: rem(50px) rem(15px);
+  @include rwd(tablet-up) {
+    padding: rem(50px) 0;
+  }
+}
+
+.job-filters {
+  margin-bottom: rem(20px);
+  padding: 0 1rem;
+  @include rwd(tablet-up) {
+    padding: 0;
+  }
+
+  .job-filter {
+    padding: rem(18px) rem(20px) rem(16px);
+    background-color: $white;
+
+    &:not(:last-child) {
+      margin-right: rem(20px);
+    }
+
+    .job-filter__type {
+      -webkit-font-smoothing: antialiased;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+
+    select {
+      -webkit-appearance: none;
+      display: block;
+      width: 100%;
+      border: 0;
+      background-color: transparent;
+      font-size: 18px;
+      color: $olive-matt;
+      font-family: $base-font-family;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .select-wrapper {
+      position: relative;
+      ion-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        top: -5px;
+        pointer-events: none;
+      }
+    }
+
+  }
+
+} /* end of .job-filters */
+
+.job-list__listing > p {
+  font-size: 20px;
+  margin-top: 2rem;
+  min-height: 120px;
+}
+
+.job-list__item {
+  background-color: $white;
+  padding: rem(24px) rem(30px);
+  margin: rem(20px) rem(20px);
+  margin-top: 0;
+
+  @include rwd(tablet-up) {
+    margin: 0 0 rem(20px) 0;
+  }
+  @include rwd(desktop-up) {
+    padding: rem(24px) rem(120px) rem(24px) rem(30px);
+
+  }
+
+  .job-title {
+    font-weight: 700;
+    color: $sky-blue;
+    font-size: 18px;
+    &:hover {
+      color: $dark-blue;
+    }
+    &:active, &:focus {
+      color: $olive-matt;
+    }
+  }
+  .job-detail {
+    margin: 15px 0;
+    display: inline-block;
+    margin-right: rem(15px);
+    @include rwd(mobile-up) {
+      display: block;
+      margin: 0 0 15px 0;
+    }
+  }
+  .job-detail, .job-excerpt {
+    color: #939A9C;
+    font-size: 14px;
+  }
+
+}
