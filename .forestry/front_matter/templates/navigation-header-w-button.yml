@@ -14,8 +14,8 @@ fields:
       type: simple
       file: _data/global.yml
     options:
-    - careers
     - main
+    - career
   label: Menu
   name: menu
   description: Default is main menu
