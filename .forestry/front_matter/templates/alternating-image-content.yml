@@ -2,6 +2,7 @@
 label: Alternating Image-Content
 hide_body: true
 is_partial: true
+display_field: heading
 fields:
 - type: text
   name: heading
