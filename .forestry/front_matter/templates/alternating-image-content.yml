@@ -3,6 +3,9 @@ label: Alternating Image-Content
 hide_body: true
 is_partial: true
 fields:
+- type: text
+  name: heading
+  label: Heading
 - type: field_group_list
   name: items
   label: Items
@@ -13,3 +16,7 @@ fields:
     template: image-content
     label: Image + Content
     name: image_content
+- type: text
+  name: block
+  label: block
+  default: alternating-image-content
