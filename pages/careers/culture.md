@@ -14,8 +14,9 @@ page_sections:
   intro_text: We're trailblazers, from over 30 countries, unified by our passion to
     make lives better.
   cta:
-    url: "/jobs"
+    url: "/careers/jobs"
     button_text: Browse Jobs
+    enabled: true
 - template: image-content-block
   block: two-column-1
   item:
