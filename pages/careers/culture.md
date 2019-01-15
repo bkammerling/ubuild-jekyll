@@ -7,6 +7,7 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: career
+  sub_logo: "/uploads/2019/01/15/careers-black.svg"
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
