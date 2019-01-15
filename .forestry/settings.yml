@@ -31,4 +31,10 @@ use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_command: jekyll build
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
   output_directory: _site
