@@ -13,8 +13,9 @@ page_sections:
   intro_text: We want to become the best mobility tech company in the world by empowering
     cities with new solutions impacting millions who use our products everyday. **#BecauseWeShare**
   cta:
-    url: "/jobs"
+    url: "/careers/jobs"
     button_text: Browse Jobs
+    enabled: true
 - template: 3-col-image-text-grid
   block: landing-grid
   item:

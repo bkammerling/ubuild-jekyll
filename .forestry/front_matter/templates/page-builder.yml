@@ -39,6 +39,6 @@ fields:
   - 4-column-footer
 pages:
 - pages/careers/culture.md
-- pages/careers/careers.md
 - pages/careers/jobs.md
+- pages/careers/careers.md
 - pages/home.md
