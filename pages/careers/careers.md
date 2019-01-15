@@ -12,7 +12,7 @@ page_sections:
   background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
   headline: We are leading the evolution of Mobility. Join the Ride.
   intro_text: We want to become the best mobility tech company in the world by empowering
-    cities with new solutions impacting millions who use our products everyday. **#BecauseWeShare**
+    cities with new solutions impacting millions who use our products everyday. <strong>#BecauseWeShare</strong>
   cta:
     url: "/careers/jobs"
     button_text: Browse Jobs
