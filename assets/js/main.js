@@ -387,15 +387,15 @@ if(pagetitle == "Careers") benefits.init();
 
 
 var scroller = {
-  header: $(".absolute-header"),
+  header: $("nav.absolute-header"),
   init: function() {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll >= 100) {
         //clearHeader, not clearheader - caps H
-        scroller.header.addClass("darkHeader");
+        scroller.header.addClass("navbar-narrow");
       } else {
-        scroller.header.removeClass("darkHeader");
+        scroller.header.removeClass("navbar-narrow");
       };
       //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
 

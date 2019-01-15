@@ -7,8 +7,8 @@
 @import "helpers/_variables";
 @import "helpers/_mixins";
 
-@import "base/_typography";
 @import "base/_base";
+@import "base/_typography";
 @import "base/_fonts";
 
 @import "components/_3-col-grid";
@@ -17,5 +17,6 @@
 @import "components/_svg";
 @import "components/_picture-slider";
 @import "components/_job-list";
+@import "components/_header";
 
 @import "_global";

@@ -1,25 +1,3 @@
-header {
-
-  .header__logotype {
-    width: 240px;
-  }
-
-  .navbar-collapse {
-    justify-content: flex-end;
-  }
-
-  .navbar > .container, .navbar > .container-fluid {
-    display: inline;
-    @include rwd(desktop-up) {
-      display: flex;
-    }
-  }
-
-  .navbar-toggler {
-    float: right;
-  }
-
-}
 
 
 .video-banner {
