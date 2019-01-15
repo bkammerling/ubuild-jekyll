@@ -4,18 +4,9 @@ hide_body: true
 is_partial: true
 display_field: title
 fields:
-- type: file
-  name: image
-  label: Image
-  config:
-    maxSize: '3'
-- type: text
-  name: title
-  label: Title
-- type: text
-  name: thin_title
-  label: Sub Title
-  description: 'If filled, shows: Title, Sub Title'
-- type: textarea
-  name: content
-  label: Content
+- type: blocks
+  name: items
+  label: Items
+  config: {}
+  template_types:
+  - image-content
