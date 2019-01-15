@@ -17,6 +17,10 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: sub_title
+  label: Sub Title
+  description: 'If filled, shows: Title, Sub Title'
 - type: textarea
   name: content
   label: Content
