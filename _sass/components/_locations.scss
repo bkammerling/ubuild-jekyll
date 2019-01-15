@@ -91,7 +91,13 @@
     }
 
     &.image-right {
-      flex-direction: column-reverse;
+      .flex-image {
+        order: 2
+      }
+      .other-locations__content {
+        order:1
+      }
+      //flex-direction: column-reverse;
       img {
         clip-path: inset(0 0 0 4%);
       }

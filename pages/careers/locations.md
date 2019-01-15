@@ -20,6 +20,7 @@ page_sections:
 - block: featured-place
   subdirectory: static
 - template: alternating-image-content
+  block: alternating-image-content
   image: "/uploads/2019/01/15/dortmund_2@2x.png"
   title: Dortmund
   thin_title: Germany
