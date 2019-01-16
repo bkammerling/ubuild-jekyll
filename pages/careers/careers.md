@@ -66,7 +66,6 @@ page_sections:
     content: |-
       We believe in disruption and challenge the status quo in everything we do. While having fun!
       <br>
-      <br>
       <a class="with-arrow" href="/careers/culture">Learn more</a>
     heading_colour: black
 - template: 1-col-video
