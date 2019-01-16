@@ -10,7 +10,7 @@ fields:
 - type: field_group_list
   label: Item
   name: item
-  config:  
+  config:
     labelField: title
   fields:
   - type: include
