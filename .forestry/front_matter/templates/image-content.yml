@@ -8,12 +8,12 @@ fields:
   name: image
   label: Image
   config:
-    maxSize: '3'
+    maxSize: ''
 - type: file
   name: icon
   label: Icon
   config:
-    maxSize: '1'
+    maxSize: ''
 - type: text
   name: title
   label: Title
