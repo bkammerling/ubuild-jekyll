@@ -91,11 +91,13 @@
     }
 
     &.image-right {
-      .flex-image {
-        order: 2
-      }
-      .other-locations__content {
-        order:1
+      @include rwd(mobile-up) {
+        .flex-image {
+          order: 2
+        }
+        .other-locations__content {
+          order:1
+        }
       }
       //flex-direction: column-reverse;
       img {
