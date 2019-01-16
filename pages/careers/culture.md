@@ -10,7 +10,7 @@ page_sections:
   sub_logo: "/uploads/2019/01/15/careers-black.svg"
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
+  background_image: "/uploads/2019/01/16/culture_main_banner@2x-1.jpg"
   headline: This is how we ride
   intro_text: We're trailblazers, from over 30 countries, unified by our passion to
     make lives better.
