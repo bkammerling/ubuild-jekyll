@@ -63,8 +63,11 @@ page_sections:
     alt: Young man wearing white t-shirt working at a laptop
   - title: Our Values
     heading: Our Values
-    content: We believe in disruption and challenge the status quo in everything we
-      do. While having fun!
+    content: |-
+      We believe in disruption and challenge the status quo in everything we do. While having fun!
+      <br>
+      <br>
+      <a class="with-arrow" href="/careers/culture">Learn more</a>
     heading_colour: black
 - template: 1-col-video
   block: video-1
