@@ -9,7 +9,7 @@ page_sections:
   sub_logo: "/uploads/2019/01/15/careers-black.svg"
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
+  background_image: "/uploads/2019/01/16/home_page_main_banner@2x.jpg"
   headline: We are leading the evolution of Mobility. Join the Ride.
   intro_text: We want to become the best mobility tech company in the world by empowering
     cities with new solutions impacting millions who use our products everyday. <strong>#BecauseWeShare</strong>
