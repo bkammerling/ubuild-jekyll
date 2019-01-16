@@ -9,7 +9,7 @@ page_sections:
   sub_logo: "/uploads/2019/01/15/careers-black.svg"
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/01/09/banner-careershome@2x.png"
+  background_image: "/uploads/2019/01/16/banner-locations@2x.jpg"
   headline: Globalisation Personified
   intro_text: Our Big Hairy Audacious Goal cannot be achieved if we don't think Global.
     This is why we are found across the world!
