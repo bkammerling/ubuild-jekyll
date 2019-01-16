@@ -10,9 +10,8 @@ fields:
 - type: field_group_list
   label: Item
   name: item
-  config:
-    min: ''
-    max: ''
+  config:  
+    labelField: title
   fields:
   - type: include
     template: image-content
