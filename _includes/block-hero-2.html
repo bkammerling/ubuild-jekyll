@@ -1,13 +1,26 @@
 <section class="block block-hero-2">
-  <div class="video-banner" {% if section.background_image %}
-  style="background-image: url('{{ section.background_image | relative_url }}')"
-  {% endif %}>
+  <div class="video-banner">
     <div class="container">
         <div class="video-banner__title-wrapper">
             <h1 class="video-banner__title">{{ section.headline }}</h1>
         </div>
     </div>
+
+    {% if section.background_image %}
+    <style>
+    .video-banner {
+      background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .video-banner {
+        background-image: url('{{ section.background_image | relative_url }}');
+      }
+    }
+    </style>
+    {% endif %}
+    
 </section>
+
 {% if section.intro_text %}
 <div class="intro-text">
   <a class="round-cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>

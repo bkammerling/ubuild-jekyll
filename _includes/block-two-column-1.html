@@ -3,19 +3,19 @@
     <div class="team-spirit image-captions">
       <h2 class="page-heading">{{ section.heading }}</h2>
       <div class="image-captions__grid">
-        {% for block in section.item %}
+        {% for item in section.items %}
         <!-- #Start Image-Caption Item -->
         <div class="image-captions__item">
           <div class="image-captions__image">
-            <img src="{{ block.image }}" class="lazyload" />
+            <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" />
           </div>
           <div class="image-captions__content">
             <div class="image-captions__title">
-              <img src="{{ block.icon }}" />
-              <h3>{{ block.title }}</h3>
+              <img src="{{ item.icon }}" />
+              <h3>{{ item.title }}</h3>
             </div>
-            <p>{{ block.content }}</p>
-            {% if block.show_meetups %}
+            <p>{{ item.content }}</p>
+            {% if item.show_meetups %}
             {% for event in site.data.data.events %}
               <a href="{{ event.url }}" class="with-arrow">{{ event.title }}</a><br>
             {% endfor %}

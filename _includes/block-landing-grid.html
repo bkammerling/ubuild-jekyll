@@ -1,21 +1,21 @@
-<section class="block block-landing-grid">
+8<section class="block block-landing-grid">
   <div class="container">
     <div class="landing-grid">
       <div class="landing-grid__wrapper">
-      {% for block in section.item %}
-      {% if block.image %}
+      {% for item in section.items %}
+      {% if item.image %}
         <!-- #Start Grid Item -->
-        <div class="landing-grid__image {% if block.col_count == '2' %}long{% else %}xs-50{% endif %}">
-          <img src="{{ block.image  | relative_url }}" class="lazyload" alt="{{ block.alt }}" />
+        <div class="landing-grid__image {% if item.col_count == '2' %}long{% else %}xs-50{% endif %}">
+          <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" alt="{{ item.alt }}" />
         </div>
         <!-- #End Grid Item -->
       {% else %}
         <!-- #Start Grid Item -->
         <div class="landing-grid__text {% if forloop.last %}transparent{% endif %}">
-          <div class="landing-grid__content {% if block.heading_colour == 'green' %}stat{% endif %}">
+          <div class="landing-grid__content {% if item.heading_colour == 'green' %}stat{% endif %}">
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-              <h2>{{ block.heading }}</h2>
-              <p>{{ block.content }}</p>
+              <h2>{{ item.heading }}</h2>
+              <p>{{ item.content }}</p>
             </div>
           </div>
         </div>

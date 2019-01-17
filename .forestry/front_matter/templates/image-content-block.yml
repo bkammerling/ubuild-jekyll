@@ -8,8 +8,8 @@ fields:
   name: heading
   label: Heading
 - type: field_group_list
-  label: Item
-  name: item
+  label: Items
+  name: items
   config:
     labelField: title
   fields:

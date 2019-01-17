@@ -1,10 +1,20 @@
 <section class="block block-footer-cta-1">
   <div class="container cta-footer">
-    <div class="cta-banner text-center" {% if section.background_image %}
-    style="background-image: url('{{ section.background_image | relative_url }}')"
-    {% endif %}>
+    <div class="cta-banner text-center">
       <h2 class="cta-banner__text">{{ section.heading }}</h2>
       <a class="round-cta dark" href="{{ section.cta_link }}">{{ section.cta_text }}</a>
     </div>
   </div>
+  {% if section.background_image %}
+  <style>
+  .cta-footer .cta-banner {
+    background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .cta-footer .cta-banner {
+      background-image: url('{{ section.background_image | relative_url }}');
+    }
+  }
+  </style>
+  {% endif %}
 </section>

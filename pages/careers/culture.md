@@ -20,7 +20,7 @@ page_sections:
     enabled: true
 - template: image-content-block
   block: two-column-1
-  item:
+  items:
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"
     title: Team Events & Happy Hour
@@ -57,7 +57,7 @@ page_sections:
 - template: picture-slider
   block: slider-team
   heading: We are Wunder
-  item:
+  items:
   - big_image: "/uploads/2019/01/11/Bruno_big@2x.jpg"
     big_alt: Bruno , a Wunder employee, wearing a chequered shirt and smiling
     small_image: "/uploads/2019/01/11/Bruno@2x.jpg"

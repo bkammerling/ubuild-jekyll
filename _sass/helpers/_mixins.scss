@@ -26,6 +26,11 @@
       @content;
     }
   }
+  @else if $point == tablet-down {
+    @media (max-width: $tablet - 1) {
+      @content;
+    }
+  }
   @else {
     @media (min-width: $point) {
       @content;

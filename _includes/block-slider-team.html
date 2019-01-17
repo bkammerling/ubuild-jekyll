@@ -2,18 +2,18 @@
   <div class="container">
     <h2 class="page-heading">{{ section.heading }}</h2>
     <div class="picture-slider picture-slider--blue" style="width: 100%">
-      {% for block in section.item %}
+      {% for item in section.items %}
         <!-- Slider Item -->
         <div class="picture-slider__item">
             <div class="">
                 <div class="picture-slider__background">
-                    <img src="{{ block.big_image }}" alt="{{ block.big_alt }}" class="lazyload"/>
+                    <img data-src="{{ item.big_image | remove: '@2x' }}" data-srcset="{{ item.big_image }} 2x" alt="{{ item.big_alt }}" class="lazy" />
                 </div>
                 <div class="container picture-slider__content-wrapper">
                     <div class="picture-slider__content">
-                        <p class="picture-slider__quote">{{ block.quote }}</p>
-                        <p class="picture-slider__author">{{ block.author }}</p>
-                        <p class="picture-slider__authorinfo">{{ block.department }}<br>at {{ block.location }}</p>
+                        <p class="picture-slider__quote">{{ item.quote }}</p>
+                        <p class="picture-slider__author">{{ item.author }}</p>
+                        <p class="picture-slider__authorinfo">{{ item.department }}<br>at {{ item.location }}</p>
                     </div>
                 </div>
             </div>
@@ -22,10 +22,10 @@
       {% endfor %}
     </div>
     <div class="picture-slider__menu">
-      {% for block in section.item %}
+      {% for item in section.items %}
       <!-- Slider Menu Item -->
       <div class="picture-slider__menu-image {% if forloop.first %}current{% endif %}">
-        <img src="{{ block.small_image }}" alt="{{ block.small_alt }}" />
+        <img data-src="{{ item.small_image | remove: '@2x' }}" data-srcset="{{ item.small_image }} 2x" class="lazy" alt="{{ item.small_alt }}" />
       </div>
       <!-- #end Slider Menu Item -->
       {% endfor %}

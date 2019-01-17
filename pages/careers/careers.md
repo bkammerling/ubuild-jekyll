@@ -19,7 +19,7 @@ page_sections:
     enabled: true
 - template: 3-col-image-text-grid
   block: landing-grid
-  item:
+  items:
   - heading: Our Vision
     content: To enable communities globally to deploy new mobility services fast!
     heading_colour: black

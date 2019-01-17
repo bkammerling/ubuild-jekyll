@@ -10,13 +10,11 @@
     background-color: $white;
     box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.3);
     .header {
-      padding-top: rem(40px);
+      padding-top: rem(38px);
       padding-bottom:rem(20px);
       transform: translateY(rem(-15px));
       @include rwd(tablet-up) {
         transform: translateY(rem(-20px));
-      }
-      @include rwd(tablet-up) {
         padding-top: rem(40px);
         padding-bottom: rem(20px);
       }
@@ -30,6 +28,14 @@
       }
       .dividing-line, .underline-from-left:before, .header__icon span {
         background: $olive-matt;
+      }
+    }
+    @include rwd(tablet-down) {
+      .header__nav {
+        background-color: $white;
+        li a {
+          color: $olive-matt;
+        }
       }
     }
   }
@@ -50,8 +56,6 @@
 }
 
 .header__logotype {
-  flex-basis: 30%;
-  width: 210px;
 
   @include rwd(tablet-up) {
     //width: 190px;
@@ -63,7 +67,9 @@
 }
 
 .grouped-logo {
-  align-self: flex-end;
+  display: flex;
+  align-items: self-start;
+  z-index: 10;
   img {
     transition: 0.4s;
     filter: brightness(570%);
@@ -73,9 +79,12 @@
     height: 20px;
     width: 1px;
     background: white;
-    margin: 0 rem(4px);
+    margin: 0 rem(10px);
     opacity: 0.5;
     transition: 0.4s;
+  }
+  > * {
+    display: flex;
   }
 }
 .header__logotype-sublogo {
@@ -84,14 +93,16 @@
 }
 
 .header__icon {
+  z-index: 10;
   span {
     width: rem(18px);
     height: rem(2px);
     display: block;
     margin-bottom: 3px;
-    background: $black;
+    background: $white;
     border-radius: 3px;
     cursor: pointer;
+    transition: 0.4s;
   }
 
   @include rwd(tablet-up) {
@@ -100,37 +111,51 @@
 }
 
 .header__nav {
-  display: none;
-  flex-basis: 40%;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  right: 0;
+  padding-top: 80px;
   justify-content: space-between;
-  padding: rem(5px) rem(30px);
+  padding: rem(80px) rem(30px) rem(8px);
   z-index: 3;
   box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(rem(-18px));
+  background: rgba(0,0,0,0.8);
+  transition: left 0.4s;
+
   @include rwd(tablet-up) {
+    position: static;
     transform: none;
+    margin-left: auto;
+    flex-basis: 33%;
+    padding: rem(5px) 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    background: none;
+  }
+
+  @include rwd(desktop-up) {
+    padding: rem(5px) rem(30px);
+    flex-basis: 40%;
   }
 
   &.active {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 100%;
-    background: $white;
     left: 0;
-    right: 0;
+
+    li a {
+      color: $white;
+    }
   }
 
-  @include rwd(tablet-up) {
-    padding: rem(5px) 0;
-    box-shadow: none;
-    display: flex;
-    flex-direction: row;
-  }
 
-  @include rwd(desktop-up) {
-    padding: rem(5px) rem(30px);
-  }
+}
+
+.header a.btn {
+  margin-left: 3%;
 }
 
 
@@ -146,7 +171,7 @@
   }
 
   & > a {
-    padding-bottom: 3px;
+    //padding-bottom: 3px;
     color: $black;
     font-weight: $font-bold;
     font-size: rem(20px);

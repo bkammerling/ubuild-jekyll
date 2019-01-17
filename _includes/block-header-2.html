@@ -11,11 +11,11 @@
           <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
         </a>
       </div>
-      <button class="header__icon" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="header__icon" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
-      </button>
+      </a>
       <ul class="header__nav list-unstyled">
           {% for nav_item in menu %}
             <li class="underline-from-left header__nav-item menu-item-{{ loop.index }} {% if page.url == nav_item.url %}active{% endif %}">
@@ -31,6 +31,7 @@
               {% endif %}
             </li>
           {% endfor %}
+
       </ul>
       {% if section.cta %}
       <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>

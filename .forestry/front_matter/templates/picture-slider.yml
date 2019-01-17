@@ -13,8 +13,8 @@ fields:
   hidden: true
   default: slider-team
 - type: field_group_list
-  name: item
-  label: Item
+  name: items
+  label: Items
   fields:
   - type: file
     name: big_image

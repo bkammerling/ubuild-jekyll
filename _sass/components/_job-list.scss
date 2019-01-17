@@ -33,11 +33,14 @@
       width: 100%;
       border: 0;
       background-color: transparent;
-      font-size: 18px;
+      font-size: 15px;
       color: $olive-matt;
       font-family: $base-font-family;
       font-weight: 700;
       cursor: pointer;
+      @include rwd(mobile-up) {
+        font-size: 18px;
+      }
 
       &:focus {
         outline: none;

@@ -11,8 +11,8 @@ fields:
     required: false
   default: landing-grid
 - type: field_group_list
-  label: Item
-  name: item
+  label: Items
+  name: items
   description: Each block of the 3-col grid
   config:
     min: '2'

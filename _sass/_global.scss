@@ -130,11 +130,11 @@ a.round-cta {
     padding: rem(150px) 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../img/careers/teams.jpg);
+    //background-image: url(../img/careers/teams.jpg);
     background-position: center;
     transform: translateY(50px);
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url(../img/careers/teams@2x.jpg);
+      //background-image: url(../img/careers/teams@2x.jpg);
     }
     h2 {
       margin-bottom: rem(38px);

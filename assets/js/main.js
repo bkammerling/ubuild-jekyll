@@ -12,7 +12,6 @@ var videoPlayer = {
     player.on('ready', event => {
       player.toggleControls(false);
       player.poster = "/img/careers/hrvideo-poster3.png";
-      player.loadVideo();
     });
     player.on('ended', event => {
       player.restart();
@@ -31,6 +30,34 @@ var videoPlayer = {
 videoPlayer.init();
 
 
+var animation = {
+  init: function() {
+    this.anim = bodymovin.loadAnimation({
+      container: document.getElementById("product-anim"),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: '/assets/animdata/data.json' // the path to the animation json
+    });
+    this.anim.addEventListener('onLoopComplete', animation.doLoopComplete);
+    console.log(animation.anim);
+  },
+  currentDirection: 1,
+  doLoopComplete: function(e) {
+    console.log('yo');
+    anim.setDirection(e.direction*-1);
+    anim.addEventListener('onLoopComplete', this.doLoopComplete);
+  }
+};
+
+
+if($(".animated-svg").length) animation.init();
+
+function doLoopComplete(e) {
+  console.log(e.direction);
+  animation.setDirection(e.direction*-1);
+  animation.addEventListener('loopComplete', doLoopComplete);
+}
 
 var slider = {
   init: function(target, config) {
