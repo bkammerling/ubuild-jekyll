@@ -11,6 +11,10 @@ fields:
 - type: file
   name: background_image
   label: Background Image
+- type: file
+  name: background_video
+  label: Background Video
+  description: MP4 only please
 - type: textarea
   name: headline
   label: Headline

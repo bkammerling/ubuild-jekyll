@@ -6,10 +6,12 @@
         <a href="/">
           <img src="{{ site.data.global.logo | relative_url }}" alt="{{ site.title }}" class="header__logotype">
         </a>
+        {% if section.sub_logo %}
         <div class="dividing-line"></div>
         <a href="{% if page.dir %}{{ page.dir }}{% else %}{{ page.permalink }}{% endif %}">
           <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
         </a>
+        {% endif %}
       </div>
       <a class="header__icon" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
