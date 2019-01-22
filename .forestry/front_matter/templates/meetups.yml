@@ -30,3 +30,5 @@ fields:
     name: url
     label: URL
     description: URL to the company's website
+pages:
+- _data/data.yml
