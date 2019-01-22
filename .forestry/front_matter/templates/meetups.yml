@@ -13,3 +13,20 @@ fields:
   - type: text
     name: url
     label: URL
+  description: List of events to be displayed on careers - culture page
+- type: field_group_list
+  name: partners
+  label: Partners
+  description: Logos of our clients/partners
+  fields:
+  - type: text
+    name: title
+    label: Title
+    description: Company name
+  - type: file
+    name: logo
+    label: Logo
+  - type: text
+    name: url
+    label: URL
+    description: URL to the company's website
