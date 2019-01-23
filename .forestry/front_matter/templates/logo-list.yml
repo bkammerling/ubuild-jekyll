@@ -1,0 +1,15 @@
+---
+label: Logo List
+hide_body: false
+is_partial: true
+display_field: logos
+fields:
+- type: list
+  config:
+    use_select: true
+    source:
+      type: documents
+      section: meetups
+      file: _data/data.yml
+  label: Logos
+  name: logos
