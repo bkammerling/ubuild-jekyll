@@ -5,13 +5,13 @@ is_partial: true
 display_field: heading
 fields:
 - type: text
-  name: heading
-  label: Heading
-- type: text
   name: block
   label: block
   hidden: true
   default: slider-team
+- type: text
+  name: heading
+  label: Heading
 - type: field_group_list
   name: items
   label: Items
