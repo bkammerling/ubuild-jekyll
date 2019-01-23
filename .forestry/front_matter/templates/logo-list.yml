@@ -4,6 +4,11 @@ hide_body: false
 is_partial: true
 display_field: logos
 fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: logo-list
 - type: list
   config:
     use_select: true
@@ -13,3 +18,5 @@ fields:
       file: _data/data.yml
   label: Logos
   name: logos
+  default:
+  - partners
