@@ -1,27 +1,11 @@
 <section class="block block-logo-list">
   <div class="container client-list__wrapper">
     <ul class="client-list__logotypes">
-        <li class="order-1">
-            <a href="https://www.daimler.com/en/"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/51f934dd53d80150c4f98f6de91c12f7f50ac416/d0d57/img/logo-daimler@2x.jpg 2x" alt="Daimler" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/f5e9a00a730dee3891964ae9cf3418e656f7de42/371af/img/logo-daimler.jpg" srcset="https://d33wubrfki0l68.cloudfront.net/51f934dd53d80150c4f98f6de91c12f7f50ac416/d0d57/img/logo-daimler@2x.jpg 2x"></a>
+      {% for item in site.data.data.partners %}
+        <li>
+            <a title="{{ item.title }}" href="{{ item.url }}"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
         </li>
-        <li class="order-3 order-md-2">
-            <a href="https://www.bmw.com/"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/07c2e5c05f8b3c28adb66dce3b4ed6d29f8e419a/e5659/img/logo-bmw@2x.jpg 2x" alt="BMW" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/6ea76ac73a5c7827194d6a2baa268c209aa2c84b/96a46/img/logo-bmw.jpg" srcset="https://d33wubrfki0l68.cloudfront.net/07c2e5c05f8b3c28adb66dce3b4ed6d29f8e419a/e5659/img/logo-bmw@2x.jpg 2x"></a>
-        </li>
-        <li class="order-2 order-md-3">
-            <a href="https://www.ridehive.com"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/e8c23299263b2c75b82c5860e1a483820c028552/89ac0/img/logo-hive@2x.png 2x" alt="Hive" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/e9fc6b89e6381ffd68355bf3585869659a905468/f691c/img/logo-hive.png" srcset="https://d33wubrfki0l68.cloudfront.net/e8c23299263b2c75b82c5860e1a483820c028552/89ac0/img/logo-hive@2x.png 2x"></a>
-        </li>
-        <li class="order-4 order-md-3">
-            <a href="http://www.tata.com"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/49fb748c5be3c48229cceccc3e14e88e5a0e0dc1/4e95f/img/logo-tata@2x.jpg 2x" alt="Tata" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/1631800efc201796323bef1caefed046dad7a579/f08dc/img/logo-tata.jpg" srcset="https://d33wubrfki0l68.cloudfront.net/49fb748c5be3c48229cceccc3e14e88e5a0e0dc1/4e95f/img/logo-tata@2x.jpg 2x"></a>
-        </li>
-        <li class="order-5 order-md-4">
-            <a href="https://www.wipro.com"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/4b06e6321b9c7891fe8f266691c5a63f8825b4da/04fcd/img/logo-wipro@2x.jpg 2x" alt="Wipro" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/43c19f09c05c7c2bd5cbfa9b3bed10c20672169d/ef7ca/img/logo-wipro.jpg" srcset="https://d33wubrfki0l68.cloudfront.net/4b06e6321b9c7891fe8f266691c5a63f8825b4da/04fcd/img/logo-wipro@2x.jpg 2x"></a>
-        </li>
-        <li class="order-2 order-md-5">
-            <a href="https://www.marubeni.com/en/"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/2890f8c54668f860258e864c3869db4e731afa87/403f8/img/logo-marubeni@2x.png 2x" alt="Marubeni" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/a92ac8029b08ae87748e1d80200c4bad9164f77e/4ec0c/img/logo-marubeni.png" srcset="https://d33wubrfki0l68.cloudfront.net/2890f8c54668f860258e864c3869db4e731afa87/403f8/img/logo-marubeni@2x.png 2x"></a>
-        </li>
-        <li class="order-7 hidden-sm">
-            <a href="https://www.vdv.de/"><img data-srcset="https://d33wubrfki0l68.cloudfront.net/93e0c3d0d34d1b05328b0e359f012e93da9b71a6/4967e/img/logo-vdv@2x.jpg 2x" alt="VDV" class=" lazyloaded" src="https://d33wubrfki0l68.cloudfront.net/880f80436c3c5eae38f3d18bd8c3f90b53d16c38/2e7be/img/logo-vdv.jpg" srcset="https://d33wubrfki0l68.cloudfront.net/93e0c3d0d34d1b05328b0e359f012e93da9b71a6/4967e/img/logo-vdv@2x.jpg 2x"></a>
-        </li>
+        {% endfor %}
     </ul>
   </div>
 </section>
