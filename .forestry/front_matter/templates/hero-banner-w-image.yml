@@ -11,10 +11,10 @@ fields:
 - type: file
   name: background_image
   label: Background Image
-- type: file
+- type: text
   name: background_video
   label: Background Video
-  description: MP4 only please
+  description: Filename in uploads/global/ folder
 - type: textarea
   name: headline
   label: Headline
