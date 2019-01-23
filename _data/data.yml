@@ -7,12 +7,12 @@ events:
 - title: Wunder Autotech Meetup - Munich
   url: https://autotechmeetupmunich.splashthat.com/
 partners:
-- title: Daimler
-  url: https://www.daimler.com/en/
-  logo: "/uploads/2019/01/22/daimler.svg"
 - title: emmy
   url: https://emmy-sharing.de/en/
   logo: "/uploads/2019/01/22/emmy.svg"
+- title: Daimler
+  url: https://www.daimler.com/en/
+  logo: "/uploads/2019/01/22/daimler.svg"
 - title: Hive
   url: https://www.ridehive.com/
   logo: "/uploads/2019/01/22/hive.png"

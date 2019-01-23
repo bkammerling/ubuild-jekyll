@@ -1,5 +1,11 @@
 ---
 
+wunder-main:
+- identifier: home
+  url: "/"
+  title: Home
+
+
 main:
 - identifier: home
   url: "/"
