@@ -9,8 +9,8 @@ page_sections:
   menu: main
 - template: hero-banner-w-image
   block: hero-2
-  headline: Providing Future-Oriente &lt;strong&gt;Technologies&lt;/strong&gt; for
-    &lt;strong&gt;Urban Mobility&lt;/strong&gt;
+  headline: Providing Future-Oriente <strong>Technologies</strong> for<strong> Urban
+    Mobility</strong>
   cta:
     button_text: Contact Us
     url: "#contact-section"
