@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    {% if section.background_image and !section.background_video %}
+    {% if section.background_image %}
     <style>
     .video-banner {
       background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
