@@ -19,6 +19,7 @@ page_sections:
     url: "#"
     button_text: Watch our Brand Film >
     enabled: true
+  background_video: stock-bg-video
 - template: simple-footer
   block: footer-1
 
