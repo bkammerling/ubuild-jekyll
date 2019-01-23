@@ -1,16 +1,137 @@
 ---
-
 wunder-main:
-- identifier: home
-  url: "/"
-  title: Home
-
-
-main:
-- identifier: home
-  url: "/"
+- url: "#"
+  weight: 4
+  title: Press
+- url: "#"
+  weight: 3
+  parent: item_n8LfJL2
+  title: Shuttle
+- url: "#"
+  weight: 2
+  parent: item_n8LfJL2
+  title: Carpool
+- url: "#"
   weight: 1
+  parent: item_n8LfJL2
+  title: Fleet
+- url: "#"
+  weight: 2
+  title: Solutions
+- identifier: home
+  url: "/"
   title: Home
+  weight: 1
+career:
+- identifier: jobs
+  url: "/careers/jobs"
+  title: Jobs
+  weight: 3
+  parent: careers
+- identifier: locations
+  url: "/careers/locations"
+  weight: 2
+  title: Locations
+  parent: careers
+- identifier: culture
+  url: "/careers/culture"
+  weight: 1
+  title: Culture
+  parent: careers
+footerbottom:
+- identifier: privacy
+  title: Privacy
+  weight: 1
+- identifier: imprint
+  title: Imprint
+  weight: 3
+- identifier: terms
+  title: Terms & Conditions
+  weight: 2
+footer:
+- identifier: offices
+  title: Offices
+  col: 3
+  items:
+  - identifier: dortmund
+    url: https://goo.gl/1xLGbX
+    weight: 1
+    title: Dortmund
+    parent: offices
+    newtab: 1
+  - identifier: delhi
+    url: https://goo.gl/LZpDXn
+    weight: 2
+    title: Delhi
+    parent: offices
+    newtab: 1
+  - identifier: manila
+    url: ''
+    weight: 3
+    title: Manila
+    parent: offices
+  - identifier: rio
+    url: https://goo.gl/wZcded
+    weight: 4
+    title: Rio de Janeiro
+    parent: offices
+    newtab: 1
+  weight: 1
+- identifier: company
+  title: Company
+  col: 2
+  items:
+  - identifier: careers
+    url: "/careers/"
+    weight: 1
+    title: Careers
+    parent: company
+  - identifier: press
+    url: "/press"
+    weight: 2
+    title: Press
+    parent: company
+  weight: 2
+- identifier: wunder_app
+  title: Wunder App
+  col: 2
+  items:
+  - identifier: app
+    url: "/carpool-app"
+    weight: 1
+    title: Carpool App
+    parent: wunder_app
+  - identifier: helpers
+    url: https://help.wunder.org
+    weight: 2
+    title: Help
+    parent: wunder_app
+  weight: 3
+- identifier: solutions
+  title: Solutions
+  col: 1
+  items:
+  - identifier: fleet
+    url: "/fleet"
+    weight: 1
+    title: Fleet
+    parent: solutions
+  - identifier: carpool
+    url: "/carpool"
+    weight: 2
+    title: Carpool
+    parent: solutions
+  - identifier: shuttle
+    url: "/shuttle"
+    weight: 3
+    title: Shuttle
+    parent: solutions
+  weight: 4
+main:
+- identifier: careers
+  url: "/careers/"
+  title: Careers
+  weight: 3
 - identifier: solutions
   url: "#"
   weight: 2
@@ -25,122 +146,13 @@ main:
     url: "/carpool"
     weight: 2
     title: Carpool
-    parent:  solutions
-  - identifier: shuttle
-    url: "/shuttle"
-    weight: 3
-    title: Shuttle
-    parent:  solutions
-- identifier: careers
-  url: "/careers/"
-  title: Careers
-  weight: 3
-
-
-career:
-- identifier: culture
-  url: "/careers/culture"
-  weight: 1
-  title: Culture
-  parent: careers
-- identifier: locations
-  url: "/careers/locations"
-  weight: 2
-  title: Locations
-  parent: careers
-- identifier: jobs
-  url: "/careers/jobs"
-  title: Jobs
-  weight: 3
-  parent: careers
-
-
-footer:
-- identifier: solutions
-  title: Solutions
-  col: 1
-  items:
-  - identifier: fleet
-    url: "/fleet"
-    weight: 1
-    title: Fleet
     parent: solutions
-  - identifier: carpool
-    url: "/carpool"
-    weight: 2
-    title: Carpool
-    parent:  solutions
   - identifier: shuttle
     url: "/shuttle"
     weight: 3
     title: Shuttle
-    parent:  solutions
-- identifier: wunder_app
-  title: Wunder App
-  col: 2
-  items:
-  - identifier: app
-    url: "/carpool-app"
-    weight: 1
-    title: Carpool App
-    parent: wunder_app
-  - identifier: helpers
-    url: "https://help.wunder.org"
-    weight: 2
-    title: Help
-    parent:  wunder_app
-- identifier: company
-  title: Company
-  col: 2
-  items:
-  - identifier: careers
-    url: "/careers/"
-    weight: 1
-    title: Careers
-    parent: company
-  - identifier: press
-    url: "/press"
-    weight: 2
-    title: Press
-    parent:  company
-- identifier: offices
-  title: Offices
-  col: 3
-  items:
-  - identifier: dortmund
-    url: "https://goo.gl/1xLGbX"
-    weight: 1
-    title: Dortmund
-    parent: offices
-    newtab: 1
-  - identifier: delhi
-    url: "https://goo.gl/LZpDXn"
-    weight: 2
-    title: Delhi
-    parent:  offices
-    newtab: 1
-  - identifier: manila
-    url: ""
-    weight: 3
-    title: Manila
-    parent:  offices
-  - identifier: rio
-    url: "https://goo.gl/wZcded"
-    weight: 4
-    title: Rio de Janeiro
-    parent:  offices
-    newtab: 1
-
-footerbottom:
-- identifier: privacy
-  url: ""
-  title: Privacy
+    parent: solutions
+- identifier: home
+  url: "/"
   weight: 1
-- identifier: terms
-  url: ""
-  title: Terms & Conditions
-  weight: 2
-- identifier: imprint
-  url: ""
-  title: Imprint
-  weight: 3
+  title: Home
