@@ -159,6 +159,26 @@ a.round-cta {
 
 
 
+.block-logo-list {
+  background: $white;
+}
+.client-list__logotypes {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: rem(20px) 0;
+  li {
+    flex: 0 1 20%;
+    padding: rem(10px) rem(25px);
+    img {
+      max-height: 70px;
+      max-width: 100%;
+    }
+  }
+}
+
+
 .cta-banner {
     padding: rem(150px) 0;
     background-size: cover;
