@@ -9,7 +9,7 @@ page_sections:
   menu: main
 - template: hero-banner-w-image
   block: hero-2
-  headline: Providing Future-Oriente <strong>Technologies</strong> for<strong> Urban
+  headline: Providing Future-Oriented <strong>Technologies</strong> for<strong> Urban
     Mobility</strong>
   cta:
     button_text: Contact Us
