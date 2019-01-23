@@ -20,6 +20,10 @@ page_sections:
     button_text: Watch our Brand Film >
     enabled: true
   background_video: stock-bg-video
+- template: logo-list
+  block: logo-list
+  logos:
+  - partners
 - template: simple-footer
   block: footer-1
 
