@@ -21,10 +21,13 @@ page_sections:
     enabled: true
   background_video: stock-bg-video
   show_logos: true
+- template: news-section
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: Providing mobility as a service, solving traffic as a duty and something else if possible
+  content: Providing mobility as a service, solving traffic as a duty and something
+    else if possible
+  headline: Let's Talk
 - template: simple-footer
   block: footer-1
 
