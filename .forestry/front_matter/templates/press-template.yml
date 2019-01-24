@@ -1,7 +1,7 @@
 ---
 label: press-template
-hide_body: false
-is_partial: true
+hide_body: true
+is_partial: false
 fields:
 - type: text
   name: url
