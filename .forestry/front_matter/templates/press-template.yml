@@ -3,32 +3,33 @@ label: press-template
 hide_body: true
 is_partial: false
 fields:
-  - type: field_group_list
-    name: articles
-    label: Articles
-    fields:
-    - type: text
-      name: url
-      label: URL
-      config:
-        required: true
-    - type: text
-      name: title
-      label: Title
-    - type: datetime
-      name: date
-      label: Date
-      config:
-        date_format: DD-MM-YYY
-    - type: text
-      name: lang
-      label: Language
-    - type: file
-      name: logo
-      label: Logo
-    - type: boolean
-      name: featured
-      label: Featured
-      description: Shows on news on homepage
+- type: field_group_list
+  name: articles
+  label: Articles
+  fields:
+  - type: text
+    name: url
+    label: URL
+    config:
+      required: true
+  - type: text
+    name: title
+    label: Title
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      date_format: DD-MM-YYY
+  - type: text
+    name: lang
+    label: Language
+  - type: file
+    name: logo
+    label: Logo
+  - type: boolean
+    name: featured
+    label: Featured
+    description: Shows on news on homepage
 pages:
+- _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
 - _data/articles.yml
