@@ -6,6 +6,9 @@ description: >-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # your site's origin, e.g. https://forestry.io
 
+collections:
+  - articles 
+
 # Build settings
 defaults:
   - scope:
