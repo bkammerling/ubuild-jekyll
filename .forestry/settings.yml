@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _data/articles.yml
-  label: Articles
 - type: directory
   path: _articles
   label: Press
