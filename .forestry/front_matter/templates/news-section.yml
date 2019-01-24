@@ -9,7 +9,7 @@ fields:
     use_select: true
     source:
       type: pages
-      section: articles
+      section: press
       file: _data/articles.yml
   label: Article selection
   name: article_selection
