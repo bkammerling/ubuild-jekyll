@@ -22,3 +22,5 @@ fields:
 - type: file
   name: logo
   label: Logo
+pages:
+- _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
