@@ -12,3 +12,8 @@ fields:
       file: _data/articles.yml
   label: Article selection
   name: article_selection
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: news-cards
