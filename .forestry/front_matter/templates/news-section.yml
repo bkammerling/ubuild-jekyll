@@ -9,5 +9,6 @@ fields:
     use_select: true
     source:
       type: documents
+      section: press
   label: Article selection
   name: article_selection
