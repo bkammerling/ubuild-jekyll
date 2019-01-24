@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/articles.yml
   label: Articles
-  match: "**/*"
 - type: directory
   path: _articles
   label: Press
