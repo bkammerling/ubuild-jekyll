@@ -1,0 +1,24 @@
+---
+label: press-template
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: url
+  label: URL
+  config:
+    required: true
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD-MM-YYY
+- type: text
+  name: lang
+  label: Language
+- type: file
+  name: logo
+  label: Logo
