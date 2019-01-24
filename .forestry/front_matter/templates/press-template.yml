@@ -22,5 +22,9 @@ fields:
 - type: file
   name: logo
   label: Logo
+- type: boolean
+  name: featured
+  label: Featured
+  description: Shows on news on homepage
 pages:
 - _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
