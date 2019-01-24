@@ -9,7 +9,7 @@ sections:
   label: Press
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
   path: _data/data.yml
   label: Wunder Data
