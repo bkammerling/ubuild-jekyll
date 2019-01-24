@@ -19,6 +19,7 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
+  - news-section
   - logo-list
   - alternating-image-content
   - custom-content
