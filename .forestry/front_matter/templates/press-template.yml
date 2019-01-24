@@ -7,7 +7,7 @@ fields:
   name: articles
   label: Articles
   config:
-    label: title
+    labelField: title
   fields:
   - type: text
     name: url
