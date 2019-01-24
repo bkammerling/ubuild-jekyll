@@ -1,0 +1,13 @@
+---
+label: News section
+hide_body: false
+is_partial: true
+display_field: article_selection
+fields:
+- type: list
+  config:
+    use_select: true
+    source:
+      type: documents
+  label: Article selection
+  name: article_selection
