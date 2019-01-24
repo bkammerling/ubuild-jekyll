@@ -127,7 +127,7 @@
     position: static;
     transform: none;
     margin-left: auto;
-    flex-basis: 33%;
+    flex-basis: auto;
     padding: rem(5px) 0;
     box-shadow: none;
     display: flex;
@@ -137,7 +137,6 @@
 
   @include rwd(desktop-up) {
     padding: rem(5px) rem(30px);
-    flex-basis: 40%;
   }
 
   &.active {
@@ -162,8 +161,7 @@
 .header__nav-item {
   &.active {
     & > a {
-      font-weight: 700;
-
+      //font-weight: 700;
       span {
         border-top: 5px solid $sky-blue;
       }
@@ -172,20 +170,15 @@
 
   & > a {
     //padding-bottom: 3px;
-    color: $black;
-    font-weight: $font-bold;
-    font-size: rem(20px);
-    line-height: 2.5;
+    color: $white;
+    font-weight: 900;
+    font-size: rem(12px);
+    line-height: 2;
     text-decoration: none;
+    text-transform: uppercase;
     display: block;
-
     transition: color 0.4s;
-    @include rwd(tablet-up) {
-      color: $white;
-      font-size: rem(18px);
-      font-weight: 400;
-      line-height: 1;
-    }
+
     &.dropdown-toggle {
       padding: 0;
     }
@@ -340,4 +333,5 @@
   @include rwd(tablet-up) {
     @include underline-from-left();
   }
+  margin-left: rem(60px);
 }

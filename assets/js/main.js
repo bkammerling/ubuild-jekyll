@@ -150,6 +150,38 @@ lazyLoadingImages();
 
 var form = {
   init: function() {
+    $('input, textarea').focus(function(){
+      $(this).parents('.form-group').addClass('focused');
+    });
+
+    $('input, textarea').blur(function(){
+      var inputValue = $(this).val();
+      if ( inputValue == "" ) {
+        $(this).removeClass('filled');
+        $(this).parents('.form-group').removeClass('focused');
+      } else {
+        $(this).addClass('filled');
+        if($(this)[0].checkValidity()) {
+          $(this).parents('.form-group').removeClass('invalid').addClass('valid');
+        } else {
+          $(this).parents('.form-group').removeClass('valid').addClass('invalid');
+        }
+      }
+    });
+
+    /*
+    $('input').keyup(function() {
+      $(this).siblings('.bottom-border').css('width', $(this).val().length + "%");
+      if($(this).parents('.form-group').hasClass('invalid')) {
+        if($(this)[0].checkValidity()) {
+          $(this).parents('.form-group').removeClass('invalid').addClass('valid');
+        } else {
+          $(this).parents('.form-group').removeClass('valid').addClass('invalid');
+        }
+      }
+    });
+    */
+
     $("#form-submit").click(function(event)  {
       if(!$('form#main-contact')[0].reportValidity()) return false;
       const name = $("input#name").val();

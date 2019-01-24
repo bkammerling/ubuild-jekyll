@@ -20,18 +20,24 @@
       </a>
       <ul class="header__nav list-unstyled">
           {% for nav_item in menu %}
+          {% if nav_item.parent %}
+            {% continue %}
+          {% else %}
             <li class="underline-from-left header__nav-item menu-item-{{ loop.index }} {% if page.url == nav_item.url %}active{% endif %}">
               {% if nav_item.sub %}
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav_item.title }}</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                {% for sub_item in nav_item.sub %}
+                {% for sub_item in menu %}
+                {% if sub_item.parent == nav_item.identifier %}
                   <a class="dropdown-item"  href="{{ sub_item.url }}" title="Go to {{ sub_item.title }}">{{ sub_item.title }}</a>
+                {% endif %}
                 {% endfor %}
                 </div>
               {% else %}
                 <a  href="{{ nav_item.url }}">{{ nav_item.title }}</a>
               {% endif %}
             </li>
+          {% endif %}
           {% endfor %}
 
       </ul>

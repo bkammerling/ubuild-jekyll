@@ -1,7 +1,7 @@
 ---
 wunder-main:
 - url: "#"
-  weight: 4
+  weight: 2
   title: Press
 - url: "#"
   weight: 3
@@ -16,30 +16,26 @@ wunder-main:
   parent: solutions
   title: Fleet
 - url: "#"
-  weight: 2
+  weight: 1
   title: Solutions
   identifier: solutions
-- identifier: home
-  url: "/"
-  title: Home
-  weight: 1
+  sub: true
+
 
 career:
 - identifier: jobs
   url: "/careers/jobs"
   title: Jobs
   weight: 3
-  parent: careers
 - identifier: locations
   url: "/careers/locations"
   weight: 2
   title: Locations
-  parent: careers
 - identifier: culture
   url: "/careers/culture"
   weight: 1
   title: Culture
-  parent: careers
+
 footerbottom:
 - identifier: privacy
   title: Privacy
@@ -50,6 +46,7 @@ footerbottom:
 - identifier: terms
   title: Terms & Conditions
   weight: 2
+
 footer:
 - identifier: offices
   title: Offices
@@ -129,6 +126,7 @@ footer:
     title: Shuttle
     parent: solutions
   weight: 4
+
 main:
 - identifier: careers
   url: "/careers/"

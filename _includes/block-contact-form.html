@@ -1,0 +1,50 @@
+<section class="block block-contact-form">
+  <div class="container">
+    <div class="contact-form__wrapper">
+      <div class="row intro-row">
+        <div class="col-sm-auto">
+          <h2 class="page-heading">{{ section.title }}</h2>
+        </div>
+        <div class="col">
+          <p class="lead">{{ section.content }}</p>
+        </div>
+      </div>
+      <div class="contact-form__form">
+        <form action="https://usebasin.com/f/176b0ad86ef6" method="POST">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="form-label" for="name">Full name *</label>
+                <input type="text" name="name" id="name" required>
+                <div class="bottom-border"></div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Your email *</label>
+                <input type="email" name="email" id="email" required>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="form-label" for="company">Your company *</label>
+                <input type="text" name="company" id="company" required>
+                <div class="bottom-border"></div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone (optional)</label>
+                <input type="text" name="phone" id="phone">
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea type="text" name="message" id="message"></textarea>
+            <div class="bottom-border"></div>
+          </div>
+          <a id="form-submit" class="dark round-cta">Send it!</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
