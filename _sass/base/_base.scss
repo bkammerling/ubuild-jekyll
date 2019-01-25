@@ -30,13 +30,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .container {
+  .careers .container {
       max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  .container {
-      max-width: 1054px;
+  .careers .container {
+      max-width: 1040px;
   }
 }
 

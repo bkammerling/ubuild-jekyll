@@ -47,4 +47,16 @@
       </div>
     </div>
   </div>
+  {% if section.background_image %}
+  <style>
+  .block-contact-form {
+    background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .block-contact-form {
+      background-image: url('{{ section.background_image | relative_url }}');
+    }
+  }
+  </style>
+  {% endif %}
 </section>

@@ -48,15 +48,41 @@
 
 .block-hero-2 {
   position: relative;
+
   .block-logo-list {
     position: absolute;
     bottom: 0px;
-    left: 0px;
     right: 0px;
     @extend .w-shadow;
+    background: $white;
+  }
+
+}
+
+.block-full-right {
+  @include rwd(mobile-up) {
+    //left: calc(((100% - #{$mobile}) / 2) + 90px);
+  }
+  @include rwd(tablet-up) {
+    left: calc(((100% - #{$tablet}) / 2) + 97px);
+    .container-fullright {
+      padding-right: 8.33333%;
+    }
+  }
+  @include rwd(desktop-up) {
+    left: calc(((100% - #{$desktop}) / 2) + 110px);
+  }
+  @include rwd(wide-up) {
+    left: calc(((100% - #{$desktop-wide}) / 2) + 142px);
   }
 }
 
+
+.container.container-fullright {
+
+  margin: 0;
+  float: left;
+}
 
 .video-banner__video {
   display: none;
