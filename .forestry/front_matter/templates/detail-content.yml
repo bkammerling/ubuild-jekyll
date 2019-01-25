@@ -19,3 +19,6 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: file
+  name: background_image
+  label: Background Image
