@@ -19,7 +19,7 @@ page_sections:
     button_text: Browse Jobs
     enabled: true
 - template: image-content-block
-  block: two-column-1
+  block: two-column-vertical-cards
   items:
   - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-01.svg"

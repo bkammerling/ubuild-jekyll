@@ -3,5 +3,5 @@
   title: Silicon Valley-based start-up accelerator comes to Hamburg
   date: 2019-01-18 13:00:00 +0000
   lang: en
-  logo:
+  image:
 ---

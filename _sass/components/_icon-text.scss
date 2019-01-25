@@ -102,31 +102,6 @@
     .image-captions__image img {
       max-width: 100%;
     }
-
-    .image-captions__content {
-      padding: rem(25px) rem(25px) rem(30px);
-
-      .image-captions__title {
-        display: flex;
-        margin-bottom: rem(9px);
-        align-items: center;
-        img {
-          margin-right: rem(15px);
-        }
-      }
-
-      p {
-        margin-bottom: rem(20px);
-      }
-
-      a {
-        display: inline-block;
-        margin-bottom: rem(7px);
-      }
-
-
-    }
-
     @include rwd(mobile-up) {
       flex: 1 1 47%;
       &:nth-child(2n) {
@@ -139,6 +114,31 @@
   }
 
 }
+
+.image-captions__content {
+  padding: rem(25px) rem(25px) rem(30px);
+
+  .image-captions__title {
+    display: flex;
+    margin-bottom: rem(9px);
+    align-items: center;
+    img {
+      margin-right: rem(15px);
+    }
+  }
+
+  p {
+    margin-bottom: rem(20px);
+  }
+
+  a {
+    display: inline-block;
+    margin-bottom: rem(7px);
+  }
+
+
+}
+
 
 
   .wunder-values {

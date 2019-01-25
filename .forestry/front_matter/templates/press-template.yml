@@ -20,8 +20,8 @@ fields:
   name: lang
   label: Language
 - type: file
-  name: logo
-  label: Logo
+  name: image
+  label: Image
 - type: boolean
   name: featured
   label: Featured

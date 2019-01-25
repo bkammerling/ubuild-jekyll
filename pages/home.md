@@ -22,7 +22,9 @@ page_sections:
   background_video: stock-bg-video
   show_logos: true
 - template: news-section
-  article_selection:
+  block: two-column-horizontal-cards
+  headline: Featured News
+  items:
   - _articles/silicon-valley-based-start-up.md
   - _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
 - template: detail-content

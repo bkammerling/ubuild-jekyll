@@ -21,4 +21,4 @@ fields:
   name: block
   label: block
   hidden: true
-  default: two-column-1
+  default: two-column-vertical-cards
