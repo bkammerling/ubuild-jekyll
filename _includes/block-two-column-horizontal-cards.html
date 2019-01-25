@@ -5,7 +5,8 @@
         <div class="two-col-cards">
           <h2 class="page-heading">{{ section.headline }}</h2>
           <div class="image-captions__grid">
-            {% for item in site.articles | where:"path", section.items %}
+            {% assign aaarticles = site.articles | where:"featured", "true"  %}
+            {% for item in articles | where:"featured", true %}
             <!-- #Start Image-Caption Item -->
             <div class="image-captions__item w-shadow ">
               <div class="image-captions__image">
