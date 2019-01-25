@@ -10,7 +10,7 @@
             {% else %}
               {% assign articles = site.articles | where:"featured", "true"  %}
             {% endif %}
-            {% for item in articles | where:"featured", true %}
+            {% for item in articles %}
             <!-- #Start Image-Caption Item -->
             <div class="image-captions__item w-shadow ">
               <div class="image-captions__image">
