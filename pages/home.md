@@ -24,9 +24,8 @@ page_sections:
 - template: news-section
   block: two-column-horizontal-cards
   headline: Featured News
-  items:
-  - _articles/silicon-valley-based-start-up.md
-  - _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
+  items: []
+  show_featured: true
 - template: detail-content
   block: contact-form
   title: Let's Talk
