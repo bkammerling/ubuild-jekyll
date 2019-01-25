@@ -1,6 +1,6 @@
 .contact-form__wrapper {
 
-  padding: rem(60px) 0;
+  padding: rem(60px) 0 rem(80px);
 
   .intro-row {
     margin-bottom: rem(30px);
@@ -16,6 +16,16 @@
 
 section.block-contact-form {
   background-color: $background-grey;
+}
+
+form {
+  position: relative;
+
+  #form-submit {
+    position: absolute;
+    bottom: -23px;
+    right: 30px;
+  }
 }
 
 .contact-form__form {

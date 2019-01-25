@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  //overflow: hidden;
+  overflow: hidden;
 
   @include rwd(tablet-up) {
     //padding: rem(170px) 0;
@@ -44,6 +44,10 @@
     }
   }
 
+}
+
+.block-hero-2 {
+  position: relative;
   .block-logo-list {
     position: absolute;
     bottom: 0px;
@@ -51,7 +55,6 @@
     right: 0px;
     @extend .w-shadow;
   }
-
 }
 
 
@@ -197,15 +200,13 @@ a.round-cta {
 
 
 
-.block-logo-list {
-  background: $white;
-}
 .client-list__logotypes {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   align-items: center;
   padding: rem(30px) 0;
+  background-color: $white;
   li {
     flex: 0 1 20%;
     padding: 0 rem(25px);

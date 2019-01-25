@@ -21,26 +21,36 @@
                 <a class="round-cta clear no-arrow" href="{{ section.cta_2.url }}">{{ section.cta_2.button_text }}</a>
                 {% endif %}
             </div>
-            {% if section.show_logos %}
-              {% include block-logo-list.html %}
-            {% endif %}
           </div>
         </div>
       </div>
     </div>
 
-    {% if section.background_image %}
-    <style>
+
+  </div>
+
+  {% if section.background_image %}
+  <style>
+  .video-banner {
+    background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .video-banner {
-      background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+      background-image: url('{{ section.background_image | relative_url }}');
     }
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      .video-banner {
-        background-image: url('{{ section.background_image | relative_url }}');
-      }
-    }
-    </style>
-    {% endif %}
+  }
+  </style>
+  {% endif %}
+
+  {% if section.show_logos %}
+  <div class="container">
+    <div class="row">
+      <div class="col offset-md-1">
+      {% include block-logo-list.html %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 
 
 </section>

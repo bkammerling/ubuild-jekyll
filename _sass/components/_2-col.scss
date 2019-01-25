@@ -4,15 +4,36 @@
 
 .two-col-cards {
 
+  .image-captions__grid {
+    @include rwd(mobile-up) {
+      flex-flow: column;
+      .image-captions__item {
+        width: 100%;
+      }
+    }
+    @include rwd(desktop-up) {
+      flex-flow: wrap;
+      .image-captions__item {
+        width: auto;
+      }
+    }
+
+    .image-captions__item:last-child {
+      max-width: none;
+    }
+  }
+
   .image-captions__item {
     display: flex;
     align-items: center;
+    min-height: 150px;
 
     .image-captions__image {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      flex: 1 1 40%;
+      flex: 1 0 35%;
+      align-self: stretch;
       padding: rem(40px) rem(24px);
       background-color: $background-grey;
     }
