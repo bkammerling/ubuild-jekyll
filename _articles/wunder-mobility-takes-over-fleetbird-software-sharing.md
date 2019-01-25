@@ -4,7 +4,6 @@ title: Wunder Mobility takes over Fleetbird software sharing
 date: 2018-10-15 22:00:00 +0000
 lang: en
 image: "/uploads/2019/01/25/hamburg-news@2x.png"
-featured: false
-published: false
+featured: true
 
 ---
