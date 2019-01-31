@@ -1,6 +1,20 @@
-.contact-form__wrapper {
+section.block-contact-form {
+  height: 78vh;
+  min-height: 700px;
+  position: relative;
+  background-position: bottom;
+  background-size: cover;
+}
 
-  padding: rem(60px) 0 rem(80px);
+
+.contact-form__wrapper {
+  background-color: $background-grey;
+  padding: rem(70px) rem(30px) rem(80px);
+  bottom: -70px;
+
+  @include rwd(tablet-up) {
+    padding: rem(70px) 0 rem(80px) rem(78px)
+  }
 
   .intro-row {
     margin-bottom: rem(30px);
@@ -12,10 +26,6 @@
     }
   }
 
-}
-
-section.block-contact-form {
-  background-color: $background-grey;
 }
 
 form {
@@ -57,6 +67,7 @@ form {
       width: 100%;
       outline: 0;
       background-color: #EDEDED;
+      resize: none;
     }
 
     textarea {

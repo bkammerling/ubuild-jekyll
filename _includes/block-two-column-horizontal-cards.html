@@ -1,9 +1,9 @@
-<section class="block block-two-column-horizontal">
+<section class="block block-two-column-horizontal" id="section-featured">
   <div class="container">
     <div class="row">
-      <div class="col offset-md-1">
+      <div class="col offset-md-2">
         <div class="two-col-cards">
-          <h2 class="page-heading">{{ section.headline }}</h2>
+          <h2 class="main-heading">{{ section.headline }}</h2>
           <div class="image-captions__grid">
             {% if section.show_featured %}
               {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"   %}
@@ -12,7 +12,7 @@
             {% endif %}
             {% for item in articles %}
             <!-- #Start Image-Caption Item -->
-            <div class="image-captions__item w-shadow ">
+            <div class="image-captions__item w-shadow {% if item.url %}w-arrow{% endif %}">
               <div class="image-captions__image">
                 <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" />
               </div>
@@ -22,12 +22,15 @@
                     <img src="{{ item.icon }}" />
                   {% endif %}
                   {% if item.date %}
-                    <div class="article-date">{{ item.date | date: "%Y-%m-%d" }}</div>
+                    <div class="article-date">{{ item.date | date: "%d.%m.%Y" }}</div>
                   {% endif %}
                   <h4>{{ item.title }}</h4>
                 </div>
                 {% if item.content.size > 10 %}
                 <p>{{ item.content | truncate: 100 }}</p>
+                {% endif %}
+                {% if item.link %}
+                <a href="{{ item.link }}" class="circle-arrow" target="_blank"></a>
                 {% endif %}
               </div>
             </div>

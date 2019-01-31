@@ -21,6 +21,8 @@ page_sections:
     enabled: true
   background_video: stock-bg-video
   show_logos: true
+- block: home-main
+  subdirectory: static
 - template: news-section
   block: two-column-horizontal-cards
   headline: Featured News
@@ -33,6 +35,8 @@ page_sections:
     else if possible
   headline: Let's Talk
   background_image: "/uploads/2019/01/25/background-chat@2x.jpg"
+- block: custom-html
+  content: "</main>"
 - template: simple-footer
   block: footer-1
 

@@ -1,5 +1,5 @@
 .block-two-column-horizontal {
-  padding: rem(100px) 0;
+  padding: rem(60px) 0;
 }
 
 .two-col-cards {
@@ -28,6 +28,11 @@
     align-items: center;
     min-height: 150px;
 
+    &.w-arrow {
+      position: relative;
+      margin-bottom: rem(40px);
+    }
+
     .image-captions__image {
       display: flex;
       align-items: center;
@@ -47,14 +52,12 @@
       align-items: flex-start;
       margin: 0;
     }
-
     .article-date {
         color: $grey-heading;
         font-weight: 300;
         font-size: 12px;
         line-height: 16px;
     }
-
     h4 {
       letter-spacing: 1px;
       padding: rem(10px) 0;

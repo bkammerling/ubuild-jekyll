@@ -21,6 +21,17 @@ $container-desktop-small: $desktop - (2 * $grid-gutter);
 $container-desktop-wide:  $desktop-wide - (2 * $grid-gutter);
 
 /*
+$col-mobile: container-mobile / 12 + (2 * $grid-gutter);
+$col-tablet: $container-tablet / 12 + (2 * $grid-gutter);
+$col-desktop: $container-desktop-small / 12 + (2 * $grid-gutter);
+$col-desktop-wide: $container-desktop-wide / 12 + (2 * $grid-gutter);
+*/
+$col-mobile: $container-mobile / 12;
+$col-tablet: $container-tablet / 12;
+$col-desktop: $container-desktop-small / 12;
+$col-desktop-wide: $container-desktop-wide / 12;
+
+/*
  * BASIC CONFIGURATION
  *
  * Configuration for basic elements
@@ -44,6 +55,7 @@ $white: #fff;
 $black: #000;
 $grey-light: #F8F8F8;
 $grey-heading: #B2B2B2;
+$grey2: #939A9C;
 $background-grey: #FAFAFA;
 $sky-blue: #06A0E3;
 $dark-blue: #0480B5;

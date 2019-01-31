@@ -1,0 +1,125 @@
+.home  {
+
+  main {
+    background-color: $white;
+  }
+
+  .maas-wrapper {
+    position: relative;
+    z-index: 10;
+    padding-top: rem(100px);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0) 83%,
+      rgba(255, 255, 255, 1) 89%
+    ), url('/uploads/global/3d-city.jpg') no-repeat;
+    background-size: 1200px auto;
+    background-position: calc(50vw - 446px) 150px;
+  }
+
+  #section-maas {
+    p {
+      margin-top: rem(15px);
+    }
+  }
+
+  .maas-section {
+    p {
+      margin: rem(15px) 0;
+      text-transform: uppercase;
+      letter-spacing: 0.25px;
+      line-height: 22px;
+
+    }
+  }
+
+  .solutions-area {
+    padding: rem(120px) 0 rem(50px);
+
+    #section-carpool {
+      padding-bottom: rem(300px);
+      padding-top: rem(100px);
+      .row > div > * {
+        padding-right: rem(50px);
+      }
+    }
+    #section-fleet {
+      padding-bottom: rem(400px);
+      .row > div > * {
+        padding-left: rem(50px);
+      }
+    }
+    #section-shuttle {
+      padding-bottom: rem(500px);
+    }
+  }
+
+
+}
+
+.block-important-numbers {
+  min-height: 550px;
+}
+
+.success__wrapper {
+  padding: rem(70px) rem(30px) rem(80px);
+  background: #07c6eb;
+  background: linear-gradient(135deg, #07c6eb 0%,#06a0e3 100%);
+  color: $white;
+  @include rwd(tablet-up) {
+    padding: rem(70px) 0 rem(100px) rem(78px)
+  }
+  h2 {
+    color: $white;
+  }
+}
+
+.important-numbers__stats {
+  margin: rem(70px) 0 0;
+  text-transform: uppercase;
+  text-align: left;
+
+  .important-numbers__stat-wrapper {
+    @include rwd(tablet-up) {
+      margin-bottom: rem(70px);
+    }
+  }
+
+  .important-numbers__stat {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 6px;
+    small {
+      display: block;
+      font-size: 18px;
+      font-weight: 200;
+      margin: 0 0 0.5rem;
+      letter-spacing: 2px;
+    }
+
+  }
+  p {
+    font-size: 12px;
+    color: $white;
+    opacity: 0.5;
+    letter-spacing: 0.75px;
+  }
+
+  @include rwd(desktop-up) {
+    .important-numbers__stat {
+      font-size: 80px;
+      small {
+        font-size: 20px;
+      }
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+}
+
+.cities_wrapper {
+  padding-top: 465px;
+}
