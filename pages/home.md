@@ -6,7 +6,10 @@ permalink: "/"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: main
+  cta:
+    url: section-contact
+    button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
   headline: Providing Future-Oriented <strong>Technologies</strong> for<strong> Urban
