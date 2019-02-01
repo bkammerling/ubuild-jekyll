@@ -100,7 +100,8 @@ body {
       font-weight: 900;
       letter-spacing: 2px;
       position: relative;
-      padding-right: 30px;
+      padding-right: 35px;
+      display: inline-block;
       &:after {
         content: '';
         display: block;
@@ -119,6 +120,9 @@ body {
       }
       &.dark {
         color: $olive-matt;
+        &:after {
+          background: url(../uploads/global/arrow-right-dark.svg) no-repeat center;
+        }
       }
     }
   }

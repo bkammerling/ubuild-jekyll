@@ -1,9 +1,12 @@
 <section class="block block-logo-list block-full-right">
   <div class="client-list__wrapper">
     <div class="container container-fullright">
-      <ul class="client-list__logotypes">
+      <ul class="row client-list__logotypes">
+        <li class="col">
+          <p>powering <br>solutions with</p>
+        </li>
         {% for item in site.data.data.partners %}
-          <li>
+          <li class="col">
               <a title="{{ item.title }}" href="{{ item.url }}"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
           </li>
           {% endfor %}

@@ -1,13 +1,15 @@
+.abs {
+  height: 100%;
+  position: absolute;
+  padding-bottom: 350px;
+}
+
 #scroller-nav {
   position: sticky;
   position: -webkit-sticky;
   top: calc(50% - 200px);
   height: 0;
   z-index: 100;
-
-  .container {
-    margin-top: rem(80px);
-  }
 
   .scroller-list {
     position: absolute;

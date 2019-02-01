@@ -26,9 +26,11 @@
                   {% endif %}
                   <h4>{{ item.title }}</h4>
                 </div>
-                {% if item.content.size > 10 %}
+                <!--
+                {% unless item.content.size > 10 and item.content contains "uploads"  %}
                 <p>{{ item.content | truncate: 100 }}</p>
-                {% endif %}
+                {% endunless %}
+                -->
                 {% if item.link %}
                 <a href="{{ item.link }}" class="circle-arrow" target="_blank"></a>
                 {% endif %}
@@ -42,3 +44,6 @@
     </div>
   </div>
 </section>
+{% if page.title == 'Home' %}
+</main>
+{% endif %}

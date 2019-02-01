@@ -1,4 +1,8 @@
-AOS.init();
+AOS.init({
+  // Global settings:
+  duration: 600,
+  once: true
+});
 
 var videoPlayer = {
   player: null,

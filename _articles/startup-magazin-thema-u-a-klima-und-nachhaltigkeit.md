@@ -7,4 +7,3 @@ image: "/uploads/2019/02/01/logo-ntv@2x.png"
 featured: true
 
 ---
-<img src="/uploads/2019/02/01/logo-ntv@2x.png"><img src="/uploads/2019/02/01/logo-ntv.png">
