@@ -232,7 +232,7 @@ $includeClasses: true !default;
   @include rwd(wide-up) {
     left: calc(((100% - #{$container-desktop-wide}) / 2) + #{$col-count} * #{$col-desktop-wide} + #{$gutter-adjust});
     .container-fullright {
-      padding-right: calc(#{$col-count} * #{$col-desktop-wide});
+      padding-right: calc(#{$col-desktop-wide});
     }
   }
 }

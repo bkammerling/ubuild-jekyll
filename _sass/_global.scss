@@ -75,7 +75,8 @@
 
 .block-full-right {
   position: absolute;
-  right: 0px;
+  right: -1px;
+  /* -1 to fix a weird bug where element doesn't go to edge */
   .container-fullright {
     padding-right: 30px;
   }
