@@ -27,5 +27,6 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/startup-magazin-thema-u-a-klima-und-nachhaltigkeit.md
 - _articles/wunder-mobility-takes-over-fleetbird-software-sharing.md
 - _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
