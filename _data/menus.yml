@@ -1,26 +1,37 @@
 ---
 wunder-main:
 - url: "#"
-  weight: 2
+  weight: 4
+  identifier: press
   title: Press
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Careers
+- url: "#"
+  weight: 2
+  identifier: summit
+  title: Summit
 - url: "#"
   weight: 3
   parent: solutions
+  identifier: shuttle
   title: Shuttle
 - url: "#"
   weight: 2
   parent: solutions
+  identifier: carpool
   title: Carpool
 - url: "#"
   weight: 1
   parent: solutions
+  identifier: fleet
   title: Fleet
 - url: "#"
   weight: 1
   title: Solutions
   identifier: solutions
   sub: true
-
 
 career:
 - identifier: jobs
@@ -109,6 +120,7 @@ footer:
 - identifier: solutions
   title: Solutions
   col: 1
+  weight: 4
   items:
   - identifier: fleet
     url: "/fleet"
@@ -125,34 +137,3 @@ footer:
     weight: 3
     title: Shuttle
     parent: solutions
-  weight: 4
-
-main:
-- identifier: careers
-  url: "/careers/"
-  title: Careers
-  weight: 3
-- identifier: solutions
-  url: "#"
-  weight: 2
-  title: Solutions
-  sub:
-  - identifier: fleet
-    url: "/fleet"
-    weight: 1
-    title: Fleet
-    parent: solutions
-  - identifier: carpool
-    url: "/carpool"
-    weight: 2
-    title: Carpool
-    parent: solutions
-  - identifier: shuttle
-    url: "/shuttle"
-    weight: 3
-    title: Shuttle
-    parent: solutions
-- identifier: home
-  url: "/"
-  weight: 1
-  title: Home

@@ -85,8 +85,5 @@ page_sections:
 - template: simple-footer
   block: footer-1
 date: 2019-01-09 17:13:39 +0000
-menu:
-  wunder-main:
-    weight: 3
 
 ---
