@@ -451,6 +451,7 @@ if(pagetitle == "Careers") benefits.init();
 
 var scroller = {
   header: $("nav.absolute-header"),
+  menuCta: $(".menu-item-cta"),
   init: function() {
     var raf = window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
@@ -461,6 +462,7 @@ var scroller = {
     var lastScrollTop = $window.scrollTop();
     if(raf) {
       loop();
+      scroller.scroll(lastScrollTop);
     }
     function loop() {
       var scrollTop = $window.scrollTop();
@@ -481,6 +483,11 @@ var scroller = {
     } else {
       scroller.header.removeClass("navbar-narrow");
     };
+    if (lastScrollTop >= 460) {
+      scroller.menuCta.addClass('bg-from-below');
+    } else {
+      scroller.menuCta.removeClass('bg-from-below');
+    }
     //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
   }
 }
