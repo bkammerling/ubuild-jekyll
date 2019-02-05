@@ -37,7 +37,7 @@ page_sections:
   content: Providing mobility as a service, solving traffic as a duty and something
     else if possible
   headline: Let's Talk
-  background_image: "/uploads/2019/01/25/background-chat@2x.jpg"
+  background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
 - block: custom-html
   content: "</main>"
 - template: simple-footer
