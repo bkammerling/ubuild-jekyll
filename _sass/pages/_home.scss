@@ -9,13 +9,16 @@
   .maas-wrapper {
     position: relative;
     z-index: 10;
+    overflow: hidden;
     //margin-top: rem(100px);
-    background: linear-gradient(
-      rgba(255, 255, 255, 0) 86%,
-      rgba(255, 255, 255, 1) 92%
-    ), url('/uploads/global/3d-city.jpg') no-repeat;
-    background-size: 1200px auto;
-    background-position: calc(50vw - 446px) 50px;
+    @include rwd(desktop-up) {
+      background: linear-gradient(
+        rgba(255, 255, 255, 0) 86%,
+        rgba(255, 255, 255, 1) 92%
+      ), url('/uploads/global/3d-city.jpg') no-repeat;
+      background-size: 1200px auto;
+      background-position: calc(50vw - 446px) 50px;
+    }
   }
 
   #section-maas {
@@ -34,24 +37,96 @@
   }
 
   .solutions-area {
-    padding: rem(120px) 0 rem(50px);
 
-    #section-carpool {
-      padding-bottom: rem(300px);
-      padding-top: rem(80px);
-      p {
-        padding-right: rem(50px);
+    .maas-section {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: '';
+        bottom: 0px;
+        left: 0;
+        background: url('/uploads/global/3d-city.jpg') no-repeat, linear-gradient(white 1%, transparent 10%, white 50%);
+        background-size: 800px auto;
+        height: 300px;
+        width: 100%;
+      }
+      padding: rem(40px) 0 rem(330px);
+      border-bottom: 1px solid #e6e6e6;
+
+      &#section-carpool {
+        &:after {
+          background-position: -230px -12px;
+        }
+      }
+      &#section-fleet {
+        &:after {
+          background-position: 0px -385px;
+          transform: scaleX(-1);
+        }
+      }
+      &#section-shuttle {
+        &:after {
+          background-position: -240px -850px;
+        }
+      }
+
+    }
+
+    @include rwd(tablet-up) {
+      padding: 0 0 3.75rem;
+      .maas-section {
+        padding: rem(60px) 0 rem(200px);
+        background: url('/uploads/global/3d-city.jpg') no-repeat;
+        background-size: 800px auto;
+        border-bottom: 1px solid #e6e6e6;
+        &:after {
+          display: none;
+        }
+      }
+      #section-carpool {
+        background-position: center 100px;
+        padding: 60px 0 200px;
+      }
+      #section-fleet {
+        background-position: 300px -300px;
+        padding-right: 400px;
+        margin-right: -400px;
+      }
+      #section-shuttle {
+        background-position: 50px -800px;
+        padding-right: 300px;
+        margin-right: -300px;
       }
     }
-    #section-fleet {
-      padding-bottom: rem(400px);
-      div[class^="col"] {
-        padding-left: rem(50px);
+
+    @include rwd(desktop-up) {
+      padding: 7.5rem 0 3.125rem;
+      #section-carpool, #section-fleet, #section-shuttle {
+        padding: 0;
+        background: none;
+        border-bottom: none;
+        padding-right: 0;
+        margin-right: 0;
+      }
+
+      #section-carpool {
+        padding-bottom: rem(300px);
+        padding-top: rem(80px);
+        p {
+          padding-right: rem(50px);
+        }
+      }
+      #section-fleet {
+        padding-bottom: rem(400px);
+        div[class^="col"] {
+          padding-left: rem(50px);
+        }
+      }
+      #section-shuttle {
+        padding: rem(80px) 0 rem(500px);
       }
     }
-    #section-shuttle {
-      padding-bottom: rem(500px);
-    }
+
   }
 
 }

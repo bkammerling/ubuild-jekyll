@@ -1,5 +1,6 @@
 .absolute-header {
   position: fixed;
+  overflow: hidden;
   height: 90px;
   width: 100%;
   z-index: 1000;
@@ -338,5 +339,45 @@
 .underline-from-left {
   @include rwd(tablet-up) {
     @include underline-from-left();
+  }
+}
+
+
+.header .menu-item-cta {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    background-color: transparent;
+    border-radius: 19px;
+    left: -21px;
+    top: -5px;
+    transition: background-color 0.4s;
+    z-index: -1;
+    pointer-events: none;
+    @include rwd(desktop-up) {
+      width: 115px;
+      height: 38px;
+      left: -28px;
+      top: -7px;
+    }
+  }
+
+  &.bg-from-below {
+    a {
+      body .absolute-header & {
+        color: $white;
+      }
+    }
+    &:after {
+      background-color: $sky-blue;
+    }
+    &:hover {
+      &:after {
+        background-color: $dark-blue;
+      }
+    }
   }
 }
