@@ -8,7 +8,7 @@ page_sections:
   block: header-2
   menu: wunder-main
   cta:
-    url: section-contact
+    url: "#section-contact"
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
@@ -16,7 +16,7 @@ page_sections:
     Mobility</strong>
   cta:
     button_text: Contact Us
-    url: "#contact-section"
+    url: "#section-contact"
     enabled: true
   cta_2:
     url: "#"

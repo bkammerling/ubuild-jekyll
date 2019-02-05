@@ -48,6 +48,20 @@ form {
     & + .form-group {
       margin-top: rem(10px);
     }
+    &.invalid {
+      .bottom-border {
+        background-color: #FF0043;
+      }
+    }
+    &.focused {
+      .form-label {
+        transform: translateY(-65%);
+        font-size: .65em;
+      }
+      .bottom-border {
+        width: 100%;
+      }
+    }
   }
 
   .form-label {
@@ -111,22 +125,6 @@ form {
     opacity: 0.5;
     width: 0;
     transition: width 0.4s;
-  }
-
-  &.invalid {
-    .bottom-border {
-      background-color: #FF0043;
-    }
-  }
-
-  &.focused {
-    .form-label {
-      transform: translateY(-65%);
-      font-size: .65em;
-    }
-    .bottom-border {
-      width: 100%;
-    }
   }
 
   .dropdown {

@@ -537,5 +537,6 @@ $("form .dropdown a").click(function(e) {
   $("form .dropdown button").text(selection);
   $("form .extra-form ."+selection).show();
   $("form .extra-form > div:not(."+selection+")").hide();
-  $("form .hidden").removeClass("hidden");
+  $("form .extra-form").slideDown();
+  $("section.block-contact-form").css('minHeight', $(".contact-form__wrapper").outerHeight());
 });
