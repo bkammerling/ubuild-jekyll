@@ -32,74 +32,126 @@ form {
   position: relative;
 
   #form-submit {
+    /*
     position: absolute;
     bottom: -23px;
     right: 30px;
+    */
+    float:right;
   }
 }
 
 .contact-form__form {
+
   .form-group {
     position: relative;
     & + .form-group {
       margin-top: rem(10px);
     }
-
-    .form-label {
-      position: absolute;
-      left: 1rem;
-      top: 18px;
-      pointer-events: none;
-      z-index: 10;
-      color: $olive-light;
-      text-transform: uppercase;
-      font-size: 14px;
-      font-weight: 300;
-      transition: transform 150ms ease-out, font-size 150ms ease-out;
-    }
-
-    input, textarea {
-      -webkit-appearance: none;
-      border: none;
-      height: 60px;
-      position: relative;
-      padding: rem(14px) 1rem rem(3px);
-      width: 100%;
-      outline: 0;
-      background-color: #EDEDED;
-      resize: none;
-    }
-
-    textarea {
-      display: block;
-      min-height: 150px;
-      padding-top: rem(25px);
-    }
-
-    .bottom-border {
-      max-width: 100%;
-      height: 2px;
-      background-color: $sky-blue;
-      opacity: 0.5;
-      width: 0;
-      transition: width 0.4s;
-    }
-
-    &.invalid {
-      .bottom-border {
-        background-color: #FF0043;
-      }
-    }
-
-    &.focused {
-      .form-label {
-        transform: translateY(-65%);
-        font-size: .65em;
-      }
-      .bottom-border {
-        width: 100%;
-      }
-    }
-
   }
+
+  .form-label {
+    position: absolute;
+    left: 1rem;
+    top: 18px;
+    pointer-events: none;
+    z-index: 10;
+    color: $olive-light;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+  }
+
+  input, textarea, select {
+    -webkit-appearance: none;
+    border: none;
+    height: 60px;
+    position: relative;
+    padding: rem(14px) 1rem rem(3px);
+    width: 100%;
+    outline: 0;
+    background-color: #EDEDED;
+    resize: none;
+    box-shadow: none;
+  }
+
+
+  select {
+    padding: rem(4px) 1rem;
+    color: $olive-light;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .select-wrapper {
+    position: relative;
+    &::after {
+      @extend .dropdown-toggle::after;
+    }
+  }
+
+  .select-wrapper::after, .dropdown-toggle::after {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+    border-top: 0.3em solid $olive;
+  }
+
+  textarea {
+    display: block;
+    min-height: 150px;
+    padding-top: rem(25px);
+  }
+
+  .bottom-border {
+    max-width: 100%;
+    height: 2px;
+    background-color: $sky-blue;
+    opacity: 0.5;
+    width: 0;
+    transition: width 0.4s;
+  }
+
+  &.invalid {
+    .bottom-border {
+      background-color: #FF0043;
+    }
+  }
+
+  &.focused {
+    .form-label {
+      transform: translateY(-65%);
+      font-size: .65em;
+    }
+    .bottom-border {
+      width: 100%;
+    }
+  }
+
+  .dropdown {
+    margin-bottom: 1rem;
+  }
+
+  .dropdown button, .dropdown button:focus, .dropdown button:not(:disabled):active, .dropdown button:not(:disabled):focus:active, .show > .btn-secondary.dropdown-toggle, .show > .btn-secondary.dropdown-toggle:focus, .show > .btn-secondary.dropdown-toggle:active {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    height: 60px;
+    background-color: #EDEDED;
+    outline: 0;
+    border: none;
+    color: $olive-light;
+    font-weight: 300;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 14px;
+    padding-left: 1rem;
+  }
+  .dropdown-menu {
+    a {
+      cursor: pointer;
+    }
+  }
+
 }

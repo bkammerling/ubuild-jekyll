@@ -37,10 +37,104 @@
                 </div>
               </div>
             </div>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Subject
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" data-item="fleet">Fleet product</a>
+                <a class="dropdown-item" data-item="carpool">Carpool product</a>
+                <a class="dropdown-item" data-item="shuttle">Shuttle product</a>
+                <a class="dropdown-item" data-item="general">General enquiry</a>
+                <a class="dropdown-item" data-item="support">Wunder Carpool app support</a>
+              </div>
+            </div>
+            <!--
             <div class="form-group">
-              <label class="form-label" for="message">Message</label>
-              <textarea type="text" name="message" id="message"></textarea>
-              <div class="bottom-border"></div>
+              <div class="select-wrapper">
+                <select class="form-control" id="subjectSelect">
+                  <option value="" disabled selected>Subject</option>
+                  <option value="fleet">Fleet product</option>
+                  <option value="carpool">Carpool product</option>
+                  <option value="shuttle">Shuttle product</option>
+                  <option value="general">General enquiry</option>
+                  <option value="support">Wunder Carpool app support</option>
+                </select>
+              </div>
+            </div>
+            -->
+            <div class="hidden extra-form">
+              <div class="form-group general">
+                <label class="form-label" for="message">Message</label>
+                <textarea type="text" name="message" id="message"></textarea>
+                <div class="bottom-border"></div>
+              </div>
+              <div class="form-group shuttle carpool fleet">
+                <label class="form-label" for="url">URL</label>
+                <input type="text" name="url" id="url"></input>
+                <div class="bottom-border"></div>
+              </div>
+              <div class="form-group shuttle carpool fleet">
+                <div class="select-wrapper">
+                  <select class="form-control" id="typeSelect">
+                    <option disabled selected>Type of company</option>
+                    <option>Operating start-up</option>
+                    <option>Non operating start-up</option>
+                    <option>OEM / corporate</option>
+                    <option>Energy provider / public institution</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group shuttle carpool fleet">
+                <div class="select-wrapper">
+                  <select class="form-control" id="lookingFor">
+                    <option disabled selected>What are you looking for?</option>
+                    <option>Deploy and operate shared mobility service</option>
+                    <option>Discuss partnership and investment opportunity</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group fleet">
+                <div class="select-wrapper">
+                  <select class="form-control" id="vehicleType">
+                    <option disabled selected>What kind of vehicle do you want to offer in your fleet?</option>
+                    <option>Scooters</option>
+                    <option>Kick Scooters</option>
+                    <option>Bikes - Ebikes</option>
+                    <option>Cars</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group fleet carpool shuttle">
+                <div class="select-wrapper">
+                  <select class="form-control" id="launchTimeline">
+                    <option disabled selected>When (approximately) would you like to launch?</option>
+                    <option>ASAP</option>
+                    <option>2-6 months</option>
+                    <option>Over 6 months</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group fleet shuttle">
+                <div class="select-wrapper">
+                  <select class="form-control" id="fundingStatus">
+                    <option disabled selected>What's the funding status of your project?</option>
+                    <option>Privately funded</option>
+                    <option>Venture funded</option>
+                    <option>Corporate funded</option>
+                    <option>Not yet funded</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group support">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Unfortunately, we can't offer support for Wunder carpool app here. Please go to our dedicated help area at <a target="_blank" href="https://help.wunder.org">help.wunder.org</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
             <a id="form-submit" class="dark round-cta">Send it!</a>
           </form>
