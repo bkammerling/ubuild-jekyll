@@ -2,13 +2,11 @@
 .two-col-cards {
 
   .image-captions__grid {
-    @include rwd(mobile-up) {
-      flex-flow: column;
-      .image-captions__item {
-        width: 100%;
-      }
+    flex-flow: column;
+    .image-captions__item {
+      width: 100%;
     }
-    @include rwd(desktop-up) {
+    @include rwd(tablet-up) {
       flex-flow: wrap;
       .image-captions__item {
         width: auto;
@@ -23,11 +21,11 @@
   .image-captions__item {
     display: flex;
     align-items: center;
-    min-height: 150px;
+    height: 125px;
 
     &.w-arrow {
       position: relative;
-      margin-bottom: rem(40px);
+      margin-bottom: rem(30px);
     }
 
     .image-captions__image {

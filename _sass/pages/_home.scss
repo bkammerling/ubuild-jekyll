@@ -131,14 +131,8 @@
 
 }
 
-$success-height: 520px;
-
-.block-important-numbers {
-  //height: $success-height;
-}
 
 .success__wrapper {
-  height: $success-height;
   padding: rem(70px) rem(30px) rem(80px);
   background: #07c6eb;
   background: linear-gradient(135deg, #07c6eb 0%,#06a0e3 100%);
@@ -205,7 +199,7 @@ $success-height: 520px;
 }
 
 .cities__wrapper {
-  padding: calc(#{$success-height} - 85px) 0 rem(100px);
+  transform: translateY(-90px);
 }
 
 .cities-text {

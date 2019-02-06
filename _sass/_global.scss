@@ -72,19 +72,10 @@
 }
 
 .block-full-right {
-  position: absolute;
-  right: -1px;
-  /* -1 to fix a weird bug where element doesn't go to edge */
-  .container-fullright {
-    padding-right: 30px;
-  }
-
   @include align-left(1);
-
   &.col-2-in {
     @include align-left(2);
   }
-
 }
 
 
