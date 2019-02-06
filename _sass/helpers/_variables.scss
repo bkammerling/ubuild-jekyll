@@ -15,17 +15,11 @@ $desktop-wide: 1200px;
  * Variables for Bootstrap 4 flexbox Frid
  */
 $grid-gutter: 15px;
-$container-mobile: $mobile - (2 * $grid-gutter);
-$container-tablet: $tablet - (2 * $grid-gutter);
-$container-desktop-small: $desktop - (2 * $grid-gutter);
-$container-desktop-wide:  $desktop-wide - (2 * $grid-gutter);
+$container-mobile: 540px;
+$container-tablet: 720px;
+$container-desktop-small: 960px;
+$container-desktop-wide: 1140px;
 
-/*
-$col-mobile: container-mobile / 12 + (2 * $grid-gutter);
-$col-tablet: $container-tablet / 12 + (2 * $grid-gutter);
-$col-desktop: $container-desktop-small / 12 + (2 * $grid-gutter);
-$col-desktop-wide: $container-desktop-wide / 12 + (2 * $grid-gutter);
-*/
 $col-mobile: $container-mobile / 12;
 $col-tablet: $container-tablet / 12;
 $col-desktop: $container-desktop-small / 12;

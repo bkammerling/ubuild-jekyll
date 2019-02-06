@@ -1,19 +1,19 @@
 section.block-contact-form {
-  height: 78vh;
   min-height: 700px;
   position: relative;
   background-position: bottom;
   background-size: cover;
+  padding-top: rem(350px);
 }
 
 
 .contact-form__wrapper {
   background-color: $background-grey;
-  padding: rem(70px) rem(30px) rem(80px);
-  bottom: -70px;
+  padding: rem(70px) rem(40px) rem(120px);
+  transform: translateY(70px);
 
-  @include rwd(tablet-up) {
-    padding: rem(70px) 0 rem(80px) rem(78px)
+  @include rwd(desktop-up) {
+    padding: rem(70px) 0 rem(100px) rem(78px)
   }
 
   .intro-row {
@@ -45,8 +45,9 @@ form {
 
   .form-group {
     position: relative;
+    margin-bottom: 1rem;
     & + .form-group {
-      margin-top: rem(10px);
+
     }
     &.invalid {
       .bottom-border {
@@ -91,12 +92,14 @@ form {
   }
 
 
-  select {
+  select, select:focus {
     padding: rem(4px) 1rem;
     color: $olive-light;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
+    background-color: #EDEDED;
+    box-shadow: none;
   }
   .select-wrapper {
     position: relative;

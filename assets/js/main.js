@@ -535,8 +535,20 @@ $("form .dropdown a").click(function(e) {
   var selection = $(this).data('item');
   console.log(selection);
   $("form .dropdown button").text(selection);
-  $("form .extra-form ."+selection).show();
-  $("form .extra-form > div:not(."+selection+")").hide();
-  $("form .extra-form").slideDown();
-  $("section.block-contact-form").css('minHeight', $(".contact-form__wrapper").outerHeight());
+  if($("form .extra-form").is(":visible")) {
+    /*$("form .extra-form").slideUp(function() {
+        showExtraForm();
+    });*/
+    showExtraForm();
+  } else {
+    showExtraForm();
+  }
+  function showExtraForm() {
+    $("form .extra-form ."+selection).show();
+    $("form .extra-form > div:not(."+selection+")").hide();
+    $("form .extra-form").show();
+    //$("form .extra-form").slideDown();
+  }
+
+  //$("section.block-contact-form").css('minHeight', $(".contact-form__wrapper").outerHeight());
 });

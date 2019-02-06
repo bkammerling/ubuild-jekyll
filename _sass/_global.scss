@@ -65,6 +65,7 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
+    left: 0px;
     @extend .w-shadow;
     background: $white;
   }
@@ -72,7 +73,9 @@
 }
 
 .block-full-right {
-  @include align-left(1);
+  &:not(.col-2-in) {
+    @include align-left(1);
+  }
   &.col-2-in {
     @include align-left(2);
   }

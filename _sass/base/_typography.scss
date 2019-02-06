@@ -3,126 +3,134 @@ body {
   font-size: $base-font-size;
 }
 
-  p, a, h4, h3, h2, h1, li, span, div {
-    -webkit-font-smoothing: antialiased;
-  }
+h1, h2, h3, h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
 
-  h1, h2, h3, h4 {
-    font-weight: 900;
-    text-transform: uppercase;
-  }
+a {
+    &:hover {
+      text-decoration: none;
+    }
+}
 
-  a {
-      &:hover {
-        text-decoration: none;
-      }
-  }
 
-  h1 {
-    font-size: 2rem;
-    letter-spacing: 2px;
+h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  padding: rem(20px) 0 rem(30px);
+
+  @include rwd(tablet-up) {
+    font-size: 3.125rem;
+    letter-spacing: 4.8px;
     line-height: 1.2;
-    padding: rem(20px) 0 rem(30px);
-
-    @include rwd(tablet-up) {
-      font-size: 3.125rem;
-      letter-spacing: 4.8px;
-      line-height: 1.2;
-    }
-
   }
 
-  h2 {
-    font-size: 24px;
-    letter-spacing: 2.5px;
-    font-weight: 900;
-    line-height: 30px;
-    &.page-heading {
-      color: $olive-matt;
-      @include rwd(tablet-up) {
-        font-size: 30px;
-        letter-spacing: 3px;
-        line-height: 38px;
-      }
-    }
-    &.main-heading {
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 2.5px;
+  font-weight: 900;
+  line-height: 30px;
+  &.page-heading {
+    color: $olive-matt;
+    @include rwd(tablet-up) {
       font-size: 30px;
       letter-spacing: 3px;
-      font-weight: 300;
       line-height: 38px;
     }
   }
-
-
-  h3 {
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    line-height: 28px;
-    color: $olive;
-    span.thin {
-      font-weight: 300;
-    }
-    &.blue-heading {
+  &.main-heading {
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    line-height: 38px;
+    @include rwd(tablet-up) {
       font-size: 30px;
       letter-spacing: 3px;
-      color: $sky-blue;
     }
   }
+}
 
-  h4 {
-    font-size: 14px;
-    color: $olive-matt;
-    letter-spacing: 1px;
-    line-height: 16px;
+
+h3 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 28px;
+  color: $olive;
+  span.thin {
+    font-weight: 300;
   }
-
-  p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #939A9C;
-    line-height: 18px;
-    margin-bottom: 0;
-
-    &.lead {
-      font-size: 16px;
-      line-height: 21px;
-      color: #7D8A8D;
-    }
-  }
-
-  section a {
-    font-size: 14px;
+  &.blue-heading {
+    font-size: 30px;
+    letter-spacing: 3px;
     color: $sky-blue;
-    line-height: 25px;
-    transition: 0.2s;
-    &.with-arrow {
-      text-transform: uppercase;
-      font-weight: 900;
-      letter-spacing: 2px;
-      position: relative;
-      padding-right: 35px;
-      display: inline-block;
+  }
+}
+
+h4 {
+  font-size: 14px;
+  color: $olive-matt;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #939A9C;
+  line-height: 18px;
+  margin-bottom: 0;
+
+  &.lead {
+    font-size: 16px;
+    line-height: 21px;
+    color: #7D8A8D;
+  }
+}
+
+p, a, h4, h3, h2, h1, li, span, div {
+  -webkit-font-smoothing: antialiased;
+  &.text-blue {
+    color: $sky-blue;
+  }
+}
+
+section a {
+  font-size: 14px;
+  color: $sky-blue;
+  line-height: 25px;
+  transition: 0.2s;
+  &.with-arrow {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    position: relative;
+    padding-right: 35px;
+    display: inline-block;
+    &:after {
+      content: '';
+      display: block;
+      background: url(../uploads/global/arrow-right-alone.svg) no-repeat center;
+      background-size: 16px;
+      width: 30px;
+      height: 100%;
+      border-radius: 15px;
+      position: absolute;
+      right: 0;
+      top: -1px;
+      pointer-events: none;
+    }
+    &:hover {
+      filter: brightness(80%);
+    }
+    &.dark {
+      color: $olive-matt;
       &:after {
-        content: '';
-        display: block;
-        background: url(../uploads/global/arrow-right-alone.svg) no-repeat center;
-        background-size: 16px;
-        width: 30px;
-        height: 100%;
-        border-radius: 15px;
-        position: absolute;
-        right: 0;
-        top: -1px;
-        pointer-events: none;
-      }
-      &:hover {
-        filter: brightness(80%);
-      }
-      &.dark {
-        color: $olive-matt;
-        &:after {
-          background: url(../uploads/global/arrow-right-dark.svg) no-repeat center;
-        }
+        background: url(../uploads/global/arrow-right-dark.svg) no-repeat center;
       }
     }
   }
+}

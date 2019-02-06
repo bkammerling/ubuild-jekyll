@@ -37,6 +37,7 @@
   }
 
   .solutions-area {
+    padding: 0 0 3.75rem;
 
     .maas-section {
       position: relative;
@@ -50,6 +51,7 @@
         height: 300px;
         width: 100%;
       }
+
       padding: rem(40px) 0 rem(330px);
       border-bottom: 1px solid #e6e6e6;
 
@@ -73,7 +75,7 @@
     }
 
     @include rwd(tablet-up) {
-      padding: 0 0 3.75rem;
+      //padding: 0 0 3.75rem;
       .maas-section {
         padding: rem(60px) 0 rem(200px);
         background: url('/uploads/global/3d-city.jpg') no-repeat;
@@ -84,8 +86,11 @@
         }
       }
       #section-carpool {
-        background-position: center 100px;
+        background-position: -50px 100px;
         padding: 60px 0 200px;
+        padding-right: 400px;
+        margin-right: -400px;
+        background-size: 900px auto;
       }
       #section-fleet {
         background-position: 300px -300px;
@@ -138,13 +143,13 @@
   background: linear-gradient(135deg, #07c6eb 0%,#06a0e3 100%);
   color: $white;
   @include rwd(tablet-up) {
-    padding-left: rem(40px);
+    padding: rem(70px) rem(70px) rem(80px);
   }
   @include rwd(desktop-up) {
-    padding-left: rem(50px);
+    padding-left: #{$col-desktop};
   }
   @include rwd(wide-up) {
-    padding-left: rem(78px);
+    padding-left: #{$col-desktop-wide};
   }
   h2 {
     color: $white;
@@ -157,6 +162,11 @@
   text-align: left;
 
   .important-numbers__stat-wrapper {
+    text-align: center;
+    margin-bottom: rem(40px);
+    @include rwd(mobile-up) {
+      text-align: left;
+    }
     @include rwd(tablet-up) {
       margin-bottom: rem(70px);
     }
@@ -199,11 +209,17 @@
 }
 
 .cities__wrapper {
-  transform: translateY(-90px);
+  padding: rem(40px) 0 rem(80px);
+  @include rwd(tablet-up) {
+    padding: 0;
+    transform: translateY(-90px);
+    .cities-text {
+      padding: rem(95px) 0 0 rem(20px);
+    }
+  }
 }
 
 .cities-text {
-  padding: rem(100px) 0 0 rem(20px);
   p {
     text-transform: uppercase;
     line-height: 32px;
@@ -221,6 +237,7 @@
 .image-card {
   @extend .w-shadow;
   position: relative;
+  margin-bottom: rem(30px);
   img {
     max-width: 100%;
   }
@@ -231,13 +248,15 @@
     left: 17px;
 
     p {
-      text-transform: uppercase;
       font-size: 12px;
+      line-height: 16px;
       &.image-card__title {
+        text-transform: uppercase;
         margin-top: 2px;
         font-weight: 900;
-        font-size: 14px;
-        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1.5px;
         color: $olive-matt;
       }
     }
