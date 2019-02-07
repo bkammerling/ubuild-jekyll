@@ -98,7 +98,7 @@ p, a, h4, h3, h2, h1, li, span, div {
   }
 }
 
-section a {
+ a {
   font-size: 14px;
   color: $sky-blue;
   line-height: 25px;
@@ -130,6 +130,24 @@ section a {
       color: $olive-matt;
       &:after {
         background: url(../uploads/global/arrow-right-dark.svg) no-repeat center;
+      }
+    }
+  }
+
+  &.with-down-arrow {
+    &:after {
+      content: '';
+      display: block;
+      background: url('/uploads/global/expand-arrow-blue.svg') no-repeat;
+      width: 12px;
+      height: 9px;
+      position: absolute;
+      right: -5px;
+      top: 2px;
+      transition: transform 0.2s;
+      transform: rotate(180deg);
+      .active & {
+        transform: none;
       }
     }
   }

@@ -230,16 +230,16 @@ $includeClasses: true !default;
   @include rwd(desktop-up) {
     margin: 0 0 0 calc(((100% - #{$container-desktop-small}) / 2) + #{$col-desktop} * #{$col-count} + #{$gutter-adjust});
     .container-fullright {
-      padding-right: calc(#{$col-desktop} + (#{$grid-gutter} * #{$col-count}));
-      max-width: calc(#{$container-desktop-small} - #{$col-desktop} * #{$col-count});
+      padding-right: calc(#{$grid-gutter} * #{$col-count});
+      max-width: calc(#{$container-desktop-small} - #{$col-desktop} * #{$col-count+1});
     }
   }
 
   @include rwd(wide-up) {
     margin: 0 0 0 calc(((100% - #{$container-desktop-wide}) / 2) + #{$col-count} * #{$col-desktop-wide} + #{$gutter-adjust});
     .container-fullright {
-      padding-right: calc(#{$col-desktop-wide} + #{$gutter-adjust});
-      max-width: calc(#{$container-desktop-wide} - #{$col-desktop-wide} * #{$col-count});
+      padding-right: calc(#{$grid-gutter} * #{$col-count});
+      max-width: calc(#{$container-desktop-wide} - #{$col-desktop-wide} * #{$col-count+1});
     }
   }
 }

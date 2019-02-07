@@ -144,6 +144,7 @@
   color: $white;
   @include rwd(tablet-up) {
     padding: rem(70px) rem(70px) rem(80px);
+    padding-right: 0;
   }
   @include rwd(desktop-up) {
     padding-left: #{$col-desktop};
@@ -214,7 +215,7 @@
     padding: 0;
     transform: translateY(-90px);
     .cities-text {
-      padding: rem(95px) 0 0 rem(20px);
+      padding: 0;
     }
   }
 }
@@ -234,13 +235,19 @@
   }
 }
 
+.content-dropdown {
+  margin-top: rem(40px);
+}
+
+.city-list {
+  column-width: 140px;
+}
+
 .image-card {
   @extend .w-shadow;
   position: relative;
   margin-bottom: rem(30px);
-  img {
-    max-width: 100%;
-  }
+
 
   .image-card__content {
     position: absolute;
@@ -261,7 +268,24 @@
       }
     }
   }
+
+  .image-wrapper {
+    padding: 0 0 100%;
+    @include rwd(mobile-up) {
+      padding: 0 0 80%;
+    }
+    overflow: hidden;
+    position: relative;
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
 }
+
 
 .block-two-column-horizontal {
   padding: rem(60px) 0 rem(80px);
