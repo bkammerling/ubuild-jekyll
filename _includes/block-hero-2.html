@@ -3,7 +3,7 @@
 
     {% if section.background_video %}
     <div class="video-banner__overflow"></div>
-    <video autoplay loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
+    <video autoplay playinline loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
         <source src="{{ site.url }}/uploads/global/jared-drone4.mp4" type="video/mp4" i>
     </video>
     {% endif %}
@@ -39,6 +39,13 @@
       background-image: url('{{ section.background_image | relative_url }}');
     }
   }
+  {% if section.background_video %}
+  @media screen and (min-width: 769px) {
+    .video-banner {
+      background-image: none;
+    }
+  }
+  {% endif %}
   </style>
   {% endif %}
 

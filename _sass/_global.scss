@@ -3,17 +3,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0;
-
   //padding: rem(120px) rem(30px) rem(80px);
 
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
-
-  @include rwd(tablet-up) {
-    //padding: rem(170px) 0;
-  }
 
 
   h1 {
@@ -90,13 +85,17 @@
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 100%;
   z-index: -1;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
   @include rwd(tablet-up) {
     display: block;
+  }
+  @media screen and (min-width: 1280px) {
+    width: auto;
+    height: auto;
   }
 }
 

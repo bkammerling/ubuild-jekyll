@@ -166,6 +166,9 @@
       position: static;
       background-color: transparent;
       border: none;
+      // Overwrite bootstrap's JS element styline
+      position: static !important;
+      transform: none !important;
     }
     li a {
       color: $white;
