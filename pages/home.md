@@ -24,6 +24,7 @@ page_sections:
     enabled: true
   background_video: stock-bg-video
   show_logos: true
+  background_image: "/uploads/2019/02/08/home-poster.png"
 - block: home-main
   subdirectory: static
 - template: news-section
