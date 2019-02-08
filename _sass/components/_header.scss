@@ -29,7 +29,7 @@
           color: $olive-matt;
         }
       }
-      .dividing-line, .underline-from-left:before, .header__icon span {
+      .dividing-line, .underline-from-left:before, .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
         background: $olive-matt;
       }
     }
@@ -103,6 +103,14 @@
   vertical-align: top;
 }
 
+.header__hamburger {
+  z-index: 10;
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+/*
 .header__icon {
   z-index: 10;
   span {
@@ -120,7 +128,7 @@
     display: none;
   }
 }
-
+*/
 .header__nav {
   position: absolute;
   left: 0;

@@ -1,15 +1,23 @@
 section.block-contact-form {
   min-height: 700px;
   position: relative;
-  background-position: bottom;
-  background-size: cover;
+  background-position: top center;
+  background-size: 800px auto;
   padding-top: rem(350px);
+  background-repeat: no-repeat;
+  background-color: $olive-matt;
+  @include rwd(tablet-up) {
+    background-size: 1600px auto;
+  }
+  @include rwd(wide-up) {
+    background-size: 100% auto;
+  }
 }
 
 
 .contact-form__wrapper {
   background-color: $background-grey;
-  padding: rem(70px) rem(40px) rem(120px);
+  padding: rem(70px) 0 rem(120px);
   transform: translateY(70px);
 
   @include rwd(desktop-up) {

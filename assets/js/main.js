@@ -77,7 +77,7 @@ var slider = {
 
 var menu = {
   init: function() {
-    var btn = $(".header__icon");
+    var btn = $(".header__hamburger");
     var menu = $(".header__nav");
     var languageBtn = $("#js-language");
     var solutionsBtn = $("#js-solutions");
@@ -114,6 +114,7 @@ var menu = {
   toggleMenu: function(target, menu) {
     target.on("click", function() {
       menu.toggleClass("active");
+      target.toggleClass("is-active");
     });
   },
 
