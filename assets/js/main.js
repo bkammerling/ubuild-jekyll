@@ -155,8 +155,10 @@ lazyLoadingImages();
 
 var form = {
   init: function() {
-    $('input, textarea').focus(function(){
-      $(this).parents('.form-group').addClass('focused');
+    $('input, textarea, select').focus(function(){
+      if($(this).parents('.form-group')) {
+        $(this).parents('.form-group').addClass('focused');
+      }
     });
 
     $('input, textarea').blur(function(){
@@ -233,6 +235,36 @@ var form = {
 };
 
 form.init();
+
+$(document).ready(function() {
+  $('.select2-init').select2({
+    minimumResultsForSearch: Infinity,
+    placeholder: $(this).attr("placeholder")
+  });
+  $('.select2-init').on('select2:select', function (e) {
+    $(this).siblings('.select2').addClass('selected');
+  });
+
+  $("form .dropdown a").click(function(e) {
+    var selection = $(this).data('id');
+    console.log(selection);
+    $("form .dropdown button").text(selection);
+    if($("form .extra-form").is(":visible")) {
+      $("form .extra-form").slideUp(function() {
+          showExtraForm();
+      });
+    } else {
+      showExtraForm();
+    }
+    function showExtraForm() {
+      $("form .extra-form ."+selection).show();
+      $("form .extra-form > div:not(."+selection+")").hide();
+      //$("form .extra-form").show();
+      $("form .extra-form").slideDown();
+    }
+  });
+});
+
 
 var jobs = {
 
@@ -391,7 +423,7 @@ var diversityMap = {
       diversityMap.onclick(evt);
     });
 
-    $("#AR,#AU,#BA,#BE,#BG,#BR,#CA,#CN,#CO,#CZ,#DE,#EG,#ES,#FR,#GB,#HN,#IN,#IR,#KR,#KZ,#LC,#MX,#NL,#PA,#PL,#PH,#PT,#PY,#RO,#RS,#RU,#SG,#SV,#TH,#TN,#TR,#TW,#TZ,#UA,#US,#ZA").hover(function() {
+    $("#AR,#AU,#BA,#BE,#BG,#BR,#CA,#CN,#CO,#CZ,#DE,#EG,#ES,#FR,#GB,#HN,#IT,#IN,#IR,#JP,#KR,#KZ,#LC,#MX,#NL,#PA,#PL,#PH,#PT,#PY,#RO,#RS,#RU,#SG,#SV,#TH,#TN,#TR,#TW,#TZ,#UA,#US,#ZA").hover(function() {
       $('.maptooltip').show();
       $('.maptooltip').text($(this).attr('title'));
     }, function() {
@@ -541,24 +573,5 @@ $('a[href*="#"]')
         };
       });
     }
-  }
-});
-
-$("form .dropdown a").click(function(e) {
-  var selection = $(this).data('item');
-  console.log(selection);
-  $("form .dropdown button").text(selection);
-  if($("form .extra-form").is(":visible")) {
-    $("form .extra-form").slideUp(function() {
-        showExtraForm();
-    });
-  } else {
-    showExtraForm();
-  }
-  function showExtraForm() {
-    $("form .extra-form ."+selection).show();
-    $("form .extra-form > div:not(."+selection+")").hide();
-    //$("form .extra-form").show();
-    $("form .extra-form").slideDown();
   }
 });

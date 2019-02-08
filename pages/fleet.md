@@ -1,8 +1,8 @@
 ---
 layout: blocks
-title: Home
+title: Fleet
 date: 2019-01-08 23:00:00 +0000
-permalink: "/"
+permalink: "/fleet"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -12,25 +12,16 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Pushing <strong>Mobility</strong> into the <strong>Future</strong>
+  headline: Technology powering Europe's largest <strong>scooter and car sharing companies</strong>
   cta:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  cta_2:
-    url: "#"
-    button_text: Watch our Brand Film
-    enabled: true
   background_video: jared-drone4
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.png"
-- block: home-main
+- block: fleet-main
   subdirectory: static
-- template: news-section
-  block: two-column-horizontal-cards
-  headline: We're being talked about
-  items: []
-  show_featured: true
 - template: detail-content
   block: contact-form
   title: Let's Talk

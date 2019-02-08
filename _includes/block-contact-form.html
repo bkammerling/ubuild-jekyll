@@ -31,7 +31,7 @@
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="phone">Phone (optional)</label>
+                  <label class="form-label" for="phone">Phone</label>
                   <input type="text" name="phone" id="phone">
                   <div class="bottom-border"></div>
                 </div>
@@ -42,11 +42,11 @@
                 Subject
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" data-item="fleet">Fleet product</a>
-                <a class="dropdown-item" data-item="carpool">Carpool product</a>
-                <a class="dropdown-item" data-item="shuttle">Shuttle product</a>
-                <a class="dropdown-item" data-item="general">General enquiry</a>
-                <a class="dropdown-item" data-item="support">Wunder Carpool app support</a>
+                <a class="dropdown-item" data-item="Wunder Fleet" data-id="fleet">Wunder Fleet</a>
+                <a class="dropdown-item" data-item="Wunder Carpool" data-id="carpool">Wunder Carpool</a>
+                <a class="dropdown-item" data-item="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</a>
+                <a class="dropdown-item" data-item="general" data-id="general">General enquiry</a>
+                <a class="dropdown-item" data-item="support" data-id="support">Wunder Carpool app support</a>
               </div>
             </div>
             <!--
@@ -76,56 +76,61 @@
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
-                  <select class="form-control" id="typeSelect">
-                    <option disabled selected>Type of company</option>
+                  <select class="form-control select2-init" style="width:100%" id="typeSelect">
+                    <option disabled selected>Type of company *</option>
                     <option>Operating start-up</option>
                     <option>Non operating start-up</option>
                     <option>OEM / corporate</option>
                     <option>Energy provider / public institution</option>
                     <option>Other</option>
                   </select>
+                  <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
-                  <select class="form-control" id="lookingFor">
-                    <option disabled selected>What are you looking for?</option>
+                  <select class="form-control select2-init" style="width:100%" id="lookingFor">
+                    <option disabled selected>What are you looking for? *</option>
                     <option>Deploy and operate shared mobility service</option>
                     <option>Discuss partnership and investment opportunity</option>
                     <option>Other</option>
                   </select>
+                  <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select class="form-control" id="vehicleType">
-                    <option disabled selected>What kind of vehicle do you want to offer in your fleet?</option>
+                  <select class="form-control select2-init" style="width:100%" id="vehicleType">
+                    <option disabled selected>What kind of vehicle do you want to offer in your fleet? *</option>
                     <option>Scooters</option>
                     <option>Kick Scooters</option>
                     <option>Bikes - Ebikes</option>
                     <option>Cars</option>
                   </select>
+                  <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="form-group fleet carpool shuttle">
                 <div class="select-wrapper">
-                  <select class="form-control" id="launchTimeline">
-                    <option disabled selected>When (approximately) would you like to launch?</option>
+                  <select class="form-control select2-init" style="width:100%" id="launchTimeline">
+                    <option disabled selected>When (approximately) would you like to launch? *</option>
                     <option>ASAP</option>
                     <option>2-6 months</option>
                     <option>Over 6 months</option>
                   </select>
+                  <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
-                  <select class="form-control" id="fundingStatus">
-                    <option disabled selected>What's the funding status of your project?</option>
+                  <select class="form-control select2-init" style="width:100%" id="fundingStatus">
+                    <option disabled selected>What's the funding status of your project? *</option>
                     <option>Privately funded</option>
                     <option>Venture funded</option>
                     <option>Corporate funded</option>
                     <option>Not yet funded</option>
                   </select>
+                  <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="form-group support">

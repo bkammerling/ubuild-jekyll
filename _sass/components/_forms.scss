@@ -40,11 +40,6 @@ form {
   position: relative;
 
   #form-submit {
-    /*
-    position: absolute;
-    bottom: -23px;
-    right: 30px;
-    */
     float:right;
   }
 }
@@ -73,6 +68,10 @@ form {
     }
   }
 
+  .selected + .bottom-border {
+    width: 100%;
+  }
+
   .form-label {
     position: absolute;
     left: 1rem;
@@ -86,12 +85,12 @@ form {
     transition: transform 150ms ease-out, font-size 150ms ease-out;
   }
 
-  input, textarea, select {
+  input, textarea, select, .select2-selection {
     -webkit-appearance: none;
     border: none;
     height: 60px;
     position: relative;
-    padding: rem(14px) 1rem rem(3px);
+    padding: rem(16px) 1rem rem(3px);
     width: 100%;
     outline: 0;
     background-color: #EDEDED;
@@ -112,15 +111,37 @@ form {
   .select-wrapper {
     position: relative;
     &::after {
-      @extend .dropdown-toggle::after;
+      //@extend .dropdown-toggle::after;
     }
   }
 
-  .select-wrapper::after, .dropdown-toggle::after {
+  .dropdown-toggle::after {
     position: absolute;
     top: 26px;
     right: 30px;
     border-top: 0.3em solid $olive;
+  }
+
+  .select2-selection {
+    span.select2-selection__rendered {
+      color: $olive-light;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 14px;
+    }
+    .select2-selection__arrow {
+      top: 16px;
+      right: 22px;
+      b {
+        border-color: #2a3b35 transparent transparent transparent
+      }
+    }
+  }
+  .selected span.select2-selection__rendered {
+    color: $olive-matt;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
   }
 
   textarea {
@@ -163,4 +184,18 @@ form {
     }
   }
 
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px darken(#EDEDED,10%) inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
