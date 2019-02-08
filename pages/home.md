@@ -22,7 +22,7 @@ page_sections:
     url: "#"
     button_text: Watch our Brand Film
     enabled: true
-  background_video: stock-bg-video
+  background_video: jared-drone4
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.png"
 - block: home-main
