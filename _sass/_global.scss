@@ -305,7 +305,9 @@ a.circle-arrow {
     font-weight: 400;
     line-height: 12px;
     color: $grey2;
-    margin-top: rem(8px);
+    &:not(:first-child) {
+      margin-top: rem(8px);
+    }
     &.category {
       color: $olive-matt;
       font-weight: 600;
