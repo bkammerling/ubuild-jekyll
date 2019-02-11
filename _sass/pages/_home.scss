@@ -1,10 +1,10 @@
-.home  {
+main {
+  background-color: $white;
+  padding-top: rem(100px);
+  position: relative;
+}
 
-  main {
-    background-color: $white;
-    padding-top: rem(100px);
-    position: relative;
-  }
+.home  {
 
   .maas-wrapper {
     position: relative;
@@ -17,13 +17,23 @@
         rgba(255, 255, 255, 1) 92%
       ), url('/uploads/global/3d-city.jpg') no-repeat;
       background-size: 1200px auto;
-      background-position: calc(50vw - 446px) 50px;
+      background-position: calc(50vw - 446px) 70px;
     }
   }
 
   #section-maas {
     p {
       margin-top: rem(15px);
+    }
+    @include rwd(wide-up) {
+      display: flex;
+      h2 {
+        white-space: nowrap;
+        margin-right: 3rem;
+      }
+      p {
+        margin-top: 0;
+      }
     }
   }
 
@@ -105,7 +115,7 @@
     }
 
     @include rwd(desktop-up) {
-      padding: 7.5rem 0 3.125rem;
+      padding: 9.5rem 0 3.125rem;
       #section-carpool, #section-fleet, #section-shuttle {
         padding: 0;
         background: none;
@@ -288,6 +298,6 @@
 
 
 .block-two-column-horizontal {
-  padding: rem(60px) 0 rem(80px);
+  padding: rem(60px) 0 0;
   background-color: $white;
 }

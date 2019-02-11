@@ -1,3 +1,6 @@
+body {
+  background-color: $white;
+}
 
 .video-banner {
   background-repeat: no-repeat;
@@ -314,6 +317,108 @@ a.circle-arrow {
 }
 
 
+.horizontal-accordion {
+  display: flex;
+  flex-direction: column;
+  margin-top: rem(40px);
+
+  @include rwd(desktop-up) {
+    flex-direction: row;
+  }
+  .card {
+    overflow: hidden;
+    flex: 1 1 33%;
+    border: none;
+    border-radius: 0;
+    background-color: $white;
+    transition: all 0.4s;
+    &.expand {
+      background-color: $background-grey;
+      flex: 1 1 66%;
+      .card-img {
+        opacity: 1;
+      }
+      .card-img-overlay {
+        box-shadow: 10px 0 18px -10px rgba(0, 0, 0, 0.1) inset, inset -10px 0 18px -10px rgba(0, 0, 0, 0.1);
+      }
+      ion-icon {
+        opacity: 0;
+      }
+      .card-text {
+        opacity: 1;
+      }
+    }
+    &:not(.expand) {
+      @extend .w-shadow;
+    }
+    &:first-child {
+      &.expand .card-img-overlay {
+        box-shadow: -10px 0 18px -10px rgba(0, 0, 0, 0.1) inset;
+      }
+    }
+    &:last-child {
+      &.expand .card-img-overlay {
+        box-shadow: 10px 0 18px -10px rgba(0, 0, 0, 0.1) inset;
+      }
+    }
+  }
+
+  .card-img {
+    opacity: 0;
+    transition: opacity 0.4s;
+    margin: 60px 150px;
+    width: 300px;
+  }
+
+  .card-img-overlay {
+    transition: box-shadow 0.4s;
+  }
+
+  .card-closed-display {
+      max-width: 190px;
+      height: 100%;
+      position: relative;
+  }
+
+  .card-logo {
+    max-height: 50px;
+    max-width: 105px;
+    margin-bottom: rem(20px);
+  }
+
+  .card-text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: rem(15px);
+    opacity: 0;
+    transition: opacity 0.4s;
+    &.show {
+      opacity: 1;
+    }
+  }
+  .card-inner-image {
+    position: absolute;
+    right: 0;
+    left: 240px;
+    bottom: 25px;
+    pointer-events: none;
+  }
+  ion-icon {
+    position: absolute;
+    opacity: 1;
+    bottom: 0px;
+    right: 0px;
+    font-size: 35px;
+    color: $sky-blue;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+}
+
+
+.block-stories {
+  margin: rem(100px) 0;
+}
 
 .cta-banner {
   padding: rem(150px) 0;
@@ -397,6 +502,10 @@ a.circle-arrow {
   }
 }
 
+.block-contact-form {
+  margin-top: rem(130px);
+}
+
 .block-contact-form + .footer, .with-form + .footer {
   padding-top: 150px;
 }
@@ -471,7 +580,6 @@ ul.footer__socialmedia {
     }
 
   }
-
 
   @include rwd(tablet-up) {
     ion-icon {

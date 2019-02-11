@@ -144,7 +144,7 @@ p, a, h4, h3, h2, h1, li, span, div {
       position: absolute;
       right: -5px;
       top: 2px;
-      transition: transform 0.2s;
+      transition: transform 0.4s 0.4s;
       transform: rotate(180deg);
       .active & {
         transform: none;

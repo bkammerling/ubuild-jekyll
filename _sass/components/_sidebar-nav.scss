@@ -27,6 +27,8 @@
     font-size: 10px;
     color: $grey2;
     letter-spacing: 1px;
+    white-space: nowrap;
+    
     &.active {
       color: $olive-matt;
       font-weight: 900;

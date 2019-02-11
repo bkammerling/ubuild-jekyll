@@ -12,17 +12,17 @@ wunder-main:
   weight: 2
   identifier: summit
   title: Summit
-- url: "#"
+- url: "/shuttle"
   weight: 3
   parent: solutions
   identifier: shuttle
   title: Shuttle
-- url: "#"
+- url: "/carpool"
   weight: 2
   parent: solutions
   identifier: carpool
   title: Carpool
-- url: "#"
+- url: "/fleet"
   weight: 1
   parent: solutions
   identifier: fleet

@@ -1,0 +1,29 @@
+#section-os {
+  margin-top: rem(100px);
+}
+
+.solution-wrapper {
+
+  .page-heading {
+      margin-bottom: rem(40px)
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .product-section {
+    margin-top: rem(150px);
+  }
+
+  .feature-list {
+    .single-feature {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: rem(30px);
+      h3 {
+        margin-bottom: rem(10px);
+      }
+    }
+  }
+}

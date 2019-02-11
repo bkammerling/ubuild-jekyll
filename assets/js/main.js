@@ -382,10 +382,15 @@ var accordion = {
         $(this).text('Show more');
       }
     });
+    $('.horizontal-accordion ion-icon').click(function(e) {
+      var $card = $(this).closest('.card');
+      $card.siblings().removeClass('expand');
+      $card.addClass('expand');
+    });
   }
 }
+accordion.init();
 
-if($("body").data("menu") == 6) accordion.init();
 
 
 var maxItems = {
