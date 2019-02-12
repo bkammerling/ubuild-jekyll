@@ -67,7 +67,6 @@ body {
     @extend .w-shadow;
     background: $white;
   }
-
 }
 
 .block-full-right {
@@ -278,6 +277,17 @@ a.circle-arrow {
     }
   }
 }
+
+.nav-arrow {
+  position: absolute;
+  bottom: 28px;
+  left: -75px;
+  animation: breathing 1s ease-in-out infinite alternate;
+  @include rwd(wide-up) {
+    left: -89px;
+  }
+}
+
 
 .content-dropdown {
 
