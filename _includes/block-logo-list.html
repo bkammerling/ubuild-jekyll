@@ -3,14 +3,14 @@
   <div class="client-list__wrapper">
     <div class="container container-fullright">
       <ul class="row client-list__logotypes">
-        <li class="col">
+        <li class="col-3">
           <p>powering <br>solutions with</p>
         </li>
         {% for item in site.data.data.partners %}
-          <li class="col">
-              <a title="{{ item.title }}" href="{{ item.url }}"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
-          </li>
-          {% endfor %}
+        <li class="col">
+            <a title="{{ item.title }}" href="{{ item.url }}"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
+        </li>
+        {% endfor %}
       </ul>
     </div>
   </div>

@@ -69,6 +69,12 @@ main {
     }
   }
 
+  #section-app {
+    .product-image {
+      max-width: 85%;
+    }
+  }
+
   #section-admin {
     img.abs-right {
       right: -300px;
@@ -77,9 +83,18 @@ main {
   }
 }
 
+.important-numbers__stats {
+  .important-numbers__stat-wrapper  {
+    margin-bottom: 0;
+  }
+}
+
 .fleet {
   @include highlight($fleet-highlight);
 }
-.fleet, .shuttle, .carpool {
-
+.carpool {
+  @include highlight($carpool-highlight);
+  .success__wrapper {
+    background: linear-gradient(135.54deg, #45F27A 0.27%, #04DE47 53.82%);
+  }
 }

@@ -258,6 +258,7 @@ a.circle-arrow {
       max-height: 34px;
       max-width: 100%;
       vertical-align: middle;
+      filter: grayscale(1) contrast(0.6) brightness(110%);
     }
     p {
       opacity: 0.6;
@@ -282,7 +283,7 @@ a.circle-arrow {
   position: absolute;
   bottom: 28px;
   left: -75px;
-  animation: breathing 1s ease-in-out infinite alternate;
+  animation: breathing 0.8s ease-in-out infinite alternate;
   @include rwd(wide-up) {
     left: -89px;
   }
