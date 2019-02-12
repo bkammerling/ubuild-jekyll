@@ -404,6 +404,10 @@ a.circle-arrow {
     left: 240px;
     bottom: 25px;
     pointer-events: none;
+    &.raised {
+      bottom: 65px;
+      left: 222px;
+    }
   }
   ion-icon {
     position: absolute;
@@ -430,6 +434,7 @@ a.circle-arrow {
   background-color: #F4F4F4;
   position: absolute;
   opacity: 0.5;
+  z-index: -1;
 
   &.left {
     left: -1000px;
@@ -439,6 +444,27 @@ a.circle-arrow {
     right: -1000px;
     transform: rotate(45deg);
   }
+  &.top-1 {
+    top: 1800px;
+  }
+  &.top-2 {
+    top: 2700px;
+  }
+  &.top-3 {
+    top: 3300px;
+  }
+
+  @include rwd(tablet-up) {
+    &.top-1 {
+      top: 900px;
+    }
+    &.top-2 {
+      top: 1500px;
+    }
+    &.top-3 {
+      top: 2100px;
+    }
+  }
 
   @include rwd(desktop-up) {
     &.left {
@@ -446,9 +472,19 @@ a.circle-arrow {
       transform: rotate(-45deg);
     }
     &.right {
-      right: -700px;
+      right: -900px;
       transform: rotate(45deg);
     }
+    &.top-1 {
+      top: 1000px;
+    }
+    &.top-2 {
+      top: 1700px;
+    }
+    &.top-3 {
+      top: 2400px;
+    }
+
   }
 }
 

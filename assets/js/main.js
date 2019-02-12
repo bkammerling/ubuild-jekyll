@@ -263,6 +263,11 @@ $(document).ready(function() {
       $("form .extra-form").slideDown();
     }
   });
+
+  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
+    $("form .dropdown a[data-id='"+pagetitle.toLowerCase()+"']").trigger('click');
+  }
+
 });
 
 
@@ -574,6 +579,6 @@ $('a[href*="#"]')
           $target.focus(); // Set focus again
         };
       });
-    
+
   }
 });

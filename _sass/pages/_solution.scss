@@ -26,25 +26,25 @@ main {
   .top-image-wrapper {
     @include rwd(tablet-down) {
       margin-top: rem(30px);
+      margin-left: -80px;
     }
     .abs-right {
       top: -50px;
-      width: calc(100% + 130px)
+      width: calc(100% + 200px);
+      right: -220px;
     }
   }
 
   .abs-image-wrapper, .top-image-wrapper {
-    //min-height: 280px;
     @include rwd(tablet-down) {
       img {
         position: static;
-        max-width: 100%;
+        //max-width: 100%;
       }
     }
   }
 
   .product-section {
-    position: relative;
     margin-top: rem(150px);
     @include rwd(desktop-up) {
       margin-top: rem(250px);
@@ -64,6 +64,13 @@ main {
       font-size: 30px;
       min-width: 50px;
       color: $sky-blue;
+    }
+  }
+
+  #section-admin {
+    img.abs-right {
+      right: -300px;
+      width: calc(100% + 200px);
     }
   }
 }
