@@ -58,6 +58,8 @@ main {
       margin-bottom: rem(30px);
       h3 {
         margin-bottom: rem(10px);
+        text-transform: capitalize;
+        letter-spacing: normal;
       }
     }
     ion-icon {
@@ -73,4 +75,11 @@ main {
       width: calc(100% + 250px);
     }
   }
+}
+
+.fleet {
+  @include highlight($fleet-highlight);
+}
+.fleet, .shuttle, .carpool {
+
 }

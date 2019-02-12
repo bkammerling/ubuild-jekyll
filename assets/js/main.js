@@ -160,7 +160,6 @@ var form = {
         $(this).parents('.form-group').addClass('focused');
       }
     });
-
     $('input, textarea').blur(function(){
       var inputValue = $(this).val();
       if ( inputValue == "" ) {
@@ -176,22 +175,10 @@ var form = {
       }
     });
 
-    /*
-    $('input').keyup(function() {
-      $(this).siblings('.bottom-border').css('width', $(this).val().length + "%");
-      if($(this).parents('.form-group').hasClass('invalid')) {
-        if($(this)[0].checkValidity()) {
-          $(this).parents('.form-group').removeClass('invalid').addClass('valid');
-        } else {
-          $(this).parents('.form-group').removeClass('valid').addClass('invalid');
-        }
-      }
-    });
-    */
-
     $("#form-submit").click(function(event)  {
+      $('form#main-contact')[0].checkValidity();
       if(!$('form#main-contact')[0].reportValidity()) return false;
-      const name = $("input#name").val();
+      /*const name = $("input#name").val();
       const email = $("input#email").val();
       const formSubject = $("select#subject").val();
       var body = "This message was sent from a contact form on wunder.org." + '\n\n',
@@ -199,29 +186,25 @@ var form = {
       $("form#main-contact").find("input[name], select[name], textarea[name]").each(function (index, node) {
         body += node.name.toUpperCase() + '\n' + node.value + '\n\n';
       });
-
-      form.submit(subject, body, name, email, subject);
+      */
+      form.submit();
     });
   },
 
-  submit: function(subject, body, name, email) {
+  submit: function(/*subject, body, name, email*/) {
+    var form = $('form#main-contact');
     var submitBtn = $("#form-submit");
     submitBtn.attr("disabled", true);
-    var awsURL = "https://1bnwg71zz1.execute-api.us-west-2.amazonaws.com/production/submit";
+    var postURL = form.attr('action');
 
     $.ajax({
       method: "POST",
-      url: awsURL,
+      url: postURL,
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
-      data: JSON.stringify({
-        "subject":subject,
-        "body":body,
-        "name": name,
-        "fromEmail": email
-      })
+      data: form.serialize()
     }).done(function (data) {
       $(".form-feedback").removeClass('invisible');
       $('form#main-contact').trigger("reset");
@@ -248,7 +231,7 @@ $(document).ready(function() {
   $("form .dropdown a").click(function(e) {
     var selection = $(this).data('id');
     console.log(selection);
-    $("form .dropdown button").text(selection);
+    $("form .dropdown button").text($(this).data('item'));
     if($("form .extra-form").is(":visible")) {
       $("form .extra-form").slideUp(function() {
           showExtraForm();

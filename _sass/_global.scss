@@ -146,9 +146,9 @@ body {
 }
 
 
-a.round-cta {
+.round-cta {
   background: $white;
-  color: #06A0E3;
+  color: $sky-blue;
   text-align: center;
   border-radius: 30px;
   text-transform: uppercase;
@@ -185,7 +185,7 @@ a.round-cta {
 
 
     &:hover {
-      background: #357FB0;
+      background: $dark-blue;
       color: $white;
       &:after {
         background: $white url(../uploads/global/arrow-right.svg) no-repeat center;
@@ -202,7 +202,7 @@ a.round-cta {
         background-size: 16px;
       }
       &:hover {
-        background: #357FB0;
+        background: $dark-blue;
       }
     }
 
@@ -219,6 +219,11 @@ a.round-cta {
 
    + .round-cta {
      margin-left: rem(20px);
+   }
+
+   &:disabled {
+     opacity: 0.4;
+     pointer-events: none;
    }
 } /* end of round-cta */
 
