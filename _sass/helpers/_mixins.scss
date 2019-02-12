@@ -264,4 +264,12 @@ $includeClasses: true !default;
   .success__wrapper {
     background: linear-gradient(113.49deg, lighten($solution-highlight, 10%) 14.71%, $solution-highlight 83.06%);
   }
+  .header .menu-item-cta.bg-from-below {
+    &:after {
+      background: $solution-highlight;
+    }
+    &:hover:after {
+      background: darken($solution-highlight, 10%);
+    }
+  }
 }
