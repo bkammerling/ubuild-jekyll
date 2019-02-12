@@ -20,6 +20,10 @@ section.block-contact-form {
   padding: rem(70px) 0 rem(120px);
   transform: translateY(70px);
 
+  @include rwd(mobile-up) {
+    padding: rem(70px) rem(50px) rem(120px);
+  }
+
   @include rwd(desktop-up) {
     padding: rem(70px) 0 rem(100px) rem(78px)
   }

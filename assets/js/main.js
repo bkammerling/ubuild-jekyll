@@ -550,12 +550,9 @@ $('a[href*="#"]')
 .not('[href="#"]')
 .not('[href="#0"]')
 .click(function(event) {
+  event.preventDefault();
   // On-page links
-  if (
-    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-    &&
-    location.hostname == this.hostname
-  ) {
+
     // Figure out element to scroll to
     var target = $(this.hash);
     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -577,6 +574,6 @@ $('a[href*="#"]')
           $target.focus(); // Set focus again
         };
       });
-    }
+    
   }
 });

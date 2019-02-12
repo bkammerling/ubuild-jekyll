@@ -12,7 +12,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology powering Europe's largest <strong>scooter and car sharing companies</strong>
+  headline: Technology powering <strong>vehicle sharing</strong> worldwide
   cta:
     button_text: Contact Us
     url: "#section-contact"

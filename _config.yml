@@ -7,7 +7,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # your site's origin, e.g. https://forestry.io
 
 collections:
-  - articles 
+  - articles
 
 # Build settings
 defaults:
@@ -16,7 +16,7 @@ defaults:
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-menus
 sass:

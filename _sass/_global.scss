@@ -419,7 +419,44 @@ a.circle-arrow {
 
 
 .block-stories {
-  margin: rem(100px) 0;
+  margin: rem(50px) 0 rem(160px);
+}
+
+.wunder-bg {
+  width: 1440px;
+  height: 450px;
+  top: 200px;
+  border-radius: 225px;
+  background-color: #F4F4F4;
+  position: absolute;
+  opacity: 0.5;
+
+  &.left {
+    left: -1000px;
+    transform: rotate(-45deg);
+  }
+  &.right {
+    right: -1000px;
+    transform: rotate(45deg);
+  }
+
+  @include rwd(desktop-up) {
+    &.left {
+      left: -700px;
+      transform: rotate(-45deg);
+    }
+    &.right {
+      right: -700px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+img.abs-right {
+  position: absolute;
+  right: -150px;
+  width: calc(100% + 100px);
+  max-width: none;
 }
 
 .cta-banner {
