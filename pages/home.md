@@ -34,7 +34,7 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We believe in Speed. Let us know how we can help and we'll get in touch with you in no time.
+  content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
 - block: custom-html

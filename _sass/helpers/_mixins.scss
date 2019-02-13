@@ -272,4 +272,10 @@ $includeClasses: true !default;
       background: darken($solution-highlight, 10%);
     }
   }
+  .plyr--full-ui input[type=range] {
+    color: $solution-highlight;
+  }
+  .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+    background: $solution-highlight;
+  }
 }

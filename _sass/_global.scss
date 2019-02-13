@@ -353,6 +353,7 @@ a.circle-arrow {
     &.expand {
       background-color: $background-grey;
       flex: 1 1 66%;
+      z-index: -1;
       .card-img {
         opacity: 1;
       }
@@ -393,9 +394,12 @@ a.circle-arrow {
   }
 
   .card-closed-display {
-      max-width: 190px;
+      max-width: 196px;
       height: 100%;
       position: relative;
+      .carpool & {
+        padding: 2.5rem 1.25rem;
+      }
   }
 
   .card-logo {
@@ -417,9 +421,10 @@ a.circle-arrow {
   .card-inner-image {
     position: absolute;
     right: 0;
-    left: 240px;
+    left: 230px;
     bottom: 25px;
     pointer-events: none;
+    max-height: 100%;
     &.raised {
       bottom: 65px;
       left: 222px;
@@ -434,12 +439,51 @@ a.circle-arrow {
     color: $sky-blue;
     cursor: pointer;
     transition: opacity 0.2s;
+    .carpool & {
+        bottom: 1.25rem;
+    }
   }
 }
 
+/*
+.horizontal-accordion.wide-image {
+
+  .card > div {
+    transition: all 0.4s;
+  }
+  .card-open-display {
+    position: absolute;
+    left: 100%;
+    width: 460px;
+    z-index: 100;
+  }
+
+  .card.expand {
+    .card-closed-display {
+        transform: translateX(-100%);
+    }
+    .card-open-display {
+        left: 0;
+    }
+  }
+
+  .card-closed-display  {
+      padding: 2.5rem 2rem;
+      position: relative;
+      .card-body {
+        padding: 0;
+      }
+      ion-icon {
+        bottom: 1.25rem;
+        right: 1.25rem;
+      }
+  }
+
+}
+*/
 
 .block-stories {
-  margin: rem(50px) 0 rem(160px);
+  margin: rem(0px) 0 rem(160px);
 }
 
 .wunder-bg {

@@ -1,0 +1,103 @@
+#section-intro {
+  h2 {
+    max-width: 600px;
+  }
+}
+
+.block-bg-box {
+  margin: rem(160px) 0;
+}
+.bg-box__wrapper {
+
+  padding: rem(60px) 0 rem(220px);
+  background: url('/uploads/global/bar-bg.png') no-repeat center center;
+  background-position-x: 90px;
+  background-size: cover;
+
+  #section-energetic & {
+    background-image: url('/uploads/global/bar-bg.png');
+  }
+  #section-future & {
+    background-image: url('/uploads/global/wms18-speakerbg.png');
+    background-position-y: top;
+  }
+
+  .bg-box__box {
+    @extend .w-shadow;
+    width: 550px;
+    padding: rem(40px) rem(80px) rem(80px) rem(40px);
+
+    border-left: 5px solid $summit-highlight;
+    background: $white;
+  }
+
+  @include rwd(tablet-down) {
+    background-position-x: right;
+    background-position-y: top;
+    padding: rem(220px) 0 rem(0px);
+
+    margin-bottom: 200px;
+    .bg-box__box {
+      max-width: 100%;
+      padding: rem(40px) rem(40px) rem(80px);
+      transform: translateY(100px);
+    }
+  }
+
+}
+
+
+.speaker__wrapper {
+  background: linear-gradient(138.65deg, #F33092 0.27%, #DB006E 53.82%);
+  color: $white;
+  padding: rem(50px) rem(90px) rem(300px);
+
+  h2 {
+    color: $white;
+  }
+}
+
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.speaker-cards {
+  transform: translateY(-250px);
+  margin-bottom: -250px;
+
+  .card.speaker-card {
+    @extend .w-shadow;
+    border-radius: 0;
+    border: none;
+    margin-bottom: rem(40px);
+
+    @include rwd(tablet-up) {
+      width: 32%;
+    }
+    @include rwd(wide-up) {
+      width: 23%;
+    }
+    .card-body {
+      min-height: 140px
+    }
+
+    .card-title {
+      font-weight: 900;
+      color: $olive-matt;
+    }
+    p {
+      color: $olive-matt;
+      margin-bottom: rem(40px);
+      font-size: 12px;
+    }
+
+    .card-footer-logo {
+      position: absolute;
+      bottom: 20px;
+    }
+
+
+  }
+}

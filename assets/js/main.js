@@ -9,7 +9,7 @@ var videoPlayer = {
   init: function() {
     player = new Plyr('#player', {
       controls: ['play','progress','volume'],
-      clickToPlay: false,
+      clickToPlay: true,
       hideControls: true,
       resetOnEnd: true
     });

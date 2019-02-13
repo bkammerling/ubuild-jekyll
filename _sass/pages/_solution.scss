@@ -46,6 +46,7 @@ main {
 
   .product-section {
     margin-top: rem(150px);
+    min-height: 350px;
     @include rwd(desktop-up) {
       margin-top: rem(250px);
     }
@@ -83,14 +84,61 @@ main {
   }
 }
 
-.important-numbers__stats {
-  .important-numbers__stat-wrapper  {
-    margin-bottom: 0;
+
+.shuttle .card {
+  border: none;
+  border-radius: none;
+  .card-body {
+    padding-left: rem(40px);
+    padding-right: rem(40px);
+    .card-logo {
+      width: 200px;
+      max-width: 80%;
+    }
   }
+  .card-closed-display {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .video-container {
+    background: $black;
+    height: 100%;
+  }
+  .plyr {
+    transform: translateY(-50%);
+    top: 50%;
+  }
+
+  #video-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45px;
+  }
+
+  .blockquote {
+    footer {
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+.fleet, .carpool, .shuttle {
+  .important-numbers__stat-wrapper  {
+    @include rwd(mobile-up) {
+      margin-bottom: 0;
+    }
+  }
+
 }
 
 .fleet {
   @include highlight($fleet-highlight);
+}
+.shuttle {
+  @include highlight($shuttle-highlight);
 }
 .carpool {
   @include highlight($carpool-highlight);

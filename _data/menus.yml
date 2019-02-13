@@ -1,6 +1,6 @@
 ---
 wunder-main:
-- url: "#"
+- url: "/press"
   weight: 4
   identifier: press
   title: Press
@@ -8,7 +8,7 @@ wunder-main:
   weight: 3
   identifier: careers
   title: Careers
-- url: "#"
+- url: "/summit"
   weight: 2
   identifier: summit
   title: Summit
