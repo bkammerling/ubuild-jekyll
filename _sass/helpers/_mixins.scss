@@ -248,7 +248,7 @@ $includeClasses: true !default;
   .text-blue {
     color: $solution-highlight;
   }
-  .round-cta {
+  .round-cta:not(.clear) {
     background-color: $solution-highlight !important;
     &:hover {
       background-color: darken($solution-highlight, 10%) !important;

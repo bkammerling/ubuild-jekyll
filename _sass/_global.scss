@@ -570,10 +570,17 @@ img.abs-right {
   }
 }
 
+
+
+
 .block-footer-cta-1 ~ footer {
   padding-top: rem(125px);
 }
 
+
+main:not(.with-form) ~ footer {
+  margin: rem(120px) 0 0;
+}
 
 .footer {
   background: $olive-matt;

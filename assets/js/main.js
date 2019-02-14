@@ -370,7 +370,7 @@ var accordion = {
         $(this).text('Show more');
       }
     });
-    $('.horizontal-accordion ion-icon').click(function(e) {
+    $('.horizontal-accordion ion-icon, .horizontal-accordion .card-closed-display').click(function(e) {
       var $card = $(this).closest('.card');
       $card.siblings().removeClass('expand');
       $card.addClass('expand');

@@ -1,3 +1,12 @@
+.summit {
+  .header .menu-item-cta:after {
+    width: 125px;
+    @include rwd(desktop-up) {
+      width: 140px;
+    }
+  }
+}
+
 #section-intro {
   h2 {
     max-width: 600px;
@@ -47,37 +56,79 @@
 }
 
 
-.speaker__wrapper {
+.summit .gradient-block .block-full-right {
   background: linear-gradient(138.65deg, #F33092 0.27%, #DB006E 53.82%);
   color: $white;
-  padding: rem(50px) rem(90px) rem(300px);
 
-  h2 {
+  padding: rem(50px) rem(20px) rem(70px);
+  &.speaker__wrapper {
+      padding: rem(50px) rem(20px) rem(300px);
+  }
+  @include rwd(tablet-up) {
+    padding: rem(50px) rem(70px) rem(70px);
+    &.speaker__wrapper {
+        padding: rem(50px) rem(70px) rem(300px);
+    }
+  }
+  @include rwd(desktop-up) {
+    padding: rem(50px) rem(90px) rem(70px);
+    &.speaker__wrapper {
+        padding: rem(50px) rem(90px) rem(300px);
+    }
+  }
+  h2, p {
     color: $white;
+  }
+  &.last-summit__wrapper {
+    margin-top: rem(130px);
+    margin-bottom: rem(200px);
+    @include rwd(tablet-down) {
+      margin-bottom: rem(600px);
+    }
   }
 }
 
 .speakers-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  max-width: 100%;
 }
 
 .speaker-cards {
   transform: translateY(-250px);
   margin-bottom: -250px;
 
+
   .card.speaker-card {
     @extend .w-shadow;
     border-radius: 0;
     border: none;
     margin-bottom: rem(40px);
+    display: inline-block;
 
+    margin-right: 15px;
+    width: 45%;
+    &:nth-child(even) {
+      margin-right: 0;
+    }
     @include rwd(tablet-up) {
-      width: 32%;
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+      &:nth-child(even) {
+        margin-right: 15px;
+      }
+      width: 31.8%;
     }
     @include rwd(wide-up) {
+      margin-right: 20px;
       width: 23%;
+      &:nth-child(3n) {
+        margin-right: 20px;
+      }
+      &:nth-child(4n) {
+        margin-right:0;
+      }
     }
     .card-body {
       min-height: 140px
@@ -88,9 +139,13 @@
       color: $olive-matt;
     }
     p {
-      color: $olive-matt;
+      color: $olive;
       margin-bottom: rem(40px);
       font-size: 12px;
+    }
+
+    .company {
+        color: $olive-matt;
     }
 
     .card-footer-logo {
@@ -98,6 +153,69 @@
       bottom: 20px;
     }
 
-
   }
+}
+
+
+.percent-bar__wrapper {
+  @include rwd(desktop-up) {
+    position: relative;
+  }
+}
+.percent-bar {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  color: $olive-matt;
+  @extend .w-shadow;
+  width: 100%;
+  left: 0px;
+  @include rwd(desktop-up) {
+    left: auto;
+  }
+  h3 {
+    font-weight: 800;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  p {
+    color: $olive-matt !important;
+  }
+
+  .percent-bar__block {
+    padding: rem(35px) rem(10px);
+    &:not(:first-child) {
+      box-shadow: 4px 0px 22px -4px rgba(0, 0, 0, 0.1) inset;
+    }
+    &:nth-child(1) {
+      background-color: $white;
+    }
+    @for $i from 2 through 7 {
+      &:nth-child(#{$i}) {
+        background-color: darken($white, ($i - 1) * 5%);
+      }
+    }
+  }
+
+  @include rwd(tablet-down) {
+    flex-direction: column;
+    width: 160%;
+    box-shadow: none;
+    .percent-bar__block {
+      box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+}
+
+
+
+
+.summit {
+  @include highlight($summit-highlight);
+
+  .home-video {
+    margin-top: 3em;
+  }
+
 }
