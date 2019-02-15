@@ -43,6 +43,6 @@ fields:
 pages:
 - pages/careers/culture.md
 - pages/home.md
-- pages/careers/jobs.md
 - pages/careers/locations.md
+- pages/careers/jobs.md
 - pages/careers/careers.md
