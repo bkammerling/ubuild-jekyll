@@ -6,3 +6,32 @@
     transform: translateY(10px);
   }
 }
+
+
+@keyframes logo-change {
+  0% {
+    width: 224px;
+  }
+  40% {
+    width: 46px;
+  }
+  60% {
+    width: 46px;
+  }
+  100% {
+    width: 224px;
+  }
+}
+@keyframes disappear {
+  50% {
+    position: absolute;
+    top: -1000px;
+  }
+  100% {
+    position: absolute;
+    top: -1000px;
+  }
+}
+@keyframes appear {
+
+}

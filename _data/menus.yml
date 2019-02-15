@@ -91,32 +91,42 @@ footer:
   title: Company
   col: 2
   items:
-  - identifier: careers
-    url: "/careers/"
+  - identifier: wms
+    url: "/summit/"
     weight: 1
-    title: Careers
+    title: Summit
     parent: company
   - identifier: press
     url: "/press"
     weight: 2
     title: Press
     parent: company
-  weight: 2
-- identifier: wunder_app
-  title: Wunder App
-  col: 2
-  items:
   - identifier: app
-    url: "/carpool-app"
+    url: "https://help.wunder.org"
     weight: 1
     title: Carpool App
     parent: wunder_app
-  - identifier: helpers
-    url: https://help.wunder.org
-    weight: 2
-    title: Help
-    parent: wunder_app
   weight: 3
+- identifier: footercareers
+  title: Careers
+  col: 2
+  weight: 3
+  items:
+  - identifier: culture
+    url: "/careers/culture"
+    weight: 1
+    title: Culture
+    parent: footercareers
+  - identifier: locations
+    url: "/careers/locations"
+    weight: 1
+    title: Locations
+    parent: footercareers
+  - identifier: jobs
+    url: "/careers/jobs"
+    weight: 1
+    title: Jobs
+    parent: footercareers
 - identifier: solutions
   title: Solutions
   col: 1
@@ -125,15 +135,15 @@ footer:
   - identifier: fleet
     url: "/fleet"
     weight: 1
-    title: Fleet
+    title: Wunder Fleet
     parent: solutions
   - identifier: carpool
     url: "/carpool"
     weight: 2
-    title: Carpool
+    title: Wunder Carpool
     parent: solutions
   - identifier: shuttle
     url: "/shuttle"
     weight: 3
-    title: Shuttle
+    title: Wunder Shuttle
     parent: solutions

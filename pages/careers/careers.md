@@ -16,7 +16,7 @@ page_sections:
   cta:
     url: "/careers/jobs"
     button_text: Browse Jobs
-    enabled: true
+    enabled: false
 - template: 3-col-image-text-grid
   block: landing-grid
   items:

@@ -4,6 +4,7 @@ section.block-contact-form {
   background-position: top center;
   background-size: 800px auto;
   padding-top: rem(350px);
+  padding-top: 45vh;
   background-repeat: no-repeat;
   background-color: $olive-matt;
   @include rwd(tablet-up) {
@@ -190,16 +191,18 @@ form {
 
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  -webkit-text-fill-color: black;
-  -webkit-box-shadow: 0 0 0px 1000px darken(#EDEDED,10%) inset;
-  transition: background-color 5000s ease-in-out 0s;
+.contact-form__form {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0px 1000px darken(#EDEDED,10%) inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
 }

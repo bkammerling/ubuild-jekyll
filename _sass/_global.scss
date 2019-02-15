@@ -15,15 +15,19 @@ body {
 
 
   h1 {
-    font-weight: 400;
-    font-size: 60px;
-    strong {
-      font-weight: 900;
+    body:not(.careers) & {
+      font-weight: 400;
+      font-size: 60px;
+      strong {
+        font-weight: 900;
+      }
     }
   }
 
   .video-banner__inner-content {
-    text-align: left;
+    .careers & {
+      text-align: center;
+    }
     padding: rem(200px) 0 rem(200px);
     @include rwd(tablet-up) {
       padding: rem(280px) 0 rem(160px);
@@ -78,6 +82,54 @@ body {
   }
 }
 
+.press {
+
+  .col-2-in {
+    padding: rem(70px) rem(30px) rem(80px);
+    background: $background-grey;
+    @include rwd(tablet-up) {
+      padding: rem(70px) rem(70px) rem(80px);
+      padding-right: 0;
+    }
+    @include rwd(desktop-up) {
+      padding-left: #{$col-desktop};
+    }
+    @include rwd(wide-up) {
+      padding-left: #{$col-desktop-wide};
+    }
+  }
+
+  .single-download {
+    padding: 0 2rem;
+    @include rwd(tablet-down) {
+      margin-bottom: 4rem;
+    }
+
+    h2 {
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+  }
+
+  .block-right-quote {
+    img {
+      width: 200px
+    }
+  }
+
+
+  blockquote::before {
+    content: '"';
+    position: absolute;
+    font-size: 160px;
+    opacity: 0.1;
+    top: -66px;
+    left: -10px;
+    font-weight: 700;
+  }
+
+}
+
 
 .video-banner__video {
   display: none;
@@ -119,6 +171,7 @@ body {
   padding: rem(60px) rem(25px);
   transform: translateY(rem(-35px));
   max-width: rem(1200px);
+  z-index: 100;
 
   @include rwd(tablet-up) {
     padding: rem(70px);
@@ -587,6 +640,11 @@ main:not(.with-form) ~ footer {
   padding: rem(80px) rem(30px) rem(40px);
   clear: both;
 
+  .summit & {
+    background: url("/uploads/global/summit-bg.png") repeat;
+    background-size: 200px 150px;
+  }
+
   a {
     color: $white;
     font-weight: $font-bold;
@@ -620,11 +678,12 @@ main:not(.with-form) ~ footer {
 
   @include rwd(tablet-up ) {
     a {
-      font-size: rem(11px);
+      font-size: rem(14px);
+      font-weight: 400;
     }
 
     li {
-      padding: rem(4px) 0;
+      padding: rem(2px) 0;
 
       p {
         font-size: rem(11px);
@@ -642,7 +701,20 @@ main:not(.with-form) ~ footer {
       color: $olive-matt;
     }
   }
-}
+
+  .cta-wrapper {
+    text-align: center;
+    margin: 0 0 3rem;
+    a {
+      font-size: 12px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+
+} //END OF .FOOTER
 
 .block-contact-form {
   margin-top: rem(130px);

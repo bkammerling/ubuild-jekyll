@@ -8,10 +8,10 @@ var videoPlayer = {
   player: null,
   init: function() {
     player = new Plyr('#player', {
-      controls: ['play','progress','volume'],
+      controls: ['play','progress','volume','fullscreen'],
       clickToPlay: true,
       hideControls: true,
-      resetOnEnd: true
+      resetOnEnd: true,
     });
     player.on('ready', event => {
       player.toggleControls(false);
@@ -33,7 +33,7 @@ var videoPlayer = {
 }
 videoPlayer.init();
 
-
+/* SVG ANIMATIONS (IF ANY) */
 var animation = {
   init: function() {
     this.anim = bodymovin.loadAnimation({
@@ -54,7 +54,6 @@ var animation = {
   }
 };
 
-
 if($(".animated-svg").length) animation.init();
 
 function doLoopComplete(e) {
@@ -62,6 +61,7 @@ function doLoopComplete(e) {
   animation.setDirection(e.direction*-1);
   animation.addEventListener('loopComplete', doLoopComplete);
 }
+
 
 var slider = {
   init: function(target, config) {
@@ -75,20 +75,27 @@ var slider = {
   }
 };
 
+slider.init(".picture-slider", {
+  dots: false,
+  lazyLoad: 'ondemand',
+  prevArrow:
+    '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
+  nextArrow:
+    '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
+});
+
+
 var menu = {
   init: function() {
     var btn = $(".header__hamburger");
     var menu = $(".header__nav");
-    var languageBtn = $("#js-language");
-    var solutionsBtn = $("#js-solutions");
-    var eventsBtn = $("#js-events");
-    var appBtn = $("#js-app");
+    //var languageBtn = $("#js-language");
+    //var solutionsBtn = $("#js-solutions");
+    //var eventsBtn = $("#js-events");
+    //var appBtn = $("#js-app");
     this.activeItem();
     this.toggleMenu(btn, menu);
-    this.dropdown(languageBtn);
-    this.dropdown(solutionsBtn);
-    this.dropdown(eventsBtn);
-    this.dropdown(appBtn);
+    //this.dropdown(languageBtn);
   },
 
   activeItem: function () {
@@ -130,15 +137,6 @@ var menu = {
     });
   }
 };
-
-slider.init(".picture-slider", {
-  dots: false,
-  lazyLoad: 'ondemand',
-  prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
-  nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
-});
 
 menu.init();
 
@@ -251,6 +249,14 @@ $(document).ready(function() {
     $("form .dropdown a[data-id='"+pagetitle.toLowerCase()+"']").trigger('click');
   }
 
+  $('#summitModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var subject = button.data('subject') // Extract info from data-* attributes
+    var modal = $(this);
+    modal.find('.modal-title').text('Apply to ' + subject + ' WMS 2019');
+    modal.find('.modal-body #wms-subject').val(subject);
+  });
+
 });
 
 
@@ -338,6 +344,13 @@ var jobs = {
     $(".job-list__listing .job-list__item:not(.hidden), .job-list__listing > p").remove();
   },
 
+  strip: function(html) {
+    var tmp = document.createElement("DIV");
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || "";
+  },
+
+  // FEB 2019 - no sorting by department is used
   sortByDepartment: function(array) {
     array.sort(function(a,b) {
       var depA = a.departments[0].name;
@@ -347,12 +360,6 @@ var jobs = {
       return 0;
     });
     return array;
-  },
-
-  strip: function(html) {
-    var tmp = document.createElement("DIV");
-    tmp.innerHTML = html;
-    return tmp.textContent || tmp.innerText || "";
   }
 };
 
@@ -540,27 +547,20 @@ $('a[href*="#"]')
 .click(function(event) {
   event.preventDefault();
   // On-page links
-
-    // Figure out element to scroll to
     var target = $(this.hash);
     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    var topOffset = 250;
+    if(this.hash.indexOf('contact')!= -1) {
+      topOffset = -200;
+    }
     // Does a scroll target exist?
     if (target.length) {
       // Only prevent default if animation is actually gonna happen
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: target.offset().top - 80
+        scrollTop: target.offset().top - topOffset
       }, 600, function() {
         // Callback after animation
-        // Must change focus!
-        var $target = $(target);
-        $target.focus();
-        if ($target.is(":focus")) { // Checking if the target was focused
-          return false;
-        } else {
-          $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-          $target.focus(); // Set focus again
-        };
       });
 
   }

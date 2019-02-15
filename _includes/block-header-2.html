@@ -4,7 +4,8 @@
     <div class="container header">
       <div class="grouped-logo">
         <a href="/">
-          <img src="{{ site.data.global.logo | relative_url }}" alt="{{ site.title }}" class="header__logotype">
+          <img src="/uploads/global/wundermobility-logo.svg" alt="{{ site.title }}" class="header__logotype header__main-logotype">
+          <!--<img src="/uploads/global/wundershuttle-logo.svg" alt="{{ site.title }}" class="header__logotype header__secondary-logotype">-->
         </a>
         {% if section.sub_logo %}
         <div class="dividing-line"></div>
@@ -41,7 +42,7 @@
           {% endfor %}
           {% if section.cta %}
           <li class="underline-from-left header__nav-item menu-item-cta">
-            <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+            <a class="button primary small block-header-2--cta" {% if page.title == 'Summit' %}data-toggle="modal" data-target="#summitModal" data-subject="attend"{% endif %} href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
           </li>
           {% endif %}
 

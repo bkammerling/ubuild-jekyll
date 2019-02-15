@@ -17,7 +17,7 @@ page_sections:
   cta:
     url: "/careers/jobs"
     button_text: Browse Jobs
-    enabled: true
+    enabled: false
 - template: image-content-block
   block: two-column-vertical-cards
   items:
