@@ -12,7 +12,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Pushing <strong>Mobility</strong> into the <strong>Future</strong>
+  headline: Technology to build, innovate and scale <strong>shared mobility</strong>.
   cta:
     button_text: Contact Us
     url: "#section-contact"

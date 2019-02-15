@@ -174,43 +174,56 @@ var form = {
     });
 
     $("#form-submit").click(function(event)  {
-      $('form#main-contact')[0].checkValidity();
-      if(!$('form#main-contact')[0].reportValidity()) return false;
-      /*const name = $("input#name").val();
-      const email = $("input#email").val();
-      const formSubject = $("select#subject").val();
-      var body = "This message was sent from a contact form on wunder.org." + '\n\n',
-          subject = formSubject + " - Message from Wunder.org";
-      $("form#main-contact").find("input[name], select[name], textarea[name]").each(function (index, node) {
-        body += node.name.toUpperCase() + '\n' + node.value + '\n\n';
-      });
-      */
-      form.submit();
+      var $form = $(this).closest('form');
+      $form[0].checkValidity();
+      if(!$form[0].reportValidity()) return false;
+      if($("form .dropdown button").text().indexOf("Subject") != -1) {
+        $("form .dropdown button").trigger('click');
+        return false;
+      }
+      $("form .select2:visible.selected").popover('dispose');
+      if($("form .select2:visible:not(.selected)").length > 0) {
+        console.log('incomeplete select2');
+        $("form .select2:visible:not(.selected)").popover({
+          content: "Please make a selection",
+        }).popover('show');
+        return false;
+      }
+      event.preventDefault();
+      form.submit($form);
     });
   },
 
-  submit: function(/*subject, body, name, email*/) {
-    var form = $('form#main-contact');
-    var submitBtn = $("#form-submit");
-    submitBtn.attr("disabled", true);
-    var postURL = form.attr('action');
+  submit: function(contactForm) {
+    var postURL = contactForm.attr('action');
+    console.log('in submit to ' + postURL);
+    $("#form-submit").attr("disabled", true);
+    var data = form.serializeObject(contactForm);
+    data.subject = $("form .dropdown button").text();
+    console.log(data);
 
     $.ajax({
-      method: "POST",
       url: postURL,
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      data: form.serialize()
+      method: "POST",
+      data: data,
+      dataType: "json"
     }).done(function (data) {
-      $(".form-feedback").removeClass('invisible');
-      $('form#main-contact').trigger("reset");
-      console.log(data);
-      submitBtn.attr("disabled", false);
+      $(".form-feedback").removeClass('hidden');
+      contactForm.trigger("reset");
+      $("#form-submit").attr("disabled", false);
     }).fail(function (error) {
-      $(".form-feedback").removeClass('invisible').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
+      $(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
     });
+
+  },
+
+  serializeObject: function($form){
+    var unindexed_array = $form.serializeArray();
+    var indexed_array = {};
+    $.map(unindexed_array, function(n, i){
+        indexed_array[n['name']] = n['value'];
+    });
+    return indexed_array;
   }
 
 };
@@ -237,6 +250,7 @@ $(document).ready(function() {
     } else {
       showExtraForm();
     }
+    $(this).data('item') == 'support' ? $("#form-submit").attr("disabled", true) : $("#form-submit").attr("disabled", false);
     function showExtraForm() {
       $("form .extra-form ."+selection).show();
       $("form .extra-form > div:not(."+selection+")").hide();

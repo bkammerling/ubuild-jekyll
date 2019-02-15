@@ -17,7 +17,7 @@ body {
   h1 {
     body:not(.careers) & {
       font-weight: 400;
-      font-size: 60px;
+      font-size: 55px;
       strong {
         font-weight: 900;
       }
@@ -25,14 +25,16 @@ body {
   }
 
   .video-banner__inner-content {
+    padding: rem(200px) 0 rem(200px);
+    position: relative;
+    min-height: 615px;
     .careers & {
       text-align: center;
     }
-    padding: rem(200px) 0 rem(200px);
     @include rwd(tablet-up) {
       padding: rem(280px) 0 rem(160px);
     }
-    position: relative;
+
   }
 
   .video-banner__title-wrapper {

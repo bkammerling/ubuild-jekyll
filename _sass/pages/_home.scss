@@ -12,12 +12,19 @@ main {
     overflow: hidden;
     //margin-top: rem(100px);
     @include rwd(desktop-up) {
-      background: linear-gradient(
+      background-image: linear-gradient(
         rgba(255, 255, 255, 0) 86%,
         rgba(255, 255, 255, 1) 92%
-      ), url('/uploads/global/3d-city.jpg') no-repeat;
+      ), url('/uploads/global/home_maas.png');
       background-size: 1200px auto;
-      background-position: calc(50vw - 446px) 70px;
+      background-position: calc(50vw - 480px) 70px;
+      background-repeat: no-repeat;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 86%,
+        rgba(255, 255, 255, 1) 92%
+      ), url('/uploads/global/home_maas@2x.png') no-repeat;
     }
   }
 
@@ -56,7 +63,7 @@ main {
         content: '';
         bottom: 0px;
         left: 0;
-        background: url('/uploads/global/3d-city.jpg') no-repeat, linear-gradient(white 1%, transparent 10%, white 50%);
+        background: url('/uploads/global/home_maas.png') no-repeat, linear-gradient(white 1%, transparent 10%, white 50%);
         background-size: 800px auto;
         height: 300px;
         width: 100%;
@@ -88,7 +95,7 @@ main {
       //padding: 0 0 3.75rem;
       .maas-section {
         padding: rem(60px) 0 rem(200px);
-        background: url('/uploads/global/3d-city.jpg') no-repeat;
+        background: url('/uploads/global/home_maas.png') no-repeat;
         background-size: 800px auto;
         border-bottom: 1px solid #e6e6e6;
         &:after {
@@ -115,7 +122,7 @@ main {
     }
 
     @include rwd(desktop-up) {
-      padding: 9.5rem 0 3.125rem;
+      padding: 5.5rem 0 3.125rem;
       #section-carpool, #section-fleet, #section-shuttle {
         padding: 0;
         background: none;
@@ -125,20 +132,20 @@ main {
       }
 
       #section-carpool {
-        padding-bottom: rem(300px);
-        padding-top: rem(80px);
+        padding-bottom: rem(220px);
+        padding-top: 0;
         p {
-          padding-right: rem(50px);
+          //padding-right: rem(50px);
         }
+      }
+      #section-shuttle {
+        padding: 0 0 rem(220px);
       }
       #section-fleet {
         padding-bottom: rem(400px);
         div[class^="col"] {
           padding-left: rem(50px);
         }
-      }
-      #section-shuttle {
-        padding: rem(80px) 0 rem(500px);
       }
     }
 

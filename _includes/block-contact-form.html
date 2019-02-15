@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="contact-form__form">
-          <form id="main-contact" action="https://usebasin.com/f/176b0ad86ef6" method="POST">
+          <form id="main-contact" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
@@ -62,7 +62,7 @@
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
-                  <select class="form-control select2-init" style="width:100%" id="typeSelect" required>
+                  <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Type of company *</option>
                     <option>Operating start-up</option>
                     <option>Non operating start-up</option>
@@ -75,7 +75,7 @@
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
-                  <select class="form-control select2-init" style="width:100%" id="lookingFor" required>
+                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
                     <option disabled selected>What are you looking for? *</option>
                     <option>Deploy and operate shared mobility service</option>
                     <option>Discuss partnership and investment opportunity</option>
@@ -86,7 +86,7 @@
               </div>
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select class="form-control select2-init" style="width:100%" id="vehicleType" required>
+                  <select name="what-vehicle-type" class="form-control select2-init" style="width:100%" id="vehicleType" required=true>
                     <option disabled selected>What kind of vehicle do you want to offer in your fleet? *</option>
                     <option>Scooters</option>
                     <option>Kick Scooters</option>
@@ -98,7 +98,7 @@
               </div>
               <div class="form-group fleet carpool shuttle">
                 <div class="select-wrapper">
-                  <select class="form-control select2-init" style="width:100%" id="launchTimeline" required>
+                  <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
                     <option disabled selected>When (approximately) would you like to launch? *</option>
                     <option>ASAP</option>
                     <option>2-6 months</option>
@@ -109,7 +109,7 @@
               </div>
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
-                  <select class="form-control select2-init" style="width:100%" id="fundingStatus" required>
+                  <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
                     <option disabled selected>What's the funding status of your project? *</option>
                     <option>Privately funded</option>
                     <option>Venture funded</option>
