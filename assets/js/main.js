@@ -164,6 +164,11 @@ var lazyLoadingImages = function () {
   });
 }
 
+var myLazyLoad = new LazyLoad({
+    elements_selector: "img[data-src]"
+});
+
+
 lazyLoadingImages();
 
 var form = {
