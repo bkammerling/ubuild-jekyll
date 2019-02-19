@@ -22,7 +22,7 @@ page_sections:
     button_text: Watch our Aftermovie
     enabled: true
   show_logos: true
-  background_image: "/uploads/global/wms19-bg@2x.png"
+  background_image: "/uploads/global/Image_WMS19@2x.png"
 - block: summit-main
   subdirectory: static
 - template: simple-footer

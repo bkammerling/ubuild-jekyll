@@ -306,6 +306,7 @@ a.circle-arrow {
   justify-content: center;
   padding: rem(15px) 0;
   background-color: $white;
+
   li {
     padding: rem(10px);
     text-align: center;
@@ -319,6 +320,11 @@ a.circle-arrow {
       opacity: 0.6;
       padding-left: rem(15px);
       text-align: left;
+    }
+  }
+  @include rwd(tablet-down) {
+    .col {
+      min-width: 90px;
     }
   }
   @include rwd(tablet-up) {
@@ -715,6 +721,9 @@ main:not(.with-form) ~ footer {
     }
   }
 
+  address {
+    margin-bottom: 1.875rem;
+  }
 
 } //END OF .FOOTER
 

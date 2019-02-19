@@ -59,6 +59,10 @@ footerbottom:
   weight: 2
 
 footer:
+- identifier: HQ
+  title: Wunder HQ
+  col: 3
+  data: company-address
 - identifier: offices
   title: Offices
   col: 3
@@ -76,7 +80,7 @@ footer:
     parent: offices
     newtab: 1
   - identifier: manila
-    url: ''
+    url: #
     weight: 3
     title: Manila
     parent: offices
@@ -84,6 +88,18 @@ footer:
     url: https://goo.gl/wZcded
     weight: 4
     title: Rio de Janeiro
+    parent: offices
+    newtab: 1
+  - identifier: tokyo
+    url: https://www.google.com/maps/place/WeWork/@35.6711701,139.7450182,15z/data=!4m8!1m2!2m1!1sWeWork!3m4!1s0x60188b87b6a8f1df:0xa0a2c83faaf7cd72!8m2!3d35.671183!4d139.753846
+    weight: 4
+    title: Tokyo
+    parent: offices
+    newtab: 1
+  - identifier: san-fran
+    url: https://www.google.com/maps/place/WeWork/@37.7939928,-122.3996171,15z/data=!4m2!3m1!1s0x0:0xf84e9bd61ed43810?ved=2ahUKEwiin7eY5sfgAhUNsqQKHR6iApYQ_BIwDnoECAYQCA
+    weight: 4
+    title: San Francisco
     parent: offices
     newtab: 1
   weight: 1

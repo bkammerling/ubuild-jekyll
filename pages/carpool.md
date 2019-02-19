@@ -17,15 +17,15 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video: jared-drone4
+  background_video:
   show_logos: true
-  background_image: "/uploads/2019/02/08/home-poster.png"
+  background_image: "/uploads/global/Image_Carpool@2x.jpg"
 - block: carpool-main
   subdirectory: static
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
+  content: Let's get your carpool service online ASAP! Drop in your details and our team will get in touch with you in 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
 - template: simple-footer

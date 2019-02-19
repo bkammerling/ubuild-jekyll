@@ -4,7 +4,7 @@ main {
 #section-os {
   margin-top: rem(50px);
   @include rwd(desktop-up) {
-    margin-top: rem(100px);
+    //margin-top: rem(100px);
     padding-bottom: rem(100px);
   }
 }

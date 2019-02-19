@@ -60,16 +60,22 @@
 .bg-box__wrapper {
 
   padding: rem(60px) 0 rem(220px);
-  background: url('/uploads/global/bar-bg.png') no-repeat center center;
+  background: url('/uploads/global/wms_bgphoto_1.jpg') no-repeat center center;
   background-position-x: 90px;
   background-size: cover;
 
   #section-energetic & {
-    background-image: url('/uploads/global/bar-bg.png');
+    background-image: url('/uploads/global/wms_bgphoto_1.jpg');
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/wms_bgphoto_1@2x.jpg');
+    }
   }
   #section-future & {
-    background-image: url('/uploads/global/wms18-speakerbg.png');
+    background-image: url('/uploads/global/wms_bgphoto_2.jpg');
     background-position-y: top;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/wms_bgphoto_2@2x.jpg');
+    }
   }
 
   .bg-box__box {

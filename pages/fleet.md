@@ -17,15 +17,15 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video: jared-drone4
+  background_video:
   show_logos: true
-  background_image: "/uploads/2019/02/08/home-poster.png"
+  background_image: "/uploads/global/Image_Fleet@2x.jpg"
 - block: fleet-main
   subdirectory: static
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We'll get your fleet up and running in no time! Send over some info and we'll be in touch.
+  content: We'll get your fleet up and running in no time! Send over some info and we'll get in touch in the next 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
 - block: custom-html

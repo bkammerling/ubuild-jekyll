@@ -11,21 +11,25 @@ main {
     z-index: 10;
     overflow: hidden;
     //margin-top: rem(100px);
-    @include rwd(desktop-up) {
+    @include rwd(tablet-up) {
       background-image: linear-gradient(
         rgba(255, 255, 255, 0) 86%,
         rgba(255, 255, 255, 1) 92%
       ), url('/uploads/global/home_maas.png');
       background-size: 1200px auto;
-      background-position: calc(50vw - 480px) 70px;
+      background-position: calc(50vw - 540px) 70px;
       background-repeat: no-repeat;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0) 86%,
+          rgba(255, 255, 255, 1) 92%
+        ), url('/uploads/global/home_maas@2x.png') no-repeat;
+      }
     }
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0) 86%,
-        rgba(255, 255, 255, 1) 92%
-      ), url('/uploads/global/home_maas@2x.png') no-repeat;
+    @include rwd(desktop-up) {
+      background-position: calc(50vw - 480px) 70px;
     }
+
   }
 
   #section-maas {
@@ -58,95 +62,47 @@ main {
 
     .maas-section {
       position: relative;
-      &:after {
-        position: absolute;
-        content: '';
-        bottom: 0px;
-        left: 0;
-        background: url('/uploads/global/home_maas.png') no-repeat, linear-gradient(white 1%, transparent 10%, white 50%);
-        background-size: 800px auto;
-        height: 300px;
-        width: 100%;
+      padding: 3rem 0;
+      max-width: 400px;
+      text-align: center;
+      margin: 0 auto;
+      img.mobile-solution-image {
+        transform: translateX(-55px);
       }
-
-      padding: rem(40px) 0 rem(330px);
-      border-bottom: 1px solid #e6e6e6;
-
-      &#section-carpool {
-        &:after {
-          background-position: -230px -12px;
-        }
-      }
-      &#section-fleet {
-        &:after {
-          background-position: 0px -385px;
-          transform: scaleX(-1);
-        }
-      }
-      &#section-shuttle {
-        &:after {
-          background-position: -240px -850px;
-        }
-      }
-
     }
 
     @include rwd(tablet-up) {
-      //padding: 0 0 3.75rem;
-      .maas-section {
-        padding: rem(60px) 0 rem(200px);
-        background: url('/uploads/global/home_maas.png') no-repeat;
-        background-size: 800px auto;
-        border-bottom: 1px solid #e6e6e6;
-        &:after {
-          display: none;
-        }
-      }
-      #section-carpool {
-        background-position: -50px 100px;
-        padding: 60px 0 200px;
-        padding-right: 400px;
-        margin-right: -400px;
-        background-size: 900px auto;
-      }
-      #section-fleet {
-        background-position: 300px -300px;
-        padding-right: 400px;
-        margin-right: -400px;
-      }
-      #section-shuttle {
-        background-position: 50px -800px;
-        padding-right: 300px;
-        margin-right: -300px;
-      }
-    }
-
-    @include rwd(desktop-up) {
       padding: 5.5rem 0 3.125rem;
       #section-carpool, #section-fleet, #section-shuttle {
+        margin: 0;
+        text-align: left;
+        max-width: none;
         padding: 0;
         background: none;
         border-bottom: none;
         padding-right: 0;
-        margin-right: 0;
+
       }
 
       #section-carpool {
-        padding-bottom: rem(220px);
-        padding-top: 0;
+        padding-bottom: rem(180px);
+        padding-top: rem(20px);
         p {
           //padding-right: rem(50px);
         }
       }
       #section-shuttle {
-        padding: 0 0 rem(220px);
+        padding: 0 0 rem(240px);
       }
       #section-fleet {
-        padding-bottom: rem(400px);
+        padding-bottom: rem(300px);
         div[class^="col"] {
           padding-left: rem(50px);
         }
       }
+    }
+    @include rwd(desktop-up) {
+
     }
 
   }

@@ -7,7 +7,9 @@
         <source src="{{ site.url }}/uploads/global/jared-drone4.mp4" type="video/mp4" i>
     </video>
     {% endif %}
-
+    {% if page.dir != "/careers/" and page.title != "Home" and page.title != "Summit" %}
+    <div class="video-banner__overflow"></div>
+    {% endif %}
     <div class="container">
       <div class="row">
         <div class="col {% if page.dir != '/careers/' %}offset-md-1{% endif %}">

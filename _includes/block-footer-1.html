@@ -41,11 +41,19 @@
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 3 %}
               <h4>{{ menu_cat.title }}</h4>
+              {% if menu_cat.items %}
               <ul>
                 {% for menu_item in menu_cat.items %}
                   <li><a href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
                 {% endfor %}
               </ul>
+              {% endif %}
+              {% if menu_cat.data %}
+                {% assign menu_data = site.data.global[menu_cat.data] %}
+                <address>
+                  <p>{{ menu_data }}</p>
+                </address>
+              {% endif %}
             {% endif %}
           {% endfor %}
           </div>
