@@ -3,14 +3,15 @@
   <div class="client-list__wrapper">
     <div class="container container-fullright">
       <ul class="row client-list__logotypes">
-        <li class="col-sm-3">
-          <p>powering <br class="d-none d-sm-block">solutions with</p>
+        <li class="col-2">
+          <p>When & <br class="d-none d-sm-block">Where</p>
         </li>
-        {% for item in site.data.data.partners %}
+        <li class="col-4">
+          <h3><span class="lighter">Date</span><br class="d-lg-none">  November 7th</h3>
+        </li>
         <li class="col">
-            <a title="{{ item.title }}" href="{{ item.url }}" target="_blank"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
+          <h3><span class="lighter">Location </span><br class="d-lg-none">Prototyp Museum Hamburg</h3>
         </li>
-        {% endfor %}
       </ul>
     </div>
   </div>

@@ -69,7 +69,7 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    left: 0px;
+    left: 17px;
     @extend .w-shadow;
     background: $white;
   }
@@ -85,6 +85,10 @@ body {
 }
 
 .press {
+
+  .video-banner {
+    //background-image: url('uploads/global/press-hero-bg.jpg');
+  }
 
   .col-2-in {
     padding: rem(70px) rem(30px) rem(80px);
@@ -108,15 +112,35 @@ body {
     }
 
     h2 {
-      text-transform: capitalize;
-      letter-spacing: 1px;
+      text-transform: none;
+      letter-spacing: 0px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    hr {
+      max-width: 150px;
     }
   }
 
   .block-right-quote {
-    img {
-      width: 200px
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    .right-quote__wrapper {
+      //background: linear-gradient(147.32deg, #07C6EB 0.27%, #06A0E3 53.82%);
     }
+    img {
+      width: 200px;
+      padding: 2rem 4rem 2rem 1rem;
+      //filter: saturate(0);
+      //opacity: 0.5;
+    }
+  }
+
+  blockquote {
+    //color: white;
+    font-weight: 700;
   }
 
 
@@ -366,10 +390,6 @@ a.circle-arrow {
       background-color: $white;
       cursor: pointer;
 
-      &:hover {
-        color: darken($sky-blue, 10%);
-
-      }
     }
   }
 
@@ -452,12 +472,14 @@ a.circle-arrow {
 
   .card-img-overlay {
     transition: box-shadow 0.4s;
+    cursor: pointer;
   }
 
   .card-closed-display {
       max-width: 196px;
       height: 100%;
       position: relative;
+      cursor: pointer;
       .carpool & {
         padding: 2.5rem 1.25rem;
       }
@@ -470,7 +492,7 @@ a.circle-arrow {
   }
 
   .card-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21px;
     margin-bottom: rem(15px);
     opacity: 0;
@@ -485,7 +507,7 @@ a.circle-arrow {
     left: 230px;
     bottom: 25px;
     pointer-events: none;
-    max-height: 100%;
+    max-height: 89%;
     &.raised {
       bottom: 65px;
       left: 222px;
@@ -684,13 +706,17 @@ main:not(.with-form) ~ footer {
 
   }
 
+  .round-cta {
+    font-weight: 800;
+  }
+
   @include rwd(tablet-up ) {
     a {
-      font-size: rem(14px);
       font-weight: 400;
     }
 
     li {
+      font-size: rem(14px);
       padding: rem(2px) 0;
 
       p {

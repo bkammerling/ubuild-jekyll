@@ -41,6 +41,12 @@
 
 }
 
+.summit .client-list__logotypes {
+  h3 {
+    font-size: 18px;
+  }
+}
+
 .summit-main-wrapper {
   overflow: hidden;
   position: relative;
@@ -191,6 +197,11 @@ body.summit .gradient-block .block-full-right {
       color: $olive;
       margin-bottom: rem(40px);
       font-size: 12px;
+    }
+
+
+    .card-img-top {
+      border-radius: 0;
     }
 
     .company {

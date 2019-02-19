@@ -77,12 +77,26 @@ main {
   }
 
   #section-admin {
+    .page-heading {
+      margin-bottom: 1rem;
+    }
+    .single-feature:first-child {
+      margin-bottom: 2.5rem;
+    }
     img.abs-right {
       right: -300px;
       width: calc(100% + 250px);
     }
   }
 }
+
+#section-hardware {
+  img {
+    padding-right: 50px;
+  }
+}
+
+
 
 
 .shuttle .card {
@@ -112,8 +126,8 @@ main {
   #video-btn {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    left: 45px;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
   }
 
   .blockquote {
@@ -146,6 +160,6 @@ main {
 .carpool {
   @include highlight($carpool-highlight);
   .success__wrapper {
-    background: linear-gradient(135.54deg, #45F27A 0.27%, #04DE47 53.82%);
+    background: linear-gradient(135.54deg, #04dE47 0.27%, #00CF40 53.82%);
   }
 }

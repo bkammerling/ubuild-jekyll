@@ -21,7 +21,7 @@ page_sections:
     url: "#"
     button_text: Watch our Aftermovie
     enabled: true
-  show_logos: true
+  show_logos: false
   background_image: "/uploads/global/Image_WMS19@2x.png"
 - block: summit-main
   subdirectory: static

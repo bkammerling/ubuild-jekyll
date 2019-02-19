@@ -17,9 +17,8 @@ page_sections:
     button_text: Press Contact
     url: "#section-contact"
     enabled: true
-  background_video: jared-drone4
   show_logos: true
-  background_image: "/uploads/2019/02/08/home-poster.png"
+  background_image: "/uploads/global/press-hero-bg.jpg"
 - block: press-main
   subdirectory: static
   headline: Featured News

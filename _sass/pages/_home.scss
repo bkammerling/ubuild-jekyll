@@ -51,9 +51,7 @@ main {
   .maas-section {
     p {
       margin: rem(15px) 0;
-      letter-spacing: 0.25px;
-      line-height: 22px;
-
+      line-height: 19px;
     }
   }
 
@@ -152,12 +150,14 @@ main {
     font-weight: 800;
     line-height: 1;
     letter-spacing: 6px;
+    text-transform: lowercase;
     small {
       display: block;
       font-size: 18px;
       font-weight: 200;
       margin: 0 0 0.5rem;
       letter-spacing: 2px;
+      text-transform: uppercase;
     }
 
   }
@@ -227,6 +227,7 @@ main {
     position: absolute;
     bottom: 20px;
     left: 17px;
+    z-index: 15;
 
     p {
       font-size: 12px;
@@ -244,9 +245,9 @@ main {
   }
 
   .image-wrapper {
-    padding: 0 0 100%;
+    padding: 0 0 20%;
     @include rwd(mobile-up) {
-      padding: 0 0 80%;
+      padding: 0 0 20%;
     }
     overflow: hidden;
     position: relative;
@@ -255,6 +256,15 @@ main {
       left: 50%;
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
+    }
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: linear-gradient(transparent 60%, #FFF 80%) left repeat;
     }
   }
 

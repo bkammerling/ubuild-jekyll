@@ -9,33 +9,35 @@
               {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"   %}
             {% else %}
               <!--{% assign articles = site.articles | where_exp:"item", "section.items contains item.path" | sort: "date"  %}-->
-              {% assign articles = site.articles | sort: "date" %}
+              {% assign articles = site.articles | sort: "date" | reverse  %}
             {% endif %}
-            {% for item in articles %}
+            {% for item in articles limit:6 %}
             <!-- #Start Image-Caption Item -->
             <div class="image-captions__item w-shadow {% if item.url %}w-arrow{% endif %}">
               <div class="image-captions__image">
                 <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" />
               </div>
-              <div class="image-captions__content">
-                <div class="image-captions__title">
-                  {% if item.icon %}
-                    <img src="{{ item.icon }}" />
+              <a href="{{ item.link }}" target="_blank">
+                <div class="image-captions__content">
+                  <div class="image-captions__title">
+                    {% if item.icon %}
+                      <img src="{{ item.icon }}" />
+                    {% endif %}
+                    {% if item.date %}
+                      <div class="article-date">{{ item.date | date: "%d.%m.%Y" }}</div>
+                    {% endif %}
+                    <h4>{{ item.title }}</h4>
+                  </div>
+                  <!--
+                  {% unless item.content.size > 10 and item.content contains "uploads"  %}
+                  <p>{{ item.content | truncate: 100 }}</p>
+                  {% endunless %}
+                  -->
+                  {% if item.link %}
+                  <a href="{{ item.link }}" class="circle-arrow" target="_blank"></a>
                   {% endif %}
-                  {% if item.date %}
-                    <div class="article-date">{{ item.date | date: "%d.%m.%Y" }}</div>
-                  {% endif %}
-                  <h4>{{ item.title }}</h4>
                 </div>
-                <!--
-                {% unless item.content.size > 10 and item.content contains "uploads"  %}
-                <p>{{ item.content | truncate: 100 }}</p>
-                {% endunless %}
-                -->
-                {% if item.link %}
-                <a href="{{ item.link }}" class="circle-arrow" target="_blank"></a>
-                {% endif %}
-              </div>
+              </a>
             </div>
             <!-- #End Image-Caption Item -->
             {% endfor %}

@@ -36,15 +36,30 @@ videoPlayer.init();
 /* SVG ANIMATIONS (IF ANY) */
 var animation = {
   init: function() {
-    this.anim = bodymovin.loadAnimation({
+    this.anim1 = bodymovin.loadAnimation({
       container: document.getElementById("product-anim"),
       renderer: 'svg',
       loop: true,
       autoplay: true,
       path: '/assets/animdata/data.json' // the path to the animation json
     });
-    this.anim.addEventListener('onLoopComplete', animation.doLoopComplete);
+    this.setAnim("london-anim", "/assets/animdata/cities/London/data.json");
+    this.setAnim("manila-anim", "/assets/animdata/cities/Manila/data.json");
+    this.setAnim("auckland-anim", "/assets/animdata/cities/Auckland/data.json");
+    this.setAnim("rio-anim", "/assets/animdata/cities/Rio/data.json");
+    this.setAnim("atlanta-anim", "/assets/animdata/cities/Atlanta/data.json");
+    //this.anim.addEventListener('onLoopComplete', animation.doLoopComplete);
     console.log(animation.anim);
+  },
+  setAnim: function(id, jsonFile) {
+    this.anim = bodymovin.loadAnimation({
+      container: document.getElementById(id),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: jsonFile // the path to the animation json
+    });
+    this.anim.setSpeed(0.7);
   },
   currentDirection: 1,
   doLoopComplete: function(e) {
@@ -261,6 +276,9 @@ $(document).ready(function() {
 
   if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
     $("form .dropdown a[data-id='"+pagetitle.toLowerCase()+"']").trigger('click');
+  }
+  if(pagetitle == "Home") {
+    $("form .dropdown a[data-id='general']").trigger('click');
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {
