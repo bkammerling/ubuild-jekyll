@@ -12,7 +12,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: The most powerful <strong>Smart Shuttle technology</strong> in Europe
+  headline: The most powerful <strong>Smart Shuttle technology</strong> in the world
   cta:
     button_text: Contact Us
     url: "#section-contact"
