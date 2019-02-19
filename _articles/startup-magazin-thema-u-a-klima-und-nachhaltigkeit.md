@@ -4,6 +4,6 @@ title: 'Startup Magazin - Thema U.A: Klima und Nachhaltigkeit'
 date: 2018-11-23 23:00:00 +0000
 lang: de
 image: "/uploads/2019/02/01/logo-ntv@2x.png"
-featured: true
+featured: false
 
 ---
