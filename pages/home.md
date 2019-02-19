@@ -12,7 +12,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology to build, innovate and scale <strong>shared mobility</strong>.
+  headline: Technology to build, innovate and scale <strong>shared mobility</strong>
   cta:
     button_text: Contact Us
     url: "#section-contact"
@@ -31,14 +31,14 @@ page_sections:
   headline: We're being talked about
   items: []
   show_featured: true
+- block: custom-html
+  content: "</main>"
 - template: detail-content
   block: contact-form
   title: Let's Talk
   content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
-- block: custom-html
-  content: "</main>"
 - template: simple-footer
   block: footer-1
 

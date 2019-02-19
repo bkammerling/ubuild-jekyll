@@ -15,7 +15,7 @@ main {
       background-image: linear-gradient(
         rgba(255, 255, 255, 0) 86%,
         rgba(255, 255, 255, 1) 92%
-      ), url('/uploads/global/home_maas.png');
+      ), url('/uploads/global/home_maas.jpg');
       background-size: 1200px auto;
       background-position: calc(50vw - 540px) 70px;
       background-repeat: no-repeat;
@@ -23,7 +23,7 @@ main {
         background-image: linear-gradient(
           rgba(255, 255, 255, 0) 86%,
           rgba(255, 255, 255, 1) 92%
-        ), url('/uploads/global/home_maas@2x.png') no-repeat;
+        ), url('/uploads/global/home_maas@2x.jpg') no-repeat;
       }
     }
     @include rwd(desktop-up) {

@@ -101,7 +101,9 @@
 
     .image-captions__image img {
       max-width: 100%;
-      max-height: 50px;
+      body:not(.careers) & {
+        max-height: 50px;
+      }
     }
     @include rwd(mobile-up) {
       flex: 1 1 47%;

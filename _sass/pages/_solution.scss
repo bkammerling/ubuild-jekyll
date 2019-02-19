@@ -1,6 +1,8 @@
 main {
 }
 
+
+
 #section-os {
   margin-top: rem(50px);
   @include rwd(desktop-up) {
@@ -153,12 +155,21 @@ main {
 
 .fleet {
   @include highlight($fleet-highlight);
+  .video-banner {
+    background-position: center bottom;
+  }
 }
 .shuttle {
   @include highlight($shuttle-highlight);
+  .video-banner {
+    background-position: center bottom;
+  }
 }
 .carpool {
   @include highlight($carpool-highlight);
+  .video-banner {
+    background-position: center bottom;
+  }
   .success__wrapper {
     background: linear-gradient(135.54deg, #04dE47 0.27%, #00CF40 53.82%);
   }
