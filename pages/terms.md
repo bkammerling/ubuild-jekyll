@@ -7,8 +7,6 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-- block: one-column-1
-  content: "<h2>Terms</h2><p>Hey there folks</p>"
 - template: 1-column-text
   block: one-column-1
   content: <strong>TERMS &amp; CONDITIONS</strong>These terms and conditions (“Terms
