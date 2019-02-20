@@ -230,6 +230,9 @@ var form = {
     }).done(function (data) {
       $(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
+      contactForm.find('.form-group').removeClass('focused').removeClass('valid');
+      $('.select2-init').select2('destroy');
+      form.initializeSelect2('.select2-init');
       $("#form-submit").attr("disabled", false);
     }).fail(function (error) {
       $(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
@@ -244,6 +247,16 @@ var form = {
         indexed_array[n['name']] = n['value'];
     });
     return indexed_array;
+  },
+
+  initializeSelect2: function(selector) {
+    $(selector).select2({
+      minimumResultsForSearch: Infinity,
+      placeholder: $(this).attr("placeholder")
+    });
+    $(selector).on('select2:select', function (e) {
+      $(this).siblings('.select2').addClass('selected');
+    });
   }
 
 };
@@ -251,14 +264,7 @@ var form = {
 form.init();
 
 $(document).ready(function() {
-  $('.select2-init').select2({
-    minimumResultsForSearch: Infinity,
-    placeholder: $(this).attr("placeholder")
-  });
-  $('.select2-init').on('select2:select', function (e) {
-    $(this).siblings('.select2').addClass('selected');
-  });
-
+  form.initializeSelect2('.select2-init');
   $("form .dropdown a").click(function(e) {
     var selection = $(this).data('id');
     console.log(selection);

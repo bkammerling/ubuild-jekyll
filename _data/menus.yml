@@ -13,17 +13,17 @@ wunder-main:
   identifier: summit
   title: Summit
 - url: "/shuttle"
-  weight: 3
+  weight: 2
   parent: solutions
   identifier: shuttle
   title: Shuttle
 - url: "/carpool"
-  weight: 2
+  weight: 1
   parent: solutions
   identifier: carpool
   title: Carpool
 - url: "/fleet"
-  weight: 1
+  weight: 3
   parent: solutions
   identifier: fleet
   title: Fleet
@@ -148,18 +148,18 @@ footer:
   col: 1
   weight: 4
   items:
-  - identifier: fleet
-    url: "/fleet"
-    weight: 1
-    title: Wunder Fleet
-    parent: solutions
   - identifier: carpool
     url: "/carpool"
-    weight: 2
+    weight: 1
     title: Wunder Carpool
     parent: solutions
   - identifier: shuttle
     url: "/shuttle"
-    weight: 3
+    weight: 2
     title: Wunder Shuttle
+    parent: solutions
+  - identifier: fleet
+    url: "/fleet"
+    weight: 3
+    title: Wunder Fleet
     parent: solutions
