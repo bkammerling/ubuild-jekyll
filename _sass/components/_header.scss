@@ -467,3 +467,14 @@
     }
   }
 }
+
+
+@include rwd(tablet-down) {
+  body:not(.careers) {
+
+    .video-banner h1.video-banner__title {
+        font-size: 35px;
+    }
+
+  }
+}
