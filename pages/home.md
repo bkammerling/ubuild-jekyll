@@ -19,7 +19,7 @@ page_sections:
     enabled: true
   cta_2:
     url: "https://vimeo.com/318402556"
-    button_text: Watch our Brand Film
+    button_text: Watch our Film
     enabled: true
   background_video: jared-drone4
   show_logos: true

@@ -183,4 +183,24 @@ p, a, h4, h3, h2, h1, li, span, div {
       }
     }
   }
+
+  &.with-play {
+    background-color: $white;
+    color: $olive-matt;
+    padding-right: 60px;
+    &:after {
+      content: '';
+      display: inline-block;
+      background: url('/uploads/global/play-circle.svg') no-repeat;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      margin-left: 15px;
+      background-size: contain;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
 }

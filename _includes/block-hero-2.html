@@ -20,7 +20,7 @@
                 <a class="round-cta dark" href="{{ section.cta.url }}" {% if page.title == 'Summit' %}data-toggle="modal" data-target="#summitModal" data-subject="attend"{% endif %}>{{ section.cta.button_text }}</a>
                 {% endif %}
                 {% if section.cta_2.enabled %}
-                <a class="round-cta clear no-arrow" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
+                <a class="round-cta no-arrow{% if section.cta_2.button_text contains 'Film'%} with-play{% else %} clear{% endif %}" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
                 {% endif %}
             </div>
           </div>

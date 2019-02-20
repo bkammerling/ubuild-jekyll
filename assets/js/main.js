@@ -36,13 +36,7 @@ videoPlayer.init();
 /* SVG ANIMATIONS (IF ANY) */
 var animation = {
   init: function() {
-    this.anim1 = bodymovin.loadAnimation({
-      container: document.getElementById("product-anim"),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: '/assets/animdata/data.json' // the path to the animation json
-    });
+    this.setAnim("product-anim", '/assets/animdata/data.json');
     this.setAnim("london-anim", "/assets/animdata/cities/London/data.json");
     this.setAnim("manila-anim", "/assets/animdata/cities/Manila/data.json");
     this.setAnim("auckland-anim", "/assets/animdata/cities/Auckland/data.json");
@@ -52,6 +46,7 @@ var animation = {
     console.log(animation.anim);
   },
   setAnim: function(id, jsonFile) {
+    if(document.getElementById(id) == null) return false;
     this.anim = bodymovin.loadAnimation({
       container: document.getElementById(id),
       renderer: 'svg',
