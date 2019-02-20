@@ -63,13 +63,27 @@ body {
 
 .block-one-column-1 {
     min-height: 700px;
+    .container {
+      margin: 50px auto 200px;
+    }
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    ul {
+      margin-bottom: 2rem;
+    }
+    li > p {
+      margin-bottom: 0.5rem;
+    }
 }
 
 .nav-padding {
   height: 180px;
   width: 100%;
   background-color: $olive-matt;
-  margin-bottom: 60px;
 }
 
 .block-hero-2 {

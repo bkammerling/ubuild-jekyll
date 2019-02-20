@@ -50,12 +50,15 @@ career:
 footerbottom:
 - identifier: privacy
   title: Privacy
+  url: "/privacy"
   weight: 1
 - identifier: imprint
   title: Imprint
+  url: "/imprint"
   weight: 3
 - identifier: terms
   title: Terms & Conditions
+  url: "/terms"
   weight: 2
 
 footer:
