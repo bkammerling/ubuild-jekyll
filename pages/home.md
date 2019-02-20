@@ -18,7 +18,7 @@ page_sections:
     url: "#section-contact"
     enabled: true
   cta_2:
-    url: "#"
+    url: "https://vimeo.com/318402556"
     button_text: Watch our Brand Film
     enabled: true
   background_video: jared-drone4

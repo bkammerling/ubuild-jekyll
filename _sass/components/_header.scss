@@ -443,7 +443,9 @@
   &.bg-from-below {
     a {
       body .absolute-header & {
-        color: $white;
+        @include rwd(tablet-up) {
+          color: $white;
+        }
       }
     }
     &:after {
@@ -453,6 +455,15 @@
       &:after {
         background-color: $dark-blue;
       }
+    }
+  }
+  @include rwd(tablet-down) {
+    margin-left: 1.25rem;
+    a {
+      color: $olive-matt;
+    }
+    &.bg-from-below:after {
+        display: none;
     }
   }
 }

@@ -12,18 +12,12 @@ main {
     overflow: hidden;
     //margin-top: rem(100px);
     @include rwd(tablet-up) {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0) 86%,
-        rgba(255, 255, 255, 1) 92%
-      ), url('/uploads/global/home_maas.jpg');
+      background-image: url('/uploads/global/home_maas.jpg');
       background-size: 1200px auto;
       background-position: calc(50vw - 540px) 70px;
       background-repeat: no-repeat;
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-image: linear-gradient(
-          rgba(255, 255, 255, 0) 86%,
-          rgba(255, 255, 255, 1) 92%
-        ), url('/uploads/global/home_maas@2x.jpg') no-repeat;
+        background-image: url('/uploads/global/home_maas@2x.jpg') no-repeat;
       }
     }
     @include rwd(desktop-up) {
@@ -257,14 +251,17 @@ main {
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
     }
-    &:before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-      background: linear-gradient(transparent 60%, #FFF 80%) left repeat;
+    .cities__wrapper & {
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0.001) 60%, #fff 80%);
+        background: linear-gradient(top, rgba(255,255,255,0.001) 60%, #fff 80%);
+      }
     }
   }
 
