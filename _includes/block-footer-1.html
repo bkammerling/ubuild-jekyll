@@ -71,12 +71,12 @@
       </div>
 
       <div class="footer__bottom">
-          <ul>
-            <li>© {{ site.title }} {{ site.time | date: '%Y' }}</li>
-            {% for menu_item in site.menus.footerbottom %}
-              <li><a href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
-            {% endfor %}
-          </ul>
+        <ul>
+          <li>© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+          {% for menu_item in site.menus.footerbottom %}
+            <li><a href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+          {% endfor %}
+        </ul>
       </div>
 
   </div>

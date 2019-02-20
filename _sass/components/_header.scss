@@ -88,7 +88,8 @@
 .grouped-logo {
   display: flex;
   align-items: self-start;
-  z-index: 10;
+  position: relative;
+  z-index: 1000;
   width: 224px;
   overflow: hidden;
   //animation: logo-change 3s 2s;
@@ -460,7 +461,10 @@
   @include rwd(tablet-down) {
     margin-left: 1.25rem;
     a {
-      color: $olive-matt;
+      color: $white;
+      .navbar-narrow & {
+        color: $olive-matt;
+      }
     }
     &.bg-from-below:after {
         display: none;

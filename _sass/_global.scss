@@ -46,17 +46,7 @@ body {
     p {
       font-weight: 500;
     }
-    .round-cta {
-      margin-bottom: rem(15px);
-      & + .round-cta {
-        margin-left: 0;
-        display: block;
-        @include rwd(tablet-up) {
-          margin-left: 1.25rem;
-          display: inline-block;
-        }
-      }
-    }
+
   }
 }
 
@@ -94,9 +84,12 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    left: 17px;
+    left: 0px;
     @extend .w-shadow;
     background: $white;
+    @include rwd(tablet-up) {
+      left: 17px;
+    }
   }
 }
 
@@ -268,6 +261,8 @@ body {
   transition: all 0.2s linear;
   max-width: 270px;
   cursor: pointer;
+  margin-right: 1rem;
+  margin-bottom: rem(15px);
 
   &:not(.no-arrow) {
     padding: rem(13px) rem(65px) rem(11px) rem(30px);
@@ -319,10 +314,6 @@ body {
       background-color: rgba(255,255,255,0.2);
     }
   }
-
-   + .round-cta {
-     margin-left: rem(20px);
-   }
 
    &:disabled {
      opacity: 0.4;
@@ -701,7 +692,7 @@ main:not(.with-form) ~ footer {
 
   a {
     color: $white;
-    font-weight: $font-bold;
+    font-weight: 400;
 
     &:hover {
       text-decoration: underline;
@@ -734,11 +725,7 @@ main:not(.with-form) ~ footer {
     font-weight: 800;
   }
 
-  @include rwd(tablet-up ) {
-    a {
-      font-weight: 400;
-    }
-
+  @include rwd(tablet-up) {
     li {
       font-size: rem(14px);
       padding: rem(2px) 0;
@@ -751,6 +738,13 @@ main:not(.with-form) ~ footer {
         font-size: rem(10px);
       }
     }
+  }
+  @include rwd(tablet-down) {
+    li {
+      padding: rem(4px) 0;
+      font-size: rem(14px);
+    }
+
   }
 
   .careers & {
@@ -805,10 +799,11 @@ main:not(.with-form) ~ footer {
 
   ul {
     margin-top: rem(20px);
+    margin-left: 15px;
   }
 
   li:first-child {
-    margin-bottom: rem(30px);
+    //margin-bottom: rem(30px);
   }
 
   a {

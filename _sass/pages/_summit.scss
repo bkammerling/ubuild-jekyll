@@ -43,7 +43,12 @@
 
 .summit .client-list__logotypes {
   h3 {
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    @include rwd(tablet-up) {
+      font-size: 18px;
+      line-height: 22px;
+    }
   }
 }
 

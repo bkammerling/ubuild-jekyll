@@ -18,7 +18,7 @@ page_sections:
     url: "#"
     enabled: true
   cta_2:
-    url: "#"
+    url: "#section-aftermovie"
     button_text: Watch our Aftermovie
     enabled: true
   show_logos: false
