@@ -130,6 +130,18 @@
             <button id="form-submit" class="dark round-cta">Send it!</button>
           </form>
           <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+
+          {% if page.title == 'Press' %}
+          <div class="press-contact d-sm-flex mt-5 pt-5 pt-sm-5 align-items-sm-end">
+            <img class="mr-4" data-src="/uploads/global/Photo_Daniel.jpg" data-srcset="/uploads/global/Photo_Daniel@2x.jpg 2x" />
+            <div class="press-contact__info mt-3 mt-sm-0">
+              <p class="mb-3"><strong>Press Contact</strong></p>
+              <h3>Daniel Hölzer</h3>
+              <p>E-mail: <a href="mailto:daniel.hoelzer@wundermobility.com" title="Email Wunder's press contact Daniel">daniel.hoelzer@wundermobility.com</a></p>
+            </div>
+          </div>
+          {% endif %}
+
         </div>
       </div>
     </div>
