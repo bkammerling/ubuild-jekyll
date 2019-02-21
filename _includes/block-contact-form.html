@@ -11,6 +11,7 @@
         </div>
         <div class="contact-form__form">
           <form id="main-contact" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
+            <input type="hidden" name="firstname" id="recipient-firstname">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
@@ -37,6 +38,20 @@
                 </div>
               </div>
             </div>
+            <div class="form-group">
+              <div class="select-wrapper">
+                <select name="subject" class="form-control select2-init" style="width:100%" id="subject-field" required>
+                  <option disabled selected>Subject *</option>
+                  <option data-id="carpool">Wunder Carpool</option>
+                  <option data-id="shuttle">Wunder Shuttle</option>
+                  <option data-id="fleet">Wunder Fleet</option>
+                  <option data-id="general">General enquiry</option>
+                  <option data-id="support">Wunder Carpool app support</option>
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            <!--
             <div class="dropdown">
               <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Subject
@@ -49,6 +64,7 @@
                 <a class="dropdown-item" data-item="support" data-id="support">Wunder Carpool app support</a>
               </div>
             </div>
+            -->
             <div class="hidden extra-form">
               <div class="form-group general">
                 <label class="form-label" for="message">Message</label>
@@ -127,9 +143,12 @@
                 </div>
               </div>
             </div>
-            <button id="form-submit" class="dark round-cta">Send it!</button>
+            <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
+              Send it!
+            </button>
+            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
           </form>
-          <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+
 
           {% if page.title == 'Press' %}
           <div class="press-contact d-sm-flex mt-5 pt-5 pt-sm-5 align-items-sm-end">

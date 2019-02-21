@@ -325,7 +325,13 @@ main {
       max-width: 1200px;
   }
 
-  body.modal-open.home main > *:not(.modal), body.modal-open.home .block-hero-2, body.modal-open.home .header {
+/*
+  .maas-wrapper, .block-hero-2, header {
+    transition: filter 0.4s;
+  }
+  &.modal-open .maas-wrapper, &.modal-open .block-hero-2, &.modal-open header {
     filter: blur(15px);
   }
+*/
+
 }

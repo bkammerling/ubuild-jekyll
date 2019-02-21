@@ -7,18 +7,22 @@ AOS.init({
 var videoPlayer = {
   player: null,
   init: function() {
-    player = new Plyr('#player', {
+    this.player = new Plyr('#player', {
       controls: ['play','progress','volume','fullscreen'],
       clickToPlay: true,
       hideControls: true,
       resetOnEnd: true,
+      fullscreen: { enabled: true, fallback: 'force', iosNative: true }
     });
-    player.on('ready', event => {
-      player.toggleControls(false);
-      player.poster = "/img/careers/hrvideo-poster3.png";
+    this.player.on('ready', event => {
+      if(!$("body").hasClass("home")) {
+        this.player.toggleControls(false);
+      } else {
+        $("#player").css('pointerEvents', 'auto');
+      }
     });
-    player.on('ended', event => {
-      player.restart();
+    this.player.on('ended', event => {
+      this.player.restart();
     });
     $("#video-btn").click(function() {
       videoPlayer.startPlay();
@@ -27,8 +31,8 @@ var videoPlayer = {
     });
   },
   startPlay: function() {
-    player.toggleControls();
-    player.play();
+    if(!$("body").hasClass("home")) this.player.toggleControls();
+    this.player.play();
   }
 }
 videoPlayer.init();
@@ -63,14 +67,8 @@ var animation = {
     anim.addEventListener('onLoopComplete', this.doLoopComplete);
   }
 };
-
 if($(".animated-svg").length) animation.init();
 
-function doLoopComplete(e) {
-  console.log(e.direction);
-  animation.setDirection(e.direction*-1);
-  animation.addEventListener('loopComplete', doLoopComplete);
-}
 
 
 var slider = {
@@ -188,25 +186,6 @@ var form = {
       }
     });
 
-    $("#form-submit").click(function(event)  {
-      var $form = $(this).closest('form');
-      $form[0].checkValidity();
-      if(!$form[0].reportValidity()) return false;
-      if($("form .dropdown button").text().indexOf("Subject") != -1) {
-        $("form .dropdown button").trigger('click');
-        return false;
-      }
-      $("form .select2:visible.selected").popover('dispose');
-      if($("form .select2:visible:not(.selected)").length > 0) {
-        console.log('incomeplete select2');
-        $("form .select2:visible:not(.selected)").popover({
-          content: "Please make a selection",
-        }).popover('show');
-        return false;
-      }
-      event.preventDefault();
-      form.submit($form);
-    });
   },
 
   submit: function(contactForm) {
@@ -214,7 +193,8 @@ var form = {
     console.log('in submit to ' + postURL);
     $("#form-submit").attr("disabled", true);
     var data = form.serializeObject(contactForm);
-    data.subject = $("form .dropdown button").text();
+    data.subject = $("form #subject-field").val();
+    delete data.firstname;
     console.log(data);
 
     $.ajax({
@@ -223,15 +203,18 @@ var form = {
       data: data,
       dataType: "json"
     }).done(function (data) {
-      $(".form-feedback").removeClass('hidden');
+      contactForm.find(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
       $('.select2-init').select2('destroy');
       form.initializeSelect2('.select2-init');
       $("#form-submit").attr("disabled", false);
+      console.log(data);
     }).fail(function (error) {
-      $(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
+      console.log(error);
+      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
     });
+
 
   },
 
@@ -252,59 +235,46 @@ var form = {
     $(selector).on('select2:select', function (e) {
       $(this).siblings('.select2').addClass('selected');
     });
+  },
+
+  htmlValidityCheck: function($form) {
+    $form[0].checkValidity();
+    // Honeypot check
+    if($("#recipient-firstname").val().length != 0) return false;
+    return $form[0].reportValidity();
+  },
+  customValidityChecks: function($form) {
+    if($form.parents('.modal').length > 0) return true;
+    $form.find(".select2:visible.selected").popover('dispose');
+    if($form.find(".select2:visible:not(.selected)").length > 0) {
+      console.log('incomeplete select2');
+      $form.find(".select2:visible:not(.selected)").popover({
+        content: "Please make a selection",
+      }).popover('show');
+      return false;
+    } else {
+      return true;
+    }
   }
 
 };
 
 form.init();
 
-$(document).ready(function() {
-  form.initializeSelect2('.select2-init');
-  $("form .dropdown a").click(function(e) {
-    var selection = $(this).data('id');
-    console.log(selection);
-    $("form .dropdown button").text($(this).data('item'));
-    if($("form .extra-form").is(":visible")) {
-      $("form .extra-form").slideUp(function() {
-          showExtraForm();
-      });
-    } else {
-      showExtraForm();
-    }
-    $(this).data('item') == 'support' ? $("#form-submit").attr("disabled", true) : $("#form-submit").attr("disabled", false);
-    function showExtraForm() {
-      $("form .extra-form ."+selection).show();
-      $("form .extra-form > div:not(."+selection+")").hide();
-      //$("form .extra-form").show();
-      $("form .extra-form").slideDown();
-    }
-  });
+function formSubmit(e) {
+  e.preventDefault();
+  var $form = $(e.target).closest("form");
+  if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) form.submit($form);
+}
 
-  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
-    $("form .dropdown a[data-id='"+pagetitle.toLowerCase()+"']").trigger('click');
-  }
-  if(pagetitle == "Home") {
-    $("form .dropdown a[data-id='general']").trigger('click');
-  }
 
-  $('#summitModal').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget) // Button that triggered the modal
-    var subject = button.data('subject') // Extract info from data-* attributes
-    var modal = $(this);
-    modal.find('.modal-title').text('Apply to ' + subject + ' WMS 2019');
-    modal.find('.modal-body #wms-subject').val(subject);
-  });
-
-});
-
+/* Pull job list from Greenhouse and add filters etc */
 
 var jobs = {
-
   filters: {
     location: '',
     departments: ''
   },
-
   init: function() {
     var currentJobsHtml;
     var urlParams = new URLSearchParams(window.location.search);
@@ -333,15 +303,12 @@ var jobs = {
     });
 
   },
-
   buildJobsList: function(jobData = this.jobArray) {
     this.clear();
     var jobHTML = this.makeHTML(jobData);
     $(".job-list__listing").append(jobHTML);
   },
-
   jobArray: null,
-
   makeHTML: function(jobData = this.jobArray) {
     console.log(jobData);
     if(jobData.length < 1) return '<p>😳 Sorry, no positions currently available.</p>';
@@ -369,7 +336,6 @@ var jobs = {
     } // end of for loop
     return jobListHTML;
   },
-
   filterJobs: function() {
     var filteredJobs = this.jobArray.filter(function(item) {
         //if(jobs.filters[key] == '') continue;
@@ -377,30 +343,15 @@ var jobs = {
     });
     return filteredJobs;
   },
-
   clear: function() {
     $(".job-list__listing .job-list__item:not(.hidden), .job-list__listing > p").remove();
   },
-
   strip: function(html) {
     var tmp = document.createElement("DIV");
     tmp.innerHTML = html;
     return tmp.textContent || tmp.innerText || "";
-  },
-
-  // FEB 2019 - no sorting by department is used
-  sortByDepartment: function(array) {
-    array.sort(function(a,b) {
-      var depA = a.departments[0].name;
-      var depB = b.departments[0].name;
-      if (depA < depB) return -1;
-      if (depA > depB) return 1;
-      return 0;
-    });
-    return array;
   }
 };
-
 if(pagetitle == "Jobs") jobs.init();
 
 
@@ -425,7 +376,6 @@ var accordion = {
 accordion.init();
 
 
-
 var maxItems = {
   init: function() {
     var classes = $('.max-items').attr('class').split(" ");
@@ -439,7 +389,6 @@ var maxItems = {
     accordion.init();
   }
 }
-
 if($(".max-items").length>0) maxItems.init();
 
 
@@ -447,11 +396,9 @@ var contentDropdown = {
   init: function() {
     $(".content-dropdown .content-dropdown__opener a").click(function() {
       $(this).parents().find(".content-dropdown").toggleClass("active").find(".content-dropdown__content").slideToggle();
-
     })
   }
 }
-
 if($(".content-dropdown").length>0) contentDropdown.init();
 
 
@@ -531,6 +478,7 @@ var benefits = {
 }
 if(pagetitle == "Careers") benefits.init();
 
+
 var scroller = {
   header: $("nav.absolute-header"),
   menuCta: $(".menu-item-cta"),
@@ -573,33 +521,82 @@ var scroller = {
     //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
   }
 }
-
 scroller.init();
 
 
-// Select all links with hashes
-$('a[href*="#"]')
-// Remove links that don't actually link to anything
-.not('[href="#"]')
-.not('[href="#0"]')
-.click(function(event) {
-  event.preventDefault();
-  // On-page links
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    var topOffset = 250;
-    if(this.hash.indexOf('contact')!= -1) {
-      topOffset = -200;
-    }
-    // Does a scroll target exist?
-    if (target.length) {
-      // Only prevent default if animation is actually gonna happen
-      event.preventDefault();
-      $('html, body').animate({
-        scrollTop: target.offset().top - topOffset
-      }, 600, function() {
-        // Callback after animation
-      });
 
+/* Set up JS listeners etc. that need to be initiated after site is loaded */
+
+$(document).ready(function() {
+  form.initializeSelect2('.select2-init');
+
+  $("select#subject-field").on('change', function(e) {
+    var $optionSelected = $("option:selected", this);
+    var selection = $optionSelected.data('id');
+    console.log(selection);
+    if($("form .extra-form").is(":visible")) {
+      $("form .extra-form").slideUp(function() {
+          showExtraForm();
+      });
+    } else {
+      showExtraForm();
+    }
+    selection == 'support' ? $("#form-submit").attr("disabled", true) : $("#form-submit").attr("disabled", false);
+    function showExtraForm() {
+      $("form .extra-form ."+selection).show();
+      $("form .extra-form > div:not(."+selection+")").hide();
+      //$("form .extra-form").show();
+      $("form .extra-form").slideDown();
+    }
+  });
+
+  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
+    $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
+    $('select#subject-field').trigger('change.select2').trigger('change');
   }
+  if(pagetitle == "Home") {
+    $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
+    $('select#subject-field').trigger('change.select2').trigger('change');
+  }
+
+  $('#summitModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var subject = button.data('subject') // Extract info from data-* attributes
+    var modal = $(this);
+    modal.find('.modal-title').text('Apply to ' + subject + ' WMS 2019');
+    modal.find('.modal-body #subject-field').val('Apply to ' + subject + ' WMS 2019');
+  });
+
+  $('#filmModal').on('hidden.bs.modal', function (e) {
+    videoPlayer.player.pause();
+  }).on('show.bs.modal', function (e) {
+    videoPlayer.player.play();
+  });
+
+  // Select all links with hashes
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    event.preventDefault();
+    // On-page links
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      var topOffset = 250;
+      if(this.hash.indexOf('contact')!= -1) {
+        topOffset = -200;
+      }
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top - topOffset
+        }, 600, function() {
+          // Callback after animation
+        });
+    }
+  });
+
 });
