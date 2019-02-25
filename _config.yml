@@ -9,6 +9,8 @@ url: "https://wundermobility.com" # your site's origin, e.g. https://forestry.io
 collections:
   - articles
 
+include: ['_redirects']
+
 # Build settings
 defaults:
   - scope:
