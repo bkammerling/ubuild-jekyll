@@ -4,7 +4,7 @@ email: website@wundermobility.com
 description: >-
   A smart mobility marketplace and tech platform providing carpooling, smart shuttles, and scooter/car-sharing to end customers, corporates, and cities.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://wundermobility.com" # your site's origin, e.g. https://forestry.io
+url: "https://www.wundermobility.com" # your site's origin, e.g. https://forestry.io
 
 collections:
   - articles
@@ -21,6 +21,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-menus
+  - jekyll-sitemap
 sass:
   sass_dir: _sass
 
