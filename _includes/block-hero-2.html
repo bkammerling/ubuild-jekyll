@@ -3,7 +3,7 @@
 
     {% if section.background_video %}
     <div class="video-banner__overflow"></div>
-    <video autoplay playsinline loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
+    <video autoplay playsinline loop muted class="video-banner__video" id="videoBg">
         <source src="{{ site.url }}/uploads/global/{{ section.background_video }}.mp4" type="video/mp4" />
     </video>
     {% endif %}

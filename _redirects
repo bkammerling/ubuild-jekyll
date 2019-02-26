@@ -16,6 +16,7 @@
 /carpool-app   https://help.wunder.org  301
 /about  /  301
 /meetup  /summit  301
+/terms-conditions  /terms  301
 
 # Redirect default Netlify subdomain to primary domain
 https://wundermobility-com.netlify.com/* https://www.wundermobility.com/:splat 301!
