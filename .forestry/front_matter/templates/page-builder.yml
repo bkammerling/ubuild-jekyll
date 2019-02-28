@@ -41,9 +41,9 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- pages/careers/careers.md
 - pages/terms.md
 - pages/careers/locations.md
 - pages/home.md
 - pages/careers/jobs.md
-- pages/careers/careers.md
 - pages/careers/culture.md
