@@ -19,14 +19,16 @@ section.block-contact-form {
 .contact-form__wrapper {
   background-color: $background-grey;
   padding: rem(70px) 0 rem(120px);
-  transform: translateY(70px);
+  transform: translateY(-20px);
 
   @include rwd(mobile-up) {
     padding: rem(70px) rem(50px) rem(120px);
+
   }
 
   @include rwd(desktop-up) {
-    padding: rem(70px) 0 rem(100px) rem(78px)
+    padding: rem(70px) 0 rem(100px) rem(78px);
+    transform: translateY(70px);
   }
 
   .intro-row {

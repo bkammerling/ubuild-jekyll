@@ -89,13 +89,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   }
 }
 
-img {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
 
-img[data-src] {
+img.lazy {
   opacity: 0;
+  transition: opacity 0.3s;
+  &.loaded {
+    opacity: 1;
+  }
 }
 
 body.en .de {

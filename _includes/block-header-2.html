@@ -2,17 +2,25 @@
 {% assign menu = site.menus.[section.menu] %}
   <nav class="absolute-header">
     <div class="container header">
-      <div class="grouped-logo">
+      <div class="grouped-logo {% if section.sub_logo %}animated{% endif %}">
         <a href="/">
-          <img src="/uploads/global/wundermobility-logo.svg" alt="{{ site.title }}" class="header__logotype header__main-logotype">
-          <img src="/uploads/global/wundershuttle-logo.svg" alt="{{ site.title }}" class="header__logotype header__secondary-logotype">
+          <div class="main-logo-wrapper">
+            <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="header__logotype main-logotype">
+          </div>
+          {% if section.sub_logo %}
+          <div class="second-logo-wrapper">
+            <img src="{{ section.sub_logo }}" alt="{{ site.title }}" class="header__logotype secondary-logotype">
+          </div>
+          {% endif %}
         </a>
+        {% comment %}
         {% if section.sub_logo %}
         <div class="dividing-line"></div>
         <a href="{% if page.dir %}{{ page.dir }}{% else %}{{ page.permalink }}{% endif %}">
           <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
         </a>
         {% endif %}
+        {% endcomment %}
       </div>
       <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
         <span class="hamburger-box">

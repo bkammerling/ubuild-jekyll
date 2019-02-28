@@ -7,6 +7,7 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
+  sub_logo: "/uploads/global/Wunder_Fleet_White.svg"
   cta:
     url: "#section-contact"
     button_text: Contact

@@ -67,6 +67,7 @@
 }
 
 .header__logotype {
+
   @include rwd(tablet-up) {
     //width: 190px;
   }
@@ -75,29 +76,49 @@
   }
 }
 
-.header__main-logotype {
-  //display: block;
-  //animation: disappear 3s normal 2s;
-  //animation-fill-mode: forwards;
-  //top: 67px;
-  //position: absolute;
-}
-.header__secondary-logotype {
-}
 
 .grouped-logo {
   display: flex;
   align-items: self-start;
   position: relative;
   z-index: 1000;
-  width: 224px;
-  overflow: hidden;
-  //animation: logo-change 3s 2s;
-
-  img {
-    transition: 0.4s;
-    filter: none;
+  width: 230px;
+  height: 22px;
+  &.animated {
+    overflow: hidden;
+    //animation: logo-change $header-animtion-duration $header-animtion-delay;
+    .main-logotype {
+      animation: disappear $header-animtion-duration normal $header-animtion-delay;
+      animation-fill-mode: forwards;
+      top: 0px;
+      position: absolute;
+    }
+    .main-logo-wrapper, .second-logo-wrapper {
+      transition: transform 0.4s;
+      //filter: none;
+    }
+    &:hover {
+      .main-logo-wrapper {
+        transform: translatey(30px);
+      }
+      .second-logo-wrapper {
+        transform: translatey(30px);
+      }
+    }
   }
+
+
+
+  .main-logotype {
+    display: block;
+  }
+  .secondary-logotype {
+    opacity: 0;
+    animation: appear $header-animtion-duration normal $header-animtion-delay;
+    animation-fill-mode: forwards;
+  }
+
+
   .dividing-line {
     display: inline-block;
     height: 20px;
@@ -239,7 +260,6 @@
   }
   &.active {
     & > a {
-      //font-weight: 700;
       span {
         border-top: 5px solid $sky-blue;
       }
@@ -247,7 +267,6 @@
   }
 
   & > a {
-    //padding-bottom: 3px;
     color: $white;
     font-weight: 900;
     font-size: 12px;
@@ -265,11 +284,7 @@
 
   &-submenu {
     position: relative;
-    // display: flex;
-
     & > a {
-      // color: $olive-light;
-      // font-weight: $font-regular;
       padding-right: 15px;
     }
 

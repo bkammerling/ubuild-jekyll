@@ -148,21 +148,14 @@ var menu = {
 
 menu.init();
 
-var lazyLoadingImages = function () {
-  [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = function() {
-      img.removeAttribute('data-src');
-    };
-  });
-}
 
 var myLazyLoad = new LazyLoad({
     elements_selector: "img[data-src]"
 });
+var myLazyLoad2 = new LazyLoad({
+    elements_selector: ".lazy"
+});
 
-
-lazyLoadingImages();
 
 var form = {
   init: function() {
@@ -525,7 +518,7 @@ scroller.init();
 
 
 
-/* Set up JS listeners etc. that need to be initiated after site is loaded */
+/* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
   form.initializeSelect2('.select2-init');
@@ -598,5 +591,17 @@ $(document).ready(function() {
         });
     }
   });
+
+  
+/*
+  // Header logo animation if required
+  $("header .animated").animate({ width: "46px" }, 800, function() {
+    $(".main-logotype").css("top","-30px");
+    $(".secondary-logotype").css("opacity", 1);
+    $(this).animate({ width: "224px" }, 800, function() {
+      $(this).addClass("finished");
+    })
+  })
+  */
 
 });
