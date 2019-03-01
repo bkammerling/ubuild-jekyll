@@ -521,6 +521,13 @@ scroller.init();
 /* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
+  $("#primary-source").val(document.referrer);
+  $.get("http://api.ipstack.com/"+myip+"?access_key=e9266aad2207f3be82ac87fdc7c3404b", function(response) {
+    console.log(response);
+    var userCountry = response.country_name;
+    $("#user-country").val(userCountry);
+  }, "jsonp");
+
   form.initializeSelect2('.select2-init');
 
   $("select#subject-field").on('change', function(e) {
@@ -592,16 +599,5 @@ $(document).ready(function() {
     }
   });
 
-  
-/*
-  // Header logo animation if required
-  $("header .animated").animate({ width: "46px" }, 800, function() {
-    $(".main-logotype").css("top","-30px");
-    $(".secondary-logotype").css("opacity", 1);
-    $(this).animate({ width: "224px" }, 800, function() {
-      $(this).addClass("finished");
-    })
-  })
-  */
 
 });
