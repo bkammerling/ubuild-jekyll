@@ -522,11 +522,10 @@ scroller.init();
 
 $(document).ready(function() {
   $("#primary-source").val(document.referrer);
-  $.get("http://api.ipstack.com/"+myip+"?access_key=e9266aad2207f3be82ac87fdc7c3404b", function(response) {
-    console.log(response);
+  $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
-  }, "jsonp");
+  });
 
   form.initializeSelect2('.select2-init');
 
