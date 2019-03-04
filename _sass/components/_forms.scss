@@ -76,7 +76,7 @@ form {
     }
   }
 
-  .selected + .bottom-border {
+  .selected ~ .bottom-border {
     width: 100%;
   }
 
@@ -150,6 +150,39 @@ form {
     font-weight: 400;
     text-transform: capitalize;
     font-size: 16px;
+  }
+
+  .select2-selection--multiple {
+    padding-top: 0.7rem;
+    cursor: pointer;
+    border: none !important;
+    &:after {
+      content: "";
+      position: absolute;
+      right: 26px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-top: 5px solid #2a3b35;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+    }
+  }
+
+  label {
+    color: #7D8A8D;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+  }
+
+  .select2-container.selected ~ label {
+    opacity: 0;
   }
 
   textarea {

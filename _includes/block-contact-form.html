@@ -53,25 +53,29 @@
                 <div class="bottom-border"></div>
               </div>
             </div>
-            <!--
-            <div class="dropdown">
-              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Subject
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" data-item="Wunder Fleet" data-id="fleet">Wunder Fleet</a>
-                <a class="dropdown-item" data-item="Wunder Carpool" data-id="carpool">Wunder Carpool</a>
-                <a class="dropdown-item" data-item="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</a>
-                <a class="dropdown-item" data-item="general" data-id="general">General enquiry</a>
-                <a class="dropdown-item" data-item="support" data-id="support">Wunder Carpool app support</a>
-              </div>
-            </div>
-            -->
             <div class="hidden extra-form">
               <div class="form-group shuttle carpool fleet">
                 <label class="form-label" for="url">Company URL</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
+              </div>
+              <div class="form-group carpool">
+                <div class="select-wrapper multiple">
+                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true >
+                    <option disabled>What's the reason(s) you're interested in carpooling? *</option>
+                    <option>Save on employee transportation costs</option>
+                    <option>Save parking spaces</option>
+                    <option>Consulting</option>
+                    <option>Transportation for events</option>
+                    <option>To lower CO<sub>2</sub> emissions</option>
+                    <option>To support decongestion</option>
+                    <option>Other</option>
+                  </select>
+                  <label for="carpool-interest" class="w-100">
+                    What's the reason(s) you're interested in carpooling? *
+                  </label>
+                  <div class="bottom-border"></div>
+                </div>
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">

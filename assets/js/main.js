@@ -183,12 +183,12 @@ var form = {
 
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
-    console.log('in submit to ' + postURL);
+    //console.log('in submit to ' + postURL);
     $("#form-submit").attr("disabled", true);
     var data = form.serializeObject(contactForm);
-    data.subject = $("form #subject-field").val();
+    //data.subject = $("form #subject-field").val();
     delete data.firstname;
-    console.log(data);
+    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -208,14 +208,18 @@ var form = {
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
     });
 
-
   },
 
   serializeObject: function($form){
     var unindexed_array = $form.serializeArray();
+    console.log(unindexed_array);
     var indexed_array = {};
     $.map(unindexed_array, function(n, i){
-        indexed_array[n['name']] = n['value'];
+        if(indexed_array[n['name']]) {
+          indexed_array[n['name']] = indexed_array[n['name']] + ", " + n['value'];
+        } else {
+          indexed_array[n['name']] = n['value'];
+        }
     });
     return indexed_array;
   },
@@ -521,7 +525,8 @@ scroller.init();
 /* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
-  $("#primary-source").val(document.referrer);
+  var referrer = document.referrer != "" ? document.referrer : 'direct';
+  $("#primary-source").val(referrer);
   $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
@@ -532,7 +537,7 @@ $(document).ready(function() {
   $("select#subject-field").on('change', function(e) {
     var $optionSelected = $("option:selected", this);
     var selection = $optionSelected.data('id');
-    console.log(selection);
+    //console.log(selection);
     if($("form .extra-form").is(":visible")) {
       $("form .extra-form").slideUp(function() {
           showExtraForm();
@@ -544,9 +549,13 @@ $(document).ready(function() {
     function showExtraForm() {
       $("form .extra-form ."+selection).show();
       $("form .extra-form > div:not(."+selection+")").hide();
-      //$("form .extra-form").show();
       $("form .extra-form").slideDown();
     }
+  });
+
+  $('#carpool-interest').on('select2:opening select2:closing', function( event ) {
+    var $searchfield = $(this).parent().find('.select2-search__field');
+    $searchfield.prop('disabled', true);
   });
 
   if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
