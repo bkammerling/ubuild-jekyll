@@ -47,7 +47,6 @@ var animation = {
     this.setAnim("rio-anim", "/assets/animdata/cities/Rio/data.json");
     this.setAnim("atlanta-anim", "/assets/animdata/cities/Atlanta/data.json");
     //this.anim.addEventListener('onLoopComplete', animation.doLoopComplete);
-    console.log(animation.anim);
   },
   setAnim: function(id, jsonFile) {
     if(document.getElementById(id) == null) return false;
@@ -183,7 +182,6 @@ var form = {
 
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
-    //console.log('in submit to ' + postURL);
     $("#form-submit").attr("disabled", true);
     var data = form.serializeObject(contactForm);
     //data.subject = $("form #subject-field").val();
@@ -206,6 +204,7 @@ var form = {
     }).fail(function (error) {
       console.log(error);
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
+      $("#form-submit").attr("disabled", false);
     });
 
   },
@@ -244,7 +243,7 @@ var form = {
     if($form.parents('.modal').length > 0) return true;
     $form.find(".select2:visible.selected").popover('dispose');
     if($form.find(".select2:visible:not(.selected)").length > 0) {
-      console.log('incomeplete select2');
+      console.log('incomplete select2');
       $form.find(".select2:visible:not(.selected)").popover({
         content: "Please make a selection",
       }).popover('show');
@@ -525,8 +524,13 @@ scroller.init();
 /* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
-  var referrer = document.referrer != "" ? document.referrer : 'direct';
-  $("#primary-source").val(referrer);
+  if(localStorage.getItem('first-referrer')) {
+    var referrer = localStorage.getItem('first-referrer');
+  } else {
+    referrer = document.referrer != "" ? document.referrer : 'direct';
+    localStorage.setItem('first-referrer', referrer);
+  }
+  $("#primary-source").val(referrer + " -> " + pagetitle.toLowerCase());
   $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
@@ -548,7 +552,9 @@ $(document).ready(function() {
     selection == 'support' ? $("#form-submit").attr("disabled", true) : $("#form-submit").attr("disabled", false);
     function showExtraForm() {
       $("form .extra-form ."+selection).show();
+      $("form .extra-form ."+selection).find('select').prop('required', true);
       $("form .extra-form > div:not(."+selection+")").hide();
+      $("form .extra-form > div:not(."+selection+")").find('select').prop('required', false);
       $("form .extra-form").slideDown();
     }
   });
@@ -563,8 +569,8 @@ $(document).ready(function() {
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
   if(pagetitle == "Home") {
-    $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
-    $('select#subject-field').trigger('change.select2').trigger('change');
+    //$("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
+    //$('select#subject-field').trigger('change.select2').trigger('change');
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {

@@ -227,6 +227,11 @@ form {
 
 }
 
+.select2-container--default .select2-results>.select2-results__options {
+  max-height: 300px;
+}
+
+
 .contact-form__form {
   input:-webkit-autofill,
   input:-webkit-autofill:hover,

@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="contact-form__form">
-          <form id="main-contact" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
+          <form id="main-contact" name="website-contact-form" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
             <input type="hidden" name="firstname" id="recipient-firstname">
             <input type="hidden" name="country" id="user-country" value="">
             <input type="hidden" name="source" id="primary-source" value="">
@@ -61,7 +61,7 @@
               </div>
               <div class="form-group carpool">
                 <div class="select-wrapper multiple">
-                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true >
+                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
                     <option disabled>What's the reason(s) you're interested in carpooling? *</option>
                     <option>Save on employee transportation costs</option>
                     <option>Save parking spaces</option>
@@ -71,7 +71,7 @@
                     <option>To support decongestion</option>
                     <option>Other</option>
                   </select>
-                  <label for="carpool-interest" class="w-100">
+                  <label for="carpool-interest[]" class="w-100">
                     What's the reason(s) you're interested in carpooling? *
                   </label>
                   <div class="bottom-border"></div>
