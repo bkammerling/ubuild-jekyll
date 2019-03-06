@@ -230,6 +230,9 @@ form {
 .select2-container--default .select2-results>.select2-results__options {
   max-height: 300px;
 }
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  max-height: 49px;
+}
 
 
 .contact-form__form {

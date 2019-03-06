@@ -59,24 +59,6 @@
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
-              <div class="form-group carpool">
-                <div class="select-wrapper multiple">
-                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What's the reason(s) you're interested in carpooling? *</option>
-                    <option>Save on employee transportation costs</option>
-                    <option>Save parking spaces</option>
-                    <option>Consulting</option>
-                    <option>Transportation for events</option>
-                    <option>To lower CO<sub>2</sub> emissions</option>
-                    <option>To support decongestion</option>
-                    <option>Other</option>
-                  </select>
-                  <label for="carpool-interest[]" class="w-100">
-                    What's the reason(s) you're interested in carpooling? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
@@ -119,7 +101,7 @@
                     <option disabled selected>When (approximately) would you like to launch? *</option>
                     <option>ASAP</option>
                     <option>2-6 months</option>
-                    <option>Over 6 months</option>
+                    <option value=">6 months">Over 6 months</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -133,6 +115,52 @@
                     <option>Corporate funded</option>
                     <option>Not yet funded</option>
                   </select>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              <div class="form-group carpool">
+                <div class="select-wrapper multiple">
+                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
+                    <option disabled>What's the reason(s) you're interested in carpooling? *</option>
+                    <option>Save on employee transportation costs</option>
+                    <option>Save parking spaces</option>
+                    <option>Consulting</option>
+                    <option>Transportation for events</option>
+                    <option>To lower CO<sub>2</sub> emissions</option>
+                    <option>To support decongestion</option>
+                    <option>Other</option>
+                  </select>
+                  <label for="carpool-interest[]" class="w-100">
+                    What's the reason(s) you're interested in carpooling? *
+                  </label>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              <div class="form-group shuttle">
+                <div class="select-wrapper">
+                  <select name="existing-shuttle-vehicles" class="form-control select2-init" style="width:100%" id="existing-shuttle-vehicles" required=true>
+                    <option disabled selected>Do you currently have an existing fleet of vehicles? *</option>
+                    <option value="100+">Yes, 100+ vehicles</option>
+                    <option value="21-100">Yes, 21-100 vehicles</option>
+                    <option value="1-20">Yes, 1-20 vehicles</option>
+                    <option value="0">No</option>
+                  </select>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              <div class="form-group shuttle">
+                <div class="select-wrapper multiple">
+                  <select name="shutte-interest[]" class="form-control select2-init" style="width: 100%" id="shuttle-interest" multiple="multiple" required=true novalidate>
+                    <option disabled>What's the reason(s) you're interested in a shuttle service? *</option>
+                    <option>Optimise employee transportation</option>
+                    <option>Scale a new transportation service</option>
+                    <option>Save parking spaces</option>
+                    <option>To lower CO<sub>2</sub> emissions & support decongestion</option>
+                    <option>Other</option>
+                  </select>
+                  <label for="shuttle-interest[]" class="w-100">
+                    What's the reason(s) you're interested a shuttle service? *
+                  </label>
                   <div class="bottom-border"></div>
                 </div>
               </div>

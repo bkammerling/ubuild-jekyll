@@ -186,7 +186,6 @@ var form = {
     var data = form.serializeObject(contactForm);
     //data.subject = $("form #subject-field").val();
     delete data.firstname;
-    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -207,11 +206,13 @@ var form = {
       $("#form-submit").attr("disabled", false);
     });
 
+
+
   },
 
   serializeObject: function($form){
     var unindexed_array = $form.serializeArray();
-    console.log(unindexed_array);
+    //console.log(unindexed_array);
     var indexed_array = {};
     $.map(unindexed_array, function(n, i){
         if(indexed_array[n['name']]) {
@@ -559,7 +560,7 @@ $(document).ready(function() {
     }
   });
 
-  $('#carpool-interest').on('select2:opening select2:closing', function( event ) {
+  $('.select-wrapper.multiple select').on('select2:opening select2:closing', function( event ) {
     var $searchfield = $(this).parent().find('.select2-search__field');
     $searchfield.prop('disabled', true);
   });
