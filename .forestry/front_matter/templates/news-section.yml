@@ -1,7 +1,6 @@
 ---
 label: News section
 hide_body: false
-is_partial: true
 fields:
 - type: boolean
   name: show_featured

@@ -1,7 +1,6 @@
 ---
 label: Logo List
 hide_body: false
-is_partial: true
 display_field: logos
 fields:
 - type: text
