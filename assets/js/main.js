@@ -184,8 +184,10 @@ var form = {
     var postURL = contactForm.attr('action');
     $("#form-submit").attr("disabled", true);
     var data = form.serializeObject(contactForm);
-    //data.subject = $("form #subject-field").val();
+    // add subject for summit related messages
+    if($(".modal-body #subject-field").length) data.subject = $("form #subject-field").val();
     delete data.firstname;
+    console.log(data);
 
     $.ajax({
       url: postURL,
@@ -205,7 +207,6 @@ var form = {
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
       $("#form-submit").attr("disabled", false);
     });
-
 
 
   },

@@ -287,7 +287,8 @@
       </div>
       <form id="modal-form" accept-charset="UTF-8" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
         <div class="modal-body">
-          <input type="hidden" value="Attend WMS" id="subject-field">
+          <input type="hidden" id="subject-field" value="Attend WMS">
+          <input type="hidden" name="country" id="user-country" value="">
           <input type="hidden" id="recipient-firstname" name="firstname" />
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Name*</label>
@@ -313,7 +314,7 @@
           </div>
           <div class="col-sm-7 text-right">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button id="wms-submit" class="btn btn-primary" onclick="formSubmit(event)">
+            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
               Send Message
             </button>
           </div>

@@ -47,8 +47,10 @@ form {
   position: relative;
 
   #form-submit {
-    float:right;
-    border: none;
+    #section-contact & {
+      float:right;
+      border: none;
+    }
   }
 }
 
