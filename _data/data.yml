@@ -2,10 +2,8 @@
 events:
 - title: AI Meetup
   url: https://www.meetup.com/meetupai-Hamburg/events/256232564/
-- title: PyLadies Hamburg
-  url: https://www.meetup.com/de-DE/PyLadies-Hamburg/events/257098779/
-- title: Wunder Autotech Meetup - Munich
-  url: https://autotechmeetupmunich.splashthat.com/
+- title: Wunder Autotech Meetup - Hamburg
+  url: https://autotechmeetuphamburg.splashthat.com/
 partners:
 - title: Marubeni
   url: https://www.marubeni.com/en/
