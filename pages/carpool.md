@@ -28,7 +28,7 @@ page_sections:
   title: Let's Talk
   content: Let's get your carpool service online ASAP! Drop in your details and our team will get in touch with you in 24h.
   headline: Let's Talk
-  background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
+  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
 

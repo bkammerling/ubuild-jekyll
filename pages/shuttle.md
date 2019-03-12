@@ -28,7 +28,7 @@ page_sections:
   title: Let's Talk
   content: Our team broke their own record in our last Shuttle implementation. Introduce yourself and we'll get in touch in record time!
   headline: Let's Talk
-  background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
+  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"
 - template: simple-footer

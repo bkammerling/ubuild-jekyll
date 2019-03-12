@@ -3,14 +3,15 @@ section.block-contact-form {
   position: relative;
   background-position: top center;
   background-size: 800px auto;
-  padding-top: rem(350px);
-  padding-top: 45vh;
   background-repeat: no-repeat;
   background-color: $olive-matt;
+
   @include rwd(tablet-up) {
+    padding-top: 35vh;
     background-size: 1600px auto;
   }
   @include rwd(wide-up) {
+    padding-top: 30vh;
     background-size: 100% auto;
   }
 }

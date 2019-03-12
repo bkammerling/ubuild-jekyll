@@ -18,13 +18,18 @@ defaults:
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
 markdown: kramdown
+sass:
+  sass_dir: _sass
 plugins:
   - jekyll-feed
   - jekyll-menus
   - jekyll-sitemap
-sass:
-  sass_dir: _sass
+  - jekyll-minifier
 
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
+  compress_css: false
 
 
 # Exclude from processing.

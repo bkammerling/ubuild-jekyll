@@ -526,18 +526,53 @@ var scroller = {
 }
 scroller.init();
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
 
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
 
 /* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
-  if(localStorage.getItem('first-referrer')) {
-    var referrer = localStorage.getItem('first-referrer');
+  // Set form fields with any URL parameters (from Google Adwords of LinkedIn etc.)
+  if(localStorage.getItem('utm_data')) {
+    var utm_data = JSON.parse(localStorage.getItem('utm_data'));
+    assignUTMParams();
+  } else if(getUrlParameter('utm_source')) {
+    utm_data = {
+      utm_source: getUrlParameter('utm_source'),
+      utm_medium: getUrlParameter('utm_medium'),
+      utm_campaign: getUrlParameter('utm_campaign'),
+      utm_campaigngroup: getUrlParameter('utm_campaigngroup')
+    }
+    localStorage.setItem('utm_data', JSON.stringify(utm_data));
+    assignUTMParams();
   } else {
-    referrer = document.referrer != "" ? document.referrer : 'direct';
-    localStorage.setItem('first-referrer', referrer);
+    utm_data = {
+      utm_source: document.referrer != "" ? document.referrer : 'direct',
+      utm_medium: 'organic',
+      utm_campaign: '',
+      utm_campaigngroup: ''
+    }
+    localStorage.setItem('utm_data', JSON.stringify(utm_data));
+    assignUTMParams();
   }
-  $("#primary-source").val(referrer + " -> " + pagetitle.toLowerCase());
+  function assignUTMParams() {
+    $("#utm_source").val(utm_data.utm_source);
+    $("#utm_medium").val(utm_data.utm_medium);
+    $("#utm_campaign").val(utm_data.utm_campaign);
+    $("#utm_campaigngroup").val(utm_data.utm_campaigngroup);
+  }
   $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
