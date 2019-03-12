@@ -185,7 +185,12 @@ var form = {
     $("#form-submit").attr("disabled", true);
     var data = form.serializeObject(contactForm);
     // add subject for summit related messages
-    if($(".modal-body #subject-field").length) data.subject = $("form #subject-field").val();
+    if($(".modal-body #subject-field").length) {
+      data.subject = $("form #subject-field").val();
+    } else {
+      // google adwords 'Website form submitted' conversion event
+      gtag_report_conversion();
+    }
     delete data.firstname;
     console.log(data);
 
