@@ -204,7 +204,7 @@
   .block-contact-form {
     background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
   }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 1600px) {
     .block-contact-form {
       background-image: url('{{ section.background_image | relative_url }}');
     }
