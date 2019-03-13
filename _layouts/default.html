@@ -1,6 +1,22 @@
 {% include head.html %}
 
+{% for section in page.page_sections %}
+{% if forloop.index == 1 %}
+  {% include block-{{ section.block }}.html %}
+{% endif %}
+{% endfor %}
+
+<div class="nav-padding"></div>
 <!-- Add your site or application content here -->
-<p>{{ content }}</p>
+<div class="container mt-5 mb-5 text-center" style="min-height:30vh">
+  <p>{{ content }}</p>
+</div>
+
+{% for section in page.page_sections %}
+{% if forloop.index == 2 %}
+  {% include block-{{ section.block }}.html %}
+{% endif %}
+{% endfor %}
+
 
 {% include footer.html %}
