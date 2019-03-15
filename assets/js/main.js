@@ -291,6 +291,7 @@ var jobs = {
       url: "https://boards-api.greenhouse.io/v1/boards/wunder/jobs?content=true"
     }).done(function (data) {
       jobs.jobArray = data.jobs;
+      jobs.setupDropdowns();
       var filteredJobs = jobs.filterJobs();
       jobs.buildJobsList(filteredJobs)
     }).fail(function(error) {
@@ -328,7 +329,7 @@ var jobs = {
       }
       singleHTML.find(".job-category").text(jobCategory);
       singleHTML.find(".job-title").attr('href', job.absolute_url);
-      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "");
+      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
       singleHTML.find(".job-location").text(location);
       var content = $('<textarea />').html(job.content).text();
       if(content.split('</h3>').length >= 3) content = content.split('</h3>')[2];
@@ -345,6 +346,22 @@ var jobs = {
         if(item.departments[0].name.toLowerCase().indexOf(jobs.filters.departments) !== -1 && item.location.name.toLowerCase().indexOf(jobs.filters.location) !== -1) return true;
     });
     return filteredJobs;
+  },
+  setupDropdowns: function() {
+    var locationDropdown = $(".job-list .location-select");
+    this.jobArray.forEach(function(item) {
+      var gotit = false;
+      locationDropdown.children('option').each(function() {
+        if($(this).val().toLowerCase() == item.location.name.toLowerCase()) gotit = true;
+      });
+      if(!gotit) {
+        locationDropdown.append($('<option>', {
+            value: item.location.name.toLowerCase(),
+            text: item.location.name
+        }));
+      }
+      //if(locationDropdown.children('option').value().toLowerCase()item.location.name)
+    })
   },
   clear: function() {
     $(".job-list__listing .job-list__item:not(.hidden), .job-list__listing > p").remove();

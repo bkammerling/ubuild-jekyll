@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+body {
+  background: #F4F4F4;
+}
+
+h1, h2, h3 {
+  color: #334146
+}
+
+a {
+  color: #06A0E3;
+}
+a:hover {
+  color: #0480B5;
+  text-decoration: none;
+}
+
+
+#main {
+  max-width: 600px;
+  margin: 30px auto 0;
+  font-family: 'Open Sans',Arial,sans-serif;
+  padding-bottom: 150px;
+}
+
+
+/* INDIVIDUAL JOB POSTS */
+
+
+#logo > a {
+  background: url(https://www.wundermobility.com/uploads/global/wundermobility-black.svg) no-repeat;
+  display: block;
+  background-size: 300px;
+  background-position: center left;
+}
+
+#logo img {
+  opacity: 0;
+}
+
+#header {
+  background: #07c6eb;
+  background: -moz-linear-gradient(-45deg, #07c6eb 0%, #06a0e3 100%);
+  background: -webkit-linear-gradient(-45deg, #07c6eb 0%,#06a0e3 100%);
+  background: linear-gradient(135deg, #07c6eb 0%,#06a0e3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c6eb', endColorstr='#06a0e3',GradientType=1 );
+  padding: 30px 50px 20px;
+
+  transform: translateX(-50px);
+  width: calc(100% + 100px);
+  box-sizing: border-box;
+  margin: 30px 0;
+}
+
+#board_title, #app_body h1.app-title {
+  font-family: 'Open Sans',Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+#app_body .app-title {
+  margin: 0;
+  padding-right: 140px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#header .location {
+    color: white;
+    margin: 0px 0 8px;
+}
+
+.company-name {
+  display: none;
+}
+
+#apply_button {
+  background: white;
+  color: #06A0E3;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  width: 90px;
+  text-align: center;
+  border-radius: 22px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+
+#application {
+  padding:0;
+  background-color: inherit;
+  margin-top: 50px;
+}
+
+
+#content ul {
+    background: white;
+    padding: 2rem 5rem 2rem 4rem;
+    list-style: none;
+    margin-bottom: 25px;
+    /* margin: 15px 20px 30px; */
+}
+
+#content ul li {
+    margin-bottom: 12px;
+    position: relative;
+    /* color: grey; */
+    color: #4d5354;
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+#content ul li:before {
+  content: "";
+  left: -21px;
+  width: 10px;
+  top: 2px;
+  background: url(https://www.wunder.org/img/icon-banner-arrow.svg) no-repeat;
+  height: 13px;
+  display: inline-block;
+  position: absolute;
+  background-size: contain;
+  filter: hue-rotate(96deg);
+}
+
+#content p {
+    color: #2A3B35;
+}
+
+
+#main_fields div.field label .asterisk {
+  font-size: 12px;
+}
+
+#main_fields div.field label {
+  color: #2A3B35;
+}
+
+#application div.field input[type=text] {
+  padding: 7px 5px;
+}
+
+#application .heading {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#submit_app {
+  background: #06a0e3;
+  color: white;
+  width: 190px;
+  text-align: center;
+  border-radius: 22px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  text-shadow: none;
+}
+#submit_app:focus {
+  outline: none;
+}
+
+
+
+#content h2 {
+  text-transform: uppercase;
+  margin: 35px 0 15px;
+  letter-spacing: 0.5px;
+}
+
+#content h3 {
+  text-transform: uppercase;
+  margin: 30px 0 10px;
+}
+
+
+/* JOB LIST PAGE */
+
+
+.filter-container {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  margin-bottom: 15px;
+}
+.filter-container ~ .filter-container {
+  margin-left: 35px;
+}
+
+.filter-container:after {
+    content: '';
+    display: block;
+    background-image: url(https://9d790cd9.ngrok.io/img/filter-down-arrow.svg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.filter-container select {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  color: #334146;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Open Sans',Arial,sans-serif;
+  border-radius: 0;
+  padding: 10px 14px;
+  background-color: white;
+}

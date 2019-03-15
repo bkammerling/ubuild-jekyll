@@ -27,7 +27,7 @@ page_sections:
   title: Let's Talk
   content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
   headline: Let's Talk
-  background_image: "/uploads/2019/02/05/bg-old-couple@2x.jpg"
+  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
 

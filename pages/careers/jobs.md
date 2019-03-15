@@ -13,12 +13,9 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: <div class="job-list container"> <div class="job-filters row"> <div class="job-filter
-    col"> <p class="job-filter__type">City</p> <div class="select-wrapper"> <select
+    col"> <p class="job-filter__type">Location</p> <div class="select-wrapper"> <select
     data-type="location" class="location-select"> <option value="">All Locations</option>
-    <option name="location" value="hamburg">Hamburg</option> <option name="location"
-    value="dortmund">Dortmund</option> <option name="location" value="manila">Manila</option>
-    <option name="location" value="delhi">Delhi</option> <option name="location" value="rio">Rio
-    de Janeiro</option> </select> <ion-icon name="ios-arrow-down"></ion-icon> </div>
+     </select> <ion-icon name="ios-arrow-down"></ion-icon> </div>
     </div> <div class="job-filter col"> <p class="job-filter__type">Team</p> <div
     class="select-wrapper"> <select data-type="departments" class="team-select"> <option
     value="">All Teams <ion-icon name="arrow-down"></ion-icon></option> <option name="department"
