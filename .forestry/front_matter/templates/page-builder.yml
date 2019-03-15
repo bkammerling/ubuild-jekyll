@@ -40,8 +40,8 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- pages/careers/culture.md
 - pages/careers/jobs.md
+- pages/careers/culture.md
 - pages/home.md
 - pages/careers/locations.md
 - pages/terms.md
