@@ -270,8 +270,8 @@ main {
         background: -webkit-linear-gradient(top, rgba(255,255,255,0.001) 40%, #fff 60%);
         background: linear-gradient(top, rgba(255,255,255,0.001) 40%, #fff 60%);
         @include rwd(mobile-up) {
-          background: -webkit-linear-gradient(top, rgba(255,255,255,0.001) 60%, #fff 80%);
-          background: linear-gradient(top, rgba(255,255,255,0.001) 60%, #fff 80%);
+          background: -webkit-linear-gradient(top, rgba(255,255,255,0.001) 55%, #fff 70%);
+          background: linear-gradient(top, rgba(255,255,255,0.001) 55%, #fff 70%);
         }
       }
     }

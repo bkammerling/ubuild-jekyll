@@ -52,7 +52,11 @@ var animation = {
     if(document.getElementById(id) == null) return false;
     this.anim = bodymovin.loadAnimation({
       container: document.getElementById(id),
-      renderer: 'svg',
+      renderer: 'canvas',
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice',
+        clearCanvas: true
+      },
       loop: true,
       autoplay: true,
       path: jsonFile // the path to the animation json
@@ -558,6 +562,15 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 
+
+function setupIp() {
+  // run from footer script onload event
+  $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
+    var userCountry = response.country_name;
+    $("#user-country").val(userCountry);
+  });
+}
+
 /* Set up JS listeners etc. that need to be initiated after document load */
 
 $(document).ready(function() {
@@ -590,10 +603,6 @@ $(document).ready(function() {
     $("#utm_campaign").val(utm_data.utm_campaign);
     $("#utm_campaigngroup").val(utm_data.utm_campaigngroup);
   }
-  $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
-    var userCountry = response.country_name;
-    $("#user-country").val(userCountry);
-  });
 
   form.initializeSelect2('.select2-init');
 
