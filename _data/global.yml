@@ -4,3 +4,10 @@ footerlogo: "/uploads/2019/01/11/logo-footer.svg"
 twitter: https://twitter.com/wundermobility
 linkedin: https://www.linkedin.com/company/wunder-mobility/
 company-address: Hongkongstraße 7<br>20457 Hamburg<br>Germany
+languages:
+  en:
+    label: English
+    icon: 🇺🇸
+  de:
+    label: Deutsch
+    icon: 🇩🇪

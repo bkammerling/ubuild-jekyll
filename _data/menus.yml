@@ -33,6 +33,40 @@ wunder-main:
   identifier: solutions
   sub: true
 
+wunder-main-de:
+- url: "/press"
+  weight: 4
+  identifier: press
+  title: Press
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Careers
+- url: "/summit"
+  weight: 2
+  identifier: summit
+  title: Summit
+- url: "/shuttle"
+  weight: 2
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+- url: "/carpool"
+  weight: 1
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+- url: "/fleet"
+  weight: 3
+  parent: solutions
+  identifier: fleet
+  title: Fleet
+- url: "#"
+  weight: 1
+  title: Solutions
+  identifier: solutions
+  sub: true
+
 career:
 - identifier: jobs
   url: "/careers/jobs"

@@ -2,8 +2,8 @@
 layout: blocks
 title: Home
 date: 2019-01-08 23:00:00 +0000
-permalink: "/"
-lang: en
+permalink: "/de/"
+lang: de
 lang-ref: home
 page_sections:
 - template: navigation-header-w-button
@@ -14,7 +14,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology to build, innovate and scale <strong>shared mobility</strong>
+  headline: Technologie für vernetzte und <strong>nachhaltige Mobilität</strong>
   cta:
     button_text: Contact Us
     url: "#section-contact"
