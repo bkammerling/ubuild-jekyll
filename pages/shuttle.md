@@ -18,7 +18,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video:
+  background_video: 
   show_logos: true
   background_image: "/uploads/global/Image_Shuttle@2x.jpg"
 - block: shuttle-main
@@ -26,12 +26,18 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: Our team broke their own record in our last Shuttle implementation. Introduce yourself and we'll get in touch in record time!
+  content: Our team broke their own record in our last Shuttle implementation. Introduce
+    yourself and we'll get in touch in record time!
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"
 - template: simple-footer
   block: footer-1
+menu:
+  wunder-main:
+    weight: 2
+    parent: solutions
+    identifier: shuttle
 
 ---

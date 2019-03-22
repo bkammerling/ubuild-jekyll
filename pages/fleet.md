@@ -18,7 +18,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video:
+  background_video: 
   show_logos: true
   background_image: "/uploads/global/Image_Fleet@2x.jpg"
 - block: fleet-main
@@ -26,12 +26,18 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We'll get your fleet up and running in no time! Send over some info and we'll get in touch in the next 24h.
+  content: We'll get your fleet up and running in no time! Send over some info and
+    we'll get in touch in the next 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"
 - template: simple-footer
   block: footer-1
+menu:
+  wunder-main:
+    weight: 3
+    parent: solutions
+    identifier: fleet
 
 ---
