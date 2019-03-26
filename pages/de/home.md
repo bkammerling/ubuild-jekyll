@@ -8,29 +8,29 @@ lang-ref: home
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: wunder-de
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
   headline: Technologie für vernetzte und <strong>nachhaltige Mobilität</strong>
   cta:
-    button_text: Contact Us
+    button_text: Kontaktieren uns
     url: "#section-contact"
     enabled: true
   cta_2:
     url: "https://vimeo.com/318402556"
-    button_text: Watch our Film
+    button_text: Schaue unseren Film
     enabled: true
   background_video: jared-drone4
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.jpg"
 - block: home-main
-  subdirectory: static
+  subdirectory: static/de
 - template: news-section
   block: two-column-horizontal-cards
-  headline: We're being talked about
+  headline: Featured
   items: []
   show_featured: true
 - block: custom-html
@@ -38,7 +38,7 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
+  content: Wir antworten innerhalb der nächsten 24 Stunden.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer

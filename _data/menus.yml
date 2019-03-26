@@ -1,9 +1,169 @@
 ---
+wunder-main:
+- url: "#"
+  weight: 1
+  title: Solutions
+  identifier: solutions
+  sub: true
+- url: "/carpool"
+  weight: 1
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+- url: "/shuttle"
+  weight: 2
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+- url: "/fleet"
+  weight: 3
+  parent: solutions
+  identifier: fleet
+  title: Fleet
+- url: "/summit"
+  weight: 2
+  identifier: summit
+  title: Summit
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Careers
+- url: "/press"
+  weight: 4
+  identifier: press
+  title: Press
+
+wunder-de:
+- url: "#"
+  weight: 1
+  title: Leistungen
+  identifier: solutions
+  sub: true
+- url: "/de/carpool"
+  weight: 1
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+- url: "/de/shuttle"
+  weight: 2
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+- url: "/de/fleet"
+  weight: 3
+  parent: solutions
+  identifier: fleet
+  title: Fleet
+- url: "/de/summit"
+  weight: 2
+  identifier: summit
+  title: Summit
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Careers (EN)
+- url: "/de/press"
+  weight: 4
+  identifier: press
+  title: Press
+
+career:
+- identifier: jobs
+  url: "/careers/jobs"
+  title: Jobs
+  weight: 3
+- identifier: locations
+  url: "/careers/locations"
+  weight: 2
+  title: Locations
+- identifier: culture
+  url: "/careers/culture"
+  weight: 1
+  title: Culture
+
+footerbottom:
+- identifier: privacy
+  title: Privacy
+  url: "/privacy"
+  weight: 1
+- identifier: imprint
+  title: Imprint
+  url: "/imprint"
+  weight: 3
+- identifier: terms
+  title: Terms & Conditions
+  url: "/terms"
+  weight: 2
+
 footer:
+- identifier: HQ
+  title: Wunder HQ
+  col: 3
+  data: company-address
+- identifier: offices
+  title: Offices
+  col: 3
+  items:
+  - identifier: dortmund
+    url: https://goo.gl/1xLGbX
+    weight: 1
+    title: Dortmund
+    parent: offices
+    newtab: 1
+  - identifier: delhi
+    url: https://goo.gl/LZpDXn
+    weight: 2
+    title: Delhi
+    parent: offices
+    newtab: 1
+  - identifier: manila
+    url: #
+    weight: 3
+    title: Manila
+    parent: offices
+  - identifier: rio
+    url: https://goo.gl/wZcded
+    weight: 4
+    title: Rio de Janeiro
+    parent: offices
+    newtab: 1
+  - identifier: tokyo
+    url: https://www.google.com/maps/place/WeWork/@35.6711701,139.7450182,15z/data=!4m8!1m2!2m1!1sWeWork!3m4!1s0x60188b87b6a8f1df:0xa0a2c83faaf7cd72!8m2!3d35.671183!4d139.753846
+    weight: 4
+    title: Tokyo
+    parent: offices
+    newtab: 1
+  - identifier: san-fran
+    url: https://www.google.com/maps/place/WeWork/@37.7939928,-122.3996171,15z/data=!4m2!3m1!1s0x0:0xf84e9bd61ed43810?ved=2ahUKEwiin7eY5sfgAhUNsqQKHR6iApYQ_BIwDnoECAYQCA
+    weight: 4
+    title: San Francisco
+    parent: offices
+    newtab: 1
+  weight: 1
+- identifier: company
+  title: Company
+  col: 2
+  items:
+  - identifier: wms
+    url: "/summit/"
+    weight: 1
+    title: Summit
+    parent: company
+  - identifier: press
+    url: "/press"
+    weight: 2
+    title: Press
+    parent: company
+  - identifier: app
+    url: "https://help.wunder.org"
+    weight: 1
+    title: Carpool App
+    parent: wunder_app
+  weight: 3
 - identifier: footercareers
   title: Careers
   col: 2
-  weight: 2
+  weight: 3
   items:
   - identifier: culture
     url: "/careers/culture"
@@ -40,145 +200,3 @@ footer:
     weight: 3
     title: Wunder Fleet
     parent: solutions
-- identifier: company
-  title: Company
-  col: 2
-  items:
-  - identifier: wms
-    url: "/summit/"
-    weight: 1
-    title: Summit
-    parent: company
-  - identifier: press
-    url: "/press"
-    weight: 2
-    title: Press
-    parent: company
-  - identifier: app
-    url: https://help.wunder.org
-    weight: 1
-    title: Carpool App
-    parent: wunder_app
-  weight: 3
-- identifier: offices
-  title: Offices
-  col: 3
-  items:
-  - identifier: dortmund
-    url: https://goo.gl/1xLGbX
-    weight: 1
-    title: Dortmund
-    parent: offices
-    newtab: 1
-  - identifier: delhi
-    url: https://goo.gl/LZpDXn
-    weight: 2
-    title: Delhi
-    parent: offices
-    newtab: 1
-  - identifier: manila
-    url: 
-    weight: 3
-    title: Manila
-    parent: offices
-  - identifier: rio
-    url: https://goo.gl/wZcded
-    weight: 4
-    title: Rio de Janeiro
-    parent: offices
-    newtab: 1
-  - identifier: tokyo
-    url: https://www.google.com/maps/place/WeWork/@35.6711701,139.7450182,15z/data=!4m8!1m2!2m1!1sWeWork!3m4!1s0x60188b87b6a8f1df:0xa0a2c83faaf7cd72!8m2!3d35.671183!4d139.753846
-    weight: 4
-    title: Tokyo
-    parent: offices
-    newtab: 1
-  - identifier: san-fran
-    url: https://www.google.com/maps/place/WeWork/@37.7939928,-122.3996171,15z/data=!4m2!3m1!1s0x0:0xf84e9bd61ed43810?ved=2ahUKEwiin7eY5sfgAhUNsqQKHR6iApYQ_BIwDnoECAYQCA
-    weight: 4
-    title: San Francisco
-    parent: offices
-    newtab: 1
-  weight: 1
-- identifier: HQ
-  title: Wunder HQ
-  col: 3
-  data: company-address
-  weight: 5
-footerbottom:
-- identifier: terms
-  title: Terms & Conditions
-  url: "/terms"
-  weight: 2
-- identifier: imprint
-  title: Imprint
-  url: "/imprint"
-  weight: 3
-- identifier: privacy
-  title: Privacy
-  url: "/privacy"
-  weight: 1
-career:
-- identifier: culture
-  url: "/careers/culture"
-  weight: 1
-  title: Culture
-- identifier: locations
-  url: "/careers/locations"
-  weight: 2
-  title: Locations
-- identifier: jobs
-  url: "/careers/jobs"
-  title: Jobs
-  weight: 3
-wunder-main-de:
-- url: "/fleet"
-  weight: 3
-  parent: solutions
-  identifier: fleet
-  title: Fleet
-- url: "/shuttle"
-  weight: 2
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
-- url: "/carpool"
-  weight: 1
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-- url: "#"
-  weight: 1
-  title: Solutions
-  identifier: solutions
-  sub: true
-- url: "/summit"
-  weight: 2
-  identifier: summit
-  title: Summit
-- url: "/careers/"
-  weight: 3
-  identifier: careers
-  title: Careers
-- url: "/press"
-  weight: 4
-  identifier: press
-  title: Press
-wunder-main:
-- url: "#"
-  weight: 1
-  title: Solutions
-  identifier: solutions
-  sub: true
-- url: "/summit"
-  weight: 2
-  identifier: summit
-  title: Summit
-- url: "/careers/"
-  weight: 3
-  identifier: careers
-  title: Careers
-- url: "/press"
-  weight: 4
-  identifier: press
-  title: Press
