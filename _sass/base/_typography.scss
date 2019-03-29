@@ -99,6 +99,11 @@ p {
     color: $grey2;
     font-weight: 400;
   }
+  &.lead-big {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
 }
 
 strong {
@@ -109,6 +114,10 @@ strong {
   font-weight: 300 !important;
 }
 
+.text-lighter {
+  opacity: 0.4;
+}
+
 p, a, h4, h3, h2, h1, li, span, div {
   -webkit-font-smoothing: antialiased;
   &.text-blue {
@@ -117,6 +126,10 @@ p, a, h4, h3, h2, h1, li, span, div {
   &.text-grey2 {
     color: $grey2;
   }
+  &.text-black {
+    color: $olive;
+  }
+
 }
 
  a {

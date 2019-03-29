@@ -275,6 +275,25 @@ function formSubmit(e) {
 }
 
 
+function initMap() {
+  // The location of Uluru 53.542733, 10.000482
+  var wunderHQ = {lat: 53.542733, lng: 10.000482};
+  var greyStyle = [{"featureType":"administrative","elementType":"all","stylers":[{"hue":"#ff0000"},{"lightness":-100},{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"simplified"},{"lightness":"38"}]},{"featureType":"administrative.province","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.neighborhood","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"saturation":-100},{"lightness":-3},{"visibility":"on"},{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"labels","stylers":[{"hue":"#000000"},{"saturation":-100},{"lightness":-100},{"visibility":"off"}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":-100},{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"hue":"#bbbbbb"},{"saturation":-100},{"lightness":26},{"visibility":"on"}]},{"featureType":"road","elementType":"labels","stylers":[{"hue":"#ffffff"},{"saturation":-100},{"lightness":100},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"},{"weight":"2.27"},{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":100},{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels","stylers":[{"hue":"#ff0000"},{"lightness":-100},{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":100},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#e8e8e8"}]},{"featureType":"water","elementType":"labels","stylers":[{"hue":"#000000"},{"saturation":-100},{"lightness":-100},{"visibility":"off"}]}];
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {
+        zoom: 6,
+        center: wunderHQ,
+        disableDefaultUI: true,
+        styles: greyStyle
+      });
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: wunderHQ, map: map});
+
+}
+
+
+
 /* Pull job list from Greenhouse and add filters etc */
 
 var jobs = {
@@ -645,7 +664,7 @@ $(document).ready(function() {
     var button = $(event.relatedTarget) // Button that triggered the modal
     var subject = button.data('subject') // Extract info from data-* attributes
     var modal = $(this);
-    modal.find('.modal-title').text('Apply to ' + subject + ' WMS 2019');
+    modal.find('.modal-title').text('Apply to ' + subject);
     modal.find('.modal-body #subject-field').val('Apply to ' + subject + ' WMS 2019');
   });
 
@@ -660,6 +679,7 @@ $(document).ready(function() {
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href="https://www.wundermobility.com/#section-contact"]')
   .click(function(event) {
     event.preventDefault();
     // On-page links

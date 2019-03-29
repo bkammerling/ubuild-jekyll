@@ -52,7 +52,7 @@
   }
 }
 
-.summit-main-wrapper {
+.summit-main-wrapper, .autotech-main-wrapper {
   overflow: hidden;
   position: relative;
 }
@@ -90,13 +90,18 @@
   }
 
   .bg-box__box {
-    @extend .w-shadow;
+    @extend .w-x-shadow;
     width: 550px;
     padding: rem(40px) rem(80px) rem(80px) rem(40px);
 
-    border-left: 5px solid $summit-highlight;
+    border-left: 5px solid $sky-blue;
     background: $white;
+
+    .in-container & {
+      width: 440px;
+    }
   }
+
 
   @include rwd(tablet-down) {
     background-position-x: right;
@@ -279,7 +284,136 @@ body.summit .gradient-block .block-full-right {
 }
 
 
-
 .summit {
   @include highlight($summit-highlight);
+}
+
+
+.autotech {
+
+  .speaker-cards {
+    transform: translateY(-200px);
+    margin-bottom: -200px;
+  }
+
+  .gradient-block .block-full-right {
+    @extend .success__wrapper;
+
+    padding: rem(50px) rem(20px) rem(230px);
+    @include rwd(tablet-up) {
+      padding: rem(50px) rem(70px) rem(250px);
+    }
+    @include rwd(desktop-up) {
+      padding: rem(50px) rem(90px) rem(250px);
+    }
+
+    h2, p {
+      color: $white;
+    }
+
+  }
+
+  .card.speaker-card {
+    width: 45%;
+    &:nth-child(even) {
+      margin-right: 0;
+    }
+    @include rwd(mobile-up) {
+      &:nth-child(even) {
+        margin-right: 15px;
+      }
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+      width: 31.8%;
+    }
+    @include rwd(wide-up) {
+      &:nth-child(even) {
+        margin-right: 15px;
+      }
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+      width: 28%;
+    }
+  }
+
+
+  .wunder-bg {
+    &.top-1 {
+      top: 610px;
+    }
+    &.top-2 {
+      top: 2400px;
+    }
+    &.top-3 {
+      top: 3800px;
+    }
+    &.top-4 {
+      top: 4900px;
+    }
+    @include rwd(tablet-up) {
+      &.top-2 {
+        top: 2000px;
+      }
+      &.top-3 {
+        top: 3000px;
+      }
+      &.top-4 {
+        top: 4000px;
+      }
+    }
+  }
+
+
+  .table {
+    margin-bottom: 0;
+    td:first-child {
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    td:nth-child(2) {
+      font-weight: bold;
+    }
+  }
+
+
+  #section-location {
+
+    .bg-box__wrapper {
+      background-image: url('/uploads/global/meetup_map.png');
+      background-size: cover;
+      background-position: 100px top;
+      padding: 3.75rem 0 6.75rem;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('/uploads/global/meetup_map@2x.png');
+      }
+      @include rwd(tablet-down) {
+        background-position: right -125px;
+        .container {
+          max-width: 100%;
+          width: 100%;
+          margin: 0;
+          margin-bottom: 5rem;
+          padding: 0;
+        }
+        .bg-box__box {
+          transform: translateY(230px);
+        }
+      }
+
+      .bg-box__box {
+        padding: 2rem 3rem 1.5rem 2rem;
+      }
+
+    }
+
+  }
+
+  #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+
 }

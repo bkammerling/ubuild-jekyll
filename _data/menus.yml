@@ -1,17 +1,28 @@
 ---
 wunder-main:
 - url: "/press"
-  weight: 4
+  weight: 5
   identifier: press
   title: Press
 - url: "/careers/"
-  weight: 3
+  weight: 4
   identifier: careers
   title: Careers
-- url: "/summit"
+- url: "/autotech"
   weight: 2
+  identifier: autotech
+  title: Autotech Meetup
+  parent: events
+- url: "/summit"
+  weight: 1
   identifier: summit
-  title: Summit
+  title: Mobility Summit
+  parent: events
+- url: "#"
+  weight: 2
+  title: Events
+  identifier: events
+  sub: true
 - url: "/shuttle"
   weight: 2
   parent: solutions
@@ -110,11 +121,6 @@ footer:
   title: Company
   col: 2
   items:
-  - identifier: wms
-    url: "/summit/"
-    weight: 1
-    title: Summit
-    parent: company
   - identifier: press
     url: "/press"
     weight: 2
@@ -146,6 +152,21 @@ footer:
     weight: 1
     title: Jobs
     parent: footercareers
+- identifier: footerevents
+  title: Events
+  col: 1
+  weight: 5
+  items:
+  - identifier: summit
+    url: "/summit"
+    weight: 1
+    title: Summit
+    parent: footerevents
+  - identifier: autotech
+    url: "/autotech"
+    weight: 2
+    title: AutoTech Meetups
+    parent: footerevents
 - identifier: solutions
   title: Solutions
   col: 1

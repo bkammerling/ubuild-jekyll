@@ -278,4 +278,7 @@ $includeClasses: true !default;
   .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
     background: $solution-highlight;
   }
+  .bg-box__box {
+    border-left-color: $solution-highlight;
+  }
 }
