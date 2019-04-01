@@ -57,7 +57,7 @@ wunder-de:
 - url: "/de/summit"
   weight: 2
   identifier: summit
-  title: Summit
+  title: Summit (EN)
 - url: "/careers/"
   weight: 3
   identifier: careers

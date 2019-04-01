@@ -1,29 +1,29 @@
 ---
 layout: blocks
-title: Carpool
-date: 2019-01-10 23:00:00 +0000
-permalink: "/de/carpool"
+title: Fleet
+date: 2019-01-08 23:00:00 +0000
+permalink: "/de/fleet"
 lang: de
-lang-ref: carpool
+lang-ref: fleet
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-de
-  sub_logo: "/uploads/global/Wunder_Carpool_White.svg"
+  sub_logo: "/uploads/global/Wunder_Fleet_White.svg"
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
-  headline: Mobilität <strong>intelligenter, effizienter und umweltschonender</strong> gestalten
+  headline: Technologie für <strong>innovative Shared Mobility</strong> Lösungen
   cta:
-    button_text: Contact Us
+    button_text: Kontakt
     url: "#section-contact"
     enabled: true
   background_video:
   show_logos: true
-  background_image: "/uploads/global/Image_Carpool@2x.jpg"
-- block: carpool-main
+  background_image: "/uploads/global/Image_Fleet@2x.jpg"
+- block: fleet-main
   subdirectory: static/de
 - template: detail-content
   block: contact-form
@@ -31,6 +31,8 @@ page_sections:
   content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
+- block: custom-html
+  content: "</main>"
 - template: simple-footer
   block: footer-1
 

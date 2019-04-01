@@ -3,6 +3,8 @@ layout: blocks
 title: Fleet
 date: 2019-01-08 23:00:00 +0000
 permalink: "/fleet"
+lang: en
+lang-ref: fleet
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -18,7 +20,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video: 
+  background_video:
   show_logos: true
   background_image: "/uploads/global/Image_Fleet@2x.jpg"
 - block: fleet-main
