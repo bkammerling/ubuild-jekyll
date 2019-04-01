@@ -1,9 +1,10 @@
 <header class="block block-header-2">
-{% assign menu = site.menus.[section.menu] %}
+{% assign menu = site.data.menus.[section.menu] %}
   <nav class="absolute-header">
     <div class="container header">
       <div class="grouped-logo {% if section.sub_logo %}animated{% endif %}">
-        <a href="/">
+        {% assign directory = page.dir | remove: '/' %}
+        <a href="{{ site.url }}{% if site.data.global.languages contains directory %}{{ page.dir }}{% endif %}">
           <div class="main-logo-wrapper">
             <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="header__logotype main-logotype">
           </div>

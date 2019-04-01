@@ -2,44 +2,39 @@
 layout: blocks
 title: Fleet
 date: 2019-01-08 23:00:00 +0000
-permalink: "/fleet"
-lang: en
+permalink: "/de/fleet"
+lang: de
 lang-ref: fleet
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: wunder-de
   sub_logo: "/uploads/global/Wunder_Fleet_White.svg"
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology powering <strong>vehicle sharing</strong> worldwide
+  headline: Technologie für <strong>innovative Shared Mobility</strong> Lösungen
   cta:
-    button_text: Contact Us
+    button_text: Kontakt
     url: "#section-contact"
     enabled: true
   background_video:
   show_logos: true
   background_image: "/uploads/global/Image_Fleet@2x.jpg"
 - block: fleet-main
-  subdirectory: static
+  subdirectory: static/de
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We'll get your fleet up and running in no time! Send over some info and
-    we'll get in touch in the next 24h.
+  content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"
 - template: simple-footer
   block: footer-1
-menu:
-  wunder-main:
-    weight: 3
-    parent: solutions
-    identifier: fleet
+
 
 ---

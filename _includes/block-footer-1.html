@@ -65,6 +65,26 @@
               <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             </ul>
             <br>
+
+            <h4><ion-icon name="globe"></ion-icon> Language</h4>
+            <ul class="lang_options">
+            {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
+            {% for sitelang in site.data.global.languages %}
+              {% for post in posts %}
+                {% if post.lang == sitelang.code %}
+                  {% assign langlink = post.url %}
+                {% endif %}
+              {% endfor %}
+              {% unless langlink %}
+                {% assign langlink = sitelang.code %}
+              {% endunless %}
+              <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
+              <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>
+              {% assign langlink = false %}
+            {% endfor %}
+            </ul>
+            <br>
+
             {% comment %}
             <h4>Newsletter</h4>
             <!-- Begin Mailchimp Signup Form -->
@@ -86,6 +106,7 @@
             </div>
             <!--End mc_embed_signup-->
             {% endcomment %}
+
           </div>
 
       </div>

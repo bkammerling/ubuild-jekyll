@@ -2,20 +2,20 @@
 layout: blocks
 title: Carpool
 date: 2019-01-10 23:00:00 +0000
-permalink: "/carpool"
-lang: en
+permalink: "/de/carpool"
+lang: de
 lang-ref: carpool
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: wunder-de
   sub_logo: "/uploads/global/Wunder_Carpool_White.svg"
   cta:
     url: "#section-contact"
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Improving the <strong>quality of life</strong> in cities through <strong>carpooling</strong>
+  headline: Mobilität <strong>intelligenter, effizienter und umweltschonender</strong> gestalten
   cta:
     button_text: Contact Us
     url: "#section-contact"
@@ -24,20 +24,15 @@ page_sections:
   show_logos: true
   background_image: "/uploads/global/Image_Carpool@2x.jpg"
 - block: carpool-main
-  subdirectory: static
+  subdirectory: static/de
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: Let's get your carpool service online ASAP! Drop in your details and our
-    team will get in touch with you in 24h.
+  content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
-menu:
-  wunder-main:
-    weight: 1
-    parent: solutions
-    identifier: carpool
+
 
 ---

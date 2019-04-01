@@ -4,7 +4,11 @@
     <div class="container container-fullright">
       <ul class="row client-list__logotypes">
         <li class="col-sm-3">
-          <p>powering <br class="d-none d-sm-block">solutions with</p>
+          {% if page.dir contains 'de' %}
+            <p>unseren Kunden</p>
+          {% else %}
+            <p>powering <br class="d-none d-sm-block">solutions with</p>
+          {% endif %}
         </li>
         {% for item in site.data.data.partners %}
         <li class="col">
