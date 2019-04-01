@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Press
+title: Presse
 date: 2019-02-08 23:00:00 +0000
 permalink: /de/presse
 lang: de
@@ -8,7 +8,7 @@ lang-ref: press
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: wunder-de
   cta:
     url: "#section-contact"
     button_text: Kontakt
