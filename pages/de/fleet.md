@@ -15,7 +15,7 @@ page_sections:
     button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technologie für <strong>innovative Shared Mobility</strong> Lösungen
+  headline: Technologie für <strong>Nachhaltige Shared Mobility</strong> Lösungen
   cta:
     button_text: Kontakt
     url: "#section-contact"
@@ -30,6 +30,7 @@ page_sections:
   title: Let's Talk
   content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
+  subdirectory: de
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"

@@ -42,8 +42,10 @@
             <!-- #End Image-Caption Item -->
             {% endfor %}
           </div>
-          {% if page.title != 'Press' %}
-          <a class="with-arrow float-right" href="/press">All articles</a>
+          {% if page.lang-ref != 'press' %}
+          {% assign presspages = site.pages | where:'lang-ref', 'press' %}
+          {% assign presspage = presspages | where:'lang', page.lang %}
+          <a class="with-arrow float-right" href="{{ presspage[0].url }}">{% if page.lang == 'de' %}Artikel{% else %}All articles{% endif %}</a>
           {% endif %}
 
         </div>

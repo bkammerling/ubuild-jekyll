@@ -26,8 +26,9 @@ page_sections:
   headline: Featured News
 - template: detail-content
   block: contact-form
+  subdirectory: de
   title: Let's Talk
-  content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
+  content: Wir antworten innerhalb der nächsten 24 Stunden.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer

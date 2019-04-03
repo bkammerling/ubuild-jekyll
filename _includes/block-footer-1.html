@@ -77,6 +77,7 @@
               {% endfor %}
               {% unless langlink %}
                 {% assign langlink = sitelang.code %}
+                {% if langlink == 'en' %}{% assign langlink = '' %}{% endif %}
               {% endunless %}
               <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
               <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>

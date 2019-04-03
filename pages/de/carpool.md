@@ -15,9 +15,9 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Mobilität <strong>intelligenter, effizienter und umweltschonender</strong> gestalten
+  headline: Mobilität <strong>intelligent und nachhaltig</strong> gestalten
   cta:
-    button_text: Contact Us
+    button_text: Kontakt
     url: "#section-contact"
     enabled: true
   background_video:
@@ -28,6 +28,7 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
+  subdirectory: de
   content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"

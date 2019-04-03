@@ -30,6 +30,7 @@ page_sections:
   title: Let's Talk
   content: Wir antworten innerhalb der nächsten 24 Stunden
   headline: Let's Talk
+  subdirectory: de
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
   content: "</main>"

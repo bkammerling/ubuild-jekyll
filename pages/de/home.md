@@ -14,14 +14,14 @@ page_sections:
     button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technologie für vernetzte und <strong>nachhaltige Mobilität</strong>
+  headline: Technologie für intelligente und <strong>nachhaltige Mobilität</strong>
   cta:
-    button_text: Kontaktieren uns
+    button_text: Kontak
     url: "#section-contact"
     enabled: true
   cta_2:
     url: "https://vimeo.com/318402556"
-    button_text: Schaue unseren Film
+    button_text: Film
     enabled: true
   background_video: jared-drone4
   show_logos: true
@@ -38,6 +38,7 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
+  subdirectory: de
   content: Wir antworten innerhalb der nächsten 24 Stunden.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"

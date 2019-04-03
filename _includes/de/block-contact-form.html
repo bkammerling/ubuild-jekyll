@@ -20,24 +20,24 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label class="form-label" for="name">Full name *</label>
+                  <label class="form-label" for="name">Name *</label>
                   <input type="text" name="name" id="name" required>
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="email">Your email *</label>
+                  <label class="form-label" for="email">E-Mail *</label>
                   <input type="email" name="email" id="email" required>
                   <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label class="form-label" for="company">Your company *</label>
+                  <label class="form-label" for="company">Unternehmen *</label>
                   <input type="text" name="company" id="company" required>
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="phone">Phone</label>
+                  <label class="form-label" for="phone">Telefonnummer</label>
                   <input type="text" name="phone" id="phone">
                   <div class="bottom-border"></div>
                 </div>
@@ -58,19 +58,19 @@
             </div>
             <div class="hidden extra-form">
               <div class="form-group shuttle carpool fleet">
-                <label class="form-label" for="url">Company URL</label>
+                <label class="form-label" for="url">URL Unternehmen</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
-                    <option disabled selected>Type of company *</option>
+                    <option disabled selected>Art des Unternehmens *</option>
                     <option>Operating Start-up</option>
                     <option>Non Operating Start-up</option>
                     <option>OEM / Corporate</option>
-                    <option>Energy Provider / Public Institution</option>
-                    <option>Other</option>
+                    <option value="Energy Provider / Public Institution">Energieversorger / Öffentliche Einrichtung</option>
+                    <option value="Other">Sonstiges</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -78,10 +78,10 @@
               <div class="form-group shuttle carpool fleet">
                 <div class="select-wrapper">
                   <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
-                    <option disabled selected>What are you looking for? *</option>
-                    <option>Deploy and operate shared mobility service</option>
-                    <option>Discuss partnership and investment opportunity</option>
-                    <option>Other</option>
+                    <option disabled selected>Wobei können wir ihnen helfen? *</option>
+                    <option value="Deploy and operate shared mobility service">Technologie für nachhaltige und vernetzte Mobilität</option>
+                    <option value="Discuss partnership and investment opportunity">Partnerschaft, Investition & Beteiligung </option>
+                    <option value="Other">Sonstiges</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -89,11 +89,11 @@
               <div class="form-group fleet">
                 <div class="select-wrapper">
                   <select name="what-vehicle-type" class="form-control select2-init" style="width:100%" id="vehicleType" required=true>
-                    <option disabled selected>What kind of vehicle do you want to offer in your fleet? *</option>
+                    <option disabled selected>Welche Fahrzeuge möchten Sie anbieten? *</option>
                     <option>Scooters</option>
                     <option>Kick Scooters</option>
                     <option>Bikes - Ebikes</option>
-                    <option>Cars</option>
+                    <option value="Cars">Autos</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -101,11 +101,11 @@
               <div class="form-group fleet carpool shuttle">
                 <div class="select-wrapper">
                   <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
-                    <option disabled selected>When (approximately) would you like to launch? *</option>
+                    <option disabled selected>Wann (ungefähr) möchten Sie starten? *</option>
                     <option>ASAP</option>
-                    <option>2-6 months</option>
-                    <option value=">6 months">Over 6 months</option>
-                    <option>Not sure</option>
+                    <option value="2-6 months">In 2 bis 6 Monaten</option>
+                    <option value=">6 months">in mehr als 6 Monaten</option>
+                    <option value="Not sure">Steht noch nicht fest</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -113,15 +113,16 @@
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
-                    <option disabled selected>What's the funding status of your project? *</option>
-                    <option>Privately Funded</option>
-                    <option>Venture Funded</option>
-                    <option>Corporate Funded</option>
-                    <option>Not Yet Funded</option>
+                    <option disabled selected>Wie ist der Finanzierungsstatus Ihres Projekts? *</option>
+                    <option value="Privately funded">Private Investoren</option>
+                    <option value="Venture funded">Venture Capital</option>
+                    <option value="Corporate funded">Finanzierung durch ein anderes Unternehmen</option>
+                    <option value="Not yet funded">Finanzierung steht noch aus</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
               </div>
+              {% comment %}
               <div class="form-group carpool">
                 <div class="select-wrapper multiple">
                   <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
@@ -138,18 +139,20 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
+              {% endcomment %}
               <div class="form-group shuttle">
                 <div class="select-wrapper">
                   <select name="existing-shuttle-vehicles" class="form-control select2-init" style="width:100%" id="existing-shuttle-vehicles" required=true>
-                    <option disabled selected>Do you currently have an existing fleet of vehicles? *</option>
-                    <option value=">100">Yes, 100+ vehicles</option>
-                    <option value="21-100">Yes, 21-100 vehicles</option>
-                    <option value="1-20">Yes, 1-20 vehicles</option>
-                    <option value="0">No</option>
+                    <option disabled selected>Verfügen Sie derzeit über einen bestehenden Fuhrpark? *</option>
+                    <option value=">100">Ja, mehr als 100 Fahrzeuge</option>
+                    <option value="21-100">Ja, 21-100 Fahrzeuge</option>
+                    <option value="1-20">Ja, 1-20 G Fahrzeuge </option>
+                    <option value="0">Nein</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
               </div>
+              {% comment %}
               <div class="form-group shuttle">
                 <div class="select-wrapper multiple">
                   <select name="shutte-interest[]" class="form-control select2-init" style="width: 100%" id="shuttle-interest" multiple="multiple" required=true novalidate>
@@ -166,8 +169,9 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
+              {% endcomment %}
               <div class="form-group general fleet shuttle carpool">
-                <label class="form-label" for="message">Message</label>
+                <label class="form-label" for="message">Nachricht</label>
                 <textarea type="text" name="message" id="message"></textarea>
                 <div class="bottom-border"></div>
               </div>
@@ -180,9 +184,9 @@
               </div>
             </div>
             <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
-              Send it!
+              Senden!
             </button>
-            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+            <p class="form-feedback hidden">Danke, Ihre Nachricht wurde gesendet.</p>
           </form>
 
 
@@ -190,7 +194,7 @@
           <div class="press-contact d-sm-flex mt-5 pt-5 pt-sm-5 align-items-sm-end">
             <img class="mr-4" data-src="/uploads/global/Photo_Daniel.jpg" data-srcset="/uploads/global/Photo_Daniel@2x.jpg 2x" />
             <div class="press-contact__info mt-3 mt-sm-0">
-              <p class="mb-3"><strong>Press Contact</strong></p>
+              <p class="mb-3"><strong>Presse Kontakt</strong></p>
               <h3>Daniel Hölzer</h3>
               <p>E-mail: <a href="mailto:daniel.hoelzer@wundermobility.com" title="Email Wunder's press contact Daniel">daniel.hoelzer@wundermobility.com</a></p>
             </div>
