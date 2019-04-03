@@ -2,12 +2,9 @@
 
 # Redirect with 301
 /de/karriere    /careers  301
-/de/ueber-uns    /  301
-/de/faq   /  301
-/de/presse  /press  301
-/de/leistungen  /  301
-/de/*    /:splat  301
-/de  /  301
+/de/ueber-uns    /de  301
+/de/faq   /de  301
+/de/leistungen  /de/  301
 /pt/*   /:splat  301
 /pt  /  301
 /platform   /  301
@@ -15,7 +12,7 @@
 /pricing  /  301
 /carpool-app   https://help.wunder.org  301
 /about  /  301
-/meetup  /summit  301
+/meetup  /autotech  301
 /terms-conditions  /terms  301
 
 # Redirect default Netlify subdomain to primary domain
