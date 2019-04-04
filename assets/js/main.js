@@ -665,7 +665,7 @@ $(document).ready(function() {
     var subject = button.data('subject') // Extract info from data-* attributes
     var modal = $(this);
     modal.find('.modal-title').text('Apply to ' + subject);
-    modal.find('.modal-body #subject-field').val('Apply to ' + subject + ' WMS 2019');
+    modal.find('.modal-body #subject-field').val('Apply to ' + subject);
   });
 
   $('#filmModal').on('hidden.bs.modal', function (e) {
