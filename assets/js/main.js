@@ -604,12 +604,13 @@ $(document).ready(function() {
       utm_campaign: getUrlParameter('utm_campaign'),
       utm_campaigngroup: getUrlParameter('utm_campaigngroup')
     }
+    if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Adwords";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else {
     utm_data = {
       utm_source: document.referrer != "" ? document.referrer : 'direct',
-      utm_medium: 'organic',
+      utm_medium: 'Organic',
       utm_campaign: '',
       utm_campaigngroup: ''
     }
