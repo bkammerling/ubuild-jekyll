@@ -587,6 +587,10 @@ function setupIp() {
   $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
+    var deRegion = ["Germany", "Austria", "Liechtenstein", "Switzerland"];
+    var usRegion = ["United States", "Canada"];
+    if(deRegion.indexOf(userCountry) != -1) $("#user-region").val("DE");
+    if(usRegion.indexOf(userCountry) != -1) $("#user-region").val("US");
   });
 }
 
