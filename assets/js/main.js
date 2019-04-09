@@ -202,7 +202,7 @@ var form = {
     delete data.firstname;
     console.log(data);
 
-/*    $.ajax({
+    $.ajax({
       url: postURL,
       method: "POST",
       data: data,
@@ -220,7 +220,7 @@ var form = {
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
       $("#form-submit").attr("disabled", false);
     });
-*/
+
 
   },
 
