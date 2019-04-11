@@ -16,7 +16,7 @@ page_sections:
   block: hero-2
   headline: Technologie für intelligente und <strong>nachhaltige Mobilität</strong>
   cta:
-    button_text: Kontak
+    button_text: Kontakt
     url: "#section-contact"
     enabled: true
   cta_2:
