@@ -594,7 +594,7 @@ function setupIp() {
     var deRegion = ["Germany", "Austria", "Liechtenstein", "Switzerland"];
     var usRegion = ["United States", "Canada"];
     var frRegion = ["France", "Belgium", "DRC", "Republic of the Congo", "Côte d'Ivoire", "Madagascar", "Cameroon", "Burkina Faso", "Niger", "Mali", "Senegal", "Haiti", "Benin"];
-    var latamRegion = ["Dominican Republic", "Cuba", "Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela", "Costa Rica", "El Salvador", "Guatemala", "Honduras", "Mexico", "Nicaragua", "Panama"];
+    var latamRegion = ["Dominican Republic", "Cuba", "Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela", "Costa Rica", "El Salvador", "Guatemala", "Honduras", "Mexico", "Nicaragua", "Panama", "Spain"];
     if(deRegion.indexOf(userCountry) != -1) {
       userRegion = "DE";
     } else if(usRegion.indexOf(userCountry) != -1) {
