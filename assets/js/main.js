@@ -193,7 +193,8 @@ var form = {
       data.subject = $("form #subject-field").val();
     } else {
       // google adwords 'Website form submitted' conversion event
-      gtag_report_conversion();
+      //gtag_report_conversion();
+      //dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
     }
     delete data.firstname;
     //console.log(data);
