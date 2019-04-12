@@ -192,9 +192,8 @@ var form = {
     if($(".modal-body #subject-field").length) {
       data.subject = $("form #subject-field").val();
     } else {
-      // google adwords 'Website form submitted' conversion event
-      //gtag_report_conversion();
-      //dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
+      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
+      dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
     }
     delete data.firstname;
     //console.log(data);
