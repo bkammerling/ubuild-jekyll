@@ -187,11 +187,7 @@ var form = {
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
     $("#form-submit").attr("disabled", true);
-    var hidden = contactForm.find('.form-group:hidden');
-    console.log(hidden);
-    hidden.show();
     var data = form.serializeObject(contactForm);
-    hidden.hide();
     // add subject for summit related messages
     if($(".modal-body #subject-field").length) {
       data.subject = $("form #subject-field").val();
@@ -200,7 +196,7 @@ var form = {
       gtag_report_conversion();
     }
     delete data.firstname;
-    console.log(data);
+    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -221,12 +217,10 @@ var form = {
       $("#form-submit").attr("disabled", false);
     });
 
-
   },
 
   serializeObject: function($form){
     var unindexed_array = $form.serializeArray();
-    //console.log(unindexed_array);
     var indexed_array = {};
     $.map(unindexed_array, function(n, i){
         if(indexed_array[n['name']]) {
@@ -235,6 +229,11 @@ var form = {
           indexed_array[n['name']] = n['value'];
         }
     });
+    // Add non-selected select elements with empty values
+    var hidden = $("#main-contact").find('.form-group:hidden select');
+    hidden.each(function() {
+      indexed_array[$(this).attr('name')] = "";
+    })
     return indexed_array;
   },
 
