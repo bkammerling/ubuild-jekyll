@@ -600,9 +600,9 @@ function setupIp() {
     } else if(usRegion.indexOf(userCountry) != -1) {
       userRegion = "US";
     } else if(frRegion.indexOf(userCountry) != -1) {
-      userRegion = "FR";
+      userRegion = "EN";
     } else if(latamRegion.indexOf(userCountry) != -1) {
-      userRegion = "LATAM";
+      userRegion = "EN";
     } else {
       userRegion = "EN";
     }
