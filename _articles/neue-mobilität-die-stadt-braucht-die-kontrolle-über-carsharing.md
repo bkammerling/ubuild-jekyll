@@ -5,6 +5,5 @@ date: 2019-04-04 22:00:00 +0000
 lang: de
 image: "/uploads/die-welt-logo.jpg"
 featured: true
-published: false
 
 ---
