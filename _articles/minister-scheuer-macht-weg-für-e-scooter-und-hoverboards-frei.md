@@ -5,6 +5,5 @@ date: 2019-02-15 23:00:00 +0000
 lang: de
 image: "/uploads/Handelsblatt_resized.jpg"
 featured: true
-published: false
 
 ---
