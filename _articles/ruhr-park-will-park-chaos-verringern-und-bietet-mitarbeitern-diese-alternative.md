@@ -4,7 +4,7 @@ title: Ruhr Park will Park-Chaos verringern – und bietet Mitarbeitern diese Al
 date: 2019-04-09 22:00:00 +0000
 lang: de
 image: "/uploads/ruhr24-logo-rgb (1).png"
-featured: false
+featured: true
 published: false
 
 ---
