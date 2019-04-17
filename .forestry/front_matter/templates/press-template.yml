@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/https-www-automobilwoche-de-article-20190222-bconline-190229975-wunder-chef-gunnar-froh-autohersteller-muessen-keine-softwarefirmen-werden.md
 - _articles/wunder-mobility-carsharing-und-intelligente-mobilität-vereint.md
 - _articles/wunder-mobility-to-expand-in-india.md
 - _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
