@@ -5,6 +5,5 @@ date: 2019-03-24 23:00:00 +0000
 lang: en
 image: "/uploads/logo.jpg"
 featured: false
-published: false
 
 ---
