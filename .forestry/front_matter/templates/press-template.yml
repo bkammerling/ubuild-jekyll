@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/germany-s-wunder-is-hoping-carpooling-helps-india-s-pollution.md
 - _articles/neue-mobilität-die-stadt-braucht-die-kontrolle-über-carsharing.md
 - _articles/ruhr-park-will-park-chaos-verringern-und-bietet-mitarbeitern-diese-alternative.md
 - _articles/how-germany-s-wunder-mobility-is-planning-on-getting-indians-hitched-to-carpooling.md
