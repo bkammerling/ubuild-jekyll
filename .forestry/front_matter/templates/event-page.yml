@@ -22,3 +22,11 @@ fields:
   config:
     required: false
   label: Event Location
+- name: event_block
+  type: blocks
+  label: Event Block
+  template_types:
+  - speakers
+  config:
+    min: 
+    max: 
