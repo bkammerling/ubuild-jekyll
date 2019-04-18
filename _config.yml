@@ -7,7 +7,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.wundermobility.com" # your site's origin, e.g. https://forestry.io
 
 collections:
-  - articles
+  articles:
+    output: false
+  autotech-events:
+    output: true
 
 include: ['_redirects']
 

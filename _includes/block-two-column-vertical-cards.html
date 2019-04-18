@@ -15,11 +15,13 @@
               <h3>{{ item.title }}</h3>
             </div>
             <p>{{ item.content }}</p>
+
             {% if item.show_meetups %}
             {% for event in site.data.data.events %}
               <a href="{{ event.url }}" class="with-arrow">{{ event.title }}</a><br>
             {% endfor %}
             {% endif %}
+            
           </div>
         </div>
         <!-- #End Image-Caption Item -->
