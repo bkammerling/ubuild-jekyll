@@ -1,4 +1,18 @@
 ---
 label: Speakers
 hide_body: true
-fields: []
+fields:
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: speaker
+    type: include
+    config:
+      template: speaker
+    template: ''
+    label: Speaker
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Speakers
