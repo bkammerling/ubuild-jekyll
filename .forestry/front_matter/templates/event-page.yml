@@ -1,4 +1,58 @@
 ---
 label: Event page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Event Title
+- name: event_date
+  type: datetime
+  label: Event Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: 
+- name: event_location
+  type: text
+  config:
+    required: false
+  label: Event Location
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: company
+    type: text
+    config:
+      required: false
+    label: Company
+  - name: speaker_image
+    type: file
+    config:
+      maxSize: 250
+    label: Speaker Image
+  - name: company_logo
+    type: file
+    config:
+      maxSize: 250
+    label: Company Logo
+  config:
+    min: 
+    max: 
+    labelField: name
+  label: Speakers
+  description: List of speakers at this event
