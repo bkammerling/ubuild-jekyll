@@ -13,7 +13,7 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
-  headline: <strong>Hamburg,</strong> Germany
+  headline: "<strong>Hamburg,</strong> Germany"
 - template: speakers
   block: speaker-cards
   speakers:
@@ -32,6 +32,66 @@ event_block:
     company: German AutoLabs
     speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
     company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+- template: custom-content
+  block: custom-html
+  name: Agenda
+  content: |-
+    <div class="container mt-5 mb-0" id="section-agenda">
+          <div class="wunder-bg right top-2"></div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2">
+              <section class="mt-5">
+                <h2 class="page-heading mb-3">Agenda</h2>
+
+                <div class="border-hl-left w-x-shadow table-wrapper">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Speaker</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>6:30 PM</td>
+                        <td>Open Doors</td>
+                        <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
+                      </tr>
+                      <tr>
+                        <td>7:00 - 7:20 PM</td>
+                        <td>Hey Assistant - Drive me home! <br>How Voice AI will change the rules in mobility?</td>
+                        <td>Holger Weiss - CEO, German Autolabs</td>
+                      </tr>
+                      <tr>
+                        <td>7:40 - 8:00 PM</td>
+                        <td>To be announced</td>
+                        <td>Bruno Ginnuth - CEO, CleverShuttle</td>
+                      </tr>
+                      <tr>
+                        <td>8:00 - 8:20 PM</td>
+                        <td>A concept for the future: corporate carsharing</td>
+                        <td>Dr. Max Kury - CEO, Ubeeqo</td>
+                      </tr>
+                      <tr>
+                        <td>8:20 - 8:30 PM</td>
+                        <td>Closing remarks</td>
+                        <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
+                      </tr>
+                      <tr>
+                        <td>8:30 - 11:00 PM</td>
+                        <td>Drinks & Snacks</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </section>
+            </div>
+          </div>
+        </div>
 - template: simple-footer
   block: footer-1
 
