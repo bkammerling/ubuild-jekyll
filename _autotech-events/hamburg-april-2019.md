@@ -1,22 +1,6 @@
 ---
-layout: blocks
+layout: blocks-events
 title: Hamburg AutoTech April 2019
-speakers:
-- name: Bruno Ginnuth
-  title: CEO & Co-Founder
-  company: CleverShuttle
-  company_logo: "/uploads/global/Logo_CleverShuttle@2x.jpg"
-  speaker_photo: "/uploads/global/BrunoGinnuth@2x.jpg"
-- name: Dr. Max Kury
-  title: CEO
-  company: Ubeeqo
-  company_logo: "/uploads/global/UbeeqoBanner@2x.jpg"
-  speaker_photo: "/uploads/global/Dr@2x.jpg"
-- name: Holger Weiss
-  title: Founder & CEO
-  company: German Autolabs
-  speaker_photo: "//uploads/global/German_Autolabs@2x.jpg"
-  speaker_portrait: "/uploads/global/Holger-Weiss_German-Autolabs@2x.jpg"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -29,12 +13,14 @@ page_sections:
   headline: Connecting leaders of the <strong>global mobility revolution</strong>
   show_logos: false
   background_image: "/uploads/global/autotech-head@2x.png"
+- block: event-block
 - template: simple-footer
   block: footer-1
-event_date: 2019-04-03 22:00:00 +0000
+event_date: 2019-04-04 19:00:00 +0200
 event_location: Hamburg, Germany
 event_block:
 - template: speakers
+  block: speaker-cards
   speakers:
   - name: Holger Weiss
     job_title: Founder & CEO
