@@ -1,0 +1,41 @@
+---
+label: Google Map
+hide_body: true
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: For the box that overlays the map
+- name: content
+  type: text
+  config:
+    required: false
+  label: Content
+  description: The main content in the overlay
+- name: gmaps_link
+  type: text
+  config:
+    required: false
+  label: Google Maps Link
+  description: Full link to location on Google Maps
+- name: venue_location
+  type: text
+  config:
+    required: false
+  label: Venue Address
+- name: lat-lng
+  type: text
+  config:
+    required: false
+  label: Lat-Lng
+  hidden: true
+  default: "{lat: 53.551086, lng: 9.993682}"
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: google-map

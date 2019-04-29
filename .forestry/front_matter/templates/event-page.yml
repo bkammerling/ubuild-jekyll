@@ -31,8 +31,7 @@ fields:
   - speakers
   - simple-footer
   - custom-content
+  - google-map
   config:
     min: 
     max: 
-pages:
-- _autotech-events/autotech-japan.html
