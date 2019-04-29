@@ -44,6 +44,8 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
+  background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
+  headline: April AutoTech in Hamburg
 - template: speakers
   block: speaker-cards
   speakers:
