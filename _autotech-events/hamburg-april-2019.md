@@ -38,6 +38,11 @@ event_location: Hamburg, Germany
 event_block:
 - template: speakers
   speakers:
+  - name: Holger Weiss
+    job_title: Founder & CEO
+    company: German AutoLabs
+    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
+    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
   - name: Bruno Ginnuth
     job_title: CEO & Co-Founder
     company: CleverShuttle
