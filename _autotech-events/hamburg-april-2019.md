@@ -35,5 +35,13 @@ page_sections:
   block: footer-1
 event_date: 2019-04-03 22:00:00 +0000
 event_location: Hamburg, Germany
+event_block:
+- template: speakers
+  speakers:
+  - name: Bruno Ginnuth
+    job_title: CEO & Co-Founder
+    company: CleverShuttle
+    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth.jpg"
+    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle.jpg"
 
 ---
