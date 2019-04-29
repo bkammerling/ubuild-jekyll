@@ -71,7 +71,7 @@ event_block:
                       </tr>
                       <tr>
                         <td>8:00 - 8:20 PM</td>
-                        <td>A concept for the future: corporate carsharing</td>
+                        <td> The Future of Transportation: Our view on New Mobility and Carsharing</td>
                         <td>Dr. Max Kury - CEO, Ubeeqo</td>
                       </tr>
                       <tr>
