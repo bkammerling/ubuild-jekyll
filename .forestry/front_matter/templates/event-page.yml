@@ -36,3 +36,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- _autotech-events/autotech-japan.html
