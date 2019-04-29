@@ -30,6 +30,7 @@ fields:
   - hero-banner-w-image
   - speakers
   - simple-footer
+  - custom-content
   config:
     min: 
     max: 
