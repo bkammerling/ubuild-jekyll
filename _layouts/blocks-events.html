@@ -1,18 +1,21 @@
 {% include head.html %}
-{% for section in page.page_sections %}
-  {% if section.block == "event-block" %}
-    <div class="container mt-5" id="section-eventinfo">
+{% for section in page.event_block %}
+  {% if section.template == "speakers" %}
+    <main>
+    <div class="container" id="section-eventinfo">
       <div class="wunder-bg left top-1"></div>
 
       <div class="row">
-        <div class="col-lg-10 offset-lg-2 mt-5">
+        <div class="col-lg-10 offset-lg-2">
           <section id="section-intro">
             <h2 class="page-heading mb-4 text-blue">Event Info</h2>
             <h1 class="mb-3 p-0">
               {% assign d = page.event_date | date: "%-d" %}
               {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
               {{ page.event_date | date: "%B" }}
-              {{ page.event_date | date: "%Y" }} <br>{{ page.event_location }}</h1>
+              {{ page.event_date | date: "%Y" }} <br>
+              {{ page.event_location }}
+            </h1>
             <p class="text-black w-75 lead mb-5"><strong>Informal but exclusive, with world class speakers, special events, great food and entertainment, and connections you will keep!</strong></p>
             {% assign today_date = 'now' | date: '%s' %}
             {% assign event_secs = page.event_date | date: '%s' %}
@@ -24,10 +27,10 @@
       </div>
 
     </div>
-
-    {% for events-section in page.event_block %}
-      {% include block-{{ events-section.block }}.html %}
-    {% endfor %}
+    {% include block-{{ section.block }}.html %}
+  {% else if section.template == "simple-footer" %}
+    </main>
+    {% include block-{{ section.block }}.html %}
   {% else %}
     {% include block-{{ section.block }}.html %}
   {% endif %}

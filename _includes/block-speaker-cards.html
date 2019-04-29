@@ -14,14 +14,18 @@
 
           <div class="speakers-container">
 
-            {% for speaker in events-section.speakers %}
+            {% for speaker in section.speakers %}
 
             <div class="card speaker-card">
-              <img data-src="/uploads/global/BrunoGinnuth.jpg" data-srcset="/uploads/global/BrunoGinnuth@2x.jpg 2x" class="card-img-top" alt="...">
+              {% capture speaker_photo %}{{ speaker.speaker_photo }}{% endcapture %}
+              {% capture speaker_alt %}Photo of {{ speaker.name }}{% endcapture %}
+              <img {% include resp_image.html file=speaker_photo  alt=speaker_alt %} class="card-img-top">
               <div class="card-body">
                 <h6 class="card-title">{{ speaker.name }}</h6>
                 <p class="card-subtitle  text-muted">{{ speaker.job_title }} <br><span class="company">{{ speaker.company }}</span></p>
-                <img class="card-footer-logo" data-src="/uploads/global/Logo_CleverShuttle.jpg" data-srcset="/uploads/global/Logo_CleverShuttle@2x.jpg 2x"  alt="CleverShuttle logo" />
+                {% capture company_logo %}{{ speaker.company_logo }}{% endcapture %}
+                {% capture logo_alt %}"Logo for {{ speaker.company }}"{% endcapture %}
+                <img class="card-footer-logo" {% include resp_image.html file=company_logo alt=logo_alt %}  />
               </div>
             </div>
 

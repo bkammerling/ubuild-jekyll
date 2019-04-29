@@ -173,6 +173,7 @@ body.summit .gradient-block .block-full-right {
 
     margin-right: 15px;
     width: 45%;
+    overflow: hidden;
     &:nth-child(even) {
       margin-right: 0;
     }
