@@ -5,12 +5,26 @@ fields:
 - name: speakers
   type: field_group_list
   fields:
-  - name: speaker
-    type: include
+  - name: name
+    type: text
     config:
-      template: speaker
-    template: ''
-    label: Speaker
+      required: false
+    label: Name
+  - name: company
+    type: text
+    config:
+      required: false
+    label: Company
+  - name: speaker_photo
+    type: file
+    config:
+      maxSize: 250
+    label: Speaker Photo
+  - name: company_logo
+    type: file
+    config:
+      maxSize: 250
+    label: Company Logo
   config:
     min: 
     max: 
