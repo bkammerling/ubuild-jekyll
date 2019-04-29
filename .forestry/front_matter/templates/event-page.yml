@@ -22,12 +22,6 @@ fields:
   config:
     required: false
   label: Event Location
-- name: feature_image
-  type: file
-  config:
-    maxSize: 250
-  label: Header / Feature Image
-  description: Appears in header and on links
 - name: event_block
   type: blocks
   label: Event Block
