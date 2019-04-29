@@ -92,6 +92,15 @@ event_block:
             </div>
           </div>
         </div>
+- template: google-map
+  lat-lng: "{lat: 53.551086, lng: 9.993682}"
+  block: google-map
+  headline: AutoTech Comes to Hamburg
+  content: The fifth edition takes place on 4th of April 2019 at our Headquarters
+    in Hamburg, and you're invited to learn from inspiring speakers and to connect
+    with leaders of the global mobility ecosystem.
+  gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
+  venue_location: Honkongstraße 2, 20457 Hamburg
 - template: simple-footer
   block: footer-1
 
