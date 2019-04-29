@@ -33,5 +33,23 @@ page_sections:
   block: footer-1
 event_date: 2019-04-03 22:00:00 +0000
 event_location: Hamburg, Germany
+event_block:
+- template: speakers
+  speakers:
+  - name: Holger Weiss
+    job_title: Founder & CEO
+    company: German AutoLabs
+    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
+    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+  - name: Bruno Ginnuth
+    job_title: CEO & Co-Founder
+    company: CleverShuttle
+    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth@2x.jpg"
+    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle@2x.jpg"
+  - name: Dr. Max Kury
+    job_title: CEO
+    company: Ubeeqo
+    speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
+    company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
 
 ---

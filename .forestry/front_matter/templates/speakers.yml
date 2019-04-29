@@ -10,6 +10,11 @@ fields:
     config:
       required: false
     label: Name
+  - name: job_title
+    type: text
+    config:
+      required: false
+    label: Job Title
   - name: company
     type: text
     config:
