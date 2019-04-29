@@ -32,7 +32,10 @@ fields:
   type: blocks
   label: Event Block
   template_types:
+  - navigation-header-w-button
+  - hero-banner-w-image
   - speakers
+  - simple-footer
   config:
     min: 
     max: 
