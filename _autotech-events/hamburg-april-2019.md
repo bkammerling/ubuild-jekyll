@@ -66,7 +66,7 @@ event_block:
                       </tr>
                       <tr>
                         <td>7:40 - 8:00 PM</td>
-                        <td>To be announced</td>
+                        <td> Sharing experiences of on-demand-RidePooling in Germany</td>
                         <td>Bruno Ginnuth - CEO, CleverShuttle</td>
                       </tr>
                       <tr>
