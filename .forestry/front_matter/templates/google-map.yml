@@ -25,11 +25,11 @@ fields:
   config:
     required: false
   label: Venue Address
-- name: lat-lng
+- name: lat
   type: text
   config:
     required: false
-  label: Lat-Lng
+  label: Lat
   hidden: true
   default: "{lat: 53.551086, lng: 9.993682}"
 - name: block
@@ -39,3 +39,9 @@ fields:
   label: block
   hidden: true
   default: google-map
+- name: lng
+  type: text
+  config:
+    required: false
+  label: Lng
+  hidden: true
