@@ -31,14 +31,19 @@
 
   </div>
 
-  {% if section.background_image %}
+  {% assign bg_image = section.background_image %}
+  {% if bg_image ==  %}
+    {% assign bg_image = page.feature_image %}
+  {% endif %}
+
+  {% if bg_image %}
   <style>
   .video-banner {
-    background-image: url("{{ section.background_image | remove: '@2x' | relative_url }}");
+    background-image: url("{{ bg_image | remove: '@2x' | relative_url }}");
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .video-banner {
-      background-image: url('{{ section.background_image | relative_url }}');
+      background-image: url('{{ bg_image | relative_url }}');
     }
   }
   {% if section.background_video %}

@@ -12,7 +12,6 @@ page_sections:
   block: hero-2
   headline: Connecting leaders of the <strong>global mobility revolution</strong>
   show_logos: false
-  background_image: "/uploads/global/autotech-head@2x.png"
 - block: event-block
 - template: simple-footer
   block: footer-1
