@@ -49,11 +49,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Holger Weiss
-    job_title: Founder & CEO
-    company: German AutoLabs
-    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
-    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
   - name: Bruno Ginnuth
     job_title: CEO & Co-Founder
     company: CleverShuttle
@@ -64,6 +59,11 @@ event_block:
     company: Ubeeqo
     speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
     company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
+  - name: Holger Weiss
+    job_title: Founder & CEO
+    company: German AutoLabs
+    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
+    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
 - template: simple-footer
   block: footer-1
 feature_image: ''
