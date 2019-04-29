@@ -8,7 +8,7 @@ page_sections:
   block: header-2
   menu: wunder-main
   cta:
-    url: "https://www.wundermobility.com/#section-contact"
+    url: https://www.wundermobility.com/#section-contact
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2

@@ -1,0 +1,32 @@
+---
+label: Event page
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Event Title
+- name: event_date
+  type: datetime
+  label: Event Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: 
+- name: event_location
+  type: text
+  config:
+    required: false
+  label: Event Location
+- name: event_block
+  type: blocks
+  label: Event Block
+  template_types:
+  - speakers
+  config:
+    min: 
+    max: 

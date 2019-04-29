@@ -24,6 +24,13 @@ sections:
   new_doc_ext: md
   templates:
   - press-template
+- type: directory
+  path: _autotech-events
+  label: AutoTech Events
+  create: documents
+  match: "**/*"
+  templates:
+  - event-page
 - type: document
   path: _data/data.yml
   label: Wunder Data
