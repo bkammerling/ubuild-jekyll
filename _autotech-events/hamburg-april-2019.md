@@ -16,7 +16,7 @@ page_sections:
 - block: event-block
 - template: simple-footer
   block: footer-1
-event_date: 2019-04-04 19:00:00 +0200
+event_date: 2019-04-04 17:00:00 +0000
 event_location: Hamburg, Germany
 event_block:
 - template: speakers
@@ -37,5 +37,6 @@ event_block:
     company: Ubeeqo
     speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
     company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
+feature_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
 
 ---
