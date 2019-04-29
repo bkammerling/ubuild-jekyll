@@ -36,11 +36,11 @@ event_block:
   block: custom-html
   name: Agenda
   content: |-
-    <div class="container mt-5 mb-0" id="section-agenda">
+    <div class="container mt-5 mb-5" id="section-agenda">
           <div class="wunder-bg right top-2"></div>
 
           <div class="row">
-            <div class="col-lg-10 offset-lg-2">
+            <div class="col-lg-10 offset-lg-2 mb-3">
               <section class="mt-5">
                 <h2 class="page-heading mb-3">Agenda</h2>
 

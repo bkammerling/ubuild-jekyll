@@ -2,33 +2,35 @@
 {% for section in page.event_block %}
   {% if section.template == "speakers" %}
     <main>
-    <div class="container" id="section-eventinfo">
-      <div class="wunder-bg left top-1"></div>
+      <div class="event-main-wrapper">
+        <div class="container" id="section-eventinfo">
+          <div class="wunder-bg left top-1"></div>
 
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-4 text-blue">Event Info</h2>
-            <h1 class="mb-3 p-0">
-              {% assign d = page.event_date | date: "%-d" %}
-              {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
-              {{ page.event_date | date: "%B" }}
-              {{ page.event_date | date: "%Y" }} <br>
-              {{ page.event_location }}
-            </h1>
-            <p class="text-black w-75 lead mb-5"><strong>Informal but exclusive, with world class speakers, special events, great food and entertainment, and connections you will keep!</strong></p>
-            {% assign today_date = 'now' | date: '%s' %}
-            {% assign event_secs = page.event_date | date: '%s' %}
-            {% if event_secs > today_date %}
-              <a data-subject="Attend AutoTech Tokyo" class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal">Apply to attend</a>
-            {% endif %}
-          </section>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2">
+              <section id="section-intro">
+                <h2 class="page-heading mb-4 text-blue">Event Info</h2>
+                <h1 class="mb-3 p-0">
+                  {% assign d = page.event_date | date: "%-d" %}
+                  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+                  {{ page.event_date | date: "%B" }}
+                  {{ page.event_date | date: "%Y" }} <br>
+                  {{ page.event_location }}
+                </h1>
+                <p class="text-black w-75 lead mb-5"><strong>Informal but exclusive, with world class speakers, special events, great food and entertainment, and connections you will keep!</strong></p>
+                {% assign today_date = 'now' | date: '%s' %}
+                {% assign event_secs = page.event_date | date: '%s' %}
+                {% if event_secs > today_date %}
+                  <a data-subject="Attend AutoTech Tokyo" class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal">Apply to attend</a>
+                {% endif %}
+              </section>
+            </div>
+          </div>
+
         </div>
+      {% include block-{{ section.block }}.html %}
+  {% elsif section.template == "simple-footer" %}
       </div>
-
-    </div>
-    {% include block-{{ section.block }}.html %}
-  {% else if section.template == "simple-footer" %}
     </main>
     {% include block-{{ section.block }}.html %}
   {% else %}

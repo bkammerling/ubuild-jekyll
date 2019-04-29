@@ -52,7 +52,7 @@
   }
 }
 
-.summit-main-wrapper, .autotech-main-wrapper {
+.summit-main-wrapper, .autotech-main-wrapper, .event-main-wrapper {
   overflow: hidden;
   position: relative;
 }
@@ -380,7 +380,6 @@ body.summit .gradient-block .block-full-right {
 
 
   #section-location {
-
     .bg-box__wrapper {
       background-image: url('/uploads/global/meetup_map.png');
       background-size: cover;
@@ -411,10 +410,38 @@ body.summit .gradient-block .block-full-right {
 
   }
 
+}
+
+#section-map {
+  margin-bottom: 5rem;
+
+  .bg-box__wrapper {
+    position: relative;
+    background: none;
+    padding: 7rem 0;
+
+  }
+
   #map {
-    height: 400px;  /* The height is 400 pixels */
+    height: 100%;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
+    position: absolute !important;
+    z-index: 0;
+    top: 0px;
+    right: 0px;
+    left: 100px;
+
+  }
+
+   .container-fullright {
+     z-index: 10;
+     position: relative;
+     pointer-events: none;
    }
 
+   .bg-box__box {
+      width: 450px;
+      pointer-events: auto;
+   }
 
 }
