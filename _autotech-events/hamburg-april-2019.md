@@ -41,7 +41,12 @@ event_block:
   - name: Bruno Ginnuth
     job_title: CEO & Co-Founder
     company: CleverShuttle
-    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth.jpg"
-    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle.jpg"
+    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth@2x.jpg"
+    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle@2x.jpg"
+  - name: Dr. Max Kury
+    job_title: CEO
+    company: Ubeeqo
+    speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
+    company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
 
 ---
