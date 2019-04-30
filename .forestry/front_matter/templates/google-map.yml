@@ -31,7 +31,14 @@ fields:
     required: false
   label: Lat
   hidden: true
-  default: "{lat: 53.551086, lng: 9.993682}"
+  default: '53.551086'
+- name: lng
+  type: text
+  config:
+    required: false
+  label: Lng
+  hidden: true
+  default: '9.993682'
 - name: block
   type: text
   config:
@@ -39,9 +46,3 @@ fields:
   label: block
   hidden: true
   default: google-map
-- name: lng
-  type: text
-  config:
-    required: false
-  label: Lng
-  hidden: true
