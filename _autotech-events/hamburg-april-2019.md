@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Hamburg AutoTech April 2019
-event_date: 2019-04-04 17:00:00 +0000
+event_date: 2019-04-04T17:00:00.000+00:00
 event_location: Hamburg, Germany
 event_block:
 - template: navigation-header-w-button
@@ -13,7 +13,7 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
-  headline: "<strong>Hamburg,</strong> Germany"
+  headline: AutoTech in April<strong><br>Hamburg</strong>
 - template: speakers
   block: speaker-cards
   speakers:
@@ -93,8 +93,8 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 53.543040
-  lng: 10.000590
+  lat: 53.54304
+  lng: 10.00059
   block: google-map
   headline: AutoTech Comes to Hamburg
   content: The fifth edition takes place on 4th of April 2019 at our Headquarters
