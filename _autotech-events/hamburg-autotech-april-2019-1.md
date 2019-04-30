@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Hamburg AutoTech April 2019
-event_date: 2019-04-04T17:00:00.000+00:00
-event_location: Hamburg, Germany
+title: London AutoTech April 2019
+event_date: 2019-06-26 14:00:00 +0000
+event_location: London, United Kingdom
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -12,8 +12,8 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
-  headline: AutoTech in April<strong><br>Hamburg</strong>
+  background_image: "/uploads/2019/04/30/london-window@2x.jpg"
+  headline: AutoTech in June<strong><br>London</strong>
 - template: speakers
   block: speaker-cards
   speakers:
@@ -104,11 +104,11 @@ event_block:
   venue_location: Honkongstraße 2, 20457 Hamburg
 - template: simple-footer
   block: footer-1
-event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
-  <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
-  you will keep! This edition takes us forward into the future of car-sharing and
-  ride-pooling and how the rules of mobility can change with advances in Voice AI."
-featured_image: "/uploads/2019/04/30/hamburg-small@2x.jpg"
+event_description: Taking place in <strong>Kensington Palace, </strong>this edition
+  is already set to be superb. We'll be hearing from a fantastic selection of CEOs
+  and founders from successful <strong>startups in the mobility industry,</strong>  who
+  will be discussing the <strong>challenges and opportunities</strong> they face.
+featured_image: "/uploads/2019/04/30/london@2x.jpg"
 published: false
 
 ---
