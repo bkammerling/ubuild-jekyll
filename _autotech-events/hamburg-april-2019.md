@@ -96,7 +96,7 @@ event_block:
   lat: 53.54304
   lng: 10.00059
   block: google-map
-  headline: AutoTech Comes to Hamburg
+  headline: Home In Hamburg
   content: The fifth edition takes place on 4th of April 2019 at our Headquarters
     in Hamburg, and you're invited to learn from inspiring speakers and to connect
     with leaders of the global mobility ecosystem.
