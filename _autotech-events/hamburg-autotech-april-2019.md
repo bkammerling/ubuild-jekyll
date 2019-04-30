@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Japan AutoTech April 2019
-event_date: 2019-04-04T17:00:00.000+00:00
+event_date: 2019-06-06 17:00:00 +0000
 event_location: Tokyo, Japan
 event_block:
 - template: navigation-header-w-button
@@ -12,8 +12,8 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
-  headline: AutoTech in April<strong><br>Hamburg</strong>
+  background_image: "/uploads/2019/04/30/tokyo-street@2x-1.jpg"
+  headline: June in Japan<strong><br>AutoTech Tokyo</strong>
 - template: speakers
   block: speaker-cards
   speakers:
@@ -107,6 +107,6 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2019/04/30/tokyo-street-small.jpg"
+featured_image: "/uploads/2019/04/30/tokyo-street@2x.jpg"
 
 ---
