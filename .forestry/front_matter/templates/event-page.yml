@@ -32,6 +32,12 @@ fields:
       format: html
   label: Event Description
   description: Appears near top under date and location
+- name: featured_image
+  type: file
+  config:
+    maxSize: '1'
+  label: Featured Image
+  description: Appears on list of events
 - name: event_block
   type: blocks
   label: Event Block
