@@ -2,6 +2,24 @@
 {% for section in page.event_block %}
   {% if section.template == "speakers" %}
     <main>
+      <div class="container">
+        <div class="abs">
+          <nav id="scroller-nav" class="list-group d-none d-lg-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-2">
+                  <div class="scroller-list">
+                    <a class="list-group-item list-group-item-action" href="#section-eventinfo">Event Info</a>
+                    <a class="list-group-item list-group-item-action" href="#section-speakers">Speakers</a>
+                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
+                    <a class="list-group-item list-group-item-action" href="#section-map">Location</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
       <div class="event-main-wrapper">
         <div class="container" id="section-eventinfo">
           <div class="wunder-bg left top-1"></div>
@@ -17,7 +35,7 @@
                   {{ page.event_date | date: "%Y" }} <br>
                   {{ page.event_location }}
                 </h1>
-                <p class="text-black w-75 lead mb-5"><strong>Informal but exclusive, with world class speakers, special events, great food and entertainment, and connections you will keep!</strong></p>
+                <p class="text-black w-75 lead mb-5">{{ page.event_description }}</p>
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = page.event_date | date: '%s' %}
                 {% if event_secs > today_date %}
