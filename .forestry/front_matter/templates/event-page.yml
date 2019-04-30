@@ -22,6 +22,16 @@ fields:
   config:
     required: false
   label: Event Location
+- name: event_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Event Description
+  description: Appears near top under date and location
 - name: event_block
   type: blocks
   label: Event Block
@@ -35,13 +45,3 @@ fields:
   config:
     min: 
     max: 
-- name: event_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Event Description
-  description: Appears near top under date and location
