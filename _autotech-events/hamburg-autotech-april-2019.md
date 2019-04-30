@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Hamburg AutoTech April 2019
+title: Japan AutoTech April 2019
 event_date: 2019-04-04T17:00:00.000+00:00
-event_location: Hamburg, Germany
+event_location: Tokyo, Japan
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -106,9 +106,7 @@ event_block:
   block: footer-1
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
-  you will keep! This edition takes us forward into the future of car-sharing and
-  ride-pooling and how the rules of mobility can change with advances in Voice AI."
-featured_image: "/uploads/2019/04/30/hamburg-small@2x.jpg"
-published: false
+  you will keep! "
+featured_image: "/uploads/2019/04/30/tokyo-street-small.jpg"
 
 ---

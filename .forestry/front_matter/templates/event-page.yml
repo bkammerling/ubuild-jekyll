@@ -35,7 +35,7 @@ fields:
 - name: featured_image
   type: file
   config:
-    maxSize: '1'
+    maxSize: '3'
   label: Featured Image
   description: Appears on list of events
 - name: event_block
