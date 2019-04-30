@@ -93,7 +93,8 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat-lng: "{lat: 53.551086, lng: 9.993682}"
+  lat: 53.543040
+  lng: 10.000590
   block: google-map
   headline: AutoTech Comes to Hamburg
   content: The fifth edition takes place on 4th of April 2019 at our Headquarters
