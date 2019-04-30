@@ -1,5 +1,5 @@
 /* Intelligent Inbound Lead Flow JS */
-var owner, language, stakeholders = [];
+var owner, language, stakeholders = [], pipedriveProductId;
 // first get deal owner and assign language
 if(inputData.region == "FR") {
   owner = "ludovic.ciannarella@wundermobility.com";
@@ -22,7 +22,7 @@ if(inputData.region == "FR") {
   language = "ES";
 } else if(inputData.region == "EN") {
   if(inputData.subject == "Wunder Fleet") {
-    if(inputData.mql >= 14) {
+    if(inputData.mql >= 16) {
       owner = "jan.kluetsch@wundermobility.com";
       //owner = "yannick.hippolyte@wundermobility.com";
     } else {
@@ -47,24 +47,24 @@ if(inputData.subject == "Wunder Carpool" && inputData.region != "US") {
 // build stakeholder list per product
 stakeholders.push(owner);
 if(inputData.subject == "Wunder Fleet") {
+  pipedriveProductId = 12;
   stakeholders.push("tobias.langwieler@wundermobility.com");
   stakeholders.push("yannick.hippolyte@wundermobility.com");
 } else if(inputData.subject == "Wunder Carpool") {
+  pipedriveProductId = 11;
   stakeholders.push("samuel.baker@wundermobility.com");
   stakeholders.push("philipp.wenger@wundermobility.com");
-  stakeholders.push("joao.cury@wundermobility.com");
   stakeholders.push("frits.timmermans@wundermobility.com");
-  stakeholders.push("thies.gruening@wundermobility.com");
   stakeholders.push("amity.wu@wundermobility.com");
 } else {
+  pipedriveProductId = 13;
   stakeholders.push("samuel.baker@wundermobility.com");
   stakeholders.push("ioana.freise@wundermobility.com");
   stakeholders.push("jwani.tranquilino@wundermobility.com");
-  stakeholders.push("john.moura@wundermobility.com");
   stakeholders.push("jimena.rivas@wundermobility.com");
 }
 
-output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders}];
+output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId}];
 
 /* END OF INTELLIGENT LEAD FLOW WEBSITE */
 
