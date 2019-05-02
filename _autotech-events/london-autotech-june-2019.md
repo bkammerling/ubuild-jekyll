@@ -21,7 +21,7 @@ event_block:
     job_title: CEO & Co-Founder
     company: Tier Mobility
     speaker_photo: "/uploads/2019/05/02/lawrence-tier@2x.jpg"
-    company_logo: "/uploads/2019/05/02/tier@2x.jpeg"
+    company_logo: "/uploads/2019/05/02/tier@2x.png"
   - name: George Kalligeros
     job_title: CEO & Co-founder
     company: Pushme
@@ -50,8 +50,8 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: '51.502590'
-  lng: "-0.188880"
+  lat: 51.502590
+  lng: -0.188880
   block: google-map
   headline: Don't Royally Miss Out
   content: The royal residence hosts this exciting event, co hosted with Aston Martin

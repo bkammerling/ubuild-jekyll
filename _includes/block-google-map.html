@@ -8,16 +8,16 @@
       <div class="bg-box__box">
         <h2 class="page-heading mb-2">{{ section.headline }}</h2>
         <p class="mb-5">{{ section.content }}</p>
-        <p class="text-blue"><strong>
+        <p class="text-blue"><span class="text-grey2 mr-1 ml-1"> | </span><strong>
           {% assign d = page.event_date | date: "%-d" %}
           {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
           {{ page.event_date | date: "%B" }}
           {{ page.event_date | date: "%Y" }}
-          <span class="text-grey2 mr-1 ml-1"> | </span><br class="d-sm-none"/><a href="{{ section.gmaps_link }}" target="_blank" title="View our location on a map">{{ section.venue_location }}</a></strong></p>
+          <br class="d-ssdfm-none"/><span class="text-grey2 mr-1 ml-1"> | </span><a href="{{ section.gmaps_link }}" target="_blank" title="View our location on a map">{{ section.venue_location }}</a></strong></p>
         {% assign today_date = 'now' | date: '%s' %}
         {% assign event_secs = page.event_date | date: '%s' %}
         {% if event_secs > today_date %}
-          <a class="with-arrow dark" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend Our {{ page.event_name }}">Apply to attend</a>
+          <a class="with-arrow dark mt-3" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend Our {{ page.event_name }}">Apply to attend</a>
         {% endif %}
       </div>
 
