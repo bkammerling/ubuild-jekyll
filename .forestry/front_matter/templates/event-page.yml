@@ -51,3 +51,7 @@ fields:
   config:
     min: 
     max: 
+- name: output_page
+  type: boolean
+  label: Output Page
+  description: Leave off until event is ready with speakers etc.
