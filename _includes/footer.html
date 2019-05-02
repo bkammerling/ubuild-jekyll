@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.3/lottie.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtpOZ1-cXLaSl37JwV6Rn8V3aUsabh8kc&callback=initMap" async defer></script>
+    {% if page.url contains 'event' %}<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtpOZ1-cXLaSl37JwV6Rn8V3aUsabh8kc&callback=initMap" async defer></script>{% endif %}
     <script defer type="text/javascript" src="https://www.l2.io/ip.js?var=myip" onload="setupIp()"></script>
     <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtpOZ1-cXLaSl37JwV6Rn8V3aUsabh8kc&callback=initMap"></script>-->
 
