@@ -17,21 +17,21 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Bruno Ginnuth
+  - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
-    company: CleverShuttle
-    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth@2x.jpg"
-    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle@2x.jpg"
-  - name: Dr. Max Kury
-    job_title: CEO
-    company: Ubeeqo
-    speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
-    company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
-  - name: Holger Weiss
-    job_title: Founder & CEO
-    company: German AutoLabs
-    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
-    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+    company: Tier Mobility
+    speaker_photo: "/uploads/2019/05/02/lawrence-tier@2x.jpg"
+    company_logo: "/uploads/2019/05/02/tier@2x.jpeg"
+  - name: George Kalligeros
+    job_title: CEO & Co-founder
+    company: Pushme
+    speaker_photo: "/uploads/2019/05/02/george-kalli@2x.jpg"
+    company_logo: "/uploads/2019/05/02/pushme@2x.jpg"
+  - name: Felix Leuschner
+    job_title: CEO & Founder
+    company: Drover
+    speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
+    company_logo: "/uploads/2019/05/02/drover@2x.png"
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -109,6 +109,5 @@ event_description: Taking place in <strong>Kensington Palace, </strong>this edit
   and founders from successful <strong>startups in the mobility industry,</strong>  who
   will be discussing the <strong>challenges and opportunities</strong> they face.
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
-published: false
 
 ---
