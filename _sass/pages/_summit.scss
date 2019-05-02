@@ -213,6 +213,9 @@ body.summit .gradient-block .block-full-right {
 
     .card-img-top {
       border-radius: 0;
+      object-fit: cover;
+      height: 250px;
+      width: auto;
     }
 
     .company {
@@ -227,6 +230,13 @@ body.summit .gradient-block .block-full-right {
   }
 }
 
+.card.location-card {
+  .card-img-top {
+    object-fit: cover;
+    height: 250px;
+    width: auto;
+  }
+}
 
 #section-agenda {
   margin-bottom: 10rem;

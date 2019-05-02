@@ -69,6 +69,33 @@
             <h2 class="page-heading mb-3">Upcoming Events</h2>
 
             <div class="row">
+              {% for event in site.autotech-events %}
+                {% assign today_date = 'now' | date: '%s' %}
+                {% assign event_secs = event.event_date | date: '%s' %}
+                {% if event_secs >= today_date %}
+                <div class="col-sm-4">
+                  <a href="{{ event.url }}" title="{{ event.title }}">
+                    <div class="card location-card w-x-shadow mb-3">
+                      {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
+                      {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
+                      <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
+                      <p class="text-overlay">
+                        {% assign d = event.event_date | date: "%-d" %}
+                        {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+                        {{ event.event_date | date: "%B" }}
+                        {{ event.event_date | date: "%Y" }}</p>
+                      <div class="card-body">
+                        {% assign location = event.event_location | split: ", " %}
+                        <h3 class="card-title mb-1">{{ location.first }}</h3>
+                        <p class="card-subtitle text-muted">{{ location.last }}</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                {% endif %}
+              {% endfor %}
+
+              {% comment %}
               <div class="col-sm-4">
                 <div class="card location-card w-x-shadow mb-3">
                   <img data-src="/uploads/global/tokyo.jpg" data-srcset="/uploads/global/tokyo@2x.jpg 2x" class="card-img-top" alt="Big ben in london">
@@ -101,8 +128,9 @@
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
+            {% endcomment %}
           </div>
         </div>
       </div>
@@ -139,26 +167,29 @@
 
             <div class="row">
               {% for event in site.autotech-events %}
-
-              <div class="col-sm-4">
-                <a href="{{ event.url }}" title="{{ event.title }}">
-                  <div class="card location-card w-x-shadow mb-3">
-                    {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
-                    {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
-                    <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
-                    <p class="text-overlay">
-                      {% assign d = event.event_date | date: "%-d" %}
-                      {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
-                      {{ event.event_date | date: "%B" }}
-                      {{ event.event_date | date: "%Y" }}</p>
-                    <div class="card-body">
-                      {% assign location = event.event_location | split: ", " %}
-                      <h3 class="card-title mb-1">{{ location.first }}</h3>
-                      <p class="card-subtitle text-muted">{{ location.last }}</p>
+                {% assign today_date = 'now' | date: '%s' %}
+                {% assign event_secs = event.event_date | date: '%s' %}
+                {% if event_secs < today_date %}
+                <div class="col-sm-4">
+                  <a href="{{ event.url }}" title="{{ event.title }}">
+                    <div class="card location-card w-x-shadow mb-3">
+                      {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
+                      {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
+                      <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
+                      <p class="text-overlay">
+                        {% assign d = event.event_date | date: "%-d" %}
+                        {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+                        {{ event.event_date | date: "%B" }}
+                        {{ event.event_date | date: "%Y" }}</p>
+                      <div class="card-body">
+                        {% assign location = event.event_location | split: ", " %}
+                        <h3 class="card-title mb-1">{{ location.first }}</h3>
+                        <p class="card-subtitle text-muted">{{ location.last }}</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
-              </div>
+                  </a>
+                </div>
+                {% endif %}
               {% endfor %}
             </div>
 
