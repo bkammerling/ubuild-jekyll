@@ -93,15 +93,15 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 53.54304
-  lng: 10.00059
+  lat: '51.502590'
+  lng: "-0.188880"
   block: google-map
   headline: Home In Hamburg
-  content: The fifth edition takes place on 4th of April 2019 at our Headquarters
-    in Hamburg, and you're invited to learn from inspiring speakers and to connect
-    with leaders of the global mobility ecosystem.
-  gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
-  venue_location: Honkongstraße 2, 20457 Hamburg
+  content: The royal residence hosts this exciting event, co hosted with Aston Martin
+    and Bosch. Join us in the Royal Borough of Kensington and Chelsea in London for
+    meaningful insights into the world of mobility startups!
+  gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
+  venue_location: Kensington Gardens, London W8 4PX, UK
 - template: simple-footer
   block: footer-1
 event_description: Taking place in <strong>Kensington Palace, </strong>this edition
