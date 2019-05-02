@@ -98,6 +98,6 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
 featured_image: "/uploads/2019/05/02/tokyo@2x.jpg"
-published: false
+published: true
 
 ---

@@ -689,6 +689,8 @@ $(document).ready(function() {
     videoPlayer.player.play();
   });
 
+  $('[data-toggle="tooltip"]').tooltip();
+
   // Select all links with hashes
   $('a[href*="#"]')
   // Remove links that don't actually link to anything

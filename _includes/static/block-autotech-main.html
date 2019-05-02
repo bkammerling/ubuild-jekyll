@@ -74,8 +74,8 @@
                 {% assign event_secs = event.event_date | date: '%s' %}
                 {% if event_secs >= today_date %}
                 <div class="col-sm-4">
-                  <a href="{{ event.url }}" title="{{ event.title }}">
-                    <div class="card location-card w-x-shadow mb-3" {% unless event.output_page %}data-toggle="tooltip" data-placement="top" title="We are still preparing this event, check back soon!"{% endunless %}>
+                  {% if event.output_page %}<a href="{{ event.url }}" title="{{ event.title }}">{% endif %}
+                    <div class="card location-card w-x-shadow mb-3" {% unless event.output_page %}data-toggle="tooltip" data-placement="bottom" title="We are still preparing this event, check back soon!"{% endunless %}>
                       {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
                       {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
                       <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
@@ -90,7 +90,7 @@
                         <p class="card-subtitle text-muted">{{ location.last }}</p>
                       </div>
                     </div>
-                  </a>
+                  {% if event.output_page %}</a>{% endif %}
                 </div>
                 {% endif %}
               {% endfor %}

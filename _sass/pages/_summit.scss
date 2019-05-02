@@ -236,6 +236,11 @@ body.summit .gradient-block .block-full-right {
     height: 250px;
     width: auto;
   }
+  border: solid 1px transparent;
+  transition: all 0.3s;
+  &:hover {
+    @extend .w-xx-shadow;
+  }
 }
 
 #section-agenda {
