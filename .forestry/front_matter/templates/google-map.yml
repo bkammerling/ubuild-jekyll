@@ -26,20 +26,25 @@ fields:
     required: false
   label: Venue Address
 - name: lat
-  type: text
-  config:
-    required: false
-  label: Lat
-  hidden: false
-  default: '53.551086'
+  type: number
+  label: Latitude
   description: 'Get this info here: https://www.latlong.net/'
-- name: lng
-  type: text
+  default: '53.54304'
+  required: true
   config:
-    required: false
-  label: Lng
-  hidden: false
-  default: '9.993682'
+    min: 
+    max: 
+    step: 
+- name: lng
+  type: number
+  label: Longitude
+  description: ''
+  default: '10.00059'
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: block
   type: text
   config:
