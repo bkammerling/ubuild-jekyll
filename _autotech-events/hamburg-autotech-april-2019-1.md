@@ -1,6 +1,6 @@
 ---
 layout: blocks-events
-title: London AutoTech April 2019
+title: London AutoTech June 2019
 event_date: 2019-06-26 14:00:00 +0000
 event_location: London, United Kingdom
 event_block:
