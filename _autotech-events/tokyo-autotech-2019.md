@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Japan AutoTech April 2019
-event_date: 2019-06-06 17:00:00 +0000
+event_date: 2019-06-06T17:00:00.000+00:00
 event_location: Tokyo, Japan
 event_block:
 - template: navigation-header-w-button
@@ -17,16 +17,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Bruno Ginnuth
-    job_title: CEO & Co-Founder
-    company: CleverShuttle
-    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth@2x.jpg"
-    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle@2x.jpg"
-  - name: Dr. Max Kury
-    job_title: CEO
-    company: Ubeeqo
-    speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
-    company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
   - name: Holger Weiss
     job_title: Founder & CEO
     company: German AutoLabs
@@ -107,7 +97,7 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2019/04/30/tokyo-street@2x.jpg"
+featured_image: "/uploads/2019/05/02/tokyo@2x.jpg"
 published: false
 
 ---
