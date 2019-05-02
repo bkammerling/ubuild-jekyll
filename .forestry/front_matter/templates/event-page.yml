@@ -38,6 +38,10 @@ fields:
     maxSize: '3'
   label: Featured Image
   description: Appears on list of events
+- name: output_page
+  type: boolean
+  label: Output Page
+  description: Leave off until event is ready with speakers etc.
 - name: event_block
   type: blocks
   label: Event Block
@@ -51,7 +55,3 @@ fields:
   config:
     min: 
     max: 
-- name: output_page
-  type: boolean
-  label: Output Page
-  description: Leave off until event is ready with speakers etc.
