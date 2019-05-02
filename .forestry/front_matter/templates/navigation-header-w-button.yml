@@ -13,8 +13,8 @@ fields:
       type: simple
       file: _data/global.yml
     options:
-    - main
     - career
+    - wunder-main
   label: Menu
   name: menu
   description: Default is main menu
