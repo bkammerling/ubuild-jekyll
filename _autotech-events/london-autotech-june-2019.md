@@ -66,5 +66,6 @@ event_description: Taking place in <strong>Kensington Palace, </strong>this edit
   and founders from successful <strong>startups in the mobility industry,</strong>  who
   will be discussing the <strong>challenges and opportunities</strong> they face.
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
+output_page: true
 
 ---

@@ -109,5 +109,6 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   you will keep! This edition takes us forward into the future of car-sharing and
   ride-pooling and how the rules of mobility can change with advances in Voice AI."
 featured_image: "/uploads/2019/04/30/hamburg-small@2x.jpg"
+output_page: true
 
 ---
