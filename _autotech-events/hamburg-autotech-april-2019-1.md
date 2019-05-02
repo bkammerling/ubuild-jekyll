@@ -43,50 +43,7 @@ event_block:
             <div class="col-lg-10 offset-lg-2 mb-3">
               <section class="mt-5">
                 <h2 class="page-heading mb-3">Agenda</h2>
-
-                <div class="border-hl-left w-x-shadow table-wrapper">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Time</th>
-                        <th scope="col">Event</th>
-                        <th scope="col">Speaker</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>6:30 PM</td>
-                        <td>Open Doors</td>
-                        <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
-                      </tr>
-                      <tr>
-                        <td>7:00 - 7:20 PM</td>
-                        <td>Hey Assistant - Drive me home! <br>How Voice AI will change the rules in mobility?</td>
-                        <td>Holger Weiss - CEO, German Autolabs</td>
-                      </tr>
-                      <tr>
-                        <td>7:40 - 8:00 PM</td>
-                        <td> Sharing experiences of on-demand-RidePooling in Germany</td>
-                        <td>Bruno Ginnuth - CEO, CleverShuttle</td>
-                      </tr>
-                      <tr>
-                        <td>8:00 - 8:20 PM</td>
-                        <td> The Future of Transportation: Our view on New Mobility and Carsharing</td>
-                        <td>Dr. Max Kury - CEO, Ubeeqo</td>
-                      </tr>
-                      <tr>
-                        <td>8:20 - 8:30 PM</td>
-                        <td>Closing remarks</td>
-                        <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
-                      </tr>
-                      <tr>
-                        <td>8:30 - 11:00 PM</td>
-                        <td>Drinks & Snacks</td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
 
               </section>
             </div>
