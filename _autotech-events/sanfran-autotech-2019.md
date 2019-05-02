@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Japan AutoTech April 2019
-event_date: 2019-06-06T17:00:00.000+00:00
-event_location: Tokyo, Japan
+title: San Francisco AutoTech 2019
+event_date: 2019-07-10 17:00:00 +0000
+event_location: San Francisco, USA
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -97,7 +97,6 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2019/05/02/tokyo@2x.jpg"
-published: false
+featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 
 ---
