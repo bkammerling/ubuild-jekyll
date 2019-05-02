@@ -53,7 +53,7 @@ event_block:
   lat: '51.502590'
   lng: "-0.188880"
   block: google-map
-  headline: Home In Hamburg
+  headline: Don't Royally Miss Out
   content: The royal residence hosts this exciting event, co hosted with Aston Martin
     and Bosch. Join us in the Royal Borough of Kensington and Chelsea in London for
     meaningful insights into the world of mobility startups!
