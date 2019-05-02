@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: London AutoTech June 2019
-event_date: 2019-06-26 14:00:00 +0000
+event_date: 2019-06-26T14:00:00.000+00:00
 event_location: London, United Kingdom
 event_block:
 - template: navigation-header-w-button
@@ -12,7 +12,7 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/30/london-window@2x.jpg"
+  background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
   headline: AutoTech in June<strong><br>London</strong>
 - template: speakers
   block: speaker-cards
@@ -50,8 +50,8 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 51.502590
-  lng: -0.188880
+  lat: 51.50259
+  lng: -0.18888
   block: google-map
   headline: Don't Royally Miss Out
   content: The royal residence hosts this exciting event, co hosted with Aston Martin
