@@ -32,6 +32,33 @@ event_block:
     company: German AutoLabs
     speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
     company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+- template: photo-gallery
+  photo_collection:
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19302-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19293-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19275-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19257-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19253-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19219-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19218-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19215-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19213-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19209-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19198-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19193-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19186-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19184-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19164-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19154-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19133-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19108-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19103-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1988-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1981-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1975-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1974-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1940-1.jpg"
+  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1917-1.jpg"
 - template: custom-content
   block: custom-html
   name: Agenda
