@@ -192,8 +192,8 @@ var form = {
     if($(".modal-body #subject-field").length) {
       data.subject = $("form #subject-field").val();
     } else {
-      // google adwords 'Website form submitted' conversion event
-      gtag_report_conversion();
+      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
+      dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
     }
     delete data.firstname;
     //console.log(data);
@@ -597,10 +597,23 @@ function setupIp() {
   $.get("https://ipapi.co/"+ myip +"/json/", function(response) {
     var userCountry = response.country_name;
     $("#user-country").val(userCountry);
+    var userRegion;
     var deRegion = ["Germany", "Austria", "Liechtenstein", "Switzerland"];
     var usRegion = ["United States", "Canada"];
-    if(deRegion.indexOf(userCountry) != -1) $("#user-region").val("DE");
-    if(usRegion.indexOf(userCountry) != -1) $("#user-region").val("US");
+    var frRegion = ["France", "Belgium", "DRC", "Republic of the Congo", "Côte d'Ivoire", "Madagascar", "Cameroon", "Burkina Faso", "Niger", "Mali", "Senegal", "Haiti", "Benin"];
+    var latamRegion = ["Dominican Republic", "Cuba", "Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela", "Costa Rica", "El Salvador", "Guatemala", "Honduras", "Mexico", "Nicaragua", "Panama", "Spain"];
+    if(deRegion.indexOf(userCountry) != -1) {
+      userRegion = "DE";
+    } else if(usRegion.indexOf(userCountry) != -1) {
+      userRegion = "US";
+    } else if(frRegion.indexOf(userCountry) != -1) {
+      userRegion = "EN";
+    } else if(latamRegion.indexOf(userCountry) != -1) {
+      userRegion = "EN";
+    } else {
+      userRegion = "EN";
+    }
+    $("#user-region").val(userRegion);
   });
 }
 
