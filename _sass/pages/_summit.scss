@@ -237,6 +237,8 @@ body.summit .gradient-block .block-full-right {
     width: auto;
   }
   border: solid 1px transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   transition: all 0.3s;
   &:hover {
     @extend .w-xx-shadow;

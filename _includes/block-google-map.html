@@ -17,7 +17,7 @@
         {% assign today_date = 'now' | date: '%s' %}
         {% assign event_secs = page.event_date | date: '%s' %}
         {% if event_secs > today_date %}
-          <a class="with-arrow dark mt-3" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend Our {{ page.event_name }}">Apply to attend</a>
+          <a class="with-arrow dark mt-3" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend Our AutoTech Event In {{ page.event_location }}">Apply to attend</a>
         {% endif %}
       </div>
 

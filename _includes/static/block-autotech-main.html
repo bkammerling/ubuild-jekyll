@@ -69,7 +69,8 @@
             <h2 class="page-heading mb-3">Upcoming Events</h2>
 
             <div class="row">
-              {% for event in site.autotech-events %}
+              {% assign events = site.autotech-events | sort: "event_date" %}
+              {% for event in events %}
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = event.event_date | date: '%s' %}
                 {% if event_secs >= today_date %}
@@ -206,51 +207,4 @@
 </main>
 
 <!-- Modal -->
-<div class="modal fade" id="summitModal" tabindex="-1" role="dialog" aria-labelledby="Summit form modal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="summitModalLabel">Apply to attend our next meetup</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <form id="modal-form" accept-charset="UTF-8" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
-        <div class="modal-body">
-          <input type="hidden" id="subject-field" value="Attend AutoTech">
-          <input type="hidden" name="country" id="user-country" value="">
-          <input type="hidden" id="recipient-firstname" name="firstname" />
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Name *</label>
-            <input type="text" class="form-control" id="recipient-name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email" class="col-form-label">Email *</label>
-            <input type="email" class="form-control" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="recipient-company" class="col-form-label">Company *</label>
-            <input type="text" class="form-control" id="recipient-company" name="company" required />
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message (optional)</label>
-            <textarea class="form-control" id="message-text" name="message"></textarea>
-          </div>
-
-        </div>
-        <div class="modal-footer">
-          <div class="col-sm-5">
-            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
-          </div>
-          <div class="col-sm-7 text-right">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-              Send Message
-            </button>
-          </div>
-        </div>
-
-      </form>
-    </div>
-  </div>
-</div>
+{% include static/event-modal.html %}
