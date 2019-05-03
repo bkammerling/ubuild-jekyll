@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
-title: Japan AutoTech April 2019
-event_date: 2019-06-06T17:00:00.000+00:00
+title: Japan AutoTech April 2020
+event_date: 2020-02-01T17:00:00.000+00:00
 event_location: Tokyo, Japan
 event_block:
 - template: navigation-header-w-button

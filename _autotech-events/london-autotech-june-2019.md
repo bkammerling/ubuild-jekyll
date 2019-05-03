@@ -50,8 +50,8 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 51.50259
-  lng: -0.18888
+  lat: 51.504911
+  lng: -0.188800
   block: google-map
   headline: Don't Royally Miss Out
   content: The royal residence hosts this exciting event, co hosted with Aston Martin
