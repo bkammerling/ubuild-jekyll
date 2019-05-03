@@ -214,8 +214,12 @@ body.summit .gradient-block .block-full-right {
     .card-img-top {
       border-radius: 0;
       object-fit: cover;
-      height: 250px;
-      width: auto;
+      height: auto;
+      width: 100%;
+      @include rwd(mobile-up) {
+        height: 250px;
+        width: auto;
+      }
     }
 
     .company {
@@ -343,7 +347,7 @@ body.summit .gradient-block .block-full-right {
       &:nth-child(3n+3) {
         margin-right: 0;
       }
-      width: 31.8%;
+      width: 31%;
     }
     @include rwd(wide-up) {
       &:nth-child(even) {
