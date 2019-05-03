@@ -52,6 +52,7 @@ fields:
   - simple-footer
   - custom-content
   - google-map
+  - photo-gallery
   config:
     min: 
     max: 
