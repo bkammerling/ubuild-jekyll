@@ -18,26 +18,26 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Dan Hubert
-    job_title: CEO & Founder
-    company: AppyParking
-    speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
-    company_logo: "/uploads/2019/05/03/appyparking@2x.png"
-  - name: Constantin Vermoere
-    job_title: CEO & Co-Founder
-    company: Freel
-    speaker_photo: "/uploads/2019/05/03/constantin-ver@2x.jpeg"
-    company_logo: "/uploads/2019/05/03/freel@2x.jpeg"
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
     speaker_photo: "/uploads/2019/05/02/lawrence-tier@2x.jpg"
     company_logo: "/uploads/2019/05/02/tier@2x.png"
+  - name: Constantin Vermoere
+    job_title: CEO & Co-Founder
+    company: Freel
+    speaker_photo: "/uploads/2019/05/03/constantin-ver@2x.jpeg"
+    company_logo: "/uploads/2019/05/03/freel@2x.jpeg"
   - name: George Kalligeros
     job_title: CEO & Co-founder
     company: Pushme
     speaker_photo: "/uploads/2019/05/02/george-kalli@2x.jpg"
     company_logo: "/uploads/2019/05/02/pushme@2x.jpg"
+  - name: Dan Hubert
+    job_title: CEO & Founder
+    company: AppyParking
+    speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
+    company_logo: "/uploads/2019/05/03/appyparking@2x.png"
   - name: Felix Leuschner
     job_title: CEO & Founder
     company: Drover
