@@ -14,7 +14,7 @@ event_block:
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
   headline: AutoTech in June<strong><br>London</strong>
-  cta: 
+  cta:
 - template: speakers
   block: speaker-cards
   speakers:
@@ -43,7 +43,7 @@ event_block:
     company: Drover
     speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
     company_logo: "/uploads/2019/05/02/drover@2x.png"
-  cta: 
+  cta:
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -61,10 +61,10 @@ event_block:
             </div>
           </div>
         </div>
-  cta: 
+  cta:
 - template: google-map
   lat: 51.504911
-  lng: -0.1888
+  lng: -0.18880
   block: google-map
   headline: Don't Royally Miss Out
   content: The royal residence hosts this exciting event, co hosted with Aston Martin
@@ -72,10 +72,10 @@ event_block:
     meaningful insights into the world of mobility startups!
   gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
   venue_location: Kensington Gardens, London W8 4PX, UK
-  cta: 
+  cta:
 - template: simple-footer
   block: footer-1
-  cta: 
+  cta:
 event_description: Taking place in <strong>Kensington Palace, </strong>this edition
   is already set to be superb. We'll be hearing from a fantastic selection of CEOs
   and founders from successful <strong>startups in the mobility industry,</strong>  who
