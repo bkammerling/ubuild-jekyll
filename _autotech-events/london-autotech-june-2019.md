@@ -15,6 +15,25 @@ event_block:
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
   headline: AutoTech in June<strong><br>London</strong>
   cta:
+- template: custom-content
+  block: custom-html
+  name: In partnership with...
+  content: |-
+    <div class="container" id="section-partnership">
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2 mb-3">
+              <section class="">
+                <h2 class="page-heading mb-3">In Co-operation With</h2>
+
+                <img src="uploads/global/bosch-logo.png" style="width: 200px" />
+                <img src="uploads/global/aston_martin.png" style="width: 130px" />
+
+              </section>
+            </div>
+          </div>
+        </div>
+  cta:
 - template: speakers
   block: speaker-cards
   speakers:
@@ -28,6 +47,11 @@ event_block:
     company: Freel
     speaker_photo: "/uploads/2019/05/03/constantin-ver@2x.jpeg"
     company_logo: "/uploads/2019/05/03/freel@2x.jpeg"
+  - name: Felix Leuschner
+    job_title: CEO & Founder
+    company: Drover
+    speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
+    company_logo: "/uploads/2019/05/02/drover@2x.png"
   - name: George Kalligeros
     job_title: CEO & Co-founder
     company: Pushme
@@ -38,11 +62,6 @@ event_block:
     company: AppyParking
     speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
     company_logo: "/uploads/2019/05/03/appyparking@2x.png"
-  - name: Felix Leuschner
-    job_title: CEO & Founder
-    company: Drover
-    speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
-    company_logo: "/uploads/2019/05/02/drover@2x.png"
   cta:
 - template: custom-content
   block: custom-html

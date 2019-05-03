@@ -1,6 +1,7 @@
 {% include head.html %}
 {% for section in page.event_block %}
-  {% if section.template == "speakers" %}
+  {% if section.template == "hero-banner-w-image" %}
+    {% include block-{{ section.block }}.html %}
     <main>
       <div class="container">
         <div class="abs">
@@ -25,17 +26,19 @@
           <div class="wunder-bg left top-1"></div>
 
           <div class="row">
-            <div class="col-lg-10 offset-lg-2 mb-5">
+            <div class="col-lg-10 offset-lg-2 mb-2">
               <section id="section-intro">
                 <h2 class="page-heading mb-4 text-blue">Event Info</h2>
-                <h1 class="mb-3 p-0">
+                <h3 class="mb-3 p-0">
+                  <ion-icon name="calendar" size="" style="transform: translateY(3px);"></ion-icon>
                   {% assign d = page.event_date | date: "%-d" %}
-                  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+                  <span class="text-grey2 mr-1 ml-1"> | </span> {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
                   {{ page.event_date | date: "%B" }}
                   {{ page.event_date | date: "%Y" }} <br>
-                  {{ page.event_location }}
-                </h1>
-                <p class="text-black w-75 lead mb-5">{{ page.event_description }}</p>
+                  <ion-icon name="ios-pin" size="" style="transform: translateY(3px);"></ion-icon>
+                  <span class="text-grey2 mr-1 ml-1"> | </span> {{ page.event_location }}
+                </h3>
+                <p class="text-black w-75 mb-5">{{ page.event_description }}</p>
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = page.event_date | date: '%s' %}
                 {% if event_secs > today_date %}
@@ -46,7 +49,6 @@
           </div>
 
         </div>
-      {% include block-{{ section.block }}.html %}
   {% elsif section.template == "simple-footer" %}
       </div>
     </main>
