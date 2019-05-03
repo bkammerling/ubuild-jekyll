@@ -47,10 +47,23 @@
       <div class="row">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-intro">
+            {% assign events = site.autotech-events | sort: "event_date" %}
+            {% for event in events %}
+            {% assign today_date = 'now' | date: '%s' %}
+            {% assign event_secs = event.event_date | date: '%s' %}
+            {% if event_secs >= today_date %}
+            {% assign next_event = event %}
+            {% break %}
+            {% endif %}
+            {% endfor %}
             <h2 class="page-heading mb-4 text-blue">Next Event</h2>
-            <h1 class="mb-3 p-0">6th June 2019 <br>Tokyo, Japan</h1>
-            <p class="text-black w-75 lead mb-5"><strong>Informal but exclusive, with world class speakers, special events, great food and entertainment, and connections you will keep!</strong></p>
-            <a data-subject="Attend AutoTech Tokyo" class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal">Apply to attend</a>
+            <h1 class="mb-3 p-0">{% assign d = next_event.event_date | date: "%-d" %}
+            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
+            {{ next_event.event_date | date: "%B" }}
+            {{ next_event.event_date | date: "%Y" }} <br>{{ next_event.event_location }}</h1>
+            <p class="text-black w-75 lead mb-5">{{ next_event.event_description }}</p>
+            <a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>
+
           </section>
         </div>
       </div>
@@ -94,44 +107,7 @@
                   {% if event.output_page %}</a>{% endif %}
                 </div>
                 {% endif %}
-              {% endfor %}
-
-              {% comment %}
-              <div class="col-sm-4">
-                <div class="card location-card w-x-shadow mb-3">
-                  <img data-src="/uploads/global/tokyo.jpg" data-srcset="/uploads/global/tokyo@2x.jpg 2x" class="card-img-top" alt="Big ben in london">
-                  <p class="text-overlay">6th June 2019</p>
-                  <div class="card-body">
-                    <h3 class="card-title mb-1">Tokyo</h3>
-                    <p class="card-subtitle text-muted">Japan</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card location-card w-x-shadow mb-3">
-                  <img data-src="/uploads/global/london.jpg" data-srcset="/uploads/global/london@2x.jpg 2x" class="card-img-top" alt="Big ben in london">
-                  <p class="text-overlay">26th June 2019</p>
-                  <div class="card-body">
-                    <h3 class="card-title mb-1">London</h3>
-                    <p class="card-subtitle text-muted">United Kingdom</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card location-card w-x-shadow mb-3">
-                  <img data-src="/uploads/global/sanfran.jpg" data-srcset="/uploads/global/sanfran@2x.jpg 2x" class="card-img-top" alt="Big ben in london">
-                  <p class="text-overlay">10th July 2019</p>
-                  <div class="card-body">
-                    <h3 class="card-title mb-1">San Francisco</h3>
-                    <p class="card-subtitle text-muted">California, USA</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            {% endcomment %}
+                {% endfor %}
           </div>
         </div>
       </div>
