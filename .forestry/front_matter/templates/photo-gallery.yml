@@ -20,3 +20,10 @@ fields:
   type: image_gallery
   config: {}
   label: Photo Collection
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: thumbnail-gallery
