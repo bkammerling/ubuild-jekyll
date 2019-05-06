@@ -1,0 +1,19 @@
+<div class="container mt-5 mb-5" id="section-gallery">
+  {% comment %}<div class="wunder-bg right top-2"></div>{% endcomment %}
+
+  <div class="row">
+    <div class="col-lg-10 offset-lg-2">
+      <h2 class="page-heading mb-3">{{ section.heading }}</h2>
+      <section class="photo-gallery mt-5" id="lightgallery">  
+        {% for image in section.photo_collection %}
+          <a href="{{ image }}" data-toggle="lightbox" data-gallery="example-gallery"  title="View image {{ forloop.index }}">
+            {% responsive_image_block %}
+              path: {{ image | replace: '/uploads', 'uploads'  }}
+              alt: {{ page.event_name }} photo {{ forloop.index }}
+            {%- endresponsive_image_block -%}
+          </a>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+</div>

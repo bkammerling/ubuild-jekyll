@@ -468,3 +468,32 @@ body.summit .gradient-block .block-full-right {
    }
 
 }
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-gallery > a {
+    flex: 1 1 31%;
+    max-width: 34%;
+    margin: 1px;
+    padding: 0;
+    display: -ms-grid;
+    display: grid;
+    @include rwd(tablet-up){
+      flex: 1 1 24%;
+      max-width: 24%;
+    }
+}
+
+.photo-gallery a img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ekko-lightbox-nav-overlay a {
+    opacity: 0.3;
+    color: #fff !important;
+}

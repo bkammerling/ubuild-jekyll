@@ -434,7 +434,7 @@ var diversityMap = {
       diversityMap.onclick(evt);
     });
 
-    $("#AR,#AU,#BA,#BE,#BG,#BR,#CA,#CN,#CO,#CZ,#DE,#EG,#ES,#FR,#GB,#HN,#IT,#IN,#IR,#JP,#KR,#KZ,#LC,#MX,#NL,#PA,#PL,#PH,#PT,#PY,#RO,#RS,#RU,#SG,#SV,#TH,#TN,#TR,#TW,#TZ,#UA,#US,#ZA").hover(function() {
+    $("#AR,#AU,#BA,#BG,#BR,#CA,#CD,#CN,#CO,#DE,#EG,#ES,#FR,#GB,#GT,#HN,#IT,#IN,#IR,#JP,#KR,#KZ,#LC,#MA,#MX,#NG,#NL,#PA,#PL,#PH,#PK,#PT,#PY,#RO,#RS,#RU,#SG,#SV,#SY,#TH,#TN,#TR,#TW,#TZ,#UA,#US,#VE,#ZA").hover(function() {
       $('.maptooltip').show();
       $('.maptooltip').text($(this).attr('title'));
     }, function() {
@@ -703,6 +703,11 @@ $(document).ready(function() {
   });
 
   $('[data-toggle="tooltip"]').tooltip();
+
+  $('[data-toggle="lightbox"]').click(function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+  });
 
   // Select all links with hashes
   $('a[href*="#"]')

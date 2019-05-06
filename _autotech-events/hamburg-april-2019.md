@@ -34,6 +34,7 @@ event_block:
     company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
 - template: photo-gallery
   block: thumbnail-gallery
+  heading: Event Gallery
   photo_collection:
   - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19302-1.jpg"
   - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19293-1.jpg"

@@ -10,36 +10,6 @@
     })(window,document,'script','dataLayer','GTM-THSMP8S');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46102456-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-46102456-1');
-      gtag('config', 'AW-976136240');
-    </script>
-    -->
-
-    <!-- Event snippet for Website form submitted conversion page
-    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-976136240/CBdyCIeLx5YBELDQutED',
-          'event_callback': callback
-      });
-      return false;
-    }
-    </script>
-
     <meta name="google-site-verification" content="6d1osEueOiNyYiMom16JyGA8oaKUQ8VKq23L8zsKxO4" />
 
     <meta charset="utf-8">
@@ -59,6 +29,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" async>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" async>
+    {% if page.url contains 'event' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
     <link rel="stylesheet" href="/css/styles.css" async>
 
   </head>

@@ -10,8 +10,7 @@ page_sections:
   block: hero-2
   background_image: "/uploads/2019/01/16/home_page_main_banner@2x.jpg"
   headline: We are leading the evolution of Mobility. Join the Ride.
-  intro_text: We want to become the best mobility tech company in the world by empowering
-    cities with new solutions impacting millions who use our products everyday. <strong>#BecauseWeShare</strong>
+  intro_text: We want to become the best mobility tech company in the world by empowering cities with new solutions that impact millions who use our products every day. <strong>#BecauseWeShare</strong>
   cta:
     url: "/careers/jobs"
     button_text: Browse Jobs
@@ -42,8 +41,7 @@ page_sections:
     heading_colour: black
   - title: 'Stat: CO2 Saved'
     heading: 12,000kg
-    content: CO2 was reduced in Delhi, one of the most polluted cities in the world
-      just last month.
+    content: CO2 was reduced in Delhi last month, one of the most polluted cities in the world.
     heading_colour: green
   - title: 'Stat: Cars off road'
     heading: 30,000+
@@ -63,7 +61,7 @@ page_sections:
   - title: Our Values
     heading: Our Values
     content: |-
-      We believe in disruption and challenge the status quo in everything we do. While having fun!
+      We believe in disruption, and challenge the status quo in everything we do. All while having fun!
       <br>
       <a class="with-arrow" href="/careers/culture">Learn more</a>
     heading_colour: black

@@ -117,15 +117,14 @@ a:hover {
 
 #content ul li:before {
   content: "";
-  left: -21px;
-  width: 10px;
-  top: 2px;
-  background: url(https://www.wunder.org/img/icon-banner-arrow.svg) no-repeat;
-  height: 13px;
+  left: -33px;
+  width: 30px;
+  top: -5px;
+  background: url(https://www.wundermobility.com/uploads/global/arrow-right.svg) no-repeat;
+  height: 30px;
   display: inline-block;
   position: absolute;
   background-size: contain;
-  filter: hue-rotate(96deg);
 }
 
 #content p {
