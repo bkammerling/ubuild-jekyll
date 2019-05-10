@@ -31,12 +31,15 @@ page_sections:
 - template: block-from-right
   block: wide-from-right
   col_1:
-    headline: ''
-    content: ''
+    headline: Exclusive, Energetic & Out of the Box
+    content: Informal but exclusive, with world class speakers, special events, great
+      food and entertainment, and connections you will keep!
   col_2:
     headline: ''
     content: ''
   background_image: ''
+  bg_image: ''
+  unique_id: energetic
 - template: simple-footer
   block: footer-1
   content: ''
