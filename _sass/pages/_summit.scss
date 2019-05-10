@@ -217,8 +217,8 @@ body.summit .gradient-block .block-full-right {
       height: auto;
       width: 100%;
       @include rwd(mobile-up) {
-        height: 250px;
-        width: auto;
+        /*height: 250px;
+        width: auto;*/
       }
     }
 

@@ -1,0 +1,25 @@
+<section class="block block-bg-box" id="section-{{ section.unique_id }}">
+  <div class="wunder-bg left top-1"></div>
+
+  <div class="bg-box__wrapper block-full-right col-2-in">
+    <div class="container container-fullright">
+
+      <div class="bg-box__box">
+        <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
+        <p>{{ section.col_1.content }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+#section-{{ section.unique_id }} .bg-box__wrapper {
+  background-image: url("{{ section.bg_image | remove: '@2x' | relative_url }}");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #section-{{ section.unique_id }} .bg-box__wrapper {
+    background-image: url('{{ section.bg_image | relative_url }}');
+  }
+}
+</style>
