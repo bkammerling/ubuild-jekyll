@@ -89,7 +89,7 @@ page_sections:
     job_title: CEO
     company: moovel Group / REACHNOW
     speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
-    company_logo: ''
+    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Peter Tschentscher
     job_title: Mayor of Hamburg
     company: City of Hamburg
