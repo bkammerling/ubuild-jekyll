@@ -86,8 +86,8 @@ event_block:
   lng: -0.18880
   block: google-map
   headline: Don't Royally Miss Out
-  content: The royal residence hosts this exciting event, co hosted with <strong>Aston Martin</strong>
-    and <strong>Bosch</strong>. Join us in the Royal Borough of Kensington and Chelsea in London for
+  content: The royal residence hosts this exciting event, co hosted with Aston Martin
+    and Bosch. Join us in the Royal Borough of Kensington and Chelsea in London for
     meaningful insights into the world and future of mobility!
   gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
   venue_location: Kensington Gardens, London W8 4PX, UK
