@@ -40,10 +40,10 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
-- pages/autotech.md
 - pages/careers/careers.md
-- pages/terms.md
+- pages/careers/jobs.md
 - pages/careers/locations.md
 - pages/home.md
+- pages/autotech.md
+- pages/terms.md
 - pages/careers/culture.md
-- pages/careers/jobs.md
