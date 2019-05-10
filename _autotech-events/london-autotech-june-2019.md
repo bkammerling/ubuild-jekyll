@@ -13,7 +13,7 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
-  headline: AutoTech in June<strong><br>London</strong><br><small>With Bosch & Aston Martin</small>
+  headline: AutoTech in June<br><strong>London</strong><br><small>With Bosch & Aston Martin</small>
   cta:
 - template: custom-content
   block: custom-html
@@ -21,18 +21,18 @@ event_block:
   content: |-
     <div class="container" id="section-partnership">
 
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2 mb-3">
-              <section class="">
-                <h2 class="page-heading mb-3">In Co-operation With</h2>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mb-3">
+          <section class="">
+            <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-                <img src="uploads/global/bosch-logo.png" style="width: 200px" />
-                <img src="uploads/global/aston_martin.png" style="width: 130px" />
+            <img src="uploads/global/bosch-logo.png" style="width: 200px" class="mr-2" />
+            <img src="uploads/global/aston_martin.png" style="width: 130px" />
 
-              </section>
-            </div>
-          </div>
+          </section>
         </div>
+      </div>
+    </div>
   cta:
 - template: speakers
   block: speaker-cards
@@ -68,18 +68,18 @@ event_block:
   name: Agenda
   content: |-
     <div class="container mt-5 mb-5" id="section-agenda">
-          <div class="wunder-bg right top-2"></div>
+      <div class="wunder-bg right top-2"></div>
 
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2 mb-3">
-              <section class="mt-5">
-                <h2 class="page-heading mb-3">Agenda</h2>
-                <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mb-3">
+          <section class="mt-5">
+            <h2 class="page-heading mb-3">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
 
-              </section>
-            </div>
-          </div>
+          </section>
         </div>
+      </div>
+    </div>
   cta:
 - template: google-map
   lat: 51.504911
@@ -95,10 +95,10 @@ event_block:
 - template: simple-footer
   block: footer-1
   cta:
-event_description: Taking place in <strong>Kensington Palace, </strong>this edition
+event_description: "Taking place in <strong>Kensington Palace,</strong> this edition
   is already set to be superb. We'll be hearing from a fantastic selection of CEOs
   and founders from successful <strong>startups in the mobility industry,</strong>  who
-  will be discussing the <strong>challenges and opportunities</strong> they face.
+  will be discussing the <strong>challenges and opportunities</strong> they face."
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
 output_page: true
 
