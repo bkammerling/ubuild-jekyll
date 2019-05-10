@@ -26,7 +26,7 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-            <img src="uploads/global/bosch-logo.png" style="width: 200px" class="mr-2" />
+            <img src="uploads/global/bosch-logo.png" style="width: 200px" class="mr-4" />
             <img src="uploads/global/aston_martin.png" style="width: 130px" />
 
           </section>
