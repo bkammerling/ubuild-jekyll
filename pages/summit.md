@@ -80,31 +80,56 @@ page_sections:
   heading: Speaker Line-up 2019
   sub-heading: Leaders & Innovators From Around the World
   speakers:
+  - name: Tatiana Calderon
+    job_title: Test Driver
+    company: Alfa Romeo Formula One
+    speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
+    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
+  - name: Daniela Gerd tom Markotten
+    job_title: CEO
+    company: moovel Group / REACHNOW
+    speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
+    company_logo: ''
   - name: Peter Tschentscher
     job_title: Mayor of Hamburg
     company: City of Hamburg
     speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
     company_logo: "/uploads/2019/05/10/logo-hh.png"
-  - name: Horace Dediu
-    job_title: Cofounder
-    company: Micromobility Industries
-    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
-    company_logo: "/uploads/2019/05/10/logo-mm.png"
-  - name: Michel Stumpe
-    job_title: CEO
-    company: FREE2MOVE
-    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
-    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
   - name: John Krafcik
     job_title: CEO
     company: Waymo
     speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
+  - name: Michel Stumpe
+    job_title: CEO
+    company: FREE2MOVE
+    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
+    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
   - name: Alexander Hitzinger
     job_title: Head of Autonomous Driving
     company: VW Group
     speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
     company_logo: "/uploads/2019/05/10/logo-vw.png"
+  - name: Jens Monsees
+    job_title: Corporate Vice President
+    company: BMW Group
+    speaker_photo: "/uploads/2019/05/10/Jens-Monsees.png"
+    company_logo: "/uploads/2019/05/10/logo-bmw.png"
+  - name: Alexander Marten
+    job_title: Chief Innovation Evangelist
+    company: Deutsche Telekom
+    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
+    company_logo: "/uploads/2019/05/10/logo-telekom.png"
+  - name: Vikram Chopra
+    job_title: CEO and Co-Founder
+    company: CARS24
+    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
+    company_logo: "/uploads/2019/05/10/logo-cars24.png"
+  - name: Horace Dediu
+    job_title: Cofounder
+    company: Micromobility Industries
+    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
+    company_logo: "/uploads/2019/05/10/logo-mm.png"
 - block: summit-main
   subdirectory: static
 - template: simple-footer
