@@ -61,6 +61,11 @@ event_block:
     company: UFO
     speaker_photo: "/uploads/2019/05/10/mario-ufo@2x.jpeg"
     company_logo: "/uploads/2019/05/10/ufo-logo@2x.jpg"
+  - name: Gunnar Froh
+    job_title: CEO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: custom-content
   block: custom-html
   name: Agenda
