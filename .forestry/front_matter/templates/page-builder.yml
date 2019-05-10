@@ -44,6 +44,7 @@ fields:
   - photo-gallery
   - block-from-right
 pages:
+- pages/summit.md
 - pages/careers/careers.md
 - pages/careers/locations.md
 - pages/home.md
