@@ -38,7 +38,7 @@ page_sections:
     headline: ''
     content: ''
   background_image: ''
-  bg_image: ''
+  bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
 - template: simple-footer
   block: footer-1
