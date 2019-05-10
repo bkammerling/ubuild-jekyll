@@ -66,6 +66,7 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
   name: Agenda
