@@ -26,7 +26,6 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
-- _articles/wunder-mobility-to-expand-in-india.md
 - _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
 - _articles/elektrische-tretroller-sollen-deutschland-erobern.md
 - _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md
@@ -35,10 +34,11 @@ pages:
 - _articles/germany-s-wunder-is-hoping-carpooling-helps-india-s-pollution.md
 - _articles/neue-mobilität-die-stadt-braucht-die-kontrolle-über-carsharing.md
 - _articles/ruhr-park-will-park-chaos-verringern-und-bietet-mitarbeitern-diese-alternative.md
-- _articles/how-germany-s-wunder-mobility-is-planning-on-getting-indians-hitched-to-carpooling.md
 - _articles/Wir sehen die Autobauer langfristig nicht im Software-Geschäft.md
+- _articles/how-germany-s-wunder-mobility-is-planning-on-getting-indians-hitched-to-carpooling.md
 - _articles/Wunder Mobility will das Betriebssystem der Mobilität werden.md
 - _articles/wunder-mobility-summit-mobilitätsexperten-unter-sich.md
 - _articles/startup-magazin-thema-u-a-klima-und-nachhaltigkeit.md
-- _articles/wunder-mobility-takes-over-fleetbird-software-sharing.md
 - _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
+- _articles/wunder-mobility-to-expand-in-india.md
+- _articles/wunder-mobility-takes-over-fleetbird-software-sharing.md
