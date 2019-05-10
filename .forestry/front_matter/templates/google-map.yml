@@ -29,22 +29,20 @@ fields:
   type: number
   label: Latitude
   description: 'Get this info here: https://www.latlong.net/'
-  default: '53.54304'
-  required: true
+  default: 53.54304
   config:
-    min: 
-    max: 
-    step: 
+    min:
+    max:
+    step:
 - name: lng
   type: number
   label: Longitude
   description: ''
-  default: '10.00059'
-  required: true
+  default: 10.00059
   config:
-    min: 
-    max: 
-    step: 
+    min:
+    max:
+    step:
 - name: block
   type: text
   config:
