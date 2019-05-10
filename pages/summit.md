@@ -77,9 +77,34 @@ page_sections:
     headline: ''
     content: ''
 - template: speakers
-  heading: Speaker Line-up
-  sub-heading: ''
-  speakers: []
+  heading: Speaker Line-up 2019
+  sub-heading: Leaders & Innovators From Around the World
+  speakers:
+  - name: Peter Tschentscher
+    job_title: Mayor of Hamburg
+    company: City of Hamburg
+    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
+    company_logo: "/uploads/2019/05/10/logo-hh.png"
+  - name: Horace Dediu
+    job_title: Cofounder
+    company: Micromobility Industries
+    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
+    company_logo: "/uploads/2019/05/10/logo-mm.png"
+  - name: Michel Stumpe
+    job_title: CEO
+    company: FREE2MOVE
+    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
+    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
+  - name: John Krafcik
+    job_title: CEO
+    company: Waymo
+    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
+    company_logo: "/uploads/2019/05/10/logo-waymo.png"
+  - name: Alexander Hitzinger
+    job_title: Head of Autonomous Driving
+    company: VW Group
+    speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
+    company_logo: "/uploads/2019/05/10/logo-vw.png"
 - block: summit-main
   subdirectory: static
 - template: simple-footer
