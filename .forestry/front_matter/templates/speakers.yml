@@ -46,3 +46,10 @@ fields:
     max: 
     labelField: 
   label: Speakers
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: speaker-cards
