@@ -13,7 +13,6 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
-  cta:
 - template: speakers
   block: speaker-cards
   speakers:
@@ -59,7 +58,6 @@ event_block:
         </div>
       </div>
     </div>
-  cta:
 - template: google-map
   lat: 51.504911
   lng: -0.18880
@@ -67,10 +65,8 @@ event_block:
   headline: Don't Royally Miss Out
   gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
   venue_location: Kensington Gardens, London W8 4PX, UK
-  cta:
 - template: simple-footer
   block: footer-1
-  cta:
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
 output_page: true
 
