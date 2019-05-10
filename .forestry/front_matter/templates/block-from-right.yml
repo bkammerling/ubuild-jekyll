@@ -1,6 +1,7 @@
 ---
 label: Block From Right
 hide_body: true
+display_field: unique_id
 fields:
 - name: main_content
   type: include
