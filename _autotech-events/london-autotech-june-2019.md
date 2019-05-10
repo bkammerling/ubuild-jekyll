@@ -95,10 +95,10 @@ event_block:
 - template: simple-footer
   block: footer-1
   cta:
-event_description: "Taking place in <strong>Kensington Palace,</strong> this edition
+event_description: Taking place in <strong>Kensington Palace,</strong> this edition
   is already set to be superb. We'll be hearing from a fantastic selection of CEOs
   and founders from successful <strong>startups in the mobility industry,</strong>  who
-  will be discussing the <strong>challenges and opportunities</strong> they face."
+  will be discussing the <strong>challenges and opportunities</strong> they face.
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
 output_page: true
 
