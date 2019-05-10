@@ -10,6 +10,7 @@ page_sections:
   cta:
     url: "#"
     button_text: Apply to join
+  sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
   headline: Wunder Mobility Summit <strong>2019</strong>
@@ -23,9 +24,11 @@ page_sections:
     enabled: true
   show_logos: false
   background_image: "/uploads/global/Image_WMS19@2x.png"
+  background_video: ''
+  intro_text: ''
 - template: custom-content
   block: custom-html
-  name: Agenda
+  name: Summit Intro
   content: |-
     <main>
       <div class="container">
@@ -70,9 +73,17 @@ page_sections:
       food and entertainment, and connections you will keep!
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
+  col_2:
+    headline: ''
+    content: ''
+- template: speakers
+  heading: Speaker Line-up
+  sub-heading: ''
+  speakers: []
 - block: summit-main
   subdirectory: static
 - template: simple-footer
   block: footer-1
+  content: ''
 
 ---
