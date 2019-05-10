@@ -39,6 +39,9 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
+  - speakers
+  - custom-content
+  - photo-gallery
 pages:
 - pages/careers/careers.md
 - pages/careers/locations.md
