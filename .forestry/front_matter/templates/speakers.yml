@@ -2,6 +2,17 @@
 label: Speakers
 hide_body: true
 fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+  default: Speaker Line-up
+- name: sub-heading
+  type: text
+  config:
+    required: false
+  label: Sub-heading
 - name: speakers
   type: field_group_list
   fields:
