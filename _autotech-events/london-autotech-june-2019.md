@@ -42,7 +42,6 @@ event_block:
     company: AppyParking
     speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
     company_logo: "/uploads/2019/05/03/appyparking@2x.png"
-  cta:
 - template: custom-content
   block: custom-html
   name: Agenda
