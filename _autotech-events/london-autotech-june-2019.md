@@ -13,26 +13,6 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
-  headline: AutoTech in June<br><strong>London</strong><br><small>With Bosch & Aston Martin</small>
-  cta:
-- template: custom-content
-  block: custom-html
-  name: In partnership with...
-  content: |-
-    <div class="container" id="section-partnership">
-
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mb-3">
-          <section class="">
-            <h2 class="page-heading mb-3">In Co-operation With</h2>
-
-            <img src="uploads/global/bosch-logo.png" style="width: 200px" class="mr-2" />
-            <img src="uploads/global/aston_martin.png" style="width: 130px" />
-
-          </section>
-        </div>
-      </div>
-    </div>
   cta:
 - template: speakers
   block: speaker-cards
@@ -86,19 +66,12 @@ event_block:
   lng: -0.18880
   block: google-map
   headline: Don't Royally Miss Out
-  content: The royal residence hosts this exciting event, co hosted with Aston Martin
-    and Bosch. Join us in the Royal Borough of Kensington and Chelsea in London for
-    meaningful insights into the world and future of mobility!
   gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
   venue_location: Kensington Gardens, London W8 4PX, UK
   cta:
 - template: simple-footer
   block: footer-1
   cta:
-event_description: Taking place in <strong>Kensington Palace,</strong> this edition
-  is already set to be superb. We'll be hearing from a fantastic selection of CEOs
-  and founders from successful <strong>startups in the mobility industry,</strong>  who
-  will be discussing the <strong>challenges and opportunities</strong> they face.
 featured_image: "/uploads/2019/04/30/london@2x.jpg"
 output_page: true
 
