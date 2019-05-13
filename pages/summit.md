@@ -26,6 +26,22 @@ page_sections:
   background_image: "/uploads/global/Image_WMS19@2x.png"
   background_video: ''
   intro_text: ''
+- template: block-from-right
+  block: wide-from-right
+  col_1:
+    headline: Wunder Mobility Summit
+    content: "<strong>...the unique conference and innovation festival on the future
+      of mobility in Germany, Hamburg.</strong>"
+  col_2:
+    headline: ''
+    content: The Wunder Mobility Summit exclusively brings together the greatest minds
+      to discuss and shape the future of mobility. <br><br>A 1.5 day event with deep
+      insights and inspirational knowledge transfer from all relevant players - we
+      gather the entire mobility ecosystem from industry to academia, from policy
+      makers to visionaries. Thrilling content, technology live-demos, test drives
+      and exhibitions. <br><br><strong>Let’s create the future of mobility together!</strong>
+  bg_image: ''
+  unique_id: summit-intro
 - template: custom-content
   block: custom-html
   name: Summit Intro
