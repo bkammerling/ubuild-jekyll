@@ -16,6 +16,29 @@ fields:
   label: Heading
 - name: cards
   type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: icon
+    type: file
+    config:
+      maxSize: '1'
+    label: Image / icon
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+    description: Optional
+  - name: content
+    type: text
+    config:
+      required: false
+    label: Content
+    description: Optional
   config:
     min: 
     max: 
