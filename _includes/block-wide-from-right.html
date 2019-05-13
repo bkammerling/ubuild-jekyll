@@ -1,5 +1,5 @@
 <section class="block block-bg-box" id="section-{{ section.unique_id }}">
-  <div class="wunder-bg left top-{{ forloop.index }}"></div>
+  <!--<div class="wunder-bg left top-{{ forloop.index + 1 }}"></div>-->
 
   <div class="bg-box__wrapper block-full-right col-2-in {% if section.bg_image and section.bg_image != empty %}w-bg{% endif %}">
     <div class="{% if section.bg_image and section.bg_image != empty %}container container-fullright{% else %}box-fullright{% endif %}">
@@ -7,14 +7,14 @@
       <div class="bg-box__box">
         {% if section.col_2.content and section.col_2.content != empty %}
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-6 col-lg-5">
           {% endif %}
             <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
             <p>{{ section.col_1.content }}</p>
             {% if section.col_2.content and section.col_2.content != empty %}
           </div>
-          <div class="col-sm-5">
-            <h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>
+          <div class="col-sm-6 col-lg-7">
+            {% if section.col_2.headline and section.col_2.content != empty %}<h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>{% endif %}
             <p>{{ section.col_2.content }}</p>
           </div>
         </div>

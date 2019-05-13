@@ -66,7 +66,12 @@
 }
 
 .block-bg-box {
-  margin: rem(160px) 0;
+  &:not(:first-child) {
+    margin: rem(140px) 0;
+  }
+  &:first-child {
+    margin-top: 1.5rem;
+  }
 }
 .bg-box__wrapper {
 

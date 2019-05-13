@@ -39,7 +39,7 @@ page_sections:
               <div class="row">
                 <div class="col-2">
                   <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-intro">Intro</a>
+                    <a class="list-group-item list-group-item-action" href="#section-summit-intro">Intro</a>
                     <a class="list-group-item list-group-item-action" href="#section-speakers">Speakers</a>
                     <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
                     <a class="list-group-item list-group-item-action" href="#section-wms18">WMS18</a>
@@ -57,9 +57,9 @@ page_sections:
 - template: block-from-right
   block: wide-from-right
   col_1:
-    headline: Wunder Mobility Summit
-    content: "<strong>...the unique conference and innovation festival on the future
-      of mobility in Germany, Hamburg.</strong>"
+    headline: Wunder Mobility Summit...
+    content: <strong class="blue">...the unique conference and innovation festival on the future
+      of mobility in Germany, Hamburg.</strong>
   col_2:
     headline: ''
     content: The Wunder Mobility Summit exclusively brings together the greatest minds
@@ -73,9 +73,9 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: |2-
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col-lg-10 offset-lg-2  mt-5">
+          <div class="col-lg-10 offset-lg-2 mt-5">
             <section id="section-intro">
               <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
               <img data-src="/uploads/global/mobility_logos@2x.jpg" data-srcset="/uploads/global/mobility_logos@2x.jpg 2x" alt="logos of previous attendees"  class="mw-100 mb-3" />
