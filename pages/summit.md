@@ -79,6 +79,7 @@ page_sections:
 - template: speakers
   heading: Speaker Line-up 2019
   sub-heading: Leaders & Innovators From Around the World
+  block: speaker-cards
   speakers:
   - name: Tatiana Calderon
     job_title: Test Driver
@@ -87,7 +88,7 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
   - name: Daniela Gerd tom Markotten
     job_title: CEO
-    company: moovel Group / REACHNOW
+    company: REACHNOW
     speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
     company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Peter Tschentscher

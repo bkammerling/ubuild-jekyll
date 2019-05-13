@@ -1,1 +1,1 @@
-data-src="{{ include.file | remove: '@2x' | relative_url }}" data-srcset="{{ include.file  | relative_url }} 2x" alt="{{ include.alt }}"
+data-src="{{ include.file | remove: '@2x' | relative_url }}" {% if include.file contains '@2x' %}data-srcset="{{ include.file  | relative_url }} 2x"{% endif %} alt="{{ include.alt }}"

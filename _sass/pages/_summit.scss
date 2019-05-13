@@ -70,50 +70,49 @@
 }
 .bg-box__wrapper {
 
-  padding: rem(60px) 0 rem(220px);
-  background: url('/uploads/global/wms_bgphoto_1.jpg') no-repeat center center;
-  background-position-x: 90px;
-  background-size: cover;
+  &.w-bg {
+    padding: rem(60px) 0 rem(220px);
+    background: url('/uploads/global/wms_bgphoto_1.jpg') no-repeat center center;
+    background-position-x: 90px;
+    background-size: cover;
 
-  #section-energetic & {
-    background-image: url('/uploads/global/wms_bgphoto_1.jpg');
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('/uploads/global/wms_bgphoto_1@2x.jpg');
+
+    #section-future & {
+      background-image: url('/uploads/global/wms_bgphoto_2.jpg');
+      background-position-y: top;
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('/uploads/global/wms_bgphoto_2@2x.jpg');
+      }
     }
-  }
-  #section-future & {
-    background-image: url('/uploads/global/wms_bgphoto_2.jpg');
-    background-position-y: top;
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('/uploads/global/wms_bgphoto_2@2x.jpg');
+
+    .bg-box__box {
+      width: 550px;
+      .in-container & {
+        width: 440px;
+      }
     }
+
+
+    @include rwd(tablet-down) {
+      background-position-x: right;
+      background-position-y: top;
+      padding: rem(220px) 0 rem(0px);
+
+      margin-bottom: 200px;
+      .bg-box__box {
+        max-width: 100%;
+        padding: rem(40px) rem(40px) rem(80px);
+        transform: translateY(100px);
+      }
+    }
+
   }
 
   .bg-box__box {
     @extend .w-x-shadow;
-    width: 550px;
-    padding: rem(40px) rem(80px) rem(80px) rem(40px);
-
     border-left: 5px solid $sky-blue;
     background: $white;
-
-    .in-container & {
-      width: 440px;
-    }
-  }
-
-
-  @include rwd(tablet-down) {
-    background-position-x: right;
-    background-position-y: top;
-    padding: rem(220px) 0 rem(0px);
-
-    margin-bottom: 200px;
-    .bg-box__box {
-      max-width: 100%;
-      padding: rem(40px) rem(40px) rem(80px);
-      transform: translateY(100px);
-    }
+    padding: rem(40px) rem(80px) rem(80px) rem(40px);
   }
 
 }

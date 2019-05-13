@@ -1,7 +1,7 @@
 <section class="block block-hero-2">
   <div class="video-banner">
 
-    {% if section.background_video %}
+    {% if section.background_video != empty or section.background_video %}
     <div class="video-banner__overflow"></div>
     <video autoplay playsinline loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
         <source src="{{ site.url }}/uploads/global/{{ section.background_video }}.mp4" type="video/mp4" />
@@ -46,7 +46,7 @@
       background-image: url('{{ bg_image | relative_url }}');
     }
   }
-  {% if section.background_video %}
+  {% if section.background_video and section.background_video != empty %}
   @media screen and (min-width: 769px) {
     .video-banner {
       background-image: none;
@@ -72,7 +72,7 @@
 
 </section>
 
-{% if section.intro_text %}
+{% if section.intro_text != empty and section.intro_text %}
 <div class="intro-text">
   <a class="round-cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
   <div class="container">
