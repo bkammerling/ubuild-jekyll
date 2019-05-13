@@ -40,9 +40,9 @@ fields:
   - simple-footer
   - 4-column-footer
   - speakers
-  - custom-content
   - photo-gallery
   - block-from-right
+  - icon-heading-cards
 pages:
 - pages/summit.md
 - pages/careers/careers.md
