@@ -237,8 +237,13 @@ page_sections:
   heading: Relive 2018
 - template: custom-content
   block: custom-html
-  content: </div></main>
+  content: "</div></main>"
   name: Main fix
+- template: detail-content
+  block: text-1
+  content: <p><img src="/uploads/2019/05/13/press_logos.png"></p>
+  headline: Press Mentions
+  background_image: ''
 - template: simple-footer
   block: footer-1
   content: ''
