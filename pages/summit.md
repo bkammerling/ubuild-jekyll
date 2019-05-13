@@ -151,6 +151,18 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 300 hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -171,17 +183,5 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
-  unique_id: future
-  col_1:
-    content: With 300 hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
-    content: ''
 
 ---
