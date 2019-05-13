@@ -178,6 +178,11 @@ page_sections:
       </div>
     </div>
   name: Agenda block
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: Relive 2018
 - block: summit-main
   subdirectory: static
 - template: simple-footer
