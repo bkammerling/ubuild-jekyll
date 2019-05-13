@@ -235,15 +235,15 @@ page_sections:
   iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   heading: Relive 2018
-- template: custom-content
-  block: custom-html
-  content: "</div></main>"
-  name: Main fix
 - template: detail-content
   block: text-1
   content: <p><img src="/uploads/2019/05/13/press_logos.png"></p>
   headline: Press Mentions
   background_image: ''
+- template: custom-content
+  block: custom-html
+  content: "</div></main>"
+  name: Main fix
 - template: simple-footer
   block: footer-1
   content: ''
