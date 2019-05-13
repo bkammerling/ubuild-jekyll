@@ -72,7 +72,7 @@ page_sections:
   unique_id: summit-intro
 - template: custom-content
   block: custom-html
-  content: |2-
+  content: |-
       <div class="container mt-5">
         <div class="row">
           <div class="col-lg-10 offset-lg-2 mt-5">
@@ -151,6 +151,21 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+- template: custom-content
+  block: custom-html
+  content: |-
+      <div class="container" id="section-agenda">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-2">
+            <section id="section-intro">
+              <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+              <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+              <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+            </section>
+          </div>
+        </div>
+      </div>
+  name: Agenda block
 - block: summit-main
   subdirectory: static
 - template: simple-footer
