@@ -58,8 +58,8 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder Mobility Summit...
-    content: <strong class="blue">...the unique conference and innovation festival on the future
-      of mobility in Germany, Hamburg.</strong>
+    content: <strong class="blue">...the unique conference and innovation festival
+      on the future of mobility in Germany, Hamburg.</strong>
   col_2:
     headline: ''
     content: The Wunder Mobility Summit exclusively brings together the greatest minds
@@ -73,17 +73,17 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: |-
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-2 mt-5">
-            <section id="section-intro">
-              <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
-              <img data-src="/uploads/global/mobility_logos@2x.jpg" data-srcset="/uploads/global/mobility_logos@2x.jpg 2x" alt="logos of previous attendees"  class="mw-100 mb-3" />
-              <p class="text-center">AND SO MANY MORE</p>
-            </section>
-          </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mt-5">
+          <section id="section-intro">
+            <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
+            <img data-src="/uploads/global/mobility_logos@2x.jpg" data-srcset="/uploads/global/mobility_logos@2x.jpg 2x" alt="logos of previous attendees"  class="mw-100 mb-3" />
+            <p class="text-center">AND SO MANY MORE</p>
+          </section>
         </div>
       </div>
+    </div>
   name: Logo cloud
 - template: block-from-right
   block: wide-from-right
@@ -154,22 +154,34 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: |-
-      <div class="container" id="section-agenda">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-2">
-            <section id="section-intro">
-              <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-              <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-              <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
-            </section>
-          </div>
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+          </section>
         </div>
       </div>
+    </div>
   name: Agenda block
 - block: summit-main
   subdirectory: static
 - template: simple-footer
   block: footer-1
   content: ''
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 300 hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
 
 ---
