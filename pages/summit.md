@@ -58,7 +58,7 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder Mobility Summit...
-    content: <strong class="blue">...the unique conference and innovation festival
+    content: <strong class="text-blue">...the unique conference and innovation festival
       on the future of mobility in Germany, Hamburg.</strong>
   col_2:
     headline: ''
@@ -178,13 +178,67 @@ page_sections:
       </div>
     </div>
   name: Agenda block
+- template: custom-content
+  block: custom-html
+  content: |-
+    <section class="block block-last-summit gradient-block" id="section-wms18">
+      <div class="wunder-bg right top-4"></div>
+      <div class="last-summit__wrapper block-full-right col-2-in">
+        <div class="container container-fullright">
+          <h2 class="page-heading mb-1">WMS18</h2>
+          <p class="lead"><strong>With an international attendance made up of predominantly CEOs, startup founders and thought-leaders from the new mobility industry, if you weren't there, you missed out!</strong></p>
+          <div class="important-numbers__stats">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">250 <small>Attendees</small></div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">140 <small>Companies</small></div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">29 <small>Countries</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="percent-bar__wrapper">
+            <div class="percent-bar">
+              <div class="percent-bar__block" style="width:45%">
+                <h3 class="h1">45<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">C-Level</p>
+              </div>
+              <div class="percent-bar__block" style="width:25%">
+                <h3 class="h1">25<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Startup founders</p>
+              </div>
+              <div class="percent-bar__block" style="width:15%">
+                <h3 class="h1">15<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Investors</p>
+              </div>
+              <div class="percent-bar__block" style="width:15%">
+                <h3 class="h1">15<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Others</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  name: wms18
 - template: full-width-media-element
   block: video-1
   iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   heading: Relive 2018
-- block: summit-main
-  subdirectory: static
+- template: custom-content
+  block: custom-html
+  content: </div></main>
+  name: Main fix
 - template: simple-footer
   block: footer-1
   content: ''

@@ -94,6 +94,9 @@ event_block:
     and Chelsea in London for meaningful insights into the world and future of mobility!
   gmaps_link: https://www.google.com/maps/place/Kensington+Palace/@51.5058372,-0.1877239,15z/data=!4m2!3m1!1s0x0:0x89e65c2abc2c3f87?sa=X&ved=2ahUKEwiN5tiGxvzhAhUC_qQKHc1PBXkQ_BIwIXoECAsQCA
   venue_location: Kensington Gardens, London W8 4PX, UK
+- template: simple-footer
+  block: footer-1
+  content: ''
 event_description: Taking place in <strong>Kensington Palace,</strong> this edition
   is already set to be superb. We'll be hearing from a fantastic selection of CEOs
   and founders from successful <strong>startups in the mobility industry,</strong>  who
