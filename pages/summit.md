@@ -85,6 +85,34 @@ page_sections:
       </div>
     </div>
   name: Logo cloud
+- template: icon-heading-cards
+  block: icon-heading-grid
+  heading: Topics
+  cards:
+  - heading: Autonomous Driving
+    icon: "/uploads/2019/05/13/sedan.svg"
+    link: ''
+    content: ''
+  - heading: Urbanization & Smart Cities
+    icon: "/uploads/2019/05/13/city.svg"
+    link: ''
+    content: ''
+  - heading: Electrification
+    icon: "/uploads/2019/05/13/electric-station.svg"
+    link: ''
+    content: ''
+  - heading: Public Transport & MAAS
+    icon: "/uploads/2019/05/13/bus.svg"
+    link: ''
+    content: ''
+  - heading: Next Generation Mobile Network
+    icon: "/uploads/2019/05/13/satellite.svg"
+    link: ''
+    content: ''
+  - heading: Aerial Vehicle Mobility
+    icon: "/uploads/2019/05/13/helicopter.svg"
+    link: ''
+    content: ''
 - template: block-from-right
   block: wide-from-right
   col_1:
