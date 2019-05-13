@@ -1,4 +1,23 @@
 ---
 label: Icon + Heading Cards
 hide_body: true
-fields: []
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: icon-heading-grid
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: cards
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cards
