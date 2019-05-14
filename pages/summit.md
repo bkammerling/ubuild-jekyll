@@ -236,6 +236,7 @@ page_sections:
     icon: ''
     sub_title: ''
     show_meetups: false
+  column_count: '4'
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
