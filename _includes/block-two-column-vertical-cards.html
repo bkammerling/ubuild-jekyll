@@ -6,8 +6,10 @@
     {% endunless %}
     <div class="team-spirit image-captions">
           <h2 class="page-heading">{{ section.heading }}</h2>
+          {% unless page.dir contains 'career' %}
           <div class="row">
             <div class="col-lg-11 offset-lg-1">
+          {% endunless %}
               <div class="image-captions__grid columns-{{ section.column_count }}">
                 {% for item in section.items %}
                 <!-- #Start Image-Caption Item -->
@@ -28,13 +30,20 @@
                     {% endfor %}
                     {% endif %}
 
+                    {% if item.title == "Startup Stage Battle" %}
+                    <p class="mb-1"><strong>Battle partner</strong></p>
+                    <img style="width: 80px; max-width: 70%;" data-src="uploads/global/googlelogo.svg">
+                    {% endif %}
+
                   </div>
                 </div>
                 <!-- #End Image-Caption Item -->
                 {% endfor %}
               </div>
+          {% unless page.dir contains 'career' %}
             </div>
           </div>
+          {% endunless %}
         </div>
     {% unless page.dir contains 'career' %}
       </div>

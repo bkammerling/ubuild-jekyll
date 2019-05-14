@@ -78,19 +78,13 @@ page_sections:
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-intro">
             <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
-            <img data-src="/uploads/global/mobility_logos@2x.jpg" data-srcset="/uploads/global/mobility_logos@2x.jpg 2x" alt="logos of previous attendees"  class="mw-100 mb-3" />
+            <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
             <p class="text-center">AND SO MANY MORE</p>
           </section>
         </div>
       </div>
     </div>
   name: Logo cloud
-- template: detail-content
-  block: text-1
-  content: <p><img src="/uploads/2019/05/14/logocloud@2x.jpg"></p><p>&lt;p class="text-center"AND
-    MANY MORE&lt;/p&gt;</p>
-  headline: CONNECTING THE MOST INNOVATIVE MINDS IN MOBILITY
-  background_image: ''
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
@@ -135,16 +129,6 @@ page_sections:
   sub-heading: Leaders & Innovators From Around the World
   block: speaker-cards
   speakers:
-  - name: Tatiana Calderon
-    job_title: Test Driver
-    company: Alfa Romeo Formula One
-    speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
-    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
-  - name: Daniela Gerd tom Markotten
-    job_title: CEO
-    company: REACHNOW
-    speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
-    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Peter Tschentscher
     job_title: Mayor of Hamburg
     company: City of Hamburg
@@ -160,11 +144,21 @@ page_sections:
     company: FREE2MOVE
     speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
     company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
+  - name: Daniela Gerd tom Markotten
+    job_title: CEO
+    company: REACHNOW
+    speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
+    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Alexander Hitzinger
     job_title: Head of Autonomous Driving
     company: VW Group
     speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
     company_logo: "/uploads/2019/05/10/logo-vw.png"
+  - name: Tatiana Calderon
+    job_title: Test Driver
+    company: Alfa Romeo Formula One
+    speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
+    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
   - name: Jens Monsees
     job_title: Corporate Vice President
     company: BMW Group
@@ -181,7 +175,7 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
     company_logo: "/uploads/2019/05/10/logo-cars24.png"
   - name: Horace Dediu
-    job_title: Cofounder
+    job_title: Co-Founder
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
@@ -245,13 +239,13 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/WMS18_26@2x.jpg"
     title: Expo
-    content: Take the chance and get into direct discussions with the hand selected
+    content: Take the chance and get into direct discussions with hand-selected
       and high-level guests.
     icon: ''
     sub_title: ''
     show_meetups: false
   - title: Technology Playground
-    content: Guests will be inspired by new technology and and are able to try it
+    content: Guests will be inspired by new technology and are able to try it
       out.
     image: "/uploads/2019/05/14/WMS18_54@2x.jpg"
     icon: ''
@@ -265,27 +259,51 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/deep-dive@2x.jpg"
     title: Topic Deep Dives
-    content: 30 to 45 minutes sessions with an exclusive group of people.
+    content: 30 to 45 minute sessions with an exclusive group of people.
     icon: ''
     sub_title: ''
     show_meetups: false
   column_count: '4'
 - template: custom-content
   block: custom-html
-  name: supporters
   content: |-
     <div class="container mt-5">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2 mt-5">
-              <section id="section-supporter">
-                <h2 class="page-heading mb-5">Media Supporter</h2>
-    <div class="align-center">
-                <img data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg" alt="NGIN Mobility logo"  class="mw-100 mb-3" style="max-width:300px;"/>
-    </div>
-              </section>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mt-5">
+          <section id="section-supporters">
+            <h2 class="page-heading mb-5">In Partnership with...</h2>
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <h3 class="mb-4">Bronze <br>Sponsor</h3>
+                  <img class="mb-3 mw-100" data-src="uploads/global/allianz-logo.jpg">
+                  <img class="mb-5" style="width: 145px; max-width: 90%;" data-src="uploads/global/googlelogo.svg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <h3 class="mb-4">Conference Supporter</h3>
+                  <img class="mb-5" style="width: 170px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <h3 class="mb-4">Exhibition Partner</h3>
+                  <img class="mb-5" style="width: 200px; max-width: 90%;" data-src="uploads/global/athena.png">
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <h3 class="mb-4">Media <br>Supporter</h3>
+                  <img class="mb-3" style="width: 130px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                </div>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
+      </div>
+    </div>
+  name: supporters
 - template: custom-content
   block: custom-html
   content: |-

@@ -261,6 +261,14 @@ body.summit .gradient-block .block-full-right {
 }
 
 
+.partner-box {
+    padding-right: 30px;
+    h3 {
+      color: $grey2;
+    }
+}
+
+
 .percent-bar__wrapper {
   @include rwd(desktop-up) {
     position: relative;
