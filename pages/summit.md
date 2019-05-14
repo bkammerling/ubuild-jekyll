@@ -113,6 +113,7 @@ page_sections:
     icon: "/uploads/2019/05/13/helicopter.svg"
     link: ''
     content: ''
+  sub-heading: ''
 - template: block-from-right
   block: wide-from-right
   col_1:
@@ -239,14 +240,13 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/WMS18_26@2x.jpg"
     title: Expo
-    content: Take the chance and get into direct discussions with hand-selected
-      and high-level guests.
+    content: Take the chance and get into direct discussions with hand-selected and
+      high-level guests.
     icon: ''
     sub_title: ''
     show_meetups: false
   - title: Technology Playground
-    content: Guests will be inspired by new technology and are able to try it
-      out.
+    content: Guests will be inspired by new technology and are able to try it out.
     image: "/uploads/2019/05/14/WMS18_54@2x.jpg"
     icon: ''
     sub_title: ''
@@ -264,6 +264,8 @@ page_sections:
     sub_title: ''
     show_meetups: false
   column_count: '4'
+  sub-heading: From testing out the latest in micro-mobiltiy to unforgettable parties,
+    WMS is more than just a conference!
 - template: custom-content
   block: custom-html
   content: |-

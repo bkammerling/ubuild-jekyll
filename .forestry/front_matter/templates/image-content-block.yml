@@ -6,6 +6,11 @@ fields:
 - type: text
   name: heading
   label: Heading
+- name: sub-heading
+  type: text
+  config:
+    required: false
+  label: Subheading
 - type: field_group_list
   label: Items
   name: items
