@@ -2,11 +2,15 @@
 layout: blocks
 title: Culture
 permalink: "/careers/culture"
-date: 2019-01-09 17:13:39 +0000
+date: '2019-01-09T17:13:39.000+00:00'
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: career
+  cta:
+    url: ''
+    button_text: ''
+  sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/01/16/culture_main_banner@2x-1.jpg"
@@ -17,6 +21,11 @@ page_sections:
     url: "/careers/jobs"
     button_text: Browse Jobs
     enabled: false
+  background_video: ''
+  cta_2:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: image-content-block
   block: two-column-vertical-cards
   items:
@@ -26,12 +35,16 @@ page_sections:
     content: We want every employee to be happy and this extends outside work hours.
       We throw team events every month and Friday beer o'clock has become a Wunder
       happy hour tradition!
+    sub_title: ''
+    show_meetups: false
   - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
     title: Code Cafe
     icon: "/uploads/2019/01/11/team-spirit-03.svg"
     content: Wunder Engineering goes beyond the curly brackets of our code. Facilitated
       by the tech team, Code Cafe strives to create a relaxed environment where developers
       can break the divide between different technologies in a comfortable setting!
+    sub_title: ''
+    show_meetups: false
   - image: "/uploads/2019/01/11/culture_page_team_spirit_meet_ups@2x.jpg"
     icon: "/uploads/2019/01/11/team-spirit-04.svg"
     title: Meet-Ups
@@ -40,6 +53,7 @@ page_sections:
       with similar interests and passions.
     meetups: []
     show_meetups: true
+    sub_title: ''
   - icon: "/uploads/2019/01/11/team-spirit-05.svg"
     image: "/uploads/2019/01/11/culture_page_team_spirit_wms@2x.jpg"
     content: |-
@@ -50,7 +64,10 @@ page_sections:
       <br>
       <a href="https://www.youtube.com/watch?v=oFUBuJ1IsPE" class="with-arrow">WMS18 Aftermovie</a>
     title: Wunder Mobility Summit
+    sub_title: ''
+    show_meetups: false
   heading: We believe in communities because we are one
+  column_count: '2'
 - block: diversity-1
   subdirectory: static
 - template: picture-slider
@@ -114,5 +131,6 @@ page_sections:
   cta_link: "/careers/jobs"
 - template: simple-footer
   block: footer-1
+  content: ''
 
 ---

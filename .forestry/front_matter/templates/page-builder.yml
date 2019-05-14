@@ -44,11 +44,11 @@ fields:
   - block-from-right
   - icon-heading-cards
 pages:
+- pages/careers/culture.md
 - pages/summit.md
 - pages/careers/careers.md
 - pages/careers/locations.md
 - pages/home.md
 - pages/careers/jobs.md
-- pages/careers/culture.md
 - pages/autotech.md
 - pages/terms.md
