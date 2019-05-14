@@ -179,6 +179,63 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+- template: image-content-block
+  block: two-column-vertical-cards
+  heading: Formats
+  items:
+  - content: Speakers share their inspirational knowledge and best practices on stage.
+    title: Conference
+    image: "/uploads/2019/05/14/conference@2x.jpg"
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/05/14/test-drives@2x.jpg"
+    content: Guests have the chance to experience all sorts of new urban mobility
+      themselves.
+    title: Test Drives
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - title: Active Matchmaking
+    content: We facilitate one-on-one meetings between guests who want to meet each
+      other.
+    image: "/uploads/2019/05/14/matchmaking@2x.jpg"
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - title: Networking & Party
+    content: We host connective environments with memorable parties and effective
+      and efficient networking breaks.
+    image: "/uploads/2019/05/14/network-party@2x.jpg"
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/05/14/WMS18_26@2x.jpg"
+    title: Expo
+    content: Take the chance and get into direct discussions with the hand selected
+      and high-level guests.
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - title: Technology Playground
+    content: Guests will be inspired by new technology and and are able to try it
+      out.
+    image: "/uploads/2019/05/14/WMS18_54@2x.jpg"
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
+    title: Startup Stage Battle
+    content: Four selected startups share their groundbreaking visions.
+    icon: ''
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/05/14/deep-dive@2x.jpg"
+    title: Topic Deep Dives
+    content: 30 to 45 minutes sessions with an exclusive group of people.
+    icon: ''
+    sub_title: ''
+    show_meetups: false
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
