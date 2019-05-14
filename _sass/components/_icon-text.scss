@@ -148,7 +148,7 @@
 
     .image-captions__image img {
       max-width: 100%;
-      body:not(.careers) & {
+      .block-two-column-horizontal & {
         max-height: 50px;
       }
     }
