@@ -113,7 +113,8 @@ page_sections:
     icon: "/uploads/2019/05/13/helicopter.svg"
     link: ''
     content: ''
-  sub-heading: ''
+  sub-heading: The future is now! Let's see what will bring in the next phase of the
+    mobility revolution.
 - template: block-from-right
   block: wide-from-right
   col_1:
