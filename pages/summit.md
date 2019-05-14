@@ -264,12 +264,22 @@ page_sections:
     sub_title: ''
     show_meetups: false
   column_count: '4'
-- template: detail-content
-  block: text-1
-  headline: Media Supporter
-  content: <p><img src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg"
-    alt="NGIN Mobility Logo"></p>
-  background_image: ''
+- template: custom-content
+  block: custom-html
+  name: supporters
+  content: |-
+    <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2 mt-5">
+              <section id="section-supporter">
+                <h2 class="page-heading mb-5">Media Supporter</h2>
+    <div class="align-center">
+                <img data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg" alt="NGIN Mobility logo"  class="mw-100 mb-3" style="max-width:300px;"/>
+    </div>
+              </section>
+            </div>
+          </div>
+        </div>
 - template: custom-content
   block: custom-html
   content: |-
