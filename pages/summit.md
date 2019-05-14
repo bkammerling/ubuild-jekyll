@@ -85,6 +85,12 @@ page_sections:
       </div>
     </div>
   name: Logo cloud
+- template: detail-content
+  block: text-1
+  content: <p><img src="/uploads/2019/05/14/logocloud@2x.jpg"></p><p>&lt;p class="text-center"AND
+    MANY MORE&lt;/p&gt;</p>
+  headline: CONNECTING THE MOST INNOVATIVE MINDS IN MOBILITY
+  background_image: ''
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
