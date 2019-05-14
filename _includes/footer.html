@@ -1,3 +1,8 @@
+    <!-- Modal -->
+    {% if page.url contains 'summit' or page.title contains 'event' %}
+      {% include static/event-modal.html %}
+    {% endif %}
+
     <script type="text/javascript">
       var pagetitle = "{{ page.title }}";
     </script>

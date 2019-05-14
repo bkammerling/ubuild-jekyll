@@ -13,13 +13,13 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Wunder Mobility Summit <strong>2019</strong>
+  headline: Accelerating the transition to <strong>sustainable mobility</strong>
   cta:
     button_text: Apply to join
     url: "#"
     enabled: true
   cta_2:
-    url: "#section-aftermovie"
+    url: "#main-video"
     button_text: Watch our Aftermovie
     enabled: true
   show_logos: false
@@ -179,6 +179,33 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 300 hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -237,33 +264,6 @@ page_sections:
     sub_title: ''
     show_meetups: false
   column_count: '4'
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
-  unique_id: future
-  col_1:
-    content: With 300 hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
-    content: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
 - template: custom-content
   block: custom-html
   content: |-
