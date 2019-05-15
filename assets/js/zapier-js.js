@@ -1,4 +1,5 @@
 /* Intelligent Inbound Lead Flow JS */
+
 var owner, language, stakeholders = [], pipedriveProductId;
 // first get deal owner and assign language
 if(inputData.region == "FR") {

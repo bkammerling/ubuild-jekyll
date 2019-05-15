@@ -1,16 +1,24 @@
-<section class="block block-video-1">
+<section class="block block-video-1" id="main-video">
   <div class="container ">
-    <div class="home-video">
-      <h2 class="page-heading">{{ section.heading }}</h2>
+    {% unless page.dir contains 'career' %}
+    <div class="row">
+      <div class="col-lg-10 offset-lg-2">
+    {% endunless %}
+        <div class="home-video">
+          <h2 class="page-heading">{{ section.heading }}</h2>
 
-      <div class="plyr__video-embed" id="player">
+          <div class="plyr__video-embed" id="player">
 
-        {% if section.iframe %}
-          {{ section.iframe }}
-        {% endif %}
+            {% if section.iframe %}
+              {{ section.iframe }}
+            {% endif %}
 
+          </div>
+          <a id="video-btn" class="dark round-cta">Watch Video</a>
+        </div>
+    {% unless page.dir contains 'career' %}
       </div>
-      <a id="video-btn" class="dark round-cta">Watch Video</a>
     </div>
+    {% endunless %}
   </div>
 </section>

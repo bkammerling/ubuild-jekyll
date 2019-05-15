@@ -1,12 +1,15 @@
-<section class="block block-text-1">
+{% assign name_array = section.headline | split: " " %}
+<section class="block block-text-1 mt-5" id="section-{{ name_array.first | downcase }}">
   <div class="container">
-    <div class="columns">
-      <div class="column headline">
-        <h3>{{ section.headline }}</h3>
-      </div>
-      <div class="column text">
-        {{ section.content }}
+    {% unless page.dir contains 'career' %}
+    <div class="row">
+      <div class="col-lg-10 offset-lg-2">
+    {% endunless %}
+        <h2 class="page-heading mb-5">{{ section.headline }}</h2>
+        <p>{{ section.content }}</p>
+    {% unless page.dir contains 'career' %}
       </div>
     </div>
+    {% endunless %}
   </div>
 </section>

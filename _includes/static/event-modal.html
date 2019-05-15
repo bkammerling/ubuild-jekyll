@@ -1,6 +1,6 @@
 <!-- Modal -->
 <div class="modal fade" id="summitModal" tabindex="-1" role="dialog" aria-labelledby="Event form modal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="summitModalLabel">Apply to attend our next meetup</h5>
@@ -13,27 +13,70 @@
           <input type="hidden" id="subject-field" value="Attend AutoTech">
           <input type="hidden" name="country" id="user-country" value="">
           <input type="hidden" id="recipient-firstname" name="firstname" />
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Name *</label>
-            <input type="text" class="form-control" id="recipient-name" name="name" required />
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Full Name *</label>
+                  <input type="text" class="form-control" id="recipient-name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="col-form-label">Email *</label>
+                  <input type="email" class="form-control" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="recipient-tel" class="col-form-label">Phone Number</label>
+                  <input type="text" class="form-control" id="recipient-tel" name="tel" />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-job" class="col-form-label">Job Title *</label>
+                  <input type="text" class="form-control" id="recipient-job" name="job" required />
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="recipient-company" class="col-form-label">Company *</label>
+                  <input type="text" class="form-control" id="recipient-company" name="company" required />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-address1" class="col-form-label">Company Address 1 *</label>
+                  <input type="text" class="form-control" id="recipient-address1" name="address1" required />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-address2" class="col-form-label">Company Address 2</label>
+                  <input type="text" class="form-control" id="recipient-address2" name="address2" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="recipient-city" class="col-form-label">Company City/State *</label>
+                  <input type="text" class="form-control" id="recipient-city" name="city" required />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-postcode" class="col-form-label">Company Zip/Postcode *</label>
+                  <input type="text" class="form-control" id="recipient-postcode" name="postcode" required />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-country" class="col-form-label">Company Country *</label>
+                  <input type="text" class="form-control" id="recipient-country" name="country" required />
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message (optional)</label>
+              <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email" class="col-form-label">Email *</label>
-            <input type="email" class="form-control" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="recipient-company" class="col-form-label">Company *</label>
-            <input type="text" class="form-control" id="recipient-company" name="company" required />
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message (optional)</label>
-            <textarea class="form-control" id="message-text" name="message"></textarea>
-          </div>
-
         </div>
         <div class="modal-footer">
           <div class="col-sm-5">
-            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+            <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
           </div>
           <div class="col-sm-7 text-right">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

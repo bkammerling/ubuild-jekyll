@@ -1,0 +1,51 @@
+---
+label: Icon + Heading Cards
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: icon-heading-grid
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: sub-heading
+  type: text
+  config:
+    required: false
+  label: Subheading
+- name: cards
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: icon
+    type: file
+    config:
+      maxSize: '1'
+    label: Image / icon
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+    description: Optional
+  - name: content
+    type: text
+    config:
+      required: false
+    label: Content
+    description: Optional
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cards

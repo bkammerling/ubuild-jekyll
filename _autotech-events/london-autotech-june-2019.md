@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: London AutoTech June 2019
-event_date: 2019-06-26T14:00:00.000+00:00
+event_date: 2019-07-10T14:00:00.000+00:00
 event_location: London, United Kingdom
 event_block:
 - template: navigation-header-w-button
@@ -66,6 +66,7 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -95,6 +96,7 @@ event_block:
   venue_location: Kensington Gardens, London W8 4PX, UK
 - template: simple-footer
   block: footer-1
+  content: ''
 event_description: Taking place in <strong>Kensington Palace,</strong> this edition
   is already set to be superb. We'll be hearing from a fantastic selection of CEOs
   and founders from successful <strong>startups in the mobility industry,</strong>  who

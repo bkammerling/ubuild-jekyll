@@ -2,20 +2,20 @@
 {% assign menu = site.data.menus.[section.menu] %}
   <nav class="absolute-header">
     <div class="container header">
-      <div class="grouped-logo {% if section.sub_logo %}animated{% endif %}">
+      <div class="grouped-logo {% if section.sub_logo and section.sub_logo != empty %}animated{% endif %}">
         {% assign directory = page.dir | remove: '/' %}
         <a href="{{ site.url }}{% if directory != 'careers' %}{{ page.dir }}{% endif %}">
           <div class="main-logo-wrapper">
             <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="header__logotype main-logotype">
           </div>
-          {% if section.sub_logo %}
+          {% if section.sub_logo and section.sub_logo != empty %}
           <div class="second-logo-wrapper">
             <img src="{{ section.sub_logo }}" alt="{{ site.title }}" class="header__logotype secondary-logotype">
           </div>
           {% endif %}
         </a>
         {% comment %}
-        {% if section.sub_logo %}
+        {% if section.sub_logo and section.sub_logo != empty %}
         <div class="dividing-line"></div>
         <a href="{% if page.dir %}{{ page.dir }}{% else %}{{ page.permalink }}{% endif %}">
           <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">

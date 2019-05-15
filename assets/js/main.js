@@ -683,9 +683,15 @@ $(document).ready(function() {
     $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
-  if(pagetitle == "Home") {
-    //$("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
-    //$('select#subject-field').trigger('change.select2').trigger('change');
+  if(pagetitle == "Summit") {
+    if(window.location.hash) {
+      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+      if(hash == 'apply') {
+        $('#summitModal').modal('show');
+        $('#summitModal').find('.modal-title').text('Apply to Attend WMS 19');
+        $('#summitModal').find('.modal-body #subject-field').val('Apply to Attend WMS 19');
+      }
+    }
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {
