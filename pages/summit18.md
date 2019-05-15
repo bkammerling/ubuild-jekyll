@@ -29,8 +29,7 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |
-    <main>
+  content: <main>
       <div class="container">
         <div class="abs">
 
@@ -105,6 +104,26 @@ page_sections:
       </div>
     </section>
   name: wms18
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: Relive 2018
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">24th - 25th October 2018 </h1>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to view the agenda.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: photo-gallery
   block: thumbnail-gallery
   heading: Event Snaps
@@ -134,26 +153,6 @@ page_sections:
   - "/uploads/2019/05/15/wms18-204.jpg"
   - "/uploads/2019/05/15/wms18-196.jpg"
   description: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">24th - 25th October 2018 </h1>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to view the agenda.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
-- template: full-width-media-element
-  block: video-1
-  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: Relive 2018
 - template: detail-content
   block: text-1
   content: <p><img src="/uploads/2019/05/13/press_logos.png"></p>
