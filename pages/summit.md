@@ -67,65 +67,10 @@ page_sections:
       insights and inspirational knowledge transfer from all relevant players - we
       gather the entire mobility ecosystem from industry to academia, from policy
       makers to visionaries. Thrilling content, technology live-demos, test drives
-      and exhibitions. <br><br><strong>Let’s create the future of mobility together!</strong>
+      and exhibitions. <br><br><strong>Be part of the movement and let's accelerate
+      the transition to sustainable mobility!</strong>
   bg_image: ''
   unique_id: summit-intro
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mt-5">
-          <section id="section-intro">
-            <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
-            <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
-            <p class="text-center">AND SO MANY MORE</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Logo cloud
-- template: icon-heading-cards
-  block: icon-heading-grid
-  heading: Topics
-  cards:
-  - heading: Autonomous Driving
-    icon: "/uploads/2019/05/13/sedan.svg"
-    link: ''
-    content: ''
-  - heading: Urbanization & Smart Cities
-    icon: "/uploads/2019/05/13/city.svg"
-    link: ''
-    content: ''
-  - heading: Electrification
-    icon: "/uploads/2019/05/13/electric-station.svg"
-    link: ''
-    content: ''
-  - heading: Public Transport & MAAS
-    icon: "/uploads/2019/05/13/bus.svg"
-    link: ''
-    content: ''
-  - heading: Next Generation Mobile Network
-    icon: "/uploads/2019/05/13/satellite.svg"
-    link: ''
-    content: ''
-  - heading: Aerial Vehicle Mobility
-    icon: "/uploads/2019/05/13/helicopter.svg"
-    link: ''
-    content: ''
-  sub-heading: The future is now! Let's see what will bring in the next phase of the
-    mobility revolution.
-- template: block-from-right
-  block: wide-from-right
-  col_1:
-    headline: Exclusive, Energetic & Out of the Box
-    content: Informal but exclusive, with world class speakers, special events, great
-      food and entertainment, and connections you will keep!
-  bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
-  unique_id: energetic
-  col_2:
-    headline: ''
-    content: ''
 - template: speakers
   heading: Speaker Line-up 2019
   sub-heading: Leaders & Innovators From Around the World
@@ -181,33 +126,36 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
-  unique_id: future
-  col_1:
-    content: With 300 hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
+- template: icon-heading-cards
+  block: icon-heading-grid
+  heading: Topics
+  cards:
+  - heading: Autonomous Driving
+    icon: "/uploads/2019/05/13/sedan.svg"
+    link: ''
     content: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
+  - heading: Urbanization & Smart Cities
+    icon: "/uploads/2019/05/13/city.svg"
+    link: ''
+    content: ''
+  - heading: Electrification
+    icon: "/uploads/2019/05/13/electric-station.svg"
+    link: ''
+    content: ''
+  - heading: Public Transport & MAAS
+    icon: "/uploads/2019/05/13/bus.svg"
+    link: ''
+    content: ''
+  - heading: Next Generation Mobile Network
+    icon: "/uploads/2019/05/13/satellite.svg"
+    link: ''
+    content: ''
+  - heading: Aerial Vehicle Mobility
+    icon: "/uploads/2019/05/13/helicopter.svg"
+    link: ''
+    content: ''
+  sub-heading: The future is now! Let's see what will bring in the next phase of the
+    mobility revolution.
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -278,26 +226,26 @@ page_sections:
             <div class="row">
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
-                  <h3 class="mb-4">Bronze <br>Sponsor</h3>
+                  <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
                   <img class="mb-3 mw-100" data-src="uploads/global/allianz-logo.jpg">
                   <img class="mb-5" style="width: 145px; max-width: 90%;" data-src="uploads/global/googlelogo.svg">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
-                  <h3 class="mb-4">Conference Supporter</h3>
+                <!--<h3 class="mb-4">Conference Supporter</h3>-->
                   <img class="mb-5" style="width: 170px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
-                  <h3 class="mb-4">Exhibition Partner</h3>
+                  <!--<h3 class="mb-4">Exhibition Partner</h3>-->
                   <img class="mb-5" style="width: 200px; max-width: 90%;" data-src="uploads/global/athena.png">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
-                  <h3 class="mb-4">Media <br>Supporter</h3>
+                  <!--<h3 class="mb-4">Media <br>Supporter</h3>-->
                   <img class="mb-3" style="width: 130px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
                 </div>
               </div>
@@ -307,6 +255,59 @@ page_sections:
       </div>
     </div>
   name: supporters
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mt-5">
+          <section id="section-intro">
+            <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
+            <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
+            <p class="text-center">AND SO MANY MORE</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Logo cloud
+- template: block-from-right
+  block: wide-from-right
+  col_1:
+    headline: Exclusive, Energetic & Out of the Box
+    content: Informal but exclusive, with world class speakers, special events, great
+      food and entertainment, and connections you will keep!
+  bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
+  unique_id: energetic
+  col_2:
+    headline: ''
+    content: ''
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 350+ hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: custom-content
   block: custom-html
   content: |-
