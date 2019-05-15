@@ -57,24 +57,24 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: |-
-      <div class="important-numbers__stats">
+      <div class="important-numbers__stats up-top" id="section-summit-intro">
         <div class="container">
           <div class="row">
-            <div class="col-lg-10 offset-lg-2 mt-5">
+            <div class="col-lg-10 offset-lg-2 mt-2">
               <div class="row">
                 <div class="col-sm-4">
                   <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">250 <small>Attendees</small></div>
+                    <div class="important-numbers__stat">350+<small>Hand-selected attendees</small></div>
                   </div>
                 </div>
                 <div class="col-sm-4">
                   <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">140 <small>Companies</small></div>
+                    <div class="important-numbers__stat">230+<small>Companies</small></div>
                   </div>
                 </div>
                 <div class="col-sm-4">
                   <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">29 <small>Countries</small></div>
+                    <div class="important-numbers__stat">25+<small>Speakers</small></div>
                   </div>
                 </div>
               </div>
@@ -99,7 +99,7 @@ page_sections:
       and exhibitions. <br><br><strong>Be part of the movement and let's accelerate
       the transition to sustainable mobility!</strong>
   bg_image: ''
-  unique_id: summit-intro
+  unique_id: summit-detail
 - template: speakers
   heading: Speaker Line-up 2019
   sub-heading: Leaders & Innovators From Around the World
@@ -262,13 +262,14 @@ page_sections:
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
                 <!--<h3 class="mb-4">Conference Supporter</h3>-->
+                  <img class="mb-1" style="width: 200px; max-width: 90%;" data-src="uploads/global/athena.png">
                   <img class="mb-5" style="width: 170px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <img class="mb-5" style="width: 200px; max-width: 90%;" data-src="uploads/global/athena.png">
+                  <img class="mb-5" style="width: 170px; max-width: 90%;" data-src="uploads/global/audi-rings.svg">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
