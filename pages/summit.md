@@ -42,8 +42,8 @@ page_sections:
                     <a class="list-group-item list-group-item-action" href="#section-summit-intro">Intro</a>
                     <a class="list-group-item list-group-item-action" href="#section-speakers">Speakers</a>
                     <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
-                    <a class="list-group-item list-group-item-action" href="#section-wms18">WMS18</a>
-                    <a class="list-group-item list-group-item-action" href="#section-press">Press</a>
+                    <a class="list-group-item list-group-item-action" href="#section-supporters">Partnerships</a>
+                    <a class="list-group-item list-group-item-action" href="#section-energetic">WMS18</a>
                   </div>
                 </div>
               </div>
