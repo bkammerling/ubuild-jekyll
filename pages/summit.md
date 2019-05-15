@@ -185,6 +185,21 @@ page_sections:
     content: ''
   sub-heading: The future is now! Let's see what will bring in the next phase of the
     mobility revolution.
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -270,7 +285,7 @@ page_sections:
               <div class="col-lg-3 col-sm-6">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <img class="mb-5" style="width: 170px; max-width: 90%;" data-src="uploads/global/audi-rings.svg">
+                  <img class="mb-5" style="width: 120px; max-width: 90%;" data-src="uploads/global/audi-rings.svg">
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
@@ -285,6 +300,18 @@ page_sections:
       </div>
     </div>
   name: supporters
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 350+ hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -304,103 +331,13 @@ page_sections:
 - template: block-from-right
   block: wide-from-right
   col_1:
-    headline: Exclusive, Energetic & Out of the Box
-    content: Informal but exclusive, with world class speakers, special events, great
-      food and entertainment, and connections you will keep!
+    headline: Feedback from WMS18
+    content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder manages to get a lot of really serious experts from the Mobility industry<footer class="blockquote-footer">Eckhart Diepenhorst - CEO myTaxi</footer></blockquote></div><div class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre event, and it's a great opportunity to talk to the brightest minds in the mobility space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta dark mt-5" href="/summit18">Find out more</a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:
     headline: ''
     content: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
-  unique_id: future
-  col_1:
-    content: With 350+ hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
-    content: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <section class="block block-last-summit gradient-block" id="section-wms18">
-      <div class="wunder-bg right top-4"></div>
-      <div class="last-summit__wrapper block-full-right col-2-in">
-        <div class="container container-fullright">
-          <h2 class="page-heading mb-1">WMS18</h2>
-          <p class="lead"><strong>With an international attendance made up of predominantly CEOs, startup founders and thought-leaders from the new mobility industry, if you weren't there, you missed out!</strong></p>
-          <div class="important-numbers__stats">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">250 <small>Attendees</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">140 <small>Companies</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">29 <small>Countries</small></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="percent-bar__wrapper">
-            <div class="percent-bar">
-              <div class="percent-bar__block" style="width:45%">
-                <h3 class="h1">45<p class="d-inline">%</p></h3>
-                <p class="text-uppercase">C-Level</p>
-              </div>
-              <div class="percent-bar__block" style="width:25%">
-                <h3 class="h1">25<p class="d-inline">%</p></h3>
-                <p class="text-uppercase">Startup founders</p>
-              </div>
-              <div class="percent-bar__block" style="width:15%">
-                <h3 class="h1">15<p class="d-inline">%</p></h3>
-                <p class="text-uppercase">Investors</p>
-              </div>
-              <div class="percent-bar__block" style="width:15%">
-                <h3 class="h1">15<p class="d-inline">%</p></h3>
-                <p class="text-uppercase">Others</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  name: wms18
-- template: full-width-media-element
-  block: video-1
-  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: Relive 2018
-- template: detail-content
-  block: text-1
-  content: <p><img src="/uploads/2019/05/13/press_logos.png"></p>
-  headline: Press Mentions
-  background_image: ''
 - template: custom-content
   block: custom-html
   content: "</div></main>"

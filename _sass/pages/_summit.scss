@@ -448,7 +448,7 @@ body.summit .gradient-block .block-full-right {
 
 }
 
-#section-wms18 {
+#section-wms18:not(:first-child) {
   margin-top: 8rem;
 }
 
