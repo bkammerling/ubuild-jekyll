@@ -39,8 +39,9 @@ page_sections:
                 <div class="col-2">
                   <div class="scroller-list">
                     <a class="list-group-item list-group-item-action" href="#section-wms18">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
                     <a class="list-group-item list-group-item-action" href="#main-video">Aftermovie</a>
+                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
+                    <a class="list-group-item list-group-item-action" href="#section-gallery">Gallery</a>
                     <a class="list-group-item list-group-item-action" href="#section-press">Press</a>
                   </div>
                 </div>
