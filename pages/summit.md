@@ -57,31 +57,31 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: |-
-      <div class="important-numbers__stats up-top" id="section-summit-intro">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2 mt-2">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">350+<small>Hand-selected attendees</small></div>
-                  </div>
+    <div class="important-numbers__stats up-top" id="section-summit-intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-2 mt-2">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">350+<small>Hand-selected attendees</small></div>
                 </div>
-                <div class="col-sm-4">
-                  <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">230+<small>Companies</small></div>
-                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">230+<small>Companies</small></div>
                 </div>
-                <div class="col-sm-4">
-                  <div class="important-numbers__stat-wrapper">
-                    <div class="important-numbers__stat">25+<small>Speakers</small></div>
-                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="important-numbers__stat-wrapper">
+                  <div class="important-numbers__stat">25+<small>Speakers</small></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   name: numbers
 - template: block-from-right
   block: wide-from-right
@@ -183,7 +183,8 @@ page_sections:
     icon: "/uploads/2019/05/13/helicopter.svg"
     link: ''
     content: ''
-  sub-heading: The future is now! Let's see what will bring in the next phase of the mobility revolution.
+  sub-heading: The future is now! Let's see what will bring in the next phase of the
+    mobility revolution.
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -311,18 +312,6 @@ page_sections:
   col_2:
     headline: ''
     content: ''
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
-  unique_id: future
-  col_1:
-    content: With 350+ hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
-    content: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -338,6 +327,18 @@ page_sections:
       </div>
     </div>
   name: Agenda block
+- template: block-from-right
+  block: wide-from-right
+  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  unique_id: future
+  col_1:
+    content: With 350+ hand-picked international guests, the off-stage interactions
+      will be just as valuable as the on-stage talks to encourage conversations between
+      mobility leaders to shape a better future.
+    headline: Shape a better future
+  col_2:
+    headline: ''
+    content: ''
 - template: custom-content
   block: custom-html
   content: |-
