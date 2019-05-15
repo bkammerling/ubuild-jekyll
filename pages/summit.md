@@ -256,7 +256,7 @@ page_sections:
     icon: ''
     sub_title: ''
     show_meetups: false
-  column_count: '4'
+  column_count: 4
   sub-heading: From testing out the latest in micro-mobiltiy to unforgettable parties,
     WMS is more than just a conference!
 - template: custom-content
