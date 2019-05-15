@@ -29,30 +29,17 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |
-    <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-wms18">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
-                    <a class="list-group-item list-group-item-action" href="#main-video">Aftermovie</a>
-                    <a class="list-group-item list-group-item-action" href="#section-press">Press</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-      <div class="summit-main-wrapper">
+  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
+    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
+    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
+    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-wms18\">Intro</a>               \n                <a class=\"list-group-item
+    list-group-item-action\" href=\"#main-video\">Aftermovie</a>\n<a class=\"list-group-item
+    list-group-item-action\" href=\"#section-agenda\">Agenda</a>\n<a class=\"list-group-item
+    list-group-item-action\" href=\"#section-gallery\">Photos</a>\n                <a
+    class=\"list-group-item list-group-item-action\" href=\"#section-press\">Press</a>\n
+    \             </div>\n            </div>\n          </div>\n        </div>\n      </nav>\n\n
+    \   </div>\n  </div>\n\n  <div class=\"summit-main-wrapper\">\n"
 - template: custom-content
   block: custom-html
   content: |-
@@ -105,6 +92,26 @@ page_sections:
       </div>
     </section>
   name: wms18
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: Relive 2018
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section id="section-intro">
+            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">24th - 25th October 2018 </h1>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to view the agenda.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: photo-gallery
   block: thumbnail-gallery
   heading: Event Snaps
@@ -134,26 +141,6 @@ page_sections:
   - "/uploads/2019/05/15/Maria Dittrich.Wunder.Summit18.-519 (1).jpg"
   - "/uploads/2019/05/15/Maria Dittrich.Wunder.Summit18.-587.jpg"
   description: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">24th - 25th October 2018 </h1>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to view the agenda.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
-- template: full-width-media-element
-  block: video-1
-  iframe: <iframe src="https://player.vimeo.com/video/317226692?title=0&byline=0&portrait=0"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: Relive 2018
 - template: detail-content
   block: text-1
   content: <p><img src="/uploads/2019/05/13/press_logos.png"></p>
