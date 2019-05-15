@@ -106,6 +106,10 @@
     border: 1px solid transparent;
     transition: all 0.2s;
 
+    img {
+      margin-bottom: 10px;
+    }
+
     @include rwd(mobile-up) {
       flex: 1 1 30%;
       &:last-child {
