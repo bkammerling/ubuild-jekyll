@@ -6,16 +6,18 @@
 
       <div class="bg-box__box">
         {% if section.col_2.content and section.col_2.content != empty %}
-        <div class="row">
-          <div class="col-sm-6 col-lg-5">
-          {% endif %}
-            <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
-            <p>{{ section.col_1.content }}</p>
-            {% if section.col_2.content and section.col_2.content != empty %}
-          </div>
-          <div class="col-sm-6 col-lg-7">
-            {% if section.col_2.headline and section.col_2.headline != empty %}<h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>{% endif %}
-            <p>{{ section.col_2.content }}</p>
+        <div class="container container-fullright">
+          <div class="row">
+            <div class="col-sm-6 col-lg-5">
+            {% endif %}
+              <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
+              <p>{{ section.col_1.content }}</p>
+              {% if section.col_2.content and section.col_2.content != empty %}
+            </div>
+            <div class="col-sm-6 col-lg-7">
+              {% if section.col_2.headline and section.col_2.headline != empty %}<h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>{% endif %}
+              <p>{{ section.col_2.content }}</p>
+            </div>
           </div>
         </div>
         {% endif %}

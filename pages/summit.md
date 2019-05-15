@@ -19,9 +19,9 @@ page_sections:
     url: "#"
     enabled: true
   cta_2:
-    url: "#main-video"
-    button_text: Watch our Aftermovie
-    enabled: true
+    url: ''
+    button_text:
+    enabled: false
   show_logos: false
   background_image: "/uploads/global/Image_WMS19@2x.png"
   background_video: ''
@@ -191,10 +191,10 @@ page_sections:
     <div class="container" id="section-agenda">
       <div class="row">
         <div class="col-lg-10 offset-lg-2">
-          <section id="section-intro">
-            <h2 class="page-heading mb-3 text-blue">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-            <p class="lead">Click <strong><a class="text-blue" href="https://drive.google.com/file/d/1PQLNaTiPFIbbskVagqaT87hyGfkzjcVM/view">here</a></strong> to check out the agenda from WMS18.</p>
+          <section>
+            <h2 class="page-heading mb-2">Agenda</h2>
+            <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/open?id=1TxUnklZAYa9tA5-ZPhMnmfM03gjxseOm">here</a></strong> to check out the <strong>preliminary</strong> agenda.</p>
           </section>
         </div>
       </div>
