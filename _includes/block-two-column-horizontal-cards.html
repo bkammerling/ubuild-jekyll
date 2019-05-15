@@ -4,7 +4,7 @@
       <div class="col offset-lg-2">
         <div class="two-col-cards">
           <h2 class="page-heading">{{ section.headline }}</h2>
-          <div class="image-captions__grid">
+          <div class="image-captions__grid columns-2">
             {% if section.show_featured %}
               {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"  %}
               {% assign articleLimit = 4 %}

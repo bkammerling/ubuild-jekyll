@@ -77,7 +77,8 @@ page_sections:
       <div class="row">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-intro">
-            <h2 class="page-heading mb-5">Connecting the most innovative minds in mobility</h2>
+            <h2 class="page-heading mb-2">Connecting the most innovative minds in mobility</h2>
+            <p class="mb-3 lead">Here is just a small sample of the companies that attended last year:</p>
             <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
             <p class="text-center">AND SO MANY MORE</p>
           </section>

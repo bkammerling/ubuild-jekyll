@@ -6,6 +6,9 @@
     {% endunless %}
         <div class="icon-grid">
           <h2 class="page-heading">{{ section.heading }}</h2>
+          {% if section.sub-heading and section.sub-heading != empty %}
+          <p class="lead mt-2">{{ section.sub-heading }}</p>
+          {% endif %}
           <div class="row">
             <div class="col-lg-11 offset-lg-1">
               <div class="icon-grid__grid">
