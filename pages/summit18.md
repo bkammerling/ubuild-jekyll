@@ -29,30 +29,11 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-wms18">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#main-video">Aftermovie</a>
-                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
-                    <a class="list-group-item list-group-item-action" href="#section-gallery">Gallery</a>
-                    <a class="list-group-item list-group-item-action" href="#section-press">Press</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-      <div class="summit-main-wrapper">
+  content: |-
+    <main> <div class="container"> <div class="abs">
+    <nav id="scroller-nav" class="list-group d-none d-lg-block"> <div class="container"> <div class="row"> <div class="col-2"> <div class="scroller-list"> <a class="list-group-item list-group-item-action" href="#section-wms18">Intro</a> <a class="list-group-item list-group-item-action" href="#main-video">Aftermovie</a> <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a> <a class="list-group-item list-group-item-action" href="#section-gallery">Gallery</a> <a class="list-group-item list-group-item-action" href="#section-press">Press</a> </div> </div> </div> </div> </nav>
+    </div> </div>
+    <div class="summit-main-wrapper">
 - template: custom-content
   block: custom-html
   content: |-
@@ -129,30 +110,30 @@ page_sections:
   block: thumbnail-gallery
   heading: Event Snaps
   photo_collection:
-  - "/uploads/2019/05/15/wms18-587.jpg"
-  - "/uploads/2019/05/15/wms18-519-1.jpg"
-  - "/uploads/2019/05/15/wms18-505.jpg"
-  - "/uploads/2019/05/15/wms18-502.jpg"
-  - "/uploads/2019/05/15/wms18-438.jpg"
-  - "/uploads/2019/05/15/wms18-413.jpg"
-  - "/uploads/2019/05/15/wms18-395-1.jpg"
-  - "/uploads/2019/05/15/wms18-373.jpg"
   - "/uploads/2019/05/15/wms18-357.jpg"
   - "/uploads/2019/05/15/wms18-355.jpg"
   - "/uploads/2019/05/15/wms18-343.jpg"
   - "/uploads/2019/05/15/wms18-327.jpg"
-  - "/uploads/2019/05/15/wms18-317-1.jpg"
-  - "/uploads/2019/05/15/wms18-314.jpg"
-  - "/uploads/2019/05/15/wms18-303.jpg"
-  - "/uploads/2019/05/15/wms18-296.jpg"
-  - "/uploads/2019/05/15/wms18-290.jpg"
-  - "/uploads/2019/05/15/wms18-279.jpg"
-  - "/uploads/2019/05/15/wms18-268.jpg"
-  - "/uploads/2019/05/15/wms18-251.jpg"
-  - "/uploads/2019/05/15/wms18-237.jpg"
-  - "/uploads/2019/05/15/wms18-218.jpg"
   - "/uploads/2019/05/15/wms18-204.jpg"
+  - "/uploads/2019/05/15/wms18-218.jpg"
+  - "/uploads/2019/05/15/wms18-395-1.jpg"
+  - "/uploads/2019/05/15/wms18-268.jpg"
+  - "/uploads/2019/05/15/wms18-279.jpg"
+  - "/uploads/2019/05/15/wms18-237.jpg"
+  - "/uploads/2019/05/15/wms18-251.jpg"
+  - "/uploads/2019/05/15/wms18-303.jpg"
+  - "/uploads/2019/05/15/wms18-317-1.jpg"
+  - "/uploads/2019/05/15/wms18-296.jpg"
+  - "/uploads/2019/05/15/wms18-314.jpg"
+  - "/uploads/2019/05/15/wms18-290.jpg"
+  - "/uploads/2019/05/15/wms18-373.jpg"
   - "/uploads/2019/05/15/wms18-196.jpg"
+  - "/uploads/2019/05/15/wms18-413.jpg"
+  - "/uploads/2019/05/15/wms18-505.jpg"
+  - "/uploads/2019/05/15/wms18-502.jpg"
+  - "/uploads/2019/05/15/wms18-438.jpg"
+  - "/uploads/2019/05/15/wms18-587.jpg"
+  - "/uploads/2019/05/15/wms18-519-1.jpg"
   description: ''
 - template: detail-content
   block: text-1
