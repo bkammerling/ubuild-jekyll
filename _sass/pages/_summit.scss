@@ -264,6 +264,10 @@ body.summit .gradient-block .block-full-right {
 .partner-box {
     padding-right: 30px;
     text-align: center;
+    margin-bottom: 20px;
+    img {
+      max-width: 250px;
+    }
     h3 {
       color: $grey2;
     }

@@ -194,7 +194,7 @@ page_sections:
           <section>
             <h2 class="page-heading mb-2">Agenda</h2>
             <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/open?id=1TxUnklZAYa9tA5-ZPhMnmfM03gjxseOm">here</a></strong> to check out the <strong>preliminary</strong> agenda.</p>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/open?id=1fVXTOa1Y567TsWe5283JdsBI-Cc1eXWs">here</a></strong> to check out the <strong>preliminary</strong> agenda.</p>
           </section>
         </div>
       </div>
@@ -263,30 +263,49 @@ page_sections:
   block: custom-html
   content: |-
     <div class="container mt-5">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-supporters">
             <h2 class="page-heading mb-5">In Partnership with...</h2>
-            <div class="row">
-              <div class="col-lg-4 col-sm-12">
+            <div class="row align-items-center">
+              <div class="col-lg-4 col-sm-6">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
-                  <img class="" style="margin-bottom: 40px; width: 145px; max-width: 90%;" data-src="uploads/global/googlelogo.svg">
-                  <img class="mb-3 mw-100" data-src="uploads/global/allianz-logo.jpg">
+                  <img class="" style="width: 145px; max-width: 90%;" data-src="uploads/global/googlelogo.svg">
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-12">
+              <div class="col-lg-4 col-sm-6">
                 <div class="partner-box">
                 <!--<h3 class="mb-4">Conference Supporter</h3>-->
-                  <img class="mb-4" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
-                  <img class="mb-5" style="width: 160px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                  <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-12">
+              <div class="col-lg-4 col-sm-6">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <img class="mb-4" style="width: 140px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
-                  <img class="mb-3" style="width: 120px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                  <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <img class="" style="width: 160px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <img class="" style="width: 160px; max-width: 90%;" data-src="uploads/global/ibeo-logo.png">
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="partner-box">
+                  <img class="" style="width: 120px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
                 </div>
               </div>
             </div>
