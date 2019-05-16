@@ -20,7 +20,7 @@ page_sections:
     enabled: true
   cta_2:
     url: ''
-    button_text:
+    button_text: ''
     enabled: false
   show_logos: false
   background_image: "/uploads/global/Image_WMS19@2x.png"
@@ -206,7 +206,7 @@ page_sections:
   items:
   - content: Speakers share their inspirational knowledge and best practices on stage.
     title: Conference
-    image: "/uploads/2019/05/14/conference@2x.jpg"
+    image: "/uploads/2019/05/16/WMS18_44@2x.jpg"
     icon: ''
     sub_title: ''
     show_meetups: false
@@ -347,7 +347,14 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Feedback from WMS18
-    content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder manages to get a lot of really serious experts from the Mobility industry<footer class="blockquote-footer">Eckhart Diepenhorst - CEO myTaxi</footer></blockquote></div><div class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre event, and it's a great opportunity to talk to the brightest minds in the mobility space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta dark mt-5" href="/summit18">Find out more</a>
+    content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder
+      manages to get a lot of really serious experts from the Mobility industry<footer
+      class="blockquote-footer">Eckhart Diepenhorst - CEO myTaxi</footer></blockquote></div><div
+      class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
+      event, and it's a great opportunity to talk to the brightest minds in the mobility
+      space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
+      BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta
+      dark mt-5" href="/summit18">Find out more</a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:
