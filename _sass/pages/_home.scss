@@ -92,7 +92,7 @@ main {
       #section-fleet {
         padding-bottom: rem(300px);
         div[class^="col"] {
-          padding-left: rem(50px);
+          //padding-left: rem(50px);
         }
       }
     }
@@ -352,4 +352,40 @@ main {
   }
 */
 
+}
+
+#section-city {
+  transform:translateY(-50px);
+  margin: 0 auto;
+  @include rwd(tablet-up) {
+    background: url('/uploads/global/city-wide2.png') no-repeat;
+    padding-bottom: 400px;
+    background-position: calc(50vw - 356px) 100px;
+    background-size: 1200px auto;
+    img {
+      display: none;
+    }
+  }
+  #section-cc {
+    @include rwd(tablet-down) {
+      position: relative;
+      padding: 3rem 0;
+      max-width: 500px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}
+
+.city {
+  .wunder-bg {
+    @include rwd(tablet-down) {
+      display: none;
+    }
+  }
+  .solution-wrapper .top-image-wrapper .abs-right {
+    width: calc(100% + 300px);
+    right: -290px;
+    top: -5px;
+  }
 }

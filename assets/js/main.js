@@ -57,7 +57,7 @@ var animation = {
         preserveAspectRatio: 'xMidYMid slice',
         clearCanvas: true
       },
-      loop: true,
+      loop: false,
       autoplay: true,
       path: jsonFile // the path to the animation json
     });
@@ -672,6 +672,13 @@ $(document).ready(function() {
       $("form .extra-form > div:not(."+selection+")").find('select').prop('required', false);
       $("form .extra-form").slideDown();
     }
+    /*
+    if(selection == "Wunder City") {
+      $("#company-field").val("Your City *");
+    } else {
+      $("#company-field").val("Your Company *");
+    }
+    */
   });
 
   $('.select-wrapper.multiple select').on('select2:opening select2:closing', function( event ) {
@@ -681,6 +688,10 @@ $(document).ready(function() {
 
   if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
     $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
+    $('select#subject-field').trigger('change.select2').trigger('change');
+  }
+  if(pagetitle == "Wunder City") {
+    $("select#subject-field").val("Wunder City").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
   if(pagetitle == "Summit") {

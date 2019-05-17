@@ -20,6 +20,11 @@ wunder-main:
   parent: solutions
   identifier: fleet
   title: Fleet
+- url: "/city"
+  weight: 4
+  parent: solutions
+  identifier: city
+  title: City
 - url: "#"
   weight: 2
   title: Events
@@ -66,6 +71,11 @@ wunder-de:
   parent: solutions
   identifier: fleet
   title: Fleet
+- url: "/de/city"
+  weight: 4
+  parent: solutions
+  identifier: city
+  title: City
 - url: "#"
   weight: 2
   title: Events
