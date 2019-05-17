@@ -51,6 +51,7 @@
                   <option data-id="carpool">Wunder Carpool</option>
                   <option data-id="shuttle">Wunder Shuttle</option>
                   <option data-id="fleet">Wunder Fleet</option>
+                  <option data-id="city">Wunder City</option>
                   <option data-id="general">General enquiry</option>
                   <option data-id="support">Wunder Carpool app support</option>
                 </select>
@@ -58,7 +59,7 @@
               </div>
             </div>
             <div class="hidden extra-form">
-              <div class="form-group shuttle carpool fleet">
+              <div class="form-group shuttle carpool fleet city">
                 <label class="form-label" for="url">URL Unternehmen</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
@@ -173,7 +174,7 @@
                 </div>
               </div>
               {% endcomment %}
-              <div class="form-group general fleet shuttle carpool">
+              <div class="form-group general fleet shuttle carpool city">
                 <label class="form-label" for="message">Nachricht</label>
                 <textarea type="text" name="message" id="message"></textarea>
                 <div class="bottom-border"></div>
