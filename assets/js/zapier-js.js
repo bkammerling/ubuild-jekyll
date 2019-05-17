@@ -72,11 +72,12 @@ output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: s
 
 
 /* Intelligent LinkedIn Lead Flow */
-var owner, language, stakeholders = [], region;
+var owner, language, stakeholders = [], region, pipedriveProductId, useCaseIds;
 var deRegion = ["Germany", "Austria", "Liechtenstein", "Switzerland"];
 var usRegion = ["United States", "Canada"];
 var frRegion = ["France", "Belgium", "DRC", "Republic of the Congo", "Côte d'Ivoire", "Madagascar", "Cameroon", "Burkina Faso", "Niger", "Mali", "Senegal", "Haiti", "Benin"];
 var latamRegion = ["Dominican Republic", "Cuba", "Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela", "Costa Rica", "El Salvador", "Guatemala", "Honduras", "Mexico", "Nicaragua", "Panama", "Spain"];
+var useCases = {"REN":162,"CAR":163,"SCO":164,"KIC":165,"BIK":166,"MVH":167,"FB2B":168,"FOTH":169,"CST":170,"EMT":172,"HAT":174,"TTT":176,"EVT":178,"RES":180,"FRP":171,"LMT":173,"RHP":175,"OPT":177,"ICP":179,"AUT":183,"SPE":181,"SB2B":182,"SOTH":184,"CPC":200,"CPP":187,"ETS":185,"UCP":186,"BBC":188,"COTH":189};
 
 if(deRegion.indexOf(inputData.country) != -1) {
   region = "DE";
@@ -114,50 +115,63 @@ if(region == "FR") {
   language = "ES";
 } else if(region == "EN") {
   if(inputData.subject == "Wunder Fleet") {
-    if(mql >= 14) {
-      //owner = "jan.kluetsch@wundermobility.com";
-      owner = "yannick.hippolyte@wundermobility.com";
+    //shoulnd't be ANY fleet linkedin leads
+    if(inputData.mql >= 16) {
+      owner = "jan.kluetsch@wundermobility.com";
+      //owner = "yannick.hippolyte@wundermobility.com";
     } else {
-      //owner = "daniel.romero@wundermobility.com";
-      owner = "yannick.hippolyte@wundermobility.com";
+      owner = "daniel.romero@wundermobility.com";
+      //owner = "yannick.hippolyte@wundermobility.com";
     }
     language = "EN";
   } else if(inputData.subject == "Wunder Carpool") {
-    owner = "amity.wu@wundermobility.com";
+    owner = "purnima.kumar@wundermobility.com";
   } else if(inputData.subject == "Wunder Shuttle") {
-    owner = "jwani.tranquilino@wundermobility.com";
+    owner = "purnima.kumar@wundermobility.com";
   }
 } else {
   owner = "daniel.romero@wundermobility.com";
 }
 if(inputData.subject == "Wunder Carpool" && region != "US") {
-  owner = "amity.wu@wundermobility.com";
+  owner = "purnima.kumar@wundermobility.com";
 } else if(inputData.subject == "Wunder Shuttle" && region != "US") {
-  owner = "jwani.tranquilino@wundermobility.com";
+  owner = "purnima.kumar@wundermobility.com";
 }
 
 // build stakeholder list per product
 stakeholders.push(owner);
 if(inputData.subject == "Wunder Fleet") {
+  pipedriveProductId = 12;
   stakeholders.push("tobias.langwieler@wundermobility.com");
   stakeholders.push("yannick.hippolyte@wundermobility.com");
 } else if(inputData.subject == "Wunder Carpool") {
+  pipedriveProductId = 11;
   stakeholders.push("samuel.baker@wundermobility.com");
   stakeholders.push("philipp.wenger@wundermobility.com");
-  stakeholders.push("joao.cury@wundermobility.com");
   stakeholders.push("frits.timmermans@wundermobility.com");
-  stakeholders.push("thies.gruening@wundermobility.com");
   stakeholders.push("amity.wu@wundermobility.com");
 } else {
+  pipedriveProductId = 13;
   stakeholders.push("samuel.baker@wundermobility.com");
-  stakeholders.push("ioana.freise@wundermobility.com");
+  stakeholders.push("luisa.rodrigues@wundermobility.com");
   stakeholders.push("jwani.tranquilino@wundermobility.com");
-  stakeholders.push("john.moura@wundermobility.com");
   stakeholders.push("jimena.rivas@wundermobility.com");
 }
 
-output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, region: region}];
-
+// Find use case from add subject, CSV to JSON https://www.csvjson.com/csv2json
+// after | with , as delimeter
+var useCaseTermsString = inputData.linkedInTerm.split("|")[1];
+if(typeof useCaseTermsString != 'undefined') {
+  var useCaseTermsArray = useCaseTermsString.split(",");
+  useCaseTermsArray.map(function(elem, index) {
+    if(index==0) {
+      useCaseIds = "" + useCases[elem];
+    } else {
+      useCaseIds +="," + useCases[elem];
+    }
+  });
+}
+output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, region: region, pipedriveProductId: pipedriveProductId, useCaseIds: useCaseIds}];
 
 
 /*
