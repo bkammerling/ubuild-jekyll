@@ -2,6 +2,7 @@
 {% for section in page.event_block %}
   {% if section.template == "hero-banner-w-image" %}
     {% include block-{{ section.block }}.html %}
+    {% assign blocks = page.event_block | map: 'template' %}
     <main>
       <div class="container">
         <div class="abs">
@@ -12,6 +13,9 @@
                   <div class="scroller-list">
                     <a class="list-group-item list-group-item-action" href="#section-eventinfo">Event Info</a>
                     <a class="list-group-item list-group-item-action" href="#section-speakers">Speakers</a>
+                    {% if blocks contains 'photo-gallery' %}
+                    <a class="list-group-item list-group-item-action" href="#section-gallery">Gallery</a>
+                    {% endif %}
                     <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
                     <a class="list-group-item list-group-item-action" href="#section-map">Location</a>
                   </div>
