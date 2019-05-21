@@ -91,13 +91,13 @@ page_sections:
       on the future of mobility in Germany, Hamburg.</strong>
   col_2:
     headline: ''
-    content: The Wunder Mobility Summit exclusively brings together the greatest minds
-      to discuss and shape the future of mobility. <br><br>A 1.5 day event with deep
-      insights and inspirational knowledge transfer from all relevant players - we
-      gather the entire mobility ecosystem from industry to academia, from policy
-      makers to visionaries. Thrilling content, technology live-demos, test drives
-      and exhibitions. <br><br><strong>Be part of the movement and let's accelerate
-      the transition to sustainable mobility!</strong>
+    content: The Wunder Mobility Summit exclusively brings together the brightest
+      minds in mobility, who share an inventors spirit, a builders mentality, and
+      a desire to initiate change.<br><br>A 1.5 day event with deep insights and inspirational
+      knowledge transfer from all relevant players - we gather the entire mobility
+      ecosystem from industry to academia, from policy makers to visionaries. Thrilling
+      content, technology live-demos, test drives and exhibitions. <br><br><strong>Be
+      part of the movement and let's accelerate the transition to sustainable mobility!</strong>
   bg_image: ''
   unique_id: summit-detail
 - template: speakers
