@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/bundesrat-lässt-e-scooter-zu.md
 - _articles/die-digitalste-stadt-deutschlands.md
 - _articles/cities-strike-back.md
 - _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
