@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/cities-strike-back.md
 - _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
 - _articles/elektrische-tretroller-sollen-deutschland-erobern.md
 - _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md
