@@ -552,8 +552,8 @@ scroller.init();
 
 var googleMap = {
   map: null,
-  lat: $("#map").data("lat"),
-  lng: $("#map").data("lng"),
+  lat: parseInt($("#map").data("lat")),
+  lng: parseInt($("#map").data("lng")),
   init: function() {
     this.map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: this.lat, lng: this.lng},
