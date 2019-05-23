@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Hamburg AutoTech April 2019
-event_date: 2019-04-04T17:00:00.000+00:00
-event_location: Hamburg, Germany
+title: Munich AutoTech Feb 2019
+event_date: 2019-02-20 18:00:00 +0000
+event_location: Munich, Germany
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -12,55 +12,26 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/29/meduana-6917-unsplash.jpg"
-  headline: AutoTech in April<strong><br>Hamburg</strong>
+  background_image: "/uploads/2019/05/23/munich-header@2x.jpg"
+  headline: AutoTech in February<strong><br>Munich</strong>
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Bruno Ginnuth
-    job_title: CEO & Co-Founder
-    company: CleverShuttle
-    speaker_photo: "/uploads/2019/04/29/BrunoGinnuth@2x.jpg"
-    company_logo: "/uploads/2019/04/29/Logo_CleverShuttle@2x.jpg"
-  - name: Dr. Max Kury
+  - name: Thomas Beerman
+    job_title: Former CEO
+    company: Car2Go Europe
+    speaker_photo: "/uploads/2019/05/23/beerman@2x.jpg"
+    company_logo: "/uploads/2019/05/23/car2go@2x.png"
+  - name: Nico Polleti
     job_title: CEO
-    company: Ubeeqo
-    speaker_photo: "/uploads/2019/04/29/Dr@2x.jpg"
-    company_logo: "/uploads/2019/04/29/UbeeqoBanner@2x.jpg"
-  - name: Holger Weiss
-    job_title: Founder & CEO
-    company: German AutoLabs
-    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
-    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
-- template: photo-gallery
-  block: thumbnail-gallery
-  heading: Event Gallery
-  photo_collection:
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19302-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19293-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19275-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19257-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19253-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19219-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19218-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19215-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19213-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19209-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19198-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19193-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19186-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19184-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19164-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19154-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19133-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19108-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.19103-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1988-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1981-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1975-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1974-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1940-1.jpg"
-  - "/uploads/2019/05/03/MariaDittrich.Wunde_Mobility.Tech.Meetup04.1917-1.jpg"
+    company: Cluno GmbH.
+    speaker_photo: "/uploads/2019/05/23/nico-polleti@2x.jpg"
+    company_logo: "/uploads/2019/05/23/cluno-logo@2x.jpg"
+  - name: Hugo Lerias
+    job_title: CTO
+    company: Fujitsu Automotive
+    speaker_photo: "/uploads/2019/05/23/lerias-huga@2x.jpg"
+    company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -84,32 +55,37 @@ event_block:
                     </thead>
                     <tbody>
                       <tr>
-                        <td>6:30 PM</td>
+                        <td>6:45 PM</td>
                         <td>Open Doors</td>
+    <td></td>
+                      </tr>
+                       <tr>
+                        <td>7:15 PM</td>
+                        <td>Meetup Opening</td>
                         <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
                       </tr>
                       <tr>
-                        <td>7:00 - 7:20 PM</td>
-                        <td>Hey Assistant - Drive me home! <br>How Voice AI will change the rules in mobility?</td>
-                        <td>Holger Weiss - CEO, German Autolabs</td>
+                        <td>7:30 - 7:50 PM</td>
+                        <td>Digital Transformation to Intelligent Mobility </td>
+                        <td>Hugo Lerias - CTO Fujitso Automotive </td>
                       </tr>
                       <tr>
-                        <td>7:40 - 8:00 PM</td>
-                        <td> Sharing experiences of on-demand-RidePooling in Germany</td>
-                        <td>Bruno Ginnuth - CEO, CleverShuttle</td>
+                        <td>7:50 - 8:10 PM</td>
+                        <td>Car Subscription - Future of Car Ownership </td>
+                        <td>Nico Polleti - CEO Cluno GmbH </td>
                       </tr>
                       <tr>
-                        <td>8:00 - 8:20 PM</td>
-                        <td> The Future of Transportation: Our view on New Mobility and Carsharing</td>
-                        <td>Dr. Max Kury - CEO, Ubeeqo</td>
+                        <td>8:10 - 8:30 PM</td>
+                        <td>The Future of Car-Sharing </td>
+                        <td>Thomas Beerman - Former CEO Europe Car2Go </td>
                       </tr>
                       <tr>
-                        <td>8:20 - 8:30 PM</td>
+                        <td>8:30 - 8:40 PM</td>
                         <td>Closing remarks</td>
                         <td>Gunnar Froh - CEO & Founder, Wunder Mobility</td>
                       </tr>
                       <tr>
-                        <td>8:30 - 11:00 PM</td>
+                        <td>8:40 - 11:00 PM</td>
                         <td>Drinks & Snacks</td>
                         <td></td>
                       </tr>
@@ -122,23 +98,21 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 53.54304
-  lng: 10.00059
+  lat: '48.142870'
+  lng: '11.541050'
   block: google-map
-  headline: Home In Hamburg
-  content: The fifth edition takes place on 4th of April 2019 at our Headquarters
-    in Hamburg, and you're invited to learn from inspiring speakers and to connect
-    with leaders of the global mobility ecosystem.
-  gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
-  venue_location: Honkongstraße 2, 20457 Hamburg
+  content: Our fourth edition takes place on 20th of February 2019 at Google Munich.
+    We're super excited to take this insightful event to a new city in a space as
+    inspiring as Google.
+  gmaps_link: https://goo.gl/maps/DJT7aArcZPqdCgsr8
+  venue_location: Google München, Erika-Mann-Straße 33, Munich, Germany
+  headline: Google Munich Campus
 - template: simple-footer
   block: footer-1
-event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
-  <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
-  you will keep! This edition takes us forward into the future of car-sharing and
-  ride-pooling and how the rules of mobility can change with advances in Voice AI."
-featured_image: "/uploads/2019/04/30/hamburg-small@2x.jpg"
+event_description: We have partnered with <strong>Google Munich </strong>who will
+  host this exclusive event! This edition dives into the future of car ownership and
+  the role car-sharing will play. Speakers include top CEOs and leaders in this industry.
+featured_image: "/uploads/2019/05/23/munich-small@2x.jpg"
 output_page: true
-published: false
 
 ---
