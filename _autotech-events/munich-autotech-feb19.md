@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Munich AutoTech Feb 2019
-event_date: 2019-02-20 18:00:00 +0000
+event_date: 2019-02-20T18:00:00.000+00:00
 event_location: Munich, Germany
 event_block:
 - template: navigation-header-w-button
@@ -32,6 +32,7 @@ event_block:
     company: Fujitsu Automotive
     speaker_photo: "/uploads/2019/05/23/lerias-huga@2x.jpg"
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
+  heading: Speaker Line-up
 - template: custom-content
   block: custom-html
   name: Agenda
