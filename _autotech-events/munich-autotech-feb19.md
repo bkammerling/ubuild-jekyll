@@ -105,7 +105,7 @@ event_block:
     We're super excited to take this insightful event to a new city in a space as
     inspiring as Google.
   gmaps_link: https://goo.gl/maps/DJT7aArcZPqdCgsr8
-  venue_location: Google München, Erika-Mann-Straße 33, Munich, Germany
+  venue_location: Google, Erika-Mann-Straße 33, Munich
   headline: Google Munich Campus
 - template: simple-footer
   block: footer-1
