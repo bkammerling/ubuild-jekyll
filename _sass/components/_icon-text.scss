@@ -163,10 +163,7 @@
   &.columns-2 {
     .image-captions__item {
       @include rwd(mobile-up) {
-        flex: 1 1 47%;
-        &:last-child {
-          max-width: 50%;
-        }
+        flex: 1 1 45%;
       }
     }
   }

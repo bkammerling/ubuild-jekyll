@@ -10,6 +10,59 @@ $header-animtion-delay: .5s;
   }
 }
 
+@keyframes wireless1 {
+  0% {
+    stroke-opacity: 0;
+  }
+  5% {
+    stroke-opacity: 1;
+  }
+  10% {
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}
+@keyframes wireless2 {
+  0% {
+    stroke-opacity: 0;
+  }
+  5% {
+    stroke-opacity: 1;
+  }
+  10% {
+    stroke-opacity: 1;
+  }
+  35% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}
+@keyframes wireless3 {
+  0% {
+    stroke-opacity: 0;
+  }
+  5% {
+    stroke-opacity: 1;
+  }
+  10% {
+    stroke-opacity: 1;
+  }
+  40% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}
+
+
 
 @keyframes logo-change {
   0% {

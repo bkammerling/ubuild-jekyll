@@ -5,6 +5,9 @@
     flex-flow: column;
     .image-captions__item {
       width: 100%;
+      @include rwd(tablet-down) {
+        margin: 0;
+      }
     }
     @include rwd(tablet-up) {
       flex-flow: wrap;
@@ -34,7 +37,7 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      flex: 1 0 35%;
+      flex: 0 0 35%;
       align-self: stretch;
       padding: rem(40px) rem(24px);
       background-color: $background-grey;

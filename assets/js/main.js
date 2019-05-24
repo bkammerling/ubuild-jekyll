@@ -77,11 +77,18 @@ if($(".animated-svg").length) animation.init();
 var slider = {
   init: function(target, config) {
     $(target).slick(config);
+    //$('.slick-current').prev().addClass('left');
+    //$('.slick-current').next().addClass('right');
     $(".picture-slider__menu-image").click(function(){
       $(target).slick('slickGoTo', $(this).index());
     });
     $(target).on('beforeChange', function(event, slick, currentSlide, nextSlide){
       $(".picture-slider__menu-image:nth-child("+(nextSlide+1)+")").addClass('current').siblings().removeClass('current');
+      /* following left/right lines were for an old phone-slider that never really worked
+      $('.slick-slide').removeClass('left right');
+      $(".slick-slide:nth-child("+(nextSlide)+")").addClass('left');
+      $(".slick-slide:nth-child("+(nextSlide+2)+")").addClass('right');
+      */
     });
   }
 };
@@ -94,19 +101,24 @@ slider.init(".picture-slider", {
   nextArrow:
     '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
 });
-
+/*
+slider.init(".phone-slider", {
+  dots: true,
+  lazyLoad: 'ondemand',
+  arrows: false,
+  slidesToShow: 1,
+  infinite: false,
+  speed: 500,
+  variableWidth: true
+});
+*/
 
 var menu = {
   init: function() {
     var btn = $(".header__hamburger");
     var menu = $(".header__nav");
-    //var languageBtn = $("#js-language");
-    //var solutionsBtn = $("#js-solutions");
-    //var eventsBtn = $("#js-events");
-    //var appBtn = $("#js-app");
     this.activeItem();
     this.toggleMenu(btn, menu);
-    //this.dropdown(languageBtn);
   },
 
   activeItem: function () {
@@ -137,7 +149,6 @@ var menu = {
   },
 
   dropdown: function(btn) {
-
     btn.on("click", function() {
       $(this).toggleClass("is-active");
       $(this).siblings().removeClass("is-active");

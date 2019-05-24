@@ -30,10 +30,13 @@ main {
       margin-top: rem(30px);
       margin-left: -80px;
     }
+
     .abs-right {
       top: -50px;
-      width: calc(100% + 200px);
       right: -220px;
+      @include rwd(tablet-up) {
+        width: calc(100% + 200px);
+      }
     }
   }
 
@@ -69,12 +72,6 @@ main {
       font-size: 30px;
       min-width: 50px;
       color: $sky-blue;
-    }
-  }
-
-  #section-app {
-    .product-image {
-      max-width: 85%;
     }
   }
 

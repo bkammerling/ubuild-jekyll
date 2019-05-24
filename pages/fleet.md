@@ -15,14 +15,14 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology powering <strong>vehicle sharing</strong> worldwide
+  headline: Technology powering <strong>car & scooter sharing</strong> worldwide
   cta:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
   background_video:
   show_logos: true
-  background_image: "/uploads/global/Image_Fleet@2x.jpg"
+  background_image: "/uploads/global/Fleet-Header-Image_40.jpg"
 - block: fleet-main
   subdirectory: static
 - template: detail-content

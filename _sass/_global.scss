@@ -462,6 +462,7 @@ a.circle-arrow {
       .card-text {
         opacity: 1;
       }
+
     }
     &:not(.expand) {
       @extend .w-shadow;
@@ -476,12 +477,43 @@ a.circle-arrow {
         box-shadow: 10px 0 18px -10px rgba(0, 0, 0, 0.1) inset;
       }
     }
+    .fleet & {
+      @include rwd(desktop-down) {
+        background-color: $background-grey;
+        z-index: -1;
+        width: 450px;
+        max-width: 100%;
+        margin: 0 auto 1rem;
+        box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+        .card-img {
+          opacity: 1;
+        }
+        .card-img-overlay {
+          box-shadow: none !important;
+        }
+        ion-icon {
+          opacity: 0;
+        }
+        .card-text {
+          opacity: 1;
+        }
+      }
+      @include rwd(tablet-down) {
+        .inner-content {
+          left: 60%;
+          width: 80%;
+        }
+        .card-outer-image {
+          transform: translateX(-140px);
+        }
+      }
+    }
   }
 
   .card-img {
     opacity: 0;
     transition: opacity 0.4s;
-    margin: 60px 150px;
+    margin: 80px 0 0;
     width: 300px;
   }
 
@@ -512,6 +544,7 @@ a.circle-arrow {
     margin-bottom: rem(15px);
     opacity: 0;
     transition: opacity 0.4s;
+    //color: $olive-matt;
     &.show {
       opacity: 1;
     }
@@ -528,6 +561,26 @@ a.circle-arrow {
       left: 222px;
     }
   }
+
+  .card-outer-image {
+    transform: translateX(-80px);
+    height: 70%;
+    pointer-events: none;
+    &.raised {
+      height: 55%;
+      @include rwd(desktop-up) {
+        transform: translateX(-120px) translateY(40px);
+      }
+    }
+    @include rwd(wide-up) {
+      transform: translateX(-80px);
+      height: 70%;
+      &.raised {
+        height: 60%;
+        transform: translateX(-120px) translateY(30px);
+      }
+    }
+  }
   ion-icon {
     position: absolute;
     opacity: 1;
@@ -540,6 +593,22 @@ a.circle-arrow {
     .carpool & {
         bottom: 1.25rem;
     }
+  }
+}
+
+.inner-content {
+  position: absolute;
+  left: 100%;
+  top: 20px;
+  width: 100%;
+  @include rwd(desktop-up) {
+    width: 80%;
+  }
+  @include rwd(wide-up) {
+    width: 100%;
+  }
+  .card-text {
+    opacity: 0;
   }
 }
 
@@ -934,4 +1003,48 @@ ul.footer__socialmedia {
 
 .block-thumbnail-gallery {
   margin: 7rem 0;
+}
+
+
+
+#hardware {
+  .signal-circles:nth-child(1) {
+    circle {
+      &:nth-child(1) {
+        animation: wireless1 2.5s ease-in 0s infinite;
+      }
+      &:nth-child(2) {
+        animation: wireless2 2.5s linear 100ms infinite;
+      }
+      &:nth-child(3) {
+        animation: wireless3 2.5s linear 200ms infinite;
+      }
+    }
+  }
+  .signal-circles:nth-child(3) {
+    circle {
+      &:nth-child(1) {
+        animation: wireless1 2.5s ease-in 600ms infinite backwards;
+      }
+      &:nth-child(2) {
+        animation: wireless2 2.5s linear 700ms infinite backwards;
+      }
+      &:nth-child(3) {
+        animation: wireless3 2.5s linear 800ms infinite backwards;
+      }
+    }
+  }
+  .signal-circles:nth-child(2) {
+    circle {
+      &:nth-child(1) {
+        animation: wireless1 2.5s ease-in 1200ms infinite backwards;
+      }
+      &:nth-child(2) {
+        animation: wireless2 2.5s linear 1300ms infinite backwards;
+      }
+      &:nth-child(3) {
+        animation: wireless3 2.5s linear 1400ms infinite backwards;
+      }
+    }
+  }
 }
