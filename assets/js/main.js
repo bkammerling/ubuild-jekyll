@@ -643,6 +643,7 @@ $(document).ready(function() {
       utm_campaigngroup: getUrlParameter('utm_campaigngroup')
     }
     if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
+    if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else {
