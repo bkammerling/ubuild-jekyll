@@ -44,12 +44,12 @@ fields:
   - block-from-right
   - icon-heading-cards
 pages:
-- pages/summit.md
 - pages/summit18.md
-- pages/careers/careers.md
-- pages/careers/jobs.md
-- pages/careers/locations.md
-- pages/home.md
-- pages/autotech.md
 - pages/terms.md
 - pages/careers/culture.md
+- pages/autotech.md
+- pages/summit.md
+- pages/home.md
+- pages/careers/locations.md
+- pages/careers/jobs.md
+- pages/careers/careers.md
