@@ -13,8 +13,8 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
-  headline: AutoTech in June<br><strong>London</strong><br><small>With Bosch & Aston
-    Martin</small>
+  headline: AutoTech Meetup in July<br><strong>London</strong><br>With Bosch &amp;
+    Aston Martin
 - template: custom-content
   block: custom-html
   name: In partnership with...
