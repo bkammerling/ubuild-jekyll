@@ -2,47 +2,23 @@
 
 var owner, language, stakeholders = [], pipedriveProductId;
 // first get deal owner and assign language
-if(inputData.region == "FR") {
-  owner = "ludovic.ciannarella@wundermobility.com";
-  language = "FR"
-  if(country == "Belgium") {
-    language = "EN";
-  }
-} else if(inputData.region == "DE") {
-  owner = "jan.kluetsch@wundermobility.com";
-  language = "DE";
-} else if(inputData.region == "US") {
-  if(inputData.subject == "Wunder Fleet") {
+if(inputData.subject == "Wunder Fleet") {
+  // FLEET LEADS SPLIT BY REGION
+  if(inputData.region == "US") {
     owner = "nick.diprima@wundermobility.com";
-  } else if(inputData.subject != "Wunder Fleet") {
-    owner = "hieu.le@wundermobility.com";
-  }
-  language = "EN";
-} else if(inputData.region == "LATAM") {
-  owner = "daniel.romero@wundermobility.com";
-  language = "ES";
-} else if(inputData.region == "EN") {
-  if(inputData.subject == "Wunder Fleet") {
+  } else if(inputData.region == "DE") {
+    owner = "jan.kluetsch@wundermobility.com";
+  } else {
     if(inputData.mql >= 16) {
       owner = "jan.kluetsch@wundermobility.com";
-      //owner = "yannick.hippolyte@wundermobility.com";
     } else {
-      owner = "daniel.romero@wundermobility.com";
-      //owner = "yannick.hippolyte@wundermobility.com";
+      owner = "luisa.rodrigues@wundermobility.com";
     }
-    language = "EN";
-  } else if(inputData.subject == "Wunder Carpool") {
-    owner = "purnima.kumar@wundermobility.com";
-  } else if(inputData.subject == "Wunder Shuttle") {
-    owner = "purnima.kumar@wundermobility.com";
   }
-} else {
-  owner = "daniel.romero@wundermobility.com";
-}
-if(inputData.subject == "Wunder Carpool" && inputData.region != "US") {
-  owner = "purnima.kumar@wundermobility.com";
-} else if(inputData.subject == "Wunder Shuttle" && inputData.region != "US") {
-  owner = "purnima.kumar@wundermobility.com";
+} else if(inputData.subject == "Wunder Carpool") {
+  owner = "amity.wu@wundermobility.com";
+} else if(inputData.subject == "Wunder Shuttle") {
+  owner = "axel.grzymisch@wundermobility.com";
 }
 
 // build stakeholder list per product
@@ -56,13 +32,12 @@ if(inputData.subject == "Wunder Fleet") {
   stakeholders.push("samuel.baker@wundermobility.com");
   stakeholders.push("philipp.wenger@wundermobility.com");
   stakeholders.push("frits.timmermans@wundermobility.com");
-  stakeholders.push("amity.wu@wundermobility.com");
 } else {
   pipedriveProductId = 13;
   stakeholders.push("samuel.baker@wundermobility.com");
-  stakeholders.push("ioana.freise@wundermobility.com");
-  stakeholders.push("jwani.tranquilino@wundermobility.com");
+  stakeholders.push("luisa.rodrigues@wundermobility.com");
   stakeholders.push("jimena.rivas@wundermobility.com");
+  stakeholders.push("nanke.becker@wundermobility.com");
 }
 
 output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId}];
@@ -94,48 +69,23 @@ if(deRegion.indexOf(inputData.country) != -1) {
 }
 
 // first get deal owner and assign language
-if(region == "FR") {
-  owner = "ludovic.ciannarella@wundermobility.com";
-  language = "FR"
-  if(inputData.country == "Belgium") {
-    language = "EN";
-  }
-} else if(region == "DE") {
-  owner = "jan.kluetsch@wundermobility.com";
-  language = "DE";
-} else if(region == "US") {
-  if(inputData.subject == "Wunder Fleet") {
+if(inputData.subject == "Wunder Fleet") {
+  // FLEET LEADS SPLIT BY REGION
+  if(region == "US") {
     owner = "nick.diprima@wundermobility.com";
-  } else if(inputData.subject != "Wunder Fleet") {
-  owner = "hieu.le@wundermobility.com";
-  }
-  language = "EN";
-} else if(region == "LATAM") {
-  owner = "daniel.romero@wundermobility.com";
-  language = "ES";
-} else if(region == "EN") {
-  if(inputData.subject == "Wunder Fleet") {
-    //shoulnd't be ANY fleet linkedin leads
+  } else if(region == "DE") {
+    owner = "jan.kluetsch@wundermobility.com";
+  } else {
     if(inputData.mql >= 16) {
       owner = "jan.kluetsch@wundermobility.com";
-      //owner = "yannick.hippolyte@wundermobility.com";
     } else {
-      owner = "daniel.romero@wundermobility.com";
-      //owner = "yannick.hippolyte@wundermobility.com";
+      owner = "luisa.rodrigues@wundermobility.com";
     }
-    language = "EN";
-  } else if(inputData.subject == "Wunder Carpool") {
-    owner = "purnima.kumar@wundermobility.com";
-  } else if(inputData.subject == "Wunder Shuttle") {
-    owner = "purnima.kumar@wundermobility.com";
   }
-} else {
-  owner = "daniel.romero@wundermobility.com";
-}
-if(inputData.subject == "Wunder Carpool" && region != "US") {
-  owner = "purnima.kumar@wundermobility.com";
-} else if(inputData.subject == "Wunder Shuttle" && region != "US") {
-  owner = "purnima.kumar@wundermobility.com";
+} else if(inputData.subject == "Wunder Carpool") {
+  owner = "amity.wu@wundermobility.com";
+} else if(inputData.subject == "Wunder Shuttle") {
+  owner = "axel.grzymisch@wundermobility.com";
 }
 
 // build stakeholder list per product
