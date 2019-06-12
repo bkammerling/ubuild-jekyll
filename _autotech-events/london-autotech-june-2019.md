@@ -64,7 +64,7 @@ event_block:
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
-    speaker_photo: "/uploads/2019/05/02/lawrence-tier@2x.jpg"
+    speaker_photo: "/uploads/2019/06/12/Lawrence Leuschner.png"
     company_logo: "/uploads/2019/05/02/tier@2x.png"
   - name: Patrick Foster
     job_title: Chief Business Officer
