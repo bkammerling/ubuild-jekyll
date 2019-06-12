@@ -155,6 +155,11 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+  - name: Gunnar Froh
+    job_title: CEO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
