@@ -36,11 +36,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Andy Palmer
-    job_title: Chief Executive Officer
-    company: Aston Martin
-    speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
-    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
@@ -106,6 +101,11 @@ event_block:
     company: Bosch
     speaker_photo: "/uploads/2019/06/12/Johannes Joerg Rueger.png"
     company_logo: "/uploads/global/bosch-logo.png"
+  - name: Andy Palmer
+    job_title: Chief Executive Officer
+    company: Aston Martin
+    speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Gunnar Froh
     job_title: CEO & Founder
     company: Wunder Mobility
