@@ -45,7 +45,7 @@ event_block:
     job_title: Chief Business Officer
     company: Drivy
     speaker_photo: "/uploads/2019/05/10/patrick-foster@2x.png"
-    company_logo: "/uploads/2019/05/10/logo-drivy@2x.png"
+    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
   - name: Felix Leuschner
     job_title: CEO & Founder
     company: Drover
