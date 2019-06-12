@@ -36,6 +36,31 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Johannes-Joerg Rueger
+    job_title: President Commercial Vehicles and Off-Road
+    company: Bosch
+    speaker_photo: "/uploads/2019/06/12/Johannes Joerg Rueger.png"
+    company_logo: "/uploads/global/bosch-logo.png"
+  - name: Andy Palmer
+    job_title: Chief Executive Officer
+    company: Aston Martin
+    speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
+  - name: Gunnar Froh
+    job_title: CEO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Neil Morris
+    job_title: Chief Executive
+    company: The Faraday Institution
+    speaker_photo: "/uploads/2019/06/12/Neil-Morris.png"
+    company_logo: "/uploads/2019/06/12/The-Faraday-Institution.png"
+  - name: Neville Jackson
+    job_title: Chief Technology & Innovation Officer
+    company: Ricardo
+    speaker_photo: "/uploads/2019/06/12/Neville-Jackson.png"
+    company_logo: "/uploads/2019/06/12/Ricardo-logo.png"
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
@@ -71,11 +96,6 @@ event_block:
     company: Chief Powertrain
     speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Neville Jackson
-    job_title: Chief Technology & Innovation Officer
-    company: Ricardo
-    speaker_photo: "/uploads/2019/06/12/Neville-Jackson.png"
-    company_logo: "/uploads/2019/06/12/Ricardo-logo.png"
   - name: Ben Lawson
     job_title: Vice President
     company: Enterprise Holdings
@@ -86,31 +106,11 @@ event_block:
     company: Bosch
     speaker_photo: "/uploads/2019/06/12/Franck-Cazenave.png"
     company_logo: "/uploads/global/bosch-logo.png"
-  - name: Neil Morris
-    job_title: Chief Executive
-    company: The Faraday Institution
-    speaker_photo: "/uploads/2019/06/12/Neil-Morris.png"
-    company_logo: "/uploads/2019/06/12/The-Faraday-Institution.png"
   - name: Philippa Oldham
     job_title: Head of National Network Programmes
     company: Advanced Propulsion Centre UK
     speaker_photo: "/uploads/2019/06/12/Philippa Oldham.png"
     company_logo: "/uploads/2019/06/12/Advanced Propulsion Centre UK.png"
-  - name: Johannes-Joerg Rueger
-    job_title: President Commercial Vehicles and Off-Road
-    company: Bosch
-    speaker_photo: "/uploads/2019/06/12/Johannes Joerg Rueger.png"
-    company_logo: "/uploads/global/bosch-logo.png"
-  - name: Andy Palmer
-    job_title: Chief Executive Officer
-    company: Aston Martin
-    speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
-    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Gunnar Froh
-    job_title: CEO & Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
