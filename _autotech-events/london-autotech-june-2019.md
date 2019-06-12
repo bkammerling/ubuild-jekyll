@@ -104,7 +104,7 @@ event_block:
   - name: Andreas Kufferath
     job_title: Head of Powertrain Technologies Development
     company: Bosch
-    speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath-Foto-©-bosch.com_.jpg"
+    speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath.png"
     company_logo: "/uploads/global/bosch-logo.png"
   - name: Philippa Oldham
     job_title: Head of National Network Programmes
