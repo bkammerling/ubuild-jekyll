@@ -68,7 +68,7 @@ event_block:
     company_logo: "/uploads/2019/05/02/tier@2x.png"
   - name: Patrick Foster
     job_title: Chief Business Officer
-    company: Drivy
+    company: Drivy by Getaround
     speaker_photo: "/uploads/2019/05/10/patrick-foster@2x.png"
     company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
   - name: Felix Leuschner
