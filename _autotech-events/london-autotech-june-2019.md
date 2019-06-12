@@ -106,16 +106,16 @@ event_block:
     company: Bosch
     speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath-Foto-©-bosch.com_.jpg"
     company_logo: "/uploads/global/bosch-logo.png"
-  - name: Ben Lawson
-    job_title: Vice President
-    company: Enterprise Holdings
-    speaker_photo: "/uploads/2019/06/12/Ben-Lawson.png"
-    company_logo: "/uploads/2019/06/12/Enterprise-Holdings.png"
   - name: Philippa Oldham
     job_title: Head of National Network Programmes
     company: Advanced Propulsion Centre UK
     speaker_photo: "/uploads/2019/06/12/Philippa Oldham.png"
     company_logo: "/uploads/2019/06/12/Advanced Propulsion Centre UK.png"
+  - name: Ben Lawson
+    job_title: Vice President
+    company: Enterprise Holdings
+    speaker_photo: "/uploads/2019/06/12/Ben-Lawson.png"
+    company_logo: "/uploads/2019/06/12/Enterprise-Holdings.png"
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
