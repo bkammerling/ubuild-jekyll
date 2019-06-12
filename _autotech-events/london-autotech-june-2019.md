@@ -76,6 +76,11 @@ event_block:
     company: Drover
     speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
     company_logo: "/uploads/2019/05/02/drover@2x.png"
+  - name: Nikki Rimmington
+    job_title: VP & Chief Planning Officer
+    company: Aston Martin
+    speaker_photo: "/uploads/2019/06/12/Nikki-Rimmington.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Dan Hubert
     job_title: CEO & Founder
     company: AppyParking
@@ -86,26 +91,26 @@ event_block:
     company: UFO
     speaker_photo: "/uploads/2019/05/10/mario-ufo@2x.jpeg"
     company_logo: "/uploads/2019/05/10/ufo-logo@2x.jpg"
-  - name: Nikki Rimmington
-    job_title: VP & Chief Planning Officer
-    company: Aston Martin
-    speaker_photo: "/uploads/2019/06/12/Nikki-Rimmington.png"
-    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Joerg Ross
-    job_title: Chief Powertrain
-    company: Chief Powertrain
-    speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
-    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Ben Lawson
-    job_title: Vice President
-    company: Enterprise Holdings
-    speaker_photo: "/uploads/2019/06/12/Ben-Lawson.png"
-    company_logo: "/uploads/2019/06/12/Enterprise-Holdings.png"
   - name: Franck Cazenave
     job_title: Smart Cities Director
     company: Bosch
     speaker_photo: "/uploads/2019/06/12/Franck-Cazenave.png"
     company_logo: "/uploads/global/bosch-logo.png"
+  - name: Joerg Ross
+    job_title: Chief Powertrain
+    company: Chief Powertrain
+    speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
+  - name: Andreas Kufferath
+    job_title: Head of Powertrain Technologies Development
+    company: Bosch
+    speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath-Foto-©-bosch.com_.jpg"
+    company_logo: "/uploads/global/bosch-logo.png"
+  - name: Ben Lawson
+    job_title: Vice President
+    company: Enterprise Holdings
+    speaker_photo: "/uploads/2019/06/12/Ben-Lawson.png"
+    company_logo: "/uploads/2019/06/12/Enterprise-Holdings.png"
   - name: Philippa Oldham
     job_title: Head of National Network Programmes
     company: Advanced Propulsion Centre UK
