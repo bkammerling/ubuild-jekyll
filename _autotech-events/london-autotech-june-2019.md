@@ -36,21 +36,51 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Johannes-Joerg Rueger
+    job_title: President Commercial Vehicles and Off-Road
+    company: Bosch
+    speaker_photo: "/uploads/2019/06/12/Johannes Joerg Rueger.png"
+    company_logo: "/uploads/global/bosch-logo.png"
+  - name: Andy Palmer
+    job_title: Chief Executive Officer
+    company: Aston Martin
+    speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
+  - name: Gunnar Froh
+    job_title: CEO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Neil Morris
+    job_title: Chief Executive
+    company: The Faraday Institution
+    speaker_photo: "/uploads/2019/06/12/Neil-Morris.png"
+    company_logo: "/uploads/2019/06/12/The-Faraday-Institution.png"
+  - name: Neville Jackson
+    job_title: Chief Technology & Innovation Officer
+    company: Ricardo
+    speaker_photo: "/uploads/2019/06/12/Neville-Jackson.png"
+    company_logo: "/uploads/2019/06/12/Ricardo-logo.png"
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
-    speaker_photo: "/uploads/2019/05/02/lawrence-tier@2x.jpg"
+    speaker_photo: "/uploads/2019/06/12/Lawrence Leuschner.png"
     company_logo: "/uploads/2019/05/02/tier@2x.png"
   - name: Patrick Foster
     job_title: Chief Business Officer
-    company: Drivy
+    company: Drivy by Getaround
     speaker_photo: "/uploads/2019/05/10/patrick-foster@2x.png"
-    company_logo: "/uploads/2019/05/10/logo-drivy@2x.png"
+    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
   - name: Felix Leuschner
     job_title: CEO & Founder
     company: Drover
     speaker_photo: "/uploads/2019/05/02/felix-drover@2x.jpg"
     company_logo: "/uploads/2019/05/02/drover@2x.png"
+  - name: Nikki Rimmington
+    job_title: VP & Chief Planning Officer
+    company: Aston Martin
+    speaker_photo: "/uploads/2019/06/12/Nikki-Rimmington.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Dan Hubert
     job_title: CEO & Founder
     company: AppyParking
@@ -61,11 +91,31 @@ event_block:
     company: UFO
     speaker_photo: "/uploads/2019/05/10/mario-ufo@2x.jpeg"
     company_logo: "/uploads/2019/05/10/ufo-logo@2x.jpg"
-  - name: Gunnar Froh
-    job_title: CEO & Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Franck Cazenave
+    job_title: Smart Cities Director
+    company: Bosch
+    speaker_photo: "/uploads/2019/06/12/Franck-Cazenave.png"
+    company_logo: "/uploads/global/bosch-logo.png"
+  - name: Joerg Ross
+    job_title: Chief Powertrain
+    company: Chief Powertrain
+    speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
+    company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
+  - name: Andreas Kufferath
+    job_title: Head of Powertrain Technologies Development
+    company: Bosch
+    speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath.png"
+    company_logo: "/uploads/global/bosch-logo.png"
+  - name: Philippa Oldham
+    job_title: Head of National Network Programmes
+    company: Advanced Propulsion Centre UK
+    speaker_photo: "/uploads/2019/06/12/Philippa Oldham.png"
+    company_logo: "/uploads/2019/06/12/Advanced Propulsion Centre UK.png"
+  - name: Ben Lawson
+    job_title: Vice President
+    company: Enterprise Holdings
+    speaker_photo: "/uploads/2019/06/12/Ben-Lawson.png"
+    company_logo: "/uploads/2019/06/12/Enterprise-Holdings.png"
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html

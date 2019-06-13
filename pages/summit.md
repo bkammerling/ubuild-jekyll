@@ -135,11 +135,11 @@ page_sections:
     company: Alfa Romeo Formula One
     speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
     company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
-  - name: Jens Monsees
-    job_title: Corporate Vice President
-    company: BMW Group
-    speaker_photo: "/uploads/2019/05/10/Jens-Monsees.png"
-    company_logo: "/uploads/2019/05/10/logo-bmw.png"
+  - name: Paulin Dementhon
+    job_title: CEO
+    company: Drivy by Getaround
+    speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
+    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
   - name: Alexander Marten
     job_title: Chief Innovation Evangelist
     company: Deutsche Telekom
@@ -155,6 +155,11 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
+  - name: Gunnar Froh
+    job_title: CEO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
