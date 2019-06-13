@@ -44,6 +44,7 @@ fields:
   - block-from-right
   - icon-heading-cards
 pages:
+- pages/careers/perks.md
 - pages/summit.md
 - pages/summit18.md
 - pages/careers/careers.md
