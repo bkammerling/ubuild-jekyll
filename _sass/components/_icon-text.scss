@@ -167,6 +167,13 @@
       }
     }
   }
+  &.columns-3 {
+    .image-captions__item {
+      @include rwd(mobile-up) {
+        flex: 1 1 30%;
+      }
+    }
+  }
   &.columns-4 {
     justify-content: space-around;
     .image-captions__item {
