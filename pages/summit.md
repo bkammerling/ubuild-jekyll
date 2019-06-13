@@ -160,6 +160,11 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Sam Baker
+    job_title: COO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
@@ -374,7 +379,6 @@ page_sections:
   content: ''
 
 ---
-
 {% comment %}
 - template: custom-content
   block: custom-html
