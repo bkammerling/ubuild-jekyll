@@ -29,6 +29,36 @@ page_sections:
 - template: image-content-block
   block: two-column-vertical-cards
   items:
+  - image: "/uploads/2019/06/13/lunch@2x.jpg"
+    title: Healthy brekky & lunch
+    icon: "/uploads/2019/06/13/brekky.svg"
+    content: To help our employees maintain a healthy lifestyle, we provide delicious
+      and organic breakfast and lunch, delivered fresh every day!
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/06/13/transport_2@2x.jpg"
+    icon: "/uploads/2019/06/13/transport.svg"
+    title: Gym or Transport
+    content: As a full-time employee, we offer you a free public transportation pass
+      (HVV ProfiCard) or gym membership - your choice! Just let the Talent Team know
+      your preference.
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/06/13/classes@2x.jpg"
+    icon: "/uploads/2019/06/13/translation.svg"
+    title: Language classes
+    content: Our team is made up of 30+ different nationalities and many of us do
+      not speak German. We help ease the transition of living in Germany by providing
+      German classes twice a week!
+    sub_title: ''
+    show_meetups: false
+  - image: "/uploads/2019/06/13/relocation@2x.jpg"
+    title: Visa/Relocation
+    icon: "/uploads/2019/06/13/visa.svg"
+    content: We hire top-talent from all around the globe and support our employees,
+      and their families (spouse & children), with the VISA and relocation processes.
+    sub_title: ''
+    show_meetups: false
   - image: "/uploads/2019/06/13/fruit@2x.jpg"
     icon: "/uploads/2019/06/13/drinks.svg"
     title: Fruit and Drinks
@@ -36,39 +66,9 @@ page_sections:
       stocked up with sodas, mate, beer, coffee and tea - we even have a juicer!
     sub_title: ''
     show_meetups: false
-  - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
-    title: Healthy brekky & lunch
-    icon: "/uploads/2019/01/11/team-spirit-03.svg"
-    content: To help our employees maintain a healthy lifestyle, we provide delicious
-      and organic breakfast and lunch, delivered fresh every day!
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
-    icon: "/uploads/2019/01/11/team-spirit-01.svg"
-    title: Gym or Transport
-    content: As a full-time employee, we offer you a free public transportation pass
-      (HVV ProfiCard) or gym membership - your choice! Just let the Talent Team know
-      your preference.
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
-    title: Visa/Relocation
-    icon: "/uploads/2019/01/11/team-spirit-03.svg"
-    content: We hire top-talent from all around the globe and support our employees,
-      and their families (spouse & children), with the VISA and relocation processes.
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/01/11/team_spirit_team_events__happy_hour@2x.jpg"
-    icon: "/uploads/2019/01/11/team-spirit-01.svg"
-    title: Language classes
-    content: Our team is made up of 30+ different nationalities and many of us do
-      not speak German. We help ease the transition of living in Germany by providing
-      German classes twice a week!
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/01/11/team_spirit_code_cafe@2x.jpg"
+  - image: "/uploads/2019/06/13/events@2x.jpg"
     title: Team Events
-    icon: "/uploads/2019/01/11/team-spirit-03.svg"
+    icon: "/uploads/2019/06/13/teamevents.svg"
     content: We host meetups, weekly company-wide meetings and lunches, and encourage
       our employees to be active at conferences and industry events. We also bring
       the team together every Friday for "beer-o'clock", to celebrate the successes
