@@ -126,10 +126,10 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
     company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Alexander Hitzinger
-    job_title: Head of Autonomous Driving
+    job_title: Senior Vice President Autonomous Driving
     company: VW Group
     speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
-    company_logo: "/uploads/2019/05/10/logo-vw.png"
+    company_logo: "/uploads/2019/06/13/Volkswagen.png"
   - name: Tatiana Calderon
     job_title: Test Driver
     company: Alfa Romeo Formula One
