@@ -59,7 +59,7 @@ page_sections:
       and their families (spouse & children), with the VISA and relocation processes.
     sub_title: ''
     show_meetups: false
-  - image: "/uploads/2019/06/13/fruit@2x.jpg"
+  - image: "/uploads/2019/06/13/wunderbar@2x.jpg"
     icon: "/uploads/2019/06/13/drinks.svg"
     title: Fruit and Drinks
     content: We wouldn't be a start-up without endless drinks and fruit! We're always
