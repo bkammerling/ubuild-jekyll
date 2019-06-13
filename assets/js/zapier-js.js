@@ -76,11 +76,7 @@ if(inputData.subject == "Wunder Fleet") {
   } else if(region == "DE") {
     owner = "jan.kluetsch@wundermobility.com";
   } else {
-    if(inputData.mql >= 16) {
-      owner = "jan.kluetsch@wundermobility.com";
-    } else {
-      owner = "luisa.rodrigues@wundermobility.com";
-    }
+    owner = "jan.kluetsch@wundermobility.com";
   }
 } else if(inputData.subject == "Wunder Carpool") {
   owner = "amity.wu@wundermobility.com";

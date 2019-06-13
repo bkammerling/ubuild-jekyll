@@ -253,6 +253,9 @@ $includeClasses: true !default;
   .text-blue {
     color: $solution-highlight;
   }
+  .highlight-top {
+    border-color: $solution-highlight;
+  }
   .round-cta:not(.clear), #modal-form #form-submit {
     background-color: $solution-highlight !important;
     border: none;

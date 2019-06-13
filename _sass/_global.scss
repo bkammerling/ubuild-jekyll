@@ -977,11 +977,9 @@ ul.footer__socialmedia {
   background: $white;
 }
 
-
 .border-hl-left {
   border-left: solid 5px $sky-blue;
 }
-
 
 .card {
   border: none;
@@ -1005,6 +1003,20 @@ ul.footer__socialmedia {
   margin: 7rem 0;
 }
 
+
+.step-boxes {
+  .box {
+    margin: 0 15px 20px 0;
+    padding: 20px 20px 30px;
+    flex: 1 1 45%;
+    min-width: 200px;
+    @include rwd(tablet-up) {
+      min-width: auto;
+      flex: 1 1 25%;
+    }
+
+  }
+}
 
 
 #hardware {
