@@ -198,6 +198,7 @@ var form = {
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
     $("#form-submit").attr("disabled", true);
+    //console.log(contactForm.serialize());
     var data = form.serializeObject(contactForm);
     // add subject for summit related messages
     if($(".modal-body #subject-field").length) {
@@ -215,6 +216,7 @@ var form = {
       data: data,
       dataType: "json"
     }).done(function (data) {
+      console.log(data);
       contactForm.find(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
@@ -285,7 +287,20 @@ form.init();
 function formSubmit(e) {
   e.preventDefault();
   var $form = $(e.target).closest("form");
-  if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) form.submit($form);
+  if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
+    console.log('form clean');
+    form.submit($form);
+    //grecaptcha.reset();
+		//grecaptcha.execute();
+  } else {
+    console.log('form NOT clean');
+  }
+}
+
+function recaptchaSubmit(token) {
+  console.log(token);
+  var $form = $(".g-recaptcha").parents("form");
+  form.submit($form);
 }
 
 /* Pull job list from Greenhouse and add filters etc */
@@ -513,7 +528,7 @@ var benefits = {
     }
   }
 }
-if(pagetitle == "Careers") benefits.init();
+if(pagetitle == "Perks") benefits.init();
 
 
 var scroller = {
@@ -644,6 +659,7 @@ $(document).ready(function() {
     }
     if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
     if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
+    if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else {
@@ -704,6 +720,10 @@ $(document).ready(function() {
   }
   if(pagetitle == "Wunder City") {
     $("select#subject-field").val("Wunder City").siblings('.select2').addClass('selected');
+    $('select#subject-field').trigger('change.select2').trigger('change');
+  }
+  if(pagetitle == "Home") {
+    $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
   if(pagetitle == "Summit") {

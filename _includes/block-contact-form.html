@@ -12,6 +12,7 @@
         <div class="contact-form__form">
           <form id="main-contact" name="website-contact-form" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
             <input type="hidden" name="firstname" id="recipient-firstname">
+            <input type="hidden" name="_gotcha">
             <input type="hidden" name="country" id="user-country" value="">
             <input type="hidden" name="region" id="user-region" value="EN">
             <input type="hidden" name="utm_source" id="utm_source" value="">
@@ -38,7 +39,7 @@
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label" for="phone">Phone</label>
+                  <label class="form-label" for="phone">Phone (incl. country code)</label>
                   <input type="text" name="phone" id="phone">
                   <div class="bottom-border"></div>
                 </div>
@@ -183,11 +184,13 @@
                 </div>
               </div>
             </div>
+            {% comment %}<div class="g-recaptcha" data-sitekey="6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR" data-callback="recaptchaSubmit" data-badge="inline" data-size="invisible"></div>{% endcomment %}
             <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
               Send it!
             </button>
             <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
           </form>
+          {% comment %} 6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR {% endcomment %}
 
 
           {% if page.lang-ref == 'press' %}

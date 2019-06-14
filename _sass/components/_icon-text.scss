@@ -173,6 +173,9 @@
         flex: 1 1 30%;
       }
     }
+    .image-captions__image img {
+      width: 100%;
+    }
   }
   &.columns-4 {
     justify-content: space-around;

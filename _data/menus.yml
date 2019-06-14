@@ -104,15 +104,19 @@ career:
 - identifier: jobs
   url: "/careers/jobs"
   title: Jobs
-  weight: 3
+  weight: 4
 - identifier: locations
   url: "/careers/locations"
-  weight: 2
+  weight: 3
   title: Locations
 - identifier: culture
   url: "/careers/culture"
-  weight: 1
+  weight: 2
   title: Culture
+- identifier: perks
+  url: "/careers/perks"
+  weight: 1
+  title: Perks
 
 footerbottom:
 - identifier: privacy

@@ -26,6 +26,8 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- block: benefits-1
+  subdirectory: static
 - template: image-content-block
   block: two-column-vertical-cards
   items:
@@ -40,7 +42,7 @@ page_sections:
     icon: "/uploads/2019/06/13/transport.svg"
     title: Gym or Transport
     content: As a full-time employee, we offer you a free public transportation pass
-      (HVV ProfiCard) or gym membership - your choice! Just let the Talent Team know
+      (HVV ProfiCard) or gym membership - your choice! Just let the People Team know
       your preference.
     sub_title: ''
     show_meetups: false
@@ -62,7 +64,7 @@ page_sections:
   - image: "/uploads/2019/06/13/wunderbar@2x.jpg"
     icon: "/uploads/2019/06/13/drinks.svg"
     title: Fruit and Drinks
-    content: We wouldn't be a start-up without endless drinks and fruit! We're always
+    content: We wouldn't be a start-up without endless drinks and fruit! The WunderBar is always
       stocked up with sodas, mate, beer, coffee and tea - we even have a juicer!
     sub_title: ''
     show_meetups: false
@@ -75,7 +77,7 @@ page_sections:
       of the week and share our hobbies with each other!
     sub_title: ''
     show_meetups: false
-  heading: Some perks of working at Wunder
+  heading: ''
   column_count: '3'
   sub-heading: ''
 - template: cta-banner
