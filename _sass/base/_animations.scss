@@ -96,3 +96,12 @@ $header-animtion-delay: .5s;
     transform: translateY(0px);
   }
 }
+
+@keyframes path-dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -1000;
+  }
+}

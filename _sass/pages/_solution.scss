@@ -42,7 +42,7 @@ main {
 
   .abs-image-wrapper, .top-image-wrapper {
     @include rwd(tablet-down) {
-      img {
+      .abs-right {
         position: static;
         //max-width: 100%;
       }
@@ -140,6 +140,56 @@ main {
 }
 
 
+.park {
+  .top-image-wrapper svg {
+    @include rwd(tablet-up) {
+      margin-top: -60px;
+    }
+  }
+  .top-image-wrapper svg path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: path-dash 3s ease-in-out alternate infinite;
+  }
+
+  .solution-wrapper {
+    #section-os {
+      @include rwd(tablet-up) {
+        padding-bottom: 1.25rem;
+      }
+    }
+    .product-section:not(.grid-section) {
+      margin-top: 10.5rem;
+      img {
+        &:not(.mw-auto) {
+          max-width: 80%;
+          min-height: 460px;
+        }
+        @include rwd(tablet-down) {
+          max-height: 400px;
+        }
+      }
+    }
+    .product-area {
+      margin-bottom: 6rem;
+    }
+  }
+
+  @include rwd(tablet-down) {
+    .solution-wrapper .top-image-wrapper {
+      margin-left: 0;
+    }
+    svg.abs-right {
+        max-width: 100%;
+    }
+    .wunder-bg {
+      display: none;
+    }
+  }
+
+}
+
+
 
 .fleet, .carpool, .shuttle {
   .important-numbers__stat-wrapper  {
@@ -172,5 +222,11 @@ main {
   }
   .success__wrapper {
     background: linear-gradient(135.54deg, #04dE47 0.27%, #00CF40 53.82%);
+  }
+}
+.park {
+  @include highlight($park-highlight);
+  .video-banner {
+    background-position: center bottom;
   }
 }

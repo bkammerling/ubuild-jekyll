@@ -20,8 +20,13 @@ wunder-main:
   parent: solutions
   identifier: fleet
   title: Fleet
-- url: "/city"
+- url: "/park"
   weight: 4
+  parent: solutions
+  identifier: park
+  title: Park
+- url: "/city"
+  weight: 5
   parent: solutions
   identifier: city
   title: City
@@ -154,7 +159,6 @@ footer:
     parent: offices
     newtab: 1
   - identifier: manila
-    url: #
     weight: 3
     title: Manila
     parent: offices
@@ -197,20 +201,25 @@ footer:
   col: 2
   weight: 3
   items:
-  - identifier: culture
-    url: "/careers/culture"
-    weight: 1
-    title: Culture
-    parent: footercareers
-  - identifier: locations
-    url: "/careers/locations"
-    weight: 1
-    title: Locations
-    parent: footercareers
   - identifier: jobs
     url: "/careers/jobs"
     weight: 1
     title: Jobs
+    parent: footercareers
+  - identifier: culture
+    url: "/careers/culture"
+    weight: 2
+    title: Culture
+    parent: footercareers
+  - identifier: locations
+    url: "/careers/locations"
+    weight: 3
+    title: Locations
+    parent: footercareers
+  - identifier: perks
+    url: "/careers/perks"
+    weight: 4
+    title: Perks
     parent: footercareers
 - identifier: footerevents
   title: Events
@@ -220,7 +229,7 @@ footer:
   - identifier: summit
     url: "/summit"
     weight: 1
-    title: Summit
+    title: Mobility Summit
     parent: footerevents
   - identifier: autotech
     url: "/autotech"
@@ -246,4 +255,14 @@ footer:
     url: "/fleet"
     weight: 3
     title: Wunder Fleet
+    parent: solutions
+  - identifier: park
+    url: "/park"
+    weight: 4
+    title: Wunder Park
+    parent: solutions
+  - identifier: fleet
+    url: "/city"
+    weight: 5
+    title: Wunder City
     parent: solutions

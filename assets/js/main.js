@@ -714,7 +714,7 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool") {
+  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park") {
     $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
