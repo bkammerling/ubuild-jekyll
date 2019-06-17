@@ -216,14 +216,13 @@ var form = {
       data: data,
       dataType: "json"
     }).done(function (data) {
-      console.log(data);
       contactForm.find(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
       $('.select2-init').select2('destroy');
       form.initializeSelect2('.select2-init');
       $("#form-submit").attr("disabled", false);
-      console.log(data);
+      console.log('ajax done success', data);
     }).fail(function (error) {
       console.log(error);
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
@@ -289,9 +288,9 @@ function formSubmit(e) {
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
-    form.submit($form);
-    //grecaptcha.reset();
-		//grecaptcha.execute();
+    //form.submit($form);
+    grecaptcha.reset();
+		grecaptcha.execute();
   } else {
     console.log('form NOT clean');
   }
