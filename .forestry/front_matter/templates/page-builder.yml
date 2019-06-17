@@ -44,10 +44,10 @@ fields:
   - block-from-right
   - icon-heading-cards
 pages:
+- pages/careers/careers.md
 - pages/careers/perks.md
 - pages/summit.md
 - pages/summit18.md
-- pages/careers/careers.md
 - pages/careers/jobs.md
 - pages/careers/locations.md
 - pages/home.md
