@@ -66,6 +66,11 @@ event_block:
     company: Tier Mobility
     speaker_photo: "/uploads/2019/06/12/Lawrence Leuschner.png"
     company_logo: "/uploads/2019/05/02/tier@2x.png"
+  - name: Sam Baker
+    job_title: COO & Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
   - name: Patrick Foster
     job_title: Chief Business Officer
     company: Drivy by Getaround
@@ -86,6 +91,11 @@ event_block:
     company: AppyParking
     speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
     company_logo: "/uploads/2019/05/03/appyparking@2x.png"
+  - name: Craig Wilson
+    job_title: Managing Director
+    company: Williams Advanced Engineering
+    speaker_photo: "/uploads/2019/06/18/Craig-Wilson.jpg"
+    company_logo: "/uploads/2019/06/18/Williams logo.jpg"
   - name: Mario Marín
     job_title: CEO
     company: UFO
