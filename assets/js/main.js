@@ -214,9 +214,6 @@ var form = {
       method: "POST",
       data: data,
       dataType: "json",
-      crossDomain: true,
-      processData: false,
-      contentType: false,
       headers: {
         "Accept": "application/json"
       }
