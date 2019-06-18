@@ -14,6 +14,7 @@
 /about  /  301
 /meetup  /autotech  301
 /terms-conditions  /terms  301
+/park  /  301
 
 # Redirect default Netlify subdomain to primary domain
 https://wundermobility-com.netlify.com/* https://www.wundermobility.com/:splat 301!
