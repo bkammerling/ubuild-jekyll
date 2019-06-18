@@ -198,8 +198,7 @@ var form = {
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
     $("#form-submit").attr("disabled", true);
-    //console.log(contactForm.serialize());
-    var data = form.serializeObject(contactForm);
+    var data = contactForm.serialize();
     // add subject for summit related messages
     if($(".modal-body #subject-field").length) {
       data.subject = $("form #subject-field").val();
@@ -207,8 +206,6 @@ var form = {
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
       dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
     }
-    delete data.firstname;
-    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -261,8 +258,6 @@ var form = {
 
   htmlValidityCheck: function($form) {
     $form[0].checkValidity();
-    // Honeypot check
-    if($("#recipient-firstname").val().length != 0) return false;
     return $form[0].reportValidity();
   },
   customValidityChecks: function($form) {
@@ -288,9 +283,9 @@ function formSubmit(e) {
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
-    //form.submit($form);
-    grecaptcha.reset();
-		grecaptcha.execute();
+    form.submit($form);
+    //grecaptcha.reset();
+		//grecaptcha.execute();
   } else {
     console.log('form NOT clean');
   }
@@ -299,7 +294,7 @@ function formSubmit(e) {
 function recaptchaSubmit(token) {
   console.log(token);
   var $form = $(".g-recaptcha").parents("form");
-  form.submit($form);
+  //form.submit($form);
 }
 
 /* Pull job list from Greenhouse and add filters etc */

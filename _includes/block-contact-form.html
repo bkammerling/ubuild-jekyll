@@ -10,9 +10,10 @@
           </div>
         </div>
         <div class="contact-form__form">
-          <form id="main-contact" name="website-contact-form" action="https://usebasin.com/f/7a35a325ff90.json" method="POST">
-            <input type="hidden" name="firstname" id="recipient-firstname">
-            <input type="hidden" name="_gotcha">
+          <form id="main-contact" name="website-contact-form" method="POST" netlify netlify-honeypot="_gotcha">
+            <p class="hidden">
+              <input name="_gotcha">
+            </p>
             <input type="hidden" name="country" id="user-country" value="">
             <input type="hidden" name="region" id="user-region" value="EN">
             <input type="hidden" name="utm_source" id="utm_source" value="">
