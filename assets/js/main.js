@@ -206,12 +206,12 @@ var form = {
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
       dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
     }
+    console.log(data, postURL);
 
     $.ajax({
       url: postURL,
       method: "POST",
-      data: data,
-      dataType: "json"
+      data: data
     }).done(function (data) {
       contactForm.find(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
