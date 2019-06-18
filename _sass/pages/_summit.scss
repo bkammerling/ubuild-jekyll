@@ -1,10 +1,11 @@
 .summit {
-  .header .menu-item-cta:after {
+
+  /*.header .menu-item-cta:after {
     width: 125px;
     @include rwd(desktop-up) {
       width: 140px;
     }
-  }
+  }*/
 
   .block-video-1 {
     margin: 3em 0;
