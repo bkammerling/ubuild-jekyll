@@ -132,18 +132,57 @@ event_block:
   name: Agenda
   content: |-
     <div class="container mt-5 mb-5" id="section-agenda">
-      <div class="wunder-bg right top-2"></div>
+          <div class="wunder-bg right top-2"></div>
 
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mb-3">
-          <section class="mt-5">
-            <h2 class="page-heading mb-3">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2 mb-3">
+              <section class="mt-5">
+                <h2 class="page-heading mb-3">Agenda</h2>
 
-          </section>
+                <div class="border-hl-left w-x-shadow table-wrapper">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Speaker</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>10:00 – 11:10 AM</td>
+                        <td>Panel Discussion - The Future of the Powertrain</td>
+                        <td><span class="speaker-name">Neville Jackson</span>
+    <span class="speaker-position">- Chief Technology & Innovation Officer, Ricardo</span>
+    <span class="speaker-name">Joerg Ross</span>
+    <span class="speaker-position">- Chief Powertrain, Aston Martin Lagonda</span>
+    <span class="speaker-name">Andreas Kufferath</span>
+    <span class="speaker-position">- Head of Powertrain Technologies Development, Bosch</span></td>
+                      </tr>
+                      <tr>
+                        <td>11:10 – 11:40 AM</td>
+                        <td>Keynote Speech/td>
+                        <td><span class="speaker-name">Nikki Rimmington</span>
+    <span class="speaker-position">- VP & Chief Planning Officer, Aston Martin Lagonda</span></td>
+                      </tr>
+                      <tr>
+                        <td>4:40 – 5:00 PM</td>
+                        <td>Closing remarks</td>
+                        <td>Senior Government Ministe</td>
+                      </tr>
+                      <tr>
+                        <td>5:00 PM</td>
+                        <td>Drinks Reception</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </section>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 - template: google-map
   lat: 51.504911
   lng: -0.1888
