@@ -161,7 +161,7 @@ event_block:
                       </tr>
                       <tr>
                         <td>11:10 – 11:40 AM</td>
-                        <td>Keynote Speech/td>
+                        <td>Keynote Speech</td>
                         <td><span class="speaker-name">Nikki Rimmington</span>
     <span class="speaker-position">- VP & Chief Planning Officer, Aston Martin Lagonda</span></td>
                       </tr>
