@@ -658,7 +658,7 @@ $(document).ready(function() {
       utm_source: getUrlParameter('utm_source'),
       utm_medium: getUrlParameter('utm_medium'),
       utm_campaign: getUrlParameter('utm_campaign'),
-      utm_campaigngroup: getUrlParameter('utm_campaigngroup')
+      utm_campaignid: getUrlParameter('utm_campaignid')
     }
     if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
     if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
@@ -670,7 +670,7 @@ $(document).ready(function() {
       utm_source: document.referrer != "" ? document.referrer : 'direct',
       utm_medium: 'Organic',
       utm_campaign: '',
-      utm_campaigngroup: ''
+      utm_campaignid: ''
     }
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
@@ -679,7 +679,7 @@ $(document).ready(function() {
     $("#utm_source").val(utm_data.utm_source);
     $("#utm_medium").val(utm_data.utm_medium);
     $("#utm_campaign").val(utm_data.utm_campaign);
-    $("#utm_campaigngroup").val(utm_data.utm_campaigngroup);
+    $("#utm_campaignid").val(utm_data.utm_campaignid);
   }
 
   form.initializeSelect2('.select2-init');
