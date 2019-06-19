@@ -205,7 +205,7 @@ event_block:
     <span class="speaker-position">- Vice President, Bosch</span></td>
                       </tr>
     <tr>
-                        <td>10:00 – 11:10 AM</td>
+                        <td>2:40 – 3:50 PM</td>
                         <td>Panel Discussion - Future of Electrification in the Powertrain</td>
                         <td><span class="speaker-name">Phillipa Oldham</span>
     <span class="speaker-position">- Head of National Network Programmes, Advanced Propulsion Centre</span>
