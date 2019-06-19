@@ -228,7 +228,7 @@ event_block:
                       <tr>
                         <td>4:40 – 5:00 PM</td>
                         <td>Closing remarks</td>
-                        <td>Senior Government Ministe</td>
+                        <td>Senior Government Minister</td>
                       </tr>
                       <tr>
                         <td>5:00 PM</td>
