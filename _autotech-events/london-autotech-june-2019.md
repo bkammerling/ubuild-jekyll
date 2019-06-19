@@ -165,6 +165,66 @@ event_block:
                         <td><span class="speaker-name">Nikki Rimmington</span>
     <span class="speaker-position">- VP & Chief Planning Officer, Aston Martin Lagonda</span></td>
                       </tr>
+    <tr>
+                        <td>11:40 AM – 12:00 PM</td>
+                        <td>Keynote Speech</td>
+                        <td><span class="speaker-name">Patrick Foster</span>
+    <span class="speaker-position">- Chief Business Officer, Drivy</span></td>
+                      </tr>
+    <tr>
+                        <td>12:00 – 12:30 PM</td>
+                        <td>Lunch Break</td>
+                        <td></td>
+                      </tr>
+    <tr>
+                        <td>12:30 – 1:00 PM</td>
+                        <td>Keynote Speech</td>
+                        <td><span class="speaker-name">Gunnar Froh</span>
+    <span class="speaker-position">- CEO & Co-founder, Wunder Mobility</span></td>
+                      </tr>
+    <tr>
+                        <td>1:00 – 2:10 PM</td>
+                        <td>Panel Discussion - The future of mobility</td>
+                        <td><span class="speaker-name">Mario Marin</span>
+    <span class="speaker-position">- CEO, UFO</span>
+    <span class="speaker-name">Lawrence Leuschner</span>
+    <span class="speaker-position">- CEO, Tier Mobility</span>
+    <span class="speaker-name">Dan Hubert</span>
+    <span class="speaker-position">- CEO, Appy Parking</span>
+    <span class="speaker-name">Felix Leuschner</span>
+    <span class="speaker-position">- CEO, Drove</span>
+    <span class="speaker-name">Franck Cazenave</span>
+    <span class="speaker-position">- Smart Cities Director, Bosch</span>
+    <span class="speaker-name">Samuel Baker</span>
+    <span class="speaker-position">- COO & Co-founder, Wunder Mobility</span></td>
+                      </tr>
+    <tr>
+                        <td>2:10 – 2:40 PM</td>
+                        <td>Keynote Speech</td>
+                        <td><span class="speaker-name">Andreas Kufferath</span>
+    <span class="speaker-position">- Vice President, Bosch</span></td>
+                      </tr>
+    <tr>
+                        <td>10:00 – 11:10 AM</td>
+                        <td>Panel Discussion - Future of Electrification in the Powertrain</td>
+                        <td><span class="speaker-name">Phillipa Oldham</span>
+    <span class="speaker-position">- Head of National Network Programmes, Advanced Propulsion Centre</span>
+    <span class="speaker-name">John Caress</span>
+    <span class="speaker-position">- Vehicle Line Director, Aston Martin Lagonda</span>
+    <span class="speaker-name">Neil Morris</span>
+    <span class="speaker-position">- CEO, Faraday Institution</span>
+    <span class="speaker-name">Craig Wilson</span>
+    <span class="speaker-position">- Managing Director, Williams AE</span></td>
+                      </tr>
+    <tr>
+                        <td>3:50 – 4:40 PM</td>
+                        <td>Conversation - Driving the Future</td>
+                        <td><span class="speaker-name">Joerg Rueger</span>
+    <span class="speaker-position">- President, Bosch Engineering Group
+    </span>
+    <span class="speaker-name">Andy Palmer</span>
+    <span class="speaker-position">- President & Group CEO, Aston Martin Lagonda</span></td>
+                      </tr>
                       <tr>
                         <td>4:40 – 5:00 PM</td>
                         <td>Closing remarks</td>
