@@ -8,7 +8,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form id="modal-form" accept-charset="UTF-8" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
+      <form id="modal-form"  class="ajaxForm" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
         <div class="modal-body">
           <input type="hidden" id="subject-field" value="Attend AutoTech">
           <input type="hidden" name="country" id="user-country" value="">
@@ -72,6 +72,7 @@
               <label for="message-text" class="col-form-label">Message (optional)</label>
               <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
             </div>
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
           </div>
         </div>
         <div class="modal-footer">
