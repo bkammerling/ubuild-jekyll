@@ -260,11 +260,16 @@ body.summit .gradient-block .block-full-right {
   margin-top: 8rem;
   margin-bottom: 8rem;
 
+  table {
+    color: #334146;
+  }
+
   .speaker-name {
-    font-weight: 500;
+    font-weight: 600;
     display: block;
   }
   .speaker-position {
+    display: block;
     margin-bottom: rem(5px);
   }
 
