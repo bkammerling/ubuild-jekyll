@@ -156,12 +156,12 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
   - name: Gunnar Froh
-    job_title: CEO & Founder
+    job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
   - name: Sam Baker
-    job_title: COO & Founder
+    job_title: COO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
