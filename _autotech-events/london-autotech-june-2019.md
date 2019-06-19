@@ -47,7 +47,7 @@ event_block:
     speaker_photo: "/uploads/2019/06/12/Andy Palmer.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Gunnar Froh
-    job_title: CEO & Founder
+    job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
@@ -67,7 +67,7 @@ event_block:
     speaker_photo: "/uploads/2019/06/12/Lawrence Leuschner.png"
     company_logo: "/uploads/2019/05/02/tier@2x.png"
   - name: Sam Baker
-    job_title: COO & Founder
+    job_title: COO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
