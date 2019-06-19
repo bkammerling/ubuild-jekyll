@@ -197,7 +197,6 @@ var form = {
 
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
-    $("#form-submit").attr("disabled", true);
     //console.log(contactForm.serialize());
     var data = form.serializeObject(contactForm);
     // add subject for summit related messages
@@ -285,12 +284,16 @@ form.init();
 
 function formSubmit(e) {
   e.preventDefault();
+  $(e.target).attr("disabled", true);
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
     //form.submit($form);
-    grecaptcha.reset();
-		grecaptcha.execute();
+    grecaptcha.ready(function() {
+      grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
+        recaptchaSubmit(token);
+      });
+    });
   } else {
     console.log('form NOT clean');
   }
@@ -298,7 +301,8 @@ function formSubmit(e) {
 
 function recaptchaSubmit(token) {
   console.log(token);
-  var $form = $(".g-recaptcha").parents("form");
+  var $form = $("#captchaResponse").parents("form");
+  $('#captchaResponse').val(token);
   form.submit($form);
 }
 
@@ -779,10 +783,17 @@ $(document).ready(function() {
         $('html, body').animate({
           scrollTop: target.offset().top - topOffset
         }, 600, function() {
+          grecaptcha.ready(function() {
+            grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
+          });
           // Callback after animation
         });
     }
   });
 
+  // runnning google recaptcha on load helps it learn who's using our site
+  grecaptcha.ready(function() {
+    grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "landing"})
+  });
 
 });
