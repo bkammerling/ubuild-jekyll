@@ -259,7 +259,17 @@ body.summit .gradient-block .block-full-right {
 #section-agenda {
   margin-top: 8rem;
   margin-bottom: 8rem;
+
+  .speaker-name {
+    font-weight: 500;
+    display: block;
+  }
+  .speaker-position {
+    margin-bottom: rem(5px);
+  }
+
 }
+
 
 
 .partner-box {
@@ -494,6 +504,8 @@ body.summit .gradient-block .block-full-right {
    }
 
 }
+
+
 
 .photo-gallery {
     display: flex;
