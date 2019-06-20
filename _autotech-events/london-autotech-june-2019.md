@@ -180,7 +180,7 @@ event_block:
                         <td>12:30 – 1:00 PM</td>
                         <td>Keynote Speech</td>
                         <td><span class="speaker-name">Gunnar Froh</span>
-    <span class="speaker-position">- CEO & Co-founder, Wunder Mobility</span></td>
+    <span class="speaker-position">- CEO & Co-Founder, Wunder Mobility</span></td>
                       </tr>
     <tr>
                         <td>1:00 – 2:10 PM</td>
@@ -196,7 +196,7 @@ event_block:
     <span class="speaker-name">Franck Cazenave</span>
     <span class="speaker-position">- Smart Cities Director, Bosch</span>
     <span class="speaker-name">Samuel Baker</span>
-    <span class="speaker-position">- COO & Co-founder, Wunder Mobility</span></td>
+    <span class="speaker-position">- COO & Co-Founder, Wunder Mobility</span></td>
                       </tr>
     <tr>
                         <td>2:10 – 2:40 PM</td>
