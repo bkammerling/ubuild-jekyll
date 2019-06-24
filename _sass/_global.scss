@@ -981,7 +981,7 @@ ul.footer__socialmedia {
   border-left: solid 5px $sky-blue;
 }
 
-.card {
+.card.location-card {
   border: none;
   border-radius: 0;
   .text-overlay {
@@ -990,6 +990,25 @@ ul.footer__socialmedia {
     font-size: 20px;
     color: $white;
     font-weight: 600;
+  }
+}
+
+.card .icon-list {
+  img {
+    width: 50px;
+    max-height: 45px;
+    margin: 5px 2rem 5px 1rem;
+  }
+  li {
+    display: flex;
+    align-items: center;
+  }
+  .icon-list__text {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #334146;
+    font-size: 20px;
+    display: inline-block;
   }
 }
 

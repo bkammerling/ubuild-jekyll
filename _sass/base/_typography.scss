@@ -50,6 +50,12 @@ h2 {
       letter-spacing: 3px;
       line-height: 38px;
     }
+    .icon-left {
+      max-height: 38px;
+      max-width: 38px;
+      margin-right: 1rem;
+      vertical-align: sub;
+    }
   }
   &.main-heading {
     font-size: 24px;
