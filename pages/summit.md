@@ -313,8 +313,6 @@ page_sections:
                   <img class="" style="width: 100px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
                 </div>
               </div>
-                </div>
-              </div>
             </div>
           </section>
         </div>
