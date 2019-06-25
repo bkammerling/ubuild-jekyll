@@ -98,10 +98,10 @@ $header-animtion-delay: .5s;
 }
 
 @keyframes path-dash {
-  from {
-    stroke-dashoffset: 0;
+  0% {
+    stroke-dashoffset: 539;
   }
-  to {
-    stroke-dashoffset: -1000;
+  100% {
+    stroke-dashoffset: 0;
   }
 }

@@ -421,7 +421,7 @@ var accordion = {
         $(this).text('Show more');
       }
     });
-    $('.horizontal-accordion ion-icon, .horizontal-accordion .card-closed-display').click(function(e) {
+    $('.horizontal-accordion ion-icon, .horizontal-accordion .card').click(function(e) {
       var $card = $(this).closest('.card');
       $card.siblings().removeClass('expand');
       $card.addClass('expand');
@@ -449,8 +449,8 @@ if($(".max-items").length>0) maxItems.init();
 
 var contentDropdown = {
   init: function() {
-    $(".content-dropdown .content-dropdown__opener a").click(function() {
-      $(this).parents().find(".content-dropdown").toggleClass("active").find(".content-dropdown__content").slideToggle();
+    $(".content-dropdown .content-dropdown__opener a").click(function(e) {
+      $(e.target).parents(".content-dropdown").toggleClass("active").find(".content-dropdown__content").slideToggle();
     })
   }
 }

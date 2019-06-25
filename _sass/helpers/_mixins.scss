@@ -251,7 +251,7 @@ $includeClasses: true !default;
 
 @mixin highlight($solution-highlight) {
   .text-blue {
-    color: $solution-highlight;
+    color: $solution-highlight !important;
   }
   .highlight-top {
     border-color: $solution-highlight;

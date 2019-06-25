@@ -404,7 +404,6 @@ a.circle-arrow {
       transform: translateY(10px);
       background-color: $white;
       cursor: pointer;
-
     }
   }
 
@@ -428,6 +427,10 @@ a.circle-arrow {
       }
     }
   }
+}
+
+ul.dropdown-padded {
+  padding: 0 40px;
 }
 
 

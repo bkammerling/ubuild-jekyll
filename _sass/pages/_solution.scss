@@ -99,6 +99,72 @@ main {
 }
 
 
+.horizontal-accordion.image-top {
+
+  .card {
+    overflow: visible;
+    flex: 1 1 100%;
+    @include rwd(desktop-up) {
+      overflow: hidden;
+      flex: 1 1 33%;
+      height: 400px;
+    }
+  }
+
+  .card-outer-image {
+    transition: margin 0.4s ease-in-out;
+    transform: none;
+    height: auto;
+    max-height: none;
+    @include rwd(desktop-up) {
+      width: 400px;
+    }
+    width: 100%;
+  }
+
+  .card-logo {
+    align-self: flex-start;
+    margin: 30px;
+    max-height: none;
+    max-width: 120px;
+  }
+
+  .inner-content {
+    position: absolute;
+    padding: 0 30px 40px;
+    transition: width 0.4s;
+    @include rwd(wide-up) {
+        width: 390px;
+    }
+    @include rwd(desktop-up) {
+        width: 350px;
+    }
+    width: 100%;
+  }
+
+  ion-icon {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .expand {
+
+    .card-outer-image {
+      @include rwd(desktop-up) {
+        margin-top: -215px;
+      }
+
+    }
+
+    .inner-content {
+      position: static;
+    }
+
+  }
+
+
+}
+
 
 
 .shuttle .card {
@@ -146,10 +212,10 @@ main {
       margin-top: -60px;
     }
   }
-  .top-image-wrapper svg path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 0;
-    animation: path-dash 3s ease-in-out alternate infinite;
+  .top-image-wrapper svg #Path-10 {
+    stroke-dasharray: 539;
+    stroke-dashoffset: 539;
+    animation: path-dash 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate 1s;
   }
 
   .solution-wrapper {
@@ -161,28 +227,24 @@ main {
 
     .product-section:not(.grid-section) {
       margin-top: 10.5rem;
-      /*img {
-        &:not(.mw-auto) {
-          max-width: 80%;
-          min-height: 460px;
-        }
-        @include rwd(tablet-down) {
-          max-height: 400px;
-        }
-      }*/
     }
 
     .product-area {
       margin-bottom: 6rem;
+
+      .product-image {
+        max-height: 400px;
+      }
+
     }
-/*
-    .single-feature {
-        flex-direction: column;
-        .product-image {
-          margin: 1rem auto;
-        }
+
+    .content-dropdown__opener {
+      padding-top: 1rem;
     }
-*/
+    a.with-down-arrow:after {
+      filter: brightness(70%);
+    }
+
   }
 
   @include rwd(tablet-down) {

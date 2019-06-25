@@ -39,6 +39,11 @@ hr.light {
     opacity: 0.4;
 }
 
+
+.mt-8 {
+  margin-top: 8rem !important;
+}
+
 .hidden-xs {
   @media only screen and (max-width: 575px) {
     display: none !important;
