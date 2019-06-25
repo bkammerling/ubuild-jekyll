@@ -20,11 +20,11 @@ wunder-main:
   parent: solutions
   identifier: fleet
   title: Fleet
-#- url: "/park"
-#  weight: 4
-#  parent: solutions
-#  identifier: park
-#  title: Park
+- url: "/park"
+  weight: 4
+  parent: solutions
+  identifier: park
+  title: Park
 - url: "/city"
   weight: 5
   parent: solutions
