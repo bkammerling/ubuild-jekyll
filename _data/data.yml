@@ -18,7 +18,7 @@ partners:
   url: https://www.daimler.com/en/
   logo: "/uploads/2019/02/19/daimler logo@2x.png"
 hero_logo_rows:
-- name: Wunder Main
+- name: mainlogos
   logos:
   - title: emmy
     logo: "/uploads/2019/02/19/emmy logo@2x.png"
