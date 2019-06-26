@@ -61,7 +61,8 @@ fields:
     required: false
     options: []
     source:
-      type: datafiles
+      type: documents
       file: _data/data.yml
-      path: hero_logo_rows
+      path: hero_logo_names
+      section: wunder-data
   label: Logo Row

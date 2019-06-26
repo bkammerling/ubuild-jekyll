@@ -32,5 +32,6 @@ hero_logo_rows:
   - title: Daimler
     url: https://www.daimler.com/en/
     logo: "/uploads/2019/02/19/daimler logo@2x.png"
-  custom_html: |-
-    <a href="#">yo</a>
+  custom_html: <a href="#">yo</a>
+hero_logo_names:
+- mainlogos
