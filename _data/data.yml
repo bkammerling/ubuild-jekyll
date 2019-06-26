@@ -20,15 +20,21 @@ partners:
 hero_logo_rows:
 - name: wunderpark
   logos:
+  - title: MAN
+    logo: "/uploads/2019/06/26/Logo_MAN@2x.jpg"
+    url: https://www.mantruckandbus.com/en/index.html
+  - title: Telefonica
+    logo: "/uploads/2019/06/26/telefonica_logo_grey@2x.jpg"
+    url: https://www.telefonica.com/en/home
+  - title: SAP
+    logo: "/uploads/2019/06/26/1280px-SAP-Logo@2x.jpg"
+    url: https://www.sap.com/index.html
   - title: Porsche
     logo: "/uploads/2019/06/26/porsche_logo_PNG1@2x.jpg"
     url: https://www.porsche.com/
   - title: KONE
     logo: "/uploads/2019/06/26/2000px-KONE@2x.jpg"
     url: https://www.kone.com/en/
-  - title: MAN
-    logo: "/uploads/2019/06/26/Logo_MAN@2x.jpg"
-    url: https://www.mantruckandbus.com/en/index.html
   custom_html: ''
 - name: mainlogos
   logos:
