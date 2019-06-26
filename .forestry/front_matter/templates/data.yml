@@ -78,18 +78,11 @@ fields:
   label: Hero Logo Rows
   description: Displayed at bottom of hero on most pages
 - name: hero_logo_names
-  type: field_group_list
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Name
-    description: Must match exactly name of row
+  type: list
   config:
+    use_select: false
     min: 
     max: 
-    labelField: 
   label: Hero Logo Names
 pages:
 - _data/data.yml
