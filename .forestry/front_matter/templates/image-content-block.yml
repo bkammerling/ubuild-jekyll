@@ -25,7 +25,7 @@ fields:
   description: How many cards per row (on large desktop)
   default: '2'
   config:
-    min:
+    min: 
     max: '4'
     step: '1'
 - type: text
