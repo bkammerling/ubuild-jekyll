@@ -52,4 +52,5 @@ hero_logo_rows:
     logo: "/uploads/2019/02/19/daimler logo@2x.png"
   custom_html: <a href="#">yo</a>
 hero_logo_names:
+- wunderpark
 - mainlogos
