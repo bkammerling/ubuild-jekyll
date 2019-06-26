@@ -25,14 +25,17 @@ page_sections:
   background_video: jared-drone4
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.jpg"
-- block: home-main
+- template: custom-block
+  block: home-main
   subdirectory: static
 - template: news-section
   block: two-column-horizontal-cards
   headline: We're being talked about
   items: []
   show_featured: true
-- block: custom-html
+- template: custom-content
+  block: custom-html
+  name: Main Element Fix
   content: "</main>"
 - template: detail-content
   block: contact-form
