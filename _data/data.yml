@@ -18,6 +18,18 @@ partners:
   url: https://www.daimler.com/en/
   logo: "/uploads/2019/02/19/daimler logo@2x.png"
 hero_logo_rows:
+- name: wunderpark
+  logos:
+  - title: Porsche
+    logo: "/uploads/2019/06/26/porsche_logo_PNG1@2x.jpg"
+    url: https://www.porsche.com/
+  - title: KONE
+    logo: "/uploads/2019/06/26/2000px-KONE@2x.jpg"
+    url: https://www.kone.com/en/
+  - title: MAN
+    logo: "/uploads/2019/06/26/Logo_MAN@2x.jpg"
+    url: https://www.mantruckandbus.com/en/index.html
+  custom_html: ''
 - name: mainlogos
   logos:
   - title: emmy
