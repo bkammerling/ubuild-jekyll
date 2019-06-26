@@ -208,9 +208,8 @@ main {
 
 .park {
   .top-image-wrapper svg {
-    @include rwd(tablet-up) {
-      margin-top: -60px;
-    }
+    margin-top: -100px;
+    margin-bottom: -200px;
   }
   .top-image-wrapper svg #Path-10 {
     stroke-dasharray: 539;
@@ -221,7 +220,7 @@ main {
   .solution-wrapper {
     #section-os {
       @include rwd(tablet-up) {
-        padding-bottom: 1.25rem;
+        padding-bottom: 2rem;
       }
     }
 
@@ -246,6 +245,46 @@ main {
     }
 
   }
+
+  #parkterminal  {
+    max-width: 350px;
+    #phoneqr {
+      animation: phone-in 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate 0s;
+    }
+
+    #terminal-toplight {
+      animation: light-on 3s linear infinite alternate 1s;
+      filter: none;
+    }
+  }
+
+  @keyframes phone-in {
+    to {
+      transform: translateX(-12px) translateY(-10px) rotateZ(2deg);
+    }
+  }
+
+  @keyframes light-on {
+    0% {
+      fill: #ffffff;
+      filter: none;
+    }
+    45% {
+      fill: #ffffff;
+    }
+    53% {
+      filter: none;
+    }
+    55% {
+      fill: #04DE47;
+      //filter: url(#f2);
+    }
+    100% {
+      fill: #04DE47;
+      //filter: url(#f2);
+    }
+  }
+
 
   @include rwd(tablet-down) {
     .solution-wrapper .top-image-wrapper {
