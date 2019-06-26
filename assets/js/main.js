@@ -367,6 +367,8 @@ var jobs = {
       var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
       singleHTML.find(".job-location").text(location);
       var content = $('<textarea />').html(job.content).text();
+      console.log(job);
+      console.log(content);
       if(content.split('</h3>').length >= 3) content = content.split('</h3>')[2];
 
       singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
