@@ -53,13 +53,13 @@ fields:
   - icon-heading-cards
   - custom-block
 pages:
+- pages/home.md
 - pages/careers/perks.md
 - pages/summit.md
 - pages/careers/careers.md
 - pages/summit18.md
 - pages/careers/culture.md
 - pages/careers/locations.md
-- pages/home.md
 - pages/careers/jobs.md
 - pages/autotech.md
 - pages/terms.md
