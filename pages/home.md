@@ -1,7 +1,6 @@
 ---
 layout: blocks
 title: Home
-date: 2019-01-08 23:00:00 +0000
 permalink: "/"
 lang: en
 lang-ref: home
