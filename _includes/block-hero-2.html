@@ -57,12 +57,16 @@
   </style>
   {% endif %}
 
+  {% if section.logo_row %}
+    {% capture logorow %}{{ section.logo_row }}{% endcapture %}
+  {% endif %}
+
   {% if section.show_logos %}
-    {% include block-logo-list.html %}
+    {% include block-logo-list.html rowname=logorow %}
   {% endif %}
 
   {% if page.title == 'Summit' %}
-    {% include block-summit-info.html %}
+    {% include block-summit-info.html  %}
   {% endif %}
 
   {% if page.url contains 'autotech' %}

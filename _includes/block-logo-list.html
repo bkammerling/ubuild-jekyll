@@ -10,7 +10,9 @@
             <p>powering <br class="d-none d-sm-block">solutions with</p>
           {% endif %}
         </li>
-        {% for item in site.data.data.partners %}
+        {% capture row %}{{ include.rowname | default: "mainlogos" }}{% endcapture %}
+        {% assign logorow = site.data.data.hero_logo_rows | where: "name", row %}
+        {% for item in logorow[0].logos %}
         <li class="col">
             <a title="{{ item.title }}" href="{{ item.url }}" target="_blank"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
         </li>
