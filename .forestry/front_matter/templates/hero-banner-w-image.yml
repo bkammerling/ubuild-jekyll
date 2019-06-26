@@ -57,7 +57,6 @@ fields:
     label: Button Text
 - name: logo_row
   type: select
-  default: hero_logo_rows
   config:
     required: false
     options: []
@@ -65,5 +64,5 @@ fields:
       type: documents
       section: wunder-data
       file: _data/data.yml
-      path: 
+      path: hero_logo_rows
   label: Logo Row
