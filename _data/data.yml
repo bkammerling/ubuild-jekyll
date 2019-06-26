@@ -17,3 +17,10 @@ partners:
 - title: Daimler
   url: https://www.daimler.com/en/
   logo: "/uploads/2019/02/19/daimler logo@2x.png"
+hero_logo_rows:
+- name: Wunder Main
+  logos:
+  - title: emmy
+    logo: "/uploads/2019/02/19/emmy logo@2x.png"
+    url: https://emmy-sharing.de/en/
+  custom_html: '&lt;a href="#"&gt;yo&lt;/a&gt;'
