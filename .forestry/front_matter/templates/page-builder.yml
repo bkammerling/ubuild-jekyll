@@ -14,6 +14,13 @@ fields:
   label: Permalink
   name: permalink
   hidden: true
+- type: text
+  label: Language Reference
+  name: lang-ref
+- type: text
+  label: Language
+  name: lang
+  hidden: true
 - type: blocks
   name: page_sections
   label: Page Sections

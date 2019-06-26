@@ -23,4 +23,14 @@ hero_logo_rows:
   - title: emmy
     logo: "/uploads/2019/02/19/emmy logo@2x.png"
     url: https://emmy-sharing.de/en/
-  custom_html: '&lt;a href="#"&gt;yo&lt;/a&gt;'
+  - title: Marubeni
+    url: https://www.marubeni.com/en/
+    logo: "/uploads/2019/02/19/marubeni logo@2x.png"
+  - title: Hive
+    url: https://www.ridehive.com/
+    logo: "/uploads/2019/02/19/hive-logo@2x.png"
+  - title: Daimler
+    url: https://www.daimler.com/en/
+    logo: "/uploads/2019/02/19/daimler logo@2x.png"
+  custom_html: |-
+    <a href="#">yo</a>

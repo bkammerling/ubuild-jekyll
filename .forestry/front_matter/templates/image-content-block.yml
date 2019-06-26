@@ -8,8 +8,6 @@ fields:
   label: Heading
 - name: sub-heading
   type: text
-  config:
-    required: false
   label: Subheading
 - type: field_group_list
   label: Items
@@ -26,9 +24,8 @@ fields:
   label: Columns
   description: How many cards per row (on large desktop)
   default: '2'
-  required: true
   config:
-    min: 
+    min:
     max: '4'
     step: '1'
 - type: text
