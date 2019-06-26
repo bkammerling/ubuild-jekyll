@@ -55,12 +55,12 @@ fields:
 pages:
 - pages/park.md
 - pages/home.md
+- pages/careers/careers.md
 - pages/careers/perks.md
 - pages/summit.md
-- pages/careers/careers.md
 - pages/summit18.md
-- pages/careers/culture.md
-- pages/careers/locations.md
 - pages/careers/jobs.md
+- pages/careers/locations.md
 - pages/autotech.md
 - pages/terms.md
+- pages/careers/culture.md
