@@ -11,6 +11,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+  sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
   headline: Technology to build, innovate and scale <strong>shared mobility</strong>
@@ -19,12 +20,14 @@ page_sections:
     url: "#section-contact"
     enabled: true
   cta_2:
-    url: "https://vimeo.com/318402556"
+    url: https://vimeo.com/318402556
     button_text: Watch our Film
     enabled: true
   background_video: jared-drone4
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.jpg"
+  intro_text: ''
+  logo_row: mainlogos
 - template: custom-block
   block: home-main
   subdirectory: static
@@ -40,10 +43,12 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We believe in speed. Let us know how we can help and we'll get in touch with you in no time.
+  content: We believe in speed. Let us know how we can help and we'll get in touch
+    with you in no time.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
+  content: ''
 
 ---
