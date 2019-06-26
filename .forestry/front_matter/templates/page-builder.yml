@@ -17,6 +17,7 @@ fields:
 - type: text
   label: Language Reference
   name: lang-ref
+  hidden: true
 - type: text
   label: Language
   name: lang
@@ -50,6 +51,7 @@ fields:
   - photo-gallery
   - block-from-right
   - icon-heading-cards
+  - custom-block
 pages:
 - pages/careers/perks.md
 - pages/summit.md

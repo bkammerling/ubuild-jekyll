@@ -1,0 +1,13 @@
+---
+label: Custom Block
+hide_body: true
+display_field: block
+fields:
+- type: text
+  name: block
+  label: Block
+  description: Name of custom block
+- type: text
+  name: subdirectory
+  label: Subdirectory
+  description: ''
