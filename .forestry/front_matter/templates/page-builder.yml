@@ -53,6 +53,7 @@ fields:
   - icon-heading-cards
   - custom-block
 pages:
+- pages/park.md
 - pages/home.md
 - pages/careers/perks.md
 - pages/summit.md
