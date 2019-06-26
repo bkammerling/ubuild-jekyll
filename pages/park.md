@@ -22,8 +22,10 @@ page_sections:
     enabled: true
   background_video:
   show_logos: true
+  logo_row: wunderpark
   background_image: "/uploads/global/parking-header@2x.jpg"
 - block: park-main
+  template: custom-block
   subdirectory: static
 - template: detail-content
   block: contact-form
