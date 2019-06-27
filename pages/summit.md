@@ -279,19 +279,19 @@ page_sections:
           <section id="section-supporters">
             <h2 class="page-heading mb-5">In Partnership with...</h2>
             <div class="row align-items-center">
-              <div class="col-lg-4 col-sm-6">
+              <div class="col-lg-4 ">
                 <div class="partner-box ">
                   <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
                   <img class="" style="width: 150px; max-width: 95%;" data-src="uploads/global/googlelogo.svg">
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-6">
+              <div class="col-lg-4">
                 <div class="partner-box">
                 <!--<h3 class="mb-4">Conference Supporter</h3>-->
                   <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-6">
+              <div class="col-lg-4 ">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Exhibition Partner</h3>-->
                   <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
@@ -299,17 +299,17 @@ page_sections:
               </div>
             </div>
             <div class="row align-items-center">
-              <div class="col-lg-3 col-sm-6">
+              <div class="col-lg-4">
                 <div class="partner-box">
                   <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-6">
+              <div class="col-lg-4">
                 <div class="partner-box">
                   <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-6">
+              <div class="col-lg-4">
                 <div class="partner-box">
                   <img class="" style="width: 100px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
                 </div>
