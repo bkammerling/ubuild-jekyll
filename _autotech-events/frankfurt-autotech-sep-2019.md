@@ -131,122 +131,21 @@ event_block:
   name: Agenda
   content: |-
     <div class="container mt-5 mb-5" id="section-agenda">
-          <div class="wunder-bg right top-2"></div>
-
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2 mb-3">
-              <section class="mt-5">
-                <h2 class="page-heading mb-3">Agenda</h2>
-
-                <div class="border-hl-left w-x-shadow table-wrapper">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Time</th>
-                        <th scope="col">Event</th>
-                        <th scope="col">Speaker</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>10:00 – 11:10 AM</td>
-                        <td>Panel Discussion - The Future of the Powertrain</td>
-                        <td><span class="speaker-name">Neville Jackson</span>
-    <span class="speaker-position">- Chief Technology & Innovation Officer, Ricardo</span>
-    <span class="speaker-name">Joerg Ross</span>
-    <span class="speaker-position">- Chief Powertrain, Aston Martin Lagonda</span>
-    <span class="speaker-name">Andreas Kufferath</span>
-    <span class="speaker-position">- Head of Powertrain Technologies Development, Bosch</span></td>
-                      </tr>
-                      <tr>
-                        <td>11:10 – 11:40 AM</td>
-                        <td>Keynote Speech</td>
-                        <td><span class="speaker-name">Nikki Rimmington</span>
-    <span class="speaker-position">- VP & Chief Planning Officer, Aston Martin Lagonda</span></td>
-                      </tr>
-    <tr>
-                        <td>11:40 AM – 12:00 PM</td>
-                        <td>Keynote Speech</td>
-                        <td><span class="speaker-name">Patrick Foster</span>
-    <span class="speaker-position">- Chief Business Officer, Drivy</span></td>
-                      </tr>
-    <tr>
-                        <td>12:00 – 12:30 PM</td>
-                        <td>Lunch Break</td>
-                        <td></td>
-                      </tr>
-    <tr>
-                        <td>12:30 – 1:00 PM</td>
-                        <td>Keynote Speech</td>
-                        <td><span class="speaker-name">Gunnar Froh</span>
-    <span class="speaker-position">- CEO & Co-Founder, Wunder Mobility</span></td>
-                      </tr>
-    <tr>
-                        <td>1:00 – 2:10 PM</td>
-                        <td>Panel Discussion - The future of mobility</td>
-                        <td><span class="speaker-name">Mario Marin</span>
-    <span class="speaker-position">- CEO, UFO</span>
-    <span class="speaker-name">Lawrence Leuschner</span>
-    <span class="speaker-position">- CEO, Tier Mobility</span>
-    <span class="speaker-name">Dan Hubert</span>
-    <span class="speaker-position">- CEO, Appy Parking</span>
-    <span class="speaker-name">Felix Leuschner</span>
-    <span class="speaker-position">- CEO, Drove</span>
-    <span class="speaker-name">Franck Cazenave</span>
-    <span class="speaker-position">- Smart Cities Director, Bosch</span>
-    <span class="speaker-name">Samuel Baker</span>
-    <span class="speaker-position">- COO & Co-Founder, Wunder Mobility</span></td>
-                      </tr>
-    <tr>
-                        <td>2:10 – 2:40 PM</td>
-                        <td>Keynote Speech</td>
-                        <td><span class="speaker-name">Andreas Kufferath</span>
-    <span class="speaker-position">- Vice President, Bosch</span></td>
-                      </tr>
-    <tr>
-                        <td>2:40 – 3:50 PM</td>
-                        <td>Panel Discussion - Future of Electrification in the Powertrain</td>
-                        <td><span class="speaker-name">Phillipa Oldham</span>
-    <span class="speaker-position">- Head of National Network Programmes, Advanced Propulsion Centre</span>
-    <span class="speaker-name">John Caress</span>
-    <span class="speaker-position">- Vehicle Line Director, Aston Martin Lagonda</span>
-    <span class="speaker-name">Neil Morris</span>
-    <span class="speaker-position">- CEO, Faraday Institution</span>
-    <span class="speaker-name">Craig Wilson</span>
-    <span class="speaker-position">- Managing Director, Williams AE</span></td>
-                      </tr>
-    <tr>
-                        <td>3:50 – 4:40 PM</td>
-                        <td>Conversation - Driving the Future</td>
-                        <td><span class="speaker-name">Joerg Rueger</span>
-    <span class="speaker-position">- President, Bosch Engineering Group
-    </span>
-    <span class="speaker-name">Andy Palmer</span>
-    <span class="speaker-position">- President & Group CEO, Aston Martin Lagonda</span></td>
-                      </tr>
-                      <tr>
-                        <td>4:40 – 5:00 PM</td>
-                        <td>Closing remarks</td>
-                        <td>Senior Government Minister</td>
-                      </tr>
-                      <tr>
-                        <td>5:00 PM</td>
-                        <td>Drinks Reception</td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-              </section>
-            </div>
-          </div>
+      <div class="wunder-bg right top-2"></div>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mb-3">
+          <section class="mt-5">
+            <h2 class="page-heading mb-3">Agenda</h2>
+            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
+          </section>
         </div>
+      </div>
+    </div>
 - template: google-map
-  lat: 51.504911
-  lng: -0.1888
+  lat: 50.110850
+  lng: 8.656740
   block: google-map
-  headline: Don't Royally Miss Out
+  headline: Hosted in an Alpha World City
   content: The royal residence hosts this exciting event, co hosted with <strong>Aston
     Martin</strong> and <strong>Bosch</strong>. Join us in the Royal Borough of Kensington
     and Chelsea in London for meaningful insights into the world and future of mobility!
