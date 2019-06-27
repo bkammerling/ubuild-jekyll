@@ -86,11 +86,6 @@ event_block:
     company: Aston Martin
     speaker_photo: "/uploads/2019/06/12/Nikki-Rimmington.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Dan Hubert
-    job_title: CEO & Founder
-    company: AppyParking
-    speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
-    company_logo: "/uploads/2019/05/03/appyparking@2x.png"
   - name: Craig Wilson
     job_title: Managing Director
     company: Williams Advanced Engineering
