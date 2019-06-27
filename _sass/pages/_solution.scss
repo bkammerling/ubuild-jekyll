@@ -263,7 +263,7 @@ main {
 
     #phoneqr {
       animation: phone-in 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate 0s;
-      transform: translateX(30px)
+      transform: translateX(38px)
     }
 
     #terminal-toplight {
@@ -273,7 +273,7 @@ main {
 
   @keyframes phone-in {
     to {
-      transform: translateX(39px) translateY(-10px) rotateZ(2deg) rotateY(36deg);
+      transform: translateX(58px) translateY(-10px) rotateZ(2deg) rotateY(36deg) scale(0.92);
     }
   }
 
