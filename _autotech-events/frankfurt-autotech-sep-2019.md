@@ -3,7 +3,6 @@ layout: blocks-events
 title: Frankfurt AutoTech July 2019
 event_date: 2019-09-12T14:00:00.000+00:00
 event_location: Frankfurt am Main, Germany
-published: false
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -13,9 +12,8 @@ event_block:
     url: https://www.wundermobility.com/#contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/05/02/london-sky@2x.jpg"
-  headline: July AutoTech Meetup<br>in <strong>London</strong><br>With Bosch &amp;
-    Aston Martin
+  background_image: "/uploads/2019/06/27/frankfurt-big@2x.jpg"
+  headline: September AutoTech<br>in <strong>Frankfurt</strong><br>With PwC Strategy&amp;
 - template: custom-content
   block: custom-html
   name: In partnership with...
@@ -257,11 +255,9 @@ event_block:
 - template: simple-footer
   block: footer-1
   content: ''
-event_description: Taking place in <strong>Kensington Palace,</strong> this edition
-  is already set to be superb. We'll be hearing from a fantastic selection of CEOs
-  and founders from successful <strong>startups in the mobility industry,</strong>  who
-  will be discussing the <strong>challenges and opportunities</strong> they face.
-featured_image: "/uploads/2019/04/30/london@2x.jpg"
+event_description: ''
+featured_image: "/uploads/2019/06/27/frankfurt-small@2x.jpg"
 output_page: true
+published: false
 
 ---
