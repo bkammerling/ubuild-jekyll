@@ -26,6 +26,7 @@ page_sections:
   background_image: "/uploads/global/Image_WMS19@2x.png"
   background_video: ''
   intro_text: ''
+  logo_row: ''
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
@@ -87,8 +88,8 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder Mobility Summit...
-    content: <strong class="text-blue">...the unique conference and innovation festival
-      on the future of mobility in Germany, Hamburg.</strong>
+    content: "<strong>...the unique conference and innovation festival on the future
+      of mobility in Hamburg, Germany.</strong>"
   col_2:
     headline: ''
     content: The Wunder Mobility Summit exclusively brings together the brightest
@@ -371,6 +372,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
+lang-ref: ''
+lang: ''
 
 ---
 {% comment %}
