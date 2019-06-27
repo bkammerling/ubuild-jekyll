@@ -367,9 +367,7 @@ var jobs = {
       var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
       singleHTML.find(".job-location").text(location);
       var content = $('<textarea />').html(job.content).text();
-      console.log(job);
-      console.log(content);
-      if(content.split('</h3>').length >= 3) content = content.split('</h3>')[2];
+      if(content.split('</h3>').length > 2) content = content.split('</h3>')[1];
 
       singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
       jobListHTML += singleHTML.wrap('<p/>').parent().html()
@@ -514,7 +512,7 @@ var benefits = {
     $(".cls-109, .grayoverlay, svg #map").hover(function() {
       $(".benefits svg").removeClass().addClass($(this).data('id'));
       $(".benefitstooltip").addClass("mouseover");
-      $('.benefitstooltip').text($(this).data('title').toUpperCase());
+      $('.benefitstooltip').html($(this).data('title').toUpperCase());
     }, function() {
       $(".benefitstooltip").removeClass("mouseover");
       $(".benefits svg").removeClass();
