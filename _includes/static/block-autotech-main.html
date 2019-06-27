@@ -86,8 +86,10 @@
               {% for event in events %}
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = event.event_date | date: '%s' %}
-                {% if event_secs >= today_date %}
+                {% assign event_num = 0 %}
+                {% if event_secs >= today_date and event_num < 4 %}
                 <div class="col-sm-4">
+                  {% assign event_num = event_num | plus: 1 %}
                   {% if event.output_page %}<a href="{{ event.url }}" title="{{ event.title }}">{% endif %}
                     <div class="card location-card w-x-shadow mb-3" {% unless event.output_page %}data-toggle="tooltip" data-placement="bottom" title="We are still preparing this event, check back soon!"{% endunless %}>
                       {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
@@ -146,8 +148,10 @@
               {% for event in site.autotech-events %}
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = event.event_date | date: '%s' %}
-                {% if event_secs < today_date %}
+                {% assign oldevent_num = 0 %}
+                {% if event_secs < today_date and event_num < 4 %}
                 <div class="col-sm-4">
+                  {% assign oldevent_num = event_num | plus: 1 %}
                   <a href="{{ event.url }}" title="{{ event.title }}">
                     <div class="card location-card w-x-shadow mb-3">
                       {% capture featured_image %}{{ event.featured_image }}{% endcapture %}
