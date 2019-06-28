@@ -25,11 +25,11 @@ wunder-main:
   parent: solutions
   identifier: park
   title: Park
-- url: "/city"
-  weight: 5
-  parent: solutions
-  identifier: city
-  title: City
+#- url: "/city"
+#  weight: 5
+#  parent: solutions
+#  identifier: city
+#  title: City
 - url: "#"
   weight: 2
   title: Events
@@ -76,11 +76,11 @@ wunder-de:
   parent: solutions
   identifier: fleet
   title: Fleet
-- url: "/de/city"
-  weight: 4
-  parent: solutions
-  identifier: city
-  title: City
+#- url: "/de/city"
+#  weight: 4
+#  parent: solutions
+#  identifier: city
+#  title: City
 - url: "#"
   weight: 2
   title: Events
@@ -256,13 +256,13 @@ footer:
     weight: 3
     title: Wunder Fleet
     parent: solutions
-  #- identifier: park
-  #  url: "/park"
-  #  weight: 4
-  #  title: Wunder Park
-  #  parent: solutions
-  - identifier: fleet
-    url: "/city"
-    weight: 5
-    title: Wunder City
+  - identifier: park
+    url: "/park"
+    weight: 4
+    title: Wunder Park
     parent: solutions
+#  - identifier: city
+#    url: "/city"
+#    weight: 5
+#    title: Wunder City
+#    parent: solutions
