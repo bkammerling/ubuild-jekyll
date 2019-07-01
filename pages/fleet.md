@@ -20,6 +20,10 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
+  cta_2:
+    url: "#main-video"
+    button_text: Watch Fleet Film
+    enabled: true
   background_video:
   show_logos: true
   background_image: "/uploads/global/Fleet-Header-Image_40.jpg"
