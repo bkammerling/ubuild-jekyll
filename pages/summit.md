@@ -151,6 +151,11 @@ page_sections:
     company: CARS24
     speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
     company_logo: "/uploads/2019/05/10/logo-cars24.png"
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
   - name: Horace Dediu
     job_title: Co-Founder
     company: Micromobility Industries
