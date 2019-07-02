@@ -208,8 +208,12 @@ main {
 
 .park {
   .top-image-wrapper svg {
-    margin-top: -100px;
+    margin-top: -140px;
     margin-bottom: -200px;
+    @include rwd(tablet-up) {
+      margin-top: -100px;
+      margin-bottom: -200px;
+    }
   }
   .top-image-wrapper svg #Path-10 {
     stroke-dasharray: 539;
@@ -247,41 +251,46 @@ main {
   }
 
   #parkterminal  {
-    max-width: 350px;
+    margin: 50px auto 0;
+    display: block;
+    max-height: 300px;
+    @include rwd(tablet-up) {
+      margin-top: -100px;
+      margin-bottom: -100px;
+      max-width: 300px;
+      max-height: none;
+    }
+
     #phoneqr {
       animation: phone-in 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate 0s;
+      transform: translateX(38px)
     }
 
     #terminal-toplight {
       animation: light-on 3s linear infinite alternate 1s;
-      filter: none;
     }
   }
 
   @keyframes phone-in {
     to {
-      transform: translateX(-12px) translateY(-10px) rotateZ(2deg);
+      transform: translateX(58px) translateY(-10px) rotateZ(2deg) rotateY(36deg) scale(0.92);
     }
   }
 
   @keyframes light-on {
     0% {
       fill: #ffffff;
-      filter: none;
     }
     45% {
       fill: #ffffff;
     }
     53% {
-      filter: none;
     }
     55% {
       fill: #04DE47;
-      //filter: url(#f2);
     }
     100% {
       fill: #04DE47;
-      //filter: url(#f2);
     }
   }
 

@@ -256,7 +256,7 @@ $includeClasses: true !default;
   .highlight-top {
     border-color: $solution-highlight;
   }
-  .round-cta:not(.clear), #modal-form #form-submit {
+  .round-cta:not(.clear):not(.with-play), #modal-form #form-submit {
     background-color: $solution-highlight !important;
     border: none;
     &:hover {

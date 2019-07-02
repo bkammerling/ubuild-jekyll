@@ -83,6 +83,13 @@
   &.mouseover {
       opacity: 1;
   }
+  small {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
 }
 
 .benefits {

@@ -51,16 +51,21 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: Neil Morris
-    job_title: Chief Executive
-    company: The Faraday Institution
-    speaker_photo: "/uploads/2019/06/12/Neil-Morris.png"
-    company_logo: "/uploads/2019/06/12/The-Faraday-Institution.png"
   - name: Neville Jackson
     job_title: Chief Technology & Innovation Officer
     company: Ricardo
     speaker_photo: "/uploads/2019/06/12/Neville-Jackson.png"
     company_logo: "/uploads/2019/06/12/Ricardo-logo.png"
+  - name: Philippa Oldham
+    job_title: Head of National Network Programmes
+    company: Advanced Propulsion Centre UK
+    speaker_photo: "/uploads/2019/06/12/Philippa Oldham.png"
+    company_logo: "/uploads/2019/06/12/Advanced Propulsion Centre UK.png"
+  - name: Neil Morris
+    job_title: Chief Executive
+    company: The Faraday Institution
+    speaker_photo: "/uploads/2019/06/12/Neil-Morris.png"
+    company_logo: "/uploads/2019/06/12/The-Faraday-Institution.png"
   - name: Lawrence Leuschner
     job_title: CEO & Co-Founder
     company: Tier Mobility
@@ -86,11 +91,6 @@ event_block:
     company: Aston Martin
     speaker_photo: "/uploads/2019/06/12/Nikki-Rimmington.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
-  - name: Dan Hubert
-    job_title: CEO & Founder
-    company: AppyParking
-    speaker_photo: "/uploads/2019/05/03/dan-hub@2x.jpeg"
-    company_logo: "/uploads/2019/05/03/appyparking@2x.png"
   - name: Craig Wilson
     job_title: Managing Director
     company: Williams Advanced Engineering
@@ -108,7 +108,7 @@ event_block:
     company_logo: "/uploads/global/bosch-logo.png"
   - name: Joerg Ross
     job_title: Chief Powertrain
-    company: Chief Powertrain
+    company: Aston Martin
     speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Andreas Kufferath
@@ -116,11 +116,6 @@ event_block:
     company: Bosch
     speaker_photo: "/uploads/2019/06/12/Andreas-Kufferath.png"
     company_logo: "/uploads/global/bosch-logo.png"
-  - name: Philippa Oldham
-    job_title: Head of National Network Programmes
-    company: Advanced Propulsion Centre UK
-    speaker_photo: "/uploads/2019/06/12/Philippa Oldham.png"
-    company_logo: "/uploads/2019/06/12/Advanced Propulsion Centre UK.png"
   - name: Ben Lawson
     job_title: Vice President
     company: Enterprise Holdings
