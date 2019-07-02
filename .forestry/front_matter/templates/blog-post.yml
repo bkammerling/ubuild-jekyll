@@ -1,4 +1,44 @@
 ---
 label: Blog Post
 hide_body: false
-fields: []
+display_field: post_title
+fields:
+- name: post_title
+  type: text
+  config:
+    required: false
+  label: Post Title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Insights
+    - News
+    - Life@Wunder
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: publish_date
+  type: datetime
+  label: Publish Date
+  description: ''
+  config:
+    required: false
+    date_format: ''
+    time_format: "-"
+    display_utc: false
+    export_format: MM/DD/YYYY
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Excerpt
