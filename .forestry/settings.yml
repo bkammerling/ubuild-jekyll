@@ -1,5 +1,5 @@
 ---
-new_page_extension: html
+new_page_extension: md
 auto_deploy: true
 admin_path: ''
 webhook_url:
@@ -15,7 +15,9 @@ sections:
   new_doc_ext: md
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - blog-post
 - type: directory
   path: _articles
   label: Press
