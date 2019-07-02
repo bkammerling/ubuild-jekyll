@@ -108,7 +108,7 @@ event_block:
     company_logo: "/uploads/global/bosch-logo.png"
   - name: Joerg Ross
     job_title: Chief Powertrain
-    company: Chief Powertrain
+    company: Aston Martin
     speaker_photo: "/uploads/2019/06/12/Joerg-Ross.png"
     company_logo: "/uploads/2019/06/12/Aston-Martin-Logo-1.png"
   - name: Andreas Kufferath
