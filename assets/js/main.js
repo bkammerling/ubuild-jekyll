@@ -40,7 +40,6 @@ videoPlayer.init();
 /* SVG ANIMATIONS (IF ANY) */
 var animation = {
   init: function() {
-    this.setAnim("product-anim", '/assets/animdata/data.json');
     this.setAnim("london-anim", "/assets/animdata/cities/London/data.json");
     this.setAnim("manila-anim", "/assets/animdata/cities/Manila/data.json");
     this.setAnim("auckland-anim", "/assets/animdata/cities/Auckland/data.json");
@@ -101,17 +100,7 @@ slider.init(".picture-slider", {
   nextArrow:
     '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
 });
-/*
-slider.init(".phone-slider", {
-  dots: true,
-  lazyLoad: 'ondemand',
-  arrows: false,
-  slidesToShow: 1,
-  infinite: false,
-  speed: 500,
-  variableWidth: true
-});
-*/
+
 
 var menu = {
   init: function() {
@@ -199,12 +188,14 @@ var form = {
     var postURL = contactForm.attr('action');
     //console.log(contactForm.serialize());
     var data = form.serializeObject(contactForm);
+    var label = form.conversionLabels[data.subject];
     // add subject for summit related messages
     if($(".modal-body #subject-field").length) {
+      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
       data.subject = $("form #subject-field").val();
     } else {
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
-      dataLayer.push({'event': 'formSubmitted', 'formSubject': data.subject});
+      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
     }
     console.log(data);
 
@@ -276,6 +267,15 @@ var form = {
     } else {
       return true;
     }
+  },
+  conversionLabels: {
+    'Wunder Fleet': 'CBdyCIeLx5YBELDQutED',
+    'Wunder Carpool': 'xgvvCOfR46QBELDQutED',
+    'Wunder Shuttle': 'L0ZiCNDV46QBELDQutED',
+    'Wunder Park': 'OgV9CMG_3qQBELDQutED',
+    'Wunder Rental': '-Xc_CKWC7KQBELDQutED',
+    'Wunder City': '0hWZCJeJ7KQBELDQutED',
+    'WMS': 'NvWgCNzV46QBELDQutED'
   }
 
 };
@@ -605,6 +605,51 @@ function initMap() {
   googleMap.init();
 }
 
+/*
+var twitterModule = {
+  init: function() {
+    var url = "https://spreadsheets.google.com/feeds/list/1t7ByLgFqVxmg4ZD2GLKpOEdT0IzyOrth7mwL2AJqVpE/od6/public/values?alt=json";
+    $.get( url, function( data ) {
+      var rows = data.feed.entry;
+      twitterModule.data = rows;
+    })
+  },
+  data: [],
+  buildFeed: function(posts = this.data) {
+    var feedHTML = this.makeHTML(posts)
+    $(".feed__list").append(feedHTML);
+  },
+  makeHTML: function(posts = this.data) {
+    console.log(posts);
+    if(posts.length < 1) return "<p>😳 Sorry, get our twitter posts.</p>";
+    var singleHTML = $(".feed__list-item").clone().removeClass('hidden');
+    var jobListHTML = "";
+    for(var i = 0; i < posts.length; i++) {
+      var job = posts[i];
+      singleHTML.find(".job-title").text(job.title);
+      if(job.departments[0].name == 'Analytics') {
+        var jobCategory = 'Data';
+      } else {
+        jobCategory = job.departments[0].name;
+      }
+      singleHTML.find(".job-category").text(jobCategory);
+      singleHTML.find(".job-title").attr('href', job.absolute_url);
+      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
+      singleHTML.find(".job-location").text(location);
+      var content = $('<textarea />').html(job.content).text();
+      if(content.split('</h3>').length > 2) content = content.split('</h3>')[1];
+
+      singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
+      jobListHTML += singleHTML.wrap('<p/>').parent().html()
+
+    } // end of for loop
+    return jobListHTML;
+  },
+
+}
+twitterModule.init();
+*/
+
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
         sURLVariables = sPageURL.split('&'),
@@ -619,7 +664,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
-
 
 function setupIp() {
   // run from footer script onload event
