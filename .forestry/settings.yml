@@ -15,7 +15,9 @@ sections:
   new_doc_ext: md
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - blog-post
 - type: directory
   path: _articles
   label: Press
