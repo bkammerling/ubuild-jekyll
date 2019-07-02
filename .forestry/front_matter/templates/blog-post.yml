@@ -42,3 +42,5 @@ fields:
     schema:
       format: markdown
   label: Excerpt
+pages:
+- _posts/4-things-future-mobility.html
