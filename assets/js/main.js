@@ -191,7 +191,9 @@ var form = {
     var label = form.conversionLabels[data.subject];
     // add subject for summit related messages
     if($(".modal-body #subject-field").length) {
-      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
+      var subject = 'WMS';
+      label = form.conversionLabels[subject];
+      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': subject, 'conversionLabel': label });
       data.subject = $("form #subject-field").val();
     } else {
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
