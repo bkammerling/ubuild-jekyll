@@ -31,7 +31,7 @@ fields:
     required: false
     date_format: ''
     time_format: ''
-    display_utc: false
+    display_utc: true
     export_format: ''
 - name: excerpt
   type: textarea
