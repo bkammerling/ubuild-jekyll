@@ -88,7 +88,7 @@ event_description: 'We are jointly hosting an informal but exclusive invite-only
   In this edition, we are focussing on the discussion about how roads and how the
   automotive industry will be shaped as well as an intensive conversation about what
   policymakers must do to set the right course. '
-featured_image: "/uploads/2019/06/27/frankfurt-small@2x.jpg"
+featured_image: "/uploads/2019/07/03/Frankfurt.jpg"
 output_page: true
 
 ---
