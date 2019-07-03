@@ -30,7 +30,7 @@ fields:
   config:
     required: false
     date_format: ''
-    time_format: "-"
+    time_format: ''
     display_utc: false
     export_format: MM/DD/YYYY
 - name: excerpt
