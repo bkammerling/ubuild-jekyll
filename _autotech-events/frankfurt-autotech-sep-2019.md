@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Frankfurt AutoTech September 2019
-event_date: 2019-09-12 16:00:00 +0000
+event_date: 2019-09-12T16:00:00.000+00:00
 event_location: Frankfurt am Main, Germany
 event_block:
 - template: navigation-header-w-button
@@ -25,8 +25,7 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-            <img src="uploads/global/bosch-logo.png" style="width: 200px" class="mr-4" />
-            <img src="uploads/global/aston_martin.png" style="width: 130px" />
+            <img src="uploads/2019/07/03/Strategy&.jpg" style="width: 200px" class="mr-4" />
 
           </section>
         </div>
@@ -76,17 +75,20 @@ event_block:
   lng: '8.656740'
   block: google-map
   headline: PwC Experience Center
-  content: 'This exciting event is co-hosted with <strong>PwC Strategy&<strong> and
-    you''re invited to learn from inspiring speakers and to connect with leaders of
-    the global mobility ecosystem. '
+  content: With experts from PwC, the European Parliament Committee for Transportation,
+    NIO and King & Woods Malleason we want to find answers and solutions to accelerate
+    the transition to sustainable mobility.
   gmaps_link: https://goo.gl/maps/Yi3zNvhFWxyRraAd7
   venue_location: Friedrich-Ebert-Anlage 35-37, 60327 Frankfurt am Main
 - template: simple-footer
   block: footer-1
   content: ''
-event_description: ''
+event_description: 'We are jointly hosting an informal but exclusive invite-only event
+  with PricewaterhouseCoopers in the PwC Experience Center on the IAA opening day.
+  In this edition, we are focussing on the discussion about how roads and how the
+  automotive industry will be shaped as well as an intensive conversation about what
+  policymakers must do to set the right course. '
 featured_image: "/uploads/2019/06/27/frankfurt-small@2x.jpg"
 output_page: true
-published: false
 
 ---
