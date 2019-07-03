@@ -34,6 +34,10 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: To be announced
+    company: PricewaterhouseCoopers
+    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
+    company_logo: "/uploads/2019/07/03/PWC.png"
   - name: Zhang Hui
     job_title: Managing Director
     company: NIO Germany
