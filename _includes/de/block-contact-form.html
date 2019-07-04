@@ -10,14 +10,16 @@
           </div>
         </div>
         <div class="contact-form__form">
-          <form id="main-contact" name="website-contact-form" action="https://usebasin.com/f/176b0ad86ef6.json" method="POST">
-            <input type="hidden" name="firstname" id="recipient-firstname">
+          <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
+            <p class="hidden">
+              <input name="_gotcha">
+            </p>
             <input type="hidden" name="country" id="user-country" value="">
             <input type="hidden" name="region" id="user-region" value="EN">
             <input type="hidden" name="utm_source" id="utm_source" value="">
             <input type="hidden" name="utm_medium" id="utm_medium" value="">
             <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-            <input type="hidden" name="utm_campaigngroup" id="utm_campaigngroup" value="">
+            <input type="hidden" name="utm_campaignid" id="utm_campaignid" value="">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
@@ -48,18 +50,19 @@
               <div class="select-wrapper">
                 <select name="subject" class="form-control select2-init" style="width:100%" id="subject-field" required>
                   <option disabled selected>Subject *</option>
-                  <option data-id="carpool">Wunder Carpool</option>
-                  <option data-id="shuttle">Wunder Shuttle</option>
-                  <option data-id="fleet">Wunder Fleet</option>
-                  <option data-id="city">Wunder City</option>
-                  <option data-id="general">General enquiry</option>
-                  <option data-id="support">Wunder Carpool app support</option>
+                  <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
+                  <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
+                  <option value="Wunder Fleet" data-id="fleet">Wunder Fleet</option>
+                  {% comment %}<option value="Wunder City" data-id="city">Wunder City</option>{% endcomment %}
+                  <option value="Wunder Park" data-id="park">Wunder Park</option>
+                  <option value="General enquiry" data-id="general">General enquiry</option>
+                  <option value="Wunder Carpool app support" data-id="support">Wunder Carpool app support</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>
             </div>
             <div class="hidden extra-form">
-              <div class="form-group shuttle carpool fleet city">
+              <div class="form-group shuttle carpool fleet city park">
                 <label class="form-label" for="url">URL Unternehmen</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
@@ -68,10 +71,10 @@
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Art des Unternehmens *</option>
-                    <option>Operating start-up</option>
-                    <option>Non operating start-up</option>
-                    <option>OEM</option>
-                    <option>Corporate</option>
+                    <option value="Operating start-up">Operating start-up</option>
+                    <option value="Non operating start-up">Non operating start-up</option>
+                    <option value="OEM">OEM</option>
+                    <option value="Corporate">Corporate</option>
                     <option value="Public services">Öffentliche Einrichtung</option>
                     <option value="City / Government">Stadtverwaltung</option>
                     <option value="Other">Sonstiges</option>
@@ -174,7 +177,7 @@
                 </div>
               </div>
               {% endcomment %}
-              <div class="form-group general fleet shuttle carpool city">
+              <div class="form-group general fleet shuttle carpool city park">
                 <label class="form-label" for="message">Nachricht</label>
                 <textarea type="text" name="message" id="message"></textarea>
                 <div class="bottom-border"></div>
@@ -187,6 +190,7 @@
                 </div>
               </div>
             </div>
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
               Senden!
             </button>
