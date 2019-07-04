@@ -1,0 +1,130 @@
+<section class="block block-blog-list" id="section-bloglist">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+
+        <div class="sticky-post">
+          <div class="card horizontal-card">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <img src="https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities/city-traffic/_jcr_content/Grid/category_atl_9054/layout-category-atl/anchor_info_471b/image.img.jpg/1509700255133.jpg" class="card-img" alt="" >
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <p class="card-cat">NEWS</p>
+                  <h4 class="card-title">VIDEO: Introducing Wunder Mobility</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text card-bottom"><small class="text-muted">June 24th</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-columns">
+
+          <div class="card">
+            <img class="card-img-top" src="https://ak1.picdn.net/shutterstock/videos/13020191/thumb/1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-cat">INSIGHTS</p>
+              <h4 class="card-title">4 Things that will change the future of mobility </h4>
+              <p class="card-text card-bottom"><small class="text-muted">July 3rd</small></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="https://amp.businessinsider.com/images/5cb642b8abb9f50cf06839df-750-562.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-cat">NEWS</p>
+              <h4 class="card-title">An Interview with WAYMO CEO JOHN KRAFCIK</h4>
+              <p class="card-text card-bottom"><small class="text-muted">June 18th</small></p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="text-center">
+          <a class="round-cta dark" href="#">View More</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="follow-bar">
+  <div class="block-full-right col-2-in w-bg w-x-shadow">
+    <div class="container container-fullright">
+      <div class="row">
+        <div class="col">
+          healthy
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+{% comment %}
+          <div class="image-captions__grid columns-2">
+            {% if section.show_featured %}
+              {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"  %}
+              {% assign articleLimit = 4 %}
+            {% else %}
+              <!--{% assign articles = site.articles | where_exp:"item", "section.items contains item.path" | sort: "date"  %}-->
+              {% assign articles = site.articles | sort: "date" | reverse %}
+              {% assign articleLimit = 14 %}
+            {% endif %}
+            {% for item in articles limit: articleLimit %}
+            <!-- #Start Image-Caption Item -->
+            <div class="image-captions__item w-shadow {% if item.url %}w-arrow{% endif %}">
+              <div class="image-captions__image">
+                <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" />
+              </div>
+              <a href="{{ item.link }}" target="_blank">
+                <div class="image-captions__content">
+                  <div class="image-captions__title">
+                    {% if item.icon %}
+                      <img src="{{ item.icon }}" />
+                    {% endif %}
+                    {% if item.date %}
+                      <div class="article-date">{{ item.date | date: "%d.%m.%Y" }}</div>
+                    {% endif %}
+                    <h4>{{ item.title }}</h4>
+                  </div>
+                  <!--
+                  {% unless item.content.size > 10 and item.content contains "uploads"  %}
+                  <p>{{ item.content | truncate: 100 }}</p>
+                  {% endunless %}
+                  -->
+                  {% if item.link %}
+                  <a href="{{ item.link }}" class="circle-arrow" target="_blank"></a>
+                  {% endif %}
+                </div>
+              </a>
+            </div>
+            <!-- #End Image-Caption Item -->
+            {% endfor %}
+          </div>
+{% endcomment %}
+
+      </div>
+    </div>
+  </div>
+</section>
+{% if page.title == 'Home' %}
+</main>
+{% endif %}
