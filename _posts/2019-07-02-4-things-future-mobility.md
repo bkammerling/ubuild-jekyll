@@ -6,6 +6,7 @@ publish_date: 2019-07-01T00:00:00.000+00:00
 sticky: true
 excerpt: Expanding metropolises will have to come up with modern solutions to their
   complex problems - and fast!
+featured_image: "/uploads/2019/07/05/orangedystopia.jpeg"
 
 ---
 **Long gone is the golden age of private vehicle ownership: cities are swelling, opinions are changing and a new approach to urban mobility is rapidly gaining traction.**
