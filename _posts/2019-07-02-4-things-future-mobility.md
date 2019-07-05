@@ -5,14 +5,12 @@ post_title: '4 Things that will change the future of mobility '
 publish_date: 2019-07-01T00:00:00.000+00:00
 sticky: true
 excerpt: Expanding metropolises will have to come up with modern solutions to their
-  complex problems - and fast! - if they hope to have a healthy, accessible transportation
-  ecosystem in the future.
-author: pia.benthien
+  complex problems - and fast!
 
 ---
-**Expanding metropolises will have to come up with modern solutions to their complex problems - and fast! - if they hope to have a healthy, accessible transportation ecosystem in the future.**
+**Long gone is the golden age of private vehicle ownership: cities are swelling, opinions are changing and a new approach to urban mobility is rapidly gaining traction.**
 
-![Skyscrapers reach above the fog in a Canadian city](/uploads/2019/07/05/orangedystopia.jpeg "Cities are growing") _Cities are growing upwards and outwards!_ 
+![Skyscrapers reach above the fog in a Canadian city](/uploads/2019/07/05/orangedystopia.jpeg "Cities are growing") _Cities are growing upwards and outwards!_
 
 Anyone who’s ever been stuck in a traffic jam or on a hot, overcrowded bus on the way to work knows that congestion is an extremely irritating and inefficient waste of time and money. Take New York and London as an example for example.
 
