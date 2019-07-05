@@ -75,6 +75,15 @@ h4.card-title {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+  &.insights {
+    color: #04DE47;
+  }
+  &.news {
+    color: #FF0043;
+  }
+  &.lifewunder {
+    color: #06A0E3;
+  }
 }
 
 .card-bottom {
@@ -90,9 +99,14 @@ h4.card-title {
   footer {
     margin-top: 6rem;
   }
+  .post-cat {
+    margin-bottom: 5px;;
+  }
 }
 
 .article-header {
+
+  margin-bottom: 2rem;
 
   .article-header__content {
     border-bottom: 1px solid $grey-heading;

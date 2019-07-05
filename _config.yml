@@ -13,7 +13,7 @@ collections:
     permalink: /autotech-events/:title
     output: true
 
-permalink: /blog/:title
+permalink: /blog/:title.html
 
 include: ['_redirects']
 

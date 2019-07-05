@@ -8,7 +8,7 @@
             <div class="col-sm-8 offset-sm-2">
               <div class="row article-header__content align-items-center">
                 <div class="col-sm-8 pl-sm-0">
-                  <h3>Wunder Blog</h3>
+                  <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
                 </div>
                 <div class="col-sm-4 pr-sm-0">
                   <div class="share-block">
@@ -25,11 +25,11 @@
         </header>
         <div class="row">
           <div class="col-sm-6 offset-sm-3">
-            <p class="post-cat">
+            <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">
               {{ page.category }}
             </p>
             <p class="post-date">
-              {{ page.publish_date | date: "%B %-d, %y" }}
+              {{ page.publish_date | date: "%B %-d, %Y" }}
             </p>
             <h1>{{ page.post_title }}</h1>
             <div class="blog-content">

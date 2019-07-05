@@ -13,10 +13,10 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card-body">
-                    <p class="post-cat">News</p>
-                    <h4 class="card-title">VIDEO: Introducing Wunder Mobility</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text card-bottom"><small class="text-muted">June 24th</small></p>
+                    <p class="post-cat">{{ sticky.category }}</p>
+                    <h4 class="card-title">{{ sticky.post_title }}</h4>
+                    <p class="card-text">{{ sticky.excerpt }}</p>
+                    <p class="card-text card-bottom"><small class="text-muted">{{ sticky.publish_date | date: "%B %-d, %Y" }}</small></p>
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@
           <div class="card">
             <img class="card-img-top" src="https://ak1.picdn.net/shutterstock/videos/13020191/thumb/1.jpg" alt="Card image cap">
             <div class="card-body">
-              <p class="card-cat">INSIGHTS</p>
+              <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">INSIGHTS</p>
               <h4 class="card-title">4 Things that will change the future of mobility </h4>
               <p class="card-text card-bottom"><small class="text-muted">July 3rd</small></p>
             </div>
@@ -38,7 +38,7 @@
           <div class="card">
             <img class="card-img-top" src="https://amp.businessinsider.com/images/5cb642b8abb9f50cf06839df-750-562.jpg" alt="Card image cap">
             <div class="card-body">
-              <p class="card-cat">NEWS</p>
+              <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">NEWS</p>
               <h4 class="card-title">An Interview with WAYMO CEO JOHN KRAFCIK</h4>
               <p class="card-text card-bottom"><small class="text-muted">June 18th</small></p>
             </div>
