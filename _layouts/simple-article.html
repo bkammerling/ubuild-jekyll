@@ -25,6 +25,12 @@
         </header>
         <div class="row">
           <div class="col-sm-6 offset-sm-3">
+            <p class="post-cat">
+              {{ page.category }}
+            </p>
+            <p class="post-date">
+              {{ page.publish_date | date: "%B %-d, %y" }}
+            </p>
             <h1>{{ page.post_title }}</h1>
             <div class="blog-content">
               {{ content }}
