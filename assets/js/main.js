@@ -537,7 +537,7 @@ if(pagetitle == "Perks") benefits.init();
 
 
 var scroller = {
-  header: $("nav.absolute-header"),
+  header: $("nav.absolute-header:not(.navbar-narrow)"),
   menuCta: $(".menu-item-cta"),
   init: function() {
     var raf = window.requestAnimationFrame ||

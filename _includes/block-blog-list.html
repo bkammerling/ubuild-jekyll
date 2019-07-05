@@ -3,22 +3,25 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
 
+        {% assign sticky = site.posts | sort: "date" | where: "sticky", true | first %}
         <div class="sticky-post">
-          <div class="card horizontal-card">
-            <div class="row no-gutters">
-              <div class="col-md-8">
-                <img src="https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities/city-traffic/_jcr_content/Grid/category_atl_9054/layout-category-atl/anchor_info_471b/image.img.jpg/1509700255133.jpg" class="card-img" alt="" >
-              </div>
-              <div class="col-md-4">
-                <div class="card-body">
-                  <p class="card-cat">NEWS</p>
-                  <h4 class="card-title">VIDEO: Introducing Wunder Mobility</h4>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text card-bottom"><small class="text-muted">June 24th</small></p>
+          <a href="{{ sticky.url }}" title="{{ sticky.post_title }}" >
+            <div class="card horizontal-card">
+              <div class="row no-gutters">
+                <div class="col-md-8">
+                  <img src="https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities/city-traffic/_jcr_content/Grid/category_atl_9054/layout-category-atl/anchor_info_471b/image.img.jpg/1509700255133.jpg" class="card-img" alt="" >
+                </div>
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <p class="card-cat">NEWS</p>
+                    <h4 class="card-title">VIDEO: Introducing Wunder Mobility</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text card-bottom"><small class="text-muted">June 24th</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="card-columns">

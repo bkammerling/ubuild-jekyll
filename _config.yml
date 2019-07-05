@@ -10,7 +10,10 @@ collections:
   articles:
     output: false
   autotech-events:
+    permalink: /autotech-events/:title
     output: true
+
+permalink: /blog/:title
 
 include: ['_redirects']
 

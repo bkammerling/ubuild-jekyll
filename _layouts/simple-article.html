@@ -1,0 +1,62 @@
+{% include head.html %}
+{% include block-header-2.html %}
+    {% assign blocks = page.event_block | map: 'template' %}
+    <main id="simple-article">
+      <div class="container">
+        <header class="article-header">
+          <div class="row align-items-centerr">
+            <div class="col-sm-8 offset-sm-2">
+              <div class="row article-header__content align-items-center">
+                <div class="col-sm-8 pl-sm-0">
+                  <h3>Wunder Blog</h3>
+                </div>
+                <div class="col-sm-4 pr-sm-0">
+                  <div class="share-block">
+                    <span class="share-text">Share on:</span>
+                    <br>
+                    <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+                    <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="row">
+          <div class="col-sm-6 offset-sm-3">
+            <h1>{{ page.post_title }}</h1>
+            <div class="blog-content">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+
+        <footer class="article-header">
+          <div class="row align-items-centerr">
+            <div class="col-sm-8 offset-sm-2">
+              <div class="row article-header__content align-items-center">
+                <div class="col-sm-8 pl-sm-0">
+                 <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
+                </div>
+                <div class="col-sm-4 pr-sm-0">
+                  <div class="share-block">
+                    <span class="share-text">Share on:</span>
+                    <br>
+                    <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+                    <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+
+      </div>
+
+    </main>
+{% include block-footer-1.html %}
+{% include footer.html %}

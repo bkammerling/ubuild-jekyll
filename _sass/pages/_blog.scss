@@ -52,6 +52,7 @@
 
 }
 
+
 .card-columns {
   @include rwd(mobile-up) {
     column-count: 2;
@@ -77,4 +78,85 @@ h4.card-title {
 
 .card-bottom {
     margin-top: auto;
+}
+
+
+
+#simple-article {
+  h1 {
+    font-size: rem(44px);
+  }
+  footer {
+    margin-top: 6rem;
+  }
+}
+
+.article-header {
+
+  .article-header__content {
+    border-bottom: 1px solid $grey-heading;
+    padding-bottom: rem(10px);
+    margin-bottom: rem(30px);
+  }
+
+  .share-block {
+    text-align: right;
+    ion-icon {
+      margin-left: rem(6px);
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      &.linkedin-icon {
+        color: #006CAC;
+      }
+      &.twitter-icon {
+        color: #1A97F0;
+      }
+      &.facebook-icon {
+        color: #3A5CA9;
+      }
+    }
+  }
+
+  .share-text {
+    font-size: 12px;
+  }
+
+}
+
+
+.blog-content {
+  h3 {
+    margin: rem(40px) 0 rem(15px);
+  }
+
+  p {
+    color: $olive-matt;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  img {
+    display: block;
+    margin: rem(30px) auto 0;
+  }
+  img + em {
+    margin-bottom: rem(25px);
+    display: block;
+    font-size: 80%;
+    color: $grey2;
+    text-align: center;
+  }
+
+  blockquote {
+    text-transform: uppercase;
+    margin: rem(70px) rem(20px);
+    text-align: center;
+    p {
+      font-weight: 100;
+      font-size: 28px;
+      letter-spacing: 2px;
+      line-height: 36px;
+    }
+  }
 }
