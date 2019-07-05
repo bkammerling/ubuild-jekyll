@@ -81,6 +81,11 @@ wunder-de:
 #  parent: solutions
 #  identifier: city
 #  title: City
+- url: "/de/park"
+  weight: 4
+  parent: solutions
+  identifier: park
+  title: Park
 - url: "#"
   weight: 2
   title: Events
