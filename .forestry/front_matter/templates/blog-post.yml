@@ -48,6 +48,18 @@ fields:
     schema:
       format: markdown
   label: Excerpt
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: 
+      path: 
+  label: Author
 pages:
 - _posts/2019-07-08-WunderMobilityonInstagram.md
 - _posts/2019-07-08-IntroducingWunderPark.md
