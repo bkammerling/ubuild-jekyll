@@ -632,7 +632,7 @@ var twitterModule = {
     console.log(postTexts);
     postTexts.each(function(index) {
       if($(this).html().slice(-1) == '>') {
-        $(this).find('a:last-child').text('View on twitter').wrap('<small class="d-block"></small>');
+        //$(this).find('a:last-child').text('View on twitter').wrap('<small class="d-block"></small>');
       }
     })
 
@@ -643,16 +643,24 @@ var twitterModule = {
     var postListHTML = "";
     for(var i = 0; i < posts.length; i++) {
       var post = posts[i];
-      singleHTML.find(".post-date").text(post.gsx$createdat.$t);
+      var tempHTML = singleHTML.clone();
+      tempHTML.find(".post-date").text(post.gsx$createdat.$t);
       var regex = /(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/;
       var postText = post.gsx$text.$t;
       postText = postText.linkify();
-      singleHTML.find(".post-text").html(postText);
-      singleHTML.find(".post-image").attr('src', post.gsx$image.$t);
-      postListHTML += singleHTML.wrap('<p/>').parent().html();
+      tempHTML.find(".post-text").html(postText);
+      tempHTML.find(".post-image").attr('src', post.gsx$image.$t);
+      tempHTML.find(".post-link").attr('href', post.gsx$link.$t).html('<small class="d-block">View on ' + twitterModule.capitalize(post.gsx$network.$t) + '</small>');
+      tempHTML.addClass(post.gsx$network.$t);
+      postListHTML += tempHTML.wrap('<p/>').parent().html();
     } // end of for loop
     return postListHTML;
   },
+  capitalize: function(string) {
+   if(typeof string==undefined) return;
+   var firstLetter = string[0] || string.charAt(0);
+   return firstLetter ? firstLetter.toUpperCase() + string.slice(1) : '';
+  }
 
 }
 twitterModule.init();
