@@ -19,9 +19,9 @@ fields:
     - Life@Wunder
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Category
 - name: publish_date
   type: datetime
