@@ -1,9 +1,9 @@
 ---
 label: Blog Post
 hide_body: false
-display_field: post_title
+display_field: title
 fields:
-- name: post_title
+- name: title
   type: text
   config:
     required: false
@@ -19,9 +19,9 @@ fields:
     - Life@Wunder
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: publish_date
   type: datetime

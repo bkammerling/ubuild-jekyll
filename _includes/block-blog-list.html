@@ -5,7 +5,7 @@
 
         {% assign sticky = site.posts | sort: "date" | where: "sticky", true | first %}
         <div class="sticky-post">
-          <a href="{{ sticky.url }}" title="{{ sticky.post_title }}" >
+          <a href="{{ sticky.url }}" title="{{ sticky.title }}" >
             <div class="card horizontal-card">
               <div class="row no-gutters">
                 <div class="col-md-8">
@@ -14,7 +14,7 @@
                 <div class="col-md-4">
                   <div class="card-body">
                     <p class="post-cat {{ sticky.category | downcase | replace: "@", "" }}">{{ sticky.category }}</p>
-                    <h4 class="card-title">{{ sticky.post_title }}</h4>
+                    <h4 class="card-title">{{ sticky.title }}</h4>
                     <p class="card-text">{{ sticky.excerpt }}</p>
                     <p class="card-text card-bottom"><small class="text-muted">{{ sticky.publish_date | date: "%B %-d, %Y" }}</small></p>
                   </div>
@@ -27,13 +27,13 @@
         <div class="card-columns">
 
           {% for post in site.posts %}
-            {% unless post.post_title == sticky.post_title %}
-            <a href="{{ post.url }}" title="{{ post.post_title }}" >
+            {% unless post.title == sticky.title %}
+            <a href="{{ post.url }}" title="{{ post.title }}" >
             <div class="card">
               <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
               <div class="card-body">
                 <p class="post-cat {{ post.category | downcase | replace: "@", "" }}">{{ post.category }}</p>
-                <h4 class="card-title">{{ post.post_title }}</h4>
+                <h4 class="card-title">{{ post.title }}</h4>
                 <p class="card-text card-bottom"><small class="text-muted">{{ post.publish_date | date: "%B %-d, %Y" }}</small></p>
               </div>
             </div>
@@ -63,11 +63,11 @@
         <div class="col">
           <p>
             Get updates as they happen, follow us now!
-            <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
-            <ion-icon class="youtube-icon" name="logo-youtube"></ion-icon>
-            <ion-icon class="instagram-icon" name="logo-instagram"></ion-icon>
-            <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
-            <ion-icon class="vimeo-icon" name="logo-vimeo"></ion-icon>
+            <a target="_blank" href="{{ site.data.global.linkedin }}"><ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.youtube }}"><ion-icon class="youtube-icon" name="logo-youtube" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.instagram }}"><ion-icon class="instagram-icon" name="logo-instagram" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.twitter }}"><ion-icon class="twitter-icon" name="logo-twitter" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.vimeo }}""><ion-icon class="vimeo-icon" name="logo-vimeo""></ion-icon></a>
           </p>
         </div>
       </div>

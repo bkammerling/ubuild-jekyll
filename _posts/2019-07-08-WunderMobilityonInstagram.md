@@ -1,7 +1,7 @@
 ---
 layout: simple-article
 category: Life@Wunder
-post_title: Wunder Mobility on Instagram
+title: Wunder Mobility on Instagram
 publish_date: 2019-07-01T11:00:00.000+00:00
 featured_image: "/uploads/2019/07/08/InstaTiago1.jpg"
 excerpt: We are excited to announce that Wunder Mobility has launched a new Instagram

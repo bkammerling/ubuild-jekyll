@@ -269,6 +269,7 @@ form {
     font-size: 12px;
     width: 100%;
   }
+
   #mc_embed_signup {
     color: #FFF;
     .form-group {
@@ -282,6 +283,10 @@ form {
       cursor: pointer;
     }
   }
+  .inline-icon {
+    margin-bottom: -2px;
+  }
+
   label {
     color: #8B90A0;
     text-transform: uppercase;

@@ -7,14 +7,16 @@
           <div class="row align-items-centerr">
             <div class="col-sm-8 offset-sm-2">
               <div class="row article-header__content align-items-center">
-                <div class="col-sm-8 pl-sm-0">
+                <div class="col-8 pl-sm-0">
                   <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
                 </div>
-                <div class="col-sm-4 pr-sm-0">
+                <div class="col-4 pr-sm-0">
                   <div class="share-block">
                     <span class="share-text">Share on:</span>
                     <br>
-                    <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    <a target="_blank" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}">
+                      <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    </a>
                     <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
                     <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
                   </div>
@@ -31,7 +33,7 @@
             <p class="post-date">
               {{ page.publish_date | date: "%B %-d, %Y" }}
             </p>
-            <h1>{{ page.post_title }}</h1>
+            <h1>{{ page.title }}</h1>
             <div class="blog-content">
               {{ content }}
             </div>
@@ -40,16 +42,16 @@
 
         <footer class="article-header">
           <div class="row align-items-centerr">
-            <div class="col-sm-8 offset-sm-2">
+            <div class="col-8 offset-sm-2">
               <div class="row article-header__content align-items-center">
                 <div class="col-sm-8 pl-sm-0">
                  <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
                 </div>
-                <div class="col-sm-4 pr-sm-0">
+                <div class="col-4 pr-sm-0">
                   <div class="share-block">
                     <span class="share-text">Share on:</span>
                     <br>
-                    <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    <a target="_blank" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}"><ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon></a>
                     <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
                     <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
                   </div>
