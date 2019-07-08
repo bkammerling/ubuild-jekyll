@@ -7,6 +7,6 @@ excerpt: Watch our brand film to find out more about our mission and why it's im
   to us.
 
 ---
-Extreme congestion, overcrowded cities and the pollution they cause are some of the most critical problems our planet currently faces. Our brand film highlights the work we’re doing to solve those problems. 
+Extreme congestion, overcrowded cities and the pollution they cause are some of the most critical problems our planet currently faces. Our brand film highlights the work we’re doing to solve those problems.
 
 \#BecauseWeShareTomorrow
