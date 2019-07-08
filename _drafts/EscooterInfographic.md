@@ -1,6 +1,6 @@
 ---
 category: Insights
-post_title: 'E-Scooters: Paving the Way to a Shared Mobility Revolution'
+post_title: 'E-Scooters: Paving the Way to a Shared Mobility Revolution [Infographic]'
 publish_date: 2019-07-01 00:00:00 +0000
 featured_image: ''
 excerpt: 'Electric scooters aren''t just popular with riders - they can help you grow
