@@ -26,31 +26,30 @@
 
         <div class="card-columns">
 
-          <div class="card">
-            <img class="card-img-top" src="{{ sticky.featured_image }}" alt="Card image cap">
-            <div class="card-body">
-              <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">INSIGHTS</p>
-              <h4 class="card-title">4 Things that will change the future of mobility </h4>
-              <p class="card-text card-bottom"><small class="text-muted">July 3rd</small></p>
+          {% for post in site.posts %}
+            {% unless post.post_title == sticky.post_title %}
+            <a href="{{ post.url }}" title="{{ post.post_title }}" >
+            <div class="card">
+              <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
+              <div class="card-body">
+                <p class="post-cat {{ post.category | downcase | replace: "@", "" }}">{{ post.category }}</p>
+                <h4 class="card-title">{{ post.post_title }}</h4>
+                <p class="card-text card-bottom"><small class="text-muted">{{ post.publish_date | date: "%B %-d, %Y" }}</small></p>
+              </div>
             </div>
-          </div>
+            </a>
+          {% endunless %}
 
-          <div class="card">
-            <img class="card-img-top" src="https://amp.businessinsider.com/images/5cb642b8abb9f50cf06839df-750-562.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">NEWS</p>
-              <h4 class="card-title">An Interview with WAYMO CEO JOHN KRAFCIK</h4>
-              <p class="card-text card-bottom"><small class="text-muted">June 18th</small></p>
-            </div>
-          </div>
+          {% endfor %}
 
         </div>
 
 
-
+        {% comment %}
         <div class="text-center">
           <a class="round-cta dark" href="#">View More</a>
         </div>
+        {% endcomment %}
 
       </div>
     </div>

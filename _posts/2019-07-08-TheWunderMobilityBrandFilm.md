@@ -1,4 +1,5 @@
 ---
+layout: simple-article
 category: News
 post_title: The Wunder Mobility Brand Film
 publish_date: 2019-07-01 09:00:00 +0000

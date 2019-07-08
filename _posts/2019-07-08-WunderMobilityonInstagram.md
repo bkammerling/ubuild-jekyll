@@ -1,4 +1,5 @@
 ---
+layout: simple-article
 category: Life@Wunder
 post_title: Wunder Mobility on Instagram
 publish_date: 2019-07-01 11:00:00 +0000

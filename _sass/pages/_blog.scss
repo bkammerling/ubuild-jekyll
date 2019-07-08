@@ -59,8 +59,12 @@
     column-gap: 3rem;
   }
 
-  .card {
+  > a {
+    display: inline-block;
     margin: 3rem 0;
+  }
+  .card {
+
   }
 }
 
@@ -165,6 +169,9 @@ ion-icon {
 .blog-content {
   h3 {
     margin: rem(40px) 0 rem(15px);
+  }
+  h4 {
+    margin: 2rem 0 1rem;
   }
 
   p {
