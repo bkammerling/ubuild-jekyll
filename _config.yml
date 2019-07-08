@@ -12,6 +12,8 @@ collections:
   autotech-events:
     permalink: /autotech-events/:title
     output: true
+  people:
+    output: false
 
 permalink: /blog/:title.html
 
