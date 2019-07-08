@@ -607,50 +607,71 @@ function initMap() {
   googleMap.init();
 }
 
-/*
+
 var twitterModule = {
   init: function() {
     var url = "https://spreadsheets.google.com/feeds/list/1t7ByLgFqVxmg4ZD2GLKpOEdT0IzyOrth7mwL2AJqVpE/od6/public/values?alt=json";
     $.get( url, function( data ) {
       var rows = data.feed.entry;
       twitterModule.data = rows;
-    })
+      twitterModule.buildFeed();
+    });
+    $('.social-ticker__nav span').click(function() {
+      if($(this).hasClass('active')) return;
+      var socialRow = $(this).parents('.social-ticker').find('.social-ticker__row');
+      socialRow.toggleClass('moved');
+      $(this).addClass('active').siblings().removeClass('active');
+    });
   },
   data: [],
   buildFeed: function(posts = this.data) {
     var feedHTML = this.makeHTML(posts)
-    $(".feed__list").append(feedHTML);
+    $(".social-ticker__row").append(feedHTML);
+    console.log($('.post-text').html());
+    var postTexts = $('.post-text');
+    console.log(postTexts);
+    postTexts.each(function(index) {
+      if($(this).html().slice(-1) == '>') {
+        $(this).find('a:last-child').text('View on twitter').wrap('<small class="d-block"></small>');
+      }
+    })
+
   },
   makeHTML: function(posts = this.data) {
-    console.log(posts);
-    if(posts.length < 1) return "<p>😳 Sorry, get our twitter posts.</p>";
-    var singleHTML = $(".feed__list-item").clone().removeClass('hidden');
-    var jobListHTML = "";
+    if(posts.length < 1) return "<p>😳 Sorry, couldn't find our social posts.</p>";
+    var singleHTML = $(".social-ticker__post").clone().removeClass('hidden');
+    var postListHTML = "";
     for(var i = 0; i < posts.length; i++) {
-      var job = posts[i];
-      singleHTML.find(".job-title").text(job.title);
-      if(job.departments[0].name == 'Analytics') {
-        var jobCategory = 'Data';
-      } else {
-        jobCategory = job.departments[0].name;
-      }
-      singleHTML.find(".job-category").text(jobCategory);
-      singleHTML.find(".job-title").attr('href', job.absolute_url);
-      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
-      singleHTML.find(".job-location").text(location);
-      var content = $('<textarea />').html(job.content).text();
-      if(content.split('</h3>').length > 2) content = content.split('</h3>')[1];
-
-      singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
-      jobListHTML += singleHTML.wrap('<p/>').parent().html()
-
+      var post = posts[i];
+      singleHTML.find(".post-date").text(post.gsx$createdat.$t);
+      var regex = /(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/;
+      var postText = post.gsx$text.$t;
+      postText = postText.linkify();
+      singleHTML.find(".post-text").html(postText);
+      singleHTML.find(".post-image").attr('src', post.gsx$image.$t);
+      postListHTML += singleHTML.wrap('<p/>').parent().html();
     } // end of for loop
-    return jobListHTML;
+    return postListHTML;
   },
 
 }
 twitterModule.init();
-*/
+if(!String.linkify) {
+  String.prototype.linkify = function() {
+    // http://, https://, ftp://
+    var urlPattern = /\b(?:https?|ftp):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*[a-z0-9-+&@#\/%=~_|]/gim;
+    // www. sans http:// or https://
+    var pseudoUrlPattern = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    // Email addresses
+    var emailAddressPattern = /[\w.]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+/gim;
+    return this
+      .replace(urlPattern, '<a href="$&">$&</a>')
+      .replace(pseudoUrlPattern, '$1<a href="http://$2">$2</a>')
+      .replace(emailAddressPattern, '<a href="mailto:$&">$&</a>');
+  };
+}
+
+
 
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),

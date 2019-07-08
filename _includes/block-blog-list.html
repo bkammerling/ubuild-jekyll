@@ -9,7 +9,7 @@
             <div class="card horizontal-card">
               <div class="row no-gutters">
                 <div class="col-md-8">
-                  <img src="https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities/city-traffic/_jcr_content/Grid/category_atl_9054/layout-category-atl/anchor_info_471b/image.img.jpg/1509700255133.jpg" class="card-img" alt="" >
+                  <img src="{{ sticky.featured_image }}" class="card-img" alt="" >
                 </div>
                 <div class="col-md-4">
                   <div class="card-body">
@@ -27,7 +27,7 @@
         <div class="card-columns">
 
           <div class="card">
-            <img class="card-img-top" src="https://ak1.picdn.net/shutterstock/videos/13020191/thumb/1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="{{ sticky.featured_image }}" alt="Card image cap">
             <div class="card-body">
               <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">INSIGHTS</p>
               <h4 class="card-title">4 Things that will change the future of mobility </h4>
@@ -62,22 +62,45 @@
     <div class="container container-fullright">
       <div class="row">
         <div class="col">
-          healthy
+          <p>
+            Get updates as they happen, follow us now!
+            <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+            <ion-icon class="youtube-icon" name="logo-youtube"></ion-icon>
+            <ion-icon class="instagram-icon" name="logo-instagram"></ion-icon>
+            <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+            <ion-icon class="vimeo-icon" name="logo-vimeo"></ion-icon>
+          </p>
         </div>
       </div>
 
     </div>
   </div>
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
+<section class="social-ticker">
+  <div class="block-full-right col-2-in">
+    <div class="container container-fullright">
+      <div class="social-ticker__row d-flex flex-row mw-100">
+        <div class="social-ticker__post hidden">
+          <div class="d-flex align-items-center post-meta">
+            <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+            <p><small class="post-date">June 24th</small></p>
+          </div>
+          <div class="d-flex flex-column post-content">
+            <img class="mw-100 post-image" src="https://amp.businessinsider.com/images/5cb642b8abb9f50cf06839df-750-562.jpg" />
+            <p class="post-text">INTRODUCING WUNDER PARK - we're live! Visit https://t.co/LkbStBhTGg to learn about how Wunder Park can solve your #parking management problems with cutting-edge #tech</p>
+          </div>
+        </div>
+      </div>
+      <div class="social-ticker__nav">
+        <span class="page active"></span>
+        <span class="page"></span>
+      </div>
 
+    </div>
+  </div>
+</section>
 
 
 
