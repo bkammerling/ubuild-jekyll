@@ -49,6 +49,7 @@ fields:
       format: markdown
   label: Excerpt
 pages:
+- _posts/EscooterInfographic.md
 - _posts/WunderMobilityonInstagram.md
 - _posts/TheWunderMobilityBrandFilm.md
 - _posts/IntroducingWunderPark.md
