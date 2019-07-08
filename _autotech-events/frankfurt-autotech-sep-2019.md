@@ -58,6 +58,10 @@ event_block:
     company: PricewaterhouseCoopers
     speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
     company_logo: "/uploads/2019/07/03/PWC.png"
+  - name: To be announced
+    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
+    company_logo: "/uploads/2019/07/08/microsoft_logo.png"
+    company: Microsoft
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
