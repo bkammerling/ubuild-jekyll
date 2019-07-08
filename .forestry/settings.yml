@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - speakers
+  - speaker
 - type: heading
   label: Content
 - type: directory
