@@ -3,6 +3,13 @@ label: Blog Post
 hide_body: false
 display_field: title
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Layout
+  default: simple-article
 - name: title
   type: text
   config:
@@ -60,6 +67,34 @@ fields:
       file: 
       path: 
   label: Author
+- name: cta_heading
+  type: text
+  config:
+    required: false
+  label: CTA Heading
+  default: Find Out More About Wunder Mobility
+- name: cta_text
+  type: textarea
+  default: We have a range of solutions using the latest technology driving forward
+    the future of mobility around the world.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: CTA Text
+- name: cta_link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: CTA Link
 pages:
 - _posts/2019-07-08-WunderMobilityonInstagram.md
 - _posts/2019-07-08-IntroducingWunderPark.md
