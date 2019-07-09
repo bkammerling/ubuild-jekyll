@@ -1,5 +1,5 @@
 ---
-name: Gunnar
+name: Gunnar Froh
 company: Wunder
 company_logo: ''
 job_title: CEO & Co-founder

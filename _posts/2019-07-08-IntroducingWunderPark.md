@@ -9,7 +9,7 @@ cta_link: pages/de/park.md
 cta_heading: Find out more about Wunder Park
 cta_text: 'Think your company can benefit from our smart parking system? Let''s get
   in touch. '
-author: _people/pia-benthien.md
+author: _people/GunnarProfile.md
 
 ---
 On average, employees spend **18 minutes** searching for an available parking spot at their workplace. As if that wasn’t bad enough, **300 liters of gas** are consumed per 1000 employees searching for those spots.
