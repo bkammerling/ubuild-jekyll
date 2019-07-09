@@ -1,6 +1,7 @@
 ---
 label: page-builder
 hide_body: true
+display_field: permalink
 fields:
 - type: text
   label: Title
