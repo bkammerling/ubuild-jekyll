@@ -12,8 +12,10 @@ cta_text: ''
 cta_link: ''
 
 ---
+Watch our brand film to find out more about our mission and why it's important to us.
+
+{% include block-video-2.html vimeo-id="318402556" %}
+
 Extreme congestion, overcrowded cities and the pollution they cause are some of the most critical problems our planet currently faces. Our brand film highlights the work we’re doing to solve those problems.
 
 \#BecauseWeShareTomorrow
-
-{% include block-video-2.html vimeo-id="318402556" %}
