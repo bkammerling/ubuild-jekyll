@@ -106,7 +106,7 @@ h4.card-title {
     font-size: rem(44px);
   }
   footer {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
   .post-cat {
     margin-bottom: 5px;;
@@ -149,6 +149,7 @@ h4.card-title {
 
 }
 
+
 ion-icon {
   &.linkedin-icon {
     color: #006CAC;
@@ -172,6 +173,8 @@ ion-icon {
 
 
 .blog-content {
+  margin-bottom: 6rem;
+
   h3 {
     margin: rem(40px) 0 rem(15px);
   }
@@ -211,6 +214,16 @@ ion-icon {
       line-height: 36px;
     }
   }
+}
+
+.author-image {
+  max-width: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+  @extend .w-shadow;
+}
+.author-name {
+  color: $olive-matt;
 }
 
 

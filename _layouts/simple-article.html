@@ -41,6 +41,15 @@
             <div class="blog-content">
               {{ content }}
             </div>
+            <div class="post-author">
+              {% for person in site.people %}
+              {% if person.path == page.author %}
+              <img class="author-image" src="{{ person.speaker_image }}" alt="Portrait photo of {{ person.name }}"/>
+              <p class="author-name"><strong>{{ person.name }}</strong></p>
+              <p>{{ person.job_title }} @ {{ person.company }}</p>
+              {% endif %}
+              {% endfor %}
+            </div>
           </div>
         </div>
 
@@ -79,12 +88,12 @@
           <div class="container container-fullright">
 
             <div class="cta__content">
-              <h2 class="mb-2">Find out more about Wunder Mobility</h2>
-              <p>We have a range of solutions using latest news about Wunder Mobility and the future of mobility around the world.</p>
+              <h2 class="mb-2">{{ page.cta_heading | default: 'Find out more about Wunder Mobility' }}</h2>
+              <p>{{ page.cta_text | default: 'We have a range of solutions using latest news about Wunder Mobility and the future of mobility around the world.' }}</p>
 
               <div class="mt-4">
-                <a class="round-cta clear no-arrow" href="/">Learn More</a>
-                <a class="round-cta dark" href="#contact">Contact Us</a>
+                <a class="round-cta clear no-arrow" href="{{ page.cta_link | default: site.url }}">Learn More</a>
+                <a class="round-cta dark" href="{{ page.cta_link }}{% if page.cta_link contains summit or page.cta_link contains autotech %}#apply{% else %}#main-contact{% endif %}">Contact Us</a>
               </div>
             </div>
 
