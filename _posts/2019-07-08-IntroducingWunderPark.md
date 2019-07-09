@@ -2,9 +2,14 @@
 layout: simple-article
 category: News
 title: Introducing Wunder Park
-publish_date: 2019-07-01 09:00:00 +0000
+publish_date: 2019-07-01T09:00:00.000+00:00
 featured_image: "/uploads/2019/07/08/park7.jpeg"
 excerpt: Wunder Mobility's new Wunder Park solution is digitzing parking space management.
+cta_link: pages/de/park.md
+cta_heading: Find out more about Wunder Park
+cta_text: 'Think your company can benefit from our smart parking system? Let''s get
+  in touch. '
+author: _people/pia-benthien.md
 
 ---
 On average, employees spend **18 minutes** searching for an available parking spot at their workplace. As if that wasn’t bad enough, **300 liters of gas** are consumed per 1000 employees searching for those spots.
@@ -36,5 +41,3 @@ High-quality LCD reservation displays located at each parking spot serve an impo
 ### **Reduce Costs and Increase Employee Satisfaction**
 
 Wunder Park is a revolutionary parking management system because it enables companies to do more with the space they already have, rather than requiring the building of more structures or the use of extra time and resources. Combining high-quality hardware and software components, the Wunder Park system cuts costs and increases employee satisfaction rates simply by allowing companies to allocate their parking spots in a more efficient, economical way.
-
-If you think your company could benefit from our smart parking system, please don’t hesitate to contact us at [wunderpark@wundermobility.com](mailto:wunderpark@wundermobility.com).
