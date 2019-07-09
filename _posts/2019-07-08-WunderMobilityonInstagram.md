@@ -6,6 +6,11 @@ publish_date: 2019-07-01T11:00:00.000+00:00
 featured_image: "/uploads/2019/07/08/InstaTiago1.jpg"
 excerpt: We are excited to announce that Wunder Mobility has launched a new Instagram
   account.
+author: ''
+cta_heading: Find Out More About Careers at Wunder
+cta_text: Ready to join one of the most diverse and interesting companies in the world?
+  Browse our open positions now!
+cta_link: pages/careers/careers.md
 
 ---
 We are excited to announce that Wunder Mobility has launched an Instagram account to highlight our culture, diversity, international presence, and most of all our people.
