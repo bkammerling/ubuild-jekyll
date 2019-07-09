@@ -630,12 +630,6 @@ var twitterModule = {
     console.log($('.post-text').html());
     var postTexts = $('.post-text');
     console.log(postTexts);
-    postTexts.each(function(index) {
-      if($(this).html().slice(-1) == '>') {
-        //$(this).find('a:last-child').text('View on twitter').wrap('<small class="d-block"></small>');
-      }
-    })
-
   },
   makeHTML: function(posts = this.data) {
     if(posts.length < 1) return "<p>😳 Sorry, couldn't find our social posts.</p>";
@@ -648,10 +642,12 @@ var twitterModule = {
       var regex = /(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/;
       var postText = post.gsx$text.$t;
       postText = postText.linkify();
+      if(postText.length > 260) postText = postText.slice(0,250) + "...";
       tempHTML.find(".post-text").html(postText);
       tempHTML.find(".post-image").attr('src', post.gsx$image.$t);
       tempHTML.find(".post-link").attr('href', post.gsx$link.$t).html('<small class="d-block">View on ' + twitterModule.capitalize(post.gsx$network.$t) + '</small>');
       tempHTML.addClass(post.gsx$network.$t);
+      if(post.gsx$image.$t.length < 2) tempHTML.find(".post-image").remove();
       postListHTML += tempHTML.wrap('<p/>').parent().html();
     } // end of for loop
     return postListHTML;
@@ -843,26 +839,26 @@ $(document).ready(function() {
   .not('[href="#0"]')
   .not('[href="https://www.wundermobility.com/#section-contact"]')
   .click(function(event) {
-    event.preventDefault();
     // On-page links
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      var topOffset = 250;
-      if(this.hash.indexOf('contact')!= -1) {
-        topOffset = -200;
-      }
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top - topOffset
-        }, 600, function() {
-          grecaptcha.ready(function() {
-            grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
-          });
-          // Callback after animation
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    var topOffset = 250;
+    if(this.hash.indexOf('contact')!= -1) {
+      topOffset = -200;
+    }
+    // Does a scroll target exist?
+    if (target.length) {
+      event.preventDefault();
+      // Only prevent default if animation is actually gonna happen
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top - topOffset
+      }, 600, function() {
+        grecaptcha.ready(function() {
+          grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
         });
+        // Callback after animation
+      });
     }
   });
 

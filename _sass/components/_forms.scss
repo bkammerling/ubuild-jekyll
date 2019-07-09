@@ -55,7 +55,7 @@ form {
   }
 }
 
-.contact-form__form {
+.contact-form__form, .gradient-block {
 
   .form-group {
     position: relative;
@@ -281,6 +281,9 @@ form {
       letter-spacing: 1px;
       padding-right: 30px;
       cursor: pointer;
+    }
+    label {
+      pointer-events: none;
     }
   }
   .inline-icon {
