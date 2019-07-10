@@ -18,4 +18,4 @@ There are a lot of reasons why e-scooters are popular. They’re small, practica
 
 The benefits to the user are many, but how can e-scooters catapult your business towards the forefront of the urban mobility market? Check out our infographic below to find out.
 
-![](/uploads/2019/07/09/Infographicpng3.png)
+[![](/uploads/2019/07/09/Infographicpng3.png)](/uploads/2019/07/10/wunder-escooter-infographic.pdf)
