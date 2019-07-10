@@ -29,5 +29,6 @@ fields:
     maxSize: 250
   label: Speaker Image
 pages:
+- _people/daniel-profile.md
 - _people/pia-benthien.md
 - _people/GunnarProfile.md
