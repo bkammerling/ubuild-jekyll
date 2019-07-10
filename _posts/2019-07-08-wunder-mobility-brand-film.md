@@ -3,7 +3,7 @@ layout: simple-article
 category: News
 title: The Wunder Mobility Brand Film
 publish_date: 2019-06-04T09:00:00.000+00:00
-featured_image: "/uploads/2019/07/08/BrandFilmStill1.png"
+featured_image: "/uploads/2019/07/10/brandfilm.png"
 excerpt: Watch our brand film to find out more about our mission and why it's important
   to us.
 author: _people/GunnarProfile.md
