@@ -91,16 +91,16 @@ var slider = {
     });
   }
 };
-
-slider.init(".picture-slider", {
-  dots: false,
-  lazyLoad: 'ondemand',
-  prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
-  nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
-});
-
+if(pagetitle == 'Culture') {
+  slider.init(".picture-slider", {
+    dots: false,
+    lazyLoad: 'ondemand',
+    prevArrow:
+      '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
+    nextArrow:
+      '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
+  });
+}
 
 var menu = {
   init: function() {

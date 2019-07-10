@@ -1,9 +1,9 @@
 <section class="block block-blog-list" id="section-bloglist">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
-        {% assign sticky = site.posts | sort: "date" | where: "sticky", true | first %}
+        {% assign sticky = site.posts | sort: "publish_date" | where: "sticky", true | first %}
         <div class="sticky-post">
           <a class="blog-card-link" href="{{ sticky.url }}" title="{{ sticky.title }}" >
             <div class="card horizontal-card">
@@ -24,11 +24,13 @@
           </a>
         </div>
 
-        <div class="card-columns">
-
-          {% for post in site.posts %}
+        <div class="grid" data-colcade="columns: .grid-col, items: .blog-card-link">
+          <div class="grid-col grid-col--1"></div>
+          <div class="grid-col grid-col--2"></div>
+          {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
+          {% for post in blogposts %}
             {% unless post.title == sticky.title %}
-            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}" >
+            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up" {% if forloop.index == 2 %}data-aos-delay="200"{% endif %}>
               <div class="card">
                 <div class="test">
                   <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
@@ -40,8 +42,7 @@
                 </div>
               </div>
             </a>
-          {% endunless %}
-
+            {% endunless %}
           {% endfor %}
 
         </div>

@@ -6,6 +6,8 @@ description: >-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.wundermobility.com" # your site's origin, e.g. https://forestry.io
 
+permalink: pretty
+
 collections:
   articles:
     output: false
@@ -15,7 +17,7 @@ collections:
   people:
     output: false
 
-permalink: /blog/:title.html
+permalink: /blog/:title:output_ext
 
 include: ['_redirects']
 
