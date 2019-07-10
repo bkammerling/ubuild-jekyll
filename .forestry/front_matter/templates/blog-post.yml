@@ -43,7 +43,7 @@ fields:
 - name: featured_image
   type: file
   config:
-    maxSize: 250
+    maxSize: '1'
   label: Featured Image
   description: To appear on blog list page - good to use an image from the article
 - name: excerpt
