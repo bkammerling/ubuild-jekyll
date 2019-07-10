@@ -32,9 +32,7 @@
             {% unless post.title == sticky.title %}
             <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up" {% if forloop.index == 2 %}data-aos-delay="200"{% endif %}>
               <div class="card">
-                <div class="test">
-                  <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
-                </div>
+                <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
                 <div class="card-body">
                   <p class="post-cat {{ post.category | downcase | replace: "@", "" }}">{{ post.category }}</p>
                   <h4 class="card-title">{{ post.title }}</h4>
@@ -114,8 +112,8 @@
 
       <div class="row">
         <div class="col-sm-10">
-          <h2 class="page-heading">Join us at the Wunder Bar</h2>
-          <p class="lead">We send out a monthly newsletter with the latest news about Wunder Mobility and the future of mobility around the world.</p>
+          <h2 class="page-heading">Sign up for our newsletter</h2>
+          <p class="lead">Join us at the Wunder Bar! Our monthly newsletter is full of the latest mobility news from the Wunder HQ and around the globe.</p>
           <div id="mc_embed_signup">
             <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div class="mc-field-group form-group">
