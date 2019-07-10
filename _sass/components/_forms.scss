@@ -55,7 +55,7 @@ form {
   }
 }
 
-.contact-form__form {
+.contact-form__form, .gradient-block {
 
   .form-group {
     position: relative;
@@ -264,9 +264,32 @@ form {
     border: 0;
     height: 45px;
     background-color: #4B5659;
-    padding: 2px 10px;
+    padding: 10px 10px 0;
     outline: 0;
+    font-size: 12px;
+    width: 100%;
   }
+
+  #mc_embed_signup {
+    color: #FFF;
+    .form-group {
+      margin-bottom: 10px;
+    }
+    a {
+      color: $sky-blue;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding-right: 30px;
+      cursor: pointer;
+    }
+    label {
+      pointer-events: none;
+    }
+  }
+  .inline-icon {
+    margin-bottom: -2px;
+  }
+
   label {
     color: #8B90A0;
     text-transform: uppercase;

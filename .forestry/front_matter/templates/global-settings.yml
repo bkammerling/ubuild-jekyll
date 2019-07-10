@@ -20,5 +20,29 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: vimeo
+  type: text
+  config:
+    required: false
+  label: Vimeo
+  default: https://vimeo.com/wundermobility
+- name: youtube
+  type: text
+  config:
+    required: false
+  label: YouTube
+  default: https://www.youtube.com/channel/UCqATrIqYLXpuB78MNVV4bBQ
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+  default: https://instagram.com/wundermobility
+- name: company-address
+  type: text
+  config:
+    required: false
+  label: Company Address
+  default: ''
 pages:
 - _data/global.yml

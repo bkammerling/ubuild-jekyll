@@ -1,9 +1,16 @@
 ---
-new_page_extension: html
+new_page_extension: md
 auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _people
+  label: People
+  create: documents
+  match: "**/*"
+  templates:
+  - speaker
 - type: heading
   label: Content
 - type: directory
@@ -15,7 +22,9 @@ sections:
   new_doc_ext: md
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - blog-post
 - type: directory
   path: _articles
   label: Press
@@ -59,5 +68,6 @@ build:
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"

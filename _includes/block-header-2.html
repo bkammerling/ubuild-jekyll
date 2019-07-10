@@ -1,6 +1,11 @@
 <header class="block block-header-2">
-{% assign menu = site.data.menus.[section.menu] %}
-  <nav class="absolute-header">
+{% if section.menu != null %}
+  {% assign menu_name = section.menu %}
+{% else %}
+  {% assign menu_name = 'wunder-main' %}
+{% endif %}
+{% assign menu = site.data.menus.[menu_name] %}
+  <nav class="absolute-header {% if page.layout == 'simple-article' %}navbar-narrow{% endif %}">
     <div class="container header">
       <div class="grouped-logo {% if section.sub_logo and section.sub_logo != empty %}animated{% endif %}">
         {% assign directory = page.dir | remove: '/' %}

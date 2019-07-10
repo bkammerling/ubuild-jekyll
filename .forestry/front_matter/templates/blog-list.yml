@@ -1,0 +1,24 @@
+---
+label: Blog List
+hide_body: true
+fields:
+- name: sticky_post
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-posts
+      file: 
+      path: 
+  label: Sticky Post
+  description: Post to appear pinned at top of list
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: blog-list

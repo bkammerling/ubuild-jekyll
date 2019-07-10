@@ -1,6 +1,7 @@
 ---
 label: Speaker
 hide_body: true
+display_field: name
 fields:
 - name: name
   type: text
@@ -27,3 +28,6 @@ fields:
   config:
     maxSize: 250
   label: Speaker Image
+pages:
+- _people/GunnarProfile.md
+- _people/pia-benthien.md

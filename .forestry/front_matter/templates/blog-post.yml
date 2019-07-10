@@ -1,0 +1,103 @@
+---
+label: Blog Post
+hide_body: false
+display_field: title
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Layout
+  default: simple-article
+- name: title
+  type: text
+  config:
+    required: false
+  label: Post Title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Insights
+    - News
+    - Life@Wunder
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: publish_date
+  type: datetime
+  label: Publish Date
+  description: ''
+  config:
+    required: false
+    date_format: ''
+    time_format: ''
+    display_utc: true
+    export_format: ''
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
+  description: To appear on blog list page - good to use an image from the article
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Excerpt
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: 
+      path: 
+  label: Author
+- name: cta_heading
+  type: text
+  config:
+    required: false
+  label: CTA Heading
+  default: Find Out More About Wunder Mobility
+- name: cta_text
+  type: textarea
+  default: We have a range of solutions using the latest technology driving forward
+    the future of mobility around the world.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: CTA Text
+- name: cta_link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: CTA Link
+pages:
+- _posts/2019-07-08-EscooterInfographic.md
+- _posts/2019-07-08-WunderMobilityonInstagram.md
+- _posts/2019-07-08-IntroducingWunderPark.md
+- _posts/2019-07-08-TheWunderMobilityBrandFilm.md
+- _posts/2019-07-02-4-things-future-mobility.md

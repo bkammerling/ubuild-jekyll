@@ -1,6 +1,7 @@
 ---
 label: page-builder
 hide_body: true
+display_field: permalink
 fields:
 - type: text
   label: Title
@@ -56,11 +57,11 @@ pages:
 - pages/summit.md
 - pages/park.md
 - pages/home.md
-- pages/careers/careers.md
 - pages/careers/perks.md
+- pages/careers/careers.md
 - pages/summit18.md
-- pages/careers/jobs.md
+- pages/careers/culture.md
 - pages/careers/locations.md
+- pages/careers/jobs.md
 - pages/autotech.md
 - pages/terms.md
-- pages/careers/culture.md

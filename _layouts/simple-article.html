@@ -1,0 +1,114 @@
+{% include head.html %}
+{% include block-header-2.html %}
+    {% assign blocks = page.event_block | map: 'template' %}
+    <main id="simple-article">
+      <div class="container">
+        <header class="article-header">
+          <div class="row align-items-centerr">
+            <div class="col-sm-8 offset-sm-2">
+              <div class="row article-header__content align-items-center">
+                <div class="col-8 pl-sm-0">
+                  <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
+                </div>
+                <div class="col-4 pr-sm-0">
+                  <div class="share-block">
+                    <span class="share-text">Share on:</span>
+                    <br>
+                    <a target="_blank" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}">
+                      <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a title="Share this article on Twitter" href="http://twitter.com/share?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank">
+                      <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+                    </a>
+                    <a title="Share this article on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank">
+                      <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+            <p class="post-cat {{ page.category | downcase | replace: "@", "" }}">
+              {{ page.category }}
+            </p>
+            <p class="post-date">
+              {{ page.publish_date | date: "%B %-d, %Y" }}
+            </p>
+            <h1>{{ page.title }}</h1>
+            <div class="blog-content">
+              {{ content | replace: '<a ', '<a target="blank" ' }}
+            </div>
+            <div class="post-author">
+              {% for person in site.people %}
+              {% if person.path == page.author %}
+              <img class="author-image" src="{{ person.speaker_image }}" alt="Portrait photo of {{ person.name }}"/>
+              <p class="author-name"><strong>{{ person.name }}</strong></p>
+              <p>{{ person.job_title }} @ {{ person.company }}</p>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <footer class="article-header">
+          <div class="row align-items-centerr">
+            <div class="col-8 offset-sm-2">
+              <div class="row article-header__content align-items-center">
+                <div class="col-sm-8 pl-sm-0">
+                 <a class="w-arrow" href="/blog" ><h3>Wunder Blog</h3></a>
+                </div>
+                <div class="col-4 pr-sm-0">
+                  <div class="share-block">
+                    <span class="share-text">Share on:</span>
+                    <br>
+                    <a target="_blank" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}">
+                      <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a title="Share this article on Twitter" href="http://twitter.com/share?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank">
+                      <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+                    </a>
+                    <a title="Share this article on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank">
+                      <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+
+
+      <section class="cta-from-right">
+        <div class="block-full-right col-2-in w-x-shadow">
+          <div class="container container-fullright">
+
+            <div class="cta__content">
+              <h2 class="mb-2">{{ page.cta_heading | default: 'Find out more about Wunder Mobility' }}</h2>
+              <p>{{ page.cta_text | default: 'We have a range of solutions using latest news about Wunder Mobility and the future of mobility around the world.' }}</p>
+
+              <div class="mt-4">
+                {% capture ctalink %}{% if page.cta_link == empty %}pages/home.md{% else %}{{ page.cta_link }}{% endif %}{% endcapture %}
+                {% for linkedpage in site.pages %}
+                {% if linkedpage.path == ctalink %}
+                  <a class="round-cta clear no-arrow" href="{{ linkedpage.url | default: site.url }}">Learn More</a>
+                  {% unless linkedpage.url contains 'career' %}<a class="round-cta dark" href="{{ linkedpage.url | default: site.url | absolute_url }}{% if page.cta_link contains summit or page.cta_link contains autotech %}#apply{% else %}#section-contact{% endif %}">Contact Us</a>{% endunless %}
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+
+{% include block-footer-1.html %}
+{% include footer.html %}

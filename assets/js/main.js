@@ -91,16 +91,16 @@ var slider = {
     });
   }
 };
-
-slider.init(".picture-slider", {
-  dots: false,
-  lazyLoad: 'ondemand',
-  prevArrow:
-    '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
-  nextArrow:
-    '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
-});
-
+if(pagetitle == 'Culture') {
+  slider.init(".picture-slider", {
+    dots: false,
+    lazyLoad: 'ondemand',
+    prevArrow:
+      '<span class="slider__arrow slider__arrow--prev"><img src="/uploads/global/arrow-left.svg" alt="Prev"/></span>',
+    nextArrow:
+      '<span class="slider__arrow slider__arrow--next"><img src="/uploads/global/arrow-right.svg" alt="Next"/></span>'
+  });
+}
 
 var menu = {
   init: function() {
@@ -537,7 +537,7 @@ if(pagetitle == "Perks") benefits.init();
 
 
 var scroller = {
-  header: $("nav.absolute-header"),
+  header: $("nav.absolute-header:not(.navbar-narrow)"),
   menuCta: $(".menu-item-cta"),
   init: function() {
     var raf = window.requestAnimationFrame ||
@@ -607,50 +607,75 @@ function initMap() {
   googleMap.init();
 }
 
-/*
+
 var twitterModule = {
   init: function() {
     var url = "https://spreadsheets.google.com/feeds/list/1t7ByLgFqVxmg4ZD2GLKpOEdT0IzyOrth7mwL2AJqVpE/od6/public/values?alt=json";
     $.get( url, function( data ) {
       var rows = data.feed.entry;
       twitterModule.data = rows;
-    })
+      twitterModule.buildFeed();
+    });
+    $('.social-ticker__nav span').click(function() {
+      if($(this).hasClass('active')) return;
+      var socialRow = $(this).parents('.social-ticker').find('.social-ticker__row');
+      socialRow.toggleClass('moved');
+      $(this).addClass('active').siblings().removeClass('active');
+    });
   },
   data: [],
   buildFeed: function(posts = this.data) {
     var feedHTML = this.makeHTML(posts)
-    $(".feed__list").append(feedHTML);
+    $(".social-ticker__row").append(feedHTML);
+    console.log($('.post-text').html());
+    var postTexts = $('.post-text');
+    console.log(postTexts);
   },
   makeHTML: function(posts = this.data) {
-    console.log(posts);
-    if(posts.length < 1) return "<p>😳 Sorry, get our twitter posts.</p>";
-    var singleHTML = $(".feed__list-item").clone().removeClass('hidden');
-    var jobListHTML = "";
+    if(posts.length < 1) return "<p>😳 Sorry, couldn't find our social posts.</p>";
+    var singleHTML = $(".social-ticker__post").clone().removeClass('hidden');
+    var postListHTML = "";
     for(var i = 0; i < posts.length; i++) {
-      var job = posts[i];
-      singleHTML.find(".job-title").text(job.title);
-      if(job.departments[0].name == 'Analytics') {
-        var jobCategory = 'Data';
-      } else {
-        jobCategory = job.departments[0].name;
-      }
-      singleHTML.find(".job-category").text(jobCategory);
-      singleHTML.find(".job-title").attr('href', job.absolute_url);
-      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
-      singleHTML.find(".job-location").text(location);
-      var content = $('<textarea />').html(job.content).text();
-      if(content.split('</h3>').length > 2) content = content.split('</h3>')[1];
-
-      singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
-      jobListHTML += singleHTML.wrap('<p/>').parent().html()
-
+      var post = posts[i];
+      var tempHTML = singleHTML.clone();
+      tempHTML.find(".post-date").text(post.gsx$createdat.$t);
+      var regex = /(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/;
+      var postText = post.gsx$text.$t;
+      postText = postText.linkify();
+      if(postText.length > 260) postText = postText.slice(0,250) + "...";
+      tempHTML.find(".post-text").html(postText);
+      tempHTML.find(".post-image").attr('src', post.gsx$image.$t);
+      tempHTML.find(".post-link").attr('href', post.gsx$link.$t).html('<small class="d-block">View on ' + twitterModule.capitalize(post.gsx$network.$t) + '</small>');
+      tempHTML.addClass(post.gsx$network.$t);
+      if(post.gsx$image.$t.length < 2) tempHTML.find(".post-image").remove();
+      postListHTML += tempHTML.wrap('<p/>').parent().html();
     } // end of for loop
-    return jobListHTML;
+    return postListHTML;
   },
+  capitalize: function(string) {
+   if(typeof string==undefined) return;
+   var firstLetter = string[0] || string.charAt(0);
+   return firstLetter ? firstLetter.toUpperCase() + string.slice(1) : '';
+  }
 
 }
 twitterModule.init();
-*/
+if(!String.linkify) {
+  String.prototype.linkify = function() {
+    // http://, https://, ftp://
+    var urlPattern = /\b(?:https?|ftp):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*[a-z0-9-+&@#\/%=~_|]/gim;
+    // www. sans http:// or https://
+    var pseudoUrlPattern = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    // Email addresses
+    var emailAddressPattern = /[\w.]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+/gim;
+    return this
+      .replace(urlPattern, '<a href="$&">$&</a>')
+      .replace(pseudoUrlPattern, '$1<a href="http://$2">$2</a>')
+      .replace(emailAddressPattern, '<a href="mailto:$&">$&</a>');
+  };
+}
+
+
 
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
@@ -814,26 +839,26 @@ $(document).ready(function() {
   .not('[href="#0"]')
   .not('[href="https://www.wundermobility.com/#section-contact"]')
   .click(function(event) {
-    event.preventDefault();
     // On-page links
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      var topOffset = 250;
-      if(this.hash.indexOf('contact')!= -1) {
-        topOffset = -200;
-      }
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top - topOffset
-        }, 600, function() {
-          grecaptcha.ready(function() {
-            grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
-          });
-          // Callback after animation
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    var topOffset = 250;
+    if(this.hash.indexOf('contact')!= -1) {
+      topOffset = -200;
+    }
+    // Does a scroll target exist?
+    if (target.length) {
+      event.preventDefault();
+      // Only prevent default if animation is actually gonna happen
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top - topOffset
+      }, 600, function() {
+        grecaptcha.ready(function() {
+          grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
         });
+        // Callback after animation
+      });
     }
   });
 

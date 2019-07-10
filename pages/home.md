@@ -23,7 +23,7 @@ page_sections:
     url: https://vimeo.com/318402556
     button_text: Watch our Film
     enabled: true
-  background_video: jared-drone4
+  background_video: vidbanner-2
   show_logos: true
   background_image: "/uploads/2019/02/08/home-poster.jpg"
   intro_text: ''

@@ -1,0 +1,137 @@
+<section class="block block-blog-list" id="section-bloglist">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+
+        {% assign sticky = site.posts | sort: "publish_date" | where: "sticky", true | first %}
+        <div class="sticky-post">
+          <a class="blog-card-link" href="{{ sticky.url }}" title="{{ sticky.title }}" >
+            <div class="card horizontal-card">
+              <div class="row no-gutters">
+                <div class="col-md-8">
+                  <img src="{{ sticky.featured_image }}" class="card-img" alt="" >
+                </div>
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <p class="post-cat {{ sticky.category | downcase | replace: "@", "" }}">{{ sticky.category }}</p>
+                    <h4 class="card-title">{{ sticky.title }}</h4>
+                    <p class="card-text">{{ sticky.excerpt }}</p>
+                    <p class="card-text card-bottom"><small class="text-muted">{{ sticky.publish_date | date: "%B %-d, %Y" }}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="grid" data-colcade="columns: .grid-col, items: .blog-card-link">
+          <div class="grid-col grid-col--1"></div>
+          <div class="grid-col grid-col--2"></div>
+          {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
+          {% for post in blogposts %}
+            {% unless post.title == sticky.title %}
+            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up" {% if forloop.index == 2 %}data-aos-delay="200"{% endif %}>
+              <div class="card">
+                <div class="test">
+                  <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
+                </div>
+                <div class="card-body">
+                  <p class="post-cat {{ post.category | downcase | replace: "@", "" }}">{{ post.category }}</p>
+                  <h4 class="card-title">{{ post.title }}</h4>
+                  <p class="card-text card-bottom"><small class="text-muted">{{ post.publish_date | date: "%B %-d, %Y" }}</small></p>
+                </div>
+              </div>
+            </a>
+            {% endunless %}
+          {% endfor %}
+
+        </div>
+
+
+        {% comment %}
+        <div class="text-center">
+          <a class="round-cta dark" href="#">View More</a>
+        </div>
+        {% endcomment %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="follow-bar">
+  <div class="block-full-right col-2-in w-bg w-x-shadow">
+    <div class="container container-fullright">
+      <div class="row">
+        <div class="col">
+          <p>
+            Get updates as they happen, follow us now!
+            <a target="_blank" href="{{ site.data.global.linkedin }}"><ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.youtube }}"><ion-icon class="youtube-icon" name="logo-youtube" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.instagram }}"><ion-icon class="instagram-icon" name="logo-instagram" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.twitter }}"><ion-icon class="twitter-icon" name="logo-twitter" ></ion-icon></a>
+            <a target="_blank" href="{{ site.data.global.vimeo }}""><ion-icon class="vimeo-icon" name="logo-vimeo""></ion-icon></a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="social-ticker">
+  <div class="block-full-right col-2-in">
+    <div class="container container-fullright">
+      <div class="social-ticker__row d-flex flex-row mw-100">
+        <div class="social-ticker__post hidden">
+          <div class="d-flex align-items-center post-meta">
+            <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
+            <ion-icon class="instagram-icon" name="logo-instagram"></ion-icon>
+            <p><small class="post-date">June 24th</small></p>
+          </div>
+          <div class="d-flex flex-column post-content">
+            <img class="mw-100 post-image" src="https://amp.businessinsider.com/images/5cb642b8abb9f50cf06839df-750-562.jpg" />
+            <p class="post-text">INTRODUCING WUNDER PARK - we're live! Visit https://t.co/LkbStBhTGg to learn about how Wunder Park can solve your #parking management problems with cutting-edge #tech</p>
+            <a class="post-link"><small class="d-block"></small></a>
+          </div>
+        </div>
+      </div>
+      <div class="social-ticker__nav">
+        <span class="page active"></span>
+        <span class="page"></span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="block block-newsletter-signup" id="section-newsletter">
+
+  <div class="gradient-block block-full-right col-2-in">
+    <div class="container container-fullright">
+
+      <div class="row">
+        <div class="col-sm-10">
+          <h2 class="page-heading">Join us at the Wunder Bar</h2>
+          <p class="lead">We send out a monthly newsletter with the latest news about Wunder Mobility and the future of mobility around the world.</p>
+          <div id="mc_embed_signup">
+            <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="mc-field-group form-group">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <label for="mce-EMAIL" class="form-label">Enter your email</label>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6ee53e24cd30c208f1a610b1_0ba0a2cc79" tabindex="-1" value=""></div>
+              <a onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe" class="round-cta clear with-arrow float-right">Subscribe</a>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> <!-- end of success wrapper -->
