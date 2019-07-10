@@ -2,7 +2,7 @@
 layout: simple-article
 category: Insights
 title: 4 Things That Will Change the Future of Mobility
-publish_date: 2019-07-01T00:00:00.000+00:00
+publish_date: 2019-07-10T00:00:00.000+00:00
 sticky: true
 excerpt: Expanding metropolises will have to come up with modern solutions to their
   complex problems - and fast!

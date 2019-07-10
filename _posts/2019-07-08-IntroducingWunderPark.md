@@ -2,7 +2,7 @@
 layout: simple-article
 category: News
 title: Introducing Wunder Park
-publish_date: 2019-07-01T09:00:00.000+00:00
+publish_date: 2019-06-26T09:00:00.000+00:00
 featured_image: "/uploads/2019/07/08/park7.jpeg"
 excerpt: Wunder Mobility's new Wunder Park solution is digitzing parking space management.
 cta_link: pages/de/park.md
