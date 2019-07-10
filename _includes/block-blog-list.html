@@ -8,10 +8,10 @@
           <a class="blog-card-link" href="{{ sticky.url }}" title="{{ sticky.title }}" >
             <div class="card horizontal-card">
               <div class="row no-gutters">
-                <div class="col-md-8">
+                <div class="col-md-8 position-relative">
                   <img src="{{ sticky.featured_image }}" class="card-img" alt="" >
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 position-relative body-col">
                   <div class="card-body">
                     <p class="post-cat {{ sticky.category | downcase | replace: "@", "" }}">{{ sticky.category }}</p>
                     <h4 class="card-title">{{ sticky.title }}</h4>
