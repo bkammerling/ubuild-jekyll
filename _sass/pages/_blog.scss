@@ -1,3 +1,9 @@
+.blog {
+  .video-banner .video-banner__inner-content {
+      min-height: 0;
+  }
+}
+
 .block-blog-list {
     margin: 6rem 0;
 
@@ -74,7 +80,10 @@
       transform: translateY(-10px);
     }
     .horizontal-card .body-col  {
-      transform: translateX(-10px);
+      transform: translateY(-10px);
+      @include rwd(tablet-up) {
+        transform: translateX(-10px);
+      }
     }
   }
 }
@@ -199,6 +208,12 @@ h4.card-title {
 
 }
 
+.back-arrow {
+  transform: rotate(180deg);
+  max-width: 17px;
+  margin-right: 6px;
+  margin-bottom: 1px;
+}
 
 ion-icon {
   &.linkedin-icon {
