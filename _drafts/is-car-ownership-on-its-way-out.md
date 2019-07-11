@@ -8,15 +8,15 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: Is Car Ownership On Its Way Out?
 publish_date: 2019-07-11T11:00:00.000+00:00
-featured_image: "/uploads/2019/07/11/image (3).png"
+featured_image: "/uploads/2019/07/11/freeway-1.png"
 excerpt: 'The world still isn''t sure about how to tackle the issue of car ownership. '
 
 ---
 It’s no secret that Germany, home to the world’s largest automobile industry, is a car-centric country. Cars are often seen as symbols of freedom or flexibility, and to most, they’re still considered the most practical way of getting around.
 
-![](/uploads/2019/07/11/image (3).png)
-
 In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects and are still fully dependent on cars as a means of transportation.
+
+![](/uploads/2019/07/11/image (3).png)
 
 Nevertheless, city planners, environmental researchers and mobility experts have already begun to reject the old-fashioned idea that automobiles are an ultimate indicator of economic and societal stability. In fact, experts have warned against designing car-based communities ever since their heyday in the 1950’s. In her well-known book from 1961, _The Death and Life of Great American Cities_, author Jane Jacobs critiqued the short-sightedness of urban planners and argued that their car-based city models were actually detrimental to the way societies are organized, rather than being the pillars of modernism that optimistic city planners had hoped.
 
@@ -32,6 +32,6 @@ And then comes the incredibly inconvenient truth, the most glaringly obvious rea
 
 Globally, growth in the automotive industry is already slowing down. But many people all over the world are just starting to earn enough money to be able to afford a car, and car sales are expected to hit 78.7 million (units) this year. [(6)](https://www.statista.com/statistics/200002/international-car-sales-since-1990/ "Statista") We’re faced with a complex problem: cars are still a major part of many people’s lives, even though it’s been proven that they can do more harm than good.
 
-![](/uploads/2019/07/11/americacar1-2.jpeg)
+![](/uploads/2019/07/11/freeway-1.png)
 
 Looking forward, it’s incredibly important that we include the car in our plans for transforming the mobility industry, rather than shunning car drivers or writing them off completely. Tackling the ownership issue and positioning cars as a sharable, practical means to an end rather than as a personal object or a status symbol might be a good place to start.
