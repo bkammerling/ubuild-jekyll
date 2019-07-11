@@ -1,5 +1,5 @@
-.summit {
-
+body[class*="summit"] {
+  @include highlight($summit-highlight);
   /*.header .menu-item-cta:after {
     width: 125px;
     @include rwd(desktop-up) {
@@ -40,18 +40,20 @@
     }
   }
 
-}
-
-.summit .client-list__logotypes {
-  h3 {
-    font-size: 14px;
-    line-height: 18px;
-    @include rwd(tablet-up) {
-      font-size: 18px;
-      line-height: 22px;
+  .client-list__logotypes {
+    h3 {
+      font-size: 14px;
+      line-height: 18px;
+      @include rwd(tablet-up) {
+        font-size: 18px;
+        line-height: 22px;
+      }
     }
   }
+
 }
+
+
 
 .summit-main-wrapper, .autotech-main-wrapper, .event-main-wrapper {
   overflow: hidden;
@@ -124,7 +126,7 @@
 }
 
 
-body.summit .gradient-block .block-full-right {
+body[class*="summit"] .gradient-block .block-full-right {
   background: linear-gradient(138.65deg, #F33092 0.27%, #DB006E 53.82%);
   color: $white;
 
@@ -342,9 +344,6 @@ body.summit .gradient-block .block-full-right {
 }
 
 
-.summit {
-  @include highlight($summit-highlight);
-}
 
 
 .autotech-events {

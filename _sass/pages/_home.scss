@@ -205,7 +205,8 @@ main {
 
 .cities__wrapper {
   padding: rem(30px) 0 rem(80px);
-  transform: translateY(-90px);
+  transform: translateY(-190px);
+  margin-bottom: -90px;
   @include rwd(tablet-up) {
     padding: 0;
     .cities-text {
