@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: []
-title: Is Car Ownership On its Way Out?
+title: Is Car Ownership On Its Way Out?
 publish_date: 2019-07-11 11:00:00 +0000
 featured_image: "/uploads/2019/07/11/car5-1.jpeg"
 excerpt: How do we tackle the issue of private car ownership?
