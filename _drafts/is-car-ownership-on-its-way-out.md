@@ -16,7 +16,7 @@ It’s no secret that Germany, home to the world’s largest automobile industry
 
 In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects and are still fully dependent on cars as a means of transportation.
 
-![](/uploads/2019/07/11/image (3).png)
+![A dirt road in America](/uploads/2019/07/11/image (3).png "PrimitiveRoad")
 
 Nevertheless, city planners, environmental researchers and mobility experts have already begun to reject the old-fashioned idea that automobiles are an ultimate indicator of economic and societal stability. In fact, experts have warned against designing car-based communities ever since their heyday in the 1950’s. In her well-known book from 1961, _The Death and Life of Great American Cities_, author Jane Jacobs critiqued the short-sightedness of urban planners and argued that their car-based city models were actually detrimental to the way societies are organized, rather than being the pillars of modernism that optimistic city planners had hoped.
 
