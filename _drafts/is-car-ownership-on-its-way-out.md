@@ -16,13 +16,13 @@ It’s no secret that Germany, home to the world’s largest automobile industry
 
 In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects and are still fully dependent on cars as a means of transportation.
 
-![A dirt road in America](/uploads/2019/07/11/image (3).png "PrimitiveRoad")
+![A dirt road in America](/uploads/2019/07/11/image (3).png "PrimitiveRoad")_It's tough for many people living in rural areas to get around without a car._
 
 Nevertheless, city planners, environmental researchers and mobility experts have already begun to reject the old-fashioned idea that automobiles are an ultimate indicator of economic and societal stability. In fact, experts have warned against designing car-based communities ever since their heyday in the 1950’s. In her well-known book from 1961, _The Death and Life of Great American Cities_, author Jane Jacobs critiqued the short-sightedness of urban planners and argued that their car-based city models were actually detrimental to the way societies are organized, rather than being the pillars of modernism that optimistic city planners had hoped.
 
 Jacobs argued that building an infrastructure which serves automobile drivers first and foremost leads to the division of neighborhoods and severs community ties in the process. Now, almost 70 years later, crumbling parking lots lining the storefronts of shuttered shopping malls are all that remain of the once-thriving town centers many Americans used to see as the foundation of the healthy middle-class communities they resided in. Empty parking lots and neglected, pothole-ridden streets are a reminder of how dramatically the lifestyles of average Americans have changed in the past few decades, and they certainly make it hard to claim that car-loving city planners of the 1950’s were right all along.
 
-![](/uploads/2019/07/11/americacar4.jpeg)
+![](/uploads/2019/07/11/americacar4.jpeg)_Potholes abound in many American cities._ 
 
 It finally seems as though the car’s once untouchable reputation has started to erode in the eyes of the public. There are plenty of reasons why that’s the case, one of the most influential of which is the cost of owning a personal car. Having and maintaining a car is expensive - a new one costs on average 41 cents per kilometer, and only 8 cents worth of those costs go to gasoline burned while driving. [(1)](http://www.adac.de/_mmm/pdf/autokostenuebersicht_47085.pdf "ADAC Report")
 
@@ -32,6 +32,6 @@ And then comes the incredibly inconvenient truth, the most glaringly obvious rea
 
 Globally, growth in the automotive industry is already slowing down. But many people all over the world are just starting to earn enough money to be able to afford a car, and car sales are expected to hit 78.7 million (units) this year. [(6)](https://www.statista.com/statistics/200002/international-car-sales-since-1990/ "Statista") We’re faced with a complex problem: cars are still a major part of many people’s lives, even though it’s been proven that they can do more harm than good.
 
-![](/uploads/2019/07/11/freeway-1.png)
+![](/uploads/2019/07/11/freeway-1.png)_Driving a personal car to work is a way of life for millions of people._
 
 Looking forward, it’s incredibly important that we include the car in our plans for transforming the mobility industry, rather than shunning car drivers or writing them off completely. Tackling the ownership issue and positioning cars as a sharable, practical means to an end rather than as a personal object or a status symbol might be a good place to start.
