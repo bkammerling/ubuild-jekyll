@@ -25,7 +25,7 @@ page_sections:
     enabled: true
   background_video: vidbanner-2
   show_logos: true
-  background_image: "/uploads/2019/02/08/home-poster.jpg"
+  background_image: "/uploads/2019/07/11/vidbanner-poster.jpg"
   intro_text: ''
   logo_row: mainlogos
 - template: custom-block
