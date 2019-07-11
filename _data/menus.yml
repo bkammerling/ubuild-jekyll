@@ -190,6 +190,11 @@ footer:
   title: Company
   col: 2
   items:
+  - identifier: blog
+    url: "/blog"
+    weight: 3
+    title: Blog
+    parent: company
   - identifier: press
     url: "/press"
     weight: 2
