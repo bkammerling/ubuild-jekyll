@@ -664,7 +664,6 @@ var twitterModule = {
  scroll: function(target) {
    var width = $(target).outerWidth() + $(target).outerWidth() * 0.15; // size of pseudoelement appended to end of row
    var left = $(target).scrollLeft();
-   console.log(width, left);
    var perc = (left * 100) / width;
    $('.bottombar-overlay').css('width', perc+"%");
  }
