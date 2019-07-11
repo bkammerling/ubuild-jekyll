@@ -8,7 +8,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: Is Car Ownership On Its Way Out?
 publish_date: 2019-07-11 11:00:00 +0000
-featured_image: "/uploads/2019/07/11/car5-1.jpeg"
+featured_image: "/uploads/2019/07/11/americacar1.jpeg"
 excerpt: 'The world still isn''t sure about how to tackle the issue of car ownership. '
 
 ---
@@ -16,7 +16,7 @@ excerpt: 'The world still isn''t sure about how to tackle the issue of car owner
 
 It’s no secret that Germany, home to the world’s largest automobile industry, is a car-centric country. Cars are often seen as symbols of freedom or flexibility, and to most, they’re still considered the most practical way of getting around.
 
-![](/uploads/2019/07/11/car5-2.jpeg)
+![](/uploads/2019/07/11/americacar1-1.jpeg)
 
 In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects and are still fully dependent on cars as a means of transportation.
 
