@@ -9,16 +9,16 @@ cta_link: []
 title: Is Car Ownership On Its Way Out?
 publish_date: 2019-07-11 11:00:00 +0000
 featured_image: "/uploads/2019/07/11/car5-1.jpeg"
-excerpt: How do we tackle the issue of private car ownership?
+excerpt: 'The world still isn''t sure about how to tackle the issue of car ownership. '
 
 ---
 **Is Car Ownership On Its Way Out?**
 
-It’s no secret that Germany, home to the world’s largest automobile industry, is a car-centric country. Cars are often seen as symbols of freedom or flexibility, and to most, they’re still considered the most practical way of getting around. 
+It’s no secret that Germany, home to the world’s largest automobile industry, is a car-centric country. Cars are often seen as symbols of freedom or flexibility, and to most, they’re still considered the most practical way of getting around.
 
 ![](/uploads/2019/07/11/car5-2.jpeg)
 
-In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects are still fully dependent on cars as a means of transportation.
+In densely populated urban areas, using shared mobility services in the future seems like a tangible, realistic idea, but outside of city centers, many people remain excluded from progressive urban planning projects and are still fully dependent on cars as a means of transportation.
 
 Nevertheless, city planners, environmental researchers and mobility experts have already begun to reject the old-fashioned idea that automobiles are an ultimate indicator of economic and societal stability. In fact, experts have warned against designing car-based communities ever since their heyday in the 1950’s. In her well-known book from 1961, _The Death and Life of Great American Cities_, author Jane Jacobs critiqued the short-sightedness of urban planners and argued that their car-based city models were actually detrimental to the way societies are organized, rather than being the pillars of modernism that optimistic city planners had hoped.
 
@@ -32,7 +32,7 @@ The societal costs of personal car ownership are high as well: a 2015 study by t
 
 And then comes the incredibly inconvenient truth, the most glaringly obvious reason why the popularity of cars is on the decline: their contribution to climate change. It’s not something that can be brushed aside anymore, considering that each car pumps an average of 4.6 metric tons of carbon monoxide into our atmosphere every year. (3) The World Health Organization estimates that a staggering 4.2 million deaths each year are the result of exposure to air pollution, (4) and it’s well known that toxic pollutants released by cars cause cancer and birth defects as well. (5)
 
-Globally, growth in the automotive industry is already slowing down. But many people all over the world are just starting to earn enough money to be able to afford a car, and car sales are expected to hit 78.7 million (units) this year. (6) We’re faced with a complex problem: cars are still a major part of many people’s lives, even though it’s been proven that they can do more harm than good. 
+Globally, growth in the automotive industry is already slowing down. But many people all over the world are just starting to earn enough money to be able to afford a car, and car sales are expected to hit 78.7 million (units) this year. (6) We’re faced with a complex problem: cars are still a major part of many people’s lives, even though it’s been proven that they can do more harm than good.
 
 ![](/uploads/2019/07/11/cars4.jpeg)
 
