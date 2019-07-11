@@ -25,12 +25,14 @@
         </div>
 
         <div class="grid" data-colcade="columns: .grid-col, items: .blog-card-link">
-          <div class="grid-col grid-col--1"></div>
-          <div class="grid-col grid-col--2"></div>
+          <div class="grid-col grid-col--1" data-aos="fade-up"></div>
+          <div class="grid-col grid-col--2" data-aos="fade-up" data-aos-delay="250"></div>
           {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
+          {% assign myindex = 0 %}
           {% for post in blogposts %}
             {% unless post.title == sticky.title %}
-            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up" {% if forloop.index == 2 %}data-aos-delay="200"{% endif %}>
+            {% assign myindex = myindex | plus: 1 %}
+            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up">
               <div class="card">
                 <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
                 <div class="card-body">
@@ -80,8 +82,8 @@
 
 <section class="social-ticker">
   <div class="block-full-right col-2-in">
-    <div class="container container-fullright">
-      <div class="social-ticker__row d-flex flex-row mw-100">
+    <div class="">
+      <div class="social-ticker__row d-flex flex-row mw-100" >
         <div class="social-ticker__post hidden">
           <div class="d-flex align-items-center post-meta">
             <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
@@ -100,6 +102,9 @@
         <span class="page"></span>
       </div>
 
+    </div>
+    <div class="bottombar container container-fullright">
+      <div class="bottombar-overlay"></div>
     </div>
   </div>
 </section>

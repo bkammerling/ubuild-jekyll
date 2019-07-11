@@ -622,6 +622,10 @@ var twitterModule = {
       socialRow.toggleClass('moved');
       $(this).addClass('active').siblings().removeClass('active');
     });
+    $(".social-ticker__row").scroll(function(e) {
+      twitterModule.scroll(e.target);
+    });
+    twitterModule.scroll($(".social-ticker__row"));
   },
   data: [],
   buildFeed: function(posts = this.data) {
@@ -656,7 +660,14 @@ var twitterModule = {
    if(typeof string==undefined) return;
    var firstLetter = string[0] || string.charAt(0);
    return firstLetter ? firstLetter.toUpperCase() + string.slice(1) : '';
-  }
+ },
+ scroll: function(target) {
+   var width = $(target).outerWidth() + $(target).outerWidth() * 0.15; // size of pseudoelement appended to end of row
+   var left = $(target).scrollLeft();
+   console.log(width, left);
+   var perc = (left * 100) / width;
+   $('.bottombar-overlay').css('width', perc+"%");
+ }
 
 }
 twitterModule.init();
