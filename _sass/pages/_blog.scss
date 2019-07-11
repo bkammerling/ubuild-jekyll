@@ -281,6 +281,9 @@ ion-icon {
   img + p, .plyr + p {
     margin-top: rem(50px);
   }
+  img:last-child {
+    margin-bottom: rem(50px);
+  }
 
   blockquote {
     text-transform: uppercase;
