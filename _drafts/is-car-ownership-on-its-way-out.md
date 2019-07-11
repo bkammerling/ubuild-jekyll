@@ -32,6 +32,6 @@ And then comes the incredibly inconvenient truth, the most glaringly obvious rea
 
 Globally, growth in the automotive industry is already slowing down. But many people all over the world are just starting to earn enough money to be able to afford a car, and car sales are expected to hit 78.7 million (units) this year. [(6)](https://www.statista.com/statistics/200002/international-car-sales-since-1990/ "Statista") We’re faced with a complex problem: cars are still a major part of many people’s lives, even though it’s been proven that they can do more harm than good.
 
-_![](/uploads/2019/07/11/roadamerica2.jpeg)An intersection in the countryside gets a makeover._
+_![](/uploads/2019/07/11/roadamerica2.jpeg)An intersection in the countryside under construction._
 
 Looking forward, it’s incredibly important that we include the car in our plans for transforming the mobility industry, rather than shunning car drivers or writing them off completely. Tackling the ownership issue and positioning cars as a sharable, practical means to an end rather than as a personal object or a status symbol might be a good place to start.
