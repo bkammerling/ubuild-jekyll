@@ -12,8 +12,6 @@ featured_image: "/uploads/2019/07/11/image (3).png"
 excerpt: 'The world still isn''t sure about how to tackle the issue of car ownership. '
 
 ---
-**Is Car Ownership On Its Way Out?**
-
 It’s no secret that Germany, home to the world’s largest automobile industry, is a car-centric country. Cars are often seen as symbols of freedom or flexibility, and to most, they’re still considered the most practical way of getting around.
 
 ![](/uploads/2019/07/11/image (3).png)
