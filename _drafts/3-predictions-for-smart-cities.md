@@ -17,7 +17,7 @@ A smart city is generally defined as a city that utilizes information and commun
 
 ![](/uploads/2019/07/12/city1.jpeg)
 
-The concept is quite cool, of course. When we imagine megacities of the future, it’s fun to consider the possibility of living in a “digitized” home that can manage a household more wisely than we can, or riding in a self-driving car or a superbus that speeds along on the highway at 250 km/h to work. But are these projections realistic? Here are three predictions we think will _actually_ define the smart cities of tomorrow.
+The concept is quite cool, of course. When we imagine megacities of the future, it’s fun to consider the possibility of living in a “digitized” home that can manage a household more wisely than we can, or driving to work in a autonomous car or a superbus that speeds along on the highway at 250 km/h. But are these projections realistic? Here are three predictions we think will _actually_ define the smart cities of tomorrow.
 
 ### **1. Electricity will take the place of fossil fuels**
 
