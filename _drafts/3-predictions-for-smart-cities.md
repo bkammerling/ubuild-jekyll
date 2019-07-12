@@ -13,7 +13,7 @@ excerpt: The term "smart city" conjures up images of futuristic cityscapes and a
   vehicles. But what features will really define the smart cities of tomorrow?
 
 ---
-The term "smart city" has generated a lot of interest in recent years. A smart city is generally defined as a city that combines information and communication technologies into its planning and structure so as to allocate its resources in a sustainable way, thereby improving the quality of life for its citizens.
+A smart city is generally defined as a city that combines information and communication technologies into its planning and structure so as to allocate its resources in a sustainable way, thereby improving the quality of life for its citizens.
 
 ![](/uploads/2019/07/12/city1.jpeg)
 
