@@ -15,9 +15,9 @@ excerpt: The term "smart city" conjures up images of futuristic cityscapes and a
 ---
 A smart city is generally defined as a city that utilizes information and communication technologies to allocate its resources in a sustainable way and improve the quality of life for its citizens.
 
-![](/uploads/2019/07/12/city1.jpeg)
-
 The concept is quite cool, of course. When we imagine megacities of the future, it’s fun to consider the possibility of living in a “digitized” home that can manage a household more wisely than we can, or driving to work in a autonomous car or a superbus that speeds along on the highway at 250 km/h. But are these projections realistic? Here are three predictions we think will _actually_ define the smart cities of tomorrow.
+
+![](/uploads/2019/07/12/city1.jpeg)
 
 ### **1. Electricity will take the place of fossil fuels**
 
@@ -47,6 +47,6 @@ Of course, being reliant on a variety of **combinable transportation modes** is 
 
 If there’s one main theme holding these three predictions together, it’s the global shift in attitudes already in motion, leading to the widespread desire to share with others and replacing the allure of private ownership. As an example, **free-floating vehicle sharing** is an eco-friendly and practical alternative to private ownership. **Smart data** systems could never be properly implemented without the use of **data sharing.**
 
-Some of these concepts have existed for many years, which is something we tend to forget, but they’re being reinvented and powered by **cutting-edge technology** to become ultimately accessible, user-friendly alternatives to driving a private car or using crowded and often unreliable public transportation. Advancements in technology will only continue to **improve in the future**, and smart cities will utilize these advancements in order to improve the lives of every city dweller impacted by them. 
+Some of these concepts have existed for many years, which is something we tend to forget, but they’re being reinvented and powered by **cutting-edge technology** to become ultimately accessible, user-friendly alternatives to driving a private car or using crowded and often unreliable public transportation. Advancements in technology will only continue to **improve in the future**, and smart cities will utilize these advancements in order to improve the lives of every city dweller impacted by them.
 
 Societal shifts have already created cities that are smarter than most human beings ever thought possible, but to what extent will the “smartness” of our largest cities increase? We're the agents of change that have already set these trends in motion, so perhaps our actions are already defining the smart city of tomorrow - quite unbeknownst to us.
