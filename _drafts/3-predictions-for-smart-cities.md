@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: 3 Predictions for Smart Cities
-publish_date: 2019-07-12 15:00:00 +0000
+publish_date: 2019-07-15 08:00:00 +0000
 featured_image: "/uploads/2019/07/12/city1.jpeg"
 excerpt: The term "smart city" conjures up images of futuristic cityscapes and autonomous
   vehicles. But what features will really define the smart cities of tomorrow?
@@ -35,7 +35,7 @@ In smart cities, that problem will easily be solved with real-time data. An app 
 
 ### **3. Multimodal transportation will be commonplace**
 
-Commuters in smart cities will think of the routes they take to work as a “**complete trip**” or a multi-step process that starts before leaving the house. They’ll use an app in advance to check when the bus is arriving, if an e-scooter is available for rent in the area, or if a **shuttle service** is driving around the neighborhood. After arriving at the trip origin, they’ll move to the first stop or station and maybe even make a few transfers in between before they reach their final destination. 
+Commuters in smart cities will think of the routes they take to work as a “**complete trip**” or a multi-step process that starts before leaving the house. They’ll use an app in advance to check when the bus is arriving, if an e-scooter is available for rent in the area, or if a **shuttle service** is driving around the neighborhood. After arriving at the trip origin, they’ll move to the first stop or station and maybe even make a few transfers in between before they reach their final destination.
 
 It’s not hard to imagine that switching between vehicle types (taking a bus to the nearest e-scooter or exiting a shared car to get on an e-bike, for example) will be absolutely normal for smart city dwellers, and an integral component of the multi-step or “complete trip” process is **micromobility.** It’s small, environmentally friendly vehicle types like e-scooters that will allow users to comfortably get where they’re going and will slowly start replacing cars.
 
@@ -45,6 +45,8 @@ Of course, being reliant on a variety of **combinable transportation modes** is 
 
 ### **What’s Next?**
 
-If there’s one main theme holding these three predictions together, it’s the global shift in attitudes already in motion, leading to the widespread desire to share with others and replacing the allure of private ownership. As an example, **free-floating vehicle sharing** is an eco-friendly and practical alternative to private ownership. **Smart data** systems could never be properly implemented without the use of **data sharing.** 
+If there’s one main theme holding these three predictions together, it’s the global shift in attitudes already in motion, leading to the widespread desire to share with others and replacing the allure of private ownership. As an example, **free-floating vehicle sharing** is an eco-friendly and practical alternative to private ownership. **Smart data** systems could never be properly implemented without the use of **data sharing.**
 
-Some of these concepts have existed for many years, which is something we tend to forget, but they’re being reinvented and powered by **cutting-edge technology** to become ultimately accessible, user-friendly alternatives to driving a private car or using crowded and often unreliable public transportation. Advancements in technology will only continue to **improve in the future**, and smart cities will utilize these advancements in order to improve the lives of every city dweller impacted by them. Societal shifts have already created cities that are smarter than most human beings ever thought possible, but to what extent will the “smartness” of our largest cities increase? Perhaps only time will tell - or perhaps we're the agents of change that have already set these trends in motion. Perhaps our attitudes are already defining the smart city of tomorrow. 
+Some of these concepts have existed for many years, which is something we tend to forget, but they’re being reinvented and powered by **cutting-edge technology** to become ultimately accessible, user-friendly alternatives to driving a private car or using crowded and often unreliable public transportation. Advancements in technology will only continue to **improve in the future**, and smart cities will utilize these advancements in order to improve the lives of every city dweller impacted by them. 
+
+Societal shifts have already created cities that are smarter than most human beings ever thought possible, but to what extent will the “smartness” of our largest cities increase? We're the agents of change that have already set these trends in motion, so perhaps our actions are already defining the smart city of tomorrow - quite unbeknownst to us.
