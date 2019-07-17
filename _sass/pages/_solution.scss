@@ -224,7 +224,7 @@ main {
   .solution-wrapper {
     #section-os {
       @include rwd(tablet-up) {
-        padding-bottom: 2rem;
+        padding-bottom: 0;
       }
     }
 
@@ -255,9 +255,9 @@ main {
     display: block;
     max-height: 300px;
     @include rwd(tablet-up) {
-      margin-top: -100px;
-      margin-bottom: -100px;
-      max-width: 300px;
+      margin-top: -140px;
+      margin-bottom: -137px;
+      max-width: 250px;
       max-height: none;
     }
 

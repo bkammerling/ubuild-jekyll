@@ -316,7 +316,19 @@ page_sections:
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 100px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                  <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-2">
+                <div class="partner-box">
+                  <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <img class="" style="width: 170px; max-width:90%;" data-src="uploads/global/tagesspiegel-background.jpg">
                 </div>
               </div>
             </div>

@@ -683,6 +683,12 @@ ul.dropdown-padded {
   &.top-3 {
     top: 3300px;
   }
+  &.top-4 {
+    top: 4100px;
+  }
+  &.top-5 {
+    top: 4800px;
+  }
 
   @include rwd(tablet-up) {
     &.top-1 {
@@ -693,6 +699,12 @@ ul.dropdown-padded {
     }
     &.top-3 {
       top: 2100px;
+    }
+    &.top-4 {
+      top: 2800px;
+    }
+    &.top-45{
+      top: 3500px;
     }
   }
 
@@ -713,6 +725,12 @@ ul.dropdown-padded {
     }
     &.top-3 {
       top: 2400px;
+    }
+    &.top-4 {
+      top: 3100px;
+    }
+    &.top-5 {
+      top: 3800px;
     }
 
   }
@@ -998,9 +1016,10 @@ ul.footer__socialmedia {
 
 .card .icon-list {
   img {
-    width: 50px;
-    max-height: 45px;
-    margin: 5px 2rem 5px 1rem;
+    width: 42px;
+    max-height: 38px;
+    margin: 2px 2rem 5px 1rem;
+
   }
   li {
     display: flex;
@@ -1010,7 +1029,7 @@ ul.footer__socialmedia {
     font-weight: 800;
     text-transform: uppercase;
     color: #334146;
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
   }
 }

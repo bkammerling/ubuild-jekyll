@@ -12,7 +12,7 @@ page_sections:
   sub_logo: ''
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Kontakt
 - template: hero-banner-w-image
   block: hero-2
   headline: Smarte Komplettlösungen für <strong>digitales Parkraum-Management</strong>
