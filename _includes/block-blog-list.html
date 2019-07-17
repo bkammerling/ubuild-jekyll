@@ -30,7 +30,7 @@
           {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
           {% assign myindex = 0 %}
           {% for post in blogposts %}
-            {% unless post.title == sticky.title or post.title == '' %}
+            {% unless post.title == sticky.title or post.title == 'Einführung von Wunder Park' %}
             {% assign myindex = myindex | plus: 1 %}
             <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up">
               <div class="card">
