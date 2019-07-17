@@ -96,5 +96,6 @@ fields:
       path: 
   label: CTA Link
 pages:
+- _posts/einführung-von-wunder-park.md
 - _posts/2019-07-11-is-car-ownership-on-its-way-out.md
 - _posts/3-predictions-for-smart-cities.md
