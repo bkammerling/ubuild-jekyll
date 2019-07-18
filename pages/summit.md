@@ -287,48 +287,71 @@ page_sections:
               <div class="col-lg-4 ">
                 <div class="partner-box ">
                   <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
-                  <img class="" style="width: 150px; max-width: 95%;" data-src="uploads/global/googlelogo.svg">
+                  <a target="_blank" href="https://about.google/intl/en/">
+                    <img class="" style="width: 150px; max-width: 95%;" data-src="uploads/global/googlelogo.svg">
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
                 <!--<h3 class="mb-4">Conference Supporter</h3>-->
-                  <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
+                  <a target="_blank" href="https://www.allianz-partners.com/en_US/products-and-solutions/automotive.html">
+                    <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4 ">
                 <div class="partner-box">
                   <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
+                  <a target="_blank" href="https://goodpatch.com/en/">
+                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
+                  </a>
                 </div>
               </div>
             </div>
             <div class="row align-items-center">
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                  <a target="_blank" href="https://www.mhp.com/de/home/">
+                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
+                  <a target="_blank" href="https://www.audi.de">
+                    <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
+                  <a target="_blank" href="https://www.free-now.com/">
+                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4 offset-lg-2">
+            <div class="row align-items-center">
+              <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                  <a target="_blank" href="https://www.microsoft.com/de-de">
+                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <img class="" style="width: 170px; max-width:90%;" data-src="uploads/global/tagesspiegel-background.jpg">
+                  <a target="_blank" href="https://ngin-mobility.com/">
+                    <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href="https://background.tagesspiegel.de/mobilitaet-transport?utm_source=wundermobility.com&utm_medium=koop&utm_campaign=wundermobility&utm_content=banner">
+                    <img class="" style="width: 170px; max-width:90%;" data-src="uploads/global/tagesspiegel-background.jpg">
+                  </a>
                 </div>
               </div>
             </div>
