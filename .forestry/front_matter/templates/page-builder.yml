@@ -53,6 +53,7 @@ fields:
   - block-from-right
   - icon-heading-cards
   - custom-block
+  - columns
 pages:
 - pages/summit.md
 - pages/park.md
