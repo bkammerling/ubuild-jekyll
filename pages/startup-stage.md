@@ -30,30 +30,17 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |
-    <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-startupinto">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-speakers">Jury</a>
-                    <a class="list-group-item list-group-item-action" href="#section-how">How it works</a>
-                    <a class="list-group-item list-group-item-action" href="#section-faq">FAQ</a>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-      <div class="summit-main-wrapper">
+  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
+    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
+    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
+    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-startupinto\">Intro</a>\n                <a class=\"list-group-item
+    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
+    class=\"list-group-item list-group-item-action\" href=\"#section-how\">How it
+    works</a>\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
+    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
+    class=\"summit-main-wrapper\">\n"
 - template: custom-content
   block: custom-html
   content: |-
@@ -118,13 +105,26 @@ page_sections:
   heading: Judging Criteria
   block: columns
   columns:
-  - content: "### Problem &amp; Solution<br>What solution does your startup provide?
-      How is your solution innovative?<br><br>### Business model<br>How do you plan
-      to make money? Is your business model viable?"
+  - content: |-
+      #### Problem and solution
+
+      What solution does your startup provide? How is your solution innovative?
+
+      #### Business model
+
+      How do you plan to make money? Is your business model viable?
+
+      #### Overall Pitch Performance
+
+      Clear, concise, convincing, engaging and passionate.
+
+      #### Persuasiveness
+
+      Would the jury be interested in knowing more about your project?
     headline: ''
-  - content: "### Benefits and competition<br>Describe your value proposition. How
-      do you differentiate from your competitors?<br><br>### Financing<br>What is
-      your plan to grow?"
+  - content: "#### Benefits and competition\n\nDescribe your value proposition. How
+      do you differentiate from your competitors?\n\n#### Financing\n\nWhat is your
+      plan to grow?\n\n#### Team Chemistry\n\nWhat skills does the founding team have?\n\n#### "
     headline: ''
 - template: custom-content
   block: custom-html
