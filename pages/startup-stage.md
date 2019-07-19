@@ -30,30 +30,17 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |
-    <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-startupinto">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-speakers">Jury</a>
-                    <a class="list-group-item list-group-item-action" href="#section-how">How it works</a>
-                    <a class="list-group-item list-group-item-action" href="#section-faq">FAQ</a>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-      <div class="summit-main-wrapper">
+  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
+    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
+    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
+    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-startupinto\">Intro</a>\n                <a class=\"list-group-item
+    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
+    class=\"list-group-item list-group-item-action\" href=\"#section-how\">How it
+    works</a>\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
+    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
+    class=\"summit-main-wrapper\">\n"
 - template: custom-content
   block: custom-html
   content: |-
@@ -85,7 +72,8 @@ page_sections:
   name: numbers
 - template: speakers
   heading: Jury Members 2019
-  sub-heading: A committee of five members made up of experts on the industry, VC’s and tech leaders will evaluate the pitches.
+  sub-heading: A committee of five members made up of experts on the industry, VC’s
+    and tech leaders will evaluate the pitches.
   block: speaker-cards
   speakers:
   - name: John Krafcik
@@ -113,6 +101,17 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+- template: columns
+  heading: Judging Criteria
+  columns:
+  - content: "### Problem &amp; Solution<br>What solution does your startup provide?
+      How is your solution innovative?<br><br>### Business model<br>How do you plan
+      to make money? Is your business model viable?"
+    headline: ''
+  - content: "### Benefits and competition<br>Describe your value proposition. How
+      do you differentiate from your competitors?<br><br>### Financing<br>What is
+      your plan to grow?"
+    headline: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -187,91 +186,6 @@ page_sections:
   column_count: 4
   sub-heading: From testing out the latest in micro-mobiltiy to unforgettable parties,
     WMS is more than just a conference!
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container mt-5">
-      <div class="row align-items-center">
-        <div class="col-lg-10 offset-lg-2 mt-5">
-          <section id="section-supporters">
-            <h2 class="page-heading mb-5">In Partnership with...</h2>
-            <div class="row align-items-center">
-              <div class="col-lg-4 ">
-                <div class="partner-box ">
-                  <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
-                  <a target="_blank" href="https://about.google/intl/en/">
-                    <img class="" style="width: 150px; max-width: 95%;" data-src="uploads/global/googlelogo.svg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                <!--<h3 class="mb-4">Conference Supporter</h3>-->
-                  <a target="_blank" href="https://www.allianz-partners.com/en_US/products-and-solutions/automotive.html">
-                    <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 ">
-                <div class="partner-box">
-                  <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <a target="_blank" href="https://goodpatch.com/en/">
-                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.mhp.com/de/home/">
-                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.audi.de">
-                    <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.free-now.com/">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.microsoft.com/de-de">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://ngin-mobility.com/">
-                    <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://background.tagesspiegel.de/mobilitaet-transport?utm_source=wundermobility.com&utm_medium=koop&utm_campaign=wundermobility&utm_content=banner">
-                    <img class="" style="width: 170px; max-width:90%;" data-src="uploads/global/tagesspiegel-background.jpg">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: supporters
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
