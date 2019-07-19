@@ -1,4 +1,22 @@
 ---
 label: Columns
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: columns
+  type: field_group_list
+  fields:
+  - name: column
+    type: include
+    config: {}
+    template: text-column
+    label: Column
+  config:
+    min: 
+    max: 
+    labelField: headline
+  label: Columns
