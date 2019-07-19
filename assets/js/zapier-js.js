@@ -1,5 +1,4 @@
 /* Intelligent Inbound Lead Flow JS */
-
 var owner, language, stakeholders = [], pipedriveProductId;
 // first get deal owner and assign language
 if(inputData.subject == "Wunder Fleet") {
@@ -7,19 +6,25 @@ if(inputData.subject == "Wunder Fleet") {
   if(inputData.region == "US") {
     owner = "nick.diprima@wundermobility.com";
   } else if(inputData.region == "DE") {
-    owner = "jan.kluetsch@wundermobility.com";
+    owner = "yannick.hippolyte@wundermobility.com";
   } else {
-    if(inputData.mql >= 16) {
-      owner = "jan.kluetsch@wundermobility.com";
-    } else {
+    var randomNum = Math.random();
+    if(randomNum >= 0.5) {
       owner = "luisa.rodrigues@wundermobility.com";
+    } else {
+      owner = "daniel.romero@wundermobility.com";
     }
   }
 } else if(inputData.subject == "Wunder Carpool") {
-  owner = "amity.wu@wundermobility.com";
+  owner = "philipp.wenger@wundermobility.com";
 } else if(inputData.subject == "Wunder Shuttle") {
   owner = "axel.grzymisch@wundermobility.com";
+} else if(inputData.subject == "Wunder Park") {
+  owner = "andre.wessoly@wundermobility.com";
+} else if(inputData.subject == "Wunder City") {
+  owner = "ioana.freise@wundermobility.com";
 }
+
 
 // build stakeholder list per product
 stakeholders.push(owner);
@@ -30,14 +35,18 @@ if(inputData.subject == "Wunder Fleet") {
 } else if(inputData.subject == "Wunder Carpool") {
   pipedriveProductId = 11;
   stakeholders.push("samuel.baker@wundermobility.com");
-  stakeholders.push("philipp.wenger@wundermobility.com");
+  stakeholders.push("shakib.wassey@wundermobility.com");
   stakeholders.push("frits.timmermans@wundermobility.com");
-} else {
+} else if(inputData.subject == "Wunder Shuttle") {
   pipedriveProductId = 13;
   stakeholders.push("samuel.baker@wundermobility.com");
-  stakeholders.push("luisa.rodrigues@wundermobility.com");
   stakeholders.push("jimena.rivas@wundermobility.com");
   stakeholders.push("nanke.becker@wundermobility.com");
+} else if(inputData.subject == "Wunder Park") {
+  pipedriveProductId = 248;
+  stakeholders.push("ludovic.ciannarella@wundermobility.com");
+} else if(inputData.subject == "Wunder City") {
+  pipedriveProductId = 244;
 }
 
 output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId}];
