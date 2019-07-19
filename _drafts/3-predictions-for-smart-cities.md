@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: 3 Predictions for Smart Cities
-publish_date: 2019-07-15 08:00:00 +0000
+publish_date: 2019-07-15T08:00:00.000+00:00
 featured_image: "/uploads/2019/07/12/city1.jpeg"
 excerpt: The term "smart city" conjures up images of futuristic cityscapes and autonomous
   vehicles. But what features will really define the smart cities of tomorrow?
@@ -49,4 +49,4 @@ If there’s one main theme holding these three predictions together, it’s the
 
 Some of these concepts have existed for many years, which is something we tend to forget, but they’re being reinvented and powered by **cutting-edge technology** to become ultimately accessible, user-friendly alternatives to driving a private car or using crowded and often unreliable public transportation. Advancements in technology will only continue to **improve in the future**, and smart cities will utilize these advancements in order to improve the lives of every city dweller impacted by them.
 
-Societal shifts have already created cities that are smarter than most human beings ever thought possible, but to what extent will the “smartness” of our largest cities increase? We're the agents of change that have already set these trends in motion, so perhaps our actions are already defining the smart city of tomorrow - quite unbeknownst to us.
+Societal shifts have already created cities that are smarter than most human beings ever thought possible, but to what extent will the “smartness” of our largest cities increase? We're the agents of change that have already set these trends in motion, so perhaps our actions are already defining the smart city of tomorrow.
