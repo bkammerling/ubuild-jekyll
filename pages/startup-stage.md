@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Startup Stage Battle
-date: '2019-01-22T23:00:00.000+00:00'
+date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
 page_sections:
 - template: navigation-header-w-button
@@ -23,24 +23,37 @@ page_sections:
     button_text: ''
     enabled: false
   show_logos: false
-  background_image: "/uploads/global/gunnar-stage@2x.png"
+  background_image: "/uploads/global/gunnar-stage@2x.jpg"
   background_video: ''
   intro_text: ''
   logo_row: ''
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
-    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
-    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
-    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-startupinto\">Intro</a>\n                <a class=\"list-group-item
-    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
-    class=\"list-group-item list-group-item-action\" href=\"#section-how\">How it
-    works</a>\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
-    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
-    class=\"summit-main-wrapper\">\n"
+  content: |
+    <main>
+      <div class="container">
+        <div class="abs">
+
+          <nav id="scroller-nav" class="list-group d-none d-lg-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-2">
+                  <div class="scroller-list">
+                    <a class="list-group-item list-group-item-action" href="#section-startupinto">Intro</a>
+                    <a class="list-group-item list-group-item-action" href="#section-speakers">Jury</a>
+                    <a class="list-group-item list-group-item-action" href="#section-how">How it works</a>
+                    <a class="list-group-item list-group-item-action" href="#section-faq">FAQ</a>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+
+      <div class="summit-main-wrapper">
 - template: custom-content
   block: custom-html
   content: |-
@@ -103,6 +116,7 @@ page_sections:
     company_logo: "/uploads/global/wundermobility-black.svg"
 - template: columns
   heading: Judging Criteria
+  block: columns
   columns:
   - content: "### Problem &amp; Solution<br>What solution does your startup provide?
       How is your solution innovative?<br><br>### Business model<br>How do you plan
