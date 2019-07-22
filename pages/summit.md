@@ -2,7 +2,7 @@
 layout: blocks
 title: Summit
 date: '2019-01-22T23:00:00.000+00:00'
-permalink: "/summit/"
+permalink: "/summit"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -166,6 +166,21 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Heiko Hüttel
+    job_title: Head of Technology and Partner Management
+    speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
+    company_logo: "/uploads/2019/06/13/Volkswagen.png"
+    company: Volkswagen
+  - company: Microsoft
+    speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
+    company_logo: "/uploads/global/microsoft-logo.png"
+    name: Jens Beckmann
+    job_title: Senior Business Development Manager
+  - name: Martin Hoff
+    job_title: Head of Market Management & Innovation
+    company: Automotive, Allianz Partners
+    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
+    company_logo: "/uploads/global/allianz-logo.jpg"
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
@@ -262,7 +277,8 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
     title: Startup Stage Battle
-    content: Four selected startups share their groundbreaking visions. <a class="text-blue" href="/summit/startup-stage">Find out more</a>
+    content: Four selected startups share their groundbreaking visions. <a class="text-blue"
+      href="/summit/startup-stage">Find out more</a>
     icon: ''
     sub_title: ''
     show_meetups: false
