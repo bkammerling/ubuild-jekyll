@@ -32,7 +32,9 @@
     {% if page.url contains 'event' or page.url contains 'summit' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
     <link rel="stylesheet" href="/css/styles.css" async>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
+  
   <body class="{{ page.title | downcase | replace: ' ', '-' }} {{ page.lang-ref }} {% if page.collection %}{{ page.collection }}{% endif %} {% if page.dir %}{{ page.dir | replace: "/", "" }}{% endif %}" data-spy="scroll" data-target="#scroller-nav" data-offset="350">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THSMP8S"
