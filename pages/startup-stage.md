@@ -9,7 +9,7 @@ page_sections:
   block: header-2
   menu: wunder-main
   cta:
-    url: "/summit"
+    url: "/summit/"
     button_text: WMS19 Home
   sub_logo: ''
 - template: hero-banner-w-image
