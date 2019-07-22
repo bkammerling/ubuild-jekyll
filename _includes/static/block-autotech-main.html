@@ -75,7 +75,7 @@
     <br>
 
     <section class="block block-grid mb-2" id="section-upcoming">
-      <div class="wunder-bg left top-3"></div>
+      <div class="wunder-bg right top-2"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-2">
@@ -118,7 +118,6 @@
 
 
     <section class="block block-video-1" id="section-aftermovie">
-      <div class="wunder-bg right top-4"></div>
       <div class="container ">
         <div class="row">
           <div class="col-lg-10 offset-lg-2">
@@ -138,18 +137,18 @@
     </section>
 
     <section class="block block-grid mb-2 mt-5" id="section-previous">
-      <div class="wunder-bg left top-3"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-2">
             <h2 class="page-heading mb-3">Previous Events</h2>
 
             <div class="row">
-              {% for event in site.autotech-events %}
+              {% assign prevevents = site.autotech-events | sort: "event_date" | reverse %}
+              {% for event in prevevents %}
                 {% assign today_date = 'now' | date: '%s' %}
                 {% assign event_secs = event.event_date | date: '%s' %}
                 {% assign oldevent_num = 0 %}
-                {% if event_secs < today_date and event_num < 4 %}
+                {% if event_secs < today_date and event_num < 7 %}
                 <div class="col-sm-4">
                   {% assign oldevent_num = event_num | plus: 1 %}
                   <a href="{{ event.url }}" title="{{ event.title }}">
