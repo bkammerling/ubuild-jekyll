@@ -298,6 +298,7 @@ function formSubmit(e) {
     });
   } else {
     console.log('form NOT clean');
+    $(e.target).attr("disabled", false);
   }
 }
 
