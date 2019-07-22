@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/de/home.md
 title: 3 Predictions for Smart Cities
-publish_date: 2019-07-19 08:00:00 +0000
+publish_date: 2019-07-19T08:00:00.000+00:00
 featured_image: "/uploads/2019/07/12/city1.jpeg"
 excerpt: The term "smart city" conjures up images of futuristic cityscapes and autonomous
   vehicles. But what features will really define the smart cities of tomorrow?
@@ -17,7 +17,7 @@ A smart city is generally defined as a city that utilizes information and commun
 
 The concept is quite cool, of course. When we imagine megacities of the future, it’s fun to consider the possibility of living in a “digitized” home that can manage a household more wisely than we can, or driving to work in a autonomous car or a superbus that speeds along on the highway at 250 km/h. But are these projections realistic? Here are three predictions we think will _actually_ define the smart cities of tomorrow.
 
-![](/uploads/2019/07/12/city1.jpeg)
+![](/uploads/2019/07/19/Screenshot 2019-07-19 at 14.45.12.png)
 
 ### **1. Electricity will take the place of fossil fuels**
 
