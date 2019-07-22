@@ -18,6 +18,9 @@
 /city  /  301
 /de/city  /  301
 
+/autotech  /mobility-sessions/  301
+/autotech-events/* /mobility-sessions/:splat 301!
+
 # Redirect default Netlify subdomain to primary domain
 https://wundermobility-com.netlify.com/* https://www.wundermobility.com/:splat 301!
 https://wunder.org/* https://www.wundermobility.com/:splat 301!

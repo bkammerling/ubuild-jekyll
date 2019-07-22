@@ -35,15 +35,15 @@ wunder-main:
   title: Events
   identifier: events
   sub: true
-- url: "/autotech"
+- url: "/summit/"
   weight: 2
-  identifier: autotech
-  title: Autotech Meetup
-  parent: events
-- url: "/summit"
-  weight: 1
   identifier: summit
-  title: Mobility Summit
+  title: Wunder Summit
+  parent: events
+- url: "/mobility-sessions/"
+  weight: 1
+  identifier: mobility-sessions
+  title: Mobility Sessions
   parent: events
 - url: "/careers/"
   weight: 4
@@ -91,12 +91,12 @@ wunder-de:
   title: Events
   identifier: events
   sub: true
-- url: "/autotech"
+- url: "/mobility-sessions"
   weight: 2
   identifier: autotech
-  title: Autotech Meetup | EN
+  title: Mobility Sessions | EN
   parent: events
-- url: "/summit"
+- url: "/summit/"
   weight: 1
   identifier: summit
   title: Mobility Summit | EN
@@ -237,14 +237,14 @@ footer:
   weight: 5
   items:
   - identifier: summit
-    url: "/summit"
+    url: "/summit/"
     weight: 1
-    title: Mobility Summit
+    title: Wunder Summit
     parent: footerevents
-  - identifier: autotech
-    url: "/autotech"
+  - identifier: mobility-sessions
+    url: "/mobility-sessions/"
     weight: 2
-    title: AutoTech Meetups
+    title: Mobility Sessions
     parent: footerevents
 - identifier: solutions
   title: Solutions

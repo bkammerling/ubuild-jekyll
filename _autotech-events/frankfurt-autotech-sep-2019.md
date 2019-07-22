@@ -9,7 +9,7 @@ event_block:
   menu: wunder-main
   cta:
     button_text: Contact
-    url: https://www.wundermobility.com/#contact
+    url: https://www.wundermobility.com/#section-contact
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/06/27/frankfurt-big@2x.jpg"

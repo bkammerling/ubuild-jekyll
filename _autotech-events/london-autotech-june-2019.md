@@ -9,7 +9,7 @@ event_block:
   menu: wunder-main
   cta:
     button_text: Contact
-    url: https://www.wundermobility.com/#contact
+    url: https://www.wundermobility.com/#section-contact
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/05/02/london-sky@2x.jpg"

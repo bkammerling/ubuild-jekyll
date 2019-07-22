@@ -12,7 +12,7 @@ collections:
   articles:
     output: false
   autotech-events:
-    permalink: /autotech-events/:title
+    permalink: /mobility-sessions/:title
     output: true
   people:
     output: false

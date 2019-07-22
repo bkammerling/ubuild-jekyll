@@ -1,8 +1,8 @@
 ---
 layout: blocks
-title: AutoTech
+title: Mobility Sessions
 date: 2019-01-22 23:00:00 +0000
-permalink: "/autotech"
+permalink: "/mobility-sessions/"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
