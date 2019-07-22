@@ -55,8 +55,8 @@ fields:
   - custom-block
   - columns
 pages:
-- pages/startup-stage.md
 - pages/summit.md
+- pages/startup-stage.md
 - pages/park.md
 - pages/home.md
 - pages/careers/careers.md

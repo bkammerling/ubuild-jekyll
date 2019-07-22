@@ -277,8 +277,8 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
     title: Startup Stage Battle
-    content: Four selected startups share their groundbreaking visions. <a class="text-blue"
-      href="/summit/startup-stage">Find out more</a>
+    content: Four selected startups share their groundbreaking visions. <a class="text-blue
+      hidden" href="/summit/startup-stage">Find out more</a>
     icon: ''
     sub_title: ''
     show_meetups: false
