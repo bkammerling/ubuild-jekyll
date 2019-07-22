@@ -1,0 +1,26 @@
+---
+label: Columns
+hide_body: true
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: columns
+  type: field_group_list
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: content
+  label: Columns

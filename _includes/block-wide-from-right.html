@@ -4,7 +4,7 @@
   <div class="bg-box__wrapper block-full-right col-2-in {% if section.bg_image and section.bg_image != empty %}w-bg{% endif %}">
     <div class="{% if section.bg_image and section.bg_image != empty %}container container-fullright{% else %}box-fullright{% endif %}">
 
-      <div class="bg-box__box">
+      <div class="{% unless section.col_1.headline == 'Wunder startup stage battle...' %}bg-box__box{% endunless %}">
         {% if section.col_2.content and section.col_2.content != empty %}
         <div class="container container-fullright">
           <div class="row">

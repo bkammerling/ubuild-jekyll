@@ -451,7 +451,7 @@ if($(".max-items").length>0) maxItems.init();
 
 var contentDropdown = {
   init: function() {
-    $(".content-dropdown .content-dropdown__opener a").click(function(e) {
+    $(".content-dropdown .content-dropdown__opener a, .content-dropdown .content-dropdown__link").click(function(e) {
       $(e.target).parents(".content-dropdown").toggleClass("active").find(".content-dropdown__content").slideToggle();
     })
   }

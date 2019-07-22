@@ -2,7 +2,7 @@
 layout: blocks
 title: Summit
 date: '2019-01-22T23:00:00.000+00:00'
-permalink: "/summit"
+permalink: "/summit/"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -262,7 +262,7 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
     title: Startup Stage Battle
-    content: Four selected startups share their groundbreaking visions.
+    content: Four selected startups share their groundbreaking visions. <a class="text-blue" href="/summit/startup-stage">Find out more</a>
     icon: ''
     sub_title: ''
     show_meetups: false
@@ -399,7 +399,7 @@ page_sections:
       event, and it's a great opportunity to talk to the brightest minds in the mobility
       space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
       BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta
-      dark mt-5" href="/summit18">Find out more</a>
+      dark mt-5" href="/summit/wms18">Find out more</a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:
