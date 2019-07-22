@@ -3,20 +3,21 @@ layout: blocks
 title: Startup Stage Battle
 date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
+published: false
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
   cta:
     url: "/summit"
-    button_text: Back to WMS19
+    button_text: WMS19 Home
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
   headline: Successful stories <strong>start with a pitch</strong>
   cta:
     button_text: Apply to pitch
-    url: "#"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform"
     enabled: true
   cta_2:
     url: ''
@@ -133,6 +134,7 @@ page_sections:
   block: custom-html
   content: |-
     <div class="container mt-5" id="section-howto">
+    <div class="wunder-bg left top-2"></div>
       <div class="row">
         <div class="col-lg-10 offset-lg-2">
           <section class="mt-5">
@@ -143,7 +145,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications welcome.</a> Application close on  August 23. Join us and boost your possibilities even further. </p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a> Join us and boost your possibilities even further. Applications close on August 23.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
@@ -165,6 +167,65 @@ page_sections:
       </div>
     </div>
   name: How to attend
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container mt-5" id="section-faq">
+    <div class="wunder-bg right top-3"></div>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section class="mt-5">
+            <h2 class="page-heading mb-4">FAQs</h2>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>Why should I participate in the Startup Stage Battle?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">The WMS brings together the brightest minds in mobility, who share an inventors spirit, a builders mentality, and a desire to initiate change. You will attract the undivided attention of major decision makers from companies to academia, from policymakers to visionaries.</p>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>What happens if I’m selected?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">The participants will have 3 minutes for the pitch plus 4 minutes to answer queries. Besides the time on stage, you will get a free ticket to join the Wunder Mobility Summit as well as a high table in our expo to present your company.</p>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>How are the five finalist startups selected?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">We’re continuously screening applications and evaluate them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid of October at the latest.</p>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>How much does it cost?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">Selected startups will receive a free ticket to the Wunder Mobility Summit but will need to cover their own travel and accommodation expenses.</p>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>How the winner will be selected?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">Winners are selected based on Jury evaluation and votes from summit attendees (50/50).</p>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: faqs
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
