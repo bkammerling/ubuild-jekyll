@@ -145,7 +145,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a> Join us and boost your possibilities even further. Applications close on August 23.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and boost your possibilities even further. Applications close on August 23.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
