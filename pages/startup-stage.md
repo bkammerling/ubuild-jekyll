@@ -30,50 +30,43 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
-    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
-    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
-    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-startupinto\">Intro</a>\n                <a class=\"list-group-item
-    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
-    class=\"list-group-item list-group-item-action\" href=\"#section-how\">How it
-    works</a>\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
-    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
-    class=\"summit-main-wrapper\">\n"
-- template: custom-content
-  block: custom-html
   content: |-
-    <div class="important-numbers__stats up-top" id="section-summit-intro">
+    <main>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-2 mt-2">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">350+<small>Hand-selected attendees</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">230+<small>Companies</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">25+<small>Speakers</small></div>
+        <div class="abs">
+
+          <nav id="scroller-nav" class="list-group d-none d-lg-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-2">
+                  <div class="scroller-list">
+                    <a class="list-group-item list-group-item-action" href="#section-startupintro">Intro</a>
+                    <a class="list-group-item list-group-item-action" href="#section-speakers">Jury</a>
+                    <a class="list-group-item list-group-item-action" href="#section-howto">How it works</a>
+                    <a class="list-group-item list-group-item-action" href="#section-faq">FAQ</a>                    
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </nav>
+
         </div>
       </div>
-    </div>
-  name: numbers
+
+      <div class="summit-main-wrapper">
+- template: block-from-right
+  block: wide-from-right
+  col_1:
+    headline: Wunder startup stage battle...
+    content: <p><strong class="text-blue">We are looking for innovative early-stage ventures that will make a positive impact on the world.</strong></p><br><br><p><strong>In partnership with:</strong></p><a target="_blank" href="https://startup.google.com/"><img class="mw-100 mb-5" style="width:200px" src="uploads/global/google-startups@2x.jpg" alt="Google for Startups logo" /></a>
+  col_2:
+    headline: ''
+    content: The Startup Stage Battle is a one-hour session during the WMS19 where five founders will pitch onstage to a select jury and more than 350 hand-picked guests. Afterward, our partners will give a prize to the winner during the event.<br><br> Join us and increase the connections you need to accelerate your success.<br><strong>Want to be part of the challenge?</strong><br><a class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply here</a>
+  bg_image: ''
+  unique_id: startupintro
 - template: speakers
   heading: Jury Members 2019
-  sub-heading: A committee of five members made up of experts on the industry, VC’s
-    and tech leaders will evaluate the pitches.
+  sub-heading: Industry experts, VC’s and tech leaders
   block: speaker-cards
   speakers:
   - name: John Krafcik
@@ -110,138 +103,75 @@ page_sections:
 
       What solution does your startup provide? How is your solution innovative?
 
+
       #### Business model
 
       How do you plan to make money? Is your business model viable?
+
 
       #### Overall Pitch Performance
 
       Clear, concise, convincing, engaging and passionate.
 
+
       #### Persuasiveness
 
       Would the jury be interested in knowing more about your project?
-    headline: ''
-  - content: "#### Benefits and competition\n\nDescribe your value proposition. How
-      do you differentiate from your competitors?\n\n#### Financing\n\nWhat is your
-      plan to grow?\n\n#### Team Chemistry\n\nWhat skills does the founding team have?\n\n#### "
-    headline: ''
+  - content: |-
+      #### Benefits and competition
+
+      Describe your value proposition. How do you differentiate from your competitors?
+
+      #### Financing
+
+      What is your plan to grow?
+
+      #### Team Chemistry
+
+      What skills does the founding team have?
 - template: custom-content
   block: custom-html
   content: |-
-    <div class="container" id="section-agenda">
+    <div class="container mt-5" id="section-howto">
       <div class="row">
         <div class="col-lg-10 offset-lg-2">
-          <section>
-            <h2 class="page-heading mb-2">Agenda</h2>
-            <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/open?id=1fVXTOa1Y567TsWe5283JdsBI-Cc1eXWs">here</a></strong> to check out the <strong>preliminary</strong> agenda.</p>
+          <section class="mt-5">
+            <h2 class="page-heading mb-4">What is the process?</h2>
+            <p class="mb-5 lead">How can you show off your startup and take part in this exciting stage battle:</p>
+            <div class="row">
+              <div class="col-lg-11 offset-lg-1">
+                <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
+                  <div class="box highlight-top w-shadow">
+                    <h2 class="mb-2">1.</h2>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications welcome.</a> Application close on  August 23. Join us and boost your possibilities even further. </p>
+                  </div>
+                  <div class="box highlight-top w-shadow">
+                    <h2 class="mb-2">2.</h2>
+                    <p>We will review all the applications, in collaboration with our key partners, and select the five finalists.</p>
+                  </div>
+                  <div class="box highlight-top w-shadow">
+                    <h2 class="mb-2">3.</h2>
+                    <p>The finalist will get a free ticket to join the WMS and a high stand in our expo to present their company.</p>
+                  </div>
+                  <div class="box highlight-top w-shadow">
+                    <h2 class="mb-2">4.</h2>
+                    <p>Attract the attention of major decision makers from companies to academia, from policymakers to visionaries.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>
     </div>
-  name: Agenda block
-- template: image-content-block
-  block: two-column-vertical-cards
-  heading: Formats
-  items:
-  - content: Speakers share their inspirational knowledge and best practices on stage.
-    title: Conference
-    image: "/uploads/2019/05/16/WMS18_44@2x.jpg"
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/05/14/test-drives@2x.jpg"
-    content: Guests have the chance to experience all sorts of new urban mobility
-      themselves.
-    title: Test Drives
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - title: Active Matchmaking
-    content: We facilitate one-on-one meetings between guests who want to meet each
-      other.
-    image: "/uploads/2019/05/14/matchmaking@2x.jpg"
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - title: Networking & Party
-    content: We host connective environments with memorable parties and effective
-      and efficient networking breaks.
-    image: "/uploads/2019/05/14/network-party@2x.jpg"
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/05/14/WMS18_26@2x.jpg"
-    title: Expo
-    content: Take the chance and get into direct discussions with hand-selected and
-      high-level guests.
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - title: Technology Playground
-    content: Guests will be inspired by new technology and are able to try it out.
-    image: "/uploads/2019/05/14/WMS18_54@2x.jpg"
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
-    title: Startup Stage Battle
-    content: Four selected startups share their groundbreaking visions.
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  - image: "/uploads/2019/05/14/deep-dive@2x.jpg"
-    title: Topic Deep Dives
-    content: 30 to 45 minute sessions with an exclusive group of people.
-    icon: ''
-    sub_title: ''
-    show_meetups: false
-  column_count: 4
-  sub-heading: From testing out the latest in micro-mobiltiy to unforgettable parties,
-    WMS is more than just a conference!
+  name: How to attend
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
   unique_id: future
   col_1:
-    content: With 350+ hand-picked international guests, the off-stage interactions
-      will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
-    headline: Shape a better future
-  col_2:
-    headline: ''
-    content: ''
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mt-5">
-          <section id="section-intro">
-            <h2 class="page-heading mb-4">Connecting the most innovative minds in mobility</h2>
-            <p class="mb-3 lead">Here is just a small sample of the companies that attended last year:</p>
-            <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
-            <p class="text-center">AND SO MANY MORE</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Logo cloud
-- template: block-from-right
-  block: wide-from-right
-  col_1:
-    headline: Feedback from WMS18
-    content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder
-      manages to get a lot of really serious experts from the Mobility industry<footer
-      class="blockquote-footer">Eckhart Diepenhorst - CEO myTaxi</footer></blockquote></div><div
-      class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
-      event, and it's a great opportunity to talk to the brightest minds in the mobility
-      space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
-      BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta
-      dark mt-5" href="/summit18">Find out more</a>
-  bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
-  unique_id: energetic
+    content: Don't miss your chance to join the Startup Stage Battle at the Wunder Mobility Summit. <br><a style="margin-bottom:-50px" class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply here</a>
+    headline: Good things happen to those who pitch
   col_2:
     headline: ''
     content: ''

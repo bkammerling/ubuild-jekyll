@@ -2,12 +2,12 @@
 <section class="block block-columns" id="section-{{ name_array.first | downcase }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 offset-lg-2">
-        <h2 class="page-heading mb-5">{{ section.headline }}</h2>
+      <div class="col-lg-10 offset-lg-3">
+        <h2 class="page-heading mb-5">{{ section.heading }}</h2>
         <div class="row d-flex">
         {% for column in section.columns %}
           <div class="col">
-            {{ column.content }}
+            {{ column.content | markdownify }}
           </div>
         {% endfor %}
         </div>
