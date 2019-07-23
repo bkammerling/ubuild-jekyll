@@ -179,7 +179,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>What happens if I’m selected?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">The participants will have 3 minutes for the pitch plus 4 minutes to answer queries. Besides the time on stage, you will get a free ticket to join the Wunder Mobility Summit as well as a high table in our expo to present your company.</p>
+                <p class="pr-5 mt-3">The participants will have 3 minutes for the pitch plus 4 minutes to answer queries. Besides time onstage, you will get a free ticket to join the Wunder Mobility Summit as well as a high table in our expo to present your company.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
@@ -188,7 +188,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>How are the five finalist startups selected?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">We’re continuously screening applications and evaluating them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid-October at the latest.</p>
+                <p class="pr-5 mt-3">We continuously screen applications and evaluate them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid October at the latest.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
