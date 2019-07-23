@@ -76,16 +76,16 @@ page_sections:
     company: Firstmile
     speaker_photo: "/uploads/2019/07/23/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/07/23/firstmile logo.svg"
-  - name: Daniela Gerd tom Markotten
-    job_title: CEO
-    company: REACHNOW
-    speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
-    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
   - name: Gunnar Froh
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: To be announced
+    job_title: ''
+    company: To be announced
+    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
+    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
 - template: columns
   heading: Judging Criteria
   block: columns
