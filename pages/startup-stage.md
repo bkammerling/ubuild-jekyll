@@ -130,25 +130,25 @@ page_sections:
         <div class="col-lg-10 offset-lg-2">
           <section class="mt-5">
             <h2 class="page-heading mb-4">What is the process?</h2>
-            <p class="mb-5 lead">How can you show off your startup and take part in this exciting stage battle:</p>
+            <p class="mb-5 lead">How you can show off your startup and take part in this exciting stage battle:</p>
             <div class="row">
               <div class="col-lg-11 offset-lg-1">
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and boost your possibilities even further. Applications close on August 23.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on August 23rd.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
-                    <p>We will review all the applications, in collaboration with our key partners, and select the five finalists.</p>
+                    <p>We will review all applications in collaboration with our key partners and select five finalists.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">3.</h2>
-                    <p>The finalist will get a free ticket to join the WMS and a high stand in our expo to present their company.</p>
+                    <p>Each finalist will get a free ticket to join the WMS and a high stand in our expo to present their company.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">4.</h2>
-                    <p>Attract the attention of major decision makers from companies to academia, from policymakers to visionaries.</p>
+                    <p>Attract the attention of major decision makers, including companies, academics, policymakers and visionaries.</p>
                   </div>
                 </div>
               </div>
