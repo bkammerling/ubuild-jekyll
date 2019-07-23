@@ -71,11 +71,11 @@ page_sections:
     company: Google
     speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     company_logo: "/uploads/global/googlelogo.svg"
-  - name: Michel Stumpe
-    job_title: CEO
-    company: FREE2MOVE
-    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
-    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
+  - name: Jens-Philipp Klein
+    job_title: General Partner
+    company: Firstmile
+    speaker_photo: "/uploads/2019/07/23/Jens-Philipp-Klein.jpg"
+    company_logo: "/uploads/2019/07/23/firstmile logo.svg"
   - name: Daniela Gerd tom Markotten
     job_title: CEO
     company: REACHNOW
