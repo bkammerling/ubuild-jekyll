@@ -69,7 +69,7 @@ page_sections:
   - name: Patrick Haller
     job_title: Industry Manager
     company: Google
-    speaker_photo: "/uploads/2019/07/23/Patrick-Haller.jpg"
+    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     company_logo: "/uploads/global/googlelogo.svg"
   - name: Michel Stumpe
     job_title: CEO
