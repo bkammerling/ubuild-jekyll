@@ -3,7 +3,6 @@ layout: blocks
 title: Startup Stage Battle
 date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
-published: false
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -17,7 +16,7 @@ page_sections:
   headline: Successful stories <strong>start with a pitch</strong>
   cta:
     button_text: Apply to pitch
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform"
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform
     enabled: true
   cta_2:
     url: ''
@@ -31,38 +30,35 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |-
-    <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-startupintro">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-speakers">Jury</a>
-                    <a class="list-group-item list-group-item-action" href="#section-howto">How it works</a>
-                    <a class="list-group-item list-group-item-action" href="#section-faq">FAQ</a>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-      <div class="summit-main-wrapper">
+  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
+    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
+    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
+    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-startupintro\">Intro</a>\n                <a class=\"list-group-item
+    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
+    class=\"list-group-item list-group-item-action\" href=\"#section-howto\">How it
+    works</a>\n                <a class=\"list-group-item list-group-item-action\"
+    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
+    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
+    class=\"summit-main-wrapper\">"
 - template: block-from-right
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle...
-    content: <p><strong class="text-blue">We are looking for innovative early-stage ventures that will make a positive impact on the world.</strong></p><br><br><p><strong>In partnership with:</strong></p><a target="_blank" href="https://startup.google.com/"><img class="mw-100 mb-5" style="width:200px" src="uploads/global/google-startups@2x.jpg" alt="Google for Startups logo" /></a>
+    content: <p><strong class="text-blue">We are looking for innovative early-stage
+      ventures that will make a positive impact on the world.</strong></p><br><br><p><strong>In
+      partnership with:</strong></p><a target="_blank" href="https://startup.google.com/"><img
+      class="mw-100 mb-5" style="width:200px" src="uploads/global/google-startups@2x.jpg"
+      alt="Google for Startups logo" /></a>
   col_2:
     headline: ''
-    content: The Startup Stage Battle is a one-hour session during the WMS19 where five founders will pitch onstage to a select jury and more than 350 hand-picked guests. Afterward, our partners will give a prize to the winner during the event.<br><br> Join us and increase the connections you need to accelerate your success.<br><strong>Want to be part of the challenge?</strong><br><a class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply here</a>
+    content: The Startup Stage Battle is a one-hour session during the WMS19 where
+      five founders will pitch onstage to a select jury and more than 350 hand-picked
+      guests. Afterward, our partners will give a prize to the winner during the event.<br><br>
+      Join us and increase the connections you need to accelerate your success.<br><strong>Want
+      to be part of the challenge?</strong><br><a class="round-cta dark mt-4" target="_blank"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+      here</a>
   bg_image: ''
   unique_id: startupintro
 - template: speakers
@@ -70,11 +66,11 @@ page_sections:
   sub-heading: Industry experts, VC’s and tech leaders
   block: speaker-cards
   speakers:
-  - name: John Krafcik
-    job_title: CEO
-    company: Waymo
-    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
-    company_logo: "/uploads/2019/05/10/logo-waymo.png"
+  - name: Patrick Haller
+    job_title: Industry Manager
+    company: Google
+    speaker_photo: "/uploads/2019/07/23/Patrick-Haller.jpg"
+    company_logo: "/uploads/global/googlelogo.svg"
   - name: Michel Stumpe
     job_title: CEO
     company: FREE2MOVE
@@ -89,11 +85,6 @@ page_sections:
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: Sam Baker
-    job_title: COO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
 - template: columns
   heading: Judging Criteria
@@ -179,7 +170,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>Why should I participate in the Startup Stage Battle?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">The WMS brings together the brightest minds in mobility, who share an inventors spirit, a builders mentality, and a desire to initiate change. You will attract the undivided attention of major decision makers from companies to academia, from policymakers to visionaries.</p>
+                <p class="pr-5 mt-3">The WMS brings together the brightest minds in mobility who share an inventor's spirit, a builder's mentality, and a desire to initiate change. You will attract the undivided attention of major decision makers, including companies, academics, policymakers and visionaries.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
@@ -197,7 +188,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>How are the five finalist startups selected?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">We’re continuously screening applications and evaluate them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid of October at the latest.</p>
+                <p class="pr-5 mt-3">We’re continuously screening applications and evaluating them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid-October at the latest.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
@@ -215,7 +206,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>How the winner will be selected?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">Winners are selected based on Jury evaluation and votes from summit attendees (50/50).</p>
+                <p class="pr-5 mt-3">Winners are selected based on jury evaluation and votes from summit attendees (50/50).</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
@@ -231,7 +222,10 @@ page_sections:
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
   unique_id: future
   col_1:
-    content: Don't miss your chance to join the Startup Stage Battle at the Wunder Mobility Summit. <br><a style="margin-bottom:-50px" class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply here</a>
+    content: Don't miss your chance to join the Startup Stage Battle at the Wunder
+      Mobility Summit. <br><a style="margin-bottom:-50px" class="round-cta dark mt-4"
+      target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+      here</a>
     headline: Good things happen to those who pitch
   col_2:
     headline: ''
@@ -245,5 +239,6 @@ page_sections:
   content: ''
 lang-ref: ''
 lang: ''
+published: false
 
 ---
