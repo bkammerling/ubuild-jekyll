@@ -129,8 +129,8 @@ page_sections:
       <div class="row">
         <div class="col-lg-10 offset-lg-2">
           <section class="mt-5">
-            <h2 class="page-heading mb-4">What is the process?</h2>
-            <p class="mb-5 lead">How you can show off your startup and take part in this exciting stage battle:</p>
+            <h2 class="page-heading mb-4">How does it work?</h2>
+            <p class="mb-5 lead">How to show off your startup and take part in our exciting stage battle:</p>
             <div class="row">
               <div class="col-lg-11 offset-lg-1">
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
