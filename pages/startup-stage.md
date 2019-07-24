@@ -81,11 +81,6 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: To be announced
-    job_title: ''
-    company: To be announced
-    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
-    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
 - template: columns
   heading: Judging Criteria
   block: columns
