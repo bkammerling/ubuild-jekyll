@@ -52,11 +52,10 @@ page_sections:
       alt="Google for Startups logo" /></a>
   col_2:
     headline: ''
-    content: The Startup Stage Battle is a one-hour session during the WMS19 where
-      five founders will pitch onstage to a select jury and more than 350 hand-picked
-      guests. Afterward, our partners will give a prize to the winner during the event.<br><br>
-      Join us and increase the connections you need to accelerate your success.<br><strong>Want
-      to be part of the challenge?</strong><br><a class="round-cta dark mt-4" target="_blank"
+    content: During the WMS19 five founders will pitch onstage to a select jury and
+      more than 350 hand-picked guests. Afterward, our partners will give a prize
+      to the winner during the event.<br><br>Join us and increase the connections
+      you need to accelerate your success.<br><strong>Want to be part of the challenge?</strong><br><a
       href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
   bg_image: ''
@@ -131,7 +130,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on August 23rd.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 9 at 12:00.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
