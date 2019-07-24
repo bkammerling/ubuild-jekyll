@@ -45,11 +45,10 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle...
-    content: <p><strong class="text-blue">We are looking for innovative early-stage
-      ventures that will make a positive impact on the world.</strong></p><br><br><p><strong>In
-      partnership with:</strong></p><a target="_blank" href="https://startup.google.com/"><img
-      class="mw-100 mb-5" style="width:200px" src="uploads/global/google-startups@2x.jpg"
-      alt="Google for Startups logo" /></a>
+    content: <strong>We are looking for innovative early-stage ventures that will
+      make a positive impact on the world.</strong><br><br><strong>In partnership
+      with:</strong><a href="https://startup.google.com/"><img src="uploads/global/google-startups@2x.jpg"
+      alt="Google for Startups logo"></a>
   col_2:
     headline: ''
     content: During the WMS19 five founders will pitch onstage to a select jury and
@@ -130,7 +129,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 9 at 12:00.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 9 at noon.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
@@ -182,7 +181,7 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>How are the five finalist startups selected?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">We continuously screen applications and evaluate them in collaboration with our key partners in the corporate, investment and startup communities. If you are a finalist, we’ll get in touch with you by mid October at the latest.</p>
+                <p class="pr-5 mt-3">Applications are open till September 9 at noon. After that, we'll evaluate them with our jury. If you are a finalist, we'll get in touch with you by mid of October at the latest.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
