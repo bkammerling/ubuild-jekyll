@@ -108,7 +108,7 @@ page_sections:
 
       #### Financing
 
-      What is your plan to grow?
+      What is your growth plan?
 
       #### Team Chemistry
 
