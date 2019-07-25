@@ -33,6 +33,11 @@ event_block:
         </div>
       </div>
     </div>
+- template: full-width-media-element
+  block: video-1
+  heading: Relive the London Event
+  iframe: <iframe src="https://player.vimeo.com/video/348823277?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 - template: speakers
   block: speaker-cards
   speakers:
@@ -238,11 +243,6 @@ event_block:
             </div>
           </div>
         </div>
-- template: full-width-media-element
-  block: video-1
-  heading: Relive the London Event
-  iframe: <iframe src="https://player.vimeo.com/video/348823277?title=0&byline=0&portrait=0"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 - template: google-map
   lat: 51.504911
   lng: -0.1888
