@@ -53,6 +53,7 @@ fields:
   - custom-content
   - google-map
   - photo-gallery
+  - 1-col-video
   config:
     min: 
     max: 
