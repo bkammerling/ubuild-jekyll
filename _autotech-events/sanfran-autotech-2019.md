@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
-title: San Francisco AutoTech 2019
-event_date: 2019-09-19 17:00:00 +0000
+title: San Francisco Mobility Sessions 2019
+event_date: 2019-09-24 17:00:00 +0000
 event_location: San Francisco, USA
 event_block:
 - template: navigation-header-w-button
