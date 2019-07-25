@@ -51,11 +51,10 @@ page_sections:
       alt="Google for Startups logo"></a>
   col_2:
     headline: ''
-    content: During the WMS19 five founders will pitch onstage to a select jury and
-      more than 350 hand-picked guests. Afterward, our partners will give a prize
-      to the winner during the event.<br><br>Join us and increase the connections
-      you need to accelerate your success.<br><strong>Want to be part of the challenge?</strong><br><a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+    content: During the WMS19, five founders will be pitching onstage to a jury and
+      over 350 hand-picked guests. Our partners will give a prize to the winner during
+      the event afterwards.<br><br>Join us and make connections that will accelerate
+      your success.<br><strong>Want to be part of the challenge?</strong><br><a href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
   bg_image: ''
   unique_id: startupintro
