@@ -53,7 +53,7 @@ fields:
   - custom-content
   - google-map
   - photo-gallery
-  - 1-col-video
+  - full-width-media-element
   config:
     min: 
     max: 
