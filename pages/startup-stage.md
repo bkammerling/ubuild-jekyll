@@ -44,10 +44,10 @@ page_sections:
 - template: block-from-right
   block: wide-from-right
   col_1:
-    headline: Wunder startup stage battle...
-    content: <strong>We are looking for innovative early-stage ventures that will
-      make a positive impact on the world.</strong><br><br><strong>In partnership
-      with:</strong><a href="https://startup.google.com/"><img src="uploads/global/google-startups@2x.jpg"
+    headline: Wunder startup stage battle
+    content: <strong>We're looking for innovative early-stage ventures that will make
+      a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a
+      href="https://startup.google.com/"><img src="uploads/global/google-startups@2x.jpg"
       alt="Google for Startups logo"></a>
   col_2:
     headline: ''
