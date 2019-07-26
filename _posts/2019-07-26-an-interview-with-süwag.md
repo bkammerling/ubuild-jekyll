@@ -6,7 +6,8 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: An Interview with Süwag
+title: How an Energy Service Provider Launched E-Scooter Sharing with Wunder Fleet
+  [Interview]
 publish_date: 2019-07-26T14:00:00.000+00:00
 featured_image: "/uploads/2019/07/26/Lifestyle_0189_ret.jpg"
 excerpt: Read about why an energy service provider decided to go into the e-scooter
