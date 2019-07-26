@@ -298,7 +298,30 @@ page_sections:
       <div class="row align-items-center">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-supporters">
-            <h2 class="page-heading mb-5">In Partnership with...</h2>
+            <h2 class="page-heading mb-4">Sponsored by...</h2>
+            <div class="row align-items-center">
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.microsoft.com/de-de">
+                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.free-now.com/">
+                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.pwc.de/">
+                    <img class="" style="width: 120px;" data-src="uploads/2019/07/03/pwc.png"">
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="row align-items-center">
               <div class="col-lg-4 ">
                 <div class="partner-box ">
@@ -316,16 +339,6 @@ page_sections:
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4 ">
-                <div class="partner-box">
-                  <!--<h3 class="mb-4">Exhibition Partner</h3>-->
-                  <a target="_blank" href="https://goodpatch.com/en/">
-                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
               <div class="col-lg-4">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.mhp.com/de/home/">
@@ -333,29 +346,26 @@ page_sections:
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+
+            </div>
+            <div class="row align-items-center mt-2">
+              <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.audi.de">
                     <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 ">
                 <div class="partner-box">
-                  <a target="_blank" href="https://www.free-now.com/">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
+                  <a target="_blank" href="https://goodpatch.com/en/">
+                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
                   </a>
                 </div>
               </div>
             </div>
+            <h2 class="page-heading mb-4 mt-5">Media partners & supporters...</h2>
             <div class="row align-items-center">
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.microsoft.com/de-de">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
-                  </a>
-                </div>
-              </div>
               <div class="col-lg-4">
                 <div class="partner-box">
                   <a target="_blank" href="https://ngin-mobility.com/">
@@ -370,6 +380,14 @@ page_sections:
                   </a>
                 </div>
               </div>
+              <div class="col-lg-4 ">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.automobil-industrie.vogel.de/">
+                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/automobil-industrie-logo.jpg">
+                  </a>
+                </div>
+              </div>
+
             </div>
           </section>
         </div>
