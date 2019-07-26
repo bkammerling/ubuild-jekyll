@@ -15,7 +15,7 @@ excerpt: Read about why an energy service provider decided to go into the e-scoo
 ---
 ![](/uploads/2019/07/26/Lifestyle_0189_ret.jpg)
 
-We sat down with David Wiethoff, Head of Marketing at Suwäg, to talk a little bit about why an energy service provider would decide to get into the e-scooter sharing business.
+We sat down with David Wiethoff, the Head of Marketing at Suwäg, to talk a little bit about why an energy service provider would go into the e-scooter sharing business. 
 
 #### 1) Tell us a little bit about Süwag as a company. What do you do?
 
