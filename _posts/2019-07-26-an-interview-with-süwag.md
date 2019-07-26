@@ -15,7 +15,7 @@ excerpt: Read about why an energy service provider decided to go into the e-scoo
 ---
 ![](/uploads/2019/07/26/Lifestyle_0189_ret.jpg)
 
-We sat down with David Wiethoff, Head of Marketing at Suwäg, to talk a little bit about why an energy service provider would go into the e-scooter sharing business.
+We sat down with David Wiethoff, Head of Marketing at Süwag, to talk a little bit about why an energy service provider would go into the e-scooter sharing business.
 
 #### 1) Tell us a little bit about Süwag as a company. What do you do?
 
@@ -27,7 +27,7 @@ To be honest, it wasn’t a carefully planned out ordeal. We were originally jus
 
 #### 3) Why is it important for energy providers to help shape the future of mobility?
 
-Our vision is to deliver an excellent quality of life for each region we serve. That’s what we strive for, and that’s the foundation for all decisions we make as a company. It’s incredibly important for us to take part in shaping the future of mobility and test out new ideas. Mobility - particularly sustainable mobility - is a really exciting field at the moment. Everyone’s just starting to test out the waters and lot of innovative industry players are involved. We want to understand what moves people. We want to help them make their lives easier and improve their quality of life through the reduction of CO2 emissions. 
+Our vision is to deliver an excellent quality of life for each region we serve. That’s what we strive for, and that’s the foundation for all decisions we make as a company. It’s incredibly important for us to take part in shaping the future of mobility and test out new ideas. Mobility - particularly sustainable mobility - is a really exciting field at the moment. Everyone’s just starting to test out the waters and lot of innovative industry players are involved. We want to understand what moves people. We want to help them make their lives easier and improve their quality of life through the reduction of CO2 emissions.
 
 We’re defining the added value that energy services bring to the table. It’s particularly important for us to have a sustainable and recoverable business, which often means showing our customers that we use resources responsibly and can be an example for them. That’s also a reason why we’re regularly certified. We’re excited about the progress that has been made in the world of e-mobility in the past couple of years, so we knew that our Frank-e fleet had to be 100% battery powered before we even started.
 
