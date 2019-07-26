@@ -15,6 +15,10 @@ excerpt: Read about why an energy service provider decided to go into the e-scoo
 ---
 ![](/uploads/2019/07/26/Lifestyle_0189_ret.jpg)
 
+Süwag Energie AG is a regional energy service provider with 1700 employees and a large service area encompassing four states within Germany. Süwag had the goal of launching an e-scooter sharing service in their home city of Frankfurt and chose to rely on Wunder Mobility to provide their software. With the help of Wunder Fleet technology, it only took a few short weeks for their first rider to be able to book one of their e-scooters and get cruising.
+
+We sat down with David Wiethoff, Head of Marketing at Süwag, to find out more about why an energy service provider would go into the e-scooter business, the role his company plays in the modern mobility revolution and why the expression “sharing is caring” is still relevant today.
+
 #### 1) Tell us a little bit about Süwag as a company. What do you do?
 
 Süwag is a regional energy service provider with its headquarters in Frankfurt and locations in four other German states. We supply electricity and natural gas to roughly 800,000 customers. It’s our goal to make life easier for our customers and people living in the areas we serve.
