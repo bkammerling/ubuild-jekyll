@@ -7,13 +7,15 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/fleet.md
 title: An Interview with Süwag
-publish_date: 2019-07-26 14:00:00 +0000
+publish_date: 2019-07-26T14:00:00.000+00:00
 featured_image: "/uploads/2019/07/26/Lifestyle_0189_ret.jpg"
 excerpt: Read about why an energy service provider decided to go into the e-scooter
   business.
 
 ---
 ![](/uploads/2019/07/26/Lifestyle_0189_ret.jpg)
+
+We sat down with David Wiethoff, Head of Marketing at Suwäg, to talk a little bit about why an energy service provider would decide to get into the e-scooter sharing business.
 
 #### 1) Tell us a little bit about Süwag as a company. What do you do?
 
