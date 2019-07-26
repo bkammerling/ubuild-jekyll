@@ -15,8 +15,6 @@ excerpt: Read about why an energy service provider decided to go into the e-scoo
 ---
 ![](/uploads/2019/07/26/Lifestyle_0189_ret.jpg)
 
-We sat down with David Wiethoff, Head of Marketing at Süwag, to talk a little bit about why an energy service provider would go into the e-scooter sharing business.
-
 #### 1) Tell us a little bit about Süwag as a company. What do you do?
 
 Süwag is a regional energy service provider with its headquarters in Frankfurt and locations in four other German states. We supply electricity and natural gas to roughly 800,000 customers. It’s our goal to make life easier for our customers and people living in the areas we serve.
