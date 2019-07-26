@@ -29,6 +29,8 @@ To be honest, it wasn’t a carefully planned out ordeal. We were originally jus
 
 Our vision is to deliver an excellent quality of life for each region we serve. That’s what we strive for, and that’s the foundation for all decisions we make as a company. It’s incredibly important for us to take part in shaping the future of mobility and test out new ideas. Mobility - particularly sustainable mobility - is a really exciting field at the moment. Everyone’s just starting to test out the waters and lot of innovative industry players are involved. We want to understand what moves people. We want to help them make their lives easier and improve their quality of life through the reduction of CO2 emissions. We’re defining the added value that energy services bring to the table. It’s particularly important for us to have a sustainable and recoverable business, which often means showing our customers that we use resources responsibly and can be an example for them. That’s also a reason why we’re regularly certified. We’re excited about the progress that has been made in the world of e-mobility in the past couple of years, so we knew that our Frank-e fleet had to be 100% battery powered before we even started.
 
+> We’ve come to learn that with vehicle sharing, nothing is impossible.
+
 #### 4) Why did you decide on Wunder Fleet and what was the process like?
 
 After I got in contact with Wunder, the whole process moved forward very quickly. Everybody in the Wunder team was extremely helpful and incredibly goal-oriented. We had a very tight schedule and wanted to go from 0 to 100 in just three months - and we did it, together. We think that’s pretty cool!
