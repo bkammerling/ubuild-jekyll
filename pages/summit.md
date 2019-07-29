@@ -116,11 +116,11 @@ page_sections:
     company: Waymo
     speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
-  - name: Michel Stumpe
-    job_title: CEO
-    company: FREE2MOVE
-    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
-    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
+  - name: Eckart Diepenhorst
+    job_title: CEO Europe
+    company: Free Now
+    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
+    company_logo: "/uploads/global/Freenow-logo.png"
   - name: Daniela Gerd tom Markotten
     job_title: CEO
     company: REACHNOW
@@ -141,16 +141,26 @@ page_sections:
     company: Drivy by Getaround
     speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
     company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
+  - name: Michel Stumpe
+    job_title: CEO
+    company: FREE2MOVE
+    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
+    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
   - name: Alexander Marten
     job_title: Chief Innovation Evangelist
     company: Deutsche Telekom
     speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
     company_logo: "/uploads/2019/05/10/logo-telekom.png"
-  - name: Vikram Chopra
-    job_title: CEO and Co-Founder
-    company: CARS24
-    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
-    company_logo: "/uploads/2019/05/10/logo-cars24.png"
+  - name: Heiko Hüttel
+    job_title: Head of Technology and Partner Management
+    speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
+    company_logo: "/uploads/2019/06/13/Volkswagen.png"
+    company: Volkswagen
+  - company: Microsoft
+    speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
+    company_logo: "/uploads/global/microsoft-logo.png"
+    name: Jens Beckmann
+    job_title: Senior Business Development Manager
   - name: Anna-Charlotte Fleischmann-Kopatsch
     job_title: Senior Consultant
     company: MHP
@@ -166,21 +176,16 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: Heiko Hüttel
-    job_title: Head of Technology and Partner Management
-    speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
-    company_logo: "/uploads/2019/06/13/Volkswagen.png"
-    company: Volkswagen
-  - company: Microsoft
-    speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
-    company_logo: "/uploads/global/microsoft-logo.png"
-    name: Jens Beckmann
-    job_title: Senior Business Development Manager
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
     speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
     company_logo: "/uploads/global/allianz-logo.jpg"
+  - name: Vikram Chopra
+    job_title: CEO and Co-Founder
+    company: CARS24
+    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
+    company_logo: "/uploads/2019/05/10/logo-cars24.png"
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
