@@ -17,11 +17,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Sam Baker
-    job_title: COO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
   - name: Amee Chande
     job_title: Chief Commercial Officer
     company: Waymo
@@ -32,6 +27,11 @@ event_block:
     company: German AutoLabs
     speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
     company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+  - name: Sam Baker
+    job_title: COO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -93,15 +93,15 @@ event_block:
           </div>
         </div>
 - template: google-map
-  lat: 53.54304
-  lng: 10.00059
+  lat: '37.378590'
+  lng: "-121.991840"
   block: google-map
-  headline: Home In Hamburg
+  headline: Fujitsu Sunnyvale Campus
   content: The fifth edition takes place on 4th of April 2019 at our Headquarters
     in Hamburg, and you're invited to learn from inspiring speakers and to connect
     with leaders of the global mobility ecosystem.
-  gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
-  venue_location: Honkongstraße 2, 20457 Hamburg
+  gmaps_link: https://goo.gl/maps/Ad6sUu3Ru95nVppV6
+  venue_location: 1250 E Arques Ave, Sunnyvale, CA 94085, USA
 - template: simple-footer
   block: footer-1
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
