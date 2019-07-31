@@ -13,7 +13,8 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/04/30/tokyo-street@2x-1.jpg"
-  headline: June in Japan<strong><br>AutoTech Tokyo</strong>
+  headline: September Mobility Sessions<br>in <strong>San Francisco</strong><br>With
+    Fujitso
 - template: speakers
   block: speaker-cards
   speakers:
