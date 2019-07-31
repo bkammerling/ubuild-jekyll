@@ -353,7 +353,7 @@ main {
 
 }
 
-.fleet {
+.fleet, .rent {
   @include highlight($fleet-highlight);
   .video-banner {
     background-position: center bottom;

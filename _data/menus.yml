@@ -25,6 +25,11 @@ wunder-main:
   parent: solutions
   identifier: park
   title: Park
+- url: "/rent"
+  weight: 5
+  parent: solutions
+  identifier: rent
+  title: Rent
 #- url: "/city"
 #  weight: 5
 #  parent: solutions
@@ -86,6 +91,11 @@ wunder-de:
   parent: solutions
   identifier: park
   title: Park
+- url: "/rent"
+  weight: 5
+  parent: solutions
+  identifier: rent
+  title: Rent | EN
 - url: "#"
   weight: 2
   title: Events
@@ -271,6 +281,11 @@ footer:
     weight: 4
     title: Wunder Park
     parent: solutions
+  - url: "/rent"
+    weight: 5
+    parent: solutions
+    identifier: rent
+    title: Wunder Rent
 #  - identifier: city
 #    url: "/city"
 #    weight: 5

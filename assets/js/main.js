@@ -670,7 +670,9 @@ var twitterModule = {
  }
 
 }
-twitterModule.init();
+
+if(pagetitle == "Blog") twitterModule.init();
+
 if(!String.linkify) {
   String.prototype.linkify = function() {
     // http://, https://, ftp://
@@ -799,7 +801,7 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park") {
+  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park" || pagetitle == "Rent") {
     $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }

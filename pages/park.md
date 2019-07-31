@@ -9,7 +9,7 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-  sub_logo: ''
+  sub_logo: '/uploads/global/wunder-park-white.svg'
   cta:
     url: "#section-contact"
     button_text: Contact

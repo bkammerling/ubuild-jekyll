@@ -46,15 +46,14 @@ page_sections:
   col_1:
     headline: Wunder startup stage battle
     content: <strong>We're looking for innovative early-stage ventures that will make
-      a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a
-      href="https://startup.google.com/"><img src="uploads/global/google-startups@2x.jpg"
+      a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a href="https://startup.google.com/"><img style="max-width:200px;" src="uploads/global/google-startups@2x.jpg"
       alt="Google for Startups logo"></a>
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
       over 350 hand-picked guests. Our partners will give a prize to the winner during
       the event afterwards.<br><br>Join us and make connections that will accelerate
-      your success.<br><strong>Want to be part of the challenge?</strong><br><a href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+      your success.<br><strong>Want to be part of the challenge?</strong><br><br><a class="round-cta dark w-arrow" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
   bg_image: ''
   unique_id: startupintro
@@ -229,8 +228,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-lang-ref: ''
-lang: ''
+lang-ref: 'stage-battle'
+lang: 'en'
 published: false
 
 ---

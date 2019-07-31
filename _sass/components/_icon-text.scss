@@ -120,6 +120,12 @@
       flex: 0 1 30%;
     }
 
+    &.without-icon {
+      text-align: left;
+      padding: rem(40px) 1.5rem;
+      flex-basis: 31%;
+    }
+
   }
 }
 
