@@ -54,14 +54,16 @@ event_block:
     company: King & Woods Malleson
     speaker_photo: "/uploads/2019/06/27/Mark-Schaub.jpg"
     company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
-  - name: To be announced
-    company: PricewaterhouseCoopers
-    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
+  - name: Jonas Seyfferth
+    company: PwC Strategy& Germany
+    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/07/03/PWC.png"
-  - name: To be announced
-    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
+    job_title: Principal
+  - name: Sanjay Ravi
+    speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi.jpg"
     company_logo: "/uploads/2019/07/08/microsoft_logo.png"
     company: Microsoft
+    job_title: Global Head of Automotive
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
