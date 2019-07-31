@@ -26,7 +26,7 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-            <img src="uploads/2019/07/31/Fujitso.png" style="width: 130px" class="mr-4" />
+            <img src="uploads/2019/07/31/FUJITSO.png" style="width: 130px" class="mr-4" />
 
           </section>
         </div>
@@ -81,6 +81,5 @@ event_description: We’re hosting an informal invite-only event with Fujitsu. W
   set the right course in years to come.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 output_page: true
-published: false
 
 ---
