@@ -66,5 +66,6 @@ event_description: We are jointly hosting an informal event, but exclusive invit
   will digitize and shape in the future. <br><br>Besides, we are going to have an
   intensive conversation about what role cities must play to set the right course.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
+output_page: true
 
 ---
