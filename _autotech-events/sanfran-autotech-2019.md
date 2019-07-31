@@ -54,17 +54,17 @@ event_block:
   lng: "-121.991840"
   block: google-map
   headline: Fujitsu Sunnyvale Campus
-  content: 'The Bay Area is the home of some of the world’s big tech companies and
-    the most prominent innovation hotspot. San Francisco is recognized as one of the
-    central hubs to test an implement all types of emerging mobility services. '
+  content: The Bay Area is home to some of the world’s largest tech companies and
+    a hotbed of innovation. San Francisco is considered by many to be a laboratory
+    for testing new, emerging mobility services.
   gmaps_link: https://goo.gl/maps/Ad6sUu3Ru95nVppV6
   venue_location: 1250 E Arques Ave, Sunnyvale, CA 94085, USA
 - template: simple-footer
   block: footer-1
-event_description: We are jointly hosting an informal event, but exclusive invite-only,
-  with <strong>Fujitsu</strong>. In this edition, we want to discuss how technology
-  will digitize and shape in the future. <br><br>Besides, we are going to have an
-  intensive conversation about what role cities must play to set the right course.
+event_description: We’re hosting an informal invite-only event with Fujitsu. We’ll
+  be discussing how technology can help digitize and shape the future.<br><br>Additionally,
+  we’ll have an in-depth conversation about what role cities should be playing to
+  set the right course in years to come.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 output_page: true
 
