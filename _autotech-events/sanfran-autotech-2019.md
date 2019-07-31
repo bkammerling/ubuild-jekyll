@@ -57,9 +57,9 @@ event_block:
   lng: "-121.991840"
   block: google-map
   headline: Fujitsu Sunnyvale Campus
-  content: The fifth edition takes place on 4th of April 2019 at our Headquarters
-    in Hamburg, and you're invited to learn from inspiring speakers and to connect
-    with leaders of the global mobility ecosystem.
+  content: 'The Bay Area is the home of some of the world’s big tech companies and
+    the most prominent innovation hotspot. San Francisco is recognized as one of the
+    central hubs to test an implement all types of emerging mobility services. '
   gmaps_link: https://goo.gl/maps/Ad6sUu3Ru95nVppV6
   venue_location: 1250 E Arques Ave, Sunnyvale, CA 94085, USA
 - template: simple-footer
