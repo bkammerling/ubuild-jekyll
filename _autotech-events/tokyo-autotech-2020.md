@@ -1,6 +1,6 @@
 ---
 layout: blocks-events
-title: Japan AutoTech April 2020
+title: Japan Mobility Sessions April 2020
 event_date: 2020-02-01T17:00:00.000+00:00
 event_location: Tokyo, Japan
 event_block:
@@ -25,8 +25,7 @@ event_block:
 - template: custom-content
   block: custom-html
   name: Agenda
-  content: |-
-    <p>h</p>
+  content: "<p>h</p>"
 - template: google-map
   lat: 53.54304
   lng: 10.00059
@@ -43,6 +42,5 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
 featured_image: "/uploads/2019/05/02/tokyo@2x.jpg"
-published: true
 
 ---
