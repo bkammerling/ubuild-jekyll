@@ -13,7 +13,8 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2019/06/27/frankfurt-big@2x.jpg"
-  headline: September AutoTech<br>in <strong>Frankfurt</strong><br>With PwC Strategy&amp;
+  headline: September Mobility Sessions<br>in <strong>Frankfurt</strong><br>With PwC
+    Strategy&amp;
 - template: custom-content
   block: custom-html
   name: In partnership with...
