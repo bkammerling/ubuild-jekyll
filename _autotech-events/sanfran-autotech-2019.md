@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: San Francisco Mobility Sessions 2019
-event_date: 2019-09-24 17:00:00 +0000
+event_date: 2019-09-24T17:00:00.000+00:00
 event_location: San Francisco, USA
 event_block:
 - template: navigation-header-w-button
@@ -17,6 +17,16 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Sam Baker
+    job_title: COO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Amee Chande
+    job_title: Chief Commercial Officer
+    company: Waymo
+    speaker_photo: "/uploads/2019/07/31/Amee-Chande.jpg"
+    company_logo: "/uploads/2019/05/10/logo-waymo.png"
   - name: Holger Weiss
     job_title: Founder & CEO
     company: German AutoLabs
