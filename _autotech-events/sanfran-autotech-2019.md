@@ -18,6 +18,21 @@ event_block:
   intro_text: ''
 - template: custom-content
   block: custom-html
+  content: |-
+    <div class="container" id="section-partnership">
+
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2 mb-3">
+          <section class="">
+            <h2 class="page-heading mb-3">In Co-operation With</h2>
+
+            <img src="uploads/2019/07/31/Fujitso.png" style="width: 130px" class="mr-4" />
+
+          </section>
+        </div>
+      </div>
+    </div>
+  name: In partnership with...
 - template: speakers
   block: speaker-cards
   speakers:
