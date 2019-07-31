@@ -12,9 +12,13 @@ event_block:
     url: https://www.wundermobility.com/#section-contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/30/tokyo-street@2x-1.jpg"
+  background_image: "/uploads/2019/07/31/San-francisco.jpg"
   headline: September Mobility Sessions<br>in <strong>San Francisco</strong><br>With
     Fujitso
+  intro_text: |-
+    We are jointly hosting an informal event, but exclusive invite-only, with Fujitsu. In this edition, we want to discuss how technology will digitize and shape in the future.
+
+    Besides, we are going to have an intensive conversation about what role cities must play to set the right course.
 - template: speakers
   block: speaker-cards
   speakers:
