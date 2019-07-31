@@ -15,10 +15,7 @@ event_block:
   background_image: "/uploads/2019/07/31/San-francisco.jpg"
   headline: September Mobility Sessions<br>in <strong>San Francisco</strong><br>With
     Fujitso
-  intro_text: |-
-    We are jointly hosting an informal event, but exclusive invite-only, with Fujitsu. In this edition, we want to discuss how technology will digitize and shape in the future.
-
-    Besides, we are going to have an intensive conversation about what role cities must play to set the right course.
+  intro_text: ''
 - template: speakers
   block: speaker-cards
   speakers:
@@ -64,9 +61,10 @@ event_block:
   venue_location: 1250 E Arques Ave, Sunnyvale, CA 94085, USA
 - template: simple-footer
   block: footer-1
-event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
-  <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
-  you will keep! "
+event_description: We are jointly hosting an informal event, but exclusive invite-only,
+  with <strong>Fujitsu</strong>. In this edition, we want to discuss how technology
+  will digitize and shape in the future. <br><br>Besides, we are going to have an
+  intensive conversation about what role cities must play to set the right course.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 
 ---
