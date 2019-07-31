@@ -26,7 +26,7 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-            <img src="uploads/2019/07/31/FUJITSO.png" style="width: 130px" class="mr-4" />
+            <img src="uploads/2019/07/31/FUJITSU.png" style="width: 130px" class="mr-4" />
 
           </section>
         </div>
