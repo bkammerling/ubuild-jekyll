@@ -1,6 +1,6 @@
 ---
 layout: blocks-events
-title: Frankfurt AutoTech September 2019
+title: Frankfurt Mobility Sessions September 2019
 event_date: 2019-09-12T16:00:00.000+00:00
 event_location: Frankfurt am Main, Germany
 event_block:
