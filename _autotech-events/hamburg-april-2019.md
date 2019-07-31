@@ -1,6 +1,6 @@
 ---
 layout: blocks-events
-title: Hamburg AutoTech April 2019
+title: Hamburg Mobility Sessions  April 2019
 event_date: 2019-04-04T17:00:00.000+00:00
 event_location: Hamburg, Germany
 event_block:
