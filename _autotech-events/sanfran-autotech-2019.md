@@ -24,11 +24,6 @@ event_block:
     company: Waymo
     speaker_photo: "/uploads/2019/07/31/Amee-Chande.jpg"
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
-  - name: Holger Weiss
-    job_title: Founder & CEO
-    company: German AutoLabs
-    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
-    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
