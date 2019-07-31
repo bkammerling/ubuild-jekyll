@@ -60,7 +60,7 @@ event_block:
     company_logo: "/uploads/2019/07/03/PWC.png"
     job_title: Principal
   - name: Sanjay Ravi
-    speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi.jpg"
+    speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi-1.jpg"
     company_logo: "/uploads/2019/07/08/microsoft_logo.png"
     company: Microsoft
     job_title: Global Head of Automotive
