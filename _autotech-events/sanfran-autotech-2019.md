@@ -14,7 +14,7 @@ event_block:
   block: hero-2
   background_image: "/uploads/2019/07/31/San-francisco.jpg"
   headline: September Mobility Sessions<br>in <strong>San Francisco</strong><br>With
-    Fujitso
+    Fujitsu
   intro_text: ''
 - template: custom-content
   block: custom-html
