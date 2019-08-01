@@ -58,7 +58,7 @@ event_block:
   - name: Jonas Seyfferth
     company: PwC Strategy& Germany
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
-    company_logo: "/uploads/2019/07/03/PWC.png"
+    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     job_title: Principal
   - name: Sanjay Ravi
     speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi-1.jpg"
