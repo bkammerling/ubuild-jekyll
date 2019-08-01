@@ -275,7 +275,7 @@ var form = {
     'Wunder Carpool': 'xgvvCOfR46QBELDQutED',
     'Wunder Shuttle': 'L0ZiCNDV46QBELDQutED',
     'Wunder Park': 'OgV9CMG_3qQBELDQutED',
-    'Wunder Rental': '-Xc_CKWC7KQBELDQutED',
+    'Wunder Rent': '-Xc_CKWC7KQBELDQutED',
     'Wunder City': '0hWZCJeJ7KQBELDQutED',
     'WMS': 'NvWgCNzV46QBELDQutED'
   }
