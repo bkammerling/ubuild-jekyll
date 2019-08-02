@@ -26,10 +26,10 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
      <div class="row align-items-center">
-            <img src="uploads/2019/08/02/pwcblack.png" style="width: 100px" class="mr-4" />
-            <img src="uploads/2019/08/02/strategy.png" style="width: 190px" class="mr-4" />
-           <img src="uploads/2019/08/02/columbia.png" style="width: 300px" class="mr-4" />
-           <img src="uploads/2019/08/02/londonschool.png" style="width: 70px" />
+            <img src="uploads/2019/08/02/pwcblack.png" style="width: 100px" class="mr-4 col" />
+            <img src="uploads/2019/08/02/strategy.png" style="width: 190px" class="mr-4 col" />
+           <img src="uploads/2019/08/02/columbia.png" style="width: 300px" class="mr-4 col" />
+           <img src="uploads/2019/08/02/londonschool.png" class="col" style="width: 70px" />
 
 
           </section>
