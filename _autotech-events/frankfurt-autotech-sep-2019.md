@@ -36,8 +36,8 @@ event_block:
   block: speaker-cards
   speakers:
   - name: Zhang Hui
-    job_title: Managing Director
-    company: NIO Germany
+    job_title: Vice President Europe
+    company: NIO
     speaker_photo: "/uploads/2019/06/27/Hui-Zhang.jpg"
     company_logo: "/uploads/2019/06/27/Nio-logo.jpg"
   - name: Ismail Ertug
