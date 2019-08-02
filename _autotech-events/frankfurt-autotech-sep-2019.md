@@ -26,7 +26,11 @@ event_block:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
-            <img src="uploads/2019/07/03/PWC.png" style="width: 130px" class="mr-4" />
+            <img src="uploads/2019/08/02/pwcblack.png" style="width: 120px" class="mr-4" />
+            <img src="uploads/2019/08/02/strategy.png" style="width: 200px" />
+           <img src="uploads/2019/08/02/columbia.png" style="width: 200px" class="mr-4" />
+           <img src="uploads/2019/08/02/londonschool.png" style="width: 110px" />
+
 
           </section>
         </div>
