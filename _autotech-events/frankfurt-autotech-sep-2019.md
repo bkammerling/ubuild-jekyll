@@ -27,9 +27,9 @@ event_block:
             <h2 class="page-heading mb-3">In Co-operation With</h2>
 
             <img src="uploads/2019/08/02/pwcblack.png" style="width: 120px" class="mr-4" />
-            <img src="uploads/2019/08/02/strategy.png" style="width: 200px" />
-           <img src="uploads/2019/08/02/columbia.png" style="width: 200px" class="mr-4" />
-           <img src="uploads/2019/08/02/londonschool.png" style="width: 110px" />
+            <img src="uploads/2019/08/02/strategy.png" style="width: 190px" class="mr-4" />
+           <img src="uploads/2019/08/02/columbia.png" style="width: 300px" class="mr-4" />
+           <img src="uploads/2019/08/02/londonschool.png" style="width: 70px" />
 
 
           </section>
