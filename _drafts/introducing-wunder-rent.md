@@ -24,7 +24,7 @@ Wunder Rent is an all-in-one, cloud-based, combination software-hardware product
 
 The control panel includes all the details a rental service operator needs: driver and user account information, booking schedules and vehicle availability, vehicle histories and damage reports, payments, marketing services like promo codes and of course real-time vehicle tracking. You even can mobilize or unlock all vehicles in your fleet at the touch of a button.
 
-Last but not least, manage pricing options and change prices according to demand whenever you wish. **Dynamic vehicle pricing** is an important component of many rental businesses, and we understand that it’s a deal breaker many companies can’t do without. That’s why with Wunder Rent software, all prices are yours to freely determine.
+With the Wunder Rent control panel, you can view pricing options and change prices according to demand. **Dynamic vehicle pricing** is an important component of many rental businesses, and we understand that it’s a deal breaker many companies can’t do without. That’s why all prices are yours to freely determine with Wunder Rent.
 
 #### **Already paying for tracking? Analyze that data effectively as part of the deal.**
 
