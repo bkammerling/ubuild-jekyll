@@ -388,11 +388,26 @@ page_sections:
               <div class="col-lg-4 ">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.automobil-industrie.vogel.de/">
-                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/automobil-industrie-logo.jpg">
+                    <img class="" style="width: 170px; max-width: 90%;" data-src="uploads/global/automobil-industrie-logo.jpg">
                   </a>
                 </div>
               </div>
-
+            </div>
+            <div class="row align-items-center">
+              <div class="col-lg-4 offset-lg-2">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.manager-magazin.de/">
+                    <img class="" style="width: 200px; max-width:90%;" data-src="uploads/global/Manager-Magazine.svg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href="https://www.manager-lounge.com/">
+                    <img class="" style="width: 110px; max-width:90%;" data-src="uploads/global/Manager-Lounge.svg">
+                  </a>
+                </div>
+              </div>
             </div>
           </section>
         </div>
