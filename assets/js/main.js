@@ -632,9 +632,9 @@ var twitterModule = {
   buildFeed: function(posts = this.data) {
     var feedHTML = this.makeHTML(posts)
     $(".social-ticker__row").append(feedHTML);
-    console.log($('.post-text').html());
+    //console.log($('.post-text').html());
     var postTexts = $('.post-text');
-    console.log(postTexts);
+    //console.log(postTexts);
   },
   makeHTML: function(posts = this.data) {
     if(posts.length < 1) return "<p>😳 Sorry, couldn't find our social posts.</p>";
@@ -643,6 +643,7 @@ var twitterModule = {
     for(var i = 0; i < posts.length; i++) {
       var post = posts[i];
       var tempHTML = singleHTML.clone();
+      console.log(post.gsx$createdat.$t);
       tempHTML.find(".post-date").text(post.gsx$createdat.$t);
       var regex = /(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/;
       var postText = post.gsx$text.$t;

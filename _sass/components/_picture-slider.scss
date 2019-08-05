@@ -109,10 +109,11 @@
   perspective: 1000px;
   transform-style: preserve-3d;
   width: 320px;
-  margin: 2rem auto 0;
+  margin: 2rem auto rem(50px);
   @include rwd(tablet-up) {
     width: auto;
     height: 70%;
+    margin-bottom: 0;
   }
   @include rwd(desktop-up) {
     width: auto;

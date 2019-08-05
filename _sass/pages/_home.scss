@@ -1,7 +1,10 @@
 main {
   //background-color: $white;
-  padding-top: rem(100px);
   position: relative;
+  padding-top: rem(40px);
+  @include rwd(tablet-up) {
+    padding-top: rem(100px);
+  }
 }
 
 .home  {

@@ -364,6 +364,12 @@ a.circle-arrow {
   @include rwd(tablet-down) {
     .col {
       min-width: 90px;
+      &.len-5 {
+        flex-basis: 33%;
+      }
+      &.len-4 {
+        flex-basis: 50%;
+      }
     }
   }
   @include rwd(tablet-up) {

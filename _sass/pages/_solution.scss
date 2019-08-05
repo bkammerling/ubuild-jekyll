@@ -12,7 +12,10 @@ main {
 }
 
 .product-area {
-  margin-bottom: rem(200px);
+  margin-bottom: rem(100px);
+  @include rwd(tablet-up) {
+    margin-bottom: rem(200px);
+  }
 }
 
 .solution-wrapper {
@@ -50,8 +53,11 @@ main {
   }
 
   .product-section {
-    margin-top: rem(150px);
+    margin-top: rem(70px);
     min-height: 350px;
+    @include rwd(tablet-up) {
+      margin-top: rem(150px);
+    }
     @include rwd(desktop-up) {
       margin-top: rem(250px);
     }
@@ -94,7 +100,11 @@ main {
     padding-right: 50px;
   }
   svg {
-    margin-bottom: -150px
+    margin: -100px auto -150px;
+    @include rwd(tablet-up) {
+        margin: 0 auto -150px;
+    }
+
   }
 }
 

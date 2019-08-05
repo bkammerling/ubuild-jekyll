@@ -20,6 +20,12 @@
 
   }
 
+  #section-operations {
+    @include rwd(desktop-up) {
+      margin-top: rem(80px);
+    }
+  }
+
   #section-app1 {
     h2.page-heading {
       @include rwd(tablet-up) {
