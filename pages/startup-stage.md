@@ -45,14 +45,18 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle
-    content: |-
-      <strong>We're looking for innovative early-stage ventures that will make a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a href="https://about.google/intl/en/"><img style="max-width: 110px; display: block; margin-top: 6px;" src="uploads/global/googlelogo.svg" alt="Google for Startups logo"></a>
+    content: '<strong>We''re looking for innovative early-stage ventures that will
+      make a positive impact on the world.</strong><br><br><strong>In partnership
+      with:</strong><a href="https://about.google/intl/en/"><img style="max-width:
+      110px; display: block; margin-top: 6px;" src="uploads/global/googlelogo.svg"
+      alt="Google for Startups logo"></a>'
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
       over 350 hand-picked guests. Our partners will give a prize to the winner during
       the event afterwards.<br><br>Join us and make connections that will accelerate
-      your success.<br><strong>Want to be part of the challenge?</strong><br><br><a class="round-cta dark w-arrow" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+      your success.<br><strong>Want to be part of the challenge?</strong><br><br><a
+      class="round-cta dark w-arrow" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
   bg_image: ''
   unique_id: startupintro
@@ -224,13 +228,14 @@ page_sections:
   name: faqs
 - template: block-from-right
   block: wide-from-right
-  bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
+  bg_image: "/uploads/2019/05/16/WMS18_44@2x.jpg"
   unique_id: future
   col_1:
     content: Don't miss your chance to join the Startup Stage Battle at the Wunder
-      Mobility Summit. If you have any further questions, please don't hesitate to <a target="_blank" class="text-blue" href="mailto:elizabeth.benitez@wunder.com?subject=
-      More info about the WMS19 startup stage battle">send us an email.</a><br><a style="margin-bottom:-50px" class="round-cta dark mt-4"
-      target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
+      Mobility Summit. If you have any further questions, please don't hesitate to
+      <a target="_blank" class="text-blue" href="mailto:elizabeth.benitez@wunder.com?subject=
+      More info about the WMS19 startup stage battle">send us an email.</a><br><a
+      style="margin-bottom:-50px" class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
     headline: Good things happen to those who pitch
   col_2:
@@ -243,8 +248,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-lang-ref: 'stage-battle'
-lang: 'en'
+lang-ref: stage-battle
+lang: en
 published: false
 
 ---
