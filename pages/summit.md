@@ -393,7 +393,7 @@ page_sections:
                 </div>
               </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center mt-2">
               <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.manager-magazin.de/">

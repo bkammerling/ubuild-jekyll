@@ -45,9 +45,8 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle
-    content: <strong>We're looking for innovative early-stage ventures that will make
-      a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a href="https://startup.google.com/"><img style="max-width:200px;" src="uploads/global/google-startups@2x.jpg"
-      alt="Google for Startups logo"></a>
+    content: |-
+      <strong>We're looking for innovative early-stage ventures that will make a positive impact on the world.</strong><br><br><strong>In partnership with:</strong><a href="https://about.google/intl/en/"><img style="max-width: 110px; display: block; margin-top: 6px;" src="uploads/global/googlelogo.svg" alt="Google for Startups logo"></a>
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
@@ -161,7 +160,22 @@ page_sections:
             <div class="content-dropdown faq">
               <p class="lead content-dropdown__link"><strong>Why should I participate in the Startup Stage Battle?</strong></p>
               <div class="content-dropdown__content">
-                <p class="pr-5 mt-3">The WMS brings together the brightest minds in mobility who share an inventor's spirit, a builder's mentality, and a desire to initiate change. You will attract the undivided attention of major decision makers, including companies, academics, policymakers and visionaries.</p>
+                <p class="mt-3">There are plenty of reasons why pitching at the WMS19 is a great idea for your business:</p>
+                <ul class="pr-5 pl-5 mt-3">
+                  <li><strong>Make the right connections:</strong> you will have access to leaders and decision-makers.</li>
+                  <li><strong>Free exhibition space:</strong> as a finalist, you can promote your startup during the WMS19.</li>
+                  <li><strong>Brand awareness:</strong> you will have exposure to media and journalists.</li>
+                  <li>Your pitch will be recorded, and <strong>the winner will be recognized during the WMS19</strong>.</li>
+                </ul>
+              </div>
+              <div class="content-dropdown__opener">
+                <a class="with-down-arrow"></a>
+              </div>
+            </div>
+            <div class="content-dropdown faq">
+              <p class="lead content-dropdown__link"><strong>What do I need to do to apply?</strong></p>
+              <div class="content-dropdown__content">
+                <p class="pr-5 mt-3">You'll need to head over to the <a target="_blank" class="text-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">online form</a> and give us some details like your product description, the problem you're solving, and a description of your bigger picture and vision. You'll also need to upload your pitch deck and logo.</p>
               </div>
               <div class="content-dropdown__opener">
                 <a class="with-down-arrow"></a>
@@ -214,7 +228,8 @@ page_sections:
   unique_id: future
   col_1:
     content: Don't miss your chance to join the Startup Stage Battle at the Wunder
-      Mobility Summit. <br><a style="margin-bottom:-50px" class="round-cta dark mt-4"
+      Mobility Summit. If you have any further questions, please don't hesitate to <a target="_blank" class="text-blue" href="mailto:elizabeth.benitez@wunder.com?subject=
+      More info about the WMS19 startup stage battle">send us an email.</a><br><a style="margin-bottom:-50px" class="round-cta dark mt-4"
       target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
       here</a>
     headline: Good things happen to those who pitch
