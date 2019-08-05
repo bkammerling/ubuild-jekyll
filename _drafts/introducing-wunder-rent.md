@@ -8,10 +8,12 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: Introducing Wunder Rent
 publish_date: 2019-08-05 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/08/05/auto-automotive-blur-1842623-1.jpg"
 excerpt: ''
 
 ---
+![](/uploads/2019/08/05/auto-automotive-blur-1842623.jpg)
+
 ### What is Wunder Rent?
 
 While many types of vehicle sharing companies have digitized their operations already, station-based rental companies often lag behind. Traditional car rental services have been around since at least the 1910s, so it’s really no surprise that many established rental companies are struggling to “modernize” their operations to fit in with the current, ever-changing mobility landscape.
