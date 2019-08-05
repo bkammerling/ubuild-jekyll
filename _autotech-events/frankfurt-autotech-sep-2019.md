@@ -25,8 +25,12 @@ event_block:
         <div class="col-lg-10 offset-lg-2 mb-3">
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
+     <div class="row align-items-center">
+            <img src="uploads/2019/08/02/pwcblack.png" style="width: 100px" class="mr-4 col" />
+            <img src="uploads/2019/08/02/strategy.png" style="width: 190px" class="mr-4 col" />
+           <img src="uploads/2019/08/02/columbia.png" style="width: 300px" class="mr-4 col" />
+           <img src="uploads/2019/08/02/londonschool.png" class="col" style="width: 70px" />
 
-            <img src="uploads/2019/07/03/PWC.png" style="width: 130px" class="mr-4" />
 
           </section>
         </div>
@@ -36,8 +40,8 @@ event_block:
   block: speaker-cards
   speakers:
   - name: Zhang Hui
-    job_title: Managing Director
-    company: NIO Germany
+    job_title: Vice President Europe
+    company: NIO
     speaker_photo: "/uploads/2019/06/27/Hui-Zhang.jpg"
     company_logo: "/uploads/2019/06/27/Nio-logo.jpg"
   - name: Ismail Ertug

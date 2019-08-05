@@ -36,6 +36,11 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Maya Ben Dror
+    job_title: Lead of Autonomous and Urban Mobility
+    company: World Economic Forum
+    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
+    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
   - name: Amee Chande
     job_title: Chief Commercial Officer
     company: Waymo
