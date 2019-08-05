@@ -8,7 +8,7 @@ cta_text: Launch your rental operations or revamp your fleet management system w
 cta_link: pages/rent.md
 title: Introducing Wunder Rent
 publish_date: 2019-08-05 11:00:00 +0000
-featured_image: "/uploads/2019/08/05/rentimage2.jpeg"
+featured_image: "/uploads/2019/08/05/rentimage2.jpg"
 excerpt: The Wunder Rent software system allows you to go paperless and offer digital
   booking to your customers. You can manage all necessary vehicle and user data from
   one convenient control panel.
