@@ -1,18 +1,20 @@
 ---
 layout: simple-article
 category: News
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/GunnarProfile.md
+cta_heading: Find Out More About Wunder Rent
+cta_text: Launch your rental operations or revamp your fleet management system within
+  4 to 6 weeks.
+cta_link: pages/rent.md
 title: Introducing Wunder Rent
 publish_date: 2019-08-05 11:00:00 +0000
-featured_image: "/uploads/2019/08/05/auto-automotive-blur-1842623-1.jpg"
-excerpt: ''
+featured_image: "/uploads/2019/08/05/rentimage2.jpeg"
+excerpt: The Wunder Rent software system allows you to go paperless and offer digital
+  booking to your customers. You can manage all necessary vehicle and user data from
+  one convenient control panel.
 
 ---
-![](/uploads/2019/08/05/auto-automotive-blur-1842623.jpg)
+![](/uploads/2019/08/05/rentimage1-1.jpg)
 
 ### What is Wunder Rent?
 
