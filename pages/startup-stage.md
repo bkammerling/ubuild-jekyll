@@ -255,6 +255,5 @@ page_sections:
   content: ''
 lang-ref: stage-battle
 lang: en
-published: false
 
 ---
