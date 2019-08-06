@@ -24,7 +24,7 @@ page_sections:
     value="design">Design</option> <option name="department" value="communications">Communications
     & PR</option> <option name="department" value="marketing">Marketing</option> <option
     name="department" value="finance">Finance & Legal</option> <option name="department"
-    value="talent">Talent</option> <option name="department" value="business">Business
+    value="people">People</option> <option name="department" value="business">Business
     Development</option> </select> <ion-icon name="ios-arrow-down"></ion-icon> </div>
     </div> </div> <div class="job-list__listing row"> <!-- job list from Greenhouse
     API --> <div class="job-list__item hidden"> <div class="row job-item-row"> <a

@@ -88,7 +88,7 @@ page_sections:
       to the world and the awesome thing is that our office is right in the middle
       of the harbour, with great views of the HafenCity.
     author: Alycia (USA)
-    department: Talent
+    department: People
     location: Wunder HQ Hamburg
   - big_image: "/uploads/2019/01/11/Rachit_big@2x.jpg"
     big_alt: Rachit, an Indian Wunder employee, smiles at the camera
