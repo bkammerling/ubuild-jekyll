@@ -75,10 +75,10 @@ page_sections:
     company: Firstmile
     speaker_photo: "/uploads/2019/07/23/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/07/23/firstmile logo.svg"
-  - name: Gunnar Froh
-    job_title: CEO & Co-Founder
+  - name: Sana Sidibeh
+    job_title: Corporate Development Manager
     company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    speaker_photo: "/uploads/2019/08/06/Sana.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
   - name: To be announced
     job_title: ''
