@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Shuttle
-date: 2019-01-10 23:00:00 +0000
+date: 2019-01-10T23:00:00.000+00:00
 permalink: "/shuttle"
 lang: en
 lang-ref: shuttle
@@ -20,7 +20,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video:
+  background_video: 
   show_logos: true
   background_image: "/uploads/global/Image_Shuttle@2x.jpg"
 - block: shuttle-main
@@ -38,7 +38,7 @@ page_sections:
   block: footer-1
 menu:
   wunder-main:
-    weight: 2
+    weight: 3
     parent: solutions
     identifier: shuttle
 

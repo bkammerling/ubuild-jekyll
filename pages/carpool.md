@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Carpool
-date: 2019-01-10 23:00:00 +0000
+date: 2019-01-10T23:00:00.000+00:00
 permalink: "/carpool"
 lang: en
 lang-ref: carpool
@@ -20,7 +20,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video:
+  background_video: 
   show_logos: true
   background_image: "/uploads/global/Image_Carpool@2x.jpg"
 - block: carpool-main

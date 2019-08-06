@@ -1,162 +1,95 @@
 ---
-wunder-main:
-- url: "#"
-  weight: 1
-  title: Solutions
-  identifier: solutions
-  sub: true
-- url: "/carpool"
-  weight: 1
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-- url: "/shuttle"
-  weight: 2
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
-- url: "/fleet"
-  weight: 3
-  parent: solutions
-  identifier: fleet
-  title: Fleet
-- url: "/park"
-  weight: 4
-  parent: solutions
-  identifier: park
-  title: Park
-- url: "/rent"
-  weight: 5
-  parent: solutions
-  identifier: rent
-  title: Rent
-#- url: "/city"
-#  weight: 5
-#  parent: solutions
-#  identifier: city
-#  title: City
-- url: "#"
-  weight: 2
-  title: Events
-  identifier: events
-  sub: true
-- url: "/summit/"
-  weight: 2
-  identifier: summit
-  title: Wunder Summit
-  parent: events
-- url: "/mobility-sessions/"
-  weight: 1
-  identifier: mobility-sessions
-  title: Mobility Sessions
-  parent: events
-- url: "/careers/"
-  weight: 4
-  identifier: careers
-  title: Careers
-- url: "/press"
-  weight: 5
-  identifier: press
-  title: Press
-
-
-wunder-de:
-- url: "#"
-  weight: 1
-  title: Produkte
-  identifier: solutions
-  sub: true
-- url: "/de/carpool"
-  weight: 1
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-- url: "/de/shuttle"
-  weight: 2
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
-- url: "/de/fleet"
-  weight: 3
-  parent: solutions
-  identifier: fleet
-  title: Fleet
-#- url: "/de/city"
-#  weight: 4
-#  parent: solutions
-#  identifier: city
-#  title: City
-- url: "/de/park"
-  weight: 4
-  parent: solutions
-  identifier: park
-  title: Park
-- url: "/rent"
-  weight: 5
-  parent: solutions
-  identifier: rent
-  title: Rent | EN
-- url: "#"
-  weight: 2
-  title: Events
-  identifier: events
-  sub: true
-- url: "/mobility-sessions"
-  weight: 2
-  identifier: autotech
-  title: Mobility Sessions | EN
-  parent: events
-- url: "/summit/"
-  weight: 1
-  identifier: summit
-  title: Mobility Summit | EN
-  parent: events
-- url: "/careers/"
-  weight: 3
-  identifier: careers
-  title: Jobs | EN
-- url: "/de/presse"
-  weight: 4
-  identifier: press
-  title: Presse
-
-career:
-- identifier: jobs
-  url: "/careers/jobs"
-  title: Jobs
-  weight: 4
-- identifier: locations
-  url: "/careers/locations"
-  weight: 3
-  title: Locations
-- identifier: culture
-  url: "/careers/culture"
-  weight: 2
-  title: Culture
-- identifier: perks
-  url: "/careers/perks"
-  weight: 1
-  title: Perks
-
-footerbottom:
-- identifier: privacy
-  title: Privacy
-  url: "/privacy"
-  weight: 1
-- identifier: imprint
-  title: Imprint
-  url: "/imprint"
-  weight: 3
-- identifier: terms
-  title: Terms & Conditions
-  url: "/terms"
-  weight: 2
-
 footer:
-- identifier: HQ
-  title: Wunder HQ
-  col: 3
-  data: company-address
+- identifier: solutions
+  title: Solutions
+  col: 1
+  weight: 4
+  items:
+  - identifier: carpool
+    url: "/carpool"
+    weight: 1
+    title: Wunder Carpool
+    parent: solutions
+  - identifier: shuttle
+    url: "/shuttle"
+    weight: 2
+    title: Wunder Shuttle
+    parent: solutions
+  - identifier: fleet
+    url: "/fleet"
+    weight: 3
+    title: Wunder Fleet
+    parent: solutions
+  - identifier: park
+    url: "/park"
+    weight: 4
+    title: Wunder Park
+    parent: solutions
+  - url: "/rent"
+    weight: 5
+    parent: solutions
+    identifier: rent
+    title: Wunder Rent
+- identifier: footerevents
+  title: Events
+  col: 1
+  weight: 5
+  items:
+  - identifier: summit
+    url: "/summit/"
+    weight: 1
+    title: Wunder Summit
+    parent: footerevents
+  - identifier: mobility-sessions
+    url: "/mobility-sessions/"
+    weight: 2
+    title: Mobility Sessions
+    parent: footerevents
+- identifier: company
+  title: Company
+  col: 2
+  items:
+  - identifier: blog
+    url: "/blog"
+    weight: 3
+    title: Blog
+    parent: company
+  - identifier: press
+    url: "/press"
+    weight: 2
+    title: Press
+    parent: company
+  - identifier: app
+    url: https://help.wunder.org
+    weight: 1
+    title: Carpool App
+    parent: wunder_app
+  weight: 2
+- identifier: footercareers
+  title: Careers
+  col: 2
+  weight: 3
+  items:
+  - identifier: jobs
+    url: "/careers/jobs"
+    weight: 1
+    title: Jobs
+    parent: footercareers
+  - identifier: culture
+    url: "/careers/culture"
+    weight: 2
+    title: Culture
+    parent: footercareers
+  - identifier: locations
+    url: "/careers/locations"
+    weight: 3
+    title: Locations
+    parent: footercareers
+  - identifier: perks
+    url: "/careers/perks"
+    weight: 4
+    title: Perks
+    parent: footercareers
 - identifier: offices
   title: Offices
   col: 3
@@ -196,98 +129,146 @@ footer:
     parent: offices
     newtab: 1
   weight: 1
-- identifier: company
-  title: Company
-  col: 2
-  items:
-  - identifier: blog
-    url: "/blog"
-    weight: 3
-    title: Blog
-    parent: company
-  - identifier: press
-    url: "/press"
-    weight: 2
-    title: Press
-    parent: company
-  - identifier: app
-    url: "https://help.wunder.org"
-    weight: 1
-    title: Carpool App
-    parent: wunder_app
+- identifier: HQ
+  title: Wunder HQ
+  col: 3
+  data: company-address
+  weight: 6
+footerbottom:
+- identifier: terms
+  title: Terms & Conditions
+  url: "/terms"
+  weight: 2
+- identifier: imprint
+  title: Imprint
+  url: "/imprint"
   weight: 3
-- identifier: footercareers
-  title: Careers
-  col: 2
+- identifier: privacy
+  title: Privacy
+  url: "/privacy"
+  weight: 1
+career:
+- identifier: perks
+  url: "/careers/perks"
+  weight: 1
+  title: Perks
+- identifier: culture
+  url: "/careers/culture"
+  weight: 2
+  title: Culture
+- identifier: locations
+  url: "/careers/locations"
   weight: 3
-  items:
-  - identifier: jobs
-    url: "/careers/jobs"
-    weight: 1
-    title: Jobs
-    parent: footercareers
-  - identifier: culture
-    url: "/careers/culture"
-    weight: 2
-    title: Culture
-    parent: footercareers
-  - identifier: locations
-    url: "/careers/locations"
-    weight: 3
-    title: Locations
-    parent: footercareers
-  - identifier: perks
-    url: "/careers/perks"
-    weight: 4
-    title: Perks
-    parent: footercareers
-- identifier: footerevents
-  title: Events
-  col: 1
-  weight: 5
-  items:
-  - identifier: summit
-    url: "/summit/"
-    weight: 1
-    title: Wunder Summit
-    parent: footerevents
-  - identifier: mobility-sessions
-    url: "/mobility-sessions/"
-    weight: 2
-    title: Mobility Sessions
-    parent: footerevents
-- identifier: solutions
-  title: Solutions
-  col: 1
+  title: Locations
+- identifier: jobs
+  url: "/careers/jobs"
+  title: Jobs
   weight: 4
-  items:
-  - identifier: carpool
-    url: "/carpool"
-    weight: 1
-    title: Wunder Carpool
-    parent: solutions
-  - identifier: shuttle
-    url: "/shuttle"
-    weight: 2
-    title: Wunder Shuttle
-    parent: solutions
-  - identifier: fleet
-    url: "/fleet"
-    weight: 3
-    title: Wunder Fleet
-    parent: solutions
-  - identifier: park
-    url: "/park"
-    weight: 4
-    title: Wunder Park
-    parent: solutions
-  - url: "/rent"
-    weight: 5
-    parent: solutions
-    identifier: rent
-    title: Wunder Rent
-#  - identifier: city
-#    url: "/city"
-#    weight: 5
-#    title: Wunder City
-#    parent: solutions
+wunder-de:
+- url: "/rent"
+  weight: 5
+  parent: solutions
+  identifier: rent
+  title: Rent | EN
+- url: "/de/park"
+  weight: 4
+  parent: solutions
+  identifier: park
+  title: Park
+- url: "/de/fleet"
+  weight: 3
+  parent: solutions
+  identifier: fleet
+  title: Fleet
+- url: "/de/shuttle"
+  weight: 2
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+- url: "/mobility-sessions"
+  weight: 2
+  identifier: autotech
+  title: Mobility Sessions | EN
+  parent: events
+- url: "/de/carpool"
+  weight: 1
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+- url: "/summit/"
+  weight: 1
+  identifier: summit
+  title: Mobility Summit | EN
+  parent: events
+- url: "/de/presse"
+  weight: 4
+  identifier: press
+  title: Presse
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Jobs | EN
+- url: "#"
+  weight: 2
+  title: Events
+  identifier: events
+  sub: true
+- url: "#"
+  weight: 1
+  title: Produkte
+  identifier: solutions
+  sub: true
+wunder-main:
+- url: "/careers/"
+  weight: 3
+  identifier: careers
+  title: Careers
+- url: "/carpool"
+  weight: 2
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+- url: "/rent"
+  weight: 9
+  parent: solutions
+  identifier: rent
+  title: Rent
+- url: "/park"
+  weight: 7
+  parent: solutions
+  identifier: park
+  title: Park
+- url: "/fleet"
+  weight: 5
+  parent: solutions
+  identifier: fleet
+  title: Fleet
+- url: "/summit/"
+  weight: 1
+  identifier: summit
+  title: Wunder Summit
+  parent: events
+- url: "/shuttle"
+  weight: 4
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+- url: "/mobility-sessions/"
+  weight: 3
+  identifier: mobility-sessions
+  title: Mobility Sessions
+  parent: events
+- url: "/press"
+  weight: 4
+  identifier: press
+  title: Press
+- url: "#"
+  weight: 2
+  title: Events
+  identifier: events
+  sub: true
+- url: "#"
+  weight: 1
+  title: Solutions
+  identifier: solutions
+  sub: true

@@ -468,6 +468,11 @@ page_sections:
   content: ''
 lang-ref: ''
 lang: ''
+menu:
+  wunder-main:
+    weight: 2
+    parent: events
+    title: Startup Stage
 
 ---
 {% comment %}

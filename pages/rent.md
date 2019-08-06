@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Rent
-date: 2019-07-28 23:00:00 +0000
+date: 2019-07-28T23:00:00.000+00:00
 permalink: "/rent"
 lang: en
 lang-ref: rent
@@ -22,9 +22,9 @@ page_sections:
     enabled: true
   cta_2:
     url: "#"
-    button_text:
+    button_text: 
     enabled: false
-  background_video:
+  background_video: 
   show_logos: true
   background_image: "/uploads/global/rent-bg@2x.jpg"
 - block: rent-main
@@ -32,8 +32,8 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: We'll get your new rental operations up and running in no time! Send over some info and
-    we'll get in touch in the next 24h.
+  content: We'll get your new rental operations up and running in no time! Send over
+    some info and we'll get in touch in the next 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - block: custom-html
@@ -42,7 +42,7 @@ page_sections:
   block: footer-1
 menu:
   wunder-main:
-    weight: 5
+    weight: 8
     parent: solutions
     identifier: rent
 
