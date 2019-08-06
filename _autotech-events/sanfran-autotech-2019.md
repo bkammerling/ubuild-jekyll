@@ -36,6 +36,11 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Paul Warburton
+    job_title: Global Account Director and VP of Automotive
+    company: Fujitsu
+    speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
+    company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
   - name: Maya Ben Dror
     job_title: Lead of Autonomous and Urban Mobility
     company: World Economic Forum
