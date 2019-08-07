@@ -47,4 +47,4 @@ The harsh reality is such that if they’re not talking about the clients they h
 
 By complete package we mean software, analytics AND hardware - an all-in-one solution. There’s no point wasting time and resources looking for separate analytics and/or hardware providers if your software provider can supply you with _all_ the tools you need to get your business successfully launched. That being said, if you pay attention to the other points mentioned above, you’ll probably end up considering a vehicle sharing software provider who offers a **complete package deal** anyway.
 
-There you have it, the five things to look for when selecting a vehicle sharing software provider. If you still have some questions or you’d like more information on how to start a vehicle sharing company, we’re here to help! Drop me a line any time at yannick.hippolyte@wundermobility.com.
+There you have it, the five things to look for when selecting a vehicle sharing software provider. If you still have some questions or you’d like more information on how to start a vehicle sharing company, we’re here to help! Drop me a line at yannick.hippolyte@wundermobility.com.
