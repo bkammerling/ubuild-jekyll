@@ -13,6 +13,8 @@ excerpt: 'We made starting a vehicle sharing company easier for you. Here are fi
   things to look for when selecting your software provider. '
 
 ---
+![](/uploads/2019/08/07/vehiclesharingsoftwareinarticleimage.jpeg)
+
 If you’re considering getting into the vehicle sharing business, you probably already know the very basics of what you need to do before you start. You’ll need to understand your customer’s needs, decide where to launch, choose which vehicles to buy and - last but most certainly not least - which software provider to launch with.
 
 But which software provider should be allowed to have the pleasure of powering your brand new fleet? It’s a tough call, and it can be a deciding factor in the success of your future business. That’s why we broke down the five things you should look for in your vehicle sharing software provider below.
