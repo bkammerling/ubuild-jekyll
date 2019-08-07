@@ -35,7 +35,7 @@ Ideally, you should be able to lock and unlock or mobilize your vehicles at the 
 
 ### 3. A good vehicle sharing software provider will always include analytics and reporting as part of the deal.
 
-You might think that would be obvious, but not all vehicle sharing software providers include reporting as part of the deal. If you’re going to be collecting useful data like most-traveled routes or the length and distance of an average ride, it only makes sense to be able to **use that data to your advantage**. Data that’s presented to you in a format that’s easily digestible but still gives you enough information to base your business decisions on is an absolutely crucial component of any good software program.
+You might think that would be obvious, but not all vehicle sharing software providers include reporting as part of the deal. If you’re going to be collecting useful data like most-traveled routes or the length and distance of an average ride, it only makes sense to be able to **use that data to your advantage**. Data that’s presented to you in an easily digestible format and still gives you enough information to base your business decisions on is an absolutely crucial component of any good software program.
 
 ![](/uploads/2019/08/07/stockreportingimage.jpg)
 
