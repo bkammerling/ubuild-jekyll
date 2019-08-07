@@ -8,7 +8,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/fleet.md
 title: 5 Things to Look for in a Vehicle Sharing Software Provider
 publish_date: 2019-08-07 09:00:00 +0000
-featured_image: "/uploads/2019/08/07/softwareprovider5thingsimagegheader.jpg"
+featured_image: "/uploads/2019/08/07/softwareprovider5thingsimagegheader-1.jpg"
 excerpt: 'We made starting a vehicle sharing company easier for you. Here are five
   things to look for when selecting your software provider. '
 
@@ -22,6 +22,8 @@ But which software provider should be allowed to have the pleasure of powering y
 ### 1. Your vehicle sharing software provider should offer a white label, user-friendly app for riders.
 
 It’s easy to forget that your success as a future car, scooter or bike sharing business owner rides on how much your customers enjoy using your vehicles. Sure, picking the right vehicle manufacturer is important, but the magic glue truly holding your business together is your app. Well, it’s not _your_ app, maybe - you didn’t build it yourself - but that’s no reason why it shouldn’t have your company’s logos and colors on it. Having a **white label app** is massively important for generating brand awareness.
+
+![](/uploads/2019/08/07/kickscooterfleetappmockup.png)
 
 Of course, looks aren’t everything, which is why we want to highlight one important point: your user app should follow the KISS principle. **Simplicity is key!** Users want to unlock their vehicles, ride in those vehicles, park them and forget about them. The more cluttered and confusing your app is, the more likely you are to lose a customer for life.
 
