@@ -25,11 +25,13 @@ It’s easy to forget that your success as a future car, scooter or bike sharing
 
 ![](/uploads/2019/08/07/womanholdingphoneimage1.jpg)
 
-Of course, looks aren’t everything, which is why we want to highlight one important point: your user app should follow the KISS principle. **Simplicity is key!** Users want to unlock their vehicles, ride in those vehicles, park them and never, ever have to think about them again. The more cluttered or confusing your app is, the more likely you are to lose a customer for life. And you really, really don’t want that.
+Of course, looks aren’t everything, which is why we want to highlight one important point: your user app should follow the KISS principle. **Simplicity is key!** Users want to unlock their vehicles, ride in those vehicles, park them and forget about them. The more cluttered and confusing your app is, the more likely you are to lose a customer for life. 
 
 ### 2. The operator dashboard should include ALL the details you need to manage your fleet effectively and provide an in-depth overview.
 
-When we say _all_ the details, we mean it, too. Managing user accounts has been a digital process for a while now, but that’s just one tiny aspect of what should be included in your “control panel”, or dashboard. **(mobilize and unlock, see fleet page)** A solid dashboard should include vehicle and booking/ride histories, marketing services such as promotion codes or coupons you’re currently offering, all user account information including the user’s name and contact info, pricing options and payments, and of course **real-time vehicle data** like locations and routes. Damage and theft should of course be tracked, too - which brings us to our next point:
+When we say _all_ the details, we mean it. Managing user accounts is already a digital process, but that’s just one tiny aspect of what should be included in your “control panel”, or dashboard. A solid dashboard should include vehicle and booking/ride histories, marketing services such as promotion codes or coupons you’re currently offering, all user account information including the user’s name and contact info, pricing options and payments, and of course **real-time vehicle data** like locations and routes. 
+
+Ideally, you should be able to lock and unlock or mobilize your vehicles at the touch of a button. Damage and theft should of course be tracked, too - which brings us to our next point.
 
 ### 3. A good vehicle sharing software provider will always include analytics and reporting as part of the deal.
 
@@ -45,8 +47,8 @@ Really, this might be the most important question of all, and this doesn’t jus
 
 The harsh reality is such that if they’re not talking about the clients they have, or if they don’t have any international clients that they’re working with, they’re probably **not prepared to help your business grow** on a global scale. Always make sure that when talking to a sales rep from your software provider of choice, you **ask about current clients** and if you can see any testimonials they might have. If they change the subject, consider it a red flag.
 
-### 5. Make sure your vehicle sharing software provider can offer you the “complete package”.
+### 5. Make sure your vehicle sharing software provider can offer you the complete package.
 
-By complete package we mean software, analytics AND hardware - an all-in-one solution. There’s no point wasting time and resources looking for separate analytics and hardware providers if your software provider can supply you with _all_ the tools you need to get your business successfully launched. That being said, if you paid attention to the other points we mentioned above, you’ve probably ended up with a vehicle sharing software provider who offers a **complete package deal** anyway.
+By complete package we mean software, analytics AND hardware - an all-in-one solution. There’s no point wasting time and resources looking for separate analytics and/or hardware providers if your software provider can supply you with _all_ the tools you need to get your business successfully launched. That being said, if you pay attention to the other points mentioned above, you’ll probably end up considering a vehicle sharing software provider who offers a **complete package deal** anyway.
 
 There you have it, the five things to look for when selecting a vehicle sharing software provider. If you still have some questions or you’d like more information on how to start a vehicle sharing company, we’re here to help! Drop me a line any time at yannick.hippolyte@wundermobility.com.
