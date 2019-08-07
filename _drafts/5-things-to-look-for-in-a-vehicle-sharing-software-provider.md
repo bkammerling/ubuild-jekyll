@@ -8,12 +8,12 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/fleet.md
 title: 5 Things to Look for in a Vehicle Sharing Software Provider
 publish_date: 2019-08-07 09:00:00 +0000
-featured_image: "/uploads/2019/08/07/softwareprovider5thingsimagegheader-1.jpg"
+featured_image: ''
 excerpt: 'We made starting a vehicle sharing company easier for you. Here are five
   things to look for when selecting your software provider. '
 
 ---
-![](/uploads/2019/08/07/vehiclesharingsoftwareinarticleimage.jpeg)
+![](/uploads/2019/08/07/Fleet Blog Post.png)
 
 If you’re considering getting into the vehicle sharing business, you probably already know the very basics of what you need to do before you start. You’ll need to understand your customer’s needs, decide where to launch, choose which vehicles to buy and - last but most certainly not least - which software provider to launch with.
 
@@ -23,7 +23,7 @@ But which software provider should be allowed to have the pleasure of powering y
 
 It’s easy to forget that your success as a future car, scooter or bike sharing business owner rides on how much your customers enjoy using your vehicles. Sure, picking the right vehicle manufacturer is important, but the magic glue truly holding your business together is your app. Well, it’s not _your_ app, maybe - you didn’t build it yourself - but that’s no reason why it shouldn’t have your company’s logos and colors on it. Having a **white label app** is massively important for generating brand awareness.
 
-![](/uploads/2019/08/07/kickscooterfleetappmockup.png)
+![](/uploads/2019/08/07/kickscooterfleetappmockup-1.png)
 
 Of course, looks aren’t everything, which is why we want to highlight one important point: your user app should follow the KISS principle. **Simplicity is key!** Users want to unlock their vehicles, ride in those vehicles, park them and forget about them. The more cluttered and confusing your app is, the more likely you are to lose a customer for life.
 
@@ -36,8 +36,6 @@ Ideally, you should be able to lock and unlock or mobilize your vehicles at the 
 ### 3. A good vehicle sharing software provider will always include analytics and reporting as part of the deal.
 
 You might think that would be obvious, but not all vehicle sharing software providers include reporting as part of the deal. If you’re going to be collecting useful data like most-traveled routes or the length and distance of an average ride, it only makes sense to be able to **use that data to your advantage**. Data that’s presented to you in an easily digestible format and still gives you enough information to base your business decisions on is an absolutely crucial component of any good software program.
-
-![](/uploads/2019/08/07/stockreportingimage.jpg)
 
 Being able to view multiple damage reports, as just one example, can help you make predictions about when your vehicles will need to go into the shop or be repaired _before_ they actually break down. That’s useful information for anybody who wants to **stay one step ahead of the competition.**
 
