@@ -12,10 +12,10 @@ featured_image: "/uploads/2019/08/08/how to still 02.png"
 excerpt: How to start your own vehicle sharing company in three easy steps.
 
 ---
-Ever wonder how to start your own vehicle sharing company? Our video breaks it down for you in three easy steps. Spoiler alert: it's easier than you think!
+Ever wonder how to start your own vehicle sharing company? Our video breaks it down for you in three easy steps. Spoiler alert: it's easier than you think.
 
 {% include block-video-2.html vimeo-id="352512365" %}
 
-If you're thinking of starting your own business soon, feel free to get in touch and ask me any questions you might have! 
+If you're thinking of starting your own business soon, feel free to get in touch and ask me any questions you might have.
 
 Send me an email at jan.kluetsch@wundermobility.com.
