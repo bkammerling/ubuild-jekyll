@@ -1,7 +1,7 @@
 ---
 layout: simple-article
 category: Insights
-author: _people/yannick_profile_pic_blog.md
+author: _people/Jan_kluetsch_profile.md
 cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
