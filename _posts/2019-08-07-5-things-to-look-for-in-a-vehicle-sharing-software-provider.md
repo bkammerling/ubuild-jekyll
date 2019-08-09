@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/fleet.md
 title: 5 Things to Look for in a Vehicle Sharing Software Provider
-publish_date: 2019-08-07 09:00:00 +0000
+publish_date: 2019-08-07T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/07/fleetblogposttitleimage.png"
 excerpt: 'We made starting a vehicle sharing company easier for you. Here are five
   things to look for when selecting your software provider. '
@@ -47,4 +47,4 @@ The harsh reality is such that if they’re not talking about the clients they h
 
 By complete package we mean software, analytics AND hardware - an all-in-one solution. There’s no point wasting time and resources looking for separate analytics and/or hardware providers if your software provider can supply you with _all_ the tools you need to get your business successfully launched. That being said, if you pay attention to the other points mentioned above, you’ll probably end up considering a vehicle sharing software provider who offers a **complete package deal** anyway.
 
-There you have it, the five things to look for when selecting a vehicle sharing software provider. If you still have some questions or you’d like more information on how to start a vehicle sharing company, we’re here to help! Drop me a line at yannick.hippolyte@wundermobility.com.
+There you have it, the five things to look for when selecting a vehicle sharing software provider. If you still have some questions or you’d like more information on how to start a vehicle sharing company, we’re here to help!
