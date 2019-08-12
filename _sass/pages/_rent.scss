@@ -115,15 +115,27 @@
   z-index: 0;
   top: 90%;
   right: calc(100% - 213px);
+  display: none;
+  width: 120%;
+  height: 170%;
+  @include rwd(tablet-up) {
+    display: block;
+  }
+  @include rwd(desktop-up) {
+    width: 140%;
+    height: 129%;
+  }
   @include rwd(wide-up) {
     width: calc(100% + 70px);
   }
+
 
   path {
     will-change: transform;
   }
 
 }
+
 
 
 .bigger-font {
