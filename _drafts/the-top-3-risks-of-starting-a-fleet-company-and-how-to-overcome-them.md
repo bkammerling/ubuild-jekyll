@@ -42,7 +42,7 @@ The second rule is to buy high-quality vehicles. Not only does it reduce damage 
 
 ### Choosing the Wrong Software Provider
 
-Since high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high quality, too. Offering an app that frustrates and confuses users is a very bad policy. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
+Since high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high quality, too. Offering an app that frustrates and confuses users is a very bad policy. Similarly, having faulty or unusable hardware destabilizes the entire foundation upon which your company is built.
 
 > A good software provider will always include reporting.
 
