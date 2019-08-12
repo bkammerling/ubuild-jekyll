@@ -26,7 +26,7 @@ It’s no secret that vehicle theft and damages are commonplace for fleet sharin
 
 > Don't cut corners.
 
-So how do you keep a handle on vehicle theft and damages? One of the first and most obvious answers is by upgrading your locks and alarm systems. Retrofit locks, for example, significantly reduce theft in kick scooters, which is very high. In fact, in some cities, it’s already a requirement for kick scooters to come with locks so that riders can lock them up when they’re parked.
+So how do you keep a handle on vehicle theft and damages? One of the most obvious answers is by upgrading your locks and alarm systems. Retrofit locks, for example, significantly reduce theft in kick scooters, which is very high. In fact, in some cities, it’s already a requirement for kick scooters to come with locks so that riders can lock them up when they’re parked.
 
 Make sure to research the alarms and/or locks that make the most sense for your business type, and don’t cut corners when buying them - cheap locks and security systems are a waste of money and won’t protect your fleet. Also, it’s always a good idea to have software that includes theft and damage reports as part of their analytics. It’s easier for you to manage your fleet if you have an overview, and being able to predict damages that accrue due to regular wear and tear will save you time and money.
 
