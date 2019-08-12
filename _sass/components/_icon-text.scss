@@ -130,6 +130,14 @@
     }
 
   }
+
+  &.without-cards {
+    .icon-grid__item {
+      box-shadow: none;
+      text-align: left;
+      background-color: transparent;
+    }
+  }
 }
 
 .our-teams__item:hover {

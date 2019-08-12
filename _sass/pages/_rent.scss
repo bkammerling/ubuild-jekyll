@@ -11,6 +11,9 @@
   .product-section {
     @include rwd(desktop-up) {
       margin-top: rem(120px);
+      &.customer-app:not(#section-app1) {
+        margin-top: 2rem;
+      }
     }
 
     .product-image {
@@ -29,8 +32,8 @@
   #section-app1 {
     h2.page-heading {
       @include rwd(tablet-up) {
-        transform: translateY(-80px);
-        margin-top: -150px;
+        /*transform: translateY(-80px);
+        margin-top: -150px;*/
       }
     }
   }
@@ -48,6 +51,9 @@
     @include rwd(tablet-up){
       padding-right: 0;
       max-width: 64px;
+      &.wide {
+        max-width: 92px;
+      }
     }
   }
 
@@ -101,4 +107,20 @@
     right: -300px;
     width: calc(100% + 250px);
   }
+}
+
+
+#connecting-svg {
+  position: absolute;
+  z-index: 0;
+  top: 90%;
+  right: calc(100% - 213px);
+  @include rwd(wide-up) {
+    width: calc(100% + 70px);
+  }
+
+  path {
+    will-change: transform;
+  }
+  
 }
