@@ -42,10 +42,10 @@ The second rule is to buy high-quality vehicles. Not only does it reduce damage 
 
 ### Choosing the Wrong Software Provider
 
-Much like high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high-quality, too. Offering an app that frustrates and confuses users is a very bad policy, as we already mentioned above. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
+Since high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high quality, too. Offering an app that frustrates and confuses users is a very bad policy. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
 
 > A good software provider will always include reporting.
 
-Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. If you’re curious about what to look for in your software provider, check out our [blog post](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look For in your Vehicle Sharing Software Provider") on the topic.
+Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. (If you’re curious about other things to look for in your software provider, check out our [blog post](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look For in your Vehicle Sharing Software Provider") on the topic.)
 
-The good news is that all of the risks we mentioned are manageable. If you’re unsure of the best way to go about launching your company or you simply want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us by clicking the button below.
+The good news is that all of the risks we mentioned are manageable. If you’re unsure of the best way to go about launching your company or want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us by clicking the button below.
