@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/fleet.md
 title: The Top 3 Risks of Starting a Fleet Company (and How to Overcome Them)
-publish_date: 2019-08-12 09:00:00 +0000
+publish_date: 2019-08-12T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/12/scooterdominoeffectblogimage800-1.jpg"
 excerpt: We’ve compiled a list of risks associated with starting a fleet company _and_
   ways to overcome them. If you inform yourself ahead of time, there’s no reason why
@@ -38,7 +38,7 @@ Fleet sharing businesses are a big deal right now, which means that the competit
 
 In order to stand out the supposedly oversaturated shared mobility market, you’re going to need to follow two rules. The first is to make sure you have a “customer-first” approach. Many companies make the mistake of asking their customers to set up an extra payment account instead of offering a prepaid e-wallet system. Others only let customers pay via credit card or require them to take an image of where they parked the vehicle, which is a problem if the rider’s smartphone camera is broken - as just one tiny example. Think about everything from your customer’s perspective, and you’re already well ahead of the game.
 
-The second rule is to buy high-quality vehicles. Not only does it reduce damage costs in the long run, but it also helps increase employee satisfaction dramatically. In a city full of shared vehicles, the vehicles that run perfectly and have a longer-lasting battery life will slowly start to dominate the mobility scene. Because who wants to ride a kick scooter with broken brakes, or e-bikes with spokes that are bent out of shape? Nobody. Everyone will avoid a company with low-quality vehicles like the plague after one bad experience. 
+The second rule is to buy high-quality vehicles. Not only does it reduce damage costs in the long run, but it also helps increase customer satisfaction dramatically. In a city full of shared vehicles, the vehicles that run perfectly and have a longer-lasting battery life will slowly start to dominate the mobility scene. Because who wants to ride a kick scooter with broken brakes, or e-bikes with spokes that are bent out of shape? Nobody. Everyone will avoid a company with low-quality vehicles like the plague after one bad experience.
 
 ### Choosing the Wrong Software Provider
 
