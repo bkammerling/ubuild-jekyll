@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/fleet.md
 title: 5 Things to Look for in a Vehicle Sharing Software Provider
-publish_date: 2019-08-07T09:00:00.000+00:00
+publish_date: 2019-08-08 09:00:00 +0000
 featured_image: "/uploads/2019/08/07/fleetblogposttitleimage.png"
 excerpt: 'We made starting a vehicle sharing company easier for you. Here are five
   things to look for when selecting your software provider. '
