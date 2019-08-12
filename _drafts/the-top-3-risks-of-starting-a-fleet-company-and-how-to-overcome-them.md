@@ -20,7 +20,7 @@ But don’t despair - we’ve compiled a list of risks associated with starting 
 
 ### Vehicle Theft & Damages
 
-It’s no secret that vehicle theft and damages are commonplace for fleet sharing companies. It should be obvious that when customers don’t have to purchase a vehicle themselves, they’re less likely to want to treat the vehicle with respect. In fact, taking photos of kick scooters that got ruined in unfortunate ways - like being submerged in rivers or thrown onto roofs - has become something of a fad recently. Kick scooters aren’t the only vehicles getting damaged, of course: cars often have their windows broken into, and bikes are easy to steal because they’re so lightweight.
+It’s no secret that vehicle theft and damages are commonplace for fleet sharing companies. It should be obvious that when customers don’t have to purchase a vehicle themselves, they’re less likely to want to treat that vehicle with respect. In fact, taking photos of kick scooters that got ruined in unfortunate ways - like being submerged in rivers or thrown onto roofs - has become something of a fad recently. Kick scooters aren’t the only vehicles getting damaged, of course: cars often have their windows broken into, and bikes are easy to steal because they’re so lightweight.
 
 So how do you keep a handle on vehicle theft and damages? One of the first and most obvious answers is by upgrading your locks and alarm systems. Retrofit locks, for example, significantly reduce theft in kick scooters, which is very high. In fact, in some cities, it’s already a requirement for kick scooters to come with locks so that riders can lock them up when they’re parked.
 
