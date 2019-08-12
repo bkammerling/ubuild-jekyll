@@ -2,10 +2,10 @@
 layout: simple-article
 category: Insights
 author: _people/Jan_kluetsch_profile.md
-cta_heading: Find Out More About Wunder Mobility
+cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: pages/de/fleet.md
+cta_link: pages/fleet.md
 title: The Top 3 Risks of Starting a Fleet Company (and How to Overcome Them)
 publish_date: 2019-08-12 09:00:00 +0000
 featured_image: "/uploads/2019/08/12/scooterdominoeffectblogimage800-1.jpg"
@@ -48,4 +48,4 @@ Much like high-quality vehicles are an absolutely crucial component of any vehic
 
 Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. If you’re curious about what to look for in your software provider, check out our [blog post](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look For in your Vehicle Sharing Software Provider") on the topic.
 
-The good news is that all of the risks we mentioned are manageable. If you’re unsure of the best way to go about launching your company or you simply want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us using the form below.
+The good news is that all of the risks we mentioned are manageable. If you’re unsure of the best way to go about launching your company or you simply want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us by clicking the button below.
