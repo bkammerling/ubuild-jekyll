@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/de/home.md
 title: How To Start Your Own Vehicle Sharing Company [Video]
-publish_date: 2019-08-08 09:00:00 +0000
+publish_date: 2019-08-07 09:00:00 +0000
 featured_image: "/uploads/2019/08/08/how to still 02.png"
 excerpt: How to start your own vehicle sharing company in three easy steps.
 

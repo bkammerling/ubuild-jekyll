@@ -14,7 +14,7 @@ excerpt: We’ve compiled a list of risks associated with starting a fleet compa
   you won’t be able to see any big hurdles coming before it’s too late.
 
 ---
-Micromobility and other new mobility types are on the rise. Lots of fleet sharing startups have sprung up across the globe in the past few years. Unfortunately for entrepreneurs looking to get into the business, that means that the competition between companies can be quite fierce.
+Micromobility and other new mobility types are on the rise. Many fleet sharing startups have sprung up all across the globe in the past few years. Unfortunately for entrepreneurs looking to get into the business, that means that the competition between companies can be quite fierce.
 
 ![](/uploads/2019/08/12/scooterdominoeffectblogimage1200.jpg)
 
