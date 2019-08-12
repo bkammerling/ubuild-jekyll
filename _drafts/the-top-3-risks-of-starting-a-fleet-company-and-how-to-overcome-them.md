@@ -7,16 +7,16 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/de/fleet.md
 title: The Top 3 Risks of Starting a Fleet Company (and How to Overcome Them)
-publish_date: 2019-08-12 00:00:00 +0000
+publish_date: 2019-08-12 09:00:00 +0000
 featured_image: ''
 excerpt: We’ve compiled a list of risks associated with starting a fleet company _and_
-  included ways to overcome them so you don’t get discouraged. If you inform yourself
-  ahead of time, there’s no reason why you won’t be able to see any big hurdles coming.
+  ways to overcome them. If you inform yourself ahead of time, there’s no reason why
+  you won’t be able to see any big hurdles coming before it’s too late.
 
 ---
-Micromobility and other new mobility types are on the rise. Lots of fleet sharing startups have sprung up across the globe in the past few years. Unfortunately for entrepreneurs looking to get into the business, that means that the competition between companies can be quite fierce
+Micromobility and other new mobility types are on the rise. Lots of fleet sharing startups have sprung up across the globe in the past few years. Unfortunately for entrepreneurs looking to get into the business, that means that the competition between companies can be quite fierce.
 
-But don’t despair - we’ve compiled a list of risks associated with starting a fleet company _and_ included ways to overcome them so you don’t get discouraged. If you inform yourself ahead of time, there’s no reason why you won’t be able to see any big hurdles coming before it’s too late to act.
+But don’t despair - we’ve compiled a list of risks associated with starting a fleet company _and_ ways to overcome them. If you inform yourself ahead of time, there’s no reason why you won’t be able to see any big hurdles coming before it’s too late.
 
 ### Vehicle Theft & Damages
 
@@ -38,6 +38,6 @@ The second rule is to buy high-quality vehicles. Not only does this have a lot t
 
 Much like high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high-quality, too. Offering an app that frustrates and confuses users is a very bad policy, as we already mentioned above. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
 
-Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. If you’re curious about what to look for in your software provider before you settle on one, check out our blog post on the topic.
+Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. If you’re curious about what to look for in your software provider, check out our [blog post](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look For in your Vehicle Sharing Software Provider") on the topic.
 
-The good news is that all of the risks we mentioned are manageable ones. If you’re unsure of the best way to go about launching your company or you simply want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us below.
+The good news is that all of the risks we mentioned are manageable. If you’re unsure of the best way to go about launching your company or you simply want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us using the form below.
