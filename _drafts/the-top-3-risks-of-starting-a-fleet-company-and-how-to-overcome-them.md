@@ -40,8 +40,6 @@ In order to stand out the supposedly oversaturated shared mobility market, you�
 
 The second rule is to buy high-quality vehicles. Not only does this have a lot to do with reducing damage costs in the long run, but it helps increase employee satisfaction dramatically. In a city full of shared vehicles, the vehicles that run perfectly and have a longer-lasting battery life will slowly start to dominate the mobility scene. Because who wants to ride a kick scooter with broken brakes, or e-bikes with tires that are bent out of shape? Nobody, and everyone will avoid a company with low-quality vehicles like the plague after one bad experience. 
 
-Included in that topic is having a software system that’s functional, too. If your customer can’t close the app and is still getting charged per minute after parking and exiting a shared car, you’re going to lose that customer to the competition the next time they want to go somewhere. Always put customer satisfaction above saving costs!
-
 ### Choosing the Wrong Software Provider
 
 Much like high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high-quality, too. Offering an app that frustrates and confuses users is a very bad policy, as we already mentioned above. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
