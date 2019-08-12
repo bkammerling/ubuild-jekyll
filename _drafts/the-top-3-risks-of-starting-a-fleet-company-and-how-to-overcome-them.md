@@ -24,7 +24,7 @@ But don’t despair - we’ve compiled a list of risks associated with starting 
 
 It’s no secret that vehicle theft and damages are commonplace for fleet sharing companies. It should be obvious that when customers don’t have to purchase a vehicle themselves, they’re less likely to want to treat that vehicle with respect. In fact, taking photos of kick scooters that got ruined in unfortunate ways - like being submerged in rivers or thrown onto roofs - has become something of a fad recently. Kick scooters aren’t the only vehicles getting damaged, of course: cars often have their windows broken into, and bikes are easy to steal because they’re so lightweight.
 
-> Don't cut corners
+> Don't cut corners.
 
 So how do you keep a handle on vehicle theft and damages? One of the first and most obvious answers is by upgrading your locks and alarm systems. Retrofit locks, for example, significantly reduce theft in kick scooters, which is very high. In fact, in some cities, it’s already a requirement for kick scooters to come with locks so that riders can lock them up when they’re parked.
 
@@ -34,7 +34,7 @@ Make sure to research the alarms and/or locks that make the most sense for your 
 
 Fleet sharing businesses are a big deal right now, which means that the competition between companies is very fierce. Bike, car, scooter and kick scooter sharing companies now dominate the mobility landscapes of many cities - if you live in an urban center in Europe, you probably walk or drive past multiple mobility providers on your way to work every day. There’s a “hype” surrounding vehicle sharing companies, particularly kick scooters and electric vehicle types in general, which means that many entrepreneurs feel like it’s now or never - start your business now or miss out on all that demand. As a matter of fact, we would absolutely agree with those entrepreneurs. Don’t let the competition scare you into thinking you don’t have just as good of a chance of getting your concept off the ground as everybody else!
 
-> Always put customer satisfaction above saving costs
+> Always put customer satisfaction above saving costs.
 
 In order to stand out the supposedly oversaturated shared mobility market, you’re going to need to follow two rules. The first is to make sure you have a “customer-first” approach. Many companies don’t do well by asking their customers to set up an extra payment account instead of offering a prepaid e-wallet system. Others only let customers pay via credit card or require them to take an image of where the customer parked, which is a problem if the rider’s smartphone camera is broken - as just one tiny example. Think about everything from your customer’s perspective, and you’re already well ahead of the game.
 
@@ -44,7 +44,7 @@ The second rule is to buy high-quality vehicles. Not only does this have a lot t
 
 Much like high-quality vehicles are an absolutely crucial component of any vehicle sharing company, your software needs to be high-quality, too. Offering an app that frustrates and confuses users is a very bad policy, as we already mentioned above. Similarly, having faulty or unusable hardware makes the entire foundation upon which your company is built unstable.
 
-> A good software provider will always include reporting
+> A good software provider will always include reporting.
 
 Also worth mentioning: having software and hardware but having to pay extra for analytics and reporting is an absolute waste of money. A good software provider will always include reporting as part of the deal. If you’re curious about what to look for in your software provider, check out our [blog post](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look For in your Vehicle Sharing Software Provider") on the topic.
 
