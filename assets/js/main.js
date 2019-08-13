@@ -547,16 +547,18 @@ var scroller = {
     window.msRequestAnimationFrame ||
     window.oRequestAnimationFrame;
     var $window = $(window);
-    this.initPath();
+    if(pagetitle == "Rent") {
+      this.initPath();
+      var pathRect = scroller.path.getBoundingClientRect();
+    }
     var lastScrollTop = $window.scrollTop();
-    var pathRect = scroller.path.getBoundingClientRect();
     if(raf) {
       loop();
       scroller.scroll(lastScrollTop, pathRect);
     }
     function loop() {
       var scrollTop = $window.scrollTop();
-      var pathRect = scroller.path.getBoundingClientRect();
+      if(pagetitle == "Rent") var pathRect = scroller.path.getBoundingClientRect();
       if (lastScrollTop === scrollTop) {
         raf(loop);
         return;
@@ -587,20 +589,22 @@ var scroller = {
     } else {
       scroller.menuCta.removeClass('bg-from-below');
     }
-    //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
-    var path = scroller.path;
-    // What % down is it?
-    var scrollPercentage = (rect.top-(document.documentElement.clientHeight/2))*-1 / rect.height;
-    // Length to offset the dashes
-    var drawLength = scroller.pathLength * scrollPercentage;
-    // Draw in reverse
-    path.style.strokeDashoffset = scroller.pathLength - drawLength;
-    // When complete, remove the dash array, otherwise shape isn't quite sharp
-   // Accounts for fuzzy math
-    if (scrollPercentage >= 0.99) {
-      path.style.strokeDasharray = "none";
-    } else {
-      path.style.strokeDasharray = scroller.pathLength + ' ' + scroller.pathLength;
+    if(pagetitle == "Rent") {
+      //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
+      var path = scroller.path;
+      // What % down is it?
+      var scrollPercentage = (rect.top-(document.documentElement.clientHeight/2))*-1 / rect.height;
+      // Length to offset the dashes
+      var drawLength = scroller.pathLength * scrollPercentage;
+      // Draw in reverse
+      path.style.strokeDashoffset = scroller.pathLength - drawLength;
+      // When complete, remove the dash array, otherwise shape isn't quite sharp
+     // Accounts for fuzzy math
+      if (scrollPercentage >= 0.99) {
+        path.style.strokeDasharray = "none";
+      } else {
+        path.style.strokeDasharray = scroller.pathLength + ' ' + scroller.pathLength;
+      }
     }
 
   }
