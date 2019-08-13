@@ -55,10 +55,10 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/startup-stage.md
 - pages/careers/jobs.md
 - pages/careers/culture.md
 - pages/summit.md
-- pages/startup-stage.md
 - pages/terms.md
 - pages/careers/locations.md
 - pages/summit18.md
