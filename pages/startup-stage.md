@@ -73,7 +73,7 @@ page_sections:
   - name: Jens-Philipp Klein
     job_title: Managing Partner
     company: Atlantic Labs
-    speaker_photo: "/uploads/2019/07/23/Jens-Philipp-Klein.jpg"
+    speaker_photo: "/uploads/2019/08/13/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/08/13/atlanticslab_logo.jpg"
   - name: Sana Sidibeh
     job_title: Corporate Development Manager
