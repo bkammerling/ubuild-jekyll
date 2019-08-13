@@ -425,10 +425,11 @@ a.circle-arrow {
   }
 
   li {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 17px;
     color: $grey2;
+    margin-bottom: 15px;
     &:not(:first-child) {
       margin-top: rem(8px);
     }

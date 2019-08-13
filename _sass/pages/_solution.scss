@@ -217,6 +217,9 @@ main {
 
 
 .park {
+  main p:not(.text-grey2), main li {
+    color: $olive-matt;
+  }
   .top-image-wrapper svg {
     margin-top: -140px;
     margin-bottom: -200px;
