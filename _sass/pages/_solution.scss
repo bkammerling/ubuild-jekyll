@@ -278,8 +278,10 @@ main {
 
   }
 
-  .wunder-bg:not(.top-1) {
-    margin-top: -200px;
+  &:not(.de) {
+    .wunder-bg:not(.top-1) {
+      margin-top: -200px;
+    }
   }
 
   #parkterminal  {
