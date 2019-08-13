@@ -9,9 +9,9 @@
               <div class="scroller-list">
                 <a class="list-group-item list-group-item-action" href="#section-os">Wunder Park</a>
                 <!--<a class="list-group-item list-group-item-action" href="#section-value">Value</a>-->
+                <a class="list-group-item list-group-item-action" href="#section-parkhardware">Hardware</a>
                 <a class="list-group-item list-group-item-action" href="#section-parksoftware">Software</a>
                 <a class="list-group-item list-group-item-action" href="#section-parkadmin">Mission Control</a>
-                <a class="list-group-item list-group-item-action" href="#section-parkhardware">Hardware</a>
                 <a class="list-group-item list-group-item-action" href="#section-stories">Use Cases</a>
                 <a class="list-group-item list-group-item-action" href="#section-contact">Contact</a>
               </div>
@@ -89,15 +89,15 @@
       <div class="product-area">
 
 
-        <section id="section-value" class="product-section grid-section" >
-          <div class="wunder-bg right top-1"></div>
+        <section id="section-value" class="product-section" >
+
           <div class="row">
             <div class="col-lg-10 offset-lg-2">
-              <h2 class="page-heading mb-5 pb-3">Your Benefits</h2>
+              {% comment %}<h2 class="page-heading mb-5 mt-5 pb-3">Your Benefits</h2>{% endcomment %}
 
               <div class="row justify-content-center">
                 <div class="col-12 col-sm-5">
-                  <div class="icon-feature d-flex flex-md-column align-items-center align-items-md-start mb-5">
+                  <div class="icon-feature d-flex flex-md-column align-items-md-start mb-5">
                     <img class="mb-md-4 wide" src="/uploads/global/parking-meter.svg" alt="Blue outlined parking meter icon" />
                     <div class="d-flex flex-column d-md-block icon-feature__text pr-3">
                       <h3 class="mb-2">Rent out parking spots to third parties</h3>
@@ -118,7 +118,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-sm-5 offset-sm-1">
-                  <div class="icon-feature d-flex flex-md-column align-items-center align-items-md-start mb-5">
+                  <div class="icon-feature d-flex flex-md-column  align-items-md-start mb-5">
                     <img class="mb-md-4 wide" src="/uploads/global/user-card.svg" alt="Blue outline of user id card" />
                     <div class="d-flex flex-column d-md-block icon-feature__text pr-3">
                       <h3 class="mb-2">Personalize your guests' parking experience</h3>
@@ -141,7 +141,7 @@
               </div>
               <div class="row justify-content-center pt-sm-4">
                 <div class="col-12 col-sm-5">
-                  <div class="icon-feature d-flex flex-md-column align-items-center align-items-md-start mb-5">
+                  <div class="icon-feature d-flex flex-md-column align-items-md-start mb-5">
                     <img class="mb-md-4 wide" src="/uploads/global/happy-face.svg" alt="Blue outlined icon of a happy face" />
                     <div class="d-flex flex-column d-md-block icon-feature__text pr-3">
                       <h3 class="mb-2">Boost your employees satisfaction</h3>
@@ -162,7 +162,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-sm-5 offset-sm-1">
-                  <div class="icon-feature d-flex flex-md-column align-items-center align-items-md-start mb-5">
+                  <div class="icon-feature d-flex flex-md-column align-items-md-start mb-5">
                     <img class="mb-md-4 wide" src="/uploads/global/growth.svg" alt="Blue outlined icon of a small plant growing" />
                     <div class="d-flex flex-column d-md-block icon-feature__text pr-3">
                       <h3 class="mb-2">Reduce your company’s carbon footprint</h3>
@@ -208,90 +208,14 @@
           </div>
         </section>
 
-
-        <section id="section-parksoftware" class="product-section" >
-          <div class="wunder-bg left top-2"></div>
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2">
-              <h2 class="page-heading"><img src="/uploads/global/laptop-smartphone.svg" class="icon-left" /> Software</h2>
-              <div class="row pt-4">
-                <div class="col-md-11 offset-md-1">
-
-                  <div class="row">
-                    <div class="col-md-6 offset-md-1 order-md-1 align-self-center" data-aos="fade-up" data-aos-delay="150">
-                      <div class="feature-list">
-                        <div class="single-feature">
-                          <div class="m-body">
-                            <h3 class="text-blue">The Booking App</h3>
-                            <p>Our booking app helps companies allocate available parking spots to employees, guests and applicants as efficiently as possible, bringing space utilization up to almost 100%.</p>
-                          </div>
-                        </div>
-                        <div class="content-dropdown">
-                          <div class="content-dropdown__content">
-                            <ul class="dropdown-padded">
-                              <li>Automatic authentification when leaving or entering through license plate recognition software</li>
-                              <li>Gate opens after successful authentification</li>
-                              <li>Alternative authentification can be completed with a QR scanner</li>
-                              <li>Data is sent to the dashboard in real time</li>
-                            </ul>
-                          </div>
-                          <div class="content-dropdown__opener">
-                            <a class="with-down-arrow text-blue">More details</a>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="col-md-5 order-md-0" data-aos="fade-up" data-aos-delay="0">
-                      <img data-src="/uploads/global/ParkHere.png" data-srcset="/uploads/global/ParkHere@2x.png 2x" class="product-image ml-auto d-block mr-auto mt-5 mt-md-0" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-9 offset-lg-3">
+            <hr>
           </div>
-        </section>
-
-
-        <section id="section-parkadmin" class="product-section" >
-          <div class="wunder-bg right top-3"></div>
-          <div class="row">
-            <div class="col-lg-10 offset-lg-2">
-              <h2 class="page-heading"><img src="/uploads/global/presentation.svg" class="icon-left" /> Mission Control</h2>
-              <div class="row">
-                <div class="col-md-6 offset-md-1 order-md-0 align-self-center" data-aos="fade-up" data-aos-delay="0">
-                  <div class="feature-list">
-                    <div class="single-feature">
-                      <div class="m-body">
-                        <h3 class="text-blue">Operating Dashboard</h3>
-                        <p>In addition to real-time data, analysis functions and user management functions, our dashboard is optimised to provide all parking space information and personal access to our hardware data and controls.</p>
-                      </div>
-                    </div>
-                    <div class="content-dropdown">
-                      <div class="content-dropdown__content">
-                        <ul class="dropdown-padded">
-                          <li>Detailed real-time information regarding the status of all spots in the entire parking garage/area is always viewable</li>
-                          <li>Available spots and/or incorrectly parked cars can also be managed on the dashboard</li>
-                          <li>Data analysis enables prognoses of future parking spot availability</li>
-                          <li>If optional digital payment system is selected, all payments and their status can be managed on the dashboard</li>
-                        </ul>
-                      </div>
-                      <div class="content-dropdown__opener">
-                        <a class="with-down-arrow text-blue">More details</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5 order-md-1" data-aos="fade-up" data-aos-delay="150">
-                  <img data-src="/uploads/global/park-dashboard.png" class="product-image ml-auto d-block mr-auto mr-md-0 mt-5 mt-md-0 mw-auto" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
 
         <section id="section-parkhardware" class="product-section" >
-          <div class="wunder-bg left top-4"></div>
+          <div class="wunder-bg right top-1"></div>
           <div class="row">
             <div class="col-lg-10 offset-lg-2">
               <h2 class="page-heading"><img src="/uploads/global/iot.svg" class="icon-left" /> Hardware Overview</h2>
@@ -369,7 +293,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-5 order-md-1" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-md-5 order-md-1 align-self-center" data-aos="fade-up" data-aos-delay="150">
                       <img data-src="/uploads/global/parksign.png" data-srcset="/uploads/global/parksign@2x.png 2x" class="product-image ml-auto d-block mr-auto mt-5 mt-md-0" />
                     </div>
                   </div>
@@ -380,10 +304,111 @@
           </div>
         </section>
 
+        <div class="row">
+          <div class="col-lg-9 offset-lg-3">
+            <hr>
+          </div>
+        </div>
 
+        <section id="section-parksoftware" class="product-section" >
+          <div class="wunder-bg left top-3"></div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2">
+              <h2 class="page-heading"><img src="/uploads/global/laptop-smartphone.svg" class="icon-left" /> Software</h2>
+              <div class="row pt-4">
+                <div class="col-md-11 offset-md-1">
 
-        <section class="block block-stories mt-8" id="section-stories">
-          <div class="wunder-bg right top-5"></div>
+                  <div class="row">
+                    <div class="col-md-6 offset-md-1 order-md-1 align-self-center" data-aos="fade-up" data-aos-delay="150">
+                      <div class="feature-list">
+                        <div class="single-feature">
+                          <div class="m-body">
+                            <h3 class="text-blue">The Booking App</h3>
+                            <p>Our booking app helps companies allocate available parking spots to employees, guests and applicants as efficiently as possible, bringing space utilization up to almost 100%.</p>
+                          </div>
+                        </div>
+                        <div class="content-dropdown">
+                          <div class="content-dropdown__content">
+                            <ul class="dropdown-padded">
+                              <li>Automatic authentification when leaving or entering through license plate recognition software</li>
+                              <li>Gate opens after successful authentification</li>
+                              <li>Alternative authentification can be completed with a QR scanner</li>
+                              <li>Data is sent to the dashboard in real time</li>
+                            </ul>
+                          </div>
+                          <div class="content-dropdown__opener">
+                            <a class="with-down-arrow text-blue">More details</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-5 order-md-0" data-aos="fade-up" data-aos-delay="0">
+                      <img data-src="/uploads/global/ParkHere.png" data-srcset="/uploads/global/ParkHere@2x.png 2x" class="product-image ml-auto d-block mr-auto mt-5 mt-md-0" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="row">
+          <div class="col-lg-9 offset-lg-3">
+            <hr>
+          </div>
+        </div>
+
+        <section id="section-parkadmin" class="product-section" >
+          <div class="wunder-bg right top-4"></div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2">
+              <h2 class="page-heading"><img src="/uploads/global/presentation.svg" class="icon-left" /> Mission Control</h2>
+              <div class="row">
+                <div class="col-md-11 offset-md-1">
+
+                  <div class="row">
+                    <div class="col-md-6 offset-md-1 order-md-0 align-self-center" data-aos="fade-up" data-aos-delay="0">
+                      <div class="feature-list">
+                        <div class="single-feature">
+                          <div class="m-body">
+                            <h3 class="text-blue">Operating Dashboard</h3>
+                            <p>In addition to real-time data, analysis functions and user management functions, our dashboard is optimised to provide all parking space information and personal access to our hardware data and controls.</p>
+                          </div>
+                        </div>
+                        <div class="content-dropdown">
+                          <div class="content-dropdown__content">
+                            <ul class="dropdown-padded">
+                              <li>Detailed real-time information regarding the status of all spots in the entire parking garage/area is always viewable</li>
+                              <li>Available spots and/or incorrectly parked cars can also be managed on the dashboard</li>
+                              <li>Data analysis enables prognoses of future parking spot availability</li>
+                              <li>If optional digital payment system is selected, all payments and their status can be managed on the dashboard</li>
+                            </ul>
+                          </div>
+                          <div class="content-dropdown__opener">
+                            <a class="with-down-arrow text-blue">More details</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 order-md-1" data-aos="fade-up" data-aos-delay="150">
+                      <img data-src="/uploads/global/park-dashboard.png" data-srcset="/uploads/global/park-dashboard@2x.png 2x" class="product-image ml-auto d-block mr-auto mr-md-0 mt-5 mt-md-0 mw-auto" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="row">
+          <div class="col-lg-9 offset-lg-3">
+            <hr>
+          </div>
+        </div>
+
+        <section class="block block-stories" id="section-stories">
+          <div class="wunder-bg left top-5"></div>
           <div class="container">
             <div class="row">
               <div class="col-lg-10 offset-lg-2">
