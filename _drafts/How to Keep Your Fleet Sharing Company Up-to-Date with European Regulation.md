@@ -1,15 +1,17 @@
 ---
 layout: simple-article
-category: ''
+category: Insights
 author: []
-cta_heading: Find Out More About Wunder Mobility
+cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: []
-title: ''
-publish_date: 
+cta_link: pages/fleet.md
+title: How to Keep Your Fleet Sharing Company Up-to-Date with European Regulation
+publish_date: 2019-08-14 00:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: 'Knowing which rules to keep track of can seem a little tricky at first,
+  but if you read up on local regulation that could affect your operations in advance,
+  you’ll be prepared before any new laws are enacted or rules are changed. '
 
 ---
 If keeping your fleet sharing company up-to-date with different regulation types seems like a daunting task, don’t worry: you’ve come to the right place!
