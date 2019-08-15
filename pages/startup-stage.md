@@ -60,11 +60,8 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: In partnership with...
-  content: |-
-    </section>
-        </div>
-      </div>
-    </div>
+  content: |2-
+
     <div class="container" id="section-partnership">
 
       <div class="row">
