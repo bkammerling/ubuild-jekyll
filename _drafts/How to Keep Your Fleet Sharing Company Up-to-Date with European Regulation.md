@@ -6,15 +6,17 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: How To Keep Your Fleet Sharing Company In Line with Regulation
+title: How To Keep Your Fleet Sharing Company In Line with EU Regulation
 publish_date: 2019-08-14 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/08/15/flagsimageeuregulationpostheader.jpeg"
 excerpt: 'Knowing which rules to keep track of can seem a little tricky at first,
   but if you read up on local regulation that could affect your operations in advance,
   you’ll be prepared before any new laws are enacted or rules are changed. '
 
 ---
 If keeping your fleet sharing company up-to-date with different regulation types seems like a daunting task, don’t worry: you’ve come to the right place!
+
+![](/uploads/2019/08/15/flagsimageeuregulationpost.jpg)
 
 Knowing which rules to keep track of can seem a little tricky at first, but if you read up on local regulation that could affect your operations in advance, you’ll be prepared before any new laws are enacted or rules are changed. Below are some things you should be aware of as a fleet sharing business owner.
 
@@ -27,6 +29,8 @@ Running an active fleet sharing company in Europe? If so, you probably already k
 ### Low-Emission Zones
 
 If your fleet sharing company is gas powered, you’re probably aware of the numerous “low-emission zones” throughout Europe, which are exactly what they sound like: zones in which vehicle types and sizes are restricted in order to cut back on emissions. (3) They’re most commonly found in mid- to large-sized urban areas with lots of people (and lots of vehicles!). London has particularly strict rules for its low-emission zone - literally called the “Ultra Low Emission Zone” - which have been in effect since April 2019. (4) It prohibits all vehicles (regardless of their size) from entering the zone without either a) meeting the emissions requirements or b) having paid the appropriate fee in advance.
+
+![](/uploads/2019/08/15/londontrafficregulation.jpg)
 
 So what are these emission standards that need to be met, anyway? For cars, they typically need to either be Euro 4 (gas) or Euro 6 (diesel). Other major European cities that have low emission zones are Paris, Madrid and Stockholm, to name just a few. Make sure you’re well informed of the emission zones in your city, particularly if you’re looking to start a non-electric vehicle sharing business. Here’s a heads up: starting in 2025, new emissions targets are being rolled out by the EU. They aim to see a reduction in car emissions of 15% from 2021 to 2025 and a 37.5% reduction after 2030. (11) A lofty goal, to be sure, and one worth keeping in mind when you consider which vehicle type to include in your fleet in the future.
 
