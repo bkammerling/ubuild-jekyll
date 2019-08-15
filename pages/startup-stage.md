@@ -60,8 +60,10 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: In partnership with...
-  content: |2-
-
+  content: |-
+    </div>
+      </div>
+    </div>
     <div class="container" id="section-partnership">
 
       <div class="row">
@@ -69,8 +71,8 @@ page_sections:
           <section class="">
             <h2 class="page-heading mb-3">In Co-operation With</h2>
      <div class="row align-items-left">
-            <img src="uploads/2019/08/15/copace-logo.png" style="width: 100px" class="mr-4 col" />
-            <img src="uploads/2019/08/15/google-logo.png" style="width: 100px" class="mr-4 col" />
+            <img src="uploads/2019/08/15/copace-logo.png" style="width: 60px" class="mr-4 col" />
+            <img src="uploads/2019/08/15/google-logo.png" style="width: 60px" class="mr-4 col" />
 
 
           </section>
