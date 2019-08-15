@@ -80,11 +80,11 @@ page_sections:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/08/06/Sana.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: To be announced
-    job_title: ''
-    company: ''
-    speaker_photo: "/uploads/2019/07/03/tobeannounced.png"
-    company_logo: ''
+  - name: Konstantin Mihov
+    job_title: Incubation And Communication
+    company: co-pace
+    speaker_photo: "/uploads/2019/08/15/Konstantin-Mihov.jpg"
+    company_logo: "/uploads/2019/08/15/copace-logo.png"
 - template: columns
   heading: Judging Criteria
   block: columns
