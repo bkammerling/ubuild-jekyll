@@ -45,11 +45,8 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle
-    content: '<strong>We''re looking for innovative early-stage ventures that will
-      make a positive impact on the world.</strong><br><br><strong>In partnership
-      with:</strong><a href="https://about.google/intl/en/"><img style="max-width:
-      110px; display: block; margin-top: 6px;" src="uploads/global/googlelogo.svg"
-      alt="Google for Startups logo"></a>'
+    content: "<strong>We're looking for innovative early-stage ventures that will
+      make a positive impact on the world.</strong>"
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
@@ -60,6 +57,10 @@ page_sections:
       here</a>
   bg_image: ''
   unique_id: startupintro
+- template: custom-content
+  block: custom-html
+  name: In partnership with...
+  content: ''
 - template: speakers
   heading: Jury Members 2019
   sub-heading: Industry experts, VC’s and tech leaders
@@ -255,5 +256,6 @@ page_sections:
   content: ''
 lang-ref: stage-battle
 lang: en
+published: false
 
 ---
