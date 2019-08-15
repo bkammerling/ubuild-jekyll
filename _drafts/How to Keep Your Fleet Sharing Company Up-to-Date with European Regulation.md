@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: How to Keep Your Fleet Sharing Company Up-to-Date with European Regulation
+title: How To Keep Your Fleet Sharing Company In Line with Regulation
 publish_date: 2019-08-14 00:00:00 +0000
 featured_image: ''
 excerpt: 'Knowing which rules to keep track of can seem a little tricky at first,
