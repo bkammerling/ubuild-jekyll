@@ -1,7 +1,7 @@
 ---
 layout: simple-article
 category: Insights
-author: _people/daniel-profile.md
+author: _people/pia-benthien.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
