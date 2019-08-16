@@ -29,15 +29,6 @@ page_sections:
   logo_row: ''
 - template: custom-content
   block: custom-html
-  name: In partnership with...
-  content: "<div class=\"container\" id=\"section-partnership\">\n\n  <div class=\"row\">\n
-    \   <div class=\"col-lg-10 offset-lg-2 mb-3\">\n      <section class=\"\">\n        <h2
-    class=\"page-heading mb-3\">In Co-operation With</h2>\n \n        <img src=\"uploads/2019/08/15/copace-logo.png\"
-    style=\"width: 40px\" class=\"mr-4 col\" />\n        <img src=\"uploads/2019/08/15/google-logo.png\"
-    style=\"width: 40px\" class=\"mr-4 col\" />\n\n\n      </section>\n    </div>\n
-    \ </div>\n</div>"
-- template: custom-content
-  block: custom-html
   name: Summit Naviagtor
   content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
     id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
