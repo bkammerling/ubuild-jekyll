@@ -1,7 +1,7 @@
 ---
 layout: simple-article
 category: Insights
-author: ''
+author: _people/PurnimaKumar.md
 cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
