@@ -5,24 +5,29 @@ date: 2019-01-10 23:00:00 +0000
 permalink: "/city"
 lang: en
 lang-ref: city
+published: false
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-  sub_logo: ""
+  sub_logo: "/uploads/global/wunder-city-white.svg"
   cta:
     url: "#section-contact"
     button_text: Contact
-- template: hero-banner-w-image
-  block: hero-2
-  headline: Transparency for <strong>Sustainable Mobility</strong> Ecosystems
+- template: hero-banner-center
+  block: hero-1
+  headline: <strong>Empowering Cities</strong><br> Across the Globe
+  subheadline: Together, we can design cities that are smarter, greener, and safer. <br><br class="d-sm-none">Because we share tomorrow.
   cta:
-    button_text: Contact Us
+    button_text: Find Out More
+    url: "#section-challenges"
+    enabled: true
+  cta_2:  
+    button_text: Contact us
     url: "#section-contact"
     enabled: true
-  background_video:
-  show_logos: true
-  background_image: "/uploads/global/buses-header@2x.jpg"
+  background_image: "/uploads/global/bg-city-wide@2x.jpg"
+  featured_image: "/uploads/global/fencing-mockup@2x.jpg"
 - block: city-main
   subdirectory: static
 - template: detail-content

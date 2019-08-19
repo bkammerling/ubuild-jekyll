@@ -1,0 +1,37 @@
+.city {
+
+  .hero-banner__overflow {
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  .block-contact-form {
+    margin-top: 0;
+  }
+
+  .fullimg-section {
+    position: relative;
+    z-index: 101;
+    .fullimg-section__inner-content {
+      transform: translateY(120px);
+      z-index: 3;
+      position: relative;
+    }
+  }
+
+  .fullimg-section__bgimage {
+    background-image: url('/uploads/global/hamburg-night.jpg');
+    background-position: center 75%;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .fullimg-section__bgimage {
+      background-image: url('/uploads/global/hamburg-night@2x.jpg');
+    }
+  }
+
+  .bg-box__wrapper .bg-box__box {
+    margin-top: rem(50px);
+    border-left: 0;
+    box-shadow: none;
+  }
+
+}
