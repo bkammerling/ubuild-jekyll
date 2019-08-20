@@ -3,7 +3,8 @@ layout: simple-article
 category: News
 author: _people/GunnarProfile.md
 cta_heading: Find Out More About Wunder City
-cta_text: We have the tool cities need to control the chaos and gain an overview.
+cta_text: We have the tool cities need to control the chaos and gain a comprehensive
+  overview of active mobility services.
 cta_link: pages/city.md
 title: Introducing Wunder City
 publish_date: 2019-08-21T09:00:00.000+00:00
