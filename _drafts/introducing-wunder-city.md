@@ -36,8 +36,6 @@ High traffic times, historical data analysis and market development, popular rid
 
 The goal of every city is to improve the quality of life for its citizens, now and in the future. In order to achieve that goal, cities are forced to make crucial decisions regarding urban planning, infrastructure and public transportation every day. With the Wunder City tool, we’re attempting to remove some of the guesswork from the equation and give cities a solid foundation upon which to base these important decisions.
 
-> Having a solid framework allows cities to join forces with private operators with confidence.
-
 Having a solid framework in turn allows cities to join forces with private operators with confidence - no market experience or special teams required - and fosters collaboration between the public and private sectors. Wunder City levels the proverbial playing field across all sectors, letting cities, companies, startups and administrators come together to help design a future that is greener, smarter and better for everyone.
 
 Read about our pilot project with the City of Hamburg here.
