@@ -3,11 +3,10 @@ layout: simple-article
 category: News
 author: _people/GunnarProfile.md
 cta_heading: Find Out More About Wunder City
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_text: We have the tool cities need to control the chaos and gain an overview.
 cta_link: pages/city.md
 title: Introducing Wunder City
-publish_date: 2019-08-21 09:00:00 +0000
+publish_date: 2019-08-21T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/20/introtocitytitleimage.jpeg"
 excerpt: As more and more mobility companies expand their services in urban centers
   across the globe, cities and local governments are grappling with the influx of
@@ -20,7 +19,7 @@ excerpt: As more and more mobility companies expand their services in urban cent
 
 ### Smart Cities Require Smart Solutions
 
-As more and more mobility companies expand their services in urban centers across the globe, cities and local governments are grappling with the influx of startups and mobility businesses. Cities understand that in order to become more sustainable and efficient, they need to include all forms of mobility in their plans for the future.
+As more and more mobility companies expand their services in urban centers across the globe, cities and local governments are grappling with an influx of startups and mobility businesses. Cities understand that in order to become more sustainable and efficient, they need to include all forms of mobility in their plans for the future.
 
 It’s clear that cities need to address the question of managing multiple operators in order to regulate them effectively. In fact, most cities would like to embrace and understand the changes brought about by micromobility and other new types of mobility companies, but the amount of new players vying for precious urban space is so mind-boggling, cities are unsure of how to even begin tackling that problem. That’s where Wunder City comes in.
 
