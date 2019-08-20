@@ -171,11 +171,11 @@ page_sections:
     company: Micromobility Industries
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
-  - name: Gunnar Froh
-    job_title: CEO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Jonas Seyfferth
+    job_title: Principal
+    company: PwC Strategy& Germany
+    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
+    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
@@ -190,6 +190,11 @@ page_sections:
     job_title: COO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Gunnar Froh
+    job_title: CEO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
 - template: icon-heading-cards
   block: icon-heading-grid
@@ -480,6 +485,7 @@ menu:
     weight: 2
     parent: events
     title: Startup Stage
+    identifier: item_TVWQMxx
 
 ---
 {% comment %}
