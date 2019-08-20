@@ -2,10 +2,10 @@
 layout: simple-article
 category: News
 author: _people/GunnarProfile.md
-cta_heading: Find Out More About Wunder Mobility
+cta_heading: Find Out More About Wunder City
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: []
+cta_link: pages/city.md
 title: Introducing Wunder City
 publish_date: 2019-08-21 09:00:00 +0000
 featured_image: "/uploads/2019/08/20/introtocitytitleimage.jpeg"
