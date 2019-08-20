@@ -173,7 +173,7 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-mm.png"
   - name: Jonas Seyfferth
     job_title: Principal
-    company: PwC Strategy& Germany
+    company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
   - name: Martin Hoff
