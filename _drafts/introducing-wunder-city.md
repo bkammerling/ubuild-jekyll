@@ -28,7 +28,7 @@ It’s clear that cities need to address the question of managing multiple opera
 
 Wunder City is a tool that visualizes the activity and data of multiple mobility companies in a city and compiles all relevant data into an easy-to-digest report. Cities are then presented with a comprehensive, comparative overview of all active mobility providers and can make better decisions based on credible data analysis.
 
-> Cities can make better decisions based on credible data analysis.
+> Cities can make better decisions based on credible data analysis
 
 High traffic times, historical data analysis and market development, popular riding areas, fluctuations and more are all visualized in these reports on a daily, weekly and monthly basis, making them immensely powerful tools for cities that might not otherwise have experience in data management or reporting, but still understand the value in gaining a deeper understanding of their mobility market close to home.
 
