@@ -354,14 +354,21 @@ page_sections:
 
             </div>
             <div class="row align-items-center mt-2">
-              <div class="col-lg-4 offset-lg-2">
+              <div class="col-lg-4">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.audi.de">
                     <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4 ">
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href=" https://www.continental.com/en">
+                    <img class="" style="width: 165px; max-width: 90%;" data-src="uploads/global/continental-logo.png"><br>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
                 <div class="partner-box">
                   <a target="_blank" href="https://goodpatch.com/en/">
                     <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">

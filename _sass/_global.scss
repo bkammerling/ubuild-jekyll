@@ -441,7 +441,7 @@ a.circle-arrow {
       }
     }
   }
-  
+
   ul:not(.city-list) {
     li {
       margin-bottom: 15px;
@@ -1091,7 +1091,10 @@ ul.footer__socialmedia {
   display: grid;
   grid-gap: 20px;
   &.two-col {
-    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    grid-template-columns: calc(100% - 20px);
+    @include rwd(mobile-up) {
+      grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    }
   }
 }
 .grid-box {
