@@ -60,7 +60,7 @@ event_block:
     speaker_photo: "/uploads/2019/06/27/Mark-Schaub.jpg"
     company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
   - name: Jonas Seyfferth
-    company: PwC Strategy& Germany
+    company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     job_title: Principal
