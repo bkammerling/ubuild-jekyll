@@ -32,7 +32,7 @@ Wunder City is a tool that visualizes the activity and data of multiple mobility
 
 High traffic times, historical data analysis and market development, popular riding areas, fluctuations and more are all visualized in these reports on a daily, weekly and monthly basis, making them immensely powerful tools for cities that might not otherwise have experience in data management or reporting, but still understand the value in gaining a deeper understanding of their mobility market close to home.
 
-A Better Future
+### A Better Future
 
 The goal of every city is to improve the quality of life for its citizens, now and in the future. In order to achieve that goal, cities are forced to make crucial decisions regarding urban planning, infrastructure and public transportation every day. With the Wunder City tool, we’re attempting to remove some of the guesswork from the equation and give cities a solid foundation upon which to base these important decisions.
 
