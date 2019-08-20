@@ -45,8 +45,14 @@ page_sections:
   block: wide-from-right
   col_1:
     headline: Wunder startup stage battle
-    content: "<strong>We're looking for innovative early-stage ventures that will
-      make a positive impact on the world.</strong>"
+    content: '<strong>We''re looking for innovative early-stage ventures that will
+      make a positive impact on the world.</strong><br><br><strong>In partnership
+      with:</strong><br><a href="https://about.google/intl/en/"><img style="max-width:
+      110px; display: inline-block;" class="mt-3 mb-4 mb-sm-0" src="uploads/global/googlelogo.svg"
+      alt="Google for Startups logo"></a>
+      <a href="https://www.co-pace.com/"><img class="mt-3 mb-4 mb-sm-0 ml-0 ml-sm-2" style="max-width:
+      110px; display: inline-block;" src="uploads/global/copace-logo.png"
+      alt="Co-pace: the startup program of Continental"></a>'
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
