@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: How E-Scooter Companies Fail
+title: How E-Scooter Companies Fail [Video]
 publish_date: 2019-08-19 09:00:00 +0000
 featured_image: "/uploads/2019/08/20/failvideoblogimage.png"
 excerpt: It's not all fun and games in the e-scooter business. Some companies _do_
