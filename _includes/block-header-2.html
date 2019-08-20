@@ -9,7 +9,7 @@
     <div class="container header">
       <div class="grouped-logo {% if section.sub_logo and section.sub_logo != empty %}animated{% endif %}">
         {% assign directory = page.dir | remove: '/' %}
-        <a href="{{ site.url }}{% if directory != 'careers' %}{{ page.dir }}{% endif %}">
+        <a href="{{ site.url }}{% comment %}{% if directory != 'careers' %}{{ page.dir }}{% endif %}{% endcomment %}">
           <div class="main-logo-wrapper">
             <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="header__logotype main-logotype">
           </div>

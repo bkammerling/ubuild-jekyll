@@ -1091,7 +1091,7 @@ ul.footer__socialmedia {
   display: grid;
   grid-gap: 20px;
   &.two-col {
-    grid-template-columns: calc(100% - 20px);
+    grid-template-columns: 100%;
     @include rwd(mobile-up) {
       grid-template-columns: calc(50% - 10px) calc(50% - 10px);
     }
@@ -1103,9 +1103,12 @@ ul.footer__socialmedia {
 }
 
 .feature-box__wrapper {
-  padding: 60px 40px;
+  padding: 40px 30px;
+  @include rwd(tablet-up) {
+    padding: 60px 40px;
+  }
   img {
-    max-width: 30px;
+    max-width: 38px;
   }
 }
 

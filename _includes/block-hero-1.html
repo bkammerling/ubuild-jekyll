@@ -12,9 +12,9 @@
         {% endif %}
       </div>
 
-      <div class="featured-image w-shadow">
-        <div class="featured-image_wrapper d-flex justify-content-center">
-          <img data-src="{{ section.featured_image | remove: '@2x' | relative_url }}" data-srcset="{{ section.featured_image | relative_url }}" alt="" />
+      <div class="featured-image w-shadow mx-4 mx-sm-0">
+        <div class="featured-image_wrapper d-flex justify-content-center align-items-start">
+          <img src="{{ section.featured_image | replace: '.svg', '-sm.jpg' | relative_url }}" data-src="{{ section.featured_image | remove: '@2x' | relative_url }}" data-srcset="{{ section.featured_image | relative_url }} 2x" alt=""  />
         </div>
 
       </div>

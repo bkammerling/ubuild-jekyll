@@ -1,7 +1,8 @@
 AOS.init({
   // Global settings:
   duration: 600,
-  once: true
+  once: true,
+  disable: 'mobile'
 });
 
 var videoPlayer = {

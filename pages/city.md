@@ -1,11 +1,11 @@
 ---
 layout: blocks
-title: Wunder City
+title: City
 date: 2019-01-10 23:00:00 +0000
 permalink: "/city"
 lang: en
 lang-ref: city
-published: false
+published: true
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -27,7 +27,7 @@ page_sections:
     url: "#section-contact"
     enabled: true
   background_image: "/uploads/global/bg-city-wide@2x.jpg"
-  featured_image: "/uploads/global/fencing-mockup@2x.jpg"
+  featured_image: "/uploads/global/wundercity_map-2.svg"
 - block: city-main
   subdirectory: static
 - template: detail-content

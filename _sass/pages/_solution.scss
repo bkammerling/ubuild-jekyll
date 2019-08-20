@@ -458,7 +458,14 @@ section.grey-bg {
 
 .text-card {
   background-color: #fff;
-  padding: 50px 70px;
+  padding: 40px 30px;
+  width: calc(100% + 110px);
+  transform: translateX(-55px);
+  @include rwd(mobile-up) {
+    width: auto;
+    transform: none;
+    padding: 50px 70px;
+  }
   p {
     color: $olive-matt !important;
   }
@@ -478,6 +485,7 @@ section.grey-bg {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     cite {
+      font-size: 12px;
       display: block;
       font-weight: 400;
       font-style: normal;
@@ -513,8 +521,12 @@ ol.colored-numbers {
     line-height: 21px;
   }
   p.lead {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 25px;
+    @include rwd(mobile-up) {
+      font-size: 20px;
+      line-height: 28px;
+    }
   }
 
 }

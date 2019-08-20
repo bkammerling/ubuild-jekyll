@@ -15,8 +15,7 @@
 /meetup  /autotech  301
 /terms-conditions  /terms  301
 
-/city  /  301
-/de/city  /  301
+/de/city  /city  301
 
 /autotech  /mobility-sessions/  301
 /autotech-events/* /mobility-sessions/:splat 301!
