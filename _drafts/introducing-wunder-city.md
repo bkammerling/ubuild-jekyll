@@ -8,7 +8,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: Introducing Wunder City
 publish_date: 2019-08-21 09:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/08/20/introtocitytitleimage.jpeg"
 excerpt: As more and more mobility companies expand their services in urban centers
   across the globe, cities and local governments are grappling with the influx of
   startups and mobility businesses. It’s clear that cities need to address the question
@@ -16,7 +16,9 @@ excerpt: As more and more mobility companies expand their services in urban cent
   Wunder City comes in.
 
 ---
-Smart Cities Require Smart Solutions
+![](/uploads/2019/08/20/introtocitybodyimage.jpg)
+
+### Smart Cities Require Smart Solutions
 
 As more and more mobility companies expand their services in urban centers across the globe, cities and local governments are grappling with the influx of startups and mobility businesses. Cities understand that in order to become more sustainable and efficient, they need to include all forms of mobility in their plans for the future.
 
