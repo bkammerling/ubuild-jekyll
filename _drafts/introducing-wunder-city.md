@@ -1,7 +1,7 @@
 ---
 layout: simple-article
 category: News
-author: []
+author: _people/GunnarProfile.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
