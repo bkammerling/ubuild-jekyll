@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
 - _articles/bitte-einsteigen.md
 - _articles/so-arbeitet-unibail-mit-dem-start-up-wunder-mobility-zusammen.md
 - _articles/cities-strike-back.md
