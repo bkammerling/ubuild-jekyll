@@ -5,6 +5,5 @@ date: 2019-06-25 22:00:00 +0000
 lang: German
 image: "/uploads/2019/08/21/hamburgerabendblattlogo.png"
 featured: true
-published: false
 
 ---

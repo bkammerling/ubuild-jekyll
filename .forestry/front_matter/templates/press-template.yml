@@ -26,11 +26,11 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
-- _articles/10-mobility-startups-to-look-out-for-in-2019-and-beyond.md
-- _articles/bitte-einsteigen.md
+- _articles/hamburg-startet-mit-wunder-mobility-deutschlands-erste-plattform.md
 - _articles/gunnar-froh-macht-aus-pendlern-taxifahrer.md
 - _articles/wie-viel-hightech-darf-es-sein-wie-viel-fremdbestimmung-muss-es-sein.md
-- _articles/hamburg-startet-mit-wunder-mobility-deutschlands-erste-plattform.md
+- _articles/10-mobility-startups-to-look-out-for-in-2019-and-beyond.md
+- _articles/bitte-einsteigen.md
 - _articles/wunder-mobility-das-betriebssystem-der-mobilität.md
 - _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
 - _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md

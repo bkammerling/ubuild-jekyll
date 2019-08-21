@@ -5,6 +5,5 @@ date: 2019-08-20 22:00:00 +0000
 lang: German
 image: "/uploads/2019/08/21/hamburgdelogo.jpg"
 featured: true
-published: false
 
 ---
