@@ -5,6 +5,5 @@ date: 2019-08-05 22:00:00 +0000
 lang: German
 image: "/uploads/2019/08/21/HandelsblattLogo.png"
 featured: true
-published: false
 
 ---

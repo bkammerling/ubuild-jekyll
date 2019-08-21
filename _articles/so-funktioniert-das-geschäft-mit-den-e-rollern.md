@@ -5,6 +5,5 @@ date: 2019-07-28 22:00:00 +0000
 lang: German
 image: "/uploads/2019/08/21/weltlogo.png"
 featured: true
-published: false
 
 ---
