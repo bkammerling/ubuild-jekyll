@@ -834,14 +834,14 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park" || pagetitle == "Rent") {
+  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park" || pagetitle == "Rent" || pagetitle == "City") {
     $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
-  if(pagetitle == "Wunder City") {
+  /*if(pagetitle == "Wunder City") {
     $("select#subject-field").val("Wunder City").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
-  }
+  }*/
   if(pagetitle == "Home") {
     $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
