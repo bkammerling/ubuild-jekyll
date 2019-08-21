@@ -44,7 +44,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 {% for sub_item in menu %}
                 {% if sub_item.parent == nav_item.identifier %}
-                  <a class="dropdown-item"  href="{{ sub_item.url }}" title="Go to {{ sub_item.title }}">{{ sub_item.title }}</a>
+                  <a class="dropdown-item"  href="{{ sub_item.url }}" title="Go to {{ sub_item.title }}"><span class="dropdown-maintitle">{{ sub_item.title }}</span><span class="dropdown-subtitle">{{ sub_item.subtitle }}</span></a>
                 {% endif %}
                 {% endfor %}
                 </div>

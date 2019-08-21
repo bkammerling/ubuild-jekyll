@@ -240,12 +240,25 @@
     a {
       text-transform: uppercase;
       font-size: 12px;
+      padding-bottom: 10px;
     }
     @include rwd(tablet-up) {
       box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3);
     }
   }
 
+}
+
+span.dropdown-maintitle {
+  display: block;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 8px;
+  letter-spacing: 0.5px;
+}
+
+span.dropdown-subtitle {
+  text-transform: none;
 }
 
 .header a.btn {

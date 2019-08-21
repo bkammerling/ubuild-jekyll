@@ -498,6 +498,16 @@ section.grey-bg {
       font-style: normal;
     }
   }
+  .quote-link {
+    text-transform: none;
+    font-size: 12px;
+    color: $olive-matt;
+    letter-spacing: 0;
+    a {
+      color: $olive-matt;
+      text-decoration: underline;
+    }
+  }
 }
 
 
