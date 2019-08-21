@@ -218,6 +218,10 @@ main {
 
 .park {
 
+  .wunder-bg {
+    margin-top: -300px;
+  }
+
   main p:not(.text-grey2), main li {
     color: $olive-matt;
   }
@@ -278,9 +282,12 @@ main {
 
   }
 
-  &:not(.de) {
-    .wunder-bg:not(.top-1) {
-      margin-top: -200px;
+  .wunder-bg {
+    margin-top: 500px;
+  }
+  &.de {
+    .wunder-bg {
+      margin-top: 700px;
     }
   }
 

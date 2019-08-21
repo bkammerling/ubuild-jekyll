@@ -55,10 +55,10 @@ wunder-main:
   identifier: mobility-sessions
   title: Mobility Sessions
   parent: events
-- url: "/careers/"
+- url: "/blog/"
   weight: 4
-  identifier: careers
-  title: Careers
+  identifier: blog
+  title: Blog
 - url: "/press"
   weight: 5
   identifier: press
