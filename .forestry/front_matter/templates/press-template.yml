@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/bitte-einsteigen.md
 - _articles/gunnar-froh-macht-aus-pendlern-taxifahrer.md
 - _articles/wie-viel-hightech-darf-es-sein-wie-viel-fremdbestimmung-muss-es-sein.md
 - _articles/hamburg-startet-mit-wunder-mobility-deutschlands-erste-plattform.md
@@ -33,7 +34,6 @@ pages:
 - _articles/wunder-mobility-das-betriebssystem-der-mobilität.md
 - _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
 - _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
-- _articles/bitte-einsteigen.md
 - _articles/so-arbeitet-unibail-mit-dem-start-up-wunder-mobility-zusammen.md
 - _articles/cities-strike-back.md
 - _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md

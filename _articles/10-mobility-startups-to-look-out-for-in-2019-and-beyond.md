@@ -5,6 +5,5 @@ date: 2019-07-03 22:00:00 +0000
 lang: English
 image: "/uploads/2019/08/21/eustartupslogo.png"
 featured: true
-published: false
 
 ---
