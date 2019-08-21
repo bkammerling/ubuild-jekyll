@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/wunder-mobility-das-betriebssystem-der-mobilität.md
 - _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
 - _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
 - _articles/bitte-einsteigen.md
