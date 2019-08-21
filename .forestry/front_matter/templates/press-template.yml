@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/bitte-einsteigen.md
 - _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
 - _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
 - _articles/so-arbeitet-unibail-mit-dem-start-up-wunder-mobility-zusammen.md
@@ -34,7 +35,6 @@ pages:
 - _articles/gunnar-froh-macht-aus-pendlern-taxifahrer.md
 - _articles/wie-viel-hightech-darf-es-sein-wie-viel-fremdbestimmung-muss-es-sein.md
 - _articles/10-mobility-startups-to-look-out-for-in-2019-and-beyond.md
-- _articles/bitte-einsteigen.md
 - _articles/cities-strike-back.md
 - _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md
 - _articles/wunder-mobility-to-expand-in-india.md
