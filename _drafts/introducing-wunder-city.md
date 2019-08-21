@@ -22,7 +22,7 @@ As more and more mobility companies expand their services in urban centers acros
 
 ### Smart Cities Require Smart Solutions
 
-Cities understand that in order to become more sustainable and efficient, they need to include all forms of mobility in their plans for the future. It’s clear that cities need to address the question of managing multiple operators in order to regulate them effectively. 
+Cities understand that in order to become more sustainable and efficient, they need to include all forms of mobility in their plans for the future. It’s clear that cities need to address the question of managing multiple operators in order to regulate them effectively.
 
 In fact, most cities would like to embrace and understand the changes brought about by micromobility and other new types of mobility companies, but the amount of new players vying for precious urban space is so mind-boggling, cities are unsure of how to even begin tackling that problem. New mobility services evolve over a span of 4 months, not 4 years - unlike traditional mobility types - and cities need a tool that can help them understand these rapid changes and prevent them from getting left behind. That’s where Wunder City comes in.
 
@@ -40,4 +40,4 @@ The goal of every city is to improve the quality of life for its citizens, now a
 
 Having a solid framework in turn allows cities to join forces with private operators with confidence - no market experience or special teams required - and fosters collaboration between the public and private sectors. Wunder City levels the proverbial playing field across all sectors, letting cities, companies, startups and administrators come together to help design a future that is greener, smarter and better for everyone.
 
-Read about our pilot project with the City of Hamburg here.
+Read about our pilot project with the City of Hamburg (in German) [here](https://www.hamburg.de/pressearchiv-fhh/12793478/2019-08-21-bwvi-mobilitaetsdienste/).
