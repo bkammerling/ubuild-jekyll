@@ -46,7 +46,7 @@ In-house investments do of course have the major benefit of (oftentimes) being m
 
 ### Invest in Micromobility
 
-Has investing in micromobility ever crossed your mind? If it hasn’t yet, consider this: cities are swelling globally - 68% of the planet will be living in cities in 2050 (1) - and since the average speed of many large, congested cities is around 11 kilometers per hour, (2) the market for micromobility should be a very tantalizing one. Any alternative to driving a car which is still faster than walking is arguably guaranteed to sell in the future. To put things into perspective even more, the market for micromobility in Europe alone is expected to reach a value of €150 billion by 2030 - and globally, it’s expected to reach €500 billion. (3)
+Has investing in micromobility ever crossed your mind? If it hasn’t yet, consider this: cities are swelling globally - 68% of the planet will be living in cities in 2050 [(1)](https://www.un.org/development/desa/en/news/population/2018-revision-of-world-urbanization-prospects.html) - and since the average speed of many large, congested cities is around 11 kilometers per hour, [(2)](http://inrix.com/scorecard/) the market for micromobility should be a very tantalizing one. Any alternative to driving a car which is still faster than walking is arguably guaranteed to sell in the future. To put things into perspective even more, the market for micromobility in Europe alone is expected to reach a value of €150 billion by 2030 - and globally, it’s expected to reach €500 billion. [(3)](https://www.eenewsautomotive.com/news/study-european-micromobility-market-worth-150-billion)
 
 > For investors looking to make the most out of their investment, there will always be plenty of fish in the sea.
 
