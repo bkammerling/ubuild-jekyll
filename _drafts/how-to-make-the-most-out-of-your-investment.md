@@ -14,13 +14,13 @@ excerpt: 'If you’re a frequent investor, you’re probably always on the looko
   read on for some tips on where and what to do with that money.'
 
 ---
-If you’re a frequent investor, you’re probably always on the lookout for a startup, concept or venture with potential. Perhaps you’re currently in the position of having received or allocated a sizable amount of cash to invest and you want to know exactly how to make the most out of that investment. 
+If you’re a frequent investor, you’re probably always on the lookout for a startup, concept or venture with potential. Perhaps you’re currently in the position of having received or allocated a sizable amount of cash to invest and you want to know exactly how to make the most out of that investment.
 
 If so, you’ve come to the right place: read on for some tips on where and what to do with that money.
 
 ### Diversify
 
-We hear it all the time: diversify, diversify, diversify. Why is it so important to diversify your assets, anyway? There’s a fairly simple reason: spreading your investments around doesn’t just increase the likelihood of getting a larger return, it also reduces risk. It makes sense - even if one investment ends up being a poor choice, the others are still left intact. 
+We hear it all the time: diversify, diversify, diversify. Why is it so important to diversify your assets, anyway? There’s a fairly simple reason: spreading your investments around doesn’t just increase the likelihood of getting a larger return, it also reduces risk. It makes sense - even if one investment ends up being a poor choice, the others are still left intact.
 
 Diversification doesn’t guarantee a profit or protect against a loss, and a “complicated” portfolio is harder to keep track of than a simple one, but still, there’s some truth to the expression that you shouldn’t keep all your eggs in one basket.
 
@@ -36,7 +36,7 @@ The other route you can take requires a little more digging and searching. One e
 
 Outsourcing your investments comes with a multitude of benefits to a specific group of investors. If you have an in-house investment team that’s been costing you money, time and effort to manage, outsourcing your investments gives you more resources to focus on your business and other priorities, which then allows you to increase the efficiency of your existing operations.
 
-> If you’re a busy investor who wants to make the most out of your resources, outsourcing might be the way to boost your investment strategy.
+> If you’re a busy investor, outsourcing might be the way to boost your investment strategy.
 
 In-house investments do of course have the major benefit of (oftentimes) being much cheaper than outsourcing, which means that whether you outsource or not is often a direct result of how much money you want to invest in the first place. Additionally, outsourcing means a loss of direct control - someone else is essentially doing the work for you - but if you’re a busy investor who wants to make the most out of your resources, that might be exactly the right way to boost your investment strategy.
 
