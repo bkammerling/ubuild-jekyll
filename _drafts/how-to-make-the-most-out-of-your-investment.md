@@ -30,7 +30,9 @@ There are two routes you can take when investing in a business: the first would 
 
 > There’s no shame in admitting you have something to learn from the best.
 
-The other route you can take requires a little more digging and searching. One excellent option is to attend a pitch event. It can be very inspiring watching entrepreneurs talk about what they’re most passionate about. Just make sure you always invest your funds based on ideas that seem credible to you, rather than basing your decision off the charisma or marketability of the entrepreneur doing the pitching. If you’d like to take an even more hands-off approach, we recommend investing through a venture investment platform, or even finding a syndicate to join so you can co-invest or be a backer to leaders who have far more capital and knowledge than you do. There’s no shame in admitting you have something to learn from the best - which brings us to our next tip:
+The other route you can take requires a little more digging and searching. One excellent option is to attend a pitch event. It can be very inspiring watching entrepreneurs talk about what they’re most passionate about. Just make sure you always invest your funds based on ideas that seem credible to you, rather than basing your decision off the charisma or marketability of the entrepreneur doing the pitching. 
+
+If you’d like to take an even more hands-off approach, we recommend investing through a venture investment platform, or even finding a syndicate to join so you can co-invest or be a backer to leaders who have far more capital and knowledge than you do. There’s no shame in admitting you have something to learn from the best - which brings us to our next tip:
 
 ### Outsource Investments (If It Makes Sense For You)
 
