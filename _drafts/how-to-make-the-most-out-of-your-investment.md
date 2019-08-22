@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/fleet.md
 title: How to Make the Most Out of Your Investment
-publish_date: 2019-08-02 10:00:00 +0000
+publish_date: 2019-08-16 10:00:00 +0000
 featured_image: "/uploads/2019/08/22/lightbulbcottoncandybloglistimage.jpeg"
 excerpt: 'If you’re a frequent investor, you’re probably always on the lookout for
   a startup, concept or venture with potential. If so, you’ve come to the right place:
