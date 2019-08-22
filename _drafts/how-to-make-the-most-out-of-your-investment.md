@@ -8,7 +8,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/fleet.md
 title: How to Make the Most Out of Your Investment
 publish_date: 2019-08-02 10:00:00 +0000
-featured_image: "/uploads/2019/08/22/makethemostofyourinvestmentbloglistimage.jpg"
+featured_image: "/uploads/2019/08/22/lightbulbcottoncandybloglistimage.jpeg"
 excerpt: 'If you’re a frequent investor, you’re probably always on the lookout for
   a startup, concept or venture with potential. If so, you’ve come to the right place:
   read on for some tips on where and what to do with that money.'
@@ -16,7 +16,7 @@ excerpt: 'If you’re a frequent investor, you’re probably always on the looko
 ---
 If you’re a frequent investor, you’re probably always on the lookout for a startup, concept or venture with potential. Perhaps you’re currently in the position of having received or allocated a sizable amount of cash to invest and you want to know exactly how to make the most out of that investment.
 
-![](/uploads/2019/08/22/makethemostofyourinvestmentblogbodyimage.jpg)
+![](/uploads/2019/08/22/lightbulbcottoncandyblogbodyimage.jpg)
 
 If so, you’ve come to the right place: read on for some tips on where and what to do with that money.
 
