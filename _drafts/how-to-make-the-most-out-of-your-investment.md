@@ -18,7 +18,7 @@ If you’re a frequent investor, you’re probably always on the lookout for a s
 
 ![](/uploads/2019/08/22/lightbulbcottoncandyblogbodyimage.jpg)
 
-If so, you’ve come to the right place: read on for some tips on where and what to do with that money.
+You’ve come to the right place: read on for some tips on where and what to do with that money.
 
 ### Diversify
 
