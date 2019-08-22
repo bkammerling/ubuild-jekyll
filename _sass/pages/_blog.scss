@@ -2,7 +2,21 @@
   .video-banner .video-banner__inner-content {
       min-height: 0;
   }
+
+  main {
+    padding-top: 6.25rem;
+  }
+
 }
+
+.posts {
+
+  main {
+    padding-top: 6.25rem;
+  }
+
+}
+
 
 .block-blog-list {
     margin: 6rem 0;
@@ -162,7 +176,10 @@ h4.card-title {
 
 #simple-article {
   h1 {
-    font-size: rem(44px);
+    font-size: rem(32px);
+    @include rwd(tablet-up) {
+      font-size: rem(44px);
+    }
   }
   footer {
     margin-top: 4rem;
