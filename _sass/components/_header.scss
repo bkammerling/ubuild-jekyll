@@ -215,10 +215,11 @@
         }
       }
       &:not(.dropdown-toggle) {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
       }
     }
     .menu-item-cta {
+      display: none;
       body & {
         &:after {
           left: -18px;
@@ -240,7 +241,7 @@
     a {
       text-transform: uppercase;
       font-size: 12px;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
     }
     @include rwd(tablet-up) {
       box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3);
@@ -253,12 +254,15 @@ span.dropdown-maintitle {
   display: block;
   font-weight: 600;
   line-height: 1;
-  margin-top: 8px;
   letter-spacing: 0.5px;
+  @include rwd(tablet-up) {
+    margin-top: 8px;
+  }
 }
 
 span.dropdown-subtitle {
   text-transform: none;
+
 }
 
 .header a.btn {
@@ -578,4 +582,8 @@ span.dropdown-subtitle {
       max-width: 100%;
   }
 
+}
+
+body.mobmenu-active {
+  overflow: hidden;
 }

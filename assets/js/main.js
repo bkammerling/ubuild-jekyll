@@ -135,6 +135,7 @@ var menu = {
     target.on("click", function() {
       menu.toggleClass("active");
       target.toggleClass("is-active");
+      $('body').toggleClass('mobmenu-active');
     });
   },
 
