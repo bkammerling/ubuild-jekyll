@@ -7,7 +7,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/rent.md
 title: How Car Dealers Can Increase Their Revenue By Going Digital
-publish_date: 2019-08-21 09:00:00 +0000
+publish_date: 2019-08-15 09:00:00 +0000
 featured_image: "/uploads/2019/08/23/carrentalarticlelist.jpg"
 excerpt: 'Do you run a car dealership and own a loaner fleet of courtesy cars? Ever
   wonder about how going digital can effect your company''s revenue in a positive,
