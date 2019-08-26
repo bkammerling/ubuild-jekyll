@@ -20,7 +20,9 @@ We see how technology is increasingly contributing to the development of mobilit
 
 Mobility enables the movement of people and goods. It is fundamental to any city. But increased mobility has its cons: traffic congestion, air pollution, etc. The gravity of these issues will escalate over time as the share of the urban population in the world will rise to 70% by 2050.
 
-![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)Source: [“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities), Aptive.com
+![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)
+
+_Source:_ [_“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”_](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities)_, Aptive.com_
 
 Mobility experts, therefore, predict dramatic consequences:
 
