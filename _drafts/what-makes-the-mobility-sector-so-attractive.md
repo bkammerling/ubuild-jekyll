@@ -57,7 +57,7 @@ There are some challenges in the mobility industry that still need solutions:
 * The rapid spread of data exchange networks between cars. These days, some new models are equipped with data transfer technologies (like [V2V](https://en.wikipedia.org/wiki/Vehicular_ad-hoc_network)) that help the car accurately determine the location of all the other cars in the traffic streams.
 * User preferences change. More and more often, people prefer to rent a vehicle than to buy it.
 
-To sum up, Smart Mobility is not only making life easier but it also opens wider economic, environmental and social perspectives. Smart mobility is a big stake that startups can get to grips with to offer innovative solutions.
+To sum up, smart mobility is not only making life easier but it also opens wider economic, environmental and social perspectives. Smart mobility is a big stake that startups can get to grips with to offer innovative solutions.
 
 Mobility entrepreneurs can receive funding for their projects thanks to the [**IMPACT Connected Car**](https://www.impact-accelerator.com/connected-car/) European initiative.
 
