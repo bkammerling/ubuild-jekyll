@@ -21,11 +21,11 @@ If you’re a CEO of a startup or you’re involved in strategy and planning for
 
 Often, the joy that comes with receiving an investment can be hampered by worrying thoughts: maybe you’re left hoping that you don’t spend all that investment money on the wrong things, or you’re concerned that you’ll blow through it too fast. If you’re in this predicament right now, don’t worry - we’ve been there before. Below are some suggestions on how to make the most of your investment money.
 
-Step 1: Don’t Panic
+### Step 1: Don’t Panic
 
 Now that your company has received this investment, how do you ensure it’s being spent wisely? The very first step is also the most important: don’t panic. Yes, really! It’s interesting sometimes to see how a large chunk of money, which is supposed to open doors and be a gateway to new possibilities, can lead to stress, confusion and even a total breakdown of what was once a cohesive, long-term growth strategy within a company. At this exciting moment in the startup timeline, it’s absolutely crucial for you to stick to the strategic plan that was set in place beforehand.
 
-Step 2: Stick to the Basics
+### Step 2: Stick to the Basics
 
 What does that mean in more concrete terms? **Don’t** be too quick to increase your own salary or those of other C-levels within the company. **Don’t** move to a bigger, stylish office building unless it’s a part of your brand positioning strategy or due to capacity issues. If your existing products still have room for improvement, **don’t** spend money on any high-tech, conceptual “nice-to-haves” like that new product idea you always wanted to test out someday.
 
@@ -33,7 +33,7 @@ What does that mean in more concrete terms? **Don’t** be too quick to increase
 
 Although it may seem a bit counterintuitive, don’t go the other way and try to cut corners, either, because you definitely won’t maximize your investment to its full potential. Which brings us to our next point:
 
-Step 3: Don’t Assume You Can Do It All (Outsource!)
+### Step 3: Don’t Assume You Can Do It All (Outsource!)
 
 Accept that your business can’t do everything by itself. In other words, don’t assume that now that you’ve received funding, you’ll be able to manage everything without some serious delegation. It’s a classic rookie mistake: a company receives X amount of funding, the company decides to stretch out the funds as much as possible by stretching valuable resources (like employee time and energy) to its very limit, the company ends up in ruins because c-levels didn’t know how or what they should have been delegating.
 
