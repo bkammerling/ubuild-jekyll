@@ -33,7 +33,7 @@ What does that mean in more concrete terms? **Don’t** be too quick to increase
 
 Although it may seem a bit counterintuitive, don’t go the other way and try to cut corners, either, because you definitely won’t maximize your investment to its full potential. Which brings us to our next point:
 
-### Step 3: Don’t Assume You Can Do It All (Outsource!)
+### Step 3: Don’t Assume You Can Do It All Yourself
 
 Accept that your business can’t do everything by itself. In other words, don’t assume that now that you’ve received funding, you’ll be able to manage everything without some serious delegation. It’s a classic rookie mistake: a company receives X amount of funding, the company decides to stretch out the funds as much as possible by stretching valuable resources (like employee time and energy) to its very limit, the company ends up in ruins because c-levels didn’t know how or what they should have been delegating.
 
