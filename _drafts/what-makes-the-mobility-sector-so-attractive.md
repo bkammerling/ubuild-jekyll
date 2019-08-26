@@ -41,16 +41,16 @@ Autonomous vehicles are actively tested in the United States. For example, in La
 
 That is why progressive cities plan to increase the use of connected technologies and technologies of self-driving cars, updating the road infrastructure, including vehicle-to-infrastructure technologies (data exchange between cars and other objects of transport infrastructure), smart traffic lights, etc. Over the next decade, urban population growth will increase sharply, so it is important now to develop innovative solutions and implement them to ensure road safety.
 
-What can we change? Opportunities in the Mobility sector
+### What can we change? Opportunities in the mobility sector
 
-There are some challenges in the Mobility industry that still need solutions:
+There are some challenges in the mobility industry that still need solutions:
 
-* **Rapid Urbanisation. Cities get overcrowded and a result, close towns convert themselves in a vast suburban territory. But on the other hand, this is an opportunity to provide mobility solutions that will be smart, cost-effective, scalable and efficient.**
-* **Cybersecurity. We live in a cybercriminal era in which data has become a coveted resource. As we are moving to cloud-based solutions, the need for scalable security solutions is more pressing than ever.**
-* **Climate change. We can reduce carbon emissions by developing a connected, electric-powered and shared mobility system for the automotive industry.**
-* **Industry 4.0. Smart factories, IoT, automation. These sectors are essential aspects of future business models. By harnessing Big Data, you can optimize production processes, reduce downtime and offer** [**XaaS**](https://searchcloudcomputing.techtarget.com/definition/XaaS-anything-as-a-service) **services for your clients.**
+* Rapid Urbanisation. Cities get overcrowded and a result, close towns convert themselves in a vast suburban territory. But on the other hand, this is an opportunity to provide mobility solutions that will be smart, cost-effective, scalable and efficient.
+* Cybersecurity. We live in a cybercriminal era in which data has become a coveted resource. As we are moving to cloud-based solutions, the need for scalable security solutions is more pressing than ever.
+* Climate change. We can reduce carbon emissions by developing a connected, electric-powered and shared mobility system for the automotive industry.
+* Industry 4.0. Smart factories, IoT, automation. These sectors are essential aspects of future business models. By harnessing Big Data, you can optimize production processes, reduce downtime and offer [XaaS ](https://searchcloudcomputing.techtarget.com/definition/XaaS-anything-as-a-service)services for your clients.
 
-**Automotive trends that define new directions for the mobility sector:**
+### Automotive trends that define new directions for the mobility sector:
 
 * Driverless revolution. Autonomous driving technologies have already become a reality and the question is only when, how they will become more affordable and acceptable in the current legislation.
 * Transmission system improvement. Electric engine-powered vehicles and fuel cells demonstrate higher energy efficiency and lower gas emissions.
