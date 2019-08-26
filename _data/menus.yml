@@ -56,14 +56,14 @@ wunder-main:
   weight: 2
   identifier: startup-stage
   title: Startup Stage
-  subtitle: Good things happen to those who pitch.
+  subtitle: Good things happen to those who pitch
   parent: events
 - url: "/mobility-sessions/"
   weight: 3
   identifier: mobility-sessions
   title: Mobility Sessions
   parent: events
-  subtitle: Regular meetups focused on the future of mobility.
+  subtitle: Regular meetups focused on the future of mobility
 - url: "/blog/"
   weight: 4
   identifier: blog
