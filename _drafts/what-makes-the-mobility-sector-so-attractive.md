@@ -20,8 +20,7 @@ We see how technology is increasingly contributing to the development of mobilit
 
 Mobility enables the movement of people and goods. It is fundamental to any city. But increased mobility has its cons: traffic congestion, air pollution, etc. The gravity of these issues will escalate over time as the share of the urban population in the world will rise to 70% by 2050.
 
-![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)
-Source: [“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities), Aptive.com
+![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)Source: [“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities), Aptive.com
 
 Mobility experts, therefore, predict dramatic consequences:
 
@@ -31,7 +30,6 @@ Mobility experts, therefore, predict dramatic consequences:
 
 \- The quantity of car-related emissions of harmful substances thrown out into the atmosphere will be multiplied by 5.
 
-  
 However, autonomous transport technologies will also allow at the same time to reduce the number of cars on the roads of megacities by 30%, and the need for parking spaces, which is on the rise, will fall by 40%.
 
 Autonomous vehicles are actively tested in the United States. For example, in Las Vegas, a fleet of 30 autonomous vehicles in cooperation with [Lyft](https://www.lyft.com/) provides an on-demand car service just like taxis. Self-driving cars will also have a significant impact on road safety. The number of accidents due to the use of unmanned vehicles will be reduced by 87%.
@@ -61,5 +59,4 @@ To sum up, Smart Mobility is not only making life easier but it also opens wider
 
 Mobility entrepreneurs can receive funding for their projects thanks to the [**IMPACT Connected Car**](https://www.impact-accelerator.com/connected-car/) European initiative.
 
-  
 The initiative also includes an [**ICCar Online Community**](https://spaces.fundingbox.com/c/impactconnectedcar) where you can easily get in touch mobility startups and experts and know more about topics such as connected and self-driving cars as well as electric vehicles.
