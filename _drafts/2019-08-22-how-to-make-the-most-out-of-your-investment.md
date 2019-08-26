@@ -8,15 +8,13 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/fleet.md
 title: How to Make the Most Out of Your Investment
 publish_date: 2019-08-16T10:00:00.000+00:00
-featured_image: "/uploads/2019/08/22/lightbulbcottoncandybloglistimage.jpeg"
+featured_image: ''
 excerpt: 'If you’re a frequent investor, you’re probably always on the lookout for
   a startup, concept or venture with potential. If so, you’ve come to the right place:
   read on for some tips on where and what to do with that money.'
 
 ---
 If you’re a frequent investor, you’re probably always on the lookout for a startup, concept or venture with potential. Perhaps you’re currently in the position of having received or allocated a sizable amount of cash to invest and you want to know exactly how to make the most out of that investment.
-
-![](/uploads/2019/08/22/lightbulbcottoncandyblogbodyimage.jpg)
 
 You’ve come to the right place: read on for some tips on where and what to do with that money.
 
@@ -32,7 +30,7 @@ There are two routes you can take when investing in a business: the first would 
 
 > There’s no shame in admitting you have something to learn from the best.
 
-The other route you can take requires a little more digging and searching. One excellent option is to attend a pitch event. It can be very inspiring watching entrepreneurs talk about what they’re most passionate about. Just make sure you always invest your funds based on ideas that seem credible to you, rather than basing your decision off the charisma or marketability of the entrepreneur doing the pitching. 
+The other route you can take requires a little more digging and searching. One excellent option is to attend a pitch event. It can be very inspiring watching entrepreneurs talk about what they’re most passionate about. Just make sure you always invest your funds based on ideas that seem credible to you, rather than basing your decision off the charisma or marketability of the entrepreneur doing the pitching.
 
 If you’d like to take an even more hands-off approach, we recommend investing through a venture investment platform, or even finding a syndicate to join so you can co-invest or be a backer to leaders who have far more capital and knowledge than you do. There’s no shame in admitting you have something to learn from the best - which brings us to our next tip:
 
