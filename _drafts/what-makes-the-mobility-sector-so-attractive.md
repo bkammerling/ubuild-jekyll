@@ -44,21 +44,21 @@ That is why progressive cities plan to increase the use of connected technologie
 
 There are some challenges in the mobility industry that still need solutions:
 
-* Rapid Urbanisation. Cities get overcrowded and a result, close towns convert themselves in a vast suburban territory. But on the other hand, this is an opportunity to provide mobility solutions that will be smart, cost-effective, scalable and efficient.
-* Cybersecurity. We live in a cybercriminal era in which data has become a coveted resource. As we are moving to cloud-based solutions, the need for scalable security solutions is more pressing than ever.
-* Climate change. We can reduce carbon emissions by developing a connected, electric-powered and shared mobility system for the automotive industry.
-* Industry 4.0. Smart factories, IoT, automation. These sectors are essential aspects of future business models. By harnessing Big Data, you can optimize production processes, reduce downtime and offer [XaaS ](https://searchcloudcomputing.techtarget.com/definition/XaaS-anything-as-a-service)services for your clients.
+* **Rapid Urbanisation.** Cities get overcrowded and a result, close towns convert themselves in a vast suburban territory. But on the other hand, this is an opportunity to provide mobility solutions that will be smart, cost-effective, scalable and efficient.
+* **Cybersecurity.** We live in a cybercriminal era in which data has become a coveted resource. As we are moving to cloud-based solutions, the need for scalable security solutions is more pressing than ever.
+* **Climate change.** We can reduce carbon emissions by developing a connected, electric-powered and shared mobility system for the automotive industry.
+* **Industry 4.0.** Smart factories, IoT, automation. These sectors are essential aspects of future business models. By harnessing Big Data, you can optimize production processes, reduce downtime and offer [XaaS ](https://searchcloudcomputing.techtarget.com/definition/XaaS-anything-as-a-service)services for your clients.
 
 ### Automotive trends that define new directions for the mobility sector:
 
-* Driverless revolution. Autonomous driving technologies have already become a reality and the question is only when, how they will become more affordable and acceptable in the current legislation.
-* Transmission system improvement. Electric engine-powered vehicles and fuel cells demonstrate higher energy efficiency and lower gas emissions.
-* Use of light materials in the production. More sustainable and lighter materials can reduce the average vehicle mass without affecting the safety of the passengers.
-* The rapid spread of data exchange networks between cars. These days, some new models are equipped with data transfer technologies (like [V2V](https://en.wikipedia.org/wiki/Vehicular_ad-hoc_network)) that help the car accurately determine the location of all the other cars in the traffic streams.
-* User preferences change. More and more often, people prefer to rent a vehicle than to buy it.
+* **Driverless revolution.** Autonomous driving technologies have already become a reality and the question is only when, how they will become more affordable and acceptable in the current legislation.
+* **Transmission system improvement.** Electric engine-powered vehicles and fuel cells demonstrate higher energy efficiency and lower gas emissions.
+* **Use of light materials in the production.** More sustainable and lighter materials can reduce the average vehicle mass without affecting the safety of the passengers.
+* **The rapid spread of data exchange networks between cars.** These days, some new models are equipped with data transfer technologies (like [V2V](https://en.wikipedia.org/wiki/Vehicular_ad-hoc_network)) that help the car accurately determine the location of all the other cars in the traffic streams.
+* **User preferences change.** More and more often, people prefer to rent a vehicle than to buy it.
 
-To sum up, smart mobility is not only making life easier but it also opens wider economic, environmental and social perspectives. Smart mobility is a big stake that startups can get to grips with to offer innovative solutions.
+To sum up, smart mobility is not only making life easier, but it also opens wider economic, environmental and social perspectives. Smart mobility is a big stake that startups can get to grips with to offer innovative solutions.
 
 Mobility entrepreneurs can receive funding for their projects thanks to the [**IMPACT Connected Car**](https://www.impact-accelerator.com/connected-car/) European initiative.
 
-The initiative also includes an [**ICCar Online Community**](https://spaces.fundingbox.com/c/impactconnectedcar) where you can easily get in touch mobility startups and experts and know more about topics such as connected and self-driving cars as well as electric vehicles.
+The initiative also includes an [**ICCar Online Community**](https://spaces.fundingbox.com/c/impactconnectedcar) where you can easily get in touch with mobility startups and experts to know more about topics such as connected and self-driving cars as well as electric vehicles.
