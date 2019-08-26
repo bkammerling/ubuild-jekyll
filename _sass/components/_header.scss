@@ -282,6 +282,9 @@ span.dropdown-subtitle {
 .header__nav-item {
   //margin-left: rem(20px);
   position: relative;
+  @include rwd(tablet-up) {
+    margin-left: rem(20px);
+  }
   @include rwd(desktop-up) {
     margin-left: rem(40px);
   }

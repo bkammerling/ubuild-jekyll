@@ -361,7 +361,7 @@ a.circle-arrow {
       text-align: left;
     }
   }
-  @include rwd(tablet-down) {
+  @include rwd(mobile-down) {
     .col {
       min-width: 90px;
       &.len-5 {

@@ -140,6 +140,10 @@ wunder-de:
   title: Presse
 
 career:
+- identifier: workingatwunder
+  url: "/careers/"
+  weight: 5
+  title: Working at Wunder
 - identifier: jobs
   url: "/careers/jobs"
   title: Jobs
@@ -240,19 +244,24 @@ footer:
   col: 2
   weight: 3
   items:
+  - identifier: workingatwunder
+    url: "/careers/"
+    weight: 1
+    title: Working at Wunder
+    parent: footercareers
   - identifier: jobs
     url: "/careers/jobs"
-    weight: 1
+    weight: 2
     title: Jobs
     parent: footercareers
   - identifier: culture
     url: "/careers/culture"
-    weight: 2
+    weight: 3
     title: Culture
     parent: footercareers
   - identifier: locations
     url: "/careers/locations"
-    weight: 3
+    weight: 4
     title: Locations
     parent: footercareers
   - identifier: perks
