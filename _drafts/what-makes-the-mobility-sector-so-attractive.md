@@ -15,9 +15,9 @@ excerpt: Mobility is one of the key factors that makes a city comfortable to liv
   information exchange as well as the way mobility integrates itself into smart cities.
 
 ---
-Mobility is one of the key factors that makes a city comfortable to live in and attractive to visit. This sector has been constantly changing thanks to new technologies that  - if used the right way - can help to contribute to improving information exchange as well as the way mobility integrates itself into smart cities. 
+Mobility is one of the key factors that makes a city comfortable to live in and attractive to visit. This sector has been constantly changing thanks to new technologies that  - if used the right way - can help to contribute to improving information exchange as well as the way mobility integrates itself into smart cities.
 
-![](/uploads/2019/08/27/lilyblogpostbodyimage.jpg)
+![Dashboard of a futuristic car](/uploads/2019/08/27/lilyblogpostbodyimage.jpg)
 
 As a result, this new paradigm generates many interesting opportunities for startups.
 
