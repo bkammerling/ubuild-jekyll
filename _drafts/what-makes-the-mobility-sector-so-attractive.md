@@ -1,21 +1,25 @@
 ---
 layout: simple-article
 category: Insights
-author: []
+author: _people/LiliyaPislarGuestWriter.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: []
 title: What Makes the Mobility Sector so Attractive?
 publish_date: 2019-08-26 20:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/08/27/lilyblogpostlistimage.jpeg"
 excerpt: Mobility is one of the key factors that makes a city comfortable to live
   in and attractive to visit. This sector has been constantly changing thanks to new
   technologies that  - if used the right way - can help to contribute to improving
   information exchange as well as the way mobility integrates itself into smart cities.
 
 ---
-Mobility is one of the key factors that makes a city comfortable to live in and attractive to visit. This sector has been constantly changing thanks to new technologies that  - if used the right way - can help to contribute to improving information exchange as well as the way mobility integrates itself into smart cities. As a result, this new paradigm generates many interesting opportunities for startups.
+Mobility is one of the key factors that makes a city comfortable to live in and attractive to visit. This sector has been constantly changing thanks to new technologies that  - if used the right way - can help to contribute to improving information exchange as well as the way mobility integrates itself into smart cities. 
+
+![](/uploads/2019/08/27/lilyblogpostbodyimage.jpg)
+
+As a result, this new paradigm generates many interesting opportunities for startups.
 
 We see how technology is increasingly contributing to the development of mobility in the real and virtual world. The advanced functionalities of machine vision and image processing on mobile devices keep on improving virtual interaction and connections. Nevertheless, we need to first be aware of what kind of challenges the industry is facing.
 
