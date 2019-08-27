@@ -60,7 +60,7 @@ There are some challenges in the mobility industry that still need solutions:
 
 * **Driverless revolution.** Autonomous driving technologies have already become a reality and the question is only when and how they will become more affordable and acceptable in the current legislation.
 * **Transmission system improvement.** Electric engine-powered vehicles and fuel cells demonstrate higher energy efficiency and lower gas emissions.
-* **Use of light materials in the production.** More sustainable and lighter materials can reduce the average vehicle mass without affecting the safety of the passengers.
+* **Use of light materials in production.** More sustainable and lighter materials can reduce the average vehicle mass without affecting the safety of the passengers.
 * **The rapid spread of data exchange networks between cars.** These days, some new models are equipped with data transfer technologies (like [V2V](https://en.wikipedia.org/wiki/Vehicular_ad-hoc_network)) that help the car accurately determine the location of all the other cars in the traffic streams.
 * **User preferences change.** More and more often, people prefer to rent a vehicle than to buy it.
 
