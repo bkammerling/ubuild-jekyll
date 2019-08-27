@@ -288,13 +288,14 @@ ion-icon {
     pointer-events: auto;
   }
 
-  img + em {
+  img ~ em, img ~ a {
     margin-bottom: rem(25px);
     margin-top: rem(10px);
-    display: block;
+    display: contents;
     font-size: 80%;
     color: $grey2;
     text-align: center;
+    line-height: 1;
   }
   img + p, .plyr + p {
     margin-top: rem(50px);

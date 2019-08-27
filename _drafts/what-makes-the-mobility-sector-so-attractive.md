@@ -5,9 +5,9 @@ author: _people/LiliyaPislarGuestWriter.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: pages/home.md
+cta_link: pages/de/home.md
 title: What Makes the Mobility Sector so Attractive?
-publish_date: 2019-08-26T20:00:00.000+00:00
+publish_date: 2019-08-26 20:00:00 +0000
 featured_image: "/uploads/2019/08/27/lilyblogpostlistimage.jpeg"
 excerpt: Mobility is one of the key factors that makes a city comfortable to live
   in and attractive to visit. This sector has been constantly changing thanks to new
@@ -27,7 +27,8 @@ We see how technology is increasingly contributing to the development of mobilit
 
 Mobility enables the movement of people and goods. It is fundamental to any city. But increased mobility has its cons: traffic congestion, air pollution, etc. The gravity of these issues will escalate over time as the share of the urban population in the world will rise to 70% by 2050.
 
-![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)_Source:_ [_“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”_](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities)_, Aptive.com_
+![](/uploads/2019/08/26/LilysBlogPostImage1.jpg)
+_Source:_ [_“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”_](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities)_, Aptive.com_
 
 Mobility experts, therefore, predict dramatic consequences:
 
@@ -41,7 +42,8 @@ However, autonomous transport technologies will also allow at the same time to r
 
 Autonomous vehicles are actively tested in the United States. For example, in Las Vegas, a fleet of 30 autonomous vehicles in cooperation with [Lyft](https://www.lyft.com/) provides an on-demand car service just like taxis. Self-driving cars will also have a significant impact on road safety. The number of accidents due to the use of unmanned vehicles will be reduced by 87%.
 
-![](/uploads/2019/08/26/LilysBlogPostImage2.jpg)Source: [“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities), Aptive.com
+![](/uploads/2019/08/26/LilysBlogPostImage2.jpg)
+_Source:_ [_“MOBILITY NOW: How Autonomous Vehicles Can Help Pave the Way for Smarter Cities”_](https://www.aptiv.com/media/article/mobility-now-how-autonomous-vehicles-can-help-pave-the-way-for-smarter-cities)_, Aptive.com_
 
 That is why progressive cities plan to increase the use of connected technologies and technologies of self-driving cars, updating the road infrastructure, including vehicle-to-infrastructure technologies (data exchange between cars and other objects of transport infrastructure), smart traffic lights, etc. Over the next decade, urban population growth will increase sharply, so it is important now to develop innovative solutions and implement them to ensure road safety.
 
