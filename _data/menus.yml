@@ -64,14 +64,26 @@ wunder-main:
   title: Mobility Sessions
   parent: events
   subtitle: Regular meetups focused on the future of mobility
+- url: "#"
+  weight: 3
+  title: Company
+  identifier: company
+  sub: true
 - url: "/blog/"
-  weight: 4
+  weight: 1
   identifier: blog
   title: Blog
+  parent: company
+- url: "/careers/"
+  weight: 2
+  identifier: careers
+  title: Careers
+  parent: company
 - url: "/press"
-  weight: 5
+  weight: 3
   identifier: press
   title: Press
+  parent: company
 
 
 wunder-de:
@@ -130,14 +142,26 @@ wunder-de:
   identifier: summit
   title: Mobility Summit | EN
   parent: events
-- url: "/careers/"
+- url: "#"
   weight: 3
+  identifier: firma
+  title: Unternehmen
+  sub: true
+- url: "/careers/"
+  weight: 1
   identifier: careers
   title: Jobs | EN
+  parent: firma
+- url: "/blog/"
+  weight: 2
+  identifier: blog
+  title: Blog | EN
+  parent: firma
 - url: "/de/presse"
-  weight: 4
+  weight: 3
   identifier: press
   title: Presse
+  parent: firma
 
 career:
 - identifier: workingatwunder
