@@ -5,7 +5,7 @@ author: _people/LiliyaPislarGuestWriter.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: pages/de/home.md
+cta_link: pages/home.md
 title: What Makes the Mobility Sector so Attractive?
 publish_date: 2019-08-26T20:00:00.000+00:00
 featured_image: "/uploads/2019/08/27/lilyblogpostlistimage.jpeg"
