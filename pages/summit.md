@@ -40,11 +40,11 @@ page_sections:
               <div class="row">
                 <div class="col-2">
                   <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action" href="#section-summit-intro">Intro</a>
-                    <a class="list-group-item list-group-item-action" href="#section-speakers">Speakers</a>
-                    <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a>
-                    <a class="list-group-item list-group-item-action" href="#section-supporters">Partnerships</a>
-                    <a class="list-group-item list-group-item-action" href="#section-energetic">WMS18</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-summit-intro">Intro</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Speakers</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-agenda">Agenda</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-supporters">Partnerships</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-energetic">WMS18</a>
                   </div>
                 </div>
               </div>

@@ -29,11 +29,28 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |-
-    <main> <div class="container"> <div class="abs">
-    <nav id="scroller-nav" class="list-group d-none d-lg-block"> <div class="container"> <div class="row"> <div class="col-2"> <div class="scroller-list"> <a class="list-group-item list-group-item-action" href="#section-wms18">Intro</a> <a class="list-group-item list-group-item-action" href="#main-video">Aftermovie</a> <a class="list-group-item list-group-item-action" href="#section-agenda">Agenda</a> <a class="list-group-item list-group-item-action" href="#section-gallery">Gallery</a> <a class="list-group-item list-group-item-action" href="#section-press">Press</a> </div> </div> </div> </div> </nav>
-    </div> </div>
-    <div class="summit-main-wrapper">
+  content: |
+    <main>
+      <div class="container">
+          <div class="abs">
+              <nav id="scroller-nav" class="list-group d-none d-lg-block">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-2">
+                            <div class="scroller-list">
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-wms18">Intro</a>
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#main-video">Aftermovie</a>
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-agenda">Agenda</a>
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-gallery">Gallery</a>
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-press">Press</a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+      <div class="summit-main-wrapper">
 - template: custom-content
   block: custom-html
   content: |-

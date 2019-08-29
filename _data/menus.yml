@@ -74,16 +74,19 @@ wunder-main:
   identifier: blog
   title: Blog
   parent: company
+  subtitle: Exploring the future of urban mobility
 - url: "/careers/"
   weight: 2
   identifier: careers
   title: Careers
   parent: company
+  subtitle: Wanna join the ride?
 - url: "/press"
   weight: 3
   identifier: press
   title: Press
   parent: company
+  subtitle: Yeh, we're being talked about!
 
 
 wunder-de:

@@ -30,17 +30,29 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
-    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
-    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
-    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-startupintro\">Intro</a>\n                <a class=\"list-group-item
-    list-group-item-action\" href=\"#section-speakers\">Jury</a>\n                <a
-    class=\"list-group-item list-group-item-action\" href=\"#section-howto\">How it
-    works</a>\n                <a class=\"list-group-item list-group-item-action\"
-    href=\"#section-faq\">FAQ</a>                    \n              </div>\n            </div>\n
-    \         </div>\n        </div>\n      </nav>\n\n    </div>\n  </div>\n\n  <div
-    class=\"summit-main-wrapper\">"
+  content: |
+    <main>
+      <div class="container">
+        <div class="abs">
+
+          <nav id="scroller-nav" class="list-group d-none d-lg-block">
+            <div class="container">
+              <div class="row">
+                <div class="col-2">
+                  <div class="scroller-list">
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-startupintro">Intro</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Jury</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-howto">How it works</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-faq">FAQ</a>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+      <div class="summit-main-wrapper">
 - template: block-from-right
   block: wide-from-right
   col_1:
