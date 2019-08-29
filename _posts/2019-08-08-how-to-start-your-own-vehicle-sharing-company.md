@@ -5,7 +5,7 @@ author: _people/Jan_kluetsch_profile.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: pages/de/home.md
+cta_link: pages/home.md
 title: How To Start Your Own Vehicle Sharing Company [Video]
 publish_date: 2019-08-07T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/08/how to still 02.png"
@@ -16,4 +16,4 @@ Ever wonder how to start your own vehicle sharing company? Our video breaks it d
 
 {% include block-video-2.html vimeo-id="352512365" %}
 
-If you're thinking of starting your own business soon, feel free to get in touch and ask me any questions you might have by clicking the contact button below. 
+If you're thinking of starting your own business soon, feel free to get in touch and ask me any questions you might have by clicking the contact button below.
