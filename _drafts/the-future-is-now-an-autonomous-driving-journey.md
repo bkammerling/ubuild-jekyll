@@ -24,6 +24,8 @@ _Futurama_ tickled the fancy of a generation of Americans who were still recover
 
 Here we are, almost exactly 80 years later - or 60 years after GM’s vision of the future was supposed to come to fruition - and our highways are unfortunately not evenly lit by continuous tubing, nor are all sidewalks in cities suspended above extra-wide lanes of cars below, as was also hinted at hopefully in _Futurama_. However, the strides that have been made in infrastructure, mobility and transport are so great, they would almost assuredly cause the mind of a scientist alive in 1939 to boggle.
 
+> The idea of self-driving cars is actually quite old.
+
 Modern people can look back on the predictions made in _Futurama_ and scoff at things like seven-lane highways that only go in one direction for miles and miles, entirely impractical for drivers who realize (too late!) they’re on the wrong highway. But one sentence might have caught your attention due to its parallels to a certain type of modern technology: “safe distance between cars is maintained by automatic radio control.”
 
 In fact, the exhibition included examples of radio-controlled cars that were propelled forward with magnets. ([2](https://archive.org/details/magicmotorways00geddrich/page/14)) If it surprises you that even in 1939, people were already imagining the possibility of even semi-automated driving, it shouldn’t: the idea of self-driving cars is actually quite old, just like the idea that autonomous vehicles are safer than those driven by humans.
