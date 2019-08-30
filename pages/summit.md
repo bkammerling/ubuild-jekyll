@@ -176,6 +176,11 @@ page_sections:
     company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
+  - name: Ben Volkow
+    job_title: CEO and Founder
+    company: Otonomo
+    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
+    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
