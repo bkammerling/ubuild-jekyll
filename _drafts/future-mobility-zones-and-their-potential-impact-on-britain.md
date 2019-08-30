@@ -39,9 +39,9 @@ The Minister for Transport, Jesse Norman, said that the Future Mobility Zones co
 
 Indeed, there has hardly ever been a more exciting time for mobility in Britain. Change is in the air, and an unprecedented shift in attitudes has heavily impacted the national mindset on mobility. The greater Future Mobility Zones campaign is a reflection of how innovative mobility solutions have entered public discourse and are garnering the attention of the government to a higher degree than ever before.
 
-This means that British citizens can look forward to a future in which issues like sustainable infrastructure are taken seriously. The results of the government’s efforts are already becoming tangible: as of August 15th, there are more EV charging stations than gas stations in Britain. (4) That’s a solid indicator of the direction the UK is taking.
-
 ![Bicycles parked in Oxford, England.](/uploads/2019/08/30/englandbicycles.jpg)
+
+This means that British citizens can look forward to a future in which issues like sustainable infrastructure are taken seriously. The results of the government’s efforts are already becoming tangible: as of August 15th, there are more EV charging stations than gas stations in Britain. (4) That’s a solid indicator of the direction the UK is taking.
 
 > Companies that offer shared or electric mobility types are in a particularly fortunate position.
 
