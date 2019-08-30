@@ -5,10 +5,10 @@
         <h1 class="hero-banner__title">{{ section.headline }}</h1>
         <h2 class="hero-banner__subtitle">{{ section.subheadline }}</h2>
         {% if section.cta.enabled %}
-        <a class="round-cta {% if section.cta.button_text contains 'Contact'  or section.cta_2.button_text contains 'Kontakt'%} dark gt-headercontact{% else %} clear no-arrow gt-headercta{% endif %}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="round-cta gt-headercta{% if section.cta.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
         {% if section.cta_2.enabled %}
-        <a class="round-cta {% if section.cta_2.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark gt-headercontact{% else %} clear no-arrow gt-headercta{% endif %}" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
+        <a class="round-cta gt-headercta{% if section.cta_2.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
         {% endif %}
       </div>
 
