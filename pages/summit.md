@@ -152,7 +152,7 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
     company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
   - name: Jonathan Carrier
-    job_title: P, Corporate Development
+    job_title: VP, Corporate Development
     company: AeroMobil
     speaker_photo: "/uploads/2019/08/30/Jonathan-Carrier.png"
     company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
