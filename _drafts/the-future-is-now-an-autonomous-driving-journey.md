@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: []
-title: 'The Future is Now: an Autonomous Driving Journey'
+title: 'Autonomous Cars: A Self-Driven Journey'
 publish_date: 2019-08-30 09:00:00 +0000
 featured_image: ''
 excerpt: ''
