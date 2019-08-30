@@ -126,6 +126,11 @@ page_sections:
     company: REACHNOW
     speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
     company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
+  - name: Ben Volkow
+    job_title: CEO and Founder
+    company: Otonomo
+    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
+    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
   - name: Alexander Hitzinger
     job_title: Senior Vice President Autonomous Driving
     company: VW Group
@@ -146,6 +151,11 @@ page_sections:
     company: FREE2MOVE
     speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
     company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
+  - name: Jonathan Carrier
+    job_title: P, Corporate Development
+    company: AeroMobil
+    speaker_photo: "/uploads/2019/08/30/Jonathan-Carrier.png"
+    company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
   - name: Alexander Marten
     job_title: Chief Innovation Evangelist
     company: Deutsche Telekom
@@ -176,11 +186,6 @@ page_sections:
     company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
-  - name: Ben Volkow
-    job_title: CEO and Founder
-    company: Otonomo
-    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
-    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
