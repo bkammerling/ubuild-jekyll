@@ -29,7 +29,7 @@ To properly explain future mobility zones, we have to first talk about the publi
 
 They mention nine main priorities, including ensuring all transport types are safe and accessible to everyone (and ensuring mass transit doesn’t get sidelined by private offerings), mobility data sharing when necessary and relevant, the transition to a zero-emissions system and an open marketplace in which mobility innovations receive ample funding (1).
 
-![](/uploads/2019/08/30/bikesonthestreetlondon.jpg)
+![A large group of Bikes on the streets of London.](/uploads/2019/08/30/bikesonthestreetlondon.jpg)
 
 The last point is very relevant to Future Mobility Zones, which are actual areas of Britain engaged in some sort of innovation (or promotion of innovation) that will have a positive effect on national mobility in the future. Various counties and cities are encouraged to engage in a bit of friendly competition to try and ‘win’ some of the £90M that the government has set aside for these zones. (2)
 
@@ -41,7 +41,7 @@ Indeed, there has hardly ever been a more exciting time for mobility in Britain.
 
 This means that British citizens can look forward to a future in which issues like sustainable infrastructure are taken seriously. The results of the government’s efforts are already becoming tangible: as of August 15th, there are more EV charging stations than gas stations in Britain. (4) That’s a solid indicator of the direction the UK is taking.
 
-![](/uploads/2019/08/30/englandbicycles.jpg)
+![Bicycles parked in Oxford, England.](/uploads/2019/08/30/englandbicycles.jpg)
 
 > Companies that offer shared or electric mobility types are in a particularly fortunate position.
 
