@@ -32,7 +32,7 @@ Even in the 1920s, the first “autonomous” car - which was an awkwardly shape
 
 ### Part 3: Friends, Not Foes
 
-The most famous accident involving an autonomous car happened in Tempe, Arizona, when a woman by the name of Elaine Herzberg was hit by a self-driving car being tested by Uber. The vehicle happened to have a backup “safety” driver sitting in the driver’s seat who reacted too slowly, and Elaine crossed the street illegally, meaning not at a designated crosswalk. 
+The most famous accident involving an autonomous car happened in Tempe, Arizona, when a woman by the name of Elaine Herzberg was hit by a self-driving car being tested by Uber. The vehicle happened to have a backup “safety” driver sitting in the driver’s seat who reacted too slowly, and Elaine crossed the street illegally, meaning not at a designated crosswalk.
 
 Since the incident involved two humans making mistakes - the driver behind the wheel who wasn’t paying attention, the woman crossing the street who fatally misjudged her timing - the accident ended up proving the point (albeit in a slightly convoluted way) that self-driving vehicles are safe: it’s human beings who are dangerous. To further prove that point, Uber released an in-depth safety report in 2018, which highlighted their commitment to a brighter, safer, autonomous future. (4)
 
@@ -48,4 +48,4 @@ Shared autonomous vehicles are good news for our environment: experts predict th
 
 1960 has come and gone, and some of the inventions _Futurama_ foretold, like an expressway connecting an entire nation, have existed for many years and even seem outdated in this brave new world of AI, information sharing and real-time data. Other visions, like a sea of self-driving taxis carrying four or more passengers and freeing up space on the congested freeways of Los Angeles or Manila, are still a little further off.
 
-But we’re undeniably heading in the right direction. Autonomous vehicles hold so much promise and are right on the verge of going mainstream, so it’s hard not to feel as optimistic as fairgoers in 1939 must have felt when they were presented with an innovative, wonderful future, right in front of their very eyes - so close, they could almost reach out and touch it.
+But we’re undeniably heading in the right direction. Autonomous vehicles hold so much promise and they're right on the verge of going mainstream, so it’s hard not to feel as optimistic as fairgoers in 1939 must have felt when they were presented with an innovative, wonderful future, right in front of their very eyes - so close, they could almost reach out and touch it.
