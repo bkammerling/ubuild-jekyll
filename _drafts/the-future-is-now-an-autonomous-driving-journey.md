@@ -18,7 +18,7 @@ excerpt: 'From the New York World''s Fair in 1939 to self-driven test rides in 2
 
 In 1939, the American public caught a glimpse of what their futures might hold at an attraction at the New York World’s Fair. Intriguingly titled “_Futurama”_ and sponsored by General Motors, the installation was part-amusement park ride, part-exhibition and was so popular, fairgoers lined up for hours in sweltering August heat just to take part in the 25-minute long experience.
 
-A![A scene from a metropolis in Futurama, 1939](/uploads/2019/09/02/futuramaimage1.jpg "A scene from Futurama, 1939")_A model of a future city from the Futurama exhibit, 1939_
+![A scene from a metropolis in Futurama, 1939](/uploads/2019/09/02/futuramaimage1.jpg "A scene from Futurama, 1939")_A model of a future city from the Futurama exhibit, 1939_
 
 It was an impressive exhibit: as they glided over a bird’s eye view of the “world of tomorrow”, which was set in the then-futuristic-sounding year of 1960, guests could gaze in wonder at a glorious new expressway system that would supposedly connect an entire nation from coast to coast, something completely unimaginable to most people alive in 1939. These expressways were “lighted by continuous tubing in highway safety curbing” and were places where “traffic moves at unreduced rates of speed” and a “safe distance between cars is maintained by automatic radio control.” The keynote of the motorway, as was literally said during the ride, was safety and increased speed. ([1](https://www.youtube.com/watch?v=sClZqfnWqmc))
 
