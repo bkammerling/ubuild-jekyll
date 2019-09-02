@@ -8,8 +8,10 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/home.md
 title: 'Autonomous Cars: A Self-Driven Journey'
 publish_date: 2019-08-30 09:00:00 +0000
-featured_image: ''
-excerpt: ''
+featured_image: "/uploads/2019/09/02/futuramaimage1-1.jpg"
+excerpt: 'From the New York World''s Fair in 1939 to self-driven test rides in 2019,
+  autonomous vehicles have captured the imagination of the world and symbol for over
+  80 years. '
 
 ---
 ### Part 1: Futurama and the Future as Seen Through the Eyes of a Fairgoer in 1939.
@@ -59,7 +61,5 @@ Shared autonomous vehicles are good news for our environment: experts predict th
 > We're undeniably heading in the right direction.
 
 1960 has come and gone, and some of the inventions _Futurama_ foretold, like an expressway connecting an entire nation, have existed for many years and even seem outdated in this brave new world of AI, information sharing and real-time data. Other visions, like a sea of self-driving taxis carrying four or more passengers and freeing up space on the congested freeways of Los Angeles or Manila, are still a little further off.
-
-![](/uploads/2019/09/02/freewayLA.jpg)A modern freeway outside of Los Angeles. 
 
 But we’re undeniably heading in the right direction. Autonomous vehicles hold so much promise and they're right on the verge of going mainstream, so it’s hard not to feel as optimistic as fairgoers in 1939 must have felt when they were presented with an innovative, wonderful future, right in front of their very eyes - so close, they could almost reach out and touch it.
