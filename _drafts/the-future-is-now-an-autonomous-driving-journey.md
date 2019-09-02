@@ -42,13 +42,13 @@ Even in the 1920s, the first “autonomous” car - which was an awkwardly shape
 
 The most famous accident involving an autonomous car happened in Tempe, Arizona, when a woman by the name of Elaine Herzberg was hit by a self-driving car being tested by Uber. The vehicle happened to have a backup “safety” driver sitting in the driver’s seat who reacted too slowly, and Elaine crossed the street illegally, meaning not at a designated crosswalk.
 
-> Perhaps the question we should be asking isn’t “are autonomous vehicles safe?” but rather, “can autonomous vehicles drive safely in my neighborhood, and who will have access to them?”
+> Autonomous vehicles will always be more alert drivers and have a faster reaction time than humans.
 
 Since the incident involved two humans making mistakes - the driver behind the wheel who wasn’t paying attention, the woman crossing the street who fatally misjudged her timing - the accident ended up proving the point (albeit in a slightly convoluted way) that self-driving vehicles are safe: it’s human beings who are dangerous. To further prove that point, Uber released an in-depth safety report in 2018, which highlighted their commitment to a brighter, safer, autonomous future. ([4](https://uber.app.box.com/v/UberATGSafetyReport))
 
 Theoretically, autonomous vehicles will always be more alert drivers and have a faster reaction time than humans, as they can’t get tired, drunk or distracted. But perhaps the question we should be asking isn’t “are autonomous vehicles safe?” but rather, “can autonomous vehicles drive safely in my neighborhood, and who will have access to them?”
 
-![Obama in a driving simulator](/uploads/2019/09/02/obamadrivingsimulator.jpg "A former president testing out a driving simulator.")_A former president in a driving simulator._ 
+![Obama in a driving simulator](/uploads/2019/09/02/obamadrivingsimulator.jpg "A former president testing out a driving simulator.")_A former president in a driving simulator._
 
 We’re excited about self-driving cars, but we need to realistically think about where they’ll be driving in the future and for what purposes. If we consider autonomous vehicles’ inability to fit in with human driving culture, coupled with their still-sensitive sensors that only work well in dry environments, and even the very necessary use of geofencing to create zones that autonomous cars can safely drive in without getting “off track”, the idea of self-driving cars almost entirely replacing non-autonomous vehicles still seems quite far off. ([5](https://www.wired.com/story/when-self-driving-cars-will-arrive-where/))
 
