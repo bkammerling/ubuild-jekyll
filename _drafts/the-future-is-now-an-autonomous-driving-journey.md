@@ -46,7 +46,7 @@ Since the incident involved two humans making mistakes - the driver behind the w
 
 Theoretically, autonomous vehicles will always be more alert drivers and have a faster reaction time than humans, as they can’t get tired, drunk or distracted. But perhaps the question we should be asking isn’t “are autonomous vehicles safe?” but rather, “can autonomous vehicles drive safely in my neighborhood, and who will have access to them?”
 
-![Obama in a driving simulator](/uploads/2019/09/02/obamadrivingsimulator.jpg "A former president testing out a driving simulator.")
+![Obama in a driving simulator](/uploads/2019/09/02/obamadrivingsimulator.jpg "A former president testing out a driving simulator.")A former president in a driving simulator. 
 
 We’re excited about self-driving cars, but we need to realistically think about where they’ll be driving in the future and for what purposes. If we consider autonomous vehicles’ inability to fit in with human driving culture, coupled with their still-sensitive sensors that only work well in dry environments, and even the very necessary use of geofencing to create zones that autonomous cars can safely drive in without getting “off track”, the idea of self-driving cars almost entirely replacing non-autonomous vehicles still seems quite far off. ([5](https://www.wired.com/story/when-self-driving-cars-will-arrive-where/))
 
