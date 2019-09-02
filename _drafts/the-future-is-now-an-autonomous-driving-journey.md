@@ -22,7 +22,7 @@ In 1939, the American public caught a glimpse of what their futures might hold a
 
 It was an impressive exhibit: as they glided over a bird’s eye view of the “world of tomorrow”, which was set in the then-futuristic-sounding year of 1960, guests could gaze in wonder at a glorious new expressway system that would supposedly connect an entire nation from coast to coast, something completely unimaginable to most people alive in 1939. These expressways were “lighted by continuous tubing in highway safety curbing” and were places where “traffic moves at unreduced rates of speed” and a “safe distance between cars is maintained by automatic radio control.” The keynote of the motorway, as was literally said during the ride, was safety and increased speed. ([1](https://www.youtube.com/watch?v=sClZqfnWqmc))
 
-_Futurama_ tickled the fancy of a generation of Americans who were still recovering from the Great Depression and were eager to hear good news about their immediate future. Since the exhibition was General Motors’ pet project, the exhibit predictably focused primarily on cars and “motor expressways”, both the absolute pinnacle of technological innovation in 1939.
+_Futurama_ tickled the fancy of a generation of Americans who were still recovering from the Great Depression and were eager to hear good news about their immediate future. Since the exhibition was General Motors’ pet project, it predictably focused primarily on cars and “motor expressways”, both the absolute pinnacle of technological innovation in 1939.
 
 ### Part 2: The Journey Continues, 80 Years Later
 
