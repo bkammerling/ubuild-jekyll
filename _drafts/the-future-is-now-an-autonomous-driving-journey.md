@@ -16,6 +16,8 @@ excerpt: ''
 
 In 1939, the American public caught a glimpse of what their futures might hold at an attraction at the New York World’s Fair. Intriguingly titled “_Futurama”_ and sponsored by General Motors, the installation was part-amusement park ride, part-exhibition and was so popular, fairgoers lined up for hours in sweltering August heat just to take part in the 25-minute long experience.
 
+![A scene from a metropolis in Futurama, 1939](/uploads/2019/09/02/futuramaimage1.jpg "A scene from Futurama, 1939")A model of a future city from the Futurama exhibit, 1939
+
 It was an impressive exhibit: as they glided over a bird’s eye view of the “world of tomorrow”, which was set in the then-futuristic-sounding year of 1960, guests could gaze in wonder at a glorious new expressway system that would supposedly connect an entire nation from coast to coast, something completely unimaginable to most people alive in 1939. These expressways were “lighted by continuous tubing in highway safety curbing” and were places where “traffic moves at unreduced rates of speed” and a “safe distance between cars is maintained by automatic radio control.” The keynote of the motorway, as was literally said during the ride, was safety and increased speed. ([1](https://www.youtube.com/watch?v=sClZqfnWqmc))
 
 _Futurama_ tickled the fancy of a generation of Americans who were still recovering from the Great Depression and were eager to hear good news about their immediate future. Since the exhibition was General Motors’ pet project, the exhibit predictably focused primarily on cars and “motor expressways”, both the absolute pinnacle of technological innovation in 1939.
@@ -27,6 +29,8 @@ Here we are, almost exactly 80 years later - or 60 years after GM’s vision of 
 > The idea of self-driving cars is actually quite old.
 
 Modern people can look back on the predictions made in _Futurama_ and scoff at things like seven-lane highways that only go in one direction for miles and miles, entirely impractical for drivers who realize (too late!) they’re on the wrong highway. But one sentence might have caught your attention due to its parallels to a certain type of modern technology: “safe distance between cars is maintained by automatic radio control.”
+
+![Birds eye view of Futurama, 1939](/uploads/2019/09/02/futuramaimage2.jpg "Bird's eye view of the Futurama model")A bird's eye view of the city of the future, from the Futurama exhibit, 1939
 
 In fact, the exhibition included examples of radio-controlled cars that were propelled forward with magnets. ([2](https://archive.org/details/magicmotorways00geddrich/page/14)) If it surprises you that even in 1939, people were already imagining the possibility of even semi-automated driving, it shouldn’t: the idea of self-driving cars is actually quite old, just like the idea that autonomous vehicles are safer than those driven by humans.
 
@@ -42,6 +46,8 @@ Since the incident involved two humans making mistakes - the driver behind the w
 
 Theoretically, autonomous vehicles will always be more alert drivers and have a faster reaction time than humans, as they can’t get tired, drunk or distracted. But perhaps the question we should be asking isn’t “are autonomous vehicles safe?” but rather, “can autonomous vehicles drive safely in my neighborhood, and who will have access to them?”
 
+![Obama in a driving simulator](/uploads/2019/09/02/obamadrivingsimulator.jpg "A former president testing out a driving simulator.")
+
 We’re excited about self-driving cars, but we need to realistically think about where they’ll be driving in the future and for what purposes. If we consider autonomous vehicles’ inability to fit in with human driving culture, coupled with their still-sensitive sensors that only work well in dry environments, and even the very necessary use of geofencing to create zones that autonomous cars can safely drive in without getting “off track”, the idea of self-driving cars almost entirely replacing non-autonomous vehicles still seems quite far off. ([5](https://www.wired.com/story/when-self-driving-cars-will-arrive-where/))
 
 ### Part 4: With Liberty and Autonomous Vehicles for All
@@ -53,5 +59,7 @@ Shared autonomous vehicles are good news for our environment: experts predict th
 > We're undeniably heading in the right direction.
 
 1960 has come and gone, and some of the inventions _Futurama_ foretold, like an expressway connecting an entire nation, have existed for many years and even seem outdated in this brave new world of AI, information sharing and real-time data. Other visions, like a sea of self-driving taxis carrying four or more passengers and freeing up space on the congested freeways of Los Angeles or Manila, are still a little further off.
+
+![](/uploads/2019/09/02/freewayLA.jpg)A modern freeway outside of Los Angeles. 
 
 But we’re undeniably heading in the right direction. Autonomous vehicles hold so much promise and they're right on the verge of going mainstream, so it’s hard not to feel as optimistic as fairgoers in 1939 must have felt when they were presented with an innovative, wonderful future, right in front of their very eyes - so close, they could almost reach out and touch it.
