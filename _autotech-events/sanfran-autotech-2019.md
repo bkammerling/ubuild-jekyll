@@ -71,6 +71,11 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Ahsan Baig
+    job_title: Chief Information Officer
+    company: Alameda-Contra Costa Transit
+    speaker_photo: "/uploads/2019/09/02/Ahsan-Baig.png"
+    company_logo: "/uploads/2019/09/02/AC-Transit.png"
 - template: custom-content
   block: custom-html
   name: Agenda
