@@ -14,7 +14,7 @@ excerpt: 'From the New York World''s Fair in 1939 to self-driven test rides in 2
   80 years. '
 
 ---
-### Part 1: Futurama and the Future as Seen Through the Eyes of a Fairgoer in 1939.
+### Part 1: The Future as Seen Through the Eyes of a Fairgoer in 1939
 
 In 1939, the American public caught a glimpse of what their futures might hold at an attraction at the New York World’s Fair. Intriguingly titled _Futurama_ and sponsored by General Motors, the installation was part-amusement park ride, part-exhibition and was so popular, fairgoers lined up for hours in sweltering August heat just to take part in the 25-minute long experience.
 
