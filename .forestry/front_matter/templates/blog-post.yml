@@ -30,6 +30,10 @@ fields:
       file: 
       path: 
   label: Category
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: publish_date
   type: datetime
   label: Publish Date
