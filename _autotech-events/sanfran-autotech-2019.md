@@ -36,25 +36,40 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Paul Warburton
-    job_title: Global Account Director and VP of Automotive
-    company: Fujitsu
-    speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
-    company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
-  - name: Maya Ben Dror
-    job_title: Lead of Autonomous and Urban Mobility
-    company: World Economic Forum
-    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
-    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
   - name: Amee Chande
     job_title: Chief Commercial Officer
     company: Waymo
     speaker_photo: "/uploads/2019/07/31/Amee-Chande.jpg"
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
+  - name: Steve Raney
+    job_title: Executive Director
+    company: Palo Alto Transportation Management Association
+    speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
+    company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
+  - name: Maya Ben Dror
+    job_title: Lead of Autonomous and Urban Mobility
+    company: World Economic Forum
+    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
+    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+  - name: Paul Warburton
+    job_title: Global Account Director and VP of Automotive
+    company: Fujitsu
+    speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
+    company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
+  - name: Jody Kelman
+    job_title: Director, Self-Driving Platform
+    company: Lyft
+    speaker_photo: "/uploads/2019/09/02/Jody-Kelman.png"
+    company_logo: "/uploads/2019/09/02/Lyft-logo.png"
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Ioana Freise
+    job_title: General Manager
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
 - template: custom-content
   block: custom-html
