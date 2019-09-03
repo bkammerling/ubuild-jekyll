@@ -21,7 +21,7 @@
               {% capture speaker_alt %}Photo of {{ speaker.name }}{% endcapture %}
               <img {% include resp_image.html file=speaker_photo  alt=speaker_alt %} class="card-img-top">
               <div class="card-body">
-                {% if speaker.bio != '' %}<a class="card-link info-icon" tabindex=0 role="button" data-container="body" data-offset=40 data-trigger="focus" data-toggle="popover"  data-html=true data-placement="bottom" data-content="<h6 class='card-title'>{{ speaker.name }}</h6>
+                {% if speaker.bio != '' %}<a class="card-link info-icon" tabindex=0 role="button" data-container="body" data-offset=40 data-trigger="click" data-toggle="popover"  data-html=true data-placement="bottom" data-content="<h6 class='card-title'>{{ speaker.name }}</h6>
                 <p class='card-subtitle  text-muted'>{{ speaker.job_title }} <br><span class='company'>{{ speaker.company }}</span></p>{{ speaker.bio }}"> <ion-icon name="add-circle" ></ion-icon></a>{% endif %}
                 {% if speaker.linkedin != '' %}<a class="linkedin-icon card-link" href="{{ speaker.linkedin }}" target="_blank" title="LinkedIn profile of {{ speaker.name }}"><ion-icon name="logo-linkedin"></ion-icon></a>{% endif %}
                 <h6 class="card-title">{{ speaker.name }}</h6>

@@ -877,6 +877,7 @@ $(document).ready(function() {
     fallbackPlacement: ['bottom'],
     flip: 'bottom',
   };
+  // popover used for speaker bios as of sep2019
   $('[data-toggle="popover"]').popover(options);
   $('[data-toggle="lightbox"]').click(function(event) {
       event.preventDefault();
