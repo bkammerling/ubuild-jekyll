@@ -873,7 +873,11 @@ $(document).ready(function() {
   });
 
   $('[data-toggle="tooltip"]').tooltip();
-
+  var options = {
+    fallbackPlacement: ['bottom'],
+    flip: 'bottom',
+  };
+  $('[data-toggle="popover"]').popover(options);
   $('[data-toggle="lightbox"]').click(function(event) {
       event.preventDefault();
       $(this).ekkoLightbox();

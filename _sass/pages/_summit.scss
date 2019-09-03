@@ -204,8 +204,35 @@ body[class*="summit"] .gradient-block .block-full-right {
       }
     }
     .card-body {
-      min-height: 140px
+      min-height: 140px;
+      .card-link {
+        margin: 0;
+        position: relative;
+        width: 30px;
+        display: block;
+        transform: translateY(-10px);
+        outline: none;
+      }
+      .card-link ion-icon {
+        color: $olive-matt !important;
+        position: absolute;
+        top: -30px;
+        font-size: 28px;
+        cursor: pointer;
+        background-color: $white;
+        border-radius: 50%;
+      }
+      .linkedin-icon ion-icon {
+        left: 34px;
+        border-radius: 14%;
+      }
+      .info-icon ion-icon {
+        padding: 1px;
+      }
     }
+
+
+
 
     .card-title {
       font-weight: 900;
@@ -242,6 +269,36 @@ body[class*="summit"] .gradient-block .block-full-right {
 
   }
 }
+
+.popover {
+  border-radius: 0;
+  border: none;
+  @extend .w-x-shadow;
+  .card-title {
+    font-weight: 900;
+    color: $olive-matt;
+    margin-bottom: 0;
+  }
+  p {
+    color: $olive;
+    margin-bottom: rem(20px);
+    font-size: 12px;
+  }
+  .company {
+    color: $olive-matt;
+  }
+  .popover-body {
+    padding: 1.5rem 1.75rem;
+    color: $olive-matt;
+    font-family: Averta PE;
+    white-space: pre-line;
+  }
+
+  &.bs-popover-top {
+    margin-top: -1.8rem !important;
+  }
+}
+
 
 .card.location-card {
   .card-img-top {
