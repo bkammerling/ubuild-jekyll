@@ -273,6 +273,7 @@ body[class*="summit"] .gradient-block .block-full-right {
 .popover {
   border-radius: 0;
   border: none;
+  max-width: 350px;
   @extend .w-x-shadow;
   .card-title {
     font-weight: 900;
