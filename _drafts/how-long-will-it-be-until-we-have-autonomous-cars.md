@@ -17,7 +17,11 @@ excerpt: We used to think of driverless cars as something out of a science ficti
   is waiting impatiently for them.
 
 ---
-We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. ([1](https://news.gallup.com/poll/234152/americans-expect-driverless-cars-common-next-decade.aspx)) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
+We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. 
+
+![](/uploads/2019/09/04/AutonomousDrivingElizabethBlogBody.jpg)A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. ([1](https://news.gallup.com/poll/234152/americans-expect-driverless-cars-common-next-decade.aspx)) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
+
+![](/uploads/2019/09/04/autonomouscarsgraph.png)
 
 Beyond predictions, we've seen large automotive corporations and other significant players in the world of tech working on autonomous driving technology for years. The field is generating a substantial amount of investments around the world, and auto-tech startups are attracting record levels of funding - all because the autonomous revolution is poised to make an impact on all businesses and industries.
 
