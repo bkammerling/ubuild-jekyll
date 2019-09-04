@@ -17,13 +17,13 @@ excerpt: We used to think of driverless cars as something out of a science ficti
   is waiting impatiently for them.
 
 ---
-We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. (1) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
+We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. ([1](https://news.gallup.com/poll/234152/americans-expect-driverless-cars-common-next-decade.aspx)) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
 
 Beyond predictions, we've seen large automotive corporations and other significant players in the world of tech working on autonomous driving technology for years. The field is generating a substantial amount of investments around the world, and auto-tech startups are attracting record levels of funding - all because the autonomous revolution is poised to make an impact on all businesses and industries.
 
 **Investments in Driverless Cars**
 
-Here are the top 10 transactions and improvements in autonomous driving that have occurred over the past few months:
+Here are the top 10 transactions and improvements in autonomous driving that have occurred over the past few months ([2](https://www.cbinsights.com/research/autonomous-driverless-vehicles-corporations-list/)):
 
  1. **Volkswagen** already spent +$50BN on tech, giving them the largest driverless vehicle investment portfolio of any other company.
  2. **Microsoft** is supplying Azure cloud services to companies working on self-driving cars and working with Toyota on robotics, AI, and self-driving car development.
@@ -35,8 +35,6 @@ Here are the top 10 transactions and improvements in autonomous driving that hav
  8. **GM** acquired a self-driving car startup, Cruise Automation, for $581M and invested $500M in Lyft.
  9. **Toyota** invested $500M in Uber to develop autonomous cars, which would be deployed throughout Uber's vast ride-sharing network by 2021.
 10. **Amazon** introduced Scout, an electric-powered delivery robot, and invested in Aurora Innovation, an autonomous tech startup.
-
-**Concluding Thoughts**
 
 To sum up, the automotive industry is working hard on the development of driverless technology - or in other words, robots fully capable of making their own decisions. However, we need to consider that modern infrastructure in cities is not yet well equipped for autonomous vehicles. There are plenty of potholes, unclear lane markings and those other tricky infrastructure issues we've all encountered before. Besides, self-driving cars need to be well-connected to interact with the world around them seamlessly, making safety a crucial aspect of the self-driving discussion.
 
