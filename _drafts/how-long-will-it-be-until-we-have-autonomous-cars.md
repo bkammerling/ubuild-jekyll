@@ -9,7 +9,7 @@ cta_text: The Wunder Mobility Summit brings together the brightest minds in mobi
   who share an inventor's spirit, a builder's mentality, and a desire to initiate
   change.
 cta_link: pages/summit.md
-title: How Long Until We Have Autonomous Cars?
+title: How Long Do We Have to Wait For Autonomous Cars?
 publish_date: 2019-09-05 11:00:00 +0000
 featured_image: "/uploads/2019/09/04/AutonomousDrivingElizabethBlogList.jpeg"
 excerpt: We used to think of driverless cars as something out of a science fiction
