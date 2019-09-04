@@ -17,7 +17,7 @@ excerpt: We used to think of driverless cars as something out of a science ficti
   is waiting impatiently for them.
 
 ---
-We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. 
+We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them.
 
 ![](/uploads/2019/09/04/AutonomousDrivingElizabethBlogBody.jpg)
 
@@ -27,7 +27,7 @@ A 2018 Gallup survey found that Americans expect self-driving cars to become com
 
 Beyond predictions, we've seen large automotive corporations and other significant players in the world of tech working on autonomous driving technology for years. The field is generating a substantial amount of investments around the world, and auto-tech startups are attracting record levels of funding - all because the autonomous revolution is poised to make an impact on all businesses and industries.
 
-### **Investments in Driverless Cars**
+### Investments in Driverless Cars
 
 Here are the top 10 transactions and improvements in autonomous driving that have occurred over the past few months ([2](https://www.cbinsights.com/research/autonomous-driverless-vehicles-corporations-list/)):
 
