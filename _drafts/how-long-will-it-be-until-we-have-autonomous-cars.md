@@ -3,11 +3,12 @@ layout: simple-article
 category: Insights
 tags:
 - autonomous driving
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/Elizabeth-benitez-profile.md
+cta_heading: Find Out More About the WMS
+cta_text: The Wunder Mobility Summit brings together the brightest minds in mobility,
+  who share an inventor's spirit, a builder's mentality, and a desire to initiate
+  change.
+cta_link: pages/summit.md
 title: How Long Until We Have Autonomous Cars?
 publish_date: 2019-09-05 11:00:00 +0000
 featured_image: ''
