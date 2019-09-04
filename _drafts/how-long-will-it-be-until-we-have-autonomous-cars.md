@@ -19,7 +19,9 @@ excerpt: We used to think of driverless cars as something out of a science ficti
 ---
 We used to think of driverless cars as something out of a science fiction film. In recent years, however, they've started to become a reality, and the world is waiting impatiently for them. 
 
-![](/uploads/2019/09/04/AutonomousDrivingElizabethBlogBody.jpg)A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. ([1](https://news.gallup.com/poll/234152/americans-expect-driverless-cars-common-next-decade.aspx)) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
+![](/uploads/2019/09/04/AutonomousDrivingElizabethBlogBody.jpg)
+
+A 2018 Gallup survey found that Americans expect self-driving cars to become commonplace within 10 years. ([1](https://news.gallup.com/poll/234152/americans-expect-driverless-cars-common-next-decade.aspx)) The poll asked 1,503 U.S. citizens the same question, and 34% predicted that they would become commonplace during the next 6 to 10 years. 19% of them are even more positive, assuming this will happen within 5 years. But is the general public too optimistic?
 
 ![](/uploads/2019/09/04/autonomouscarsgraph.png)
 
@@ -40,7 +42,7 @@ Here are the top 10 transactions and improvements in autonomous driving that hav
  9. **Toyota** invested $500M in Uber to develop autonomous cars, which would be deployed throughout Uber's vast ride-sharing network by 2021.
 10. **Amazon** introduced Scout, an electric-powered delivery robot, and invested in Aurora Innovation, an autonomous tech startup.
 
-To sum up, the automotive industry is working hard on the development of driverless technology - or in other words, robots fully capable of making their own decisions. However, we need to consider that modern infrastructure in cities is not yet well equipped for autonomous vehicles. There are plenty of potholes, unclear lane markings and those other tricky infrastructure issues we've all encountered before. Besides, self-driving cars need to be well-connected to interact with the world around them seamlessly, making safety a crucial aspect of the self-driving discussion.
+To sum up, the automotive industry is working hard on the development of driverless technology - or in other words, robots fully capable of making their own decisions. However, we need to consider that modern infrastructure in cities is not yet well equipped for autonomous vehicles. There are plenty of potholes, unclear lane markings and other tricky infrastructure issues we've all encountered before. Besides, self-driving cars need to be well-connected to interact with the world around them seamlessly, making safety a crucial aspect of the self-driving discussion.
 
 Keeping these considerations in mind, let's get back to our original question: when will autonomous cars become commonplace? The experts predict it will take at least a decade before autonomous cars hit the highways, but for fully self-driving vehicles, we will probably need to wait several more years.
 
