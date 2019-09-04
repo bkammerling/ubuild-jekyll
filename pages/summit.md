@@ -112,19 +112,13 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
     company_logo: "/uploads/2019/05/10/logo-hh.png"
     linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
-    bio: |-
-      Peter Tschentscher is the First Mayor of the Free and Hanseatic City of Hamburg and, from October 2018, President of the Senate.
-
-      Tschentscher has been a member of the SPD since 1989. From 2007 to 2018 he was Member of the Hamburgische Bürgerschaft; Deputy Chairman and fiscal spokesman of the SPD parliamentary group.
+    bio: ''
   - name: John Krafcik
     job_title: CEO
     company: Waymo
     speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
-    bio: |-
-      John Krafcik is the CEO of Waymo, a self-driving technology company with a mission to make it safe and easy for people and things to move around.  Under John's leadership, Google's self-driving car project became Waymo, an independent Alphabet Inc. company.
-
-      John has long experience in both the automotive and technology space, including broad operating experience in sales & marketing, product development, technology, and manufacturing. He was president and CEO of Hyundai Motor America, and the chief engineer for the Ford Expedition.
+    bio: ''
     linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
   - name: Eckart Diepenhorst
     job_title: CEO Europe
