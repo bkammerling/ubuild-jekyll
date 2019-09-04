@@ -125,7 +125,7 @@ page_sections:
       John Krafcik is the CEO of Waymo, a self-driving technology company with a mission to make it safe and easy for people and things to move around.  Under John's leadership, Google's self-driving car project became Waymo, an independent Alphabet Inc. company.
 
       John has long experience in both the automotive and technology space, including broad operating experience in sales & marketing, product development, technology, and manufacturing. He was president and CEO of Hyundai Motor America, and the chief engineer for the Ford Expedition.
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
   - name: Eckart Diepenhorst
     job_title: CEO Europe
     company: FREENOW
@@ -135,84 +135,84 @@ page_sections:
       Eckart Diepenhorst is CEO Europe of FREE NOW (formerly mytaxi). Before being appointed as mytaxi CEO in June 2018, he joined mytaxi in 2017 as Regional Manager. In this position, he was responsible for mytaxi markets in Germany, Spain, Austria, Portugal and Sweden.
 
       Previously, Diepenhorst was Director of Business Development Northern Europe and interim Managing Director at Dixons Carphone PLC. He started his professional career at The Phone House Deutschland as Marketing Manager and later Head of Marketing as well as Sales Director Shops. Diepenhorst studied Business Administration (B.A.) and Business Management (M.Sc.) at the University of Muenster, Germany.
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
   - name: Daniela Gerd tom Markotten
     job_title: CEO
     company: REACHNOW
     speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
     company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/danielagerdtommarkotten/
   - name: Ben Volkow
     job_title: CEO and Founder
     company: Otonomo
     speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
     company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/benvolkow/
   - name: Alexander Hitzinger
     job_title: Senior Vice President Autonomous Driving
     company: VW Group
     speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
     company_logo: "/uploads/2019/06/13/Volkswagen.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
   - name: Tatiana Calderon
     job_title: Test Driver
     company: Alfa Romeo Formula One
     speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
     company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/tatacalderon7/
   - name: Paulin Dementhon
     job_title: CEO
     company: Drivy by Getaround
     speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
     company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/paulin/
   - name: Michel Stumpe
     job_title: CEO
     company: FREE2MOVE
     speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
     company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/michel-stumpe-62872912/
   - name: Jonathan Carrier
     job_title: VP, Corporate Development
     company: AeroMobil
     speaker_photo: "/uploads/2019/08/30/Jonathan-Carrier.png"
     company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/jonathancarrier/
   - name: Alexander Marten
     job_title: Chief Innovation Evangelist
     company: Deutsche Telekom
     speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
     company_logo: "/uploads/2019/05/10/logo-telekom.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/alexandermarten/
   - name: Heiko Hüttel
     job_title: Head of Technology and Partner Management
     speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
     company_logo: "/uploads/2019/06/13/Volkswagen.png"
     company: Volkswagen
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/huettel/
   - company: Microsoft
     speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
     company_logo: "/uploads/global/microsoft-logo.png"
     name: Jens Beckmann
     job_title: Senior Business Development Manager
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/jensbeckmann/
   - name: Anna-Charlotte Fleischmann-Kopatsch
     job_title: Senior Consultant
     company: MHP
     speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
     company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
   - name: Horace Dediu
     job_title: Co-Founder
     company: Micromobility Industries
