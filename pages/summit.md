@@ -219,42 +219,42 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/dediu/
   - name: Jonas Seyfferth
     job_title: Principal
     company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
     speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
     company_logo: "/uploads/global/allianz-logo.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/hoffmartin/
   - name: Vikram Chopra
     job_title: CEO and Co-Founder
     company: CARS24
     speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
     company_logo: "/uploads/2019/05/10/logo-cars24.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/vikram6/
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/samuelrossbaker/
   - name: Gunnar Froh
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
