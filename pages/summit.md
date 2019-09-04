@@ -125,10 +125,7 @@ page_sections:
     company: FREENOW
     speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
     company_logo: "/uploads/global/Freenow-logo.png"
-    bio: |-
-      Eckart Diepenhorst is CEO Europe of FREE NOW (formerly mytaxi). Before being appointed as mytaxi CEO in June 2018, he joined mytaxi in 2017 as Regional Manager. In this position, he was responsible for mytaxi markets in Germany, Spain, Austria, Portugal and Sweden.
-
-      Previously, Diepenhorst was Director of Business Development Northern Europe and interim Managing Director at Dixons Carphone PLC. He started his professional career at The Phone House Deutschland as Marketing Manager and later Head of Marketing as well as Sales Director Shops. Diepenhorst studied Business Administration (B.A.) and Business Management (M.Sc.) at the University of Muenster, Germany.
+    bio: ''
     linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
   - name: Daniela Gerd tom Markotten
     job_title: CEO
