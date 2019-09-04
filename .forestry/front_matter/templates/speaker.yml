@@ -29,6 +29,7 @@ fields:
     maxSize: 250
   label: Speaker Image
 pages:
+- _people/Elizabeth-benitez-profile.md
 - _people/LiliyaPislarGuestWriter.md
 - _people/PurnimaKumar.md
 - _people/Jan_kluetsch_profile.md
