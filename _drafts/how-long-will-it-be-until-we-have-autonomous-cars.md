@@ -46,7 +46,7 @@ To sum up, the automotive industry is working hard on the development of driverl
 
 Keeping these considerations in mind, let's get back to our original question: when will autonomous cars become commonplace? The experts predict it will take at least a decade before autonomous cars hit the highways, but for fully self-driving vehicles, we will probably need to wait several more years.
 
-### How could autonomous driving shape our future?
+### How will autonomous driving shape our future?
 
 At the **Wunder Mobility Summit,** we will continue the debate with **Alexander Hitzinger**, SVP of Autonomous Driving Volkswagen Group, and **John Krafcik,** CEO of Waymo.
 
