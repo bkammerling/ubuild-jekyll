@@ -27,7 +27,7 @@ A 2018 Gallup survey found that Americans expect self-driving cars to become com
 
 Beyond predictions, we've seen large automotive corporations and other significant players in the world of tech working on autonomous driving technology for years. The field is generating a substantial amount of investments around the world, and auto-tech startups are attracting record levels of funding - all because the autonomous revolution is poised to make an impact on all businesses and industries.
 
-**Investments in Driverless Cars**
+### **Investments in Driverless Cars**
 
 Here are the top 10 transactions and improvements in autonomous driving that have occurred over the past few months ([2](https://www.cbinsights.com/research/autonomous-driverless-vehicles-corporations-list/)):
 
@@ -46,7 +46,7 @@ To sum up, the automotive industry is working hard on the development of driverl
 
 Keeping these considerations in mind, let's get back to our original question: when will autonomous cars become commonplace? The experts predict it will take at least a decade before autonomous cars hit the highways, but for fully self-driving vehicles, we will probably need to wait several more years.
 
-**How could autonomous driving shape our future?**
+### How could autonomous driving shape our future?
 
 At the **Wunder Mobility Summit,** we will continue the debate with **Alexander Hitzinger**, SVP of Autonomous Driving Volkswagen Group, and **John Krafcik,** CEO of Waymo.
 
