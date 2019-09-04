@@ -30,29 +30,17 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
-  content: |
-    <main>
-      <div class="container">
-        <div class="abs">
-
-          <nav id="scroller-nav" class="list-group d-none d-lg-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-2">
-                  <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-startupintro">Intro</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Jury</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-howto">How it works</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-faq">FAQ</a>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-      <div class="summit-main-wrapper">
+  content: "<main>\n  <div class=\"container\">\n    <div class=\"abs\">\n\n      <nav
+    id=\"scroller-nav\" class=\"list-group d-none d-lg-block\">\n        <div class=\"container\">\n
+    \         <div class=\"row\">\n            <div class=\"col-2\">\n              <div
+    class=\"scroller-list\">\n                <a class=\"list-group-item list-group-item-action
+    gt-scrollnav\" href=\"#section-startupintro\">Intro</a>\n                <a class=\"list-group-item
+    list-group-item-action gt-scrollnav\" href=\"#section-speakers\">Jury</a>\n                <a
+    class=\"list-group-item list-group-item-action gt-scrollnav\" href=\"#section-howto\">How
+    it works</a>\n                <a class=\"list-group-item list-group-item-action
+    gt-scrollnav\" href=\"#section-faq\">FAQ</a>                    \n              </div>\n
+    \           </div>\n          </div>\n        </div>\n      </nav>\n\n    </div>\n
+    \ </div>\n  <div class=\"summit-main-wrapper\">\n"
 - template: block-from-right
   block: wide-from-right
   col_1:
@@ -61,10 +49,9 @@ page_sections:
       make a positive impact on the world.</strong><br><br><strong>In partnership
       with:</strong><br><a href="https://about.google/intl/en/"><img style="max-width:
       110px; display: inline-block;" class="mt-3 mb-4 mb-sm-0" src="uploads/global/googlelogo.svg"
-      alt="Google for Startups logo"></a>
-      <a href="https://www.co-pace.com/"><img class="mt-3 mb-4 mb-sm-0 ml-0 ml-sm-2" style="max-width:
-      110px; display: inline-block;" src="uploads/global/copace-logo.png"
-      alt="Co-pace: the startup program of Continental"></a>'
+      alt="Google for Startups logo"></a> <a href="https://www.co-pace.com/"><img
+      class="mt-3 mb-4 mb-sm-0 ml-0 ml-sm-2" style="max-width: 110px; display: inline-block;"
+      src="uploads/global/copace-logo.png" alt="Co-pace: the startup program of Continental"></a>'
   col_2:
     headline: ''
     content: During the WMS19, five founders will be pitching onstage to a jury and
@@ -85,21 +72,29 @@ page_sections:
     company: Google
     speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     company_logo: "/uploads/global/googlelogo.svg"
+    bio: ''
+    linkedin: ''
   - name: Jens-Philipp Klein
     job_title: Managing Partner
     company: Atlantic Labs
     speaker_photo: "/uploads/2019/08/13/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/08/13/atlanticslab_logo.jpg"
+    bio: ''
+    linkedin: ''
   - name: Sana Sidibeh
     job_title: Corporate Development Manager
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/08/06/Sana.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: ''
   - name: Konstantin Mihov
     job_title: Incubation And Communication
     company: co-pace
     speaker_photo: "/uploads/2019/08/15/Konstantin-Mihov.jpg"
     company_logo: "/uploads/2019/08/15/copace-logo.png"
+    bio: ''
+    linkedin: ''
 - template: columns
   heading: Judging Criteria
   block: columns
@@ -150,7 +145,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 9 at noon.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 16 at noon.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
