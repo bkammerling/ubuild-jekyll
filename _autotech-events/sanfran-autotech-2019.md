@@ -36,11 +36,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Amee Chande
-    job_title: Chief Commercial Officer
-    company: Waymo
-    speaker_photo: "/uploads/2019/07/31/Amee-Chande.jpg"
-    company_logo: "/uploads/2019/05/10/logo-waymo.png"
   - name: Steve Raney
     job_title: Executive Director
     company: Palo Alto Transportation Management Association
