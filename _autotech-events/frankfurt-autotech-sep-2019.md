@@ -56,6 +56,7 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
   - name: Markus Schaub
     job_title: Partner
     company: King & Woods Malleson
