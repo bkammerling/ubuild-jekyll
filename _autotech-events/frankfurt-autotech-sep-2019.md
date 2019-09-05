@@ -44,11 +44,13 @@ event_block:
     company: NIO
     speaker_photo: "/uploads/2019/06/27/Hui-Zhang.jpg"
     company_logo: "/uploads/2019/06/27/Nio-logo.jpg"
+    linkedin: https://www.linkedin.com/in/hui-zhang-161331a/
   - name: Ismail Ertug
     job_title: Member of the Committee for Transportation
     company: European Parliament
     speaker_photo: "/uploads/2019/06/27/Ismail-Ertug.png"
     company_logo: "/uploads/2019/06/27/European-Parliament.png"
+    linkedin: https://www.linkedin.com/in/ismail-ertu%C4%9F-ba0a4228/
   - name: Gunnar Froh
     job_title: CEO & Co-Founder
     company: Wunder Mobility
@@ -69,6 +71,8 @@ event_block:
     company_logo: "/uploads/2019/07/08/microsoft_logo.png"
     company: Microsoft
     job_title: Global Head of Automotive
+    linkedin: https://www.linkedin.com/in/sanjay-ravi/
+  - bio: ''
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
@@ -105,5 +109,6 @@ event_description: 'We are jointly hosting an informal but exclusive invite-only
   policymakers must do to set the right course. '
 featured_image: "/uploads/2019/07/03/Frankfurt.jpg"
 output_page: true
+published: false
 
 ---
