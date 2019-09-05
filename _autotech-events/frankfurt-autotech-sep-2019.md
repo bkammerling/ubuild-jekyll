@@ -67,6 +67,7 @@ event_block:
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     job_title: Principal
+    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
   - name: Sanjay Ravi
     speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi-1.jpg"
     company_logo: "/uploads/2019/07/08/microsoft_logo.png"
@@ -74,6 +75,12 @@ event_block:
     job_title: Global Head of Automotive
     linkedin: https://www.linkedin.com/in/sanjay-ravi/
   - bio: ''
+    name: Sandra Link
+    job_title: Partner
+    company: King & Wood Mallesons
+    company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
+    linkedin: https://www.linkedin.com/in/sandralink/
+    speaker_photo: "/uploads/2019/09/05/link_s.png"
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
@@ -110,6 +117,5 @@ event_description: 'We are jointly hosting an informal but exclusive invite-only
   policymakers must do to set the right course. '
 featured_image: "/uploads/2019/07/03/Frankfurt.jpg"
 output_page: true
-published: false
 
 ---
