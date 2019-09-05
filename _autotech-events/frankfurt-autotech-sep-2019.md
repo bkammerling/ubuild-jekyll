@@ -57,11 +57,6 @@ event_block:
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
     linkedin: https://www.linkedin.com/in/gunnarfroh/
-  - name: Markus Schaub
-    job_title: Partner
-    company: King & Woods Malleson
-    speaker_photo: "/uploads/2019/06/27/Mark-Schaub.jpg"
-    company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
   - name: Jonas Seyfferth
     company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
