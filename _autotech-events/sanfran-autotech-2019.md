@@ -51,11 +51,6 @@ event_block:
     company: Fujitsu
     speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
-  - name: Jody Kelman
-    job_title: Director, Self-Driving Platform
-    company: Lyft
-    speaker_photo: "/uploads/2019/09/02/Jody-Kelman.png"
-    company_logo: "/uploads/2019/09/02/Lyft-logo.png"
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
