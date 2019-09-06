@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: San Francisco Mobility Sessions 2019
+title: San Francisco Bay Area Mobility Sessions 2019
 event_date: 2019-09-24T17:00:00.000+00:00
-event_location: San Francisco, USA
+event_location: Sunnyvale, California
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -36,6 +36,13 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Tekedra N. Mawakana
+    job_title: Chief External Officer
+    company: Waymo
+    speaker_photo: "/uploads/2019/09/06/Tekedra-N.png"
+    company_logo: "/uploads/global/logo-waymo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
   - name: Steve Raney
     job_title: Executive Director
     company: Palo Alto Transportation Management Association
@@ -90,7 +97,7 @@ event_block:
     a hotbed of innovation. San Francisco is considered by many to be a laboratory
     for testing new, emerging mobility services.
   gmaps_link: https://goo.gl/maps/Ad6sUu3Ru95nVppV6
-  venue_location: 1250 E Arques Ave, Sunnyvale, CA 94085, USA
+  venue_location: 1240 E Arques Ave, Sunnyvale, CA 94085, USA
 - template: simple-footer
   block: footer-1
 - template: custom-content
