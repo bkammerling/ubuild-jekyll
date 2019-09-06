@@ -43,16 +43,6 @@ event_block:
     company_logo: "/uploads/global/logo-waymo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
-  - name: Steve Raney
-    job_title: Executive Director
-    company: Palo Alto Transportation Management Association
-    speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
-    company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
-  - name: Maya Ben Dror
-    job_title: Lead of Autonomous and Urban Mobility
-    company: World Economic Forum
-    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
-    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
   - name: Paul Warburton
     job_title: Global Account Director and VP of Automotive
     company: Fujitsu
@@ -63,16 +53,26 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
-  - name: Ioana Freise
-    job_title: General Manager
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Steve Raney
+    job_title: Executive Director
+    company: Palo Alto Transportation Management Association
+    speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
+    company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
   - name: Ahsan Baig
     job_title: Chief Information Officer
     company: Alameda-Contra Costa Transit
     speaker_photo: "/uploads/2019/09/02/Ahsan-Baig.png"
     company_logo: "/uploads/2019/09/02/AC-Transit.png"
+  - name: Maya Ben Dror
+    job_title: Lead of Autonomous and Urban Mobility
+    company: World Economic Forum
+    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
+    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+  - name: Ioana Freise
+    job_title: General Manager
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
 - template: custom-content
   block: custom-html
   name: Agenda
