@@ -19,7 +19,7 @@ Do you run a car dealership and own a loaner fleet of courtesy cars? Ever wonder
 
 ![](/uploads/2019/08/23/carrentalarticlebody.jpeg)
 
-Maybe you're still unconvinced that the pros outweigh the cons. Whatever your question is, we have answers for you. Read on to find out how going digital can increase your revenue.
+Maybe you're still unconvinced that the pros outweigh the cons. Whatever your question is, we have answers for you. Read on to find out how going digital can benefit your company.
 
 ### Know your audience? Then you know it’s time for an upgrade.
 
@@ -31,7 +31,7 @@ One of the core tenets of sales is to know your audience. Considering the differ
 
 ### Going paperless means going hassle-free
 
-A huge part of the digital experience is removing hassle for customers, but going paperless also decreases the hassle you face as a business owner. Having all forms and important documents in a virtual cloud “storage system” you have access to 24/7 means you can finally free yourself from that outdated filing cabinet collecting dust in the back office.
+A huge part of the digital experience is removing hassle for customers, but going paperless also decreases the hassle you face as a business owner. Having all forms and important documents stored in a virtual cloud “storage system” you have access to 24/7 means you can finally free yourself from that outdated filing cabinet collecting dust in the back office.
 
 > Let customers book, pick up and sign for a loaner car all from one app.
 
