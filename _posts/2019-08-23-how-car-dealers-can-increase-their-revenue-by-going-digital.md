@@ -12,7 +12,9 @@ featured_image: "/uploads/2019/08/23/carrentalarticlelist.jpg"
 excerpt: 'Do you run a car dealership and own a loaner fleet of courtesy cars? Ever
   wonder about how going digital can effect your company''s revenue in a positive,
   longterm way? Read on to find out more. '
-tags: []
+tags:
+- rental
+- dealerships
 
 ---
 Do you run a car dealership and own a loaner fleet of courtesy cars? Ever wonder about how going digital can effect your company positively in the longterm?
