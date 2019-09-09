@@ -76,6 +76,7 @@ event_block:
     company: World Economic Forum
     speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
     company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+    bio: ''
     linkedin: https://www.linkedin.com/in/mayakeidar/
   - name: Ioana Freise
     job_title: General Manager
