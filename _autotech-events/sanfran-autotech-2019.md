@@ -83,6 +83,7 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
     linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
 - template: custom-content
   block: custom-html
