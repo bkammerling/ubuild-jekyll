@@ -431,6 +431,11 @@ var accordion = {
       $card.siblings().removeClass('expand');
       $card.addClass('expand');
     });
+    $('.photo-accordion .collapsible').click(function(e) {
+      var $card = $(this);
+      $card.siblings().removeClass('show');
+      $card.addClass('show');
+    });
   }
 }
 accordion.init();
