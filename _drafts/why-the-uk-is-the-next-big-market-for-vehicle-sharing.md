@@ -19,7 +19,8 @@ excerpt: Through a series of pledges made by the British government, along with 
 ---
 Britain is constantly in the news these days, but usually for negative reasons (read: debates about a deal or no-deal Brexit). As such, you could be forgiven for not being fully aware of Britain's various investments in the mobility industry in recent years.
 
-_![busy-street-london-shared-bike](/uploads/2019/09/09/whytheukisthenextbigmarketbody.jpg "The original bike sharing concept..")_Bike sharing at its purest.
+_![busy-street-london-shared-bike](/uploads/2019/09/09/whytheukisthenextbigmarketbody.jpg "The original bike sharing concept..")
+_Bike sharing at its purest._
 
 Through a series of pledges made by the British government, along with a wide range of initiatives that support and encourage innovation and green technology, the United Kingdom has been proving its commitment to sustainable mobility at a pace that most other countries have yet to match. In March 2019, the Department of Transport released a paper titled _Future of Mobility: Urban Strategy,_ which laid the groundwork for a variety of initiatives Britain will be investing in the next couple of years.
 
