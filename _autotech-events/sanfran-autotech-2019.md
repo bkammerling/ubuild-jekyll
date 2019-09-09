@@ -48,6 +48,7 @@ event_block:
     company: Fujitsu
     speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
+    linkedin: https://www.linkedin.com/in/paul-warburton-470aab9/
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
@@ -58,21 +59,25 @@ event_block:
     company: Palo Alto Transportation Management Association
     speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
     company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
+    linkedin: https://www.linkedin.com/in/steveraney/
   - name: Ahsan Baig
     job_title: Chief Information Officer
     company: Alameda-Contra Costa Transit
     speaker_photo: "/uploads/2019/09/02/Ahsan-Baig.png"
     company_logo: "/uploads/2019/09/02/AC-Transit.png"
+    linkedin: https://www.linkedin.com/in/mabaig/
   - name: Maya Ben Dror
     job_title: Lead of Autonomous and Urban Mobility
     company: World Economic Forum
     speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
     company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+    linkedin: https://www.linkedin.com/in/mayakeidar/
   - name: Ioana Freise
     job_title: General Manager
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
 - template: custom-content
   block: custom-html
   name: Agenda
