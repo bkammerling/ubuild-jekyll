@@ -48,6 +48,7 @@ event_block:
     company: Fujitsu
     speaker_photo: "/uploads/2019/08/06/Paul-Warburton-1.jpg"
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
+    bio: ''
     linkedin: https://www.linkedin.com/in/paul-warburton-470aab9/
   - name: Sam Baker
     job_title: COO & Co-Founder
