@@ -54,6 +54,7 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    linkedin: https://www.linkedin.com/in/samuelrossbaker/
   - name: Steve Raney
     job_title: Executive Director
     company: Palo Alto Transportation Management Association
