@@ -14,9 +14,9 @@ featured_image: ''
 excerpt: ''
 
 ---
-Britain is constantly in the news these days, but usually for negative reasons (read: debates about a deal or no-deal Brexit). As such, you could be forgiven for not being fully aware of the positive impact that Britain has had on the mobility industry in recent years.
+Britain is constantly in the news these days, but usually for negative reasons (read: debates about a deal or no-deal Brexit). As such, you could be forgiven for not being fully aware of Britain's various investments in the mobility industry in recent years.
 
-Through a series of investments and pledges made by the British government, along with a wide range of initiatives that support and encourage innovation and green technology, the United Kingdom has proven its commitment to sustainable mobility at a pace that most other countries have yet to match. In March 2019, the Department of Transport released a paper titled _Future of Mobility: Urban Strategy,_ which laid the groundwork for a variety of initiatives Britain will be investing in the next couple of years.
+Through a series of pledges made by the British government, along with a wide range of initiatives that support and encourage innovation and green technology, the United Kingdom has been proving its commitment to sustainable mobility at a pace that most other countries have yet to match. In March 2019, the Department of Transport released a paper titled _Future of Mobility: Urban Strategy,_ which laid the groundwork for a variety of initiatives Britain will be investing in the next couple of years.
 
 ### The Road to Zero
 
@@ -26,8 +26,7 @@ An example of a larger scale mobility project highlighted in the 80-page paper i
 
 Nontraditional solutions for transportation issues are being invested in as well. Congestion is of course a major issue in many cities in Britain: in London, drivers waste an average of 227 hours a year in traffic. ([2](https://www.independent.co.uk/travel/news-and-advice/london-uk-most-congested-cities-traffic-hours-driving-roads-busy-birmingham-glasgow-manchester-a8775056.html)) That’s really much longer than it should be, and the British government thinks so, too, which is why they’re planning the introduction of a TRO (traffic regulations order) tool. The TRO tool is essentially an intelligent traffic management system which uses data to deliver real-time reports on congestion, accidents, construction sites and more to predict fluctuations in traffic and drive time before they occur.
 
-###   
-The End of Private Car Ownership
+### The End of Private Car Ownership
 
 Perhaps most interesting is the shift in attitudes that has left its mark on British society in recent years. According to a Statista Global poll taken in 2019, 22% of people living in the UK would like to switch to an environmentally friendly alternative to gas-guzzling vehicles, and 23% say they could even lead comfortable, pleasant lives without owning their own car. ([3](https://www.statista.com/forecasts/997809/attitudes-towards-mobility-in-the-uk )) In a different survey from 2019, 39% of people polled used vehicle sharing or rental services to get around in the past 12 months. ([4](https://www.statista.com/forecasts/997844/mobility-service-usage-in-the-uk))
 
