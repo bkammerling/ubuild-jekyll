@@ -15,7 +15,7 @@ excerpt: 'Do you run a car dealership and own a loaner fleet of courtesy cars? E
 tags: []
 
 ---
-Do you run a car dealership and own a loaner fleet of courtesy cars? Ever wonder about how going digital can effect your company's revenue in a positive, longterm way?
+Do you run a car dealership and own a loaner fleet of courtesy cars? Ever wonder about how going digital can effect your company positively in the longterm?
 
 ![](/uploads/2019/08/23/carrentalarticlebody.jpeg)
 
