@@ -69,6 +69,7 @@ event_block:
     company: Alameda-Contra Costa Transit
     speaker_photo: "/uploads/2019/09/02/Ahsan-Baig.png"
     company_logo: "/uploads/2019/09/02/AC-Transit.png"
+    bio: ''
     linkedin: https://www.linkedin.com/in/mabaig/
   - name: Maya Ben Dror
     job_title: Lead of Autonomous and Urban Mobility
