@@ -10,13 +10,16 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/fleet.md
 title: 'Why The UK Is The Next Big Market for Vehicle Sharing '
 publish_date: 2019-09-09 09:00:00 +0000
-featured_image: ''
-excerpt: ''
+featured_image: "/uploads/2019/09/09/whytheukisthenextbigmarketlist.jpeg"
+excerpt: Through a series of pledges made by the British government, along with a
+  wide range of initiatives that support and encourage innovation and green technology,
+  the United Kingdom has been proving its commitment to sustainable mobility at a
+  pace that most other countries have yet to match.
 
 ---
 Britain is constantly in the news these days, but usually for negative reasons (read: debates about a deal or no-deal Brexit). As such, you could be forgiven for not being fully aware of Britain's various investments in the mobility industry in recent years.
 
-![](/uploads/2019/09/09/whytheukisthenextbigmarketbody.jpg)
+![busy-street-london-shared-bike](/uploads/2019/09/09/whytheukisthenextbigmarketbody.jpg "The original bike sharing concept..")Bike sharing at its purest.
 
 Through a series of pledges made by the British government, along with a wide range of initiatives that support and encourage innovation and green technology, the United Kingdom has been proving its commitment to sustainable mobility at a pace that most other countries have yet to match. In March 2019, the Department of Transport released a paper titled _Future of Mobility: Urban Strategy,_ which laid the groundwork for a variety of initiatives Britain will be investing in the next couple of years.
 
