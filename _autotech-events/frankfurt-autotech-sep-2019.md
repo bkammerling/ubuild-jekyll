@@ -44,12 +44,14 @@ event_block:
     company: NIO
     speaker_photo: "/uploads/2019/06/27/Hui-Zhang.jpg"
     company_logo: "/uploads/2019/06/27/Nio-logo.jpg"
+    bio: ''
     linkedin: https://www.linkedin.com/in/hui-zhang-161331a/
   - name: Ismail Ertug
     job_title: Member of the Committee for Transportation
     company: European Parliament
     speaker_photo: "/uploads/2019/06/27/Ismail-Ertug.png"
     company_logo: "/uploads/2019/06/27/European-Parliament.png"
+    bio: ''
     linkedin: https://www.linkedin.com/in/ismail-ertu%C4%9F-ba0a4228/
   - name: Gunnar Froh
     job_title: CEO & Co-Founder
