@@ -62,6 +62,7 @@ event_block:
     company: Palo Alto Transportation Management Association
     speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
     company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
+    bio: ''
     linkedin: https://www.linkedin.com/in/steveraney/
   - name: Ahsan Baig
     job_title: Chief Information Officer
