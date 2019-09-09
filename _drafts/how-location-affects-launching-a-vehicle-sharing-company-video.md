@@ -24,7 +24,7 @@ Here are the three factors to consider:
 
 #### Vehicle Type & Local Preference
 
-It's important to leverage your location in order to find the right type of vehicle for your customer's needs. White sand beach towns and snowy rural landscapes might attract different customers, which will in turn affect the vehicles you select. 
+It's important to leverage your location in order to find the right type of vehicle for your customer's needs. Beach communities and snowy rural landscapes might attract different customers, which will in turn affect the vehicles you select. 
 
 #### Target Users
 
