@@ -5,8 +5,8 @@ tags:
 - UK
 author: _people/PurnimaKumar.md
 cta_heading: Find Out More About Wunder Fleet
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_text: We have a range of solutions using the latest technology driving the future
+  of mobility around the world.
 cta_link: pages/fleet.md
 title: 'Why The UK Is The Next Big Market for Vehicle Sharing '
 publish_date: 2019-09-09 09:00:00 +0000
