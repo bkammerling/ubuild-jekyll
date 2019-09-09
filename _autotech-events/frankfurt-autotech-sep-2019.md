@@ -58,26 +58,29 @@ event_block:
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar@2x.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
     linkedin: https://www.linkedin.com/in/gunnarfroh/
   - name: Jonas Seyfferth
+    job_title: Principal
     company: Strategy&
     speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
-    job_title: Principal
+    bio: ''
     linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
   - name: Sanjay Ravi
+    job_title: Global Head of Automotive
+    company: Microsoft
     speaker_photo: "/uploads/2019/07/31/Sanjay-Ravi-1.jpg"
     company_logo: "/uploads/2019/07/08/microsoft_logo.png"
-    company: Microsoft
-    job_title: Global Head of Automotive
+    bio: ''
     linkedin: https://www.linkedin.com/in/sanjay-ravi/
-  - bio: ''
-    name: Sandra Link
+  - name: Sandra Link
     job_title: Partner
     company: King & Wood Mallesons
-    company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
-    linkedin: https://www.linkedin.com/in/sandralink/
     speaker_photo: "/uploads/2019/09/05/link_s.png"
+    company_logo: "/uploads/2019/06/27/King-&-Woods-Malleson.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sandralink/
   heading: Speaker / Panelist Line-up
 - template: custom-content
   block: custom-html
