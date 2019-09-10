@@ -169,11 +169,11 @@ var form = {
         $(this).parents('.form-group').addClass('focused');
       }
     });
-    $('input, textarea').blur(function(){
+    $('input, textarea').keyup(function(){
       var inputValue = $(this).val();
       if ( inputValue == "" ) {
         $(this).removeClass('filled');
-        $(this).parents('.form-group').removeClass('focused');
+        //$(this).parents('.form-group').removeClass('focused');
       } else {
         $(this).addClass('filled');
         if($(this)[0].checkValidity()) {
@@ -181,6 +181,12 @@ var form = {
         } else {
           $(this).parents('.form-group').removeClass('valid').addClass('invalid');
         }
+      }
+    });
+    $('input, textarea').blur(function(){
+      var inputValue = $(this).val();
+      if ( inputValue == "" ) {
+        $(this).parents('.form-group').removeClass('focused');
       }
     });
 
