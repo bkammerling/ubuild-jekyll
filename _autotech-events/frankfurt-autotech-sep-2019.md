@@ -87,16 +87,56 @@ event_block:
   name: Agenda
   content: |-
     <div class="container mt-5 mb-5" id="section-agenda">
-      <div class="wunder-bg right top-2"></div>
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mb-3">
-          <section class="mt-5">
-            <h2 class="page-heading mb-3">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-          </section>
+          <div class="wunder-bg right top-2"></div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2 mb-3">
+              <section class="mt-5">
+                <h2 class="page-heading mb-3">Agenda</h2>
+
+                <div class="border-hl-left w-x-shadow table-wrapper">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Speaker</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+    <tr>
+                        <td>6:00 PM</td>
+                        <td>Doors Open</td>
+                        <td></td>
+                      </tr>
+    <tr>
+                        <td>6:45 PM</td>
+                        <td>Welcome</td>
+                        <td><span class="speaker-name">Jonas Seyfferth</span>
+    <span class="speaker-position">- Principal, Strategy& </span></td>
+                      </tr>
+    <tr>
+                        <td>7:00 PM</td>
+                        <td>Panel on the Future of Mobility </td>
+                        <td><span class="speaker-name">Zhang Hui</span><span class="speaker-position">- Vice President Europe, NIO </span>
+    <span class="speaker-name">Ismail Ertug</span><span class="speaker-position">- Member of the Committe for Transportation, European Parliament</span>
+    <span class="speaker-name">Gunnar Froh</span><span class="speaker-position">- CEO & Co-Founder, Wunder Mobility</span>
+    <span class="speaker-name">Markus Schaub</span><span class="speaker-position">- Partner, King & Woods Malleson</span>
+    <span class="speaker-name">Sanjay Ravi</span><span class="speaker-position">- Global Head of Automotive, Microsoft </span></td>
+                      </tr>
+                      <tr>
+                        <td>8:00 PM</td>
+                        <td>Drinks, Snacks and Networking</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </section>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 - template: google-map
   lat: 50.110851
   lng: '8.656740'
