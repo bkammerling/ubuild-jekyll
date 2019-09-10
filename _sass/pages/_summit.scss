@@ -212,6 +212,9 @@ body[class*="summit"] .gradient-block .block-full-right {
         display: block;
         transform: translateY(-10px);
         outline: none;
+        + .card-link ion-icon {
+          left: 34px;
+        }
       }
       .card-link ion-icon {
         color: $olive-matt !important;
@@ -223,7 +226,6 @@ body[class*="summit"] .gradient-block .block-full-right {
         border-radius: 50%;
       }
       .linkedin-icon ion-icon {
-        left: 34px;
         border-radius: 14%;
       }
       .info-icon ion-icon {
