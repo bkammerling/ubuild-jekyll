@@ -217,10 +217,10 @@ footer:
     title: Dortmund
     parent: offices
     newtab: 1
-  - identifier: san-fran
-    url: https://www.google.com/maps/place/WeWork/@37.7939928,-122.3996171,15z/data=!4m2!3m1!1s0x0:0xf84e9bd61ed43810?ved=2ahUKEwiin7eY5sfgAhUNsqQKHR6iApYQ_BIwDnoECAYQCA
+  - identifier: la
+    url: https://goo.gl/maps/2rscheLLUC3UtnME7
     weight: 4
-    title: San Francisco
+    title: LA
     parent: offices
     newtab: 1
   weight: 1
