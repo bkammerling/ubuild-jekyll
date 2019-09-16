@@ -2,7 +2,7 @@
 layout: blocks-events
 title: San Francisco Bay Area Mobility Sessions 2019
 event_date: 2019-09-24T17:00:00.000+00:00
-event_location: San Francisco Bay Area
+event_location: San Francisco Bay Area, USA
 event_block:
 - template: navigation-header-w-button
   block: header-2
