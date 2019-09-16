@@ -5,7 +5,7 @@
   {% assign menu_name = 'wunder-main' %}
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
-  <nav class="absolute-header {% if page.layout == 'simple-article' %}navbar-narrow{% endif %}">
+  <nav class="absolute-header {% if page.layout == 'simple-article' or page.lang-ref == 'blog' %}navbar-narrow{% endif %}">
     <div class="container header">
       <div class="grouped-logo {% if section.sub_logo and section.sub_logo != empty %}animated{% endif %}">
         {% assign directory = page.dir | remove: '/' %}

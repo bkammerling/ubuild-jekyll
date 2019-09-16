@@ -3,6 +3,8 @@ layout: blocks
 title: Startup Stage Battle
 date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
+lang-ref: startup-stage
+lang: en
 page_sections:
 - template: navigation-header-w-button
   block: header-2

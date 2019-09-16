@@ -3,6 +3,8 @@ layout: blocks
 title: Mobility Summit 2018
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/wms18"
+lang-ref: wms18
+lang: en
 page_sections:
 - template: navigation-header-w-button
   block: header-2

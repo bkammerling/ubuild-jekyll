@@ -2,6 +2,8 @@
 layout: blocks
 title: Culture
 permalink: "/careers/culture"
+lang-ref: culture
+lang: en
 date: '2019-01-09T17:13:39.000+00:00'
 page_sections:
 - template: navigation-header-w-button

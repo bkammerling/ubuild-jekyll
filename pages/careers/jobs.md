@@ -2,6 +2,8 @@
 layout: blocks
 title: Jobs
 permalink: "/careers/jobs"
+lang-ref: jobs
+lang: en
 page_sections:
 - template: navigation-header-w-button
   block: header-2
