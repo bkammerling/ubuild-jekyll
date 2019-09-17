@@ -92,6 +92,13 @@ event_block:
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
+  - job_title: Lead of Autonomous and Urban Mobility
+    company: 'World Economic Forum '
+    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
+    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/mayakeidar/
+    name: Maya Ben Dror
 - template: custom-content
   block: custom-html
   name: Agenda
