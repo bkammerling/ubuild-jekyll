@@ -36,13 +36,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Tekedra N. Mawakana
-    job_title: Chief External Officer
-    company: Waymo
-    speaker_photo: "/uploads/2019/09/06/Tekedra-N.png"
-    company_logo: "/uploads/global/logo-waymo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
   - name: Paul Warburton
     job_title: Global Account Director and VP of Automotive
     company: Fujitsu
@@ -50,6 +43,16 @@ event_block:
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/paul-warburton-470aab9/
+  - name: Gunnar Froh
+    job_title: ''
+    bio: ''
+  - name: Tekedra N. Mawakana
+    job_title: Chief External Officer
+    company: Waymo
+    speaker_photo: "/uploads/2019/09/06/Tekedra-N.png"
+    company_logo: "/uploads/global/logo-waymo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
@@ -120,5 +123,6 @@ event_description: We’re hosting an informal invite-only event with Fujitsu. W
   set the right course in years to come.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 output_page: true
+published: false
 
 ---
