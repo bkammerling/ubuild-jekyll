@@ -90,16 +90,87 @@ event_block:
   name: Agenda
   content: |-
     <div class="container mt-5 mb-5" id="section-agenda">
-      <div class="wunder-bg right top-2"></div>
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 mb-3">
-          <section class="mt-5">
-            <h2 class="page-heading mb-3">Agenda</h2>
-            <h1 class="text-grey2 mb-1 p-0">To Be Announced</h1>
-          </section>
+          <div class="wunder-bg right top-2"></div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-2 mb-3">
+              <section class="mt-5">
+                <h2 class="page-heading mb-3">Agenda</h2>
+
+                <div class="border-hl-left w-x-shadow table-wrapper">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Speaker</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>6:30 PM</td>
+                        <td>Doors Open</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>7:00 PM</td>
+                        <td>Welcome</td>
+                        <td><span class="speaker-name">Paul Warburton </span>
+    <span class="speaker-position">- Global Account Director and VP of Automotive, Fujitsu</span>
+    <span class="speaker-name">Gunnar Froh </span><span class="speaker-position">- CEO & Co-Founder, Wunder Mobility</span></td>
+                    </tr>
+                    <tr>
+                      <td>7:10 PM</td>
+                      <td>Say Hello to Waymo</td>
+                      <td><span class="speaker-name">Tekedra Mawakana </span>
+                      <span class="speaker-position">- CXO, Waymo</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7:25 PM</td>
+                      <td>Gearing up for a Human Centric Mobility Society</td>
+                      <td><span class="speaker-name">Paul Warburton </span><span class="speaker-position">- Global Account Director and VP of Automotive, Fujitsu</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7:40 PM</td>
+                      <td>The Impact of Digital Disruption In Personal Mobility</td>
+                      <td><span class="speaker-name">Samuel Baker </span><span class="speaker-position">- COO & Co-Founder, Wunder Mobility</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7:55 PM</td>
+                      <td>Unleashing the power of data to better mobility services</td>
+                      <td><span class="speaker-name">Maya Ben Dror </span><span class="speaker-position">- Lead of Autonomous and Urban Mobility, World Economic Forum</span>
+                      <span class="speaker-name">Kent Leacock </span><span class="speaker-position">- Sr. Director Government Relations & Public Policy, Proterra Inc.</span>
+                      <span class="speaker-name">Lisa Joy Rosner </span><span class="speaker-position">- CMO , Otonomo</span>
+                      <span class="speaker-name">Ahsan Baig </span><span class="speaker-position">- Chief Information Officer , Alameda-Contra Costa Transit</span>
+                      <span class="speaker-name">Ioana Freise </span><span class="speaker-position">- General Manager Wunder City, Wunder Mobility</span></td>
+                    </tr>
+                    <tr>
+                      <td>8:30 PM</td>
+                      <td>Closing Remarks </td>
+                      <td><span class="speaker-name">Paul Warburton </span><span class="speaker-position">- Global Account Director and VP of Automotive, Fujitsu </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>8:40 PM</td>
+                      <td>Drinks, Snacks and Networking</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 PM</td>
+                        <td>Official End</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </section>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 - template: google-map
   lat: '37.378590'
   lng: "-121.991840"

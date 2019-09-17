@@ -3,7 +3,7 @@
   <div class="speaker__wrapper block-full-right col-2-in">
     <div class="container container-fullright">
 
-      <h2 class="page-heading">{{ section.heading }} <br><small>{{ section.sub-heading }}</small></h2>
+      <h2 class="page-heading">{{ section.heading | default: 'Speaker / Panelist Line-up' }} <br><small>{{ section.sub-heading }}</small></h2>
 
     </div>
   </div>
