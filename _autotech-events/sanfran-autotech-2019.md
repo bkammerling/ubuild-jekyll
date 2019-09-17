@@ -36,13 +36,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Tekedra N. Mawakana
-    job_title: Chief External Officer
-    company: Waymo
-    speaker_photo: "/uploads/2019/09/06/Tekedra-N.png"
-    company_logo: "/uploads/global/logo-waymo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
   - name: Paul Warburton
     job_title: Global Account Director and VP of Automotive
     company: Fujitsu
@@ -50,6 +43,20 @@ event_block:
     company_logo: "/uploads/2019/05/23/fujitsu@2x.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/paul-warburton-470aab9/
+  - name: Gunnar Froh
+    job_title: CEO & Co-Founder
+    bio: ''
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+  - name: Tekedra N. Mawakana
+    job_title: Chief External Officer
+    company: Waymo
+    speaker_photo: "/uploads/2019/09/06/Tekedra-N.png"
+    company_logo: "/uploads/global/logo-waymo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/tekedra-n-mawakana-317884/
   - name: Sam Baker
     job_title: COO & Co-Founder
     company: Wunder Mobility
@@ -57,13 +64,13 @@ event_block:
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/samuelrossbaker/
-  - name: Steve Raney
-    job_title: Executive Director
-    company: Palo Alto Transportation Management Association
-    speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
-    company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
+  - name: Lisa Joy Rosner
+    job_title: CMO
+    company: Otonomo
+    speaker_photo: "/uploads/2019/09/17/Lisa Joy Rosner.jpg"
+    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/steveraney/
+    linkedin: https://www.linkedin.com/in/lisajoyrosner/
   - name: Ahsan Baig
     job_title: Chief Information Officer
     company: Alameda-Contra Costa Transit
@@ -71,13 +78,13 @@ event_block:
     company_logo: "/uploads/2019/09/02/AC-Transit.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/mabaig/
-  - name: Maya Ben Dror
-    job_title: Lead of Autonomous and Urban Mobility
-    company: World Economic Forum
-    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
-    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+  - name: Kent Leacock
+    job_title: Sr. Director Government Relations & Public Policy
+    company: Proterra Inc.
+    speaker_photo: "/uploads/2019/09/17/kent-leacock.jpg"
+    company_logo: "/uploads/2019/09/17/Proterra-Logo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/mayakeidar/
+    linkedin: https://www.linkedin.com/in/kent-leacock-a04358/
   - name: Ioana Freise
     job_title: General Manager
     company: Wunder Mobility
@@ -85,6 +92,13 @@ event_block:
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
+  - job_title: Lead of Autonomous and Urban Mobility
+    company: 'World Economic Forum '
+    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
+    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/mayakeidar/
+    name: Maya Ben Dror
 - template: custom-content
   block: custom-html
   name: Agenda

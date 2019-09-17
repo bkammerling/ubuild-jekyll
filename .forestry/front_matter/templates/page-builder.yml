@@ -55,15 +55,15 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/summit18.md
+- pages/careers/culture.md
+- pages/careers/perks.md
+- pages/careers/careers.md
+- pages/careers/locations.md
+- pages/careers/jobs.md
 - pages/startup-stage.md
 - pages/summit.md
-- pages/summit18.md
-- pages/careers/jobs.md
-- pages/careers/culture.md
 - pages/terms.md
-- pages/careers/locations.md
 - pages/park.md
-- pages/careers/careers.md
 - pages/autotech.md
 - pages/home.md
-- pages/careers/perks.md
