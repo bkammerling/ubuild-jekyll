@@ -44,8 +44,12 @@ event_block:
     bio: ''
     linkedin: https://www.linkedin.com/in/paul-warburton-470aab9/
   - name: Gunnar Froh
-    job_title: ''
+    job_title: CEO & Co-Founder
     bio: ''
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
   - name: Tekedra N. Mawakana
     job_title: Chief External Officer
     company: Waymo
