@@ -64,13 +64,13 @@ event_block:
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/samuelrossbaker/
-  - name: Steve Raney
-    job_title: Executive Director
-    company: Palo Alto Transportation Management Association
-    speaker_photo: "/uploads/2019/09/02/Steve-Raney.png"
-    company_logo: "/uploads/2019/09/02/Palo-Alto-logo.png"
+  - name: Lisa Joy Rosner
+    job_title: CMO
+    company: Otonomo
+    speaker_photo: "/uploads/2019/09/17/Lisa Joy Rosner.jpg"
+    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/steveraney/
+    linkedin: https://www.linkedin.com/in/lisajoyrosner/
   - name: Ahsan Baig
     job_title: Chief Information Officer
     company: Alameda-Contra Costa Transit
@@ -78,13 +78,13 @@ event_block:
     company_logo: "/uploads/2019/09/02/AC-Transit.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/mabaig/
-  - name: Maya Ben Dror
-    job_title: Lead of Autonomous and Urban Mobility
-    company: World Economic Forum
-    speaker_photo: "/uploads/2019/08/01/Maya-Ben-Dror.jpg"
-    company_logo: "/uploads/2019/08/01/World-Economic-Forum.png"
+  - name: Kent Leacock
+    job_title: Sr. Director Government Relations & Public Policy
+    company: Proterra Inc.
+    speaker_photo: "/uploads/2019/09/17/kent-leacock.jpg"
+    company_logo: "/uploads/2019/09/17/Proterra-Logo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/mayakeidar/
+    linkedin: https://www.linkedin.com/in/kent-leacock-a04358/
   - name: Ioana Freise
     job_title: General Manager
     company: Wunder Mobility
@@ -127,6 +127,5 @@ event_description: We’re hosting an informal invite-only event with Fujitsu. W
   set the right course in years to come.
 featured_image: "/uploads/2019/05/02/sanfran@2x.jpg"
 output_page: true
-published: false
 
 ---
