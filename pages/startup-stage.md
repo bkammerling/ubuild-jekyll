@@ -3,8 +3,6 @@ layout: blocks
 title: Startup Stage Battle
 date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
-lang-ref: startup-stage
-lang: en
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -147,7 +145,7 @@ page_sections:
                 <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">1.</h2>
-                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 16 at noon.</p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform" class="text-blue">Applications open.</a><br>Join us and expand your possibilities even further. Applications close on September 25 at noon.</p>
                   </div>
                   <div class="box highlight-top w-shadow">
                     <h2 class="mb-2">2.</h2>
