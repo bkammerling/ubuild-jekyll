@@ -3,8 +3,6 @@ layout: blocks
 title: Summit
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
-lang-ref: summit
-lang: en
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -129,13 +127,13 @@ page_sections:
     company_logo: "/uploads/global/Freenow-logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
-  - name: Daniela Gerd tom Markotten
-    job_title: CEO
-    company: REACHNOW
-    speaker_photo: "/uploads/2019/05/10/daniela-moovel.jpeg"
-    company_logo: "/uploads/2019/05/10/reachnow-logo.jpg"
+  - name: Sigrid Dalberg-Krajewski
+    job_title: Head of Marketing & Communications
+    company: Trafi
+    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
+    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/danielagerdtommarkotten/
+    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
   - name: Ben Volkow
     job_title: CEO and Founder
     company: Otonomo
