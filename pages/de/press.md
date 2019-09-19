@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Presse
+title: Presse | Wunder Mobility
 date: 2019-02-08 23:00:00 +0000
 permalink: /de/presse
 lang: de

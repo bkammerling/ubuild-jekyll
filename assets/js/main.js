@@ -92,7 +92,7 @@ var slider = {
     });
   }
 };
-if(pagetitle == 'Culture') {
+if(pageref == 'culture') {
   slider.init(".picture-slider", {
     dots: false,
     lazyLoad: 'ondemand',
@@ -418,7 +418,7 @@ var jobs = {
     return tmp.textContent || tmp.innerText || "";
   }
 };
-if(pagetitle == "Jobs") jobs.init();
+if(pageref == "jobs") jobs.init();
 
 
 var accordion = {
@@ -519,7 +519,7 @@ var diversityMap = {
   }
 
 }
-if(pagetitle == "Culture") diversityMap.init();
+if(pageref == "culture") diversityMap.init();
 
 
 var benefits = {
@@ -547,7 +547,7 @@ var benefits = {
     }
   }
 }
-if(pagetitle == "Perks") benefits.init();
+if(pageref == "perks") benefits.init();
 
 
 var scroller = {
@@ -560,7 +560,7 @@ var scroller = {
     window.msRequestAnimationFrame ||
     window.oRequestAnimationFrame;
     var $window = $(window);
-    if(pagetitle == "Rent") {
+    if(pageref == "rent") {
       this.initPath();
       var pathRect = scroller.path.getBoundingClientRect();
     }
@@ -571,7 +571,7 @@ var scroller = {
     }
     function loop() {
       var scrollTop = $window.scrollTop();
-      if(pagetitle == "Rent") var pathRect = scroller.path.getBoundingClientRect();
+      if(pageref == "rent") var pathRect = scroller.path.getBoundingClientRect();
       if (lastScrollTop === scrollTop) {
         raf(loop);
         return;
@@ -602,7 +602,7 @@ var scroller = {
     } else {
       scroller.menuCta.removeClass('bg-from-below');
     }
-    if(pagetitle == "Rent") {
+    if(pageref == "rent") {
       //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
       var path = scroller.path;
       // What % down is it?
@@ -716,7 +716,7 @@ var twitterModule = {
 
 }
 
-if(pagetitle == "Blog") twitterModule.init();
+if(pageref == "blog") twitterModule.init();
 
 if(!String.linkify) {
   String.prototype.linkify = function() {
@@ -774,6 +774,11 @@ function setupIp() {
     $("#user-region").val(userRegion);
   });
 }
+
+String.prototype.capitalize = function() {
+  return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 
 /* Set up JS listeners etc. that need to be initiated after document load */
 
@@ -846,19 +851,19 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pagetitle == "Fleet" || pagetitle == "Shuttle" || pagetitle == "Carpool" || pagetitle == "Park" || pagetitle == "Rent" || pagetitle == "City") {
-    $("select#subject-field").val("Wunder "+pagetitle).siblings('.select2').addClass('selected');
+  if(pageref == "fleet" || pageref == "shuttle" || pageref == "carpool" || pageref == "park" || pageref == "rent" || pageref == "city") {
+    $("select#subject-field").val("Wunder "+pageref.capitalize()).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
-  /*if(pagetitle == "Wunder City") {
+  /*if(pageref == "city") {
     $("select#subject-field").val("Wunder City").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }*/
-  if(pagetitle == "Home") {
+  if(pageref == "home") {
     $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
-  if(pagetitle == "Summit") {
+  if(pageref == "summit") {
     if(window.location.hash) {
       var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
       if(hash == 'apply') {

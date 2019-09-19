@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: City
+title: Wunder City | Helping cities harness mobility data
 date: 2019-01-10 23:00:00 +0000
 permalink: "/city"
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Mobility Sessions
+title: Mobility Sessions by Wunder Mobility
 date: 2019-01-22 23:00:00 +0000
 permalink: "/mobility-sessions/"
 page_sections:

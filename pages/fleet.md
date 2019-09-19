@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Fleet
+title: Wunder Fleet | Technology for car, bike & scooter sharing
 date: 2019-01-08T23:00:00.000+00:00
 permalink: "/fleet"
 lang: en
@@ -24,7 +24,7 @@ page_sections:
     url: "#main-video"
     button_text: Watch Fleet Film
     enabled: true
-  background_video: 
+  background_video:
   show_logos: true
   background_image: "/uploads/global/Fleet-Header-Image_40.jpg"
 - block: fleet-main

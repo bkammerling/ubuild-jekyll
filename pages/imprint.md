@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Imprint
+title: Imprint | Wunder Mobility
 date: 2019-02-10 23:00:00 +0000
 permalink: '/imprint'
 page_sections:

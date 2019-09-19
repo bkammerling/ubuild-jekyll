@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: City
+title: City | Wunder Mobility
 date: 2019-01-10 23:00:00 +0000
 permalink: "/de/city"
 lang: de

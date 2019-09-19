@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Signup for our Newlsetter
+title: Signup For Our Newlsetter | Wunder Mobility
 permalink: "/newsletter"
 page_sections:
 - template: navigation-header-w-button

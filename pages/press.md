@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Press
+title: Press | Wunder Mobility
 date: 2019-02-08 23:00:00 +0000
 permalink: press
 lang: en

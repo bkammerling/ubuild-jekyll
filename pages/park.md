@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Park
+title: Wunder Park | Digital Parking Management Software
 date: '2019-01-10T23:00:00.000+00:00'
 permalink: "/park"
 lang: en

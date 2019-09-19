@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Locations
+title: Locations | Wunder Mobility
 permalink: "/careers/locations"
 lang-ref: locations
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Carpool
+title: Wunder Carpool | Sustainable software solving congestion
 date: 2019-01-10T23:00:00.000+00:00
 permalink: "/carpool"
 lang: en
@@ -15,21 +15,20 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Improving the <strong>quality of life</strong> in cities through <strong>carpooling</strong>
+  headline: <strong>Optimize parking</strong> & <strong>reduce costs</strong> with carpooling
   cta:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video: 
+  background_video:
   show_logos: true
-  background_image: "/uploads/global/Image_Carpool@2x.jpg"
+  background_image: "/uploads/global/carpool-herobg@2x.jpg"
 - block: carpool-main
   subdirectory: static
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: Let's get your carpool service online ASAP! Drop in your details and our
-    team will get in touch with you in 24h.
+  content: Let's get your carpool service up and running in no time! Drop in your details and our team will get in touch with you in 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer

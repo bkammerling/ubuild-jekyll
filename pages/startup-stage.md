@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Startup Stage Battle
+title: Startup Stage Battle | Wunder Mobility Summit
 date: '2019-07-20T23:00:00.000+00:00'
 permalink: "/summit/startup-stage"
 page_sections:

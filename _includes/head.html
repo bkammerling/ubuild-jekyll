@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <!-- Anti-flicker snippet (recommended)  -->
+    <!-- Anti-flicker snippet (recommended) for Google Optimize  -->
     <style>.async-hide { opacity: 0 !important} </style>
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
     h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
@@ -22,22 +22,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="{{ site.baseurl }}">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ site.description }}">
-
-    <meta property="og:url"                content="{{ page.url }}" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />
-    <meta property="og:description"        content="{{ site.description }}" />
-    <meta property="og:image"              content="{{ site.url }}/uploads/global/share-img.png" />
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.url contains 'blog' %}
+      {% for person in site.people %}
+        {% if person.path == page.author %}
+        <meta name="author" content="{{ person.name }}">
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <meta name="author" content="{{ site.author }}">
+    {% endif %}
+    {% if page.url contains 'blog' and page.layout == 'simple-article' %}
+      <meta name="description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
+    {% else %}
+      <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {% endif %}
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% if page.layout == 'simple-article'%} | Wunder Blog{% endif %}" />
+    {% if page.url contains 'blog' and page.layout == 'simple-article' %}
+      <meta property="og:description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
+    {% else %}
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    {% endif %}
+    <meta property="og:image" content="{% if page.share-img %}{{ site.url }}{{ page.share-img }}{% else %}{{ site.url }}/uploads/global/share-img.png{% endif %}" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" async>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" async>
-    {% if page.url contains 'event' or page.url contains 'summit' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
+    {% if page.url contains 'session' or page.url contains 'summit' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
     <link rel="stylesheet" href="/css/styles.css" async>
-
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
 

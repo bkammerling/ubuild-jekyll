@@ -10,6 +10,7 @@ cta_link: []
 title: Wunder Mobility Launches in the U.S.
 publish_date: 2019-09-19 11:00:00 +0000
 featured_image: "/uploads/2019/09/19/us-blog.png"
+share-img: "/uploads/2019/09/19/wunder-uslaunch.png"
 excerpt: ''
 
 ---

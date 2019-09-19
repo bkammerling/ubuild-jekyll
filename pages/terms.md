@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Terms & Conditions
+title: Terms & Conditions | Wunder Mobility
 date: 2019-02-10 23:00:00 +0000
 permalink: '/terms'
 page_sections:

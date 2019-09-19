@@ -8,7 +8,7 @@
         <source src="{{ site.url }}/uploads/global/{{ section.background_video }}.mp4" type="video/mp4" />
     </video>
     {% endif %}
-    {% if page.dir != "/careers/" and page.title != "Home" and page.title != "Summit" %}
+    {% if page.dir != "/careers/" and page.lang-ref != "home" and page.lang-ref != "summit" %}
     <div class="video-banner__overflow"></div>
     {% endif %}
     <div class="container">
@@ -18,7 +18,7 @@
             <div class="video-banner__title-wrapper">
                 <h1 class="video-banner__title">{{ section.headline }}</h1>
                 {% if section.cta.enabled %}
-                <a class="round-cta dark gt-headercta" href="{{ section.cta.url }}" {% if page.title == 'Summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %}>{{ section.cta.button_text }}</a>
+                <a class="round-cta dark gt-headercta" href="{{ section.cta.url }}" {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %}>{{ section.cta.button_text }}</a>
                 {% endif %}
                 {% if section.cta_2.enabled %}
                 <a class="round-cta no-arrow gt-headercta{% if section.cta_2.button_text contains 'Film'%} with-play gt-videoplay{% else %} clear{% endif %}" href="{{ section.cta_2.url }}" target="_blank" {% if section.cta_2.button_text contains "Film" %}data-toggle="modal" data-target="#filmModal"{% endif %}>{{ section.cta_2.button_text }}</a>
@@ -65,7 +65,7 @@
     {% include block-logo-list.html rowname=logorow %}
   {% endif %}
 
-  {% if page.title == 'Summit' or page.title == 'Startup Stage Battle' %}
+  {% if page.lang-ref == 'summit' or page.lang-ref == 'stage-battle' %}
     {% include block-summit-info.html  %}
   {% endif %}
 

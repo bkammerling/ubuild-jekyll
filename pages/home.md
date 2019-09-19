@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Home
+title: Wunder Mobility | Driving forward urban mobility worldwide
 permalink: "/"
 lang: en
 lang-ref: home

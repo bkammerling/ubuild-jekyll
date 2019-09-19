@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Perks
+title: Perks | Wunder Mobility
 permalink: "/careers/perks"
 lang-ref: perks
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Shuttle
+title: Wunder Shuttle | Launch your on-demand shuttle operations
 date: 2019-01-10T23:00:00.000+00:00
 permalink: "/shuttle"
 lang: en
@@ -20,7 +20,7 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: true
-  background_video: 
+  background_video:
   show_logos: true
   background_image: "/uploads/global/Image_Shuttle@2x.jpg"
 - block: shuttle-main

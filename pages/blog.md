@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Blog
+title: Blog by Wunder Mobility | Exploring the Future of Mobility
 date: 2019-07-01 23:00:00 +0000
 permalink: "/blog"
 lang: en

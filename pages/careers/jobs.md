@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Jobs
+title: Jobs | Wunder Mobility
 permalink: "/careers/jobs"
 lang-ref: jobs
 lang: en

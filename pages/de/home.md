@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Home
+title: Wunder Mobility | Technologie Für Intelligente Mobilität
 date: 2019-01-08 23:00:00 +0000
 permalink: "/de/"
 lang: de

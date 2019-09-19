@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Summit
+title: Wunder Mobility Summit | Defining the Future of Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
 page_sections:
@@ -528,8 +528,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-lang-ref: ''
-lang: ''
+lang-ref: 'summit'
+lang: 'en'
 menu:
   wunder-main:
     weight: 2
@@ -538,41 +538,3 @@ menu:
     identifier: item_TVWQMxx
 
 ---
-{% comment %}
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container mt-5" id="section-howto">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section class="mt-5">
-            <h2 class="page-heading mb-4">How To Attend</h2>
-            <p class="mb-5 lead">You've seen what's on offer, but how can you get there! Well, we've split the process into 4 easy steps:</p>
-            <div class="row">
-              <div class="col-lg-11 offset-lg-1">
-                <div class="step-boxes d-flex flex-wrap flex-md-nowrap justify-content-between">
-                  <div class="box highlight-top w-shadow">
-                    <h2 class="text-grey2 mb-2">1.</h2>
-                    <p>Submit your details in the application form <a data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19" href="#" class="text-blue">here</a></p>
-                  </div>
-                  <div class="box highlight-top w-shadow">
-                    <h2 class="text-grey2 mb-2">2.</h2>
-                    <p>We’ll review the applications and get back to you within 4 days</p>
-                  </div>
-                  <div class="box highlight-top w-shadow">
-                    <h2 class="text-grey2 mb-2">3.</h2>
-                    <p>If accepted, you’ll receive a personalized link with a code to buy a ticket</p>
-                  </div>
-                  <div class="box highlight-top w-shadow">
-                    <h2 class="text-grey2 mb-2">4.</h2>
-                    <p>See you at the Maritimes Museum for an awesome one and half days!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: How to attend
-{% endcomment %}

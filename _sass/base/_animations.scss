@@ -105,3 +105,14 @@ $header-animtion-delay: 1s;
     stroke-dashoffset: 0;
   }
 }
+
+
+[data-aos="soft-up"] {
+  transform: translateY(20px);
+  opacity: 0;
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
