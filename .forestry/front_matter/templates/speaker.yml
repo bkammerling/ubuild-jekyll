@@ -29,6 +29,7 @@ fields:
     maxSize: 250
   label: Speaker Image
 pages:
+- _people/sam-baker.md
 - _people/Elizabeth-benitez-profile.md
 - _people/LiliyaPislarGuestWriter.md
 - _people/PurnimaKumar.md
