@@ -17,7 +17,7 @@ For the vast majority of Americans, mobility has only ever looked like one thing
 
 This presents a meaningful challenge for stakeholders within the mobility space, from OEMs to fleet operators to those new market entrants who are trying to respond and harness these trends.
 
-**That is why we at Wunder Mobility are thrilled to announce that we are expanding operations into the United States.** 
+**That is why we at Wunder Mobility are thrilled to announce that we are expanding operations into the United States.**
 
 ![](/uploads/2019/09/19/ny-top.jpg)
 
