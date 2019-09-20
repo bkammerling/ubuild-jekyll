@@ -86,7 +86,7 @@ wunder-main:
   identifier: press
   title: Press
   parent: company
-  subtitle: Yeh, we're being talked about!
+  subtitle: Yeah, we're being talked about!
 
 
 wunder-de:
@@ -238,11 +238,6 @@ footer:
     weight: 2
     title: Press
     parent: company
-  - identifier: app
-    url: "https://help.wunder.org"
-    weight: 1
-    title: Carpool App
-    parent: wunder_app
   weight: 3
 - identifier: footercareers
   title: Careers
@@ -299,31 +294,31 @@ footer:
   col: 1
   weight: 4
   items:
-  - identifier: carpool
-    url: "/carpool"
-    weight: 1
-    title: Wunder Carpool
-    parent: solutions
-  - identifier: shuttle
-    url: "/shuttle"
-    weight: 2
-    title: Wunder Shuttle
-    parent: solutions
   - identifier: fleet
     url: "/fleet"
-    weight: 3
+    weight: 1
     title: Wunder Fleet
     parent: solutions
-  - identifier: park
-    url: "/park"
-    weight: 4
-    title: Wunder Park
-    parent: solutions
   - url: "/rent"
-    weight: 5
+    weight: 2
     parent: solutions
     identifier: rent
     title: Wunder Rent
+  - identifier: shuttle
+    url: "/shuttle"
+    weight: 3
+    title: Wunder Shuttle
+    parent: solutions
+  - identifier: carpool
+    url: "/carpool"
+    weight: 4
+    title: Wunder Carpool
+    parent: solutions
+  - identifier: park
+    url: "/park"
+    weight: 5
+    title: Wunder Park
+    parent: solutions
   - identifier: city
     url: "/city"
     weight: 6
