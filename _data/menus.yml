@@ -5,38 +5,38 @@ wunder-main:
   title: Solutions
   identifier: solutions
   sub: true
-- url: "/carpool"
-  weight: 1
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-  subtitle: Fill empty seats in privately owned vehicles
-- url: "/shuttle"
-  weight: 2
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
-  subtitle: Dynamic-routing and ride-hailing for your fleet
 - url: "/fleet"
-  weight: 3
+  weight: 1
   parent: solutions
   identifier: fleet
   title: Fleet
   subtitle: All-in-one technology for car & scooter sharing
-- url: "/park"
-  weight: 4
-  parent: solutions
-  identifier: park
-  title: Park
-  subtitle: Automated digital parking management
 - url: "/rent"
-  weight: 5
+  weight: 2
   parent: solutions
   identifier: rent
   title: Rent
   subtitle: Self-service and fully-online rentals
-- url: "/city"
+- url: "/shuttle"
+  weight: 3
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+  subtitle: Dynamic-routing and ride-hailing for your fleet
+- url: "/carpool"
+  weight: 4
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+  subtitle: Fill empty seats in privately owned vehicles
+- url: "/park"
   weight: 5
+  parent: solutions
+  identifier: park
+  title: Park
+  subtitle: Automated digital parking management
+- url: "/city"
+  weight: 6
   parent: solutions
   identifier: city
   title: City

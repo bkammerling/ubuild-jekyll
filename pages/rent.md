@@ -15,7 +15,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Software that drives <strong>your rental services</strong> forward
+  headline: Technology that drives <strong>your rental services</strong> forward
   cta:
     button_text: Contact Us
     url: "#section-contact"
