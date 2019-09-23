@@ -89,7 +89,7 @@ page_sections:
     bio: ''
     linkedin: https://www.linkedin.com/in/konstantinmihov/
   - name: Ashkan Kalantary
-    job_title: 'Director  Entrepreneurial and Venture Capital Business '
+    job_title: NextLevel Director
     company: PWC
     speaker_photo: "/uploads/2019/09/23/Ashkan-Kalantary.jpg"
     company_logo: "/uploads/2019/07/03/PWC.png"
