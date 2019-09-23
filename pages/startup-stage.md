@@ -73,7 +73,7 @@ page_sections:
     speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     company_logo: "/uploads/global/googlelogo.svg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/phaller/
   - name: Jens-Philipp Klein
     job_title: Managing Partner
     company: Atlantic Labs
