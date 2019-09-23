@@ -101,7 +101,7 @@ page_sections:
     speaker_photo: "/uploads/2019/08/06/Sana.png"
     company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/sana-william-sidibeh-102592a5/
 - template: columns
   heading: Judging Criteria
   block: columns
