@@ -73,28 +73,35 @@ page_sections:
     speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     company_logo: "/uploads/global/googlelogo.svg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/phaller/
   - name: Jens-Philipp Klein
     job_title: Managing Partner
     company: Atlantic Labs
     speaker_photo: "/uploads/2019/08/13/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/08/13/atlanticslab_logo.jpg"
     bio: ''
-    linkedin: ''
-  - name: Sana Sidibeh
-    job_title: Corporate Development Manager
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/08/06/Sana.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/jens-philipp-klein-332a797/
   - name: Konstantin Mihov
     job_title: Incubation And Communication
     company: co-pace
     speaker_photo: "/uploads/2019/08/15/Konstantin-Mihov.jpg"
     company_logo: "/uploads/2019/08/15/copace-logo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/konstantinmihov/
+  - name: Ashkan Kalantary
+    job_title: NextLevel Director
+    company: PWC
+    speaker_photo: "/uploads/2019/09/23/Ashkan-Kalantary.jpg"
+    company_logo: "/uploads/2019/07/03/PWC.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/akalantary/
+  - name: Sana Sidibeh
+    job_title: Corporate Development Manager
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/08/06/Sana.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sana-william-sidibeh-102592a5/
 - template: columns
   heading: Judging Criteria
   block: columns
