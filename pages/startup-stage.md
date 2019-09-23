@@ -81,13 +81,6 @@ page_sections:
     company_logo: "/uploads/2019/08/13/atlanticslab_logo.jpg"
     bio: ''
     linkedin: ''
-  - name: Sana Sidibeh
-    job_title: Corporate Development Manager
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/08/06/Sana.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: ''
   - name: Konstantin Mihov
     job_title: Incubation And Communication
     company: co-pace
@@ -102,6 +95,13 @@ page_sections:
     company_logo: "/uploads/2019/07/03/PWC.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/akalantary/
+  - name: Sana Sidibeh
+    job_title: Corporate Development Manager
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/08/06/Sana.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: ''
 - template: columns
   heading: Judging Criteria
   block: columns
