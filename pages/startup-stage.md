@@ -95,6 +95,13 @@ page_sections:
     company_logo: "/uploads/2019/08/15/copace-logo.png"
     bio: ''
     linkedin: ''
+  - name: Ashkan Kalantary
+    job_title: 'Director  Entrepreneurial and Venture Capital Business '
+    company: PWC
+    speaker_photo: "/uploads/2019/09/23/Ashkan-Kalantary.jpg"
+    company_logo: "/uploads/2019/07/03/PWC.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/akalantary/
 - template: columns
   heading: Judging Criteria
   block: columns
