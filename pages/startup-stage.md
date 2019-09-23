@@ -80,7 +80,7 @@ page_sections:
     speaker_photo: "/uploads/2019/08/13/Jens-Philipp-Klein.jpg"
     company_logo: "/uploads/2019/08/13/atlanticslab_logo.jpg"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/jens-philipp-klein-332a797/
   - name: Konstantin Mihov
     job_title: Incubation And Communication
     company: co-pace
