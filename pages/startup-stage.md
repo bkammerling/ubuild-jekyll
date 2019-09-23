@@ -87,7 +87,7 @@ page_sections:
     speaker_photo: "/uploads/2019/08/15/Konstantin-Mihov.jpg"
     company_logo: "/uploads/2019/08/15/copace-logo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/konstantinmihov/
   - name: Ashkan Kalantary
     job_title: 'Director  Entrepreneurial and Venture Capital Business '
     company: PWC
