@@ -22,7 +22,7 @@ page_sections:
     enabled: true
   background_video:
   show_logos: true
-  background_image: "/uploads/global/Image_Carpool@2x.jpg"
+  background_image: "/uploads/global/carpool-herobg@2x.jpg"
 - block: carpool-main
   subdirectory: static/de
 - template: detail-content
