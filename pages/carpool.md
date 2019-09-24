@@ -28,7 +28,7 @@ page_sections:
 - template: detail-content
   block: contact-form
   title: Let's Talk
-  content: Let's get your carpool service up and running in no time! Drop in your details and our team will get in touch with you in 24h.
+  content: Let's get your carpool service up and running within a month. Let us know some info and our team will get back to you.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer

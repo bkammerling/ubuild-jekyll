@@ -2,8 +2,14 @@ AOS.init({
   // Global settings:
   duration: 600,
   once: true,
-  disable: 'mobile'
+  disable: 'mobile',
+  startEvent: 'load'
 });
+
+window.addEventListener('load', function() {
+  AOS.refresh();
+});
+
 
 var videoPlayer = {
   player: null,
@@ -155,7 +161,10 @@ menu.init();
 
 
 var myLazyLoad = new LazyLoad({
-    elements_selector: "img[data-src]"
+    elements_selector: "img[data-src]",
+    callback_load: function () {
+      AOS.refresh();
+    }
 });
 var myLazyLoad2 = new LazyLoad({
     elements_selector: ".lazy"

@@ -35,7 +35,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label class="form-label" for="company">{% unless page.url == '/city' %}Your company *{% else %}Your city *{% endunless %}</label>
+                  <label class="form-label" for="company">{% unless page.url == '/city' %}Company Name *{% else %}Your city *{% endunless %}</label>
                   <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
                   <div class="bottom-border"></div>
                 </div>
@@ -63,12 +63,12 @@
               </div>
             </div>
             <div class="hidden extra-form">
-              <div class="form-group shuttle carpool fleet park rent">
+              <div class="form-group shuttle fleet park rent">
                 <label class="form-label" for="url">Company URL</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
-              <div class="form-group shuttle carpool fleet">
+              <div class="form-group shuttle fleet">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Type of company *</option>
@@ -152,7 +152,7 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              <div class="form-group fleet carpool shuttle">
+              <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
                     <option disabled selected>When would you like to launch? *</option>
@@ -173,22 +173,6 @@
                     <option value="Personally funded">Personally funded</option>
                     <option value="Not yet funded">Not yet funded / Other</option>
                   </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group carpool">
-                <div class="select-wrapper multiple">
-                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What's the reason(s) you're interested in carpooling? *</option>
-                    <option>Scale a new transportation service</option>
-                    <option>Optimise employee transportation</option>
-                    <option>Save parking spaces</option>
-                    <option>To lower CO<sub>2</sub> emissions & support decongestion</option>
-                    <option>Other</option>
-                  </select>
-                  <label for="carpool-interest[]" class="w-100">
-                    What's the reason(s) you're interested in carpooling? *
-                  </label>
                   <div class="bottom-border"></div>
                 </div>
               </div>
@@ -221,8 +205,8 @@
                 </div>
               </div>
               <div class="form-group general fleet shuttle carpool city park rent">
-                <label class="form-label" for="message">Message</label>
-                <textarea type="text" name="message" id="message"></textarea>
+                <label class="form-label" for="message">Message {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
+                <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group support">
