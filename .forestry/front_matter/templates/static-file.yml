@@ -7,7 +7,7 @@ fields:
   hidden: true
   label: block
   name: Block
-  default:
+  default: 
 - type: text
   hidden: true
   label: subdirectory
