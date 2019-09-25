@@ -55,6 +55,7 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/carpool.md
 - pages/summit18.md
 - pages/home.md
 - pages/summit.md
