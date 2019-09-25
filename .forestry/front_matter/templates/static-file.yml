@@ -1,0 +1,15 @@
+---
+label: Static File
+hide_body: false
+display_field: block
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: Block
+  default:
+- type: text
+  hidden: true
+  label: subdirectory
+  name: Subdirectory
+  default: static

@@ -25,6 +25,7 @@ page_sections:
   background_image: "/uploads/global/carpool-herobg@2x.jpg"
 - block: carpool-main
   subdirectory: static
+  template: static-file
 - template: detail-content
   block: contact-form
   title: Let's Talk
