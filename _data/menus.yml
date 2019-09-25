@@ -28,7 +28,7 @@ wunder-main:
   parent: solutions
   identifier: carpool
   title: Carpool
-  subtitle: Fill empty seats in privately owned vehicles
+  subtitle: Employees drive to work together
 - url: "/park"
   weight: 5
   parent: solutions

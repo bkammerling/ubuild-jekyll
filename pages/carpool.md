@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Carpool | Sustainable software solving congestion
+title: Wunder Carpool | Optimize parking and reduce costs
 date: 2019-01-10T23:00:00.000+00:00
 permalink: "/carpool"
 lang: en
