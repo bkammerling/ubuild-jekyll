@@ -62,7 +62,7 @@
             {{ next_event.event_date | date: "%B" }}
             {{ next_event.event_date | date: "%Y" }} <br>{{ next_event.event_location }}</h1>
             <p class="text-black w-75 lead mb-5">{{ next_event.event_description }}</p>
-            <a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>
+            {% if next_event.output_page %}<a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>{% else %}<p>More information coming soon</p>{% endif %}
 
           </section>
         </div>
