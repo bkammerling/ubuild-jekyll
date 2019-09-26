@@ -33,6 +33,8 @@ Many manufacturers don’t include a built-in IoT device. Imagine the pain of or
 
 It’s kind of obvious, right? Instead of trying to piece together the components of a successful vehicle sharing company by yourself, why not go for the complete package deal that can offer you everything you need? 
 
+> Brand visibility is everything
+
 A white label user app, an efficient management system that gives you a thorough overview of user accounts and payments, analytics that let you make well-informed decisions and of course the vehicles themselves should all be included in a solid, all-in-one vehicle sharing platform.
 
 ### Do: Make Sure Customization is an Option
