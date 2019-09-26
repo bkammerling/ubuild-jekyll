@@ -31,10 +31,14 @@ Many manufacturers don’t include a built-in IoT device. Imagine the pain of or
 
 ### Do: Find a Vehicle Provider Who Can Offer You a Complete Package
 
-It’s kind of obvious, right? Instead of trying to piece together the components of a successful vehicle sharing company by yourself, why not go for the complete package deal that can offer you everything you need? A white label user app, an efficient management system that gives you a thorough overview of user accounts and payments, analytics that let you make well-informed decisions and of course the vehicles themselves should all be included in a solid, all-in-one vehicle sharing platform.
+It’s kind of obvious, right? Instead of trying to piece together the components of a successful vehicle sharing company by yourself, why not go for the complete package deal that can offer you everything you need? 
+
+A white label user app, an efficient management system that gives you a thorough overview of user accounts and payments, analytics that let you make well-informed decisions and of course the vehicles themselves should all be included in a solid, all-in-one vehicle sharing platform.
 
 ### Do: Make Sure Customization is an Option
 
-Last but most certainly not least, if you want to start your own vehicle sharing company, you’ll want to be able to customize _everything_ with your own logo, colors and icons. This includes not only having a branded user app, but of course having branded vehicles as well. Are you banking on having a neon color palette to attract tourists in a crowded city center, or are you going after commuters and business people by offering them a sleek, minimalistic look? Whoever your target market might be, you know that the customizable factor is an absolute dealbreaker - brand visibility is, after all, everything.
+Last but most certainly not least, if you want to start your own vehicle sharing company, you’ll want to be able to customize _everything_ with your own logo, colors and icons. This includes not only having a branded user app, but of course having branded vehicles as well. 
+
+Are you banking on having a neon color palette to attract tourists in a crowded city center, or are you going after commuters and business people by offering them a sleek, minimalistic look? Whoever your target market might be, you know that the customizable factor is an absolute dealbreaker - brand visibility is, after all, everything.
 
 Selecting vehicles for your fleet might seem like the most “fun” part of getting your concept off the ground, but it’s not exactly a walk in the park. For consultation and advice on getting started and selecting the perfect vehicle type for your business, click on the contact us button below and we’ll get in touch with you within 24 hours.
