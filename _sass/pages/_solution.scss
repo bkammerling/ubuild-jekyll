@@ -699,6 +699,54 @@ xrotate-2
 }
 
 
+/* --------------------------------
+xpush
+-------------------------------- */
+.cd-headline.push b {
+  opacity: 0;
+}
+.cd-headline.push b.is-visible {
+  opacity: 1;
+  -webkit-animation: push-in 0.6s;
+  -moz-animation: push-in 0.6s;
+  animation: push-in 0.6s;
+}
+.cd-headline.push b.is-hidden {
+  -webkit-animation: push-out 0.6s;
+  -moz-animation: push-out 0.6s;
+  animation: push-out 0.6s;
+}
+
+
+@keyframes push-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes push-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
 
 
 .solution-wrapper.header-bridge {

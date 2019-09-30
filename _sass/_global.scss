@@ -495,7 +495,7 @@ ul.dropdown-padded {
     &.expand {
       background-color: $background-grey;
       flex: 1 1 66%;
-      z-index: -1;
+      z-index: 0;
       .card-img {
         opacity: 1;
       }

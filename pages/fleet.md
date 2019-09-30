@@ -15,7 +15,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: <div class="cd-headline letters rotate-2"><strong>all-in-one</strong> platform for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b><b>smart&nbsp;mobility</b></span>
+  headline: <div class="cd-headline push"><strong>all-in-one</strong> platform for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b><b>smart&nbsp;mobility</b></span>
   cta:
     button_text: Contact Us
     url: "#section-contact"

@@ -7,9 +7,14 @@ excerpt: Expanding metropolises will have to come up with modern solutions to th
   complex problems - and fast!
 featured_image: "/uploads/2019/07/05/orangedystopia.jpeg"
 author: _people/pia-benthien.md
-cta_heading: ''
-cta_text: ''
-cta_link: ''
+cta_heading: Find Out More About Wunder City
+cta_text: Wunder City helps cities understand changes in mobility and analyze data
+  to make smarter, greener decisions.
+cta_link: pages/city.md
+tags:
+- future of mobility
+- cities
+- pollution
 
 ---
 **Long gone is the golden age of private vehicle ownership: cities are swelling, opinions are changing and a new approach to urban mobility is rapidly gaining traction.**
