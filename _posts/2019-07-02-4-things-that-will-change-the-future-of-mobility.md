@@ -11,6 +11,10 @@ author: _people/pia-benthien.md
 cta_heading: ''
 cta_text: ''
 cta_link: ''
+tags:
+- future of mobility
+- cities
+- pollution
 
 ---
 **Long gone is the golden age of private vehicle ownership: cities are swelling, opinions are changing and a new approach to urban mobility is rapidly gaining traction.**
