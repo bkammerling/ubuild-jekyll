@@ -27,11 +27,11 @@ If you can relate, don’t fret. We’ve already covered what to look for in an 
 
 Let’s start with the classic rookie mistake, which is assuming you can bypass a good hardware provider and go straight to a vehicle manufacturer based overseas, order a veritable armada of e-scooters or mopeds at a jaw-droppingly low wholesale price and be on your merry way, praising yourself mentally for your cost-saving tactics.
 
-Many manufacturers don’t include a built-in IoT device. Imagine the pain of ordering a fleet of mopeds, shipping them back to your home country and then having to deal with retrofitting IoT devices onto all of them - not only does that cost time, it costs money. Which brings us to our next point:
+But many manufacturers don’t include a built-in IoT device. Imagine the pain of ordering a fleet of mopeds, shipping them back to your home country and then having to deal with retrofitting IoT devices onto all of them - not only does that cost time, it costs money. Which brings us to our next point:
 
 ### Do: Find a Vehicle Provider Who Can Offer You a Complete Package
 
-It’s kind of obvious, right? Instead of trying to piece together the components of a successful vehicle sharing company by yourself, why not go for the complete package deal that can offer you everything you need? 
+It’s kind of obvious, right? Instead of trying to piece together the components of a successful vehicle sharing company by yourself, why not go for the complete package deal that can offer you everything you need?
 
 > Brand visibility is everything.
 
@@ -39,7 +39,7 @@ A white label user app, an efficient management system that gives you a thorough
 
 ### Do: Make Sure Customization is an Option
 
-Last but most certainly not least, if you want to start your own vehicle sharing company, you’ll want to be able to customize _everything_ with your own logo, colors and icons. This includes not only having a branded user app, but of course having branded vehicles as well. 
+Last but most certainly not least, if you want to start your own vehicle sharing company, you’ll want to be able to customize _everything_ with your own logo, colors and icons. This includes not only having a branded user app, but of course having branded vehicles as well.
 
 Are you banking on having a neon color palette to attract tourists in a crowded city center, or are you going after commuters and business people by offering them a sleek, minimalistic look? Whoever your target market might be, you know that the customizable factor is an absolute dealbreaker - brand visibility is, after all, everything.
 
