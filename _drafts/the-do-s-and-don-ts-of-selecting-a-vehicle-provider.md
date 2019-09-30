@@ -21,7 +21,7 @@ So you want to start a vehicle sharing company. That’s great news! The only pr
 
 ![](/uploads/2019/09/26/selectingavehicleproviderbody.jpg)
 
-If you can relate, don’t fret. We’ve already covered what to look for in an ideal software provider, but what about your vehicle and/or hardware provider? There are different factors to consider before simply picking the cheapest or coolest-looking vehicles you can find. That’s why we've compiled a handy list of do’s and don’ts to keep in mind when selecting your vehicle-slash-hardware provider.
+If you can relate, don’t fret. We’ve already covered [what to look for in an ideal software provider](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider "5 Things to Look for in Your Software Provider"), but what about your vehicle and/or hardware provider? There are different factors to consider before simply picking the cheapest or coolest-looking vehicles you can find. That’s why we've compiled a handy list of do’s and don’ts to keep in mind when selecting your vehicle-slash-hardware provider.
 
 ### Don’t: Try to Strike Your Own Deals With Manufacturers
 
