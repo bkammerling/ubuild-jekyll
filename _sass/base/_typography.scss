@@ -146,6 +146,7 @@ strong {
 
 .lighter {
   font-weight: 300 !important;
+  font-size: 96%;
 }
 
 .text-lighter {
@@ -254,6 +255,33 @@ p, a, h4, h3, h2, h1, li, span, div {
     &:hover {
       opacity: 0.8;
     }
+  }
+
+}
+
+
+.larger {
+
+  p {
+    color: $olive-matt;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  p.lead {
+    font-size: 18px;
+    line-height: 27px;
+    @include rwd(mobile-up) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    text-transform: none;
   }
 
 }

@@ -15,7 +15,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Technology powering <strong>car & scooter sharing</strong> worldwide
+  headline: <div class="cd-headline letters rotate-2"><strong>all-in-one</strong> platform for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b><b>smart&nbsp;mobility</b></span>
   cta:
     button_text: Contact Us
     url: "#section-contact"
@@ -24,9 +24,9 @@ page_sections:
     url: "#main-video"
     button_text: Watch Fleet Film
     enabled: true
-  background_video:
+  background_video: fleet_loop
   show_logos: true
-  background_image: "/uploads/global/Fleet-Header-Image_40.jpg"
+  background_image: "/uploads/global/fleet-frame.jpg"
 - block: fleet-main
   subdirectory: static
 - template: detail-content

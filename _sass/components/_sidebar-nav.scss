@@ -33,10 +33,11 @@
     letter-spacing: 1px;
     white-space: nowrap;
     line-height: 19px;
+    overflow: hidden;
 
     &.active {
       color: $olive-matt;
-      font-weight: 900;
+      font-weight: 700;
     }
     &:hover {
       color: $olive-matt;
@@ -50,34 +51,35 @@
       left: 0;
       top: 0;
       height: 100%;
-      width: 5px;
+      width: 2px;
       background: #e0e0e0;
       border-radius: 5px;
     }
+
     &:after {
       content: '';
-      display: block;
       position: absolute;
-      z-index: 10;
-      left: 1px;
-      top: calc(50% - 5px);
-      height: 3px;
-      width: 3px;
-      background: $white;
-      border-radius: 3px;
+      display: block;
+      z-index: 11;
+      height: 100%;
+      margin-top: 0;
+      width: 2px;
+      top: 12px;
+      left: 0px;
+      background: $olive-matt;
+      border-radius: 5px;
+      transform: translateY(-12px);
       transition: all 0.4s;
     }
 
     &.active:after {
-      height: 100%;
-      width: 5px;
-      top: 12px;
-      left: 0px;
-      background: $olive-matt;
-      border-radius: 7px;
-      transform: translateY(-12px);
+      margin-top: 0;
     }
-
+    &.active ~ a {
+      &:after {
+        margin-top: -100%;
+      }
+    }
 
   }
 
