@@ -572,6 +572,9 @@ main {
   position: relative;
   #section-app & {
     height: 530px;
+    img {
+      filter: drop-shadow(0px 4px 9px rgba(0,0,0,0.2));
+    }
   }
   #section-hardware & {
     height: 520px;
