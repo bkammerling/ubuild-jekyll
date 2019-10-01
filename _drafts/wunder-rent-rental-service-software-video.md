@@ -10,7 +10,7 @@ cta_heading: Find Out More About Wunder Rent
 cta_text: Wunder Rent software can help you get your booking rates up and revamp your
   rental company with minimal effort.
 cta_link: pages/rent.md
-title: Drive Your Rental Services Forward [Video]
+title: 'Wunder Rent: Driving Your Rental Services Forward [Video]'
 publish_date: 2019-10-01 00:00:00 +0000
 featured_image: "/uploads/2019/10/01/wunder-rent-still-list.png"
 excerpt: 'Find out how Wunder Rent can help you revamp your rental company and digitalize
