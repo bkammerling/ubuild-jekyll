@@ -526,7 +526,7 @@ ul.dropdown-padded {
     .fleet & {
       @include rwd(desktop-down) {
         background-color: $background-grey;
-        z-index: -1;
+        z-index: 0;
         width: 450px;
         max-width: 100%;
         margin: 0 auto 1rem;

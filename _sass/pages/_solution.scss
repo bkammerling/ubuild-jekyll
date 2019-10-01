@@ -571,9 +571,18 @@ main {
 .clipped-wrapper {
   position: relative;
   #section-app & {
-    height: 530px;
+    text-align: center;
     img {
       filter: drop-shadow(0px 4px 9px rgba(0,0,0,0.2));
+      position: static;
+      margin-bottom: -160px;
+    }
+    @include rwd(tablet-up) {
+      height: 530px;
+      img {
+        position: absolute;
+        margin-bottom: 0;
+      }
     }
   }
   #section-hardware & {
