@@ -11,30 +11,28 @@ window.addEventListener('load', function() {
 });
 
 //set animation timing
-	var animationDelay = 3500,
-		//loading bar effect
-		barAnimationDelay = 3800,
-		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
-		//letters effect
-		lettersDelay = 50,
-		//type effect
-		typeLettersDelay = 150,
-		selectionDuration = 500,
-		typeAnimationDelay = selectionDuration + 800,
-		//clip effect
-		revealDuration = 600,
-		revealAnimationDelay = 1500;
+var animationDelay = 3500,
+	//loading bar effect
+	barAnimationDelay = 3800,
+	barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
+	//letters effect
+	lettersDelay = 50,
+	//type effect
+	typeLettersDelay = 150,
+	selectionDuration = 500,
+	typeAnimationDelay = selectionDuration + 800,
+	//clip effect
+	revealDuration = 600,
+	revealAnimationDelay = 1500;
 
-	initHeadline();
-
-var animationDelay = 2500;
+initHeadline();
 
 function initHeadline() {
-		//insert <i> element for each letter of a changing word
-		//singleLetters($('.cd-headline.letters').find('b'));
-		//initialise headline animation
-		animateHeadline($('.cd-headline'));
-	}
+	//insert <i> element for each letter of a changing word
+	//singleLetters($('.cd-headline.letters').find('b'));
+	//initialise headline animation
+	animateHeadline($('.cd-headline'));
+}
 
 function singleLetters($words) {
    $words.each(function(){
@@ -88,37 +86,9 @@ function hideWord($word) {
     }
 
 }
-
-
-
-/*
-function hideLetter($letter, $word, $bool, $duration) {
-	$letter.removeClass('in').addClass('out');
-
-	if(!$letter.is(':last-child')) {
-	 	setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);
-	} else if($bool) {
-	 	setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
-	}
-
-}
-
-function showLetter($letter, $word, $bool, $duration) {
-	$letter.addClass('in').removeClass('out');
-
-	if(!$letter.is(':last-child')) {
-		setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration);
-	} else {
-		if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 200);}
-		if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
-	}
-}
-*/
-
 function takeNext($word) {
 	return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
 }
-
 
 
 
@@ -975,10 +945,10 @@ $(document).ready(function() {
     $("select#subject-field").val("Wunder "+pageref.capitalize()).siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
-  /*if(pageref == "city") {
-    $("select#subject-field").val("Wunder City").siblings('.select2').addClass('selected');
+  if(pageref == "wunderfleet") {
+    $("select#subject-field").val("Wunder Fleet").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
-  }*/
+  }
   if(pageref == "home") {
     $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
