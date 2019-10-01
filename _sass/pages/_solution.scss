@@ -572,6 +572,9 @@ main {
   position: relative;
   #section-app & {
     height: 530px;
+    img {
+      filter: drop-shadow(0px 4px 9px rgba(0,0,0,0.2));
+    }
   }
   #section-hardware & {
     height: 520px;
@@ -622,15 +625,15 @@ ul.icon-list {
 }
 
 .hue-rotate-anim {
-  animation: hue-rotate 9s linear infinite alternate;
+  animation: hue-rotate 5s linear infinite alternate;
 }
 
 @keyframes hue-rotate {
   0%   {
-    filter: hue-rotate(320deg);
+    filter: hue-rotate(250deg) brightness(1.2);
   }
   20%   {
-    filter: hue-rotate(320deg);
+    filter: hue-rotate(250deg) brightness(1.2);
   }
   25% {
     filter: hue-rotate(360deg);

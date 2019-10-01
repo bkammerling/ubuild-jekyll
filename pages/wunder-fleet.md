@@ -3,9 +3,9 @@ layout: blocks
 title: Wunder Fleet | Technology for car, bike & scooter sharing
 date: 2019-01-08T23:00:00.000+00:00
 permalink: "/wunder-fleet"
-published: false
+published: true
 lang: en
-lang-ref: fleet
+lang-ref: wunderfleet
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -28,7 +28,7 @@ page_sections:
   background_video:
   show_logos: true
   background_image: "/uploads/global/Fleet-Header-Image_40.jpg"
-- block: fleet-main
+- block: wunderfleet-main
   subdirectory: static
 - template: detail-content
   block: contact-form
