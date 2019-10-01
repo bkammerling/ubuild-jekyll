@@ -100,7 +100,7 @@ main {
 
 #section-hardware {
   svg {
-    margin: -100px auto -150px;
+    margin: -40px auto -150px;
     @include rwd(tablet-up) {
         margin: 0 auto -150px;
     }
