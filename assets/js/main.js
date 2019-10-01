@@ -299,6 +299,7 @@ var form = {
     }
     console.log(data);
 
+
     $.ajax({
       url: postURL,
       method: "POST",
@@ -385,6 +386,10 @@ form.init();
 function formSubmit(e) {
   e.preventDefault();
   $(e.target).attr("disabled", true);
+  if(document.URL.indexOf('fleet') != -1) {
+    console.log('subject fleet');
+    $("#utm_source").val(document.URL);
+  }
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
