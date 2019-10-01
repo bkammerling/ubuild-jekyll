@@ -5,11 +5,11 @@ tags:
 - rent
 - software
 - video
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/pia-benthien.md
+cta_heading: Find Out More About Wunder Rent
+cta_text: Wunder Rent software can help you get your booking rates up and revamp your
+  rental company with minimal effort.
+cta_link: pages/rent.md
 title: 'Wunder Rent: Rental Service Software [Video]'
 publish_date: 2019-10-01 00:00:00 +0000
 featured_image: "/uploads/2019/10/01/wunder-rent-still-list.png"
