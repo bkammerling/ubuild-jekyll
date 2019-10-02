@@ -24,7 +24,6 @@ A new addition to the agenda this year will be the startup stage battle, which i
 
 I’m intrigued by the key issues we will be discussing this year, among them autonomous driving, urbanization and smart cities, the electrification of vehicles, public transportation and MaaS, next-gen mobile networks and aerial vehicle mobility.
 
-  
 I look forward to seeing you in Hamburg at the Überquell BrewPub on the 6th of November for our kick-off party - let’s shape the future of mobility together!
 
 See you in Hamburg,
