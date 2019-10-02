@@ -12,7 +12,7 @@ cta_text: The Wunder Mobility Summit is a unique conference and innovation festi
 cta_link: pages/summit.md
 title: Countdown to WMS - A Letter from Gunnar Froh
 publish_date: 2019-10-02 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/10/02/WMS-blog.png"
 excerpt: Speakers from a wide range of companies and organizations will travel to
   Hamburg for the WMS, unified by the common goal of **accelerating the transition
   to sustainable mobility**.
