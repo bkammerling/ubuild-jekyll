@@ -71,6 +71,12 @@ fields:
       file: 
       path: 
   label: Author
+- name: share_image
+  type: file
+  config:
+    maxSize: '1'
+  label: Share Image
+  description: The image that is displayed when this post is shared on social media
 - name: cta_heading
   type: text
   config:
