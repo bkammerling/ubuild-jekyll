@@ -23,6 +23,12 @@ fields:
   label: Language
   name: lang
   hidden: true
+- name: share_image
+  type: file
+  config:
+    maxSize: '1'
+  label: Share Image
+  description: The wide image that displays when this page is shared on social media
 - type: blocks
   name: page_sections
   label: Page Sections
