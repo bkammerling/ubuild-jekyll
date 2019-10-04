@@ -615,12 +615,20 @@ main {
 ul.icon-list {
   li {
     margin-top: 0.9rem;
-    font-size: 20px;
+    font-size: 17px;
   }
   ion-icon {
-    font-size: 24px;
-    margin-bottom: -4px;
-    margin-right: 8px;
+    font-size: 22px;
+    margin: auto;
+    display: block;
+    @include rwd(tablet-up) {
+      margin: 0;
+    }
+    @include rwd(desktop-up) {
+      margin-bottom: -4px;
+      margin-right: 8px;
+      display: inline-block;
+    }
   }
 
 }

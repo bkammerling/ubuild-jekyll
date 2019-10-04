@@ -28,8 +28,6 @@ var animationDelay = 2500,
 initHeadline();
 
 function initHeadline() {
-	//insert <i> element for each letter of a changing word
-	//singleLetters($('.cd-headline.letters').find('b'));
 	//initialise headline animation
 	animateHeadline($('.cd-headline'));
 }
@@ -932,13 +930,7 @@ $(document).ready(function() {
       $("form .extra-form > div:not(."+selection+")").find('select').prop('required', false);
       $("form .extra-form").slideDown();
     }
-    /*
-    if(selection == "Wunder City") {
-      $("#company-field").val("Your City *");
-    } else {
-      $("#company-field").val("Your Company *");
-    }
-    */
+
   });
 
   $('.select-wrapper.multiple select').on('select2:opening select2:closing', function( event ) {
@@ -1013,7 +1005,6 @@ $(document).ready(function() {
     if (target.length) {
       event.preventDefault();
       // Only prevent default if animation is actually gonna happen
-      event.preventDefault();
       $('html, body').animate({
         scrollTop: target.offset().top - topOffset
       }, 600, function() {
@@ -1022,7 +1013,14 @@ $(document).ready(function() {
         });
         // Callback after animation
       });
+      var eventTarget = $(event.target);
+      if(eventTarget.data('input')){
+        var inputTarget = $('#'+eventTarget.data('input'));
+        inputTarget.val(eventTarget.data('value')).siblings('.select2').addClass('selected')
+        inputTarget.trigger('change.select2').trigger('change');;
+      }
     }
+
   });
 
   // runnning google recaptcha on load helps it learn who's using our site

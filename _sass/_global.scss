@@ -38,11 +38,14 @@ body {
   }
 
   .video-banner__title-wrapper {
-    max-width: rem(800px);
+    max-width: 100%;
     position: relative;
     color: $white;
     display: inline-block;
     z-index: 2;
+    @include rwd(tablet-up) {
+      max-width: rem(800px);
+    }
     p {
       font-weight: 500;
     }
