@@ -4,7 +4,7 @@ category: Insights
 tags: []
 author: _people/David-scheltema.md
 cta_heading: Find Out More About Wunder Fleet
-cta_text: Tthe Wunder Fleet platform has everything you need to get your vehicle sharing
+cta_text: The Wunder Fleet platform has everything you need to get your vehicle sharing
   company off the ground.
 cta_link: pages/wunder-fleet.md
 title: 'Three Key Things to Get Right Before Scaling Your Fleet '
@@ -13,17 +13,17 @@ featured_image: ''
 excerpt: At [Particle](https://www.particle.io), we've partnered with the top ride-sharing
   companies who operate in a hundred plus cities across four continents. Here are
   three keys for your team to get right before scaling your fleet.
-share_image: ''
+share_image: "/uploads/2019/10/07/threekeythingsimagelist.jpeg"
 
 ---
 Building a successful micromobility company requires nimble business practices and blazing speed to market. At [Particle](https://www.particle.io), we've partnered with the top ride-sharing companies who operate in a hundred plus cities across four continents. We’ve learned what works, and what guarantees failure. Here are three keys for your team to get right before scaling your fleet.
 
+![](/uploads/2019/10/07/threekeythingsimagebody.jpg)
+
 What you build to get you into the market may not be what ultimately wins the market. What we've seen is that rapid iteration is key to the initial push to market, but scaling a reliable fleet requires different types of investment and team focus. Three key areas that will ultimately differentiate your offering in the market, increase your chances for success at scale, and help you streamline your business and prepare for rapid expansion. You need the following.
 
 * Fleet management software that gives you a 10,000 foot view of your fleet, but also includes actionable diagnostic information at the device level and integration with your OTA tooling.
-
 * An advanced and flexible over-the-air firmware practice, allowing for continuous delivery of added features and a critical tool for providing the best user experience.
-
 * Product lifecycle planning that accounts for device needs beyond the first day on the streets. Focus on extending product lifetime and look beyond simply improving device durability.
 
 ### Solution-driven fleet management and diagnostics
@@ -37,7 +37,6 @@ Ultimately, you have to identify and respond to these issues as soon as, or even
 Companies that use fleet management tools effectively will be able to respond and deliver proactive solutions that are right for the entire fleet not just a couple of devices. Here are just a few of the things a robust fleet management tool with device diagnostics should enable you and your fleet master to identify and investigate.
 
 * You deployed a new integration, but for some reason the rate of errors have gone way up. Perhaps it's related to a new software update. Try rolling-back a few device's firmware to test the theory.
-
 * You're troubleshooting a latency issue and test a theory, you group devices based on geolocation. This helps to uncover what's normal and what's not. By documenting timing and signal quality across locations, it's quite likely a pattern will emerge.
 * You want to evaluate the performance of a new firmware release. Try grouping devices according to firmware version and compare metrics like memory usage, battery charge, data usage to rest of fleet.
 * Or, you finally want to get to the bottom of poor battery performance in some markets. Are hills to blame for the underwhelming performance? Try grouping devices and comparing battery performance across geographic regions to pinpoint the gap in performance
