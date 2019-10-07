@@ -8,9 +8,11 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: 'Three Key Things to Get Right Before Scaling Your Fleet '
-publish_date: 
+publish_date: 2019-10-07 00:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: At [Particle](https://www.particle.io), we've partnered with the top ride-sharing
+  companies who operate in a hundred plus cities across four continents. Here are
+  three keys for your team to get right before scaling your fleet.
 share_image: ''
 
 ---
