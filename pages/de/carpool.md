@@ -15,7 +15,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: Mobilität <strong>intelligent und nachhaltig</strong> gestalten
+  headline: <strong>Parkraum Optimieren</strong> & <strong>Kosten Reduzieren</strong> mit Carpooling 
   cta:
     button_text: Kontakt
     url: "#section-contact"
