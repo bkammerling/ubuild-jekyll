@@ -2,11 +2,11 @@
 layout: simple-article
 category: Insights
 tags: []
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/David-scheltema.md
+cta_heading: Find Out More About Wunder Fleet
+cta_text: Tthe Wunder Fleet platform has everything you need to get your vehicle sharing
+  company off the ground.
+cta_link: pages/wunder-fleet.md
 title: 'Three Key Things to Get Right Before Scaling Your Fleet '
 publish_date: 2019-10-07 00:00:00 +0000
 featured_image: ''
