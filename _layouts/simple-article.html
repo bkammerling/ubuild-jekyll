@@ -96,7 +96,7 @@
                 {% for linkedpage in site.pages %}
                 {% if linkedpage.path == ctalink %}
                   <a class="round-cta clear no-arrow" href="{{ linkedpage.url | default: site.url }}">Learn More</a>
-                  {% unless linkedpage.url contains 'career' %}<a class="round-cta dark" href="{{ linkedpage.url | default: site.url | absolute_url }}{% if page.cta_link contains summit or page.cta_link contains autotech %}#apply{% else %}#section-contact{% endif %}">Contact Us</a>{% endunless %}
+                  {% unless linkedpage.url contains 'career' %}<a class="round-cta dark" href="{{ linkedpage.url | default: site.url | absolute_url }}{% if page.cta_link contains 'summit' or page.cta_link contains 'sessions' %}#apply{% else %}#section-contact{% endif %}">Contact Us</a>{% endunless %}
                 {% endif %}
                 {% endfor %}
               </div>
