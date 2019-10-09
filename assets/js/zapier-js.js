@@ -1,18 +1,27 @@
-/* Intelligent Inbound Lead Flow JS */
+/* ZAPIER INTELLIGENT GETFORM FLOW */
+
 var owner, language, stakeholders = [], pipedriveProductId;
 // first get deal owner and assign language
-if(inputData.subject == "Wunder Fleet") {
-  // FLEET LEADS SPLIT BY REGION
+if(inputData.subject == "Wunder Fleet" || inputData.subject == "Wunder Rent") {
+  // FLEET/RENT LEADS SPLIT BY REGION
   if(inputData.region == "US") {
-    owner = "nick.diprima@wundermobility.com";
+    owner = "luisa.rodrigues@wundermobility.com";
   } else if(inputData.region == "DE") {
-    owner = "yannick.hippolyte@wundermobility.com";
+    owner = "jan.kluetsch@wundermobility.com";
   } else {
     var randomNum = Math.random();
-    if(randomNum >= 0.5) {
-      owner = "luisa.rodrigues@wundermobility.com";
-    } else {
-      owner = "daniel.romero@wundermobility.com";
+    if(inputData.subject == "Wunder Fleet") {
+      if(randomNum >= 0.5) {
+        owner = "daniel.romero@wundermobility.com";
+      } else {
+        owner = "daniel.romero@wundermobility.com";
+      }
+    } else if(inputData.subject == "Wunder Rent") {
+      if(randomNum >= 0.5) {
+        owner = "daniel.romero@wundermobility.com";
+      } else {
+        owner = "daniel.romero@wundermobility.com";
+      }
     }
   }
 } else if(inputData.subject == "Wunder Carpool") {
@@ -20,9 +29,30 @@ if(inputData.subject == "Wunder Fleet") {
 } else if(inputData.subject == "Wunder Shuttle") {
   owner = "axel.grzymisch@wundermobility.com";
 } else if(inputData.subject == "Wunder Park") {
-  owner = "andre.wessoly@wundermobility.com";
+  owner = "jan.kluetsch@wundermobility.com";
 } else if(inputData.subject == "Wunder City") {
   owner = "ioana.freise@wundermobility.com";
+} else {
+  owner = "luisa.rodrigues@wundermobility.com";
+}
+
+
+var rVTypeArr = [{"label":"Kick Scooters","id":49},{"label":"Mopeds","id":50},{"label":"Three Wheelers","id":51},{"label":"Cars","id":52},{"label":"Bikes","id":53},{"label":"Motorcycles","id":280},{"label":"Trucks","id":281},{"label":"Vans","id":282}];
+
+var myVType;
+if(typeof inputData.rVType == 'undefined') {
+  myVType = '';
+} else {
+  myVType = inputData.rVType;
+}
+
+var vObj = rVTypeArr.filter(function(item) {
+  return myVType.includes(item.label);
+});
+var vTypeString = "";
+for(var i = 0; i < vObj.length; i++) {
+  vTypeString += vObj[i]["id"];
+  if(i!==vObj.length-1) vTypeString += ",";
 }
 
 
@@ -35,7 +65,6 @@ if(inputData.subject == "Wunder Fleet") {
 } else if(inputData.subject == "Wunder Carpool") {
   pipedriveProductId = 11;
   stakeholders.push("samuel.baker@wundermobility.com");
-  stakeholders.push("shakib.wassey@wundermobility.com");
   stakeholders.push("frits.timmermans@wundermobility.com");
 } else if(inputData.subject == "Wunder Shuttle") {
   pipedriveProductId = 13;
@@ -44,15 +73,20 @@ if(inputData.subject == "Wunder Fleet") {
   stakeholders.push("nanke.becker@wundermobility.com");
 } else if(inputData.subject == "Wunder Park") {
   pipedriveProductId = 248;
+  stakeholders.push("andre.wessoly@wundermobility.com");
   stakeholders.push("ludovic.ciannarella@wundermobility.com");
 } else if(inputData.subject == "Wunder City") {
   pipedriveProductId = 244;
+} else if(inputData.subject == "Wunder Rent") {
+  pipedriveProductId = 83;
+} else {
+  stakeholders.push("ben.kammerling@wundermobility.com");
 }
 
-output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId}];
 
-/* END OF INTELLIGENT LEAD FLOW WEBSITE */
+output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId, vType: vTypeString}];/* END OF INTELLIGENT LEAD FLOW WEBSITE */
 
+/* END OF INTELLIGENT GETFORM FLOW */
 
 
 /* Intelligent LinkedIn Lead Flow */
