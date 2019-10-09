@@ -11,7 +11,7 @@ cta_text: The Wunder Fleet platform has everything you need to get your vehicle 
   company off the ground.
 cta_link: pages/wunder-fleet.md
 title: 'Three Key Things to Get Right Before Scaling Your Fleet '
-publish_date: 2019-10-07 00:00:00 +0000
+publish_date: 2019-10-07T00:00:00.000+00:00
 featured_image: "/uploads/2019/10/07/threekeythingsimagelist-1.jpeg"
 excerpt: At [Particle](https://www.particle.io), we've partnered with the top ride-sharing
   companies who operate in a hundred plus cities across four continents. Here are
