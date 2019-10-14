@@ -61,9 +61,9 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/summit.md
 - pages/carpool.md
 - pages/startup-stage.md
-- pages/summit.md
 - pages/summit18.md
 - pages/home.md
 - pages/careers/culture.md

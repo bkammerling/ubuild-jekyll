@@ -120,34 +120,6 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
-  - name: Eckart Diepenhorst
-    job_title: CEO Europe
-    company: FREENOW
-    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
-    company_logo: "/uploads/global/Freenow-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
-  - name: Sigrid Dalberg-Krajewski
-    job_title: Head of Marketing & Communications
-    company: Trafi
-    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
-    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
-  - name: Ben Volkow
-    job_title: CEO and Founder
-    company: Otonomo
-    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
-    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/benvolkow/
-  - name: Alexander Hitzinger
-    job_title: Senior Vice President Autonomous Driving
-    company: VW Group
-    speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
-    company_logo: "/uploads/2019/06/13/Volkswagen.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
   - name: Tatiana Calderon
     job_title: Test Driver
     company: Alfa Romeo Formula One
@@ -155,6 +127,62 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/tatacalderon7/
+  - name: Gunnar Froh
+    job_title: CEO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
+  - name: Alexander Marten
+    job_title: Chief Innovation Evangelist
+    company: Deutsche Telekom
+    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
+    company_logo: "/uploads/2019/05/10/logo-telekom.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/alexandermarten/
+  - name: Sarah Yvonne Elsser
+    job_title: Editorial Host
+    company: ''
+    speaker_photo: "/uploads/2019/10/14/sara.jpeg"
+    company_logo: ''
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sarah-yvonne-elsser/
+  - name: Alexander Hitzinger
+    job_title: Senior Vice President Autonomous Driving
+    company: VW Group
+    speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
+    company_logo: "/uploads/2019/06/13/Volkswagen.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
+  - name: Eckart Diepenhorst
+    job_title: CEO Europe
+    company: FREENOW
+    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
+    company_logo: "/uploads/global/Freenow-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
+  - name: Horace Dediu
+    job_title: Co-Founder
+    company: Micromobility Industries
+    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
+    company_logo: "/uploads/2019/05/10/logo-mm.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/dediu/
+  - name: Sigrid Dalberg-Krajewski
+    job_title: Head of Marketing & Communications
+    company: Trafi
+    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
+    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+  - name: Sam Baker
+    job_title: COO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/samuelrossbaker/
   - name: Paulin Dementhon
     job_title: CEO
     company: Drivy by Getaround
@@ -162,6 +190,20 @@ page_sections:
     company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/paulin/
+  - name: Paul-Eric Perchaud
+    job_title: Director of Operations Germany
+    company: Unibail-Rodamco-Westfield
+    speaker_photo: "/uploads/2019/10/14/Paul.jpeg"
+    company_logo: "/uploads/2019/10/14/Logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/company/unibail-rodamco-westfield/
+  - name: Ben Volkow
+    job_title: CEO and Founder
+    company: Otonomo
+    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
+    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/benvolkow/
   - name: Michel Stumpe
     job_title: CEO
     company: FREE2MOVE
@@ -176,13 +218,6 @@ page_sections:
     company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/jonathancarrier/
-  - name: Alexander Marten
-    job_title: Chief Innovation Evangelist
-    company: Deutsche Telekom
-    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
-    company_logo: "/uploads/2019/05/10/logo-telekom.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/alexandermarten/
   - name: Heiko Hüttel
     job_title: Head of Technology and Partner Management
     speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
@@ -190,6 +225,34 @@ page_sections:
     company: Volkswagen
     bio: ''
     linkedin: https://www.linkedin.com/in/huettel/
+  - name: Martin Hoff
+    job_title: Head of Market Management & Innovation
+    company: Automotive, Allianz Partners
+    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
+    company_logo: "/uploads/global/allianz-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/hoffmartin/
+  - name: Thomas Eilrich
+    job_title: Editor-in-Chief Publishing/Management
+    company: JDB Media
+    speaker_photo: "/uploads/2019/10/14/Thomas.jpeg"
+    company_logo: ''
+    bio: ''
+    linkedin: https://www.linkedin.com/in/thomas-eilrich-283b1062/detail/photo/
+  - name: Vikram Chopra
+    job_title: CEO and Co-Founder
+    company: CARS24
+    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
+    company_logo: "/uploads/2019/05/10/logo-cars24.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/vikram6/
+  - name: Jonas Seyfferth
+    job_title: Principal
+    company: Strategy&
+    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
+    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
   - company: Microsoft
     speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
     company_logo: "/uploads/global/microsoft-logo.png"
@@ -204,48 +267,6 @@ page_sections:
     company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
-  - name: Horace Dediu
-    job_title: Co-Founder
-    company: Micromobility Industries
-    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
-    company_logo: "/uploads/2019/05/10/logo-mm.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/dediu/
-  - name: Jonas Seyfferth
-    job_title: Principal
-    company: Strategy&
-    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
-    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
-  - name: Martin Hoff
-    job_title: Head of Market Management & Innovation
-    company: Automotive, Allianz Partners
-    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
-    company_logo: "/uploads/global/allianz-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/hoffmartin/
-  - name: Vikram Chopra
-    job_title: CEO and Co-Founder
-    company: CARS24
-    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
-    company_logo: "/uploads/2019/05/10/logo-cars24.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/vikram6/
-  - name: Sam Baker
-    job_title: COO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/samuelrossbaker/
-  - name: Gunnar Froh
-    job_title: CEO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/gunnarfroh/
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
@@ -528,8 +549,9 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-lang-ref: 'summit'
-lang: 'en'
+lang-ref: summit
+lang: en
+share_image: ''
 menu:
   wunder-main:
     weight: 2
