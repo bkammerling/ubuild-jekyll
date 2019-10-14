@@ -5,9 +5,9 @@ tags:
 - rent
 - digitalization
 author: _people/pia-benthien.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_heading: Find Out More About Wunder Rent
+cta_text: Revamp your rental company with minimal effort. We move fast - let's get
+  your new-and-improved rental company ready within 6 weeks.
 cta_link: pages/rent.md
 title: 'Why Your Rental Business Needs to Go Digital: A Story'
 publish_date: 2019-10-14 11:00:00 +0000
