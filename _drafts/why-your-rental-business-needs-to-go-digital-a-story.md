@@ -27,7 +27,7 @@ Jordan searches for the cheapest rental option on the web browser of his smartph
 
 Fast forward a few months: Alex and Jordan arrive in Italy, are slightly jetlagged and very eager to get to their car and drive to their hotel. Upon retrieving their luggage, they find the booking counter of their rental car company, only to see that all the service personnel are nowhere to be found and a line of eight other people are already waiting in front of them.
 
-> The customers waiting in line didn’t know that the only other employee supposed to show up that day was sick.
+> A long line of eight customers were already in front of them.
 
 They wait another 20 (excruciatingly long) minutes for a Kwik-E-Rentals employee to return, who it turns out was on her lunch break. The customers waiting in line didn’t know that the only other employee supposed to show up that day was sick, leaving the service counter short-staffed.
 
