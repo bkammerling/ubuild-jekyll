@@ -37,6 +37,8 @@ Another hour goes by, and at that point, Alex and Jordan are thoroughly annoyed 
 
 After finally driving off with their rental car, Jordan opens the window to let in some pleasantly warm Italian air. Unfortunately, Alex still has the pile of rental papers in her lap, and it’s so windy outside that two of the papers - with her signature on them! - fly out the window. Jordan tries to pull over to the side of the road to catch the papers before they disappear into the distance, but in doing so he hits the bumper of the car in front of him. He’s suddenly faced with the unfortunate task of having to not only explain to the other driver why he was distracted, but also having to call the rental company to explain to them what had just happened in detail.
 
+> Just think of all the aspects of this scenario that could have been avoided.
+
 Does the story of Alex and Jordan’s vacation sound like a horrible-but-relatable scenario? Can you feel your customers nodding their heads in agreement?
 
 Just think of all the aspects of this scenario that could have been avoided: the waiting in line at the rental counter. The dropping of the car key in a dirty puddle. The rental agreements flying out the window. Even the damage report, which poor Jordan had to try to describe verbally over the phone, could easily be taken care of by sending images of the damages via smartphone back to the Kwik-E-Rentals’ customer service department.
