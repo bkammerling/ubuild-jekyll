@@ -123,7 +123,7 @@ page_sections:
   - name: Tatiana Calderon
     job_title: Test Driver
     company: Alfa Romeo Formula One
-    speaker_photo: "/uploads/2019/05/10/tatiana-calderon.jpg"
+    speaker_photo: "/uploads/2019/10/14/Tatiana.jpg"
     company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/tatacalderon7/
