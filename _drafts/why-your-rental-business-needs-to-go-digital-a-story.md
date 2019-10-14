@@ -21,7 +21,7 @@ If you own a rental services company and you’re still not sure it’s time for
 
 ![A couple of travelers sitting together in front of a mountain.](/uploads/2019/10/14/rentstorybody.jpg)Alex and Jordan, a young married couple from Austin, Texas, are planning their annual vacation in the north of Italy. They decide to rent a car and pick it up upon their arrival at the airport.
 
-> Alex uses a popular app to search for the perfect rental car
+> Fact 1
 
 Jordan searches for the cheapest rental option on the web browser of his smartphone and Alex uses a popular car rental app. Jordan finds a budget company called Kwik-E-Rentals and shows Alex how low the price is. Even though Alex is a bit surprised she couldn’t find the company on the app she used, they decide to book with that company.
 
@@ -33,11 +33,11 @@ They wait another 20 (excruciatingly long) minutes for a Kwik-E-Rentals employee
 
 Another hour goes by, and at that point, Alex and Jordan are thoroughly annoyed and exhausted. Finally, it’s their turn at the counter. After filling out tons of paperwork, the couple gets the key to their car. On the way to the rental car parking lot, Jordan drops the car key in a murky puddle. Gross!
 
-> Jordan was forced to call the rental company to explain
+> Fact 2
 
 After finally driving off with their rental car, Jordan opens the window to let in some pleasantly warm Italian air. Unfortunately, Alex still has the pile of rental papers in her lap, and it’s so windy outside that two of the papers - with her signature on them! - fly out the window. Jordan tries to pull over to the side of the road to catch the papers before they disappear into the distance, but in doing so he hits the bumper of the car in front of him. He’s suddenly faced with the unfortunate task of having to not only explain to the other driver why he was distracted, but also having to call the rental company to explain to them what had just happened in detail.
 
-> Just think of all the aspects of this scenario that could have been avoided
+> Fact 3
 
 Does the story of Alex and Jordan’s vacation sound like a horrible-but-relatable scenario? Can you feel your customers nodding their heads in agreement?
 
