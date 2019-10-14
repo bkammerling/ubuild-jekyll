@@ -17,7 +17,7 @@ excerpt: 'Here’s a story that might convince rental car business owners it''s 
 share_image: ''
 
 ---
-If you’re a rental car business owner, and you’re still not sure it’s time for you to switch to an app-based, paperless and keyless rental model, here’s a story for you that might convince you otherwise.
+If you own a rental services company and you’re still not sure it’s time for you to switch to an app-based, paperless and keyless business model, here’s a story that might convince you otherwise.
 
 ![A couple of travelers sitting together in front of a mountain.](/uploads/2019/10/14/rentstorybody.jpg)Alex and Jordan, a young married couple from Austin, Texas, are planning their annual vacation in the north of Italy. They decide to rent a car and pick it up upon their arrival at the airport.
 
