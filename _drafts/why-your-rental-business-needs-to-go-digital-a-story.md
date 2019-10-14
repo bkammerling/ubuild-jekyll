@@ -21,7 +21,7 @@ If you own a rental services company and you’re still not sure it’s time for
 
 ![A couple of travelers sitting together in front of a mountain.](/uploads/2019/10/14/rentstorybody.jpg)Alex and Jordan, a young married couple from Austin, Texas, are planning their annual vacation in the north of Italy. They decide to rent a car and pick it up upon their arrival at the airport.
 
-> Jordan searches for the cheapest rental option on the web browser of his smartphone and Alex uses a popular car rental app.
+> Alex uses a popular app to search for the perfect rental car.
 
 Jordan searches for the cheapest rental option on the web browser of his smartphone and Alex uses a popular car rental app. Jordan finds a budget company called Kwik-E-Rentals and shows Alex how low the price is. Even though Alex is a bit surprised she couldn’t find the company on the app she used, they decide to book with that company.
 
