@@ -114,6 +114,8 @@ var videoPlayer = {
       videoPlayer.startPlay();
       $("#player").css('pointerEvents', 'auto');
       $(this).fadeOut();
+      localStorage.setItem('lastVideo', pageref);
+      localStorage.setItem('lastVideoTime', new Date().getTime());
     });
   },
   startPlay: function() {
@@ -295,8 +297,15 @@ var form = {
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
       dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
     }
-    console.log(data);
-
+    if(localStorage.getItem('lastBlog')) {
+      data.lastBlog = localStorage.getItem('lastBlog');
+      data.lastBlogTime = localStorage.getItem('lastBlogTime');
+    }
+    if(localStorage.getItem('lastVideo')) {
+      data.lastVideo = localStorage.getItem('lastVideo');
+      data.lastVideoTime = localStorage.getItem('lastVideoTime');
+    }
+    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -316,7 +325,7 @@ var form = {
       console.log('ajax done success', data);
     }).fail(function (error) {
       console.log(error);
-      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or send an email to support@wunder.org.');
+      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at ben.kammerling@wundermobility.com.');
       $("#form-submit").attr("disabled", false);
     });
 
@@ -385,7 +394,6 @@ function formSubmit(e) {
   e.preventDefault();
   $(e.target).attr("disabled", true);
   if(document.URL.indexOf('fleet') != -1) {
-    console.log('subject fleet');
     $("#utm_source").val(document.URL);
   }
   var $form = $(e.target).closest("form");
@@ -809,7 +817,9 @@ var twitterModule = {
 
 }
 
-if(pageref == "blog") twitterModule.init();
+if(pageref == "blog") {
+  twitterModule.init();
+}
 
 if(!String.linkify) {
   String.prototype.linkify = function() {
@@ -959,6 +969,11 @@ $(document).ready(function() {
         $('#summitModal').find('.modal-body #subject-field').val('Apply to Attend WMS 19');
       }
     }
+  }
+
+  if(document.URL.indexOf("/blog/")!= -1) {
+    localStorage.setItem('lastBlog', pagetitle);
+    localStorage.setItem('lastBlogTime', new Date().getTime());
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {
