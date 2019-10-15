@@ -37,9 +37,9 @@ After finally driving off with their rental car, Jordan opens the window to let 
 
 > The top reason for downloading a travel app is convenience. ([3](https://www.thinkwithgoogle.com/advertising-channels/apps/app-marketing-travel-consumer-journey/))
 
-Jordan is ready to ride back to the airport to exchange the car for a non-damaged vehicle, only to realize that in the confusion of the accident, he seems to have lost the keys. Maybe he dropped them on the ground and they slid off the side of the cliff they were parked next to?
+Alex is ready to drive back to the airport to exchange the car for a non-damaged vehicle, only to realize that in the confusion of the accident, she seems to have lost the keys. Maybe she dropped them on the ground and they slid off the side of the cliff they were parked next to?
 
-Alex checks her bag and can't find them, either. To make matters worse, they call Kwik-E-Rentals to tell them the bad news, and the company tells them they'll have to pay a fine of 200 euros for losing the key AND a fine of 300 euros to cover the cost of a tow truck.
+Alex checks her bag again and can't find them, either. To make matters worse, they call Kwik-E-Rentals to tell them the bad news, and the company tells them they'll have to pay a fine of 200 euros for losing the key AND a fine of 300 euros to cover the cost of a tow truck.
 
 Does the story of Alex and Jordan’s vacation sound like a horrible-but-relatable scenario? Can you feel your customers nodding their heads in agreement?
 
