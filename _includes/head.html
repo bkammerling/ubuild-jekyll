@@ -38,7 +38,12 @@
       <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% endif %}
     <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:type" content="website" />
+    {% if page.url contains 'blog' and page.layout == 'simple-article' %}
+      <meta property="og:type" content="article" />
+      <meta property="og:article:published_time" content="{{ page.publish_date }}" />
+    {% else %}
+      <meta property="og:type" content="website" />
+    {% endif %}
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% if page.layout == 'simple-article'%} | Wunder Blog{% endif %}" />
     {% if page.url contains 'blog' and page.layout == 'simple-article' %}
       <meta property="og:description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
