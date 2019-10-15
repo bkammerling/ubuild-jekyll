@@ -14,7 +14,7 @@ publish_date: 2019-10-14 11:00:00 +0000
 featured_image: "/uploads/2019/10/14/rentstorylist.jpeg"
 excerpt: 'Here’s a story that might convince rental car business owners it''s time
   to go digital. '
-share_image: ''
+share_image: "/uploads/2019/10/15/whyyourrentcompanyshouldgodigital.jpg"
 
 ---
 If you own a rental services company and you’re still not sure it’s time for you to switch to an app-based, paperless and keyless business model, here’s a story that might convince you otherwise.
