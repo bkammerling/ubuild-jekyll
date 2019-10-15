@@ -31,16 +31,20 @@ Fast forward a few months: Alex and Jordan arrive in Italy, are slightly jetlagg
 
 They wait another 20 (excruciatingly long) minutes for a Kwik-E-Rentals employee to return, who it turns out was on her lunch break. The customers waiting in line didn’t know that the only other employee supposed to show up that day was sick, leaving the service counter short-staffed.
 
-Another hour goes by, and at that point, Alex and Jordan are thoroughly annoyed and exhausted. Finally, it’s their turn at the counter. After filling out a massive pile of paperwork, the couple gets the keys to their car. On the way to the rental car parking lot, Jordan drops the car key in a murky puddle. Gross!
+Another hour goes by, and at that point, Alex and Jordan are thoroughly annoyed and exhausted. Finally, it’s their turn at the counter. After filling out a massive pile of paperwork, the couple gets the keys to their car. 
 
 > The top reason for downloading a travel app is convenience. ([3](https://www.thinkwithgoogle.com/advertising-channels/apps/app-marketing-travel-consumer-journey/))
 
 After finally driving off with their rental car, Jordan opens the window to let in a warm breeze. Unfortunately, Alex still has the pile of rental papers in her lap, and it’s so windy outside that two of the papers - with her signature on them! - fly out the window. Jordan tries to pull over to the side of the road to catch the papers before they disappear into the distance, but in doing so he hits the bumper of the car in front of him. He’s suddenly faced with the unfortunate task of having to not only explain to the other driver why he was distracted, but also having to call the rental company to explain what had just happened in detail - including the size of the large scratch on the door.
 
+Jordan is ready to ride back to the airport to exchange the car for a non-damaged vehicle - only to realize that in the confusion, he seems to have lost the keys. Maybe he dropped them on the ground and they slid off the side of the cliff they were parked next to?
+
+Alex checks her bag and can't find them, either. To make matters worse, they call Kwik-E-Rentals to tell them the bad news, and the company tells them they'll have to pay a fine of 200 euros for losing the key AND a fine of 300 euros to cover the cost of a tow truck.
+
 Does the story of Alex and Jordan’s vacation sound like a horrible-but-relatable scenario? Can you feel your customers nodding their heads in agreement?
 
-Just think of all the aspects of this scenario that could have been avoided: the waiting in line at the rental counter. The dropping of the car key in a dirty puddle. The rental agreements flying out the window. Even the damage report, which poor Jordan had to try to describe verbally over the phone, could easily be taken care of by sending images of the damages to the Kwik-E-Rentals’ customer service department.
+Just think of all the aspects of this scenario that could have been avoided: the waiting in line at the rental counter. The losing of the car key and having to pay a fine. The rental agreements flying out the window. Even the damage report, which poor Jordan had to try to describe verbally over the phone, could easily be taken care of by sending images of the damages to the Kwik-E-Rentals’ customer service department.
 
 Customers these days want a seamless, quick and easy rental process. Almost all travel services can be booked and organized via app - why not car rental services, too? Your customers expect it.
 
-If you’d like to receive some more information on how to revamp your rental business with four to six weeks, please click the contact button below and we’ll get in touch with you within 24 hours.
+If you’d like to receive some more information on how to revamp your rental business within four to six weeks, please click the contact button below and we’ll get in touch with you within 24 hours.
