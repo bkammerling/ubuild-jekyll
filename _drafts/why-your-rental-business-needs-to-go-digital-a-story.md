@@ -39,7 +39,7 @@ After finally driving off with their rental car, Jordan opens the window to let 
 
 Does the story of Alex and Jordan’s vacation sound like a horrible-but-relatable scenario? Can you feel your customers nodding their heads in agreement?
 
-Just think of all the aspects of this scenario that could have been avoided: the waiting in line at the rental counter. The dropping of the car key in a dirty puddle. The rental agreements flying out the window. Even the damage report, which poor Jordan had to try to describe verbally over the phone, could easily be taken care of by sending images of the damages via smartphone back to the Kwik-E-Rentals’ customer service department.
+Just think of all the aspects of this scenario that could have been avoided: the waiting in line at the rental counter. The dropping of the car key in a dirty puddle. The rental agreements flying out the window. Even the damage report, which poor Jordan had to try to describe verbally over the phone, could easily be taken care of by sending images of the damages to the Kwik-E-Rentals’ customer service department.
 
 Customers these days want a seamless, quick and easy rental process. Almost all travel services can be booked and organized via app - why not car rental services, too? Your customers expect it.
 
