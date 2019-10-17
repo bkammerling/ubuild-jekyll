@@ -115,8 +115,8 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
-- _posts/speed-connected-vehicles-to-market.md
 - _posts/great-potential-but-a-long-way-to-go.md
+- _posts/speed-connected-vehicles-to-market.md
 - _posts/insuring-the-future-of-mobility.md
 - _posts/share-the-ride-and-regain-the-city.md
 - _posts/tomorrow-s-mobility-depends-on-today-s-ideas.md

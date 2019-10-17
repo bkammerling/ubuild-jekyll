@@ -5,17 +5,19 @@ tags:
 - wms19
 - Germany
 - vehicle ownership
-author: []
+author: _people/Google.md
 cta_heading: Sign Up for our Newsletter
 cta_text: Our monthly Wunder Bar newsletter is packed full of exciting news, updates
   and insights from the world of Wunder - sign up to stay in the loop!
 cta_link: pages/newsletter-signup.md
 title: Great potential, but a long way to go
-publish_date: 2019-10-17 00:00:00 +0000
+publish_date: 2019-10-17T00:00:00.000+00:00
 featured_image: ''
 excerpt: Market research conducted by Google & Kantar TNS shows that some Germans
   are regularly using different mobility solutions, but the majority are hesitant.
 share_image: ''
+sticky_post: false
+hidden: false
 
 ---
 Market research conducted by Google & Kantar TNS shows that some Germans are regularly using different mobility solutions, but the majority are hesitant. The study gives insight into why this is.
