@@ -1,6 +1,6 @@
 ---
 layout: simple-article
-category: ''
+category: Insights
 tags:
 - wms19
 - guest article
