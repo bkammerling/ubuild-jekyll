@@ -105,15 +105,24 @@ fields:
       file: 
       path: 
   label: CTA Link
+- name: sticky_post
+  type: boolean
+  label: Sticky Post
+  description: Your latest sticky post will be pinned to the top of the blog list
+- name: hidden
+  type: boolean
+  label: Hide from Article List
+  description: When you want the post published and live but not in article list on
+    /blog
 pages:
+- _posts/share-the-ride-and-regain-the-city.md
+- _posts/great-potential-but-a-long-way-to-go.md
 - _posts/speed-connected-vehicles-to-market.md
+- _posts/insuring-the-future-of-mobility.md
+- _posts/tomorrow-s-mobility-depends-on-today-s-ideas.md
+- _posts/automotive-development-goes-xr.md
 - _people/tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-08-20-how-e-scooter-companies-fail.md
-- _posts/tomorrow-s-mobility-depends-on-today-s-ideas.md
-- _posts/share-the-ride-and-regain-the-city.md
-- _posts/insuring-the-future-of-mobility.md
-- _posts/automotive-development-goes-xr.md
-- _posts/great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-14-the-road-to-wms19-video.md
 - _posts/2019-10-09-Three-key-things-to-get-right-before-scaling-your-fleet.md
 - _posts/2019-09-19-wunder-mobility-launches-in-the-u-s.md
