@@ -115,12 +115,12 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
-- _posts/2019-10-17-speed-connected-vehicles-to-market.md
-- _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
-- _posts/2019-10-17-share-the-ride-and-regain-the-city.md
-- _posts/2019-10-17-insuring-the-future-of-mobility.md
-- _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-17-automotive-development-goes-xr.md
+- _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
+- _posts/2019-10-17-insuring-the-future-of-mobility.md
+- _posts/2019-10-17-share-the-ride-and-regain-the-city.md
+- _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
+- _posts/2019-10-17-speed-connected-vehicles-to-market.md
 - _people/tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-08-20-how-e-scooter-companies-fail.md
 - _posts/2019-10-14-the-road-to-wms19-video.md
