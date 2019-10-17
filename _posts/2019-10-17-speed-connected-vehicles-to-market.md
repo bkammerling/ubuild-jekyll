@@ -18,7 +18,8 @@ excerpt: There is opportunity for new, modern experiences that span the entire i
   and systems of a vehicle, creating create deeper and longer-lasting relationships
   between car makers and their customers.
 share_image: "/uploads/2019/10/17/Microsoft_Image_Body-1.png"
-hidden: false
+hidden: true
+sticky_post: false
 
 ---
 Imagine you are driving to your vacation destination, and you start your conference call from home while you are packing. When you get into to the shared vehicle, the route planning takes into account the best route for connectivity and easy driving, and adjusts the backseat microphone sensitivity during the call. Today, these experiences are constrained by either the center-stack screen, known as the in-vehicle infotainment device (IVI), or other specific hardware and software, which are determined while the car is being built. Instead, these experiences should evolve over a lifetime of ridership. 

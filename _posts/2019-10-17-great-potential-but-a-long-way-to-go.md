@@ -17,7 +17,7 @@ excerpt: Market research conducted by Google & Kantar TNS shows that some German
   are regularly using different mobility solutions, but the majority are hesitant.
 share_image: ''
 sticky_post: false
-hidden: false
+hidden: true
 
 ---
 Market research conducted by Google & Kantar TNS shows that some Germans are regularly using different mobility solutions, but the majority are hesitant. The study gives insight into why this is.
