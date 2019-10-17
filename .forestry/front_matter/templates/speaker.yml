@@ -3,11 +3,29 @@ label: Speaker
 hide_body: true
 display_field: name
 fields:
+- name: type
+  type: select
+  default: Human
+  config:
+    required: false
+    options:
+    - Human
+    - Company
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+  description: Is this a human or company (originally for blog authors)
 - name: name
   type: text
   config:
     required: false
   label: Name
+  showOnly:
+    field: type
+    value: Human
 - name: company
   type: text
   config:
@@ -23,19 +41,25 @@ fields:
   config:
     required: false
   label: Job Title
+  showOnly:
+    field: type
+    value: Human
 - name: speaker_image
   type: file
   config:
     maxSize: 250
   label: Speaker Image
+  showOnly:
+    field: type
+    value: Human
 pages:
+- _people/LiliyaPislarGuestWriter.md
+- _people/Jan_kluetsch_profile.md
 - _people/David-scheltema.md
+- _people/GunnarProfile.md
 - _people/sam-baker.md
 - _people/Elizabeth-benitez-profile.md
-- _people/LiliyaPislarGuestWriter.md
 - _people/PurnimaKumar.md
-- _people/Jan_kluetsch_profile.md
 - _people/yannick_profile_pic_blog.md
 - _people/daniel-profile.md
 - _people/pia-benthien.md
-- _people/GunnarProfile.md
