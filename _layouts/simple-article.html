@@ -50,7 +50,7 @@
                   <p>{{ person.job_title }} @ {{ person.company }}</p>
                 {% endif %}
                 {% if person.type == 'Company' %}
-                  <img class="company-image" src="{{ person.company_logo }}" alt="Logo of {{ person.company }}"/>
+                  <img class="company-image" style="max-width: 300px;" src="{{ person.company_logo }}" alt="Logo of {{ person.company }}"/>
                   <p class="author-name"><strong>{{ person.company }}</strong></p>
                   <p>Guest post</p>
                 {% endif %}

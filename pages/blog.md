@@ -23,7 +23,7 @@ page_sections:
         </div>
       </div>
     </section>
-  name: How to attend
+  name: Hero hidden
 - template: blog-list
   block: blog-list
 - template: simple-footer
