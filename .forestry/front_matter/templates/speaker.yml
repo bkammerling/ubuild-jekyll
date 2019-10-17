@@ -53,6 +53,7 @@ fields:
     field: type
     value: Human
 pages:
+- _people/Athena.md
 - _people/PWC.md
 - _people/Allianz.md
 - _people/Microsoft.md
