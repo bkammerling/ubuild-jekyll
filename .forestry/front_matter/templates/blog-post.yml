@@ -106,6 +106,7 @@ fields:
       path: 
   label: CTA Link
 pages:
+- _posts/2019-08-20-how-e-scooter-companies-fail.md
 - _posts/tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/share-the-ride-and-regain-the-city.md
 - _posts/insuring-the-future-of-mobility.md
@@ -123,7 +124,6 @@ pages:
 - _posts/2019-08-08-how-to-start-your-own-vehicle-sharing-company.md
 - _posts/2019-08-26-how-to-make-the-most-out-of-your-investment-for-startups.md
 - _posts/2019-08-21-introducing-wunder-city.md
-- _posts/2019-08-20-how-e-scooter-companies-fail.md
 - _posts/2019-08-16-How to Keep Your Fleet Sharing Company Up-to-Date with European
   Regulation.md
 - _posts/2019-07-11-is-car-ownership-on-its-way-out.md
