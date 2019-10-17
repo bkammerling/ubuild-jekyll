@@ -44,9 +44,16 @@
             <div class="post-author">
               {% for person in site.people %}
               {% if person.path == page.author %}
-              <img class="author-image" src="{{ person.speaker_image }}" alt="Portrait photo of {{ person.name }}"/>
-              <p class="author-name"><strong>{{ person.name }}</strong></p>
-              <p>{{ person.job_title }} @ {{ person.company }}</p>
+                {% if person.type == 'Human' %}
+                  <img class="author-image" src="{{ person.speaker_image }}" alt="Portrait photo of {{ person.name }}"/>
+                  <p class="author-name"><strong>{{ person.name }}</strong></p>
+                  <p>{{ person.job_title }} @ {{ person.company }}</p>
+                {% endif %}
+                {% if person.type == 'Company' %}
+                  <img class="company-image" src="{{ person.company_logo }}" alt="Logo of {{ person.company }}"/>
+                  <p class="author-name"><strong>{{ person.company }}</strong></p>
+                  <p>Guest post</p>
+                {% endif %}
               {% endif %}
               {% endfor %}
             </div>
