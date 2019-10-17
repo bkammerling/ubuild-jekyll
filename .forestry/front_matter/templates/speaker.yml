@@ -53,6 +53,7 @@ fields:
     field: type
     value: Human
 pages:
+- _people/Moia.md
 - _people/Elizabeth-benitez-profile.md
 - _people/Google.md
 - _people/Microsoft.md
