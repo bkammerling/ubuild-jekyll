@@ -53,7 +53,7 @@ fields:
     field: type
     value: Human
 pages:
-- _people/Microsoft-company-profile.md
+- _people/Microsoft.md
 - _people/yannick_profile_pic_blog.md
 - _people/sam-baker.md
 - _people/PurnimaKumar.md
