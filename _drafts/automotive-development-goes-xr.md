@@ -27,6 +27,6 @@ User experience (UX) design, a human-centered approach with roots in the softwar
 
 Recognizing this trend, [Athena](http://www.driveathena.com), a specialized engineering studio for AR, VR, and gamification, has pioneered not only a vision for the connected car of the future but also the human-centered design process behind it. With the cARVR software, Athena has empowered OEMs with the design thinking mentality of “build to think; show, don't tell; fail quickly and cheaply; learn by testing,” opening the door to possibilities previously unimaginable. Now, automotive designers have a way to efficiently prototype for emerging and future technologies and validate tomorrow’s reality today.
 
-"It’s exciting to see how cars are increasingly becoming digital products, something we are very familiar with. We know that XR prototyping enables the quick build and validation of digital prototypes, which will not only catalyze the future of in-car experience design, but shift the focus from testing individual technologies to the exploration of the complete user experience."
+_"It’s exciting to see how cars are increasingly becoming digital products, something we are very familiar with. We know that XR prototyping enables the quick build and validation of digital prototypes, which will not only catalyze the future of in-car experience design, but shift the focus from testing individual technologies to the exploration of the complete user experience."_
 
 \- Boris Jitsukata, Managing Director at Goodpatch GmbH and Athena
