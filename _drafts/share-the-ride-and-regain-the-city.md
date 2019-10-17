@@ -25,7 +25,7 @@ _MOIA, part of the Volkswagen Group, develops mobility services and works in par
 
 With MOIA ridesharing, people whose start and destination are in a similar direction share a vehicle. The customer requests a ride by app. A dynamic pooling algorithm assigns the customer to an existing trip in fractions of a second. Pooling helps reduce private transport and use road infrastructure more efficiently.
 
-![](/uploads/2019/10/17/moia2body.jpg)
+![](/uploads/2019/10/17/moia2body-1.jpg)
 
 MOIA fits a niche between individual car traffic and scheduled services, and supplements public transportation and a city’s additional mobility services with ridepooling. In this way, MOIA addresses growing mobility needs, making it even easier for city dwellers to give up their cars within the city.
 
@@ -35,7 +35,7 @@ In Hamburg, the yellow vehicles are already part of urban mobility. The all-elec
 
 MOIA can already look back on 1,000,000 passengers and continues to grow. In order to avoid unnecessary trips, MOIA is planning several hubs across Hamburg. The second hub opened recently, and more will follow. This ensures a better-distributed fleet across the city.
 
-![people walking next to a moia](/uploads/2019/10/17/moia1.jpg)
+![](/uploads/2019/10/17/moia1-1.jpg)
 
 ### **London – first international project**
 
