@@ -12,11 +12,13 @@ cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, 
   loop!
 cta_link: pages/newsletter-signup.md
 title: Automotive development goes XR
-publish_date: 2019-11-07 00:00:00 +0000
+publish_date: 2019-11-07T00:00:00.000+00:00
 featured_image: "/uploads/2019/10/17/athena1list.png"
 excerpt: Automotive designers adopt user experience design and immersive technologies
   to prepare for a connected and fully autonomous future.
 share_image: "/uploads/2019/10/17/athena1list-1.png"
+sticky_post: false
+hidden: true
 
 ---
 Keeping pace with widespread digitalization, automotive companies are now taking the integration of extended reality (XR) technologies into their R&D processes very seriously. Interiors and horsepower are no longer enough: The convergence of hardware and software, autonomous driving and voice interfaces are just a few use cases where automotive companies (OEMs) and suppliers need to shift their focus to the driver and passenger user experience.
