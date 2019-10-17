@@ -53,6 +53,7 @@ fields:
     field: type
     value: Human
 pages:
+- _people/Elizabeth-benitez-profile.md
 - _people/Google.md
 - _people/Microsoft.md
 - _people/yannick_profile_pic_blog.md
@@ -63,5 +64,4 @@ pages:
 - _people/Jan_kluetsch_profile.md
 - _people/David-scheltema.md
 - _people/GunnarProfile.md
-- _people/Elizabeth-benitez-profile.md
 - _people/daniel-profile.md
