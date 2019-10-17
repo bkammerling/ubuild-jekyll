@@ -20,9 +20,7 @@ share_image: ''
 ---
 Global megatrends like digitalization, the sharing economy, urbanization and increased environmental awareness are putting pressure on the automotive industry and fundamentally changing the mobility world. New players and technologies are forcing existing business models to adapt. Conventional insurance products alone are no longer sufficient; comprehensive insurance and service solutions are needed instead.
 
-> Electric, autonomous and shared mobility will fundamentally change the face of urban mobility. Our ambition is to be the leading partner on this path of change with innovative insurance and service solutions.
-
-\- Martin Hoff, Head of Automotive Market Management and Innovation, Allianz Automotive
+> Electric, autonomous and shared mobility will fundamentally change the face of urban mobility. 
 
 ### **A holistic partner for the automotive industry**
 
@@ -31,3 +29,6 @@ Allianz Automotive is a strategic partner of the automotive industry, managing p
 ### **Enabler of future mobility**
 
 Connected cars, autonomous driving, carsharing and e-mobility are transforming the mobility ecosystem. Insurers need to rethink their business models for the mobility of tomorrow. The “Automotive Innovation Center" was founded in 2014 to develop innovative solutions along the CASE trends: Whether customers use their own car, shared cars or other forms of transport, they are supported with the appropriate insurance coverage and service solutions. Allianz Automotive strives to have an agile approach and continuously challenges and develops its business model together with its cooperation partners, who are in need of fast and innovative solutions.
+
+"Electric, autonomous and shared mobility will fundamentally change the face of urban mobility. Our ambition is to be the leading partner on this path of change with innovative insurance and service solutions."   
+\- Martin Hoff, Head of Automotive Market Management and Innovation, Allianz Automotive
