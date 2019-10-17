@@ -12,10 +12,12 @@ cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, 
   loop!
 cta_link: pages/newsletter-signup.md
 title: Insuring the future of mobility
-publish_date: 2019-11-07 00:00:00 +0000
+publish_date: 2019-11-07T00:00:00.000+00:00
 featured_image: "/uploads/2019/10/17/allianz1list.jpeg"
 excerpt: Comprehensive innovative insurance and service solutions are needed.
 share_image: "/uploads/2019/10/17/allianz1list.jpeg"
+sticky_post: false
+hidden: false
 
 ---
 Global megatrends like digitalization, the sharing economy, urbanization and increased environmental awareness are putting pressure on the automotive industry and fundamentally changing the mobility world. New players and technologies are forcing existing business models to adapt. Conventional insurance products alone are no longer sufficient; comprehensive insurance and service solutions are needed instead.
