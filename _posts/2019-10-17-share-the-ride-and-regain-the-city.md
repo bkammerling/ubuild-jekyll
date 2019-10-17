@@ -20,7 +20,7 @@ excerpt: 'MOIA, part of the Volkswagen Group, develops mobility services and wor
   in Hamburg and Hanover. Next: London.'
 share_image: "/uploads/2019/10/17/moia2list-1.jpeg"
 sticky_post: false
-hidden: false
+hidden: true
 
 ---
 _MOIA, part of the Volkswagen Group, develops mobility services and works in partnership with cities and PTOs. MOIA started ridesharing to reduce traffic in Hamburg and Hanover. Next: London._
