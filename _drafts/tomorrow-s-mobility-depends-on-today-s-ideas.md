@@ -26,8 +26,8 @@ _"Industry, politics, public administrations and all of us have an equal role to
 
 Automotive players have been a driving force in the mobility sector with traditional car sales and emerging new mobility offers, thinking of BMW’s and Daimler’s joint venture NOW or Volkswagen’s MOIA, for example. Deutsche Bahn (ioki) and other players join them in redefining the game. Municipal administrations and their transport companies recognise that they need to reorganise traffic in their cities and offer their citizens multimodal services on easy-to-use platforms. The app Jelbi, which recently went live in Berlin, or Helsinki’s Whim are typical examples of this. Other industries ranging from energy to financial services try to claim their stake as well.
 
+![](/uploads/2019/10/17/PWCimage1-1.png)
+
 Mobility platforms aim at providing passenger transportation that is more convenient and at a better price than traditional offers through more efficient asset use and better orchestration of ecosystem partners. The ecosystem of new mobility offers a broad range of value pools – provision of the B2C offering, operation of vehicle fleets, supply of parking, charging, roads and rail tracks, insurance and payment solutions, just to name a few.
 
 For players who want to get involved, choosing the right value pool is key to building a profitable business. It’s important to understand that value pools offer significantly different revenue and margin potentials. Profitability also depends on how well necessary capabilities are already available – or still need to be built up. Each mobility player has a different starting position and needs to assess its right to win. At PwC, we’re ready to help you navigate your way to tomorrow’s mobility. Let’s get started today.
-
-![](/uploads/2019/10/17/PWCimage1.png)
