@@ -6,14 +6,17 @@ tags:
 - guest article
 - connected vehicles
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Sign Up for our Newsletter
+cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, updates
+  and insights from the ever-changing world of Wunder - sign up now to stay in the
+  loop!
+cta_link: pages/newsletter-signup.md
 title: Speed Connected Vehicles to Market
 publish_date: 2019-11-07 00:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: There is opportunity for new, modern experiences that span the entire interior
+  and systems of a vehicle, creating create deeper and longer-lasting relationships
+  between car makers and their customers.
 share_image: ''
 
 ---
