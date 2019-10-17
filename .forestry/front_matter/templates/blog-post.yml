@@ -106,6 +106,7 @@ fields:
       path: 
   label: CTA Link
 pages:
+- _posts/tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/share-the-ride-and-regain-the-city.md
 - _posts/insuring-the-future-of-mobility.md
 - _posts/automotive-development-goes-xr.md
