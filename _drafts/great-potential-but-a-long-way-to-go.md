@@ -18,7 +18,7 @@ excerpt: Market research conducted by Google & Kantar TNS shows that some German
 share_image: ''
 
 ---
-### Market research conducted by Google & Kantar TNS shows that some Germans are regularly using different **mobility solutions,** but the majority are hesitant. The study gives insight into why this is.
+### Market research conducted by Google & Kantar TNS shows that some Germans are regularly using different mobility solutions, but the majority are hesitant. The study gives insight into why this is.
 
 To get a deeper understanding of how Germans are using and switching between different mobility options, Google and Kantar TNS ran a survey in 2019 asking Germans living in major cities about their mobility needs and behaviors.
 
@@ -30,9 +30,8 @@ So Germans are becoming more open and flexible towards new mobility solutions, b
 
 According to the study, services like taxis and rental cars are seen as too expensive, while carsharing and newer mobility services are regarded as too complex, or they are just not in the relevant set of the respondents.
 
-  
 The combination of all these services offers the flexibility and availability expected, but connectivity between the services is often not present. Unsurprisingly, this is where many players in the mobility market are putting in their effort. And there is a prize to be won, as most respondents stated that they are not willing to put in extra effort to switch between providers just to get a better rate. Gaining loyalty is the name of the game.
 
-Background information: The target group of this research were people over the age of 18 living in large cities (over 100,000 inhabitants) in Germany. The mobility behavior of the last 12 months was surveyed.
+_Background information: The target group of this research were people over the age of 18 living in large cities (over 100,000 inhabitants) in Germany. The mobility behavior of the last 12 months was surveyed._
 
-The study and more insights can be found on the Think with Google website [here.](https://www.thinkwithgoogle.com/intl/de-de/insights/kundeneinblicke/studie-ueber-neue-mobilitaetsangebote-wir-werden-immer-flexibler/) 
+The study and more insights can be found on the Think with Google website [here.](https://www.thinkwithgoogle.com/intl/de-de/insights/kundeneinblicke/studie-ueber-neue-mobilitaetsangebote-wir-werden-immer-flexibler/)
