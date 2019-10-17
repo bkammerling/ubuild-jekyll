@@ -21,6 +21,9 @@ share_image: ''
 ---
 New technical possibilities, demographic trends and changing consumer behaviour are all putting traditional notions of mobility to the test. Consumers are demanding new, integrated mobility offers. At the same time, people's traditional mobility patterns are being questioned. Climate protection and air pollution control are imperatives of our time.
 
+_"Industry, politics, public administrations and all of us have an equal role to play in shaping tomorrow's mobility together."  
+\-_ Jonas Seyfferth, Director at Strategy&, part of the PwC network
+
 Automotive players have been a driving force in the mobility sector with traditional car sales and emerging new mobility offers, thinking of BMW’s and Daimler’s joint venture NOW or Volkswagen’s MOIA, for example. Deutsche Bahn (ioki) and other players join them in redefining the game. Municipal administrations and their transport companies recognise that they need to reorganise traffic in their cities and offer their citizens multimodal services on easy-to-use platforms. The app Jelbi, which recently went live in Berlin, or Helsinki’s Whim are typical examples of this. Other industries ranging from energy to financial services try to claim their stake as well.
 
 Mobility platforms aim at providing passenger transportation that is more convenient and at a better price than traditional offers through more efficient asset use and better orchestration of ecosystem partners. The ecosystem of new mobility offers a broad range of value pools – provision of the B2C offering, operation of vehicle fleets, supply of parking, charging, roads and rail tracks, insurance and payment solutions, just to name a few.
