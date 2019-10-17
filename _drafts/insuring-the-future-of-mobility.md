@@ -20,11 +20,11 @@ share_image: ''
 ---
 Global megatrends like digitalization, the sharing economy, urbanization and increased environmental awareness are putting pressure on the automotive industry and fundamentally changing the mobility world. New players and technologies are forcing existing business models to adapt. Conventional insurance products alone are no longer sufficient; comprehensive insurance and service solutions are needed instead.
 
-> Electric, autonomous and shared mobility will fundamentally change the face of urban mobility. 
-
 ### **A holistic partner for the automotive industry**
 
 Allianz Automotive is a strategic partner of the automotive industry, managing partnerships with over 40 car brands in over 30 countries. Supporting OEM and mobility partners at all stages of the value chain, from the development of new car models and the distribution of insurance and service products in car dealerships to after-sales consultancy, is key for Allianz Automotive. Products range from motor insurance with liability and own damage coverage to extended warranty and Guarantee Asset/Payment Protection insurance and innovative products such as telematics insurance or minute-based billing for fleet models. The ability to provide worldwide solutions with local expertise has proven to be a key success factor for Allianz Automotive in times of increasing globalization and changing OEM and mobility provider needs.
+
+> Electric, autonomous and shared mobility will fundamentally change the face of urban mobility. 
 
 ### **Enabler of future mobility**
 
