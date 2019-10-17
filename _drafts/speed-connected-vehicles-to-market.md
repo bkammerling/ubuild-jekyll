@@ -5,7 +5,7 @@ tags:
 - wms19
 - guest article
 - connected vehicles
-author: []
+author: _people/Microsoft-company-profile.md
 cta_heading: Sign Up for our Newsletter
 cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, updates
   and insights from the ever-changing world of Wunder - sign up now to stay in the
