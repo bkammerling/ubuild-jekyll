@@ -106,9 +106,9 @@ fields:
       path: 
   label: CTA Link
 pages:
+- _posts/insuring-the-future-of-mobility.md
 - _posts/automotive-development-goes-xr.md
 - _posts/speed-connected-vehicles-to-market.md
-- _posts/insuring-the-future-of-mobility.md
 - _posts/share-the-ride-and-regain-the-city.md
 - _posts/great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-14-the-road-to-wms19-video.md
