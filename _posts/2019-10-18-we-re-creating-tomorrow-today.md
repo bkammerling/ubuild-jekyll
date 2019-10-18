@@ -17,7 +17,7 @@ excerpt: We believe in the potential that the future holds, and we believe in th
   way.
 share_image: "/uploads/2019/10/18/werecreatingtomorrowtodaylist.jpeg"
 sticky_post: false
-hidden: false
+hidden: true
 
 ---
 ![](/uploads/2019/10/18/werecreatingtomorrowtodaybody.jpg)
