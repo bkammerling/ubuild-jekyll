@@ -15,14 +15,14 @@ featured_image: "/uploads/2019/10/18/werecreatingtomorrowtoday.jpg"
 excerpt: We believe in the potential that the future holds, and we believe in the
   power of innovation and disruption to shape the globe in a positive, constructive
   way.
-share_image: "/uploads/2019/10/18/werecreatingtomorrowtoday-1.jpg"
+share_image: "/uploads/2019/10/18/werecreatingtomorrowtodaylist.jpeg"
 sticky_post: false
-hidden: true
+hidden: false
 
 ---
-As a plethora of bright minds across the mobility spectrum arrive at the Maritime Museum in Hamburg today, eager to start influencing the future of mobility for the better, the outside world is rife with issues that often seem insurmountable. Climate change has reached the status of a global crisis, and inequality - whether in terms of income or due to inaccessibility - is on the rise.
+![](/uploads/2019/10/18/werecreatingtomorrowtodaybody.jpg)
 
-![](/uploads/2019/10/18/WMS19articlebody.jpg)
+As a plethora of bright minds across the mobility spectrum arrive at the Maritime Museum in Hamburg today, eager to start influencing the future of mobility for the better, the outside world is rife with issues that often seem insurmountable. Climate change has reached the status of a global crisis, and inequality - whether in terms of income or due to inaccessibility - is on the rise.
 
 By mentioning these problems, it’s not our intention to put a damper on the festivities today. Quite the opposite: we think it’s important to illuminate the issues we’re facing before diving head-first into the lively debates and discussions that will be taking place during the 2019 edition of WMS. In doing so, we highlight the reasons why we’ve gathered here in the first place. We believe in the potential that the future holds, and we believe in the power of innovation and disruption to shape the globe in a positive, constructive way.
 
