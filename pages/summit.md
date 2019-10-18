@@ -306,7 +306,7 @@ page_sections:
           <section>
             <h2 class="page-heading mb-2">Agenda</h2>
             <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="https://drive.google.com/open?id=1fVXTOa1Y567TsWe5283JdsBI-Cc1eXWs">here</a></strong> to check out the <strong>preliminary</strong> agenda.</p>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="/uploads/Agenda19Final.pdf">here</a></strong> to check out the agenda.</p>
           </section>
         </div>
       </div>
