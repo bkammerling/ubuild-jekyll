@@ -101,6 +101,21 @@ page_sections:
       part of the movement and let's accelerate the transition to sustainable mobility!</strong>
   bg_image: ''
   unique_id: summit-detail
+- template: custom-content
+  block: custom-html
+  content: |-
+    <div class="container" id="section-agenda">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-2">
+          <section>
+            <h2 class="page-heading mb-2">Agenda</h2>
+            <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
+            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="/uploads/Agenda19Final.pdf">here</a></strong> to check out the agenda.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  name: Agenda block
 - template: speakers
   heading: Speaker Line-up 2019
   sub-heading: Leaders & Innovators From Around the World
@@ -297,21 +312,6 @@ page_sections:
     content: ''
   sub-heading: The future is now! Let's see what will bring in the next phase of the
     mobility revolution.
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section>
-            <h2 class="page-heading mb-2">Agenda</h2>
-            <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="/uploads/Agenda19Final.pdf">here</a></strong> to check out the agenda.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
