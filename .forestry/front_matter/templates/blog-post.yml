@@ -115,6 +115,7 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
+- _posts/we-re-creating-tomorrow-today.md
 - _posts/2019-10-17-automotive-development-goes-xr.md
 - _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-17-insuring-the-future-of-mobility.md
