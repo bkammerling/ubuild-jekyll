@@ -16,3 +16,7 @@ languages:
   code: de
   label: Deutsch
   icon: "\U0001F1E9\U0001F1EA"
+- de:
+  code: es
+  label: Español
+  icon: "\U0001F1EA\U0001F1F8"

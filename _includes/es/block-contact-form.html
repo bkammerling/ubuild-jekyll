@@ -49,7 +49,7 @@
             <div class="form-group">
               <div class="select-wrapper">
                 <select name="subject" class="form-control select2-init" style="width:100%" id="subject-field" required>
-                  <option disabled selected>Subject *</option>
+                  <option disabled selected>Assento *</option>
                   <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
                   <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
                   <option value="Wunder Fleet" data-id="fleet">Wunder Fleet</option>
@@ -97,16 +97,16 @@
               <div class="form-group rent">
                 <div class="select-wrapper multiple">
                   <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What would you like to achieve with Wunder Rent? *</option>
-                    <option>Counterless Station-based Vehicle Rental</option>
-                    <option>Free-floating Vehicle Rental</option>
-                    <option>Peer to Peer Vehicle Rental</option>
-                    <option>I only want an online booking system</option>
-                    <option>Traditional Vehicle Rental (fully offline)</option>
-                    <option>Other</option>
+                    <option disabled>¿Qué le gustaría lograr con Wunder Rent? *</option>
+                    <option value="Counterless Station-based Vehicle Rental">Alquiler de vehículos sin mostrador</option>
+                    <option value="Free-floating Vehicle Rental">Alquiler de vehículos de circulación libre</option>
+                    <option value="Peer to Peer Vehicle Rental">Alquiler de vehículos de punto a punto</option>
+                    <option value="I only want an online booking system">Solo quiero un sistema de reserva en línea</option>
+                    <option value="Traditional Vehicle Rental (fully offline)">Alquiler tradicional de vehículos (completamente fuera de línea)</option>
+                    <option value="Other">Otro</option>
                   </select>
                   <label for="tech-interest[]" class="w-100">
-                    What would you like to achieve with Wunder Rent? *
+                    ¿Qué le gustaría lograr con Wunder Rent? *
                   </label>
                   <div class="bottom-border"></div>
                 </div>
@@ -135,7 +135,7 @@
                 <div class="select-wrapper">
                   <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
                     {% if page.lang-ref == 'rent' %}
-                      <option disabled selected>What is the current size of your fleet? *</option>
+                      <option disabled selected>¿Cuántos vehículos tienes ya? *</option>
                       <option>0</option>
                       <option>1-50</option>
                       <option>51-150</option>
@@ -218,7 +218,7 @@
             </div>
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
-              Send it!
+              Enviar
             </button>
             <p class="form-feedback hidden">Tu mensaje ha sido enviado. ¡Estaremos en contacto!</p>
           </form>
