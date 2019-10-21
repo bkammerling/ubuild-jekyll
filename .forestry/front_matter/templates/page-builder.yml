@@ -61,6 +61,7 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/careers/jobs.md
 - pages/summit.md
 - pages/carpool.md
 - pages/startup-stage.md
@@ -69,7 +70,6 @@ pages:
 - pages/careers/culture.md
 - pages/careers/locations.md
 - pages/careers/perks.md
-- pages/careers/jobs.md
 - pages/careers/careers.md
 - pages/terms.md
 - pages/autotech.md
