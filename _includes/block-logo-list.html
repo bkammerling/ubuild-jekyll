@@ -4,14 +4,13 @@
     <div class="container container-fullright">
       <ul class="row client-list__logotypes">
         <li class="col-sm-3 col-md-2">
-          {% if page.dir contains 'de' %}
+          {% if page.url contains '/de' %}
             <p>Kunden</p>
-          {% else if page.dir contains 'es' %}
+          {% elsif page.url contains '/es' %}
             <p>impulsando <br class="d-none d-sm-block">soluciones con</p>
           {% else %}
             <p>powering <br class="d-none d-sm-block">solutions with</p>
           {% endif %}
-
         </li>
         {% capture row %}{{ include.rowname | default: "mainlogos" }}{% endcapture %}
         {% assign logorow = site.data.data.hero_logo_rows | where: "name", row %}
