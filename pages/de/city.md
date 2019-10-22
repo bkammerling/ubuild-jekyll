@@ -30,6 +30,7 @@ page_sections:
   featured_image: "/uploads/global/wundercity_map-2.svg"
 - block: city-main
   subdirectory: static/de
+  template: static-file
 - template: detail-content
   block: contact-form
   title: Let's Talk

@@ -15,7 +15,7 @@ page_sections:
     button_text: Contact
 - template: hero-banner-w-image
   block: hero-2
-  headline: <strong>Parkraum Optimieren</strong> & <strong>Kosten Reduzieren</strong> mit Carpooling 
+  headline: <strong>Parkraum Optimieren</strong> & <strong>Kosten Reduzieren</strong> mit Carpooling
   cta:
     button_text: Kontakt
     url: "#section-contact"
@@ -25,6 +25,7 @@ page_sections:
   background_image: "/uploads/global/carpool-herobg@2x.jpg"
 - block: carpool-main
   subdirectory: static/de
+  template: static-file
 - template: detail-content
   block: contact-form
   title: Let's Talk

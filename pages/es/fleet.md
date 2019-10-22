@@ -29,6 +29,7 @@ page_sections:
   background_image: "/uploads/global/fleet-frame.jpg"
 - block: fleet-main
   subdirectory: static/es
+  template: static-file
 - template: detail-content
   block: contact-form
   subdirectory: es

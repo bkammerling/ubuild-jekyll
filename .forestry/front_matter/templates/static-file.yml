@@ -6,10 +6,10 @@ fields:
 - type: text
   hidden: true
   label: block
-  name: Block
-  default: 
+  name: block
+  default:
 - type: text
   hidden: true
   label: subdirectory
-  name: Subdirectory
+  name: subdirectory
   default: static

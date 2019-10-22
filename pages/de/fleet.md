@@ -28,6 +28,7 @@ page_sections:
   show_logos: true
   background_image: "/uploads/global/fleet-frame.jpg"
 - block: fleet-main
+  template: static-file
   subdirectory: static/de
 - template: detail-content
   block: contact-form

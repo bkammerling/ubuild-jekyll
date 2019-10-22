@@ -29,6 +29,7 @@ page_sections:
   background_image: "/uploads/global/rent-bg@2x.jpg"
 - block: rent-main
   subdirectory: static/es/
+  template: static-file
 - template: detail-content
   block: contact-form
   subdirectory: es

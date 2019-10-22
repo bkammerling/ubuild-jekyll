@@ -33,8 +33,6 @@ page_sections:
 - block: carpool-main
   subdirectory: static
   template: static-file
-  Block: ''
-  Subdirectory: ''
 - template: detail-content
   block: contact-form
   title: Let's Talk
