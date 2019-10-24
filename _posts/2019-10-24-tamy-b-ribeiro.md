@@ -22,7 +22,13 @@ sticky_post: false
 hidden: false
 
 ---
-Watch our Chief Evangelist and Head of Partnerships, Tamy B. Ribeiro, talk at Shift Automotive about the paradigm shift the corporate world is experiencing and what companies can do stay current. <p> </p> <iframe width="560" height="315" src="https://www.youtube.com/embed/fYOvUxp-rw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <p> </p> 
+Watch our Chief Evangelist and Head of Partnerships, Tamy B. Ribeiro, talk at Shift Automotive about the paradigm shift the corporate world is experiencing and what companies can do stay current.
+
+<p> </p> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fYOvUxp-rw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p> </p> 
 
 ### It's Time for a Change
 
