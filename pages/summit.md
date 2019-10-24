@@ -446,7 +446,7 @@ page_sections:
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <a target="_blank" href="https://goodpatch.com/en/">
+                  <a target="_blank" href="https://driveathena.com/carvr/">
                     <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
                   </a>
                 </div>
