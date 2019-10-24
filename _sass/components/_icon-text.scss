@@ -281,21 +281,8 @@
         margin-right: 0;
       }
       @include rwd(mobile-up) {
-        flex: 1 1 32%;
+        flex: 1 1 48%;
         padding: rem(25px) rem(40px) rem(22px);
-        &:nth-child(even) {
-          margin-right: rem(2px);
-        }
-        &:nth-child(3n) {
-          margin-right: 0;
-        }
-
-      }
-      @include rwd(tablet-up) {
-        flex: 1 1 32%;
-        &:nth-child(3n) {
-          margin-right: rem(2px);
-        }
       }
 
       &:last-child {
