@@ -23,7 +23,7 @@ hidden: false
 
 ---
 Watch our Chief Evangelist, Tamy B. Ribeiro, talk at Shift Automotive about the paradigm shift the corporate world is experiencing and what companies can do stay current.
-
+<p>&nbsp;</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fYOvUxp-rw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>&nbsp;</p>
 In her short talk, Tamy highlights one of the major issues companies are facing today: innovate, or risk getting left behind. What's truly at the heart of innovation, anyway? Tamy suggests it's having the courage to face and even embrace change head on; to know when it's time to go with the flow, or when it's time to disrupt your own core business.
