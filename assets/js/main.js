@@ -114,7 +114,7 @@ var videoPlayer = {
       videoPlayer.startPlay();
       $("#player").css('pointerEvents', 'auto');
       $(this).fadeOut();
-      localStorage.setItem('lastVideo', pageref);
+      localStorage.setItem('lastVideo', pagetitle);
       localStorage.setItem('lastVideoTime', new Date().getTime());
     });
   },
@@ -870,7 +870,7 @@ function setupIp() {
     } else if(frRegion.indexOf(userCountry) != -1) {
       userRegion = "EN";
     } else if(latamRegion.indexOf(userCountry) != -1) {
-      userRegion = "EN";
+      userRegion = "ES";
     } else {
       userRegion = "EN";
     }

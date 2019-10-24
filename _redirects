@@ -14,6 +14,7 @@
 /about  /  301
 /meetup  /autotech  301
 /terms-conditions  /terms  301
+/wunder-fleet  /fleet  301
 
 /autotech  /mobility-sessions/  301
 /autotech-events/* /mobility-sessions/:splat 301!

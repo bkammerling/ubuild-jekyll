@@ -1,27 +1,26 @@
 /* ZAPIER INTELLIGENT GETFORM FLOW */
 
-var owner, language, stakeholders = [], pipedriveProductId;
+var owner, language, languageOptionId, stakeholders = [], pipedriveProductId;
+language = inputData.siteLanguage;
 // first get deal owner and assign language
 if(inputData.subject == "Wunder Fleet" || inputData.subject == "Wunder Rent") {
   // FLEET/RENT LEADS SPLIT BY REGION
   if(inputData.region == "US") {
-    owner = "luisa.rodrigues@wundermobility.com";
+    if(inputData.mql >= 15) {
+      owner = "luisa.rodrigues@wundermobility.com";
+    } else {
+      owner = "tyler.norwood@wundermobility.com";
+    }
   } else if(inputData.region == "DE") {
     owner = "jan.kluetsch@wundermobility.com";
+  } else if(inputData.region == "ES") {
+    owner = "daniel.romero@wundermobility.com";
   } else {
     var randomNum = Math.random();
-    if(inputData.subject == "Wunder Fleet") {
-      if(randomNum >= 0.5) {
-        owner = "daniel.romero@wundermobility.com";
-      } else {
-        owner = "daniel.romero@wundermobility.com";
-      }
-    } else if(inputData.subject == "Wunder Rent") {
-      if(randomNum >= 0.5) {
-        owner = "daniel.romero@wundermobility.com";
-      } else {
-        owner = "daniel.romero@wundermobility.com";
-      }
+    if(randomNum >= 0.5) {
+      owner = "daniel.romero@wundermobility.com";
+    } else {
+      owner = "luisa.rodrigues@wundermobility.com";
     }
   }
 } else if(inputData.subject == "Wunder Carpool") {
@@ -34,6 +33,16 @@ if(inputData.subject == "Wunder Fleet" || inputData.subject == "Wunder Rent") {
   owner = "ioana.freise@wundermobility.com";
 } else {
   owner = "luisa.rodrigues@wundermobility.com";
+}
+
+if(language == 'es') {
+  owner = "daniel.romero@wundermobility.com";
+  languageOptionId = 313;
+} else if(language == 'de') {
+  owner = "jan.kluetsch@wundermobility.com";
+  languageOptionId = 314;
+} else {
+  languageOptionId = 312;
 }
 
 
@@ -55,6 +64,10 @@ for(var i = 0; i < vObj.length; i++) {
   if(i!==vObj.length-1) vTypeString += ",";
 }
 
+var tags = "";
+if(inputData.companyType == 'OEM' || inputData.companyType == 'Corporate') {
+  tags = tags + "126"
+}
 
 // build stakeholder list per product
 stakeholders.push(owner);
@@ -84,7 +97,7 @@ if(inputData.subject == "Wunder Fleet") {
 }
 
 
-output = [{pipedrive_owner: owner, comm_language: language, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId, vType: vTypeString}];/* END OF INTELLIGENT LEAD FLOW WEBSITE */
+output = [{pipedrive_owner: owner, comm_language: language, languageOption: languageOptionId, team_stakeholders: stakeholders, pipedriveProductId: pipedriveProductId, vType: vTypeString, dTags: tags}];
 
 /* END OF INTELLIGENT GETFORM FLOW */
 
