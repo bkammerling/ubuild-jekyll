@@ -12,7 +12,7 @@ cta_text: The monthly Wunder Bar newsletter is packed full of interesting news a
   insights from the ever-changing world of Wunder - sign up now to stay in the loop!
 cta_link: pages/newsletter-signup.md
 title: Tamy B. Ribeiro at Shift Automotive
-publish_date: 2019-10-24 12:00:00 +0000
+publish_date: 2019-10-24T12:00:00.000+00:00
 featured_image: "/uploads/2019/10/24/TamyShiftlist.png"
 excerpt: 'Watch our Chief Evangelist, Tamy B. Ribeiro, talk at Shift Automotive about
   the paradigm shift the corporate world is experiencing and what companies can do
@@ -25,7 +25,7 @@ hidden: false
 Watch our Chief Evangelist, Tamy B. Ribeiro, talk at Shift Automotive about the paradigm shift the corporate world is experiencing and what companies can do stay current.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fYOvUxp-rw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+&nbsp;
 In her short talk, Tamy highlights one of the major issues companies are facing today: innovate, or risk getting left behind. What's truly at the heart of innovation, anyway? Tamy suggests it's having the courage to face and even embrace change head on; to know when it's time to go with the flow, or when it's time to disrupt your own core business.
 
 But don't just take her word for it - **S&P 500 Index metrics prove that the average company lifespan is shortening from 60 to 15 years.**
