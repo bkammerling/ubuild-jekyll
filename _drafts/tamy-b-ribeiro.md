@@ -36,4 +36,6 @@ But don't just take her word for it - **S&P 500 Index metrics prove that the ave
 
 Additionally, the desire to own a car is decreasing 10% per generation, and half of Gen Z doesn't see the need to own a car.
 
-**If that's not a wake up call to companies, nothing will be.** Enjoy the video!
+**If that's not a wake up call to companies, nothing will be.** 
+
+Enjoy the video!
