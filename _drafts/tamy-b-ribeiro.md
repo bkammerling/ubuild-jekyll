@@ -7,17 +7,17 @@ tags:
 - futureofmobility
 - shifting attitudes
 author: _people/pia-benthien.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_heading: Sign Up for Our Newsletter
+cta_text: The monthly Wunder Bar newsletter is packed full of interesting news and
+  insights from the ever-changing world of Wunder - sign up now to stay in the loop!
 cta_link: pages/newsletter-signup.md
 title: Tamy B. Ribeiro at Shift Automotive
 publish_date: 2019-10-24 12:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/10/24/TamyShiftlist.png"
 excerpt: 'Watch our Chief Evangelist, Tamy B. Ribeiro, talk at Shift Automotive about
   the paradigm shift the corporate world is experiencing and what companies can do
   stay current. '
-share_image: ''
+share_image: "/uploads/2019/10/24/TamyShiftlist.png"
 sticky_post: false
 hidden: false
 
