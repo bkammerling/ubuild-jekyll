@@ -101,10 +101,12 @@ var videoPlayer = {
       fullscreen: { enabled: true, fallback: 'force', iosNative: true }
     });
     this.player.on('ready', event => {
-      if(!$("body").hasClass("home")) {
+      if($(".filmmodal").length == 0) {
         this.player.toggleControls(false);
+        console.log('true');
       } else {
         $("#player").css('pointerEvents', 'auto');
+        console.log('false');
       }
     });
     this.player.on('ended', event => {
@@ -119,7 +121,9 @@ var videoPlayer = {
     });
   },
   startPlay: function() {
-    if(!$("body").hasClass("home")) this.player.toggleControls();
+    if($(".filmmodal").length == 0) {
+      this.player.toggleControls();
+    }
     this.player.play();
   }
 }
