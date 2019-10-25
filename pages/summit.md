@@ -268,6 +268,62 @@ page_sections:
     company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
+  - name: "Iona\tFreise"
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
+    job_title: GM Wunder City
+  - name: Patrick Haller
+    job_title: Industry Manager
+    company: Google
+    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
+    company_logo: "/uploads/2019/08/15/google-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/phaller/
+  - name: Andrea Kollmorgen
+    job_title: VP Mobility Connected (e)Mobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
+    bio: ''
+  - job_title: Co-Founder
+    company: emmy
+    speaker_photo: "/uploads/2019/10/25/valerian_seither.jpg"
+    company_logo: "/uploads/2019/02/19/emmy logo.png"
+    linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
+    name: Valerian Seither
+    bio: ''
+  - job_title: COO
+    company: felyx
+    speaker_photo: "/uploads/2019/10/25/Kasper.jpg"
+    company_logo: "/uploads/2019/10/25/felyx.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/kasperzwetsloot/
+    name: Kasper Zwetsloot
+  - name: Philipp Wenger
+    job_title: GM Wunder Carpool
+    company: Wunder Mobility
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/philippwenger/
+    speaker_photo: "/uploads/2019/10/25/Philipp-1.jpg"
+  - name: Thomas Dahlem
+    job_title: Director Development Autonomous Driving
+    company: Audi
+    speaker_photo: "/uploads/2019/10/25/Thomas-1.jpg"
+    company_logo: "/uploads/global/audi-rings.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
+  - name: Daniel Avdagic
+    job_title: CEO
+    company: AV Living Lab
+    speaker_photo: "/uploads/2019/10/25/Daniel.jpg"
+    company_logo: "/uploads/2019/10/25/AV Living Lab.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/daniel-avdagic/
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
