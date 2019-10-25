@@ -6,13 +6,17 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: How to Make the Most out of Your Investment (For Startups)
-publish_date: 2019-08-13 00:00:00 +0000
+title: How Startups Can Make the Most Out of Their Investment Funds
+publish_date: 2019-08-13T00:00:00.000+00:00
 featured_image: "/uploads/2019/08/26/lightbulbcottoncandybloglistimage.jpeg"
 excerpt: 'Often, the joy that comes with receiving an investment can be hampered by
   worrying thoughts: maybe you’re left hoping that you don’t spend all that investment
   money on the wrong things, or you’re concerned that you’ll blow through it too fast.
   If you’re in this predicament right now, don’t worry - we’ve been there before.'
+tags: []
+share_image: ''
+sticky_post: false
+hidden: false
 
 ---
 If you’re a CEO of a startup or you’re involved in strategy and planning for one, you probably know what it feels like to find out that an investor is confident in the profitability of your business model and wants to invest a sizable amount of money into your vision. It’s exciting, but it can also be very nerve-wracking.
