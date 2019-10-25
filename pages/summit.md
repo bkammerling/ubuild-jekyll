@@ -233,13 +233,6 @@ page_sections:
     company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/jonathancarrier/
-  - name: Heiko Hüttel
-    job_title: Head of Technology and Partner Management
-    speaker_photo: "/uploads/2019/07/22/Heiko-Huttel.jpg"
-    company_logo: "/uploads/2019/06/13/Volkswagen.png"
-    company: Volkswagen
-    bio: ''
-    linkedin: https://www.linkedin.com/in/huettel/
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
@@ -268,13 +261,6 @@ page_sections:
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
-  - company: Microsoft
-    speaker_photo: "/uploads/2019/07/22/Jens-Beckmann.jpg"
-    company_logo: "/uploads/global/microsoft-logo.png"
-    name: Jens Beckmann
-    job_title: Senior Business Development Manager
-    bio: ''
-    linkedin: https://www.linkedin.com/in/jensbeckmann/
   - name: Anna-Charlotte Fleischmann-Kopatsch
     job_title: Senior Consultant
     company: MHP
