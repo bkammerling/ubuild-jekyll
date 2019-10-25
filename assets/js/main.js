@@ -88,46 +88,47 @@ function takeNext($word) {
 	return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
 }
 
-
-
-var videoPlayer = {
-  player: null,
-  init: function() {
-    this.player = new Plyr('#player', {
-      controls: ['play','progress','volume','fullscreen'],
-      clickToPlay: true,
-      hideControls: true,
-      resetOnEnd: true,
-      fullscreen: { enabled: true, fallback: 'force', iosNative: true }
-    });
-    this.player.on('ready', event => {
-      if($(".filmmodal").length == 0) {
-        this.player.toggleControls(false);
-        console.log('true');
-      } else {
+var videoPlayer;
+$(document).ready(function() {
+  videoPlayer = {
+    player: null,
+    init: function() {
+      this.player = new Plyr('#player', {
+        controls: ['play','progress','volume','fullscreen'],
+        clickToPlay: true,
+        hideControls: true,
+        resetOnEnd: true,
+        fullscreen: { enabled: true, fallback: 'force', iosNative: true }
+      });
+      this.player.on('ready', event => {
+        if($(".filmmodal").length == 0) {
+          this.player.toggleControls(false);
+          console.log('true');
+        } else {
+          $("#player").css('pointerEvents', 'auto');
+          console.log('false');
+        }
+      });
+      this.player.on('ended', event => {
+        this.player.restart();
+      });
+      $("#video-btn").click(function() {
+        videoPlayer.startPlay();
         $("#player").css('pointerEvents', 'auto');
-        console.log('false');
+        $(this).fadeOut();
+        localStorage.setItem('lastVideo', pagetitle);
+        localStorage.setItem('lastVideoTime', new Date().getTime());
+      });
+    },
+    startPlay: function() {
+      if($(".filmmodal").length == 0) {
+        this.player.toggleControls();
       }
-    });
-    this.player.on('ended', event => {
-      this.player.restart();
-    });
-    $("#video-btn").click(function() {
-      videoPlayer.startPlay();
-      $("#player").css('pointerEvents', 'auto');
-      $(this).fadeOut();
-      localStorage.setItem('lastVideo', pagetitle);
-      localStorage.setItem('lastVideoTime', new Date().getTime());
-    });
-  },
-  startPlay: function() {
-    if($(".filmmodal").length == 0) {
-      this.player.toggleControls();
+      this.player.play();
     }
-    this.player.play();
   }
-}
-videoPlayer.init();
+  videoPlayer.init();
+});
 
 /* SVG ANIMATIONS (IF ANY) */
 var animation = {
