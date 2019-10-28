@@ -184,20 +184,6 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-mm.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/dediu/
-  - name: Sigrid Dalberg-Krajewski
-    job_title: Head of Marketing & Communications
-    company: Trafi
-    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
-    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
-  - name: Sam Baker
-    job_title: COO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/samuelrossbaker/
   - name: Paulin Dementhon
     job_title: CEO
     company: Drivy by Getaround
@@ -212,6 +198,20 @@ page_sections:
     company_logo: "/uploads/2019/10/14/Logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/company/unibail-rodamco-westfield/
+  - name: Sigrid Dalberg-Krajewski
+    job_title: Head of Marketing & Communications
+    company: Trafi
+    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
+    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+  - name: Andrea Kollmorgen
+    job_title: VP Connected eMobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
+    bio: ''
   - name: Ben Volkow
     job_title: CEO and Founder
     company: Otonomo
@@ -226,13 +226,13 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/michel-stumpe-62872912/
-  - name: Jonathan Carrier
-    job_title: VP, Corporate Development
-    company: AeroMobil
-    speaker_photo: "/uploads/2019/08/30/Jonathan-Carrier.png"
-    company_logo: "/uploads/2019/08/30/aeromobil-logo.png"
+  - name: Sam Baker
+    job_title: COO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
     bio: ''
-    linkedin: https://www.linkedin.com/in/jonathancarrier/
+    linkedin: https://www.linkedin.com/in/samuelrossbaker/
   - name: Martin Hoff
     job_title: Head of Market Management & Innovation
     company: Automotive, Allianz Partners
@@ -240,6 +240,13 @@ page_sections:
     company_logo: "/uploads/global/allianz-logo.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/hoffmartin/
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
   - name: Thomas Eilrich
     job_title: Editor-in-Chief Publishing/Management
     company: JDB Media
@@ -268,13 +275,6 @@ page_sections:
     company_logo: "/uploads/2019/08/15/google-logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/phaller/
-  - name: Andrea Kollmorgen
-    job_title: VP Connected eMobility
-    company: Siemens
-    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
-    linkedin: https://www.linkedin.com/in/akollmorgen/
-    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
-    bio: ''
   - job_title: Co-Founder
     company: emmy
     speaker_photo: "/uploads/2019/10/25/valerian_seither.jpg"
@@ -282,13 +282,6 @@ page_sections:
     linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
     name: Valerian Seither
     bio: ''
-  - name: Anna-Charlotte Fleischmann-Kopatsch
-    job_title: Senior Consultant
-    company: MHP
-    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
-    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
   - job_title: COO
     company: felyx
     speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
@@ -296,6 +289,13 @@ page_sections:
     bio: ''
     linkedin: https://www.linkedin.com/in/kasperzwetsloot/
     name: Kasper Zwetsloot
+  - name: "Iona\tFreise"
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
+    job_title: GM Wunder City
   - name: Philipp Wenger
     job_title: GM Wunder Carpool
     company: Wunder Mobility
@@ -310,13 +310,6 @@ page_sections:
     company_logo: "/uploads/global/audi-rings.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
-  - name: "Iona\tFreise"
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
-    job_title: GM Wunder City
   - name: Daniel Avdagic
     job_title: CEO
     company: AV Living Lab
