@@ -283,7 +283,7 @@ page_sections:
     bio: ''
     linkedin: https://www.linkedin.com/in/phaller/
   - name: Andrea Kollmorgen
-    job_title: VP Mobility Connected (e)Mobility
+    job_title: VP Connected eMobility
     company: Siemens
     company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
     linkedin: https://www.linkedin.com/in/akollmorgen/
@@ -298,7 +298,7 @@ page_sections:
     bio: ''
   - job_title: COO
     company: felyx
-    speaker_photo: "/uploads/2019/10/25/Kasper.jpg"
+    speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
     company_logo: "/uploads/2019/10/25/felyx.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/kasperzwetsloot/
