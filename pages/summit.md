@@ -483,7 +483,7 @@ page_sections:
               <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
                   <a target="_blank" href="https://moia.io/">
-                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/moia-logo.png" data-srcset="ploads/global/moia-logo@2x.png 2x" ><br>
+                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/moia-logo.png" data-srcset="uploads/global/moia-logo@2x.png 2x" ><br>
                   </a>
                 </div>
               </div>
