@@ -261,20 +261,6 @@ page_sections:
     company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
-  - name: Anna-Charlotte Fleischmann-Kopatsch
-    job_title: Senior Consultant
-    company: MHP
-    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
-    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
-  - name: "Iona\tFreise"
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
-    job_title: GM Wunder City
   - name: Patrick Haller
     job_title: Industry Manager
     company: Google
@@ -296,6 +282,13 @@ page_sections:
     linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
     name: Valerian Seither
     bio: ''
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
   - job_title: COO
     company: felyx
     speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
@@ -317,6 +310,13 @@ page_sections:
     company_logo: "/uploads/global/audi-rings.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
+  - name: "Iona\tFreise"
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
+    job_title: GM Wunder City
   - name: Daniel Avdagic
     job_title: CEO
     company: AV Living Lab
