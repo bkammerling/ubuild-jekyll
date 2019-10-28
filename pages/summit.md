@@ -416,7 +416,7 @@ page_sections:
           <section id="section-supporters">
             <h2 class="page-heading mb-4">Sponsored by...</h2>
             <div class="row align-items-center">
-              <div class="col-lg-4">
+              <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.microsoft.com/de-de">
                     <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
@@ -427,13 +427,6 @@ page_sections:
                 <div class="partner-box">
                   <a target="_blank" href="https://www.free-now.com/">
                     <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.pwc.de/">
-                    <img class="" style="width: 120px;" data-src="uploads/2019/07/03/pwc.png"">
                   </a>
                 </div>
               </div>
@@ -457,15 +450,14 @@ page_sections:
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <a target="_blank" href="https://www.mhp.com/de/home/">
-                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                  <a target="_blank" href="https://www.pwc.de/">
+                    <img class="" style="width: 120px;" data-src="uploads/2019/07/03/pwc.png"">
                   </a>
                 </div>
               </div>
-
             </div>
             <div class="row align-items-center mt-2">
-              <div class="col-lg-4">
+              <div class="col-lg-4 ">
                 <div class="partner-box">
                   <a target="_blank" href="https://www.audi.de">
                     <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
@@ -474,15 +466,31 @@ page_sections:
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <a target="_blank" href=" https://www.continental.com/en">
-                    <img class="" style="width: 165px; max-width: 90%;" data-src="uploads/global/continental-logo.png"><br>
+                  <a target="_blank" href="https://driveathena.com/carvr/">
+                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
                   </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="partner-box">
-                  <a target="_blank" href="https://driveathena.com/carvr/">
-                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
+                  <a target="_blank" href="https://www.mhp.com/de/home/">
+                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center mt-2">
+              <div class="col-lg-4 offset-lg-2">
+                <div class="partner-box">
+                  <a target="_blank" href="https://moia.io/">
+                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/moia-logo.png" data-srcset="ploads/global/moia-logo@2x.png 2x" ><br>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="partner-box">
+                  <a target="_blank" href=" https://www.continental.com/en">
+                    <img class="" style="width: 170px; max-width: 90%;" data-src="uploads/global/continental-logo.png"><br>
                   </a>
                 </div>
               </div>
