@@ -13,16 +13,16 @@ page_sections:
     button_text: Contact
   sub_logo: ''
 - template: hero-banner-w-image
-  block: hero-2
-  headline: Technology to build, innovate and scale <strong>shared mobility</strong>
+  block: hero-hp
+  headline: Technology to build, innovate and scale shared mobility
   cta:
-    button_text: Contact Us
-    url: "#section-contact"
+    button_text: Watch out film
+    url: "https://vimeo.com/318402556"
     enabled: true
   cta_2:
-    url: https://vimeo.com/318402556
-    button_text: Watch our Film
-    enabled: true
+    url:
+    button_text:
+    enabled: false
   background_video: vidbanner-2
   show_logos: true
   background_image: "/uploads/2019/07/11/vidbanner-poster.jpg"
