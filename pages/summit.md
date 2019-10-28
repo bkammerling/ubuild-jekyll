@@ -282,13 +282,6 @@ page_sections:
     linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
     name: Valerian Seither
     bio: ''
-  - job_title: COO
-    company: felyx
-    speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
-    company_logo: "/uploads/2019/10/25/felyx.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/kasperzwetsloot/
-    name: Kasper Zwetsloot
   - name: "Iona\tFreise"
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
@@ -296,13 +289,13 @@ page_sections:
     bio: ''
     linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
     job_title: GM Wunder City
-  - name: Philipp Wenger
-    job_title: GM Wunder Carpool
-    company: Wunder Mobility
-    company_logo: "/uploads/global/wundermobility-black.svg"
+  - job_title: COO
+    company: felyx
+    speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
+    company_logo: "/uploads/2019/10/25/felyx.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/philippwenger/
-    speaker_photo: "/uploads/2019/10/25/Philipp-1.jpg"
+    linkedin: https://www.linkedin.com/in/kasperzwetsloot/
+    name: Kasper Zwetsloot
   - name: Thomas Dahlem
     job_title: Director Development Autonomous Driving
     company: Audi
@@ -317,6 +310,13 @@ page_sections:
     company_logo: "/uploads/2019/10/25/AV Living Lab.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/daniel-avdagic/
+  - name: Philipp Wenger
+    job_title: GM Wunder Carpool
+    company: Wunder Mobility
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/philippwenger/
+    speaker_photo: "/uploads/2019/10/25/Philipp-1.jpg"
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
