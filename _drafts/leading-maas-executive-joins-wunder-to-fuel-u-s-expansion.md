@@ -9,7 +9,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/newsletter-signup.md
-title: LEADING MaaS EXECUTIVE JOINS WUNDER TO FUEL U.S. EXPANSION
+title: Leading MaaS Executive Joins Wunder to Fuel US Expansion
 publish_date: 2019-10-29 15:00:00 +0000
 featured_image: ''
 excerpt: 'Today, I have the pleasure of officially introducing Melika Jahangiri, our
