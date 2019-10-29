@@ -5,9 +5,9 @@ tags:
 - interview
 - new hire
 author: _people/sam-baker.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_heading: Sign Up for our Newsletter
+cta_text: The monthly Wunder Bar newsletter is packed full of insights and updates
+  from the world of Wunder. Sign up to stay in the loop!
 cta_link: pages/newsletter-signup.md
 title: Leading MaaS Executive Joins Wunder to Fuel US Expansion
 publish_date: 2019-10-29 15:00:00 +0000
