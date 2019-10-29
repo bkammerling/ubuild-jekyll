@@ -317,6 +317,13 @@ page_sections:
     bio: ''
     linkedin: https://www.linkedin.com/in/philippwenger/
     speaker_photo: "/uploads/2019/10/25/Philipp-1.jpg"
+  - name: Robert Lokner
+    job_title: Industry Solution Manager Automotive/EMEA
+    company: Microsoft
+    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
+    company_logo: "/uploads/global/microsoft-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/robert-lokner/
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
