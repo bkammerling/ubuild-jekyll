@@ -105,7 +105,7 @@ fields:
       file: 
       path: 
   label: CTA Link
-- name: sticky_post
+- name: sticky
   type: boolean
   label: Sticky Post
   description: Your latest sticky post will be pinned to the top of the blog list
