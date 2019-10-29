@@ -28,17 +28,17 @@ Based in Los Angeles, Melika is a mobility space veteran, and her impressive wor
 
 I conducted a Q&A with Melika to learn a bit more about what drives her.
 
-### **Welcome to the team, Melika! We’re so happy to have you here at Wunder. Can you tell us how you got your start in the mobility space?**
+## **Welcome to the team, Melika! We’re so happy to have you here at Wunder. Can you tell us how you got your start in the mobility space?**
 
 By accident, actually. I was working at Sonder and a friend of mine was starting a new mobility company called Envoy and he was trying to convince me to leave Sonder to join him to head up their sales and get the company up and running. After I saw the research within the mobility landscape and the trends within car ownership, I decided this is a space I want to be in. I would say Envoy gave me a taste but really Ford Motor Company/Chariot really got me on the hook.
 
-### **What brought you to Wunder Mobility?**
+## **What brought you to Wunder Mobility?**
 
 I actually was familiar with Wunder Mobility during my time at Ford Motor Company because we were going to use their technology in Europe and potentially in other parts of the world for carpooling and some of our international launches. Collectively, we were always impressed by their technology and speed to market on features and adaptability to grow within the trends of the market.
 
 In February of this year, Wunder reached out to me wanting to connect about a role within the U.S., but it wasn’t the right time. I was always “wundering” about Wunder, and when the team reached out later, it was time.
 
-### **Can you tell us more about your role?**
+## **Can you tell us more about your role?**
 
 Certainly, my role as Vice President of Business Development - Key Accounts is really working with the team to address the specific and unique needs of our customers. This can include anything from a startup that has raised over $10 million and is expanding heavily, to a large OEM starting a new service with a large fleet of their vehicles or simply launching several pilots, running consecutively at times, where our product can help them get their MVP to the market quickly. These kinds of companies have different needs from their technology providers which may require different processes and structure so that really requires a certain level of expertise and understanding to help them execute.
 
@@ -50,13 +50,13 @@ Additionally, being on our executive leadership team with my experience helps us
 
 With that, I will be primarily be working on our North America efforts with the team and building out our workforce. We believe the U.S. market presents an exciting opportunity to expand and that Wunder Mobility’s unique product offerings are ideal for the American market. We are extremely committed to our growth within the U.S., and our ongoing expansion aligns with our customers’ needs.
 
-### **What do you see as the biggest opportunity in mobility in the U.S.?**
+## **What do you see as the biggest opportunity in mobility in the U.S.?**
 
 The U.S. is a fantastic market for mobility so there is a ton of opportunity there. We see some really interesting startups being created, raising an incredible amount of money with huge expansion goals that you really don’t see anywhere else. For example, look at Bird’s story: incorporating in September 2017, raising $15 million in February 2018 and by June 2018 they were at $300 million and expanding (very quickly) into 100 cities worldwide. You just don’t see that kind of growth and expansion anywhere else but the States so being there is critical especially since mobility can change sometimes from months to weeks and being able to be agile with your product in order to be competitive is imperative.
 
 We chose LA as our HQ because it has become a “mobility hub” in the U.S. It’s a critical market for Uber, Lyft, Lime, Bird, and has become a home to other compelling mobility players like Fair, Wheelz, and HyreCar. We’re in great company here and we view success in LA as a benchmark for mobility success globally.
 
-### **What is your favorite mode of transportation?**
+## **What is your favorite mode of transportation?**
 
 The scooter, hands down. I use a scooter several times a day and I love trying them all. It has really been a game-changer when it comes to the first/last mile solution and it allows me to take the metro more as well as walk more because I know there will be scooters for me to take throughout the city.
 
