@@ -1,0 +1,103 @@
+body {
+  background-color: $white;
+}
+
+
+/***** Grid stuff  *****/
+
+div.mob-scroll {
+  overflow: scroll; 
+}
+
+
+main > section {
+  margin: 128px 0;
+}
+
+.jumbo-intro {
+  margin: 120px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.white-text {
+  color: $white;
+}
+
+
+
+
+
+/***** Showcase Box  *****/
+
+.showcase-box {
+  margin: 40px 0;
+  &__bg {
+    height: 460px;
+    flex-direction: column;
+    padding: 48px 24px;
+    background-size: cover;
+    @include rwd(tablet-up) {
+      height: 720px;
+      padding: 96px 0;
+    }
+  }
+
+  .btn {
+    margin-top: 24px;
+    @include rwd(tablet-up) {
+      margin-top: 32px;
+    }
+  }
+}
+
+
+
+
+
+
+/***** Video overlay Modal *****/
+
+.filmmodal {
+
+  .modal-backdrop.in, .modal-backdrop.show {
+      filter: alpha(opacity=8);
+      opacity: 0.8;
+  }
+
+  .modal-content {
+      background: none;
+      border: 0;
+      -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+      -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+  }
+
+  .modal-body {
+      padding: 0 25px 25px 25px;
+  }
+
+  .modal-header {
+      padding: 25px 25px 15px 25px;
+      text-align: right;
+  }
+
+  .modal-header, .modal-footer {
+      border: 0;
+  }
+
+  .modal-header .close {
+      font-size: 36px;
+      color: #fff;
+      font-weight: 300;
+      text-shadow: none;
+      opacity: 1;
+  }
+
+  .modal-lg {
+      max-width: 1200px;
+  }
+
+
+}

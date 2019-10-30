@@ -4,6 +4,7 @@ title: Wunder Mobility | Driving forward urban mobility worldwide
 permalink: "/"
 lang: en
 lang-ref: home
+version: hp
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -16,18 +17,18 @@ page_sections:
   block: hero-hp
   headline: Technology to build, innovate and scale shared mobility
   cta:
-    button_text: Watch out film
+    button_text: Watch our film
     url: "https://vimeo.com/318402556"
     enabled: true
   cta_2:
     url:
     button_text:
     enabled: false
-  background_video: vidbanner-2
-  show_logos: true
-  background_image: "/uploads/2019/07/11/vidbanner-poster.jpg"
+  background_video: fleet_loop
+  show_logos: false
+  background_image: "/uploads/global/fleet-frame.jpg"
   intro_text: ''
-  logo_row: mainlogos
+  logo_row:
 - template: custom-block
   block: home-main
   subdirectory: static
@@ -36,17 +37,6 @@ page_sections:
   headline: We're being talked about
   items: []
   show_featured: true
-- template: custom-content
-  block: custom-html
-  name: Main Element Fix
-  content: "</main>"
-- template: detail-content
-  block: contact-form
-  title: Let's Talk
-  content: We believe in speed. Let us know how we can help and we'll get in touch
-    with you in no time.
-  headline: Let's Talk
-  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
   content: ''

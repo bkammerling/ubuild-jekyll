@@ -57,8 +57,14 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" async>
     {% if page.url contains 'session' or page.url contains 'summit' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
+    {% if page.version == 'hp' %}
+    <link rel="stylesheet" href="/css/styles-hp.css" async>
+    {% else %}
     <link rel="stylesheet" href="/css/styles.css" async>
+    {% endif %}
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
   </head>
 
   <body class="{{ page.title | downcase | replace: ' ', '-' }} {{ page.lang-ref }} {% if page.collection %}{{ page.collection }}{% endif %} {% if page.dir %}{{ page.dir | replace: "/", "" }}{% endif %}" data-spy="scroll" data-target="#scroller-nav" data-offset="350">

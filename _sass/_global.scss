@@ -54,6 +54,17 @@ body {
 }
 
 
+.block-two-column-horizontal {
+  padding: rem(60px) 0 0;
+  background-color: $white;
+}
+
+
+.content-dropdown {
+  margin-top: rem(40px);
+}
+
+
 .block-one-column-1 {
     min-height: 700px;
     .container {
@@ -1137,7 +1148,7 @@ ul.footer__socialmedia {
     padding-right: 10%;
   }
   h4 {
-    @extend .text-blue;
+    //@extend .text-blue;
     text-transform: capitalize;
     letter-spacing: 0px;
     margin-bottom: rem(15px);

@@ -6,7 +6,6 @@
 $mobile: 576px;
 $tablet: 768px;
 $desktop: 992px;
-$desktop2: 1054px;
 $desktop-wide: 1200px;
 
 /*
@@ -18,7 +17,7 @@ $grid-gutter: 15px;
 $container-mobile: 540px;
 $container-tablet: 720px;
 $container-desktop-small: 960px;
-$container-desktop-wide: 1140px;
+$container-desktop-wide: 1280px;
 
 $col-mobile: $container-mobile / 12;
 $col-tablet: $container-tablet / 12;
@@ -33,10 +32,11 @@ $col-desktop-wide: $container-desktop-wide / 12;
 $base-font-size: 16px;
 $base-font-family: 'Averta', 'Arial', sans-serif;
 
-$font-light: 300;
+
 $font-regular: 400;
+$font-semibold: 600;
 $font-bold: 700;
-$font-black: 900;
+
 
 $wunder-bg-start: 1800px;
 
@@ -48,6 +48,7 @@ $transition-duration: 0.4s;
 
 $mobility-black: #1F1F1F;
 $mobility-blue: #2781FF;
+$primary: #2781FF;
 $black48: #7A7A7A;
 $black96: #F5F5F5;
 
@@ -68,5 +69,6 @@ $fleet-highlight: #2781FF;
 $carpool-highlight: #04DE47;
 $shuttle-highlight: #6C63FF;
 $summit-highlight: #E11668;
+$info: #E11668; //sets the bootstrap info color for use on buttons etc
 $park-highlight: #2D6F9B;
 $solution-highlight: $sky-blue !default;

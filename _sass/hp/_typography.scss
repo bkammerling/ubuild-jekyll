@@ -1,0 +1,112 @@
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $mobility-black;
+}
+
+h1, h2, h3, h4 {
+  font-weight: $font-semibold;
+}
+
+
+h1, .headline-large {
+  font-size: 32px;
+  line-height: 36px;
+  @include rwd(tablet-up) {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+}
+
+h2, .headline-medium {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  @include rwd(tablet-up) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+}
+
+h3, .headline-small {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  @include rwd(tablet-up) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+p, .body-text {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  @include rwd(tablet-up) {
+    font-size: $base-font-size;
+    line-height: 24px;
+  }
+}
+
+.small-label {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  color: $mobility-black;
+  &:hover {
+    color: $mobility-black;
+    text-decoration: none;
+  }
+}
+
+
+.text-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: $mobility-blue;
+  .nav & {
+    color: $mobility-black;
+  }
+  .footer & {
+    color: $white;
+  }
+}
+
+.btn {
+  font-weight: $font-semibold;
+  border-width: 1.5px;
+}
+
+.text-highlight {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: $font-semibold;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.4s;
+  a:hover &, &:hover {
+    border-color: $mobility-blue;
+  }
+
+  .headline-medium ~ & {
+    margin-top: 32px;
+  }
+
+}
+
+strong, b {
+  font-weight: $font-semibold;
+}
+
+p, a, h4, h3, h2, h1, li, span, div {
+  -webkit-font-smoothing: antialiased;
+  &.text-highlight {
+    color: $mobility-blue;
+  }
+  &.text-mute {
+    color: $black48;
+  }
+}

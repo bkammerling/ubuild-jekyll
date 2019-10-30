@@ -1,0 +1,178 @@
+
+.footer {
+  background: $olive-matt;
+  padding: rem(80px) rem(30px) rem(40px);
+  clear: both;
+
+  .summit & {
+    background: url("/uploads/global/summit-bg.png") repeat;
+    background-size: 200px 150px;
+  }
+
+  a {
+    color: $white;
+    font-weight: 400;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h4 {
+    margin-bottom: rem(10px);
+    color: $grey-heading;
+  }
+
+  ul {
+    margin-bottom: rem(30px);
+    padding: 0;
+  }
+
+  li {
+    padding: rem(9px) 0;
+    list-style: none;
+
+    p {
+      color: $olive-matt;
+      font-size: rem(16px);
+      line-height: 1.5;
+    }
+
+  }
+
+  .round-cta {
+    font-weight: 800;
+  }
+
+  @include rwd(tablet-up) {
+    li {
+      font-size: rem(14px);
+      padding: rem(2px) 0;
+
+      p {
+        font-size: rem(11px);
+      }
+
+      .subtitle {
+        font-size: rem(10px);
+      }
+    }
+  }
+  @include rwd(tablet-down) {
+    li {
+      padding: rem(4px) 0;
+      font-size: rem(14px);
+    }
+
+  }
+
+  .careers & {
+    background: $white;
+    a {
+      color: $olive-matt;
+    }
+  }
+
+  .cta-wrapper {
+    text-align: center;
+    margin: 0 0 3rem;
+    a {
+      font-size: 12px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  address {
+    margin-bottom: 1.875rem;
+  }
+
+} //END OF .FOOTER
+
+.block-contact-form {
+  margin-top: rem(130px);
+}
+
+.block-contact-form + .footer, .with-form + .footer {
+  padding-top: 150px;
+}
+
+.footer__wrapper {
+  margin-bottom: rem(25px);
+}
+
+.footer__logotype {
+  filter: brightness(570%);
+  .careers & {
+    filter: none;
+  }
+  margin-bottom: rem(40px);
+}
+
+.footer__bottom {
+  color: $grey-heading;
+  margin-right: -15px;
+  margin-left: -15px;
+  font-size: rem(14px);
+
+  ul {
+    margin-top: rem(20px);
+    margin-left: 15px;
+  }
+
+  li:first-child {
+    //margin-bottom: rem(30px);
+  }
+
+  a {
+    color: $grey-heading;
+    font-weight: $font-regular;
+  }
+
+  @include rwd(tablet-up ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: rem(10px);
+
+    li {
+      display: inline-block;
+      padding: 0 rem(30px);
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+}
+
+
+ul.footer__socialmedia {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(10px);
+
+  li {
+    padding-right: rem(20px);
+  }
+
+  ion-icon {
+    font-size: 24px;
+    color: $white;
+    .careers & {
+      color: $olive-matt;
+    }
+
+  }
+
+  @include rwd(tablet-up) {
+    ion-icon {
+      font-size: 20px;
+    }
+  }
+}

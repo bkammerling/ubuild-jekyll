@@ -70,6 +70,18 @@
     }
   }
 
+
+  .wunder-bg {
+    @include rwd(tablet-down) {
+      display: none;
+    }
+  }
+  .solution-wrapper .top-image-wrapper .abs-right {
+    width: calc(100% + 300px);
+    right: -290px;
+    top: -5px;
+  }
+
 }
 
 
