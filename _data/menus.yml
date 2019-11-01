@@ -2,7 +2,7 @@
 wunder-main:
 - url: "#"
   weight: 1
-  title: Solutions
+  title: Products
   identifier: solutions
   sub: true
 - url: "/fleet"

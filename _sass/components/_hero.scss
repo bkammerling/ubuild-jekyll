@@ -27,6 +27,14 @@
     z-index: 2;
   }
 
+  a {
+    display: block;
+    margin-top: 32px;
+    @include rwd(tablet-up) {
+      margin-top: 48px;
+    }
+  }
+
 }
 
 .video-banner__video {

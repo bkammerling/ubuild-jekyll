@@ -11,7 +11,7 @@ page_sections:
   menu: wunder-main
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Contact us
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
@@ -32,11 +32,6 @@ page_sections:
 - template: custom-block
   block: home-main
   subdirectory: static
-- template: news-section
-  block: two-column-horizontal-cards
-  headline: We're being talked about
-  items: []
-  show_featured: true
 - template: simple-footer
   block: footer-1
   content: ''

@@ -6,12 +6,18 @@ body {
 /***** Grid stuff  *****/
 
 div.mob-scroll {
-  overflow: scroll; 
+  overflow: scroll;
 }
 
 
 main > section {
   margin: 128px 0;
+  overflow: hidden;
+}
+
+section.grey-bg {
+  background-color: $black96;
+  padding: 128px 0;
 }
 
 .jumbo-intro {
@@ -25,6 +31,7 @@ img {
 .white-text {
   color: $white;
 }
+
 
 
 
@@ -45,16 +52,51 @@ img {
     }
   }
 
-  .btn {
-    margin-top: 24px;
+  &__white-bg {
+    margin: 120px 0 32px;
+  }
+
+  .showcase-box_inner-content {
+    margin-left: 8px;
+  }
+
+  .btn, .text-highlight {
+    margin-top: 12px;
     @include rwd(tablet-up) {
-      margin-top: 32px;
+      margin-top: 24px;
     }
   }
 }
 
 
+.big-numbers {
+  .headline-large {
+    margin-bottom: 8px;
+  }
+}
 
+/****** Press articles featured quote section *******/
+
+.featured-quotes {
+  display: flex;
+  transform: translateX(-25%);
+  &__single-quote {
+    min-width: 50%;
+    padding: 0 55px;
+    text-align: center;
+  }
+}
+
+.sidefade-overlay {
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    background-color: rgba(255,255,255,0.1);
+    background: linear-gradient(to right, rgba(255,255,255,0.6), rgba(255,255,255,0.6), transparent, transparent, rgba(255,255,255,0.6), rgba(255,255,255,0.6));
+    background: linear-gradient(to right, rgba(255,255,255,0.6), rgba(255,255,255,0.6) 29%, transparent 30%,  transparent 69%, rgba(255,255,255,0.6) 70%, rgba(255,255,255,0.6));
+  }
 
 
 

@@ -1,70 +1,70 @@
-<header class="block block-header-2">
 {% if section.menu != null %}
   {% assign menu_name = section.menu %}
 {% else %}
   {% assign menu_name = 'wunder-main' %}
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
-  <nav class="absolute-header {% if page.layout == 'simple-article' or page.lang-ref == 'blog' %}navbar-narrow{% endif %}">
-    <div class="container header">
-      <div class="grouped-logo {% comment %}{% if section.sub_logo and section.sub_logo != empty %}animated{% endif %}{% endcomment %}">
-        {% assign directory = page.dir | remove: '/' %}
-        <a href="{{ site.url }}{% comment %}{% if directory != 'careers' %}{{ page.dir }}{% endif %}{% endcomment %}">
-          <div class="main-logo-wrapper">
-            <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="header__logotype main-logotype">
-          </div>
-
-          {% comment %}
-          {% if section.sub_logo and section.sub_logo != empty %}
-          <div class="second-logo-wrapper">
-            <img src="{{ section.sub_logo }}" alt="{{ site.title }}" class="header__logotype secondary-logotype">
-          </div>
-          {% endif %}
-          {% endcomment %}
-        </a>
-        {% comment %}
-        {% if section.sub_logo and section.sub_logo != empty %}
-        <div class="dividing-line"></div>
-        <a href="{% if page.dir %}{{ page.dir }}{% else %}{{ page.permalink }}{% endif %}">
-          <img src="{{ section.sub_logo | relative_url }}" alt="{% if page.dir %}{{ page.dir | remove: '/' }}{% else %}{{ page.title }}{% endif %}" class="header__logotype-sublogo">
-        </a>
-        {% endif %}
-        {% endcomment %}
-      </div>
-      <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <ul class="header__nav list-unstyled">
+<nav class="navbar fixed-top navbar-expand-md block block-header-2 px-4">
+  <a class="navbar-brand" href="{{ site.url }}">
+    <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">
+  </a>
+  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <div class="collapse navbar-collapse">
+    <ul class="list-unstyled navbar-nav ml-auto">
+      {% for nav_item in menu %}
+      {% if nav_item.parent %}
+        {% continue %}
+      {% else %}
+        <li class="nav-item"><a class="nav-link body-text" href="{{ nav_item.url }}" data-target="{{ nav_item.identifier }}">{{ nav_item.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+      {% if section.cta %}
+        <button class="btn btn-primary gt-navcta" {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %} href="{{ section.cta.url }}">
+          {{ section.cta.button_text }}
+        </button>
+      {% endif %}
+    </ul>
+  </div>
+</nav>
+<div class="nav-full">
+  <div class="nav-full__overlay"></div>
+  <div class="nav-full__wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11 col-xl-10 offset-xl-1 d-flex flex-wrap">
           {% for nav_item in menu %}
           {% if nav_item.parent %}
             {% continue %}
           {% else %}
-            <li class="underline-from-left header__nav-item menu-item-{{ loop.index }} {% if page.url == nav_item.url %}active{% endif %}">
-              {% if nav_item.sub %}
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav_item.title }}</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                {% for sub_item in menu %}
-                {% if sub_item.parent == nav_item.identifier %}
-                  <a class="dropdown-item"  href="{{ sub_item.url }}" title="Go to {{ sub_item.title }}"><span class="dropdown-maintitle">{{ sub_item.title }}</span><span class="dropdown-subtitle">{{ sub_item.subtitle }}</span></a>
-                {% endif %}
-                {% endfor %}
+          <div class="nav-full__single-menu" id="{{ nav_item.identifier }}"">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="headline-medium">{{ nav_item.title }}</h2>
+              </div>
+              <div class="col-md-9">
+                <div class="row">
+                  {% for sub_item in menu %}
+                  {% if sub_item.parent == nav_item.identifier %}
+                  <div class="col-md-4 mb-4">
+                    <a href="{{ sub_item.url }}">
+                      <p class="text-link">{{ sub_item.title }}</p>
+                      <p class="text-mute small-label">{{ sub_item.subtitle }}</p>
+                    </a>
+                  </div>
+                  {% endif %}
+                  {% endfor %}
                 </div>
-              {% else %}
-                <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-              {% endif %}
-            </li>
+              </div>
+            </div>
+          </div>
           {% endif %}
           {% endfor %}
-          {% if section.cta %}
-          <li class="underline-from-left header__nav-item menu-item-cta">
-            <a class="button primary small block-header-2--cta gt-navcta" {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %} href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
-          </li>
-          {% endif %}
-
-      </ul>
+        </div>
+      </div>
     </div>
-  </nav>
-
-</header>
+  </div>
+</div>

@@ -130,41 +130,6 @@ $(document).ready(function() {
   videoPlayer.init();
 });
 
-/* SVG ANIMATIONS (IF ANY) */
-var animation = {
-  init: function() {
-    this.setAnim("london-anim", "/assets/animdata/cities/London/data.json");
-    this.setAnim("manila-anim", "/assets/animdata/cities/Manila/data.json");
-    this.setAnim("auckland-anim", "/assets/animdata/cities/Auckland/data.json");
-    this.setAnim("rio-anim", "/assets/animdata/cities/Rio/data.json");
-    this.setAnim("atlanta-anim", "/assets/animdata/cities/Atlanta/data.json");
-    //this.anim.addEventListener('onLoopComplete', animation.doLoopComplete);
-  },
-  setAnim: function(id, jsonFile) {
-    if(document.getElementById(id) == null) return false;
-    this.anim = bodymovin.loadAnimation({
-      container: document.getElementById(id),
-      renderer: 'canvas',
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
-        clearCanvas: true
-      },
-      loop: false,
-      autoplay: true,
-      path: jsonFile // the path to the animation json
-    });
-    this.anim.setSpeed(0.7);
-  },
-  currentDirection: 1,
-  doLoopComplete: function(e) {
-    console.log('yo');
-    anim.setDirection(e.direction*-1);
-    anim.addEventListener('onLoopComplete', this.doLoopComplete);
-  }
-};
-if($(".animated-svg").length) animation.init();
-
-
 
 var slider = {
   init: function(target, config) {
@@ -196,39 +161,44 @@ if(pageref == 'culture') {
 }
 
 var menu = {
+  submenu: $(".nav-full"),
   init: function() {
-    var btn = $(".header__hamburger");
-    var menu = $(".header__nav");
-    this.activeItem();
-    this.toggleMenu(btn, menu);
+    var btn = $(".header__hamburger, .nav-full__overlay");
+    var menu = $(".navbar-nav");
+    var navlink = $(".navbar-nav .nav-link");
+    this.toggleMenu(btn, this.submenu);
+    this.showMenu(navlink, this.submenu);
   },
 
-  activeItem: function () {
-    var activeIndex = $('body').data('menu');
-    var activeSubIndex = $('body').data('submenu');
-    var mainItems = $('.header__nav > li');
-    var subItems = $('.header__nav-subitem li');
-
-    try {
-      if (activeSubIndex || activeSubIndex === 0) {
-        activeSubIndex = activeSubIndex.toString();
-      }
-    } catch(e) {
-      console.log(e);
-    }
-
-    $(mainItems[activeIndex]).addClass('current');
-    if (activeSubIndex && activeSubIndex.length > 0) {
-      $(subItems[activeSubIndex]).addClass('is-active');
-    }
-  },
-
-  toggleMenu: function(target, menu) {
-    target.on("click", function() {
-      menu.toggleClass("active");
+  toggleMenu: function(target, submenu) {
+    target.on("click", function(e) {
+      submenu.toggleClass("active");
       target.toggleClass("is-active");
+      $('.nav-item.is-active').removeClass('is-active');
+      //(e.target).addClass("is-active").siblings().removeClass("is-active");
       $('body').toggleClass('mobmenu-active');
+
     });
+  },
+
+  showMenu: function(target, submenu) {
+    target.on("click", function(e) {
+      e.preventDefault();
+      var clickedLink = $(e.target);
+      if(clickedLink.parent().hasClass("is-active")) {
+        menu.hideMenu(clickedLink.parent(), menu.submenu);
+      } else {
+        submenu.addClass("active");
+        clickedLink.parent().addClass("is-active").siblings().removeClass("is-active");
+        var identifier = clickedLink.data('target');
+        $("#" + identifier).addClass('is-active').siblings().removeClass('is-active');
+      }
+    });
+  },
+
+  hideMenu: function(target, menu) {
+    if(target) target.removeClass("is-active");
+    menu.removeClass("active");
   },
 
   dropdown: function(btn) {

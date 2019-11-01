@@ -58,8 +58,32 @@ p, .body-text {
 a {
   color: $mobility-black;
   &:hover {
-    color: $mobility-black;
+    color: inherit;
     text-decoration: none;
+  }
+  &.with-play {
+    padding-right: 55px; //to compensate for width+margin of play icon
+    &:after {
+      content: '';
+      display: inline-block;
+      background: url('/uploads/global/play-inner.svg') no-repeat;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1.5px solid $white;
+      transition: all $transition-duration/2;
+      position: absolute;
+      margin-left: 15px;
+      margin-top: -8px;
+      background-position: center;
+    }
+    &:hover {
+      &:after {
+        background-color: $black;
+        border-color: $black;
+        filter: invert(1);
+      }
+    }
   }
 }
 
@@ -67,6 +91,7 @@ a {
 .text-link {
   font-size: 16px;
   line-height: 24px;
+  font-weight: $font-semibold;
   color: $mobility-blue;
   .nav & {
     color: $mobility-black;
@@ -99,6 +124,10 @@ a {
 
 strong, b {
   font-weight: $font-semibold;
+}
+
+sup {
+  font-size: 60%;
 }
 
 p, a, h4, h3, h2, h1, li, span, div {

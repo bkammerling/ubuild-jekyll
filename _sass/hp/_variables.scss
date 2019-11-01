@@ -13,7 +13,9 @@ $desktop-wide: 1200px;
  *
  * Variables for Bootstrap 4 flexbox Frid
  */
-$grid-gutter: 15px;
+//$grid-columns: 14;
+$grid-gutter-width: 32px;
+$grid-gutter: 16px;
 $container-mobile: 540px;
 $container-tablet: 720px;
 $container-desktop-small: 960px;
@@ -32,11 +34,9 @@ $col-desktop-wide: $container-desktop-wide / 12;
 $base-font-size: 16px;
 $base-font-family: 'Averta', 'Arial', sans-serif;
 
-
 $font-regular: 400;
 $font-semibold: 600;
 $font-bold: 700;
-
 
 $wunder-bg-start: 1800px;
 
