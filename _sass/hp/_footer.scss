@@ -1,6 +1,6 @@
 
 .footer {
-  background: $olive-matt;
+  background: $mobility-black;
   padding: rem(80px) rem(30px) rem(40px);
   clear: both;
 
@@ -11,59 +11,26 @@
 
   a {
     color: $white;
-    font-weight: 400;
-
     &:hover {
       text-decoration: underline;
     }
   }
 
-  h4 {
-    margin-bottom: rem(10px);
-    color: $grey-heading;
+  h3 {
+    margin-bottom: 12px;
+    color: $white;
   }
 
   ul {
-    margin-bottom: rem(30px);
+    margin-bottom: 44px;
     padding: 0;
   }
-
   li {
-    padding: rem(9px) 0;
+    padding: 8px 0;
     list-style: none;
-
     p {
-      color: $olive-matt;
-      font-size: rem(16px);
-      line-height: 1.5;
+      color: $black48;
     }
-
-  }
-
-  .round-cta {
-    font-weight: 800;
-  }
-
-  @include rwd(tablet-up) {
-    li {
-      font-size: rem(14px);
-      padding: rem(2px) 0;
-
-      p {
-        font-size: rem(11px);
-      }
-
-      .subtitle {
-        font-size: rem(10px);
-      }
-    }
-  }
-  @include rwd(tablet-down) {
-    li {
-      padding: rem(4px) 0;
-      font-size: rem(14px);
-    }
-
   }
 
   .careers & {
@@ -112,30 +79,14 @@
 
 .footer__bottom {
   color: $grey-heading;
-  margin-right: -15px;
-  margin-left: -15px;
   font-size: rem(14px);
-
   ul {
     margin-top: rem(20px);
     margin-left: 15px;
   }
 
-  li:first-child {
-    //margin-bottom: rem(30px);
-  }
-
-  a {
-    color: $grey-heading;
-    font-weight: $font-regular;
-  }
-
   @include rwd(tablet-up ) {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     font-size: rem(10px);
-
     li {
       display: inline-block;
       padding: 0 rem(30px);
@@ -144,7 +95,6 @@
         margin: 0;
       }
     }
-
     ul {
       margin: 0;
     }
@@ -155,10 +105,11 @@
 ul.footer__socialmedia {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   margin-bottom: rem(10px);
-
   li {
-    padding-right: rem(20px);
+    padding: 0;
+    margin-left: 36px;
   }
 
   ion-icon {

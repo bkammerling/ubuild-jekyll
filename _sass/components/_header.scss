@@ -46,9 +46,12 @@ nav.navbar {
   opacity: 0;
   transition: all $transition-duration;
   overflow: scroll;
-  &.active {
+  &.is-active {
     z-index: 100;
     opacity: 1;
+    .nav-full__wrapper {
+      z-index: 100;
+    }
   }
   &__overlay {
     position: absolute;
@@ -60,14 +63,12 @@ nav.navbar {
   &__wrapper {
     background-color: $white;
     position: relative;
-    z-index: 100;
     padding-top: 56px;
     height: 100%;
     overflow: scroll;
     @include rwd(tablet-up) {
       height: 470px;
     }
-
   }
   &__single-menu {
     padding: 80px 0 48px;

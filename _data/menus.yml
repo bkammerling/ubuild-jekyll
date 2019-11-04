@@ -292,30 +292,36 @@ footerbottom:
   weight: 2
 
 footer:
-- identifier: HQ
-  title: Wunder HQ
-  col: 3
-  data: company-address
 - identifier: offices
   title: Offices
-  col: 3
+  col: 4
   items:
+  - identifier: hamburg
+    title: Hamburg HQ
+    weight: 1
+    url: https://goo.gl/maps/gLfhawLd9LoKjrbD7
+    content: Hongkongstraße 2<br>20457 Hamburg<br>Germany
+    parent: offices
+    newtab: 1
   - identifier: dortmund
     url: https://goo.gl/maps/nkfxW4sb34gfkonh9
-    weight: 1
+    weight: 2
     title: Dortmund
+    content: Brüderweg 9<br>44135 Dortmund<br>Germany
     parent: offices
     newtab: 1
   - identifier: la
     url: https://goo.gl/maps/2rscheLLUC3UtnME7
-    weight: 4
+    weight: 3
     title: LA
+    content: "1031 S Broadway<br> Los Angeles, CA 90015<br> United States"
     parent: offices
     newtab: 1
   weight: 1
 - identifier: company
   title: Company
   col: 2
+  weight: 2
   items:
   - identifier: blog
     url: "/blog"
@@ -327,10 +333,9 @@ footer:
     weight: 2
     title: Press
     parent: company
-  weight: 3
 - identifier: footercareers
   title: Careers
-  col: 2
+  col: 3
   weight: 3
   items:
   - identifier: workingatwunder
@@ -360,8 +365,8 @@ footer:
     parent: footercareers
 - identifier: footerevents
   title: Events
-  col: 1
-  weight: 5
+  col: 2
+  weight: 1
   items:
   - identifier: summit
     url: "/summit/"
@@ -379,37 +384,37 @@ footer:
     title: Mobility Sessions
     parent: footerevents
 - identifier: solutions
-  title: Solutions
+  title: Products
   col: 1
   weight: 4
   items:
   - identifier: fleet
     url: "/fleet"
     weight: 1
-    title: Wunder Fleet
+    title: Fleet
     parent: solutions
   - url: "/rent"
     weight: 2
     parent: solutions
     identifier: rent
-    title: Wunder Rent
+    title: Rent
   - identifier: shuttle
     url: "/shuttle"
     weight: 3
-    title: Wunder Shuttle
+    title: Shuttle
     parent: solutions
   - identifier: carpool
     url: "/carpool"
     weight: 4
-    title: Wunder Carpool
+    title: Carpool
     parent: solutions
   - identifier: park
     url: "/park"
     weight: 5
-    title: Wunder Park
+    title: Park
     parent: solutions
   - identifier: city
     url: "/city"
     weight: 6
-    title: Wunder City
+    title: City
     parent: solutions

@@ -827,8 +827,9 @@ main:not(.with-form) ~ footer {
   margin: rem(120px) 0 0;
 }
 
+
 .footer {
-  background: $olive-matt;
+  background: $mobility-black;
   padding: rem(80px) rem(30px) rem(40px);
   clear: both;
 
@@ -840,32 +841,28 @@ main:not(.with-form) ~ footer {
   a {
     color: $white;
     font-weight: 400;
-
     &:hover {
       text-decoration: underline;
     }
   }
 
-  h4 {
+  h3 {
     margin-bottom: rem(10px);
-    color: $grey-heading;
+    color: $white;
   }
 
   ul {
     margin-bottom: rem(30px);
     padding: 0;
-  }
-
-  li {
-    padding: rem(9px) 0;
-    list-style: none;
-
-    p {
-      color: $olive-matt;
-      font-size: rem(16px);
-      line-height: 1.5;
+    li {
+      padding: rem(9px) 0;
+      list-style: none;
+      p {
+        color: $black48;
+        font-size: rem(16px);
+        line-height: 1.5;
+      }
     }
-
   }
 
   .round-cta {

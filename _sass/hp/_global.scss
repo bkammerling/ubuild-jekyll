@@ -58,6 +58,10 @@ img {
 
   .showcase-box_inner-content {
     margin-left: 8px;
+    max-width: 400px;
+    @include rwd(tablet-up) {
+      max-width: none;
+    }
   }
 
   .btn, .text-highlight {

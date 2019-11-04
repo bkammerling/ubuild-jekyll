@@ -163,16 +163,18 @@ if(pageref == 'culture') {
 var menu = {
   submenu: $(".nav-full"),
   init: function() {
-    var btn = $(".header__hamburger, .nav-full__overlay");
+    var btn = $(".header__hamburger");
     var menu = $(".navbar-nav");
     var navlink = $(".navbar-nav .nav-link");
+    var hideBtn = $(".nav-full__overlay");
     this.toggleMenu(btn, this.submenu);
     this.showMenu(navlink, this.submenu);
+    this.hideSetup(hideBtn, this.submenu);
   },
 
   toggleMenu: function(target, submenu) {
     target.on("click", function(e) {
-      submenu.toggleClass("active");
+      submenu.toggleClass("is-active");
       target.toggleClass("is-active");
       $('.nav-item.is-active').removeClass('is-active');
       //(e.target).addClass("is-active").siblings().removeClass("is-active");
@@ -188,28 +190,25 @@ var menu = {
       if(clickedLink.parent().hasClass("is-active")) {
         menu.hideMenu(clickedLink.parent(), menu.submenu);
       } else {
-        submenu.addClass("active");
+        submenu.addClass("is-active");
         clickedLink.parent().addClass("is-active").siblings().removeClass("is-active");
         var identifier = clickedLink.data('target');
         $("#" + identifier).addClass('is-active').siblings().removeClass('is-active');
+        $(".header__hamburger").addClass("is-active");;
       }
     });
   },
 
-  hideMenu: function(target, menu) {
-    if(target) target.removeClass("is-active");
-    menu.removeClass("active");
+  hideSetup: function(target, submenu) {
+    target.on("click", function(e) {
+      menu.hideMenu(target, submenu);
+    });
   },
 
-  dropdown: function(btn) {
-    btn.on("click", function() {
-      $(this).toggleClass("is-active");
-      $(this).siblings().removeClass("is-active");
-    });
-
-    $("main").on("click", function() {
-      btn.removeClass("is-active");
-    });
+  hideMenu: function(target, submenu) {
+    if(target) target.removeClass("is-active");
+    submenu.removeClass("is-active");
+    $(".header__hamburger").removeClass("is-active");;
   }
 };
 
