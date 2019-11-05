@@ -23,6 +23,7 @@ fields:
   label: Language
   name: lang
   hidden: true
+  default: en
 - name: share_image
   type: file
   config:
