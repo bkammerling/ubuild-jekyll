@@ -3,7 +3,7 @@ link: https://finance.yahoo.com/news/wunder-mobility-announces-u-launch-11000039
 title: Wunder Mobility Announces U.S. Launch
 date: 2019-09-19 22:00:00 +0000
 lang: en
-image: "/uploads/2019/09/20/yahoo-finance.png"
+image: "/uploads/2019/11/05/logo-yahoo@2x.png"
 featured: true
 
 ---

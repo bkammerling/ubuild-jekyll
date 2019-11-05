@@ -2,13 +2,13 @@
 ---
 
 // Imports
+@import "hp/_variables";
 @import "bootstrap/bootstrap";
 @import "components/slick";
-@import "helpers/_variables";
 @import "helpers/_mixins";
 
 @import "base/_base";
-@import "base/_typography";
+@import "hp/_typography";
 @import "base/_fonts";
 @import "base/_helpers";
 @import "base/_animations";

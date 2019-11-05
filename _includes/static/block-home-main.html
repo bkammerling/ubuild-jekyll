@@ -124,7 +124,7 @@
 
   <section class="showcase-box">
     <div class="container-fluid">
-      <div class="showcase-box__bg text-left d-flex justify-content-end white-text" style="background-image: url('uploads/global/wms-bg@2x.jpg')">
+      <div id="showcase-wms" class="showcase-box__bg text-left d-flex justify-content-end white-text">
         <div class="row">
           <div class="offset-md-1 col-md-5">
             <div class="showcase-box_inner-content">
@@ -136,6 +136,89 @@
         </div>
       </div>
     </div>
+    <style type="text/css">
+      #showcase-wms {
+        background-image: url('uploads/global/wms-bg@2x.jpg');
+        background-color: #0E0E22;
+      }
+      @media only screen and (max-width: 576px) {
+        #showcase-wms {
+          background-size: 130%;
+          background-position: top right;
+        }
+      }
+    </style>
+  </section>
+
+
+  <section class="showcase-box">
+    <div class="container-fluid">
+      <div id="showcase-fleet" class="showcase-box__bg grey-gradient-bg text-left d-flex justify-content-start justify-content-md-center" >
+        <div class="row">
+          <div class="offset-md-1 col-md-6">
+            <div class="showcase-box_inner-content">
+              <p>Wunder Fleet</p>
+              <h2 class="headline-large">An all-in-one platform  for vehicle sharing</h2>
+              <a href="/fleet" class="btn btn-outline-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="showcase-box__image halign-center halign-md-right valign-bottom valign-md-center">
+            <img data-src="uploads/global/hp-phone_mockup.png" data-srcset="uploads/global/hp-phone_mockup@2x.png 2x" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <style type="text/css">
+      #showcase-fleet {
+
+      }
+      #showcase-fleet .showcase-box__image {
+        max-width: 60%;
+      }
+      @media only screen and (max-width: 576px) {
+        #showcase-fleet {
+        }
+        #showcase-fleet .showcase-box__image {
+          width: 340px;
+          max-width: 100%;
+          margin: auto;
+        }
+      }
+    </style>
+  </section>
+
+  <section class="showcase-box">
+    <div class="container-fluid">
+      <div id="showcase-city" class="showcase-box__bg grey-gradient-bg text-left d-flex justify-content-start justify-content-md-center">
+        <div class="row">
+          <div class="offset-md-1 col-md-6">
+            <div class="showcase-box_inner-content">
+              <p>Wunder City</p>
+              <h2 class="headline-large">Adapt to new mobility with data analysis</h2>
+              <a href="/fleet" class="btn btn-outline-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="showcase-box__image halign-right valign-bottom valign-md-center">
+            <img data-src="uploads/global/hp-city-mockupbg.png" data-srcset="uploads/global/hp-city-mockupbg@2x.png 2x" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <style type="text/css">
+      #showcase-city {
+
+      }
+      #showcase-city .showcase-box__image {
+        max-width: 60%;
+      }
+      @media only screen and (max-width: 576px) {
+        #showcase-city {
+        }
+        #showcase-city .showcase-box__image {
+          max-width: 70%;
+        }
+      }
+    </style>
   </section>
 
   <section class="showcase-box">
@@ -148,8 +231,8 @@
           <div class="col-md-6 col-xl-5 align-self-center">
             <div class="showcase-box_inner-content">
               <p>Careers</p>
-              <h2 class="headline-medium">We are leading the evolution of mobility.  Join the ride.</h2>
-              <a href="/careers" class="text-highlight">Learn more</a>
+              <h2 class="headline-medium">We are leading the evolution of mobility. </h2>
+              <a href="/careers" class="text-highlight">Join the ride</a>
             </div>
           </div>
         </div>
@@ -198,7 +281,7 @@
   <section class="home-articles">
     <div class="container-fluid">
       <div class="text-center">
-        <h2 class="headline-medium">What's going on</h2>
+        <h2 class="headline-medium mb-0">What's going on</h2>
         <p class="text-mute">Discover all the latest about our products, technology and culture on our blog.</p>
         <a class="text-highlight" href="/blog">Visit the blog</a>
       </div>
@@ -231,21 +314,24 @@
 
 
 
-  <section class="home-quotes">
+  <section class="home-quotes position-relative">
     <div class="container-fluid">
-      <div class="featured-quotes">
-        <div class="sidefade-overlay"></div>
-        {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"  %}
-        {% for item in articles limit: 3 %}
-        <div class="featured-quotes__single-quote">
-          <div class="featured-quotes__quote-icon mb-4">
-            <svg width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43.1757 4.99783C37.53 7.7744 34.7072 11.0369 34.7072 14.7852C37.1135 15.0629 39.1034 16.0578 40.6768 17.7701C42.2502 19.436 43.0369 21.3796 43.0369 23.6009C43.0369 25.961 42.2733 27.9508 40.7462 29.5705C39.2191 31.1902 37.2986 32 34.9848 32C32.3933 32 30.149 30.9588 28.2516 28.8764C26.3543 26.7477 25.4056 24.1793 25.4056 21.1714C25.4056 12.1475 30.4497 5.09038 40.538 0L43.1757 4.99783ZM17.7701 4.99783C12.0781 7.7744 9.2321 11.0369 9.2321 14.7852C11.6847 15.0629 13.6978 16.0578 15.2711 17.7701C16.8445 19.436 17.6312 21.3796 17.6312 23.6009C17.6312 25.961 16.8445 27.9508 15.2711 29.5705C13.744 31.1902 11.8236 32 9.50976 32C6.91829 32 4.6739 30.9588 2.77657 28.8764C0.925524 26.7477 0 24.1793 0 21.1714C0 12.1475 5.02097 5.09038 15.0629 0L17.7701 4.99783Z" fill="#CCCCCC"/></svg>
+      <div class="mob-scroll" style="scroll-snap-type: x mandatory; scroll-padding: 20%;">
+        <div class="featured-quotes">
+          {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"  %}
+          {% for item in articles limit: 3 %}
+          <div class="featured-quotes__single-quote">
+            <div class="featured-quotes__quote-icon mb-4">
+              <svg width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43.1757 4.99783C37.53 7.7744 34.7072 11.0369 34.7072 14.7852C37.1135 15.0629 39.1034 16.0578 40.6768 17.7701C42.2502 19.436 43.0369 21.3796 43.0369 23.6009C43.0369 25.961 42.2733 27.9508 40.7462 29.5705C39.2191 31.1902 37.2986 32 34.9848 32C32.3933 32 30.149 30.9588 28.2516 28.8764C26.3543 26.7477 25.4056 24.1793 25.4056 21.1714C25.4056 12.1475 30.4497 5.09038 40.538 0L43.1757 4.99783ZM17.7701 4.99783C12.0781 7.7744 9.2321 11.0369 9.2321 14.7852C11.6847 15.0629 13.6978 16.0578 15.2711 17.7701C16.8445 19.436 17.6312 21.3796 17.6312 23.6009C17.6312 25.961 16.8445 27.9508 15.2711 29.5705C13.744 31.1902 11.8236 32 9.50976 32C6.91829 32 4.6739 30.9588 2.77657 28.8764C0.925524 26.7477 0 24.1793 0 21.1714C0 12.1475 5.02097 5.09038 15.0629 0L17.7701 4.99783Z" fill="#CCCCCC"/></svg>
+            </div>
+            <h3 class="headline-small">{{ item.title }}</h3>
+            <img class="featured-quotes__logo mt-3 mb-5" data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" />
           </div>
-          <h3 class="headline-small">{{ item.title }}</h3>
-          <img class="featured-quotes__logo mt-3" data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" />
+          {% endfor %}
+          <div class="featured-quotes__spacer"></div>
         </div>
-        {% endfor %}
       </div>
+      <div class="sidefade-overlay"></div>
     </div>
   </section>
 

@@ -11,7 +11,7 @@ div.mob-scroll {
 
 
 .container-fluid {
-  max-width: 1280px;
+  max-width: 1440px;
   @include rwd(desktop-up) {
     padding: 0 80px;
   }
@@ -28,7 +28,10 @@ section.grey-bg {
 }
 
 .jumbo-intro {
-  margin: 120px 0;
+  margin: 96px 0;
+  @include rwd(tablet-up) {
+    margin: 120px 0;
+  }
 }
 
 img {
@@ -47,15 +50,60 @@ img {
 /***** Showcase Box  *****/
 
 .showcase-box {
-  margin: 40px 0;
+  margin: 16px 0;
+  @include rwd(tablet-up) {
+    margin: 40px 0;
+  }
   &__bg {
     height: 460px;
     flex-direction: column;
     padding: 48px 24px;
     background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    &.grey-gradient-bg {
+      height: 540px;
+      background-image: linear-gradient(120deg, #F1F3F7 0%, #EAECF0 50%, #EAEBEF 100%);
+    }
     @include rwd(tablet-up) {
       height: 720px;
       padding: 96px 0;
+      &.grey-gradient-bg {
+        height: 720px;
+      }
+    }
+  }
+  &__image {
+    position: absolute;
+    z-index: 2;
+    &.halign-right {
+      right: 0;
+    }
+    &.halign-left {
+      left: 0;
+    }
+    &.halign-center {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &.valign-center {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &.valign-bottom {
+      bottom: 0;
+    }
+    @include rwd(tablet-up) {
+      &.valign-md-center {
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &.halign-md-right {
+        right: 0;
+        left: auto;
+      }
     }
   }
 
@@ -64,6 +112,8 @@ img {
   }
 
   .showcase-box_inner-content {
+    position: relative;
+    z-index: 3;
     margin-left: 8px;
     max-width: 400px;
     @include rwd(tablet-up) {
@@ -90,23 +140,38 @@ img {
 
 .featured-quotes {
   display: flex;
-  transform: translateX(-25%);
   &__single-quote {
-    min-width: 50%;
-    padding: 0 55px;
+    min-width: 55vw;
+    padding: 0 25px;
     text-align: center;
+    scroll-snap-align: center;
+    &:first-child {
+      margin-left: 20vw;
+    }
+    @include rwd(tablet-up) {
+      min-width: 45vw;
+      padding: 0 55px;
+    }
+  }
+  &__spacer {
+    min-width: 20vw;
+  }
+  .headline-small {
+    max-width: 400px;
+    margin: auto;
   }
 }
 
 .sidefade-overlay {
-    width: 150%;
+    width: 100vw;
     height: 100%;
     position: absolute;
-    /* left: 0; */
-    /* top: 0; */
+    left: 0;
+    top: 0;
+    pointer-events: none;
     background-color: rgba(255,255,255,0.1);
-    background: linear-gradient(to right, rgba(255,255,255,0.6), rgba(255,255,255,0.6), transparent, transparent, rgba(255,255,255,0.6), rgba(255,255,255,0.6));
-    background: linear-gradient(to right, rgba(255,255,255,0.6), rgba(255,255,255,0.6) 29%, transparent 30%,  transparent 69%, rgba(255,255,255,0.6) 70%, rgba(255,255,255,0.6));
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.8), transparent, transparent, rgba(255,255,255,0.8), rgba(255,255,255,1));
+    //background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.6) 29%, transparent 30%,  transparent 69%, rgba(255,255,255,0.6) 70%, rgba(255,255,255,1));
   }
 
 

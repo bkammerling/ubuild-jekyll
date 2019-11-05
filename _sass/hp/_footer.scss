@@ -71,58 +71,61 @@
   margin-bottom: rem(25px);
 }
 
-.footer__logotype {
-  filter: brightness(570%);
-  .careers & {
-    filter: none;
-  }
-  margin-bottom: rem(40px);
-}
-
 .footer__bottom {
   ul {
-    margin-top: rem(20px);
+    margin-top: 0;
   }
   .legal-links {
-    a {
-      margin-left: 32px;
+    @include rwd(tablet-up) {
+      a {
+        margin-left: 32px;
+      }
+      li {
+        display: inline-block;
+      }
+      ul {
+        margin: 0;
+      }
     }
   }
+}
 
-  @include rwd(tablet-up ) {
-
-    li {
-      display: inline-block;
+.language-select {
+  #langMenuLink {
+    cursor: pointer;
+    &:hover {
+      color: $white;
     }
-    ul {
-      margin: 0;
+    ion-icon {
+      font-size: 28px;
+      margin-right: 4px;
+      transform: translateY(6px);
+    }
+  }
+  .lang_options {
+    padding: 0 10px;
+    a {
+      color: $mobility-black;
     }
   }
 }
 
 
 ul.footer__socialmedia {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   margin-bottom: rem(10px);
   li {
     padding: 0;
-    margin-left: 36px;
+    margin-right: 36px;
+    @include rwd(tablet-up) {
+      margin-right: 0;
+      margin-left: 36px;
+    }
   }
-
   ion-icon {
-    font-size: 24px;
+    font-size: 26px;
     color: $white;
     .careers & {
       color: $olive-matt;
-    }
-
-  }
-
-  @include rwd(tablet-up) {
-    ion-icon {
-      font-size: 20px;
     }
   }
 }

@@ -1,7 +1,7 @@
 <footer class="footer block block-footer-1">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-10 offset-xl-1">
+      <div class="col-xl-12 offset-xl-0">
       {% if page.lang-ref == 'summit' %}
         <div class="cta-wrapper">
           <a class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19">Apply to join</a>
@@ -10,7 +10,7 @@
        {% endif %}
        {% assign footermenu = site.menus.footer %}
         <div class="footer__wrapper row justify-content-md-between align-items-start">
-          <div class="col-md-2">
+          <div class="col-md-2 order-1">
           {% for menu_cat in footermenu %}
             {% if menu_cat.col == 4 %}
             <h3 class="headline-small">{{ menu_cat.title }}</h3>
@@ -23,7 +23,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 order-1">
             <h1 class="white-text">{{ footermenu[1].col | json }}</h1>
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 2 %}
@@ -37,7 +37,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 3 %}
               <h3 class="headline-small">{{ menu_cat.title }}</h3>
@@ -50,7 +50,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 4 %}
               <h3 class="headline-small">{{ menu_cat.title }}</h3>
@@ -70,7 +70,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-4 order-0 order-md-4">
+          <div class="col-md-4 order-0 order-md-2 mb-5 mb-md-0">
             <h3 class="headline-small">Join us at the Wunder Bar<br/><span class="text-mute">Subscribe to our newsletter today</span></h3>
             <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
               <div class="input-group my-3">
@@ -89,7 +89,7 @@
 
         <div class="footer__bottom">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 order-3 order-md-1">
               <ul class="legal-links">
                 <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
                 {% for menu_item in site.menus.footerbottom %}
@@ -97,10 +97,12 @@
                 {% endfor %}
               </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 language-select order-1 order-md-2 mb-4 mb-md-0">
               <div class="btn-group dropup">
                 <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <ion-icon name="globe" class="inline-icon"></ion-icon> {{ page.lang | upcase }}
+                  <ion-icon name="ios-globe" class="inline-icon"></ion-icon>
+                  {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
+                  <span>{{ currentLang.label }}</span>
                 </a>
                 <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
                 {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
@@ -126,8 +128,8 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-4">
-              <ul class="footer__socialmedia">
+            <div class="col-md-4 order-2 order-md-3">
+              <ul class="footer__socialmedia d-flex justify-content-md-end my-4 my-md-0 mt-md-2">
                 <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
                 <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
