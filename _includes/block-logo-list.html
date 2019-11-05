@@ -16,7 +16,7 @@
         {% assign logorow = site.data.data.hero_logo_rows | where: "name", row %}
         {% for item in logorow[0].logos %}
         <li class="col len-{{ logorow[0].logos | size }}">
-            <a title="{{ item.title }}" href="{{ item.url }}" target="_blank"><img data-src="{{ item.logo }}" alt="{{ item.title }}" class="lazy"></a>
+            <a title="{{ item.title }}" href="{{ item.url }}" target="_blank"><img data-src="{{ item.logo | | remove: '@2x'  }}" data-srcset="{{ item.logo }} 2x" alt="{{ item.title }}" class="lazy"></a>
         </li>
         {% endfor %}
       </ul>
