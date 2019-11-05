@@ -23,6 +23,7 @@ fields:
   label: Language
   name: lang
   hidden: true
+  default: en
 - name: share_image
   type: file
   config:
@@ -62,7 +63,9 @@ fields:
   - columns
 pages:
 - pages/home.md
+- pages/hardware.md
 - pages/summit.md
+- pages/carpool.md
 - pages/careers/jobs.md
 - pages/carpool.md
 - pages/summit18.md

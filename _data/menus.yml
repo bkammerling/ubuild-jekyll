@@ -41,6 +41,12 @@ wunder-main:
   identifier: city
   title: City
   subtitle: Adapt to new mobility changes in your city
+#- url: "/hardware"
+#  weight: 7
+#  parent: solutions
+#  identifier: hardware
+#  title: Hardware
+#  subtitle: Innovation on wheels
 - url: "#"
   weight: 2
   title: Events

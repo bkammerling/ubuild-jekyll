@@ -922,12 +922,8 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pageref == "fleet" || pageref == "shuttle" || pageref == "carpool" || pageref == "park" || pageref == "rent" || pageref == "city") {
+  if(pageref == "fleet" || pageref == "shuttle" || pageref == "carpool" || pageref == "park" || pageref == "rent" || pageref == "city" || pageref == "vehicles") {
     $("select#subject-field").val("Wunder "+pageref.capitalize()).siblings('.select2').addClass('selected');
-    $('select#subject-field').trigger('change.select2').trigger('change');
-  }
-  if(pageref == "wunderfleet") {
-    $("select#subject-field").val("Wunder Fleet").siblings('.select2').addClass('selected');
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
   if(pageref == "home") {

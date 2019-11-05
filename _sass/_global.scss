@@ -1204,6 +1204,28 @@ ul.footer__socialmedia {
 }
 
 
+.logo-boxes {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(3, calc(33% - 8px));
+  @include rwd(tablet-up) {
+    grid-template-columns: repeat(5, calc(20% - 8px));
+  }
+  .single-box {
+    padding: 24px;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+
 /***** Video overlay Modal *****/
 
 .filmmodal {

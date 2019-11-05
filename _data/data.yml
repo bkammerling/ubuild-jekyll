@@ -18,6 +18,24 @@ partners:
   url: https://www.daimler.com/en/
   logo: "/uploads/2019/02/19/daimler logo@2x.png"
 hero_logo_rows:
+- name: vehicles
+  logos:
+  - title: Segway-Ninebot
+    logo: "/uploads/2019/11/05/logo-gs-segway@2x.png"
+    url: ''
+  - title: Govecs Scooter
+    logo: "/uploads/2019/11/05/logo-gs-govecs@2x.png"
+    url: ''
+  - title: Niu
+    logo: "/uploads/2019/11/05/logo-gs-niu@2x.png"
+    url: ''
+  - title: Acton
+    logo: "/uploads/2019/11/05/logo-gs-acton@2x.png"
+    url: ''
+  - title: Okai
+    logo: "/uploads/2019/11/05/logo-gs-okai@2x.png"
+    url: ''
+  custom_html: ''
 - name: carpool
   logos:
   - title: FDM
@@ -67,6 +85,7 @@ hero_logo_rows:
     logo: "/uploads/2019/02/19/daimler logo@2x.png"
   custom_html: ''
 hero_logo_names:
+- vehicles
 - carpool
 - wunderpark
 - mainlogos
