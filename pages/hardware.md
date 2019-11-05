@@ -33,8 +33,6 @@ page_sections:
     we'll get in touch in the next 24h.
   headline: Let's Talk
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
-- block: custom-html
-  content: "</main>"
 - template: simple-footer
   block: footer-1
 menu:
