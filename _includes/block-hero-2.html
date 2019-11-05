@@ -1,14 +1,12 @@
 <section class="block block-hero-2">
   <div class="video-banner">
-
     {% assign vidLength = section.background_video | size %}
     {% if vidLength > 2 %}
-    <div class="video-banner__overflow"></div>
     <video autoplay playsinline loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
         <source src="{{ site.url }}/uploads/global/{{ section.background_video }}.mp4" type="video/mp4" />
     </video>
     {% endif %}
-    {% if page.dir != "/careers/" and page.lang-ref != "home" and page.lang-ref != "summit" %}
+    {% if page.dir != "/careers/" and page.lang-ref != "home" and page.lang-ref != "summit" and page.lang-ref != "vehicles" %}
     <div class="video-banner__overflow"></div>
     {% endif %}
     {% if page.lang-ref == "jobs" %}

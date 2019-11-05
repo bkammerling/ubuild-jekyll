@@ -51,20 +51,21 @@
               <div class="select-wrapper">
                 <select name="subject" class="form-control select2-init" style="width:100%" id="subject-field" required>
                   <option disabled selected>Subject *</option>
-                  <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
-                  <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
                   <option value="Wunder Fleet" data-id="fleet">Wunder Fleet</option>
-                  <option value="Wunder City" data-id="city">Wunder City</option>
-                  <option value="Wunder Park" data-id="park">Wunder Park</option>
                   <option value="Wunder Rent" data-id="rent">Wunder Rent</option>
+                  <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
+                  <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
+                  <option value="Wunder Park" data-id="park">Wunder Park</option>
+                  <option value="Wunder City" data-id="city">Wunder City</option>
+                  <option value="Wunder Vehicles" data-id="vehicles">Wunder Vehicles</option>
                   <option value="General enquiry" data-id="general">General enquiry</option>
-                  <option value="Wunder Carpool app support" data-id="support">Wunder Carpool app support</option>
+                  <!--<option value="Wunder Carpool app support" data-id="support">Wunder Carpool app support</option>-->
                 </select>
                 <div class="bottom-border"></div>
               </div>
             </div>
             <div class="hidden extra-form">
-              <div class="form-group shuttle fleet park rent">
+              <div class="form-group shuttle fleet park rent vehicles">
                 <label class="form-label" for="url">Company URL</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
@@ -142,8 +143,7 @@
                       <option>1-50</option>
                       <option>51-150</option>
                       <option>150+</option>
-                    {% endif %}
-                    {% if page.lang-ref == 'fleet' or page.lang-ref == 'wunderfleet' %}
+                    {% else %}
                       <option disabled selected>How many vehicles would you like to offer? *</option>
                       <option>1-100</option>
                       <option>101-500</option>
@@ -205,7 +205,7 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              <div class="form-group general fleet shuttle carpool city park rent">
+              <div class="form-group general fleet shuttle carpool city park rent vehicles">
                 <label class="form-label" for="message">Message {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
                 <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
