@@ -10,7 +10,9 @@
   }
 
   a {
-    color: $white;
+    &:not(.text-mute) {
+      color: $white;
+    }
     &:hover {
       text-decoration: underline;
     }
@@ -78,22 +80,19 @@
 }
 
 .footer__bottom {
-  color: $grey-heading;
-  font-size: rem(14px);
   ul {
     margin-top: rem(20px);
-    margin-left: 15px;
+  }
+  .legal-links {
+    a {
+      margin-left: 32px;
+    }
   }
 
   @include rwd(tablet-up ) {
-    font-size: rem(10px);
+
     li {
       display: inline-block;
-      padding: 0 rem(30px);
-
-      &:first-child {
-        margin: 0;
-      }
     }
     ul {
       margin: 0;

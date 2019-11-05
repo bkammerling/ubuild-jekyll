@@ -10,6 +10,13 @@ div.mob-scroll {
 }
 
 
+.container-fluid {
+  max-width: 1280px;
+  @include rwd(desktop-up) {
+    padding: 0 80px;
+  }
+}
+
 main > section {
   margin: 128px 0;
   overflow: hidden;

@@ -1,13 +1,15 @@
 <footer class="footer block block-footer-1">
   <div class="container">
-    {% if page.lang-ref == 'summit' %}
-      <div class="cta-wrapper">
-        <a class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19">Apply to join</a>
-        <a class="round-cta clear no-arrow" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Speak At WMS 19">Apply to speak</a>
-      </div>
-     {% endif %}
-     {% assign footermenu = site.menus.footer %}
-      <div class="footer__wrapper row justify-content-md-between align-items-start">
+    <div class="row">
+      <div class="col-xl-10 offset-xl-1">
+      {% if page.lang-ref == 'summit' %}
+        <div class="cta-wrapper">
+          <a class="round-cta dark" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19">Apply to join</a>
+          <a class="round-cta clear no-arrow" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Speak At WMS 19">Apply to speak</a>
+        </div>
+       {% endif %}
+       {% assign footermenu = site.menus.footer %}
+        <div class="footer__wrapper row justify-content-md-between align-items-start">
           <div class="col-md-2">
           {% for menu_cat in footermenu %}
             {% if menu_cat.col == 4 %}
@@ -68,96 +70,72 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 order-0 order-md-4">
             <h3 class="headline-small">Join us at the Wunder Bar<br/><span class="text-mute">Subscribe to our newsletter today</span></h3>
-            <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input type="email"/>
+            <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div class="input-group my-3">
+                <input type="text" class="form-control form-control-lg" placeholder="Enter your email" aria-label="Recipient's email address" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary d-flex" type="submit"><img src="/uploads/global/white-arrow.svg" /></button>
+                </div>
+                {% comment %}<div class="invalid-feedback">
+                  Please enter a valid email address
+                </div>{% endcomment %}
+              </div>
             </form>
           </div>
 
-          {% comment %}
-          <div class="col-md">
-            <ul class="footer__socialmedia">
-              <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-              <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
-              <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
-            </ul>
-            <br>
+        </div>
 
-            <h4>Newsletter <ion-icon class="inline-icon" name="information-circle-outline" data-toggle="tooltip" data-placement="top" title="For the latest updates from Wunder HQ + interesting mobility insights + news about events."></ion-icon></h4>
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-            <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group form-group">
-                	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                  <label for="mce-EMAIL" class="form-label"><span class="d-none d-xl-inline">Enter your </span>email</label>
-                </div>
-              	<div id="mce-responses" class="clear">
-              		<div class="response" id="mce-error-response" style="display:none"></div>
-              		<div class="response" id="mce-success-response" style="display:none"></div>
-              	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6ee53e24cd30c208f1a610b1_0ba0a2cc79" tabindex="-1" value=""></div>
-                <div class="clear"><a value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()"name="subscribe" id="mc-embedded-subscribe" class="with-arrow float-right">Subscribe</a></div>
-                </div>
-              </form>
-            </div>
-            <!--End mc_embed_signup-->
-
-          </div>
-
-          {% endcomment %}
-
-      </div>
-
-      <div class="footer__bottom">
-        <div class="row">
-          <div class="col-md-6">
-            <ul>
-              <li>© {{ site.title }} {{ site.time | date: '%Y' }}</li>
-              {% for menu_item in site.menus.footerbottom %}
-                <li><a href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <div class="btn-group dropup">
-              <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <ion-icon name="globe" class="inline-icon"></ion-icon> {{ page.lang | upcase }}
-              </a>
-              <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
-              {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
-              {% for sitelang in site.data.global.languages %}
-                {% for post in posts %}
-                  {% if post.lang == sitelang.code %}
-                    {% assign langlink = post.url %}
-                  {% endif %}
+        <div class="footer__bottom">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="legal-links">
+                <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+                {% for menu_item in site.menus.footerbottom %}
+                  <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
                 {% endfor %}
-                {% unless langlink %}
-                  {% assign langlink = sitelang.code %}
-                  {% if langlink == 'en' %}{% assign langlink = '' %}{% endif %}
-                {% endunless %}
-                {% if sitelang.code == 'es' %}
-                  {% unless langlink contains 'fleet' or langlink contains 'rent' %}
-                   {% break %}
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="btn-group dropup">
+                <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <ion-icon name="globe" class="inline-icon"></ion-icon> {{ page.lang | upcase }}
+                </a>
+                <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
+                {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
+                {% for sitelang in site.data.global.languages %}
+                  {% for post in posts %}
+                    {% if post.lang == sitelang.code %}
+                      {% assign langlink = post.url %}
+                    {% endif %}
+                  {% endfor %}
+                  {% unless langlink %}
+                    {% assign langlink = sitelang.code %}
+                    {% if langlink == 'en' %}{% assign langlink = '' %}{% endif %}
                   {% endunless %}
-                {% endif %}
-                <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
-                <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>
-                {% assign langlink = false %}
-              {% endfor %}
+                  {% if sitelang.code == 'es' %}
+                    {% unless langlink contains 'fleet' or langlink contains 'rent' %}
+                     {% break %}
+                    {% endunless %}
+                  {% endif %}
+                  <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
+                  <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>
+                  {% assign langlink = false %}
+                {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <ul class="footer__socialmedia">
+                <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+                <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
-            <ul class="footer__socialmedia">
-              <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-              <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
-              <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
-            </ul>
-          </div>
         </div>
       </div>
-
+    </div>
   </div>
 </footer>
