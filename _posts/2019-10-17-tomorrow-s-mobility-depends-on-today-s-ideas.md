@@ -13,12 +13,13 @@ cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, 
 cta_link: pages/newsletter-signup.md
 title: Tomorrow’s mobility depends on today’s ideas
 publish_date: 2019-11-07T00:00:00.000+00:00
-featured_image: ''
+featured_image: "/uploads/2019/11/06/PWC_Logo.jpg"
 excerpt: New technical possibilities, demographic trends and changing consumer behaviour
   are all putting traditional notions of mobility to the test.
-share_image: ''
+share_image: "/uploads/2019/11/06/PWC_Logo-1.jpg"
 sticky_post: false
 hidden: true
+sticky: false
 
 ---
 New technical possibilities, demographic trends and changing consumer behaviour are all putting traditional notions of mobility to the test. Consumers are demanding new, integrated mobility offers. At the same time, people's traditional mobility patterns are being questioned. Climate protection and air pollution control are imperatives of our time.

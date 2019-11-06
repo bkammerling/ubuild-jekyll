@@ -12,15 +12,18 @@ cta_text: Our monthly Wunder Bar newsletter is packed full of exciting news, upd
 cta_link: pages/newsletter-signup.md
 title: Great potential, but a long way to go
 publish_date: 2019-10-17T00:00:00.000+00:00
-featured_image: ''
+featured_image: "/uploads/2019/11/06/GoogleInfographicList.png"
 excerpt: Market research conducted by Google & Kantar TNS shows that some Germans
   are regularly using different mobility solutions, but the majority are hesitant.
 share_image: ''
 sticky_post: false
 hidden: true
+sticky: false
 
 ---
 Market research conducted by Google & Kantar TNS shows that some Germans are regularly using different mobility solutions, but the majority are hesitant. The study gives insight into why this is.
+
+![](/uploads/2019/11/06/GoogleInfographicBody2.png)
 
 To get a deeper understanding of how Germans are using and switching between different mobility options, Google and Kantar TNS ran a survey in 2019 asking Germans living in major cities about their mobility needs and behaviors.
 
