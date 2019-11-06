@@ -18,7 +18,7 @@ excerpt: Automotive designers adopt user experience design and immersive technol
   to prepare for a connected and fully autonomous future.
 share_image: "/uploads/2019/10/17/athena1list-1.png"
 sticky_post: false
-hidden: true
+hidden: false
 
 ---
 Keeping pace with widespread digitalization, automotive companies are now taking the integration of extended reality (XR) technologies into their R&D processes very seriously. Interiors and horsepower are no longer enough: The convergence of hardware and software, autonomous driving and voice interfaces are just a few use cases where automotive companies (OEMs) and suppliers need to shift their focus to the driver and passenger user experience.

@@ -424,3 +424,8 @@ footer:
     weight: 6
     title: City
     parent: solutions
+  - url: "/vehicles"
+    weight: 7
+    parent: solutions
+    identifier: hardware
+    title: Vehicles

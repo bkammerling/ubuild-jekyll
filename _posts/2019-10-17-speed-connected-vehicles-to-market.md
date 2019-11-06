@@ -18,7 +18,7 @@ excerpt: There is opportunity for new, modern experiences that span the entire i
   and systems of a vehicle, creating create deeper and longer-lasting relationships
   between car makers and their customers.
 share_image: "/uploads/2019/10/17/Microsoft_Image_Body-1.png"
-hidden: true
+hidden: false
 sticky_post: false
 
 ---

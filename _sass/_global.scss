@@ -50,6 +50,17 @@ main {
 
 }
 
+.careers {
+  nav .btn {
+    display: none;
+  }
+  footer {
+    .headline-small {
+      color: $mobility-black;
+    }
+  }
+}
+
 
 footer input.form-control {
   font-size: 14px;

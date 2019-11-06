@@ -13,14 +13,14 @@ cta_text: The monthly Wunder Bar newsletter is packed full of interesting news, 
   loop!
 cta_link: pages/newsletter-signup.md
 title: Share the ride and regain the city
-publish_date: 2019-10-17T00:00:00.000+00:00
+publish_date: 2019-11-07T09:00:00.000+00:00
 featured_image: "/uploads/2019/10/17/moia2list.jpeg"
 excerpt: 'MOIA, part of the Volkswagen Group, develops mobility services and works
   in partnership with cities and PTOs. MOIA started ridesharing to reduce traffic
   in Hamburg and Hanover. Next: London.'
 share_image: "/uploads/2019/10/17/moia2list-1.jpeg"
 sticky_post: false
-hidden: true
+hidden: false
 
 ---
 _MOIA, part of the Volkswagen Group, develops mobility services and works in partnership with cities and PTOs. MOIA started ridesharing to reduce traffic in Hamburg and Hanover. Next: London._

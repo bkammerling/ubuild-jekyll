@@ -17,7 +17,7 @@ featured_image: "/uploads/2019/10/17/allianz1list.jpeg"
 excerpt: Comprehensive innovative insurance and service solutions are needed.
 share_image: "/uploads/2019/10/17/allianz1list.jpeg"
 sticky_post: false
-hidden: true
+hidden: false
 
 ---
 Global megatrends like digitalization, the sharing economy, urbanization and increased environmental awareness are putting pressure on the automotive industry and fundamentally changing the mobility world. New players and technologies are forcing existing business models to adapt. Conventional insurance products alone are no longer sufficient; comprehensive insurance and service solutions are needed instead.
