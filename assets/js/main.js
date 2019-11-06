@@ -1008,6 +1008,11 @@ $(document).ready(function() {
 
   });
 
+  var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
+  $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
+
+
+
   // runnning google recaptcha on load helps it learn who's using our site
   grecaptcha.ready(function() {
     grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "landing"})

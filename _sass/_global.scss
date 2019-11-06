@@ -51,8 +51,30 @@ main {
 }
 
 .gradient-block.block-full-right h2 {
-  color: $white;
 }
+.success__wrapper {
+  padding: rem(70px) rem(30px) rem(80px);
+  color: $white;
+  @include rwd(tablet-up) {
+    padding: rem(70px) rem(70px) rem(80px);
+    padding-right: 0;
+  }
+  @include rwd(desktop-up) {
+    padding-left: #{$col-desktop};
+  }
+  @include rwd(wide-up) {
+    padding-left: #{$col-desktop-wide};
+  }
+  h2 {
+    color: $white;
+    margin-bottom: .5rem;
+    line-height: 28px;
+    &.main-heading {
+      font-size: 22px;
+    }
+  }
+}
+
 
 /* END OF FIXES */
 
