@@ -10,43 +10,43 @@ wunder-main:
   parent: solutions
   identifier: fleet
   title: Fleet
-  subtitle: All-in-one technology for car & scooter sharing
+  subtitle: All-in-one vehicle sharing
 - url: "/rent"
   weight: 2
   parent: solutions
   identifier: rent
   title: Rent
-  subtitle: Self-service and fully-online rentals
+  subtitle: Keyless, self-service rentals
+- url: "/carpool"
+  weight: 3
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+  subtitle: Ride sharing for employees
 - url: "/shuttle"
   weight: 3
   parent: solutions
   identifier: shuttle
   title: Shuttle
-  subtitle: Dynamic-routing and ride-hailing for your fleet
-- url: "/carpool"
-  weight: 4
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-  subtitle: Employees drive to work together
+  subtitle: On-demand ride hailing
 - url: "/park"
   weight: 5
   parent: solutions
   identifier: park
   title: Park
-  subtitle: Automated digital parking management
+  subtitle: Smart parking management
 - url: "/city"
   weight: 6
   parent: solutions
   identifier: city
   title: City
-  subtitle: Adapt to new mobility changes in your city
-#- url: "/hardware"
-#  weight: 7
-#  parent: solutions
-#  identifier: hardware
-#  title: Hardware
-#  subtitle: Innovation on wheels
+  subtitle: Mobility data analysis
+- url: "/vehicles"
+  weight: 7
+  parent: solutions
+  identifier: hardware
+  title: Vehicles
+  subtitle: Sharing-ready vehicles
 - url: "#"
   weight: 2
   title: Events

@@ -73,17 +73,20 @@
 
           <div class="col-md-4 order-0 order-md-2 mb-5 mb-md-0">
             <h3 class="headline-small">Join us at the Wunder Bar<br/><span class="text-mute text-muted">Subscribe to our newsletter today</span></h3>
-            <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <div class="input-group my-3">
-                <input type="text" class="form-control form-control-lg" placeholder="Enter your email" aria-label="Recipient's email address" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary d-flex" type="submit"><img src="/uploads/global/white-arrow.svg" /></button>
+            <div id="mc_embed_signup">
+              <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div class="input-group my-3">
+                  <input type="email" name="EMAIL" id="mce-EMAIL" class="form-control form-control-lg" placeholder="Enter your email" aria-label="Recipient's email address" aria-describedby="basic-addon2">
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6ee53e24cd30c208f1a610b1_0ba0a2cc79" tabindex="-1" value=""></div>
+                  <div class="input-group-append">
+                    <a class="btn btn-primary d-flex" value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe"><img src="/uploads/global/white-arrow.svg" /></a>
+                  </div>
+                  {% comment %}<div class="invalid-feedback">
+                    Please enter a valid email address
+                  </div>{% endcomment %}
                 </div>
-                {% comment %}<div class="invalid-feedback">
-                  Please enter a valid email address
-                </div>{% endcomment %}
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
 
         </div>

@@ -134,18 +134,11 @@ $(document).ready(function() {
 var slider = {
   init: function(target, config) {
     $(target).slick(config);
-    //$('.slick-current').prev().addClass('left');
-    //$('.slick-current').next().addClass('right');
     $(".picture-slider__menu-image").click(function(){
       $(target).slick('slickGoTo', $(this).index());
     });
     $(target).on('beforeChange', function(event, slick, currentSlide, nextSlide){
       $(".picture-slider__menu-image:nth-child("+(nextSlide+1)+")").addClass('current').siblings().removeClass('current');
-      /* following left/right lines were for an old phone-slider that never really worked
-      $('.slick-slide').removeClass('left right');
-      $(".slick-slide:nth-child("+(nextSlide)+")").addClass('left');
-      $(".slick-slide:nth-child("+(nextSlide+2)+")").addClass('right');
-      */
     });
   }
 };
@@ -164,7 +157,7 @@ var menu = {
   submenu: $(".nav-full"),
   init: function() {
     var btn = $(".header__hamburger");
-    var menu = $(".navbar-nav");
+    //var menu = $(".navbar-nav");
     var navlink = $(".navbar-nav .nav-link");
     var hideBtn = $(".nav-full__overlay");
     this.toggleMenu(btn, this.submenu);
@@ -176,6 +169,7 @@ var menu = {
     target.on("click", function(e) {
       submenu.toggleClass("is-active");
       target.toggleClass("is-active");
+      $(".navbar-nav").toggleClass("is-active");
       $('.nav-item.is-active').removeClass('is-active');
       //(e.target).addClass("is-active").siblings().removeClass("is-active");
       $('body').toggleClass('mobmenu-active');
@@ -191,6 +185,7 @@ var menu = {
         menu.hideMenu(clickedLink.parent(), menu.submenu);
       } else {
         submenu.addClass("is-active");
+        $(".navbar-nav").addClass("is-active");
         clickedLink.parent().addClass("is-active").siblings().removeClass("is-active");
         var identifier = clickedLink.data('target');
         $("#" + identifier).addClass('is-active').siblings().removeClass('is-active');
@@ -207,8 +202,10 @@ var menu = {
 
   hideMenu: function(target, submenu) {
     if(target) target.removeClass("is-active");
+    $('.nav-item').removeClass("is-active");
     submenu.removeClass("is-active");
-    $(".header__hamburger").removeClass("is-active");;
+    $(".header__hamburger").removeClass("is-active");
+    $(".navbar-nav").removeClass("is-active");
   }
 };
 
@@ -956,8 +953,10 @@ $(document).ready(function() {
 
   $('#filmModal').on('hidden.bs.modal', function (e) {
     videoPlayer.player.pause();
+    $(".video-banner video").get(0).play();
   }).on('show.bs.modal', function (e) {
     videoPlayer.player.play();
+    $(".video-banner video").get(0).pause();
   });
 
   $('[data-toggle="tooltip"]').tooltip();

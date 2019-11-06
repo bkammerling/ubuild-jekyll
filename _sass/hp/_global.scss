@@ -201,7 +201,17 @@ img {
     }
   }
   .client-logos & {
-    border-bottom: 1px solid $black80;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 32px;
+      display: block;
+      height: 1px;
+      width: calc(100% - 64px);
+      box-shadow: 0px 0.5px 0px $black80;
+    }
   }
 
   .single-box {
@@ -218,9 +228,22 @@ img {
 }
 
 
+
+.grecaptcha-badge {
+  display: none;
+}
+
+
 /***** Video overlay Modal *****/
 
+.modal-backdrop {
+  opacity: 0.7;
+}
+
+
 .filmmodal {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter:  blur(10px);
 
   .modal-backdrop.in, .modal-backdrop.show {
       filter: alpha(opacity=8);

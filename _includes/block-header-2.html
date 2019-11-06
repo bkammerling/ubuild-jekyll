@@ -23,9 +23,12 @@
       {% endif %}
       {% endfor %}
       {% if section.cta %}
-        <button class="btn btn-primary gt-navcta" {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %} href="{{ section.cta.url }}">
+        <a class="btn btn-primary gt-navcta"
+          {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 19"{% endif %}
+          {% if page.lang-ref == 'home' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
+          href="{{ section.cta.url }}">
           {{ section.cta.button_text }}
-        </button>
+        </a>
       {% endif %}
     </ul>
   </div>

@@ -50,8 +50,17 @@ main {
 
 }
 
-.gradient-block.block-full-right h2 {
+
+footer input.form-control {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  @include rwd(tablet-up) {
+    font-size: $base-font-size;
+    line-height: 24px;
+  }
 }
+
 .success__wrapper {
   padding: rem(70px) rem(30px) rem(80px);
   color: $white;
@@ -1297,6 +1306,7 @@ ul.footer__socialmedia {
 
 
 /***** Video overlay Modal *****/
+
 
 .filmmodal {
 

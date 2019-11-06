@@ -24,7 +24,7 @@ page_sections:
     url:
     button_text:
     enabled: false
-  background_video: fleet_loop
+  background_video: hp-loop-test2
   show_logos: false
   background_image: "/uploads/global/fleet-frame.jpg"
   intro_text: ''

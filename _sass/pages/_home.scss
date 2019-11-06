@@ -5,13 +5,13 @@
   .single-product {
     transition: background-color $transition-duration;
     img {
-      filter: grayscale(1) brightness(1.1);
-      transition: filter $transition-duration;
+      //filter: grayscale(1) brightness(1.1);
+      //transition: filter $transition-duration;
     }
     &:hover {
       background-color: $black96;
       img {
-        filter: none;
+        //filter: none;
       }
     }
   }

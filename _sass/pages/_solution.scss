@@ -514,7 +514,7 @@ main {
   }
 }
 
-.fleet, .rent {
+.fleet, .rent, .vehicles {
   @include highlight($fleet-highlight);
   .video-banner {
     background-position: center bottom;
