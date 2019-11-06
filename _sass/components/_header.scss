@@ -84,7 +84,14 @@ nav.navbar {
         z-index: 20;
       }
     }
+    .text-link {
+      color: $mobility-black;
+    }
+    a:hover .text-link {
+      color: $mobility-blue;
+    }
   }
+
 }
 
 

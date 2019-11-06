@@ -413,6 +413,7 @@ body[class*="summit"] .gradient-block .block-full-right {
 
   .gradient-block .block-full-right {
     @extend .success__wrapper;
+    background: linear-gradient(113.49deg, #5a9fff 14.71%, #2781FF 83.06%);
 
     padding: rem(50px) rem(20px) rem(230px);
     @include rwd(tablet-up) {

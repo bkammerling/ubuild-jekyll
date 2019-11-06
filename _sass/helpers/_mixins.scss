@@ -246,7 +246,7 @@ $includeClasses: true !default;
   }
 
   @include rwd(wide-up) {
-    margin: 0 0 0 calc(((100% - #{$container-desktop-wide}) / 2) + #{$col-count} * #{$col-desktop-wide} + #{$gutter-adjust});
+    margin: 0 0 0 calc(((100% - #{$desktop-wide}) / 2) + #{$col-count} * #{$col-desktop-wide} + #{$gutter-adjust});
     .container-fullright {
       padding-right: calc(#{$grid-gutter} * #{$col-count});
       max-width: calc(#{$container-desktop-wide} - #{$col-desktop-wide} * #{$col-count+1});
