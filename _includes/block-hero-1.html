@@ -1,14 +1,14 @@
 <section class="block block-hero-1">
   <div class="hero-banner d-flex d-flex justify-content-center align-items-end">
     <div class="hero-banner__inner-content text-center">
-      <div class="hero-banner__title-wrapper">
+      <div class="hero-banner__title-wrapper  mt-4">
         <h1 class="hero-banner__title">{{ section.headline }}</h1>
         <h2 class="hero-banner__subtitle">{{ section.subheadline }}</h2>
         {% if section.cta.enabled %}
-        <a class="round-cta gt-headercta{% if section.cta.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="mx-auto round-cta gt-headercta{% if section.cta.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
         {% if section.cta_2.enabled %}
-        <a class="round-cta gt-headercta{% if section.cta_2.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
+        <a class="mx-auto mt-4  round-cta gt-headercta{% if section.cta_2.button_text contains 'Contact' or section.cta_2.button_text contains 'Kontakt'%} dark{% else %} clear no-arrow{% endif %}" href="{{ section.cta_2.url }}" target="_blank">{{ section.cta_2.button_text }}</a>
         {% endif %}
       </div>
 
