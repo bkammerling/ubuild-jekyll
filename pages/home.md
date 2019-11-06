@@ -15,7 +15,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Technology to build, innovate and scale shared mobility
+  headline: Technology to launch and scale shared mobility services
   cta:
     button_text: Watch our film
     url: "https://vimeo.com/318402556"
