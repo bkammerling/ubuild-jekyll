@@ -115,6 +115,7 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
+- _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-09-Three-key-things-to-get-right-before-scaling-your-fleet.md
 - _posts/2019-10-14-the-road-to-wms19-video.md
@@ -122,7 +123,6 @@ pages:
 - _posts/2019-10-01-wunder-rent-rental-service-software-video.md
 - _posts/2019-10-17-insuring-the-future-of-mobility.md
 - _posts/2019-10-17-share-the-ride-and-regain-the-city.md
-- _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-10-17-speed-connected-vehicles-to-market.md
 - _posts/2019-10-17-automotive-development-goes-xr.md
 - _posts/2019-08-26-how-to-make-the-most-out-of-your-investment-for-startups.md
