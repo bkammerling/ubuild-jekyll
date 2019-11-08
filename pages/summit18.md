@@ -12,6 +12,7 @@ page_sections:
   cta:
     url: "/summit/"
     button_text: WMS19 Home
+    enabled: true
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2

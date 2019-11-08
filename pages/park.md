@@ -13,6 +13,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+    enabled: true
 - template: hero-banner-w-image
   block: hero-2
   headline: Smart solutions for <strong>Digital Parking Management</strong>

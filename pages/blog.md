@@ -12,6 +12,7 @@ page_sections:
   cta:
     url: https://www.wundermobility.com/#section-contact
     button_text: Contact
+    enabled: true
 - template: custom-content
   block: custom-html
   content: |-

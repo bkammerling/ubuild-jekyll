@@ -12,6 +12,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact us
+    enabled: true
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp

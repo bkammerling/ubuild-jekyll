@@ -14,6 +14,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+    enabled: true
 - template: hero-banner-center
   block: hero-1
   headline: <strong>Empowering Cities</strong><br> Across the Globe

@@ -17,7 +17,7 @@ page_sections:
   cta:
     button_text: Apply to pitch
     url: https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform
-    enabled: true
+    enabled: false
   cta_2:
     url: ''
     button_text: ''

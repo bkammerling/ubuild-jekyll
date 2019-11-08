@@ -13,6 +13,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+    enabled: true
 - template: hero-banner-w-image
   block: hero-2
   headline: The most powerful <strong>Smart Shuttle technology</strong> in the world

@@ -10,6 +10,7 @@ page_sections:
   cta:
     url: https://www.wundermobility.com/#section-contact
     button_text: Contact
+    enabled: true
 - template: hero-banner-w-image
   block: hero-2
   headline: Connecting leaders of the <strong>global mobility revolution</strong>

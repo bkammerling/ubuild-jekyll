@@ -13,6 +13,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+    enabled: true
 - template: hero-banner-w-image
   block: hero-2
   headline: <div class="cd-headline push">an <strong>all-in-one</strong> solution for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b></span>

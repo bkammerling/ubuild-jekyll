@@ -13,6 +13,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Contact
+    enabled: true
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>Optimize parking</strong> & <strong>reduce costs</strong> with

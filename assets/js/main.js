@@ -924,8 +924,12 @@ $(document).ready(function() {
     $('select#subject-field').trigger('change.select2').trigger('change');
   }
   if(pageref == "home") {
-    $("select#subject-field").val("General enquiry").siblings('.select2').addClass('selected');
-    $('select#subject-field').trigger('change.select2').trigger('change');
+    if(window.location.hash) {
+      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+      if(hash == 'section-contact') {
+        $('#formModal').modal('show');
+      }
+    }
   }
   if(pageref == "summit") {
     if(window.location.hash) {
