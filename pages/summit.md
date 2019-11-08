@@ -13,7 +13,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Thanks for joining us!
+  headline: Thanks for joining the conversation!
   cta:
     button_text: ''
     url: "#"
