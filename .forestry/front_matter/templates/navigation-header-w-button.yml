@@ -28,6 +28,10 @@ fields:
   - type: text
     name: button_text
     label: Button Text
+  - name: enabled
+    type: boolean
+    label: Enabled
+    default: true
 - type: file
   name: sub_logo
   label: Sub Logo
