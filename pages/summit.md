@@ -15,9 +15,9 @@ page_sections:
   block: hero-2
   headline: Thanks for joining us!
   cta:
-    button_text: Apply to join
+    button_text: ''
     url: "#"
-    enabled: true
+    enabled: false
   cta_2:
     url: ''
     button_text: ''
