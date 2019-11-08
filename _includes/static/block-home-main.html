@@ -341,7 +341,7 @@
       <div class="container-fluid">
         <div class="article-list">
           <div class="row">
-          {% assign stickies = site.posts | sort: "publish_date" | where: "sticky", true | limit:3 %}
+          {% assign stickies = site.posts | sort: "publish_date" | reverse | where: "sticky", true | limit:3 %}
           {% for sticky in stickies %}
             <div class="col-4">
               <div class="article-list__single-post">

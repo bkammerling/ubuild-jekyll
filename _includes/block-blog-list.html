@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
-        {% assign sticky = site.posts | sort: "publish_date" | where: "sticky", true | first %}
+        {% assign sticky = site.posts | sort: "publish_date" | reverse | where: "sticky", true | first %}
         <div class="sticky-post">
           <a class="blog-card-link" href="{{ sticky.url }}" title="{{ sticky.title }}" >
             <div class="card horizontal-card">
