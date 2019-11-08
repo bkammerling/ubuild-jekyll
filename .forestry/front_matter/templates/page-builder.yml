@@ -62,9 +62,9 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/summit.md
 - pages/home.md
 - pages/hardware.md
-- pages/summit.md
 - pages/carpool.md
 - pages/careers/jobs.md
 - pages/startup-stage.md

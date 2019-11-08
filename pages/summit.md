@@ -13,7 +13,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Accelerating the transition to <strong>sustainable mobility</strong>
+  headline: Thanks for joining us!
   cta:
     button_text: Apply to join
     url: "#"
