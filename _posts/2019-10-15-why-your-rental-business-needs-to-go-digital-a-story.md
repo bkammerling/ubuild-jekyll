@@ -14,7 +14,7 @@ publish_date: 2019-10-14T11:00:00.000+00:00
 featured_image: "/uploads/2019/10/14/rentstorylist.jpeg"
 excerpt: 'Here’s a story that might convince rental car business owners it''s time
   to go digital. '
-sticky: true
+sticky: false
 share_image: "/uploads/2019/10/15/whyyourrentcompanyshouldgodigital.jpg"
 
 ---
