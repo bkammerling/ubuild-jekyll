@@ -880,7 +880,7 @@ $(document).ready(function() {
       utm_campaign: '',
       utm_campaignid: ''
     }
-    if(utm_data.utm_medium == 'cpc' && utm_data.utm_source == 'google') utm_data.utm_medium = "Google Ads";
+    if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
     if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
     if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
