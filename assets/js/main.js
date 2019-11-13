@@ -117,7 +117,7 @@ $(document).ready(function() {
         $("#player").css('pointerEvents', 'auto');
         $(this).fadeOut();
         localStorage.setItem('lastVideo', pagetitle);
-        localStorage.setItem('lastVideoTime', new Date().getTime());
+        localStorage.setItem('lastVideoTime', new Date().toLocaleString('en-GB').replace(',',''));
       });
     },
     startPlay: function() {
@@ -276,6 +276,10 @@ var form = {
       data.lastVideo = localStorage.getItem('lastVideo');
       data.lastVideoTime = localStorage.getItem('lastVideoTime');
     }
+    var capitalizedName = data.name.toLowerCase().replace(/\b[a-z]/g, function(txtVal) {
+      return txtVal.toUpperCase();
+    });
+    data.name = capitalizedName;
     //console.log(data);
 
     $.ajax({
@@ -300,6 +304,7 @@ var form = {
       $("#form-submit").attr("disabled", false);
     });
 
+
   },
 
   serializeObject: function($form){
@@ -315,7 +320,9 @@ var form = {
     // Add non-selected select elements with empty values
     var hidden = $("#main-contact").find('.form-group:hidden select');
     hidden.each(function() {
-      indexed_array[$(this).attr('name')] = "";
+      if($(this).attr('name') != 'subject') {
+        indexed_array[$(this).attr('name')] = "";
+      }
     })
     return indexed_array;
   },
@@ -356,7 +363,6 @@ var form = {
     'Wunder City': '0hWZCJeJ7KQBELDQutED',
     'WMS': 'NvWgCNzV46QBELDQutED'
   }
-
 };
 
 form.init();
@@ -364,9 +370,6 @@ form.init();
 function formSubmit(e) {
   e.preventDefault();
   $(e.target).attr("disabled", true);
-  if(document.URL.indexOf('fleet') != -1) {
-    $("#utm_source").val(document.URL);
-  }
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
@@ -665,14 +668,14 @@ var scroller = {
   },
   scroll: function(lastScrollTop, rect) {
     if (lastScrollTop >= 100) {
-      scroller.header.addClass("navbar-narrow");
+      //scroller.header.addClass("navbar-narrow");
     } else {
-      scroller.header.removeClass("navbar-narrow");
+      //scroller.header.removeClass("navbar-narrow");
     };
     if (lastScrollTop >= 460) {
-      scroller.menuCta.addClass('bg-from-below');
+      //scroller.menuCta.addClass('bg-from-below');
     } else {
-      scroller.menuCta.removeClass('bg-from-below');
+      //scroller.menuCta.removeClass('bg-from-below');
     }
     if(pageref == "rent") {
       //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
@@ -868,9 +871,6 @@ $(document).ready(function() {
       utm_campaign: getUrlParameter('utm_campaign'),
       utm_campaignid: getUrlParameter('utm_campaignid')
     }
-    if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
-    if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
-    if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else {
@@ -880,6 +880,9 @@ $(document).ready(function() {
       utm_campaign: '',
       utm_campaignid: ''
     }
+    if(utm_data.utm_medium == 'cpc' && utm_data.utm_source == 'google') utm_data.utm_medium = "Google Ads";
+    if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
+    if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   }
@@ -944,7 +947,7 @@ $(document).ready(function() {
 
   if(document.URL.indexOf("/blog/")!= -1) {
     localStorage.setItem('lastBlog', pagetitle);
-    localStorage.setItem('lastBlogTime', new Date().getTime());
+    localStorage.setItem('lastBlogTime', new Date().toLocaleString('en-GB').replace(',',''));
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {
