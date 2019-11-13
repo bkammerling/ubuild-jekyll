@@ -68,7 +68,7 @@
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
-              <div class="form-group shuttle carpool fleet">
+              <div class="form-group shuttle fleet">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Art des Unternehmens *</option>
@@ -83,29 +83,87 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              <div class="form-group shuttle fleet">
-                <div class="select-wrapper">
-                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
-                    <option disabled selected>Wobei können wir ihnen helfen? *</option>
-                    <option value="Deploy and operate shared mobility service">Technologie für nachhaltige und vernetzte Mobilität</option>
-                    <option value="Discuss partnership and investment opportunity">Partnerschaft, Investition & Beteiligung </option>
-                    <option value="Other">Sonstiges</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
+
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select name="what-vehicle-type" class="form-control select2-init" style="width:100%" id="vehicleType" required=true>
-                    <option disabled selected>Welche Fahrzeuge möchten Sie anbieten? *</option>
-                    <option value="Mopeds">Scooters</option>
-                    <option value="Kick Scooters">Kick Scooters</option>
-                    <option value="Bikes">Bikes - Ebikes</option>
-                    <option value="Cars">Autos</option>
+                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
+                    <option disabled selected>Wonach suchen Sie? *</option>
+                    <option value="Full-package vehicle sharing solution">Komplettlösung für Fahrzeug-Sharing</option>
+                    <option value="Software only">Nur Software</option>
+                    <option value="Hardware only (vehicles and/or IoT devices)">Nur Hardware (Fahrzeuge und / oder IoT-Geräte)</option>
+                    <option value="Other / Not sure">Sonstiges / Nicht sicher</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
               </div>
+
+              <div class="form-group rent fleet">
+                <div class="select-wrapper multiple">
+                  <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
+                    <option disabled>Welche Fahrzeuge möchten Sie anbieten? *</option>
+                    <option value="Cars">Autos</option>
+                    <option value="Bikes">Fahrräder</option>
+                    <option value="Mopeds">Roller</option>
+                    <option value="Kick-scooters">E-scooter</option>
+                    <option value="Motorcycles">Motorräder</option>
+                    <option value="Trucks">Trucks</option>
+                    <option value="Vans">Kleinbusse</option>
+                    <option value="Boats">Boote</option>
+                    <option value="Other">Sonstiges</option>
+                  </select>
+                  <label for="vehicle-interest[]" class="w-100">
+                    Welche Fahrzeuge möchten Sie anbieten? *
+                  </label>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+
+
+              <<<<<! EDIT THIS QUESTIONS
+              <div class="form-group rent fleet shuttle">
+                <div class="select-wrapper">
+                  <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
+                    {% if page.lang-ref == 'rent' %}
+                      <option disabled selected>Welche Grösse Hat Ihre Flotte Aktuell? *</option>
+                      <option>0</option>
+                      <option>1-50</option>
+                      <option>51-150</option>
+                      <option>150+</option>
+                    {% elsif page.lang-ref == 'fleet' %}
+                      <option disabled selected>Wie viele Fahrzeuge möchten Sie anbieten? *</option>
+                      <option>1-100</option>
+                      <option>101-500</option>
+                      <option>500+</option>
+                    {% elsif page.lang-ref == 'shuttle' %}
+                      <option disabled selected>Verfügen Sie derzeit über einen bestehenden Fuhrpark? *</option>
+                      <option value="0">Nein</option>
+                      <option value="1-20">Ja, 1-20 Fahrzeuge</option>
+                      <option value="21-100">Ja, 21-100 Fahrzeuge</option>
+                      <option value=">100">Ja, mehr als 100 Fahrzeuge</option>
+                    {% endif %}
+                  </select>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+
+              <div class="form-group rent">
+                <div class="select-wrapper multiple">
+                  <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
+                    <option disabled>Was Möchten Sie Mit Wunder Rent Erreichen? *</option>
+                    <option value="Counterless Station-based Vehicle Rental">Schalterfreien Und Stationsbasierten Fahrzeugverleih</option>
+                    <option value="Free-floating Vehicle Rental">Free-floating-fahrzeugverleih</option>
+                    <option value="Peer to Peer Vehicle Rental">Peer-to-peer-fahrzeugverleih</option>
+                    <option value="I only want an online booking system">Ich Brauche Nur Ein Online-buchungssystem</option>
+                    <option value="Traditional Vehicle Rental (fully offline)">Klassischen Fahrzeugverleih (Komplett Offline)</option>
+                    <option value="Other">Sonstiges</option>
+                  </select>
+                  <label for="tech-interest[]" class="w-100">
+                    Was Möchten Sie Mit Wunder Rent Erreichen? *
+                  </label>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
@@ -118,6 +176,7 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
+
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
@@ -130,54 +189,8 @@
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              {% comment %}
-              <div class="form-group ">
-                <div class="select-wrapper multiple">
-                  <select name="carpool-interest[]" class="form-control select2-init" style="width: 100%" id="carpool-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What's the reason(s) you're interested in carpooling? *</option>
-                    <option>Scale a new transportation service</option>
-                    <option>Optimise employee transportation</option>
-                    <option>Save parking spaces</option>
-                    <option>To lower CO<sub>2</sub> emissions & support decongestion</option>
-                    <option>Other</option>
-                  </select>
-                  <label for="carpool-interest[]" class="w-100">
-                    What's the reason(s) you're interested in carpooling? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endcomment %}
-              <div class="form-group shuttle">
-                <div class="select-wrapper">
-                  <select name="existing-shuttle-vehicles" class="form-control select2-init" style="width:100%" id="existing-shuttle-vehicles" required=true>
-                    <option disabled selected>Verfügen Sie derzeit über einen bestehenden Fuhrpark? *</option>
-                    <option value=">100">Ja, mehr als 100 Fahrzeuge</option>
-                    <option value="21-100">Ja, 21-100 Fahrzeuge</option>
-                    <option value="1-20">Ja, 1-20 Fahrzeuge </option>
-                    <option value="0">Nein</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% comment %}
-              <div class="form-group shuttle">
-                <div class="select-wrapper multiple">
-                  <select name="shutte-interest[]" class="form-control select2-init" style="width: 100%" id="shuttle-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What's the reason(s) you're interested in a shuttle service? *</option>
-                    <option>Scale a new transportation service</option>
-                    <option>Optimise employee transportation</option>
-                    <option>Save parking spaces</option>
-                    <option>To lower CO<sub>2</sub> emissions & support decongestion</option>
-                    <option>Other</option>
-                  </select>
-                  <label for="shuttle-interest[]" class="w-100">
-                    What's the reason(s) you're interested a shuttle service? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endcomment %}
+
+
               <div class="form-group general fleet shuttle carpool city park">
                 <label class="form-label" for="message">Nachricht</label>
                 <textarea type="text" name="message" id="message"></textarea>
