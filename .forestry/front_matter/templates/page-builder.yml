@@ -62,8 +62,8 @@ fields:
   - custom-block
   - columns
 pages:
-- pages/hardware.md
 - pages/carpool.md
+- pages/hardware.md
 - pages/startup-stage.md
 - pages/summit18.md
 - pages/home.md

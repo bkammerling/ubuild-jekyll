@@ -44,6 +44,7 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
+share_image: "/uploads/2019/11/14/Sharer-Carpool.jpg"
 menu:
   wunder-main:
     weight: 1
