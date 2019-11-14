@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Wunder Fleet | Technology for car, bike & scooter sharing
-date: 2019-01-08T23:00:00.000+00:00
+date: '2019-01-08T23:00:00.000+00:00'
 permalink: "/fleet"
 lang: en
 lang-ref: fleet
@@ -16,7 +16,8 @@ page_sections:
     enabled: true
 - template: hero-banner-w-image
   block: hero-2
-  headline: <div class="cd-headline push">an <strong>all-in-one</strong> solution for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b></span>
+  headline: <div class="cd-headline push">an <strong>all-in-one</strong> solution
+    for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b></span>
   cta:
     button_text: Contact Us
     url: "#section-contact"
@@ -28,6 +29,8 @@ page_sections:
   background_video: fleet_loop
   show_logos: true
   background_image: "/uploads/global/fleet-frame.jpg"
+  intro_text: ''
+  logo_row: ''
 - block: fleet-main
   template: static-file
   subdirectory: static
@@ -40,6 +43,8 @@ page_sections:
   background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
 - template: simple-footer
   block: footer-1
+  content: ''
+share_image: "/uploads/2019/11/14/Sharer-Fleet - tech2.jpg"
 menu:
   wunder-main:
     weight: 6
