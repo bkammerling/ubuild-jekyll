@@ -115,6 +115,7 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
+- _posts/wunder-mobility-named-one-of-the-top-ten-automotive-startups-by-automobility-la.md
 - _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-17-insuring-the-future-of-mobility.md
