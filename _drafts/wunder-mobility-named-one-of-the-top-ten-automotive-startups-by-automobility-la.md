@@ -5,13 +5,13 @@ tags:
 - conference
 - finalist
 - press release
-author: []
+author: _people/MelikaJahangiri.md
 cta_heading: Sign Up for our Newsletter
 cta_text: 'Get all the latest news and updates from the world of Wunder in our monthly
   newsletter. '
 cta_link: pages/newsletter-signup.md
-title: WUNDER MOBILITY NAMED ONE OF THE TOP TEN AUTOMOTIVE STARTUPS BY AUTOMOBILITY
-  LA
+title: 'Wunder Mobility Named One of the Top Ten Automotive Startups by Automobility
+  LA '
 publish_date: 2019-11-14 12:00:00 +0000
 featured_image: ''
 excerpt: I’m thrilled to announce that Wunder Mobility has been nominated as a finalist
