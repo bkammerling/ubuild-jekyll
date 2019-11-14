@@ -29,6 +29,7 @@ page_sections:
   show_logos: true
   background_image: "/uploads/global/rent-bg@2x.jpg"
 - block: rent-main
+  template: static-file
   subdirectory: static
 - template: detail-content
   block: contact-form
