@@ -13,12 +13,12 @@ cta_link: pages/newsletter-signup.md
 title: 'Wunder Mobility Named One of the Top Ten Automotive Startups by Automobility
   LA '
 publish_date: 2019-11-14 12:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/11/14/AutomobilityTopTenList-1.jpeg"
 excerpt: I’m thrilled to announce that Wunder Mobility has been nominated as a finalist
   in AutoMobility LA’s Top Ten Automotive Startups Competition.
 share_image: "/uploads/2019/11/14/AutomobilityTopTenList.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Today, I’m thrilled to announce that Wunder Mobility has been nominated as a finalist in AutoMobility LA’s Top Ten Automotive Startups Competition.
