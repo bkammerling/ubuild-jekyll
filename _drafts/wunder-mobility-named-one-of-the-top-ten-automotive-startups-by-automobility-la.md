@@ -16,14 +16,14 @@ publish_date: 2019-11-14 12:00:00 +0000
 featured_image: ''
 excerpt: I’m thrilled to announce that Wunder Mobility has been nominated as a finalist
   in AutoMobility LA’s Top Ten Automotive Startups Competition.
-share_image: ''
+share_image: "/uploads/2019/11/14/AutomobilityTopTenList.jpeg"
 sticky: false
 hidden: false
 
 ---
 Today, I’m thrilled to announce that Wunder Mobility has been nominated as a finalist in AutoMobility LA’s Top Ten Automotive Startups Competition.
 
-\[[THIS IMAGE](https://www.dropbox.com/sh/e7mls8fh14c2u0j/AACWWCGUZP9wWhE_72eCEsU9a/AutoMobility%20LA?dl=0&preview=2018+Conference+-+Blockchain.jpg&subfolder_nav_tracking=1) OR AUTOMOBILITY LA LOGO\]
+![](/uploads/2019/11/14/AutomobilityTopTenBodyImage.jpeg)
 
 [AutoMobility LA](https://automobilityla.com/) is a four-day media and industry event where the latest in transportation innovation is unveiled and demonstrated by emerging and established players, and where mobility experts discuss autonomy, connectivity, electrification, the sharing economy and other important factors shaping our future. It is a staple mobility event that I look forward to attending every year. The conference is held in Los Angeles — the nation’s top car-buying market as well as the top market for mobility and my personal hometown — [where we recently established our U.S. HQ](https://www.wundermobility.com/blog/wunder-mobility-launches-in-the-u-s).
 
