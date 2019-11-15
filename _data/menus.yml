@@ -101,36 +101,42 @@ wunder-de:
   title: Produkte
   identifier: solutions
   sub: true
-- url: "/de/carpool"
-  weight: 1
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-- url: "/de/shuttle"
-  weight: 2
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
 - url: "/de/fleet"
-  weight: 3
+  weight: 1
   parent: solutions
   identifier: fleet
   title: Fleet
-- url: "/de/city"
-  weight: 4
-  parent: solutions
-  identifier: city
-  title: City
-- url: "/de/park"
-  weight: 4
-  parent: solutions
-  identifier: park
-  title: Park
+  subtitle: All-in-one Fahrzeug-Sharing
 - url: "/rent"
-  weight: 5
+  weight: 2
   parent: solutions
   identifier: rent
   title: Rent | EN
+  subtitle: Selbstbedienungsverleih ohne Schlüssel
+- url: "/de/carpool"
+  weight: 3
+  parent: solutions
+  identifier: carpool
+  title: Carpool
+  subtitle: Mitfahrgelegenheiten für Angestellte
+- url: "/de/shuttle"
+  weight: 4
+  parent: solutions
+  identifier: shuttle
+  title: Shuttle
+  subtitle: On-demand ride hailing
+- url: "/de/park"
+  weight: 5
+  parent: solutions
+  identifier: park
+  title: Park
+  subtitle: Effizientes Parkmanagement
+- url: "/de/city"
+  weight: 6
+  parent: solutions
+  identifier: city
+  title: City
+  subtitle: Datenanalyse für Mobilität
 - url: "#"
   weight: 2
   title: Events
@@ -141,16 +147,19 @@ wunder-de:
   identifier: autotech
   title: Mobility Sessions | EN
   parent: events
+  subtitle: Regular meetups focused on the future of mobility
 - url: "/summit/startup-stage"
   weight: 2
   identifier: startup-stage
   title: Startup Stage | EN
   parent: events
+  subtitle: Good things happen to those who pitch
 - url: "/summit/"
   weight: 1
   identifier: summit
   title: Mobility Summit | EN
   parent: events
+  subtitle: The mobility event of the year!
 - url: "#"
   weight: 3
   identifier: firma
@@ -161,16 +170,19 @@ wunder-de:
   identifier: careers
   title: Jobs | EN
   parent: firma
+  subtitle: Wanna join the ride?
 - url: "/blog/"
   weight: 2
   identifier: blog
   title: Blog | EN
   parent: firma
+  subtitle: Exploring the future of urban mobility
 - url: "/de/presse"
   weight: 3
   identifier: press
   title: Presse
   parent: firma
+  subtitle: Yeah, we're being talked about!
 
 wunder-es:
 - url: "#"
