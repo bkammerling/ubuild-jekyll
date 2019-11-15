@@ -18,7 +18,7 @@ excerpt: I’m thrilled to announce that Wunder Mobility has been nominated as a
   in AutoMobility LA’s Top Ten Automotive Startups Competition.
 share_image: "/uploads/2019/11/14/AutomobilityTopTenList.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Today, I’m thrilled to announce that Wunder Mobility has been nominated as a finalist in AutoMobility LA’s Top Ten Automotive Startups Competition.
