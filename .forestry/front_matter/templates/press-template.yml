@@ -26,6 +26,7 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
+- _articles/future-of-transportation-the-rise-of-multimodal-mobility-in-cities.md
 - _articles/what-should-we-do-with-old-mobility.md
 - _articles/es-ist-an-der-zeit-zu-kaufen-wenn-blut-in-den-straßen-fließt.md
 - _articles/the-top-30-best-funded-german-startups-2019.md
