@@ -4,7 +4,7 @@ title: What Should We Do With Old Mobility?
 date: 2019-11-04 23:00:00 +0000
 lang: English
 image: "/uploads/2019/11/20/ForbesLogo.svg"
-featured: false
+featured: true
 published: false
 
 ---
