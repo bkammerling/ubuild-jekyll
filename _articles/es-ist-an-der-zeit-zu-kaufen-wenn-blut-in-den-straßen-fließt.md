@@ -4,7 +4,6 @@ title: Es ist an der Zeit zu kaufen, wenn Blut in den Straßen fließt
 date: 2019-11-06 23:00:00 +0000
 lang: German
 image: "/uploads/2019/11/20/WirtschaftsWoche_Logo.png"
-featured: true
-published: false
+featured: false
 
 ---
