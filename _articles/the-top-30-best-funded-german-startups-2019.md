@@ -1,0 +1,10 @@
+---
+link: https://disfold.com/top-german-startups/#wunder-mobility-
+title: The top 30 best-funded German startups 2019
+date: 2019-11-04 23:00:00 +0000
+lang: English
+image: "/uploads/2019/11/20/DisfoldLogo.png"
+featured: false
+published: false
+
+---
