@@ -7,11 +7,10 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/home.md
 title: 'Autonomous Cars: A Self-Driven Journey'
-publish_date: 2019-08-30 09:00:00 +0000
+publish_date: 2019-08-30T09:00:00.000+00:00
 featured_image: "/uploads/2019/09/02/futuramaimage1-1.jpg"
-excerpt: 'From the New York World''s Fair in 1939 to self-driven test rides in 2019,
-  autonomous vehicles have captured the imagination of the world and symbol for over
-  80 years. '
+excerpt: From the New York World's Fair in 1939 to self-driven test rides in 2019,
+  autonomous vehicles have captured the imagination of the world for over 80 years.
 
 ---
 ### Part 1: The Future as Seen Through the Eyes of a Fairgoer in 1939
