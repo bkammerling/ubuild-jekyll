@@ -863,6 +863,11 @@ $(document).ready(function() {
   // Set form fields with any URL parameters (from Google Adwords of LinkedIn etc.)
   if(localStorage.getItem('utm_data')) {
     var utm_data = JSON.parse(localStorage.getItem('utm_data'));
+    if(utm_data.utm_medium.indexOf("cpc") != -1 && utm_data.utm_source.indexOf("google") != -1) {
+      utm_data.utm_medium = "Google Ads";
+      utm_data.utm_source = "google";
+    }
+    if(utm_data.utm_medium == "cpc" && utm_data.utm_source == "google") utm_data.utm_medium = "Google Ads";
     assignUTMParams();
   } else if(getUrlParameter('utm_source')) {
     utm_data = {
@@ -871,6 +876,9 @@ $(document).ready(function() {
       utm_campaign: getUrlParameter('utm_campaign'),
       utm_campaignid: getUrlParameter('utm_campaignid')
     }
+    if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
+    if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
+    if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else {
@@ -880,9 +888,6 @@ $(document).ready(function() {
       utm_campaign: '',
       utm_campaignid: ''
     }
-    if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
-    if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
-    if(utm_data.utm_source == 'linkedin') utm_data.utm_medium = "LinkedIn Ads";
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   }
