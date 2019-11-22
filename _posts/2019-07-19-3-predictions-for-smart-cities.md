@@ -22,9 +22,7 @@ A smart city is defined as “a city that utilizes information and communication
 
 The concept is quite cool, of course - when we imagine the megacities of the future, it’s fun to consider the possibility of living in a high-tech home that can manage a household more wisely than humans can, or riding to work in a self-driving car, or even having an AI assistant take business calls for us and plan our next meeting. But are these projections realistic? Here are three predictions we think will _actually_ define the smart cities of tomorrow.
 
-![](/uploads/2019/07/19/Screenshot 2019-07-19 at 14.45.12.png)
-
-### **1. The future is shared and electric**
+![](/uploads/2019/11/22/city1.jpeg)**1. The future is shared and electric**
 
 A defining feature of smart cities will be the **types of vehicles** on the roads. Most of us are in agreement that the days of the gas-powered car are coming to an end. A variety of environmentally friendly alternatives have been gaining momentum in recent years and will dominate the mobile landscape of the future, such as e-kick scooters, mopeds, e-motorcycles and e-bikes. Those aren’t the types of vehicles that are kept in a garage at home, either: **fleet-sharing** services are **accessible to all** and obviously kinder on the environment than owning a personal car.
 
