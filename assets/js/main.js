@@ -103,7 +103,7 @@ $(document).ready(function() {
       this.player.on('ready', event => {
         if($(".filmmodal").length == 0) {
           this.player.toggleControls(false);
-          console.log('true');
+          //console.log('true');
         } else {
           $("#player").css('pointerEvents', 'auto');
           console.log('false');
@@ -813,18 +813,18 @@ if(!String.linkify) {
 
 
 var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+  var sPageURL = window.location.search.substring(1),
+    sURLVariables = sPageURL.split('&'),
+    sParameterName,
+    i;
 
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
+  for (i = 0; i < sURLVariables.length; i++) {
+    sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-        }
+    if (sParameterName[0] === sParam) {
+        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
     }
+  }
 };
 
 function setupIp() {
@@ -868,13 +868,29 @@ $(document).ready(function() {
       utm_data.utm_source = "google";
     }
     if(utm_data.utm_medium == "cpc" && utm_data.utm_source == "google") utm_data.utm_medium = "Google Ads";
+    // Trying to fix a bug [25/11/19] that sends us the full url as source
+    if(utm_data.utm_source.indexOf('utm_medium=cpc') != -1 && utm_data.utm_source.indexOf('utm_source=google') != -1) {
+      utm_data.utm_source = "google";
+      utm_data.utm_medium = "Google Ads";
+    }
+    if(getUrlParameter('utm_source')) {
+      utm_data.utm_campaign = getUrlParameter('utm_campaign');
+      utm_data.campaign_id = getUrlParameter('campaign');
+      utm_data.adgroup_id = getUrlParameter('adgroup');
+      utm_data.title_id = getUrlParameter('title');
+    }
+    localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   } else if(getUrlParameter('utm_source')) {
     utm_data = {
       utm_source: getUrlParameter('utm_source'),
       utm_medium: getUrlParameter('utm_medium'),
       utm_campaign: getUrlParameter('utm_campaign'),
-      utm_campaignid: getUrlParameter('utm_campaignid')
+      utm_term: getUrlParameter('utm_term'),
+      campaign_id: getUrlParameter('campaign'),
+      adgroup_id: getUrlParameter('adgroup'),
+      title_id: getUrlParameter('title'),
+      first_visit: new Date().toLocaleString('en-GB').replace(',','')
     }
     if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
     if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
@@ -886,16 +902,19 @@ $(document).ready(function() {
       utm_source: document.referrer != "" ? document.referrer : 'direct',
       utm_medium: 'Organic',
       utm_campaign: '',
-      utm_campaignid: ''
+      utm_term: '',
+      campaign_id: '',
+      adgroup_id: '',
+      title_id: '',
+      first_visit: new Date().toLocaleString('en-GB').replace(',','')
     }
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
   }
   function assignUTMParams() {
-    $("#utm_source").val(utm_data.utm_source);
-    $("#utm_medium").val(utm_data.utm_medium);
-    $("#utm_campaign").val(utm_data.utm_campaign);
-    $("#utm_campaignid").val(utm_data.utm_campaignid);
+    Object.keys(utm_data).forEach(function(key) {
+      $("#"+key).val(utm_data[key]);
+    })
   }
 
   form.initializeSelect2('.select2-init');
