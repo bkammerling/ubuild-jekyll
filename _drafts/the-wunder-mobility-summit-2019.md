@@ -54,7 +54,7 @@ In the meantime, the expo area inside the museum was flooded with curious attend
 
 After an interesting discussion on the paradox of choice and user-friendliness moderated by **Thomas Elrich** of JDB Media and featuring **Patrick Haller** from Google, **Jonas Seyfferth** from Strategy& (part of the PwC network) and **Daniel Avdagic** of Living Lab, a test driver for Alfa Romeo Formula One, **Tatiana Calderon,** gave her perspective on how to survive and thrive in the male-dominated world of race car driving.
 
-Across the way from the Internationales Maritimes Museum, the Micromobility Test Track was buzzing with energy. There, guests could ride vehicles so silent, you’d practically have to hold your breath to hear their battery-powered motors as they whiz past. A full range of vehicles - from bikes to scooters to three-wheeled “cars” that make a SmartCar look like a midsized Sedan - were parked beside the Wunder HQ, all available for a test ride.
+Across the way from the Internationales Maritimes Museum, the Micromobility Test Track was buzzing with energy. There, guests could ride vehicles so silent, you’d practically have to hold your breath to hear their battery-powered motors as they whiz past. A full range of vehicles - from bikes to scooters to everything in between - were parked beside the Wunder HQ, all available for a test ride.
 
 ![](/uploads/2019/11/27/WMSBlogimage7.jpg)
 
