@@ -13,13 +13,16 @@ cta_link: pages/autotech.md
 title: The Wunder Mobility Summit 2019
 publish_date: 2019-11-28 00:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from all
+  across the mobility spectrum to come together and swap ideas, thoughts and war stories
+  during 1.5 days of exciting content, which included parties, technology playgrounds,
+  a vehicle test track and, of course, panel discussions and fireside chats.
 share_image: ''
 sticky: false
 hidden: false
 
 ---
-The Wunder Mobility Summit 2019 was a massive success!
+**The Wunder Mobility Summit 2019 was a massive success!**
 
 Whether the enthusiastic attendees, star-studded speaker line-up or innovative startups inspired you most, it was the guests who made WMS19 such a unique and enjoyable experience. The Wunder Mobility Summit is an excellent opportunity for leaders from all across the mobility spectrum to come together and swap ideas, thoughts and war stories during 1.5 days of exciting content, which included parties, technology playgrounds, a vehicle test track and, of course, panel discussions and fireside chats.
 
@@ -83,4 +86,4 @@ On the other hand, industry leaders are also expected to be driving the innovati
 
 ![](/uploads/2019/11/27/WMSblogimage13.JPG)
 
-Thanks for joining the conversation - we’ll see you at WMS20!
+Thanks for joining the conversation - we’ll see you at **WMS20**!
