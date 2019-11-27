@@ -12,12 +12,12 @@ cta_text: 'In addition to WMS, we host Mobility Sessions by Wunder, a series of 
 cta_link: pages/autotech.md
 title: The Wunder Mobility Summit 2019
 publish_date: 2019-11-28 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from all
   across the mobility spectrum to come together and swap ideas, thoughts and war stories
   during 1.5 days of exciting content, which included parties, technology playgrounds,
   a vehicle test track and, of course, panel discussions and fireside chats.
-share_image: ''
+share_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 sticky: false
 hidden: false
 
