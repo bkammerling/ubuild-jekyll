@@ -4,11 +4,11 @@ category: News
 tags:
 - WMS19
 - events
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/pia-benthien.md
+cta_heading: Find Out More About Wunder Events
+cta_text: 'We attend multiple mobility events throughout the year. Stay up-to-date
+  by checking our website often! '
+cta_link: pages/autotech.md
 title: The Wunder Mobility Summit 2019
 publish_date: 2019-11-28 00:00:00 +0000
 featured_image: ''
@@ -18,7 +18,6 @@ sticky: false
 hidden: false
 
 ---
-
 The Wunder Mobility Summit 2019 was a massive success!
 
 Whether the enthusiastic attendees, star-studded speaker line-up or innovative startups inspired you most, it was the guests who made WMS19 such a unique and enjoyable experience. The Wunder Mobility Summit is an excellent opportunity for leaders from all across the mobility spectrum to come together and swap ideas, thoughts and war stories during 1.5 days of exciting content, which included parties, technology playgrounds, a vehicle test track and, of course, panel discussions and fireside chats.
@@ -41,17 +40,15 @@ Our first panel was moderated by **Sarah Yvonne Elsser** - who ended with a very
 
 ![](/uploads/2019/11/27/WMSBlogImage4.JPG)
 
-  
 **John Krafcik**, CEO of Waymo, spoke on his company’s ambitious plans for an autonomous and safer future; after that, **Jens Beckmann** of Microsoft and **Thomas Dahlemm** of Audi’s autonomous driving program talked about unusual collaboration models that are driving the automotive industry.
 
-  
 In the meantime, the expo area inside the museum was flooded with curious attendees eager to test out new technology - some of it was mobility-related, some wasn’t, but all of the stands and experiments at the expo area were fascinating examples of innovative ideas “come to life”. Partners like **PwC, FutureCandy, Dronemasters, Goodpatch Athena, Ubilabs** and **Staud** - **Airways** brought their VR glasses, holograms and robots to the event.
 
 ![](/uploads/2019/11/27/WMSBlogImage5.jpg)
 
 ![](/uploads/2019/11/27/WMSBlogimage6.jpg)
 
-After an interesting discussion on the paradox of choice and user-friendliness moderated by **Thomas Elrich** of JDB Media and featuring **Patrick Haller** from Google, **Jonas Seyfferth** from Strategy& (part of the PwC network) and **Daniel Avdagic** of Living Lab, a test driver for Alfa Romeo Formula One, **Tatiana Calderon,** gave her perspective on how to survive and thrive in the male-dominated world of race car driving. 
+After an interesting discussion on the paradox of choice and user-friendliness moderated by **Thomas Elrich** of JDB Media and featuring **Patrick Haller** from Google, **Jonas Seyfferth** from Strategy& (part of the PwC network) and **Daniel Avdagic** of Living Lab, a test driver for Alfa Romeo Formula One, **Tatiana Calderon,** gave her perspective on how to survive and thrive in the male-dominated world of race car driving.
 
 Across the way from the Internationales Maritimes Museum, the Micromobility Test Track was buzzing with energy. There, guests could ride vehicles so silent, you’d practically have to hold your breath to hear their battery-powered motors as they whiz past. A full range of vehicles - from bikes to scooters to three-wheeled “cars” that make a SmartCar look like a midsized Sedan - were parked beside the Wunder HQ, all available for a test ride.
 
@@ -81,11 +78,10 @@ After a riveting fireside chat with **Paulin Dementhon**, CEO of Getaround, and 
 
 The networking dinner brought the evening to a delectable close: alliances were forged over cocktails and canapes; laughter exuded from all corners of the Internationales Maritimes Museum, bouncing off the high-beamed ceilings and mixing with the sounds of local indie band Guacayo. After the band was replaced by a DJ, the “Wunderers” took over - they danced the night away in celebration of an event well-hosted.
 
-WMS19 was an inspiring mobility summit. More than that, it was fun, too. The fact of the matter is, the mobility industry today is on the cusp of a great change. Often, industry leaders are confronted by naysayers who decry new and shared mobility as being either a public nuisance, environmental destruction disguised as positive disruption, or just well-meaning theoretical ideas that go awry when faced with the tricky business of real-world application. 
+WMS19 was an inspiring mobility summit. More than that, it was fun, too. The fact of the matter is, the mobility industry today is on the cusp of a great change. Often, industry leaders are confronted by naysayers who decry new and shared mobility as being either a public nuisance, environmental destruction disguised as positive disruption, or just well-meaning theoretical ideas that go awry when faced with the tricky business of real-world application.
 
 On the other hand, industry leaders are also expected to be driving the innovation our society will need to protect itself from the multiple impending crises of the future. That’s why we need events like these now more than ever: to have a place to ask hard questions and connect with like-minded professionals, unified by the common goal of shaping the future of mobility for the better.
 
 ![](/uploads/2019/11/27/WMSblogimage13.JPG)
 
-  
 Thanks for joining the conversation - we’ll see you at WMS20!
