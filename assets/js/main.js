@@ -117,7 +117,7 @@ $(document).ready(function() {
         $("#player").css('pointerEvents', 'auto');
         $(this).fadeOut();
         localStorage.setItem('lastVideo', pagetitle);
-        localStorage.setItem('lastVideoTime', new Date().toLocaleString('en-GB').replace(',',''));
+        localStorage.setItem('lastVideoTime', new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',',''));
       });
     },
     startPlay: function() {
@@ -874,6 +874,7 @@ $(document).ready(function() {
       utm_data.utm_medium = "Google Ads";
     }
     if(getUrlParameter('utm_source')) {
+      // Set these next 4 values with the new data from the current URL (so we have last click data)
       utm_data.utm_campaign = getUrlParameter('utm_campaign');
       utm_data.campaign_id = getUrlParameter('campaign');
       utm_data.adgroup_id = getUrlParameter('adgroup');
@@ -890,7 +891,7 @@ $(document).ready(function() {
       campaign_id: getUrlParameter('campaign'),
       adgroup_id: getUrlParameter('adgroup'),
       title_id: getUrlParameter('title'),
-      first_visit: new Date().toLocaleString('en-GB').replace(',','')
+      first_visit: new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',','')
     }
     if(utm_data.utm_medium == 'cpc') utm_data.utm_medium = "Google Ads";
     if(utm_data.utm_source == 'bing') utm_data.utm_medium = "Microsoft Ads";
@@ -906,7 +907,7 @@ $(document).ready(function() {
       campaign_id: '',
       adgroup_id: '',
       title_id: '',
-      first_visit: new Date().toLocaleString('en-GB').replace(',','')
+      first_visit: new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',','')
     }
     localStorage.setItem('utm_data', JSON.stringify(utm_data));
     assignUTMParams();
@@ -971,7 +972,7 @@ $(document).ready(function() {
 
   if(document.URL.indexOf("/blog/")!= -1) {
     localStorage.setItem('lastBlog', pagetitle);
-    localStorage.setItem('lastBlogTime', new Date().toLocaleString('en-GB').replace(',',''));
+    localStorage.setItem('lastBlogTime', new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',',''));
   }
 
   $('#summitModal').on('show.bs.modal', function (event) {
@@ -1042,10 +1043,11 @@ $(document).ready(function() {
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
 
 
-
+  /* REMOVED FOR FASTER LOAD TIME
   // runnning google recaptcha on load helps it learn who's using our site
   grecaptcha.ready(function() {
-    grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "landing"})
+    //grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "landing"})
   });
+  */
 
 });
