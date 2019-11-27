@@ -31,19 +31,6 @@ function initHeadline() {
 	//initialise headline animation
 	animateHeadline($('.cd-headline'));
 }
-
-function singleLetters($words) {
-   $words.each(function(){
-      var word = $(this),
-          letters = word.text().split(''),
-          selected = word.hasClass('is-visible');
-      for (i in letters) {
-         letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
-      }
-      var newLetters = letters.join('');
-      word.html(newLetters);
-   });
-}
 function animateHeadline($headlines) {
   var duration = animationDelay;
   $headlines.each(function(){
@@ -250,7 +237,6 @@ var form = {
         $(this).parents('.form-group').removeClass('focused');
       }
     });
-
   },
 
   submit: function(contactForm) {
@@ -318,7 +304,7 @@ var form = {
         }
     });
     // Add non-selected select elements with empty values
-    var hidden = $("#main-contact").find('.form-group:hidden select');
+    var hidden = $("#main-contact").find('.form-group:hidden select, .form-group:hidden input');
     hidden.each(function() {
       if($(this).attr('name') != 'subject') {
         indexed_array[$(this).attr('name')] = "";
@@ -386,7 +372,7 @@ function formSubmit(e) {
 }
 
 function recaptchaSubmit(token) {
-  console.log(token);
+  //console.log(token);
   var $form = $("#captchaResponse").parents("form");
   $('#captchaResponse').val(token);
   form.submit($form);
@@ -498,6 +484,7 @@ if(pageref == "jobs") jobs.init();
 
 var accordion = {
   init: function() {
+    // class 'accordion-title' not found 27/11/19
     $('.accordion-title').click(function() {
       $(this).parent().find('.accordion-content').slideToggle()
       $(this).toggleClass('active');
@@ -920,25 +907,12 @@ $(document).ready(function() {
 
   form.initializeSelect2('.select2-init');
 
-  $("select#subject-field").on('change', function(e) {
-    var $optionSelected = $("option:selected", this);
-    var selection = $optionSelected.data('id');
-    //console.log(selection);
-    if($("form .extra-form").is(":visible")) {
-      $("form .extra-form").slideUp(function() {
-          showExtraForm();
-      });
-    } else {
-      showExtraForm();
-    }
-    selection == 'support' ? $("#form-submit").attr("disabled", true) : $("#form-submit").attr("disabled", false);
-    function showExtraForm() {
-      $("form .extra-form ."+selection).show();
-      $("form .extra-form ."+selection).find('select').prop('required', true);
-      $("form .extra-form > div:not(."+selection+")").hide();
-      $("form .extra-form > div:not(."+selection+")").find('select').prop('required', false);
-      $("form .extra-form").slideDown();
-    }
+  $("form .conditional-trigger").on('change', function(e) {
+    var $optionSelection = $(this).prop("tagName") == 'SELECT' ? $("option:selected", this) : $(this);
+    var selection = $optionSelection.data('target');
+    var direction = $optionSelection.data('direction');
+    // show/hide our conditional inputs and mark them as requried / not-required
+    direction == 'up' ? $(selection).slideUp(function() { console.log($(":input:hidden", "form .collapse")); $(":input:hidden", "form .collapse").prop('required', false) }) : $(selection).slideDown(function() { $(":input:visible", "form .collapse").prop('required', true) });
 
   });
 
@@ -947,10 +921,6 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pageref == "fleet" || pageref == "shuttle" || pageref == "carpool" || pageref == "park" || pageref == "rent" || pageref == "city" || pageref == "vehicles") {
-    $("select#subject-field").val("Wunder "+pageref.capitalize()).siblings('.select2').addClass('selected');
-    $('select#subject-field').trigger('change.select2').trigger('change');
-  }
   if(pageref == "home") {
     if(window.location.hash) {
       var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
@@ -1042,12 +1012,5 @@ $(document).ready(function() {
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
 
-
-  /* REMOVED FOR FASTER LOAD TIME
-  // runnning google recaptcha on load helps it learn who's using our site
-  grecaptcha.ready(function() {
-    //grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "landing"})
-  });
-  */
 
 });
