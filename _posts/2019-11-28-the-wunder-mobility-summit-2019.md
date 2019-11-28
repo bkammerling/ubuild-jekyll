@@ -35,7 +35,7 @@ The event started with a kick-off party at the Überquell Brewpub on November 6t
 
 ![](/uploads/2019/11/27/WMSBlogImage2.JPG)
 
-Summit Day got off to a good start with opening remarks from Wunder Mobility **CEO Gunnar Froh** and then **Peter Tschenscher,** the First Mayor of Hamburg, who highlighted the importance of creating sustainable and accessible mobility solutions now and in the years to come.
+Summit Day got off to a good start with opening remarks from Wunder Mobility **CEO Gunnar Froh** and then **Peter Tschentscher,** the First Mayor of Hamburg, who highlighted the importance of creating sustainable and accessible mobility solutions now and in the years to come.
 
 Our first panel was moderated by **Sarah Yvonne Elsser** - who ended with a very interesting quote from the Simpsons - and included **Anna-Charlotte Fleischmann-Kopatsch,** a senior consultant at MHP, and **Martin Hoff**, Head of Market Management and Innovation at Allianz Automotive, speaking on the subject of the mobility landscape and predictions for the future.
 
@@ -59,7 +59,7 @@ Across the way from the Internationales Maritimes Museum, the Micromobility Test
 
 ![](/uploads/2019/11/27/WMSBlogimage8.jpg)
 
-After a break for a (delicious) lunch, **Eckhart Diepenhorst,** CEO of FreeNow, made some at times bordering-on-controversial, at times downright hilarious statements about working with and around government regulation, among other things; after that, **Horace Dieu**, co-founder of Micromobility Industries, gave an inspiring talk on consumer demand in the mobility industry.
+After a break for a (delicious) lunch, **Eckhart Diepenhorst,** CEO of FreeNow, made some at times bordering-on-controversial, at times downright hilarious statements about working with and around government regulation, among other things; after that, **Horace Dediu**, co-founder of Micromobility Industries, gave an inspiring talk on consumer demand in the mobility industry.
 
 Then it was time to talk about mobility’s intricate relationship with cities. **Sigrid Dalberg-Krajewski,** Head of Marketing and Communications at Trafi, **Paul-Eric Perchaud,** Director of Operations Germany for Unibail-Rodamco-Westfield and **Ben Volkow**, CEO of Otonomo, had a thought-provoking discussion on B2G solutions, how to foster collaboration between cities and the private sector and more. Wunder City GM **Ioana Freise** did an excellent job of moderating.
 
