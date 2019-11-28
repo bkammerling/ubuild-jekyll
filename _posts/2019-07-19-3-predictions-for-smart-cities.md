@@ -11,7 +11,9 @@ publish_date: 2019-07-19T08:00:00.000+00:00
 featured_image: "/uploads/2019/07/12/city1.jpeg"
 excerpt: The term "smart city" conjures up images of futuristic cityscapes and autonomous
   vehicles. But what features will really define the smart cities of tomorrow?
-tags: []
+tags:
+- smart city
+- cities
 share_image: ''
 sticky_post: false
 hidden: false
