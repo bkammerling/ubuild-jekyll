@@ -28,7 +28,7 @@ Whether the enthusiastic attendees, star-studded speaker line-up or innovative s
 
 Without further ado, we present the official WMS19 aftermovie. (Be forewarned: the video you’re about to watch may be FOMO-inducing.)
 
-(AFTERMOVIE)
+{% include block-video-2.html vimeo-id="375405380" %}
 
 The event started with a kick-off party at the Überquell Brewpub on November 6th, which was packed to capacity. A few rousing rounds of curling went on outside as our WMS-themed specialty of the house, an artisan craft beer dubbed the _Wunderbräu,_ was being tasted inside at the bar.
 
@@ -80,7 +80,7 @@ After a riveting fireside chat with **Paulin Dementhon**, CEO of Getaround, and 
 
 The networking dinner brought the evening to a delectable close: alliances were forged over cocktails and canapes; laughter exuded from all corners of the Internationales Maritimes Museum, bouncing off the high-beamed ceilings and mixing with the sounds of local indie band Guacayo. After the band was replaced by a DJ, the “Wunderers” took over - they danced the night away in celebration of an event well-hosted.
 
-WMS19 was an inspiring mobility summit. More than that, it was fun, too. The fact of the matter is, the mobility industry today is on the cusp of a great change. Often, industry leaders are confronted by naysayers who decry new and shared mobility as being either a public nuisance, environmental destruction disguised as positive disruption, or just well-meaning theoretical ideas that go awry when faced with the tricky business of real-world application.
+**WMS19** was an inspiring mobility summit. More than that, it was fun, too. The mobility industry today is on the cusp of a great change: often, industry leaders are confronted by naysayers who decry new and shared mobility as being either a public nuisance, environmental destruction disguised as positive disruption, or just well-meaning theoretical ideas that go awry when faced with the tricky business of real-world application.
 
 On the other hand, industry leaders are also expected to be driving the innovation our society will need to protect itself from the multiple impending crises of the future. That’s why we need events like these now more than ever: to have a place to ask hard questions and connect with like-minded professionals, unified by the common goal of shaping the future of mobility for the better.
 
