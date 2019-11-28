@@ -18,7 +18,7 @@ excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from
   during 1.5 days of exciting content.
 share_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 **The Wunder Mobility Summit 2019 was a massive success!**
