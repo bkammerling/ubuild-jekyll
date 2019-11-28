@@ -55,15 +55,15 @@
             <div class="form-group hidden">
               <div class="select-wrapper">
                 <select name="subject" class="form-control select2-init " style="width:100%" id="subject-field" required>
-                  <option disabled selected>Subject *</option>
-                  <option value="Wunder Fleet" data-id="fleet">Wunder Fleet</option>
-                  <option value="Wunder Rent" data-id="rent">Wunder Rent</option>
-                  <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
-                  <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
-                  <option value="Wunder Park" data-id="park">Wunder Park</option>
-                  <option value="Wunder City" data-id="city">Wunder City</option>
-                  <option value="Wunder Vehicles" data-id="vehicles">Wunder Vehicles</option>
-                  <option value="General enquiry" data-id="general">General enquiry</option>
+                  <option disabled>Subject *</option>
+                  <option value="Wunder Fleet" data-id="fleet" {% if page.lang-ref == 'fleet' %}selected{% endif %}>Wunder Fleet</option>
+                  <option value="Wunder Rent" data-id="rent" {% if page.lang-ref == 'rent' %}selected{% endif %}>Wunder Rent</option>
+                  <option value="Wunder Shuttle" data-id="shuttle" {% if page.lang-ref == 'shuttle' %}selected{% endif %}>Wunder Shuttle</option>
+                  <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
+                  <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
+                  <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
+                  <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' %}selected{% endif %}>Wunder Vehicles</option>
+                  <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>

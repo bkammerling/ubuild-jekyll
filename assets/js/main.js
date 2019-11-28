@@ -304,7 +304,7 @@ var form = {
         }
     });
     // Add non-selected select elements with empty values
-    var hidden = $("#main-contact").find('.form-group:hidden select, .form-group:hidden input');
+    var hidden = $("#main-contact").find('.form-group:hidden select:not(#subject-field), .form-group:hidden input');
     hidden.each(function() {
       if($(this).attr('name') != 'subject') {
         indexed_array[$(this).attr('name')] = "";
