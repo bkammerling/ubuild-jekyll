@@ -11,7 +11,7 @@ cta_text: 'In addition to WMS, we host Mobility Sessions by Wunder, a series of 
   mobility events every year. Stay up-to-date by checking our website often! '
 cta_link: pages/autotech.md
 title: The Wunder Mobility Summit 2019
-publish_date: 2019-11-28 00:00:00 +0000
+publish_date: 2019-11-28T00:00:00.000+00:00
 featured_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from all
   across the mobility spectrum to come together and swap ideas, thoughts and war stories
@@ -46,7 +46,7 @@ Our first panel was moderated by **Sarah Yvonne Elsser** - who ended with a very
 
 **John Krafcik**, CEO of Waymo, spoke on his company’s ambitious plans for an autonomous and safer future; after that, **Jens Beckmann** of Microsoft and **Thomas Dahlemm** of Audi’s autonomous driving program talked about unusual collaboration models that are driving the automotive industry.
 
-In the meantime, the expo area inside the museum was flooded with curious attendees eager to test out new technology - some of it was mobility-related, some wasn’t, but all of the stands and experiments at the expo area were fascinating examples of innovative ideas “come to life”. Partners like **PwC, FutureCandy, Dronemasters, Goodpatch Athena, Ubilabs** and **Staud** - **Airways** brought their VR glasses, holograms and robots to the event.
+In the meantime, the expo area inside the museum was flooded with curious attendees eager to test out new technology. Partners like **PwC, FutureCandy, Dronemasters, Goodpatch Athena, Ubilabs** and **Staud** - **Airways** brought their VR glasses, holograms and robots to the event.
 
 ![](/uploads/2019/11/27/WMSBlogImage5.jpg)
 

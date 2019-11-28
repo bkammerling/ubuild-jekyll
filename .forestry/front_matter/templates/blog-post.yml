@@ -115,8 +115,8 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
-- _posts/2019-07-19-3-predictions-for-smart-cities.md
 - _posts/the-wunder-mobility-summit-2019.md
+- _posts/2019-07-19-3-predictions-for-smart-cities.md
 - _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
 - _posts/2019-10-17-great-potential-but-a-long-way-to-go.md
 - _posts/2019-10-17-insuring-the-future-of-mobility.md
