@@ -244,16 +244,12 @@ var form = {
     //console.log(contactForm.serialize());
     var data = form.serializeObject(contactForm);
     var label = form.conversionLabels[data.subject];
-    // add subject for summit related messages
-    if($(".modal-body #subject-field").length) {
-      var subject = 'WMS';
-      label = form.conversionLabels[subject];
-      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': subject, 'conversionLabel': label });
-      data.subject = $("form #subject-field").val();
-    } else {
-      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion"
-      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
-    }
+
+    /* WMS subject / conversion label stuff removed 02/12/19 - must add back with event forms */
+    
+    // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
+    dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
+
     if(localStorage.getItem('lastBlog')) {
       data.lastBlog = localStorage.getItem('lastBlog');
       data.lastBlogTime = localStorage.getItem('lastBlogTime');
