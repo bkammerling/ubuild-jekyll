@@ -20,13 +20,9 @@ hidden: false
 
 ---
 We hosted our first **Wunder Insights webinar!** 
-
+<p> </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-3H5Im-xH5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p> </p>
 **Melika Jahangiri**, VP of Business Development, and **Purnima Kumar**, Senior Key Accounts Manager, discussed how new mobility models can lead to new revenue sources for automotive companies, as well as how to ensure your company goes down the path to profitability. Melika gave a lot of great insights  based on her many years of experience within the mobility space. 
-
-<p> </p>
-
-<iframe width="560" height="315" src="[https://www.youtube.com/watch?v=-3H5Im-xH5c&feature=youtu.be](https://www.youtube.com/watch?v=-3H5Im-xH5c&feature=youtu.be "https://www.youtube.com/watch?v=-3H5Im-xH5c&feature=youtu.be")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p> </p>
 
 Thanks for watching!
