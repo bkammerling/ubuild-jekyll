@@ -6,9 +6,9 @@ tags:
 - video
 author: _people/pia-benthien.md
 cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_text: Our monthly Wunder Bar newsletter is full of updates, insights and exciting
+  content. Sign up to stay in the loop!
+cta_link: pages/newsletter-signup.md
 title: 'Wunder Insights: The Path to Profitability in New Mobility [Webinar]'
 publish_date: 2019-12-03 00:00:00 +0000
 featured_image: "/uploads/2019/12/03/WebinarStillBody.png"
