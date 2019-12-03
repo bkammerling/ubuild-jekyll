@@ -10,15 +10,15 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: 'Wunder Insights: The Path to Profitability in New Mobility [Webinar]'
-publish_date: 
-featured_image: ''
+publish_date: 2019-12-03 00:00:00 +0000
+featured_image: "/uploads/2019/12/03/WebinarStillBody.png"
 excerpt: ''
 share_image: ''
 sticky: false
 hidden: false
 
 ---
-We present our first Wunder Insights webinar! Melika Jahangiri, VP of Buisness Development, and Purnima Kumar, Senior Key Accounts Manager, discussed how new mobility models can lead to new revenue sources for more traditional automotive companies, as well as how to ensure your company goes down the path to profitability.  
+We hosted our first Wunder Insights webinar! Melika Jahangiri, VP of Buisness Development, and Purnima Kumar, Senior Key Accounts Manager, discussed how new mobility models can lead to new revenue sources for automotive companies, as well as how to ensure your company goes down the path to profitability. Melika gave a lot of great insights  based on her many years of experience within the mobility space. 
 
 <p> </p>
 
@@ -26,4 +26,4 @@ We present our first Wunder Insights webinar! Melika Jahangiri, VP of Buisness D
 
 <p> </p>
 
-Thanks for watching, and don't forget to check back frequently for the second Wunder Insights webinar!
+Thanks for watching!
