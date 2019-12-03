@@ -19,7 +19,7 @@ sticky: false
 hidden: false
 
 ---
-We hosted our first Wunder Insights webinar! 
+We hosted our first **Wunder Insights webinar!** 
 
 **Melika Jahangiri**, VP of Business Development, and **Purnima Kumar**, Senior Key Accounts Manager, discussed how new mobility models can lead to new revenue sources for automotive companies, as well as how to ensure your company goes down the path to profitability. Melika gave a lot of great insights  based on her many years of experience within the mobility space. 
 
