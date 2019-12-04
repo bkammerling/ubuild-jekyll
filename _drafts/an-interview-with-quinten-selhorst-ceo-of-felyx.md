@@ -18,7 +18,7 @@ sticky: false
 hidden: false
 
 ---
-We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me was how few cars I saw driving around downtown. In this city, two-wheeled vehicles rule the road. 
+We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road. 
 
 ![](/uploads/2019/12/04/felyxblog_bike.jpg)
 
@@ -92,8 +92,8 @@ We have our war stories, too. Felyx went live in the pilot phase. Since our team
 
 Doing it on paper is always different from real-life experience. We couldn’t have known how important that practical experience was without trying it out for ourselves!
 
-![](/uploads/2019/12/04/Felyxblog2_logo.jpg)
-
 **Thanks for having me, Quinten. We can’t wait to hear more from felyx in 2020.** 
 
 Thanks, Pia.
+
+![](/uploads/2019/12/04/Felyxblog2_logo.jpg)
