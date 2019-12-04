@@ -16,7 +16,7 @@ excerpt: We recently traveled to Amsterdam to interview the CEO of felyx, Quinte
   Selhorst.
 share_image: "/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
