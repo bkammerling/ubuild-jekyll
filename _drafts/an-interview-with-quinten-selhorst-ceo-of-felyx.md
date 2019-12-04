@@ -11,9 +11,10 @@ cta_text: Our all-in-one fleet sharing platform has everything you need to get y
 cta_link: pages/de/wunder-fleet.md
 title: An Interview with Quinten Selhorst, CEO of Felyx
 publish_date: 2019-12-04T20:00:00.000+00:00
-featured_image: ''
-excerpt: ''
-share_image: ''
+featured_image: "/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg"
+excerpt: We recently traveled to Amsterdam to interview the CEO of felyx, Quinten
+  Selhorst.
+share_image: "/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg"
 sticky: false
 hidden: false
 
