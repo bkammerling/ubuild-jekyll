@@ -95,4 +95,4 @@ Doing it on paper is always different from real-life experience. We couldn’t h
 
 Thanks, Pia.
 
-![](/uploads/2019/12/04/Felyxblog2_logo-1.jpg)
+![](/uploads/2019/12/04/logoFelyx2.jpg)
