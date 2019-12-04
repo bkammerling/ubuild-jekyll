@@ -48,7 +48,7 @@ From the beginning, we had a vision about how to build a company. The felyx team
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
-(photo of scooter)
+![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
 
 **What about the future - do you have any big plans coming up?** 
 
@@ -74,7 +74,7 @@ There are two reasons. The first one was that we saw that the Wunder Fleet syste
 
 The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. Wunder Fleet could easily incorporate into the platform. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
 
-(another website photo)
+![](/uploads/2019/12/04/felyxblogimagefounders.jpg)
 
 **Are there any moments you’ve lived during your journey with felyx that you’re particularly proud of?** 
 
@@ -91,6 +91,8 @@ About a month after launching felyx in Amsterdam, we got a series of photos sent
 We have our war stories, too. Felyx went live in the pilot phase. Since our team was quite small at the time, Maarten and I had to swap out all the batteries of our fleet at night. We were very busy running the business during the day, so that was really a crazy time for us. We slept maybe three hours a night for eight weeks straight. It was intense, but it also really taught us the importance of having practical experience. That helped us with understanding the logistics of launching a scooter sharing system.
 
 Doing it on paper is always different from real-life experience. We couldn’t have known how important that practical experience was without trying it out for ourselves!
+
+![](/uploads/2019/12/04/Felyxblog2_logo.jpg)
 
 **Thanks for having me, Quinten. We can’t wait to hear more from felyx in 2020.** 
 
