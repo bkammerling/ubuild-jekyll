@@ -21,7 +21,7 @@ hidden: false
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
 
-![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
+![](/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg)
 
 **Hi Quinten, thanks for having me. Let's start with the basics: What inspired felyx?**
 
@@ -31,7 +31,7 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took about 5 months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
-![](/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg)
+![](/uploads/2019/12/04/felyxblog_bike.jpg)
 
 **So when you guys started out, there were no other competitors doing what you did?**
 
@@ -49,7 +49,7 @@ From the beginning, we had a vision about how to build a company. The felyx team
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
-![](/uploads/2019/12/04/felyxblog_bike.jpg)
+![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
 
 **What about the future - do you have any big plans coming up?**
 
