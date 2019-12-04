@@ -4,7 +4,7 @@ category: Insights
 tags:
 - interview
 - client
-author: []
+author: _people/pia-benthien.md
 cta_heading: Find Out More About Wunder Fleet
 cta_text: Our all-in-one fleet sharing platform has everything you need to get your
   vehicle sharing company off the ground.
