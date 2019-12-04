@@ -31,7 +31,6 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took about 5 months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
-![](/uploads/2019/12/04/felyxblog_bike.jpg)
 
 **So when you guys started out, there were no other competitors doing what you did?**
 
@@ -43,13 +42,14 @@ At felyx, we’re very keen on and capable of optimizing collaborations with dif
 
 Secondly: it really all boils down to having the best unit economics. If we compare ourselves to others, it’s our quickness and the amount of scale - that is to say, how often each of our scooters is being used - and our business intelligence that really sets us apart. I think we’re doing an excellent job of distinguishing ourselves amongst competitors.
 
+![](/uploads/2019/12/04/felyxblog_bike.jpg)
+
 **So do I. Out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret?**
 
 From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
-![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
 
 **What about the future - do you have any big plans coming up?**
 
@@ -62,6 +62,8 @@ That question can really be broken down into two separate things. In terms of fe
 In terms of e-kickscooters vs. e-mopeds, I think that both vehicle types can live together in harmony. They fulfill a very different kind of demand for customers. What I see as being problematic currently, however, is that it’s very difficult to pinpoint who the last rider of a vehicle was. Kickscooters are very lightweight and not locked to anything, making it very hard for operators to know if the customer is responsible for any wrongdoing (like bad parking or damages) or if it’s the fault of somebody else. That contributes to the bad reputation kickscooters have.
 
 With mopeds, however, it’s actually more comparable to car sharing. When you see a moped parked somewhere, there’s a high degree of certainty that the last customer to ride the moped parked it there. Let’s be honest, it’s pretty hard for the average person to lift a 100-kilogram scooter on their own! Due to that fact, we’ve found that the parking behavior of our customers is actually better than people who park their own personal, gasoline scooters.
+
+![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
 
 **There’s also the fact that drivers licenses have to be verified - there’s a lot more responsibility (and pressure!) that goes along with that.**
 
