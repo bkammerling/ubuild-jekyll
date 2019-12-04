@@ -75,8 +75,6 @@ There are two reasons. The first one was that we saw that the Wunder Fleet syste
 
 The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. Wunder Fleet could easily incorporate into the platform. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
 
-![](/uploads/2019/12/04/felyxblogimagefounders.jpg)
-
 **Are there any moments you’ve lived during your journey with felyx that you’re particularly proud of?**
 
 Wow, there are so many things to mention! To be honest, we didn’t know that we had experienced the highest rate of growth in terms of rides taken on your platform - that’s definitely something to be very proud of!
