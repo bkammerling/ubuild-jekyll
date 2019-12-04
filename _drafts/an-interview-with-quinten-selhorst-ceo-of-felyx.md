@@ -20,6 +20,8 @@ hidden: false
 ---
 I recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me was how few cars I saw driving around downtown. In this city, cyclists rule the road. The occasional eco-taxi or delivery truck passed me by on my way to the felyx office, but it was the omnipresence of two-wheeled vehicles - bicycles and electric mopeds, which are legally allowed to drive in bike lanes - that reminded me that I am, without a doubt, in Holland.
 
+(Photo of Amsterdam & bikes)
+
 When I hear about how gas and diesel cars are going to be banned in Amsterdam completely by 2030, and the rest of the Benelux region seems likely to follow suit, I can’t help but think that felyx is selling the right service at the right time and in the right place.
 
 When I arrived at felyx’s office, a beautiful canal house located smack-dab in the middle of the city, I was greeted by Kasper, the COO, who excused the “chaos” (which was practically nonexistent - he was being very polite) by explaining that the company is moving to a different office that very week. The number of felyx team members has more than doubled in the past 12 months, and things were starting to get crowded. It was the first indication of a fast-growing company on the rise.
@@ -34,17 +36,17 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took about 5 months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
-#### **So when you guys started out, there were really no other competitors doing what you did in Amsterdam (or in the Benelux region?)**
+#### So when you guys started out, there were really no other competitors doing what you did in Amsterdam (or in the Benelux region?)
 
 Actually, around May 2016, we read about the first pilot in Europe, which had 36 scooters. We realized then that we aren’t the only people out there with this idea. At the same time, however, it meant that there was proof of market and that our concept was technically feasible. That was very important for the investors at that time, too. No one was sure if scooter sharing was really going to work.
 
-#### **How times have changed. With so many fish in the shared mobility sea, what makes felyx different from other e-moped sharing services across Europe?**
+#### How times have changed. With so many fish in the shared mobility sea, what makes felyx different from other e-moped sharing services across Europe?
 
 At felyx, we’re very keen on and capable of optimizing collaborations with different municipalities and local governments. That’s one of the reasons why we were granted vital permits and why we got the green light in some international cities. Municipalities are actually in favor of working with us, which gives us a competitive advantage.
 
 Secondly: it really all boils down to having the best unit economics. If we compare ourselves to others, it’s our quickness and the amount of scale - that is to say, how often each of our scooters is being used - and our business intelligence that really sets us apart. I think we’re doing an excellent job of distinguishing ourselves amongst competitors.
 
-**So do I. You managed to scale very quickly since the company’s founding a couple of years ago. In fact, out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret? How did you do it, and what were the biggest challenges you’ve had thus far?**
+#### So do I. You managed to scale very quickly since the company’s founding a couple of years ago. In fact, out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret? How did you do it, and what were the biggest challenges you’ve had thus far?
 
 From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year. 
 
