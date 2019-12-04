@@ -30,6 +30,8 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took about 5 months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
+(photo of Quinten)
+
 #### So when you guys started out, there were no other competitors doing what you did?
 
 Actually, around May 2016, we read about the first pilot in Europe, which had 36 scooters. We realized then that we aren’t the only people out there with this idea. At the same time, however, it meant that there was proof of market and that our concept was technically feasible. That was very important for the investors at that time, too. No one was sure if scooter sharing was really going to work.
@@ -45,6 +47,8 @@ Secondly: it really all boils down to having the best unit economics. If we comp
 From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
+
+(photo of scooter)
 
 #### What about the future - do you have any big plans coming up? 
 
@@ -69,6 +73,8 @@ Of course, safety is an issue as well. Moped drivers are higher off the ground a
 There are two reasons. The first one was that we saw that the Wunder Fleet system was very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
 
 The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. Wunder Fleet could easily incorporate into the platform. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
+
+(another website photo)
 
 #### Are there any moments you’ve lived during your journey with felyx that you’re particularly proud of? 
 
