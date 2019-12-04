@@ -18,11 +18,11 @@ sticky: false
 hidden: false
 
 ---
-I recently traveled to Amsterdan to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me is how few cars I saw driving around downtown. In this city, cyclists rule the road. The occasional eco-taxi or delivery truck passed me by on my way to the felyx office, but it was the omnipresence of two-wheeled vehicles - bicycles and electric mopeds, which are legally allowed to drive in bike lanes - that reminded me that I am, without a doubt, in Holland.
+I recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me was how few cars I saw driving around downtown. In this city, cyclists rule the road. The occasional eco-taxi or delivery truck passed me by on my way to the felyx office, but it was the omnipresence of two-wheeled vehicles - bicycles and electric mopeds, which are legally allowed to drive in bike lanes - that reminded me that I am, without a doubt, in Holland.
 
 When I hear about how gas and diesel cars are going to be banned in Amsterdam completely by 2030, and the rest of the Benelux region seems likely to follow suit, I can’t help but think that felyx is selling the right service at the right time and in the right place.
 
-When I arrived at felyx’s office, a beautiful Dutch canal house located smack-dab in the middle of the city, I was greeted by Kasper, the COO, who excused the “chaos” (which was practically nonexistent - he was being very polite) by explaining that the company is moving to a different office that very week. The number of felyx team members has more than doubled in the past 12 months, and things were starting to get crowded. It was the first indication of a fast-growing company on the rise.
+When I arrived at felyx’s office, a beautiful canal house located smack-dab in the middle of the city, I was greeted by Kasper, the COO, who excused the “chaos” (which was practically nonexistent - he was being very polite) by explaining that the company is moving to a different office that very week. The number of felyx team members has more than doubled in the past 12 months, and things were starting to get crowded. It was the first indication of a fast-growing company on the rise.
 
 I found a quiet room and sat down with Quinten to talk about his company success story.
 
