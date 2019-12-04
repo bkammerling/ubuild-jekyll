@@ -21,7 +21,7 @@ hidden: false
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
 
-![](/uploads/2019/12/04/felyxblog_bike.jpg)
+![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
 
 **Hi Quinten, thanks for having me. Let's start with the basics: What inspired felyx?**
 
@@ -49,7 +49,7 @@ From the beginning, we had a vision about how to build a company. The felyx team
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
-![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
+![](/uploads/2019/12/04/felyxblog_bike.jpg)
 
 **What about the future - do you have any big plans coming up?**
 
