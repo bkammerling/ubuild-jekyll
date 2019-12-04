@@ -10,7 +10,7 @@ cta_text: Our all-in-one fleet sharing platform has everything you need to get y
   vehicle sharing company off the ground.
 cta_link: pages/de/wunder-fleet.md
 title: An Interview with Quinten Selhorst, CEO of Felyx
-publish_date: 2019-12-04 20:00:00 +0000
+publish_date: 2019-12-04T20:00:00.000+00:00
 featured_image: ''
 excerpt: ''
 share_image: ''
@@ -18,17 +18,11 @@ sticky: false
 hidden: false
 
 ---
-I recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me was how few cars I saw driving around downtown. In this city, cyclists rule the road. The occasional eco-taxi or delivery truck passed me by on my way to the felyx office, but it was the omnipresence of two-wheeled vehicles - bicycles and electric mopeds, which are legally allowed to drive in bike lanes - that reminded me that I am, without a doubt, in Holland.
+We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When I showed up in the Dutch capital on a typically gray and drizzly morning, the first thing that struck me was how few cars I saw driving around downtown. In this city, two-wheeled vehicles rule the road. 
 
 (Photo of Amsterdam & bikes)
 
-When I hear about how gas and diesel cars are going to be banned in Amsterdam completely by 2030, and the rest of the Benelux region seems likely to follow suit, I can’t help but think that felyx is selling the right service at the right time and in the right place.
-
-When I arrived at felyx’s office, a beautiful canal house located smack-dab in the middle of the city, I was greeted by Kasper, the COO, who excused the “chaos” (which was practically nonexistent - he was being very polite) by explaining that the company is moving to a different office that very week. The number of felyx team members has more than doubled in the past 12 months, and things were starting to get crowded. It was the first indication of a fast-growing company on the rise.
-
-I found a quiet room and sat down with Quinten to talk about his company success story.
-
-#### Hi Quinten, thanks for having me. How about we start with the basics: tell me a bit about felyx. What inspired the company? What’s your story?
+#### Hi Quinten, thanks for having me. Let's start with the basics: What inspired felyx?
 
 The idea of felyx was initiated in late December 2015. The other cofounder, Maarten, and I were working as consultants at the time. In our private and professional lives, we were using car sharing services a lot - not just in Amsterdam, but in our travels, too. When we used car sharing in Holland, we kept asking ourselves the same question: why aren’t there any electric _scooter_ sharing systems around yet?
 
@@ -36,7 +30,7 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took about 5 months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
-#### So when you guys started out, there were really no other competitors doing what you did in Amsterdam (or in the Benelux region?)
+#### So when you guys started out, there were no other competitors doing what you did?
 
 Actually, around May 2016, we read about the first pilot in Europe, which had 36 scooters. We realized then that we aren’t the only people out there with this idea. At the same time, however, it meant that there was proof of market and that our concept was technically feasible. That was very important for the investors at that time, too. No one was sure if scooter sharing was really going to work.
 
@@ -46,23 +40,17 @@ At felyx, we’re very keen on and capable of optimizing collaborations with dif
 
 Secondly: it really all boils down to having the best unit economics. If we compare ourselves to others, it’s our quickness and the amount of scale - that is to say, how often each of our scooters is being used - and our business intelligence that really sets us apart. I think we’re doing an excellent job of distinguishing ourselves amongst competitors.
 
-#### So do I. You managed to scale very quickly since the company’s founding a couple of years ago. In fact, out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret? How did you do it, and what were the biggest challenges you’ve had thus far?
+#### So do I. Out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret? 
 
-From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year. 
+From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.
 
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed let us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
-#### So it’s really all about being able to understand the market that you’re entering.
-
-Oh yeah - particularly if growth is what you’re after.
-
-#### What about the future? Do you have any big plans coming up? I know you’re moving offices this week because you’re quite literally running out of space - are you scaling up your team and your fleet?
+#### What about the future - do you have any big plans coming up? 
 
 In 2019, we tripled the size of our fleet. We doubled the amount of cities we’re active in and entered our first international city. We grew from 20 to 70 team members, and we know we’re set to continue to grow next year as well. You can definitely expect big things from us in 2020. Of course, on the one hand, we’d really like to focus on retaining our competitive edge in the Dutch market, but from a VC perspective, we know we need to launch international cities as well - stay tuned to see what happens in the months to come!
 
-#### Another light electric vehicle that’s quite a hot topic right now in Germany are (e-)kickscooters. They’ve only been legal for one year, but they already have many passionate fans - and have generated a lot of negative press. 
-
-#### Do you understand the hype, or do you think e-mopeds can succeed where kickscooters might fail?
+#### E-kickscooters are generating both positive and negative press right now. Do you understand the hype, or do you think e-mopeds can succeed where kickscooters might fail?
 
 That question can really be broken down into two separate things. In terms of felyx’s vision for the future, we believe it’s necessary to change the way we use mobility. As a society, we need to stop wanting to own vehicles ourselves - cars, bikes and e-scooters - and start working with sharing systems, transitioning away from private ownership.
 
@@ -76,13 +64,13 @@ Exactly. There’s also the sustainability question. I’m very much in favor of
 
 Of course, safety is an issue as well. Moped drivers are higher off the ground and have to wear helmets, the latter of which scooter riders don’t have to do (but probably should).
 
-#### Let’s talk about felyx and Wunder. What made felyx decide to choose Wunder Mobility as their software provider? Was there a specific reason? I know we partnered with felyx way back when Wunder Fleet was still called Fleetbird.
+#### Let’s talk about felyx and Wunder. What made felyx decide to choose Wunder Mobility as their software provider? 
 
-There are two reasons. The first one was that we saw that the Fleetbird system was very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
+There are two reasons. The first one was that we saw that the Wunder Fleet system was very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
 
 The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. Wunder Fleet could easily incorporate into the platform. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
 
-#### Are there any moments you’ve lived during the felyx journey that you’re particularly proud of? Any times when you thought, "I’m really happy with the way this company has turned out?"
+#### Are there any moments you’ve lived during your journey with felyx that you’re particularly proud of? 
 
 Wow, there are so many things to mention! To be honest, we didn’t know that we had experienced the highest rate of growth in terms of rides taken on your platform - that’s definitely something to be very proud of!
 
@@ -98,6 +86,6 @@ We have our war stories, too. Felyx went live in the pilot phase. Since our team
 
 Doing it on paper is always different from real-life experience. We couldn’t have known how important that practical experience was without trying it out for ourselves!
 
-#### Thanks for having me, Quinten. We can’t wait to hear more from felyx in 2020. Until then: good luck with moving day.
+#### Thanks for having me, Quinten. We can’t wait to hear more from felyx in 2020. 
 
 Thanks, Pia.
