@@ -115,7 +115,6 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
-- _posts/an-interview-with-quinten-selhorst-ceo-of-felyx.md
 - _posts/2019-11-28-the-wunder-mobility-summit-2019.md
 - _posts/2019-07-19-3-predictions-for-smart-cities.md
 - _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
