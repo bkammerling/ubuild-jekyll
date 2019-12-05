@@ -11,17 +11,17 @@ cta_text: Our all-in-one fleet sharing platform has everything you need to get y
 cta_link: pages/de/wunder-fleet.md
 title: An Interview with Quinten Selhorst, CEO of felyx
 publish_date: 2019-12-04T20:00:00.000+00:00
-featured_image: "/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg"
+featured_image: "/uploads/2019/12/05/AnInterviewWithQuinten-1.jpg"
 excerpt: We recently traveled to Amsterdam to interview the CEO of felyx, Quinten
   Selhorst.
-share_image: "/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg"
+share_image: "/uploads/2019/12/05/AnInterviewWithQuinten.jpg"
 sticky: false
 hidden: true
 
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
 
-![](/uploads/2019/12/04/AnInterviewWithQuinten-2.jpg)
+![](/uploads/2019/12/05/AnInterviewWithQuinten.jpg)
 
 **Hi Quinten, thanks for having me. Let's start with the basics: What inspired felyx?**
 
