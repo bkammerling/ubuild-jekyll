@@ -51,176 +51,163 @@
                 </div>
               </div>
             </div>
-            <div class="form-group">
+
+            <div class="form-group hidden">
               <div class="select-wrapper">
                 <select name="subject" class="form-control select2-init" style="width:100%" id="subject-field" required>
                   <option disabled selected>Assento *</option>
-                  <option value="Wunder Carpool" data-id="carpool">Wunder Carpool</option>
-                  <option value="Wunder Shuttle" data-id="shuttle">Wunder Shuttle</option>
-                  <option value="Wunder Fleet" data-id="fleet">Wunder Fleet</option>
-                  <option value="Wunder City" data-id="city">Wunder City</option>
-                  <option value="Wunder Park" data-id="park">Wunder Park</option>
-                  <option value="Wunder Rent" data-id="rent">Wunder Rent</option>
-                  <option value="General enquiry" data-id="general">Consulta general</option>
+                  <option value="Wunder Fleet" data-id="fleet" {% if page.lang-ref == 'fleet' %}selected{% endif %}>Wunder Fleet</option>
+                  <option value="Wunder Rent" data-id="rent" {% if page.lang-ref == 'rent' %}selected{% endif %}>Wunder Rent</option>
+                  <option value="Wunder Shuttle" data-id="shuttle" {% if page.lang-ref == 'shuttle' %}selected{% endif %}>Wunder Shuttle</option>
+                  <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
+                  <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
+                  <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
+                  <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' %}selected{% endif %}>Wunder Vehicles</option>
+                  <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>Consulta general</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>
             </div>
-            <div class="hidden extra-form">
-              <div class="form-group shuttle fleet park rent">
-                <label class="form-label" for="url">Url de la empresa</label>
-                <input type="text" name="url" id="url"></input>
+
+            <div class="form-group shuttle fleet park rent">
+              <label class="form-label" for="url">Url de la empresa</label>
+              <input type="text" name="url" id="url"></input>
+              <div class="bottom-border"></div>
+            </div>
+
+            {% if page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
+            <div class="form-group">
+              <div class="select-wrapper">
+                <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
+                  <option disabled selected>Tipo de empresa *</option>
+                  <option value="Operating start-up">Empresa emergente operativa</option>
+                  <option value="Non operating start-up">Empresa emergente no operativa</option>
+                  <option value="OEM">Fabricante de equipos originales</option>
+                  <option value="Corporate">Corporativo</option>
+                  <option value="Public services">Servicios públicos</option>
+                  <option value="City / Government">Ciudad / Gobierno</option>
+                  <option value="Other">Otro</option>
+                </select>
                 <div class="bottom-border"></div>
-              </div>
-              <div class="form-group shuttle fleet">
-                <div class="select-wrapper">
-                  <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
-                    <option disabled selected>Tipo de empresa *</option>
-                    <option value="Operating start-up">Empresa emergente operativa</option>
-                    <option value="Non operating start-up">Empresa emergente no operativa</option>
-                    <option value="OEM">Fabricante de equipos originales</option>
-                    <option value="Corporate">Corporativo</option>
-                    <option value="Public services">Servicios públicos</option>
-                    <option value="City / Government">Ciudad / Gobierno</option>
-                    <option value="Other">Otro</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group fleet">
-                <div class="select-wrapper">
-                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
-                    <option disabled selected>¿Qué está buscando? *</option>
-                    <option value="Full-package vehicle sharing solution">Paquete completo de vehículo compartido</option>
-                    <option value="Software only">Solo software</option>
-                    <option value="Hardware only (vehicles and/or IoT devices)">Solo hardware (vehículos y/o dispositivos idc)</option>
-                    <option value="Other / Not sure">Otro / no estoy seguro</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group rent">
-                <div class="select-wrapper multiple">
-                  <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>¿Qué le gustaría lograr con Wunder Rent? *</option>
-                    <option value="Counterless Station-based Vehicle Rental">Alquiler de vehículos sin mostrador</option>
-                    <option value="Free-floating Vehicle Rental">Alquiler de vehículos de circulación libre</option>
-                    <option value="Peer to Peer Vehicle Rental">Alquiler de vehículos de punto a punto</option>
-                    <option value="I only want an online booking system">Solo quiero un sistema de reserva en línea</option>
-                    <option value="Traditional Vehicle Rental (fully offline)">Alquiler tradicional de vehículos (completamente fuera de línea)</option>
-                    <option value="Other">Otro</option>
-                  </select>
-                  <label for="tech-interest[]" class="w-100">
-                    ¿Qué le gustaría lograr con Wunder Rent? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group rent fleet">
-                <div class="select-wrapper multiple">
-                  <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>¿Qué vehículos le gustaría ofrecer? *</option>
-                    <option value="Cars">Coches</option>
-                    <option value="Bikes">Bicis</option>
-                    <option value="Mopeds">Ciclomotores</option>
-                    <option value="Kick-scooters">Patinetes</option>
-                    <option value="Motorcycles">Motos</option>
-                    <option value="Trucks">Camiones</option>
-                    <option value="Vans">Furgonetas</option>
-                    <option value="Boats">Barcos</option>
-                    <option value="Other">Otro</option>
-                  </select>
-                  <label for="vehicle-interest[]" class="w-100">
-                    ¿Qué vehículos le gustaría ofrecer? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group rent fleet">
-                <div class="select-wrapper">
-                  <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
-                    {% if page.lang-ref == 'rent' %}
-                      <option disabled selected>¿Cuántos vehículos tienes ya? *</option>
-                      <option>0</option>
-                      <option>1-50</option>
-                      <option>51-150</option>
-                      <option>150+</option>
-                    {% endif %}
-                    {% if page.lang-ref == 'fleet' or page.lang-ref == 'wunderfleet' %}
-                      <option disabled selected>¿Cuántos vehículos le gustaría ofrecer? *</option>
-                      <option>1-100</option>
-                      <option>101-500</option>
-                      <option>500+</option>
-                    {% endif %}
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group fleet shuttle">
-                <div class="select-wrapper">
-                  <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
-                    <option disabled selected>¿Cuándo le gustaría hacer el lanzamiento? *</option>
-                    <option value="ASAP">Lo antes posible</option>
-                    <option value="2-6 months">2-6 meses</option>
-                    <option value=">6 months">Más de 6 meses</option>
-                    <option value="Not sure">No estoy seguro</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group fleet shuttle">
-                <div class="select-wrapper">
-                  <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
-                    <option disabled selected>¿Cuál es el estado de financiación de su proyecto? *</option>
-                    <option value="Corporate funded">Financiación corporativa</option>
-                    <option value="Venture funded">Financiación por venture</option>
-                    <option value="Personally funded">Financiación personal</option>
-                    <option value="Not yet funded">No financiado todavía /otros</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group shuttle">
-                <div class="select-wrapper">
-                  <select name="existing-shuttle-vehicles" class="form-control select2-init" style="width:100%" id="existing-shuttle-vehicles" required=true>
-                    <option disabled selected>Do you currently have an existing fleet of vehicles? *</option>
-                    <option value=">100">Yes, 100+ vehicles</option>
-                    <option value="21-100">Yes, 21-100 vehicles</option>
-                    <option value="1-20">Yes, 1-20 vehicles</option>
-                    <option value="0">No</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group shuttle">
-                <div class="select-wrapper multiple">
-                  <select name="shutte-interest[]" class="form-control select2-init" style="width: 100%" id="shuttle-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What's the reason(s) you're interested in a shuttle service? *</option>
-                    <option>Scale a new transportation service</option>
-                    <option>Optimise employee transportation</option>
-                    <option>Save parking spaces</option>
-                    <option>To lower CO<sub>2</sub> emissions & support decongestion</option>
-                    <option>Other</option>
-                  </select>
-                  <label for="shuttle-interest[]" class="w-100">
-                    What's the reason(s) you're interested a shuttle service? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group general fleet shuttle carpool city park rent">
-                <label class="form-label" for="message">Mensaje {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
-                <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
-                <div class="bottom-border"></div>
-              </div>
-              <div class="form-group support">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <p>Unfortunately, we can't offer support for Wunder carpool app here. Please go to our dedicated help area at <a target="_blank" href="https://help.wunder.org">help.wunder.org</a>.</p>
-                  </div>
-                </div>
               </div>
             </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'fleet' %}
+            <div class="form-group fleet">
+              <div class="select-wrapper">
+                <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
+                  <option disabled selected>¿Qué está buscando? *</option>
+                  <option value="Full-package vehicle sharing solution">Paquete completo de vehículo compartido</option>
+                  <option value="Software only">Solo software</option>
+                  <option value="Hardware only (vehicles and/or IoT devices)">Solo hardware (vehículos y/o dispositivos idc)</option>
+                  <option value="Other / Not sure">Otro / no estoy seguro</option>
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'rent' %}
+            <div class="form-group rent">
+              <div class="select-wrapper multiple">
+                <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
+                  <option disabled>¿Qué le gustaría lograr con Wunder Rent? *</option>
+                  <option value="Counterless Station-based Vehicle Rental">Alquiler de vehículos sin mostrador</option>
+                  <option value="Free-floating Vehicle Rental">Alquiler de vehículos de circulación libre</option>
+                  <option value="Peer to Peer Vehicle Rental">Alquiler de vehículos de punto a punto</option>
+                  <option value="I only want an online booking system">Solo quiero un sistema de reserva en línea</option>
+                  <option value="Traditional Vehicle Rental (fully offline)">Alquiler tradicional de vehículos (completamente fuera de línea)</option>
+                  <option value="Other">Otro</option>
+                </select>
+                <label for="tech-interest[]" class="w-100">
+                  ¿Qué le gustaría lograr con Wunder Rent? *
+                </label>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' %}
+            <div class="form-group rent fleet">
+              <div class="select-wrapper multiple">
+                <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
+                  <option disabled>¿Qué vehículos le gustaría ofrecer? *</option>
+                  <option value="Cars">Coches</option>
+                  <option value="Bikes">Bicis</option>
+                  <option value="Mopeds">Ciclomotores</option>
+                  <option value="Kick-scooters">Patinetes</option>
+                  <option value="Motorcycles">Motos</option>
+                  <option value="Trucks">Camiones</option>
+                  <option value="Vans">Furgonetas</option>
+                  <option value="Boats">Barcos</option>
+                  <option value="Other">Otro</option>
+                </select>
+                <label for="vehicle-interest[]" class="w-100">
+                  ¿Qué vehículos le gustaría ofrecer? *
+                </label>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' %}
+            <div class="form-group rent fleet">
+              <div class="select-wrapper">
+                <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
+                  {% if page.lang-ref == 'rent' %}
+                    <option disabled selected>¿Cuántos vehículos tienes ya? *</option>
+                    <option>0</option>
+                    <option>1-50</option>
+                    <option>51-150</option>
+                    <option>150+</option>
+                  {% endif %}
+                  {% if page.lang-ref == 'fleet' %}
+                    <option disabled selected>¿Cuántos vehículos le gustaría ofrecer? *</option>
+                    <option value="1-50 F">1-50</option>
+                    <option>51-100</option>
+                    <option>101-500</option>
+                    <option>500+</option>
+                  {% endif %}
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'fleet' %}
+            <div class="form-group fleet shuttle">
+              <div class="select-wrapper">
+                <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
+                  <option disabled selected>¿Cuándo le gustaría hacer el lanzamiento? *</option>
+                  <option value="ASAP">Lo antes posible</option>
+                  <option value="2-6 months">2-6 meses</option>
+                  <option value=">6 months">Más de 6 meses</option>
+                  <option value="Not sure">No estoy seguro</option>
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            <div class="form-group fleet shuttle">
+              <div class="select-wrapper">
+                <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
+                  <option disabled selected>¿Cuál es el estado de financiación de su proyecto? *</option>
+                  <option value="Corporate funded">Financiación corporativa</option>
+                  <option value="Venture funded">Financiación por venture</option>
+                  <option value="Personally funded">Financiación personal</option>
+                  <option value="Not yet funded">No financiado todavía /otros</option>
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            <div class="form-group">
+              <label class="form-label" for="message">Mensaje {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
+              <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
+              <div class="bottom-border"></div>
+            </div>
+
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             <button id="form-submit" class="dark round-cta" onclick="formSubmit(event)">
               Enviar
