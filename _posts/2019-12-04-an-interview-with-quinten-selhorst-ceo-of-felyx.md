@@ -45,7 +45,9 @@ Secondly: it really all boils down to having the best unit economics. If we comp
 
 **Out of all of Wunder Mobility’s clients, felyx has seen the highest growth in terms of rides taken on our platform! What’s your secret?**
 
-From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.  
+From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.
+
+  
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty, allowed us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
 **What about the future - do you have any big plans coming up?**
