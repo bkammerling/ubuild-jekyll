@@ -74,7 +74,7 @@ Of course, safety is an issue as well. Moped drivers are higher off the ground a
 
 There are two reasons. The first one was that we saw that the Wunder Fleet system is very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
 
-The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
+The second reason is the flexibility. We have a lot of requests that can easily be incorporated into the platform by Wunder Fleet. This close collaboration is also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
 
 **Are there any moments you’ve lived during your journey with felyx that you’re particularly proud of?**
 
