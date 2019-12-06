@@ -60,7 +60,7 @@ That question can really be broken down into two separate things. In terms of fe
 
 In terms of e-kickscooters vs. e-mopeds, I think that both vehicle types can live together in harmony. They fulfill a very different kind of demand for customers. What I see as being problematic currently, however, is that it’s very difficult to pinpoint who the last rider of a vehicle was. Kickscooters are very lightweight and not locked to anything, making it very hard for operators to know if the customer is responsible for any wrongdoing (like bad parking or damages) or if it’s the fault of somebody else - that contributes to the bad reputation kickscooters have.
 
-With mopeds, however, it’s actually more comparable to car sharing. When you see a moped parked somewhere, there’s a high degree of certainty that the last customer to ride the moped parked it there. Let’s be honest, it’s pretty hard for the average person to lift a 100-kilogram scooter on their own! Due to that fact, we’ve found that the parking behavior of our customers is actually better than people who park their own personal, gasoline scooters.
+With mopeds, however, it’s actually more comparable to car sharing. When you see a moped parked somewhere, there’s a high degree of certainty that the last customer who rode the moped parked it there. Let’s be honest, it’s pretty hard for the average person to lift a 100-kilogram scooter on their own! Due to that fact, we’ve found that the parking behavior of our customers is actually better than people who park their own personal, gasoline scooters.
 
 ![](/uploads/2019/12/06/felyxscooterblognew.jpg)
 
