@@ -62,18 +62,17 @@ fields:
   - custom-block
   - columns
 pages:
-- pages/fleet.md
-- pages/carpool.md
-- pages/hardware.md
-- pages/startup-stage.md
-- pages/summit18.md
-- pages/home.md
-- pages/autotech.md
 - pages/park.md
-- pages/summit.md
-- pages/careers/jobs.md
+- pages/hardware.md
+- pages/fleet.md
 - pages/careers/culture.md
-- pages/careers/locations.md
 - pages/careers/perks.md
 - pages/careers/careers.md
+- pages/startup-stage.md
 - pages/terms.md
+- pages/autotech.md
+- pages/carpool.md
+- pages/careers/jobs.md
+- pages/careers/locations.md
+- pages/summit.md
+- pages/home.md
