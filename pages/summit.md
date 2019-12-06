@@ -13,7 +13,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Thanks for joining the conversation!
+  headline: Join the<strong> brightest minds in mobility</strong>
   cta:
     button_text: ''
     url: "#"
@@ -40,11 +40,10 @@ page_sections:
               <div class="row">
                 <div class="col-2">
                   <div class="scroller-list">
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-summit-intro">Intro</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-agenda">Agenda</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-summit-detail">Intro</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#main-video">Summit Film</a>
                     <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Speakers</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-supporters">Partnerships</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-energetic">WMS18</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-energetic">Past Summits</a>
                   </div>
                 </div>
               </div>
@@ -55,41 +54,12 @@ page_sections:
       </div>
 
       <div class="summit-main-wrapper">
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="important-numbers__stats up-top" id="section-summit-intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-2 mt-2">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">350+<small>Hand-selected attendees</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">230+<small>Companies</small></div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="important-numbers__stat-wrapper">
-                  <div class="important-numbers__stat">25+<small>Speakers</small></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  name: numbers
 - template: block-from-right
   block: wide-from-right
   col_1:
     headline: Wunder Mobility Summit...
-    content: "<strong>...the unique conference and innovation festival on the future
-      of mobility in Hamburg, Germany.</strong>"
+    content: "<strong>...the yearly conference and innovation festival on the future
+      of mobility.</strong>"
   col_2:
     headline: ''
     content: The Wunder Mobility Summit exclusively brings together the brightest
@@ -103,227 +73,13 @@ page_sections:
   unique_id: summit-detail
 - template: custom-content
   block: custom-html
-  content: |-
-    <div class="container" id="section-agenda">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2">
-          <section>
-            <h2 class="page-heading mb-2">Agenda</h2>
-            <h2 class="text-grey2 mb-1 p-0" style="font-weight:400" >One and a half days of thrilling content</h2>
-            <p class="lead">Click <strong><a class="text-blue" target="_blank" href="/uploads/WMS-Agenda.pdf">here</a></strong> to check out the agenda.</p>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: Agenda block
-- template: speakers
-  heading: Speaker Line-up 2019
-  sub-heading: Leaders & Innovators From Around the World
-  block: speaker-cards
-  speakers:
-  - name: Peter Tschentscher
-    job_title: Mayor of Hamburg
-    company: City of Hamburg
-    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
-    company_logo: "/uploads/2019/05/10/logo-hh.png"
-    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
-    bio: ''
-  - name: John Krafcik
-    job_title: CEO
-    company: Waymo
-    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
-    company_logo: "/uploads/2019/05/10/logo-waymo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
-  - name: Tatiana Calderon
-    job_title: Test Driver
-    company: Alfa Romeo Formula One
-    speaker_photo: "/uploads/2019/10/14/Tatiana.jpg"
-    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/tatacalderon7/
-  - name: Gunnar Froh
-    job_title: CEO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/gunnarfroh/
-  - name: Alexander Marten
-    job_title: Chief Innovation Evangelist
-    company: Deutsche Telekom
-    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
-    company_logo: "/uploads/2019/05/10/logo-telekom.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/alexandermarten/
-  - name: Sarah Yvonne Elsser
-    job_title: Editorial Host
-    company: ''
-    speaker_photo: "/uploads/2019/10/14/sara.jpeg"
-    company_logo: ''
-    bio: ''
-    linkedin: https://www.linkedin.com/in/sarah-yvonne-elsser/
-  - name: Alexander Hitzinger
-    job_title: Senior Vice President Autonomous Driving
-    company: VW Group
-    speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
-    company_logo: "/uploads/2019/06/13/Volkswagen.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
-  - name: Eckart Diepenhorst
-    job_title: CEO Europe
-    company: FREENOW
-    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
-    company_logo: "/uploads/global/Freenow-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
-  - name: Horace Dediu
-    job_title: Co-Founder
-    company: Micromobility Industries
-    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
-    company_logo: "/uploads/2019/05/10/logo-mm.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/dediu/
-  - name: Paulin Dementhon
-    job_title: CEO
-    company: Drivy by Getaround
-    speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
-    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/paulin/
-  - name: Paul-Eric Perchaud
-    job_title: Director of Operations Germany
-    company: Unibail-Rodamco-Westfield
-    speaker_photo: "/uploads/2019/10/14/Paul.jpeg"
-    company_logo: "/uploads/2019/10/14/Logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/company/unibail-rodamco-westfield/
-  - name: Sigrid Dalberg-Krajewski
-    job_title: Head of Marketing & Communications
-    company: Trafi
-    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
-    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
-  - name: Andrea Kollmorgen
-    job_title: VP Connected eMobility
-    company: Siemens
-    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
-    linkedin: https://www.linkedin.com/in/akollmorgen/
-    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
-    bio: ''
-  - name: Ben Volkow
-    job_title: CEO and Founder
-    company: Otonomo
-    speaker_photo: "/uploads/2019/08/30/Ben-Volkow.png"
-    company_logo: "/uploads/2019/08/30/Otonomo-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/benvolkow/
-  - name: Michel Stumpe
-    job_title: CEO
-    company: FREE2MOVE
-    speaker_photo: "/uploads/2019/05/10/Michel-Stumpe.png"
-    company_logo: "/uploads/2019/05/10/logo-free2move.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/michel-stumpe-62872912/
-  - name: Sam Baker
-    job_title: COO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/06/13/Sam Baker.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/samuelrossbaker/
-  - name: Martin Hoff
-    job_title: Head of Market Management & Innovation
-    company: Automotive, Allianz Partners
-    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
-    company_logo: "/uploads/global/allianz-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/hoffmartin/
-  - name: Anna-Charlotte Fleischmann-Kopatsch
-    job_title: Senior Consultant
-    company: MHP
-    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
-    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
-  - name: Thomas Eilrich
-    job_title: Editor-in-Chief Publishing/Management
-    company: JDB Media
-    speaker_photo: "/uploads/2019/10/14/Thomas.jpeg"
-    company_logo: ''
-    bio: ''
-    linkedin: https://www.linkedin.com/in/thomas-eilrich-283b1062/detail/photo/
-  - name: Vikram Chopra
-    job_title: CEO and Co-Founder
-    company: CARS24
-    speaker_photo: "/uploads/2019/05/10/vikra-chopra.png"
-    company_logo: "/uploads/2019/05/10/logo-cars24.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/vikram6/
-  - name: Jonas Seyfferth
-    job_title: Principal
-    company: Strategy&
-    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
-    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
-  - name: Patrick Haller
-    job_title: Industry Manager
-    company: Google
-    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
-    company_logo: "/uploads/2019/08/15/google-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/phaller/
-  - job_title: Co-Founder
-    company: emmy
-    speaker_photo: "/uploads/2019/10/25/valerian_seither.jpg"
-    company_logo: "/uploads/2019/02/19/emmy logo.png"
-    linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
-    name: Valerian Seither
-    bio: ''
-  - name: "Iona\tFreise"
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/09/02/Iona-Freise.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/ioana-freise-04436a59/
-    job_title: GM Wunder City
-  - job_title: COO
-    company: felyx
-    speaker_photo: "/uploads/2019/10/28/Kasper.jpg"
-    company_logo: "/uploads/2019/10/25/felyx.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/kasperzwetsloot/
-    name: Kasper Zwetsloot
-  - name: Thomas Dahlem
-    job_title: Director Development Autonomous Driving
-    company: Audi
-    speaker_photo: "/uploads/2019/10/25/Thomas-1.jpg"
-    company_logo: "/uploads/global/audi-rings.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
-  - name: Daniel Avdagic
-    job_title: CEO
-    company: AV Living Lab
-    speaker_photo: "/uploads/2019/10/25/Daniel.jpg"
-    company_logo: "/uploads/2019/10/25/AV Living Lab.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/daniel-avdagic/
-  - name: Philipp Wenger
-    job_title: GM Wunder Carpool
-    company: Wunder Mobility
-    company_logo: "/uploads/global/wundermobility-black.svg"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/philippwenger/
-    speaker_photo: "/uploads/2019/10/25/Philipp-1.jpg"
-  - name: Robert Lokner
-    job_title: Industry Solution Manager Automotive/EMEA
-    company: Microsoft
-    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
-    company_logo: "/uploads/global/microsoft-logo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/robert-lokner/
+  name: Break
+  content: <br><br>
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: WMS19 Aftermovie
 - template: icon-heading-cards
   block: icon-heading-grid
   heading: Topics
@@ -352,8 +108,83 @@ page_sections:
     icon: "/uploads/2019/05/13/helicopter.svg"
     link: ''
     content: ''
-  sub-heading: The future is now! Let's see what will bring in the next phase of the
+  sub-heading: The future is now! Let's explore what will bring in the next phase of the
     mobility revolution.
+- template: speakers
+  heading: Previous Speakers
+  sub-heading: Leaders & Innovators From Mobility Around the World
+  block: speaker-cards
+  speakers:
+  - name: John Krafcik
+    job_title: CEO
+    company: Waymo
+    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
+    company_logo: "/uploads/2019/05/10/logo-waymo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
+  - name: Eckart Diepenhorst
+    job_title: CEO Europe
+    company: FREENOW
+    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
+    company_logo: "/uploads/global/Freenow-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
+  - name: Sigrid Dalberg-Krajewski
+    job_title: Head of Marketing & Communications
+    company: Trafi
+    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
+    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+  - name: Paulin Dementhon
+    job_title: CEO
+    company: Drivy by Getaround
+    speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
+    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/paulin/
+  - name: Andrea Kollmorgen
+    job_title: VP Connected eMobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
+    bio: ''
+  - name: Patrick Haller
+    job_title: Industry Manager
+    company: Google
+    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
+    company_logo: "/uploads/2019/08/15/google-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/phaller/
+  - name: Alexander Marten
+    job_title: Chief Innovation Evangelist
+    company: Deutsche Telekom
+    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
+    company_logo: "/uploads/2019/05/10/logo-telekom.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/alexandermarten/
+  - job_title: Co-Founder
+    company: emmy
+    speaker_photo: "/uploads/2019/10/25/valerian_seither.jpg"
+    company_logo: "/uploads/2019/02/19/emmy logo.png"
+    linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
+    name: Valerian Seither
+    bio: ''
+  - name: Thomas Dahlem
+    job_title: Director Development Autonomous Driving
+    company: Audi
+    speaker_photo: "/uploads/2019/10/25/Thomas-1.jpg"
+    company_logo: "/uploads/global/audi-rings.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
+  - name: Robert Lokner
+    job_title: Industry Solution Manager Automotive/EMEA
+    company: Microsoft
+    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
+    company_logo: "/uploads/global/microsoft-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/robert-lokner/
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -400,8 +231,7 @@ page_sections:
     show_meetups: false
   - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
     title: Startup Stage Battle
-    content: Four selected startups share their groundbreaking visions. <a class="text-blue"
-      href="/summit/startup-stage">Find out more</a>
+    content: Four selected startups share their groundbreaking visions.
     icon: ''
     sub_title: ''
     show_meetups: false
@@ -414,139 +244,6 @@ page_sections:
   column_count: 4
   sub-heading: From testing out the latest in micro-mobiltiy to unforgettable parties,
     WMS is more than just a conference!
-- template: custom-content
-  block: custom-html
-  content: |-
-    <div class="container mt-5">
-      <div class="row align-items-center">
-        <div class="col-lg-10 offset-lg-2 mt-5">
-          <section id="section-supporters">
-            <h2 class="page-heading mb-4">Sponsored by...</h2>
-            <div class="row align-items-center">
-              <div class="col-lg-4 offset-lg-2">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.microsoft.com/de-de">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/microsoft-logo.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.free-now.com/">
-                    <img class="" style="width: 190px; max-width:90%;" data-src="uploads/global/Freenow-logo.png">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-4 ">
-                <div class="partner-box ">
-                  <!--<h3 class="mb-4">Bronze <br>Sponsor</h3>-->
-                  <a target="_blank" href="https://about.google/intl/en/">
-                    <img class="" style="width: 150px; max-width: 95%;" data-src="uploads/global/googlelogo.svg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                <!--<h3 class="mb-4">Conference Supporter</h3>-->
-                  <a target="_blank" href="https://www.allianz-partners.com/en_US/products-and-solutions/automotive.html">
-                    <img class="" style="width:100%;" data-src="uploads/global/allianz-logo.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.pwc.de/">
-                    <img class="" style="width: 120px;" data-src="uploads/2019/07/03/pwc.png"">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center mt-2">
-              <div class="col-lg-4 ">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.audi.de">
-                    <img class="" style="width: 110px; max-width: 90%;" data-src="uploads/global/audi-rings.svg"><br>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://driveathena.com/carvr/">
-                    <img class="" style="width: 180px; max-width: 90%;" data-src="uploads/global/athena.png">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.mhp.com/de/home/">
-                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/mhp_porsche.jpg">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center mt-2">
-              <div class="col-lg-4 offset-lg-2">
-                <div class="partner-box">
-                  <a target="_blank" href="https://moia.io/">
-                    <img class="" style="width: 130px; max-width: 90%;" data-src="uploads/global/moia-logo.png" data-srcset="uploads/global/moia-logo@2x.png 2x" ><br>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href=" https://www.continental.com/en">
-                    <img class="" style="width: 170px; max-width: 90%;" data-src="uploads/global/continental-logo.png"><br>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h2 class="page-heading mb-4 mt-5">Media partners & supporters...</h2>
-            <div class="row align-items-center">
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://ngin-mobility.com/">
-                    <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/media/bus/bus_images_besucher/fachpressestand_2/NGIN-Mobility-Logo_XXXLMobile43.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://background.tagesspiegel.de/mobilitaet-transport?utm_source=wundermobility.com&utm_medium=koop&utm_campaign=wundermobility&utm_content=banner">
-                    <img class="" style="width: 170px; max-width:90%;" data-src="uploads/global/tagesspiegel-background.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 ">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.automobil-industrie.vogel.de/">
-                    <img class="" style="width: 170px; max-width: 90%;" data-src="uploads/global/automobil-industrie-logo.jpg">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center mt-2">
-              <div class="col-lg-4 offset-lg-2">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.manager-magazin.de/">
-                    <img class="" style="width: 200px; max-width:90%;" data-src="uploads/global/Manager-Magazine.svg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="partner-box">
-                  <a target="_blank" href="https://www.manager-lounge.com/">
-                    <img class="" style="width: 110px; max-width:90%;" data-src="uploads/global/Manager-Lounge.svg">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-  name: supporters
 - template: block-from-right
   block: wide-from-right
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
@@ -567,7 +264,7 @@ page_sections:
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-intro">
             <h2 class="page-heading mb-4">Connecting the most innovative minds in mobility</h2>
-            <p class="mb-3 lead">Here is just a small sample of the companies that attended last year:</p>
+            <p class="mb-3 lead">Here is just a small sample of the companies that have attended in the past:</p>
             <img class="mb-3 mw-100" data-src="/uploads/2019/05/14/logocloud.jpg" data-srcset="/uploads/2019/05/14/logocloud@2x.jpg 2x">
             <p class="text-center">AND SO MANY MORE</p>
           </section>
@@ -578,15 +275,15 @@ page_sections:
 - template: block-from-right
   block: wide-from-right
   col_1:
-    headline: Feedback from WMS18
+    headline: Feedback about WMS
     content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder
       manages to get a lot of really serious experts from the Mobility industry<footer
-      class="blockquote-footer">Eckhart Diepenhorst - CEO myTaxi</footer></blockquote></div><div
+      class="blockquote-footer">Eckhart Diepenhorst - CEO FREENOW</footer></blockquote></div><div
       class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
       event, and it's a great opportunity to talk to the brightest minds in the mobility
       space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
       BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta
-      dark mt-5" href="/summit/wms18">Find out more</a>
+      dark mt-5" href="/summit/wms19">Past Summits</a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:
@@ -595,7 +292,7 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: "</div></main>"
-  name: Main fix
+  name: Main fix  
 - template: simple-footer
   block: footer-1
   content: ''
