@@ -11,17 +11,17 @@ cta_text: Our all-in-one fleet sharing platform has everything you need to get y
 cta_link: pages/de/wunder-fleet.md
 title: An Interview with Quinten Selhorst, CEO of felyx
 publish_date: 2019-12-04T20:00:00.000+00:00
-featured_image: "/uploads/2019/12/05/AnInterviewWithQuinten-1.jpg"
+featured_image: "/uploads/2019/12/06/AnInterviewWithQuinten.jpg"
 excerpt: We recently traveled to Amsterdam to interview the CEO of felyx, Quinten
   Selhorst.
-share_image: "/uploads/2019/12/05/AnInterviewWithQuinten.jpg"
+share_image: "/uploads/2019/12/06/AnInterviewWithQuinten.jpg"
 sticky: false
 hidden: true
 
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
 
-![](/uploads/2019/12/05/AnInterviewWithQuinten.jpg)
+![](/uploads/2019/12/06/AnInterviewWithQuinten.jpg)
 
 **Hi Quinten, thanks for having me. Let's start with the basics: What inspired felyx?**
 
@@ -31,7 +31,6 @@ If you look at vehicle specifics, electric scooters are a very efficient way of 
 
 We were hooked on the idea of starting our own e-scooter sharing company. We took several months to work out a business case while we were still working at our consulting jobs. Then around April 2016, we decided to quit our jobs and work full-time on bringing the idea to market - or, if the idea was too implausible, not pursue it any further. But we actually did it! One year later, we got our first 108 electric mopeds on the road here in Amsterdam. They’re still riding around the streets today.
 
-  
 **So when you guys started out, there were no other competitors doing what you did?**
 
 Actually, around May 2016, we read about the first pilot in Europe, which I believe only had around 30 scooters. We realized then that we aren’t the only people out there with this idea. At the same time, however, it meant that there was proof of concept and that our concept was technically feasible. That was very important for the investors at that time, too. No one was sure if scooter sharing was really going to work.
@@ -61,7 +60,7 @@ In terms of e-kickscooters vs. e-mopeds, I think that both vehicle types can liv
 
 With mopeds, however, it’s actually more comparable to car sharing. When you see a moped parked somewhere, there’s a high degree of certainty that the last customer to ride the moped parked it there. Let’s be honest, it’s pretty hard for the average person to lift a 100-kilogram scooter on their own! Due to that fact, we’ve found that the parking behavior of our customers is actually better than people who park their own personal, gasoline scooters.
 
-![](/uploads/2019/12/04/Felyxblog2_scooterstock.jpg)
+![](/uploads/2019/12/06/felyxscooterblognew.jpg)
 
 **There’s also the fact that drivers licenses have to be verified - there’s a lot more responsibility (and pressure!) that goes along with that.**
 
