@@ -70,9 +70,9 @@ Exactly. There’s also the sustainability question. I’m very much in favor of
 
 Of course, safety is an issue as well. Moped drivers are higher off the ground and have to wear helmets, the latter of which scooter riders don’t have to do (but probably should).
 
-**Let’s talk about felyx and Wunder. What made felyx decide to choose Wunder Mobility as their software provider?**
+**Let’s talk about felyx and Wunder. What made felyx decide to choose Wunder Mobility as your software provider?**
 
-There are two reasons. The first one was that we saw that the Fleetbird system was very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
+There are two reasons. The first one was that we saw that the Wunder Fleet system is very, very robust. Especially during our launch, it was important for us to have low downtime and to know exactly where our scooters are located, all the time.
 
 The second reason was the flexibility. We had a lot of requests that could easily be incorporated into the platform by Wunder Fleet. This close collaboration was also a major part of why our scooter sharing system was so successful, and that’s why we chose Wunder Fleet to be our software provider. It’s very nice to be able to trust the high-value partnership we have with Wunder.
 
