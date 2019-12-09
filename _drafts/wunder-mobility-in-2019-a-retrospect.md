@@ -10,7 +10,7 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: 'Wunder Mobility in 2019: A Retrospect'
-publish_date: 2019-12-18 11:00:00 +0000
+publish_date: 2019-12-18T11:00:00.000+00:00
 featured_image: ''
 excerpt: 'As 2019 draws to a close, we have much to reflect upon. This may very well
   have been our busiest year yet: marked by growth, expansion, and experimentation,
@@ -70,7 +70,7 @@ It was an honor hosting such an influential, star-studded group of movers and sh
 
 We can barely wait to get started planning **WMS2020**. Make sure to watch this space in the coming months for updates!
 
-Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019)
+Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019).
 
 ***
 
