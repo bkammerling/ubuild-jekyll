@@ -70,18 +70,20 @@ It was an honor hosting such an influential, star-studded group of movers and sh
 
 We can barely wait to get started planning **WMS2020**. Make sure to watch this space in the coming months for updates!
 
-Watch the WMS19 aftermovie here.
+Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019)
 
 ***
 
-At the beginning of 2019, we had just recently acquired the Fleetbird fleet sharing service company and welcomed our new Dortmund office and team to the Wunder family. We started the year with just over 100 employees, a monumental number considering our headcount at the beginning of 2018 (roughly 30!). Throughout the course of the year, just under **100 new team members decided to join the ride,** with even more newbies are set to be onboarded in 2020.
+At the beginning of 2019, we had just recently acquired the Fleetbird fleet sharing service company and welcomed our new Dortmund office and team to the Wunder family. We started the year with just over 100 employees, a monumental number considering our headcount at the beginning of 2018 (roughly 30!). Throughout the course of the year, just under **100 new team members decided to join the ride,** with even more newbies set to be onboarded in 2020.
 
-We’re incredibly proud of our progress, and we couldn’t have had such a successful year (or couple of years) without the help of our amazingly dedicated, always-passionate team. To all Wunderers reading this: **2019 was your year. Thank you for your hard work, creativity and unwavering team spirit during the past 12 months.**
+We’re incredibly proud of our progress, and we couldn’t have had such a successful year without the help of our amazingly dedicated, always-passionate team. To all the Wunderers reading this: **2019 was your year. Thank you for your hard work, creativity and unwavering team spirit during the past 12 months.**
 
-2019 was defined by **growth.** We grew our team, our locations, our financial resource pool and our portfolio. Always motivated by the desire **to improve the quality of life in cities,** we expanded the scope of our vision dramatically. We went from three products to seven in a few short months, we opened offices half-way around the globe, we attended events in the Middle East, the USA, South America and Asia. We have lots of ideas on how to make 2020 an even more spectacular year than 2019. We have a lot to be excited about - ten years ago, shared mobility options outside of the public realm barely existed; autonomous cars felt more like a joke than a reality; the concept of an escooter probably would have been laughed at in the wake of some other failed initiative. Today, at the turn of the decade, we stand at the cusp of a new era of mobility: one that is autonomous, electric and **shared.**
+2019 was defined by **growth.** We grew our team, our locations, our financial resource pool and our portfolio. Always motivated by the desire **to improve the quality of life in cities,** we expanded the scope of our vision dramatically. We went from three products to seven in a few short months, we opened new offices halfway around the globe from home and we attended and hosted events in the Middle East, the Americas, Europe and Asia. 
 
-It’s been a pleasure working, growing and scaling with you. 
+Ten years ago, shared mobility options outside of the public realm barely existed. E-scooters were all but laughed at in the wake of other failed micromobility initiatives. Climate change was only a big deal to a select group of people. Now, at the turn of the decade, we stand on the cusp of a new era of mobility: one that is autonomous, electric and **shared.** 
+
+It’s been a pleasure working, growing and scaling with you all. Here's to another ten years of innovation and collaboration!
 
 From our family to yours:
 
-_Merry Christmas & Happy New Year!_
+_Merry Christmas & Happy New Year_
