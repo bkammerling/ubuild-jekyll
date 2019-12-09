@@ -28,39 +28,39 @@ We’ve collected some of the biggest highlights of 2019 below for your reading 
 
 In February, the release of the new **brand film,** shot on location in a number of international cities, highlighted our brand, our vision and our values. It was a stunning feat of our in-house video team, well received on social media and elsewhere.
 
-Watch the brand film here.
+Watch the brand film [here](https://www.wundermobility.com/blog/wunder-mobility-brand-film).
 
 ***
 
 We launched the **Wunder Blog** - we now have a perfect platform for important news items, product launches and a variety of articles on everything from tips on starting a fleet-sharing company to opinion pieces on car ownership and the future of mobility. In July, we launched another channel, our **Wunder Instagram account**, to give members of the community the opportunity to take a peek at what’s going on behind the scenes at our offices and events.
 
-Check out the blog here and make sure to follow us on Instagram.
+Check out the [blog list page](https://www.wundermobility.com/blog) and follow us on [Instagram](https://www.instagram.com/wundermobility/).
 
 ***
 
 We launched **Wunder Rent:** 100% online, keyless and paperless rental service software. Our goal is to help existing companies revamp their operations and go fully digital, as well as enabling new, free-floating rental companies to successfully get their business off the ground.
 
-Watch the rent video.
+Watch an explanation of [how Wunder Rent works](https://vimeo.com/374919926).
 
 ***
 
 Our **Wunder City** tool went live in 2019. We’re honored to have been able to celebrate our first successful city partnership with the **City of Hamburg**, Wunder’s hometown. Our Wunder City tool maps and aggregates mobility data so that cities like Hamburg can use that data to better understand patterns and changes in their area, which in turn allows for smarter, greener, and better-informed decisions on infrastructure and urban planning.
 
-Read the blog post introducing Wunder City here or find out more about our partnership with Hamburg.
+Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city) introducing Wunder City or find out more about our [partnership with Hamburg](https://www.hamburg-news.hamburg/en/media-it/hamburg-launches-platform-monitor-new-mobility-services/).
 
 ***
 
-As the hot summer temperatures began to drop and escooters became a more and more common sight on the streets of Germany - they were made street legal in June! - we got a tangible confirmation of just how much Wunder Mobility was growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
+As temperatures began to cool off and escooters became a more and more common sight on the streets of Germany - they were only made street legal in June - we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
 
 Shortly thereafter, **we opened our first North American offices** in Los Angeles, California and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. Since Wunder is a proudly international company serving clients across 6 continents and over 100 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
 
-Read our press release here.
+Read our [press release](https://www.wundermobility.com/blog/wunder-mobility-launches-in-the-u-s).
 
 ***
 
 While further developing Wunder Fleet, we started to feel like an important part of the platform was missing from our portfolio: the vehicles themselves! That’s why we launched **Wunder Vehicles,** which are customizable, durable and shareable. Our vehicle team handles negotiations with manufacturers, logistics, storage and even financing options in order to make the vehicle selection process as seamless and hassle-free for our clients as possible. We’ve partnered with the world’s leading micromobility vehicle manufacturers to make a wide assortment of high-quality vehicles available, and we’re flexible, too: whether our clients prefer bikes, scooters or jetskis, we’re ready to find the perfect vehicle partner to suit each of their diverse needs.
 
-Find out more information on the new Wunder Vehicles webpage.
+Find out more information on the new Wunder Vehicles [webpage]().
 
 ***
 
@@ -80,7 +80,7 @@ We’re incredibly proud of our progress, and we couldn’t have had such a succ
 
 2019 was defined by **growth.** We grew our team, our locations, our financial resource pool and our portfolio. Always motivated by the desire **to improve the quality of life in cities,** we expanded the scope of our vision dramatically. We went from three products to seven in a few short months, we opened offices half-way around the globe, we attended events in the Middle East, the USA, South America and Asia. We have lots of ideas on how to make 2020 an even more spectacular year than 2019. We have a lot to be excited about - ten years ago, shared mobility options outside of the public realm barely existed; autonomous cars felt more like a joke than a reality; the concept of an escooter probably would have been laughed at in the wake of some other failed initiative. Today, at the turn of the decade, we stand at the cusp of a new era of mobility: one that is autonomous, electric and **shared.**
 
-It’s been a pleasure working with you, growing with you and doing business with you.
+It’s been a pleasure working, growing and scaling with you. 
 
 From our family to yours:
 
