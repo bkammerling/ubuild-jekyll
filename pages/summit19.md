@@ -101,7 +101,7 @@ page_sections:
         <div class="row">
           <div class="col-lg-10 offset-lg-2">
             <section id="section-intro">
-              <h2 class="page-heading mb-3 text-blue">Agenda</h2>
+              <h2 class="page-heading mb-3 text-blue">WMS19 Agenda</h2>
               <h1 class="text-grey2 mb-1 p-0">6th - 7th November 2019 </h1>
               <p class="lead">WMS19 brought us one and a half days of thrilling content! <strong><a class="text-blue" target="_blank" href="/uploads/WMS-Agenda.pdf">View the 2019 agenda.</a></strong></p>
             </section>
@@ -146,7 +146,7 @@ page_sections:
       <div class="row align-items-center">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-supporters">
-            <h2 class="page-heading mb-4">Sponsored by...</h2>
+            <h2 class="page-heading mb-4">Past Sponsors</h2>
             <div class="row align-items-center">
               <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
@@ -227,7 +227,7 @@ page_sections:
                 </div>
               </div>
             </div>
-            <h2 class="page-heading my-5 py-5">Media partners & supporters...</h2>
+            <h2 class="page-heading my-5 py-5">Past media partners & supporters</h2>
             <div class="row align-items-center">
               <div class="col-lg-4">
                 <div class="partner-box">

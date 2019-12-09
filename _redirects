@@ -24,7 +24,7 @@ https://wundermobility-com.netlify.com/* https://www.wundermobility.com/:splat 3
 https://wunder.org/* https://www.wundermobility.com/:splat 301!
 https://www.wunder.org/* https://www.wundermobility.com/:splat 301!
 
-https://scooter.wunder.org/ https://www.wundermobility.com/fleet/ 301
+https://scooter.wunder.org/* https://www.wundermobility.com/fleet/ 301
 https://shuttle.wunder.org/ https://www.wundermobility.com/shuttle/ 301
 https://meetup.wunder.org/ https://www.wundermobility.com/autotech/ 301
 https://wundermobilitysummit.wunder.org/ https://www.wundermobility.com/summit/ 301
