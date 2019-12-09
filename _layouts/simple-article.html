@@ -70,13 +70,13 @@
                   <div class="share-block">
                     <span class="share-text">Share on:</span>
                     <br>
-                    <a target="_blank" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}">
+                    <a class="gt-blogshare" data-platform="LinkedIn" title="Share this article on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode}}" target="_blank">
                       <ion-icon class="linkedin-icon" name="logo-linkedin"></ion-icon>
                     </a>
-                    <a title="Share this article on Twitter" href="http://twitter.com/share?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank">
+                    <a class="gt-blogshare" data-platform="Twitter" title="Share this article on Twitter" href="http://twitter.com/share?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank">
                       <ion-icon class="twitter-icon" name="logo-twitter"></ion-icon>
                     </a>
-                    <a title="Share this article on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank">
+                    <a class="gt-blogshare" data-platform="Facebook" title="Share this article on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank">
                       <ion-icon class="facebook-icon" name="logo-facebook"></ion-icon>
                     </a>
                   </div>
