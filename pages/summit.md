@@ -23,7 +23,7 @@ page_sections:
     button_text: ''
     enabled: false
   show_logos: false
-  background_image: "/uploads/global/Image_WMS19@2x.png"
+  background_image: "/uploads/global/wms19-johnstage@2x.jpg"
   background_video: ''
   intro_text: ''
   logo_row: ''
@@ -187,7 +187,7 @@ page_sections:
     linkedin: https://www.linkedin.com/in/robert-lokner/
 - template: image-content-block
   block: two-column-vertical-cards
-  heading: Formats
+  heading: Content
   items:
   - content: Speakers share their inspirational knowledge and best practices on stage.
     title: Conference

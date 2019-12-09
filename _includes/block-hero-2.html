@@ -48,6 +48,11 @@
       background-image: url('{{ bg_image | relative_url }}');
     }
   }
+  @media screen and (max-width: 576px) {
+    .video-banner {
+      background-image: url("{{ bg_image | replace: '@2x', '@mob' | relative_url }}"), url("{{ bg_image | remove: '@2x' | relative_url }}");
+    }
+
   {% if section.background_video and section.background_video != empty %}
   @media screen and (min-width: 769px) {
     .video-banner {
@@ -67,7 +72,7 @@
   {% endif %}
 
   {% if page.lang-ref == 'summit' or page.lang-ref == 'stage-battle' %}
-    
+
   {% endif %}
 
   {% if page.lang-ref == 'wms19' %}
