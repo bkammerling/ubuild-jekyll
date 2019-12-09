@@ -78,12 +78,14 @@ At the beginning of 2019, we had just recently acquired the Fleetbird fleet shar
 
 We’re incredibly proud of our progress, and we couldn’t have had such a successful year without the help of our amazingly dedicated, always-passionate team. To all the Wunderers reading this: **2019 was your year. Thank you for your hard work, creativity and unwavering team spirit during the past 12 months.**
 
-2019 was defined by **growth.** We grew our team, our locations, our financial resource pool and our portfolio. Always motivated by the desire **to improve the quality of life in cities,** we expanded the scope of our vision dramatically. We went from three products to seven in a few short months, we opened new offices halfway around the globe from home and we attended and hosted events in the Middle East, the Americas, Europe and Asia. 
+2019 was defined by **growth.** We grew our team, our locations, our financial resource pool and our portfolio. Always motivated by the desire **to improve the quality of life in cities,** we expanded the scope of our vision dramatically. We went from three products to seven in a few short months, we opened new offices and we attended and hosted events in the Middle East, the Americas, Europe and Asia. 
 
-Ten years ago, shared mobility options outside of the public realm barely existed. E-scooters were all but laughed at in the wake of other failed micromobility initiatives. Climate change was only a big deal to a select group of people. Now, at the turn of the decade, we stand on the cusp of a new era of mobility: one that is autonomous, electric and **shared.** 
+Ten years ago, shared mobility options outside of the public realm barely existed. The concept of e-scooters was all but laughed at in the wake of other failed mobility initiatives. Society was just starting to take climate change seriously. 
 
-It’s been a pleasure working, growing and scaling with you all. Here's to another ten years of innovation and collaboration!
+Now, at the turn of the decade, we stand on the cusp of a new era of mobility: one that is **autonomous, electric and shared.** 
 
-From our family to yours:
+It’s been a pleasure working, growing and scaling with you all. Here's to another ten years of innovation, ideation and collaboration!
+
+From our families to yours:
 
 _Merry Christmas & Happy New Year_
