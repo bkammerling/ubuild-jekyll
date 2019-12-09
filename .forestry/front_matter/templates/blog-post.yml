@@ -115,6 +115,7 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
+- _posts/2019-09-19-wunder-mobility-launches-in-the-u-s.md
 - _posts/2019-11-28-the-wunder-mobility-summit-2019.md
 - _posts/2019-07-19-3-predictions-for-smart-cities.md
 - _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md
@@ -128,7 +129,6 @@ pages:
 - _posts/2019-08-20-how-e-scooter-companies-fail.md
 - _posts/2019-10-14-the-road-to-wms19-video.md
 - _posts/2019-10-09-Three-key-things-to-get-right-before-scaling-your-fleet.md
-- _posts/2019-09-19-wunder-mobility-launches-in-the-u-s.md
 - _posts/2019-10-01-wunder-rent-rental-service-software-video.md
 - _posts/2019-09-09-why-the-uk-is-the-next-big-market-for-vehicle-sharing.md
 - _posts/2019-09-09-how-location-affects-launching-a-vehicle-sharing-company-video.md
