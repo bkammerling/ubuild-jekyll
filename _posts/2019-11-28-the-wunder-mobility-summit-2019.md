@@ -17,7 +17,7 @@ excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from
   across the mobility spectrum to come together and swap ideas, thoughts and war stories
   during 1.5 days of exciting content.
 share_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
-sticky: false
+sticky: true
 hidden: false
 
 ---
