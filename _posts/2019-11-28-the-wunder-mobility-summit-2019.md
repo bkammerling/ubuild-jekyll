@@ -14,10 +14,9 @@ title: The Wunder Mobility Summit 2019
 publish_date: 2019-11-28T00:00:00.000+00:00
 featured_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 excerpt: The Wunder Mobility Summit is an excellent opportunity for leaders from all
-  across the mobility spectrum to come together and swap ideas, thoughts and war stories
-  during 1.5 days of exciting content.
+  across the mobility spectrum to come together.
 share_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
-sticky: false
+sticky: true
 hidden: false
 
 ---

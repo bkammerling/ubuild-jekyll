@@ -26,9 +26,9 @@ fields:
     - Life@Wunder
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: tags
   type: tag_list
@@ -68,8 +68,8 @@ fields:
     source:
       type: pages
       section: people
-      file: 
-      path: 
+      file:
+      path:
   label: Author
 - name: share_image
   type: file
@@ -102,8 +102,8 @@ fields:
     source:
       type: pages
       section: pages
-      file: 
-      path: 
+      file:
+      path:
   label: CTA Link
 - name: sticky
   type: boolean
@@ -115,6 +115,7 @@ fields:
   description: When you want the post published and live but not in article list on
     /blog
 pages:
+- _posts/wunder-mobility-in-2019-a-retrospect.md
 - _posts/2019-11-28-the-wunder-mobility-summit-2019.md
 - _posts/2019-07-19-3-predictions-for-smart-cities.md
 - _posts/2019-10-17-tomorrow-s-mobility-depends-on-today-s-ideas.md

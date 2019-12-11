@@ -10,12 +10,14 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: []
 title: Wunder Mobility Launches in the U.S.
-sticky: true
+sticky: false
 publish_date: 2019-09-19T11:00:00.000+00:00
 featured_image: "/uploads/2019/09/19/us-blog.png"
 share-img: "/uploads/2019/09/19/wunder-uslaunch.png"
 excerpt: We're thrilled to announce that we're expanding operations into the United
   States! We look forward to continuing to grow our customer base in the U.S.
+share_image: ''
+hidden: false
 
 ---
 For the vast majority of Americans, mobility has only ever looked like one thing: the car. Automobiles have meant big business for more than a century. Vehicle ownership has driven huge economies, generated massive influence on policy and been central to the American identity since the car’s invention. But large-scale forces - climate change, urbanization, millennials - are shifting the automotive’s role as the center of Americanism.
