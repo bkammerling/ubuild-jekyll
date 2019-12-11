@@ -45,4 +45,10 @@ a.post-imagelink  {
 
 .client-map {
   filter: drop-shadow(0 8px 32px rgba(20,20,20,0.06));
+
+  svg {
+      #DE,#BE,#NL,#ES,#FR,#SE,#AT,#PT,#PL,#GR,#NZ,#MX,#US,#LV,#FI,#IS,#DK,#NO,#TR,#BG,#CR,#PA,#IE,#MY,#AE,#ZA,#AU,#GE,#PF,#GB,#SA,#AR,#PE,#CH,#HR,#CL,#PH,#BR,#IN,#VN,#CI,#NG,#MT,#IT,#KR {
+        fill: $mobility-blue;
+      }
+  }
 }
