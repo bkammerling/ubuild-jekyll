@@ -80,7 +80,7 @@ We can barely wait to get started planning **WMS2020**. Make sure to watch this 
 
 Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019).
 
-![](/uploads/2019/12/17/samgunnarwms.jpg)
+![](/uploads/2019/12/17/Recappostimage.jpg)
 
 ***
 
