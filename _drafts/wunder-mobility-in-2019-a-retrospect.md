@@ -76,6 +76,8 @@ We can barely wait to get started planning **WMS2020**. Make sure to watch this 
 
 Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019).
 
+![](/uploads/2019/12/17/samgunnarwms.jpg)
+
 ***
 
 At the beginning of 2019, we had just recently acquired the Fleetbird fleet sharing service company and welcomed our new Dortmund office and team to the Wunder family. We started the year with just over 100 employees, a monumental number considering our headcount at the beginning of 2018 (roughly 30!). Throughout the course of the year, just under **100 new team members decided to join the ride,** with even more newbies set to be onboarded in 2020.
@@ -88,8 +90,6 @@ Ten years ago, shared mobility options outside of the public realm barely existe
 
 Now, at the turn of the decade, we stand on the cusp of a new era of mobility: one that is **autonomous, electric and shared.**
 
-It’s been a pleasure working, growing and scaling with you all. Here's to another ten years of innovation, ideation and collaboration!
+It’s been a pleasure working, growing and scaling with you all. Here's to another ten years of innovation, ideation and collaboration.
 
-From our families to yours:
-
-_Merry Christmas & Happy New Year_
+From our families to yours: happy holidays!
