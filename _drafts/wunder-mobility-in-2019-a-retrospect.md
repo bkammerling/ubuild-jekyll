@@ -54,6 +54,8 @@ Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city
 
 As temperatures began to cool off and escooters became a more and more common sight on the streets of Germany - they were only made street legal in June - we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
 
+![](/uploads/2019/12/17/YeehawAmerica.jpg)
+
 Shortly thereafter, **we opened our first North American offices** in Los Angeles, California and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. Since Wunder is a proudly international company serving clients across 6 continents and over 100 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
 
 Read our [press release](https://www.wundermobility.com/blog/wunder-mobility-launches-in-the-u-s).
