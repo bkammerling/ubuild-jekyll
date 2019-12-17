@@ -60,7 +60,9 @@ Read our [press release](https://www.wundermobility.com/blog/wunder-mobility-lau
 
 ***
 
-While further developing Wunder Fleet, we started to feel like an important part of the platform was missing from our portfolio: the vehicles themselves! That’s why we launched **Wunder Vehicles,** which are customizable, durable and shareable. Our vehicle team handles negotiations with manufacturers, logistics, storage and even financing options in order to make the vehicle selection process as seamless and hassle-free for our clients as possible. We’ve partnered with the world’s leading micromobility vehicle manufacturers to make a wide assortment of high-quality vehicles available, and we’re flexible, too: whether our clients prefer bikes, scooters or jetskis, we’re ready to find the perfect vehicle partner to suit each of their diverse needs.
+While developing Wunder Fleet further, we started to feel like an important part of the platform was missing from our portfolio: the vehicles themselves! That’s why we launched **Wunder Vehicles,** which are customizable, durable and shareable. Our vehicle team handles negotiations with manufacturers, logistics, storage and even financing options in order to make the vehicle selection process as seamless and hassle-free for our clients as possible. 
+
+We’ve partnered with the world’s leading micromobility vehicle manufacturers to make a wide assortment of high-quality vehicles available, and we’re flexible, too: whether our clients prefer bikes, scooters or jetskis, we’re ready to find the perfect vehicle partner to suit each of their diverse needs.
 
 Find out more information on the new Wunder Vehicles [webpage]().
 
