@@ -17,7 +17,7 @@ excerpt: 'As 2019 draws to a close, we have much to reflect upon. This may very 
   but also happiness, excitement and new friendships.'
 share_image: "/uploads/2019/12/17/Christmas tree snowfall.gif"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 As 2019 draws to a close, we have much to reflect upon. This was our busiest year yet: marked by growth, expansion and experimentation, but also happiness, excitement and new partnerships, 2019 was fast-paced and full of big changes.
