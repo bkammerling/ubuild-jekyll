@@ -26,9 +26,9 @@ We’ve collected some of the biggest highlights of 2019 below.
 
 ***
 
-In February, the release of the new **brand film,** shot on location in a number of international cities, highlighted our brand, our vision and our values. It was a stunning feat of our in-house video team, well received on social media and elsewhere.
+{% include block-video-2.html vimeo-id="318402556" %}
 
-Watch the brand film [here](https://www.wundermobility.com/blog/wunder-mobility-brand-film).
+In February, the release of the new **brand film,** shot on location in a number of international cities, highlighted our brand, our vision and our values. It was a stunning feat of our in-house video team, well received on social media and elsewhere.
 
 ***
 
