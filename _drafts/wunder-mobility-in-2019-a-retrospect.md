@@ -52,7 +52,7 @@ Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city
 
 ***
 
-As temperatures began to cool off and escooters became a more and more common sight on the streets of Germany - they were only made street legal in June - we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
+As temperatures began to cool off and escooters became a more and more common sight on the streets of Germany - they officially hit the streets in June - we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
 
 ![](/uploads/2019/12/17/YeehawAmerica.jpg)
 
@@ -72,11 +72,13 @@ Find out more information on the new Wunder Vehicles [webpage]().
 
 ***
 
-As the weather started to take a characteristically rainy and windy turn here in Hamburg, it marked the nearing of our biggest event of the year, the Wunder Mobility Summit. **WMS19** took place on November 6th and 7th and spanned three floors of the Internationales Maritimes Museum, the Überquell Brew Pub (where the kickoff party was held) and of course the four offices here at the Wunder campus in Hafencity. High-caliber speakers like **John Krafick**, **Alexander Hitzinger** and **Alexander Maarten** took to the stage to share their insights. The Micromobility Test Track and vehicle and partner expos allowed curious attendees to play around with drones, e-vehicles, robots and VR glasses. Five early stage startups pitched their business concepts to a jury for the **Startup Stage Battle** - congrats again to Motiontag for winning first place!
+As the weather started to take a characteristically rainy and windy turn here in Hamburg, it marked the nearing of our biggest event of the year, the Wunder Mobility Summit. **WMS19** took place on November 6th and 7th and spanned three floors of the Internationales Maritimes Museum, the Überquell Brew Pub (where the kickoff party was held) and of course the four offices here at the Wunder campus in Hafencity. 
 
-It was an honor hosting such an influential, star-studded group of movers and shakers from across the mobility space and welcoming you all to our world and our home. We hope you enjoyed the event as much as we enjoyed throwing it!
+High-caliber speakers like **John Krafick**, **Alexander Hitzinger** and **Alexander Maarten** took to the stage to share their insights. The Micromobility Test Track and vehicle and partner expos allowed curious attendees to play around with drones, e-vehicles, robots and VR glasses. Five early stage startups pitched their business concepts to a jury for the **Startup Stage Battle** - congrats again to Motiontag for winning first place!
 
-We can barely wait to get started planning **WMS2020**. Make sure to watch this space in the coming months for updates!
+It was a pleasure hosting such an influential, star-studded group of movers and shakers from across the mobility space and welcoming you to our home. We hope you enjoyed the event as much as we enjoyed throwing it!
+
+We can't wait to see you next year at **WMS2020**. Make sure to watch this space in the coming months for updates!
 
 Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobility-summit-2019).
 
