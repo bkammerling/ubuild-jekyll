@@ -5,17 +5,17 @@ tags:
 - recap
 - founders
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Sign Up for Our Newsletter
+cta_text: Our monthly Wunder Bar newsletter is full of updates, stories and other
+  great content from the world of Wunder.
+cta_link: pages/newsletter-signup.md
 title: 'Wunder Mobility in 2019: A Retrospect'
 publish_date: 2019-12-18T11:00:00.000+00:00
-featured_image: ''
+featured_image: "/uploads/2019/12/17/Christmas tree snowfall.gif"
 excerpt: 'As 2019 draws to a close, we have much to reflect upon. This may very well
   have been our busiest year yet: marked by growth, expansion, and experimentation,
   but also happiness, excitement and new friendships.'
-share_image: ''
+share_image: "/uploads/2019/12/17/Christmas tree snowfall.gif"
 sticky: false
 hidden: false
 
