@@ -20,7 +20,7 @@ sticky: false
 hidden: false
 
 ---
-As 2019 draws to a close, we have much to reflect upon. This may very well have been our busiest year yet: marked by growth, expansion, and experimentation, but also happiness, excitement and new partnerships, 2019 was a fast-paced rollercoaster ride with many more ups than downs.
+As 2019 draws to a close, we have much to reflect upon. This was our busiest year yet: marked by growth, expansion, and experimentation, but also happiness, excitement and new partnerships, 2019 was a fast-paced rollercoaster ride with far more ups than downs.
 
 We’ve collected some of the biggest highlights of 2019 below.
 
