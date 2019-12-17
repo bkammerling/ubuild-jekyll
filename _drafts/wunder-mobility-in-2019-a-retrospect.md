@@ -46,7 +46,7 @@ Watch an explanation of [how Wunder Rent works](https://vimeo.com/374919926).
 
 ***
 
-Our **Wunder City** tool went live in 2019. We’re honored to have been able to celebrate our first successful city partnership with the **City of Hamburg**, Wunder’s hometown. Our Wunder City tool maps and aggregates mobility data so cities like Hamburg can use that data to better understand patterns and changes in their area, which in turn allows for smarter, greener, and better-informed decisions on infrastructure and urban planning.
+Our **Wunder City** tool went live in 2019. We’re honored to have been able to celebrate our first successful city partnership with the **City of Hamburg**, Wunder’s hometown. Our Wunder City tool maps and aggregates mobility data so cities like Hamburg can use that data to understand patterns and changes in their area, which in turn allows for smarter, greener, and better-informed decisions on infrastructure and urban planning.
 
 Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city) introducing Wunder City or find out more about our [partnership with Hamburg](https://www.hamburg-news.hamburg/en/media-it/hamburg-launches-platform-monitor-new-mobility-services/).
 
