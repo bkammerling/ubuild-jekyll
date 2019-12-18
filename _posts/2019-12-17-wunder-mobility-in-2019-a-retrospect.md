@@ -4,7 +4,7 @@ category: News
 tags:
 - recap
 - founders
-author: []
+author: _people/ChristmasSamandGunnar.md
 cta_heading: Sign Up for Our Newsletter
 cta_text: Our monthly Wunder Bar newsletter is full of updates, stories and other
   great content from the world of Wunder.
@@ -28,7 +28,7 @@ We’ve collected some of the biggest highlights of 2019 below.
 
 {% include block-video-2.html vimeo-id="318402556" %}
 
-In February, we released a new **brand film** which was shot on location in a number of international cities Wunder technology has been deployed in. Shot entirely by our in-house video team, the brand film highlighted our vision and our values. 
+In February, we released a new **brand film** which was shot on location in a number of international cities Wunder technology has been deployed in. Shot entirely by our in-house video team, the brand film highlighted our vision and our values.
 
 ***
 
