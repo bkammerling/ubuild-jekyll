@@ -71,7 +71,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.6.0)
+  jekyll
   jekyll-feed (~> 0.6)
   jekyll-menus
   jekyll-minifier
@@ -80,4 +80,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.17.3
+   2.0.0
