@@ -28,7 +28,11 @@ We’ve collected some of the biggest highlights of 2019 below.
 
 {% include block-video-2.html vimeo-id="318402556" %}
 
-In February, the release of the new **brand film,** shot on location in a number of international cities, highlighted our brand, our vision and our values. It was a stunning feat of our in-house video team, well received on social media and elsewhere.
+In February, we released a new **brand film** which was shot on location in a number of international cities Wunder technology has been deployed in. Shot entirely by our in-house video team, the brand film highlighted our vision and our values. 
+
+***
+
+In the spring, we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
 
 ***
 
@@ -52,17 +56,15 @@ Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city
 
 ***
 
-As temperatures began to cool off and escooters became a more and more common sight on the streets of Germany - they officially hit the streets in June - we got tangible confirmation of just how much Wunder Mobility has been growing in size and scope: we closed a **$60 million Series B funding round** with Blumberg Capital and KCK.
-
 ![](/uploads/2019/12/17/YeehawAmerica.jpg)
 
-Shortly thereafter, **we opened our first North American offices** in Los Angeles, California and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. Since Wunder is a proudly international company serving clients across 6 continents and over 100 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
+A few months after escooters became a more and more common sight on the streets of Germany - they officially hit the streets in June - **we opened our first North American offices** in Los Angeles, California, and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. Since Wunder is a proudly international company serving clients across 6 continents and over 150 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
 
 Read our [press release](https://www.wundermobility.com/blog/wunder-mobility-launches-in-the-u-s).
 
 ***
 
-While developing Wunder Fleet further, we started to feel like an important part of the platform was missing from our portfolio: the vehicles themselves! That’s why we launched **Wunder Vehicles,** which are customizable, durable and shareable. Our vehicle team handles negotiations with manufacturers, logistics, storage and even financing options in order to make the vehicle selection process as seamless and hassle-free for our clients as possible. 
+While developing Wunder Fleet further, we started to feel like an important part of the platform was missing from our portfolio: the vehicles themselves! That’s why we launched **Wunder Vehicles,** which are customizable, durable and shareable. Our vehicle team handles negotiations with manufacturers, logistics, storage and even financing options in order to make the vehicle selection process as seamless and hassle-free for our clients as possible.
 
 We’ve partnered with the world’s leading micromobility vehicle manufacturers to make a wide assortment of high-quality vehicles available, and we’re flexible, too: whether our clients prefer bikes, scooters or jetskis, we’re ready to find the perfect vehicle partner to suit each of their diverse needs.
 
@@ -72,7 +74,7 @@ Find out more information on the new Wunder Vehicles [webpage]().
 
 ***
 
-As the weather started to take a characteristically rainy and windy turn here in Hamburg, it marked the nearing of our biggest event of the year, the Wunder Mobility Summit. **WMS19** took place on November 6th and 7th and spanned three floors of the Internationales Maritimes Museum, the Überquell Brew Pub (where the kickoff party was held) and of course the four offices here at the Wunder campus in Hafencity. 
+As the weather started to take a characteristically rainy and windy turn here in Hamburg, it marked the nearing of our biggest event of the year, the Wunder Mobility Summit. **WMS19** took place on November 6th and 7th and spanned three floors of the Internationales Maritimes Museum, the Überquell Brew Pub (where the kickoff party was held) and of course the four offices here at the Wunder campus in Hafencity.
 
 High-caliber speakers like **John Krafick**, **Alexander Hitzinger** and **Alexander Maarten** took to the stage to share their insights. The Micromobility Test Track and vehicle and partner expos allowed curious attendees to play around with drones, e-vehicles, robots and VR glasses. Five early stage startups pitched their business concepts to a jury for the **Startup Stage Battle** - congrats again to Motiontag for winning first place!
 
@@ -86,7 +88,7 @@ Watch the [WMS19 aftermovie](https://www.wundermobility.com/blog/the-wunder-mobi
 
 ***
 
-At the beginning of 2019, we had just recently acquired the Fleetbird fleet sharing service company and welcomed our new Dortmund office and team to the Wunder family. We started the year with just over 100 employees, a monumental number considering our headcount at the beginning of 2018 (roughly 30!). Throughout the course of the year, just under **100 new team members decided to join the ride,** with even more newbies set to be onboarded in 2020.
+We started 2019 with about 60 team members. Throughout the course of the year, just under **100 new team members decided to join the ride,** with even more newbies set to be onboarded in 2020.
 
 We’re incredibly proud of our progress, and we couldn’t have had such a successful year without the help of our amazingly dedicated, always-passionate team. To all the Wunderers reading this: **2019 was your year. Thank you for your hard work, creativity and unwavering team spirit during the past 12 months.**
 
