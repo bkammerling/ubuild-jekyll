@@ -1,61 +1,46 @@
+---
 title: Wunder Mobility
 author: Wunder Mobility
 email: website@wundermobility.com
-description: >-
-  A smart mobility marketplace and tech platform providing carpooling, smart shuttles, and scooter/car-sharing to end customers, corporates, and cities.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.wundermobility.com" # your site's origin, e.g. https://forestry.io
-
-permalink: pretty
-
+description: A smart mobility marketplace and tech platform providing carpooling,
+  smart shuttles, and scooter/car-sharing to end customers, corporates, and cities.
+baseurl: "/"
+url: https://www.wundermobility.com
+permalink: "/blog/:title:output_ext"
 collections:
   articles:
     output: false
   autotech-events:
-    permalink: /mobility-sessions/:title
+    permalink: "/mobility-sessions/:title"
     output: true
   people:
     output: false
-
-permalink: /blog/:title:output_ext
-
-include: ['_redirects']
+include:
+- _redirects
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-
-# Build settings
+- vendor/bundle
+- Gemfile
+- Gemfile.lock
+- node_modules
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default" # this ensures all content renders with layouts/default.html
+- scope:
+    path: ''
+  values:
+    layout: default
 markdown: kramdown
 sass:
   sass_dir: _sass
 plugins:
-  - jekyll-feed
-  - jekyll-menus
-  - jekyll-sitemap
-  - jekyll-minifier
-  - jekyll-responsive-image
-
+- jekyll-feed
+- jekyll-menus
+- jekyll-sitemap
+- jekyll-minifier
+- jekyll-responsive-image
 jekyll-minifier:
   uglifier_args:
     harmony: true
   compress_css: false
-
 responsive_image:
   template: _includes/jekyll_resp_image.html
   sizes:
-    - width: 480
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - width: "480"

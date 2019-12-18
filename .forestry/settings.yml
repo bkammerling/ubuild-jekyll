@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _config.yml
-  label: Config
 - type: directory
   path: _people
   label: People
