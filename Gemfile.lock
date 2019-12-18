@@ -85,6 +85,3 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-sitemap
   tzinfo-data
-
-BUNDLED WITH
-   2.1.1
