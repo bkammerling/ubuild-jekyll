@@ -46,7 +46,11 @@
           <div class="nav-full__single-menu" id="{{ nav_item.identifier }}"">
             <div class="row">
               <div class="col-md-12 col-lg-3">
-                <h2 class="headline-medium">{{ nav_item.title }}</h2>
+                <h2 class="headline-medium">
+                  {% if nav_item.url contains 'careers' %}<a class="nav-link body-text" href="{{ nav_item.url }}">{% endif %}
+                    {{ nav_item.title }}
+                  {% if nav_item.url contains 'careers' %}</a>{% endif %}
+                </h2>
               </div>
               <div class="col-md-12 col-lg-9 mt-md-3 mt-lg-0">
                 <div class="row">

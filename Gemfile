@@ -16,11 +16,10 @@ gem "jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
   gem "jekyll-menus"
   gem "jekyll-sitemap"
   gem "jekyll-minifier"
-  gem "jekyll-responsive-image"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

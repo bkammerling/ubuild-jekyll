@@ -35,12 +35,7 @@ plugins:
 - jekyll-menus
 - jekyll-sitemap
 - jekyll-minifier
-- jekyll-responsive-image
 jekyll-minifier:
   uglifier_args:
     harmony: true
   compress_css: false
-responsive_image:
-  template: _includes/jekyll_resp_image.html
-  sizes:
-  - width: "480"
