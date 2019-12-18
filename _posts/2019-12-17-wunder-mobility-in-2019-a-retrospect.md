@@ -28,7 +28,7 @@ We’ve collected some of the biggest highlights of 2019 below.
 
 {% include block-video-2.html vimeo-id="318402556" %}
 
-In February, we released a new **brand film** which was shot on location in a number of international cities Wunder technology has been deployed in. Shot entirely by our in-house video team, the brand film highlighted our vision and our values.
+In February, we released a new **brand film** which was filmed on location in a number of international cities Wunder technology has been deployed in. Shot entirely by our in-house video team, the brand film highlighted our vision and our values.
 
 ***
 
@@ -58,7 +58,9 @@ Read the [blog post](https://www.wundermobility.com/blog/introducing-wunder-city
 
 ![](/uploads/2019/12/17/YeehawAmerica.jpg)
 
-A few months after escooters became a more and more common sight on the streets of Germany - they officially hit the streets in June - **we opened our first North American offices** in Los Angeles, California, and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. Since Wunder is a proudly international company serving clients across 6 continents and over 150 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
+A few months after escooters became a more and more common sight on the streets of Germany - they officially hit the streets in June - **we opened our first North American offices** in Los Angeles, California, and celebrated that milestone with a partnership event co-hosted by Fujitsu in San Francisco, the unofficial tech capital of the world. 
+
+Since Wunder is a proudly international company serving clients across 6 continents and over 150 cities, expanding into the US market was a natural next step for us. Building a team of experts on-site who understand the innerworkings of the American mobility industry was of particular importance to us.
 
 Read our [press release](https://www.wundermobility.com/blog/wunder-mobility-launches-in-the-u-s).
 
