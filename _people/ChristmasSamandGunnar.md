@@ -1,6 +1,6 @@
 ---
 type: Human
-name: Sam Baker & Gunnar Froh
+name: Gunnar Froh & Sam Baker
 company: Wunder Mobility
 company_logo: ''
 job_title: Co-founders
