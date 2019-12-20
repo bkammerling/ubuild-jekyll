@@ -71,7 +71,7 @@ We celebrated warmer weather and moving into a new office - our third building o
 
 ### JUNE
 
-At any given time, we have at least three dogs hanging out at the office.  
+At any given time, we have at least three four-legged friends hanging out at the office. 
 
 Wunder is a non-discriminatory, pup-friendly workplace that welcomes woofers and doggos of all sizes.
 
