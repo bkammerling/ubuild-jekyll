@@ -19,7 +19,7 @@ sticky: false
 hidden: false
 
 ---
-Curious about our company culture, values and vibes? Take a look at the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
+Curious about what our team has been up to? See the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
 
 ![](/uploads/2019/12/20/Recap 2019 2x.jpg)
 
@@ -63,7 +63,7 @@ The theme of the evening was voice AI’s influence on the future of ride-sharin
 
 ### MAY
 
-We celebrated warmer weather and moving into a new office - our third building on the Hamburg campus - with a BBQ on the terrace. Life is good!
+We celebrated warmer weather and moving into a new office - our third building on the Hamburg campus - with a BBQ on the terrace. Good vibes and fun times were had by all!
 
 ***
 
@@ -141,4 +141,4 @@ Wanna join the ride and create the future of mobility together? You’ve come to
 
 Cheers, 
 
-The Wunder Team 
+**The Wunder Team** 
