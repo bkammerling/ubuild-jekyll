@@ -55,7 +55,7 @@ We’re excited about self-driving cars, but we need to realistically think abou
 
 General Motors’ self-driving vision of 1939 promoted good old-fashioned American values of private ownership and freedom (_if you work hard and play your cards right, you, too, can buy your very own radio-controlled vehicle someday!_), but the mantra today is very different. It seems that due to the relative inaccessibility of autonomous vehicles, they’re poised for sharing, rather than turning into something individual consumers would buy and park in their garage overnight. The tendency to move away from private ownership is generally seen as being a reflection of the broader shift in attitudes that is changing the mobility industry at large.
 
-Shared autonomous vehicles are good news for our environment: experts predict that by 2030, 80% of people in cities will use autonomous shuttles and taxis - which we can call “robotaxis” if we’re feeling so inclined - where available, and urban car ownership will fall by an incredible 70%. Even better, the total number of vehicles will drop by 50%. ([6](https://www.economist.com/the-economist-explains/2018/03/05/why-driverless-cars-will-mostly-be-shared-not-owned))
+Shared autonomous vehicles are good news for our environment: experts predict that by 2030, 80% of people in cities will use autonomous shuttles and taxis (“robotaxis”) where available, and urban car ownership will fall by an incredible 70%. Even better, the total number of vehicles will drop by 50%. ([6](https://www.economist.com/the-economist-explains/2018/03/05/why-driverless-cars-will-mostly-be-shared-not-owned))
 
 > We're undeniably heading in the right direction.
 
