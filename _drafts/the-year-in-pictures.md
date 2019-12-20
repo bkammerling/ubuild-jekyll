@@ -26,7 +26,7 @@ Curious about what our team has been up to this year? See the photos that define
 
 ### JANUARY
 
-2019 started off with a bang. Our annual kick-off party was the perfect way to ring in the new year in style. Very cool Wunderers in sunglasses abound.
+2019 started off with a bang. Our annual kick-off party was the perfect way to ring in the new year in style. Very cool people in sunglasses abound.
 
 ***
 
