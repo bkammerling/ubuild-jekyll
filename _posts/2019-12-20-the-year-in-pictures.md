@@ -30,13 +30,13 @@ Curious about what our team has been up to this year? See the photos that define
 
 ***
 
-(photo)
+![](/uploads/2019/12/20/Recap 2019 FEB.jpg)
 
 ### FEBRUARY
 
 Our [brand film]() was released in February, highlighting our mission and our global scale.
 
-We partnered with Google Munich to host our first Mobility Sessions of the year on their campus in Bavaria's largest city.
+We also partnered with Google Munich to host our first Mobility Sessions of the year on their campus.
 
 ***
 
@@ -56,7 +56,7 @@ If you're a woman in tech (or you'd like to become one) and you're looking for n
 
 Another month, another edition of our Mobility Sessions! This time, we decided to host the event at our HQ in beautiful Hamburg.
 
-The theme of the evening was voice AI’s influence on the future of ride-sharing. Sound intriguing? Find out when our next Mobility Sessions are coming to a [city near you](https://www.wundermobility.com/mobility-sessions/). 
+The theme of the evening was voice AI’s influence on the future of ride-sharing. Sound intriguing? Find out when our next Mobility Sessions are coming to a [city near you](https://www.wundermobility.com/mobility-sessions/).
 
 ***
 
@@ -72,7 +72,7 @@ We celebrated warmer weather and the grand opening of a new office - our third b
 
 ### JUNE
 
-At any given time, we have at least three four-legged friends hanging out at the office. 
+At any given time, we have at least three four-legged friends hanging out at the office.
 
 Wunder is a non-discriminatory, pup-friendly workplace that welcomes woofers and doggos of all sizes.
 
@@ -82,7 +82,7 @@ Wunder is a non-discriminatory, pup-friendly workplace that welcomes woofers and
 
 ### JULY
 
-Our Instagram account made its debut in July! Follow us [@wundermobility](https://www.instagram.com/wundermobility/). Also, yes, that is a skydiving Wunderer you see. 
+Our Instagram account made its debut in July! Follow us [@wundermobility](https://www.instagram.com/wundermobility/). Also, yes, that is a skydiving Wunderer you see.
 
 The London edition of our Mobility Sessions were held at Kensington Palace. It was quite the royal affair.
 
@@ -130,7 +130,7 @@ The WMS19 afterparty has since become the stuff of legends!
 
 ### DECEMBER
 
-2019 is drawing to a close. We’ve hung up all our decorations, we’ve drunk more than a few mugs of Glühwein and we’re ready for the holidays. 
+2019 is drawing to a close. We’ve hung up all our decorations, we’ve drunk more than a few mugs of Glühwein and we’re ready for the holidays.
 
 Our international team will be flying home to over 50+ countries this winter break. We wish them all safe travels and a happy new year!
 
@@ -140,8 +140,8 @@ Wanna join the ride and create the future of mobility together? You’ve come to
 
 Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to the world of Wunder, or view all [open positions.](https://www.wundermobility.com/careers/jobs) See you next year!
 
-Cheers, 
+Cheers,
 
-**The Wunder Team** 
+**The Wunder Team**
 
 ![](/uploads/2019/12/20/Aug6.jpg)
