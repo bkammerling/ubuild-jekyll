@@ -34,7 +34,7 @@ Curious about what our team has been up to this year? See the photos that define
 
 ### FEBRUARY
 
-Our brand film was released in February, highlighting our mission and our global scale.
+Our [brand film]() was released in February, highlighting our mission and our global scale.
 
 We partnered with Google Munich to host our first Mobility Sessions of the year on their campus in Bavaria's largest city.
 
