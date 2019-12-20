@@ -19,7 +19,7 @@ sticky: false
 hidden: false
 
 ---
-Curious about our company culture, values and vibes? Take a look at the photos that defined our 2019. One thing's for sure: Wunderers _really_ know how to party! #BecauseWeShare
+Curious about our company culture, values and vibes? Take a look at the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
 
 ![](/uploads/2019/12/20/Recap 2019 2x.jpg)
 
