@@ -6,16 +6,16 @@ tags:
 - photos
 - recap
 author: _people/pia-benthien.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Find Out More About Careers at Wunder Mobility
+cta_text: 'We''re hiring! Join the ride and help us shape the future of mobility.
+  Check out our careers page for more info. '
+cta_link: pages/careers/careers.md
 title: The Year in Pictures
 publish_date: 2019-12-20 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2019/12/20/PeopleRecapListImage.jpg"
 excerpt: 'Curious about what our team has been up to this year? See the photos that
   defined our 2019. One thing''s for sure: Wunderers know how to party!'
-share_image: ''
+share_image: "/uploads/2019/12/20/PeopleRecapListImage.jpg"
 sticky: false
 hidden: false
 
