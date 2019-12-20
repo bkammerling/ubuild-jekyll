@@ -25,9 +25,7 @@ Curious about our company culture, values and vibes? Take a look at the photos t
 
 ### JANUARY
 
-2019 started off with a bang!
-
-Our annual kick-off party was the perfect way to ring in the new year in style. Very cool Wunderers in sunglasses abound.
+2019 started off with a bang. Our annual kick-off party was the perfect way to ring in the new year in style. Very cool Wunderers in sunglasses abound.
 
 ***
 
