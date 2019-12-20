@@ -17,7 +17,7 @@ excerpt: 'Curious about what our team has been up to this year? See the photos t
   defined our 2019. One thing''s for sure: Wunderers know how to party!'
 share_image: "/uploads/2019/12/20/PeopleRecapListImage.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Curious about what our team has been up to this year? See the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
