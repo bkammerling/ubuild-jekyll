@@ -103,16 +103,44 @@ A long overdue group photo was also taken on that day.
 
 ### SEPTEMBER
 
-September was a VERY exciting month for us: we officially opened our new US office in sunny Los Angeles, California! (Go Lakers.)
+September was a VERY exciting month for us: we officially opened our new US offices in sunny Los Angeles, a hub of emerging mobility! (Go Lakers.)
 
 This month's Mobility Sessions were hosted in partnership with Fujitsu in San Francisco, the world’s tech mecca. We felt right at home there.
 
 ***
 
+![](/uploads/2019/12/20/Recap 2019 2x10.jpg)
+
 ### OCTOBER
 
+The fourth building on our Hamburg campus was open for business in October.
+
+We have ample space for showing off some [Wunder Vehicles](https://www.wundermobility.com/vehicles) here.
+
 ***
+
+![](/uploads/2019/12/20/Recap 2019 2x11.jpg)
 
 ### NOVEMBER
 
+The Wunder Mobility Summit brought the greatest minds in mobility together for 1.5 days of exciting content.
+
+The WMS19 afterparty has since become the stuff of legends...!
+
 ***
+
+![](/uploads/2019/12/20/Recap 2019 2x12.jpg)
+
+### DECEMBER
+
+2019 is drawing to a close. We’ve hung up all our decorations, we’ve drunk more than a few mugs of Glühwein and we’re ready for the holidays.
+
+***
+
+Wanna join the ride and create the future of mobility together? You’ve come to the right place! Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to our company culture and values, or view all [open positions.](https://www.wundermobility.com/careers/jobs)
+
+We look forward to hearing from you! Until next year: happy holidays!
+
+Cheers, 
+
+The Wunder Team 
