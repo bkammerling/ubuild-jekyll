@@ -119,7 +119,7 @@ We have ample space for showing off some [Wunder Vehicles](https://www.wundermob
 
 ### NOVEMBER
 
-Then it was time for our favorite event of the year: the [Wunder Mobility Summit](https://www.wundermobility.com/summit/) brought the greatest minds in mobility together for 1.5 days of exciting content.
+With November comes our favorite event of the year: the [Wunder Mobility Summit](https://www.wundermobility.com/summit/) brought the greatest minds in mobility together for 1.5 days of exciting content.
 
 The WMS19 afterparty has since become the stuff of legends!
 
