@@ -83,7 +83,7 @@ Wunder is a non-discriminatory, pup-friendly workplace that welcomes woofers and
 
 Our Instagram account made its debut in July! Follow us [@wundermobility](https://www.instagram.com/wundermobility/). Also, yes, that is a skydiving Wunderer you see. 
 
-The London edition of our Mobility Sessions were held at Kensington Palace. It was a royal affair!
+The London edition of our Mobility Sessions were held at Kensington Palace. It was quite the royal affair.
 
 ***
 
