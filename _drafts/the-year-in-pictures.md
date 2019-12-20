@@ -131,13 +131,17 @@ The WMS19 afterparty has since become the stuff of legends!
 
 ### DECEMBER
 
-2019 is drawing to a close. We’ve hung up all our decorations, we’ve drunk more than a few mugs of Glühwein and we’re ready for the holidays.
+2019 is drawing to a close. We’ve hung up all our decorations, we’ve drunk more than a few mugs of Glühwein and we’re ready for the holidays. 
+
+Our international team will be flying home to over 50+ countries this winter break. We wish them all safe travels and a happy new year!
 
 ***
 
-Wanna join the ride and create the future of mobility together? You’ve come to the right place! Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to our company culture and values, or view all [open positions.](https://www.wundermobility.com/careers/jobs)
+Wanna join the ride and create the future of mobility together? You’ve come to the right place. We're always on the lookout for motivated, passionate people to join the team.
 
-We look forward to hearing from you! Until next year: happy holidays!
+ Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to our company culture and values, or view all [open positions.](https://www.wundermobility.com/careers/jobs)
+
+We look forward to hearing from you. See you next year!
 
 Cheers, 
 
