@@ -33,9 +33,9 @@ Curious about our company culture, values and vibes? Take a look at the photos t
 
 ### FEBRUARY
 
-Our brand film was released in February, highlighting our vision, our mission and our global scale. It even included a tiny Wunderer 
+Our brand film was released in February, highlighting our mission and our global scale.
 
-We partnered with Google Munich to host our Mobility Sessions by Wunder on their campus in Bavaria's largest city.
+We partnered with Google Munich to host our first Mobility Sessions of the year on their campus in Bavaria's largest city.
 
 ***
 
