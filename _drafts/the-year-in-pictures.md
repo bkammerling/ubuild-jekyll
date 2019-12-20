@@ -5,7 +5,7 @@ tags:
 - people
 - photos
 - recap
-author: []
+author: _people/pia-benthien.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
@@ -13,13 +13,14 @@ cta_link: []
 title: The Year in Pictures
 publish_date: 2019-12-20 00:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: 'Curious about what our team has been up to this year? See the photos that
+  defined our 2019. One thing''s for sure: Wunderers know how to party!'
 share_image: ''
 sticky: false
 hidden: false
 
 ---
-Curious about what our team has been up to? See the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
+Curious about what our team has been up to this year? See the photos that defined our 2019. One thing's for sure: Wunderers know how to party!
 
 ![](/uploads/2019/12/20/Recap 2019 2x.jpg)
 
@@ -142,3 +143,5 @@ Wanna join the ride and create the future of mobility together? You’ve come to
 Cheers, 
 
 **The Wunder Team** 
+
+![](/uploads/2019/12/20/Aug6.jpg)
