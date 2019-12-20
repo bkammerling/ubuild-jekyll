@@ -137,9 +137,7 @@ Our international team will be flying home to over 50+ countries this winter bre
 
 Wanna join the ride and create the future of mobility together? You’ve come to the right place. We're always on the lookout for motivated, passionate people to join the team.
 
- Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to our company culture and values, or view all [open positions.](https://www.wundermobility.com/careers/jobs)
-
-We look forward to hearing from you. See you next year!
+ Check out our [careers page](https://www.wundermobility.com/careers/) to get an introduction to the world of Wunder, or view all [open positions.](https://www.wundermobility.com/careers/jobs) See you next year!
 
 Cheers, 
 
