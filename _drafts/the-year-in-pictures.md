@@ -55,7 +55,7 @@ If you're a woman in tech (or you'd like to become one) and you're looking for n
 
 Another month, another edition of our Mobility Sessions! This time, we decided to host the event at our HQ in beautiful Hamburg.
 
-The theme of the evening was voice AI’s influence on the future of ride-sharing. Intrigued? Find out when our next Mobility Sessions are coming to a [city near you](https://www.wundermobility.com/mobility-sessions/)! 
+The theme of the evening was voice AI’s influence on the future of ride-sharing. Sound intriguing? Find out when our next Mobility Sessions are coming to a [city near you](https://www.wundermobility.com/mobility-sessions/). 
 
 ***
 
