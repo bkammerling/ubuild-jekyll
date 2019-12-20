@@ -27,7 +27,7 @@ Take a look at the photos that defined our 2019! One thing's for sure: Wunderers
 
 2019 started off with a bang!
 
-Our annual kick-off party was the perfect way to ring in the new year in style. Cool Wunderers in sunglasses abound. 
+Our annual kick-off party was the perfect way to ring in the new year in style. Cool Wunderers in sunglasses abound.
 
 ***
 
@@ -37,7 +37,7 @@ Our annual kick-off party was the perfect way to ring in the new year in style. 
 
 Our brand film was released in February, highlighting our vision, our mission and our global scale.
 
-We partnered with Google Munich to host our Mobility Sessions by Wunder on their campus in Bavaria's largest city. 
+We partnered with Google Munich to host our Mobility Sessions by Wunder on their campus in Bavaria's largest city.
 
 ***
 
@@ -45,7 +45,9 @@ We partnered with Google Munich to host our Mobility Sessions by Wunder on their
 
 ### MARCH
 
-Our Wunder Women campaign was released in celebration of International Women's Day and the #womenintech who make our company great! 
+Our Wunder Women campaign was released in celebration of International Women's Day and the #womenintech who make our company great!
+
+If you're a woman in tech (or you'd like to become one) and you're looking for new opportunities, check out our careers page [here.](https://www.wundermobility.com/careers/)
 
 ***
 
@@ -53,9 +55,17 @@ Our Wunder Women campaign was released in celebration of International Women's D
 
 ### APRIL
 
-Another month, another edition of our Mobility Sessions! This time, we decided to host the event at our HQ in beautiful Hamburg. 
+Another month, another edition of our Mobility Sessions! This time, we decided to host the event at our HQ in beautiful Hamburg.
 
 The theme of the evening was voice AI’s influence on the future of ride-sharing.
+
+***
+
+![](/uploads/2019/12/20/Recap 2019 2x5.jpg)
+
+### MAY
+
+We celebrated warmer weather and moving into our new office - the third building on the Hamburg campus - with a BBQ on the terrace. Life is good!
 
 ***
 
