@@ -64,7 +64,7 @@ The theme of the evening was voice AI’s influence on the future of ride-sharin
 
 ### MAY
 
-We celebrated warmer weather and moving into a new office - our third building on the Hamburg campus - with a BBQ on the terrace. Good vibes and fun times were had by all!
+We celebrated warmer weather and the grand opening of a new office - our third building on the Hamburg campus - with a BBQ on the terrace. Good vibes and fun times were had by all!
 
 ***
 
