@@ -19,7 +19,7 @@ sticky: false
 hidden: false
 
 ---
-Take a look at the photos that defined our 2019! One thing's for sure: Wunderers know how to party. #BecauseWeShare
+Curious about our company culture, values and vibes? Take a look at the photos that defined our 2019. One thing's for sure: Wunderers _really_ know how to party! #BecauseWeShare
 
 ![](/uploads/2019/12/20/Recap 2019 2x.jpg)
 
@@ -27,7 +27,7 @@ Take a look at the photos that defined our 2019! One thing's for sure: Wunderers
 
 2019 started off with a bang!
 
-Our annual kick-off party was the perfect way to ring in the new year in style. Cool Wunderers in sunglasses abound.
+Our annual kick-off party was the perfect way to ring in the new year in style. Very cool Wunderers in sunglasses abound.
 
 ***
 
@@ -35,7 +35,7 @@ Our annual kick-off party was the perfect way to ring in the new year in style. 
 
 ### FEBRUARY
 
-Our brand film was released in February, highlighting our vision, our mission and our global scale.
+Our brand film was released in February, highlighting our vision, our mission and our global scale. It even included a tiny Wunderer 
 
 We partnered with Google Munich to host our Mobility Sessions by Wunder on their campus in Bavaria's largest city.
 
@@ -57,7 +57,7 @@ If you're a woman in tech (or you'd like to become one) and you're looking for n
 
 Another month, another edition of our Mobility Sessions! This time, we decided to host the event at our HQ in beautiful Hamburg.
 
-The theme of the evening was voice AI’s influence on the future of ride-sharing.
+The theme of the evening was voice AI’s influence on the future of ride-sharing. Intrigued? Find out when our next Mobility Sessions are coming to a [city near you](https://www.wundermobility.com/mobility-sessions/)! 
 
 ***
 
@@ -73,9 +73,9 @@ We celebrated warmer weather and moving into a new office - our third building o
 
 ### JUNE
 
-At any given time, we have at least three dogs hanging out at the office! 
+At any given time, we have at least three dogs hanging out at the office.  
 
-Wunder is a pup-friendly workplace that welcomes woofers and doggos of all sizes.
+Wunder is a non-discriminatory, pup-friendly workplace that welcomes woofers and doggos of all sizes.
 
 ***
 
@@ -83,9 +83,9 @@ Wunder is a pup-friendly workplace that welcomes woofers and doggos of all sizes
 
 ### JULY
 
-Our Instagram account made its debut in July! Follow us [@wundermobility](https://www.instagram.com/wundermobility/). Our Faces of Wunder campaign is not to be missed. Also, yes, that is a skydiving Wunderer you see. 
+Our Instagram account made its debut in July! Follow us [@wundermobility](https://www.instagram.com/wundermobility/). Also, yes, that is a skydiving Wunderer you see. 
 
-The London Mobility Sessions were held at Kensington Palace. It was a royally fun affair hosted in partnership with Aston Martin.  
+The London edition of our Mobility Sessions were held at Kensington Palace. It was a royal affair!
 
 ***
 
@@ -93,9 +93,7 @@ The London Mobility Sessions were held at Kensington Palace. It was a royally fu
 
 ### AUGUST
 
-Our annual summer party was held at a local beach club in Hamburg. Tropical vibes and a packed dance floor made it a fête we could never forget!
-
-A long overdue group photo was also taken on that day. 
+Our annual summer party took place at a local beach club in Hamburg. Tropical vibes and a packed dance floor made it a fête we could never forget!
 
 ***
 
@@ -115,7 +113,7 @@ This month's Mobility Sessions were hosted in partnership with Fujitsu in San Fr
 
 The fourth building on our Hamburg campus was open for business in October.
 
-We have ample space for showing off some [Wunder Vehicles](https://www.wundermobility.com/vehicles) here.
+We have ample space for showing off some [Wunder Vehicles](https://www.wundermobility.com/vehicles) here - and taking them for a test ride, of course.
 
 ***
 
