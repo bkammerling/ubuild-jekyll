@@ -47,8 +47,11 @@ a.post-imagelink  {
   filter: drop-shadow(0 8px 32px rgba(20,20,20,0.06));
 
   svg {
-      #DE,#BE,#NL,#ES,#FR,#SE,#AT,#PT,#PL,#GR,#NZ,#MX,#US,#LV,#FI,#IS,#DK,#NO,#TR,#BG,#CR,#PA,#IE,#MY,#AE,#ZA,#AU,#PF,#GB,#SA,#AR,#PE,#CH,#HR,#CL,#CO,#PH,#BR,#IN,#VN,#CI,#NG,#MT,#IT,#KR {
-        fill: $mobility-blue;
-      }
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    #DE,#BE,#NL,#ES,#FR,#SE,#AT,#PT,#PL,#GR,#NZ,#MX,#US,#LV,#FI,#IS,#DK,#NO,#TR,#BG,#CR,#PA,#IE,#MY,#AE,#ZA,#AU,#PF,#GB,#SA,#AR,#PE,#CH,#HR,#CL,#CO,#PH,#BR,#IN,#VN,#CI,#NG,#MT,#IT,#KR {
+      fill: $mobility-blue;
+    }
   }
 }
