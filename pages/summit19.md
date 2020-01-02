@@ -29,6 +29,7 @@ page_sections:
   background_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
   background_video: ''
   intro_text: ''
+  logo_row: ''
 - template: custom-content
   block: custom-html
   name: Summit Naviagtor
@@ -91,7 +92,7 @@ page_sections:
   block: video-1
   iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading:
+  heading: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -114,6 +115,18 @@ page_sections:
   block: thumbnail-gallery
   heading: Event Snaps
   photo_collection:
+  - "/uploads/2020/01/02/DSC01058.jpg"
+  - "/uploads/2020/01/02/DSC01089.jpg"
+  - "/uploads/2020/01/02/DSC01112.jpg"
+  - "/uploads/2020/01/02/DSC01178.jpg"
+  - "/uploads/2020/01/02/DSC01318.jpg"
+  - "/uploads/2020/01/02/DSC01345.jpg"
+  - "/uploads/2020/01/02/DSC09403.jpg"
+  - "/uploads/2020/01/02/DSC09525.jpg"
+  - "/uploads/2020/01/02/DSC09580.jpg"
+  - "/uploads/2020/01/02/DSC09593.jpg"
+  - "/uploads/2020/01/02/DSC09619.jpg"
+  - "/uploads/2020/01/02/DSC09628.jpg"
   - "/uploads/2019/05/15/wms18-357.jpg"
   - "/uploads/2019/05/15/wms18-355.jpg"
   - "/uploads/2019/05/15/wms18-343.jpg"
@@ -279,5 +292,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
+share_image: ''
 
 ---
