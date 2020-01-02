@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: WMS 2019 | Wunder Mobility Summit
+title: Wunder Mobility Summit '19 | Wunder Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/wms19"
 lang-ref: wms19
@@ -91,7 +91,7 @@ page_sections:
   block: video-1
   iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: Aftermovie
+  heading:
 - template: custom-content
   block: custom-html
   content: |-
