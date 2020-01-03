@@ -80,10 +80,8 @@
   display: inline-block;
   margin: 1rem 0 1rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid transparent;
   transition: all 0.4s !important;
   &:hover {
-    border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     .post-cat:after {
       //width: 33%;
