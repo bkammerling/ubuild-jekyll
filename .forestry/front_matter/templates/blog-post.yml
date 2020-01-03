@@ -26,9 +26,9 @@ fields:
     - Life@Wunder
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Category
 - name: tags
   type: tag_list
@@ -68,8 +68,8 @@ fields:
     source:
       type: pages
       section: people
-      file:
-      path:
+      file: 
+      path: 
   label: Author
 - name: share_image
   type: file
@@ -102,8 +102,8 @@ fields:
     source:
       type: pages
       section: pages
-      file:
-      path:
+      file: 
+      path: 
   label: CTA Link
 - name: sticky
   type: boolean
