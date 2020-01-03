@@ -13,9 +13,9 @@ fields:
     - Company
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Type
   description: Is this a human or company (originally for blog authors)
 - name: name
