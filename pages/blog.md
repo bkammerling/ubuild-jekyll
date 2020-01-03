@@ -5,6 +5,8 @@ date: 2019-07-01 23:00:00 +0000
 permalink: "/blog"
 lang: en
 lang-ref: blog
+component_scripts:
+- socialModule.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2
