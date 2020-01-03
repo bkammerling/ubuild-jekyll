@@ -8,4 +8,5 @@ public/
 site/public/
 dist/
 .tmp/
+.jekyll-cache/
 _site/

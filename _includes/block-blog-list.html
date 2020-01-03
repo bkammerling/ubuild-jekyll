@@ -1,7 +1,7 @@
 <section class="block block-blog-list" id="section-bloglist">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+      <div class="col mx-lg-5">
 
         {% assign sticky = site.posts | sort: "publish_date" | reverse | where: "sticky", true | first %}
         <div class="sticky-post">
@@ -24,15 +24,18 @@
           </a>
         </div>
 
+        {% comment %}
         <div class="grid" data-colcade="columns: .grid-col, items: .blog-card-link">
           <div class="grid-col grid-col--1" data-aos="fade-up"></div>
           <div class="grid-col grid-col--2" data-aos="fade-up" data-aos-delay="250"></div>
+        {% endcomment %}
+        <div class="grid">
           {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
           {% assign myindex = 0 %}
           {% for post in blogposts %}
             {% unless post.title == sticky.title or post.title == 'Einführung von Wunder Park' or post.hidden %}
             {% assign myindex = myindex | plus: 1 %}
-            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  data-aos="fade-up">
+            <a class="blog-card-link" href="{{ post.url }}" title="{{ post.title }}"  {% comment %}data-aos="fade-up"{% endcomment %}>
               <div class="card">
                 <img class="card-img-top" src="{{ post.featured_image | default: '/uploads/global/post-image-default.jpg' }}" alt="{{ post.post_title }}">
                 <div class="card-body">
