@@ -99,7 +99,7 @@ $(document).ready(function() {
       this.player.on('ended', event => {
         this.player.restart();
       });
-      $("#video-btn").click(function() {
+      $("#video-btn, .plyr__custom-starter").click(function() {
         videoPlayer.startPlay();
         $("#player").css('pointerEvents', 'auto');
         $(this).fadeOut();
@@ -246,7 +246,7 @@ var form = {
     var label = form.conversionLabels[data.subject];
 
     /* WMS subject / conversion label stuff removed 02/12/19 - must add back with event forms */
-    
+
     // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
     dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
 

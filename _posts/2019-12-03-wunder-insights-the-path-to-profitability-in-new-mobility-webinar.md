@@ -10,11 +10,11 @@ cta_text: Our monthly Wunder Bar newsletter is full of updates, insights and exc
   content. Sign up to stay in the loop!
 cta_link: pages/newsletter-signup.md
 title: 'Wunder Insights: The Path to Profitability in New Mobility [Webinar]'
-publish_date: 2019-12-03 00:00:00 +0000
-featured_image: "/uploads/2019/12/03/WebinarStillBody.png"
+publish_date: 2019-12-03T00:00:00.000+00:00
+featured_image: "/uploads/2019/12/19/Webinar post event.jpg"
 excerpt: We hosted our first Wunder Insights webinar! Featuring Melika Jahangiri,
   VP of Buisness Development and Purnima Kumar, Senior Key Accounts Manager.
-share_image: "/uploads/2019/12/03/WebinarStillBody.png"
+share_image: "/uploads/2019/12/19/Webinar post event.jpg"
 sticky: false
 hidden: false
 

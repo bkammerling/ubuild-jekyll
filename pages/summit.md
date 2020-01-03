@@ -111,8 +111,8 @@ page_sections:
   sub-heading: The future is now! Let's explore what will bring in the next phase of the
     mobility revolution.
 - template: speakers
-  heading: Previous Speakers
-  sub-heading: Leaders & Innovators From Mobility Around the World
+  heading: Speakers
+  sub-heading: Hear from leaders & innovators from different areas of mobility around the globe. Expect priceless insights and a platform to learn, share and experience what the future holds.
   block: speaker-cards
   speakers:
   - name: John Krafcik
@@ -185,6 +185,42 @@ page_sections:
     company_logo: "/uploads/global/microsoft-logo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/robert-lokner/
+- template: custom-content
+  block: custom-html
+  content: |-
+    <section class="block block-last-summit gradient-block" id="section-wms18">
+      <div class="wunder-bg right top-4"></div>
+      <div class="last-summit__wrapper block-full-right col-2-in">
+        <div class="container container-fullright">
+          <h2 class="page-heading mb-1">Audience</h2>
+          <p class="lead">WMS pulls in an international attendance made up of predominantly CEOs, startup founders and thought-leaders from the new mobility industry.</p>
+          <br>
+          <br>
+          <div class="percent-bar__wrapper">
+            <div class="percent-bar">
+              <div class="percent-bar__block" style="width:45%">
+                <h3 class="h1">45<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">C-Level</p>
+              </div>
+              <div class="percent-bar__block" style="width:25%">
+                <h3 class="h1">25<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Startup founders</p>
+              </div>
+              <div class="percent-bar__block" style="width:15%">
+                <h3 class="h1">15<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Investors</p>
+              </div>
+              <div class="percent-bar__block" style="width:15%">
+                <h3 class="h1">15<p class="d-inline">%</p></h3>
+                <p class="text-uppercase">Others</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  name: wms18
+
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Content

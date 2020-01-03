@@ -10,13 +10,13 @@ cta_text: Our all-in-one fleet sharing platform has everything you need to get y
   vehicle sharing company off the ground.
 cta_link: pages/de/wunder-fleet.md
 title: An Interview with Quinten Selhorst, CEO of felyx
-publish_date: 2019-12-06 16:00:00 +0000
+publish_date: 2019-12-16 10:00:00 +0000
 featured_image: "/uploads/2019/12/06/AnInterviewWithQuinten.jpg"
 excerpt: We recently traveled to Amsterdam to interview the CEO of felyx, Quinten
   Selhorst.
 share_image: "/uploads/2019/12/06/AnInterviewWithQuinten.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 We recently traveled to Amsterdam to interview the **CEO of felyx, Quinten Selhorst.** When we showed up in the Dutch capital on a typically gray and drizzly morning, the first thing we noticed was how few cars are driving around downtown. In this city, two-wheeled vehicles rule the road.
@@ -47,7 +47,6 @@ Secondly: it really all boils down to having the best unit economics. If we comp
 
 From the beginning, we had a vision about how to build a company. The felyx team has always been very good at conducting the right type of analysis to predict which marketing mechanisms are the most effective, partially thanks to many of us having backgrounds in consulting. In terms of the rather limited market in the Netherlands, we’ve been able to prove that we can do a tremendous job of that. Within only a few weeks’ time, we can create a new system that sees the same amount of rides per scooter per day as existing markets that have been in operation for over a year.
 
-  
 Doing the right analysis and thereby being able to predict market developments with a particular amount of certainty allowed us to get a lot of new riders onto our scooters. That’s definitely one of the key drivers of our success.
 
 **What about the future - do you have any big plans coming up?**
@@ -94,4 +93,4 @@ We have our war stories, too. During the first pilot of felyx, Maarten and I del
 
 Thanks, Pia.
 
-![felyx logo](/uploads/2019/12/04/logofelyx-new.jpg)
+[![felyx logo](/uploads/2019/12/04/logofelyx-new.jpg)](https://felyx.com/)

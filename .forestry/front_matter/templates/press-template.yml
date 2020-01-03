@@ -26,39 +26,39 @@ fields:
   label: Featured
   description: Shows on news on homepage
 pages:
-- _articles/future-of-transportation-the-rise-of-multimodal-mobility-in-cities.md
-- _articles/unser-ziel-ist-nicht-die-autoindustrie-zu-zerstören.md
-- _articles/the-top-30-best-funded-german-startups-2019.md
-- _articles/what-should-we-do-with-old-mobility.md
-- _articles/es-ist-an-der-zeit-zu-kaufen-wenn-blut-in-den-straßen-fließt.md
-- _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
 - _articles/10-mobility-startups-to-look-out-for-in-2019-and-beyond.md
-- _articles/gunnar-froh-macht-aus-pendlern-taxifahrer.md
-- _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
-- _articles/wie-viel-hightech-darf-es-sein-wie-viel-fremdbestimmung-muss-es-sein.md
+- _articles/Wir sehen die Autobauer langfristig nicht im Software-Geschäft.md
+- _articles/Wunder Mobility will das Betriebssystem der Mobilität werden.md
 - _articles/bitte-einsteigen.md
 - _articles/bundesrat-lässt-e-scooter-zu.md
-- _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
-- _articles/wunder-mobility-to-expand-in-india.md
-- _articles/neue-mobilität-die-stadt-braucht-die-kontrolle-über-carsharing.md
-- _articles/Wunder Mobility will das Betriebssystem der Mobilität werden.md
-- _articles/startup-magazin-thema-u-a-klima-und-nachhaltigkeit.md
-- _articles/wunder-mobility-summit-mobilitätsexperten-unter-sich.md
-- _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md
-- _articles/elektrische-tretroller-sollen-deutschland-erobern.md
-- _articles/wunder-mobility-carsharing-und-intelligente-mobilität-vereint.md
-- _articles/die-digitalste-stadt-deutschlands.md
 - _articles/cities-strike-back.md
-- _articles/Wir sehen die Autobauer langfristig nicht im Software-Geschäft.md
-- _articles/how-germany-s-wunder-mobility-is-planning-on-getting-indians-hitched-to-carpooling.md
-- _articles/wunder-mobility-takes-over-fleetbird-software-sharing.md
-- _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
+- _articles/die-digitalste-stadt-deutschlands.md
+- _articles/elektrische-tretroller-sollen-deutschland-erobern.md
+- _articles/es-ist-an-der-zeit-zu-kaufen-wenn-blut-in-den-straßen-fließt.md
+- _articles/future-of-transportation-the-rise-of-multimodal-mobility-in-cities.md
+- _articles/german-mobility-startup-wunder-mobility-raises-30m-series-b.md
 - _articles/germany-s-wunder-is-hoping-carpooling-helps-india-s-pollution.md
-- _articles/https-www-automobilwoche-de-article-20190222-bconline-190229975-wunder-chef-gunnar-froh-autohersteller-muessen-keine-softwarefirmen-werden.md
-- _articles/ruhr-park-will-park-chaos-verringern-und-bietet-mitarbeitern-diese-alternative.md
-- _articles/startup-of-the-week-wunder-mobility.md
+- _articles/germany-s-wunder-mobility-bets-on-carpooling-to-combat-india-s-pollution-problem.md
+- _articles/gunnar-froh-macht-aus-pendlern-taxifahrer.md
 - _articles/hamburg-startet-mit-wunder-mobility-deutschlands-erste-plattform.md
-- _articles/wunder-mobility-das-betriebssystem-der-mobilität.md
-- _articles/wunder-mobility-closes-60-million-round-to-expand-its-urban-transport-platform-in-the-u-s.md
+- _articles/how-germany-s-wunder-mobility-is-planning-on-getting-indians-hitched-to-carpooling.md
+- _articles/https-www-automobilwoche-de-article-20190222-bconline-190229975-wunder-chef-gunnar-froh-autohersteller-muessen-keine-softwarefirmen-werden.md
+- _articles/minister-scheuer-macht-weg-für-e-scooter-und-hoverboards-frei.md
+- _articles/neue-mobilität-die-stadt-braucht-die-kontrolle-über-carsharing.md
+- _articles/ruhr-park-will-park-chaos-verringern-und-bietet-mitarbeitern-diese-alternative.md
 - _articles/so-arbeitet-unibail-mit-dem-start-up-wunder-mobility-zusammen.md
+- _articles/so-funktioniert-das-geschäft-mit-den-e-rollern.md
+- _articles/startup-magazin-thema-u-a-klima-und-nachhaltigkeit.md
+- _articles/startup-of-the-week-wunder-mobility.md
+- _articles/the-top-30-best-funded-german-startups-2019.md
+- _articles/unser-ziel-ist-nicht-die-autoindustrie-zu-zerstören.md
+- _articles/what-should-we-do-with-old-mobility.md
+- _articles/wie-viel-hightech-darf-es-sein-wie-viel-fremdbestimmung-muss-es-sein.md
 - _articles/wunder-mobility-announces-u-s-launch.md
+- _articles/wunder-mobility-carsharing-und-intelligente-mobilität-vereint.md
+- _articles/wunder-mobility-closes-60-million-round-to-expand-its-urban-transport-platform-in-the-u-s.md
+- _articles/wunder-mobility-das-betriebssystem-der-mobilität.md
+- _articles/wunder-mobility-summit-mobilitätsexperten-unter-sich.md
+- _articles/wunder-mobility-takes-over-fleetbird-software-sharing.md
+- _articles/wunder-mobility-to-expand-in-india.md
+- _articles/wunder-park-hilfe-zur-parkraum-optimierung.md
