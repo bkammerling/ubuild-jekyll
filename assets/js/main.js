@@ -710,8 +710,6 @@ function initMap() {
   googleMap.init();
 }
 
-
-
 var getUrlParameter = function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1),
     sURLVariables = sPageURL.split('&'),
@@ -750,10 +748,6 @@ function setupIp() {
     }
     $("#user-region").val(userRegion);
   });
-}
-
-String.prototype.capitalize = function() {
-  return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
 
