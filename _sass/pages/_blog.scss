@@ -64,6 +64,14 @@
 
 }
 
+.blog-filters {
+  .btn {
+    @include rwd(mobile-down) {
+      font-size: 12px;
+    }
+  }
+}
+
 .grid {
   margin: 0 auto;
   display: flex;
@@ -301,6 +309,7 @@ ion-icon {
   li {
     margin-bottom: 12px;
   }
+
 }
 
 .author-image {
