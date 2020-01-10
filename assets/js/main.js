@@ -224,6 +224,7 @@ var form = {
         //$(this).parents('.form-group').removeClass('focused');
       } else {
         $(this).addClass('filled');
+        dataLayer.push({ 'event': 'fieldFilled', 'eventAction': $(this).prop('name') });
         if($(this)[0].checkValidity()) {
           $(this).parents('.form-group').removeClass('invalid').addClass('valid');
         } else {
@@ -315,6 +316,7 @@ var form = {
       placeholder: $(this).attr("placeholder")
     });
     $(selector).on('select2:select', function (e) {
+      dataLayer.push({ 'event': 'fieldFilled', 'eventAction': $(this).prop('name') });
       $(this).siblings('.select2').addClass('selected');
     });
   },
