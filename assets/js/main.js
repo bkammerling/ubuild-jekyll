@@ -224,12 +224,12 @@ var form = {
         //$(this).parents('.form-group').removeClass('focused');
       } else {
         $(this).addClass('filled');
-        dataLayer.push({ 'event': 'fieldFilled', 'eventAction': $(this).prop('name') });
         if($(this)[0].checkValidity()) {
           $(this).parents('.form-group').removeClass('invalid').addClass('valid');
         } else {
           $(this).parents('.form-group').removeClass('valid').addClass('invalid');
         }
+
       }
     });
     $('input, textarea').blur(function(){
@@ -280,14 +280,13 @@ var form = {
       $('.select2-init').select2('destroy');
       form.initializeSelect2('.select2-init');
       $("#form-submit").attr("disabled", false);
+      formHistory.push("sent");
       console.log('ajax done success', data);
     }).fail(function (error) {
       console.log(error);
-      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at ben.kammerling@wundermobility.com.');
+      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
       $("#form-submit").attr("disabled", false);
     });
-
-
   },
 
   serializeObject: function($form){
@@ -316,7 +315,6 @@ var form = {
       placeholder: $(this).attr("placeholder")
     });
     $(selector).on('select2:select', function (e) {
-      dataLayer.push({ 'event': 'fieldFilled', 'eventAction': $(this).prop('name') });
       $(this).siblings('.select2').addClass('selected');
     });
   },
@@ -920,6 +918,35 @@ $(document).ready(function() {
 
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
+
+  // set up unload event for when the user leaves the page - used with GTM
+  window.addEventListener('beforeunload', function() {
+    window.dataLayer.push({
+  	  event: 'beforeunload'
+  	});
+  });
+
+  // set up event for when a form field is filled but the form is not sent - used with GMT
+  var formHistory = [];
+  (function() {
+    var formSelector = 'form#main-contact';
+    var attribute = 'name';
+    window.addEventListener('beforeunload', function() {
+      if (formHistory.length) {
+        window.dataLayer.push({
+          'event' : 'formInteraction',
+          'eventCategory' : 'Form Interaction',
+          'eventAction' : formHistory.join(' > ')
+        });
+      }
+    });
+    document.querySelector(formSelector).addEventListener('change', function(e) {
+      var vieldName = e['target'].getAttribute(attribute);
+      //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
+      formHistory.push(vieldName);
+    });
+
+  })();
 
 
 });
