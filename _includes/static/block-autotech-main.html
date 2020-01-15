@@ -57,10 +57,13 @@
             {% endif %}
             {% endfor %}
             <h2 class="page-heading mb-4 text-blue">Next Event</h2>
+            {% comment %}
             <h1 class="mb-3 p-0">{% assign d = next_event.event_date | date: "%-d" %}
             {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
             {{ next_event.event_date | date: "%B" }}
             {{ next_event.event_date | date: "%Y" }} <br>{{ next_event.event_location }}</h1>
+            {% endcomment %}
+            <h1 class="mb-3 p-0">Tokyo, Japan</h1>
             <p class="text-black w-75 lead mb-5">{{ next_event.event_description }}</p>
             {% if next_event.output_page %}<a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>{% else %}<p>More information coming soon</p>{% endif %}
 
@@ -96,10 +99,14 @@
                       {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
                       <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
                       <p class="text-overlay">
+                        {% comment %}
                         {% assign d = event.event_date | date: "%-d" %}
                         {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
                         {{ event.event_date | date: "%B" }}
-                        {{ event.event_date | date: "%Y" }}</p>
+                        {{ event.event_date | date: "%Y" }}
+                        {% endcomment %}
+                        To be confirmed
+                      </p>
                       <div class="card-body">
                         {% assign location = event.event_location | split: ", " %}
                         <h3 class="card-title mb-1">{{ location.first }}</h3>
