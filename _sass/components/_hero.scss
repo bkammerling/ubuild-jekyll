@@ -1,7 +1,7 @@
 .hero-banner {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 0;
+  background-position: center center;
 
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
     .block-hero-hp & {
       padding: rem(185px) 0;
       @include rwd(tablet-up) {
-        padding: rem(340px) 0;
+        padding: rem(300px) 0;
       }
     }
     margin: 0 auto;

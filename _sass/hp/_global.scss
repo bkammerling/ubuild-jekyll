@@ -12,19 +12,40 @@ div.mob-scroll {
 
 .container-fluid {
   max-width: 1440px;
+  padding: 0 32px;
   @include rwd(desktop-up) {
     padding: 0 80px;
   }
 }
 
 main > section {
-  margin: 128px 0;
+  margin: 96px 0;
   overflow: hidden;
+  @include rwd(tablet-up) {
+    margin: 128px 0;
+  }
 }
 
-section.grey-bg {
-  background-color: $black96;
+section.fullwidth-bg {
   padding: 128px 0;
+  &.grey-bg {
+    background-color: $black96;
+    background: linear-gradient(120.94deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+  }
+  &.dark-bg {
+    background-color: $mobility-black;
+    background: linear-gradient(120.94deg, #232323 0%, #141414 93.23%, #141414 100%);
+    color: $white;
+  }
+  &.blue-bg {
+    background-color: $mobility-blue;
+    background: linear-gradient(121.04deg, #559CFF 0%, #2781FF 93.23%, #2781FF 100%);
+    color: $white;
+  }
+  &.grey-fade {
+    background-color: $black96;
+    background: linear-gradient(to bottom, $black96 0%, $black96 20%, $white 100%);
+  }
 }
 
 .jumbo-intro {

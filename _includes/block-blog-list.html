@@ -51,11 +51,6 @@
           </a>
         </div>
         {% endcomment %}
-        {% comment %}
-        <div class="grid" data-colcade="columns: .grid-col, items: .blog-card-link">
-          <div class="grid-col grid-col--1" data-aos="fade-up"></div>
-          <div class="grid-col grid-col--2" data-aos="fade-up" data-aos-delay="250"></div>
-        {% endcomment %}
         <div class="grid">
           {% assign blogposts = site.posts | sort: 'publish_date' | reverse %}
           {% assign myindex = 0 %}

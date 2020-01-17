@@ -5,36 +5,33 @@ date: 2019-01-10T23:00:00.000+00:00
 permalink: "/shuttle"
 lang: en
 lang-ref: shuttle
+version: hp
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-  sub_logo: "/uploads/global/Wunder_Shuttle_White.svg"
   cta:
     url: "#section-contact"
     button_text: Contact
     enabled: true
 - template: hero-banner-w-image
-  block: hero-2
-  headline: The most powerful <strong>Smart Shuttle technology</strong> in the world
+  block: hero-hp
+  sub_logo: "/uploads/global/Wunder-Shuttle_Dark.svg"
+  headline: Scale quickly with <br>on-demand ridehailing
   cta:
     button_text: Contact Us
     url: "#section-contact"
-    enabled: true
+    enabled: false
   background_video:
   show_logos: true
-  background_image: "/uploads/global/Image_Shuttle@2x.jpg"
+  background_image: "/uploads/global/shuttle-3dhero@2x.png"
 - block: shuttle-main
   subdirectory: static
 - template: detail-content
   block: contact-form
-  title: Let's Talk
-  content: Our team broke their own record in our last Shuttle implementation. Introduce
-    yourself and we'll get in touch in record time!
-  headline: Let's Talk
-  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
-- block: custom-html
-  content: "</main>"
+  title: Get in touch
+  content: Let us know a little bit about you, and we'll reply within 24 hours.
+  background_image: ""
 - template: simple-footer
   block: footer-1
 menu:

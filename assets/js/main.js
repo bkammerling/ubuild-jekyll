@@ -891,8 +891,8 @@ $(document).ready(function() {
     var target = $(this.hash);
     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
     var topOffset = 250;
-    if(this.hash.indexOf('contact')!= -1) {
-      topOffset = -200;
+    if(this.hash.indexOf('contact')!= -1 && pageref != "shuttle") {
+      topOffset = -100;
     }
     // Does a scroll target exist?
     if (target.length) {

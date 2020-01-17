@@ -1,0 +1,127 @@
+$eachslide-duration: 3s;
+$count: 4;
+
+.phonemockup-animation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .mockup-section & {
+    transform: scale(0.7);
+    margin-top: -150px;
+    margin-bottom: -25px;
+    @include rwd(tablet-up) {
+      margin: 0;
+      transform: none;
+    }
+  }
+  &.screens-5 {
+    $count: 5;
+  }
+  &.screens-4 {
+    $count: 4;
+  }
+  &_screen-mask {
+    height: 597px;
+    width: 281px;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    z-index: 5;
+    border-radius: 24px;
+    > img {
+      position: absolute;
+    }
+  }
+  &_notch {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.7%;
+  }
+  &_base {
+    position: relative;
+    animation: none;
+    filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1));
+    .dark-bg & {
+      filter: drop-shadow(0px 1px 16px rgba(200, 200, 200, 0.3))
+    }
+  }
+
+  .progress-bar {
+     position: absolute;
+     bottom: -20px;
+     width: 160px;
+     height: 1px;
+     background: #535253;
+     &:after {
+       content: '';
+       position: absolute;
+       left: 0;
+       top: 0;
+       width: 0%;
+       height: 1px;
+       background: $white;
+       animation: fullexpand $eachslide-duration*$count linear $eachslide-duration infinite;
+     }
+     .grey-bg & {
+       background: #A0A0A4;
+       &:after {
+         background: $mobility-black;
+       }
+     }
+   }
+
+   .phonemockup-animation_screen-mask img {
+     animation: cycle#{$count} $eachslide-duration*$count infinite;
+     @for $i from 1 through 5 {
+        &:nth-child(#{$i}) {
+          z-index: 11 - $i;
+          animation-delay: $eachslide-duration*$i;
+        }
+     }
+   }
+}
+
+
+.web-mockup {
+  filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1));
+}
+
+@keyframes cycle5 {
+   0%  { left: 0px; opacity: 1; } /* When you start the slide, the first image is already visible */
+   14%  { left: 0px; }
+   20% { left: -281px; opacity: 1; }
+   49% { left: -281px; opacity: 0}
+   50% { left: 281px; opacity: 0;  }
+   94% { left: 281px; opacity: 1; }
+   100% { left: 0px; opacity: 1;  }
+}
+@keyframes cycle4 {
+   0%  { left: 0px; opacity: 1; } /* When you start the slide, the first image is already visible */
+   21%  { left: 0px; }
+   25% { left: -281px; opacity: 1; }
+   49% { left: -281px; opacity: 0}
+   50% { left: 281px; opacity: 0;  }
+   96% { left: 281px; opacity: 1; }
+   100% { left: 0px; opacity: 1;  }
+}
+
+@keyframes fullexpand {
+   /* In these keyframes, the progress-bar is stationary */
+   0% { width: 0%; }
+   94% { width: 100%; }
+   100% { width: 0%; }
+}
+
+
+
+
+
+.shuttle {
+  .hero-banner__title-wrapper {
+    h1 {
+      color: $mobility-black;
+    }
+  }
+}

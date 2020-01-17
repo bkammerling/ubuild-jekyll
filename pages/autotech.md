@@ -15,13 +15,13 @@ page_sections:
   block: hero-2
   headline: Connecting leaders of the <strong>global mobility revolution</strong>
   cta:
-    button_text: Next Event
-    url: "#section-nextevent"
-    enabled: true
-  cta_2:
     url: "#section-aftermovie"
     button_text: Watch our Recap
     enabled: true
+  cta_2:
+    url: 
+    button_text:
+    enabled: false
   show_logos: false
   background_image: "/uploads/global/autotech-head@2x.png"
 - block: autotech-main

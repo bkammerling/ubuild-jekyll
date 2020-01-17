@@ -23,7 +23,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50px, -50px);
+    transform: translate(-40px, -40px);
     cursor: pointer;
     &:after {
       content: '';
@@ -35,8 +35,8 @@
       border: 3px solid $white;
       transition: all $transition-duration/2;
       position: absolute;
-      margin-left: 15px;
-      margin-top: -8px;
+      //margin-left: 15px;
+      //margin-top: -8px;
     }
     &:hover {
       &:after {
@@ -44,6 +44,9 @@
         border-color: $black;
         filter: invert(1);
       }
+    }
+    &.invert {
+      filter: invert(1);
     }
   }
 }
