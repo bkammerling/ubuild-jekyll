@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Geneva Wunder Mobility Session
-event_date: 2020-02-01 17:00:00 +0000
+event_date: 2020-03-10 17:00:00 +0000
 event_location: Geneva, Switzerland
 event_block:
 - template: navigation-header-w-button
