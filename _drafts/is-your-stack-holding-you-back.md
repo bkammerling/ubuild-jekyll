@@ -18,7 +18,7 @@ sticky: false
 hidden: false
 
 ---
-If your company is anything like most shared mobility startups, you’re probably on a constant quest to **perfect the customer journey** for your users. You also probably understand that while parts of your business customers really see and interact with - like the vehicles themselves and the user app - are very important components of any successful sharing company, they shouldn’t be given more attention than your backend management or **your sharing software**.
+If your company is anything like most shared mobility startups, you’re on a constant quest to **perfect the customer journey** for your users. You also probably understand that while parts of your business customers really see and interact with - like the vehicles themselves and the user app - are very important components of any successful sharing company, they shouldn’t be given more attention than your backend management or **your sharing software**.
 
 Consider that software the glue that holds your business model together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s not a bad idea to have an understanding of how the API your software is built on can either make or break your business. In case you need a refresher course on how a simple REST API flows, the graphic below is a great visual representation.
 
