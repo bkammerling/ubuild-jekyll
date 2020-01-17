@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Japan Mobility Sessions April 2020
-event_date: 2020-02-01T17:00:00.000+00:00
-event_location: Tokyo, Japan
+title: Geneva Wunder Mobility Session
+event_date: 2020-02-01 17:00:00 +0000
+event_location: Geneva, Switzerland
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -41,6 +41,6 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2019/05/02/tokyo@2x.jpg"
+featured_image: "/uploads/2020/01/17/scenic-view-of-the-mountains-733148.jpg"
 
 ---
