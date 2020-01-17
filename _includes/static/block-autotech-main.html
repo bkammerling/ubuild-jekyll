@@ -41,6 +41,7 @@
 
     </div>
 
+    {% comment %}
     <div class="container mt-5" id="section-nextevent">
       <div class="wunder-bg left top-1"></div>
 
@@ -63,7 +64,7 @@
             {{ next_event.event_date | date: "%B" }}
             {{ next_event.event_date | date: "%Y" }} <br>{{ next_event.event_location }}</h1>
             {% endcomment %}
-            <h1 class="mb-3 p-0">Tokyo, Japan</h1>
+            <h1 class="mb-3 p-0">Geneva, Switzerland</h1>
             <p class="text-black w-75 lead mb-5">{{ next_event.event_description }}</p>
             {% if next_event.output_page %}<a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>{% else %}<p>More information coming soon</p>{% endif %}
 
@@ -72,6 +73,7 @@
       </div>
 
     </div>
+    {% endcomment %}
 
     <br>
     <br>
