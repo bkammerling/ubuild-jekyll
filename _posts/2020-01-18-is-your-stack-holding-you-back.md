@@ -10,13 +10,13 @@ cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciti
   mobility content. Sign up to stay in the loop! '
 cta_link: pages/newsletter-signup.md
 title: Is Your Stack Holding You Back?
-publish_date: 2020-01-17T00:00:00.000+00:00
+publish_date: 2020-01-20 09:00:00 +0000
 featured_image: "/uploads/2020/01/18/stackbloglist.jpeg"
 excerpt: 'Both established startups and first-time founders can benefit from an open
   API. Read more to find out why. '
 share_image: "/uploads/2020/01/18/RestAPI.png"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 If your company is anything like most shared mobility startups, you’re probably on a constant quest to **perfect the customer journey** for your users. You also probably understand that the parts of your business customers really see and interact with - the vehicles themselves and the user app - are the most important components of any successful sharing company.
