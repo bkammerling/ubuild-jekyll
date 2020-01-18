@@ -12,7 +12,8 @@ cta_link: []
 title: Is Your Stack Holding You Back?
 publish_date: 2020-01-17T00:00:00.000+00:00
 featured_image: ''
-excerpt: ''
+excerpt: 'Both established startups and first-time founders can benefit from an open
+  API. Read more to find out why. '
 share_image: ''
 sticky: false
 hidden: false
