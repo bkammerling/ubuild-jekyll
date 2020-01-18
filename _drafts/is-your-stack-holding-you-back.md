@@ -24,7 +24,7 @@ If your company is anything like most shared mobility startups, you’re probabl
 
 After all, software is the glue holding your business model together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s not a bad idea to have an understanding of how the API your software is built on can either make or break your business. In case you need a refresher course on how a simple REST API flows, the graphic below is a great visual representation.
 
-![](https://lh4.googleusercontent.com/_F9fZzE1DGnssc-FWhvZs-4ShzoG85ww2uvmSknU2a3nkHKyGOTUmystVJq--4foSD7CYLVbUdXb93bI8XXl_r1EMovLPw07DXtArqF3IJj-1OwRiTCLZpFYrMkUjHGsV_A7g_PK =327x327)
+![](/uploads/2020/01/16/RestAPI.png)
 
 That’s a pretty simple API, designed for convenience and flexibility, but **both established startups and first-time founders can benefit from an open API** like the one above. Why? Because whether you have ten vehicles or ten thousand, you want to be able to scale your operations when you want, and as fast as you want. To do that, you’ll need an API that can scale with you.
 
