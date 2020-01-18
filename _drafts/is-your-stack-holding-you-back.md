@@ -4,17 +4,17 @@ category: Insights
 tags:
 - tech
 - software
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/pia-benthien.md
+cta_heading: Sign Up for Our Newsletter
+cta_text: 'Our monthly Wunder Bar newsletter is full of Wunder news and exciting mobility
+  content. Sign up to stay in the loop. '
+cta_link: pages/newsletter-signup.md
 title: Is Your Stack Holding You Back?
 publish_date: 2020-01-17T00:00:00.000+00:00
-featured_image: ''
+featured_image: "/uploads/2020/01/18/RestAPI.png"
 excerpt: 'Both established startups and first-time founders can benefit from an open
   API. Read more to find out why. '
-share_image: ''
+share_image: "/uploads/2020/01/18/RestAPI.png"
 sticky: false
 hidden: false
 
@@ -25,7 +25,7 @@ If your company is anything like most shared mobility startups, you’re probabl
 
 After all, software is the glue holding your business model together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s not a bad idea to have an understanding of how the API your software is built on can either make or break your business. In case you need a refresher course on how a simple REST API flows, the graphic below is a great visual representation.
 
-![](/uploads/2020/01/16/RestAPI.png)
+![A diagram of a simple rest API](/uploads/2020/01/16/RestAPI.png "Rest_API")
 
 That’s a pretty simple API, designed for convenience and flexibility, but **both established startups and first-time founders can benefit from an open API** like the one above. Why? Because whether you have ten vehicles or ten thousand, you want to be able to scale your operations when you want, and as fast as you want. To do that, you’ll need an API that can scale with you.
 
