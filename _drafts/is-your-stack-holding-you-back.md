@@ -37,8 +37,6 @@ Let’s look at a real-world application of an open API. Perhaps you have a type
 
 **That kind of inflexibility can be costly.** If you have a young, dynamic business and you’re looking to expand your operations quickly in the months and years to come, an open API is the only way to ensure that your entire business can scale at the rate you want. Customer demand can be fickle - open APIs ensure you’re one step ahead of the curve, and not trailing behind your users.
 
-While that all seems fairly self-explanatory, many software providers only offer a closed API, limiting their customers as well as their customers’ end users. If your business is stuck in a contract or a system limited in scope, it might be time to ask yourself: is your stack holding you back?
-
 ![](/uploads/2020/01/18/stackblogbody.jpg)
 
 It pays to give your customers a seamless experience. Make sure you can provide them with one by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
