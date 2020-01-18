@@ -6,8 +6,8 @@ tags:
 - software
 author: _people/pia-benthien.md
 cta_heading: Sign Up for Our Newsletter
-cta_text: 'Our monthly Wunder Bar newsletter is full of Wunder news and exciting mobility
-  content. Sign up to stay in the loop. '
+cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciting
+  mobility content. Sign up to stay in the loop! '
 cta_link: pages/newsletter-signup.md
 title: Is Your Stack Holding You Back?
 publish_date: 2020-01-17T00:00:00.000+00:00
