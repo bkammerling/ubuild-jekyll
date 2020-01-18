@@ -14,7 +14,7 @@ publish_date: 2020-01-20 09:00:00 +0000
 featured_image: "/uploads/2020/01/18/stackbloglist.jpeg"
 excerpt: 'Both established startups and first-time founders can benefit from an open
   API. Read more to find out why. '
-share_image: "/uploads/2020/01/18/RestAPI.png"
+share_image: "/uploads/2020/01/18/stackbloglist.jpeg"
 sticky: false
 hidden: true
 
