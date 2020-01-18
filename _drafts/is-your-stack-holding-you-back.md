@@ -39,4 +39,4 @@ Let’s look at a real-world application of an open API. Perhaps you have a type
 
 While that all seems fairly self-explanatory, many software providers only offer a closed API, limiting their customers as well as their customers’ end users. If your business is stuck in a contract or a system limited in scope, it might be time to ask yourself: is your stack holding you back?
 
-It pays to give your customers a seamless experience - modern users expect nothing less than perfection when trying out a new app. Make sure you can deliver them a seamless customer journey from the get-go by having flexible software that matches your ambitions.
+It pays to give your customers a seamless experience - modern users expect nothing less than perfection when trying out a new app. Make sure you can deliver them a seamless customer journey from the get-go by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
