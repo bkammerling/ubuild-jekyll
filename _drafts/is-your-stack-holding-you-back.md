@@ -11,7 +11,7 @@ cta_text: 'Our monthly Wunder Bar newsletter is full of Wunder news and exciting
 cta_link: pages/newsletter-signup.md
 title: Is Your Stack Holding You Back?
 publish_date: 2020-01-17T00:00:00.000+00:00
-featured_image: "/uploads/2020/01/18/RestAPI.png"
+featured_image: "/uploads/2020/01/18/stackbloglist.jpeg"
 excerpt: 'Both established startups and first-time founders can benefit from an open
   API. Read more to find out why. '
 share_image: "/uploads/2020/01/18/RestAPI.png"
