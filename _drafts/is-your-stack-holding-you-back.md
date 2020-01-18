@@ -41,4 +41,4 @@ While that all seems fairly self-explanatory, many software providers only offer
 
 ![](/uploads/2020/01/18/stackblogbody.jpg)
 
-It pays to give your customers a seamless experience - modern users expect nothing less than perfection when trying out a new app. Make sure you can provide them with a perfect customer journey from the get-go by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
+It pays to give your customers a seamless experience. Make sure you can provide them with one by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
