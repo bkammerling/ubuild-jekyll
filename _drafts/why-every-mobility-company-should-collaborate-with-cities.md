@@ -22,8 +22,6 @@ sticky: false
 hidden: false
 
 ---
-### Why Every Mobility Company Should Collaborate with Cities
-
 Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit. 
 
 ![](/uploads/2020/01/20/SamOpEdList.jpg)
