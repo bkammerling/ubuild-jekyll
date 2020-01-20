@@ -21,7 +21,7 @@ page_sections:
     url: "#section-contact"
     enabled: true
   background_video:
-  show_logos: true
+  show_logos: false
   background_image: "/uploads/global/Image_Shuttle@2x.jpg"
 - block: shuttle-main
   subdirectory: static/de
