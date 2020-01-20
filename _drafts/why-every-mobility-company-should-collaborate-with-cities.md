@@ -13,18 +13,22 @@ cta_text: The monthly Wunder Bar newsletter is full of exciting news and cool mo
 cta_link: pages/newsletter-signup.md
 title: Why Every Mobility Company Should Collaborate with Cities
 publish_date: 2020-01-21 09:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/01/20/SamOpEdList.jpg"
 excerpt: 'Mobility is a two-way street. Read more about why we need collaboration
   between the private and public sectors in this op-ed from our COO and cofounder
   Sam Baker. '
-share_image: ''
+share_image: "/uploads/2020/01/20/SamOpEdList.jpg"
 sticky: false
 hidden: false
 
 ---
 ### Why Every Mobility Company Should Collaborate with Cities
 
-Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit. This fast-paced growth is putting pressure on city leaders to come up with modern solutions for America’s transportation crisis. As a result, local government leaders are turning to technology, including access to third-party data from private mobility companies to provide a more holistic view of a city’s transportation landscape.
+Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit. 
+
+![](/uploads/2020/01/20/SamOpEdList.jpg)
+
+This fast-paced growth is putting pressure on city leaders to come up with modern solutions for America’s transportation crisis. As a result, local government leaders are turning to technology, including access to third-party data from private mobility companies to provide a more holistic view of a city’s transportation landscape.
 
 However, the process for transit data sharing isn’t all black and white. For example, Uber has been at the center of much controversy over the past few years when it comes to safety and privacy, and its antagonistic relationship with cities and local governments. Most recently JUMP, Uber’s scooter and bikes subsidiary, is being suspended from the streets of Los Angeles due to failure to comply with [city regulations](https://www.documentcloud.org/documents/6544631-Oct-25-MDS-Notice-of-Noncompliance-2019-10-25.html) and refusing to share real-time data. Now, Uber announced it’s challenging Los Angeles’ suspension of its permit to rent out bikes and scooters and we’re all watching to see how the outcome will play out and whether or not it will turn into a legal showdown.
 
