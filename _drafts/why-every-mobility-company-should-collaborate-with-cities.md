@@ -19,12 +19,12 @@ excerpt: 'Mobility is a two-way street. Read more about why we need collaboratio
   Sam Baker. '
 share_image: "/uploads/2020/01/20/SamOpEdList.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
-Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit. 
+Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit.
 
-![](/uploads/2020/01/20/SamOpEdList.jpg)
+![A group of kickscooters parked on the sidewalk.](/uploads/2020/01/20/SamOpEdList.jpg "Kickscooters")
 
 This fast-paced growth is putting pressure on city leaders to come up with modern solutions for America’s transportation crisis. As a result, local government leaders are turning to technology, including access to third-party data from private mobility companies to provide a more holistic view of a city’s transportation landscape.
 
@@ -68,6 +68,6 @@ While city mobility partnerships and data-protection policies are still a work i
 
 ##### About the Author
 
-Sam Baker is the COO and co-founder of [Wunder Mobility](https://www.wundermobility.com/fleet?utm_medium=cpc&utm_id=1780290853&utm_campaign=b2bbrand&utm_source=google&utm_term=mobilitybrand), helping cities and companies around the globe to plan, develop and deploy safer, more efficient transport solutions faster than ever before.
+Sam Baker is the COO and co-founder of [Wunder Mobility](https://www.wundermobility.com/ "Wunder Mobility Homepage"), helping cities and companies around the globe to plan, develop and deploy safer, more efficient transport solutions faster than ever before.
 
 After graduating from Santa Clara University, Sam started his career at eBay supporting executive decision-making for a complex network of international subsidiaries and strategic acquisitions. He lived in Central America where he led a project funded by the Mastercard Foundation to launch innovative financial products for youth. When he returned to California, Sam joined the Just Business (JB) venture capital firm as a partner investing in socially impactful businesses. He also served on the board of directors for Squarebar, an organic protein bar company. Additionally, Sam is an active startup investor and nonprofit advisor.
