@@ -17,7 +17,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-hp
   sub_logo: "/uploads/global/Wunder-Shuttle_Dark.svg"
-  headline: Scale quickly with <br>on-demand ridehailing
+  headline: Scale quickly with <br>on-demand ride-hailing
   cta:
     button_text: Contact Us
     url: "#section-contact"
