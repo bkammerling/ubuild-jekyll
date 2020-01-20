@@ -38,13 +38,13 @@ As part of this program, all scooter companies are required to share real-time l
 
 For now, Uber has yet to propose any other alternatives that would help keep cities keep sidewalks and streets clutter-free, despite ongoing issues. However, platforms like MDS are critical for ensuring dockless scooters and bikes are being deployed across the city in a safe and efficient manner, ensuring that it’s a positive development for cities and residents.
 
+> Mobility players owe it to cities to communicate insights that make a difference.
+
 Efforts to connect data from private mobility operators with cities isn’t a new concept. Back in 2016, The [World Bank’s OpenTraffic project](http://www.worldbank.org/en/news/press-release/2016/12/19/the-world-bank-launches-new-open-transport-partnership-to-improve-transportation-through-open-data) was launched to utilize traffic information from commercial fleets, supported by companies such as Grab and Easy Taxi. Now, the project is part of [SharedStreets](https://www.sharedstreets.io/), a collaboration between the [National Association of City Transportation Officials](https://nacto.org/) (NACTO), the [World Resources Institute](https://www.wri.org/?gclid=EAIaIQobChMIyu-Xi6vt5QIVcRh9Ch1eSADEEAAYASAAEgJJnfD_BwE) and the[ International Transport Forum](https://www.itf-oecd.org/), which focuses on collecting and sharing public and private transport data in major cities like New York and Washington D.C.
 
 **Micromobility is a universal challenge**
 
 Los Angeles isn’t the only city facing micromobility challenges. For example, in 2018 when multiple scooter companies were deployed across the streets of San Francisco without permits, many residents were infuriated. Scooters were haphazardly parked and created safety issues on sidewalks. As a result of the mayhem, the city of San Francisco suspended all scooters without permits, only granting access to Scoot and Skip initially, until last month when the city and approved JUMP, Lime, Scoot and Spin. To avoid repeating these issues, SF and other cities have now designated on-street parking areas for scooters, locks that need to be programmed before and after usage and created speed limits in popular pedestrian areas.
-
-> Mobility players owe it to cities to communicate insights that make a difference.
 
 In European cities like Hamburg and Berlin, private companies are already collaborating with cities to help collect data on scooter operators in order to better understand and keep track of these new micromobility providers to ensure they’re operating compliantly. This has created a better understanding between the public and private sectors. Specifically, the city of Hamburg has been able to combine relevant data from multiple mobility services for a holistic view of the city, which has aided significantly in urban planning and strategy.
 
@@ -53,6 +53,8 @@ In European cities like Hamburg and Berlin, private companies are already collab
 Partnerships between city governments, public transportation networks and private operators are critical to solving transit gaps and ensuring consumers have access to robust mobility services. However, Uber and Lyft have disrupted efforts to improve the safety and effectiveness of public transportation by pulling riders away from subways and bus lines. Research from the University of Kentucky \[[PDF](http://usa.streetsblog.org/wp-content/uploads/sites/5/2019/01/19-04931-Transit-Trends.pdf)\] examining 22 cities suggests that more than any other factor, ride-hailing is responsible for the decline of public transportation use in the U.S. According to the report, Uber and Lyft have reduced bus ridership in San Francisco a staggering 12.7 percent since they entered the market in 2010.
 
 Transit agencies across the U.S. are responding to the new methods of commuting brought on by the ridesharing economy by reevaluating how they can best support mobility in cities and suburbs. Many local transit departments in cities such as [Atlanta](https://martaguide.com/ways-to-use-uber-with-marta/) are partnering with commercial rideshare providers to address issues such as late-night service interruptions and commuter parking shortages. Mobility players like Uber and Lyft owe it to cities to communicate valuable insights that will make a difference in helping cities plan for everything from congestion to the impacts of climate change.
+
+> It’s up to the entire community to make an active effort to improve mobility for everyone.
 
 **The bottom line**
 
