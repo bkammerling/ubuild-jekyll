@@ -61,3 +61,11 @@ Transit agencies across the U.S. are responding to the new methods of commuting 
 Many city governments are taking steps to adapt to the new landscape of urban mobility where ridesharing is a dominant mode of transportation. This week, Los Angeles announced the creation of its [Urban Movement Labs](http://l), which will be a public-private partnership that aims to accelerate transportation innovation across the city. Its goal is to bring together city representatives, citizens, the private sector and academia to collaborate on new ideas, test them on the streets and implement them in Los Angeles.
 
 While city mobility partnerships and data-protection policies are still a work in progress, it’s up to the entire mobility community, including Uber, to make an active effort to partner with city governments on transportation initiatives that leverage data in real-time to improve mobility for everyone.
+
+***
+
+##### About the Author
+
+Sam Baker is the COO and co-founder of [Wunder Mobility](https://www.wundermobility.com/fleet?utm_medium=cpc&utm_id=1780290853&utm_campaign=b2bbrand&utm_source=google&utm_term=mobilitybrand), helping cities and companies around the globe to plan, develop and deploy safer, more efficient transport solutions faster than ever before.
+
+After graduating from Santa Clara University, Sam started his career at eBay supporting executive decision-making for a complex network of international subsidiaries and strategic acquisitions. He lived in Central America where he led a project funded by the Mastercard Foundation to launch innovative financial products for youth. When he returned to California, Sam joined the Just Business (JB) venture capital firm as a partner investing in socially impactful businesses. He also served on the board of directors for Squarebar, an organic protein bar company. Additionally, Sam is an active startup investor and nonprofit advisor.
