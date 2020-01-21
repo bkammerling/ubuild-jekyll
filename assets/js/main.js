@@ -209,7 +209,7 @@ var myLazyLoad2 = new LazyLoad({
     elements_selector: ".lazy"
 });
 
-
+var formHistory = [];
 var form = {
   init: function() {
     $('input, textarea, select').focus(function(){
@@ -245,12 +245,7 @@ var form = {
     //console.log(contactForm.serialize());
     var data = form.serializeObject(contactForm);
     var label = form.conversionLabels[data.subject];
-
     /* WMS subject / conversion label stuff removed 02/12/19 - must add back with event forms */
-
-    // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
-    dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
-
     if(localStorage.getItem('lastBlog')) {
       data.lastBlog = localStorage.getItem('lastBlog');
       data.lastBlogTime = localStorage.getItem('lastBlogTime');
@@ -273,7 +268,7 @@ var form = {
       headers: {
         "Accept": "application/json"
       }
-    }).done(function (data) {
+    }).done(function (response) {
       contactForm.find(".form-feedback").removeClass('hidden');
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
@@ -281,7 +276,9 @@ var form = {
       form.initializeSelect2('.select2-init');
       $("#form-submit").attr("disabled", false);
       formHistory.push("sent");
-      console.log('ajax done success', data);
+      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
+      dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
+      //console.log('ajax done success', response);
     }).fail(function (error) {
       console.log(error);
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
@@ -316,6 +313,7 @@ var form = {
     });
     $(selector).on('select2:select', function (e) {
       $(this).siblings('.select2').addClass('selected');
+      formHistory.push($(this).attr('name'));
     });
   },
 
@@ -919,34 +917,27 @@ $(document).ready(function() {
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
 
-  // set up unload event for when the user leaves the page - used with GTM
-  window.addEventListener('beforeunload', function() {
-    window.dataLayer.push({
-  	  event: 'beforeunload'
-  	});
-  });
 
   // set up event for when a form field is filled but the form is not sent - used with GMT
-  var formHistory = [];
-  (function() {
-    var formSelector = 'form#main-contact';
-    var attribute = 'name';
-    window.addEventListener('beforeunload', function() {
-      if (formHistory.length) {
-        window.dataLayer.push({
-          'event' : 'formInteraction',
-          'eventCategory' : 'Form Interaction',
-          'eventAction' : formHistory.join(' > ')
-        });
-      }
-    });
-    document.querySelector(formSelector).addEventListener('change', function(e) {
-      var vieldName = e['target'].getAttribute(attribute);
-      //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
-      formHistory.push(vieldName);
-    });
-
-  })();
+  window.addEventListener('beforeunload', function() {
+    dataLayer.push({
+  	  event: 'beforeunload'
+  	});
+    if (formHistory.length) {
+      dataLayer.push({
+        'event' : 'formInteraction',
+        'eventCategory' : 'Form Interaction',
+        'eventAction' : formHistory.join(' > ')
+      });
+    }
+  });
+  var formSelector = 'form#main-contact';
+  var attribute = 'name';
+  document.querySelector(formSelector).addEventListener('change', function(e) {
+    var vieldName = e['target'].getAttribute(attribute);
+    //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
+    formHistory.push(vieldName);
+  });
 
 
 });
