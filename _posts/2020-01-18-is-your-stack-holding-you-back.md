@@ -10,11 +10,11 @@ cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciti
   mobility content. Sign up to stay in the loop! '
 cta_link: pages/newsletter-signup.md
 title: Is Your Stack Holding You Back?
-publish_date: 2020-01-20 09:00:00 +0000
-featured_image: "/uploads/2020/01/18/stackbloglist.jpeg"
+publish_date: 2020-01-20T09:00:00.000+00:00
+featured_image: "/uploads/2020/01/21/linkedin-blog-image.jpg"
 excerpt: 'Both established startups and first-time founders can benefit from an open
   API. Read more to find out why. '
-share_image: "/uploads/2020/01/18/stackbloglist.jpeg"
+share_image: "/uploads/2020/01/21/linkedin-blog-image.jpg"
 sticky: false
 hidden: true
 
@@ -37,6 +37,6 @@ Let’s look at a real-world application of an open API. Perhaps you have a type
 
 **That kind of inflexibility can be costly.** If you have a young, dynamic business and you’re looking to expand your operations quickly in the months and years to come, an open API is the only way to ensure that your entire business can scale at the rate you want. Customer demand can be fickle - open APIs ensure you’re one step ahead of the curve, and not trailing behind your users.
 
-![](/uploads/2020/01/18/stackblogbody.jpg)
+![](/uploads/2020/01/21/linkedin-blog-image.jpg)
 
 It pays to give your customers a seamless experience. Make sure you can provide them with one by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
