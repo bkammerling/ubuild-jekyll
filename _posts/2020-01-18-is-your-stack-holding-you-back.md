@@ -9,34 +9,36 @@ cta_heading: Sign Up for Our Newsletter
 cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciting
   mobility content. Sign up to stay in the loop! '
 cta_link: pages/newsletter-signup.md
-title: Is Your Stack Holding You Back?
+title: Is Your Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
 featured_image: "/uploads/2020/01/21/linkedin-blog-image.jpg"
-excerpt: 'Both established startups and first-time founders can benefit from an open
-  API. Read more to find out why. '
-share_image: "/uploads/2020/01/21/linkedin-blog-image.jpg"
+excerpt: Both established startups and first-time founders can benefit from a platform
+  with an open API. Read more to find out why.
+share_image: "/uploads/2020/01/22/api-linkedin.jpg"
 sticky: false
 hidden: true
 
 ---
-If your company is anything like most shared mobility startups, you’re probably on a constant quest to **perfect the customer journey** for your users. You also probably understand that the parts of your business customers really see and interact with - the vehicles themselves and the user app - are the most important components of any successful sharing company.
+If your company is anything like most shared mobility startups, or even in the tech sector at all, you’ve probably heard the phrase ‘tech stack’ before. It’s not just another piece of jargon, however. Understanding your tech stack is vital for the success of your product, whether it’s just a standalone app or a complete ecosystem.
 
-> Software is the glue holding your business together.
+To make sure we’re all on the same page, let’s clarify what we mean by ‘tech stack’. Imagine all the technologies used to build and maintain a web or mobile application. From the languages and libraries of the developers, to the front-end experience of the users, to the data analysis tools of the product managers, there are so many options at each step of the process. Making the right choice, or more importantly, having the flexibility of choice, can play a vital role in your business’s success.
 
-After all, software is the glue holding your business model together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s not a bad idea to have an understanding of how the API your software is built on can either make or break your business. In case you need a refresher course on how a simple REST API flows, the graphic below is a great visual representation.
+An API (or Application Programming Interface) allows you to extend or customize your tech stack by creating, as the name suggests, an _interface_ for communication; a handshake between your core platform and any third party apps, vehicles, tools or whatever it is that needs to connect! This is what gives your tech ecosystem the chance to grow and scale with you.
 
-![A diagram of a simple rest API](/uploads/2020/01/16/RestAPI.png "Rest_API")
+![](/uploads/2020/01/22/api-linkedin.jpg)
 
-That’s a pretty simple API, designed for convenience and flexibility, but **both established startups and first-time founders can benefit from an open API** like the one above. Why? Because whether you have ten vehicles or ten thousand, you want to be able to scale your operations when you want, and as fast as you want. To do that, you’ll need an API that can scale with you.
+**Time for a real-world example, yay!**
 
-The main reason why an open API is better than its closed counterpart is that it can be easily customized to **fit the needs of your business** and isn’t limited by software or tools you’ve already purchased - meaning it’s compatible with pretty much any program you can develop.
+To use a very 21st century example, let’s imagine you want to get the latest model of your mobile phone. There may be a small set-up process, but before you know it, you’re making calls and googling what year ‘The Lion King’ was released just as you would have done previously (it’s ‘94 by the way). Only _now_ you have vastly improved performance, a much crisper camera and maybe some extra features.
 
-Let’s look at a real-world application of an open API. Perhaps you have a type of vehicle in your fleet which is only compatible with a specific, relatively uncommon IoT device. (It happens.) In order to ensure the seamless integration of that IoT device into your software platform, a dedicated team of developers will need to write the code that makes that device compatible - but before they even begin doing _that_, it’s hugely important that your platform is built on an open API. Otherwise, you’ll be forced to use the platform those devices were originally designed for, whether you like it or not.
+With an open API, the same thing is possible for your platform. Perhaps you just want some stronger, deeper data analysis. There are so many tools out there to help you, simply take your pick. Your analyst refuses to work with anything other than pure, uncensored SQL, no problem. What’s this hype around predictive analytics? Let’s try it! With the example of data, an API lets you leverage the many endpoints it offers to get the data you need into whatever tool or software you are using. It’s not 2013, so I won’t remind you how important data is for a tech business (or any business, for that matter). But deciding how, when, and what to analyse is a flexibility and advantage not all platforms offer.
 
-> Inflexibility can be costly.
+In the world of shared mobility, there’s a lot of handshaking to be done between different technologies. Driver license verification, payments and of course the vehicles to name just a few. Vehicles need to be connected with an IoT device. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking and riding your shared vehicles.
 
-**That kind of inflexibility can be costly.** If you have a young, dynamic business and you’re looking to expand your operations quickly in the months and years to come, an open API is the only way to ensure that your entire business can scale at the rate you want. Customer demand can be fickle - open APIs ensure you’re one step ahead of the curve, and not trailing behind your users.
+So our stack gets higher when you integrate or upgrade your IoT device. This raises the question, is this even possible with your current tech stack? Well, if your core platform is built with flexibility in mind, then yes! If not, then you’ll either be stuck with a limited selection of hardware choices, or you could move to a more open platform.
 
-![](/uploads/2020/01/21/linkedin-blog-image.jpg)
+![](/uploads/2019/08/23/carrentalarticlelist.jpg)
 
-It pays to give your customers a seamless experience. Make sure you can provide them with one by having [flexible software](https://www.wundermobility.com/) that matches your ambitions.
+In a shared mobility company, the technology you use becomes the glue holding your product together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s wise to go for something that can grow and scale with you. An API gives you an open connection to your bigger, brighter, future business!
+
+It pays to give your business and your customers a smooth ride and a seamless experience. Make sure you can provide them with one by having a [flexible platform](https://www.wundermobility.com/fleet "Wunder Fleet - Technology for car, bike and scooter sharing") that matches your ambitions.
