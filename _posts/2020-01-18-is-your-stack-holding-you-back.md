@@ -25,8 +25,7 @@ To make sure we’re all on the same page, let’s clarify what we mean by ‘te
 
 An API (or Application Programming Interface) allows you to extend or customize your tech stack by creating, as the name suggests, an _interface_ for communication; a handshake between your core platform and any third party apps, vehicles, tools or whatever it is that needs to connect! This is what gives your tech ecosystem the chance to grow and scale with you.
 
-![](/uploads/2020/01/22/api-linkedin.jpg)  
-_APIs allow you to connect to new software and hardware_
+![](/uploads/2020/01/22/api-linkedin.jpg)_APIs allow you to connect to new software and hardware_
 
 **Time for a real-world example, yay!**
 
@@ -38,8 +37,9 @@ With an open API, the same thing is possible for your platform. Perhaps you just
 
 In the world of shared mobility, there’s a lot of handshaking to be done between different technologies. Driver license verification, payments and of course the vehicles to name just a few. Vehicles need to be connected with an IoT device. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking and riding your shared vehicles.
 
-![Bikes and cars parked with wifi symbols](/uploads/2020/01/23/iot-vehicles.jpg)  
-_Vehicles with IoT devices are sharing-ready_
+So our stack gets higher when you integrate or upgrade your IoT device. This raises the question, is this even possible with your current tech stack? Well, if your core platform is built with flexibility in mind, then yes! If not, then you’ll either be stuck with a limited selection of hardware choices, or you could move to a more open platform.
+
+![Bikes and cars parked with wifi symbols](/uploads/2020/01/23/iot-vehicles.jpg)_Vehicles with IoT devices are sharing-ready_
 
 In a shared mobility company, the technology you use becomes the glue holding your product together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s wise to go for something that can grow and scale with you. An API gives you an open connection to your bigger, brighter, future business!
 
