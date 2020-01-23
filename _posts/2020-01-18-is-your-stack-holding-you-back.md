@@ -11,12 +11,12 @@ cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciti
 cta_link: pages/newsletter-signup.md
 title: Is Your Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
-featured_image: "/uploads/2020/01/21/linkedin-blog-image.jpg"
+featured_image: "/uploads/2020/01/22/api-linkedin.jpg"
 excerpt: Both established startups and first-time founders can benefit from a platform
   with an open API. Read more to find out why.
 share_image: "/uploads/2020/01/22/api-linkedin.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 If your company is anything like most shared mobility startups, or even in the tech sector at all, you’ve probably heard the phrase ‘tech stack’ before. It’s not just another piece of jargon, however. Understanding your tech stack is vital for the success of your product, whether it’s just a standalone app or a complete ecosystem.
@@ -25,7 +25,8 @@ To make sure we’re all on the same page, let’s clarify what we mean by ‘te
 
 An API (or Application Programming Interface) allows you to extend or customize your tech stack by creating, as the name suggests, an _interface_ for communication; a handshake between your core platform and any third party apps, vehicles, tools or whatever it is that needs to connect! This is what gives your tech ecosystem the chance to grow and scale with you.
 
-![](/uploads/2020/01/22/api-linkedin.jpg)
+![](/uploads/2020/01/22/api-linkedin.jpg)  
+_APIs allow you to connect to new software and hardware_
 
 **Time for a real-world example, yay!**
 
@@ -33,11 +34,12 @@ To use a very 21st century example, let’s imagine you want to get the latest m
 
 With an open API, the same thing is possible for your platform. Perhaps you just want some stronger, deeper data analysis. There are so many tools out there to help you, simply take your pick. Your analyst refuses to work with anything other than pure, uncensored SQL, no problem. What’s this hype around predictive analytics? Let’s try it! With the example of data, an API lets you leverage the many endpoints it offers to get the data you need into whatever tool or software you are using. It’s not 2013, so I won’t remind you how important data is for a tech business (or any business, for that matter). But deciding how, when, and what to analyse is a flexibility and advantage not all platforms offer.
 
+> An API gives you an open connection to your bigger, brighter, future business
+
 In the world of shared mobility, there’s a lot of handshaking to be done between different technologies. Driver license verification, payments and of course the vehicles to name just a few. Vehicles need to be connected with an IoT device. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking and riding your shared vehicles.
 
-So our stack gets higher when you integrate or upgrade your IoT device. This raises the question, is this even possible with your current tech stack? Well, if your core platform is built with flexibility in mind, then yes! If not, then you’ll either be stuck with a limited selection of hardware choices, or you could move to a more open platform.
-
-![](/uploads/2019/08/23/carrentalarticlelist.jpg)
+![Bikes and cars parked with wifi symbols](/uploads/2020/01/23/iot-vehicles.jpg)  
+_Vehicles with IoT devices are sharing-ready_
 
 In a shared mobility company, the technology you use becomes the glue holding your product together. Since it plays such a pivotal role in determining your sharing startup’s success, it’s wise to go for something that can grow and scale with you. An API gives you an open connection to your bigger, brighter, future business!
 
