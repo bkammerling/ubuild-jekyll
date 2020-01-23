@@ -13,7 +13,8 @@ title: Is Your Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
 featured_image: "/uploads/2020/01/22/api-linkedin.jpg"
 excerpt: Both established startups and first-time founders can benefit from a platform
-  with an open API. Read more to find out why.
+  with an open API. It enables you to extend and customize your tech stack to perfect
+  your product.
 share_image: "/uploads/2020/01/22/api-linkedin.jpg"
 sticky: false
 hidden: false
