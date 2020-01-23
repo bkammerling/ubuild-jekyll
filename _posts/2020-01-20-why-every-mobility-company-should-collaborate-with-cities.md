@@ -12,14 +12,14 @@ cta_text: The monthly Wunder Bar newsletter is full of exciting news and cool mo
   content. Sign up to stay in the loop.
 cta_link: pages/newsletter-signup.md
 title: Why Every Mobility Company Should Collaborate with Cities
-publish_date: 2020-01-21 09:00:00 +0000
+publish_date: 2020-01-21T09:00:00.000+00:00
 featured_image: "/uploads/2020/01/20/SamOpEdList.jpg"
 excerpt: 'Mobility is a two-way street. Read more about why we need collaboration
   between the private and public sectors in this op-ed from our COO and cofounder
   Sam Baker. '
 share_image: "/uploads/2020/01/20/SamOpEdList.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Urban populations are growing at an unprecedented rate. According to the [United Nations](https://www.un.org/en/events/citiesday/assets/pdf/the_worlds_cities_in_2018_data_booklet.pdf), there are now more than 33 megacities with populations of over 10 million. By 2050, two out of every three people globally will live in an urban area. As cities continue to grow, so do the challenges in urban mobility, from traffic congestion to unreliable public transit.

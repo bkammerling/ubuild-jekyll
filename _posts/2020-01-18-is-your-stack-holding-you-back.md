@@ -4,7 +4,7 @@ category: Insights
 tags:
 - tech
 - software
-author: _people/pia-benthien.md
+author: _people/ben-kammerling.md
 cta_heading: Sign Up for Our Newsletter
 cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciting
   mobility content. Sign up to stay in the loop! '
