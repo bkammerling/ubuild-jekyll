@@ -883,6 +883,7 @@ $(document).ready(function() {
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href*="pill"]')
   .not('[href="https://www.wundermobility.com/#section-contact"]')
   .click(function(event) {
     // On-page links
@@ -935,8 +936,10 @@ $(document).ready(function() {
   var attribute = 'name';
   document.querySelector(formSelector).addEventListener('change', function(e) {
     var vieldName = e['target'].getAttribute(attribute);
+    //console.log('form changed: ' + vieldName)
     //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
     formHistory.push(vieldName);
+    //console.log(formHistory);
   });
 
 

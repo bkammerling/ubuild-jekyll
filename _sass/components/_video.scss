@@ -24,17 +24,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-40px, -40px);
+    filter: invert(1);
     cursor: pointer;
     &:after {
       content: '';
       display: inline-block;
-      background: url(/uploads/global/play-inner.svg) center center/19px no-repeat;
+      background: url(/uploads/global/play-inner.svg) center center/19px no-repeat #000;
       width: 80px;
       height: 80px;
       border-radius: 50%;
-      border: 3px solid $white;
       transition: all $transition-duration/2;
       position: absolute;
+      box-shadow: 0 0 60px 0px rgba(255,255,255,0.1);
       //margin-left: 15px;
       //margin-top: -8px;
     }
@@ -42,11 +43,8 @@
       &:after {
         background-color: $black;
         border-color: $black;
-        filter: invert(1);
+        transform: scale(1.1);
       }
-    }
-    &.invert {
-      filter: invert(1);
     }
   }
 }
