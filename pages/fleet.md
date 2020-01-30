@@ -44,7 +44,7 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-share_image: "/uploads/2019/11/14/Sharer-Fleet - tech2.jpg"
+share_image: "/uploads/2020/01/30/Sharer-Fleet-tech2@2x.jpg"
 menu:
   wunder-main:
     weight: 6
