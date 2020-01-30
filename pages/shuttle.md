@@ -1,7 +1,7 @@
 ---
 layout: blocks
-title: Wunder Shuttle | Launch your on-demand shuttle operations
-date: 2019-01-10T23:00:00.000+00:00
+title: Wunder Shuttle | On-demand ride-hailing technology
+date: '2019-01-10T23:00:00.000+00:00'
 permalink: "/shuttle"
 lang: en
 lang-ref: shuttle
@@ -14,6 +14,7 @@ page_sections:
     url: "#section-contact"
     button_text: Contact
     enabled: true
+  sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
   sub_logo: "/uploads/global/Wunder-Shuttle_Dark.svg"
@@ -22,9 +23,15 @@ page_sections:
     button_text: Contact Us
     url: "#section-contact"
     enabled: false
-  background_video:
+  background_video: ''
   show_logos: true
   background_image: "/uploads/global/shuttle-3dhero@2x.png"
+  intro_text: ''
+  cta_2:
+    enabled: false
+    url: ''
+    button_text: ''
+  logo_row: ''
 - block: shuttle-main
   subdirectory: static
   template: static-file
@@ -32,9 +39,12 @@ page_sections:
   block: contact-form
   title: Get in touch
   content: Let us know a little bit about you, and we'll reply within 24 hours.
-  background_image: ""
+  background_image: ''
+  headline: ''
 - template: simple-footer
   block: footer-1
+  content: ''
+share_image: "/uploads/2020/01/30/Sharer-Shuttle@2x.jpg"
 menu:
   wunder-main:
     weight: 3
