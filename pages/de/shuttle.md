@@ -24,6 +24,7 @@ page_sections:
   show_logos: false
   background_image: "/uploads/global/Image_Shuttle@2x.jpg"
 - block: shuttle-main
+  template: static-file
   subdirectory: static/de
 - template: detail-content
   block: contact-form
