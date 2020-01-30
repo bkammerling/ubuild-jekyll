@@ -27,6 +27,7 @@ page_sections:
   background_image: "/uploads/global/shuttle-3dhero@2x.png"
 - block: shuttle-main
   subdirectory: static
+  template: static-file
 - template: detail-content
   block: contact-form
   title: Get in touch
