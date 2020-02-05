@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Mobility Summit '19 | Wunder Mobility
+title: Wunder Mobility Summit 2019 | Wunder Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/wms19"
 lang-ref: wms19

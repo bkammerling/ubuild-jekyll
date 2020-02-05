@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Mobility Summit | Defining the Future of Mobility
+title: Wunder Mobility Summit 2020 | Defining the Future of Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
 page_sections:
@@ -10,14 +10,15 @@ page_sections:
   cta:
     url: "#"
     button_text: Apply to join
+    enabled: false
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Join the<strong> brightest minds in mobility</strong>
+  headline: <strong>Wunder Mobility Summit</strong> 2020
   cta:
-    button_text: ''
+    button_text: 'Apply to join'
     url: "#"
-    enabled: false
+    enabled: true
   cta_2:
     url: ''
     button_text: ''
@@ -43,7 +44,7 @@ page_sections:
                     <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-summit-detail">Intro</a>
                     <a class="list-group-item list-group-item-action gt-scrollnav" href="#main-video">Summit Film</a>
                     <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Speakers</a>
-                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-energetic">Past Summits</a>
+                    <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-energetic">Feedback</a>
                   </div>
                 </div>
               </div>
@@ -111,7 +112,7 @@ page_sections:
   sub-heading: The future is now! Let's explore what will bring in the next phase of the
     mobility revolution.
 - template: speakers
-  heading: Speakers
+  heading: 2019 Featured Speakers
   sub-heading: Hear from leaders & innovators from different areas of mobility around the globe. Expect priceless insights and a platform to learn, share and experience what the future holds.
   block: speaker-cards
   speakers:
@@ -193,7 +194,7 @@ page_sections:
       <div class="last-summit__wrapper block-full-right col-2-in">
         <div class="container container-fullright">
           <h2 class="page-heading mb-1">Audience</h2>
-          <p class="lead">WMS pulls in an international attendance made up of predominantly CEOs, startup founders and thought-leaders from the new mobility industry.</p>
+          <p class="lead">WMS pulls in an international attendance made up of predominantly CEOs, startup founders and thought-leaders from the new mobility industry. This is the average split of our attendees...</p>
           <br>
           <br>
           <div class="percent-bar__wrapper">
@@ -285,9 +286,10 @@ page_sections:
   bg_image: "/uploads/2019/05/13/wms_bgphoto_2@2x.jpg"
   unique_id: future
   col_1:
-    content: With 350+ hand-picked international guests, the off-stage interactions
+    content: |-
+      With 350+ hand-picked international guests, the off-stage interactions
       will be just as valuable as the on-stage talks to encourage conversations between
-      mobility leaders to shape a better future.
+      mobility leaders to shape a better future. <br> <br> <a class="round-cta dark gt-headercta" style="margin-bottom: -50px" href="#" data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020">Apply to join</a>
     headline: Shape a better future
   col_2:
     headline: ''
@@ -318,8 +320,7 @@ page_sections:
       class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
       event, and it's a great opportunity to talk to the brightest minds in the mobility
       space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
-      BMW I Ventures</footer></blockquote></div><a style="margin-bottom:-50px" class="round-cta
-      dark mt-5" href="/summit/wms19">Past Summits</a>
+      BMW I Ventures</footer></blockquote></div><a class="mt-4 d-block text-blue" href="/summit/wms19"><strong>Check out our last summit</strong></a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:

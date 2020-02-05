@@ -10,14 +10,23 @@
       </div>
       <form id="modal-form"  class="ajaxForm" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
         <div class="modal-body">
-          <input type="hidden" id="subject-field" value="Attend AutoTech">
+          <input type="hidden" id="subject-field" value="Attend Event">
+          <p class="hidden">
+            <input name="_gotcha">
+          </p>
           <input type="hidden" name="country" id="user-country" value="">
-          <input type="hidden" id="recipient-firstname" name="firstname" />
+          <input type="hidden" name="region" id="user-region" value="EN">
+          <input type="hidden" name="lang" id="site-lang" value="en">
           <input type="hidden" name="utm_source" id="utm_source" value="">
           <input type="hidden" name="utm_medium" id="utm_medium" value="">
           <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-          <input type="hidden" name="utm_campaignid" id="utm_campaignid" value="">
+          <input type="hidden" name="utm_term" id="utm_term" value="">
+          <input type="hidden" name="campaign_id" id="campaign_id" value="">
+          <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
+          <input type="hidden" name="title_id" id="title_id" value="">
+          <input type="hidden" name="first_visit" id="first_visit" value="">
           <div class="container-fluid">
+            <p>We just need to know some details</p>
             <div class="row">
               <div class="col-sm-6">
                 <div class="row">
@@ -41,8 +50,8 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="recipient-tel" class="col-form-label">Phone Number</label>
-                  <input type="text" class="form-control" id="recipient-tel" name="tel" placeholder="+49 173 1234 567"/>
+                  <label for="recipient-company" class="col-form-label">Company *</label>
+                  <input type="text" class="form-control" id="recipient-company" name="company" required placeholder="Your company" />
                 </div>
                 <div class="form-group">
                   <label for="recipient-job" class="col-form-label">Job Title *</label>
@@ -51,14 +60,15 @@
               </div>
             </div>
             <hr>
+            <p>The rest is optional</p>
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="recipient-company" class="col-form-label">Company *</label>
-                  <input type="text" class="form-control" id="recipient-company" name="company" required />
+                  <label for="recipient-tel" class="col-form-label">Phone Number</label>
+                  <input type="text" class="form-control" id="recipient-tel" name="tel" placeholder="+49 123 456789"/>
                 </div>
                 <div class="form-group">
-                  <label for="recipient-address1" class="col-form-label">Company Address 1 *</label>
+                  <label for="recipient-address1" class="col-form-label">Company Address 1</label>
                   <input type="text" class="form-control" id="recipient-address1" name="address1" required />
                 </div>
                 <div class="form-group">
@@ -68,22 +78,22 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="recipient-city" class="col-form-label">Company City/State *</label>
+                  <label for="recipient-city" class="col-form-label">Company City/State</label>
                   <input type="text" class="form-control" id="recipient-city" name="city" required />
                 </div>
                 <div class="form-group">
-                  <label for="recipient-postcode" class="col-form-label">Company Zip/Postcode *</label>
+                  <label for="recipient-postcode" class="col-form-label">Company Zip/Postcode</label>
                   <input type="text" class="form-control" id="recipient-postcode" name="postcode" required />
                 </div>
                 <div class="form-group">
-                  <label for="recipient-country" class="col-form-label">Company Country *</label>
+                  <label for="recipient-country" class="col-form-label">Company Country</label>
                   <input type="text" class="form-control" id="recipient-country" name="field-country" required />
                 </div>
               </div>
             </div>
             <hr>
             <div class="form-group">
-              <label for="message-text" class="col-form-label">Message (optional)</label>
+              <label for="message-text" class="col-form-label">Message</label>
               <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
             </div>
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
