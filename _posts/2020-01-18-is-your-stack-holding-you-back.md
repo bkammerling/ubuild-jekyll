@@ -36,7 +36,7 @@ With an open API, the same thing is possible for your platform. Perhaps you just
 
 > An API gives you an open connection to your bigger, brighter, future business
 
-In the world of vehicle sharing, there’s a lot of handshaking to be done between different technologies. Driver license verification, payments and of course the vehicles, to name just a few. Vehicles need to be connected with an IoT device. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking and riding your shared vehicles.
+In the world of carsharing - or really any shared mobility company - there’s a lot of handshaking to be done between different technologies. Driver license verification, payments and of course the vehicles, to name just a few. Vehicles need to be connected with an IoT device. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking and riding your shared vehicles.
 
 So our stack gets higher when you integrate or upgrade your IoT device. This raises the question: is this even possible with your current tech stack? Well, if your core platform is built with flexibility in mind, then yes! If not, then you’ll either be stuck with a limited selection of hardware choices, or you could move to a more open platform.
 
