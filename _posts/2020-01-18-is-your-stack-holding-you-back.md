@@ -20,9 +20,9 @@ sticky: false
 hidden: false
 
 ---
-If your carsharing company is anything like most shared mobility startups, or even in the tech sector at all, you’ve probably heard the phrase ‘tech stack’ before. It’s not just another piece of jargon, however. Understanding your tech stack is vital for the success of your product, whether it’s just a standalone app or a complete ecosystem.
+If your company is anything like most carsharing or vehicle sharing startups, or even in the tech sector at all, you’ve probably heard the phrase ‘tech stack’ before. It’s not just another piece of jargon, however. Understanding your tech stack is vital for the success of your product, whether it’s just a standalone app or a complete ecosystem.
 
-To make sure we’re all on the same page, let’s clarify what we mean by ‘tech stack’. Imagine all the technologies used to build and maintain a web or mobile application. From the languages and libraries of the developers, to the front-end experience of the users, to the data analysis tools of the product managers, there are so many options at each step of the process. Making the right choice, or more importantly, having the flexibility of choice, can play a vital role in your vehicle sharing business’s success.
+To make sure we’re all on the same page, let’s clarify what we mean by ‘tech stack’. Imagine all the technologies used to build and maintain a web or mobile application. From the languages and libraries of the developers, to the front-end experience of the users, to the data analysis tools of the product managers, there are so many options at each step of the process. Making the right choice, or more importantly, having the flexibility of choice, can play a vital role in your car sharing business’s success.
 
 An API (or Application Programming Interface) allows you to extend or customise your tech stack by creating, as the name suggests, an _interface_ for communication; a handshake between your core platform and any third party apps, vehicles, tools or whatever it is that needs to connect! This is what gives your tech ecosystem the chance to grow and scale with you.
 
