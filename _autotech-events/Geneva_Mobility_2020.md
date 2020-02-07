@@ -1,8 +1,8 @@
 ---
 layout: blocks-events
-title: Geneva Wunder Mobility Session
-event_date: 2020-03-10 17:00:00 +0000
-event_location: Geneva, Switzerland
+title: Hamburg Wunder Mobility Session
+event_date: 2020-04-02 16:30:00 +0000
+event_location: Hamburg, Germany
 event_block:
 - template: navigation-header-w-button
   block: header-2
@@ -31,9 +31,9 @@ event_block:
   lng: 10.00059
   block: google-map
   headline: Home In Hamburg
-  content: The fifth edition takes place on 4th of April 2019 at our Headquarters
-    in Hamburg, and you're invited to learn from inspiring speakers and to connect
-    with leaders of the global mobility ecosystem.
+  content: The 8th edition takes place on 4th of April 2019 at our Headquarters in
+    Hamburg, and you're invited to learn from inspiring speakers and to connect with
+    leaders of the global mobility ecosystem.
   gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
   venue_location: Honkongstraße 2, 20457 Hamburg
 - template: simple-footer
@@ -41,6 +41,6 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2020/01/17/scenic-view-of-the-mountains-733148.jpg"
+featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
 
 ---
