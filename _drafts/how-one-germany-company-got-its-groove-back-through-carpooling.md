@@ -1,14 +1,20 @@
 ---
 layout: simple-article
-category: ''
-tags: []
+category: Insights
+tags:
+- interview
+- case study
+- park
+- carpool
+- DACH
 author: []
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: []
-title: ''
-publish_date: 
+title: How One German Corporation Turned a Parking Wasteland into a Paved Paradise
+  through Carpooling [Interview]
+publish_date: 2020-02-13 00:00:00 +0000
 featured_image: ''
 excerpt: ''
 share_image: ''
