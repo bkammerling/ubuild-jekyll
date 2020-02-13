@@ -28,7 +28,7 @@ We were recently in the German university town of Marburg to visit our partners 
 
 Pharmaserv reached out to Wunder Mobility for help in solving a unique parking problem: since their campus is located in the countryside, it's not very easily accessible by public transportation, meaning that the majority of employees find it **most practical to drive a car to work** every day. To make matters more complicated, the Pharmaserv campus is surrounded by a nature reserve, limiting expansion plans and the building of new structures.
 
-Additionally, the Pharmaserv park-slash-campus is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. You can probably already envision the **catastrophic parking situation** Pharmaserv found themselves in.
+Additionally, the Pharmaserv park-slash-campus is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. You can probably already envision the **catastrophic parking situation** Pharmaserv found themselves in when they decided they needed a new solution. 
 
 We sat down with **Thomas Madry**, Head of New Services at Pharmaserv, to talk about his company’s problems and how they’re being solved by Wunder Carpool.
 
