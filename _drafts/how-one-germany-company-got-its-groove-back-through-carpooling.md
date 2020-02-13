@@ -15,8 +15,8 @@ cta_link: pages/carpool.md
 title: How One Corporation Cleared their Parking Clutter with Carpool
 publish_date: 2020-02-13 00:00:00 +0000
 featured_image: ''
-excerpt: 'Pharmaserv reached out to Wunder Mobility for help in solving a unique parking
-  problem. Learn how we cleared the parking clutter with Wunder Carpool. '
+excerpt: Pharmaserv reached out to Wunder Mobility for help in solving a unique parking
+  problem. Learn how we cleared their parking clutter with Wunder Carpool.
 share_image: ''
 sticky: false
 hidden: false
