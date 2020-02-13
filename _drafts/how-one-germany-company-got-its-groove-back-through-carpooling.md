@@ -22,20 +22,20 @@ sticky: false
 hidden: false
 
 ---
-We were recently in the German university town of Marburg to visit our partners at Pharmaserv, the operators of a pharmaceutical park.
+We were recently in the German university town of Marburg to visit our partners at **Pharmaserv**, the operators of a pharmaceutical park.
 
 Image
 
-Pharmaserv reached out to Wunder Mobility for help in solving a unique parking problem: the campus in Marburg is located in the countryside and isn’t easily accessible by public transportation, meaning that the majority of employees find it most practical to drive a car to work every day. To make matters more complicated, the Pharmaserv campus is surrounded by a nature reserve, limiting the company in terms of expansion plans and the building of new structures.
+Pharmaserv reached out to Wunder Mobility for help in solving a unique parking problem: since their campus is located in the countryside, it's not very easily accessible by public transportation, meaning that the majority of employees find it **most practical to drive a car to work** every day. To make matters more complicated, the Pharmaserv campus is surrounded by a nature reserve, limiting the company in terms of expansion plans and the building of new structures.
 
-Additionally, the Pharmaserv park-slash-campus is host to a total of 18 different companies (including well-known names like Siemens), and **over 6,500 employees** commute to the Marburg campus every day. You can probably already envision the **catastrophic parking situation** Pharmaserv found themselves in.
+Additionally, the Pharmaserv park-slash-campus is host to a total of 18 different companies (including well-known names like Siemens), and **over 6,500 employees** commute to the Marburg campus on a daily basis. You can probably already envision the **catastrophic parking situation** Pharmaserv found themselves in.
 
 With no more room to breathe or expand and no viable transportation alternatives for employees, there were only two options left for Pharmaserv: move to a new location, or start an employee carpooling program. (Spoiler alert: they chose the easier, faster, more valuable option!)
 
   
 We sat down with Thomas Madry, Head of New Services at Pharmaserv, to talk about his company’s problems and how they’re being solved by Wunder Carpool.
 
-**Hey Thomas, let’s dive right into the problems you were facing before calling Wunder Carpool for help! Why did you choose to introduce corporate carpooling to the Pharmaserv campus?**
+**Hey Thomas, let’s dive right into the problems you were facing before calling Wunder Carpool for help! Why did you introduce corporate carpooling to the Pharmaserv campus?**
 
 As the operators of a high-tech facility, we solve many problems for our clients every day. One of those problems is ensuring that our parking situation runs as efficiently as possible, which was not the case when we called Wunder for help. We have limited space for vehicles here - in fact, **some of our colleagues need to walk up to three kilometers to reach their desk after leaving their car.** We knew that needed to change.
 
@@ -47,7 +47,7 @@ We also knew that we wanted an **app-based carpooling system**. Ideally, the per
 
 **Can you tell us a bit about how your partnership with Wunder Mobility came to fruition?**
 
-In our daily business, it’s very important for us to develop solutions in a collaborative way with our customers. That’s why we sat down with our clients to find out who could best serve our needs, and that’s how we landed on Wunder Mobility as our partner. We had seen other Wunder solutions in action and were very impressed.
+In our daily business, it’s very important for us to develop solutions in a collaborative way with our customers. That’s why we decided to sit down with our clients to find out who could best serve our needs, and that’s how we landed on Wunder Mobility as our partner. We had seen other Wunder solutions in action and were very impressed.
 
 **We heard something about the reserved parking system you were able to build with Wunder Carpool. How does that work?**
 
