@@ -36,7 +36,7 @@ We sat down with **Thomas Madry**, Head of New Services at Pharmaserv, to talk a
 
 **Hey Thomas, let’s dive right into the problems you were facing before calling Wunder Carpool for help! Why did you introduce corporate carpooling to the Pharmaserv campus?**
 
-As the operators of a high-tech facility, we solve many problems for our clients every day. One of those problems is ensuring that our parking situation runs as efficiently as possible, which was not the case when we called Wunder for help. We have limited space for vehicles here - in fact, **some of our colleagues need to walk up to three kilometers to reach their desk after leaving their car.** We knew that needed to change.
+As the operators of a high-tech facility, we solve many problems for our clients every day. One of those problems is ensuring that our parking runs as efficiently as possible, which was not the case when we called Wunder for help. We have limited space for vehicles here - in fact, **some of our colleagues need to walk up to three kilometers to reach their desk after leaving their car.** We knew that needed to change.
 
 **What, in more concrete terms, were you trying to achieve by improving your parking situation?**
 
@@ -48,7 +48,7 @@ We also knew that we wanted an **app-based carpooling system**. Ideally, the per
 
 In our daily business, it’s very important for us to develop solutions in a collaborative way with our customers. That’s why we decided to sit down with our clients to find out who could best serve our needs, and that’s how we landed on Wunder Mobility as our partner. We had seen other Wunder solutions in action and were very impressed.
 
-![](/uploads/2020/02/13/Pharmaserv_Blog_Body-1.jpg)
+![](/uploads/2020/02/13/Pharmaserv_Blog_Body-1.jpg)_test_
 
 **We heard something about the reserved parking system you were able to build with Wunder Carpool. How does that work?**
 
