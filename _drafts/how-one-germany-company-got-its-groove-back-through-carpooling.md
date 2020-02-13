@@ -32,8 +32,9 @@ Additionally, the Pharmaserv park-slash-campus is host to a total of 18 differen
 
 With no more room to breathe or expand and no viable transportation alternatives for employees, there were only two options left for Pharmaserv: move to a new location, or start an employee carpooling program. (Spoiler alert: they chose the easier, faster, more valuable option!)
 
-  
 We sat down with Thomas Madry, Head of New Services at Pharmaserv, to talk about his company’s problems and how they’re being solved by Wunder Carpool.
+
+![](/uploads/2020/02/13/CaseStudy_Pharmaserv_Thomas.png)
 
 **Hey Thomas, let’s dive right into the problems you were facing before calling Wunder Carpool for help! Why did you introduce corporate carpooling to the Pharmaserv campus?**
 
@@ -65,4 +66,4 @@ We were very pleased to find a partner like Wunder, whose agile software solutio
 
 **One last question: how do _you_ like the carpool app?**
 
-I’m lucky enough to live close to campus, so I ride my bike to work! But on the few recent occasions when riding a bike wasn’t possible for me, I was very impressed by how quickly and easily I could find a carpool group. It was nice talking to colleagues I would have otherwise never had the chance to speak with, too. 
+I’m lucky enough to live close to campus, so I ride my bike to work! But on the few recent occasions when riding a bike wasn’t possible for me, I was very impressed by how quickly and easily I could find a carpool group. It was nice talking to colleagues I would have otherwise never had the chance to speak with, too.
