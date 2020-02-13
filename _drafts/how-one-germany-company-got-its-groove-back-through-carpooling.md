@@ -13,7 +13,7 @@ cta_text: 'Wunder Carpool is a sustainable way to optimize your parking, increas
   employee happiness and save costs. '
 cta_link: pages/carpool.md
 title: How One German Company Decluttered Their Parking Through Carpool
-publish_date: 2020-02-13 00:00:00 +0000
+publish_date: 2020-02-13 19:00:00 +0000
 featured_image: "/uploads/2020/02/13/Pharmaserv_Blog_Girl_List.jpeg"
 excerpt: Pharmaserv reached out to Wunder Mobility for help in solving a unique parking
   problem. Learn how we cleared their parking clutter with Wunder Carpool.
