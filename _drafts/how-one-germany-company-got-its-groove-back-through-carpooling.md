@@ -19,7 +19,7 @@ excerpt: Pharmaserv reached out to Wunder Mobility for help in solving a unique 
   problem. Learn how we cleared their parking clutter with Wunder Carpool.
 share_image: "/uploads/2020/02/13/Pharmaserv_Blog_Girl_List.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 We were recently in the German university town of Marburg to visit our partners at **Pharmaserv**, the operators of a pharmaceutical park.
