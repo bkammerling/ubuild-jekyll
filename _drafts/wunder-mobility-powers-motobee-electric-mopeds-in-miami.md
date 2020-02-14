@@ -24,7 +24,7 @@ hidden: false
 ---
 It’s no secret that one of mobility’s biggest challenges is the “last mile” problem - how we get from major public transportation hubs to our actual destinations. Across the U.S., electric scooters have made attempts to solve that issue. Now, Miami has joined a growing list of U.S. cities offering another solution: mopeds.
 
-![A yellow moped parked on the roof of a building in Miami.](/uploads/2020/02/14/Motobee_Linkedin.png "Motobee-moped-on-a-building")
+![](/uploads/2020/02/14/Motobee_Linkedin-1.png)
 
 Wunder Mobility is proud to partner with Motobee to launch its all-electric moped rideshare fleet. Motobee’s 100 percent electric moped is low on carbon emissions, seats two people, and can reach speeds up to 30 mph. That means the vehicles can operate in regular traffic lanes, lessening congestion on city streets or in bike lanes. Motobee offers daily moped rentals and riders can park in designated hubs around Miami called “Beehives,” eliminating street clutter and taking pressure off riders to find a place to park.
 
