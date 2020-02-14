@@ -12,16 +12,20 @@ event_block:
     url: https://www.wundermobility.com/#section-contact
 - template: hero-banner-w-image
   block: hero-2
-  background_image: "/uploads/2019/04/30/tokyo-street@2x-1.jpg"
-  headline: June in Japan<strong><br>AutoTech Tokyo</strong>
+  background_image: "/uploads/2020/02/14/cristina-gottardi-QYRPqf4AakU-unsplash.jpg"
+  headline: Wunder Mobility Session Hamburg 2020
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Holger Weiss
-    job_title: Founder & CEO
-    company: German AutoLabs
-    speaker_photo: "/uploads/2019/04/29/Holger-Weiss_German-Autolabs@2x.jpg"
-    company_logo: "/uploads/2019/04/29/German_Autolabs@2x.jpg"
+  - name: ''
+    bio: ''
+  - bio: ''
+  - name: Steffen W. Frølund
+    job_title: Chief Marketing Officer
+    company: 'Green Mobility '
+    speaker_photo: "/uploads/2020/02/14/Steffen-W.-Frølund-Bownty-e1401416773807.jpg"
+    company_logo: "/uploads/2020/02/14/green-mobility.png"
+    linkedin: https://www.linkedin.com/in/steffenfrolund/
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -42,5 +46,6 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
 featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
+output_page: false
 
 ---
