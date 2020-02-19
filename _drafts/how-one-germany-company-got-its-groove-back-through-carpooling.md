@@ -38,7 +38,7 @@ As the operators of a high-tech facility, we solve many problems for our clients
 
 **What, in more concrete terms, were you trying to achieve by improving your parking situation?**
 
-We had two main goals we were trying to achieve by improving our parking: to reduce traffic density, and to reduce the negative environmental impacts of traffic. Keeping these factors in mind, we decided that carpooling would be the best solution for us.
+We had two main goals we were trying to achieve by improving our parking: to reduce traffic density, and to reduce the negative environmental impacts of traffic. Keeping these factors in mind, we decided that carpooling would be the best solution for us. 
 
 We also knew that we wanted an **app-based carpooling system**. Ideally, the perfect app would allow employees to search, find and organize carpools on their own, as well as providing small incentives that encourage more people to use the app.
 
