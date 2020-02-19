@@ -32,4 +32,4 @@ Motobee is using Wunder Mobility’s technology to power its rideshare fleet. Ef
 
 Helping startups launch and scale shared mobility services is a core part of our mission and we’re proud to be Motobee’s partner in the U.S.
 
-For more information about Motobee, or to book a ride, please visit [Motobee.com](https://www.motobee.co/).
+For more information about Motobee, or to book a ride, please visit [Motobee.co](https://www.motobee.co/).
