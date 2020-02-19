@@ -28,7 +28,7 @@ We were recently in the German university town of Marburg to visit our partners 
 
 Pharmaserv was interested in finding new, smart solutions that could benefit their park. After debating between three different partners, they chose to work with Wunder Mobility on starting a carpool pilot.
 
-Many employees who work at the Standort Behringwerke campus live in the countryside and find it **most practical to drive a car to work**. The Standort Behringwerke park-slash-campus is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. With so many people actively using the campus every day, efficiency is key. 
+Many employees who work at the Standort Behringwerke campus live in the countryside and find it **most practical to drive a car to work**. The Standort Behringwerke park-slash-campus is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. With so many people actively using the campus every day, efficiency is key.
 
 We sat down with **Thomas Madry**, Head of New Services at Pharmaserv, to talk about his company’s pilot with Wunder Carpool.
 
@@ -38,7 +38,7 @@ As the operators of a high-tech facility, we solve many problems for our clients
 
 **What, in more concrete terms, were you trying to achieve by improving your parking situation?**
 
-We had two main goals we were trying to achieve by improving our parking: to reduce traffic density, and to reduce the negative environmental impacts of traffic. Keeping these factors in mind, we decided that carpooling would be the best solution for us. 
+We had two main goals we were trying to achieve by improving our parking: to reduce traffic density, and to reduce the negative environmental impacts of traffic. Keeping these factors in mind, we decided that carpooling would be the best solution for us.
 
 We also knew that we wanted an **app-based carpooling system**. Ideally, the perfect app would allow employees to search, find and organize carpools on their own, as well as providing small incentives that encourage more people to use the app.
 
@@ -57,3 +57,5 @@ At the moment, we’re actively managing 50 parking spots with our carpooling ap
 The biggest reason was that **we needed a partner who can act fast.** A lot of important daily business goes on on this campus, and we couldn’t risk putting any of that on hold while we redesign our parking system. We were also worried about security and wanted to make sure that everyone who parks on campus is actually supposed to be here, and Wunder Carpool includes a reliable system of identification. We also have a decentralized system here that Wunder can easily integrate with.
 
 We were very pleased to find a partner like Wunder, whose agile software solutions matched our needs perfectly. We’re very satisfied so far!
+
+![](/uploads/2020/02/19/Pharmaserv_Blog_EndImage_Body.jpg)
