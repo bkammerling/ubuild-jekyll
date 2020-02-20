@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
-title: Hamburg Wunder Mobility Session
-event_date: 2020-04-02 16:30:00 +0000
+title: Hamburg Wunder Tech Sessions
+event_date: 2020-03-26 17:30:00 +0000
 event_location: Hamburg, Germany
 event_block:
 - template: navigation-header-w-button
@@ -17,15 +17,26 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: ''
-    bio: ''
   - bio: ''
-  - name: Steffen W. Frølund
-    job_title: Chief Marketing Officer
-    company: 'Green Mobility '
-    speaker_photo: "/uploads/2020/02/14/Steffen-W.-Frølund-Bownty-e1401416773807.jpg"
-    company_logo: "/uploads/2020/02/14/green-mobility.png"
-    linkedin: https://www.linkedin.com/in/steffenfrolund/
+    name: 'Miljan Martic '
+    job_title: Research Engineer
+    company: DeepMind
+    company_logo: "/uploads/2020/02/19/DeepMind_logo.png"
+    linkedin: https://www.linkedin.com/in/miljanmartic/
+    speaker_photo: "/uploads/2020/02/19/0 (2).jpeg"
+  - name: Benjamin Krüger
+    bio: ''
+    job_title: 'CEO '
+    company: Wunder Fleet
+    company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
+    linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
+    speaker_photo: "/uploads/2020/02/19/benjaminkrüger.jpeg"
+  - name: Ralf Sigmund
+    job_title: Chief Technology Officer
+    company: MOIA
+    speaker_photo: "/uploads/2020/02/19/ralf-sigmund-foto.1024x1024.jpg"
+    company_logo: "/uploads/2020/02/19/MOIA_Logo_SocialMovement_BLUE_RGB.jpg"
+    linkedin: https://www.linkedin.com/in/ralf-sigmund-0a806410/
 - template: custom-content
   block: custom-html
   name: Agenda
