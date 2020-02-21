@@ -42,13 +42,13 @@ event_block:
   name: Agenda
   content: "<p>h</p>"
 - template: google-map
-  lat: 53.54304
-  lng: 10.00059
+  lat: '53.543040'
+  lng: '10.000590'
   block: google-map
-  headline: Home In Hamburg
-  content: The 8th edition takes place on 4th of April 2019 at our Headquarters in
-    Hamburg, and you're invited to learn from inspiring speakers and to connect with
-    leaders of the global mobility ecosystem.
+  headline: Wunder Mobility HQ
+  content: The Tech Sessions will be held in the Wunder Mobility's office space in
+    the heart of Hafencity.  You're invited to learn from inspiring speakers and to
+    connect likeminded people from the tech ecosystem.
   gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/data=!4m2!3m1!1s0x47b18efc49761015:0x4a9d0b4a925d10eb?sa=X&ved=2ahUKEwi37I_Om6XhAhXREVAKHX2aAE8Q8gEwAHoECAoQAQ
   venue_location: Honkongstraße 2, 20457 Hamburg
 - template: simple-footer
