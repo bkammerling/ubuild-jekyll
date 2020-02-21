@@ -21,7 +21,7 @@ event_block:
     job_title: 'CEO '
     company: Wunder Fleet
     speaker_photo: "/uploads/2020/02/21/BENJAMIN KRÜGER.png"
-    company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
+    company_logo: ''
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
   - bio: ''
