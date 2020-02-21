@@ -17,12 +17,16 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: ''
+  - name: David Gagliardi
     bio: ''
+    job_title: CEO Germany
+    company: 'Pininfarina '
+    speaker_photo: "/uploads/2020/02/21/David-Gagliardi-1.jpg"
   - bio: ''
     name: Thorsten Weber
     job_title: CEO
     company: 'ZF Car eWallet '
+    linkedin: https://www.linkedin.com/in/thorsten-olaf-weber/
   - name: Steffen W. Frølund
     job_title: Chief Marketing Officer
     company: 'Green Mobility '
