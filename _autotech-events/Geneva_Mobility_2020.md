@@ -22,6 +22,7 @@ event_block:
     job_title: CEO Germany
     company: 'Pininfarina '
     speaker_photo: "/uploads/2020/02/21/David-Gagliardi-1.jpg"
+    linkedin: https://www.linkedin.com/in/david-gagliardi-56739039/
   - bio: ''
     name: Thorsten Weber
     job_title: CEO
