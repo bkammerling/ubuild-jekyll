@@ -56,7 +56,7 @@ event_block:
 event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
-featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
+featured_image: "/uploads/2020/02/21/claudio-testa-qpemSW6_1Z0-unsplash.jpg"
 output_page: false
 published: false
 
