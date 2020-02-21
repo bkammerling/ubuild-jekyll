@@ -53,11 +53,11 @@ event_block:
   venue_location: Honkongstraße 2, 20457 Hamburg
 - template: simple-footer
   block: footer-1
-event_description: "<strong>Informal but exclusive</strong>, with world class speakers,
-  <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
-  you will keep! "
+event_description: We empower Hamburg's developer community and want to build a platform
+  to meet new, likeminded people. Enjoy an evening with <strong>great food</strong>
+  and <strong>entertainment</strong>, and <strong>connections</strong> you will keep!
 featured_image: "/uploads/2020/02/21/claudio-testa-qpemSW6_1Z0-unsplash.jpg"
-output_page: false
+output_page: true
 published: false
 
 ---
