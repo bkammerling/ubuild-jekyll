@@ -30,7 +30,7 @@ event_block:
     company: Wunder Fleet
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
-    speaker_photo: "/uploads/2020/02/19/benjaminkrüger.jpeg"
+    speaker_photo: "/uploads/2020/02/21/BENJAMIN KRÜGER.png"
   - name: Ralf Sigmund
     job_title: Chief Technology Officer
     company: MOIA
