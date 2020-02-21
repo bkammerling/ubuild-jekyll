@@ -27,7 +27,7 @@ event_block:
   - name: Benjamin Krüger
     job_title: CEO
     company: Wunder Fleet
-    speaker_photo: "/uploads/2020/02/21/BENJAMIN KRÜGER.png"
+    speaker_photo: ''
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
   - name: Ralf Sigmund
@@ -45,9 +45,9 @@ event_block:
   lng: '10.000590'
   block: google-map
   headline: Wunder Mobility Headquarter
-  content: The Tech Sessions will be held in the Wunder Mobility's office space in
-    the heart of Hafencity.  You're invited to learn from inspiring speakers and to
-    connect with likeminded people from the tech ecosystem.
+  content: The Tech Sessions will be held in Wunder Mobility's office space in the
+    heart of Hafencity.  You're invited to learn from inspiring speakers and to connect
+    with likeminded people from the tech ecosystem.
   gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/@53.5428746,9.998563,17z/data=!3m1!4b1!4m5!3m4!1s0x47b18efc49761015:0x4a9d0b4a925d10eb!8m2!3d53.5428714!4d10.0007517
   venue_location: Hongkongstraße 2, 20457 Hamburg
 - template: simple-footer
