@@ -17,11 +17,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: 'Benjamin '
-    job_title: CEO
-    company: 'Wunder Fleet '
-    speaker_photo: ''
-    bio: ''
   - bio: ''
     name: 'Miljan Martic '
     job_title: Research Engineer
