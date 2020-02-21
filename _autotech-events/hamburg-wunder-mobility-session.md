@@ -42,7 +42,7 @@ event_block:
   content: The Tech Sessions will be held in Wunder Mobility's office space in the
     heart of Hafencity.  You're invited to learn from inspiring speakers and to connect
     with likeminded people from the tech ecosystem.
-  gmaps_link: https://www.google.com/maps/place/Hongkongstra%C3%9Fe+2,+20457+Hamburg/@53.5428746,9.998563,17z/data=!3m1!4b1!4m5!3m4!1s0x47b18efc49761015:0x4a9d0b4a925d10eb!8m2!3d53.5428714!4d10.0007517
+  gmaps_link: https://goo.gl/maps/isJm3rTzGPfZ7VhB6
   venue_location: Hongkongstraße 2, 20457 Hamburg
 - template: simple-footer
   block: footer-1
