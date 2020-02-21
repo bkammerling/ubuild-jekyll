@@ -1,6 +1,6 @@
 ---
 layout: blocks-events
-title: Hamburg Wunder Mobility Session
+title: Hamburg Wunder Mobility Sessions
 event_date: 2020-04-02 16:30:00 +0000
 event_location: Hamburg, Germany
 event_block:
@@ -13,19 +13,32 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2020/02/14/cristina-gottardi-QYRPqf4AakU-unsplash.jpg"
-  headline: Wunder Mobility Session Hamburg 2020
+  headline: Wunder Mobility Sessions Hamburg 2020
 - template: speakers
   block: speaker-cards
   speakers:
   - name: ''
     bio: ''
   - bio: ''
+    name: Thorsten Weber
+    job_title: CEO
+    company: 'ZF Car eWallet '
   - name: Steffen W. Frølund
     job_title: Chief Marketing Officer
     company: 'Green Mobility '
     speaker_photo: "/uploads/2020/02/14/Steffen-W.-Frølund-Bownty-e1401416773807.jpg"
     company_logo: "/uploads/2020/02/14/green-mobility.png"
     linkedin: https://www.linkedin.com/in/steffenfrolund/
+    bio: "Entrepreneur. Marketeer. Business Developer. Innovator. Columnist. Investor.
+      MSc.\n\nSteffen is the CMO of GreenMobility. He has previously founded Europe’s
+      largest deal aggregator. Taking Bownty from scratch to 3,5m members. He has
+      invested in a couple of startup within food- and proptech. He has since been
+      the Managing Director of an innovation consultancy called Rainmaking where successful
+      digital startups were created together with corporates like Danske Bank. He’s
+      been selected among the 100 most promising Danish business talent by newspaper
+      Berlingske and he’s been nominated Founder of The Year by Nordic Startup Awards.
+      He holds a masters degree from Copenhagen Business School in Innovation and
+      Business Development.  "
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -46,6 +59,7 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   <strong>great food</strong> and <strong>entertainment</strong>, and <strong>connections</strong>
   you will keep! "
 featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
-output_page: false
+output_page: true
+published: false
 
 ---
