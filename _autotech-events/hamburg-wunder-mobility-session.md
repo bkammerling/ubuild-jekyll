@@ -17,13 +17,6 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
-  - name: Benjamin Krüger
-    job_title: CEO
-    company: Wunder Fleet
-    speaker_photo: "/uploads/2020/02/24/BENJAMIN KRÜGER-3.png"
-    company_logo: ''
-    bio: ''
-    linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
   - bio: ''
     name: 'Miljan Martic '
     job_title: Research Engineer
@@ -37,6 +30,13 @@ event_block:
     speaker_photo: "/uploads/2020/02/19/ralf-sigmund-foto.1024x1024.jpg"
     company_logo: "/uploads/2020/02/19/MOIA_Logo_SocialMovement_BLUE_RGB.jpg"
     linkedin: https://www.linkedin.com/in/ralf-sigmund-0a806410/
+  - name: Benjamin Krüger
+    job_title: CEO
+    company: Wunder Fleet
+    speaker_photo: "/uploads/2020/02/24/BENJAMIN KRÜGER-3.png"
+    company_logo: ''
+    bio: ''
+    linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
 - template: custom-content
   block: custom-html
   name: Agenda
