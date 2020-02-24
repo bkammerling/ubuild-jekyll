@@ -20,7 +20,7 @@ event_block:
   - name: Benjamin Krüger
     job_title: CEO
     company: Wunder Fleet
-    speaker_photo: "/uploads/2020/02/21/BENJAMIN KRÜGER.png"
+    speaker_photo: "/uploads/2020/02/24/BENJAMIN KRÜGER.png"
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
@@ -30,7 +30,7 @@ event_block:
     company: DeepMind
     company_logo: "/uploads/2020/02/19/DeepMind_logo.png"
     linkedin: https://www.linkedin.com/in/miljanmartic/
-    speaker_photo: "/uploads/2020/02/24/Image from iOS.jpg"
+    speaker_photo: "/uploads/2020/02/24/Image from iOS (1).jpg"
   - name: Ralf Sigmund
     job_title: Chief Technology Officer
     company: MOIA
