@@ -20,7 +20,7 @@ event_block:
   - name: Benjamin Krüger
     job_title: CEO
     company: Wunder Fleet
-    speaker_photo: "/uploads/2020/02/24/BENJAMIN KRÜGER.png"
+    speaker_photo: "/uploads/2020/02/24/BENJAMIN KRÜGER-1.png"
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
