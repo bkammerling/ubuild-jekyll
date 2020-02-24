@@ -30,7 +30,7 @@ event_block:
     company: DeepMind
     company_logo: "/uploads/2020/02/19/DeepMind_logo.png"
     linkedin: https://www.linkedin.com/in/miljanmartic/
-    speaker_photo: "/uploads/2020/02/19/0 (2).jpeg"
+    speaker_photo: "/uploads/2020/02/24/Image from iOS.jpg"
   - name: Ralf Sigmund
     job_title: Chief Technology Officer
     company: MOIA
