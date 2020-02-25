@@ -6,10 +6,10 @@ tags:
 - carpool
 - park
 author: _people/PurnimaKumar.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: Join us on Wednesday 25 February at 15:30 CET for the latest live Wunder
-  Insights webinar!
-cta_link: []
+cta_heading: Sign Up for Our Newsletter
+cta_text: 'Our monthly newsletter is full of exciting news and updates from the world
+  of Wunder. '
+cta_link: pages/newsletter-signup.md
 title: 'Live Webinar: How corporates can solve employee parking challenges through
   carpooling'
 publish_date: 2020-02-19 00:00:00 +0000
