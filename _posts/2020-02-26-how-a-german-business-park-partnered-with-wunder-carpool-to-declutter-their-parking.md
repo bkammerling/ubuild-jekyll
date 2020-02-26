@@ -12,14 +12,14 @@ cta_text: Wunder Carpool can help companies save costs, emit less CO2 and declut
   their parking lots with ease.
 cta_link: pages/carpool.md
 title: How a Business Park Decluttered their Parking with Wunder Carpool
-publish_date: 2020-02-28 00:00:00 +0000
+publish_date: 2020-02-28 11:00:00 +0000
 featured_image: "/uploads/2020/02/26/Pharmaserv_Blog_Girl_List.jpeg"
 excerpt: Standort Behringwerke is host to a total of 18 different companies, and **over
   6,500 employees** commute to the Marburg campus on a daily basis. With so many people
   actively using the campus every day, efficiency is key.
 share_image: "/uploads/2020/02/26/Pharmaserv_Blog_Girl_List-1.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 We were recently in the German university town of Marburg to visit our partners at **Pharmaserv**, the operators of Standort Behringwerke, a pharmaceutical park.
