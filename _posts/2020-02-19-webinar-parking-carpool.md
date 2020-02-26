@@ -25,7 +25,7 @@ Join us on Wednesday 25 February at 15:30 CET for the latest live Wunder Insight
 
 ![](/uploads/2020/02/19/Prewebinar _carpool_blog_body.png)
 
-<iframe width=“560” height=“315" src=“[https://www.youtube.com/embed/GRTTzl8a_f0](https://www.youtube.com/embed/GRTTzl8a_f0 "https://www.youtube.com/embed/GRTTzl8a_f0")” frameborder=“0" allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
+<iframe width=“560” height=“315" src=“https://www.youtube.com/embed/GRTTzl8a_f0” frameborder=“0" allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
 
 This time the topic is “How corporates can solve employee parking challenges through carpooling”. **It’s interactive!** We will be answering your questions live as you ask them. When it comes time to the webinar broadcast, be sure to join us directly on the YouTube page - the link will be posted here - so that you can see the live chat, and ask any questions you may have.
 
