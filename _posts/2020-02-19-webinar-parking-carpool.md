@@ -21,9 +21,11 @@ sticky: false
 hidden: true
 
 ---
-Join us on Wednesday 25 February at 15:30 CET for the latest live Wunder Insights webinar!
+Join us on Wednesday 26th February at 15:30 CET for the latest live Wunder Insights webinar!
 
 ![](/uploads/2020/02/19/Prewebinar _carpool_blog_body.png)
+
+Watch the live webinar here: [https://www.youtube.com/embed/GRTTzl8a_f0](https://www.youtube.com/embed/GRTTzl8a_f0 "https://www.youtube.com/embed/GRTTzl8a_f0")
 
 This time the topic is “How corporates can solve employee parking challenges through carpooling”. **It’s interactive!** We will be answering your questions live as you ask them. When it comes time to the webinar broadcast, be sure to join us directly on the YouTube page - the link will be posted here - so that you can see the live chat, and ask any questions you may have.
 
