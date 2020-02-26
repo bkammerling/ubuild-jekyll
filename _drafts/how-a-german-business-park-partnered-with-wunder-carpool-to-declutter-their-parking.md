@@ -14,11 +14,11 @@ cta_link: pages/carpool.md
 title: How a German Business Park Partnered with Wunder Carpool to Declutter their
   Parking
 publish_date: 2020-02-28 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/02/26/Pharmaserv_Blog_Girl_List.jpeg"
 excerpt: Standort Behringwerke is host to a total of 18 different companies, and **over
   6,500 employees** commute to the Marburg campus on a daily basis. With so many people
   actively using the campus every day, efficiency is key.
-share_image: ''
+share_image: "/uploads/2020/02/26/Pharmaserv_Blog_Girl_List-1.jpeg"
 sticky: false
 hidden: false
 
@@ -27,6 +27,6 @@ We were recently in the German university town of Marburg to visit our partners 
 
 {% include block-video-2.html vimeo-id="393448090" %}
 
-Standort Behringwerke is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. With so many people actively using the campus every day, efficiency is key.
-
 We sat down with **Thomas Madry**, Head of New Services at Pharmaserv, to talk about his company’s pilot with Wunder Carpool.
+
+Standort Behringwerke is host to a total of 18 different companies, and **over 6,500 employees** commute to the Marburg campus on a daily basis. With so many people actively using the campus every day, efficiency is key.
