@@ -19,7 +19,7 @@ event_block:
   speakers:
   - bio: ''
     name: 'Miljan Martic '
-    job_title: Research Engineer
+    job_title: Senior Research Engineer
     company: DeepMind
     company_logo: "/uploads/2020/02/19/DeepMind_logo.png"
     linkedin: https://www.linkedin.com/in/miljanmartic/
