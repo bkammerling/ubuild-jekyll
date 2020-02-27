@@ -37,6 +37,7 @@ event_block:
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
+  heading: SPEAKER LINE-UP
 - template: custom-content
   block: custom-html
   name: Agenda
