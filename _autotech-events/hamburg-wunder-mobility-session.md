@@ -56,7 +56,7 @@ event_block:
 event_description: We empower Hamburg's developer community and want to build a platform
   to meet new, likeminded people. Enjoy an evening with <strong>great food</strong>
   and <strong>entertainment</strong>, and <strong>connections</strong> you will keep!
-featured_image: "/uploads/2020/02/21/claudio-testa-qpemSW6_1Z0-unsplash.jpg"
+featured_image: "/uploads/2020/02/27/claudio-testa-qpemSW6_1Z0-unsplash.jpg"
 output_page: true
 
 ---
