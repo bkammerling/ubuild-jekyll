@@ -31,7 +31,7 @@ event_block:
   - name: Steffen W. Frølund
     job_title: Chief Marketing Officer
     company: 'Green Mobility '
-    speaker_photo: "/uploads/2020/02/14/Steffen-W.-Frølund-Bownty-e1401416773807.jpg"
+    speaker_photo: "/uploads/2020/02/27/Steffen-W.-Frølund-Bownty-e1401416773807.jpg"
     company_logo: "/uploads/2020/02/14/green-mobility.png"
     linkedin: https://www.linkedin.com/in/steffenfrolund/
     bio: "Entrepreneur. Marketeer. Business Developer. Innovator. Columnist. Investor.
