@@ -28,7 +28,7 @@ event_block:
     job_title: Chief Technology Officer
     company: MOIA
     speaker_photo: "/uploads/2020/02/19/ralf-sigmund-foto.1024x1024.jpg"
-    company_logo: "/uploads/2020/02/19/MOIA_Logo_SocialMovement_BLUE_RGB.jpg"
+    company_logo: "/uploads/2020/02/27/MOIA_Logo_BLUE_RGB.jpg"
     linkedin: https://www.linkedin.com/in/ralf-sigmund-0a806410/
   - name: Benjamin Krueger
     job_title: CEO
