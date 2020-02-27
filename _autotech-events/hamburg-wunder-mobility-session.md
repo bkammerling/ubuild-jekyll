@@ -58,6 +58,5 @@ event_description: We empower Hamburg's developer community and want to build a 
   and <strong>entertainment</strong>, and <strong>connections</strong> you will keep!
 featured_image: "/uploads/2020/02/21/claudio-testa-qpemSW6_1Z0-unsplash.jpg"
 output_page: true
-published: false
 
 ---
