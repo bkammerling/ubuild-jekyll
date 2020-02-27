@@ -19,7 +19,7 @@ excerpt: Standort Behringwerke is host to a total of 18 different companies, and
   actively using the campus every day, efficiency is key.
 share_image: "/uploads/2020/02/26/Pharmaserv_Blog_Girl_List-1.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 We were recently in the German university town of Marburg to visit our partners at **Pharmaserv**, the operators of Standort Behringwerke, a pharmaceutical park.
