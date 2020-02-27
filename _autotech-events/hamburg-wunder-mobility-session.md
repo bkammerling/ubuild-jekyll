@@ -30,7 +30,7 @@ event_block:
     speaker_photo: "/uploads/2020/02/19/ralf-sigmund-foto.1024x1024.jpg"
     company_logo: "/uploads/2020/02/19/MOIA_Logo_SocialMovement_BLUE_RGB.jpg"
     linkedin: https://www.linkedin.com/in/ralf-sigmund-0a806410/
-  - name: Benjamin Krüger
+  - name: Benjamin Krueger
     job_title: CEO
     company: Wunder Fleet
     speaker_photo: "/uploads/2020/02/27/BENJAMIN KRUEGER.png"
