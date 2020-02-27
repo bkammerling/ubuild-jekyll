@@ -45,7 +45,7 @@ event_block:
   lat: '53.543040'
   lng: '10.000590'
   block: google-map
-  headline: Wunder Mobility Headquarter
+  headline: Wunder Mobility HQ
   content: The Tech Sessions will be held in Wunder Mobility's office space in the
     heart of Hafencity.  You're invited to learn from inspiring speakers and to connect
     with likeminded people from the tech ecosystem.
