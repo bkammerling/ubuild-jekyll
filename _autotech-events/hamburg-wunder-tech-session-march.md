@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Hamburg Wunder Tech Sessions
-event_date: 2020-03-26 17:30:00 +0000
+event_date: 2020-03-26T17:30:00.000+00:00
 event_location: Hamburg, Germany
 event_block:
 - template: navigation-header-w-button
@@ -31,7 +31,7 @@ event_block:
     company_logo: "/uploads/2020/02/27/MOIA_Logo_BLUE_RGB.jpg"
     linkedin: https://www.linkedin.com/in/ralf-sigmund-0a806410/
   - name: Benjamin Krueger
-    job_title: CEO
+    job_title: Head of Engineering
     company: Wunder Fleet
     speaker_photo: "/uploads/2020/02/27/BENJAMIN KRUEGER.png"
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
