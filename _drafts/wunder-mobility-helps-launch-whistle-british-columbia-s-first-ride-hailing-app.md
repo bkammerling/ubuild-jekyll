@@ -7,10 +7,10 @@ tags:
 - deployment
 - shuttle
 author: _people/sam-baker.md
-cta_heading: Find Out More About Wunder Mobility
+cta_heading: Find Out More About Wunder Shuttle
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
-cta_link: []
+cta_link: pages/shuttle.md
 title: Wunder Mobility Helps Launch Whistle!, British Columbia’s First Ride-Hailing
   App
 publish_date: 2020-02-28 11:00:00 +0000
