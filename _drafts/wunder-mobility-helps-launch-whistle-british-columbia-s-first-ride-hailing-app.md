@@ -13,15 +13,19 @@ cta_link: pages/shuttle.md
 title: Wunder Mobility Helps Launch Whistle!, British Columbia’s First Ride-Hailing
   App
 publish_date: 2020-02-28 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/02/28/whistle_blog_list.jpeg"
 excerpt: Read about how Wunder Shuttle is powering the first ride-hailing company
   in British Columbia, Canada.
-share_image: ''
+share_image: "/uploads/2020/02/28/whistle_blog_list-1.jpeg"
 sticky: false
 hidden: false
 
 ---
-Ride-hailing has revolutionized the way people move around the world. In many cities, people have grown used to being able to call a car with a few swipes on their smartphone screen, and in those same few minutes, they are instantly given an arrival time and cost estimate, all while being able to track where their ride is in real-time. While this is a reality in most metropolitan cities in North America, many smaller communities have yet to have these modern options available and have small fleets of traditional taxis available for locals and visitors to use. One area where this is the case is in British Columbia, Canada.
+Ride-hailing has revolutionized the way people move around the world. In many cities, people have grown used to being able to call a car with a few swipes on their smartphone screen, and in those same few minutes, they are instantly given an arrival time and cost estimate, all while being able to track where their ride is in real-time. 
+
+![](/uploads/2020/02/28/whistle_blog_body.jpg)
+
+While this is a reality in most metropolitan cities in North America, many smaller communities have yet to have these modern options available and have small fleets of traditional taxis available for locals and visitors to use. One area where this is the case is in British Columbia, Canada.
 
 Enter Whistle!, the first ride-hailing company to be approved in British Columbia. Whistle! is a locally owned ride-sharing company that offers private and pooled rides in harder to get around parts of B.C., where there are few traditional taxis: Whistler, Tofino, Ucluelet, Pemberton, and Squamish.
 
