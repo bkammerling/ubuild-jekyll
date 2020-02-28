@@ -13,7 +13,7 @@ event_block:
 - template: hero-banner-w-image
   block: hero-2
   background_image: "/uploads/2020/02/14/cristina-gottardi-QYRPqf4AakU-unsplash.jpg"
-  headline: Wunder Tech Sessions Hamburg 2020
+  headline: "<strong>Wunder Tech Sessions</strong> Hamburg 2020"
 - template: speakers
   block: speaker-cards
   speakers:
