@@ -5,6 +5,7 @@ date: '2019-01-10T23:00:00.000+00:00'
 permalink: "/carpool"
 lang: en
 lang-ref: carpool
+version: hp
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -12,20 +13,20 @@ page_sections:
   sub_logo: "/uploads/global/Wunder_Carpool_White.svg"
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Contact us
     enabled: true
 - template: hero-banner-w-image
-  block: hero-2
-  headline: "<strong>Optimize parking</strong> & <strong>reduce costs</strong> with
-    carpooling"
+  block: hero-hp
+  headline: Engage employees and cut emissions with carpool
+  sub_logo: "/uploads/global/wunder-carpool-white.svg"
   cta:
-    button_text: Contact Us
-    url: "#section-contact"
+    button_text: Watch our film
+    url: "https://vimeo.com/318402556"
     enabled: true
-  background_video: ''
-  show_logos: true
+  background_video: carpool-web-loop
   background_image: "/uploads/global/carpool-herobg@2x.jpg"
-  logo_row: carpool
+  show_logos: false
+  logo_row: ''
   intro_text: ''
   cta_2:
     enabled: false
@@ -40,7 +41,7 @@ page_sections:
   content: Let's get your carpool service up and running within a month. Let us know
     some info and our team will get back to you.
   headline: Let's Talk
-  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
+  background_image: ''
 - template: simple-footer
   block: footer-1
   content: ''

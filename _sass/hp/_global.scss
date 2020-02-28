@@ -46,6 +46,12 @@ section.fullwidth-bg {
     background-color: $black96;
     background: linear-gradient(to bottom, $black96 0%, $black96 20%, $white 100%);
   }
+  &.section-phototext {
+    padding: 16px 0 80px;
+    @include rwd(tablet-up) {
+      padding: 40px 0;
+    }
+  }
 }
 
 .jumbo-intro {
@@ -310,4 +316,11 @@ img {
   }
 
 
+}
+
+
+@for $o from 1 through 9 {
+  .o-#{$o} {
+    opacity: $o / 10;
+  }
 }

@@ -687,6 +687,42 @@ var scroller = {
 scroller.init();
 
 
+if($("input[type='range']").length) {
+  $("input[type='range']").on('input',function() {
+    var percent = $(this).val() / $(this).attr('max') * 100;
+    $(this).css('background', 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF ' + percent + '%, #ffffff90 ' + percent + '%, #ffffff90 100%)');
+    $('.range-label').css('left', 'calc(' + percent + '% - 30px)').text(numberWithCommas($(this).val()));
+    var co2saved = $(this).val() * 0.375 * 1.553;
+    $('.co2-saved h3').text(numberWithCommas(Math.round(co2saved)));
+    $('.trees-planted h3').text(numberWithCommas(Math.round(co2saved / 0.0218)));
+    $('.parking-saved h3').text(numberWithCommas(Math.round($(this).val() * 0.375)));
+  });
+
+  function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  /*
+  average US commute = 16 miles / 26km --  daily 52km (https://itstillruns.com/far-americans-drive-work-average-7446397.html)
+  new cars emit 118.5g co2/km -- (https://www.europarl.europa.eu/news/en/headlines/society/20180920STO14027/reducing-car-emissions-new-co2-targets-for-cars-explained)
+    so 1 car daily: 52 * 118.5 = 6.1kg CO2 saved
+    so 1 car yearly: 52 * 118.5 * 252 = 1.553t CO2 saved
+
+  in US, about 75% drive to work alone (https://www.citylab.com/transportation/2019/01/commuting-to-work-data-car-public-transit-bike/580507/)
+  we could assume 50% of these find a carpool and therefore 37.5% of total
+  5000 employees: 5000 * 0.375 = 1875 cars
+    1875 cars yearly: 52km * 118.5 CO2/km * 252 workdays in year * 1875 cars = 2,911,545,000g AND 2,912 tons
+
+
+
+  average hardwood tree absorbs up to 48 pounds AND 21.8kg of CO2 per year (https://www.co2meter.com/blogs/news/could-global-co2-levels-be-reduced-by-planting-trees)
+  2,912,000kg / 21.8 = 133,578 trees
+  */
+
+
+
+}
+
 
 var googleMap = {
   map: null,
