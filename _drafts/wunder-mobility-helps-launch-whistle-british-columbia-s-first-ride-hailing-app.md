@@ -6,7 +6,7 @@ tags:
 - ridehailing
 - deployment
 - shuttle
-author: []
+author: _people/sam-baker.md
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
@@ -15,7 +15,8 @@ title: Wunder Mobility Helps Launch Whistle!, British Columbia’s First Ride-Ha
   App
 publish_date: 2020-02-28 11:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: Read about how Wunder Shuttle is powering the first ride-hailing company
+  in British Columbia, Canada.
 share_image: ''
 sticky: false
 hidden: false
@@ -31,5 +32,4 @@ Whistle! is using Wunder Mobility’s Wunder Shuttle technology to power its rid
 
 Helping startups launch and scale shared mobility services is a core part of Wunder Mobility’s mission and we’re proud to call Whistle! a partner.
 
-  
 For more information about Whistle!, or to book a ride, please visit [whistle.ca](https://www.whistle.ca/).
