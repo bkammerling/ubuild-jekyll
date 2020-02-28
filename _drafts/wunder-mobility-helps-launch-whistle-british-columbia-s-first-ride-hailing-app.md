@@ -12,7 +12,7 @@ cta_text: Scale quickly with on-demand ride-hailing.
 cta_link: pages/shuttle.md
 title: Wunder Mobility Helps Launch Whistle!, British Columbia’s First Ride-Hailing
   App
-publish_date: 2020-02-28 11:00:00 +0000
+publish_date: 2020-02-28 15:00:00 +0000
 featured_image: "/uploads/2020/02/28/whistle_blog_list.jpeg"
 excerpt: Read about how Wunder Shuttle is powering the first ride-hailing company
   in British Columbia, Canada.
