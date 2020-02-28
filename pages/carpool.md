@@ -24,7 +24,7 @@ page_sections:
     url: "https://vimeo.com/318402556"
     enabled: true
   background_video: carpool-web-loop
-  background_image: "/uploads/global/carpool-herobg@2x.jpg"
+  background_image: "/uploads/global/carpool-loop-still@2x.png"
   show_logos: false
   logo_row: ''
   intro_text: ''
