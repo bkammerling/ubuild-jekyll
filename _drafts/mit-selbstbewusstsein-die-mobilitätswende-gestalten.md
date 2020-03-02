@@ -14,11 +14,11 @@ cta_text: Wunder City is the tool that can help cities evaluate, plan and regula
 cta_link: pages/de/city.md
 title: Mit Selbstbewusstsein die Mobilitätswende gestalten
 publish_date: 2020-03-02 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/02/MitSelbstbewusstsein_blog_list.jpeg"
 excerpt: Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt
   etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs
   beendet.
-share_image: ''
+share_image: "/uploads/2020/03/02/MitSelbstbewusstsein_blog_list-1.jpeg"
 sticky: false
 hidden: false
 
@@ -26,6 +26,8 @@ hidden: false
 **Mit Selbstbewusstsein die Mobilitätswende gestalten – was Städte aus der der Sondernutzung für E-Scooter lernen können**
 
 Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs beendet.
+
+![An image of a parked kickscooter in front of a concrete background with a text box and a Wunder Mobility logo on the side.](/uploads/2020/03/02/MitSelbstbewusstsein_blog_body.jpg)
 
 Nachdem die Elektrokleinstfahrzeuge-Verordnung im Juni zunächst für erste Rahmenbedingungen und Standards sorgte, meldeten Kommunen schnell Nachbesserungsbedarf durch den Gesetzgeber an. Freiwillige Bemühungen vieler Anbieter - kontinuierlichem Austausch vor Ort, Fahrtrainings und zusätzliche App-Hinweise - sind den meisten Kommunen letztlich nicht genug.
 
