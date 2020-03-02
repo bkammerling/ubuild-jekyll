@@ -13,7 +13,7 @@ cta_text: Wunder City is the tool that can help cities evaluate, plan and regula
   mobility companies by aggregating and understanding data.
 cta_link: pages/de/city.md
 title: Mit Selbstbewusstsein die Mobilitätswende gestalten
-publish_date: 2020-03-02 11:00:00 +0000
+publish_date: 2020-03-02T11:00:00.000+00:00
 featured_image: "/uploads/2020/03/02/MitSelbstbewusstsein_blog_list.jpeg"
 excerpt: Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt
   etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs
