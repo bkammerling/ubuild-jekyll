@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-**Mit Selbstbewusstsein die Mobilitätswende gestalten – was Städte aus der der Sondernutzung für E-Scooter lernen können**
+**Was Städte aus der der Sondernutzung für E-Scooter lernen können.**
 
 Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs beendet.
 
