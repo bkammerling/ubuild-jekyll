@@ -1,6 +1,7 @@
 ---
 layout: blocks
-title: Wunder Carpool | Optimize parking and reduce costs
+title: Wunder Carpool | Improve your employees commute
+description: Optimise employees commute to work and company parking with our carpooling technology. Promote sustanaible mobility and generate real time tracking reports.
 date: '2019-01-10T23:00:00.000+00:00'
 permalink: "/carpool"
 lang: en

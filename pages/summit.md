@@ -112,10 +112,17 @@ page_sections:
   sub-heading: The future is now! Let's explore what will bring in the next phase of the
     mobility revolution.
 - template: speakers
-  heading: 2019 Featured Speakers
+  heading: Featured Speakers
   sub-heading: Hear from leaders & innovators from different areas of mobility around the globe. Expect priceless insights and a platform to learn, share and experience what the future holds.
   block: speaker-cards
   speakers:
+  - name: Peter Tschentscher
+    job_title: Mayor of Hamburg
+    company: City of Hamburg
+    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
+    company_logo: "/uploads/2019/05/10/logo-hh.png"
+    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+    bio: ''
   - name: John Krafcik
     job_title: CEO
     company: Waymo
@@ -137,6 +144,20 @@ page_sections:
     company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+  - name: Martin Hoff
+    job_title: Head of Market Management & Innovation
+    company: Automotive, Allianz Partners
+    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
+    company_logo: "/uploads/global/allianz-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/hoffmartin/
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
   - name: Paulin Dementhon
     job_title: CEO
     company: Drivy by Getaround

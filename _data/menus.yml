@@ -22,7 +22,7 @@ wunder-main:
   parent: solutions
   identifier: carpool
   title: Carpool
-  subtitle: Ride sharing for employees
+  subtitle: Improve the daily commute
 - url: "/shuttle"
   weight: 3
   parent: solutions

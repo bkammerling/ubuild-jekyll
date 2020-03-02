@@ -246,7 +246,7 @@ var form = {
     var data = form.serializeObject(contactForm);
     var label = form.conversionLabels[data.subject];
     /* WMS subject / conversion label stuff removed 02/12/19 - must add back with event forms */
-    if($(".summit #modal-form #subject-field").length) {
+    if($(".summit #modal-form #subject-field, .autotech-events #modal-form #subject-field").length) {
       var subject = 'WMS';
       label = form.conversionLabels[subject];
       data.subject = $("form #subject-field").val();
