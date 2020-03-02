@@ -27,7 +27,7 @@ hidden: false
 
 Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs beendet.
 
-![An image of a parked kickscooter in front of a concrete background with a text box and a Wunder Mobility logo on the side.](/uploads/2020/03/02/MitSelbstbewusstsein_blog_body.jpg)
+![An image of a parked kickscooter in front of a concrete background with a text box and a Wunder Mobility logo on the side.](/uploads/2020/03/02/MitSelbstbewusstsein_blog_body.jpg "scooter image")
 
 Nachdem die Elektrokleinstfahrzeuge-Verordnung im Juni zunächst für erste Rahmenbedingungen und Standards sorgte, meldeten Kommunen schnell Nachbesserungsbedarf durch den Gesetzgeber an. Freiwillige Bemühungen vieler Anbieter - kontinuierlichem Austausch vor Ort, Fahrtrainings und zusätzliche App-Hinweise - sind den meisten Kommunen letztlich nicht genug.
 
