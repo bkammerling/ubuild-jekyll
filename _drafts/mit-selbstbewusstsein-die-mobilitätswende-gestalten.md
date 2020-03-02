@@ -8,14 +8,16 @@ tags:
 - kickscooters
 - Wunder City
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Find Out More About Wunder City
+cta_text: Wunder City is the tool that can help cities evaluate, plan and regulate
+  mobility companies by aggregating and understanding data.
+cta_link: pages/de/city.md
 title: Mit Selbstbewusstsein die Mobilitätswende gestalten
-publish_date: 
+publish_date: 2020-03-02 11:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonbedingt
+  etwas abgekühlt, doch die Debatte über die Zukunft urbaner Mobilität ist keineswegs
+  beendet.
 share_image: ''
 sticky: false
 hidden: false
