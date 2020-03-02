@@ -20,7 +20,7 @@ excerpt: Hype und Ärger über E-Scooter in deutschen Innenstädten sind saisonb
   beendet.
 share_image: "/uploads/2020/03/02/MitSelbstbewusstsein_blog_list-1.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 **Mit Selbstbewusstsein die Mobilitätswende gestalten – was Städte aus der der Sondernutzung für E-Scooter lernen können**
