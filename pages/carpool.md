@@ -23,7 +23,7 @@ page_sections:
     button_text: Watch our film
     url: "https://vimeo.com/318402556"
     enabled: true
-  background_video: carpool-web-loop
+  background_video: carpool-web-loop-02
   background_image: "/uploads/global/carpool-loop-still@2x.png"
   show_logos: false
   logo_row: ''
