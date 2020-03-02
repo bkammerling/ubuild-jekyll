@@ -101,13 +101,10 @@
                       {% capture event_alt %}Photo of {{ event.event_location }}{% endcapture %}
                       <img {% include resp_image.html file=featured_image alt=event_alt %} class="card-img-top">
                       <p class="text-overlay">
-                        {% comment %}
                         {% assign d = event.event_date | date: "%-d" %}
                         {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
                         {{ event.event_date | date: "%B" }}
                         {{ event.event_date | date: "%Y" }}
-                        {% endcomment %}
-                        To be confirmed
                       </p>
                       <div class="card-body">
                         {% assign location = event.event_location | split: ", " %}
