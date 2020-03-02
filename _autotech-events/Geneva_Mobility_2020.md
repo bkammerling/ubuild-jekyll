@@ -1,7 +1,7 @@
 ---
 layout: blocks-events
 title: Hamburg Wunder Mobility Sessions
-event_date: 2020-04-02 16:30:00 +0000
+event_date: 2020-04-02T16:30:00.000+00:00
 event_location: Hamburg, Germany
 event_block:
 - template: navigation-header-w-button
@@ -44,6 +44,7 @@ event_block:
       Berlingske and he’s been nominated Founder of The Year by Nordic Startup Awards.
       He holds a masters degree from Copenhagen Business School in Innovation and
       Business Development.  "
+  heading: SPEAKER LINE-UP
 - template: custom-content
   block: custom-html
   name: Agenda
@@ -65,6 +66,5 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   you will keep! "
 featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
 output_page: true
-published: false
 
 ---
