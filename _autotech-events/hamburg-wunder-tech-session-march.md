@@ -21,7 +21,7 @@ event_block:
     name: 'Miljan Martic '
     job_title: Senior Research Engineer
     company: DeepMind
-    company_logo: "/uploads/2020/02/19/DeepMind_logo.png"
+    company_logo: "/uploads/2020/03/02/dmlogo (1).png"
     linkedin: https://www.linkedin.com/in/miljanmartic/
     speaker_photo: "/uploads/2020/02/25/Image from iOS.jpg"
   - name: Ralf Sigmund
