@@ -23,11 +23,6 @@ event_block:
     company: 'Pininfarina '
     speaker_photo: "/uploads/2020/02/21/David-Gagliardi-1.jpg"
     linkedin: https://www.linkedin.com/in/david-gagliardi-56739039/
-  - bio: ''
-    name: Thorsten Weber
-    job_title: CEO
-    company: 'ZF Car eWallet '
-    linkedin: https://www.linkedin.com/in/thorsten-olaf-weber/
   - name: Steffen W. Frølund
     job_title: Chief Marketing Officer
     company: 'Green Mobility '
@@ -66,6 +61,5 @@ event_description: "<strong>Informal but exclusive</strong>, with world class sp
   you will keep! "
 featured_image: "/uploads/2020/01/28/jonas-tebbe-j22K61_1peg-unsplash.jpg"
 output_page: true
-published: false
 
 ---
