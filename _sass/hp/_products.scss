@@ -8,6 +8,7 @@
   }
 }
 
+
 .text-blue {
   color: $mobility-blue;
 }
@@ -21,6 +22,10 @@
     color: $mobility-black;
   }
 }
+
+
+
+/* Range input slider for carpool calculations */
 
 .custom-range {
   &::-webkit-slider-thumb {
@@ -81,6 +86,7 @@
 
 }
 
+
 .carpool-uphack {
   @include rwd(tablet-up) {
     margin-top: -100px;
@@ -99,6 +105,17 @@
   @include rwd(tablet-up) {
     margin-left: 0;
     max-width: none;
+  }
+}
+
+#carpool-park-animation {
+  @include rwd(tablet-down) {
+    max-width: 420px;
+  }
+  @include rwd(mobile-down) {
+    width: 150%;
+    transform: translateX(-20%);
+    margin-top: 35px;
   }
 }
 
@@ -122,6 +139,21 @@
   }
 }
 
+
+/*
+.hero-banner__title-wrapper {
+  img ~ a {
+    background: $white;
+    display: inline-block;
+    color: $mobility-black;
+    margin-top: 10px;
+    @extend .btn;
+    &:after {
+      display: none;
+    }
+  }
+}
+*/
 
 /* ANIMATION FOR PHONE MOCKUPS */
 

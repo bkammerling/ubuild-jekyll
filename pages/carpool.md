@@ -25,7 +25,8 @@ page_sections:
     url: "https://vimeo.com/318402556"
     enabled: true
   background_video: carpool-web-loop-02
-  background_image: "/uploads/global/carpool-loop-still@2x.png"
+  background_image: "/uploads/global/carpool-loop-still.jpg"
+  background_image_mobile: "/uploads/global/carpool-loop-still_mob@2x.jpg"
   show_logos: false
   logo_row: ''
   intro_text: ''
@@ -46,7 +47,7 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-share_image: "/uploads/2019/11/14/Sharer-Carpool.jpg"
+share_image: "/uploads/global/Sharer-Carpool@2x.jpg"
 menu:
   wunder-main:
     weight: 1
