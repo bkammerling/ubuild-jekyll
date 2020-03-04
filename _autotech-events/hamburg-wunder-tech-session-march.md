@@ -33,7 +33,7 @@ event_block:
   - name: Benjamin Krueger
     job_title: Head of Engineering
     company: Wunder Fleet
-    speaker_photo: "/uploads/2020/02/27/BENJAMIN KRUEGER.png"
+    speaker_photo: "/uploads/2020/03/03/IMG_1452-1.jpg"
     company_logo: "/uploads/2020/02/19/Wunder Fleet Black.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/benjamin-kr%C3%BCger-a1474688/
