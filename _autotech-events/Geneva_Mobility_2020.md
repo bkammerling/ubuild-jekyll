@@ -25,7 +25,15 @@ event_block:
     bio: ''
     linkedin: https://www.linkedin.com/in/thorsten-olaf-weber/
   - name: David Gagliardi
-    bio: ''
+    bio: Graduated in mechanical engineering and specialized in vehicle engineering
+      at the University of Pisa (Italy), David Gagliardi started his career in Italy
+      at Piaggio S.p.A., working in the powertrain innovation department. In 2005
+      he moved to Germany to join Ricardo Deutschland GmbH where he worked in different
+      positions for 9 years and becoming in 2013 a member of its executive board,
+      with responsibility for Sales, Business Development and Marketing.  He extended
+      his international experience working for Johnson Electric and Oerlikon Graziano,
+      being global manager respectively for drivetrain products and electric drives.
+      He has been Managing Director of Pininfarina Deutschland since 2018.
     job_title: CEO Germany
     company: 'Pininfarina '
     speaker_photo: "/uploads/2020/02/21/David-Gagliardi-1.jpg"
