@@ -36,7 +36,7 @@ event_block:
       He has been Managing Director of Pininfarina Deutschland since 2018.
     job_title: CEO Germany
     company: 'Pininfarina '
-    speaker_photo: "/uploads/2020/02/21/David-Gagliardi-1.jpg"
+    speaker_photo: "/uploads/2020/03/05/David Gagliardi.jpeg"
     linkedin: https://www.linkedin.com/in/david-gagliardi-56739039/
     company_logo: "/uploads/2020/03/04/Pininfarina.svg.png"
   - name: Steffen W. Frølund
