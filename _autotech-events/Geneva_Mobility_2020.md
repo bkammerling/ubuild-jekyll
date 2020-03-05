@@ -17,6 +17,13 @@ event_block:
 - template: speakers
   block: speaker-cards
   speakers:
+  - name: Thorsten Weber
+    job_title: CEO
+    company: ZF Car eWallet
+    speaker_photo: "/uploads/2020/03/05/Thorsten Weber sw.jpeg"
+    company_logo: "/uploads/2020/03/05/CEW-LOGO-RGB.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/thorsten-olaf-weber/
   - name: David Gagliardi
     bio: ''
     job_title: CEO Germany
