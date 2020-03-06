@@ -1,7 +1,7 @@
 /* ZAPIER INTELLIGENT GETFORM FLOW */
 
-var owner, language, languageOptionId = 312, stakeholders = [], pipedriveProductId;
-language = inputData.siteLanguage, tags = "", randomNum = Math.random();
+var owner, language, languageOptionId = 312, stakeholders = [], pipedriveProductId, tags = "", randomNum = Math.random();
+language = inputData.siteLanguage;
 
 // first get deal owner and assign language - based on DR's flow https://miro.com/app/board/o9J_kvfhcUU=/
 if(inputData.subject == "Wunder Carpool") {
