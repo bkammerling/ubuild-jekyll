@@ -59,6 +59,7 @@
                     <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
                     <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' %}selected{% endif %}>Wunder Vehicles</option>
                     <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
+                    <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -70,30 +71,26 @@
                 <div class="bottom-border"></div>
               </div>
 
-              {% if page.lang-ref == 'fleet' or page.lang-ref == 'carpool' %}
+              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' %}
+              {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
+              {% if page.lang-ref == 'carpool' %}
+                {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
+                {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
+              {% endif %}
               <div class="form-group shuttle fleet carpool">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Type of organisation *</option>
-                    {% if page.lang-ref == 'fleet' or page.lang-ref =='shuttle' %}
-                    <option value="Operating start-up">Operating start-up</option>
-                    <option value="Non operating start-up">Non operating start-up</option>
-                    <option value="OEM">OEM</option>
-                    <option value="Corporate">Corporate</option>
-                    <option value="Public services">Public services</option>
-                    <option value="City / Government">City / Government</option>
-                    {% endif %}
-                    {% if page.lang-ref == 'carpool' %}
-                    <option value="Company" data-target="#parkingQs">Company</option>
-                    <option value="City" data-target="#parkingQs" data-direction="up">City</option>
-                    <option value="University" data-target="#parkingQs">University</option>
-                    {% endif %}
-                    <option value="Other" data-target="#parkingQs">Other</option>
+                    <option value="Setting up" {{ nonConditionals }}>I am a setting up a new mobility service</option>
+                    <option value="Already running" {{ nonConditionals }}>I am already running a mobility service</option>
+                    <option value="Interested internal" {{ conditionals }}>I am interested in employee mobility solutions for my company</option>
+                    {% comment %}<option value="Enterprise" {{ conditionals }}>Enterprise with mobility as a core business</option>{% endcomment %}
+                    <option value="Other" {{ conditionals }}>Other</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              {% endif %}
+              {% endunless %}
 
 
               <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>

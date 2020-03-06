@@ -64,6 +64,7 @@
                   <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
                   <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' %}selected{% endif %}>Wunder Vehicles</option>
                   <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
+                  <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>
@@ -75,23 +76,27 @@
               <div class="bottom-border"></div>
             </div>
 
-            {% if page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
-            <div class="form-group shuttle fleet">
+            {% unless page.lang-ref == 'city' or page.lang-ref == 'press' %}
+            {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
+            {% if page.lang-ref == 'carpool' %}
+              {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
+              {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
+            {% endif %}
+            <div class="form-group shuttle fleet carpool">
               <div class="select-wrapper">
-                <select name="type-of-company" class="form-control select2-init" style="width:100%" id="typeSelect" required=true>
-                  <option disabled selected>Art des Unternehmens *</option>
-                  <option value="Operating start-up">Operating start-up</option>
-                  <option value="Non operating start-up">Non operating start-up</option>
-                  <option value="OEM">OEM</option>
-                  <option value="Corporate">Corporate</option>
-                  <option value="Public services">Öffentliche Einrichtung</option>
-                  <option value="City / Government">Stadtverwaltung</option>
-                  <option value="Other">Sonstiges</option>
+                <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
+                  <option disabled selected>Type of organisation *</option>
+                  <option value="Setting up" {{ nonConditionals }}>Ich möchte einen neuen Mobilitätsservice starten</option>
+                  <option value="Already running" {{ nonConditionals }}>Ich betreibe bereits einen Mobilitätsservice</option>
+                  <option value="Interested internal" {{ conditionals }}>Ich suche nach Mobilitätslösungen für die Mitarbeiter meines Unternehmens</option>
+                  {% comment %}<option value="Enterprise" {{ conditionals }}>Enterprise with mobility as a core business</option>{% endcomment %}
+                  <option value="Other" {{ conditionals }}>Other</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>
             </div>
-            {% endif %}
+            {% endunless %}
+
 
             {% if page.lang-ref == 'fleet' %}
             <div class="form-group fleet">
