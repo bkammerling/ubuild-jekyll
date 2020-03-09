@@ -14,7 +14,7 @@ page_sections:
 
 <div class="jumbotron d-flex flex-column justify-content-center" style="min-height: 40vh;">
 
-  <h2>The monthly Wunder x Bernstein Policy Brief</h2>
+  <h2>The Wunder x Bernstein Policy Brief</h2>
 
   <div class="mx-auto clearfix" style="max-width:500px">
     <p class=" mb-4 mt-3">We’ve teamed up with the Bernstein Group to create a monthly policy brief! Sign up to get all the latest policy and mobility updates delivered directly to your inbox. Articles are in English and German.</p>
