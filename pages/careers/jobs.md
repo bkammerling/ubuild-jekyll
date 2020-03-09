@@ -37,7 +37,7 @@ page_sections:
     data-type="departments" class="team-select"> <option value="">All Teams <ion-icon
     name="arrow-down"></ion-icon></option> <option name="department" value="engineering">Engineering</option>
     <option name="department" value="product">Product</option> <option name="department"
-    value="analytics">Data</option> <option name="department" value="design">Design</option>
+    value="data">Data</option> <option name="department" value="design">Design</option>
     <option name="department" value="communications">Communications & PR</option>
     <option name="department" value="marketing">Marketing</option> <option name="department"
     value="finance">Finance & Legal</option> <option name="department" value="people">People</option>
