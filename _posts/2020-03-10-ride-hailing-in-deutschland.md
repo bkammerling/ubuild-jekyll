@@ -24,10 +24,9 @@ hidden: true
 ---
 **Schlecht gedacht, nichts gemacht – wie Deutschland beim Thema Ride-Hailing versagt**
 
-_To read this article in English, click_ [_here_](www.wundermobility.com/blog/ridehailing-in-germany)_._ 
+_To read this article in English, click_ [_here_](www.wundermobility.com/blog/ridehailing-in-germany)_._
 
-  
-Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche in Deutschland derzeit zu spüren. Insbesondere die urbanen Räume erleben, wie Digitalisierung und Automatisierung unsere Mobilitäts- und Denkstrukturen radikal verändern. Die Nutzung von Ride-Hailing-Angeboten gilt in Berlin, Hamburg, München und Co. als Selbstverständlichkeit, Taxis werden per App bestellt und bezahlt. 
+Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche in Deutschland derzeit zu spüren. Insbesondere die urbanen Räume erleben, wie Digitalisierung und Automatisierung unsere Mobilitäts- und Denkstrukturen radikal verändern. Die Nutzung von Ride-Hailing-Angeboten gilt in Berlin, Hamburg, München und Co. als Selbstverständlichkeit, Taxis werden per App bestellt und bezahlt.
 
 ![](/uploads/2020/03/10/Ridehailing_blog_Body-2.jpg)
 
@@ -64,5 +63,3 @@ Diese Initiative wird hingegen bereits von Seiten der Europäischen Union vorang
 Die verschiedenen Verkehrsträger in Deutschland sollten im Zuge der Mobilitätswende durch ein umfassendes Konzept in Verbindung miteinander gebracht werden - im Bestfall voneinander profitieren sich aber vor allem nicht kannibalisieren.
 
 Einerseits sollten Anreize für Carpooling und Elektrofahrzeuge geschaffen werden, um den eigenen Klimazielen nachzukommen und die Umwelt- und Luftverschmutzung trotz erhöhter Ride-Hailing Nutzung niedrig zu halten. Andererseits müssen die Auflagen aber wirtschaftlich und sozial umsetzbar bleiben und sich nicht einseitig auf bestimmte Anbieter ausrichten. Eine Öffnung und schnelle Anpassung der Gesetze, bei der die innovativen und kundenfreundlichen Mobilitätsangebote ausreichend berücksichtigt werden, ist unabdingbar. Nur so kann Deutschland die Mobilitätswende verantwortungsbewusst und zukunftsorientiert mitgestalten.
-
-_To read this article in English, click_ [_here_](https://www.wundermobility.com/blog/ridehailing-in-germany)_._
