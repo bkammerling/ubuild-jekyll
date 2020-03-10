@@ -63,5 +63,3 @@ The European Union is already behind that initiative. They encourage the switch 
 Germany needs a plan that can unite different agents within the mobility sector. In a best case scenario, everyone involved would end up profiting from the increased collaboration, rather than cannibalizing each other.
 
 Carpooling and EVs need to be incentivized if we want to achieve our climate targets and keep the pollution caused by ridehailing to a minimum. It’s also important, however, that restrictive measures take the needs of businesses and citizens into consideration without pitting one side against the other. If the government hopes to offer Germans the innovative and customer-friendly mobility options they deserve, it’s imperative that old laws are revised as soon as possible. That’s the only way Germany can ensure the development of a responsible, future-focused mobility industry that benefits everyone.
-
-_To read this article in German, click_ [_here_](https://www.wundermobility.com/blog/ride-hailing-in-deutschland)_._
