@@ -22,7 +22,11 @@ hidden: false
 ---
 **Schlecht gedacht, nichts gemacht – wie Deutschland beim Thema Ride-Hailing versagt**
 
-Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche in Deutschland derzeit zu spüren. Insbesondere die urbanen Räume erleben, wie Digitalisierung und Automatisierung unsere Mobilitäts- und Denkstrukturen radikal verändern. Die Nutzung von Ride-Hailing-Angeboten gilt in Berlin, Hamburg, München und Co. als Selbstverständlichkeit, Taxis werden per App bestellt und bezahlt. Gemäß Statistiken haben im vergangenen Jahre bereits 5.3 Millionen Nutzer auf Ride-Hailing Angebote zurückgegriffen haben - 2023 könnten es schon 7.8 Millionen Nutzer sein. Die individuelle Freiheit definiert sich heute über die Angebote – nicht das eigene Auto vor der Tür.
+Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche in Deutschland derzeit zu spüren. Insbesondere die urbanen Räume erleben, wie Digitalisierung und Automatisierung unsere Mobilitäts- und Denkstrukturen radikal verändern.
+
+![](/uploads/2020/03/10/Ridehailing_blog_Body.jpg)
+
+Die Nutzung von Ride-Hailing-Angeboten gilt in Berlin, Hamburg, München und Co. als Selbstverständlichkeit, Taxis werden per App bestellt und bezahlt. Gemäß Statistiken haben im vergangenen Jahre bereits 5.3 Millionen Nutzer auf Ride-Hailing Angebote zurückgegriffen haben - 2023 könnten es schon 7.8 Millionen Nutzer sein. Die individuelle Freiheit definiert sich heute über die Angebote – nicht das eigene Auto vor der Tür.
 
 **Kritik und Probleme in Deutschland**
 
