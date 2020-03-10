@@ -12,7 +12,7 @@ cta_text: Scale quickly with on-demand ride-hailing from Wunder Shuttle.
 cta_link: pages/shuttle.md
 title: Ride-Hailing in Deutschland
 publish_date: 2020-03-10 00:00:00 +0000
-featured_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_shareimage.jpg"
+featured_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_list.jpeg"
 excerpt: Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche
   in Deutschland derzeit zu spüren.
 share_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_shareimage-1.jpg"
