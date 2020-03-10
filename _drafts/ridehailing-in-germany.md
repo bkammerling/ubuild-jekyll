@@ -14,17 +14,21 @@ cta_text: Scale quickly with on-demand ride-hailing from Wunder Shuttle.
 cta_link: pages/shuttle.md
 title: Ridehailing in Germany
 publish_date: 2020-03-10 15:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_list-1.jpeg"
 excerpt: The German transportation industry is starting to realize that disruption
   doesn’t have a grace period.
-share_image: ''
+share_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_list-2.jpeg"
 sticky: false
 hidden: false
 
 ---
 **Too little, too late: how Germany missed the boat on ridehailling**
 
-The German transportation industry is starting to realize that disruption doesn’t have a grace period. Urban areas in particular are witnessing digitalization and automation change the way we think about mobility dramatically. These days, using ridehailing services - like booking and paying for a taxi via app - is a daily occurrence for many living in Berlin, Munich and Hamburg. In fact, a little over **5 million users used ridehailing services in the past year in Germany.** In 2023, that number could increase to 7.8 million users.
+The German transportation industry is starting to realize that disruption doesn’t have a grace period. Urban areas in particular are witnessing digitalization and automation change the way we think about mobility dramatically. 
+
+![](/uploads/2020/03/10/Ridehailing_blog_Body-1.jpg)
+
+These days, using ridehailing services - like booking and paying for a taxi via app - is a daily occurrence for many living in Berlin, Munich and Hamburg. In fact, a little over **5 million users used ridehailing services in the past year in Germany.** In 2023, that number could increase to 7.8 million users.
 
 Today, when “individual freedom” is discussed in relation to mobility, the discussion isn’t about having a car parked outside your front door, but rather the idea of a variety of ridehailing options being available to users in a city.
 
@@ -58,4 +62,4 @@ Germany needs a plan that can unite different agents within the mobility sector.
 
 Carpooling and EVs need to be incentivized if we want to achieve our climate targets and keep the pollution caused by ridehailing to a minimum. It’s also important, however, that restrictive measures take the needs of businesses and citizens into consideration without pitting one side against the other. If the government hopes to offer Germans the innovative and customer-friendly mobility options they deserve, it’s imperative that old laws are revised as soon as possible. That’s the only way Germany can ensure the development of a responsible, future-focused mobility industry that benefits everyone.
 
-To read this article in German, click here. 
+To read this article in German, click here.
