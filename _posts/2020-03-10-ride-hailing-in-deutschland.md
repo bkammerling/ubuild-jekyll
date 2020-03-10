@@ -17,7 +17,7 @@ excerpt: Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsb
   in Deutschland derzeit zu spüren.
 share_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_shareimage-1.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 **Schlecht gedacht, nichts gemacht – wie Deutschland beim Thema Ride-Hailing versagt**
