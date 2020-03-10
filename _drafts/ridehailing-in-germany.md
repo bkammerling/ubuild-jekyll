@@ -24,7 +24,9 @@ hidden: false
 ---
 **Too little, too late: how Germany missed the boat on ridehailling**
 
-The German transportation industry is starting to realize that disruption doesn’t have a grace period. Urban areas in particular are witnessing digitalization and automation change the way we think about mobility dramatically. 
+_To read this article in German, click_ [_here_](https://www.wundermobility.com/blog/ride-hailing-in-deutschland)_._
+
+The German transportation industry is starting to realize that disruption doesn’t have a grace period. Urban areas in particular are witnessing digitalization and automation change the way we think about mobility dramatically.
 
 ![](/uploads/2020/03/10/Ridehailing_blog_Body-1.jpg)
 
@@ -62,4 +64,4 @@ Germany needs a plan that can unite different agents within the mobility sector.
 
 Carpooling and EVs need to be incentivized if we want to achieve our climate targets and keep the pollution caused by ridehailing to a minimum. It’s also important, however, that restrictive measures take the needs of businesses and citizens into consideration without pitting one side against the other. If the government hopes to offer Germans the innovative and customer-friendly mobility options they deserve, it’s imperative that old laws are revised as soon as possible. That’s the only way Germany can ensure the development of a responsible, future-focused mobility industry that benefits everyone.
 
-To read this article in German, click here.
+_To read this article in German, click_ [_here_](https://www.wundermobility.com/blog/ride-hailing-in-deutschland)_._
