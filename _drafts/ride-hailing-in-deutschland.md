@@ -53,3 +53,5 @@ Diese Initiative wird hingegen bereits von Seiten der Europäischen Union vorang
 Die verschiedenen Verkehrsträger in Deutschland sollten im Zuge der Mobilitätswende durch ein umfassendes Konzept in Verbindung miteinander gebracht werden - im Bestfall voneinander profitieren sich aber vor allem nicht kannibalisieren.
 
 Einerseits sollten Anreize für Carpooling und Elektrofahrzeuge geschaffen werden, um den eigenen Klimazielen nachzukommen und die Umwelt- und Luftverschmutzung trotz erhöhter Ride-Hailing Nutzung niedrig zu halten. Andererseits müssen die Auflagen aber wirtschaftlich und sozial umsetzbar bleiben und sich nicht einseitig auf bestimmte Anbieter ausrichten. Eine Öffnung und schnelle Anpassung der Gesetze, bei der die innovativen und kundenfreundlichen Mobilitätsangebote ausreichend berücksichtigt werden, ist unabdingbar. Nur so kann Deutschland die Mobilitätswende verantwortungsbewusst und zukunftsorientiert mitgestalten.
+
+Read the article in English here.
