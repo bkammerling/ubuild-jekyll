@@ -41,6 +41,24 @@
 
     </div>
 
+    <section id="corona-update">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-2 mt-5">
+
+            <h2 class="page-heading mb-3">Important Events Update</h2>
+            <p class="mb-2">As COVID-19 becomes a matter of global concern, we’re taking some proactive measures to help minimise the chances of spread of the coronavirus. The safety and well-being of our clients, employees, partners and guests has always been a matter of top priority for us - now more than ever before.</p>
+            <p class="mb-2">In light of growing concerns, we’ve made the difficult decision, as a host, to call off our events scheduled in the next couple of months. This includes the Wunder Tech Sessions on March 26th and the Wunder Mobility Sessions on April 2nd.</p>
+            <p class="mb-2">We are exploring options to either reschedule the event or conduct an online edition of the same, depending on local realities. We will try to come back to you with more information as soon as possible.</p>
+            <p class="mb-2">We’re confident that with the right practices, we can help curb the spread of COVID-19. In the meantime, should you have any concerns about the matter, please reach out to us on <a target="_blank" href="mailto:events@wundermobility.com">events@wundermobility.com</a>.</p>
+            <p class="mb-2">Read more about the WHO's recommendations on best practices <a target="_blank" href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">here</a>.</p>
+            <p>Stay safe,<br>Team Wunder</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     {% comment %}
     <div class="container mt-5" id="section-nextevent">
       <div class="wunder-bg left top-1"></div>
@@ -58,13 +76,12 @@
             {% endif %}
             {% endfor %}
             <h2 class="page-heading mb-4 text-blue">Next Event</h2>
-            {% comment %}
+
             <h1 class="mb-3 p-0">{% assign d = next_event.event_date | date: "%-d" %}
             {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}
             {{ next_event.event_date | date: "%B" }}
             {{ next_event.event_date | date: "%Y" }} <br>{{ next_event.event_location }}</h1>
-            {% endcomment %}
-            <h1 class="mb-3 p-0">Geneva, Switzerland</h1>
+
             <p class="text-black w-75 lead mb-5">{{ next_event.event_description }}</p>
             {% if next_event.output_page %}<a class="round-cta dark" href="{{ next_event.url }}">Find out more</a>{% else %}<p>More information coming soon</p>{% endif %}
 
@@ -73,7 +90,7 @@
       </div>
 
     </div>
-    {% endcomment %}
+{% endcomment %}
 
     <br>
     <br>
@@ -186,9 +203,7 @@
   <br>
   <br>
 
-
   </div>
-
 </main>
 
 <!-- Modal -->
