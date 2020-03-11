@@ -124,7 +124,7 @@ wunder-de:
   parent: solutions
   identifier: shuttle
   title: Shuttle
-  subtitle: On-demand ride hailing
+  subtitle: Ridehailing On-Demand
 - url: "/de/park"
   weight: 5
   parent: solutions
@@ -137,6 +137,12 @@ wunder-de:
   identifier: city
   title: City
   subtitle: Datenanalyse für Mobilität
+- url: "/vehicles"
+  weight: 7
+  parent: solutions
+  identifier: hardware
+  title: Vehicles | EN
+  subtitle: Sharing-ready vehicles
 - url: "#"
   weight: 2
   title: Events

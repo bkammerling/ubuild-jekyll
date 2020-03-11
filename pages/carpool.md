@@ -11,7 +11,6 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-  sub_logo: "/uploads/global/Wunder_Carpool_White.svg"
   cta:
     url: "#section-contact"
     button_text: Contact us
@@ -42,7 +41,6 @@ page_sections:
   title: Let's Talk
   content: Let's get your carpool service up and running within a month. Let us know
     some info and our team will get back to you.
-  headline: Let's Talk
   background_image: ''
 - template: simple-footer
   block: footer-1
