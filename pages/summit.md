@@ -110,7 +110,7 @@ page_sections:
   items:
   - content: Inspirational speakers share their knowledge and best practices on stage.
     title: Conference
-    image: "/uploads/2019/05/16/WMS18_44@2x.jpg"
+    image: "/uploads/2020/03/12/formats-conference@2x.jpg"
     icon: ''
     sub_title: ''
     show_meetups: false
@@ -130,11 +130,11 @@ page_sections:
   - title: Networking & Party
     content: A collaborative environment, memorable parties and effective and efficient
       networking breaks.
-    image: "/uploads/2019/05/14/network-party@2x.jpg"
+    image: "/uploads/2020/03/12/formats-networking@2x.jpg"
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: "/uploads/2019/05/14/WMS18_26@2x.jpg"
+  - image: "/uploads/2020/03/12/formats-expo@2x.jpg"
     title: Expo
     content: Get into direct discussions with hand selected, high-caliber guests.
     icon: ''
@@ -142,11 +142,11 @@ page_sections:
     show_meetups: false
   - title: Technology Playground
     content: Guests can play around with and be inspired by new technology.
-    image: "/uploads/2019/05/14/WMS18_54@2x.jpg"
+    image: "/uploads/2020/03/12/formats-tech@2x.jpg"
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: "/uploads/2019/05/14/stage-battle@2x.jpg"
+  - image: "/uploads/2020/03/12/formats-startup@2x.jpg"
     title: Startup Stage Battle
     content: Four selected startups share their groundbreaking visions.
     icon: ''
