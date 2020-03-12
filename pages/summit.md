@@ -14,9 +14,9 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: <strong>Wunder Mobility Summit 2020</strong>
+  headline: "<strong>Wunder Mobility Summit 2020</strong>"
   cta:
-    button_text: 'Apply to attend'
+    button_text: Apply to attend
     url: "#"
     enabled: true
   cta_2:
@@ -62,19 +62,30 @@ page_sections:
       of mobility in Germany, Hamburg.</strong>"
   col_2:
     headline: ''
-    content: <strong>The Wunder Mobility Summit brings together the greatest minds in the industry to discuss and shape the future of mobility.</strong> <br><br>This one-and-a-half day event connects the biggest players within the mobility ecosystem, from industry greats to academia and policy makers to visionaries, for an exchange of knowledge, ideas and insights.
+    content: "<strong>The Wunder Mobility Summit brings together the greatest minds
+      in the industry to discuss and shape the future of mobility.</strong> <br><br>This
+      one-and-a-half day event connects the biggest players within the mobility ecosystem,
+      from industry greats to academia and policy makers to visionaries, for an exchange
+      of knowledge, ideas and insights."
   bg_image: ''
   unique_id: summit-detail
 - template: custom-content
   block: custom-html
   name: Break
-  content: <br><br>
+  content: "<br><br>"
 - template: speakers
   heading: Speaker Line-up 2020
   sub-heading: ''
   block: speaker-cards
   morecome: true
   speakers:
+  - name: Vanessa Govi
+    job_title: 'Chief Digital Officer '
+    company: ALD
+    speaker_photo: "/uploads/2020/03/12/vanessa-govi@2x.jpg"
+    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/vanessa-govi-7a24491
   - name: Peter Tschentscher
     job_title: Mayor of Hamburg
     company: City of Hamburg
@@ -85,7 +96,7 @@ page_sections:
 - template: custom-content
   block: custom-html
   name: Break
-  content: <br><br>
+  content: "<br><br>"
 - template: image-content-block
   block: two-column-vertical-cards
   heading: Formats
@@ -110,7 +121,8 @@ page_sections:
     sub_title: ''
     show_meetups: false
   - title: Networking & Party
-    content: A collaborative environment, memorable parties and effective and efficient networking breaks.
+    content: A collaborative environment, memorable parties and effective and efficient
+      networking breaks.
     image: "/uploads/2019/05/14/network-party@2x.jpg"
     icon: ''
     sub_title: ''
@@ -222,8 +234,8 @@ page_sections:
     icon: "/uploads/2019/05/13/helicopter.svg"
     link: ''
     content: ''
-  sub-heading: The future is now! Let's explore what will bring in the next phase of the
-    mobility revolution.
+  sub-heading: The future is now! Let's explore what will bring in the next phase
+    of the mobility revolution.
 - template: custom-content
   block: custom-html
   content: |-
@@ -247,7 +259,7 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: "</div></main>"
-  name: Main fix  
+  name: Main fix
 - template: simple-footer
   block: footer-1
   content: ''
