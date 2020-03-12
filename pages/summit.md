@@ -79,13 +79,6 @@ page_sections:
   block: speaker-cards
   morecome: true
   speakers:
-  - name: Vanessa Govi
-    job_title: 'Chief Digital Officer '
-    company: ALD
-    speaker_photo: "/uploads/2020/03/12/vanessa-govi@2x.jpg"
-    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/vanessa-govi-7a24491
   - name: Peter Tschentscher
     job_title: Mayor of Hamburg
     company: City of Hamburg
@@ -93,6 +86,20 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-hh.png"
     linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
     bio: ''
+  - name: Vanessa Govi
+    job_title: 'Chief Digital Officer '
+    company: ALD
+    speaker_photo: "/uploads/2020/03/12/vanessa-govi@2x.jpg"
+    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/vanessa-govi-7a24491
+  - name: Johannes-Jörg Rüger
+    job_title: President
+    company: Bosch Engineering GmbH
+    speaker_photo: "/uploads/2020/03/12/johannes-jorg@2x.jpg"
+    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x-1.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/johannes-joerg-rueger-401ba1120/
 - template: custom-content
   block: custom-html
   name: Break
