@@ -56,9 +56,9 @@ fields:
       required: false
     label: Linkedin URL
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Speakers
 - name: block
   type: text

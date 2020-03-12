@@ -12,11 +12,11 @@ page_sections:
   cta:
     url: "/summit/"
     button_text: WMS19 Home
-    enabled: true
+    enabled: false
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>Wunder Mobility Summit</strong> 2019"
+  headline: "<strong>Wunder Mobility Summit 2019</strong>"
   cta:
     button_text: Watch Aftermovie
     url: "#main-video"
@@ -43,7 +43,7 @@ page_sections:
                           <div class="col-2">
                             <div class="scroller-list">
                               <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-summit-intro">Intro</a>
-                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#main-video">Aftermovie</a>
+                              <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-speakers">Speakers</a>
                               <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-agenda">Agenda</a>
                               <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-gallery">Gallery</a>
                               <a class="list-group-item list-group-item-action gt-scrollnav" href="#section-supporters">Sponsors</a>
@@ -88,11 +88,82 @@ page_sections:
       </div>
     </div>
   name: numbers
-- template: full-width-media-element
-  block: video-1
-  iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  heading: ''
+- template: speakers
+  heading: Featured 2019 Speakers
+  sub-heading:
+  block: speaker-cards
+  speakers:
+  - name: Peter Tschentscher
+    job_title: Mayor of Hamburg
+    company: City of Hamburg
+    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
+    company_logo: "/uploads/2019/05/10/logo-hh.png"
+    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+    bio: ''
+  - name: John Krafcik
+    job_title: CEO
+    company: Waymo
+    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
+    company_logo: "/uploads/2019/05/10/logo-waymo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
+  - name: Sigrid Dalberg-Krajewski
+    job_title: Head of Marketing & Communications
+    company: Trafi
+    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
+    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+  - name: Martin Hoff
+    job_title: Head of Market Management & Innovation
+    company: Automotive, Allianz Partners
+    speaker_photo: "/uploads/2019/07/22/Martin-Hoff.jpg"
+    company_logo: "/uploads/global/allianz-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/hoffmartin/
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
+    linkedin: https://www.linkedin.com/in/paulin/
+  - name: Andrea Kollmorgen
+    job_title: VP Connected eMobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
+    bio: ''
+  - name: Patrick Haller
+    job_title: Industry Manager
+    company: Google
+    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
+    company_logo: "/uploads/2019/08/15/google-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/phaller/
+  - name: Alexander Marten
+    job_title: Chief Innovation Evangelist
+    company: Deutsche Telekom
+    speaker_photo: "/uploads/2019/05/10/Alexander_Marten.png"
+    company_logo: "/uploads/2019/05/10/logo-telekom.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/alexandermarten/
+  - name: Thomas Dahlem
+    job_title: Director Development Autonomous Driving
+    company: Audi
+    speaker_photo: "/uploads/2019/10/25/Thomas-1.jpg"
+    company_logo: "/uploads/global/audi-rings.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/thomas-dahlem-ab058b3/
+  - name: Robert Lokner
+    job_title: Industry Solution Manager Automotive/EMEA
+    company: Microsoft
+    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
+    company_logo: "/uploads/global/microsoft-logo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/robert-lokner/
 - template: custom-content
   block: custom-html
   content: |-
@@ -152,6 +223,11 @@ page_sections:
   - "/uploads/2019/05/15/wms18-587.jpg"
   - "/uploads/2019/05/15/wms18-519-1.jpg"
   description: ''
+- template: full-width-media-element
+  block: video-1
+  iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  heading: ''
 - template: custom-content
   block: custom-html
   content: |-
@@ -159,7 +235,7 @@ page_sections:
       <div class="row align-items-center">
         <div class="col-lg-10 offset-lg-2 mt-5">
           <section id="section-supporters">
-            <h2 class="page-heading mb-4">Past Sponsors</h2>
+            <h2 class="page-heading mb-4">Sponsors</h2>
             <div class="row align-items-center">
               <div class="col-lg-4 offset-lg-2">
                 <div class="partner-box">
@@ -240,7 +316,7 @@ page_sections:
                 </div>
               </div>
             </div>
-            <h2 class="page-heading my-5 py-5">Past media partners & supporters</h2>
+            <h2 class="page-heading my-5 py-5">Media partners & supporters</h2>
             <div class="row align-items-center">
               <div class="col-lg-4">
                 <div class="partner-box">
