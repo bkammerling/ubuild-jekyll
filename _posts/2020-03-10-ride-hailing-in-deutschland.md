@@ -13,7 +13,7 @@ cta_heading: Find Out More About Wunder Shuttle
 cta_text: Scale quickly with on-demand ride-hailing from Wunder Shuttle.
 cta_link: pages/shuttle.md
 title: Ride-Hailing in Deutschland
-publish_date: 2020-03-10 00:00:00 +0000
+publish_date: 2020-03-10T00:00:00.000+00:00
 featured_image: "/uploads/2020/03/10/Ridehailing_in_germany_blog_list.jpeg"
 excerpt: Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche
   in Deutschland derzeit zu spüren.
@@ -31,8 +31,6 @@ Disruption kennt keine Schonfristen – dies bekommt auch die Verkehrsbranche in
 ![](/uploads/2020/03/10/Ridehailing_blog_Body-2.jpg)
 
 Gemäß Statistiken haben im vergangenen Jahre bereits 5.3 Millionen Nutzer auf Ride-Hailing Angebote zurückgegriffen haben - 2023 könnten es schon 7.8 Millionen Nutzer sein. Die individuelle Freiheit definiert sich heute über die Angebote – nicht das eigene Auto vor der Tür.
-
-Die Nutzung von Ride-Hailing-Angeboten gilt in Berlin, Hamburg, München und Co. als Selbstverständlichkeit, Taxis werden per App bestellt und bezahlt. Gemäß Statistiken haben im vergangenen Jahre bereits 5.3 Millionen Nutzer auf Ride-Hailing Angebote zurückgegriffen haben - 2023 könnten es schon 7.8 Millionen Nutzer sein. Die individuelle Freiheit definiert sich heute über die Angebote – nicht das eigene Auto vor der Tür.
 
 **Kritik und Probleme in Deutschland**
 
