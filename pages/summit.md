@@ -263,6 +263,22 @@ page_sections:
   iframe: <iframe src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   heading: Relive WMS19
+- template: block-from-right
+  block: wide-from-right
+  col_1:
+    headline: Feedback about WMS
+    content: <div class="press position-relative mb-5"><blockquote class="ml-3">Wunder
+      manages to get a lot of really serious experts from the Mobility industry<footer
+      class="blockquote-footer">Eckhart Diepenhorst - CEO FREENOW</footer></blockquote></div><div
+      class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
+      event, and it's a great opportunity to talk to the brightest minds in the mobility
+      space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
+      BMW I Ventures</footer></blockquote></div><a class="mt-4 d-block text-blue" href="/summit/wms19"><strong>Check out our last summit</strong></a>
+  bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
+  unique_id: energetic
+  col_2:
+    headline: ''
+    content: ''
 - template: custom-content
   block: custom-html
   content: "</div></main>"
