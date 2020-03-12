@@ -968,10 +968,6 @@ main:not(.with-form) ~ footer {
   padding: rem(80px) rem(30px) rem(40px);
   clear: both;
 
-  .summit & {
-    background: url("/uploads/global/summit-bg.png") repeat;
-    background-size: 200px 150px;
-  }
 
   a {
     color: $white;
