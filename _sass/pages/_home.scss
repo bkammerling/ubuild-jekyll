@@ -31,8 +31,7 @@ a.post-imagelink  {
   overflow: hidden;
   img {
     object-fit: cover;
-    object-position: left;
-
+    object-position: center;
     height: 400px;
     transition: transform $transition-duration;
   }
