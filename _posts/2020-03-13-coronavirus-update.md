@@ -10,16 +10,15 @@ cta_text: We have a range of solutions using the latest technology driving forwa
   the future of mobility around the world.
 cta_link: pages/blog.md
 title: Coronavirus Update
-publish_date: 2020-03-13 00:00:00 +0000
+publish_date: 2020-03-13T00:00:00.000+00:00
 featured_image: "/uploads/2020/03/13/Coronavirus_Update-1.jpg"
 excerpt: In light of the Coronavirus pandemic, Wunder Mobility has made the decision
   to transition the company to indefinite remote work.
 share_image: "/uploads/2020/03/13/Coronavirus_Update.jpg"
-sticky: true
+sticky: false
 hidden: false
 
 ---
-
 Dear Wunder Community,
 
 In light of the Coronavirus pandemic that has been disrupting and endangering the lives of millions of people across the globe, Wunder Mobility has made the decision to transition the company to indefinite remote work.
