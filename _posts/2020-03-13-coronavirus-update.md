@@ -21,7 +21,7 @@ hidden: false
 ---
 Dear Wunder Community,
 
-In light of the Coronavirus pandemic that has been disrupting and endangering the lives of millions of people across the globe, Wunder Mobility has made the decision to transition the company to indefinite remote work.
+In light of the Coronavirus pandemic that has been disrupting and endangering the lives of millions of people across the globe, Wunder Mobility has made the decision to transition the company to voluntary indefinite remote work.
 
 We are an international company, with a global network of partners, friends and team members. We know there will be some difficulties for everyone during this adjustment period, which is why we will do our best to optimize our operations and smooth out any kinks in the system as we see them.
 
