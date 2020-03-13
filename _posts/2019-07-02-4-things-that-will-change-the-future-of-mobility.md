@@ -11,7 +11,7 @@ cta_heading: Find Out More About Wunder City
 cta_text: Wunder City helps cities understand changes in mobility and analyze data
   to make smarter, greener decisions.
 cta_link: pages/city.md
-sticky: true
+sticky: false
 tags:
 - future of mobility
 - cities
