@@ -25,7 +25,7 @@ page_sections:
     enabled: false
   show_logos: false
   background_image: "/uploads/global/wms19-johnstage@2x.jpg"
-  background_video: ''
+  background_video: wms-web-loop-02
   intro_text: ''
   logo_row: ''
 - template: custom-content
@@ -97,7 +97,7 @@ page_sections:
     job_title: President
     company: Bosch Engineering GmbH
     speaker_photo: "/uploads/2020/03/12/johannes-jorg@2x.jpg"
-    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x-1.png"
+    company_logo: "/uploads/2020/03/12/BEG-2_4C_M_de.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/johannes-joerg-rueger-401ba1120/
 - template: custom-content
@@ -273,7 +273,8 @@ page_sections:
       class="press position-relative"><blockquote class="ml-3">WMS is a high-calibre
       event, and it's a great opportunity to talk to the brightest minds in the mobility
       space<footer class="blockquote-footer">Sohaila Ouffata - Director of Platform
-      BMW I Ventures</footer></blockquote></div><a class="mt-4 d-block text-blue" href="/summit/wms19"><strong>Check out our last summit</strong></a>
+      BMW I Ventures</footer></blockquote></div><a class="mt-4 d-block text-blue"
+      href="/summit/wms19"><strong>Check out our last summit</strong></a>
   bg_image: "/uploads/2019/05/10/wms_bgphoto_1@2x.jpg"
   unique_id: energetic
   col_2:
