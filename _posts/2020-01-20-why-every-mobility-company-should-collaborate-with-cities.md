@@ -18,7 +18,7 @@ excerpt: 'Mobility is a two-way street. Read more about why we need collaboratio
   between the private and public sectors in this op-ed from our COO and cofounder
   Sam Baker. '
 share_image: "/uploads/2020/01/20/SamOpEdList.jpg"
-sticky: false
+sticky: true
 hidden: false
 
 ---
