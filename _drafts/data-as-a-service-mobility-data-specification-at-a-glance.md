@@ -19,7 +19,7 @@ excerpt: In an attempt to level the playing field for cities, the Los Angeles De
   of Transportation (LADOT) created the Mobility Data Specification standard, or MDS.
 share_image: "/uploads/2020/03/16/MDS-artikel-blog-list.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 The Digital Age is, by its very definition, built on data. Data is the backbone of research, information and experimentation; in our modern world, data is quite literally everywhere. And since data has become so prevalent, we know that without data collection, it’s hard to make well-informed decisions.
