@@ -20,7 +20,7 @@ excerpt: 'Das digitale Zeitalter ist per Definition auf Daten aufgebaut. Daten s
   sind Daten im wahrsten Sinne des Wortes überall vorhanden. '
 share_image: "/uploads/2020/03/16/MDS-artikel-blog-list-2.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Das digitale Zeitalter ist per Definition auf Daten aufgebaut. Daten sind das Rückgrat von Forschung, Information und Experimenten; in unserer modernen Welt sind Daten im wahrsten Sinne des Wortes überall vorhanden. Gerade weil Daten so weit verbreitet sind, wissen wir, dass es ohne Datenerfassung schwierig ist, informierte Entscheidungen zu treffen.
