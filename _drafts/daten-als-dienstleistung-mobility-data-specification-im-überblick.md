@@ -25,7 +25,7 @@ hidden: false
 ---
 Das digitale Zeitalter ist per Definition auf Daten aufgebaut. Daten sind das Rückgrat von Forschung, Information und Experimenten; in unserer modernen Welt sind Daten im wahrsten Sinne des Wortes überall vorhanden. Gerade weil Daten so weit verbreitet sind, wissen wir, dass es ohne Datenerfassung schwierig ist, informierte Entscheidungen zu treffen.
 
-_Read this article in English._ 
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/data-as-a-service-mobility-data-specification-at-a-glance)_._
 
 ![](/uploads/2020/03/16/MBS-artikel-blog-body-no-text-1.jpg)
 
