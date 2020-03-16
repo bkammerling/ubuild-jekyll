@@ -24,6 +24,8 @@ hidden: false
 ---
 The Digital Age is, by its very definition, built on data. Data is the backbone of research, information and experimentation; in our modern world, data is quite literally everywhere. And since data has become so prevalent, we know that without data collection, it’s hard to make well-informed decisions.
 
+_Lesen Sie diesen Artikel auf_ [_Deutsch_](www.wundermobility.com/blog/daten-als-dienstleistung-mobility-data-specification-im-uberblick)_._ 
+
 ![](/uploads/2020/03/16/MBS-artikel-blog-body-no-text.jpg)
 
 Even though everyone can agree on the usefulness of data analysis, for many mobility companies and local governments, reliable data infrastructure is still in its infant stages. That’s why, in an attempt to level the playing field and provide a framework for cities, the Los Angeles Department of Transportation (LADOT) created the Mobility Data Specification standard, or MDS.
@@ -42,4 +44,4 @@ Despite the fact that MDS may lack extreme detail, it is nonetheless a supremely
 
 But as we use data to our collective advantage, it’s crucial that we respect the privacy of its creators. The value of mobility data is just starting to be understood; we would be doing ourselves a disservice if we risked losing the trust of users and operators by not reminding them frequently that **cities are on their side** and are glad to act as liaisons between private companies and the public.
 
-MDS, with its flexible implementation, is proof that all new data frameworks need to be thoroughly scrutinized and discussed before being put into practice. Since we’re just at the beginning stages of mobility data analysis, this is an excellent time to work towards creating a framework that’s functional and beneficial for everybody. This is a collaborative effort, success of which will directly correspond to how well all parties work together. That means that now more than ever, **we need to rely on the cooperation of private operators and municipalities to join forces** in building an efficient, shared future for everyone. Creating data-driven frameworks that keep the interests of both the private and public sectors in mind is a good place to begin. 
+MDS, with its flexible implementation, is proof that all new data frameworks need to be thoroughly scrutinized and discussed before being put into practice. Since we’re just at the beginning stages of mobility data analysis, this is an excellent time to work towards creating a framework that’s functional and beneficial for everybody. This is a collaborative effort, success of which will directly correspond to how well all parties work together. That means that now more than ever, **we need to rely on the cooperation of private operators and municipalities to join forces** in building an efficient, shared future for everyone. Creating data-driven frameworks that keep the interests of both the private and public sectors in mind is a good place to begin.
