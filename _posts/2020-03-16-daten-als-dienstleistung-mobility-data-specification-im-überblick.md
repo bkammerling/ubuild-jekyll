@@ -11,7 +11,7 @@ author: []
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
   to policymakers, city officials, mobility enthusiasts and curious industry followers.
-cta_link: []
+cta_link: pages/bernstein-newsletter.md
 title: 'Daten als Dienstleistung: Mobility Data Specification im Überblick'
 publish_date: 2020-03-16 18:00:00 +0000
 featured_image: "/uploads/2020/03/16/MDS-artikel-blog-list-3.jpg"
