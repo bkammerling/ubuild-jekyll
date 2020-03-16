@@ -8,9 +8,9 @@ tags:
 - policy
 - regulation
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_heading: Sign Up for our Monthly Policy Brief
+cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
+  to policymakers, city officials, mobility enthusiasts and curious industry followers.
 cta_link: []
 title: 'Daten als Dienstleistung: Mobility Data Specification im Überblick'
 publish_date: 2020-03-16 18:00:00 +0000
