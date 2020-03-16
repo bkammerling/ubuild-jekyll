@@ -14,7 +14,7 @@ cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles
 cta_link: pages/bernstein-newsletter.md
 title: 'Data as a Service: Mobility Data Specification at a Glance'
 publish_date: 2020-03-16 12:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/16/MDS-artikel-blog-list-1.jpg"
 excerpt: In an attempt to level the playing field for cities, the Los Angeles Department
   of Transportation (LADOT) created the Mobility Data Specification standard, or MDS.
 share_image: "/uploads/2020/03/16/MDS-artikel-blog-list.jpg"
