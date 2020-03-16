@@ -17,12 +17,14 @@ publish_date: 2020-03-16 12:00:00 +0000
 featured_image: ''
 excerpt: In an attempt to level the playing field for cities, the Los Angeles Department
   of Transportation (LADOT) created the Mobility Data Specification standard, or MDS.
-share_image: ''
+share_image: "/uploads/2020/03/16/MDS-artikel-blog-list.jpg"
 sticky: false
 hidden: false
 
 ---
 The Digital Age is, by its very definition, built on data. Data is the backbone of research, information and experimentation; in our modern world, data is quite literally everywhere. And since data has become so prevalent, we know that without data collection, it’s hard to make well-informed decisions.
+
+![](/uploads/2020/03/16/MBS-artikel-blog-body-no-text.jpg)
 
 Even though everyone can agree on the usefulness of data analysis, for many mobility companies and local governments, reliable data infrastructure is still in its infant stages. That’s why, in an attempt to level the playing field and provide a framework for cities, the Los Angeles Department of Transportation (LADOT) created the Mobility Data Specification standard, or MDS.
 
@@ -30,7 +32,6 @@ Simply put, MDS consists of three different APIs: the **provider API**, implemen
 
 Mobility Data Specification was designed to provide cities with a chance to analyze and regulate a mishmash of private and public mobility offerings operating in their area. This is extremely important, as it gives cities level footing in an increasingly interconnected world and enables them to plan, decide and act on data accordingly and to the benefit of their residents. A key component of MDS is giving governments a chance to regulate, something difficult to do in our digital society without an abundance of data on your side.
 
-  
 Terms like an “abundance of data” understandably make end users uncomfortable. Dystopian visions of Big Brother-esque data collection systems, in which highly sensitive and personal data is shared freely with the government, are still a long way off, but many users are rightly skeptical of sharing their data with cities and/or companies. That being said, it’s important to note that **no personal rider or user information** is ever shared by operators with cities under MDS guidelines, as no personal data is needed to make policy decisions.
 
 In Europe, healthy skepticism of MDS goes a bit further due to the fact that some elements of it seem at odds with guidelines put forth by the GDPR. If you live on the European continent, the GDPR needs no introduction. It’s the most famous piece of legislation on privacy and data in the world. When it comes to data security, limitation and accuracy - all very important topics covered by the GDPR - it’s true that MDS doesn’t go into explicit detail. But it’s also important to note that MDS is at its heart a set of guidelines designed to help cities gain an overview, and not an enforceable set of laws that restricts the rights of cities and operators. That means that it is in cities’ best interest to **utilize the parts of MDS that work for them.**
@@ -41,5 +42,4 @@ Despite the fact that MDS may lack extreme detail, it is nonetheless a supremely
 
 But as we use data to our collective advantage, it’s crucial that we respect the privacy of its creators. The value of mobility data is just starting to be understood; we would be doing ourselves a disservice if we risked losing the trust of users and operators by not reminding them frequently that **cities are on their side** and are glad to act as liaisons between private companies and the public.
 
-  
 MDS, with its flexible implementation, is proof that all new data frameworks need to be thoroughly scrutinized and discussed before being put into practice. Since we’re just at the beginning stages of mobility data analysis, this is an excellent time to work towards creating a framework that’s functional and beneficial for everybody. This is a collaborative effort, success of which will directly correspond to how well all parties work together. That means that now more than ever, **we need to rely on the cooperation of private operators and municipalities to join forces** in building an efficient, shared future for everyone. Creating data-driven frameworks that keep the interests of both the private and public sectors in mind is a step in the right direction.
