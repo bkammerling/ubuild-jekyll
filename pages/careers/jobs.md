@@ -4,6 +4,8 @@ title: Jobs | Wunder Mobility
 permalink: "/careers/jobs"
 lang-ref: jobs
 lang: en
+component_scripts:
+- jobBoard.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2

@@ -4,6 +4,8 @@ title: Culture | Wunder Mobility
 permalink: "/careers/culture"
 lang-ref: culture
 lang: en
+component_scripts:
+- careersSVG.js
 date: '2019-01-09T17:13:39.000+00:00'
 page_sections:
 - template: navigation-header-w-button
