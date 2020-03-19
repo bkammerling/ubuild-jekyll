@@ -40,6 +40,6 @@ Staying true to the service commitment to our partners, our primary goal current
 
 A lot of our partners are currently going through incredibly difficult times in order to make sure that access to sustainable and economical means of transportation stays available. I would like to take this opportunity, on behalf of Wunder Mobility, to thank all of you and pledge our support to the same mission. Your hardships inspire us to work harder and solve this crisis together.
 
-\#BecauseWeShareTomorrow
+**#BecauseWeShareTomorrow**
 
 Stay safe!
