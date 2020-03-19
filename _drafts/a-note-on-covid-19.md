@@ -13,14 +13,14 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/blog.md
 title: 'COVID-19 Update: A Message to our Partners'
 publish_date: 2020-03-19 16:00:00 +0000
-featured_image: "/uploads/2020/03/19/Covid-Update-2-List.jpeg"
+featured_image: "/uploads/2020/03/19/Covid-Update-2-list.jpeg"
 excerpt: We’ve prepared ourselves to serve you better throughout COVID-19.
-share_image: "/uploads/2020/03/19/Covid-Update-2-List-1.jpeg"
+share_image: "/uploads/2020/03/19/Covid-Update-2-list-1.jpeg"
 sticky: false
 hidden: false
 
 ---
-**We’ve prepared ourselves to serve you better throughout COVID-19.**
+![](/uploads/2020/03/19/Covid-Update-2-Body.jpg)
 
 To all our partners, clients and friends -
 
