@@ -17,7 +17,7 @@ featured_image: "/uploads/2020/03/19/Covid-Update-2-list.jpeg"
 excerpt: We’ve prepared ourselves to serve you better throughout COVID-19.
 share_image: "/uploads/2020/03/19/Covid-Update-2-list-1.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 To all our partners, clients and friends -
