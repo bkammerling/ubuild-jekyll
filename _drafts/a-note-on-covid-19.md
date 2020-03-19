@@ -11,7 +11,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/blog.md
-title: A note on COVID-19
+title: 'COVID-19: A Message to our Partners'
 publish_date: 2020-03-19 16:00:00 +0000
 featured_image: ''
 excerpt: We’ve prepared ourselves to serve you better throughout COVID-19.
@@ -46,7 +46,3 @@ A lot of our partners are currently going through incredibly difficult times in 
 \#BecauseWeShareTomorrow
 
 Stay safe!
-
-\-Gunnar
-
-CEO, Wunder Mobility
