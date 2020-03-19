@@ -20,7 +20,7 @@ sticky: false
 hidden: false
 
 ---
-### We’ve prepared ourselves to serve you better throughout COVID-19.
+**We’ve prepared ourselves to serve you better throughout COVID-19.**
 
 To all our partners, clients and friends -
 
