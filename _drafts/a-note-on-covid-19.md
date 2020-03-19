@@ -47,8 +47,6 @@ A lot of our partners are currently going through incredibly difficult times in 
 
 Stay safe!
 
-Gunnar
+\-Gunnar
 
-CEO
-
-Wunder Mobility
+CEO, Wunder Mobility
