@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subscribe To Our Policy Newlsetter | Wunder Mobility
+title: Subscribe To Our Policy Newsletter | Wunder Mobility
 permalink: "/policybrief"
 version: hp
 page_sections:
