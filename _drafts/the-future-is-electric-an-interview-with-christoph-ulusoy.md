@@ -23,17 +23,16 @@ sticky: false
 hidden: false
 
 ---
-**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique customer segment: serviced apartments. 
+**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique customer segment: serviced apartments.
 
 In our interview, we spoke to Christoph about his company model and plans for the future, as well as **what he’s doing to stay ahead of the game during the COVID-19 crisis.**
 
 If you’re a new founder or business owner concerned about the economic fallout of the Coronavirus, read Christoph’s advice for startups at the end of the article. Hint: there are always reasons to stay positive!
 
-P: Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?
+#### P: Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?
 
 C: Very good question! I think there were two reasons, really: firstly, I’ve been working in the e-mobility industry for 4 years, and in my experience, I’ve found that you can’t just completely and quickly “replace” combustion-engine cars with electric cars. Electric cars require an entire charging infrastructure to function, and gas-powered vehicles have already had their necessary infrastructure in place for decades.
 
-  
 Secondly, if everybody replaces his or her “normal” car with an electric car, cities and streets will remain as crowded as they are today. We need to rethink mobility, particularly in urban areas, and come up with a new “normal”. That was the biggest inspiration for evhcle: we wanted to combine shared mobility _and_ e-mobility in one business model.
 
 P: What makes you different from other fleet-sharing companies?
@@ -56,7 +55,7 @@ P: Was it important to your company model from the beginning to offer 100% elect
 
 C: E-mobility is an absolutely crucial element of our mission and business model. We believe CO2 reduction should be an international priority, but the issue should also be addressed on a local level, too. That’s why **we see the electrification of urban traffic as an essential step forward.**
 
-We also established e-mobility as a key competitive advantage in our business model. By setting up infrastructure locally, our fleet can charge when not in use. That dramatically reduces our operating costs _and_ enhances the customer experience: Our vehicles are always fully charged when starting your journey. This also gives us the opportunity to integrate with local energy management systems - we only charge a vehicle when it’s the best for the grid. 
+We also established e-mobility as a key competitive advantage in our business model. By setting up infrastructure locally, our fleet can charge when not in use. That dramatically reduces our operating costs _and_ enhances the customer experience: Our vehicles are always fully charged when starting your journey. This also gives us the opportunity to integrate with local energy management systems - we only charge a vehicle when it’s the best for the grid.
 
 P: Do you see serviced apartments preferring a specific vehicle type? (For example, do more hotels want to purchase a fleet of scooters, or cars?)
 
@@ -80,7 +79,6 @@ P: Is there any “silver lining” to the crisis right now for mobility startup
 
 C: We believe the post-Coronavirus crisis period will be the perfect time to “restart” the economy and focus on sustainable business models. We also believe that the long-lasting effects of the pandemic will encourage people to think about doing business in an environmentally friendly way. An important contributor to creating a more sustainable transportation system will still be shared- and e-mobility.
 
-  
 P: Following up on that: the future is electric, but how soon do you think it will be until we see _a lot_ more electric vehicles on the streets? Will the time be “right” for electric vehicles post-Coronavirus, or do we still have a long time to go before EVs surpass gasoline car sales?
 
 C: The time is right for e-mobility, and not just from a technological perspective. Everyone who rides an e-scooter or drives an e-car realizes how much _fun_ it actually is! That alone will boost e-mobility in the next few years.
