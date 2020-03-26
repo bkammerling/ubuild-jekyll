@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-[**Christoph Ulusoy**](https://www.linkedin.com/in/christoph-ulusoy-3a888657/) is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique customer segment: serviced apartments.
+[**Christoph Ulusoy**](https://www.linkedin.com/in/christoph-ulusoy-3a888657/) is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique target customer segment: serviced apartments.
 
 In our interview, we spoke to Christoph about his company model and plans for the future, as well as **what he’s doing to stay ahead of the game during the COVID-19 crisis.**
 
@@ -57,7 +57,7 @@ E-mobility is an absolutely crucial element of our mission and business model. W
 
 We also established e-mobility as a key competitive advantage in our business model. By setting up infrastructure locally, our fleet can charge when not in use. That dramatically reduces our operating costs _and_ enhances the customer experience: Our vehicles are always fully charged when starting your journey. This also gives us the opportunity to integrate with local energy management systems - we only charge a vehicle when it’s the best for the grid.
 
-**Do you see serviced apartments preferring a specific vehicle type?** 
+**Do you see serviced apartments preferring a specific vehicle type?**
 
 In general, we’re seeing that e-scooters are really interesting to people right now. They’re very flexible and convenient: whether you’re cruising around town on a Saturday or commuting to work in a business suit, scooters seem to fit both needs. We’ve also received a lot of good feedback on e-bikes, as they’re perfect for urban commutes. E-cars are really relevant for suburban areas and longer rides, like weekend trips.
 
@@ -89,4 +89,4 @@ There’s definitely a lot of uncertainty right now with the Corona crisis. I th
 
 I can only give two pieces of advice: Make the best out of it, and save enough money to survive. A startup should react super flexibly to the situation and digitalize all internal and external meetings. Don’t move meetings, host them digitally! Be prepared for slow sales and business, and reduce your spending accordingly to survive the next few months.
 
-And remember: the post-crisis era will be a magical time with great opportunities. Prepare now or miss out later!
+And remember: the post-crisis era will be a magical time with great opportunities. Don't miss out!
