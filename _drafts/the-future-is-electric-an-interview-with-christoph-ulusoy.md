@@ -29,21 +29,21 @@ In our interview, we spoke to Christoph about his company model and plans for th
 
 If you’re a new founder or business owner concerned about the economic fallout of the Coronavirus, read Christoph’s advice for startups at the end of the article. Hint: there are always reasons to stay positive!
 
-#### P: Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?
+**Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?**
 
-C: Very good question! I think there were two reasons, really: firstly, I’ve been working in the e-mobility industry for 4 years, and in my experience, I’ve found that you can’t just completely and quickly “replace” combustion-engine cars with electric cars. Electric cars require an entire charging infrastructure to function, and gas-powered vehicles have already had their necessary infrastructure in place for decades.
+Very good question! I think there were two reasons, really: firstly, I’ve been working in the e-mobility industry for 4 years, and in my experience, I’ve found that you can’t just completely and quickly “replace” combustion-engine cars with electric cars. Electric cars require an entire charging infrastructure to function, and gas-powered vehicles have already had their necessary infrastructure in place for decades.
 
 Secondly, if everybody replaces his or her “normal” car with an electric car, cities and streets will remain as crowded as they are today. We need to rethink mobility, particularly in urban areas, and come up with a new “normal”. That was the biggest inspiration for evhcle: we wanted to combine shared mobility _and_ e-mobility in one business model.
 
-P: What makes you different from other fleet-sharing companies?
+**What makes you different from other fleet-sharing companies?**
 
-C: Usually, most sharing companies focus on one vehicle type, for example cars or kickscooters. Our competitors also focus exclusively on the “free-floating” approach, meaning you can start a ride and park your vehicle anywhere in a designated business area, rather than returning it at a station.
+Usually, most sharing companies focus on one vehicle type, for example cars or kickscooters. Our competitors also focus exclusively on the “free-floating” approach, meaning you can start a ride and park your vehicle anywhere in a designated business area, rather than returning it at a station.
 
 evhcle does things differently: we build and operate new mobility stations that are compatible with e-cars, e-scooters and e-bikes. (We focus on electric vehicles only!) These mobility stations can be set up near all types of buildings, including apartment buildings, serviced apartments and offices.
 
 That way, we offer charging infrastructure to everyone living or working in an area with one of our stations, even if they don’t use our vehicles. And if users _do_ use our vehicles, it feels like the vehicle really belongs to them, because they can park it right in front of where they work or where they’re staying during their vacation - or even take it on a longer two- or three-day trip somewhere.
 
-P: Why did you decide to focus on serviced apartments as a customer segment?
+**Why did you decide to focus on serviced apartments as a customer segment?**
 
 C: The evhcle model perfectly fits into the serviced apartment landscape, so it felt like an obvious direction for us to go in from the beginning.
 
