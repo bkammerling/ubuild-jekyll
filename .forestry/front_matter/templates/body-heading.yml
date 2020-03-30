@@ -1,5 +1,5 @@
 ---
-label: Body + Heading
+label: Heading + Body Vertical Text
 hide_body: true
 fields:
 - name: first_text_block
@@ -12,3 +12,10 @@ fields:
   config: {}
   template: text-style
   label: Second Text Block
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: text-vertical
