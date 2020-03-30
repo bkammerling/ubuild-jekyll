@@ -1,4 +1,14 @@
 ---
 label: Body + Heading
 hide_body: true
-fields: []
+fields:
+- name: first_text_block
+  type: include
+  config: {}
+  template: text-style
+  label: First Text Block
+- name: second_text_block
+  type: include
+  config: {}
+  template: text-style
+  label: Second Text Block
