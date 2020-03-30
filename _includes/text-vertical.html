@@ -1,0 +1,40 @@
+{% capture firstElement %}
+{% assign firstStyle = section.first_text_block.style %} {% case firstElement %}
+{% when 'heading-large' %}
+h2
+{% when 'heading-medium' %}
+h3
+{% when 'heading-small' %}
+h4
+{% when 'text-link' %}
+a
+{% else %}
+p
+{% endcase %}
+{% endcapture %}
+{% capture secondElement %}
+{% assign secondStyle = section.second_text_block.style %} {% case secondStyle %}
+{% when 'heading-large' %}
+h2
+{% when 'heading-medium' %}
+h3
+{% when 'heading-small' %}
+h4
+{% when 'text-link' %}
+a
+{% else %}
+p
+{% endcase %}
+{% endcapture %}
+
+<section class="jumbo-intro block block-text-vertical">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="text-md-center px-lg-5">
+          <{{ firstElement }} class="{{ firstStyle }}">{{ section.first_text_block.content }}</{{ firstElement }}>
+          <{{ secondElement }} class="{{ secondStyle }}">{{ section.second_text_block.content }}</{{ secondElement }}>
+        </div>
+      </div>
+    </div>
+  </div>
