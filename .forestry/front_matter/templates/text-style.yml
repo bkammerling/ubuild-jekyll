@@ -1,4 +1,35 @@
 ---
 label: Text + Style
 hide_body: true
-fields: []
+fields:
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+  description: Text content
+- name: text_style
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - headline-large
+    - headline-medium
+    - headline-regular
+    - headline-small
+    - body
+    - text-link
+    - button-label
+    - small-label
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Text Style
+  description: Choose a style format
