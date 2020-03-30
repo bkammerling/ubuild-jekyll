@@ -6,15 +6,16 @@ tags:
 - CEO
 - founders
 - COVID-19
-author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+author: _people/GunnarProfile.md
+cta_heading: Find Out More About the Wunder Blog
+cta_text: Discover our products, technology and culture. Let’s explore the future
+  of mobility together!
+cta_link: pages/blog.md
 title: Changing Gears
 publish_date: 2020-03-30 17:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: We are doubling down on our investment into our clients, partners and the
+  industry as a whole.
 share_image: ''
 sticky: false
 hidden: false
@@ -30,10 +31,6 @@ We’ve taken the last two weeks to thoroughly adapt ourselves to the threat tha
 
 I want to take this opportunity to reassure you that the needs of our clients, partners, and industry, as a whole, remain our team’s top priorities. This is the first in a series of investments that we will be making in the coming months to stay on the cutting edge with our product offerings while supporting the mobility sector. #BecauseWeShareTomorrow
 
-  
-Stay Safe,
+Stay safe!
 
-Gunnar
-
-  
 Click here for more information regarding our rent product. In order to read the full press release, click [here](https://finance.yahoo.com/news/wunder-mobility-acquires-leading-car-160000778.html) for English and [here](https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/gunnar-froh-der-gruender-von-wunder-mobility-nutzt-die-coronakrise-fuer-zukaeufe-/25688830.html?ticket=ST-1662480-wsGAdOtkbSIptcYjKReO-ap1) for German.
