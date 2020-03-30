@@ -13,10 +13,10 @@ cta_text: Discover our products, technology and culture. Let’s explore the fut
 cta_link: pages/blog.md
 title: Changing Gears
 publish_date: 2020-03-30 17:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/30/ChangingGears_List_COVIDtext-1.jpeg"
 excerpt: We are doubling down on our investment into our clients, partners and the
   industry as a whole.
-share_image: ''
+share_image: "/uploads/2020/03/30/ChangingGears_List_COVIDtext.jpeg"
 sticky: false
 hidden: false
 
