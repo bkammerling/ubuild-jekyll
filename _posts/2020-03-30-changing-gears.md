@@ -18,7 +18,7 @@ excerpt: We are doubling down on our investment into our clients, partners and t
   industry as a whole.
 share_image: "/uploads/2020/03/30/ChangingGears_List_COVIDtext.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Two weeks back, in a [note](https://www.wundermobility.com/blog/a-note-on-covid-19), I had highlighted how we, at Wunder Mobility, were preparing ourselves to serve you better in a crisis that had just begun to show signs of its current unprecedented state. With most nations either being in or almost entering a lockdown, the shared mobility ecosystem has taken its own share of hits, sending some of the [most well-funded transportation startups into troubled waters](https://www.bloomberg.com/news/articles/2020-03-20/softbank-backed-getaround-looks-for-buyer-as-demand-evaporates).
