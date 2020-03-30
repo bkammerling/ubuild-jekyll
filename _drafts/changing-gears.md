@@ -33,4 +33,4 @@ I want to take this opportunity to reassure you that the needs of our clients, p
 
 Stay safe!
 
-Click here for more information regarding our rent product. In order to read the full press release, click [here](https://finance.yahoo.com/news/wunder-mobility-acquires-leading-car-160000778.html) for English and [here](https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/gunnar-froh-der-gruender-von-wunder-mobility-nutzt-die-coronakrise-fuer-zukaeufe-/25688830.html?ticket=ST-1662480-wsGAdOtkbSIptcYjKReO-ap1) for German.
+Click [here](https://www.wundermobility.com/rent "Wunder Rent") for more information regarding our rent product. In order to read the full press release, click [here](https://finance.yahoo.com/news/wunder-mobility-acquires-leading-car-160000778.html) for English and [here](https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/gunnar-froh-der-gruender-von-wunder-mobility-nutzt-die-coronakrise-fuer-zukaeufe-/25688830.html?ticket=ST-1662480-wsGAdOtkbSIptcYjKReO-ap1) for German.
