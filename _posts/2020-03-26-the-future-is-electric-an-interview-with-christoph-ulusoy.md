@@ -14,20 +14,22 @@ cta_text: From our user app and management system to vehicles and reporting, Wun
 cta_link: pages/fleet.md
 title: An Interview with Christoph Ulusoy, CEO of evhcle
 publish_date: 2020-04-01T09:00:00.000+00:00
-featured_image: ''
+featured_image: "/uploads/2020/03/31/AnInterviewWithChristophUlusoy_List-1.jpeg"
 excerpt: "**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle.com/).
   We spoke to Christoph about his company model and plans for the future, as well
   as what he’s doing to stay ahead of the game during the COVID-19 crisis."
-share_image: ''
+share_image: "/uploads/2020/03/31/AnInterviewWithChristophUlusoy_List.jpeg"
 sticky: false
 hidden: true
 
 ---
 [**Christoph Ulusoy**](https://www.linkedin.com/in/christoph-ulusoy-3a888657/) is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique target customer segment: serviced apartments.
 
-In our interview, we spoke to Christoph about his company model and plans for the future, as well as **what he’s doing to stay ahead of the game during the COVID-19 crisis.**
+In our interview, we spoke to Christoph about his company model and plans for the future, as well as **what he’s doing to stay ahead of the game during the COVID-19 crisis.** 
 
 If you’re a new founder or business owner concerned about the economic fallout of the Coronavirus, read Christoph’s advice for startups at the end of the article. Hint: there are always reasons to stay positive!
+
+![](/uploads/2020/03/31/AnInterviewWithChristophUlusoy_Body.jpeg)
 
 **Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?**
 
