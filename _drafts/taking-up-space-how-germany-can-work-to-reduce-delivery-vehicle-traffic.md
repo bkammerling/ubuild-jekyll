@@ -24,7 +24,7 @@ sticky: false
 hidden: false
 
 ---
-_Read this article in German._ 
+_Lesen Sie den Artikel auf Deutsch._ 
 
 Order something online one day, and you'll receive it on your doorstep the next - at the very latest. In this day and age of total convenience, delivery drones and mobile pay options, fewer and fewer people are shopping at brick-and-mortar stores in favor of online ordering. Unfortunately, shipping all these packages around comes with its downsides: delivery vehicles are increasing traffic and congestion in German cities.
 
