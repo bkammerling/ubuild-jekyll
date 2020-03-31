@@ -10,7 +10,8 @@ tags:
 - policy
 author: []
 cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: ''
+cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
+  to policymakers, city officials, mobility enthusiasts and curious industry followers.
 cta_link: pages/bernstein-newsletter.md
 title: 'Taking Up Space: How Germany Can Work to Reduce Delivery Vehicle Traffic'
 publish_date: 2020-03-31 15:00:00 +0000
