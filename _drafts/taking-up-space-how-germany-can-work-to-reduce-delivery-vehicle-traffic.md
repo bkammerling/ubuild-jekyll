@@ -21,7 +21,7 @@ excerpt: 'Fewer people are shopping at stores in favor of online ordering. Unfor
   cities.'
 share_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-1.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](www.wundermobility.com/blog/stau-durch-lieferverkehr-wie-wir-platz-auf-den-strassen-schaffen-konnen)_._
@@ -48,7 +48,7 @@ In order to ensure that city traffic becomes more efficient and climate-neutral 
 
 **‘The Last Mile’: innovative ideas**
 
-But what would a successful concept look like? Ideally, it would take both logistical factors and the needs of city dwellers into account. Combining centrally located “microhubs” and cargo bicycles, for example, allows for nighttime delivery of packages to local city hubs, which then have much shorter distances to travel during the day due to their close proximity to downtown. The “last mile” that packages have to travel can easily be completed by e-cargo bike, clearing up space in cities that would have otherwise been occupied by large delivery trucks or other vehicles. 
+But what would a successful concept look like? Ideally, it would take both logistical factors and the needs of city dwellers into account. Combining centrally located “microhubs” and cargo bicycles, for example, allows for nighttime delivery of packages to local city hubs, which then have much shorter distances to travel during the day due to their close proximity to downtown. The “last mile” that packages have to travel can easily be completed by e-cargo bike, clearing up space in cities that would have otherwise been occupied by large delivery trucks or other vehicles.
 
 There are also many discussions about combining microhubs with the use of drones for the last mile, or even converting public transport into delivery vehicle replacements. A subway can be used to deliver large packages to a hub at night, for example, when passenger levels are low.
 
