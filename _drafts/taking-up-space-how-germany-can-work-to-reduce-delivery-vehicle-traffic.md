@@ -48,11 +48,11 @@ In order to ensure that city traffic becomes more efficient and climate-neutral 
 
 **‘The Last Mile’: innovative ideas**
 
-What would a successful concept look like, one that would consider logistical needs and the needs of city dwellers equally? Some combine centrally located “microhubs” and cargo bicycles, allowing for the nighttime delivery of packages to local city hubs, which then have much shorter distances to travel during the day due to their close proximity to downtown. The “last mile” packages have to travel can easily be completed by e-cargo bike, clearing up space in cities that would have otherwise been occupied by large delivery trucks, for example.
+But what would a successful concept look like? Ideally, it would take both logistical factors and the needs of city dwellers into account. Combining centrally located “microhubs” and cargo bicycles, for example, allows for nighttime delivery of packages to local city hubs, which then have much shorter distances to travel during the day due to their close proximity to downtown. The “last mile” that packages have to travel can easily be completed by e-cargo bike, clearing up space in cities that would have otherwise been occupied by large delivery trucks or other vehicles. 
 
-There are also many discussions about combining microhubs with the use of drones for the “last mile” of the delivery process, or even converting public transport into delivery vehicle replacements. A subway can be used to deliver large packages to a hub at night, for example, when ridership levels are low.
+There are also many discussions about combining microhubs with the use of drones for the last mile, or even converting public transport into delivery vehicle replacements. A subway can be used to deliver large packages to a hub at night, for example, when passenger levels are low.
 
-But there are two major problems with the microhub idea: one, many urban areas simply don’t have enough space for them. Two, no one is quite sure who should be responsible for these microhubs - should the city build new ones, so shipping companies can pay rent to them for the space they’re using? Which delivery company should get the most space within the microhub, and how can we ensure that space is split fairly amongst everyone?
+But there are two major problems with the microhub idea: one, many urban areas simply don’t have enough space for them. Two, no one is quite sure who should be responsible for these microhubs - should the city build new ones and ask shipping companies to pay rent to them for the space they’re using? Which delivery company should get the most space within the microhub? How can we ensure that space is split fairly amongst everyone?
 
 Of course, since delivery companies can’t cooperate too closely with one another due to competitive reasons, we still need a neutral, most likely public institution to coordinate space distribution in microhubs.
 
