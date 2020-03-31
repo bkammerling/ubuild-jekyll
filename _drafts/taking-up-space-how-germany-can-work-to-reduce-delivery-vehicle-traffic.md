@@ -24,7 +24,11 @@ sticky: false
 hidden: false
 
 ---
+_Read this article in German._ 
+
 Order something online one day, and you'll receive it on your doorstep the next - at the very latest. In this day and age of total convenience, delivery drones and mobile pay options, fewer and fewer people are shopping at brick-and-mortar stores in favor of online ordering. Unfortunately, shipping all these packages around comes with its downsides: delivery vehicles are increasing traffic and congestion in German cities.
+
+\-Bild-
 
 The current COVID-19 crisis is increasing the rate of delivery traffic tremendously. Delivery vehicles are driving around the clock to ensure that people asked to “shelter in place” still receive the necessary goods and products they need - but they also ensure the continued existence of many businesses who are otherwise fighting to survive. It’s unrealistic to assume that this uptick in delivery traffic will subside after the crisis is over. The comfort and convenience of shopping online is something people will remember even when the option becomes available to shop in-store again.
 
@@ -34,7 +38,7 @@ Although delivery traffic only constitutes one-fourth of _city_ traffic, accordi
 
 The incremental introduction of specific loading zones has only helped so much: the average time it takes to complete a delivery after exiting a delivery vehicle is roughly three minutes. The driver has to find the package in the truck or vehicle, scan it, find the address, deliver the package to your doorstep and then return to the vehicle. Every unnecessary step should be avoided to save precious time. Loading zones address the traffic issue, but not the extra time they cost individual delivery personnel, which is why they’re often not used.
 
-**Logistics Issues Affect All of Us**
+**Logistics issues affect all of us**
 
 Increased delivery traffic in German cities reflects a large increase in online shopping and exposes the weaknesses of a system running at max capacity and lacking political regulations and guidelines.
 
@@ -42,7 +46,7 @@ A high number of transport vehicles leads to an overload of city congestion, par
 
 In order to ensure that city traffic becomes more efficient and climate-neutral in the future, we need to consider the interests of all acting parties equally. That means we need to rethink the current state of urban delivery services entirely. Delivery services and the challenges they face are in desperate need of new regulations that take a company’s need to remain competitive into account - that’s the only way to figure out a solution that could effectively be put into practice.
 
-**‘The Last Mile’: Innovative Ideas**
+**‘The Last Mile’: innovative ideas**
 
 What would a successful concept look like, one that would consider logistical needs and the needs of city dwellers equally? Some combine centrally located “microhubs” and cargo bicycles, allowing for the nighttime delivery of packages to local city hubs, which then have much shorter distances to travel during the day due to their close proximity to downtown. The “last mile” packages have to travel can easily be completed by e-cargo bike, clearing up space in cities that would have otherwise been occupied by large delivery trucks, for example.
 
@@ -52,7 +56,7 @@ But there are two major problems with the microhub idea: one, many urban areas s
 
 Of course, since delivery companies can’t cooperate too closely with one another due to competitive reasons, we still need a neutral, most likely public institution to coordinate space distribution in microhubs.
 
-**The Power Lies with Cities**
+**The power lies with cities**
 
 The goal remains the same with every initiative: the reduction of city traffic and pollution caused by delivery vehicles. The number of delivery vehicles on the streets should be reduced to an absolute minimum, and the needs of the delivery personnel should be taken more into account. Now it’s up to cities and communities to try and achieve that goal by updating city regulations accordingly.
 
