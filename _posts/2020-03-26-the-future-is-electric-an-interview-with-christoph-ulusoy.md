@@ -51,7 +51,7 @@ The evhcle model perfectly fits into the serviced apartment landscape, so it fel
 
 Serviced apartment owners usually have a very open mindset. Their customers have started to expect a lot from their booking in recent years. More than just a serviced apartment to stay in, customers want a total experience during their vacation or work trip, and the cherry on top is having an eco-friendly, convenient way of getting around town during their stay. evhcle is quite literally selling “mobility as a service”.
 
-> Post-Coronavirus will be the perfect time to restart the economy 
+> Post-Coronavirus will be the perfect time to restart the economy. 
 
 Most guests are looking for temporary accommodations, because they’re working on a project or they’re new to a city and haven’t found a permanent home yet. That’s the cool part about our business model: evhcle is just as practical for the daily commute to the office as it is for the weekend trip back home. In the future, we’ll also be targeting hotels and entire urban areas, like city districts and neighborhoods.
 
@@ -77,7 +77,7 @@ Wunder Mobility are very strong partners who give us the flexibility we need as 
 
 We can launch as planned, but we’ll also see a decrease - or rather a delay - in our business due to the Corona crisis, particularly since it’s still expanding and new cases are being recorded every day.
 
-> The time is right for e-mobility
+> The time is right for e-mobility.
 
 Hardware like scooters and bikes have also been harder for people to order and ship, since most of them are manufactured in China. Luckily, as a very young company, we have a lot of flexibility to react nimbly and postpone the launch of some of our partners.
 
@@ -96,3 +96,5 @@ There’s definitely a lot of uncertainty right now with the Corona crisis. I th
 I can only give two pieces of advice: Make the best out of it, and save enough money to survive. A startup should react super flexibly to the situation and digitalize all internal and external meetings. Don’t move meetings, host them digitally! Be prepared for slow sales and business, and reduce your spending accordingly to survive the next few months.
 
 And remember: the post-crisis era will be a magical time with great opportunities. Don't miss out!
+
+**Thanks, Christoph!**
