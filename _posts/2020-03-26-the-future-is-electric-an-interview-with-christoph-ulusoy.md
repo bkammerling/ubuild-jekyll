@@ -29,7 +29,7 @@ In our interview, we spoke to Christoph about his company model and plans for th
 
 If you’re a new founder or business owner concerned about the economic fallout of the Coronavirus, read Christoph’s advice for startups at the end of the article. Hint: there are always reasons to stay positive!
 
-![](/uploads/2020/03/31/AnInterviewWithChristophUlusoy_Body.jpeg)
+![](/uploads/2020/03/31/ChristophUlusoy_Evhcle_Body.jpeg)
 
 **Hi Christoph, can you tell us the story behind your company? Why did you start evhcle?**
 
