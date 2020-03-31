@@ -15,11 +15,11 @@ cta_text: Our wide range of solutions is driving the the future of mobility arou
 cta_link: []
 title: 'Stau durch Lieferverkehr: Wie wir Platz auf den Straßen schaffen können'
 publish_date: 2020-03-31 17:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-2.jpg"
 excerpt: " Immer weniger Menschen kaufen heute im stationären Handel ein, immer mehr
   wird online bestellt und direkt vor die Haustür geliefert. Diese Entwicklung führt
   zu einer erhöhten Verkehrsbelastung und immer mehr Staus in deutschen Innenstädten."
-share_image: ''
+share_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-3.jpg"
 sticky: false
 hidden: false
 
