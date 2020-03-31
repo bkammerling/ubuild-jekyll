@@ -44,7 +44,7 @@ Increased delivery traffic in German cities reflects a large increase in online 
 
 A high number of transport vehicles leads to an overload of city congestion, partially because those vehicles block the flow of traffic. That affects delivery drivers and end users alike, whether they’re individual people waiting on their packages, commuters stuck in gridlock on the way to work, delivery personnel working under pressure to deliver as fast as possible, or shipping companies forced to deliver an ever-increasing number of packages. Of course, that traffic isn’t just an inconvenience - it comes with a hefty increase in CO2 emissions and pollution, too.
 
-In order to ensure that city traffic becomes more efficient and climate-neutral in the future, we need to consider the interests of all acting parties equally. That means we need to rethink the current state of urban delivery services entirely. Delivery services and the challenges they face are in desperate need of new regulations that take a company’s need to remain competitive into account - that’s the only way to figure out a solution that could effectively be put into practice.
+In order to ensure that city traffic becomes more efficient and climate-neutral in the future, we need to consider the interests of all acting parties equally. That means we need to rethink the current state of urban delivery services entirely. Delivery services and the challenges they face are in desperate need of new regulations that take a company’s need to remain competitive into account. That’s the only way to figure out a solution that could effectively be put into practice.
 
 **‘The Last Mile’: innovative ideas**
 
