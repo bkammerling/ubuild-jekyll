@@ -12,8 +12,8 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: From our user app and management system to vehicles and reporting, Wunder
   Fleet has everything you need to get your vehicle sharing company off the ground.
 cta_link: pages/fleet.md
-title: 'The Future is Electric: An Interview with Christoph Ulusoy'
-publish_date: 2020-04-01 09:00:00 +0000
+title: An Interview with Christoph Ulusoy, CEO of evhcle
+publish_date: 2020-04-01T09:00:00.000+00:00
 featured_image: ''
 excerpt: "**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle.com/).
   We spoke to Christoph about his company model and plans for the future, as well
