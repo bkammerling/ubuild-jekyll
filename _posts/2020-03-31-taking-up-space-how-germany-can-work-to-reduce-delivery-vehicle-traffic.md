@@ -21,7 +21,7 @@ excerpt: 'Fewer people are shopping at stores in favor of online ordering. Unfor
   cities.'
 share_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/stau-durch-lieferverkehr-wie-wir-platz-auf-den-stra%C3%9Fen-schaffen-k%C3%B6nnen "Stau durch Lieferverkehr: Wie Wir Platz auf den Straßen Schaffen Können")_._
