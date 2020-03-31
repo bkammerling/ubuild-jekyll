@@ -10,8 +10,8 @@ tags:
 - policy
 author: []
 cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
+cta_text: 'Our wide range of solutions are driving the future of mobility around the
+  world. '
 cta_link: []
 title: 'Taking Up Space: How Germany Can Work to Reduce Delivery Vehicle Traffic'
 publish_date: 2020-03-31 15:00:00 +0000
