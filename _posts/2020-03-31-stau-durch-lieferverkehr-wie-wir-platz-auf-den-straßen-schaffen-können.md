@@ -21,7 +21,7 @@ excerpt: " Immer weniger Menschen kaufen heute im stationären Handel ein, immer
   zu einer erhöhten Verkehrsbelastung und immer mehr Staus in deutschen Innenstädten."
 share_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-3.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in_ [_English_](www.wundermobility.com/blog/taking-up-space-how-germany-can-work-to-reduce-delivery-vehicle-traffic)_._
