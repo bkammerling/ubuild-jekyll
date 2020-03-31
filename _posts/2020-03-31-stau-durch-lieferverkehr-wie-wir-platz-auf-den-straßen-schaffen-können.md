@@ -24,7 +24,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in_ [_English_](www.wundermobility.com/blog/taking-up-space-how-germany-can-work-to-reduce-delivery-vehicle-traffic)_._
+_Read this article in_ [_English_](wundermobility.com/blog/taking-up-space-how-germany-can-work-to-reduce-delivery-vehicle-traffic)_._
 
 Es ist zu selbstverständlicher Gewohnheit geworden: Heute schnell online bestellt, klingelt es spätestens übermorgen an der Tür und die Bestellung wird geliefert. Immer weniger Menschen kaufen heute im stationären Handel ein, immer mehr wird online bestellt und direkt vor die Haustür geliefert. So fortschrittlich und nutzerorientiert diese Entwicklung auch ist, gleichzeitig führt sie zu einer erhöhten Verkehrsbelastung und immer mehr Staus in deutschen Innenstädten.
 
