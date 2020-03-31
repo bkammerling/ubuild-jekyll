@@ -14,11 +14,11 @@ cta_text: ''
 cta_link: pages/bernstein-newsletter.md
 title: 'Taking Up Space: How Germany Can Work to Reduce Delivery Vehicle Traffic'
 publish_date: 2020-03-31 15:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list.jpg"
 excerpt: 'Fewer people are shopping at stores in favor of online ordering. Unfortunately,
   that comes with its downsides: delivery vehicles are increasing traffic in German
   cities.'
-share_image: ''
+share_image: "/uploads/2020/03/31/TakingUpSpace_ENG_list-1.jpg"
 sticky: false
 hidden: false
 
