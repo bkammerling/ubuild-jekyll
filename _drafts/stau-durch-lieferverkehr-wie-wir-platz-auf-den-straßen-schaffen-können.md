@@ -28,7 +28,7 @@ _Read this article in_ [_English_](www.wundermobility.com/blog/taking-up-space-h
 
 Es ist zu selbstverständlicher Gewohnheit geworden: Heute schnell online bestellt, klingelt es spätestens übermorgen an der Tür und die Bestellung wird geliefert. Immer weniger Menschen kaufen heute im stationären Handel ein, immer mehr wird online bestellt und direkt vor die Haustür geliefert. So fortschrittlich und nutzerorientiert diese Entwicklung auch ist, gleichzeitig führt sie zu einer erhöhten Verkehrsbelastung und immer mehr Staus in deutschen Innenstädten.
 
-\-Bild-
+![](/uploads/2020/03/31/TakingUpSpace_notext.jpg)
 
 Die aktuelle Corona-Krise verstärkt diese Entwicklung dabei geradezu. Der Lieferverkehr arbeitet auf Hochtouren, erhält damit unsere Versorgung und zugleich viele Unternehmen, die parallel stationär arbeiten am Leben. Es ist unwahrscheinlich, dass sich dieser Trend nach der Krise rückläufig entwickeln wird. Die Bequemlichkeit und zugleich einzige Option zum Einkaufen werden die Menschen tendenziell beibehalten und in Zukunft weiter online einkaufen.
 
