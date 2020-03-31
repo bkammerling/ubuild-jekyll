@@ -24,7 +24,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf_ [_Deutsch_](www.wundermobility.com/blog/stau-durch-lieferverkehr-wie-wir-platz-auf-den-strassen-schaffen-konnen)_._
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/stau-durch-lieferverkehr-wie-wir-platz-auf-den-stra%C3%9Fen-schaffen-k%C3%B6nnen)_._
 
 Order something online one day, and you'll receive it on your doorstep the next - at the very latest. In this day and age of total convenience, delivery drones and mobile pay options, fewer and fewer people are shopping at brick-and-mortar stores in favor of online ordering. Unfortunately, shipping all these packages around comes with its downsides: delivery vehicles are increasing traffic and congestion in German cities.
 
