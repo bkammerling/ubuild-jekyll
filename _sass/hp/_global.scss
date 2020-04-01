@@ -261,6 +261,41 @@ img {
 }
 
 
+blockquote {
+  @include rwd(desktop-up) {
+    &.shift-left {
+      transform: translateX(-80px);
+    }
+    &.align-bottom {
+      margin-top: 40%;
+    }
+  }
+
+  &.with-photo {
+    @include rwd(desktop-up) {
+      .headline-medium {
+        // Make it headline-large on desktop
+        font-size: 56px;
+        line-height: 60px;
+        margin-bottom: 32px;
+      }
+    }
+    svg.quote-marks {
+      width: 45px;
+      margin-bottom: 20px;
+      @include rwd(tablet-up) {
+        width: 62px;
+        margin-bottom: 25px;
+      }
+      @include rwd(desktop-up) {
+        width: 78px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+}
+
 
 .grecaptcha-badge {
   display: none;

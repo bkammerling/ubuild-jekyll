@@ -1,0 +1,26 @@
+
+<section class="jumbo-intro block block-text-vertical">
+  <div class="container px-lg-5">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="text-md-center px-lg-5 mx-xl-5">
+          {% for item in section.text_blocks %}
+            {% assign style = item.text_style %} {% case style %}
+            {% when 'headline-large' %}
+            {% assign element = 'h2' %}
+            {% when 'headline-medium' %}
+            {% assign element = 'h3' %}
+            {% when 'headline-small' %}
+            {% assign element = 'h4' %}
+            {% when 'text-link' %}
+            {% assign element = 'a' %}
+            {% else %}
+            {% assign element = 'p' %}
+            {% endcase %}
+            <{{ element }} class="{{ style }}">{{ item.content }}</{{ element }}>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
