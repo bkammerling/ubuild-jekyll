@@ -20,7 +20,7 @@ excerpt: "**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle
   as what he’s doing to stay ahead of the game during the COVID-19 crisis."
 share_image: "/uploads/2020/04/01/AnInterviewWithChristophUlusoy_List.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 [**Christoph Ulusoy**](https://www.linkedin.com/in/christoph-ulusoy-3a888657/) is CEO and founder of [**evhcle**](https://evhcle.com/), a young mobility startup with a unique target customer segment: serviced apartments.
