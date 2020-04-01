@@ -14,11 +14,11 @@ cta_text: From our user app and management system to vehicles and reporting, Wun
 cta_link: pages/fleet.md
 title: An Interview with Christoph Ulusoy, CEO of evhcle
 publish_date: 2020-04-01T09:00:00.000+00:00
-featured_image: "/uploads/2020/03/31/AnInterviewWithChristophUlusoy_List-1.jpeg"
+featured_image: "/uploads/2020/04/01/AnInterviewWithChristophUlusoy_List.jpeg"
 excerpt: "**Christoph Ulusoy** is CEO and founder of [**evhcle**](https://evhcle.com/).
   We spoke to Christoph about his company model and plans for the future, as well
   as what he’s doing to stay ahead of the game during the COVID-19 crisis."
-share_image: "/uploads/2020/03/31/AnInterviewWithChristophUlusoy_List.jpeg"
+share_image: "/uploads/2020/04/01/AnInterviewWithChristophUlusoy_List.jpeg"
 sticky: false
 hidden: true
 
