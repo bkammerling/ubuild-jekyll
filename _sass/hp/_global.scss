@@ -264,7 +264,8 @@ img {
 blockquote {
   @include rwd(desktop-up) {
     &.shift-left {
-      transform: translateX(-80px);
+      transform: translateX(-61px);
+      padding-right: 88px;
     }
     &.align-bottom {
       margin-top: 40%;

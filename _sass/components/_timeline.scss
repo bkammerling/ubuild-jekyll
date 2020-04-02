@@ -50,10 +50,11 @@
     max-width: 500px;
     @include rwd(tablet-up) {
       max-width: none;
-      margin-top: 120px;
+      margin-top: 70px;
     }
     @include rwd(desktop-up) {
       transform: translateX(-20px);
+      margin-top: 120px;
     }
     > img {
       max-width: 80%;
