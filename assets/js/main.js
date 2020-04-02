@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 });
 
 var centerOffset = function(element) {
-  var topOffset = ($(window).height() / 2) - ($(element).height() / 2)
+  var topOffset = ($(window).height() / 2) - ($(element).height() / 1.5)
   $(element).css('top', topOffset);
 }
 
