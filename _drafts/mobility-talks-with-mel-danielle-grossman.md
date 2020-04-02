@@ -70,6 +70,8 @@ Even in a large city like Los Angeles, there’s still relatively low awareness 
 
 Right now, the trends that are both interesting as well as disappointing are the closures and cutbacks of so many operators in the United States. I still believe there is a huge need for car sharing. We’ve become so reliant on ride sharing, when in reality car sharing is actually better for cities. Not only does it reduce car congestion, but it also gets people to walk, bike, and use public transportation more. Car sharing is truly a complimentary service to public transportation. 
 
+> We need to start brainstorm on how to strike a balance that allows operators to thrive.
+
 I believe we will see an uptick of car sharing happening again in the US, but starting out smaller and expanding as needed, rather than starting in 15 markets with 2,500 cars on Day 1. We can start to see cities looking to pilot car sharing services as a complement to traditional transportation options. Also, all electric car sharing fleets are becoming more popular as well and moving in the trend of the market with electrification.
 
 **I can definitely commiserate here: I gave up my car because of all the mobility options available to me now. I’m optimistic we will see more operators out there, especially in Los Angeles. To piggyback on that last question, what areas of mobility do you think are being overlooked or what interesting trend(s) within mobility will take off in the future?**
