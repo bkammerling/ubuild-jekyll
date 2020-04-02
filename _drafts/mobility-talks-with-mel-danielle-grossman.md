@@ -54,6 +54,8 @@ I was overseeing marketing and branding for two Whole Foods stores and had spent
 
 There are really two main types of car sharing: station-based and free-floating. With station-based, cars are parked in designated spots around the city and can be rented by the hour or day. A car is reserved in advance for a designated amount of time and then returned to its designated “station” when the reservation ends. With free-floating, cars “float” around the city, usually within a five-mile radius. They charge by the minute or hour and don’t need a reservation. The free-float model also allows cars to be dropped off anywhere within the designated radius, or home area.
 
+> Car sharing is truly a complimentary service to public transportation 
+
 As an operator, you really should choose one or the other, as the system requirements and backend software needs are quite different. Overcomplicating it will be confusing to users as well as for operations.
 
 In a free-floating model, for example, you would need to be able to geofence in order to prevent cars from ending their trips outside the home area. Advanced reservations are needed for the station-based model. Operationally, you need many more cars to launch a successful free-floating model than you need to launch a station-based one.
