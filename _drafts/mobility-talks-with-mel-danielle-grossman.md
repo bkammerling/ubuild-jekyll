@@ -54,7 +54,7 @@ I was overseeing marketing and branding for two Whole Foods stores and had spent
 
 There are really two main types of car sharing: station-based and free-floating. With station-based, cars are parked in designated spots around the city and can be rented by the hour or day. A car is reserved in advance for a designated amount of time and then returned to its designated “station” when the reservation ends. With free-floating, cars “float” around the city, usually within a five-mile radius. They charge by the minute or hour and don’t need a reservation. The free-float model also allows cars to be dropped off anywhere within the designated radius, or home area.
 
-> Car sharing is truly a complimentary service to public transportation 
+> Car sharing is truly a complimentary service to public transportation. 
 
 As an operator, you really should choose one or the other, as the system requirements and backend software needs are quite different. Overcomplicating it will be confusing to users as well as for operations.
 
@@ -70,7 +70,7 @@ Even in a large city like Los Angeles, there’s still relatively low awareness 
 
 Right now, the trends that are both interesting as well as disappointing are the closures and cutbacks of so many operators in the United States. I still believe there is a huge need for car sharing. We’ve become so reliant on ride sharing, when in reality car sharing is actually better for cities. Not only does it reduce car congestion, but it also gets people to walk, bike, and use public transportation more. Car sharing is truly a complimentary service to public transportation. 
 
-> We need to start brainstorm on how to strike a balance that allows operators to thrive.
+> We need to brainstorm on how to strike a balance that allows operators to thrive.
 
 I believe we will see an uptick of car sharing happening again in the US, but starting out smaller and expanding as needed, rather than starting in 15 markets with 2,500 cars on Day 1. We can start to see cities looking to pilot car sharing services as a complement to traditional transportation options. Also, all electric car sharing fleets are becoming more popular as well and moving in the trend of the market with electrification.
 
