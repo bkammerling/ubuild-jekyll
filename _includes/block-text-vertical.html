@@ -17,7 +17,7 @@
             {% else %}
             {% assign element = 'p' %}
             {% endcase %}
-            <{{ element }} class="{{ style }}">{{ item.content }}</{{ element }}>
+            <{{ element }} class="{{ style }}" data-aos="fade-in" data-aos-easing="apple-easing">{{ item.content }}</{{ element }}>
           {% endfor %}
         </div>
       </div>

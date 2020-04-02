@@ -80,7 +80,7 @@ wunder-main:
   identifier: our-story
   title: Our Story
   parent: company
-  subtitle: Started from the bottom now we here 🖕
+  subtitle: Every journey starts somewhere
 - url: "/careers/"
   weight: 3
   identifier: careers

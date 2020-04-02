@@ -5,6 +5,8 @@ date: '2019-10-08T22:00:00.000+00:00'
 permalink: "/vehicles"
 lang: en
 lang-ref: vehicles
+component_scripts:
+- animatedHeadline.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2

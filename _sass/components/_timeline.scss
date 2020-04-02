@@ -21,7 +21,7 @@
     @include rwd(tablet-up) {
       font-size: 200px;
       line-height: 74px;
-      margin-top: 90px;
+      margin-top: 50px;
     }
 
     &.shift-left {
@@ -50,6 +50,7 @@
     max-width: 500px;
     @include rwd(tablet-up) {
       max-width: none;
+      margin-top: 120px;
     }
     @include rwd(desktop-up) {
       transform: translateX(-20px);
@@ -63,7 +64,7 @@
   &__logo-image {
     padding: 15px 25px;
     display: inline-block;
-    transform: translateY(-30px);
+    margin-top: -40px;
     background: white;
     @extend .w-shadow;
     @include rwd(desktop-up) {
