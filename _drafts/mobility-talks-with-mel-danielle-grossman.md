@@ -24,14 +24,15 @@ sticky: false
 hidden: false
 
 ---
-Even as we’re practicing social distancing during this time, I believe there’s still a great sense of community within our mobility network. I wanted to find a way to keep that synergy moving during this interim period, and one of the ways I’ve been doing that it is by connecting with my network. We’ve been checking up on each other to see how we’re doing, what’s going well and how we can help each other during this phase. Wunder Mobility clients and other operators in the community have come together to collaborate, innovate and be proactive in this challenging landscape. In the interest of that, I’m creating a new blog series where I chat with some of my former colleagues and friends within mobility to get their insights, which will help us all come out strong together. If you’re interested in participating or sharing your own insights, please reach out.
+Even as we’re practicing social distancing during this time, I believe there’s still a great sense of community within our mobility network. I wanted to find a way to keep that synergy moving during this interim period, and one of the ways I’ve been doing that it is by connecting with my network. We’ve been checking up on each other to see how we’re doing, what’s going well and how we can help each other during this phase. 
+
+Wunder Mobility clients and other operators in the community have come together to collaborate, innovate and be proactive in this challenging landscape. In the interest of that, I’m creating a new blog series where I chat with some of my former colleagues and friends within mobility to get their insights, which will help us all come out strong together. If you’re interested in participating or sharing your own insights, please reach out.
 
 Today, I’ll be talking to Danielle Grossman, a former colleague of mine and a great friend who has an impressive and enviable track record within mobility, especially when it comes to car sharing. I wanted to see what she could share with us from her experience, as well as what she’s been hearing in her conversations with operators looking to enter the marketplace. She is someone I count on often for guidance and expertise, so I’m sure you will also enjoy hearing from her learnings and observations.
 
-  
 Here we go!
 
-\-photo 1- 
+\-photo 1-
 
 Danielle is an experienced leader within mobility, having worked at and consulted for multiple companies within the on-demand mobility space. During her career, she launched both the Los Angeles and San Diego markets for Zipcar, ultimately becoming their Regional General Manager of Southern California. During her 5 years at Zipcar, she wore many hats: she led many pilot programs and RFPs for the company, reaching a total of nearly 50 universities, transportation agencies and municipalities. Post-Zipcar, she helped set up operations for Envoy carshare and then went on to manage the strategic growth of GM’s Maven carshare subsidiary, managing partnerships with residential and university channels. During her time at Maven, she was instrumental in implementing, launching and growing the peer-to-peer program.
 
@@ -67,9 +68,9 @@ One of the key areas being overlooked is operating in smaller cities. Everyone w
 
 In terms of the future, I think we will continue to see the industry evolve. Not just with technology, i.e. electric vehicles, but also with operational efficiencies and new forms of transportation. I’m really looking forward to seeing what will come along.
 
-**Agreed. There is definitely something to be said here.** 
+**Agreed. There is definitely something to be said here.**
 
-**We’re seeing that operating in secondary or tertiary markets has been quite successful for some operators like Blue Duck, for example, or others like Arnab in Dubai, who have higher utilization and for longer periods of time.** 
+**We’re seeing that operating in secondary or tertiary markets has been quite successful for some operators like Blue Duck, for example, or others like Arnab in Dubai, who have higher utilization and for longer periods of time.**
 
 **Also, Revel Mopeds has started out in the outskirts of major cities, in areas like Brooklyn or Oakland, and then building their markets that way. As a result, they’ve been having good utilization and optimal growth. These cities are looking for providers in their markets to help with the first mile/last mile problem and to keep their cities attractive to their residents.**
 
