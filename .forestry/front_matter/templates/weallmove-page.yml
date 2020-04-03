@@ -30,5 +30,3 @@ fields:
     maxSize: '1'
   label: Share Image
   description: The wide image that displays when this page is shared on social media
-pages:
-- pages/weallmove.md
