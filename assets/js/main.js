@@ -535,7 +535,7 @@ $(document).ready(function() {
     $searchfield.prop('disabled', true);
   });
 
-  if(pageref == "home") {
+  if(pageref == "home" || pageref == "about") {
     if(window.location.hash) {
       var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
       if(hash == 'section-contact') {
