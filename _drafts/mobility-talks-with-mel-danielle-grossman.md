@@ -32,7 +32,7 @@ Today, I’ll be talking to Danielle Grossman, a former colleague of mine and a 
 
 Here we go!
 
-_![](/uploads/2020/04/03/DanielleGrossmann_Headshot_Body.jpg)Ladies and gentlemen: Danielle Grossman!_
+_![](/uploads/2020/04/03/DanielleGrossmann_Headshot_Body.jpg)_
 
 Danielle is an experienced leader within mobility, having worked at and consulted for multiple companies within the on-demand mobility space. During her career, she launched both the Los Angeles and San Diego markets for Zipcar, ultimately becoming their Regional General Manager of Southern California.
 
