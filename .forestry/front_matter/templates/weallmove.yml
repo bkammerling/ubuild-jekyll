@@ -1,0 +1,53 @@
+---
+label: WeAllMove
+hide_body: true
+fields:
+- type: field_group_list
+  name: events
+  label: events
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: partners
+  label: partners
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: file
+    name: logo
+    label: logo
+- type: field_group_list
+  name: hero_logo_rows
+  label: hero_logo_rows
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: field_group_list
+    name: logos
+    label: logos
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: file
+      name: logo
+      label: logo
+    - type: text
+      name: url
+      label: url
+  - type: text
+    name: custom_html
+    label: custom_html
+- type: list
+  name: hero_logo_names
+  label: hero_logo_names
