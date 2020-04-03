@@ -7,9 +7,6 @@ lang: en
 lang-ref: weallmove
 version: hp
 published: false
-component_scripts:
-- socialModule.js
-- isotope.min.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -34,6 +31,7 @@ page_sections:
   block: blog-list
 - template: simple-footer
   block: footer-1
-  hidemenu: true
+  hide_menu: true
+  show_poweredby: true
 
 ---

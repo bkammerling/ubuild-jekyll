@@ -14,3 +14,11 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- type: boolean
+  name: hide_menu
+  label: Hide Menu
+  description: Toggle if we want to hide our menu on this page
+- type: boolean
+  name: show_poweredby
+  label: Show Powered By
+  description: Toggle if we want to show 'Powerered by Wunder Mobility'
