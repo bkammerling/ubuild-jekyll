@@ -88,7 +88,7 @@ In terms of the future, I think we will continue to see the industry evolve. Not
 
 **Also, Revel Mopeds has started out in the outskirts of major cities, in areas like Brooklyn or Oakland, and then building their markets that way. As a result, they’ve been having good utilization and optimal growth. These cities are looking for providers in their markets to help with the first mile/last mile problem and to keep their cities attractive to their residents.**
 
-![](/uploads/2020/04/02/MelandDanielle.jpg)_Simpler times!_
+![](/uploads/2020/04/03/MelandDanielle_Body.png)_Simpler times!_
 
 **Ok, last question: how are you staying sane and productive during the self-quarantine? All tips appreciated!**
 
