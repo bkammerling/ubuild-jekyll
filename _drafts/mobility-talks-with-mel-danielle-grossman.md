@@ -32,7 +32,7 @@ Today, I’ll be talking to Danielle Grossman, a former colleague of mine and a 
 
 Here we go!
 
-![](/uploads/2020/04/03/DanielleGrossmann_Headshot_Body.jpg)_Ladies and gentlemen: Danielle Grossman!_
+![A professional headshot of a smiling woman standing against a pink background.](/uploads/2020/04/03/DanielleGrossmann_Headshot_Body.jpg)_Ladies and gentlemen: Danielle Grossman!_
 
 Danielle is an experienced leader within mobility, having worked at and consulted for multiple companies within the on-demand mobility space. During her career, she launched both the Los Angeles and San Diego markets for Zipcar, ultimately becoming their Regional General Manager of Southern California.
 
@@ -88,7 +88,7 @@ In terms of the future, I think we will continue to see the industry evolve. Not
 
 **Also, Revel Mopeds has started out in the outskirts of major cities, in areas like Brooklyn or Oakland, and then building their markets that way. As a result, they’ve been having good utilization and optimal growth. These cities are looking for providers in their markets to help with the first mile/last mile problem and to keep their cities attractive to their residents.**
 
-![](/uploads/2020/04/03/MelandDanielle_Body.png)_Simpler times!_
+![A woman drapes her arm over the shoulder of her female friend while both smile in the camera. ](/uploads/2020/04/03/MelandDanielle_Body.png)_Simpler times!_
 
 **Ok, last question: how are you staying sane and productive during the self-quarantine? All tips appreciated!**
 
