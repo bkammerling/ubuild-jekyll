@@ -86,7 +86,7 @@ In terms of the future, I think we will continue to see the industry evolve. Not
 
 **We’re seeing that operating in secondary or tertiary markets has been quite successful for some operators like Blue Duck, for example, or others like Arnab in Dubai, who have higher utilization and for longer periods of time.**
 
-**Also, Revel Mopeds has started out in the outskirts of major cities, in areas like Brooklyn or Oakland, and then building their markets that way. As a result, they’ve been having good utilization and optimal growth. These cities are looking for providers in their markets to help with the first mile/last mile problem and to keep their cities attractive to their residents.**
+**Also, Revel Mopeds has started out in the outskirts of major cities, in areas like Brooklyn or Oakland, and then built their markets that way. As a result, they’ve been having good utilization and optimal growth. These cities are looking for providers in their markets to help with the first mile/last mile problem and to keep their cities attractive to their residents.**
 
 **Ok, last question: how are you staying sane and productive during the self-quarantine? All tips appreciated!**
 
