@@ -6,6 +6,7 @@ permalink: "/weallmove"
 lang: en
 lang-ref: weallmove
 version: hp
+published: false
 component_scripts:
 - socialModule.js
 - isotope.min.js
