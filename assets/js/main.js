@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 });
 
 var centerOffset = function(element) {
-  var topOffset = ($(window).height() / 2) - ($(element).height() / 1.5)
+  var topOffset = ($(window).height() / 2) - ($(element).height() / 1.3)
   $(element).css('top', topOffset);
 }
 
@@ -627,28 +627,29 @@ $(document).ready(function() {
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
 
-
-  // set up event for when a form field is filled but the form is not sent - used with GMT
-  window.addEventListener('beforeunload', function() {
-    dataLayer.push({
-  	  event: 'beforeunload'
-  	});
-    if (formHistory.length) {
+  if($("form#main-contact").length >= 1) {
+    // set up event for when a form field is filled but the form is not sent - used with GMT
+    window.addEventListener('beforeunload', function() {
       dataLayer.push({
-        'event' : 'formInteraction',
-        'eventCategory' : 'Form Interaction',
-        'eventAction' : formHistory.join(' > ')
-      });
-    }
-  });
-  var formSelector = 'form#main-contact';
-  var attribute = 'name';
-  document.querySelector(formSelector).addEventListener('change', function(e) {
-    var vieldName = e['target'].getAttribute(attribute);
-    //console.log('form changed: ' + vieldName)
-    //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
-    formHistory.push(vieldName);
-    //console.log(formHistory);
-  });
+    	  event: 'beforeunload'
+    	});
+      if (formHistory.length) {
+        dataLayer.push({
+          'event' : 'formInteraction',
+          'eventCategory' : 'Form Interaction',
+          'eventAction' : formHistory.join(' > ')
+        });
+      }
+    });
+    var formSelector = 'form#main-contact';
+    var attribute = 'name';
+    document.querySelector(formSelector).addEventListener('change', function(e) {
+      var vieldName = e['target'].getAttribute(attribute);
+      //console.log('form changed: ' + vieldName)
+      //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
+      formHistory.push(vieldName);
+      //console.log(formHistory);
+    });
+  }
 
 });
