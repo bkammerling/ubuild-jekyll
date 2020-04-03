@@ -3,51 +3,65 @@ label: WeAllMove
 hide_body: true
 fields:
 - type: field_group_list
-  name: events
-  label: events
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: url
-    label: url
-- type: field_group_list
-  name: partners
-  label: partners
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: url
-    label: url
-  - type: file
-    name: logo
-    label: logo
-- type: field_group_list
-  name: hero_logo_rows
-  label: hero_logo_rows
+  name: operators
+  label: Operators
   fields:
   - type: text
     name: name
-    label: name
-  - type: field_group_list
-    name: logos
-    label: logos
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: file
-      name: logo
-      label: logo
-    - type: text
-      name: url
-      label: url
+    label: Name
   - type: text
-    name: custom_html
-    label: custom_html
+    name: url
+    label: URL
+  - type: file
+    name: logo
+    label: Logo
+  config:
+    labelField: title
 - type: list
   name: hero_logo_names
   label: hero_logo_names
+- name: all_services
+  type: field_group_list
+  fields:
+  - name: service_name
+    type: text
+    config:
+      required: false
+    label: Service Name
+    description: Few words to describe this offering
+  - name: service_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service Description
+    description: More detailed description of service for the front-end. Use {company_name}
+      to include it in the description
+  - name: need_this_helps_with
+    type: select
+    default: ''
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: 
+        file: pages/weallmove.md
+        path: 
+    label: Need this helps with
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: All Services
+  description: List all the possible services operators can offer
+- name: all_needs
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: All Needs
