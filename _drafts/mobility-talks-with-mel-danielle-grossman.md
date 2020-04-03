@@ -15,11 +15,11 @@ cta_text: 'We''re accelerating the transition to sustainable mobility. '
 cta_link: pages/blog.md
 title: 'Mobility Talks with Mel: Danielle Grossman'
 publish_date: 2020-04-03 09:00:00 +0000
-featured_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage.jpg"
+featured_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage-1.jpg"
 excerpt: Today, I’ll be talking to Danielle Grossman, a former colleague of mine and
   a great friend who has an impressive and enviable track record within mobility,
   especially when it comes to car sharing.
-share_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage.jpg"
+share_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage-1.jpg"
 sticky: false
 hidden: false
 
