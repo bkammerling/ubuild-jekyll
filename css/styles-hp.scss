@@ -11,6 +11,7 @@
 @import "hp/_fonts";
 @import "hp/_typography";
 @import "base/_helpers";
+@import "base/_animations";
 
 @import "components/_header";
 @import "hp/_footer";
@@ -18,9 +19,11 @@
 @import "components/_video";
 @import "hp/_forms";
 @import "components/_tabs";
+@import "components/_timeline";
 
 @import "pages/_home";
 @import "pages/_blog";
 @import "hp/_products";
+@import "hp/_company";
 
 @import "hp/_global";

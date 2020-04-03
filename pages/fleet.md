@@ -5,6 +5,8 @@ date: '2019-01-08T23:00:00.000+00:00'
 permalink: "/fleet"
 lang: en
 lang-ref: fleet
+component_scripts:
+- animatedHeadline.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2

@@ -1,7 +1,9 @@
+var vh10 = $(window).height() * 0.15;
 AOS.init({
   // Global settings:
-  duration: 600,
-  once: true,
+  duration: 1400,
+  offset: vh10,
+  once: false,
   disable: 'mobile',
   startEvent: 'load'
 });
@@ -10,69 +12,9 @@ window.addEventListener('load', function() {
   AOS.refresh();
 });
 
-//set animation timing
-var animationDelay = 2500,
-	//loading bar effect
-	barAnimationDelay = 3800,
-	barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
-	//letters effect
-	lettersDelay = 50,
-	//type effect
-	typeLettersDelay = 150,
-	selectionDuration = 500,
-	typeAnimationDelay = selectionDuration + 800,
-	//clip effect
-	revealDuration = 600,
-	revealAnimationDelay = 1500;
-
-initHeadline();
-
-function initHeadline() {
-	//initialise headline animation
-	animateHeadline($('.cd-headline'));
-}
-function animateHeadline($headlines) {
-  var duration = animationDelay;
-  $headlines.each(function(){
-    var headline = $(this);
-    if(headline.hasClass('loading-bar')) {
-				duration = barAnimationDelay;
-				setTimeout(function(){ headline.find('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
-			} else if (!headline.hasClass('type') ) {
-				//assign to .cd-words-wrapper the width of its longest word
-				var words = headline.find('.cd-words-wrapper b'),
-					width = 0;
-				words.each(function(){
-					var wordWidth = $(this).width();
-				    if (wordWidth > width) width = wordWidth;
-				});
-				headline.find('.cd-words-wrapper').css('width', width);
-			};
-    //trigger animation
-    setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
-  });
-}
-
-function switchWord($oldWord, $newWord) {
-	$oldWord.removeClass('is-visible').addClass('is-hidden');
-	$newWord.removeClass('is-hidden').addClass('is-visible');
-}
-
-function hideWord($word) {
-		var nextWord = takeNext($word);
-
-    if($word.parents('.cd-headline').hasClass('letters')) {
-			var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
-			hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
-			showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
-    } else {
-      switchWord($word, nextWord);
-      setTimeout(function(){ hideWord(nextWord) }, animationDelay);
-    }
-
-}
-function takeNext($word) {
-	return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+var centerOffset = function(element) {
+  var topOffset = ($(window).height() / 2) - ($(element).height() / 1.3)
+  $(element).css('top', topOffset);
 }
 
 var videoPlayer;
@@ -432,82 +374,6 @@ var contentDropdown = {
 if($(".content-dropdown").length>0) contentDropdown.init();
 
 
-
-var scroller = {
-  header: $("nav.absolute-header:not(.navbar-narrow)"),
-  menuCta: $(".menu-item-cta"),
-  init: function() {
-    var raf = window.requestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    window.msRequestAnimationFrame ||
-    window.oRequestAnimationFrame;
-    var $window = $(window);
-    if(pageref == "rent") {
-      this.initPath();
-      var pathRect = scroller.path.getBoundingClientRect();
-    }
-    var lastScrollTop = $window.scrollTop();
-    if(raf) {
-      loop();
-      scroller.scroll(lastScrollTop, pathRect);
-    }
-    function loop() {
-      var scrollTop = $window.scrollTop();
-      if(pageref == "rent") var pathRect = scroller.path.getBoundingClientRect();
-      if (lastScrollTop === scrollTop) {
-        raf(loop);
-        return;
-      } else {
-        lastScrollTop = scrollTop;
-        // fire scroll function if scrolls vertically
-        scroller.scroll(lastScrollTop, pathRect);
-        raf(loop);
-      }
-    }
-  },
-  initPath: function() {
-    this.path = $("#connecting-path")[0];
-    this.pathLength = this.path.getTotalLength();
-    // Make very long dashes (the length of the path itself)
-    this.path.style.strokeDasharray = this.pathLength + ' ' + this.pathLength;
-    // Offset the dashes so the it appears hidden entirely
-    this.path.style.strokeDashoffset = this.pathLength;
-  },
-  scroll: function(lastScrollTop, rect) {
-    if (lastScrollTop >= 100) {
-      //scroller.header.addClass("navbar-narrow");
-    } else {
-      //scroller.header.removeClass("navbar-narrow");
-    };
-    if (lastScrollTop >= 460) {
-      //scroller.menuCta.addClass('bg-from-below');
-    } else {
-      //scroller.menuCta.removeClass('bg-from-below');
-    }
-    if(pageref == "rent") {
-      //if (scroll <= 600) $(".video-banner").css('backgroundPosition', "center "+scroll/6+"px");
-      var path = scroller.path;
-      // What % down is it?
-      var scrollPercentage = (rect.top-(document.documentElement.clientHeight/2))*-1 / rect.height;
-      // Length to offset the dashes
-      var drawLength = scroller.pathLength * scrollPercentage;
-      // Draw in reverse
-      path.style.strokeDashoffset = scroller.pathLength - drawLength;
-      // When complete, remove the dash array, otherwise shape isn't quite sharp
-     // Accounts for fuzzy math
-      if (scrollPercentage >= 0.99) {
-        path.style.strokeDasharray = "none";
-      } else {
-        path.style.strokeDasharray = scroller.pathLength + ' ' + scroller.pathLength;
-      }
-    }
-
-  }
-}
-scroller.init();
-
-
 if($("input[type='range']").length) {
   $("input[type='range']").on('input',function() {
     var percent = $(this).val() / $(this).attr('max') * 100;
@@ -524,7 +390,6 @@ if($("input[type='range']").length) {
   }
 
 }
-
 
 var googleMap = {
   map: null,
@@ -762,29 +627,29 @@ $(document).ready(function() {
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
 
-
-  // set up event for when a form field is filled but the form is not sent - used with GMT
-  window.addEventListener('beforeunload', function() {
-    dataLayer.push({
-  	  event: 'beforeunload'
-  	});
-    if (formHistory.length) {
+  if($("form#main-contact").length >= 1) {
+    // set up event for when a form field is filled but the form is not sent - used with GMT
+    window.addEventListener('beforeunload', function() {
       dataLayer.push({
-        'event' : 'formInteraction',
-        'eventCategory' : 'Form Interaction',
-        'eventAction' : formHistory.join(' > ')
-      });
-    }
-  });
-  var formSelector = 'form#main-contact';
-  var attribute = 'name';
-  document.querySelector(formSelector).addEventListener('change', function(e) {
-    var vieldName = e['target'].getAttribute(attribute);
-    //console.log('form changed: ' + vieldName)
-    //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
-    formHistory.push(vieldName);
-    //console.log(formHistory);
-  });
-
+    	  event: 'beforeunload'
+    	});
+      if (formHistory.length) {
+        dataLayer.push({
+          'event' : 'formInteraction',
+          'eventCategory' : 'Form Interaction',
+          'eventAction' : formHistory.join(' > ')
+        });
+      }
+    });
+    var formSelector = 'form#main-contact';
+    var attribute = 'name';
+    document.querySelector(formSelector).addEventListener('change', function(e) {
+      var vieldName = e['target'].getAttribute(attribute);
+      //console.log('form changed: ' + vieldName)
+      //dataLayer.push({ 'event': 'fieldFilled', 'eventAction': vieldName });
+      formHistory.push(vieldName);
+      //console.log(formHistory);
+    });
+  }
 
 });

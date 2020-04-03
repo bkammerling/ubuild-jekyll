@@ -75,14 +75,20 @@ wunder-main:
   title: Blog
   parent: company
   subtitle: Exploring the future of urban mobility
-- url: "/careers/"
+- url: "/our-story"
   weight: 2
+  identifier: our-story
+  title: Our Story
+  parent: company
+  subtitle: Every journey starts somewhere
+- url: "/careers/"
+  weight: 3
   identifier: careers
   title: Careers
   parent: company
   subtitle: Wanna join the ride?
 - url: "/press"
-  weight: 3
+  weight: 4
   identifier: press
   title: Press
   parent: company
@@ -346,9 +352,14 @@ footer:
     weight: 3
     title: Blog
     parent: company
+  - url: "/our-story"
+    weight: 2
+    identifier: our-story
+    title: Our Story
+    parent: company
   - identifier: press
     url: "/press"
-    weight: 2
+    weight: 1
     title: Press
     parent: company
 - identifier: footercareers

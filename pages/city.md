@@ -20,13 +20,13 @@ page_sections:
   headline: <strong>Empowering Cities</strong><br> Across the Globe
   subheadline: Together, we can design cities that are smarter, greener, and safer. <br><br class="d-sm-none">Because we share tomorrow.
   cta:
-    button_text: Find Out More
-    url: "#section-challenges"
-    enabled: true
-  cta_2:  
     button_text: Contact us
     url: "#section-contact"
     enabled: true
+  cta_2:  
+    button_text: Find Out More
+    url: "#section-challenges"
+    enabled: false
   background_image: "/uploads/global/bg-city-wide@2x.jpg"
   featured_image: "/uploads/global/wundercity_map-2.svg"
 - block: city-main

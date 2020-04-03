@@ -62,6 +62,7 @@ fields:
   - custom-block
   - columns
 pages:
+- pages/about-us.md
 - pages/autotech.md
 - pages/careers/careers.md
 - pages/careers/culture.md

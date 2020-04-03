@@ -2,16 +2,6 @@
 label: Heading + Body Vertical Text
 hide_body: true
 fields:
-- name: first_text_block
-  type: include
-  config: {}
-  template: text-style
-  label: First Text Block
-- name: second_text_block
-  type: include
-  config: {}
-  template: text-style
-  label: Second Text Block
 - name: block
   type: text
   config:
@@ -19,3 +9,16 @@ fields:
   label: block
   hidden: true
   default: text-vertical
+- name: text_blocks
+  type: field_group_list
+  fields:
+  - name: text_block
+    type: include
+    config: {}
+    template: text-style
+    label: Text Block
+  config:
+    min: 
+    max: '3'
+    labelField: content
+  label: Text Blocks
