@@ -15,24 +15,24 @@ cta_text: 'We''re accelerating the transition to sustainable mobility. '
 cta_link: pages/blog.md
 title: 'Mobility Talks with Mel: Danielle Grossman'
 publish_date: 2020-04-03 09:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage.jpg"
 excerpt: Today, I’ll be talking to Danielle Grossman, a former colleague of mine and
   a great friend who has an impressive and enviable track record within mobility,
   especially when it comes to car sharing.
-share_image: ''
+share_image: "/uploads/2020/04/03/MobilityTalks_DanielleGrossman_ListImage.jpg"
 sticky: false
 hidden: false
 
 ---
 Even as we’re practicing social distancing during this time, I believe there’s still a great sense of community within our mobility network. I wanted to find a way to keep that synergy moving during this interim period, and one of the ways I’ve been doing that it is by connecting with my network. We’ve been checking up on each other to see how we’re doing, what’s going well and how we can help each other during this phase.
 
-[Wunder Mobility ](https://www.wundermobility.com/ "Wunder Mobility Homepage")clients and other operators in the community have come together to collaborate, innovate and be proactive in this challenging landscape. In the interest of that, I’m creating a new blog series where I chat with some of my former colleagues and friends within mobility to get their insights, which will help us all come out strong together. If you’re interested in participating or sharing your own insights, please reach out.
+[Wunder Mobility](https://www.wundermobility.com/ "Wunder Mobility Homepage") clients and other operators in the community have come together to collaborate, innovate and be proactive in this challenging landscape. In the interest of that, I’m creating a new blog series where I chat with some of my former colleagues and friends within mobility to get their insights, which will help us all come out strong together. If you’re interested in participating or sharing your own insights, please reach out.
 
 Today, I’ll be talking to Danielle Grossman, a former colleague of mine and a great friend who has an impressive and enviable track record within mobility, especially when it comes to car sharing. I wanted to see what she could share with us from her experience, as well as what she’s been hearing in her conversations with operators looking to enter the marketplace. She is someone I count on often for guidance and expertise, so I’m sure you will also enjoy hearing from her learnings and observations.
 
 Here we go!
 
-\-photo 1-
+![](/uploads/2020/04/03/DanielleGrossmann_Headshot_Body.jpg)_Ladies and gentlemen: Danielle Grossman!_
 
 Danielle is an experienced leader within mobility, having worked at and consulted for multiple companies within the on-demand mobility space. During her career, she launched both the Los Angeles and San Diego markets for Zipcar, ultimately becoming their Regional General Manager of Southern California.
 
