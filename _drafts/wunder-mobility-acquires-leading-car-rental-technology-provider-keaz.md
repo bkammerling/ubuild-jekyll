@@ -11,10 +11,10 @@ cta_text: Rental services to drive the future of mobility forward.
 cta_link: pages/rent.md
 title: Wunder Mobility Acquires Leading Car Rental Technology Provider KEAZ
 publish_date: 2020-03-27 17:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/06/KEAZSharePhotoList.jpeg"
 excerpt: Wunder Mobility announced today that it has acquired the technology and talent
   of Australia-based car-sharing and rental technology provider, KEAZ.
-share_image: ''
+share_image: "/uploads/2020/04/06/KEAZSharePhotoList.jpeg"
 sticky: false
 hidden: false
 
