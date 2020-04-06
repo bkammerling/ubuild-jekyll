@@ -24,6 +24,26 @@ all_services:
 - groceries delivery for risk groups
 - alternative commuting options
 services_detail:
+- service_name: groceries delivery for risk groups
+  service_description: "{company_name} is making part of their fleet available to
+    grocery delivery services."
+  need_this_helps_with: Access to vehicles for grocery delivery
+- service_name: support for healthcare workers and local authorities
+  service_description: "{company_name} is ensuring that healthcare and emergency workers
+    have free, safe rides to their jobs. "
+  need_this_helps_with: Commute solutions for healthcare workers
+- service_name: in-app icon for recently-sanitised vehicle
+  service_description: Recently sanitized vehicles appear as a special icon on {company_name}'s
+    app.
+  need_this_helps_with: Alternative commuting options
+- service_name: extra vehicle sanitisation
+  service_description: All of {company_name}'s vehicles are frequently sanitized to
+    provide a safe ride for their users.
+  need_this_helps_with: Alternative commuting options
+- service_name: expansion of area to hospitals
+  service_description: "{company_name} has expanded their business areas to include
+    hospitals and medical centers. "
+  need_this_helps_with: Commute solutions for healthcare workers
 - service_name: discounted rides
   service_description: "{company_name} is offering discounted rides to users."
   need_this_helps_with: Alternative commuting options
