@@ -48,9 +48,9 @@ fields:
       options: []
       source:
         type: documents
-        section: 
-        file: pages/weallmove.md
-        path: 
+        section: weallmove
+        file: _data/weallmove.yml
+        path: all_needs
     label: Need this helps with
   config:
     min: 
@@ -65,3 +65,5 @@ fields:
     min: 
     max: 
   label: All Needs
+pages:
+- _data/weallmove.yml
