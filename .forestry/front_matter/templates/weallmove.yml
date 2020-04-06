@@ -40,7 +40,7 @@ fields:
         type: documents
         section: weallmove
         file: _data/weallmove.yml
-        path: 
+        path: all_services
     label: Service Name
     description: Which service are you describing here
   - name: service_description

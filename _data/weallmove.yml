@@ -6,11 +6,12 @@ all_needs:
 operators: []
 hero_logo_names: []
 all_services:
-- service_name: support for healthcare workers and local authorities
-  service_description: "{company_name} is ensuring that healthcare and emergency workers
-    have free, safe rides to their jobs. "
-  need_this_helps_with: Commute solutions for healthcare workers
-- service_name: cooperation with delivery and restaurants
-  service_description: "{company_name} is making part of their fleet available to
+- cooperation with delivery and restaurants
+- discounted rides
+- expansion of area to hospitals
+- extra vehicle sanitisation
+services_detail:
+- service_description: "{company_name} is making part of their fleet available to
     takeaway restaurants and takeaway delivery services."
   need_this_helps_with: Access to vehicles for takeaway delivery
+  service_name: cooperation with delivery and restaurants
