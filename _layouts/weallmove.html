@@ -47,32 +47,80 @@
   </div>
 </nav>
 
-<div class="container mt-5">
-  <h1 class="headline-large text-center">#WeAllMove</h1>
-  <div class="row">
-    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-      <h3 class="my-4 pb-5 px-3 headline-medium text-center">A movement to connect the world with mobility solutions during this time of crisis.</h3>
-      <hr>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
-        </div>
-        <div class="col-md-6">
-          <p>As a mobility community, we can work towards making mobility services more widely available to these everyday heroes. We can help our world move forward, even in this time of uncertainty.
-            <br>
-            This is not a statement. It’s an invitation. Because if one of us moves, #WeAllMove
-          </p>
+<section id="weallmove-intro">
+  <div class="container mt-5">
+    <h1 class="headline-large text-center">#WeAllMove</h1>
+    <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+        <h3 class="my-4 pb-5 px-3 headline-medium text-center">A movement to connect the world with mobility solutions during this time of crisis.</h3>
+        <hr>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
+          </div>
+          <div class="col-md-6">
+            <p>As a mobility community, we can work towards making mobility services more widely available to these everyday heroes. We can help our world move forward, even in this time of uncertainty.
+              <br>
+              This is not a statement. It’s an invitation. Because if one of us moves, #WeAllMove
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-FILTERS
 
-LIST
+   ---------- FILTERS
 
-FORM
+
+{% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
+<section class="weallmove-list my-5">
+  <div class="container">
+
+    {% for company in operators %}
+    <div class="weallmove-card w-shadow">
+      <div class="row">
+        <div class="col-md-2 weallmove-card__col">
+          <div class="weallmove-card__logo">
+            <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
+          </div>
+        </div>
+        <div class="col-md-4 weallmove-card__col">
+          <div class="weallmove-card__offers">
+            <h4 class="headline-small">Offers</h4>
+            <ul class="list-unstyled">
+              {% if company.service_1.size > 0 %}
+              {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
+                <li><strong>{{ service.need_this_helps_with }}</strong>
+                  <br>{{ service.service_description | replace: '__company_name__', company.name }}
+                </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 weallmove-card__col">
+          <div class="weallmove-card__locations">
+            <h4 class="headline-small">Areas of operation</h4>
+            <ul class="list-unstyled">
+              <li class="country"><strong>Germany</strong></li>
+              <li class="cities">Berling · Bremen · Hamburg</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 weallmove-card__col">
+          <button class="btn btn-primary mb-3">Get in touch</button>
+          <p><a href="{{ company.url }}" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+
+   ---------- FORM
 
 <footer class="footer">
   <div class="footer__bottom">

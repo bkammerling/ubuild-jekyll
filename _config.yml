@@ -35,6 +35,7 @@ plugins:
 - jekyll-menus
 - jekyll-sitemap
 - jekyll-minifier
+#- jekyll-last-modified-at
 jekyll-minifier:
   uglifier_args:
     harmony: true

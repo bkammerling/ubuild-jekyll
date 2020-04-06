@@ -1,3 +1,40 @@
 body.weallmove {
   padding-top: 0;
 }
+
+.weallmove-card {
+  margin: 40px 0;
+  border-radius: 30px;
+
+  &__col {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    @include rwd(tablet-up) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    &:first-child {
+      border-bottom: 1px solid $black80;
+      @include rwd(tablet-up) {
+        border-bottom: none;
+        border-right: 1px solid $black80;
+      }
+    }
+  }
+
+  &__logo {
+    padding-bottom: 20px;
+    @include rwd(tablet-up) {
+      padding-bottom: 0;
+      padding-right: 20px;
+      padding-left: 36px;
+    }
+  }
+
+  &__offers {
+    margin-left: 30px;
+    padding-right: 15px;
+  }
+
+
+}

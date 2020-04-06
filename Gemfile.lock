@@ -34,6 +34,9 @@ GEM
       terminal-table (~> 1.8)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-last-modified-at (1.2.1)
+      jekyll (>= 3.7, < 5.0)
+      posix-spawn (~> 0.3.9)
     jekyll-menus (0.6.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-minifier (0.1.10)
@@ -61,6 +64,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.13)
     public_suffix (4.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -81,7 +85,11 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-feed
+  jekyll-last-modified-at
   jekyll-menus
   jekyll-minifier
   jekyll-sitemap
   tzinfo-data
+
+BUNDLED WITH
+   2.1.1
