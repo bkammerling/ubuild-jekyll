@@ -7,6 +7,12 @@ operators:
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/Miles.png"
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
