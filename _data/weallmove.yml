@@ -5,4 +5,8 @@ all_needs:
 - Access to vehicles for takeaway delivery
 operators: []
 hero_logo_names: []
-all_services: []
+all_services:
+- service_name: cooperation with delivery and restaurants
+  service_description: "{company_name} is making part of their fleet available to
+    takeaway restaurants and takeaway delivery services."
+  need_this_helps_with: Access to vehicles for takeaway delivery
