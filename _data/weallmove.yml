@@ -14,6 +14,7 @@ operators:
   service_2_notes: Get an extra month free when purchasing a credit package
   service_3: expansion of area to hospitals
   service_3_notes: ''
+  areas_of_operation: ''
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/Miles.png"
@@ -23,6 +24,7 @@ operators:
   service_2_notes: ''
   service_3: in-app icon for recently-sanitised vehicle
   service_3_notes: ''
+  areas_of_operation: "<strong>Germany<br></strong>Berlin · Hamburg"
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
@@ -34,29 +36,29 @@ all_services:
 - alternative commuting options
 services_detail:
 - service_name: groceries delivery for risk groups
-  service_description: "__company_name__ is making part of their fleet available to
-    grocery delivery services."
+  service_description: __company_name__ is making part of their fleet available to
+    grocery delivery services.
   need_this_helps_with: Access to vehicles for grocery delivery
 - service_name: support for healthcare workers and local authorities
-  service_description: "__company_name__ is ensuring that healthcare and emergency workers
-    have free, safe rides to their jobs. "
+  service_description: '__company_name__ is ensuring that healthcare and emergency
+    workers have free, safe rides to their jobs. '
   need_this_helps_with: Commute solutions for healthcare workers
 - service_name: in-app icon for recently-sanitised vehicle
   service_description: Recently sanitized vehicles appear as a special icon on __company_name__'s
     app.
   need_this_helps_with: Alternative commuting options
 - service_name: extra vehicle sanitisation
-  service_description: All of __company_name__'s vehicles are frequently sanitized to
-    provide a safe ride for their users.
+  service_description: All of __company_name__'s vehicles are frequently sanitized
+    to provide a safe ride for their users.
   need_this_helps_with: Alternative commuting options
 - service_name: expansion of area to hospitals
-  service_description: "__company_name__ has expanded their business areas to include
-    hospitals and medical centers. "
+  service_description: '__company_name__ has expanded their business areas to include
+    hospitals and medical centers. '
   need_this_helps_with: Commute solutions for healthcare workers
 - service_name: discounted rides
-  service_description: "__company_name__ is offering discounted rides to users."
+  service_description: __company_name__ is offering discounted rides to users.
   need_this_helps_with: Alternative commuting options
-- service_description: "__company_name__ is making part of their fleet available to
-    takeaway restaurants and takeaway delivery services."
+- service_description: __company_name__ is making part of their fleet available to
+    takeaway restaurants and takeaway delivery services.
   need_this_helps_with: Access to vehicles for takeaway delivery
   service_name: cooperation with delivery and restaurants
