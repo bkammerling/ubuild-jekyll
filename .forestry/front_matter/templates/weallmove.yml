@@ -17,9 +17,6 @@ fields:
     label: Logo
   config:
     labelField: title
-- type: list
-  name: hero_logo_names
-  label: hero_logo_names
 - name: all_services
   type: field_group_list
   fields:
