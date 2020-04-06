@@ -38,8 +38,6 @@ fields:
         format: markdown
     label: Service 1 Notes
     description: This will replace the text defined as service description
-    showOnly:
-      field: service_1
   - name: service_2
     type: select
     default: ''
@@ -62,8 +60,6 @@ fields:
       schema:
         format: markdown
     label: Service 2 Notes
-    showOnly:
-      field: service_2
   - name: service_3
     type: select
     default: []
@@ -85,8 +81,6 @@ fields:
       schema:
         format: markdown
     label: Service 3 Notes
-    showOnly:
-      field: service_3
   config:
     labelField: name
 - name: all_services
