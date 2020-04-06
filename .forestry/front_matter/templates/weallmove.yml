@@ -15,6 +15,78 @@ fields:
   - type: file
     name: logo
     label: Logo
+  - name: service_1
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: weallmove
+        file: _data/weallmove.yml
+        path: all_services
+    label: Service 1
+    description: 'First service operator is offering '
+  - name: service_1_notes
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service 1 Notes
+    description: This will replace the text defined as service description
+    showOnly:
+      field: service_1
+  - name: service_2
+    type: select
+    default: ''
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: weallmove
+        file: _data/weallmove.yml
+        path: all_services
+    label: Service 2
+    description: Second service (if applicable)
+  - name: service_2_notes
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service 2 Notes
+    showOnly:
+      field: service_2
+  - name: service_3
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: weallmove
+        file: _data/weallmove.yml
+        path: all_services
+    label: Service 3
+  - name: service_3_notes
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service 3 Notes
+    showOnly:
+      field: service_3
   config:
     labelField: name
 - name: all_services
