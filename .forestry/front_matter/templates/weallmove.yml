@@ -16,7 +16,7 @@ fields:
     name: logo
     label: Logo
   config:
-    labelField: title
+    labelField: name
 - name: all_services
   type: list
   config:
