@@ -18,14 +18,31 @@ fields:
   config:
     labelField: title
 - name: all_services
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: All Services
+  description: Short name of services
+- name: services_detail
   type: field_group_list
   fields:
   - name: service_name
-    type: text
+    type: select
+    default: []
     config:
       required: false
+      options: []
+      source:
+        type: documents
+        section: weallmove
+        file: _data/weallmove.yml
+        path: 
     label: Service Name
-    description: Few words to describe this offering
+    description: Which service are you describing here
   - name: service_description
     type: textarea
     default: ''
@@ -52,9 +69,9 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
-  label: All Services
-  description: List all the possible services operators can offer
+    labelField: service_name
+  label: Services Detail
+  description: Details about all the possible services operators can offer
 - name: all_needs
   type: list
   config:
