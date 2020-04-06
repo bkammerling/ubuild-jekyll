@@ -33,6 +33,10 @@ sections:
   match: "**/*"
   templates:
   - event-page
+- type: document
+  path: _data/weallmove.yml
+  label: "#WeAllMove"
+  match: "**/*"
 - type: directory
   path: _people
   label: People
