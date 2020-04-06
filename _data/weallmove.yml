@@ -1,5 +1,6 @@
 ---
 all_needs:
+- Access to vehicles for grocery delivery
 - Commute solutions for healthcare workers
 - Alternative commuting options
 - Access to vehicles for takeaway delivery
@@ -18,7 +19,14 @@ all_services:
 - discounted rides
 - expansion of area to hospitals
 - extra vehicle sanitisation
+- in-app icon for recently-sanitised vehicle
+- support for healthcare workers and local authorities
+- groceries delivery for risk groups
+- alternative commuting options
 services_detail:
+- service_name: discounted rides
+  service_description: "{company_name} is offering discounted rides to users."
+  need_this_helps_with: Alternative commuting options
 - service_description: "{company_name} is making part of their fleet available to
     takeaway restaurants and takeaway delivery services."
   need_this_helps_with: Access to vehicles for takeaway delivery
