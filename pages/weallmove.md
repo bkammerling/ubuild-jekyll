@@ -8,6 +8,6 @@ lang: en
 lang-ref: weallmove
 version: hp
 share_image: ''
-published: false
+published: true
 
 ---

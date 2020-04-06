@@ -1,16 +1,49 @@
 {% include head.html %}
 
-<nav class="navbar navbar-expand-md px-4">
-  <a class="navbar-brand" href="{{ site.url }}">
-    <a class="text-link text-blue" href="https://www.wundermobility.com/">wundermobility.com</a>
+<nav class="navbar justify-content-between navbar-expand-md px-4">
+  <a class="navbar-brand" href="https://www.wundermobility.com/">
+    <p class="text-link text-blue">wundermobility.com</p>
   </a>
   <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
   </button>
-  <div class="collapse navbar-collapse">
-    <p class="text-link text-blue">Get the latest information about COVID-19 from the World Health Organization <a href=""></a></p>
+  {% comment %}
+  <div class="col-md-2 language-select order-md-2">
+    <div class="btn-group dropup">
+      <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <ion-icon name="ios-globe" class="inline-icon"></ion-icon>
+        {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
+        <span>{{ currentLang.label }}</span>
+      </a>
+      <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
+      {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
+      {% for sitelang in site.data.global.languages %}
+        {% for post in posts %}
+          {% if post.lang == sitelang.code %}
+            {% assign langlink = post.url %}
+          {% endif %}
+        {% endfor %}
+        {% unless langlink %}
+          {% assign langlink = sitelang.code %}
+          {% if langlink == 'en' %}{% assign langlink = '' %}{% endif %}
+        {% endunless %}
+        {% if sitelang.code == 'es' %}
+          {% unless langlink contains 'fleet' or langlink contains 'rent' %}
+           {% break %}
+          {% endunless %}
+        {% endif %}
+        <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
+        <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>
+        {% assign langlink = false %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endcomment %}
+  <div class="collapse navbar-collapse justify-content-center">
+    <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="text-blue">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
   </div>
 </nav>
 
@@ -22,7 +55,26 @@ LIST
 
 FORM
 
-FOOTER
-
+<footer class="footer">
+  <div class="footer__bottom">
+    <div class="row">
+      <div class="col-md-6 order-3 order-md-1">
+        <ul class="legal-links">
+          <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+          {% for menu_item in site.menus.footerbottom %}
+            <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4 order-2 order-md-3">
+        <ul class="footer__socialmedia d-flex justify-content-md-end my-4 my-md-0 mt-md-2">
+          <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+          <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 {% include footer.html %}

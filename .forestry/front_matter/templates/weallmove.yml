@@ -48,20 +48,22 @@ fields:
       options: []
       source:
         type: documents
-        section: 
+        section:
         file: pages/weallmove.md
-        path: 
+        path:
     label: Need this helps with
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: All Services
   description: List all the possible services operators can offer
 - name: all_needs
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
   label: All Needs
+pages:
+- _data/weallmove.yml
