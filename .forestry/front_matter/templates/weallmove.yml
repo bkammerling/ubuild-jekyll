@@ -15,6 +15,16 @@ fields:
   - type: file
     name: logo
     label: Logo
+  - name: areas_of_operation
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Areas of operation
+    description: Formatted list of countries and cities (in country alphabetical order)
   - name: service_1
     type: select
     default: []
