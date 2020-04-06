@@ -5,6 +5,15 @@ all_needs:
 - Alternative commuting options
 - Access to vehicles for takeaway delivery
 operators:
+- name: Scooty
+  url: https://scootysharing.be/
+  logo: "/uploads/2020/04/06/Scooty.png"
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: Get an extra month free when purchasing a credit package
+  service_3: expansion of area to hospitals
+  service_3_notes: ''
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/Miles.png"
