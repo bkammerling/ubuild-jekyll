@@ -3,7 +3,11 @@ all_needs:
 - Commute solutions for healthcare workers
 - Alternative commuting options
 - Access to vehicles for takeaway delivery
-operators: []
+operators:
+- name: Miles
+  url: https://miles-mobility.com/
+  logo: "/uploads/2020/04/06/Miles.png"
+hero_logo_names: []
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
