@@ -5,15 +5,21 @@ body.weallmove {
 .weallmove-card {
   margin: 40px 0;
   border-radius: 30px;
+  padding-bottom: 40px;
+  @include rwd(desktop-up) {
+    padding-bottom: 0;
+  }
 
   &__col {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    @include rwd(tablet-up) {
+    margin: 15px 36px;
+    @include rwd(desktop-up) {
+      margin: 0;
       padding-top: 50px;
       padding-bottom: 50px;
     }
     &:first-child {
+      margin: 0;
+      padding-bottom: 30px;
       @include rwd(desktop-up) {
         border-bottom: none;
         border-right: 1px solid $black80;
@@ -22,10 +28,10 @@ body.weallmove {
   }
 
   &__logo {
-    padding-bottom: 20px;
     border-bottom: 1px solid $black80;
     width: 100%;
     img {
+      display: block;
       max-width: 200px;
       margin: 0 auto;
       @include rwd(desktop-up) {
@@ -41,9 +47,10 @@ body.weallmove {
   }
 
   &__offers {
-    margin-left: 30px;
-    padding-right: 15px;
-
+    @include rwd(desktop-up) {
+      margin-left: 30px;
+      padding-right: 15px;
+    }
     li {
       margin-bottom: 10px;
     }

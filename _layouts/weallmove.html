@@ -149,32 +149,38 @@
             <ul class="list-unstyled">
               {% if company.service_1.size > 0 %}
               {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
-                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service.need_this_helps_with }}</strong>
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service.need_this_helps_with }}</strong>
                   <br>{% if company.service_1_notes.size > 0 %}
                       {{ company.service_1_notes }}
                     {% else %}
                       {{ service.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
+                  </p>
                 </li>
               {% endif %}
               {% if company.service_2.size > 0 %}
               {% assign service2 = site.data.weallmove.services_detail | where: 'service_name', company.service_2 | first %}
-                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service2.need_this_helps_with }}</strong>
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service2.need_this_helps_with }}</strong>
                   <br>{% if company.service_2_notes.size > 0 %}
                       {{ company.service_2_notes }}
                     {% else %}
                       {{ service2.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
+                  </p>
                 </li>
               {% endif %}
               {% if company.service_3.size > 0 %}
               {% assign service3 = site.data.weallmove.services_detail | where: 'service_name', company.service_3 | first %}
-                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service3.need_this_helps_with }}</strong>
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service3.need_this_helps_with }}</strong>
                   <br>{% if company.service_3_notes.size > 0 %}
                       {{ company.service_3_notes }}
                     {% else %}
                       {{ service3.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
+                  </p>
                 </li>
               {% endif %}
             </ul>
@@ -199,8 +205,24 @@
   </div>
 </section>
 
+<section id="provider-cta" class="pt-5">
+  <div class="container">
+    <div class="jumbotron text-center mx-5">
+      <h3 class="headline-large mt-4">Are you a mobility provider looking to move your community forward?</h3>
+      <button class="btn btn-primary mt-3 mb-4">Let us know</button>
+    </div>
+  </div>
+</section>
 
-   ---------- FORM
+<section id="weallmove-form" class="my-5 py-5">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="headline-medium px-lg-5">If you’re unable to find a solution that fits your needs, we can find one together.</h3>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="footer">
   <div class="footer__bottom">
