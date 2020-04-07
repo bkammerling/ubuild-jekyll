@@ -22,7 +22,7 @@ sticky: false
 hidden: false
 
 ---
-_Lesen Sie den Artikel auf Deutsch._
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://wundermobility.com/blog/gemeinsam-bewegen-wie-die-mobilitätsindustrie-gemeinsam-gegen-covid-19-kämpft "Gemeinsam bewegen")_._
 
 Just a few months ago, European society would never have guessed that the Coronavirus sweeping through the city of Wuhan, China would one day very soon find its way to Europe and then eventually to the United States, becoming a global pandemic of a catastrophic scale. The discovery of a deadly virus has thrown the world, understandably, into a state of panic and confusion. The exponential spread of COVID-19 is not only a disaster from a health perspective: putting life on pause will have long-lasting effects on the economy, probably even long after many of us are healthy again.
 
