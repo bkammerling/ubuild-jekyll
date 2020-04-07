@@ -14,8 +14,7 @@ body.weallmove {
       padding-bottom: 50px;
     }
     &:first-child {
-      border-bottom: 1px solid $black80;
-      @include rwd(tablet-up) {
+      @include rwd(desktop-up) {
         border-bottom: none;
         border-right: 1px solid $black80;
       }
@@ -24,7 +23,17 @@ body.weallmove {
 
   &__logo {
     padding-bottom: 20px;
-    @include rwd(tablet-up) {
+    border-bottom: 1px solid $black80;
+    width: 100%;
+    img {
+      max-width: 200px;
+      margin: 0 auto;
+      @include rwd(desktop-up) {
+        max-width: 100%;
+      }
+    }
+    @include rwd(desktop-up) {
+      border-bottom: none;
       padding-bottom: 0;
       padding-right: 20px;
       padding-left: 36px;
@@ -41,6 +50,25 @@ body.weallmove {
   }
 
 
+  transition: all 0.6s;
+  opacity: 1;
+
+  &.card-hidden {
+    display: none;
+    opacity: 0;
+    margin: 0;
+  }
+
+
+}
+
+.filter-form {
+  max-width: 400px;
+  margin: 0 auto;
+  @include rwd(tablet-up) {
+    max-width: none;
+  }
+
   .form-group {
     @include rwd(tablet-up) {
       margin-bottom: 0;
@@ -49,12 +77,22 @@ body.weallmove {
 
 }
 
+.noshow-feedback {
+  transition: opacity .4s;
+  display: block;
+  opacity: 1;
+  &.hide {
+    opacity: 0;
+    display: none;
+  }
+}
 
 .select2-container--default {
 
   .select2-selection--single {
     height: 32px;
     border-color: $white;
+    text-align: left;
   }
 
   .select2-selection--single .select2-selection__placeholder, .select2-selection__rendered {

@@ -48,7 +48,7 @@
 </nav>
 
 <section id="weallmove-intro">
-  <div class="container mt-5">
+  <div class="container my-5">
     <h1 class="headline-large text-center">#WeAllMove</h1>
     <div class="row">
       <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -71,6 +71,9 @@
 </section>
 
 
+{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" %}
+{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: " " | split: " "  %}
+
 <section class="weallmove-filters fullscreen-bg bg-blue py-5">
   <div class="container text-center my-5">
     <div class="row">
@@ -78,39 +81,45 @@
         <h2 class="headline-large mb-5">Find an operator</h2>
         <p class="px-5 mb-5 text-center">We’ve created this tool to help you find mobility solutions for your specific needs. Whether you’re a hospital hoping to provide safe commuting options for your medical workers or a delivery service in need of more vehicles, we want to help. The tool is open to anyone who needs assistance. If you find a suitable solution here, get in touch with us and we'll connect you to that operator.</p>
 
-        <div class="row">
-          <div class="col-md-2">
-            <p class="text-link text-light">Filter by</p>
-          </div>
-          <div class="col-md-3">
-            <div class="form-group">
-              <select name="country" class="form-control we-select2 text-left" id="countrySelect" data-placeholder="Country">
-                <option></option>
-                <option>Austria</option>
-                <option>Germany</option>
-              </select>
+        <div class="px-sm-5 px-md-0 filter-form">
+          <div class="row">
+            <div class="col-lg-2">
+              <p class="text-link text-light">Filter by</p>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="form-group">
-              <select name="city" class="form-control we-select2 text-left" id="citySelect" data-placeholder="City">
-                <option></option>
-                <option>Austria</option>
-                <option>Germany</option>
-              </select>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
+                  <option></option>
+                  {% for country in countries %}
+                    <option>{{ country }}</option>
+                  {% endfor %}
+                </select>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="form-group">
-              <select name="need" class="form-control we-select2 text-left" id="needSelect" data-placeholder="Need">
-                <option></option>
-                <option>Austria</option>
-                <option>Germany</option>
-              </select>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
+                  <option></option>
+                  {% for city in cities %}
+                    <option>{{ city }}</option>
+                  {% endfor %}
+                </select>
+              </div>
             </div>
-          </div>
-
+            <div class="col-md-4 col-lg-4">
+              <div class="form-group">
+                <select name="need" class="form-control we-select2" id="needSelect" data-placeholder="Need">
+                  <option></option>
+                  <option disabled><strong>What are you looking for?</strong></option>
+                  {% for need in site.data.weallmove.all_needs %}
+                    <option>{{ need }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -120,15 +129,21 @@
 <section class="weallmove-list my-5">
   <div class="container">
 
+    <p class="showing-notice">Currently showing <span class="current-showing">{{ operators.size }}</span> out of <span class="total-showing">{{ operators.size }}</span> mobility operators.</p>
+    <div class="noshow-feedback hide">
+      <h4 class="headline-small">Shoot, looks like we haven't found an operator that suits your needs.</h4>
+
+    </div>
+
     {% for company in operators %}
     <div class="weallmove-card w-shadow">
       <div class="row">
-        <div class="col-md-2 weallmove-card__col">
+        <div class="col-lg-2 weallmove-card__col">
           <div class="weallmove-card__logo">
             <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
           </div>
         </div>
-        <div class="col-md-4 weallmove-card__col">
+        <div class="col-lg-4 weallmove-card__col">
           <div class="weallmove-card__offers">
             <h4 class="headline-small">Offers</h4>
             <ul class="list-unstyled">
@@ -165,13 +180,15 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-3 weallmove-card__col">
+        <div class="col-lg-3 weallmove-card__col">
           <div class="weallmove-card__locations">
             <h4 class="headline-small">Areas of operation</h4>
-            <p>{{ company.areas_of_operation }}</p>
+            {% for country in company.countries %}
+              <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
+            {% endfor %}
           </div>
         </div>
-        <div class="col-md-3 weallmove-card__col">
+        <div class="col-lg-3 weallmove-card__col">
           <button class="btn btn-primary mb-3">Get in touch</button>
           <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>

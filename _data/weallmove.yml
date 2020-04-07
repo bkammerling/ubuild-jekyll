@@ -7,35 +7,183 @@ all_needs:
 operators:
 - name: Scooty
   url: https://scootysharing.be/
-  logo: "/uploads/2020/04/06/Scooty.png"
+  logo: '/uploads/2020/04/06/scooty.png'
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
-  service_2_notes: Get an extra month free when purchasing a credit package
+  service_2_notes: ''
   service_3: expansion of area to hospitals
   service_3_notes: ''
-  areas_of_operation: "<strong>Belgium<br></strong>Antwerp · Brussels<br><br><strong>Portugal<br></strong>Lisbon
-    · Porto<br><br><strong>Switzerland<br></strong>Zurich · Lucerne"
   countries:
   - name: Belgium
     cities:
-    - Antwerp
     - Brussels
+    - Antwerpen
 - name: Miles
   url: https://miles-mobility.com/
-  logo: "/uploads/2020/04/06/Miles.png"
+  logo: '/uploads/2020/04/06/miles.png'
   service_1: discounted rides
   service_1_notes: ''
   service_2: expansion of area to hospitals
   service_2_notes: ''
   service_3: in-app icon for recently-sanitised vehicle
   service_3_notes: ''
-  areas_of_operation: "<strong>Germany<br></strong>Berlin · Hamburg<br><br><strong>France<br></strong>Paris"
   countries:
   - name: Germany
     cities:
     - Berlin
     - Hamburg
+- name: Felyx
+  url: https://felyx.nl/
+  logo: '/uploads/2020/04/06/felyx.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Netherlands
+    cities:
+    - Amsterdam
+    - Rotterdam
+    - Den Haag
+    - Brussels
+- name: Green Mobility
+  url: https://greenmobility.com/dk/en/
+  logo: '/uploads/2020/04/06/green_mobility.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Denmark
+    cities:
+    - Copenhagen
+    - Oslo
+    - Arhus
+- name: Rhingo
+  url: https://www.rhingo.de/
+  logo: '/uploads/2020/04/06/rhingo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Cologne
+- name: Stella
+  url: https://www.stella-sharing.de/
+  logo: '/uploads/2020/04/06/stella.png'
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Stuttgart
+- name: evo-sharing
+  url: https://www.evo-sharing.ruhr/
+  logo: '/uploads/2020/04/06/evo_sharing.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Oberhausen
+- name: Emmy
+  url: https://emmy-sharing.de/
+  logo: '/uploads/2020/04/06/emmy.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Hamburg
+    - Munich
+    - Berlin
+    - Dusseldorf
+- name: Wave Mobility
+  url:
+  logo: '/uploads/2020/04/06/wave_mobility.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Regensburg
+- name: deins&meins
+  url: https://www.deinsundmeins-gt.de/e-carsharing/
+  logo: '/uploads/2020/04/06/deins_and_meins.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Gütersloh
+- name: Hive
+  url: https://www.ridehive.com/
+  logo: '/uploads/2020/04/06/hive.png'
+  service_1: groceries delivery for risk groups
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Portugal
+    cities:
+    - Lisbon
+- name: evhcl
+  url: https://evhcle.com/
+  logo: '/uploads/2020/04/06/evhcle.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Munich
+- name: Eloop
+  url: https://eloop.at/en/
+  logo: '/uploads/2020/04/06/eloop.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Austria
+    cities:
+    - Vienna
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
