@@ -19,7 +19,7 @@ excerpt: Players from all across the mobility spectrum have started to come up w
   creative solutions for combating COVID-19.
 share_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://wundermobility.com/blog/gemeinsam-bewegen-wie-die-mobilitatsindustrie-gemeinsam-gegen-covid-19-kampft "Gemeinsam bewegen")_._
