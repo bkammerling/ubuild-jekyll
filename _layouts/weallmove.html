@@ -71,8 +71,8 @@
 </section>
 
 
-{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" %}
-{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: " " | split: " "  %}
+{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: " " | split: " " | uniq  %}
 
 <section class="weallmove-filters fullscreen-bg bg-blue py-5">
   <div class="container text-center my-5">
