@@ -15,8 +15,8 @@ cta_link: pages/blog.md
 title: 'Moving As One: How the Mobility Industry is Fighting COVID-19 Collectively'
 publish_date: 2020-04-07 11:00:00 +0000
 featured_image: ''
-excerpt: Many players from all across the mobility spectrum have started to come up
-  with creative solutions for combating COVID-19.
+excerpt: Players from all across the mobility spectrum have started to come up with
+  creative solutions for combating COVID-19.
 share_image: ''
 sticky: false
 hidden: false
