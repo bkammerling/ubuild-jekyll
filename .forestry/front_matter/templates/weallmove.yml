@@ -25,6 +25,29 @@ fields:
         format: html
     label: Areas of operation
     description: Formatted list of countries and cities (in country alphabetical order)
+  - name: countries
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+      description: Name of country
+    - name: cities
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Cities
+      description: List of cities for this country
+    config:
+      min: 
+      max: 
+      labelField: name
+    label: Countries
+    description: List of countries and their cities
   - name: service_1
     type: select
     default: []
@@ -91,29 +114,6 @@ fields:
       schema:
         format: markdown
     label: Service 3 Notes
-  - name: countries
-    type: field_group_list
-    fields:
-    - name: name
-      type: text
-      config:
-        required: false
-      label: Name
-      description: Name of country
-    - name: cities
-      type: list
-      config:
-        use_select: false
-        min: 
-        max: 
-      label: Cities
-      description: List of cities for this country
-    config:
-      min: 
-      max: 
-      labelField: name
-    label: Countries
-    description: List of countries and their cities
   config:
     labelField: name
 - name: all_services
