@@ -20,7 +20,7 @@ excerpt: Viele Akteure aus dem gesamten Mobilitätsspektrum haben begonnen, krea
   Lösungen zur Bekämpfung von COVID-19 zu entwickeln.
 share_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in English._
