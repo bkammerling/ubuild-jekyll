@@ -14,7 +14,7 @@ operators:
   service_2_notes: Get an extra month free when purchasing a credit package
   service_3: expansion of area to hospitals
   service_3_notes: ''
-  areas_of_operation: ''
+  areas_of_operation: "<strong>Belgium<br></strong>Antwerp · Brussels<br><br><strong>Portugal<br></strong>Lisbon · Porto<br><br><strong>Switzerland<br></strong>Zurich · Lucerne"
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/Miles.png"
@@ -24,7 +24,7 @@ operators:
   service_2_notes: ''
   service_3: in-app icon for recently-sanitised vehicle
   service_3_notes: ''
-  areas_of_operation: "<strong>Germany<br></strong>Berlin · Hamburg"
+  areas_of_operation: "<strong>Germany<br></strong>Berlin · Hamburg<br><br><strong>France<br></strong>Paris"
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides

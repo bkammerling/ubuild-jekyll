@@ -34,7 +34,44 @@ body.weallmove {
   &__offers {
     margin-left: 30px;
     padding-right: 15px;
+
+    li {
+      margin-bottom: 10px;
+    }
   }
 
 
+  .form-group {
+    @include rwd(tablet-up) {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+
+.select2-container--default {
+
+  .select2-selection--single {
+    height: 32px;
+    border-color: $white;
+  }
+
+  .select2-selection--single .select2-selection__placeholder, .select2-selection__rendered {
+    color: $mobility-black;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .select2-results__option {
+    font-size: 14px;
+  }
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $black96;
+    color: $mobility-black;
+  }
+
+}
+
+.select2-container {
+  width: 100% !important;
 }

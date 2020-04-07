@@ -1,7 +1,7 @@
 {% include head.html %}
 
 <nav class="navbar justify-content-between navbar-expand-md px-4">
-  <a class="navbar-brand" href="https://www.wundermobility.com/">
+  <a class="navbar-brand" href="https://www.wundermobility.com/" target="_blank">
     <p class="text-link text-blue">wundermobility.com</p>
   </a>
   <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
@@ -43,7 +43,7 @@
   </div>
   {% endcomment %}
   <div class="collapse navbar-collapse justify-content-center">
-    <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="text-blue">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+    <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
   </div>
 </nav>
 
@@ -71,7 +71,49 @@
 </section>
 
 
-   ---------- FILTERS
+<section class="weallmove-filters fullscreen-bg bg-blue py-5">
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="headline-large mb-5">Find an operator</h2>
+        <p class="px-5 mb-5 text-center">We’ve created this tool to help you find mobility solutions for your specific needs. Whether you’re a hospital hoping to provide safe commuting options for your medical workers or a delivery service in need of more vehicles, we want to help. The tool is open to anyone who needs assistance. If you find a suitable solution here, get in touch with us and we'll connect you to that operator.</p>
+
+        <div class="row">
+          <div class="col-md-2">
+            <p class="text-link text-light">Filter by</p>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <select name="country" class="form-control we-select2 text-left" id="countrySelect" data-placeholder="Country">
+                <option></option>
+                <option>Austria</option>
+                <option>Germany</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <select name="city" class="form-control we-select2 text-left" id="citySelect" data-placeholder="City">
+                <option></option>
+                <option>Austria</option>
+                <option>Germany</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <select name="need" class="form-control we-select2 text-left" id="needSelect" data-placeholder="Need">
+                <option></option>
+                <option>Austria</option>
+                <option>Germany</option>
+              </select>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 
 {% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
@@ -92,8 +134,32 @@
             <ul class="list-unstyled">
               {% if company.service_1.size > 0 %}
               {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
-                <li><strong>{{ service.need_this_helps_with }}</strong>
-                  <br>{{ service.service_description | replace: '__company_name__', company.name }}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service.need_this_helps_with }}</strong>
+                  <br>{% if company.service_1_notes.size > 0 %}
+                      {{ company.service_1_notes }}
+                    {% else %}
+                      {{ service.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                </li>
+              {% endif %}
+              {% if company.service_2.size > 0 %}
+              {% assign service2 = site.data.weallmove.services_detail | where: 'service_name', company.service_2 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service2.need_this_helps_with }}</strong>
+                  <br>{% if company.service_2_notes.size > 0 %}
+                      {{ company.service_2_notes }}
+                    {% else %}
+                      {{ service2.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                </li>
+              {% endif %}
+              {% if company.service_3.size > 0 %}
+              {% assign service3 = site.data.weallmove.services_detail | where: 'service_name', company.service_3 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}"><strong>{{ service3.need_this_helps_with }}</strong>
+                  <br>{% if company.service_3_notes.size > 0 %}
+                      {{ company.service_3_notes }}
+                    {% else %}
+                      {{ service3.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
                 </li>
               {% endif %}
             </ul>
@@ -102,15 +168,12 @@
         <div class="col-md-3 weallmove-card__col">
           <div class="weallmove-card__locations">
             <h4 class="headline-small">Areas of operation</h4>
-            <ul class="list-unstyled">
-              <li class="country"><strong>Germany</strong></li>
-              <li class="cities">Berling · Bremen · Hamburg</li>
-            </ul>
+            <p>{{ company.areas_of_operation }}</p>
           </div>
         </div>
         <div class="col-md-3 weallmove-card__col">
           <button class="btn btn-primary mb-3">Get in touch</button>
-          <p><a href="{{ company.url }}" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
       </div>
     </div>
