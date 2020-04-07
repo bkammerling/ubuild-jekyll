@@ -14,10 +14,10 @@ cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/blog.md
 title: 'Moving As One: How the Mobility Industry is Fighting COVID-19 Collectively'
 publish_date: 2020-04-07 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 excerpt: Players from all across the mobility spectrum have started to come up with
   creative solutions for combating COVID-19.
-share_image: ''
+share_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 sticky: false
 hidden: false
 
@@ -25,6 +25,8 @@ hidden: false
 _Lesen Sie den Artikel auf Deutsch._
 
 Just a few months ago, European society would never have guessed that the Coronavirus sweeping through the city of Wuhan, China would one day very soon find its way to Europe and then eventually to the United States, becoming a global pandemic of a catastrophic scale. The discovery of a deadly virus has thrown the world, understandably, into a state of panic and confusion. The exponential spread of COVID-19 is not only a disaster from a health perspective: putting life on pause will have long-lasting effects on the economy, probably even long after many of us are healthy again.
+
+![](/uploads/2020/04/07/MovingAsOne_body.jpg)_Bicycles are a safe way of getting around town in the era of social distancing._
 
 Mobility has been hit particularly hard by the crisis, for the simple reason that millions of people around the world have been asked to follow national guidelines (with varying degrees of severity) and stay home. The industry as a whole is being forced to ask existential questions: how can we, the “movers”, help a stationary world stay safe?
 
