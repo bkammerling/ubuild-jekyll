@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/moving-as-one-how-the-mobility-industry-is-fighting-covid-19-collectively)_._
 
 Noch vor wenigen Monaten hätte die europäische Gesellschaft nie gedacht, dass das Coronavirus, welches ursprünglich die Stadt Wuhan in China heimsuchte, eines Tages seinen Weg nach Europa und dann schließlich in die Vereinigten Staaten finden und zu einer globalen Pandemie katastrophalen Ausmaßes werden würde. Die Entdeckung eines tödlichen Virus hat die Welt verständlicherweise in einen Zustand der Panik und Verwirrung gestürzt. Die exponentielle Ausbreitung von COVID-19 ist nicht nur aus gesundheitlicher Sicht eine Katastrophe: Das Leben auf Pause zu stellen, wird lang anhaltende Auswirkungen auf die Wirtschaft haben, wahrscheinlich sogar noch lange nachdem viele von uns wieder gesund sind.
 
