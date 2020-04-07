@@ -15,10 +15,10 @@ cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/blog.md
 title: 'Gemeinsam bewegen: Wie die Mobilitätsindustrie gemeinsam gegen COVID-19 kämpft'
 publish_date: 2020-04-07 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 excerpt: Viele Akteure aus dem gesamten Mobilitätsspektrum haben begonnen, kreative
   Lösungen zur Bekämpfung von COVID-19 zu entwickeln.
-share_image: ''
+share_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 sticky: false
 hidden: false
 
@@ -26,6 +26,8 @@ hidden: false
 _Read this article in English._
 
 Noch vor wenigen Monaten hätte die europäische Gesellschaft nie gedacht, dass das Coronavirus, welches ursprünglich die Stadt Wuhan in China heimsuchte, eines Tages seinen Weg nach Europa und dann schließlich in die Vereinigten Staaten finden und zu einer globalen Pandemie katastrophalen Ausmaßes werden würde. Die Entdeckung eines tödlichen Virus hat die Welt verständlicherweise in einen Zustand der Panik und Verwirrung gestürzt. Die exponentielle Ausbreitung von COVID-19 ist nicht nur aus gesundheitlicher Sicht eine Katastrophe: Das Leben auf Pause zu stellen, wird lang anhaltende Auswirkungen auf die Wirtschaft haben, wahrscheinlich sogar noch lange nachdem viele von uns wieder gesund sind.
+
+![](/uploads/2020/04/07/MovingAsOne_body.jpg)
 
 Die Mobilität wurde von der Krise besonders hart getroffen, und zwar aus dem einfachen Grund, dass Millionen von Menschen auf der ganzen Welt aufgefordert wurden, nationale Richtlinien (mit unterschiedlichen Schweregraden) zu befolgen, was bedeutet zu Hause zu bleiben. Die Branche als Ganzes ist gezwungen, existenzielle Fragen zu stellen: Wie können wir, die "Mover", einer stationären Welt helfen, sicher zu bleiben?
 
@@ -37,7 +39,7 @@ Außerdem sind die Fahrgastzahlen in den öffentlichen Verkehrsmitteln weitaus g
 
 Aber dies hat sich nicht bewahrheitet. Viele Akteure aus dem gesamten Mobilitätsspektrum haben begonnen, kreative Lösungen zur Bekämpfung von COVID-19 zu entwickeln. Während beispielsweise viele von uns zu Hause bleiben, haben andere Mitglieder unserer Gemeinschaft, die wesentliche Dienstleistungen erbringen - wie Mitarbeiter des Gesundheitswesens - der Außenwelt getrotzt, in dem sie täglich zu ihrem Arbeitsplatz pendeln. Das Problem ist, dass die Beschäftigten im Gesundheitswesen in vielen europäischen Großstädten keine öffentlichen Verkehrsmittel benutzen dürfen, weil sie tagsüber engen Kontakt zu kranken Patienten haben, was bedeutet, dass ihr Risiko der Verbreitung von Infektionen sehr hoch ist. In diesen speziellen Fällen bieten sich persönliche Mitfahrgelegenheiten als sichere Alternative zu öffentlichen Alternativen an.
 
-Die gefährlichen Pendlerströme der Beschäftigten im Gesundheitswesen halfen den Mobilitätsunternehmen, ein unerfülltes Bedürfnis zu identifizieren und eine Möglichkeit zu erkennen, ihren lokalen Gemeinden etwas zurückzugeben. Vor der Krise schlossen viele Betriebszonen von Mobilitätsunternehmen Krankenhäuser aus Sicherheits- und praktischen Gründen aus; jetzt haben dieselben Unternehmen ihre Zonen auf wichtige Einrichtungen ausgedehnt und bieten dem Gesundheitspersonal kostenlose oder ermäßigte Fahrten an, um ein sicheres und schnelles Pendeln zu gewährleisten. Sixt bietet Ärzten und Krankenschwestern in Berlin, Hamburg und München [Gutscheine im Wert von 100 €](https://www.onvista.de/news/sixt-ermoeglicht-aerzten-und-pflegepersonal-der-staedtischen-und-staatlichen-kliniken-kostenlosen-zugang-zu-carsharing-fahrzeugen-340085539) an, die für etwa 10 Fahrten des Gesundheitspersonals zur Arbeit und zurück reichen sollten. Die schwedische Kickscooter-Sharing-Firma Voi platziert viele ihrer Fahrzeuge strategisch in die Nähe von Krankenhäusern, während sie die Kickscooters anderswo von der Straße nehmen. 
+Die gefährlichen Pendlerströme der Beschäftigten im Gesundheitswesen halfen den Mobilitätsunternehmen, ein unerfülltes Bedürfnis zu identifizieren und eine Möglichkeit zu erkennen, ihren lokalen Gemeinden etwas zurückzugeben. Vor der Krise schlossen viele Betriebszonen von Mobilitätsunternehmen Krankenhäuser aus Sicherheits- und praktischen Gründen aus; jetzt haben dieselben Unternehmen ihre Zonen auf wichtige Einrichtungen ausgedehnt und bieten dem Gesundheitspersonal kostenlose oder ermäßigte Fahrten an, um ein sicheres und schnelles Pendeln zu gewährleisten. Sixt bietet Ärzten und Krankenschwestern in Berlin, Hamburg und München [Gutscheine im Wert von 100 €](https://www.onvista.de/news/sixt-ermoeglicht-aerzten-und-pflegepersonal-der-staedtischen-und-staatlichen-kliniken-kostenlosen-zugang-zu-carsharing-fahrzeugen-340085539) an, die für etwa 10 Fahrten des Gesundheitspersonals zur Arbeit und zurück reichen sollten. Die schwedische Kickscooter-Sharing-Firma Voi platziert viele ihrer Fahrzeuge strategisch in die Nähe von Krankenhäusern, während sie die Kickscooters anderswo von der Straße nehmen.
 
 > Wenn Akteure aus dem gesamten Spektrum zusammenarbeiten, sind sie in der Lage, die Welt zu bewegen.
 
