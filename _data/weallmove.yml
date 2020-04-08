@@ -5,6 +5,34 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Tier
+  url: https://www.tier.app/
+  logo: "/uploads/2020/04/08/tier.png"
+  countries:
+  - name: Finland
+    cities:
+    - Turku
+    - Tampere
+    - Helsinki
+  - name: Germany
+    cities: []
+  - name: Norway
+    cities:
+    - Oslo
+  - name: Sweden
+    cities:
+    - Lund
+    - Malmö
+  - name: Switzerland
+    cities:
+    - Zürich
+    - Basel
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/08/voi.png"
