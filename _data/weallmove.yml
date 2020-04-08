@@ -243,7 +243,7 @@ operators:
   order: 
 - name: Frank-E
   url: https://www.frank-e-sharing.de/
-  logo: "/uploads/2020/04/06/frank_e.png"
+  logo: "/uploads/2020/04/06/franke_e.png"
   published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
@@ -603,7 +603,7 @@ operators:
 - name: Hyundai
   url: https://www.hyundai.de/
   logo: "/uploads/2020/04/06/hyundai.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
