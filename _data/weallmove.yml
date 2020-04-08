@@ -5,6 +5,22 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Highspeed service
+  url: https://www.highspeedservice.ch/
+  logo: ''
+  published: true
+  order: -1
+  countries:
+  - name: Switzerland
+    cities:
+    - Basel
+    - Zürich
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Citybee
   url: https://www.citybee.lt/
   logo: "/uploads/2020/04/08/city_bee (1).png"
