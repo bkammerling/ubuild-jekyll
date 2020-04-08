@@ -13,13 +13,13 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/blog.md
 title: 'Moving As One: How the Mobility Industry is Fighting COVID-19 Collectively'
-publish_date: 2020-04-07 11:00:00 +0000
+publish_date: 2020-04-07T11:00:00.000+00:00
 featured_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 excerpt: Players from all across the mobility spectrum have started to come up with
   creative solutions for combating COVID-19.
 share_image: "/uploads/2020/04/07/MovingAsOne_Bernstein.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://wundermobility.com/blog/gemeinsam-bewegen-wie-die-mobilitätsindustrie-gemeinsam-gegen-covid-19-kämpft)_._
