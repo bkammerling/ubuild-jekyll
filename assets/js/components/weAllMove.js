@@ -6,6 +6,13 @@ var filterObj = {
 
 $(document).ready(function() {
 
+  cityArray.unshift({id: "", text: ""});
+  countryArray.unshift({id: "", text: ""});
+  for (let [key, value] of Object.entries(countryObject)) {
+    countryObject[key].unshift({id: "", text: ""});
+  };
+  console.log(countryObject);
+
   $("#citySelect").select2({
     allowClear: true,
     minimumResultsForSearch: 15,
@@ -28,8 +35,7 @@ $(document).ready(function() {
     filterObj[e.target.name] = e.target.value;
     filterList();
 
-    console.log(countryObject[e.target.value]);
-    if(e.target.name == 'country' && e.target.value) {
+    if(e.target.name == 'country' && e.target.value && !$("#citySelect").val()) {
       $("#citySelect").select2('destroy').empty().select2({
         data: countryObject[e.target.value],
         allowClear: true,
@@ -43,6 +49,22 @@ $(document).ready(function() {
         minimumResultsForSearch: 15,
         placeholder: "City"
       });
+    }
+
+    if(e.target.name == 'city' && e.target.value) {
+      var countryToSelect;
+      for (let [key, value] of Object.entries(countryObject)) {
+        console.log(key, value);
+        var result = value.filter(item => {
+          return item.text == e.target.value
+        })
+        if(result.length >= 1) countryToSelect = key;
+      }
+      console.log(countryToSelect);
+      $("#countrySelect").val(countryToSelect);
+      $("#countrySelect").trigger('change');
+    } else if(e.target.name == 'city' && !e.target.value) {
+      $("#countrySelect").val(null).trigger('change');
     }
 
   });
