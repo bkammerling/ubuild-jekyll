@@ -712,7 +712,7 @@ operators:
 - name: Poppy Mobility
   url: https://poppy.be/en/
   logo: "/uploads/2020/04/06/poppy.png"
-  published: true
+  published: false
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: support for healthcare workers and local authorities
@@ -728,7 +728,7 @@ operators:
 - name: Share Now
   url: https://www.share-now.com/de/en/care-now/
   logo: "/uploads/2020/04/06/sharenow.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -778,7 +778,7 @@ operators:
 - name: Sixt
   url: https://www.sixt.com/
   logo: "/uploads/2020/04/06/sixt.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -795,7 +795,7 @@ operators:
 - name: Spin
   url: https://www.spin.app/
   logo: "/uploads/2020/04/06/spin.png"
-  published: true
+  published: false
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -818,7 +818,7 @@ operators:
 - name: Swiftmile
   url: https://swiftmile.com/
   logo: "/uploads/2020/04/06/swiftmile.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -833,7 +833,7 @@ operators:
 - name: Uber
   url: https://www.uber.com/de/en/
   logo: "/uploads/2020/04/06/uber.png"
-  published: true
+  published: false
   service_1: discounted rides
   service_1_notes: ''
   service_2: alternative commuting options
@@ -851,7 +851,7 @@ operators:
 - name: WeShare Deutschland
   url: https://www.we-share.io/en/
   logo: "/uploads/2020/04/06/we_share.png"
-  published: true
+  published: false
   service_1: expansion of area to hospitals
   service_1_notes: ''
   service_2: discounted rides
@@ -866,7 +866,7 @@ operators:
 - name: Wheels
   url: https://www.takewheels.com/
   logo: "/uploads/2020/04/06/wheels.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -881,7 +881,7 @@ operators:
 - name: Wible
   url: https://www.wible.es/
   logo: "/uploads/2020/04/06/wible.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -896,7 +896,7 @@ operators:
 - name: Zity
   url: https://zity.eco/
   logo: "/uploads/2020/04/06/zity.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: expansion of area to hospitals
@@ -914,7 +914,7 @@ operators:
 - name: Zoov
   url: https://zoov.typeform.com/to/oCGJAs
   logo: "/uploads/2020/04/06/zoov.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
