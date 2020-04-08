@@ -5,6 +5,21 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Hertz
+  url: https://www.hertz.de/
+  logo: "/uploads/2020/04/08/hertz.png"
+  published: true
+  order: 0
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: support for healthcare workers and local authorities
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Scooty
   url: https://scootysharing.be/
   logo: "/uploads/2020/04/06/scooty.png"
