@@ -45,7 +45,7 @@ operators:
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
   published: true
-  order: -3
+  order: 
   countries:
   - name: Switzerland
     cities:
