@@ -27,8 +27,8 @@ https://www.wunder.org/* https://www.wundermobility.com/:splat 301!
 
 https://weallmove.co/* /weallmove/:splat 200!
 http://weallmove.co/* /weallmove/:splat 200!
-https://weallmove.co/wam-de /weallmove-de 200!
-http://weallmove.co/wam-de /weallmove-de 200!
+https://weallmove.co/de /weallmove/de 200!
+http://weallmove.co/de /weallmove/de 200!
 
 https://scooter.wunder.org/* https://www.wundermobility.com/fleet/ 301
 https://shuttle.wunder.org/ https://www.wundermobility.com/shuttle/ 301
