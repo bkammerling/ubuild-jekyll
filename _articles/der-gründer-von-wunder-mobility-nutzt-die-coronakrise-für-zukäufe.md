@@ -5,6 +5,5 @@ date: 2020-03-27 06:55:34 +0000
 lang: German
 image: "/uploads/2019/08/21/handelsblattlogo2.png"
 featured: false
-published: false
 
 ---

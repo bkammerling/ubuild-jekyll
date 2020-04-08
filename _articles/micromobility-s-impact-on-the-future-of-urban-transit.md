@@ -5,6 +5,5 @@ date: 2020-03-18 23:00:00 +0000
 lang: English
 image: "/uploads/2020/04/08/FreightWaves_logo.png"
 featured: false
-published: false
 
 ---
