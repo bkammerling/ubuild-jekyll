@@ -1,0 +1,411 @@
+{% include head.html %}
+
+<nav class="px-4 py-3 mb-5">
+  <div class="row align-items-center">
+    <div class="col-6 col-lg-2 mt-sm-1">
+      <a class="navbar-brand" href="https://www.wundermobility.com/" target="_blank">
+        <p class="text-link text-blue">wundermobility.com</p>
+      </a>
+    </div>
+    <div class="col-6 col-lg-2 text-right order-lg-3 language-select align-self-start">
+      <div class="dropdown">
+        <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <ion-icon name="globe-outline" class="inline-icon"></ion-icon>
+          {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
+          <span>{{ currentLang.label }}</span>
+        </a>
+        <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
+          <a href="https://weallmove.co/wam-de/" class="de dropdown-item" title="View in Deutsch">
+            <link rel="alternate" hreflang="de" href="https://weallmove.co/wam-de/" />
+            🇩🇪 Deutsch
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="covid-notice text-lg-center">
+      <div class="row">
+        <div class="col-9 col-lg-12">
+          <span class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline text-blue text-link">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></span>
+        </div>
+        <div class="col-3 d-lg-none">
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <ion-icon class="text-blue d-lg-none" name="open-outline"></ion-icon></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="weallmove-intro" class="mt-md-5 pt-3">
+  <div class="container my-5">
+    <div class="hero-anim text-center mb-2">
+      <img data-src="/uploads/global/weallmove-hero.svg" alt="#WeAllMove animated text" />
+    </div>
+    <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+        <h3 class="my-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">A movement to connect the world with mobility solutions during this time of crisis.</h3>
+        <br>
+        <hr class="mt-5 mb-0">
+        <div class="d-flex align-items-center justify-content-center">
+          <p class="text-link text-dark pr-sm-5">In Partnership with</p>
+          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.jpg" data-srcset="/uploads/global/wef-logo@2x.jpg 2x" alt="World Economic Forum text logo" />
+          <img data-src="/uploads/global/hamburg-logo.jpg" data-srcset="/uploads/global/hamburg-logo@2x.jpg 2x" alt="Hamburg city emblem and text" />
+        </div>
+        <hr class="mb-5 mt-0">
+        <div class="row mt-5 py-5">
+          <div class="col-md-6">
+            <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
+          </div>
+          <div class="col-md-6">
+            <p>As a mobility community, we can work towards making mobility services more widely available to these everyday heroes. We can help our world move forward, even in this time of uncertainty.
+              <br>
+              <br>
+              This is not a statement. It’s an invitation. Because if one of us moves, #WeAllMove
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
+{% assign operators = site.data.weallmove.operators %}
+
+<script type="text/javascript">
+  var countryObject = {};
+  {% for operator in operators %}
+  {% assign mainindex = forloop.index %}
+    {% for country in operator.countries %}
+      if(typeof countryObject['{{country.name}}'] === 'undefined') {
+        countryObject['{{country.name}}'] = [];
+      }
+      {% for city in country.cities %}
+        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  var countryArray = [];
+  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
+  var cityArray = [];
+  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
+</script>
+
+<section class="weallmove-filters fullscreen-bg bg-blue py-5">
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="headline-large mb-5">Find an operator</h2>
+        <p class="px-5 mb-5 text-center">We’ve created this tool to help you find mobility solutions for your specific needs. Whether you’re a hospital hoping to provide safe commuting options for your medical workers or a delivery service in need of more vehicles, we want to help. The tool is open to anyone who needs assistance. If you find a suitable solution here, get in touch with us and we'll connect you to that operator.</p>
+
+        <div class="px-sm-5 px-md-0 filter-form">
+          <div class="row">
+            <div class="col-lg-2">
+              <p class="text-link text-light">Filter by</p>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
+
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
+
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="form-group">
+                <select name="need" class="form-control we-select2" id="needSelect" data-placeholder="Need">
+                  <option></option>
+                  <option disabled><strong>What are you looking for?</strong></option>
+                  {% for need in site.data.weallmove.all_needs %}
+                    <option>{{ need }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+         </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+{% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
+<section class="weallmove-list my-5">
+  <div class="container">
+
+    <p class="showing-notice">Currently showing <span class="current-showing">{{ operators.size }}</span> out of <span class="total-showing">{{ operators.size }}</span> mobility operators.</p>
+    <div class="noshow-feedback hide">
+      <h4 class="headline-small">Shoot, looks like we haven't found an operator that suits your needs.</h4>
+
+    </div>
+
+    {% for company in operators %}
+    <div class="weallmove-card w-shadow">
+      <div class="row">
+        <div class="col-lg-2 weallmove-card__col">
+          <div class="weallmove-card__logo">
+            <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
+          </div>
+        </div>
+        <div class="col-lg-4 weallmove-card__col">
+          <div class="weallmove-card__offers">
+            <h4 class="headline-small">Offers</h4>
+            <ul class="list-unstyled">
+              {% if company.service_1.size > 0 %}
+              {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service.need_this_helps_with }}</strong>
+                  <br>{% if company.service_1_notes.size > 0 %}
+                      {{ company.service_1_notes }}
+                    {% else %}
+                      {{ service.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+              {% if company.service_2.size > 0 %}
+              {% assign service2 = site.data.weallmove.services_detail | where: 'service_name', company.service_2 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service2.need_this_helps_with }}</strong>
+                  <br>{% if company.service_2_notes.size > 0 %}
+                      {{ company.service_2_notes }}
+                    {% else %}
+                      {{ service2.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+              {% if company.service_3.size > 0 %}
+              {% assign service3 = site.data.weallmove.services_detail | where: 'service_name', company.service_3 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service3.need_this_helps_with }}</strong>
+                  <br>{% if company.service_3_notes.size > 0 %}
+                      {{ company.service_3_notes }}
+                    {% else %}
+                      {{ service3.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 weallmove-card__col">
+          <div class="weallmove-card__locations">
+            <h4 class="headline-small">Areas of operation</h4>
+            {% for country in company.countries %}
+              <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-lg-3 weallmove-card__col">
+          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Get in touch</button>
+          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+<section id="provider-cta" class="pt-5">
+  <div class="container">
+    <div class="jumbotron text-center mx-md-5">
+      <h3 class="headline-large mt-4">Are you a mobility provider looking to move your community forward?</h3>
+      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement" data-type="join-movement">Let us know</button>
+    </div>
+  </div>
+</section>
+
+<section id="weallmove-form" class="mt-5 mb-3 pt-5">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="headline-medium px-lg-5">If you’re unable to find a solution that fits your needs, we can find one together.</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block block-contact-form" id="section-contact">
+    <div class="contact-form__wrapper">
+      <div class="container">
+        <hr class="d-md-none">
+        <div class="boxed-form w-shadow">
+          <h2 class="headline-medium text-center mb-2">How can we help?</h2>
+          <p style="max-width: 500px" class="mx-auto mb-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
+          <p class="small-label mb-5 mt-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+          <div class="contact-form__form">
+            <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
+              <p class="hidden">
+                <input name="_gotcha">
+              </p>
+              <input type="hidden" name="subject" id="subject-field" value="Didn't find a suitable solution">
+              <input type="hidden" name="lang" id="site-lang" value="en">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Full name *</label>
+                    <input type="text" name="name" id="name" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="email">Your email *</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-label" for="company">Company Name *</label>
+                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Phone (incl. country code)</label>
+                    <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="headline-small text-center mt-4 mb-3">Tell us more about you</h3>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Please describe your needs in detail</label>
+                <textarea type="text" name="message" id="message"></textarea>
+                <div class="bottom-border"></div>
+              </div>
+
+              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+
+              <button id="form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
+                Send message
+              </button>
+              <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="interestedModal" tabindex="-1" role="dialog" aria-labelledby="Interested modal" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <h4 class="modal-title text-center headline-medium mb-2" id="formModalLabel">I'm interested</h4>
+      <div id="text-switchy">
+        <div class="need-operator">
+          <p class="mx-auto mb-0 mb-md-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
+          <p class="small-label mb-5 mt-0 mt-md-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+        </div>
+        <div class="join-movement hidden">
+          <p class="mb-5 mt-0 mt-md-1 text-center">Because if one of us moves, #WeAllMove</p>
+        </div>
+      </div>
+      <button type="button" class="close text-blue" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <form id="modal-form" class="ajaxForm contact-form__form" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
+        <div class="modal-body">
+          <input type="hidden" name="subject" id="modal_subject-field" value="I'm interested">
+          <input type="hidden" name="lang" id="modal_site-lang" value="en">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <label for="recipient-name" class="form-label">Full Name *</label>
+                  <input type="text" class="" id="modal_recipient-name" name="name" required />
+                  <div class="bottom-border"></div>
+                </div>
+                <div class="form-group mb-3 mb-md-0">
+                  <label for="email" class="form-label">Email *</label>
+                  <input type="email" class="" id="modal_email" name="email" required />
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <label for="recipient-company" class="form-label">Company name *</label>
+                  <input type="text" class="" id="modal_recipient-company" name="company" required />
+                  <div class="bottom-border"></div>
+                </div>
+                <div class="form-group mb-3 mb-md-0">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="text" class="" id="modal_phone" name="phone" />
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="message-text" class="form-label">Your message</label>
+              <textarea rows="3" class="" id="modal_message-text" name="message"></textarea>
+              <div class="bottom-border"></div>
+            </div>
+            <input type="hidden" id="modal_captchaResponse" name="g-recaptcha-response" />
+
+            <div class="row mt-4">
+              <div class="col-sm-5">
+                <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
+              </div>
+              <div class="col-sm-7 text-right">
+                <button id="modal_form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
+                  Send form
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="powered-by mb-5 text-center">
+    <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
+    <p class="small-label text-light mt-2">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
+  </div>
+  <div class="footer__bottom text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 order-3 order-md-1">
+        <ul class="legal-links">
+          {% comment %}<li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>{% endcomment %}
+          {% for menu_item in site.menus.footerbottom %}
+            <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6 order-2 order-md-3">
+        <ul class="footer__socialmedia d-flex justify-content-center justify-content-md-end my-4 my-md-0 mt-md-2">
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% include footer.html %}

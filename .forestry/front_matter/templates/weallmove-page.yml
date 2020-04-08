@@ -1,0 +1,38 @@
+---
+label: WeAllMove Page
+hide_body: true
+display_field: title
+fields:
+- type: text
+  label: Title
+  name: title
+- type: textarea
+  label: Description
+  name: description
+  description: Longer text (about 150 characters) for SEO and social shares
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: weallmove
+- type: text
+  label: Permalink
+  name: permalink
+  hidden: true
+- type: text
+  label: Language Reference
+  name: lang-ref
+  hidden: true
+- type: text
+  label: Language
+  name: lang
+  hidden: true
+  default: en
+- name: share_image
+  type: file
+  config:
+    maxSize: '1'
+  label: Share Image
+  description: The wide image that displays when this page is shared on social media
+pages:
+- pages/weallmove.md

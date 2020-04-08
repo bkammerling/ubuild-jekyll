@@ -4,13 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: _people
-  label: People
-  create: documents
-  match: "**/*"
-  templates:
-  - speaker
 - type: heading
   label: Content
 - type: directory
@@ -35,16 +28,26 @@ sections:
   - press-template
 - type: directory
   path: _autotech-events
-  label: AutoTech Events
+  label: Mobility Sessions
   create: documents
   match: "**/*"
   templates:
   - event-page
 - type: document
-  path: _data/data.yml
-  label: Wunder Data
+  path: _data/weallmove.yml
+  label: "#WeAllMove"
+- type: directory
+  path: _people
+  label: People
+  create: documents
+  match: "**/*"
+  templates:
+  - speaker
 - type: heading
   label: Settings
+- type: document
+  path: _data/data.yml
+  label: Wunder Data
 - type: document
   path: _data/global.yml
   label: Site Settings

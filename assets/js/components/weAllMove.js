@@ -22,11 +22,11 @@ var weallmoveForm = {
       return txtVal.toUpperCase();
     });
     data.name = capitalizedName;
-    data.referer = document.referrer;
+    data.referrer = document.referrer;
 
-    console.log(data);
-    $("#form-submit").attr("disabled", false);
-/*
+    //console.log(data);
+    //$("#form-submit").attr("disabled", false);
+
     $.ajax({
       url: postURL,
       method: "POST",
@@ -37,6 +37,7 @@ var weallmoveForm = {
       }
     }).done(function (response) {
       contactForm.find(".form-feedback").removeClass('hidden');
+      setTimeout(function(){ contactForm.find(".form-feedback").addClass('hidden'); }, 4000);
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
       $("#form-submit").attr("disabled", false);
@@ -45,7 +46,7 @@ var weallmoveForm = {
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
       $("#form-submit").attr("disabled", false);
     });
-*/
+
   },
 
   serializeObject: function($form){

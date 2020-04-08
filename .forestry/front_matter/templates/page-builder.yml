@@ -6,6 +6,10 @@ fields:
 - type: text
   label: Title
   name: title
+- type: textarea
+  label: Description
+  name: description
+  description: Longer text (about 150 characters) for SEO and social shares
 - type: text
   name: layout
   label: Layout
