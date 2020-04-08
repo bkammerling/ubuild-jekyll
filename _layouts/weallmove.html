@@ -384,7 +384,9 @@
 
 <footer class="footer">
   <div class="powered-by mb-5 text-center">
-    <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    <a href="https://wundermobility.com" target="_blank" title="View the Wunder Mobility homepage">
+      <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    </a>
     <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
     <p class="small-label text-light mt-2 pb-5">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
   </div>
@@ -394,7 +396,7 @@
         <ul class="legal-links">
           {% comment %}<li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>{% endcomment %}
           {% for menu_item in site.menus.footerbottom %}
-            <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+            <li><a target="_blank" class="small-label text-mute" href="https://www.wundermobility.com{{ menu_item.url }}">{{ menu_item.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
