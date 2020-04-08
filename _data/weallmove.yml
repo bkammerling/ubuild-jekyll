@@ -351,9 +351,9 @@ operators:
   service_3: extra vehicle sanitisation
   service_3_notes: ''
   countries:
-  - name: Sofia
+  - name: Bulgaria
     cities:
-    - Bulgaria
+    - Sofia
   order:
 - name: Aimo
   url: https://aimosolution.com/?lang=en

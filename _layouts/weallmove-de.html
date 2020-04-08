@@ -46,22 +46,22 @@
         <h3 class="my-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">Eine Bewegung, die unsere Welt mit Mobilitätslösungen verbindet.</h3>
         <br>
         <hr class="mt-5 mb-0">
-        <div class="d-flex align-items-center justify-content-center">
-          <p class="text-link text-dark pr-sm-5">In Partnerschaft mit</p>
-          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.png" data-srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" />
-          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/hertz-logo.png" data-srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" />
+        <div class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center">
+          <p class="text-link text-dark w-100 w-md-auto text-center text-md-left mt-2 mb-0 pr-md-1">In Partnerschaft mit</p>
+          <img class="mr-md-3" data-src="/uploads/global/wef-logo.png" data-srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" />
+          <img class="mr-md-3" data-src="/uploads/global/hertz-logo.png" data-srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" />
           <img data-src="/uploads/global/wam-allianz-logo.png" data-srcset="/uploads/global/wam-allianz-logo@2x.png 2x" alt="Allianz automotive blau logo" />
         </div>
         <hr class="mb-5 mt-0">
         <div class="row mt-5 py-5">
           <div class="col-md-6">
-            <p>Während einige von uns zu Hause bleiben, riskieren andere Gemeinschaftsmitglieder ihr Leben. Menschen im Gesundheitsdienst, Auslieferungsfahrer und Mitarbeiter im Lebensmittelgeschäften  verlassen jeden Tag die Sicherheit ihrer Häuser, um dafür zu sorgen, dass das Leben der Anderen in Bewegung bleibt.</p>
+            <p>Während einige von uns zu Hause bleiben, riskieren einige Mitglieder unserer Gesellschaft ihr Leben. Menschen im Gesundheitsdienst, Lieferdienstfahrer und Mitarbeiter in Lebensmittelgeschäften verlassen jeden Tag die Sicherheit ihrer Häuser, um dafür zu sorgen, dass das Leben der Anderen in Bewegung bleibt.</p>
           </div>
           <div class="col-md-6">
             <p>Als Mobilitätsgemeinschaft können wir daran arbeiten, dass diesen Alltagshelden Mobilitätsdienste in größerem Umfang zur Verfügung stehen. Wir können unserer Welt auch in Zeit der Ungewissheit helfen vorwärtszukommen.
               <br>
               <br>
-              Wir laden alle ein, sich an der Bewegung zu beteiligen. Schließt du dich uns an? #WeAllMove
+              Dies ist keine Mitteilung. Es ist eine Einladung. Denn wenn sich einer von uns bewegt, #WeAllMove
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@
 <section class="weallmove-list my-5">
   <div class="container">
 
-    <p class="showing-notice">Currently showing <span class="current-showing">{{ operators.size }}</span> out of <span class="total-showing">{{ operators.size }}</span> mobility operators.</p>
+    <p class="showing-notice"><span class="current-showing">{{ operators.size }}</span> von <span class="total-showing">{{ operators.size }}</span> Mobilitätsanbietern werden angezeigt.</p>
     <div class="noshow-feedback hide">
       <h4 class="headline-small">Shoot, looks like we haven't found an operator that suits your needs.</h4>
 
@@ -157,9 +157,9 @@
             <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
           </div>
         </div>
-        <div class="col-lg-4 weallmove-card__col">
+        <div class="col-lg-4 col-sm-6  weallmove-card__col">
           <div class="weallmove-card__offers">
-            <h4 class="headline-small">Offers</h4>
+            <h4 class="headline-small">Angebote</h4>
             <ul class="list-unstyled">
               {% if company.service_1.size > 0 %}
               {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
@@ -200,16 +200,16 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 weallmove-card__col">
+        <div class="col-lg-3 col-sm-6 weallmove-card__col">
           <div class="weallmove-card__locations">
-            <h4 class="headline-small">Areas of operation</h4>
+            <h4 class="headline-small">Betriebsbereiche</h4>
             {% for country in company.countries %}
               <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
             {% endfor %}
           </div>
         </div>
         <div class="col-lg-3 weallmove-card__col">
-          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Get in touch</button>
+          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Kontakt aufnehmen</button>
           <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
       </div>
@@ -222,8 +222,8 @@
 <section id="provider-cta" class="pt-5">
   <div class="container">
     <div class="jumbotron text-center mx-md-5">
-      <h3 class="headline-large mt-4">Are you a mobility provider looking to move your community forward?</h3>
-      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement" data-type="join-movement">Let us know</button>
+      <h3 class="headline-large mt-4">Du bist ein Mobilitätsanbieter, der seine Gemeinde voranbringen möchte?</h3>
+      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement" data-type="join-movement">Kontakt aufnehmen</button>
     </div>
   </div>
 </section>
@@ -232,7 +232,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <h3 class="headline-medium px-lg-5">If you’re unable to find a solution that fits your needs, we can find one together.</h3>
+        <h3 class="headline-medium px-lg-5">Wenn du alleine keine Lösung findest, die deinen Bedürfnissen entspricht, können wir gemeinsam eine finden.</h3>
       </div>
     </div>
   </div>
@@ -243,9 +243,9 @@
       <div class="container">
         <hr class="d-md-none">
         <div class="boxed-form w-shadow">
-          <h2 class="headline-medium text-center mb-2">How can we help?</h2>
-          <p style="max-width: 500px" class="mx-auto mb-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
-          <p class="small-label mb-5 mt-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+          <h2 class="headline-medium text-center mb-2">Wie können wir dir helfen?</h2>
+          <p style="max-width: 500px" class="mx-auto mb-1 text-center"><strong>Sende uns deine Details und wir setzen uns so schnell wie möglich mit dir in Verbindung.</strong></p>
+          <p class="small-label mb-5 mt-1 text-center">Ihre persönlichen Daten werden vom Mobilitätsanbieter nur verwendet, um mit Ihnen in Kontakt zu treten.</p>
           <div class="contact-form__form">
             <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
               <p class="hidden">
@@ -256,34 +256,34 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label class="form-label" for="name">Full name *</label>
+                    <label class="form-label" for="name">Vollständiger Name *</label>
                     <input type="text" name="name" id="name" required>
                     <div class="bottom-border"></div>
                   </div>
                   <div class="form-group">
-                    <label class="form-label" for="email">Your email *</label>
+                    <label class="form-label" for="email">Deine E-Mail Adresse *</label>
                     <input type="email" name="email" id="email" required>
                     <div class="bottom-border"></div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label class="form-label" for="company">Company Name *</label>
+                    <label class="form-label" for="company">Name des Unternehmens *</label>
                     <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
                     <div class="bottom-border"></div>
                   </div>
                   <div class="form-group">
-                    <label class="form-label" for="phone">Phone (incl. country code)</label>
+                    <label class="form-label" for="phone">Telefon (inkl. Landesvorwahl)</label>
                     <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
                     <div class="bottom-border"></div>
                   </div>
                 </div>
               </div>
 
-              <h3 class="headline-small text-center mt-4 mb-3">Tell us more about you</h3>
+              <h3 class="headline-small text-center mt-4 mb-3">Erzähl uns über dir</h3>
 
               <div class="form-group">
-                <label class="form-label" for="message">Please describe your needs in detail</label>
+                <label class="form-label" for="message">Deine Nachricht</label>
                 <textarea type="text" name="message" id="message"></textarea>
                 <div class="bottom-border"></div>
               </div>
@@ -291,7 +291,7 @@
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
 
               <button id="form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
-                Send message
+                Formular absenden
               </button>
               <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
             </form>
@@ -312,8 +312,8 @@
       <h4 class="modal-title text-center headline-medium mb-2" id="formModalLabel">I'm interested</h4>
       <div id="text-switchy">
         <div class="need-operator">
-          <p class="mx-auto mb-0 mb-md-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
-          <p class="small-label mb-5 mt-0 mt-md-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+          <p class="mx-auto mb-0 mb-md-1 text-center"><strong>Sende uns deine Details und wir setzen uns so schnell wie möglich mit dir in Verbindung.</strong></p>
+          <p class="small-label mb-5 mt-0 mt-md-1 text-center">Ihre persönlichen Daten werden vom Mobilitätsanbieter nur verwendet, um mit Ihnen in Kontakt zu treten.</p>
         </div>
         <div class="join-movement hidden">
           <p class="mb-5 mt-0 mt-md-1 text-center">Because if one of us moves, #WeAllMove</p>
@@ -330,24 +330,24 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group mb-3">
-                  <label for="recipient-name" class="form-label">Full Name *</label>
+                  <label for="recipient-name" class="form-label">Vollständiger Name *</label>
                   <input type="text" class="" id="modal_recipient-name" name="name" required />
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group mb-3 mb-md-0">
-                  <label for="email" class="form-label">Email *</label>
+                  <label for="email" class="form-label">Deine E-Mail Adresse *</label>
                   <input type="email" class="" id="modal_email" name="email" required />
                   <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group mb-3">
-                  <label for="recipient-company" class="form-label">Company name *</label>
+                  <label for="recipient-company" class="form-label">Name des Unternehmens *</label>
                   <input type="text" class="" id="modal_recipient-company" name="company" required />
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group mb-3 mb-md-0">
-                  <label for="phone" class="form-label">Phone Number</label>
+                  <label for="phone" class="form-label">Telefon (inkl. Landesvorwahl)</label>
                   <input type="text" class="" id="modal_phone" name="phone" />
                   <div class="bottom-border"></div>
                 </div>
@@ -355,7 +355,7 @@
             </div>
             <hr>
             <div class="form-group">
-              <label for="message-text" class="form-label">Your message</label>
+              <label for="message-text" class="form-label">Deine Nachricht</label>
               <textarea rows="3" class="" id="modal_message-text" name="message"></textarea>
               <div class="bottom-border"></div>
             </div>
@@ -367,7 +367,7 @@
               </div>
               <div class="col-sm-7 text-right">
                 <button id="modal_form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
-                  Send form
+                  Formular absenden
                 </button>
               </div>
             </div>
@@ -386,7 +386,7 @@
   <div class="powered-by mb-5 text-center">
     <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
     <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
-    <p class="small-label text-light mt-2">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
+    <p class="small-label text-light mt-2">#WeAllMove ist Teil des globalen Aktionsplans des Weltwirtschaftsforums für Covid-19</p>
   </div>
   <div class="footer__bottom text-center text-md-left">
     <div class="row">
