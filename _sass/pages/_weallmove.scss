@@ -1,5 +1,20 @@
 body.weallmove {
   padding-top: 0;
+
+  .modal {
+    .modal-content {
+      padding: 30px 15px;
+      @include rwd(tablet-up) {
+        padding: 40px 30px 50px;
+      }
+    }
+    button.close {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+    }
+  }
+
 }
 
 .weallmove-card {
