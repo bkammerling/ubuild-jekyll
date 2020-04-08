@@ -4,6 +4,7 @@ title: "#WeAllMove | Powered by Wunder Mobility"
 description: A movement to connect the world with mobility solutions during this time of crisis.
 date: '2020-04-02T12:00:00.000+00:00'
 permalink: "/weallmove"
+ogurl: "https://weallmove.co/"
 lang: en
 lang-ref: weallmove
 version: hp
