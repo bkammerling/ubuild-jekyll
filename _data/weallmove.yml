@@ -5,94 +5,10 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
-- name: Citybee
-  url: https://www.citybee.lt/
-  logo: "/uploads/2020/04/08/city_bee (1).png"
-  countries:
-  - name: Lithuania
-    cities:
-    - Neringa
-    - Palanga
-    - Klaipėda
-    - Kaunas
-    - Vilnius
-  service_1: extra vehicle sanitisation
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Tier
-  url: https://www.tier.app/
-  logo: "/uploads/2020/04/08/tier.png"
-  countries:
-  - name: Finland
-    cities:
-    - Turku
-    - Tampere
-    - Helsinki
-  - name: Germany
-    cities: []
-  - name: Norway
-    cities:
-    - Oslo
-  - name: Sweden
-    cities:
-    - Lund
-    - Malmö
-  - name: Switzerland
-    cities:
-    - Zürich
-    - Basel
-  service_1: alternative commuting options
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: VOI
-  url: https://www.voiscooters.com/
-  logo: "/uploads/2020/04/08/voi.png"
-  countries:
-  - name: Finland
-    cities:
-    - Tampere
-    - Turku
-    - Helsinki
-  - name: Denmark
-    cities:
-    - " Aalborg"
-    - Aarhus
-    - Vejle
-    - Odense
-    - Copenhagen
-  - name: Germany
-    cities:
-    - " Munich"
-    - Nuremberg
-    - " Hamburg"
-    - Berlin
-  - name: Norway
-    cities:
-    - Oslo
-  - name: Sweden
-    cities:
-    - Uppsala
-    - Örebro
-    - Helsinborg
-    - Malmö
-    - Stockholm
-    - " Västerås"
-    - Gothenburg
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: extra vehicle sanitisation
-  service_2_notes: ''
-  service_3: support for healthcare workers and local authorities
-  service_3_notes: ''
 - name: Scooty
   url: https://scootysharing.be/
-  logo: "/uploads/2020/04/06/scooty.png"
+  logo: '/uploads/2020/04/06/scooty.png'
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
@@ -106,7 +22,8 @@ operators:
     - Antwerp
 - name: Miles
   url: https://miles-mobility.com/
-  logo: "/uploads/2020/04/06/miles.png"
+  logo: '/uploads/2020/04/06/miles.png'
+  published: true
   service_1: discounted rides
   service_1_notes: ''
   service_2: expansion of area to hospitals
@@ -120,12 +37,13 @@ operators:
     - Hamburg
 - name: Felyx
   url: https://felyx.nl/
-  logo: "/uploads/2020/04/06/felyx.png"
+  logo: '/uploads/2020/04/06/felyx.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Netherlands
@@ -138,12 +56,13 @@ operators:
     - Brussels
 - name: Green Mobility
   url: https://greenmobility.com/dk/en/
-  logo: "/uploads/2020/04/06/green_mobility.png"
+  logo: '/uploads/2020/04/06/green_mobility.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Denmark
@@ -152,12 +71,13 @@ operators:
     - Arhus
 - name: Rhingo
   url: https://www.rhingo.de/
-  logo: "/uploads/2020/04/06/rhingo.png"
+  logo: '/uploads/2020/04/06/rhingo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -165,12 +85,13 @@ operators:
     - Cologne
 - name: Stella
   url: https://www.stella-sharing.de/
-  logo: "/uploads/2020/04/06/stella.png"
+  logo: '/uploads/2020/04/06/stella.png'
+  published: true
   service_1: discounted rides
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -178,12 +99,13 @@ operators:
     - Stuttgart
 - name: evo-sharing
   url: https://www.evo-sharing.ruhr/
-  logo: "/uploads/2020/04/06/evo_sharing.png"
+  logo: '/uploads/2020/04/06/evo_sharing.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -191,12 +113,13 @@ operators:
     - Oberhausen
 - name: Emmy
   url: https://emmy-sharing.de/
-  logo: "/uploads/2020/04/06/emmy.png"
+  logo: '/uploads/2020/04/06/emmy.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -206,13 +129,14 @@ operators:
     - Berlin
     - Dusseldorf
 - name: Wave Mobility
-  url: ''
-  logo: "/uploads/2020/04/06/wave_mobility.png"
+  url:
+  logo: '/uploads/2020/04/06/wave_mobility.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -220,12 +144,13 @@ operators:
     - Regensburg
 - name: deins&meins
   url: https://www.deinsundmeins-gt.de/e-carsharing/
-  logo: "/uploads/2020/04/06/deins_and_meins.png"
+  logo: '/uploads/2020/04/06/deins_and_meins.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -233,12 +158,13 @@ operators:
     - Gütersloh
 - name: Hive
   url: https://www.ridehive.com/
-  logo: "/uploads/2020/04/06/hive.png"
+  logo: '/uploads/2020/04/06/hive.png'
+  published: true
   service_1: groceries delivery for risk groups
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Portugal
@@ -246,12 +172,13 @@ operators:
     - Lisbon
 - name: evhcl
   url: https://evhcle.com/
-  logo: "/uploads/2020/04/06/evhcle.png"
+  logo: '/uploads/2020/04/06/evhcle.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -259,20 +186,8 @@ operators:
     - Munich
 - name: Eloop
   url: https://eloop.at/en/
-  logo: "/uploads/2020/04/06/eloop.png"
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Austria
-    cities:
-    - Vienna
-- name: Eloop
-  url: https://eloop.at/en/
-  logo: "/uploads/2020/04/06/eloop.png"
+  logo: '/uploads/2020/04/06/eloop.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: expansion of area to hospitals
@@ -285,12 +200,13 @@ operators:
     - Vienna
 - name: Skut
   url: https://skut.mx/
-  logo: "/uploads/2020/04/06/skut.png"
+  logo: '/uploads/2020/04/06/skut.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Mexico
@@ -298,7 +214,8 @@ operators:
     - Mexico City
 - name: Frank-E
   url: https://www.frank-e-sharing.de/
-  logo: "/uploads/2020/04/06/frank_e.png"
+  logo: '/uploads/2020/04/06/frank_e.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: discounted rides
@@ -311,12 +228,13 @@ operators:
     - Frankfurt
 - name: Arnab Mobility
   url: http://arnabmobility.com/
-  logo: "/uploads/2020/04/06/arnab.png"
+  logo: '/uploads/2020/04/06/arnab.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United Arab Emirates
@@ -326,12 +244,13 @@ operators:
     - Sharjah
 - name: OKQ8
   url: https://www.okq8.se/hyrbil/
-  logo: "/uploads/2020/04/06/okq8.png"
+  logo: '/uploads/2020/04/06/okq8.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Sweden
@@ -339,20 +258,22 @@ operators:
     - Stockholm
 - name: Zolo
   url: https://www.zoloiceland.is/
-  logo: "/uploads/2020/04/06/zolo.png"
+  logo: '/uploads/2020/04/06/zolo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Iceland
     cities:
     - Reykjavik
 - name: Hobo
-  url: ''
-  logo: "/uploads/2020/04/06/hobo.png"
+  url:
+  logo: '/uploads/2020/04/06/hobo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: cooperation with delivery and restaurants
@@ -365,12 +286,13 @@ operators:
     - Bulgaria
 - name: Aimo
   url: https://aimosolution.com/?lang=en
-  logo: "/uploads/2020/04/06/aimo.png"
+  logo: '/uploads/2020/04/06/aimo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: expansion of area to hospitals
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Sweden
@@ -378,12 +300,13 @@ operators:
     - Stockholm
 - name: BeRider
   url: https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma
-  logo: "/uploads/2020/04/06/be_rider.png"
+  logo: '/uploads/2020/04/06/be_rider.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Czech Republic
@@ -391,12 +314,13 @@ operators:
     - Prague
 - name: BerlKönig
   url: https://www.berlkoenig.de/
-  logo: "/uploads/2020/04/06/berlkönig.png"
+  logo: '/uploads/2020/04/06/berlkönig.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -404,7 +328,8 @@ operators:
     - Berlin
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
-  logo: "/uploads/2020/04/06/bird.png"
+  logo: '/uploads/2020/04/06/bird.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: cooperation with delivery and restaurants
@@ -427,12 +352,13 @@ operators:
     - Tel Aviv
 - name: City-Drop
   url: https://www.city-drop.com/
-  logo: "/uploads/2020/04/06/city_drop.png"
+  logo: '/uploads/2020/04/06/city_drop.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: France
@@ -458,12 +384,13 @@ operators:
     - Toulouse
 - name: CityScoot
   url: https://www.cityscoot.eu/en/paris/
-  logo: "/uploads/2020/04/06/city_scoot.png"
+  logo: '/uploads/2020/04/06/city_scoot.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: France
@@ -471,27 +398,29 @@ operators:
     - Paris
 - name: Ekar
   url: https://ekar.ae/
-  logo: "/uploads/2020/04/06/ekar.png"
+  logo: '/uploads/2020/04/06/ekar.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United Arab Emirated
     cities:
     - Dubai
-    - Abu Dabhi
+    - Abu Dhabi
     - Sharjah
 - name: Faxi
   url: https://faxi.co.uk/
-  logo: "/uploads/2020/04/06/faxi.png"
+  logo: '/uploads/2020/04/06/faxi.png'
+  published: true
   service_1: groceries delivery for risk groups
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United Kingdom
@@ -499,12 +428,13 @@ operators:
     - London
 - name: Free2Move
   url: https://de.free2move.com/
-  logo: "/uploads/2020/04/06/free2move.png"
+  logo: '/uploads/2020/04/06/free2move.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -512,12 +442,13 @@ operators:
     - Washington DC
 - name: Gocycle GS
   url: https://promo.fullycharged.com/nhs-support
-  logo: "/uploads/2020/04/06/go_cycle.png"
+  logo: '/uploads/2020/04/06/go_cycle.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United Kingdom
@@ -525,12 +456,13 @@ operators:
     - London
 - name: Gojek
   url: https://www.gojek.com/
-  logo: "/uploads/2020/04/06/gojek.png"
+  logo: '/uploads/2020/04/06/gojek.png'
+  published: true
   service_1: discounted rides
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Singapore
@@ -538,12 +470,13 @@ operators:
     - Singapore
 - name: Gotcha Mobility
   url: https://ridegotcha.com/
-  logo: "/uploads/2020/04/06/gotcha.png"
+  logo: '/uploads/2020/04/06/gotcha.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -556,12 +489,13 @@ operators:
     - Syracuse
 - name: GoTo Carsharing
   url: https://goto.global/
-  logo: "/uploads/2020/04/06/goto.png"
+  logo: '/uploads/2020/04/06/goto.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: discounted rides
+  service_2: discounted rides. cooperation with delivery and restaurants
   service_2_notes: ''
-  service_3: cooperation with delivery and restaurants
+  service_3:
   service_3_notes: ''
   countries:
   - name: Israel
@@ -573,12 +507,13 @@ operators:
     - Pembroke
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
-  logo: "/uploads/2020/04/06/govecs_group.png"
+  logo: '/uploads/2020/04/06/govecs_group.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Poland
@@ -586,12 +521,13 @@ operators:
     - Wroclaw
 - name: Helbiz
   url: https://helbiz.com/
-  logo: "/uploads/2020/04/06/helbiz.png"
+  logo: '/uploads/2020/04/06/helbiz.png'
+  published: true
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -617,12 +553,13 @@ operators:
     - Pesaro
 - name: Hyundai
   url: https://www.hyundai.de/
-  logo: "/uploads/2020/04/06/hyundai.png"
+  logo: '/uploads/2020/04/06/hyundai.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Spain
@@ -630,12 +567,13 @@ operators:
     - Madrid
 - name: Ithaca Carshare
   url: https://www.ithacacarshare.org/
-  logo: "/uploads/2020/04/06/ithaca_carshare.png"
+  logo: '/uploads/2020/04/06/ithaca_carshare.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -643,12 +581,13 @@ operators:
     - New York
 - name: Kapten
   url: https://www.kapten.com/
-  logo: "/uploads/2020/04/06/kapten.png"
+  logo: '/uploads/2020/04/06/kapten.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: France
@@ -659,12 +598,13 @@ operators:
     - London
 - name: Lyft
   url: https://www.lyft.com/
-  logo: "/uploads/2020/04/06/lyft.png"
+  logo: '/uploads/2020/04/06/lyft.png'
+  published: true
   service_1: groceries delivery for risk groups
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -672,12 +612,13 @@ operators:
     - San Francisco
 - name: Marti
   url: https://www.marti.tech/
-  logo: "/uploads/2020/04/06/marti.png"
+  logo: '/uploads/2020/04/06/marti.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Turkey
@@ -685,12 +626,13 @@ operators:
     - Istanbul
 - name: Mevo
   url: https://mevo.co.nz/auckland
-  logo: "/uploads/2020/04/06/mevo.png"
+  logo: '/uploads/2020/04/06/mevo.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: New Zealand
@@ -699,7 +641,8 @@ operators:
     - Auckland
 - name: MOL Limo
   url: https://www.mollimo.hu/en/
-  logo: "/uploads/2020/04/06/mol_limo.png"
+  logo: '/uploads/2020/04/06/mol_limo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
@@ -712,12 +655,13 @@ operators:
     - Budapest
 - name: Muvo Bike
   url: https://muvo.bike/?lang=en
-  logo: "/uploads/2020/04/06/muvo.png"
+  logo: '/uploads/2020/04/06/muvo.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Colombia
@@ -725,12 +669,13 @@ operators:
     - Bogota
 - name: Poppy Mobility
   url: https://poppy.be/en/
-  logo: "/uploads/2020/04/06/poppy.png"
+  logo: '/uploads/2020/04/06/poppy.png'
+  published: true
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: support for healthcare workers and local authorities
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Belgium
@@ -739,12 +684,13 @@ operators:
     - Antwerp
 - name: Share Now
   url: https://www.share-now.com/de/en/care-now/
-  logo: "/uploads/2020/04/06/sharenow.png"
+  logo: '/uploads/2020/04/06/sharenow.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Netherlands
@@ -753,7 +699,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-    - Düsseldorf
+    - Dusseldorf
     - Cologne
     - Frankfurt
     - Hamburg
@@ -784,10 +730,11 @@ operators:
     - Paris
   - name: Austria
     cities:
-    - Vienna
+     - Vienna
 - name: Sixt
   url: https://www.sixt.com/
-  logo: "/uploads/2020/04/06/sixt.png"
+  logo: '/uploads/2020/04/06/sixt.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -802,7 +749,8 @@ operators:
     - Hamburg
 - name: Spin
   url: https://www.spin.app/
-  logo: "/uploads/2020/04/06/spin.png"
+  logo: '/uploads/2020/04/06/spin.png'
+  published: true
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -823,12 +771,13 @@ operators:
     - Washington DC
 - name: Swiftmile
   url: https://swiftmile.com/
-  logo: "/uploads/2020/04/06/swiftmile.png"
+  logo: '/uploads/2020/04/06/swiftmile.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -836,7 +785,8 @@ operators:
     - Milwaukee
 - name: Uber
   url: https://www.uber.com/de/en/
-  logo: "/uploads/2020/04/06/uber.png"
+  logo: '/uploads/2020/04/06/uber.png'
+  published: true
   service_1: discounted rides
   service_1_notes: ''
   service_2: alternative commuting options
@@ -852,12 +802,13 @@ operators:
     - Paris
 - name: WeShare Deutschland
   url: https://www.we-share.io/en/
-  logo: "/uploads/2020/04/06/we_share.png"
+  logo: '/uploads/2020/04/06/we_share.png'
+  published: true
   service_1: expansion of area to hospitals
   service_1_notes: ''
   service_2: discounted rides
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Germany
@@ -865,12 +816,13 @@ operators:
     - Berlin
 - name: Wheels
   url: https://www.takewheels.com/
-  logo: "/uploads/2020/04/06/wheels.png"
+  logo: '/uploads/2020/04/06/wheels.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: United States
@@ -878,12 +830,13 @@ operators:
     - Milwaukee
 - name: Wible
   url: https://www.wible.es/
-  logo: "/uploads/2020/04/06/wible.png"
+  logo: '/uploads/2020/04/06/wible.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: Spain
@@ -891,7 +844,8 @@ operators:
     - Madrid
 - name: Zity
   url: https://zity.eco/
-  logo: "/uploads/2020/04/06/zity.png"
+  logo: '/uploads/2020/04/06/zity.png'
+  published: true
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: expansion of area to hospitals
@@ -907,12 +861,13 @@ operators:
     - Paris
 - name: Zoov
   url: https://zoov.typeform.com/to/oCGJAs
-  logo: "/uploads/2020/04/06/zoov.png"
+  logo: '/uploads/2020/04/06/zoov.png'
+  published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
+  service_2:
   service_2_notes: ''
-  service_3: ''
+  service_3:
   service_3_notes: ''
   countries:
   - name: France

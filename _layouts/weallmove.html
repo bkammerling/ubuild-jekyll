@@ -70,9 +70,9 @@
 </section>
 
 
-{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" | uniq  %}
-{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
-{% assign operators = site.data.weallmove.operators %}
+{% assign countries = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true %}
 
 <script type="text/javascript">
   var countryObject = {};
@@ -138,7 +138,7 @@
 </section>
 
 
-{% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true %}
 <section class="weallmove-list my-5">
   <div class="container">
 

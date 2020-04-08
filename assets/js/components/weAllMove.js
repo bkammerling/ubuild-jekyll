@@ -14,6 +14,10 @@ function compare( a, b ) {
   return 0;
 }
 
+function onlyUnique(value, index, self) {
+    return self.indexOf(value) === index;
+}
+
 var weallmoveForm = {
   submit: function(contactForm) {
     var postURL = contactForm.attr('action');
@@ -144,8 +148,10 @@ $(document).ready(function() {
         if(result.length >= 1) return;
       }
       // is country that has been selected same as city
+      var theseCities = [...new Set(countryObject[e.target.value].map(item => item.text))];;
+      console.log(theseCities)
       $("#citySelect").select2('destroy').empty().select2({
-        data: countryObject[e.target.value],
+        data: theseCities,
         allowClear: true,
         minimumResultsForSearch: 15,
         placeholder: "City"
