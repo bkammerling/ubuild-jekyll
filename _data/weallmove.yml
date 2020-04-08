@@ -18,7 +18,7 @@ operators:
   - name: Belgium
     cities:
     - Brussels
-    - Antwerpen
+    - Antwerp
 - name: Miles
   url: https://miles-mobility.com/
   logo: '/uploads/2020/04/06/miles.png'
@@ -185,6 +185,655 @@ operators:
   - name: Austria
     cities:
     - Vienna
+- name: Eloop
+  url: https://eloop.at/en/
+  logo: '/uploads/2020/04/06/eloop.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: discounted rides
+  service_3_notes: ''
+  countries:
+  - name: Austria
+    cities:
+    - Vienna
+- name: Skut
+  url: https://skut.mx/
+  logo: '/uploads/2020/04/06/skut.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Mexico
+    cities:
+    - Mexico City
+- name: Frank-E
+  url: https://www.frank-e-sharing.de/
+  logo: '/uploads/2020/04/06/frank_e.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: support for healthcare workers and local authorities
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Frankfurt
+- name: Arnab Mobility
+  url: http://arnabmobility.com/
+  logo: '/uploads/2020/04/06/arnab.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United Arab Emirates
+    cities:
+    - Abu Dhabi
+    - Dubai
+    - Sharjah
+- name: OKQ8
+  url: https://www.okq8.se/hyrbil/
+  logo: '/uploads/2020/04/06/okq8.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Sweden
+    cities:
+    - Stockholm
+- name: Zolo
+  url: https://www.zoloiceland.is/
+  logo: '/uploads/2020/04/06/zolo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Iceland
+    cities:
+    - Reykjavik
+- name: Hobo
+  url:
+  logo: '/uploads/2020/04/06/hobo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3: extra vehicle sanitisation
+  service_3_notes: ''
+  countries:
+  - name: Sofia
+    cities:
+    - Bulgaria
+- name: Aimo
+  url: https://aimosolution.com/?lang=en
+  logo: '/uploads/2020/04/06/aimo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Sweden
+    cities:
+    - Stockholm
+- name: BeRider
+  url: https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma
+  logo: '/uploads/2020/04/06/be_rider.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Czech Republic
+    cities:
+    - Prague
+- name: BerlKönig
+  url: https://www.berlkoenig.de/
+  logo: '/uploads/2020/04/06/berlkönig.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+- name: Bird
+  url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
+  logo: '/uploads/2020/04/06/bird.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3: groceries delivery for risk groups
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Santa Monica
+    - Culver City
+  - name: Belgium
+    cities:
+    - Antwerp
+  - name: Italy
+    cities:
+    - Turin
+  - name: Israel
+    cities:
+    - Tel Aviv
+- name: City-Drop
+  url: https://www.city-drop.com/
+  logo: '/uploads/2020/04/06/city_drop.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Aix-en-Provence
+    - Avignon
+    - Bayonne
+    - Bordeaux
+    - Brest
+    - Chambéry
+    - Clermont-Ferrand
+    - Grenoble
+    - Lyon
+    - Marseille
+    - Montpellier
+    - Nantes
+    - Nice
+    - Nîmes
+    - Perpignan
+    - Quimper
+    - Rennes
+    - Strasbourg
+    - Toulouse
+- name: CityScoot
+  url: https://www.cityscoot.eu/en/paris/
+  logo: '/uploads/2020/04/06/city_scoot.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Paris
+- name: Ekar
+  url: https://ekar.ae/
+  logo: '/uploads/2020/04/06/ekar.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United Arab Emirated
+    cities:
+    - Dubai
+    - Abu Dabhi
+    - Sharjah
+- name: Faxi
+  url: https://faxi.co.uk/
+  logo: '/uploads/2020/04/06/faxi.png'
+  service_1: groceries delivery for risk groups
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+- name: Free2Move
+  url: https://de.free2move.com/
+  logo: '/uploads/2020/04/06/free2move.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Washington DC
+- name: Gocycle GS
+  url: https://promo.fullycharged.com/nhs-support
+  logo: '/uploads/2020/04/06/go_cycle.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+- name: Gojek
+  url: https://www.gojek.com/
+  logo: '/uploads/2020/04/06/gojek.png'
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Singapore
+    cities:
+    - Singapore
+- name: Gotcha Mobility
+  url: https://ridegotcha.com/
+  logo: '/uploads/2020/04/06/gotcha.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Atlanta
+    - Baton Rouge
+    - Charleston
+    - Mobile
+    - Raleigh
+    - Syracuse
+- name: GoTo Carsharing
+  url: https://goto.global/
+  logo: '/uploads/2020/04/06/goto.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: discounted rides. cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Israel
+    cities:
+    - Tel Aviv
+  - name: Malta
+    cities:
+    - Valetta
+    - Pembroke
+- name: Govecs
+  url: https://www.govecsgroup.com/en/?r=1
+  logo: '/uploads/2020/04/06/govecs_group.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Poland
+    cities:
+    - Wroclaw
+- name: Helbiz
+  url: https://helbiz.com/
+  logo: '/uploads/2020/04/06/helbiz.png'
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Alexandria
+    - Miami
+  - name: Serbia
+    cities:
+    - Belgrade
+  - name: Spain
+    cities:
+    - Malaga
+    - Marbella
+  - name: France
+    cities:
+    - Bordeaux
+  - name: Italy
+    cities:
+    - Turin
+    - Verona
+    - Milan
+    - Riccione
+    - Pesaro
+- name: Hyundai
+  url: https://www.hyundai.de/
+  logo: '/uploads/2020/04/06/hyundai.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+- name: Ithaca Carshare
+  url: https://www.ithacacarshare.org/
+  logo: '/uploads/2020/04/06/ithaca_carshare.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - New York
+- name: Kapten
+  url: https://www.kapten.com/
+  logo: '/uploads/2020/04/06/kapten.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Paris
+  - name: United Kingdom
+    cities:
+    - London
+- name: Lyft
+  url: https://www.lyft.com/
+  logo: '/uploads/2020/04/06/lyft.png'
+  service_1: groceries delivery for risk groups
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - San Francisco
+- name: Marti
+  url: https://www.marti.tech/
+  logo: '/uploads/2020/04/06/marti.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Turkey
+    cities:
+    - Istanbul
+- name: Mevo
+  url: https://mevo.co.nz/auckland
+  logo: '/uploads/2020/04/06/mevo.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: New Zealand
+    cities:
+    - Wellington
+    - Auckland
+- name: MOL Limo
+  url: https://www.mollimo.hu/en/
+  logo: '/uploads/2020/04/06/mol_limo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: extra vehicle sanitisation
+  service_3_notes: ''
+  countries:
+  - name: Hungary
+    cities:
+    - Budapest
+- name: Muvo Bike
+  url: https://muvo.bike/?lang=en
+  logo: '/uploads/2020/04/06/muvo.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Colombia
+    cities:
+    - Bogota
+- name: Poppy Mobility
+  url: https://poppy.be/en/
+  logo: '/uploads/2020/04/06/poppy.png'
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: support for healthcare workers and local authorities
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Antwerp
+- name: Share Now
+  url: https://www.share-now.com/de/en/care-now/
+  logo: '/uploads/2020/04/06/sharenow.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Netherlands
+    cities:
+    - Amsterdam
+  - name: Germany
+    cities:
+    - Berlin
+    - Düsseldorf
+    - Cologne
+    - Frankfurt
+    - Hamburg
+    - Munich
+    - Stuttgart
+  - name: Hungary
+    cities:
+    - Budapest
+  - name: Denmark
+    cities:
+    - Copenhagen
+  - name: Finland
+    cities:
+    - Helsinki
+  - name: Portugal
+    cities:
+    - Lisbon
+  - name: Spain
+    cities:
+    - Madrid
+  - name: Italy
+    cities:
+    - Milan
+    - Rome
+    - Turin
+  - name: France
+    cities:
+    - Paris
+  - name: Austria
+    cities:
+     - Vienna
+- name: Sixt
+  url: https://www.sixt.com/
+  logo: '/uploads/2020/04/06/sixt.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3: support for healthcare workers and local authorities
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+    - Munich
+    - Hamburg
+- name: Spin
+  url: https://www.spin.app/
+  logo: '/uploads/2020/04/06/spin.png'
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3: support for healthcare workers and local authorities
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Austin
+    - Baltimore
+    - Denver
+    - Detroit
+    - Los Angeles
+    - Portland
+    - San Francisco
+    - Tampa
+    - Washington DC
+- name: Swiftmile
+  url: https://swiftmile.com/
+  logo: '/uploads/2020/04/06/swiftmile.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Milwaukee
+- name: Uber
+  url: https://www.uber.com/de/en/
+  logo: '/uploads/2020/04/06/uber.png'
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: groceries delivery for risk groups
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Hamburg
+  - name: France
+    cities:
+    - Paris
+- name: WeShare Deutschland
+  url: https://www.we-share.io/en/
+  logo: '/uploads/2020/04/06/we_share.png'
+  service_1: expansion of area to hospitals
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+- name: Wheels
+  url: https://www.takewheels.com/
+  logo: '/uploads/2020/04/06/wheels.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: United States
+    cities:
+    - Milwaukee
+- name: Wible
+  url: https://www.wible.es/
+  logo: '/uploads/2020/04/06/wible.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+- name: Zity
+  url: https://zity.eco/
+  logo: '/uploads/2020/04/06/zity.png'
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: discounted rides
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Bobigny
+    - Clinchy
+    - Le Kremlin Bicêtre
+    - Paris
+- name: Zoov
+  url: https://zoov.typeform.com/to/oCGJAs
+  logo: '/uploads/2020/04/06/zoov.png'
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2:
+  service_2_notes: ''
+  service_3:
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Bordeaux
+    - Paris
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
