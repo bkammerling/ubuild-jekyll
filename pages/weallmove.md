@@ -11,5 +11,6 @@ share_image: ''
 component_scripts:
 - weAllMove.js
 published: true
+sitemap: false
 
 ---
