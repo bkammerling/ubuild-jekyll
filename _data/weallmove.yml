@@ -5,6 +5,23 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Citybee
+  url: https://www.citybee.lt/
+  logo: "/uploads/2020/04/08/city_bee (1).png"
+  countries:
+  - name: Lithuania
+    cities:
+    - Neringa
+    - Palanga
+    - Klaipėda
+    - Kaunas
+    - Vilnius
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Tier
   url: https://www.tier.app/
   logo: "/uploads/2020/04/08/tier.png"
