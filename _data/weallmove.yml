@@ -336,7 +336,7 @@ operators:
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkönig.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -351,7 +351,7 @@ operators:
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
   logo: "/uploads/2020/04/06/bird.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: cooperation with delivery and restaurants
@@ -376,7 +376,7 @@ operators:
 - name: City-Drop
   url: https://www.city-drop.com/
   logo: "/uploads/2020/04/06/city_drop.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -409,7 +409,7 @@ operators:
 - name: CityScoot
   url: https://www.cityscoot.eu/en/paris/
   logo: "/uploads/2020/04/06/city_scoot.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -424,7 +424,7 @@ operators:
 - name: Ekar
   url: https://ekar.ae/
   logo: "/uploads/2020/04/06/ekar.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -441,7 +441,7 @@ operators:
 - name: Faxi
   url: https://faxi.co.uk/
   logo: "/uploads/2020/04/06/faxi.png"
-  published: true
+  published: false
   service_1: groceries delivery for risk groups
   service_1_notes: ''
   service_2: ''
@@ -456,7 +456,7 @@ operators:
 - name: Free2Move
   url: https://de.free2move.com/
   logo: "/uploads/2020/04/06/free2move.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -471,7 +471,7 @@ operators:
 - name: Gocycle GS
   url: https://promo.fullycharged.com/nhs-support
   logo: "/uploads/2020/04/06/go_cycle.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -486,7 +486,7 @@ operators:
 - name: Gojek
   url: https://www.gojek.com/
   logo: "/uploads/2020/04/06/gojek.png"
-  published: true
+  published: false
   service_1: discounted rides
   service_1_notes: ''
   service_2: ''
@@ -501,7 +501,7 @@ operators:
 - name: Gotcha Mobility
   url: https://ridegotcha.com/
   logo: "/uploads/2020/04/06/gotcha.png"
-  published: true
+  published: false
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: ''
@@ -524,7 +524,7 @@ operators:
   published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: discounted rides. cooperation with delivery and restaurants
+  service_2: ''
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
@@ -540,7 +540,7 @@ operators:
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
   logo: "/uploads/2020/04/06/govecs_group.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -555,7 +555,7 @@ operators:
 - name: Helbiz
   url: https://helbiz.com/
   logo: "/uploads/2020/04/06/helbiz.png"
-  published: true
+  published: false
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -603,7 +603,7 @@ operators:
 - name: Ithaca Carshare
   url: https://www.ithacacarshare.org/
   logo: "/uploads/2020/04/06/ithaca_carshare.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -618,7 +618,7 @@ operators:
 - name: Kapten
   url: https://www.kapten.com/
   logo: "/uploads/2020/04/06/kapten.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -636,7 +636,7 @@ operators:
 - name: Lyft
   url: https://www.lyft.com/
   logo: "/uploads/2020/04/06/lyft.png"
-  published: true
+  published: false
   service_1: groceries delivery for risk groups
   service_1_notes: ''
   service_2: ''
@@ -651,7 +651,7 @@ operators:
 - name: Marti
   url: https://www.marti.tech/
   logo: "/uploads/2020/04/06/marti.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -666,7 +666,7 @@ operators:
 - name: Mevo
   url: https://mevo.co.nz/auckland
   logo: "/uploads/2020/04/06/mevo.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -682,7 +682,7 @@ operators:
 - name: MOL Limo
   url: https://www.mollimo.hu/en/
   logo: "/uploads/2020/04/06/mol_limo.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
@@ -697,7 +697,7 @@ operators:
 - name: Muvo Bike
   url: https://muvo.bike/?lang=en
   logo: "/uploads/2020/04/06/muvo.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
