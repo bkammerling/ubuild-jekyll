@@ -15,6 +15,11 @@ fields:
   - type: file
     name: logo
     label: Logo
+  - name: published
+    type: boolean
+    label: Published
+    description: Switch on to display in our list of operators
+    default: true
   - name: countries
     type: field_group_list
     fields:
