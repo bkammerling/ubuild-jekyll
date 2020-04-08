@@ -5,6 +5,25 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Citybee
+  url: https://www.citybee.lt/
+  logo: "/uploads/2020/04/08/city_bee (2)-1.png"
+  published: true
+  order: 
+  countries:
+  - name: Lithuania
+    cities:
+    - Neringa
+    - Palanga
+    - Klaipėda
+    - Kaunas
+    - Vilnius
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Hertz
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/08/hertz (1).png"
@@ -33,25 +52,6 @@ operators:
     - Basel
     - Zürich
   service_1: alternative commuting options
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Citybee
-  url: https://www.citybee.lt/
-  logo: "/uploads/2020/04/08/city_bee (2).png"
-  published: true
-  order: 
-  countries:
-  - name: Lithuania
-    cities:
-    - Neringa
-    - Palanga
-    - Klaipėda
-    - Kaunas
-    - Vilnius
-  service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
   service_2_notes: ''
