@@ -53,7 +53,14 @@
     <div class="row">
       <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
         <h3 class="my-4 pb-5 px-3 headline-medium text-center">A movement to connect the world with mobility solutions during this time of crisis.</h3>
-        <hr>
+        <hr class="mt-5">
+        <div class="d-flex">
+          <p class="text-link text-dark">In Partnership with</p>
+          <img src="" alt="World Economic Forum text logo" />
+          <img src="" alt="Hamburg city emblem and text" />
+          <img src="" alt="Frischepost, a Hamburg based eco-grocery delivery service, text logo "/>
+        </div>
+        <hr class="mb-5">
         <div class="row mt-5">
           <div class="col-md-6">
             <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
@@ -84,14 +91,14 @@
         countryObject['{{country.name}}'] = [];
       }
       {% for city in country.cities %}
-        countryObject['{{country.name}}'].push({ id: {{mainindex}}_{{forloop.index}}, text: "{{city}}"});
+        countryObject['{{country.name}}'].push({ id: "{{mainindex}}_{{forloop.index}}", text: "{{city}}"});
       {% endfor %}
     {% endfor %}
   {% endfor %}
   var countryArray = [];
-  {% for country in countries %}countryArray.push({  id: {{forloop.index}}, text: "{{country}}" });{% endfor %}
+  {% for country in countries %}countryArray.push({  id: "{{forloop.index}}", text: "{{country}}" });{% endfor %}
   var cityArray = [];
-  {% for city in cities %}cityArray.push({  id: {{forloop.index}}, text: "{{city}}" });{% endfor %}
+  {% for city in cities %}cityArray.push({  id: "{{forloop.index}}", text: "{{city}}" });{% endfor %}
 </script>
 
 <section class="weallmove-filters fullscreen-bg bg-blue py-5">
