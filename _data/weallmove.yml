@@ -9,7 +9,7 @@ operators:
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/08/hertz.png"
   published: true
-  order: 0
+  order: 
   countries:
   - name: United States
     cities: []
@@ -24,7 +24,7 @@ operators:
   service_3_notes: ''
 - name: Highspeed service
   url: https://www.highspeedservice.ch/
-  logo: ''
+  logo: "/uploads/2020/04/08/high_speed_service.png"
   published: true
   order: -3
   countries:
