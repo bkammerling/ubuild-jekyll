@@ -30,6 +30,7 @@ body.weallmove {
 
 
   .language-select {
+    margin-top: -2px;
     #langMenuLink {
       padding: 12px 8px 9px;
       &:hover {
@@ -78,7 +79,24 @@ body.weallmove {
     }
 
     &__col {
-      margin: 15px 36px;
+      &:not(.col-sm-6) {
+        margin: 15px 36px;
+        @include rwd(desktop-up) {
+          margin:0
+        }
+      }
+      > .weallmove-card__offers {
+        @include rwd(mobile-down) {
+          margin: 15px 36px;
+        }
+        margin-left: 36px;
+      }
+      > .weallmove-card__locations {
+        @include rwd(mobile-down) {
+          margin: 15px 36px;
+        }
+        margin-right: 36px;
+      }
       @include rwd(desktop-up) {
         margin: 0;
         padding-top: 50px;
@@ -188,4 +206,12 @@ body.weallmove {
     width: 100% !important;
   }
 
+  .contact-form__wrapper {
+    padding-top: 1rem;
+  }
+
+} //end of weallmove body
+
+a:hover ion-icon {
+  color: inherit;
 }
