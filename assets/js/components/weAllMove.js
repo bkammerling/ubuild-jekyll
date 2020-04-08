@@ -22,6 +22,7 @@ var weallmoveForm = {
       return txtVal.toUpperCase();
     });
     data.name = capitalizedName;
+    data.referer = document.referrer;
 
     console.log(data);
     $("#form-submit").attr("disabled", false);
@@ -182,7 +183,7 @@ $(document).ready(function() {
     var modal = $(this);
     modal.find(`.${type}`).removeClass('hidden').siblings().addClass('hidden');
     modal.find('.modal-title').text(newSubject);
-    modal.find("input[name='subject']").text(newSubject);
+    modal.find("input[name='subject']").val(newSubject);
   })
 
 });
