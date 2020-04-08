@@ -1,64 +1,54 @@
 {% include head.html %}
 
-<nav class="navbar justify-content-between navbar-expand-md px-4">
-  <a class="navbar-brand" href="https://www.wundermobility.com/" target="_blank">
-    <p class="text-link text-blue">wundermobility.com</p>
-  </a>
-  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button>
-  {% comment %}
-  <div class="col-md-2 language-select order-md-2">
-    <div class="btn-group dropup">
-      <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <ion-icon name="ios-globe" class="inline-icon"></ion-icon>
-        {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
-        <span>{{ currentLang.label }}</span>
+<nav class="px-4 py-3 mb-5">
+  <div class="row align-items-center">
+    <div class="col-6 col-lg-2 mt-sm-1">
+      <a class="navbar-brand" href="https://www.wundermobility.com/" target="_blank">
+        <p class="text-link text-blue">wundermobility.com</p>
       </a>
-      <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
-      {% assign posts = site.pages | where: 'lang-ref', page.lang-ref %}
-      {% for sitelang in site.data.global.languages %}
-        {% for post in posts %}
-          {% if post.lang == sitelang.code %}
-            {% assign langlink = post.url %}
-          {% endif %}
-        {% endfor %}
-        {% unless langlink %}
-          {% assign langlink = sitelang.code %}
-          {% if langlink == 'en' %}{% assign langlink = '' %}{% endif %}
-        {% endunless %}
-        {% if sitelang.code == 'es' %}
-          {% unless langlink contains 'fleet' or langlink contains 'rent' %}
-           {% break %}
-          {% endunless %}
-        {% endif %}
-        <link rel="alternate" hreflang="{{ sitelang.code }}" href="{{ langlink }}" />
-        <li>{{ sitelang.icon }} <a href="{{ langlink }}" class="{{ sitelang.code }}" title="View in {{ sitelang.label }}">{{ sitelang.label }}</a></li>
-        {% assign langlink = false %}
-      {% endfor %}
-      </ul>
     </div>
-  </div>
-  {% endcomment %}
-  <div class="collapse navbar-collapse justify-content-center">
-    <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+    <div class="col-6 col-lg-2 text-right order-lg-3 language-select align-self-start">
+      <div class="dropdown">
+        <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <ion-icon name="globe-outline" class="inline-icon"></ion-icon>
+          {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
+          <span>{{ currentLang.label }}</span>
+        </a>
+        <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
+          <a href="https://weallmove.co/wam-de/" class="de dropdown-item" title="View in Deutsch">
+            <link rel="alternate" hreflang="de" href="https://weallmove.co/wam-de/" />
+            🇩🇪 Deutsch
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="covid-notice text-lg-center">
+      <div class="row">
+        <div class="col-9 col-lg-12">
+          <span class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline text-blue text-link">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></span>
+        </div>
+        <div class="col-3 d-lg-none">
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <ion-icon class="text-blue d-lg-none" name="open-outline"></ion-icon></a>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>
 
-<section id="weallmove-intro">
+<section id="weallmove-intro" class="mt-md-5 pt-3">
   <div class="container my-5">
-    <div class="hero-anim text-center">
-      {% include /assets/weallmove-hero.svg %}
+    <div class="hero-anim text-center mb-2">
+      <img data-src="/uploads/global/weallmove-hero.svg" alt="#WeAllMove animated text" />
     </div>
     <div class="row">
       <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <h3 class="my-4 pb-5 px-3 headline-medium text-center">A movement to connect the world with mobility solutions during this time of crisis.</h3>
+        <h3 class="my-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">A movement to connect the world with mobility solutions during this time of crisis.</h3>
+        <br>
         <hr class="mt-5 mb-0">
         <div class="d-flex align-items-center justify-content-center">
-          <p class="text-link text-dark pr-5">In Partnership with</p>
-          <img class="mr-3" data-src="/uploads/global/wef-logo.jpg" data-srcset="/uploads/global/wef-logo@2x.jpg 2x" alt="World Economic Forum text logo" />
+          <p class="text-link text-dark pr-sm-5">In Partnership with</p>
+          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.jpg" data-srcset="/uploads/global/wef-logo@2x.jpg 2x" alt="World Economic Forum text logo" />
           <img data-src="/uploads/global/hamburg-logo.jpg" data-srcset="/uploads/global/hamburg-logo@2x.jpg 2x" alt="Hamburg city emblem and text" />
         </div>
         <hr class="mb-5 mt-0">
@@ -68,6 +58,7 @@
           </div>
           <div class="col-md-6">
             <p>As a mobility community, we can work towards making mobility services more widely available to these everyday heroes. We can help our world move forward, even in this time of uncertainty.
+              <br>
               <br>
               This is not a statement. It’s an invitation. Because if one of us moves, #WeAllMove
             </p>
@@ -117,20 +108,14 @@
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
                 <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
-                  <option></option>
-                  {% for country in countries %}
-                    <option>{{ country }}</option>
-                  {% endfor %}
+
                 </select>
               </div>
             </div>
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
                 <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
-                  <option></option>
-                  {% for city in cities %}
-                    <option>{{ city }}</option>
-                  {% endfor %}
+
                 </select>
               </div>
             </div>
@@ -223,7 +208,7 @@
           </div>
         </div>
         <div class="col-lg-3 weallmove-card__col">
-          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}">Get in touch</button>
+          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Get in touch</button>
           <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
       </div>
@@ -237,7 +222,7 @@
   <div class="container">
     <div class="jumbotron text-center mx-md-5">
       <h3 class="headline-large mt-4">Are you a mobility provider looking to move your community forward?</h3>
-      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement">Let us know</button>
+      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement" data-type="join-movement">Let us know</button>
     </div>
   </div>
 </section>
@@ -313,7 +298,7 @@
 
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
 
-              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+              <button id="form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
                 Send message
               </button>
               <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
@@ -333,8 +318,15 @@
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <h4 class="modal-title text-center headline-medium mb-2" id="formModalLabel">I'm interested</h4>
-      <p style="max-width: 500px" class="mx-auto mb-0 mb-md-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
-      <p class="small-label mb-5 mt-0 mt-md-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+      <div id="text-switchy">
+        <div class="need-operator">
+          <p class="mx-auto mb-0 mb-md-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
+          <p class="small-label mb-5 mt-0 mt-md-1 text-center">Your personal details will only be used by the mobility operator to get in touch with you.</p>
+        </div>
+        <div class="join-movement hidden">
+          <p class="mb-5 mt-0 mt-md-1 text-center">Because if one of us moves, #WeAllMove</p>
+        </div>
+      </div>
       <button type="button" class="close text-blue" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -372,7 +364,7 @@
             </div>
             <hr>
             <div class="form-group">
-              <label for="message-text" class="col-form-label">Your message</label>
+              <label for="message-text" class="form-label">Your message</label>
               <textarea rows="3" class="" id="modal_message-text" name="message"></textarea>
               <div class="bottom-border"></div>
             </div>
@@ -383,7 +375,7 @@
                 <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
               </div>
               <div class="col-sm-7 text-right">
-                <button id="modal_form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+                <button id="modal_form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
                   Send form
                 </button>
               </div>
@@ -403,22 +395,23 @@
   <div class="powered-by mb-5 text-center">
     <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
     <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
+    <p class="small-label text-light mt-2">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
   </div>
   <div class="footer__bottom text-center text-md-left">
     <div class="row">
       <div class="col-md-6 order-3 order-md-1">
         <ul class="legal-links">
-          <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+          {% comment %}<li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>{% endcomment %}
           {% for menu_item in site.menus.footerbottom %}
             <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
-      <div class="col-md-4 order-2 order-md-3">
+      <div class="col-md-6 order-2 order-md-3">
         <ul class="footer__socialmedia d-flex justify-content-center justify-content-md-end my-4 my-md-0 mt-md-2">
-          <li><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-          <li><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
-          <li><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
         </ul>
       </div>
     </div>

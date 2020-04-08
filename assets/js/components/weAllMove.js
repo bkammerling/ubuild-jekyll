@@ -4,24 +4,117 @@ var filterObj = {
   country: ''
 }
 
+function compare( a, b ) {
+  if ( a.text < b.text ){
+    return -1;
+  }
+  if ( a.text > b.text ){
+    return 1;
+  }
+  return 0;
+}
+
+var weallmoveForm = {
+  submit: function(contactForm) {
+    var postURL = contactForm.attr('action');
+    var data = weallmoveForm.serializeObject(contactForm);
+    var capitalizedName = data.name.toLowerCase().replace(/\b[a-z]/g, function(txtVal) {
+      return txtVal.toUpperCase();
+    });
+    data.name = capitalizedName;
+
+    console.log(data);
+    $("#form-submit").attr("disabled", false);
+/*
+    $.ajax({
+      url: postURL,
+      method: "POST",
+      data: data,
+      dataType: "json",
+      headers: {
+        "Accept": "application/json"
+      }
+    }).done(function (response) {
+      contactForm.find(".form-feedback").removeClass('hidden');
+      contactForm.trigger("reset");
+      contactForm.find('.form-group').removeClass('focused').removeClass('valid');
+      $("#form-submit").attr("disabled", false);
+    }).fail(function (error) {
+      console.log(error);
+      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
+      $("#form-submit").attr("disabled", false);
+    });
+*/
+  },
+
+  serializeObject: function($form){
+    var unindexed_array = $form.serializeArray();
+    var indexed_array = {};
+    $.map(unindexed_array, function(n, i){
+      if(indexed_array[n['name']]) {
+        indexed_array[n['name']] = indexed_array[n['name']] + ", " + n['value'];
+      } else {
+        indexed_array[n['name']] = n['value'];
+      }
+    });
+    // Add non-selected select elements with empty values
+    var hidden = $form.find('.form-group:hidden input');
+    hidden.each(function() {
+      indexed_array[$(this).attr('name')] = "";
+    })
+    return indexed_array;
+  },
+  htmlValidityCheck: function($form) {
+    $form[0].checkValidity();
+    return $form[0].reportValidity();
+  }
+};
+
+function weallmoveFormSubmit(e) {
+  e.preventDefault();
+  $(e.target).attr("disabled", true);
+  var $form = $(e.target).closest("form");
+  if(weallmoveForm.htmlValidityCheck($form)) {
+    console.log('form clean');
+    grecaptcha.ready(function() {
+      grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
+        recaptchaSubmit(token, $form);
+      });
+    });
+  } else {
+    console.log('form NOT clean');
+    $(e.target).attr("disabled", false);
+  }
+}
+
+function recaptchaSubmit(token, $form) {
+  $form.find("input[name='g-recaptcha-response']").val(token);
+  weallmoveForm.submit($form);
+}
+
+
 $(document).ready(function() {
 
   cityArray.unshift({id: "", text: ""});
+  cityArray.sort(compare);
   countryArray.unshift({id: "", text: ""});
+  countryArray.sort(compare);
   for (let [key, value] of Object.entries(countryObject)) {
     countryObject[key].unshift({id: "", text: ""});
   };
   console.log(countryObject);
 
-  $("#citySelect").select2({
-    allowClear: true,
-    minimumResultsForSearch: 15,
-    placeholder: "City"
-  });
   $("#countrySelect").select2({
+    data: countryArray,
     allowClear: true,
     minimumResultsForSearch: 15,
     placeholder: "Country"
+  });
+  $("#citySelect").select2({
+    data: cityArray,
+    allowClear: true,
+    minimumResultsForSearch: 15,
+    placeholder: "City"
   });
   $("#needSelect").select2({
     allowClear: true,
@@ -34,39 +127,39 @@ $(document).ready(function() {
     console.log("change");
     filterObj[e.target.name] = e.target.value;
     filterList();
+  });
 
-    if(e.target.name == 'country' && e.target.value && !$("#citySelect").val()) {
+  $('#countrySelect').on("change", function(e) {
+    var selectedCity = $("#citySelect").val();
+    if(e.target.value) {
+      if(selectedCity) {
+        // is city selected
+        var selectedCountryArray = countryObject[e.target.value];
+        var result = selectedCountryArray.filter(item => {
+          return item.text == selectedCity
+        })
+        // if city selected is in country that's been selected, don't do anything!
+        if(result.length >= 1) return;
+      }
+      // is country that has been selected same as city
       $("#citySelect").select2('destroy').empty().select2({
         data: countryObject[e.target.value],
         allowClear: true,
         minimumResultsForSearch: 15,
         placeholder: "City"
       });
-    } else if(e.target.name == 'country' && !e.target.value) {
-      $("#citySelect").select2('destroy').empty().select2({
-        data: cityArray,
-        allowClear: true,
-        minimumResultsForSearch: 15,
-        placeholder: "City"
-      });
-    }
-
-    if(e.target.name == 'city' && e.target.value) {
-      var countryToSelect;
-      for (let [key, value] of Object.entries(countryObject)) {
-        console.log(key, value);
-        var result = value.filter(item => {
-          return item.text == e.target.value
-        })
-        if(result.length >= 1) countryToSelect = key;
+      $("#citySelect").trigger('change');
+    } else {
+      // country field was cleared
+      if(!selectedCity) {
+        $("#citySelect").select2('destroy').empty().select2({
+          data: cityArray,
+          allowClear: true,
+          minimumResultsForSearch: 15,
+          placeholder: "City"
+        });
       }
-      console.log(countryToSelect);
-      $("#countrySelect").val(countryToSelect);
-      $("#countrySelect").trigger('change');
-    } else if(e.target.name == 'city' && !e.target.value) {
-      $("#countrySelect").val(null).trigger('change');
     }
-
   });
 
   function filterList() {
@@ -80,5 +173,16 @@ $(document).ready(function() {
       $('.noshow-feedback').addClass('hide');
     }
   }
+
+
+  $('#interestedModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var newSubject = button.data('subject'); // Extract info from data-* attributes
+    var type = button.data('type'); // Extract info from data-* attributes
+    var modal = $(this);
+    modal.find(`.${type}`).removeClass('hidden').siblings().addClass('hidden');
+    modal.find('.modal-title').text(newSubject);
+    modal.find("input[name='subject']").text(newSubject);
+  })
 
 });

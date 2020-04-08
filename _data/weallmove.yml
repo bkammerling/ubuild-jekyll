@@ -1,9 +1,9 @@
 ---
 all_needs:
 - Access to vehicles for grocery delivery
-- Commute solutions for healthcare workers
-- Alternative commuting options
 - Access to vehicles for takeaway delivery
+- Alternative commuting options
+- Commute solutions for healthcare workers
 operators:
 - name: Scooty
   url: https://scootysharing.be/
