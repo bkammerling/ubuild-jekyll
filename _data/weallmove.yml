@@ -508,7 +508,7 @@ operators:
 - name: Free2Move
   url: https://de.free2move.com/
   logo: "/uploads/2020/04/06/free2move.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -523,7 +523,7 @@ operators:
 - name: Gocycle GS
   url: https://promo.fullycharged.com/nhs-support
   logo: "/uploads/2020/04/06/go_cycle.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -538,7 +538,7 @@ operators:
 - name: Gojek
   url: https://www.gojek.com/
   logo: "/uploads/2020/04/06/gojek.png"
-  published: true
+  published: false
   service_1: discounted rides
   service_1_notes: ''
   service_2: ''
@@ -553,7 +553,7 @@ operators:
 - name: Gotcha Mobility
   url: https://ridegotcha.com/
   logo: "/uploads/2020/04/06/gotcha.png"
-  published: true
+  published: false
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: ''
@@ -576,7 +576,7 @@ operators:
   published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: discounted rides. cooperation with delivery and restaurants
+  service_2: ''
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
@@ -592,7 +592,7 @@ operators:
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
   logo: "/uploads/2020/04/06/govecs_group.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -607,7 +607,7 @@ operators:
 - name: Helbiz
   url: https://helbiz.com/
   logo: "/uploads/2020/04/06/helbiz.png"
-  published: true
+  published: false
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -640,7 +640,7 @@ operators:
 - name: Hyundai
   url: https://www.hyundai.de/
   logo: "/uploads/2020/04/06/hyundai.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -655,7 +655,7 @@ operators:
 - name: Ithaca Carshare
   url: https://www.ithacacarshare.org/
   logo: "/uploads/2020/04/06/ithaca_carshare.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -688,7 +688,7 @@ operators:
 - name: Lyft
   url: https://www.lyft.com/
   logo: "/uploads/2020/04/06/lyft.png"
-  published: true
+  published: false
   service_1: groceries delivery for risk groups
   service_1_notes: ''
   service_2: ''
@@ -703,7 +703,7 @@ operators:
 - name: Marti
   url: https://www.marti.tech/
   logo: "/uploads/2020/04/06/marti.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
