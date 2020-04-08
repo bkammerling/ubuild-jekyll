@@ -9,7 +9,7 @@ operators:
   url: https://www.citybee.lt/
   logo: "/uploads/2020/04/08/city_bee-1.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Lithuania
     cities:
@@ -28,7 +28,7 @@ operators:
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/08/hertz.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United States
     cities: []
@@ -45,7 +45,7 @@ operators:
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Switzerland
     cities:
@@ -72,7 +72,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order:
+  order: 
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/miles.png"
@@ -88,7 +88,7 @@ operators:
     cities:
     - Berlin
     - Hamburg
-  order:
+  order: 
 - name: Felyx
   url: https://felyx.nl/
   logo: "/uploads/2020/04/06/felyx.png"
@@ -108,7 +108,7 @@ operators:
   - name: Belgium
     cities:
     - Brussels
-  order:
+  order: 
 - name: Green Mobility
   url: https://greenmobility.com/dk/en/
   logo: "/uploads/2020/04/06/green_mobility.png"
@@ -124,7 +124,7 @@ operators:
     cities:
     - Copenhagen
     - Arhus
-  order:
+  order: 
 - name: Rhingo
   url: https://www.rhingo.de/
   logo: "/uploads/2020/04/06/rhingo.png"
@@ -139,7 +139,7 @@ operators:
   - name: Germany
     cities:
     - Cologne
-  order:
+  order: 
 - name: Stella
   url: https://www.stella-sharing.de/
   logo: "/uploads/2020/04/06/stella.png"
@@ -154,7 +154,7 @@ operators:
   - name: Germany
     cities:
     - Stuttgart
-  order:
+  order: 
 - name: evo-sharing
   url: https://www.evo-sharing.ruhr/
   logo: "/uploads/2020/04/06/evo_sharing.png"
@@ -169,7 +169,7 @@ operators:
   - name: Germany
     cities:
     - Oberhausen
-  order:
+  order: 
 - name: Emmy
   url: https://emmy-sharing.de/
   logo: "/uploads/2020/04/06/emmy.png"
@@ -187,7 +187,7 @@ operators:
     - Munich
     - Berlin
     - Dusseldorf
-  order:
+  order: 
 - name: Wave Mobility
   url: ''
   logo: "/uploads/2020/04/06/wave_mobility.png"
@@ -202,7 +202,7 @@ operators:
   - name: Germany
     cities:
     - Regensburg
-  order:
+  order: 
 - name: deins&meins
   url: https://www.deinsundmeins-gt.de/e-carsharing/
   logo: "/uploads/2020/04/06/deins_and_meins.png"
@@ -217,7 +217,7 @@ operators:
   - name: Germany
     cities:
     - Gütersloh
-  order:
+  order: 
 - name: Hive
   url: https://www.ridehive.com/
   logo: "/uploads/2020/04/06/hive.png"
@@ -232,7 +232,7 @@ operators:
   - name: Portugal
     cities:
     - Lisbon
-  order:
+  order: 
 - name: evhcle
   url: https://evhcle.com/
   logo: "/uploads/2020/04/06/evhcle.png"
@@ -247,7 +247,7 @@ operators:
   - name: Germany
     cities:
     - Munich
-  order:
+  order: 
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -262,7 +262,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order:
+  order: 
 - name: Skut
   url: https://skut.mx/
   logo: "/uploads/2020/04/06/skut.png"
@@ -277,7 +277,7 @@ operators:
   - name: Mexico
     cities:
     - Mexico City
-  order:
+  order: 
 - name: Frank-E
   url: https://www.frank-e-sharing.de/
   logo: "/uploads/2020/04/06/frank_e.png"
@@ -292,7 +292,7 @@ operators:
   - name: Germany
     cities:
     - Frankfurt
-  order:
+  order: 
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -309,7 +309,7 @@ operators:
     - Abu Dhabi
     - Dubai
     - Sharjah
-  order:
+  order: 
 - name: OKQ8
   url: https://www.okq8.se/hyrbil/
   logo: "/uploads/2020/04/06/okq8.png"
@@ -324,7 +324,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order:
+  order: 
 - name: Zolo
   url: https://www.zoloiceland.is/
   logo: "/uploads/2020/04/06/zolo.png"
@@ -339,7 +339,7 @@ operators:
   - name: Iceland
     cities:
     - Reykjavik
-  order:
+  order: 
 - name: Hobo
   url: ''
   logo: "/uploads/2020/04/06/hobo.png"
@@ -354,7 +354,7 @@ operators:
   - name: Sofia
     cities:
     - Bulgaria
-  order:
+  order: 
 - name: Aimo
   url: https://aimosolution.com/?lang=en
   logo: "/uploads/2020/04/06/aimo.png"
@@ -369,7 +369,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order:
+  order: 
 - name: BeRider
   url: https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma
   logo: "/uploads/2020/04/06/be_rider.png"
@@ -384,7 +384,7 @@ operators:
   - name: Czech Republic
     cities:
     - Prague
-  order:
+  order: 
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkonig.png"
@@ -399,7 +399,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
   logo: "/uploads/2020/04/06/bird.png"
@@ -424,7 +424,7 @@ operators:
   - name: Israel
     cities:
     - Tel Aviv
-  order:
+  order: 
 - name: City-Drop
   url: https://www.city-drop.com/
   logo: "/uploads/2020/04/06/city_drop.png"
@@ -457,7 +457,7 @@ operators:
     - Rennes
     - Strasbourg
     - Toulouse
-  order:
+  order: 
 - name: CityScoot
   url: https://www.cityscoot.eu/en/paris/
   logo: "/uploads/2020/04/06/city_scoot.png"
@@ -472,7 +472,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
 - name: Ekar
   url: https://ekar.ae/
   logo: "/uploads/2020/04/06/ekar.png"
@@ -489,7 +489,7 @@ operators:
     - Dubai
     - Abu Dhabi
     - Sharjah
-  order:
+  order: 
 - name: Faxi
   url: https://faxi.co.uk/
   logo: "/uploads/2020/04/06/faxi.png"
@@ -504,7 +504,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Free2Move
   url: https://de.free2move.com/
   logo: "/uploads/2020/04/06/free2move.png"
@@ -519,7 +519,7 @@ operators:
   - name: United States
     cities:
     - Washington DC
-  order:
+  order: 
 - name: Gocycle GS
   url: https://promo.fullycharged.com/nhs-support
   logo: "/uploads/2020/04/06/go_cycle.png"
@@ -534,7 +534,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Gojek
   url: https://www.gojek.com/
   logo: "/uploads/2020/04/06/gojek.png"
@@ -549,7 +549,7 @@ operators:
   - name: Singapore
     cities:
     - Singapore
-  order:
+  order: 
 - name: Gotcha Mobility
   url: https://ridegotcha.com/
   logo: "/uploads/2020/04/06/gotcha.png"
@@ -569,7 +569,7 @@ operators:
     - Mobile
     - Raleigh
     - Syracuse
-  order:
+  order: 
 - name: GoTo Carsharing
   url: https://goto.global/
   logo: "/uploads/2020/04/06/goto.png"
@@ -588,7 +588,7 @@ operators:
     cities:
     - Valetta
     - Pembroke
-  order:
+  order: 
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
   logo: "/uploads/2020/04/06/govecs_group.png"
@@ -603,7 +603,7 @@ operators:
   - name: Poland
     cities:
     - Wroclaw
-  order:
+  order: 
 - name: Helbiz
   url: https://helbiz.com/
   logo: "/uploads/2020/04/06/helbiz.png"
@@ -636,7 +636,7 @@ operators:
     - Milan
     - Riccione
     - Pesaro
-  order:
+  order: 
 - name: Hyundai
   url: https://www.hyundai.de/
   logo: "/uploads/2020/04/06/hyundai.png"
@@ -651,7 +651,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
 - name: Ithaca Carshare
   url: https://www.ithacacarshare.org/
   logo: "/uploads/2020/04/06/ithaca_carshare.png"
@@ -666,7 +666,7 @@ operators:
   - name: United States
     cities:
     - New York
-  order:
+  order: 
 - name: Kapten
   url: https://www.kapten.com/
   logo: "/uploads/2020/04/06/kapten.png"
@@ -684,7 +684,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Lyft
   url: https://www.lyft.com/
   logo: "/uploads/2020/04/06/lyft.png"
@@ -699,7 +699,7 @@ operators:
   - name: United States
     cities:
     - San Francisco
-  order:
+  order: 
 - name: Marti
   url: https://www.marti.tech/
   logo: "/uploads/2020/04/06/marti.png"
@@ -714,7 +714,7 @@ operators:
   - name: Turkey
     cities:
     - Istanbul
-  order:
+  order: 
 - name: Mevo
   url: https://mevo.co.nz/auckland
   logo: "/uploads/2020/04/06/mevo.png"
@@ -730,7 +730,7 @@ operators:
     cities:
     - Wellington
     - Auckland
-  order:
+  order: 
 - name: MOL Limo
   url: https://www.mollimo.hu/en/
   logo: "/uploads/2020/04/06/mol_limo.png"
@@ -745,7 +745,7 @@ operators:
   - name: Hungary
     cities:
     - Budapest
-  order:
+  order: 
 - name: Muvo Bike
   url: https://muvo.bike/?lang=en
   logo: "/uploads/2020/04/06/muvo.png"
@@ -760,7 +760,7 @@ operators:
   - name: Colombia
     cities:
     - Bogota
-  order:
+  order: 
 - name: Poppy Mobility
   url: https://poppy.be/en/
   logo: "/uploads/2020/04/06/poppy.png"
@@ -776,7 +776,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order:
+  order: 
 - name: Share Now
   url: https://www.share-now.com/de/en/care-now/
   logo: "/uploads/2020/04/06/sharenow.png"
@@ -826,7 +826,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order:
+  order: 
 - name: Sixt
   url: https://www.sixt.com/
   logo: "/uploads/2020/04/06/sixt.png"
@@ -843,7 +843,7 @@ operators:
     - Berlin
     - Munich
     - Hamburg
-  order:
+  order: 
 - name: Spin
   url: https://www.spin.app/
   logo: "/uploads/2020/04/06/spin.png"
@@ -866,7 +866,7 @@ operators:
     - San Francisco
     - Tampa
     - Washington DC
-  order:
+  order: 
 - name: Swiftmile
   url: https://swiftmile.com/
   logo: "/uploads/2020/04/06/swiftmile.png"
@@ -881,7 +881,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order:
+  order: 
 - name: Uber
   url: https://www.uber.com/de/en/
   logo: "/uploads/2020/04/06/uber.png"
@@ -899,7 +899,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
 - name: WeShare Deutschland
   url: https://www.we-share.io/en/
   logo: "/uploads/2020/04/06/we_share.png"
@@ -914,7 +914,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
 - name: Wheels
   url: https://www.takewheels.com/
   logo: "/uploads/2020/04/06/wheels.png"
@@ -929,7 +929,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order:
+  order: 
 - name: Wible
   url: https://www.wible.es/
   logo: "/uploads/2020/04/06/wible.png"
@@ -944,7 +944,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
 - name: Zity
   url: https://zity.eco/
   logo: "/uploads/2020/04/06/zity.png"
@@ -962,7 +962,7 @@ operators:
     - Clinchy
     - Le Kremlin Bicêtre
     - Paris
-  order:
+  order: 
 - name: Zoov
   url: https://zoov.typeform.com/to/oCGJAs
   logo: "/uploads/2020/04/06/zoov.png"
@@ -978,7 +978,7 @@ operators:
     cities:
     - Bordeaux
     - Paris
-  order:
+  order: 
 all_services:
 - cooperation with delivery and restaurants
 - discounted rides
@@ -994,7 +994,8 @@ services_detail:
     grocery delivery services.
   need_this_helps_with: Access to vehicles for grocery delivery
 - service_name: alternative commuting options
-  service_description: __company_name__ is making part of their fleet available to the general pubic as a transport alternative.
+  service_description: __company_name__ is making part of their fleet available to
+    the general public as a transport alternative.
   need_this_helps_with: Alternative commuting options
 - service_name: groceries delivery for risk groups
   service_description: __company_name__ is making part of their fleet available to
@@ -1019,6 +1020,7 @@ services_detail:
 - service_name: discounted rides
   service_description: __company_name__ is offering discounted rides to users.
   need_this_helps_with: Alternative commuting options
-- service_description: __company_name__ is making part of their fleet available to restaurants and takeaway delivery services.
+- service_description: __company_name__ is making part of their fleet available to
+    restaurants and takeaway delivery services.
   need_this_helps_with: Access to vehicles for takeaway delivery
   service_name: cooperation with delivery and restaurants
