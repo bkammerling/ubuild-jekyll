@@ -46,6 +46,8 @@ operators:
   published: true
   order: 0
   countries:
+  - name: United States
+    cities: []
   - name: Germany
     cities:
     - All cities
