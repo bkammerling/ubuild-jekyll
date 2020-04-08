@@ -73,7 +73,7 @@
 
 {% assign countries = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "name" | uniq  %}
 {% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
-{% assign operators = site.data.weallmove.operators | where: 'published', true %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 
 <script type="text/javascript">
   var countryObject = {};
@@ -139,7 +139,7 @@
 </section>
 
 
-{% assign operators = site.data.weallmove.operators | where: 'published', true %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 <section class="weallmove-list my-5">
   <div class="container">
 

@@ -26,7 +26,7 @@
       <div class="covid-notice text-lg-center">
       <div class="row">
         <div class="col-9 col-lg-12">
-          <span class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline text-blue text-link">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></div></span>
+          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline ml-md-2 text-blue text-link wholink">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
         <div class="col-3 d-lg-none">
           <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <ion-icon class="text-blue d-lg-none" name="open-outline"></ion-icon></a></div>
@@ -48,8 +48,9 @@
         <hr class="mt-5 mb-0">
         <div class="d-flex align-items-center justify-content-center">
           <p class="text-link text-dark pr-sm-5">In Partnerschaft mit</p>
-          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.jpg" data-srcset="/uploads/global/wef-logo@2x.jpg 2x" alt="World Economic Forum text logo" />
-          <img data-src="/uploads/global/hamburg-logo.jpg" data-srcset="/uploads/global/hamburg-logo@2x.jpg 2x" alt="Hamburg city emblem and text" />
+          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.png" data-srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" />
+          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/hertz-logo.png" data-srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" />
+          <img data-src="/uploads/global/wam-allianz-logo.png" data-srcset="/uploads/global/wam-allianz-logo@2x.png 2x" alt="Allianz automotive blau logo" />
         </div>
         <hr class="mb-5 mt-0">
         <div class="row mt-5 py-5">
@@ -70,9 +71,9 @@
 </section>
 
 
-{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" | uniq  %}
-{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
-{% assign operators = site.data.weallmove.operators %}
+{% assign countries = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 
 <script type="text/javascript">
   var countryObject = {};
@@ -138,7 +139,7 @@
 </section>
 
 
-{% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 <section class="weallmove-list my-5">
   <div class="container">
 

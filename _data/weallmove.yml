@@ -5,6 +5,58 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: Citybee
+  url: https://www.citybee.lt/
+  logo: "/uploads/2020/04/08/city_bee.png"
+  published: true
+  order:
+  countries:
+  - name: Lithuania
+    cities:
+    - Neringa
+    - Palanga
+    - Klaipėda
+    - Kaunas
+    - Vilnius
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Hertz
+  url: https://www.hertz.de/
+  logo: "/uploads/2020/04/08/hertz (1).png"
+  published: true
+  order:
+  countries:
+  - name: United States
+    cities: []
+  - name: Germany
+    cities:
+    - All cities
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: support for healthcare workers and local authorities
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Highspeed service
+  url: https://www.highspeedservice.ch/
+  logo: "/uploads/2020/04/08/high_speed_service.png"
+  published: true
+  order: -3
+  countries:
+  - name: Switzerland
+    cities:
+    - Basel
+    - Zürich
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Scooty
   url: https://scootysharing.be/
   logo: '/uploads/2020/04/06/scooty.png'
