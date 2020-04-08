@@ -3,7 +3,7 @@ link: https://www.manager-magazin.de/unternehmen/autoindustrie/e-scooter-mieten-
 title: Was die E-Scooter-Verleiher in Wallung bringt
 date: 2020-02-13 23:00:00 +0000
 lang: German
-image: "/uploads/2019/05/21/Manager_Magazin.png"
+image: "/uploads/2020/04/08/ManagerMagazin_logo_press-1.png"
 featured: false
 
 ---
