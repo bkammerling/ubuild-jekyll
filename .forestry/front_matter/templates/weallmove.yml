@@ -20,6 +20,17 @@ fields:
     label: Published
     description: Switch on to display in our list of operators
     default: true
+  - name: order
+    type: number
+    description: Use this if you want the operator to display higher/lower in unfiltered
+      list
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 1
+    label: Order
   - name: countries
     type: field_group_list
     fields:
