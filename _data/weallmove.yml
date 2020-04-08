@@ -206,7 +206,7 @@ operators:
 - name: deins&meins
   url: https://www.deinsundmeins-gt.de/e-carsharing/
   logo: "/uploads/2020/04/06/deins_and_meins.png"
-  published: true
+  published: false
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: ''
@@ -358,7 +358,7 @@ operators:
 - name: Aimo
   url: https://aimosolution.com/?lang=en
   logo: "/uploads/2020/04/06/aimo.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: expansion of area to hospitals
