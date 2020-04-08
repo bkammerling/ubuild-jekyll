@@ -718,7 +718,7 @@ operators:
 - name: Mevo
   url: https://mevo.co.nz/auckland
   logo: "/uploads/2020/04/06/mevo.png"
-  published: true
+  published: false
   service_1: extra vehicle sanitisation
   service_1_notes: ''
   service_2: ''
@@ -734,7 +734,7 @@ operators:
 - name: MOL Limo
   url: https://www.mollimo.hu/en/
   logo: "/uploads/2020/04/06/mol_limo.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: discounted rides
@@ -749,7 +749,7 @@ operators:
 - name: Muvo Bike
   url: https://muvo.bike/?lang=en
   logo: "/uploads/2020/04/06/muvo.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -764,7 +764,7 @@ operators:
 - name: Poppy Mobility
   url: https://poppy.be/en/
   logo: "/uploads/2020/04/06/poppy.png"
-  published: true
+  published: false
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: support for healthcare workers and local authorities
@@ -780,7 +780,7 @@ operators:
 - name: Share Now
   url: https://www.share-now.com/de/en/care-now/
   logo: "/uploads/2020/04/06/sharenow.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -830,7 +830,7 @@ operators:
 - name: Sixt
   url: https://www.sixt.com/
   logo: "/uploads/2020/04/06/sixt.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: extra vehicle sanitisation
@@ -847,7 +847,7 @@ operators:
 - name: Spin
   url: https://www.spin.app/
   logo: "/uploads/2020/04/06/spin.png"
-  published: true
+  published: false
   service_1: alternative commuting options
   service_1_notes: ''
   service_2: extra vehicle sanitisation
