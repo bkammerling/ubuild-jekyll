@@ -48,6 +48,8 @@ operators:
     - Amsterdam
     - Rotterdam
     - Den Haag
+  - name: Belgium
+    cities:
     - Brussels
 - name: Green Mobility
   url: https://greenmobility.com/dk/en/
@@ -62,7 +64,6 @@ operators:
   - name: Denmark
     cities:
     - Copenhagen
-    - Oslo
     - Arhus
 - name: Rhingo
   url: https://www.rhingo.de/

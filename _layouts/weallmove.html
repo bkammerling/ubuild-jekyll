@@ -60,7 +60,7 @@
           <img data-src="/uploads/global/hamburg-logo.jpg" data-srcset="/uploads/global/hamburg-logo@2x.jpg 2x" alt="Hamburg city emblem and text" />
         </div>
         <hr class="mb-5 mt-0">
-        <div class="row mt-5">
+        <div class="row mt-5 py-5">
           <div class="col-md-6">
             <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
           </div>
@@ -90,14 +90,14 @@
         countryObject['{{country.name}}'] = [];
       }
       {% for city in country.cities %}
-        countryObject['{{country.name}}'].push({ id: "{{mainindex}}_{{forloop.index}}", text: "{{city}}"});
+        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
       {% endfor %}
     {% endfor %}
   {% endfor %}
   var countryArray = [];
-  {% for country in countries %}countryArray.push({  id: "{{forloop.index}}", text: "{{country}}" });{% endfor %}
+  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
   var cityArray = [];
-  {% for city in cities %}cityArray.push({  id: "{{forloop.index}}", text: "{{city}}" });{% endfor %}
+  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
 </script>
 
 <section class="weallmove-filters fullscreen-bg bg-blue py-5">
@@ -338,32 +338,32 @@
       </button>
       <form id="modal-form" class="ajaxForm contact-form__form" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
         <div class="modal-body">
-          <input type="hidden" name="subject" id="subject-field" value="I'm interested">
-          <input type="hidden" name="lang" id="site-lang" value="en">
-          <input type="hidden" name="first_visit" id="first_visit" value="">
+          <input type="hidden" name="subject" id="modal_subject-field" value="I'm interested">
+          <input type="hidden" name="lang" id="modal_site-lang" value="en">
+          <input type="hidden" name="first_visit" id="modal_first_visit" value="">
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group mb-3">
                   <label for="recipient-name" class="form-label">Full Name *</label>
-                  <input type="text" class="" id="recipient-name" name="name" required />
+                  <input type="text" class="" id="modal_recipient-name" name="name" required />
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group mb-3 mb-md-0">
                   <label for="email" class="form-label">Email *</label>
-                  <input type="email" class="" id="email" name="email" required />
+                  <input type="email" class="" id="modal_email" name="email" required />
                   <div class="bottom-border"></div>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group mb-3">
                   <label for="recipient-company" class="form-label">Company name *</label>
-                  <input type="text" class="" id="recipient-company" name="company" required />
+                  <input type="text" class="" id="modal_recipient-company" name="company" required />
                   <div class="bottom-border"></div>
                 </div>
                 <div class="form-group mb-3 mb-md-0">
                   <label for="phone" class="form-label">Phone Number</label>
-                  <input type="text" class="" id="phone" name="phone" />
+                  <input type="text" class="" id="modal_phone" name="phone" />
                   <div class="bottom-border"></div>
                 </div>
               </div>
@@ -371,17 +371,17 @@
             <hr>
             <div class="form-group">
               <label for="message-text" class="col-form-label">Your message</label>
-              <textarea rows="3" class="" id="message-text" name="message"></textarea>
+              <textarea rows="3" class="" id="modal_message-text" name="message"></textarea>
               <div class="bottom-border"></div>
             </div>
-            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+            <input type="hidden" id="modal_captchaResponse" name="g-recaptcha-response" />
 
             <div class="row mt-4">
               <div class="col-sm-5">
                 <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
               </div>
               <div class="col-sm-7 text-right">
-                <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+                <button id="modal_form-submit" class="btn btn-primary" onclick="formSubmit(event)">
                   Send form
                 </button>
               </div>
