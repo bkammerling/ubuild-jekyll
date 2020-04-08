@@ -45,7 +45,7 @@ operators:
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Switzerland
     cities:
@@ -233,7 +233,7 @@ operators:
     cities:
     - Lisbon
   order:
-- name: evhcl
+- name: evhcle
   url: https://evhcle.com/
   logo: "/uploads/2020/04/06/evhcle.png"
   published: true
@@ -993,6 +993,13 @@ services_detail:
   service_description: __company_name__ is making part of their fleet available to
     grocery delivery services.
   need_this_helps_with: Access to vehicles for grocery delivery
+- service_name: alternative commuting options
+  service_description: __company_name__ is making part of their fleet available to the general pubic as a transport alternative.
+  need_this_helps_with: Alternative commuting options
+- service_name: groceries delivery for risk groups
+  service_description: __company_name__ is making part of their fleet available to
+    grocery delivery services.
+  need_this_helps_with: Access to vehicles for grocery delivery
 - service_name: support for healthcare workers and local authorities
   service_description: '__company_name__ is ensuring that healthcare and emergency
     workers have free, safe rides to their jobs. '
@@ -1012,7 +1019,6 @@ services_detail:
 - service_name: discounted rides
   service_description: __company_name__ is offering discounted rides to users.
   need_this_helps_with: Alternative commuting options
-- service_description: __company_name__ is making part of their fleet available to
-    takeaway restaurants and takeaway delivery services.
+- service_description: __company_name__ is making part of their fleet available to restaurants and takeaway delivery services.
   need_this_helps_with: Access to vehicles for takeaway delivery
   service_name: cooperation with delivery and restaurants
