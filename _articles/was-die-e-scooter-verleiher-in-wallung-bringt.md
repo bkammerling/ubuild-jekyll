@@ -5,6 +5,5 @@ date: 2020-02-13 23:00:00 +0000
 lang: German
 image: "/uploads/2019/05/21/Manager_Magazin.png"
 featured: false
-published: false
 
 ---
