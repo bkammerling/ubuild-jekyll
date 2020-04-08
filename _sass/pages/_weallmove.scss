@@ -1,6 +1,10 @@
 body.weallmove {
   padding-top: 0;
 
+  .hero-anim svg {
+    max-width: 100%;
+  }
+
   .modal {
     .modal-content {
       padding: 30px 15px;
