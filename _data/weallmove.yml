@@ -373,7 +373,7 @@ operators:
 - name: BeRider
   url: https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma
   logo: "/uploads/2020/04/06/be_rider.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -388,7 +388,7 @@ operators:
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkonig.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -403,7 +403,7 @@ operators:
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
   logo: "/uploads/2020/04/06/bird.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: cooperation with delivery and restaurants
@@ -428,7 +428,7 @@ operators:
 - name: City-Drop
   url: https://www.city-drop.com/
   logo: "/uploads/2020/04/06/city_drop.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -461,7 +461,7 @@ operators:
 - name: CityScoot
   url: https://www.cityscoot.eu/en/paris/
   logo: "/uploads/2020/04/06/city_scoot.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -476,7 +476,7 @@ operators:
 - name: Ekar
   url: https://ekar.ae/
   logo: "/uploads/2020/04/06/ekar.png"
-  published: true
+  published: false
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
   service_2: ''
@@ -493,7 +493,7 @@ operators:
 - name: Faxi
   url: https://faxi.co.uk/
   logo: "/uploads/2020/04/06/faxi.png"
-  published: true
+  published: false
   service_1: groceries delivery for risk groups
   service_1_notes: ''
   service_2: ''
