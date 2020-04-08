@@ -26,7 +26,7 @@ operators:
   service_3_notes: ''
 - name: Hertz
   url: https://www.hertz.de/
-  logo: "/uploads/2020/04/08/hertz (1).png"
+  logo: "/uploads/2020/04/08/hertz.png"
   published: true
   order: 
   countries:
