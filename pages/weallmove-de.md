@@ -9,7 +9,7 @@ ogurl: https://weallmove.co/de
 lang: de
 lang-ref: weallmove
 version: hp
-share_image: ''
+share_image: '/uploads/global/social-weallmove@2x.jpg'
 component_scripts:
 - weAllMove.js
 published: true

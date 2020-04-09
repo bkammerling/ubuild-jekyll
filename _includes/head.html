@@ -57,7 +57,7 @@
     {% else %}
       <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     {% endif %}
-    <meta property="og:image" content="{% if page.share_image %}{{ site.url }}{{ page.share_image }}{% else %}{{ site.url }}/uploads/global/share-img.png{% endif %}" />
+    <meta property="og:image" content="{% if page.share_image.size > 0 %}{{ site.url }}{{ page.share_image }}{% else %}{{ site.url }}/uploads/global/share-img.png{% endif %}" />
     <meta name="twitter:site" content="@wundermobility">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" async>
