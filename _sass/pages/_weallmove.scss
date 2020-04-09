@@ -10,6 +10,7 @@ body.weallmove {
       @include rwd(tablet-down){
         font-size: 12px;
         font-weight: normal;
+        line-height: 15px;
       }
     }
     .partnerships {
@@ -17,14 +18,16 @@ body.weallmove {
       align-items: center;
       justify-content: center;
       .text-link {
-        padding-right: 8%;
+        @include rwd(mobile-up) {
+          padding-right: 8%;
+        }
       }
       .partner-logos {
         display: flex;
       }
       img {
         @include rwd(mobile-down){
-          max-height: 80px;
+          max-height: 54px;
         }
       }
     }
