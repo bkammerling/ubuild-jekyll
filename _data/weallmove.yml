@@ -285,8 +285,9 @@ operators:
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: discounted rides
-  service_2_notes: ''
-  service_3: support for healthcare workers and local authorities
+  service_2_notes: Frank-E is offering 1h for Free to any user doing something good
+    for the community. Get in touch with us to learn more.
+  service_3: ''
   service_3_notes: ''
   countries:
   - name: Germany
