@@ -1095,7 +1095,7 @@ services_detail:
   need_this_helps_with: Access to vehicles for grocery delivery
 - service_name: support for healthcare and/or essential workers
   service_description: '__company_name__ is ensuring that healthcare and emergency
-    workers have free, safe rides to their jobs. '
+    workers have discounted, safe rides to their jobs. '
   need_this_helps_with: Commute solutions for healthcare workers
 - service_name: in-app icon for recently-sanitised vehicle
   service_description: Recently sanitized vehicles appear as a special icon on __company_name__'s
