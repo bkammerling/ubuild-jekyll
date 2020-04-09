@@ -5,6 +5,22 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: GoVolt
+  url: https://www.govolt.it/
+  logo: "/uploads/2020/04/09/go_volt.png"
+  published: true
+  order: 
+  countries:
+  - name: Italy
+    cities:
+    - Verona
+    - Milan
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: support for healthcare workers and local authorities
+  service_2_notes: ''
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -55,6 +71,24 @@ operators:
   service_3: ''
   service_3_notes: ''
   order: 
+- name: Dott
+  url: https://ridedott.com/
+  logo: "/uploads/2020/04/09/dott.png"
+  published: true
+  order: 
+  countries:
+  - name: France
+    cities:
+    - Paris
+  - name: Netherlands
+    cities:
+    - Amsterdam
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -130,7 +164,7 @@ operators:
   service_1: cooperation with delivery and restaurants
   service_1_notes: ''
   service_2: discounted rides
-  service_2_notes: Frank-E is offering 1h for Free to any user doing something good
+  service_2_notes: Frank-E is offering 1h for free to any user doing something good
     for the community. Get in touch with us to learn more.
   service_3: ''
   service_3_notes: ''
@@ -254,6 +288,25 @@ operators:
     - Berlin
     - Hamburg
   order: 
+- name: Moby
+  url: https://mobymove.com/
+  logo: "/uploads/2020/04/09/moby.png"
+  published: true
+  order: 0
+  countries:
+  - name: Ireland
+    cities:
+    - Dublin
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: support for healthcare workers and local authorities
+  service_3_notes: 'Moby is providing dedicated electric bikes for healthcare workers
+    for free. If you also want to help, Moby has also arranged program whereby anyone
+    can lend electric bikes to them and they''ll lend it to a worker.
+
+'
 - name: OKQ8
   url: https://www.okq8.se/hyrbil/
   logo: "/uploads/2020/04/06/okq8.png"
@@ -277,8 +330,8 @@ operators:
   service_1_notes: ''
   service_2: discounted rides
   service_2_notes: Rhingo is offering free and safe rides to all people that are still
-    working in health care, in food retailing, in pharmacies and drugstores, at the
-    fire brigade, the police, in public order offices or in disaster control.
+    working in food retailing, in pharmacies and drugstores, at the fire brigade,
+    the police, in public order offices or in disaster control.
   service_3: ''
   service_3_notes: ''
   countries:
@@ -347,6 +400,28 @@ operators:
     cities:
     - Regensburg
   order: 
+- name: Zeelo
+  url: https://zeelo.co/key-worker-transport
+  logo: "/uploads/2020/04/09/zeelo.png"
+  published: true
+  order: 
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  - cities:
+    - Barcelona
+    name: Spain
+  - name: South Africa
+    cities:
+    - Durban
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: Zeelo can provide a short term bus service to get key workers to
+    work in the safest possible way.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Zolo
   url: https://www.zoloiceland.is/
   logo: "/uploads/2020/04/06/zolo.png"
