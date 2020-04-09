@@ -9,7 +9,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/weallmove.md
-title: From moving people to starting a movement
+title: 'From moving people to starting a movement '
 publish_date: 2020-04-09 16:00:00 +0000
 featured_image: ''
 excerpt: We believe that it is time to come together, break down barriers and take
@@ -20,6 +20,8 @@ sticky: false
 hidden: false
 
 ---
+{% include block-video-2.html vimeo-id="405780232" %}
+
 The world we live in today is completely different from what it used to be even two weeks ago. One third of the human population is currently living under lockdown. COVID-19 has had an unprecedented impact on society: from the way we work to the way we move, every aspect of our lives is now approaching a new normal, and what started as a health crisis is now sending ripples through the global economy.
 
 The frontline of this crisis, however, is formed by essential services and small/medium enterprises, without which life would come to a virtual standstill.
@@ -37,5 +39,4 @@ We believe that it is time to come together, break down barriers and take collec
 
 Because if one of us moves, #WeAllMove.
 
-  
 Join us in this movement on [www.weallmove.co](http://www.weallmove.co)
