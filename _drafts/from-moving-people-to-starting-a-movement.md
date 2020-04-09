@@ -38,6 +38,6 @@ The goal of this platform is to bridge information gaps by consolidating mobilit
 
 We believe that it is time to come together, break down barriers and take collective action to aid in recovery. **This is not a statement;** **it’s an** **invitation** we would like to extend to everybody, from private mobility operators and public transit operators to commuters and academic institutions.
 
-Because if one of us moves, #WeAllMove.
+Because if one of us moves, **#WeAllMove.**
 
-Join us in this movement on [www.weallmove.co](http://www.weallmove.co)
+Join the movement on [www.weallmove.co](http://www.weallmove.co)
