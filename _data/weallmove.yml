@@ -55,24 +55,55 @@ operators:
   service_3: ''
   service_3_notes: ''
   order: 
+- name: Cluno
+  url: https://www.cluno.com/
+  logo: "/uploads/2020/04/09/cluno.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Cluno is providing discount for car subscriptions to all healthcare
+    and other key workers (up to €698 worth).
+  service_2: discounted rides
+  service_2_notes: Save up to €299 with Cluno's program "Dein Auto Abo - Euer Auto".
+    Available to everyone in need to commute.
+  service_3: ''
+  service_3_notes: ''
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
   published: true
   order: 
   countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Liege
+  - name: Italy
+    cities:
+    - Turin
+  - name: Germany
+    cities:
+    - Bonn
+    - Cologne
+    - Augsburg
+    - Munich
   - name: France
     cities:
+    - Lyon
     - Paris
-  - name: Netherlands
-    cities:
-    - Amsterdam
   service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: extra vehicle sanitisation
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
+  service_1_notes: Dott is supporting healthcare, supermarkets, bank and voluntary
+    workers with discounts.
+  service_2: expansion of area to hospitals
+  service_2_notes: In Lyon,  Dott has expanded their business area in most cities
+    to support more hospitals.
+  service_3: discounted rides
+  service_3_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
+    and Turin to support medicine delivery.
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -271,6 +302,21 @@ operators:
     cities:
     - Sofia
   order: 
+- name: Juuve
+  url: https://juuve.nl/
+  logo: "/uploads/2020/04/09/juuve.png"
+  published: true
+  order: 
+  countries:
+  - name: Netherlands
+    cities:
+    - Rotterdam
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Miles
   url: https://miles-mobility.com/
   logo: "/uploads/2020/04/06/miles.png"
@@ -338,6 +384,40 @@ operators:
     cities:
     - Cologne
   order: 
+- name: SIXT rent
+  url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
+  logo: "/uploads/2020/04/09/sixt-1.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: discounted rides
+  service_1_notes: 'Until April 30th, SIXT is offering discounted rides with two packages:
+    SIXT Flat Offer and SIXT Flex Offer. Learn more by visiting the website.'
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: SIXT share
+  url: https://www.sixt.com/share/rates/#/
+  logo: "/uploads/2020/04/09/sixt.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+    - Hamburg
+    - Munich
+  service_1: discounted rides
+  service_1_notes: SIXT is offering rides from 9 cents/min for the general public.
+    Visit the website for more information
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Scooty
   url: https://scootysharing.be/
   logo: "/uploads/2020/04/06/scooty.png"
