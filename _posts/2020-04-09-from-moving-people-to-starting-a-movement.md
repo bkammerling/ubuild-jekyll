@@ -18,7 +18,7 @@ excerpt: We believe that it is time to come together, break down barriers and ta
   we would like to extend to everybody.
 share_image: "/uploads/2020/04/09/WeAllMove_Blog_List-1.png"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 The world we live in today is completely different from what it used to be even two weeks ago. One third of the human population is currently living under lockdown. COVID-19 has had an unprecedented impact on society: from the way we work to the way we move, every aspect of our lives is now approaching a new normal, and what started as a health crisis is now sending ripples through the global economy.
