@@ -180,7 +180,8 @@ operators:
   published: true
   countries:
   - name: United States
-    cities: []
+    cities:
+    - New York
   - name: Germany
     cities:
     - All cities
