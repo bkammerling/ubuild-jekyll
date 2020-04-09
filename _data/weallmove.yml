@@ -5,22 +5,6 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
-- name: GoVolt
-  url: https://www.govolt.it/
-  logo: "/uploads/2020/04/09/go_volt.png"
-  published: true
-  order: 
-  countries:
-  - name: Italy
-    cities:
-    - Verona
-    - Milan
-  service_1: discounted rides
-  service_1_notes: ''
-  service_2: support for healthcare workers and local authorities
-  service_2_notes: ''
-  service_3: cooperation with delivery and restaurants
-  service_3_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -208,6 +192,22 @@ operators:
     - Valetta
     - Pembroke
   order: 
+- name: GoVolt
+  url: https://www.govolt.it/
+  logo: "/uploads/2020/04/09/go_volt.png"
+  published: true
+  order: 
+  countries:
+  - name: Italy
+    cities:
+    - Verona
+    - Milan
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: support for healthcare workers and local authorities
+  service_2_notes: ''
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: ''
 - name: Hertz
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/08/hertz.png"

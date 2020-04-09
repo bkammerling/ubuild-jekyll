@@ -12,11 +12,11 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/weallmove.md
 title: From moving people to starting a movement
 publish_date: 2020-04-09 16:00:00 +0000
-featured_image: "/uploads/2020/04/09/WeAllMove_RachitBlogPost_List.png"
+featured_image: "/uploads/2020/04/09/WeAllMove_Blog_List-1.png"
 excerpt: We believe that it is time to come together, break down barriers and take
   collective action to aid in recovery. **This is not a statement;** **it’s an** **invitation**
   we would like to extend to everybody.
-share_image: "/uploads/2020/04/09/WeAllMove_RachitBlogPost_List.png"
+share_image: "/uploads/2020/04/09/WeAllMove_Blog_List-1.png"
 sticky: false
 hidden: false
 
