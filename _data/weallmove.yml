@@ -231,7 +231,6 @@ operators:
   countries:
   - name: Italy
     cities:
-    - Verona
     - Milan
   service_1: discounted rides
   service_1_notes: ''
@@ -488,9 +487,6 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  - cities:
-    - Barcelona
-    name: Spain
   - name: South Africa
     cities:
     - Durban
