@@ -18,6 +18,7 @@ body.weallmove {
       align-items: center;
       justify-content: center;
       .text-link {
+        padding-right: 5px;
         @include rwd(mobile-up) {
           padding-right: 8%;
         }
