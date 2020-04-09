@@ -155,6 +155,25 @@ operators:
     - Copenhagen
     - Arhus
   order: 
+- name: GoTo Carsharing
+  url: https://goto.global/
+  logo: "/uploads/2020/04/06/goto.png"
+  published: true
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Israel
+    cities:
+    - Tel Aviv
+  - name: Malta
+    cities:
+    - Valetta
+    - Pembroke
+  order: 
 - name: Hertz
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/08/hertz.png"
@@ -586,25 +605,6 @@ operators:
     - Mobile
     - Raleigh
     - Syracuse
-  order: 
-- name: GoTo Carsharing
-  url: https://goto.global/
-  logo: "/uploads/2020/04/06/goto.png"
-  published: true
-  service_1: support for healthcare workers and local authorities
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Israel
-    cities:
-    - Tel Aviv
-  - name: Malta
-    cities:
-    - Valetta
-    - Pembroke
   order: 
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
