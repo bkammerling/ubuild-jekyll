@@ -145,8 +145,10 @@ operators:
   published: true
   service_1: support for healthcare workers and local authorities
   service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
+  service_2: discounted rides
+  service_2_notes: Rhingo is offering free and safe rides to all people that are still
+    working in health care, in food retailing, in pharmacies and drugstores, at the
+    fire brigade, the police, in public order offices or in disaster control.
   service_3: ''
   service_3_notes: ''
   countries:
