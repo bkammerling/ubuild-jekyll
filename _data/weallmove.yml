@@ -217,9 +217,11 @@ operators:
     cities:
     - All cities
   service_1: discounted rides
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
+  service_1_notes: Hertz is offering special long-term rates for to provide to everybody
+    individual mobility
+  service_2: support for healthcare and/or essential workers
+  service_2_notes: Hertz has a special program in place to support the required mobility
+    of our health care workers
   service_3: ''
   service_3_notes: ''
   order: 
