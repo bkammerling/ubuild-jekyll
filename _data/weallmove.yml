@@ -240,18 +240,18 @@ operators:
   service_3_notes: ''
 - name: Hertz
   url: https://www.hertz.de/
-  logo: "/uploads/2020/04/08/hertz.png"
+  logo: "/uploads/2020/04/09/hertz.png"
   published: true
   countries:
   - name: Germany
     cities:
     - All cities
   service_1: discounted rides
-  service_1_notes: Hertz offering special long-term rates to provide to everybody
-    individual mobility. Hertz Minilease offer, Small name for a big Deal
+  service_1_notes: Hertz is offering special long-term rates for the general public
+    with their Hertz Minilease offer. It’s a small name for a big deal.
   service_2: support for healthcare and/or essential workers
-  service_2_notes: 'It is a matter from our Heart to support our health care workers
-    and provide them with an individual and safe mobility solution. #Hertzenssache'
+  service_2_notes: 'To support health care workers, Hertz is providing them with individual
+    and safe mobility solutions. #Hertzenssache '
   service_3: ''
   service_3_notes: ''
   order: 
