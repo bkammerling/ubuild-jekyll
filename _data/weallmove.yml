@@ -217,11 +217,11 @@ operators:
     cities:
     - All cities
   service_1: discounted rides
-  service_1_notes: Hertz is offering special long-term rates for to provide to everybody
-    individual mobility
+  service_1_notes: Hertz offering special long-term rates for to provide to everybody
+    individual mobility. Hertz Minilease offer, Small name for a big Deal
   service_2: support for healthcare and/or essential workers
-  service_2_notes: Hertz has a special program in place to support the required mobility
-    of our health care workers
+  service_2_notes: 'It is a matter from our Heart to support our health care workers
+    and provide them with an individual and safe mobility solution. #Hertzenssache'
   service_3: ''
   service_3_notes: ''
   order: 
