@@ -5,6 +5,20 @@ all_needs:
 - Alternative commuting options
 - Commute solutions for healthcare workers
 operators:
+- name: 'Brite Mobility '
+  url: https://www.brite.ie/
+  logo: "/uploads/2020/04/09/brite.png"
+  published: true
+  order: 
+  countries:
+  - name: Ireland
+    cities: []
+  service_1: support for healthcare workers and local authorities
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Citybee
   url: https://www.citybee.lt/
   logo: "/uploads/2020/04/08/city_bee-1.png"
