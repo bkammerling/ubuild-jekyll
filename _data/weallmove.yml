@@ -73,6 +73,23 @@ operators:
     Available to everyone in need to commute.
   service_3: ''
   service_3_notes: ''
+- name: Coaster
+  url: https://www.coastercycles.com/
+  logo: "/uploads/2020/04/14/coaster_cycles.png"
+  published: true
+  order: 
+  countries:
+  - name: United States
+    cities:
+    - Missoula
+    - Polsen
+    - New York
+  service_1: face shields manufacture
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
