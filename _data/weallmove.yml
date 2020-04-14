@@ -204,16 +204,21 @@ operators:
     - Copenhagen
     - Arhus
   order: 
-- name: GoTo Carsharing
+- name: GoTo Mobility
   url: https://goto.global/
   logo: "/uploads/2020/04/06/goto.png"
   published: true
   service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
+  service_1_notes: GoTo made part of their fleet available for healthcare and essential
+    workers, volunteers, groups delivering food to people in need and others.
+  service_2: discounted rides
+  service_2_notes: 'GoTo is offering discounts in its carsharing operation: They removed
+    the subscription fee for 3 months and is offering free stop-over (up to 1 hour)
+    during rides. They''re also offering free bike rides in Tel Aviv.'
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: GoTo Mobility made part of their fleet available for delivery purposes.
+    On top of that, they connect businesses with couriers, so delivery operation can
+    be set up at no time
   countries:
   - name: Israel
     cities:
