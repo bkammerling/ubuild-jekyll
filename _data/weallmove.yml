@@ -4,6 +4,7 @@ all_needs:
 - Access to vehicles for takeaway delivery
 - Alternative commuting options
 - Commute solutions for healthcare and essential workers
+- Protection equipment for hospitals
 operators:
 - name: Arnab Mobility
   url: http://arnabmobility.com/
@@ -1163,6 +1164,10 @@ all_services:
 - groceries delivery for risk groups
 - alternative commuting options
 services_detail:
+- service_name: face shields manufacture
+  service_description: __company_name__ is manufacturing face shields to support hospitals
+    and healthcare institutions in need
+  need_this_helps_with: Protection equipment for hospitals
 - service_name: groceries delivery for risk groups
   service_description: __company_name__ is making part of their fleet available to
     grocery delivery services.
