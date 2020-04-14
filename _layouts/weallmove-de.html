@@ -25,11 +25,11 @@
     <div class="col-lg-8">
       <div class="covid-notice text-lg-center">
       <div class="row">
-        <div class="col-9 col-lg-12">
-          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline ml-md-2 text-blue text-link wholink">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+        <div class="col-8 col-sm-9 pr-0 col-md-12">
+          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline ml-md-2 text-blue text-link wholink">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
         </div>
-        <div class="col-3 d-lg-none">
-          <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <ion-icon class="text-blue d-lg-none" name="open-outline"></ion-icon></a></div>
+        <div class="col-4 col-sm-3 d-md-none">
+          <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></div>
         </div>
       </div>
     </div>
@@ -43,19 +43,19 @@
     </div>
     <div class="row">
       <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <h3 class="my-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">Eine Bewegung, die unsere Welt mit Mobilitätslösungen verbindet.</h3>
+        <h3 class="mb-0 mt-5 my-md-5 pb-4 px-3  headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">Eine Bewegung, die unsere Welt mit Mobilitätslösungen verbindet.</h3>
         <br>
-        <hr class="mt-5 mb-0">
+        <hr class="mt-3 mt-md-5 mb-0">
         <div class="d-flex partnerships">
-          <p class="text-link text-dark">In Partnerschaft mit</p>
+          <p class="text-link text-dark mb-0">In Partnerschaft mit</p>
           <div class="partner-logos">
             <img data-src="/uploads/global/wef-logo.png" data-srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" />
             <img data-src="/uploads/global/hertz-logo.png" data-srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" />
             <img data-src="/uploads/global/wam-allianz-logo.png" data-srcset="/uploads/global/wam-allianz-logo@2x.png 2x" alt="Allianz automotive blau logo" />
           </div>
         </div>
-        <hr class="mb-5 mt-0">
-        <div class="row mt-5 py-5">
+        <hr class="mb-md-5 mt-0">
+        <div class="row mt-md-5 py-5">
           <div class="col-md-6">
             <p>Während einige von uns zu Hause bleiben, riskieren einige Mitglieder unserer Gesellschaft ihr Leben. Menschen im Gesundheitsdienst, Lieferdienstfahrer und Mitarbeiter in Lebensmittelgeschäften verlassen jeden Tag die Sicherheit ihrer Häuser, um dafür zu sorgen, dass das Leben der Anderen in Bewegung bleibt.</p>
           </div>
@@ -96,35 +96,46 @@
   {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
 </script>
 
-<section class="weallmove-filters fullscreen-bg bg-blue py-5">
-  <div class="container text-center my-5">
+<section class="weallmove-filters fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
+  <div class="container text-center mt-5 pb-2">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="headline-large mb-5">Anbieter finden</h2>
-        <p class="px-5 mb-5 text-center">Wir haben dieses Tool entwickelt, um dir die Suche nach Mobilitätslösungen zu erleichtern. Dabei ist es ganz egal, ob du den Arbeitsweg für Pflegekräfte und Ärzte sicheren möchtest, oder mehr Fahrzeuge für deine Lieferflotte benötigst. Das Tool steht allen offen, die Hilfe benötigen. Wenn du hier einen geeigneten Mobilitätsanbieter findest, nehme Kontakt mit uns auf und wir setzen euch in Verbindung.</p>
+        <p class="px-3 px-md-5 m-0 text-center">Wir haben dieses Tool entwickelt, um dir die Suche nach Mobilitätslösungen zu erleichtern. Dabei ist es ganz egal, ob du den Arbeitsweg für Pflegekräfte und Ärzte sicheren möchtest, oder mehr Fahrzeuge für deine Lieferflotte benötigst. Das Tool steht allen offen, die Hilfe benötigen. Wenn du hier einen geeigneten Mobilitätsanbieter findest, nehme Kontakt mit uns auf und wir setzen euch in Verbindung.</p>
 
-        <div class="px-sm-5 px-md-0 filter-form">
+    </div>
+  </div>
+</section>
+
+
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
+<section class="weallmove-list mb-5" id="weallmove-list">
+
+  <div class="filter-form bg-blue py-3 px-3 px-md-0 sticky-top" id="filter-form">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
           <div class="row">
+
             <div class="col-lg-2">
-              <p class="text-link text-light">Filtern nach</p>
+              <p class="text-link text-light text-center text-lg-left mb-3 mb-lg-0">Filtern nach</p>
             </div>
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
-                <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Lamd">
-
+                <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
                 </select>
               </div>
             </div>
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
-                <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="Stadt">
-
+                <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
                 </select>
               </div>
             </div>
             <div class="col-md-4 col-lg-4">
               <div class="form-group">
-                <select name="need" class="form-control we-select2" id="needSelect" data-placeholder="Bedürfnisse">
+                <select name="need" class="form-control we-select2" id="needSelect" data-placeholder="Need">
                   <option></option>
                   <option disabled><strong>Was suchen Sie?</strong></option>
                   {% for need in site.data.weallmove.all_needs %}
@@ -133,17 +144,38 @@
                 </select>
               </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-
     </div>
+
   </div>
-</section>
 
+  <div class="pt-5 pb-4 mb-5 bg-blue"></div>
 
-{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
-<section class="weallmove-list my-5">
   <div class="container">
+
+    <div class="hamburg city-promo" id="frischepost-promo">
+      <div class="px-md-5 py-4 mb-5">
+        <div class="bg-greygradient promo-banner">
+          <div class="row">
+            <div class="col-lg-3 text-lg-center">
+              <img data-src="uploads/global/frischepost-logo.png" data-srcset="uploads/global/frischepost-logo@2x.png 2x" />
+            </div>
+            <div class="col-lg-5">
+              <h4 class="headline-small mt-4 mt-lg-0">Hallo, Hamburgers!</h4>
+              <p>Are you an individual or company looking for tasty, locally grown grocery and prepared meal deliveries? Check out Frischepost!</p>
+            </div>
+            <div class="col-lg-4">
+              <div class="pl-xl-4 mt-4 mt-lg-0">
+                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon"/></a><br>
+                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <p class="showing-notice"><span class="current-showing">{{ operators.size }}</span> von <span class="total-showing">{{ operators.size }}</span> Mobilitätsanbietern werden angezeigt.</p>
     <div class="noshow-feedback hide">
@@ -154,7 +186,7 @@
     {% for company in operators %}
     <div class="weallmove-card w-shadow">
       <div class="row">
-        <div class="col-lg-2 weallmove-card__col">
+        <div class="col-lg-2 weallmove-card__col mb-sm-4 mb-lg-0">
           <div class="weallmove-card__logo">
             <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
           </div>
@@ -203,15 +235,15 @@
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 weallmove-card__col">
-          <div class="weallmove-card__locations">
-            <h4 class="headline-small">Betriebsbereiche</h4>
+          <div class="weallmove-card__locations pl-sm-3 pl-lg-0">
+            <h4 class="headline-small">Betriebsbereiche</h4> 
             {% for country in company.countries %}
               <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
             {% endfor %}
           </div>
         </div>
         <div class="col-lg-3 weallmove-card__col">
-          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Kontakt aufnehmen</button>
+          <button class="btn btn-primary mb-3 mt-sm-4 mt-lg-0" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Kontakt aufnehmen</button>
           <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
       </div>

@@ -5,12 +5,8 @@ var filterObj = {
 }
 
 function compare( a, b ) {
-  if ( a.text < b.text ){
-    return -1;
-  }
-  if ( a.text > b.text ){
-    return 1;
-  }
+  if ( a.text < b.text ) return -1;
+  if ( a.text > b.text ) return 1;
   return 0;
 }
 
@@ -151,7 +147,7 @@ $(document).ready(function() {
       var theseCities = [...new Set(countryObject[e.target.value].map(item => item.text))];;
       console.log(theseCities)
       $("#citySelect").select2('destroy').empty().select2({
-        data: theseCities,
+        data: theseCities.sort(),
         allowClear: true,
         minimumResultsForSearch: 15,
         placeholder: "City"
@@ -172,6 +168,7 @@ $(document).ready(function() {
 
   function filterList() {
     console.log(filterObj);
+    $('html, body').scrollTop($("#filter-intro").offset().top+$("#filter-intro").height()+100);
     $(`.weallmove-card:not(:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country}))`).addClass('card-hidden');
     $(`.weallmove-card:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country})`).removeClass('card-hidden');
     $('.current-showing').text($('.weallmove-card:not(.card-hidden)').length);
@@ -180,6 +177,8 @@ $(document).ready(function() {
     } else {
       $('.noshow-feedback').addClass('hide');
     }
+    $(".city-promo").hide();
+    $(`.city-promo.${filterObj.city.toLowerCase()}`).show();
   }
 
 

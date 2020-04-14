@@ -176,9 +176,15 @@ body.weallmove {
   }
 
   .filter-form {
-    max-width: 400px;
+    position: static;
     margin: 0 auto;
+    @include rwd(tablet-down) {
+      > .container {
+        max-width: 400px;
+      }
+    }
     @include rwd(tablet-up) {
+      position: sticky;
       max-width: none;
     }
 
@@ -235,4 +241,34 @@ body.weallmove {
 
 a:hover ion-icon {
   color: inherit;
+}
+
+.bg-greygradient {
+  background: linear-gradient(135.67deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+}
+.promo-banner {
+  padding: 3rem 2rem;
+  @include rwd(tablet-up){
+    padding: 3rem 2rem;
+  }
+}
+
+.city-promo {
+  display: none;
+}
+
+
+a {
+  img.externallink-icon {
+    margin: 0 3px -6px;
+  }
+  &:hover img.externallink-icon {
+    filter: saturate(0) brightness(50%);
+  }
+  &.btn img.externallink-icon {
+    transition: all 0.15s;
+  }
+  &.btn:hover img.externallink-icon {
+    filter: saturate(0) brightness(300%);
+  }
 }
