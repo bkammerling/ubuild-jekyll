@@ -3,7 +3,7 @@ all_needs:
 - Access to vehicles for grocery delivery
 - Access to vehicles for takeaway delivery
 - Alternative commuting options
-- Commute solutions for healthcare workers
+- Commute solutions for healthcare and essential workers
 operators:
 - name: Arnab Mobility
   url: http://arnabmobility.com/
@@ -491,13 +491,13 @@ operators:
   countries:
   - name: United Kingdom
     cities:
-    - London
+    - All cities
   - name: South Africa
     cities:
-    - Durban
+    - All cities
   service_1: support for healthcare and/or essential workers
-  service_1_notes: Zeelo can provide a short term bus service to get key workers to
-    work in the safest possible way.
+  service_1_notes: Zeelo can provide safe bus services for critical workers with managed
+    social distancing
   service_2: ''
   service_2_notes: ''
   service_3: ''
