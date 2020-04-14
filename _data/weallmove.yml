@@ -3,7 +3,8 @@ all_needs:
 - Access to vehicles for grocery delivery
 - Access to vehicles for takeaway delivery
 - Alternative commuting options
-- Commute solutions for healthcare workers
+- Commute solutions for healthcare and essential workers
+- Protection equipment for hospitals
 operators:
 - name: Arnab Mobility
   url: http://arnabmobility.com/
@@ -68,7 +69,7 @@ operators:
   service_1_notes: Cluno is providing discount for car subscriptions to all healthcare
     and other key workers (up to €698 worth).
   service_2: discounted rides
-  service_2_notes: Save up to €299 with Cluno's program "Dein Auto Abo - Euer Auto".
+  service_2_notes: Save up to €299 on starting fee when booking a Cluno car subscription.
     Available to everyone in need to commute.
   service_3: ''
   service_3_notes: ''
@@ -204,16 +205,21 @@ operators:
     - Copenhagen
     - Arhus
   order: 
-- name: GoTo Carsharing
+- name: GoTo Mobility
   url: https://goto.global/
   logo: "/uploads/2020/04/06/goto.png"
   published: true
   service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
+  service_1_notes: GoTo made part of their fleet available for healthcare and essential
+    workers, volunteers, groups delivering food to people in need and others.
+  service_2: discounted rides
+  service_2_notes: 'GoTo is offering discounts in its carsharing operation: They removed
+    the subscription fee for 3 months and is offering free stop-over (up to 1 hour)
+    during rides. They''re also offering free bike rides in Tel Aviv.'
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: GoTo Mobility made part of their fleet available for delivery purposes.
+    On top of that, they connect businesses with couriers, so delivery operation can
+    be set up at no time
   countries:
   - name: Israel
     cities:
@@ -486,13 +492,13 @@ operators:
   countries:
   - name: United Kingdom
     cities:
-    - London
+    - All cities
   - name: South Africa
     cities:
-    - Durban
+    - All cities
   service_1: support for healthcare and/or essential workers
-  service_1_notes: Zeelo can provide a short term bus service to get key workers to
-    work in the safest possible way.
+  service_1_notes: Zeelo can provide safe bus services for critical workers with managed
+    social distancing
   service_2: ''
   service_2_notes: ''
   service_3: ''
@@ -1148,6 +1154,7 @@ operators:
     - Paris
   order: 
 all_services:
+- face shields manufacture
 - cooperation with delivery and restaurants
 - discounted rides
 - expansion of area to hospitals
@@ -1157,6 +1164,10 @@ all_services:
 - groceries delivery for risk groups
 - alternative commuting options
 services_detail:
+- service_name: face shields manufacture
+  service_description: __company_name__ is manufacturing face shields to support hospitals
+    and healthcare institutions in need
+  need_this_helps_with: Protection equipment for hospitals
 - service_name: groceries delivery for risk groups
   service_description: __company_name__ is making part of their fleet available to
     grocery delivery services.
