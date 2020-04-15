@@ -6,6 +6,24 @@ all_needs:
 - Commute solutions for healthcare and essential workers
 - Protection equipment for hospitals
 operators:
+- name: Founder Shield
+  url: https://foundershield.com/
+  logo: "/uploads/2020/04/14/founder_shield.png"
+  published: true
+  order: 
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  - name: United States
+    cities:
+    - All Cities
+  service_1: ''
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -1361,6 +1379,7 @@ operators:
     - Paris
   order: 
 all_services:
+- consultancy
 - face shields manufacture
 - cooperation with delivery and restaurants
 - discounted rides
