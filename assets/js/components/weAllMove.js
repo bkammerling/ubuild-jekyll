@@ -168,7 +168,9 @@ $(document).ready(function() {
 
   function filterList() {
     console.log(filterObj);
-    $('html, body').scrollTop($("#filter-intro").offset().top+$("#filter-intro").height()+100);
+    if($('html').scrollTop() >= $("#filter-intro").offset().top+$("#filter-intro").height()+150) {
+      $('html').scrollTop($("#filter-intro").offset().top+$("#filter-intro").height()+150);
+    }
     $(`.weallmove-card:not(:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country}))`).addClass('card-hidden');
     $(`.weallmove-card:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country})`).removeClass('card-hidden');
     $('.current-showing').text($('.weallmove-card:not(.card-hidden)').length);
