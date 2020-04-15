@@ -7,24 +7,6 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
-- name: Founder Shield
-  url: https://foundershield.com/
-  logo: "/uploads/2020/04/14/founder_shield.png"
-  published: true
-  order: 
-  countries:
-  - name: Canada
-    cities:
-    - All cities
-  - name: United States
-    cities:
-    - All Cities
-  service_1: ''
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -281,6 +263,24 @@ operators:
     cities:
     - Brussels
   order: 
+- name: Founder Shield
+  url: https://foundershield.com/
+  logo: "/uploads/2020/04/14/founder_shield.png"
+  published: true
+  order: 
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  - name: United States
+    cities:
+    - All Cities
+  service_1: consultancy
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Frank-E
   url: https://www.frank-e-sharing.de/
   logo: "/uploads/2020/04/06/frank_e.png"
@@ -1394,7 +1394,7 @@ services_detail:
 - service_name: consultancy
   service_description: __company_name__ is offering free consultancy services to small
     businesses for insurance coverage and claims including business interruption.
-  need_this_helps_with: ''
+  need_this_helps_with: Others
 - service_name: face shields manufacture
   service_description: __company_name__ is manufacturing face shields to support hospitals
     and healthcare institutions in need
