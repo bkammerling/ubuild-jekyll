@@ -4,6 +4,7 @@ all_needs:
 - Access to vehicles for takeaway delivery
 - Alternative commuting options
 - Commute solutions for healthcare and essential workers
+- Others
 - Protection equipment for hospitals
 operators:
 - name: Founder Shield
@@ -1390,6 +1391,10 @@ all_services:
 - groceries delivery for risk groups
 - alternative commuting options
 services_detail:
+- service_name: consultancy
+  service_description: __company_name__ is offering free consultancy services to small
+    businesses for insurance coverage and claims including business interruption.
+  need_this_helps_with: ''
 - service_name: face shields manufacture
   service_description: __company_name__ is manufacturing face shields to support hospitals
     and healthcare institutions in need
