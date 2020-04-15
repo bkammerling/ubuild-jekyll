@@ -4,6 +4,7 @@ all_needs:
 - Access to vehicles for takeaway delivery
 - Alternative commuting options
 - Commute solutions for healthcare and essential workers
+- Others
 - Protection equipment for hospitals
 operators:
 - name: Arnab Mobility
@@ -262,6 +263,24 @@ operators:
     cities:
     - Brussels
   order: 
+- name: Founder Shield
+  url: https://foundershield.com/
+  logo: "/uploads/2020/04/14/founder_shield.png"
+  published: true
+  order: 
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  - name: United States
+    cities:
+    - All Cities
+  service_1: consultancy
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Frank-E
   url: https://www.frank-e-sharing.de/
   logo: "/uploads/2020/04/06/frank_e.png"
@@ -646,7 +665,7 @@ operators:
     - Regensburg
   order: 
 - name: Wheely
-  url: https://wheely.com/
+  url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
   logo: "/uploads/2020/04/14/wheely.png"
   published: true
   order: 
@@ -667,7 +686,7 @@ operators:
     cities:
     - London
   service_1: extra vehicle sanitisation
-  service_1_notes: 'Wheely has increase their vehicle sanitisation measures. Learn
+  service_1_notes: 'Wheely has increased their vehicle sanitisation measures. Learn
     more at: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801'
   service_2: ''
   service_2_notes: ''
@@ -1361,6 +1380,7 @@ operators:
     - Paris
   order: 
 all_services:
+- consultancy
 - face shields manufacture
 - cooperation with delivery and restaurants
 - discounted rides
@@ -1371,6 +1391,10 @@ all_services:
 - groceries delivery for risk groups
 - alternative commuting options
 services_detail:
+- service_name: consultancy
+  service_description: __company_name__ is offering free consultancy services to small
+    businesses for insurance coverage and claims including business interruption.
+  need_this_helps_with: Others
 - service_name: face shields manufacture
   service_description: __company_name__ is manufacturing face shields to support hospitals
     and healthcare institutions in need
