@@ -649,6 +649,77 @@ operators:
     cities:
     - Stuttgart
   order: 
+- name: VOI
+  url: VOIscooters.com
+  logo: "/uploads/2020/04/15/voi.png"
+  published: true
+  countries:
+  - name: Switzerland
+    cities:
+    - Winterthur
+    - St. Gallen
+  - name: Sweden
+    cities:
+    - Örebro
+    - Västerås
+    - Uppsala
+    - Stockholm
+    - Malmö
+    - Helsingborg
+  - name: Norway
+    cities:
+    - Oslo
+  - name: Italy
+    cities:
+    - Pesaro
+  - name: Germany
+    cities:
+    - Nüremburg
+    - Moviepark
+    - Gothenburg
+    - Erlage
+    - Aachen
+    - Stuttgart
+    - Munich
+    - Lübeck
+    - Karlsruhe
+    - Hamburg
+    - Frankfurt
+    - Fürth
+    - Düsseldorf
+    - Bremen
+    - Berlin
+    - Augsburg
+  - name: France
+    cities:
+    - Paris
+    - Marseille
+    - Lyon
+    - Bordeaux
+  - name: Finland
+    cities:
+    - Turku
+    - Tampere
+    - Helsinki
+  - name: Denmark
+    cities:
+    - Vejle
+    - Odense
+    - Copenhagen
+    - Aarhus
+    - Aalborg
+  - name: Austria
+    cities:
+    - Linz
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: VOI is making part of their fleet available to the general public
+    in Germany, Sweden, Denmark, Finland and Norway
+  service_3: groceries delivery for risk groups
+  service_3_notes: In collaboration with Vembla, VOI is assuring senior citizens and
+    risk groups get free e-scooter deliveries of groceries and pharmaceuticals in
+    Stockholm
 - name: Wave Mobility
   url: ''
   logo: "/uploads/2020/04/06/wave_mobility.png"
