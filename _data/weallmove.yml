@@ -666,7 +666,7 @@ operators:
     - Stuttgart
   order: 
 - name: VOI
-  url: voiscooters.com
+  url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
   published: true
   countries:
@@ -797,6 +797,24 @@ operators:
   service_3: cooperation with delivery and restaurants
   service_3_notes: Our scooters can now be used (at reduced rates) for a delivery
     service.
+- name: Wyze Mobility
+  url: https://wyzemobility.com/
+  logo: "/uploads/2020/04/15/wyze_mobility.png"
+  published: true
+  countries:
+  - name: Portugal
+    cities:
+    - Lisbon
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Wyze is offering free rides to the Portuguese Health System (SNS)
+    crew, to the Police forces, Firefighter and members of the Civil Protection staff.
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: Wyze Mobility is offering discounts for workers of grocery stores,
+    restaurants & cafes, pharmacies and books & magazines.
+  service_3: discounted rides
+  service_3_notes: Wyze is also offering free rides to parish council members in need
+    to support to senior citizens, deliver of essential goods to local residents under
+    house confinement or visit to people living in isolation.
 - name: Zeelo
   url: https://zeelo.co/key-worker-transport
   logo: "/uploads/2020/04/09/zeelo.png"
@@ -846,6 +864,22 @@ operators:
   - name: Iceland
     cities:
     - Reykjavik
+  order: 
+- name: Zoov
+  url: https://zoov.typeform.com/to/oCGJAs
+  logo: "/uploads/2020/04/06/zoov.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: France
+    cities:
+    - Bordeaux
+    - Paris
   order: 
 - name: deins&meins
   url: https://www.deinsundmeins-gt.de/e-carsharing/
@@ -1448,22 +1482,6 @@ operators:
     - Bobigny
     - Clinchy
     - Le Kremlin Bicêtre
-    - Paris
-  order: 
-- name: Zoov
-  url: https://zoov.typeform.com/to/oCGJAs
-  logo: "/uploads/2020/04/06/zoov.png"
-  published: false
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: France
-    cities:
-    - Bordeaux
     - Paris
   order: 
 all_services:
