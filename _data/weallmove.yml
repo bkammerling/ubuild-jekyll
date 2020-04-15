@@ -646,7 +646,7 @@ operators:
     - Regensburg
   order: 
 - name: Wheely
-  url: https://wheely.com/
+  url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
   logo: "/uploads/2020/04/14/wheely.png"
   published: true
   order: 
@@ -667,7 +667,7 @@ operators:
     cities:
     - London
   service_1: extra vehicle sanitisation
-  service_1_notes: 'Wheely has increase their vehicle sanitisation measures. Learn
+  service_1_notes: 'Wheely has increased their vehicle sanitisation measures. Learn
     more at: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801'
   service_2: ''
   service_2_notes: ''
