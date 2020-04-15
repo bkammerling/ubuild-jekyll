@@ -40,6 +40,22 @@ operators:
   service_2_notes: ''
   service_3: groceries delivery for risk groups
   service_3_notes: ''
+- name: Boxcar
+  url: http://www.boxcarapp.com/grocery
+  logo: "/uploads/2020/04/15/boxcar.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Cranford
+    - Madison
+  service_1: groceries delivery for risk groups
+  service_1_notes: Boxcar has partnered with a local food distributer to offer pre-ordered
+    groceries..
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: 'Brite Mobility '
   url: https://www.brite.ie/
   logo: "/uploads/2020/04/09/brite.png"
@@ -650,7 +666,7 @@ operators:
     - Stuttgart
   order: 
 - name: VOI
-  url: VOIscooters.com
+  url: voiscooters.com
   logo: "/uploads/2020/04/15/voi.png"
   published: true
   countries:
