@@ -177,8 +177,10 @@ $(document).ready(function() {
     } else {
       $('.noshow-feedback').addClass('hide');
     }
-    $(".city-promo").hide();
-    $(`.city-promo.${filterObj.city.toLowerCase()}`).show();
+    if(filterObj.city) {
+      $(".city-promo").hide();
+      $(`.city-promo.${filterObj.city.toLowerCase()}`).show();
+    }
   }
 
 
