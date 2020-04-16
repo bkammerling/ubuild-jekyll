@@ -242,7 +242,7 @@ operators:
     - Hamburg
     - Munich
     - Berlin
-    - Dusseldorf
+    - Düsseldorf
   order: 
 - name: evo-sharing
   url: https://www.evo-sharing.ruhr/
@@ -533,6 +533,21 @@ operators:
     can lend electric bikes to them and they''ll lend it to a worker.
 
 '
+- name: Motobee
+  url: https://www.motobee.co/
+  logo: "/uploads/2020/04/16/moto_bee.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Miami
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: Motobee is offering long-term moped leases to help people generate
+    income by doing deliveries for apps.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: OKQ8
   url: https://www.okq8.se/hyrbil/
   logo: "/uploads/2020/04/06/okq8.png"
@@ -774,7 +789,7 @@ operators:
     - London
   service_1: extra vehicle sanitisation
   service_1_notes: 'Wheely has increased their vehicle sanitisation measures. Learn
-    more at: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801'
+    more by clicking on the link. '
   service_2: ''
   service_2_notes: ''
   service_3: ''
