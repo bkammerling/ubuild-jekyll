@@ -290,7 +290,7 @@ operators:
     - All cities
   - name: United States
     cities:
-    - All Cities
+    - All cities
   service_1: consultancy
   service_1_notes: ''
   service_2: ''
