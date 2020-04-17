@@ -685,9 +685,9 @@ operators:
   service_1: groceries delivery for risk groups
   service_1_notes: Routematic is helping corporates with grocery delivery, essential
     medication and office supplies to homes of employees.
-  service_2: ''
+  service_2: support for healthcare and/or essential workers
   service_2_notes: ''
-  service_3: ''
+  service_3: cooperation with delivery and restaurants
   service_3_notes: ''
   published: true
   order: 
