@@ -400,6 +400,21 @@ operators:
   service_3: ''
   service_3_notes: ''
   order: 
+- name: Hertz
+  url: www.hertz247.de
+  logo: "/uploads/2020/04/09/hertz.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: alternative commuting options
+  service_1_notes: Hertz 24/7 offers hourly van rentals. For more information please
+    visit the website.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Highspeed service
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
