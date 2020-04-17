@@ -24,6 +24,21 @@ operators:
     - Abu Dhabi
     - Dubai
     - Sharjah
+- name: BerlKönig
+  url: https://www.berlkoenig.de/
+  logo: "/uploads/2020/04/06/berlkonig.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+  order: 
 - name: Bounce
   url: https://bounceshare.com/
   logo: "/uploads/2020/04/14/bounce.png"
@@ -131,23 +146,6 @@ operators:
     Available to everyone in need to commute.
   service_3: ''
   service_3_notes: ''
-- name: Coaster
-  url: https://www.coastercycles.com/
-  logo: "/uploads/2020/04/14/coaster_cycles.png"
-  published: true
-  order: 
-  countries:
-  - name: United States
-    cities:
-    - Missoula
-    - Polsen
-    - New York
-  service_1: face shields manufacture
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
 - name: Co-wheels Car Club
   url: https://www.co-wheels.org.uk/nhs_staff_volunteers
   logo: "/uploads/2020/04/14/co_wheels.png"
@@ -175,6 +173,41 @@ operators:
     staff looking after vulnerable clients and NHS volunteers free membership of its
     car share club, plus all bookings are half price to help you get to work and do
     essential shopping.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Coach Scanner
+  url: https://www.coachscanner.com/
+  logo: "/uploads/2020/04/17/coach_scanner-1.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'Local authorities can request On-Demand minibus/coach for customers.
+    The service offers key workers a safe method of transport, combining changeable
+    capacity levels and a customer app to allow Social Distancing and Social Tracing.
+
+'
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Coaster
+  url: https://www.coastercycles.com/
+  logo: "/uploads/2020/04/14/coaster_cycles.png"
+  published: true
+  order: 
+  countries:
+  - name: United States
+    cities:
+    - Missoula
+    - Polsen
+    - New York
+  service_1: face shields manufacture
+  service_1_notes: ''
   service_2: ''
   service_2_notes: ''
   service_3: ''
@@ -211,6 +244,49 @@ operators:
   service_3: discounted rides
   service_3_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
     and Turin to support medicine delivery.
+- name: Driverseat
+  url: https://driverseatinc.com/
+  logo: "/uploads/2020/04/17/driver_seat-1.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Athens
+    - Nashville
+  - name: Canada
+    cities:
+    - Lethbridge
+    - Calgary
+    - Edmonton
+    - Fort McMurray
+    - Halifax
+    - Saskatoon
+    - St. Catharines
+    - Cambridge
+    - London
+    - Burlington
+    - Milton
+    - Mississauga
+    - Kitchener
+    - Brampton
+    - Waterloo
+    - Markham
+    - Guelph
+    - Richmond Hill
+    - Newmarket
+    - Barrie
+    - Orillia
+    - Winnipeg
+    - Collingwood
+    - Owen Sound
+    - " Sault Sainte Marie"
+    - Thunder Bay
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: groceries delivery for risk groups
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -244,11 +320,13 @@ operators:
     - Berlin
     - Düsseldorf
   order: 
-- name: Enterprise
+- name: Enterprise-Rent-A-Car
   url: https://www.enterprise.de/de/ueber-uns/on-call-for-all.html
   logo: "/uploads/2020/04/17/enterprise-1.png"
   published: true
-  countries: []
+  countries:
+  - name: Germany
+    cities: []
   service_1: support for healthcare and/or essential workers
   service_1_notes: |
     Enterprise Rent-A-Car is an essential services provider that remains open to meet critical transportation and personal mobility needs. They serve those who need a vehicle and to help frontline responders including emergency services, utilities, military and local governments continue to move goods and services during this global health crisis.
@@ -522,6 +600,18 @@ operators:
   service_3_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
     safe rides to their jobs. Nurses/Healthcare employees get all products with significant
     discounts.
+- name: M
+  url: https://m.co/se/en-US/
+  logo: "/uploads/2020/04/17/m_volvo-1.png"
+  published: true
+  countries: []
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: With its initiative We Fight Covid, M is providing cars to healthcare
+    personnel to guarantee a safe and quick commute.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Mevo
   url: https://mevo.co.nz/auckland
   logo: "/uploads/2020/04/06/mevo.png"
@@ -1179,21 +1269,6 @@ operators:
   - name: Czech Republic
     cities:
     - Prague
-  order: 
-- name: BerlKönig
-  url: https://www.berlkoenig.de/
-  logo: "/uploads/2020/04/06/berlkonig.png"
-  published: false
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Berlin
   order: 
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
