@@ -244,6 +244,20 @@ operators:
     - Berlin
     - Düsseldorf
   order: 
+- name: Enterprise
+  url: https://www.enterprise.de/de/ueber-uns/on-call-for-all.html
+  logo: "/uploads/2020/04/17/enterprise-1.png"
+  published: true
+  countries: []
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: |
+    Enterprise Rent-A-Car is an essential services provider that remains open to meet critical transportation and personal mobility needs. They serve those who need a vehicle and to help frontline responders including emergency services, utilities, military and local governments continue to move goods and services during this global health crisis.
+
+    Learn about special offers for Same Day Rentals, Long Term Rentals or Van & Man Rentals (on request).
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: groceries delivery for risk groups
+  service_3_notes: ''
 - name: evo-sharing
   url: https://www.evo-sharing.ruhr/
   logo: "/uploads/2020/04/06/evo_sharing.png"
@@ -473,6 +487,18 @@ operators:
   service_1: support for healthcare and/or essential workers
   service_1_notes: ''
   service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Kootenay Carshare
+  url: http://www.carsharecoop.ca/
+  logo: "/uploads/2020/04/17/kootenay_carshare-1.png"
+  published: true
+  countries: []
+  service_1: alternative commuting options
+  service_1_notes: Kootenay Carshare is lending vehicles to the city for transport
+    of homeless residents to an isolated location if they are showing signs of illness.
+  service_2: support for healthcare and/or essential workers
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
@@ -841,6 +867,43 @@ operators:
     - Hannover
     - Stuttgart
     - Heidelberg
+- name: UFODRIVE
+  url: https://www.ufodrive.com/en/
+  logo: "/uploads/2020/04/17/ufo_drive-1.png"
+  published: true
+  countries:
+  - name: Netherlands
+    cities:
+    - The Hague
+    - Rotterdam
+    - Amsterdam
+  - name: Luxembourg
+    cities:
+    - Findel
+  - name: United Kingdom
+    cities:
+    - London
+    - Dublin
+  - name: Austria
+    cities:
+    - Vienna
+  - name: Belgium
+    cities:
+    - Brussels
+  - name: France
+    cities:
+    - Paris
+  - name: Germany
+    cities:
+    - Cologne
+    - Hamburg
+    - Berlin
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
