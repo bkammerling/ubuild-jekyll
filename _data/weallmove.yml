@@ -7,33 +7,774 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
-- name: Routematic
-  url: https://www.routematic.com/
-  logo: '/uploads/2020/04/16/routematic.png'
-  service_1: groceries delivery for risk groups
-  service_1_notes: 'Routematic is helping corporates with grocery delivery, essential medication and office supplies to homes of employees.'
-  service_2:
+- name: Arnab Mobility
+  url: http://arnabmobility.com/
+  logo: "/uploads/2020/04/06/arnab.png"
+  published: true
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: ''
   service_2_notes: ''
-  service_3:
+  service_3: ''
+  service_3_notes: ''
+  order: 
+  countries:
+  - name: United Arab Emirates
+    cities:
+    - Abu Dhabi
+    - Dubai
+    - Sharjah
+- name: Bounce
+  url: https://bounceshare.com/
+  logo: "/uploads/2020/04/14/bounce.png"
+  published: true
+  order: 
+  countries:
+  - name: India
+    cities:
+    - Hyderabad
+    - Bangalore
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3: groceries delivery for risk groups
+  service_3_notes: ''
+- name: Boxcar
+  url: http://www.boxcarapp.com/grocery
+  logo: "/uploads/2020/04/15/boxcar.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Cranford
+    - Madison
+  service_1: groceries delivery for risk groups
+  service_1_notes: Boxcar has partnered with a local food distributer to offer pre-ordered
+    groceries..
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: 'Brite Mobility '
+  url: https://www.brite.ie/
+  logo: "/uploads/2020/04/09/brite.png"
+  published: true
+  order: 
+  countries:
+  - name: Ireland
+    cities: []
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: BusUp
+  url: https://www.busup.com/
+  logo: "/uploads/2020/04/14/busup.png"
+  published: true
+  order: 
+  countries:
+  - name: United States
+    cities:
+    - San Francisco
+  - cities:
+    - All cities
+    name: Brazil
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  service_1: alternative commuting options
+  service_1_notes: Busup has a Commute shuttle service for corporations with controlled
+    capacity, safe distance and hygienization protocol and traceability.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Citybee
+  url: https://www.citybee.lt/
+  logo: "/uploads/2020/04/08/city_bee-1.png"
+  published: true
+  countries:
+  - name: Lithuania
+    cities:
+    - Neringa
+    - Palanga
+    - Klaipėda
+    - Kaunas
+    - Vilnius
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  order: 
+- name: Cluno
+  url: https://www.cluno.com/
+  logo: "/uploads/2020/04/09/cluno.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Cluno is providing discount for car subscriptions to all healthcare
+    and other key workers (up to €698 worth).
+  service_2: discounted rides
+  service_2_notes: Save up to €299 on starting fee when booking a Cluno car subscription.
+    Available to everyone in need to commute.
+  service_3: ''
+  service_3_notes: ''
+- name: Coaster
+  url: https://www.coastercycles.com/
+  logo: "/uploads/2020/04/14/coaster_cycles.png"
+  published: true
+  order: 
+  countries:
+  - name: United States
+    cities:
+    - Missoula
+    - Polsen
+    - New York
+  service_1: face shields manufacture
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Co-wheels Car Club
+  url: https://www.co-wheels.org.uk/nhs_staff_volunteers
+  logo: "/uploads/2020/04/14/co_wheels.png"
+  published: true
+  order: 
+  countries:
+  - name: United Kingdom
+    cities:
+    - Norwich
+    - Reading
+    - Bournemouth
+    - Swindon
+    - Bristol
+    - Oxford
+    - Birmingham
+    - Derby
+    - Salford
+    - Durham
+    - Newcastle
+    - Glasgow
+    - Dundee
+    - Aberdeen
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Co-wheels Car Club is offering to all NHS health workers, care
+    staff looking after vulnerable clients and NHS volunteers free membership of its
+    car share club, plus all bookings are half price to help you get to work and do
+    essential shopping.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Dott
+  url: https://ridedott.com/
+  logo: "/uploads/2020/04/09/dott.png"
+  published: true
+  order: 
+  countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Liege
+  - name: Italy
+    cities:
+    - Turin
+  - name: Germany
+    cities:
+    - Bonn
+    - Cologne
+    - Augsburg
+    - Munich
+  - name: France
+    cities:
+    - Lyon
+    - Paris
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Dott is supporting healthcare, supermarkets, bank and voluntary
+    workers with discounts.
+  service_2: expansion of area to hospitals
+  service_2_notes: In Lyon,  Dott has expanded their business area in most cities
+    to support more hospitals.
+  service_3: discounted rides
+  service_3_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
+    and Turin to support medicine delivery.
+- name: Eloop
+  url: https://eloop.at/en/
+  logo: "/uploads/2020/04/06/eloop.png"
+  published: true
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: discounted rides
+  service_3_notes: ''
+  countries:
+  - name: Austria
+    cities:
+    - Vienna
+  order: 
+- name: Emmy
+  url: https://emmy-sharing.de/
+  logo: "/uploads/2020/04/06/emmy.png"
+  published: true
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Hamburg
+    - Munich
+    - Berlin
+    - Düsseldorf
+  order: 
+- name: evo-sharing
+  url: https://www.evo-sharing.ruhr/
+  logo: "/uploads/2020/04/06/evo_sharing.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Oberhausen
+  order: 
+- name: Felyx
+  url: https://felyx.nl/
+  logo: "/uploads/2020/04/06/felyx.png"
+  published: true
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Netherlands
+    cities:
+    - Amsterdam
+    - Rotterdam
+    - Den Haag
+  - name: Belgium
+    cities:
+    - Brussels
+  order: 
+- name: Founder Shield
+  url: https://foundershield.com/
+  logo: "/uploads/2020/04/14/founder_shield.png"
+  published: true
+  order: 
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  - name: United States
+    cities:
+    - All cities
+  service_1: consultancy
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Frank-E
+  url: https://www.frank-e-sharing.de/
+  logo: "/uploads/2020/04/06/frank_e.png"
+  published: true
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: Frank-E is offering 1h for free to any user doing something good
+    for the community. Get in touch with us to learn more.
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Frankfurt
+  order: 
+- name: GetHenry
+  url: https://gethenry.co/en/home-en/
+  logo: "/uploads/2020/04/14/get_henry.png"
+  published: true
+  order: 
+  countries:
+  - name: Austria
+    cities:
+    - Vienna
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Green Mobility
+  url: https://greenmobility.com/dk/en/
+  logo: "/uploads/2020/04/06/green_mobility.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Denmark
+    cities:
+    - Copenhagen
+    - Arhus
+  order: 
+- name: GoTo Mobility
+  url: https://goto.global/
+  logo: "/uploads/2020/04/06/goto.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: GoTo made part of their fleet available for healthcare and essential
+    workers, volunteers, groups delivering food to people in need and others.
+  service_2: discounted rides
+  service_2_notes: 'GoTo is offering discounts in its carsharing operation: They removed
+    the subscription fee for 3 months and is offering free stop-over (up to 1 hour)
+    during rides. They''re also offering free bike rides in Tel Aviv.'
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: GoTo Mobility made part of their fleet available for delivery purposes.
+    On top of that, they connect businesses with couriers, so delivery operation can
+    be set up at no time
+  countries:
+  - name: Israel
+    cities:
+    - Tel Aviv
+  - name: Malta
+    cities:
+    - Valetta
+    - Pembroke
+  order: 
+- name: GoVolt
+  url: https://www.govolt.it/
+  logo: "/uploads/2020/04/09/go_volt.png"
+  published: true
+  order: 
+  countries:
+  - name: Italy
+    cities:
+    - Milan
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: support for healthcare and/or essential workers
+  service_2_notes: ''
+  service_3: cooperation with delivery and restaurants
+  service_3_notes: ''
+- name: Hertz
+  url: https://www.hertz.de/
+  logo: "/uploads/2020/04/09/hertz.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: discounted rides
+  service_1_notes: Hertz is offering special long-term rates for the general public
+    with their Hertz Minilease offer. It’s a small name for a big deal.
+  service_2: support for healthcare and/or essential workers
+  service_2_notes: 'To support health care workers, Hertz is providing them with individual
+    and safe mobility solutions. #Hertzenssache '
+  service_3: ''
+  service_3_notes: ''
+  order: 
+- name: Highspeed service
+  url: https://www.highspeedservice.ch/
+  logo: "/uploads/2020/04/08/high_speed_service.png"
+  published: true
+  countries:
+  - name: Switzerland
+    cities:
+    - Basel
+    - Zürich
+  service_1: alternative commuting options
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  order: 
+- name: Hive
+  url: https://www.ridehive.com/
+  logo: "/uploads/2020/04/06/hive.png"
+  published: true
+  service_1: groceries delivery for risk groups
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Portugal
+    cities:
+    - Lisbon
+  order: 
+- name: Hobo
+  url: ''
+  logo: "/uploads/2020/04/06/hobo.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: ''
+  service_3: extra vehicle sanitisation
+  service_3_notes: ''
+  countries:
+  - name: Bulgaria
+    cities:
+    - Sofia
+  order: 
+- name: Juuve
+  url: https://juuve.nl/
+  logo: "/uploads/2020/04/09/juuve.png"
+  published: true
+  order: 
+  countries:
+  - name: Netherlands
+    cities:
+    - Rotterdam
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Kyte
+  url: https://drivekyte.com/
+  logo: "/uploads/2020/04/14/kyte.png"
+  published: true
+  order: 
+  countries:
+  - name: United States
+    cities:
+    - Los Angeles
+    - San Francisco
+  service_1: alternative commuting options
+  service_1_notes: 'All vehicles are delivered to the door to comply with social distancing
+    and #stayhome orders'
+  service_2: extra vehicle sanitisation
+  service_2_notes: Kyte sanitizes every vehicle before every delivery, drivers wear
+    gloves and mask
+  service_3: support for healthcare and/or essential workers
+  service_3_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
+    safe rides to their jobs. Nurses/Healthcare employees get all products with significant
+    discounts.
+- name: Mevo
+  url: https://mevo.co.nz/auckland
+  logo: "/uploads/2020/04/06/mevo.png"
+  published: false
+  service_1: extra vehicle sanitisation
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: We are offering discounted long term vehicle rentals to essential
+    workers and those with essential needs.
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: New Zealand
+    cities:
+    - Wellington
+    - Auckland
+  order: 
+- name: Miles
+  url: https://miles-mobility.com/
+  logo: "/uploads/2020/04/06/miles.png"
+  published: true
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: in-app icon for recently-sanitised vehicle
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+    - Hamburg
+  order: 
+- name: Moby
+  url: https://mobymove.com/
+  logo: "/uploads/2020/04/09/moby.png"
+  published: true
+  order: 
+  countries:
+  - name: Ireland
+    cities:
+    - Dublin
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: expansion of area to hospitals
+  service_2_notes: ''
+  service_3: support for healthcare and/or essential workers
+  service_3_notes: 'Moby is providing dedicated electric bikes for healthcare workers
+    for free. If you also want to help, Moby has also arranged program whereby anyone
+    can lend electric bikes to them and they''ll lend it to a worker.
+
+'
+- name: Motobee
+  url: https://www.motobee.co/
+  logo: "/uploads/2020/04/16/moto_bee.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Miami
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: Motobee is offering long-term moped leases to help people generate
+    income by doing deliveries for apps.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: OKQ8
+  url: https://www.okq8.se/hyrbil/
+  logo: "/uploads/2020/04/06/okq8.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Sweden
+    cities:
+    - Stockholm
+  order: 
+- name: PAYUCA GmbH
+  url: http://payuca.com/
+  logo: "/uploads/2020/04/16/payuca.png"
+  service_1: discounted rides
+  service_1_notes: PAYUCA has reduced its pricing by 75% to make safe parking affordable
+    for everyone.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
   service_3_notes: ''
   published: true
-  order:
+  order: 
+  countries:
+  - name: Austria
+    cities:
+    - Vienna
+- name: Pony
+  url: https://getapony.com/en
+  logo: "/uploads/2020/04/14/pony.png"
+  published: true
+  order: 
+  countries:
+  - name: France
+    cities:
+    - Angers
+    - Bordeaux
+  service_1: alternative commuting options
+  service_1_notes: Pony have adapted their service to allow you to rent a vehicle
+    for 1 week or 1 month at a discounted price. This way you will be the only user
+    of this vehicle.
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: support for healthcare and/or essential workers
+  service_3_notes: The company has partnered with hospitals in the cities they operate
+    in to offer for the staff free rides. Privatising vehicles (for free) it's also
+    an option.
+- name: Regio.Mobil Deutschland GmbH
+  url: https://www.regio-mobil-deutschland.de/unternehmen-1
+  logo: "/uploads/2020/04/16/regio_mobil.png"
+  service_1: groceries delivery for risk groups
+  service_1_notes: Regio.Mobil is offering takeaway and grocery delivery for people
+    in Borken, Jesberg, Guxhagen, Homberg (Efze), Jesberg, Körle, Melsungen, Rauschenberg,
+    Gilserberg, Spangenberg, Treysa, Schwalmstadt
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - Bad Driburg
+    - Bad Langensalza
+    - Borken
+    - Jesberg
+    - Erfurt
+    - Freudenstadt
+    - Glatten
+    - Gotha
+    - Guxhagen
+    - Homberg
+    - Ilmenau
+    - Koblenz
+    - Kölleda
+    - Körle
+    - Melsungen
+    - Mühlhausen
+    - Nordhausen
+    - Ortenberg
+    - Rauschenberg
+    - Rockenhausen
+    - Gilserberg
+    - Sangerhausen
+    - Sömmerda
+    - Sondershausen
+    - Spangenberg
+    - Suhl
+    - Treysa
+    - Schwalmstadt
+    - Trimbs
+    - Vallendar
+    - Homberg-Wernswig
+    - Wolfhagen
+- name: Rhingo
+  url: https://www.rhingo.de/
+  logo: "/uploads/2020/04/06/rhingo.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: Rhingo is offering free and safe rides to all people that are still
+    working in food retailing, in pharmacies and drugstores, at the fire brigade,
+    the police, in public order offices or in disaster control.
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Cologne
+  order: 
+- name: Routematic
+  url: https://www.routematic.com/
+  logo: "/uploads/2020/04/16/routematic.png"
+  service_1: groceries delivery for risk groups
+  service_1_notes: Routematic is helping corporates with grocery delivery, essential
+    medication and office supplies to homes of employees.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  published: true
+  order: 
   countries:
   - name: India
     cities:
     - Bangalore
     - Pune
+- name: SIXT rent
+  url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
+  logo: "/uploads/2020/04/09/sixt-1.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  service_1: discounted rides
+  service_1_notes: 'Until April 30th, SIXT is offering discounted rides with two packages:
+    SIXT Flat Offer and SIXT Flex Offer. Learn more by visiting the website.'
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Scooty
+  url: https://scootysharing.be/
+  logo: "/uploads/2020/04/06/scooty.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: expansion of area to hospitals
+  service_3_notes: ''
+  countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Antwerp
+  order: 
+- name: SIXT share
+  url: https://www.sixt.com/share/rates/#/
+  logo: "/uploads/2020/04/09/sixt.png"
+  published: true
+  order: 
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+    - Hamburg
+    - Munich
+  service_1: discounted rides
+  service_1_notes: SIXT is offering rides from 9 cents/min for the general public.
+    Visit the website for more information
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Skut
+  url: https://skut.mx/
+  logo: "/uploads/2020/04/06/skut.png"
+  published: true
+  service_1: cooperation with delivery and restaurants
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Mexico
+    cities:
+    - Mexico City
+  order: 
+- name: Stella
+  url: https://www.stella-sharing.de/
+  logo: "/uploads/2020/04/06/stella.png"
+  published: true
+  service_1: discounted rides
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+  countries:
+  - name: Germany
+    cities:
+    - Stuttgart
+  order: 
 - name: Tier
   url: https://www.tier.app/
-  logo: '/uploads/2020/04/16/tier.png'
+  logo: "/uploads/2020/04/16/tier.png"
   service_1: alternative commuting options
-  service_1_notes: 'Tier is making part of their fleet available to the general public as a transport alternative.'
+  service_1_notes: Tier is making part of their fleet available to the general public
+    as a transport alternative.
   service_2: support for healthcare and/or essential workers
-  service_2_notes: 'Tier is ensuring that everyday heros (Hospital staff and health care workers, Supermarket and pharmacy staff, Police and Fire brigade, Employees of local public transportation workers) have free, safe rides to their jobs.'
-  service_3:
+  service_2_notes: Tier is ensuring that everyday heros (Hospital staff and health
+    care workers, Supermarket and pharmacy staff, Police and Fire brigade, Employees
+    of local public transportation workers) have free, safe rides to their jobs.
+  service_3: ''
   service_3_notes: ''
   published: true
-  order:
+  order: 
   countries:
   - name: Sweden
     cities:
@@ -85,740 +826,6 @@ operators:
     - Hannover
     - Stuttgart
     - Heidelberg
-- name: PAYUCA GmbH
-  url: http://payuca.com/
-  logo: '/uploads/2020/04/16/payuca.png'
-  service_1: discounted rides
-  service_1_notes: 'PAYUCA has reduced its pricing by 75% to make safe parking affordable for everyone.'
-  service_2:
-  service_2_notes: ''
-  service_3:
-  service_3_notes: ''
-  published: true
-  order:
-  countries:
-  - name: Austria
-    cities:
-    - Vienna
-- name: Regio.Mobil Deutschland GmbH
-  url: https://www.regio-mobil-deutschland.de/unternehmen-1
-  logo: '/uploads/2020/04/16/regio_mobil.png'
-  service_1: groceries delivery for risk groups
-  service_1_notes: 'Regio.Mobil is offering takeaway and grocery delivery for people in Borken, Jesberg, Guxhagen, Homberg (Efze), Jesberg, Körle, Melsungen, Rauschenberg, Gilserberg, Spangenberg, Treysa, Schwalmstadt'
-  service_2: alternative commuting options
-  service_2_notes: ''
-  service_3:
-  service_3_notes: ''
-  published: true
-  order:
-  countries:
-  - name: Germany
-    cities:
-    - Bad Driburg
-    - Bad Langensalza
-    - Borken
-    - Jesberg
-    - Erfurt
-    - Freudenstadt
-    - Glatten
-    - Gotha
-    - Guxhagen
-    - Homberg
-    - Ilmenau
-    - Koblenz
-    - Kölleda
-    - Körle
-    - Melsungen
-    - Mühlhausen
-    - Nordhausen
-    - Ortenberg
-    - Rauschenberg
-    - Rockenhausen
-    - Gilserberg
-    - Sangerhausen
-    - Sömmerda
-    - Sondershausen
-    - Spangenberg
-    - Suhl
-    - Treysa
-    - Schwalmstadt
-    - Trimbs
-    - Vallendar
-    - Homberg-Wernswig
-    - Wolfhagen
-- name: Arnab Mobility
-  url: http://arnabmobility.com/
-  logo: "/uploads/2020/04/06/arnab.png"
-  published: true
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  order:
-  countries:
-  - name: United Arab Emirates
-    cities:
-    - Abu Dhabi
-    - Dubai
-    - Sharjah
-- name: Bounce
-  url: https://bounceshare.com/
-  logo: "/uploads/2020/04/14/bounce.png"
-  published: true
-  order:
-  countries:
-  - name: India
-    cities:
-    - Hyderabad
-    - Bangalore
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: cooperation with delivery and restaurants
-  service_2_notes: ''
-  service_3: groceries delivery for risk groups
-  service_3_notes: ''
-- name: Boxcar
-  url: http://www.boxcarapp.com/grocery
-  logo: "/uploads/2020/04/15/boxcar.png"
-  published: true
-  countries:
-  - name: United States
-    cities:
-    - Cranford
-    - Madison
-  service_1: groceries delivery for risk groups
-  service_1_notes: Boxcar has partnered with a local food distributer to offer pre-ordered
-    groceries..
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: 'Brite Mobility '
-  url: https://www.brite.ie/
-  logo: "/uploads/2020/04/09/brite.png"
-  published: true
-  order:
-  countries:
-  - name: Ireland
-    cities: []
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: alternative commuting options
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: BusUp
-  url: https://www.busup.com/
-  logo: "/uploads/2020/04/14/busup.png"
-  published: true
-  order:
-  countries:
-  - name: United States
-    cities:
-    - San Francisco
-  - cities:
-    - All cities
-    name: Brazil
-  - name: Portugal
-    cities:
-    - All cities
-  - name: Spain
-    cities:
-    - All cities
-  service_1: alternative commuting options
-  service_1_notes: Busup has a Commute shuttle service for corporations with controlled
-    capacity, safe distance and hygienization protocol and traceability.
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Citybee
-  url: https://www.citybee.lt/
-  logo: "/uploads/2020/04/08/city_bee-1.png"
-  published: true
-  countries:
-  - name: Lithuania
-    cities:
-    - Neringa
-    - Palanga
-    - Klaipėda
-    - Kaunas
-    - Vilnius
-  service_1: extra vehicle sanitisation
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  order:
-- name: Cluno
-  url: https://www.cluno.com/
-  logo: "/uploads/2020/04/09/cluno.png"
-  published: true
-  order:
-  countries:
-  - name: Germany
-    cities:
-    - All cities
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: Cluno is providing discount for car subscriptions to all healthcare
-    and other key workers (up to €698 worth).
-  service_2: discounted rides
-  service_2_notes: Save up to €299 on starting fee when booking a Cluno car subscription.
-    Available to everyone in need to commute.
-  service_3: ''
-  service_3_notes: ''
-- name: Coaster
-  url: https://www.coastercycles.com/
-  logo: "/uploads/2020/04/14/coaster_cycles.png"
-  published: true
-  order:
-  countries:
-  - name: United States
-    cities:
-    - Missoula
-    - Polsen
-    - New York
-  service_1: face shields manufacture
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Co-wheels Car Club
-  url: https://www.co-wheels.org.uk/nhs_staff_volunteers
-  logo: "/uploads/2020/04/14/co_wheels.png"
-  published: true
-  order:
-  countries:
-  - name: United Kingdom
-    cities:
-    - Norwich
-    - Reading
-    - Bournemouth
-    - Swindon
-    - Bristol
-    - Oxford
-    - Birmingham
-    - Derby
-    - Salford
-    - Durham
-    - Newcastle
-    - Glasgow
-    - Dundee
-    - Aberdeen
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: Co-wheels Car Club is offering to all NHS health workers, care
-    staff looking after vulnerable clients and NHS volunteers free membership of its
-    car share club, plus all bookings are half price to help you get to work and do
-    essential shopping.
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Dott
-  url: https://ridedott.com/
-  logo: "/uploads/2020/04/09/dott.png"
-  published: true
-  order:
-  countries:
-  - name: Belgium
-    cities:
-    - Brussels
-    - Liege
-  - name: Italy
-    cities:
-    - Turin
-  - name: Germany
-    cities:
-    - Bonn
-    - Cologne
-    - Augsburg
-    - Munich
-  - name: France
-    cities:
-    - Lyon
-    - Paris
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: Dott is supporting healthcare, supermarkets, bank and voluntary
-    workers with discounts.
-  service_2: expansion of area to hospitals
-  service_2_notes: In Lyon,  Dott has expanded their business area in most cities
-    to support more hospitals.
-  service_3: discounted rides
-  service_3_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
-    and Turin to support medicine delivery.
-- name: Eloop
-  url: https://eloop.at/en/
-  logo: "/uploads/2020/04/06/eloop.png"
-  published: true
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: expansion of area to hospitals
-  service_2_notes: ''
-  service_3: discounted rides
-  service_3_notes: ''
-  countries:
-  - name: Austria
-    cities:
-    - Vienna
-  order:
-- name: Emmy
-  url: https://emmy-sharing.de/
-  logo: "/uploads/2020/04/06/emmy.png"
-  published: true
-  service_1: extra vehicle sanitisation
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Hamburg
-    - Munich
-    - Berlin
-    - Düsseldorf
-  order:
-- name: evo-sharing
-  url: https://www.evo-sharing.ruhr/
-  logo: "/uploads/2020/04/06/evo_sharing.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Oberhausen
-  order:
-- name: Felyx
-  url: https://felyx.nl/
-  logo: "/uploads/2020/04/06/felyx.png"
-  published: true
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Netherlands
-    cities:
-    - Amsterdam
-    - Rotterdam
-    - Den Haag
-  - name: Belgium
-    cities:
-    - Brussels
-  order:
-- name: Founder Shield
-  url: https://foundershield.com/
-  logo: "/uploads/2020/04/14/founder_shield.png"
-  published: true
-  order:
-  countries:
-  - name: Canada
-    cities:
-    - All cities
-  - name: United States
-    cities:
-    - All cities
-  service_1: consultancy
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Frank-E
-  url: https://www.frank-e-sharing.de/
-  logo: "/uploads/2020/04/06/frank_e.png"
-  published: true
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: Frank-E is offering 1h for free to any user doing something good
-    for the community. Get in touch with us to learn more.
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Frankfurt
-  order:
-- name: GetHenry
-  url: https://gethenry.co/en/home-en/
-  logo: "/uploads/2020/04/14/get_henry.png"
-  published: true
-  order:
-  countries:
-  - name: Austria
-    cities:
-    - Vienna
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: cooperation with delivery and restaurants
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Green Mobility
-  url: https://greenmobility.com/dk/en/
-  logo: "/uploads/2020/04/06/green_mobility.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Denmark
-    cities:
-    - Copenhagen
-    - Arhus
-  order:
-- name: GoTo Mobility
-  url: https://goto.global/
-  logo: "/uploads/2020/04/06/goto.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: GoTo made part of their fleet available for healthcare and essential
-    workers, volunteers, groups delivering food to people in need and others.
-  service_2: discounted rides
-  service_2_notes: 'GoTo is offering discounts in its carsharing operation: They removed
-    the subscription fee for 3 months and is offering free stop-over (up to 1 hour)
-    during rides. They''re also offering free bike rides in Tel Aviv.'
-  service_3: cooperation with delivery and restaurants
-  service_3_notes: GoTo Mobility made part of their fleet available for delivery purposes.
-    On top of that, they connect businesses with couriers, so delivery operation can
-    be set up at no time
-  countries:
-  - name: Israel
-    cities:
-    - Tel Aviv
-  - name: Malta
-    cities:
-    - Valetta
-    - Pembroke
-  order:
-- name: GoVolt
-  url: https://www.govolt.it/
-  logo: "/uploads/2020/04/09/go_volt.png"
-  published: true
-  order:
-  countries:
-  - name: Italy
-    cities:
-    - Milan
-  service_1: discounted rides
-  service_1_notes: ''
-  service_2: support for healthcare and/or essential workers
-  service_2_notes: ''
-  service_3: cooperation with delivery and restaurants
-  service_3_notes: ''
-- name: Hertz
-  url: https://www.hertz.de/
-  logo: "/uploads/2020/04/09/hertz.png"
-  published: true
-  countries:
-  - name: Germany
-    cities:
-    - All cities
-  service_1: discounted rides
-  service_1_notes: Hertz is offering special long-term rates for the general public
-    with their Hertz Minilease offer. It’s a small name for a big deal.
-  service_2: support for healthcare and/or essential workers
-  service_2_notes: 'To support health care workers, Hertz is providing them with individual
-    and safe mobility solutions. #Hertzenssache '
-  service_3: ''
-  service_3_notes: ''
-  order:
-- name: Highspeed service
-  url: https://www.highspeedservice.ch/
-  logo: "/uploads/2020/04/08/high_speed_service.png"
-  published: true
-  countries:
-  - name: Switzerland
-    cities:
-    - Basel
-    - Zürich
-  service_1: alternative commuting options
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  order:
-- name: Hive
-  url: https://www.ridehive.com/
-  logo: "/uploads/2020/04/06/hive.png"
-  published: true
-  service_1: groceries delivery for risk groups
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Portugal
-    cities:
-    - Lisbon
-  order:
-- name: Hobo
-  url: ''
-  logo: "/uploads/2020/04/06/hobo.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: cooperation with delivery and restaurants
-  service_2_notes: ''
-  service_3: extra vehicle sanitisation
-  service_3_notes: ''
-  countries:
-  - name: Bulgaria
-    cities:
-    - Sofia
-  order:
-- name: Juuve
-  url: https://juuve.nl/
-  logo: "/uploads/2020/04/09/juuve.png"
-  published: true
-  order:
-  countries:
-  - name: Netherlands
-    cities:
-    - Rotterdam
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Kyte
-  url: https://drivekyte.com/
-  logo: "/uploads/2020/04/14/kyte.png"
-  published: true
-  order:
-  countries:
-  - name: United States
-    cities:
-    - Los Angeles
-    - San Francisco
-  service_1: alternative commuting options
-  service_1_notes: 'All vehicles are delivered to the door to comply with social distancing
-    and #stayhome orders'
-  service_2: extra vehicle sanitisation
-  service_2_notes: Kyte sanitizes every vehicle before every delivery, drivers wear
-    gloves and mask
-  service_3: support for healthcare and/or essential workers
-  service_3_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
-    safe rides to their jobs. Nurses/Healthcare employees get all products with significant
-    discounts.
-- name: Mevo
-  url: https://mevo.co.nz/auckland
-  logo: "/uploads/2020/04/06/mevo.png"
-  published: false
-  service_1: extra vehicle sanitisation
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: We are offering discounted long term vehicle rentals to essential
-    workers and those with essential needs.
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: New Zealand
-    cities:
-    - Wellington
-    - Auckland
-  order:
-- name: Miles
-  url: https://miles-mobility.com/
-  logo: "/uploads/2020/04/06/miles.png"
-  published: true
-  service_1: discounted rides
-  service_1_notes: ''
-  service_2: expansion of area to hospitals
-  service_2_notes: ''
-  service_3: in-app icon for recently-sanitised vehicle
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Berlin
-    - Hamburg
-  order:
-- name: Moby
-  url: https://mobymove.com/
-  logo: "/uploads/2020/04/09/moby.png"
-  published: true
-  order:
-  countries:
-  - name: Ireland
-    cities:
-    - Dublin
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: expansion of area to hospitals
-  service_2_notes: ''
-  service_3: support for healthcare and/or essential workers
-  service_3_notes: 'Moby is providing dedicated electric bikes for healthcare workers
-    for free. If you also want to help, Moby has also arranged program whereby anyone
-    can lend electric bikes to them and they''ll lend it to a worker.
-
-'
-- name: Motobee
-  url: https://www.motobee.co/
-  logo: "/uploads/2020/04/16/moto_bee.png"
-  published: true
-  countries:
-  - name: United States
-    cities:
-    - Miami
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: Motobee is offering long-term moped leases to help people generate
-    income by doing deliveries for apps.
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: OKQ8
-  url: https://www.okq8.se/hyrbil/
-  logo: "/uploads/2020/04/06/okq8.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Sweden
-    cities:
-    - Stockholm
-  order:
-- name: Pony
-  url: https://getapony.com/en
-  logo: "/uploads/2020/04/14/pony.png"
-  published: true
-  order:
-  countries:
-  - name: France
-    cities:
-    - Angers
-    - Bordeaux
-  service_1: alternative commuting options
-  service_1_notes: Pony have adapted their service to allow you to rent a vehicle
-    for 1 week or 1 month at a discounted price. This way you will be the only user
-    of this vehicle.
-  service_2: discounted rides
-  service_2_notes: ''
-  service_3: support for healthcare and/or essential workers
-  service_3_notes: The company has partnered with hospitals in the cities they operate
-    in to offer for the staff free rides. Privatising vehicles (for free) it's also
-    an option.
-- name: Rhingo
-  url: https://www.rhingo.de/
-  logo: "/uploads/2020/04/06/rhingo.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: Rhingo is offering free and safe rides to all people that are still
-    working in food retailing, in pharmacies and drugstores, at the fire brigade,
-    the police, in public order offices or in disaster control.
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Cologne
-  order:
-- name: SIXT rent
-  url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
-  logo: "/uploads/2020/04/09/sixt-1.png"
-  published: true
-  order:
-  countries:
-  - name: Germany
-    cities:
-    - All cities
-  service_1: discounted rides
-  service_1_notes: 'Until April 30th, SIXT is offering discounted rides with two packages:
-    SIXT Flat Offer and SIXT Flex Offer. Learn more by visiting the website.'
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Scooty
-  url: https://scootysharing.be/
-  logo: "/uploads/2020/04/06/scooty.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: ''
-  service_3: expansion of area to hospitals
-  service_3_notes: ''
-  countries:
-  - name: Belgium
-    cities:
-    - Brussels
-    - Antwerp
-  order:
-- name: SIXT share
-  url: https://www.sixt.com/share/rates/#/
-  logo: "/uploads/2020/04/09/sixt.png"
-  published: true
-  order:
-  countries:
-  - name: Germany
-    cities:
-    - Berlin
-    - Hamburg
-    - Munich
-  service_1: discounted rides
-  service_1_notes: SIXT is offering rides from 9 cents/min for the general public.
-    Visit the website for more information
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-- name: Skut
-  url: https://skut.mx/
-  logo: "/uploads/2020/04/06/skut.png"
-  published: true
-  service_1: cooperation with delivery and restaurants
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Mexico
-    cities:
-    - Mexico City
-  order:
-- name: Stella
-  url: https://www.stella-sharing.de/
-  logo: "/uploads/2020/04/06/stella.png"
-  published: true
-  service_1: discounted rides
-  service_1_notes: ''
-  service_2: ''
-  service_2_notes: ''
-  service_3: ''
-  service_3_notes: ''
-  countries:
-  - name: Germany
-    cities:
-    - Stuttgart
-  order:
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
@@ -904,12 +911,12 @@ operators:
   - name: Germany
     cities:
     - Regensburg
-  order:
+  order: 
 - name: Wheely
   url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
   logo: "/uploads/2020/04/14/wheely.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Russia
     cities:
@@ -937,7 +944,7 @@ operators:
   url: https://www.whizascoot.mt/
   logo: "/uploads/2020/04/14/whizascoot.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Malta
     cities:
@@ -973,7 +980,7 @@ operators:
   url: https://zeelo.co/key-worker-transport
   logo: "/uploads/2020/04/09/zeelo.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United Kingdom
     cities:
@@ -992,7 +999,7 @@ operators:
   url: ridezip.co
   logo: "/uploads/2020/04/14/zip.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Canada
     cities:
@@ -1018,7 +1025,7 @@ operators:
   - name: Iceland
     cities:
     - Reykjavik
-  order:
+  order: 
 - name: Zoov
   url: https://zoov.typeform.com/to/oCGJAs
   logo: "/uploads/2020/04/06/zoov.png"
@@ -1034,7 +1041,7 @@ operators:
     cities:
     - Bordeaux
     - Paris
-  order:
+  order: 
 - name: deins&meins
   url: https://www.deinsundmeins-gt.de/e-carsharing/
   logo: "/uploads/2020/04/06/deins_and_meins.png"
@@ -1049,7 +1056,7 @@ operators:
   - name: Germany
     cities:
     - Gütersloh
-  order:
+  order: 
 - name: evhcle
   url: https://evhcle.com/
   logo: "/uploads/2020/04/06/evhcle.png"
@@ -1064,7 +1071,7 @@ operators:
   - name: Germany
     cities:
     - Munich
-  order:
+  order: 
 - name: Aimo
   url: https://aimosolution.com/?lang=en
   logo: "/uploads/2020/04/06/aimo.png"
@@ -1079,7 +1086,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order:
+  order: 
 - name: BeRider
   url: https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma
   logo: "/uploads/2020/04/06/be_rider.png"
@@ -1094,7 +1101,7 @@ operators:
   - name: Czech Republic
     cities:
     - Prague
-  order:
+  order: 
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkonig.png"
@@ -1109,7 +1116,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
 - name: Bird
   url: https://www.bird.co/blog/bird-providing-free-mobility-healthcare-workers-crisis/
   logo: "/uploads/2020/04/06/bird.png"
@@ -1134,7 +1141,7 @@ operators:
   - name: Israel
     cities:
     - Tel Aviv
-  order:
+  order: 
 - name: City-Drop
   url: https://www.city-drop.com/
   logo: "/uploads/2020/04/06/city_drop.png"
@@ -1167,7 +1174,7 @@ operators:
     - Rennes
     - Strasbourg
     - Toulouse
-  order:
+  order: 
 - name: CityScoot
   url: https://www.cityscoot.eu/en/paris/
   logo: "/uploads/2020/04/06/city_scoot.png"
@@ -1182,7 +1189,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
 - name: Ekar
   url: https://ekar.ae/
   logo: "/uploads/2020/04/06/ekar.png"
@@ -1199,7 +1206,7 @@ operators:
     - Dubai
     - Abu Dhabi
     - Sharjah
-  order:
+  order: 
 - name: Faxi
   url: https://faxi.co.uk/
   logo: "/uploads/2020/04/06/faxi.png"
@@ -1214,7 +1221,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Free2Move
   url: https://de.free2move.com/
   logo: "/uploads/2020/04/06/free2move.png"
@@ -1229,7 +1236,7 @@ operators:
   - name: United States
     cities:
     - Washington DC
-  order:
+  order: 
 - name: Gocycle GS
   url: https://promo.fullycharged.com/nhs-support
   logo: "/uploads/2020/04/06/go_cycle.png"
@@ -1244,7 +1251,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Gojek
   url: https://www.gojek.com/
   logo: "/uploads/2020/04/06/gojek.png"
@@ -1259,7 +1266,7 @@ operators:
   - name: Singapore
     cities:
     - Singapore
-  order:
+  order: 
 - name: Gotcha Mobility
   url: https://ridegotcha.com/
   logo: "/uploads/2020/04/06/gotcha.png"
@@ -1279,7 +1286,7 @@ operators:
     - Mobile
     - Raleigh
     - Syracuse
-  order:
+  order: 
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
   logo: "/uploads/2020/04/06/govecs_group.png"
@@ -1294,7 +1301,7 @@ operators:
   - name: Poland
     cities:
     - Wroclaw
-  order:
+  order: 
 - name: Helbiz
   url: https://helbiz.com/
   logo: "/uploads/2020/04/06/helbiz.png"
@@ -1327,7 +1334,7 @@ operators:
     - Milan
     - Riccione
     - Pesaro
-  order:
+  order: 
 - name: Hyundai
   url: https://www.hyundai.de/
   logo: "/uploads/2020/04/06/hyundai.png"
@@ -1342,7 +1349,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
 - name: Ithaca Carshare
   url: https://www.ithacacarshare.org/
   logo: "/uploads/2020/04/06/ithaca_carshare.png"
@@ -1357,7 +1364,7 @@ operators:
   - name: United States
     cities:
     - New York
-  order:
+  order: 
 - name: Kapten
   url: https://www.kapten.com/
   logo: "/uploads/2020/04/06/kapten.png"
@@ -1375,7 +1382,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
 - name: Lyft
   url: https://www.lyft.com/
   logo: "/uploads/2020/04/06/lyft.png"
@@ -1390,7 +1397,7 @@ operators:
   - name: United States
     cities:
     - San Francisco
-  order:
+  order: 
 - name: Marti
   url: https://www.marti.tech/
   logo: "/uploads/2020/04/06/marti.png"
@@ -1405,7 +1412,7 @@ operators:
   - name: Turkey
     cities:
     - Istanbul
-  order:
+  order: 
 - name: MOL Limo
   url: https://www.mollimo.hu/en/
   logo: "/uploads/2020/04/06/mol_limo.png"
@@ -1420,7 +1427,7 @@ operators:
   - name: Hungary
     cities:
     - Budapest
-  order:
+  order: 
 - name: Muvo Bike
   url: https://muvo.bike/?lang=en
   logo: "/uploads/2020/04/06/muvo.png"
@@ -1435,7 +1442,7 @@ operators:
   - name: Colombia
     cities:
     - Bogota
-  order:
+  order: 
 - name: Poppy Mobility
   url: https://poppy.be/en/
   logo: "/uploads/2020/04/06/poppy.png"
@@ -1451,7 +1458,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order:
+  order: 
 - name: Share Now
   url: https://www.share-now.com/de/en/care-now/
   logo: "/uploads/2020/04/06/sharenow.png"
@@ -1501,7 +1508,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order:
+  order: 
 - name: Sixt
   url: https://www.sixt.com/
   logo: "/uploads/2020/04/06/sixt.png"
@@ -1518,7 +1525,7 @@ operators:
     - Berlin
     - Munich
     - Hamburg
-  order:
+  order: 
 - name: Spin
   url: https://www.spin.app/
   logo: "/uploads/2020/04/06/spin.png"
@@ -1541,7 +1548,7 @@ operators:
     - San Francisco
     - Tampa
     - Washington DC
-  order:
+  order: 
 - name: Swiftmile
   url: https://swiftmile.com/
   logo: "/uploads/2020/04/06/swiftmile.png"
@@ -1556,7 +1563,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order:
+  order: 
 - name: Uber
   url: https://www.uber.com/de/en/
   logo: "/uploads/2020/04/06/uber.png"
@@ -1574,7 +1581,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
 - name: WeShare Deutschland
   url: https://www.we-share.io/en/
   logo: "/uploads/2020/04/06/we_share.png"
@@ -1589,7 +1596,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
 - name: Wheels
   url: https://www.takewheels.com/
   logo: "/uploads/2020/04/06/wheels.png"
@@ -1604,7 +1611,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order:
+  order: 
 - name: Wible
   url: https://www.wible.es/
   logo: "/uploads/2020/04/06/wible.png"
@@ -1619,7 +1626,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
 - name: Zity
   url: https://zity.eco/
   logo: "/uploads/2020/04/06/zity.png"
@@ -1637,7 +1644,7 @@ operators:
     - Clinchy
     - Le Kremlin Bicêtre
     - Paris
-  order:
+  order: 
 all_services:
 - consultancy
 - face shields manufacture
