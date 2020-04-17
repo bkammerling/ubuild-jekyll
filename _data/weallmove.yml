@@ -326,7 +326,8 @@ operators:
   published: true
   countries:
   - name: Germany
-    cities: []
+    cities:
+    - All cities
   service_1: support for healthcare and/or essential workers
   service_1_notes: |
     Enterprise Rent-A-Car is an essential services provider that remains open to meet critical transportation and personal mobility needs. They serve those who need a vehicle and to help frontline responders including emergency services, utilities, military and local governments continue to move goods and services during this global health crisis.
