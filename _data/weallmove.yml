@@ -712,22 +712,6 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
-- name: Scooty
-  url: https://scootysharing.be/
-  logo: "/uploads/2020/04/06/scooty.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: ''
-  service_3: expansion of area to hospitals
-  service_3_notes: ''
-  countries:
-  - name: Belgium
-    cities:
-    - Brussels
-    - Antwerp
-  order: 
 - name: SIXT share
   url: https://www.sixt.com/share/rates/#/
   logo: "/uploads/2020/04/09/sixt.png"
@@ -746,6 +730,22 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: Scooty
+  url: https://scootysharing.be/
+  logo: "/uploads/2020/04/06/scooty.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: expansion of area to hospitals
+  service_3_notes: ''
+  countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Antwerp
+  order: 
 - name: Skut
   url: https://skut.mx/
   logo: "/uploads/2020/04/06/skut.png"
