@@ -6,6 +6,7 @@ date: 2019-07-28T23:00:00.000+00:00
 permalink: "/rent"
 lang: en
 lang-ref: rent
+share_image: "/uploads/global/rent-shareimage.jpg"
 version: hp
 component_scripts:
 - rellax.min.js

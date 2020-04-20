@@ -168,11 +168,17 @@
 
 
 #rent-dash {
-  max-width: 150%;
+  max-width: 185%;
   margin-left: -32px;
+  @include rwd(mobile-up) {
+    max-width: 160%;
+  }
   @include rwd(tablet-up) {
     margin-left: 0;
-    max-width: 160%;
+    max-width: 200%;
+  }
+  @include rwd(desktop-up) {
+    max-width: 170%;
   }
 }
 
