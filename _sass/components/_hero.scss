@@ -10,9 +10,9 @@
 
   .hero-banner__inner-content {
     .block-hero-hp & {
-      padding: rem(185px) 0;
+      padding: rem(145px) 0;
       @include rwd(tablet-up) {
-        padding: rem(300px) 0;
+        padding: rem(240px) 0;
       }
     }
     margin: 0 auto;

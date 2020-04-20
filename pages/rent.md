@@ -28,7 +28,7 @@ page_sections:
     url: "#"
     button_text:
     enabled: false
-  background_video:
+  background_video: rent-loop
   show_logos: false
   background_image: "/uploads/global/rent-bg@2x.jpg"
 - block: rent-main

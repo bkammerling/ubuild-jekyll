@@ -157,8 +157,19 @@
 
   #rent-features-section {
     h3 {
-      top: 10%;
+      top: 25%;
     }
+  }
+
+}
+
+.smvideo-wrapper {
+  display: table-cell;
+  video {
+    @extend .w-x-shadow;
+  }
+  & + .smvideo-wrapper {
+    padding-left: 25px
   }
 }
 
