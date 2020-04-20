@@ -39,6 +39,20 @@ operators:
     cities:
     - Berlin
   order: 
+- name: Big Green Coach
+  url: https://www.biggreencoach.co.uk/
+  logo: "/uploads/2020/04/17/big_green_coach-1.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: " Biig"
   url: https://www.biig.co/
   logo: "/uploads/2020/04/20/biig.png"
@@ -1284,6 +1298,9 @@ operators:
   published: true
   order: 
   countries:
+  - name: Italy
+    cities:
+    - All cities
   - name: United Kingdom
     cities:
     - All cities
