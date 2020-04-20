@@ -23,8 +23,6 @@ hidden: true
 ---
 We’re happy to welcome one of Europe’s largest mobility operators to the #WeAllMove platform: Voi!
 
-![](/uploads/2020/04/20/voi_blog_announcement_body.jpg)
-
 Swedish scooter sharing company Voi is famous for their coral-colored electric kick scooters - ubiquitous in every major European city these days - and their commitment to social and environmental engagement. **Today, we can proudly announce that Voi has decided to join the #WeAllMove initiative as part of the World Economic Forum’s Global COVID Action Platform.**
 
 Voi is joining forces with us, the World Economic Forum, Hertz Autovermietung and Allianz Automotive to connect the world with mobility solutions. If Voi’s past record on social impact and their dedication to safety and sustainability are any indicator, they’re bound to inject more positivity and creativity into the #WeAllMove movement.
