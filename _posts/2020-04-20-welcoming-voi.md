@@ -10,7 +10,7 @@ author: _people/pia-benthien.md
 cta_heading: 'Find Out More About #WeAllMove'
 cta_text: "#WeAllMove is a movement to connect the world with mobility during a time
   of crisis."
-cta_link: pages/weallmove.md
+cta_link: pages/blog.md
 title: Welcoming Voi
 publish_date: 2020-04-20 13:00:00 +0000
 featured_image: "/uploads/2020/04/20/voi_blog_announcement_list.jpeg"
