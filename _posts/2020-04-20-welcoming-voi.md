@@ -43,4 +43,4 @@ This platform is open to everybody who needs help moving around, not just mobili
 
 If you’d like to learn more about Voi’s offerings during the corona crisis, send an email to voitribution@voiapp.io.
 
-_Weallmove.co is an open, online platform, connecting mobility providers with workers of essential services and is part of the World Economic Forum’s COVID Action Platform. It was created on the premise that as an industry, we should work together to help those providing the greatest services to society during times of crisis. For more information on the platform, check out our recent_ [_blog post_](https://www.wundermobility.com/blog/from-moving-people-to-starting-a-movement)_._
+Weallmove.co is an open, online platform, connecting mobility providers with workers of essential services and is part of the World Economic Forum’s COVID Action Platform. It was created on the premise that as an industry, we should work together to help those providing the greatest services to society during times of crisis. For more information on the platform, check out our recent [blog post](https://www.wundermobility.com/blog/from-moving-people-to-starting-a-movement).
