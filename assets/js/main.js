@@ -3,7 +3,7 @@ AOS.init({
   // Global settings:
   duration: 1400,
   offset: vh10,
-  once: false,
+  once: true,
   disable: 'mobile',
   startEvent: 'load'
 });
@@ -626,6 +626,18 @@ $(document).ready(function() {
 
   var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
   $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
+
+
+  function loopVideo() {
+    setTimeout(function(){
+      $('.loopedvideo.jsdelay').each(function() {
+        $(this).get(0).play();
+      })
+      loopVideo();
+    }, 2000);
+  }
+  loopVideo();
+
 
   if($("form#main-contact").length >= 1) {
     // set up event for when a form field is filled but the form is not sent - used with GMT

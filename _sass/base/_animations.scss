@@ -1,14 +1,6 @@
 $header-animtion-duration: 1s;
 $header-animtion-delay: 1s;
 
-@keyframes breathing {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(10px);
-  }
-}
 
 @keyframes wireless1 {
   0% {

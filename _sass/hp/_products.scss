@@ -140,22 +140,81 @@
 }
 
 
-/*
-.hero-banner__title-wrapper {
-  img ~ a {
-    background: $white;
-    display: inline-block;
-    color: $mobility-black;
-    margin-top: 10px;
-    @extend .btn;
-    &:after {
-      display: none;
+.out-right {
+  // used in rent for macbook mockup section
+  img {
+    max-width: 140%;
+    @include rwd(tablet-up) {
+      max-width: 250%;
     }
   }
 }
-*/
 
-/* ANIMATION FOR PHONE MOCKUPS */
+
+.rent {
+  section.fullwidth-bg {
+    padding: 100px 0;
+  }
+  #rent-features-section {
+    h3 {
+      top: 25%;
+    }
+  }
+  .rent-animgif {
+    height: 52px;
+  }
+}
+
+
+
+#rent-dash {
+  max-width: 185%;
+  margin-left: -32px;
+  @include rwd(mobile-up) {
+    max-width: 160%;
+  }
+  @include rwd(tablet-up) {
+    margin-left: 0;
+    max-width: 200%;
+  }
+  @include rwd(desktop-up) {
+    max-width: 170%;
+  }
+}
+
+
+.smvideo-wrapper {
+  display: table-cell;
+  video {
+    @extend .w-x-shadow;
+  }
+  & + .smvideo-wrapper {
+    padding-left: 25px
+  }
+}
+
+ul.feature-list {
+  padding-left: 1.8em;
+  li {
+    margin-bottom: 8px;
+    position: relative;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 1.5em;
+      width: 1.5em;
+      background-image: url('/uploads/global/check_24px.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 103%;
+      top: 1px;
+    }
+  }
+
+}
+
+/* ANIMATION FOR PHONE MOCKUPS - shuttle 02/2020 */
 
 $eachslide-duration: 3s;
 $count: 4;
@@ -241,7 +300,6 @@ $count: 4;
      }
    }
 }
-
 
 .web-mockup {
   filter: drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.1));
