@@ -78,6 +78,12 @@ operators:
   countries:
   - name: India
     cities:
+    - Belgaum
+    - Mangalore
+    - Shimoga
+    - Vijayawada
+    - Hubli
+    - Mysore
     - Hyderabad
     - Bangalore
   service_1: support for healthcare and/or essential workers
