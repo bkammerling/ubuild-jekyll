@@ -39,6 +39,23 @@ operators:
     cities:
     - Berlin
   order: 
+- name: " Biig"
+  url: https://www.biig.co/
+  logo: "/uploads/2020/04/20/biig.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - " All cities"
+  service_1: alternative commuting options
+  service_1_notes: "Available in New York, California, Seattle, Washington DC and
+    Texas. \nBiig’s smart lockbox, \"the BiigVault”, provides remote access to vehicles,
+    enabling mobility services like in-car delivery, car rental & sharing, gas delivery
+    as well as many other mobility services. "
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Bounce
   url: https://bounceshare.com/
   logo: "/uploads/2020/04/14/bounce.png"
@@ -212,6 +229,38 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: Communauto
+  url: https://www.communauto.com/index_en.html
+  logo: "/uploads/2020/04/20/communauto.png"
+  published: true
+  countries:
+  - name: France
+    cities:
+    - Paris
+  - name: Canada
+    cities:
+    - Toronto
+    - Sherbrooke
+    - Quebec
+    - Ottawa
+    - Montreal
+    - London
+    - Kitchener-Waterloo
+    - Hamilton
+    - Halifax
+    - Guelph
+    - Gatineau
+    - Edmonton
+    - Cambridge
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Communauto is ensuring that healthcare workers, non-profit organizations
+    and essential workers can travel safely by offering them free electric vehicles,
+    discounted week rates to all its fleet and free passes to allow them to make unlimited
+    trips less than 30 minutes.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
@@ -287,6 +336,21 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: Drover
+  url: https://www.joindrover.com/
+  logo: "/uploads/2020/04/20/drover.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'Drover is offering Key Workers a 50% discount on the usual Joining
+    Fee (a saving of £124.50). '
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -336,6 +400,21 @@ operators:
   service_2: alternative commuting options
   service_2_notes: ''
   service_3: groceries delivery for risk groups
+  service_3_notes: ''
+- name: Evezy
+  url: evezy.co.uk
+  logo: "/uploads/2020/04/20/evezy.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Evezy has tailored offers for essential workers in this time of
+    crisis.
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: ''
   service_3_notes: ''
 - name: evo-sharing
   url: https://www.evo-sharing.ruhr/
@@ -601,6 +680,29 @@ operators:
   service_3_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
     safe rides to their jobs. Nurses/Healthcare employees get all products with significant
     discounts.
+- name: LULA
+  url: https://www.lulaloop.co.za/essential-workers
+  logo: "/uploads/2020/04/20/lula.png"
+  published: true
+  countries:
+  - name: South Africa
+    cities:
+    - Pretoria
+    - Johannesburg
+    - Stellenbosch
+    - Somerset West
+    - Franschoek
+    - Cape Winelands
+    - Cape Town
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'LULA helps workers in the healthcare, retail and essential services
+    sector, with safe rides and with goods delivery.
+
+'
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: M
   url: https://m.co/se/en-US/
   logo: "/uploads/2020/04/17/m_volvo-1.png"
@@ -779,6 +881,26 @@ operators:
     - Vallendar
     - Homberg-Wernswig
     - Wolfhagen
+- name: Revel
+  url: https://gorevel.com/safety/coronavirus/service-provider-form/
+  logo: "/uploads/2020/04/20/revel.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Washington DC
+    - Austin
+    - Oakland
+    - New York
+    - Miami
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Revel is offering free rides to all health care workers. Sign up
+    by clicking on the link.
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: Revel is offering free rides to restaurants for delivery. Click
+    on "Get In Touch!" to request.
+  service_3: ''
+  service_3_notes: ''
 - name: Rhingo
   url: https://www.rhingo.de/
   logo: "/uploads/2020/04/06/rhingo.png"
@@ -1126,7 +1248,7 @@ operators:
     service.
 - name: Wyze Mobility
   url: https://wyzemobility.com/
-  logo: "/uploads/2020/04/15/wyze_mobility.png"
+  logo: "/uploads/2020/04/20/wyze_mobility.png"
   published: true
   countries:
   - name: Portugal
