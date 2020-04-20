@@ -485,6 +485,20 @@ operators:
     cities:
     - Frankfurt
   order: 
+- name: Freebike
+  url: https://freebike.com/en/#help
+  logo: "/uploads/2020/04/20/free_bike.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: GetHenry
   url: https://gethenry.co/en/home-en/
   logo: "/uploads/2020/04/14/get_henry.png"
