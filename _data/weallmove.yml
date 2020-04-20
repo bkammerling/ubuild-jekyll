@@ -1015,9 +1015,6 @@ operators:
   - name: Norway
     cities:
     - Oslo
-  - name: Italy
-    cities:
-    - Pesaro
   - name: Germany
     cities:
     - Nüremburg
