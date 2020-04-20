@@ -3,7 +3,7 @@ AOS.init({
   // Global settings:
   duration: 1400,
   offset: vh10,
-  once: false,
+  once: true,
   disable: 'mobile',
   startEvent: 'load'
 });
