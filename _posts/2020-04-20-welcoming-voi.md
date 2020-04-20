@@ -18,7 +18,7 @@ excerpt: 'We’re happy to welcome one of Europe’s largest mobility operators 
   #WeAllMove platform: Voi!'
 share_image: "/uploads/2020/04/20/voi_blog_announcement_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 We’re happy to welcome one of Europe’s largest mobility operators to the #WeAllMove platform: Voi!
