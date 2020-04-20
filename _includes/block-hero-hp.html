@@ -17,7 +17,7 @@
             {% endif %}
             <h1 class="headline-large">{{ section.headline }}</h1>
             {% if section.cta.enabled %}
-              <a class="gt-headercta text-link white-text {% if section.cta.button_text contains 'film' or section.cta.button_text contains 'Film' or section.cta.button_text contains 'Watch'  %}with-play gt-videoplay{% endif %}" href="{{ section.cta.url }}" target="_blank"{% if section.cta.button_text contains "film" or section.cta.button_text contains 'Film' %} data-toggle="modal" data-target="#filmModal"{% endif %}>{{ section.cta.button_text }}</a>
+              <a class="gt-headercta text-link white-text {% if section.cta.button_text contains 'film' or section.cta.button_text contains 'Film' or section.cta.button_text contains 'Watch' %}with-play gt-videoplay{% endif %}" href="{{ section.cta.url }}" target="_blank"{% if section.cta.button_text contains "film" or section.cta.button_text contains 'Film'  or section.cta.button_text contains 'Watch' %} data-toggle="modal" data-target="#filmModal"{% endif %}>{{ section.cta.button_text }}</a>
             {% endif %}
           </div>
         </div>

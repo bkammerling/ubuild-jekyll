@@ -163,8 +163,19 @@
   .rent-animgif {
     height: 52px;
   }
-
 }
+
+
+
+#rent-dash {
+  max-width: 150%;
+  margin-left: -32px;
+  @include rwd(tablet-up) {
+    margin-left: 0;
+    max-width: 160%;
+  }
+}
+
 
 .smvideo-wrapper {
   display: table-cell;

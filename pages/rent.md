@@ -1,6 +1,7 @@
 ---
 layout: blocks
 title: Wunder Rent | Digitalize Your Rental Operations
+description: Save on costs and increase the utilization rate of your fleet with self-service rentals. Wunder Rent is an all-in-one solution to completely digitalize your vehicle rental operations.
 date: 2019-07-28T23:00:00.000+00:00
 permalink: "/rent"
 lang: en
@@ -22,7 +23,7 @@ page_sections:
   sub_logo: "/uploads/global/wunder-rent-white.svg"
   cta:
     button_text: Watch how it works
-    url: "https://vimeo.com/318402556"
+    url: "https://vimeo.com/361066939"
     enabled: true
   cta_2:
     url: "#"
@@ -30,7 +31,7 @@ page_sections:
     enabled: false
   background_video: rent-loop
   show_logos: false
-  background_image: "/uploads/global/rent-bg@2x.jpg"
+  background_image: "/uploads/global/rent-herobg@2x.jpg"
 - block: rent-main
   template: static-file
   subdirectory: static
