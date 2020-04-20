@@ -23,6 +23,8 @@ hidden: true
 ---
 We’re happy to welcome one of Europe’s largest mobility operators to the #WeAllMove platform: Voi!
 
+![](/uploads/2020/04/20/voi_blog_announcement_body.jpg)
+
 Swedish scooter sharing company Voi is famous for their coral-colored electric kick scooters - ubiquitous in every major European city these days - and their commitment to social and environmental engagement. **Today, we can proudly announce that Voi has decided to join the #WeAllMove initiative as part of the World Economic Forum’s Global COVID Action Platform.**
 
 Voi is joining forces with us, the World Economic Forum, Hertz Autovermietung and Allianz Automotive to connect the world with mobility solutions. If Voi’s past record on social impact and their dedication to safety and sustainability are any indicator, they’re bound to inject more positivity and creativity into the #WeAllMove movement.
@@ -41,6 +43,6 @@ This platform is open to everybody who needs help moving around, not just mobili
 
 \---
 
-Weallmove.co is an open, online platform, connecting mobility providers with workers of essential services and is part of the World Economic Forum’s COVID Action Platform. It was created on the premise that as an industry, we should work together to help those providing the greatest services to society during times of crisis. For more information on the platform, check out our recent [blog post](https://www.wundermobility.com/blog/from-moving-people-to-starting-a-movement).
-
 If you’d like to learn more about Voi’s offerings during the corona crisis, send an email to voitribution@voiapp.io.
+
+_Weallmove.co is an open, online platform, connecting mobility providers with workers of essential services and is part of the World Economic Forum’s COVID Action Platform. It was created on the premise that as an industry, we should work together to help those providing the greatest services to society during times of crisis. For more information on the platform, check out our recent_ [_blog post_](https://www.wundermobility.com/blog/from-moving-people-to-starting-a-movement)_._
