@@ -683,7 +683,7 @@ operators:
 - name: OKQ8
   url: https://www.okq8.se/hyrbil/
   logo: "/uploads/2020/04/06/okq8.png"
-  published: true
+  published: false
   service_1: support for healthcare and/or essential workers
   service_1_notes: ''
   service_2: ''
