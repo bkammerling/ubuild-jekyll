@@ -1,0 +1,445 @@
+{% include head.html %}
+
+<nav class="px-4 py-3 mb-5">
+  <div class="row align-items-center">
+    <div class="col-6 col-lg-2 mt-sm-1">
+      <a class="navbar-brand" href="https://www.wundermobility.com/" target="_blank">
+        <p class="text-link text-blue">wundermobility.com</p>
+      </a>
+    </div>
+    <div class="col-6 col-lg-2 text-right order-lg-3 language-select align-self-start">
+      <div class="dropdown">
+        <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <ion-icon name="globe-outline" class="inline-icon"></ion-icon>
+          {% assign currentLang = site.data.global.languages | where: 'code', page.lang | first %}
+          <span>{{ currentLang.label }}</span>
+        </a>
+        <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
+          <a href="https://weallmove.co/" class="en dropdown-item" title="View in English">
+            <link rel="alternate" hreflang="de" href="https://weallmove.co/" />
+            🇺🇸 English
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="covid-notice text-lg-center">
+      <div class="row">
+        <div class="col-8 col-sm-9 pr-0 col-md-12">
+          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline ml-md-2 text-blue text-link wholink">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
+        </div>
+        <div class="col-4 col-sm-3 d-md-none">
+          <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="weallmove-intro" class="mt-md-5 pt-3">
+  <div class="container my-5">
+    <div class="hero-anim text-center mb-2">
+      <img data-src="/uploads/global/weallmove-hero.svg" class="lazy" alt="#WeAllMove animated text" />
+    </div>
+    <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+        <h3 class="mb-0 mt-5 my-md-5 pb-4 px-3  headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">Eine Bewegung, die unsere Welt mit Mobilitätslösungen verbindet.</h3>
+        <br>
+        <p class="my-3 text-center">In Partnerschaft mit</p>
+        <hr class="mt-3 mt-md-5 mb-0">
+        <div class="partner-logos d-flex justify-content-center">
+          <a href="https://wef.org" title="World economic forum homepage" target='_blank'><img src="/uploads/global/wef-logo.png" srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" /></a>
+          <a href="https://www.hertz.de/rentacar/reservation/" title="Hertz cer rental revervtion page" target='_blank'><img data-src="/uploads/global/hertz-logo.png" srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" /></a>
+          <a href="https://www.allianz-partners.com/en_US/products-and-solutions/automotive.html" title="Allianz automotive homepage" target='_blank'><img src="/uploads/global/allianz-partners.png" srcset="/uploads/global/allianz-partners@2x.png 2x" alt="Allianz automotive blau logo" /></a>
+          <a href="https://www.voi.com" title="Voi homepage" target='_blank'><img src="/uploads/global/voi-logo.png" srcset="/uploads/global/voi-logo@2x.png 2x" alt="Voi logo" /></a>
+        </div>
+        <hr class="mb-md-5 mt-0">
+        <div class="row mt-md-5 py-5">
+          <div class="col-md-6">
+            <p>Während einige von uns zu Hause bleiben, riskieren einige Mitglieder unserer Gesellschaft ihr Leben. Menschen im Gesundheitsdienst, Lieferdienstfahrer und Mitarbeiter in Lebensmittelgeschäften verlassen jeden Tag die Sicherheit ihrer Häuser, um dafür zu sorgen, dass das Leben der Anderen in Bewegung bleibt.</p>
+          </div>
+          <div class="col-md-6">
+            <p>Als Mobilitätsgemeinschaft können wir daran arbeiten, dass diesen Alltagshelden Mobilitätsdienste in größerem Umfang zur Verfügung stehen. Wir können unserer Welt auch in Zeit der Ungewissheit helfen vorwärtszukommen.
+              <br>
+              <br>
+              Dies ist keine Mitteilung. Es ist eine Einladung. Denn wenn sich einer von uns bewegt, #WeAllMove
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% assign countries = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
+
+<script type="text/javascript">
+  var countryObject = {};
+  {% for operator in operators %}
+  {% assign mainindex = forloop.index %}
+    {% for country in operator.countries %}
+      if(typeof countryObject['{{country.name}}'] === 'undefined') {
+        countryObject['{{country.name}}'] = [];
+      }
+      {% for city in country.cities %}
+        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  var countryArray = [];
+  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
+  var cityArray = [];
+  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
+</script>
+
+<section class="weallmove-filters fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
+  <div class="container text-center mt-5 pb-2">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="headline-large mb-5">Anbieter finden</h2>
+        <p class="px-3 px-md-5 m-0 text-center">Wir haben dieses Tool entwickelt, um dir die Suche nach Mobilitätslösungen zu erleichtern. Dabei ist es ganz egal, ob du den Arbeitsweg für Pflegekräfte und Ärzte sicheren möchtest, oder mehr Fahrzeuge für deine Lieferflotte benötigst. Das Tool steht allen offen, die Hilfe benötigen. Wenn du hier einen geeigneten Mobilitätsanbieter findest, nehme Kontakt mit uns auf und wir setzen euch in Verbindung.</p>
+
+    </div>
+  </div>
+</section>
+
+
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
+<section class="weallmove-list mb-5" id="weallmove-list">
+
+  <div class="filter-form bg-blue py-3 px-3 px-md-0 sticky-top" id="filter-form">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="row">
+
+            <div class="col-lg-2">
+              <p class="text-link text-light text-center text-lg-left mb-3 mb-lg-0">Filtern nach</p>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="form-group">
+                <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="form-group">
+                <select name="need" class="form-control we-select2" id="needSelect" data-placeholder="Need">
+                  <option></option>
+                  <option disabled><strong>Was suchen Sie?</strong></option>
+                  {% for need in site.data.weallmove.all_needs %}
+                    <option>{{ need }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="pt-5 pb-4 mb-5 bg-blue"></div>
+
+  <div class="container">
+
+    <div class="hamburg city-promo" id="frischepost-promo">
+      <div class="px-md-5 py-4 mb-5">
+        <div class="bg-greygradient promo-banner">
+          <div class="row">
+            <div class="col-lg-3 text-lg-center">
+              <img data-src="uploads/global/frischepost-logo.png" data-srcset="uploads/global/frischepost-logo@2x.png 2x" />
+            </div>
+            <div class="col-lg-5">
+              <h4 class="headline-small mt-4 mt-lg-0">Hallo, Hamburgers!</h4>
+              <p>Are you an individual or company looking for tasty, locally grown grocery and prepared meal deliveries? Check out Frischepost!</p>
+            </div>
+            <div class="col-lg-4">
+              <div class="pl-xl-4 mt-4 mt-lg-0">
+                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon"/></a><br>
+                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="showing-notice"><span class="current-showing">{{ operators.size }}</span> von <span class="total-showing">{{ operators.size }}</span> Mobilitätsanbietern werden angezeigt.</p>
+    <div class="noshow-feedback hide">
+      <h4 class="headline-small">Shoot, looks like we haven't found an operator that suits your needs.</h4>
+
+    </div>
+
+    {% for company in operators %}
+    <div class="weallmove-card w-shadow">
+      <div class="row">
+        <div class="col-lg-2 weallmove-card__col mb-sm-4 mb-lg-0">
+          <div class="weallmove-card__logo">
+            <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6  weallmove-card__col">
+          <div class="weallmove-card__offers">
+            <h4 class="headline-small">Angebote</h4>
+            <ul class="list-unstyled">
+              {% if company.service_1.size > 0 %}
+              {% assign service = site.data.weallmove.services_detail | where: 'service_name', company.service_1 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service.need_this_helps_with }}</strong>
+                  <br>{% if company.service_1_notes.size > 0 %}
+                      {{ company.service_1_notes }}
+                    {% else %}
+                      {{ service.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+              {% if company.service_2.size > 0 %}
+              {% assign service2 = site.data.weallmove.services_detail | where: 'service_name', company.service_2 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service2.need_this_helps_with }}</strong>
+                  <br>{% if company.service_2_notes.size > 0 %}
+                      {{ company.service_2_notes }}
+                    {% else %}
+                      {{ service2.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+              {% if company.service_3.size > 0 %}
+              {% assign service3 = site.data.weallmove.services_detail | where: 'service_name', company.service_3 | first %}
+                <li data-need="{{ service.need_this_helps_with | replace: ' ', '_' | downcase }}">
+                  <p><strong>{{ service3.need_this_helps_with }}</strong>
+                  <br>{% if company.service_3_notes.size > 0 %}
+                      {{ company.service_3_notes }}
+                    {% else %}
+                      {{ service3.service_description | replace: '__company_name__', company.name }}
+                    {% endif %}
+                  </p>
+                </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 weallmove-card__col">
+          <div class="weallmove-card__locations pl-sm-3 pl-lg-0">
+            <h4 class="headline-small">Betriebsbereiche</h4>
+            {% for country in company.countries %}
+              <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-lg-3 weallmove-card__col">
+          <button class="btn btn-primary mb-3 mt-sm-4 mt-lg-0" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Kontakt aufnehmen</button>
+          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+<section id="provider-cta" class="pt-5">
+  <div class="container">
+    <div class="jumbotron text-center mx-md-5">
+      <h3 class="headline-large mt-4">Du bist ein Mobilitätsanbieter, der seine Gemeinde voranbringen möchte?</h3>
+      <button class="btn btn-outline-primary mt-3 mb-4" data-toggle="modal" data-target="#interestedModal" data-subject="I want to join the movement" data-type="join-movement">Kontakt aufnehmen</button>
+    </div>
+  </div>
+</section>
+
+<section id="weallmove-form" class="mt-5 mb-3 pt-5">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="headline-medium px-lg-5">Wenn du alleine keine Lösung findest, die deinen Bedürfnissen entspricht, können wir gemeinsam eine finden.</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block block-contact-form" id="section-contact">
+    <div class="contact-form__wrapper">
+      <div class="container">
+        <hr class="d-md-none">
+        <div class="boxed-form w-shadow">
+          <h2 class="headline-medium text-center mb-2">Wie können wir dir helfen?</h2>
+          <p style="max-width: 500px" class="mx-auto mb-1 text-center"><strong>Sende uns deine Details und wir setzen uns so schnell wie möglich mit dir in Verbindung.</strong></p>
+          <p class="small-label mb-5 mt-1 text-center">Ihre persönlichen Daten werden vom Mobilitätsanbieter nur verwendet, um mit Ihnen in Kontakt zu treten.</p>
+          <div class="contact-form__form">
+            <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
+              <p class="hidden">
+                <input name="_gotcha">
+              </p>
+              <input type="hidden" name="subject" id="subject-field" value="Didn't find a suitable solution">
+              <input type="hidden" name="lang" id="site-lang" value="en">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Vollständiger Name *</label>
+                    <input type="text" name="name" id="name" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="email">Deine E-Mail Adresse *</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-label" for="company">Name des Unternehmens *</label>
+                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Telefon (inkl. Landesvorwahl)</label>
+                    <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="headline-small text-center mt-4 mb-3">Erzähl uns über dir</h3>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Deine Nachricht</label>
+                <textarea type="text" name="message" id="message"></textarea>
+                <div class="bottom-border"></div>
+              </div>
+
+              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+
+              <button id="form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
+                Formular absenden
+              </button>
+              <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="interestedModal" tabindex="-1" role="dialog" aria-labelledby="Interested modal" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <h4 class="modal-title text-center headline-medium mb-2" id="formModalLabel">I'm interested</h4>
+      <div id="text-switchy">
+        <div class="need-operator">
+          <p class="mx-auto mb-0 mb-md-1 text-center"><strong>Sende uns deine Details und wir setzen uns so schnell wie möglich mit dir in Verbindung.</strong></p>
+          <p class="small-label mb-5 mt-0 mt-md-1 text-center">Ihre persönlichen Daten werden vom Mobilitätsanbieter nur verwendet, um mit Ihnen in Kontakt zu treten.</p>
+        </div>
+        <div class="join-movement hidden">
+          <p class="mb-5 mt-0 mt-md-1 text-center">Because if one of us moves, #WeAllMove</p>
+        </div>
+      </div>
+      <button type="button" class="close text-blue" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <form id="modal-form" class="ajaxForm contact-form__form" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/24712758-d398-4dd9-b91a-8156621cbda6" method="POST">
+        <div class="modal-body">
+          <input type="hidden" name="subject" id="modal_subject-field" value="I'm interested">
+          <input type="hidden" name="lang" id="modal_site-lang" value="en">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <label for="recipient-name" class="form-label">Vollständiger Name *</label>
+                  <input type="text" class="" id="modal_recipient-name" name="name" required />
+                  <div class="bottom-border"></div>
+                </div>
+                <div class="form-group mb-3 mb-md-0">
+                  <label for="email" class="form-label">Deine E-Mail Adresse *</label>
+                  <input type="email" class="" id="modal_email" name="email" required />
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <label for="recipient-company" class="form-label">Name des Unternehmens *</label>
+                  <input type="text" class="" id="modal_recipient-company" name="company" required />
+                  <div class="bottom-border"></div>
+                </div>
+                <div class="form-group mb-3 mb-md-0">
+                  <label for="phone" class="form-label">Telefon (inkl. Landesvorwahl)</label>
+                  <input type="text" class="" id="modal_phone" name="phone" />
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="message-text" class="form-label">Deine Nachricht</label>
+              <textarea rows="3" class="" id="modal_message-text" name="message"></textarea>
+              <div class="bottom-border"></div>
+            </div>
+            <input type="hidden" id="modal_captchaResponse" name="g-recaptcha-response" />
+
+            <div class="row mt-4">
+              <div class="col-sm-5">
+                <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
+              </div>
+              <div class="col-sm-7 text-right">
+                <button id="modal_form-submit" class="btn btn-primary" onclick="weallmoveFormSubmit(event)">
+                  Formular absenden
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="powered-by mb-5 text-center">
+    <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
+    <p class="small-label text-light mt-2">#WeAllMove ist Teil des globalen Aktionsplans des Weltwirtschaftsforums für Covid-19</p>
+  </div>
+  <div class="footer__bottom text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 order-3 order-md-1">
+        <ul class="legal-links">
+          {% comment %}<li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>{% endcomment %}
+          {% for menu_item in site.menus.footerbottom %}
+            <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6 order-2 order-md-3">
+        <ul class="footer__socialmedia d-flex justify-content-center justify-content-md-end my-4 my-md-0 mt-md-2">
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.linkedin }}" alt="{{ site.title }} on LinkedIn" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.twitter }}" alt="{{ site.title }} on Twitter" target="_blank"><ion-icon name="logo-twitter" ></ion-icon></a></li>
+          <li class="mx-4 mx-sm-0 mr-sm-4"><a href="{{ site.data.global.instagram }}" alt="{{ site.title }} on Instagram" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% include footer.html %}

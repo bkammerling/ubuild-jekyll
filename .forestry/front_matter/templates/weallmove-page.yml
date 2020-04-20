@@ -35,4 +35,5 @@ fields:
   label: Share Image
   description: The wide image that displays when this page is shared on social media
 pages:
+- pages/weallmove-de.md
 - pages/weallmove.md

@@ -4,7 +4,7 @@
     <div class="quote-with-image pb-5">
       <div class="row align-items-top">
         <div class="col-lg-5 offset-xl-1 mb-5 mb-lg-0 pb-md-5 text-center rellax">
-          <img class="sticky-lg-top" onload="centerOffset(this)" data-rellax-speed="-3" data-src="/uploads/global/gunnar-sam.jpg" data-srcset="/uploads/global/gunnar-sam@2x.jpg 2x" />
+          <img class="sticky-top" onload="centerOffset(this)" data-rellax-speed="-3" data-src="/uploads/global/gunnar-sam.jpg" data-srcset="/uploads/global/gunnar-sam@2x.jpg 2x" />
         </div>
         <div class="offset-2 col-9 col-sm-8 offset-lg-0 col-lg-7 col-xl-6">
           <blockquote class="with-photo align-bottom shift-left">
@@ -227,9 +227,82 @@
     </div>
 
     <div class="text-center py-5 mx-auto">
-      <a href="#section-contact" class="btn btn-outline-primary mb-5" data-aos="fade-in" data-aos-easing="apple-easing">Get in touch</a>
+      <a href="#" data-toggle="modal" data-target="#formModal"  class="btn btn-outline-primary mb-5" data-aos="fade-in" data-aos-easing="apple-easing">Get in touch</a>
       <p class="text-muted py-5"><small>Photo credits: Stefanie Kleemann, Dortmund agency, City of Dortmund</small></p>
     </div>
 
   </div>
 </section>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="Contact form modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="formModalLabel">Get in touch with us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form id="modal-form"  class="ajaxForm" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
+          <div class="modal-body">
+            <input type="hidden" name="subject" id="subject-field" value="General enquiry">
+            <input type="hidden" name="country" id="user-country" value="">
+            <input type="hidden" name="region" id="user-region" value="EN">
+            <input type="hidden" name="lang" id="site-lang" value="en">
+            <input type="hidden" name="utm_source" id="utm_source" value="">
+            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+            <input type="hidden" name="utm_term" id="utm_term" value="">
+            <input type="hidden" name="campaign_id" id="campaign_id" value="">
+            <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
+            <input type="hidden" name="title_id" id="title_id" value="">
+            <input type="hidden" name="first_visit" id="first_visit" value="">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Full Name *</label>
+                    <input type="text" class="form-control" id="recipient-name" name="name" required placeholder="Your full name"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="col-form-label">Email *</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="your-email@example.com"/>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="phone" class="col-form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="+49 173 1234 567"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="recipient-company" class="col-form-label">Company *</label>
+                    <input type="text" class="form-control" id="recipient-company" name="company" placeholder="Your company" required />
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Message</label>
+                <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
+              </div>
+              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="col-sm-5">
+              <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
+            </div>
+            <div class="col-sm-7 text-right">
+              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+                Send Message
+              </button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>

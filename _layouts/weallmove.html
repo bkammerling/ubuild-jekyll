@@ -15,8 +15,8 @@
           <span>{{ currentLang.label }}</span>
         </a>
         <ul class="lang_options dropdown-menu" aria-labelledby="langMenuLink">
-          <a href="https://weallmove.co/wam-de/" class="de dropdown-item" title="View in Deutsch">
-            <link rel="alternate" hreflang="de" href="https://weallmove.co/wam-de/" />
+          <a href="https://weallmove.co/de" class="de dropdown-item" title="View in Deutsch">
+            <link rel="alternate" hreflang="de" href="https://weallmove.co/de" />
             🇩🇪 Deutsch
           </a>
         </ul>
@@ -25,11 +25,11 @@
     <div class="col-lg-8">
       <div class="covid-notice text-lg-center">
       <div class="row">
-        <div class="col-9 col-lg-12">
-          <span class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-lg-inline text-blue text-link">WHO <ion-icon class="text-blue" name="open-outline"></ion-icon></a></span>
+        <div class="col-8 col-sm-9 pr-0 col-md-12">
+          <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-md-inline-block ml-md-2 text-blue text-link wholink"> WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
         </div>
-        <div class="col-3 d-lg-none">
-          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <ion-icon class="text-blue d-lg-none" name="open-outline"></ion-icon></a>
+        <div class="col-4 col-sm-3 d-md-none">
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
         </div>
       </div>
     </div>
@@ -39,20 +39,22 @@
 <section id="weallmove-intro" class="mt-md-5 pt-3">
   <div class="container my-5">
     <div class="hero-anim text-center mb-2">
-      <img data-src="/uploads/global/weallmove-hero.svg" alt="#WeAllMove animated text" />
+      <img data-src="/uploads/global/weallmove-hero.svg" class="lazy" alt="#WeAllMove animated text" />
     </div>
     <div class="row">
       <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <h3 class="my-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">A movement to connect the world with mobility solutions during this time of crisis.</h3>
+        <h3 class="mb-0 mt-5 my-md-5 pb-4 px-3 headline-medium text-center" data-aos='soft-up' data-aos-easing="apple-easing">A movement to connect the world with mobility solutions during this time of crisis.</h3>
         <br>
-        <hr class="mt-5 mb-0">
-        <div class="d-flex align-items-center justify-content-center">
-          <p class="text-link text-dark pr-sm-5">In Partnership with</p>
-          <img class="ml-3 ml-sm-0 mr-sm-3 " data-src="/uploads/global/wef-logo.jpg" data-srcset="/uploads/global/wef-logo@2x.jpg 2x" alt="World Economic Forum text logo" />
-          <img data-src="/uploads/global/hamburg-logo.jpg" data-srcset="/uploads/global/hamburg-logo@2x.jpg 2x" alt="Hamburg city emblem and text" />
+        <p class="my-3 text-center">In Partnership with</p>
+        <hr class="mt-3 mt-md-5 mb-0">
+        <div class="partner-logos d-flex justify-content-center">
+          <a href="https://wef.org" title="World economic forum homepage" target='_blank'><img src="/uploads/global/wef-logo.png" srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" /></a>
+          <a href="https://www.hertz.de/rentacar/reservation/" title="Hertz cer rental revervtion page" target='_blank'><img data-src="/uploads/global/hertz-logo.png" srcset="/uploads/global/hertz-logo@2x.png 2x" alt="Hertz auto rental logo" /></a>
+          <a href="https://www.allianz-partners.com/en_US/products-and-solutions/automotive.html" title="Allianz automotive homepage" target='_blank'><img src="/uploads/global/allianz-partners.png" srcset="/uploads/global/allianz-partners@2x.png 2x" alt="Allianz automotive blau logo" /></a>
+          <a href="https://www.voi.com" title="Voi homepage" target='_blank'><img src="/uploads/global/voi-logo.png" srcset="/uploads/global/voi-logo@2x.png 2x" alt="Voi logo" /></a>
         </div>
-        <hr class="mb-5 mt-0">
-        <div class="row mt-5 py-5">
+        <hr class="mb-md-5 mt-0">
+        <div class="row mt-md-5 py-5">
           <div class="col-md-6">
             <p>While some of us stay home, other members of our community are risking their well-being for the greater good. Medical professionals, delivery service employees, grocery store workers and others leave the safety of their homes each day to ensure that life keeps moving.</p>
           </div>
@@ -70,9 +72,9 @@
 </section>
 
 
-{% assign countries = site.data.weallmove.operators | map: "countries" | map: "name" | uniq  %}
-{% assign cities = site.data.weallmove.operators | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
-{% assign operators = site.data.weallmove.operators %}
+{% assign countries = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "name" | uniq  %}
+{% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
+{% assign operators = site.data.weallmove.operators | where: 'published', true %}
 
 <script type="text/javascript">
   var countryObject = {};
@@ -93,29 +95,39 @@
   {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
 </script>
 
-<section class="weallmove-filters fullscreen-bg bg-blue py-5">
-  <div class="container text-center my-5">
+<section class="weallmove-filterinto fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
+  <div class="container text-center mt-5 pb-2">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="headline-large mb-5">Find an operator</h2>
-        <p class="px-5 mb-5 text-center">We’ve created this tool to help you find mobility solutions for your specific needs. Whether you’re a hospital hoping to provide safe commuting options for your medical workers or a delivery service in need of more vehicles, we want to help. The tool is open to anyone who needs assistance. If you find a suitable solution here, get in touch with us and we'll connect you to that operator.</p>
+        <p class="px-3 px-md-5 m-0 text-center">We’ve created this tool to help you find mobility solutions for your specific needs. Whether you’re a hospital hoping to provide safe commuting options for your medical workers or a delivery service in need of more vehicles, we want to help. The tool is open to anyone who needs assistance. If you find a suitable solution here, get in touch with us and we'll connect you to that operator.</p>
+    </div>
+  </div>
+</section>
 
-        <div class="px-sm-5 px-md-0 filter-form">
+
+{% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
+<section class="weallmove-list mb-5" id="weallmove-list">
+
+  <div class="filter-form bg-blue py-3 px-3 px-md-0 sticky-top" id="filter-form">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
           <div class="row">
+
             <div class="col-lg-2">
-              <p class="text-link text-light">Filter by</p>
+              <p class="text-link text-light text-center text-lg-left mb-3 mb-lg-0">Filter by</p>
             </div>
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
                 <select name="country" class="form-control we-select2" id="countrySelect" data-placeholder="Country">
-
                 </select>
               </div>
             </div>
             <div class="col-md-4 col-lg-3">
               <div class="form-group">
                 <select name="city" class="form-control we-select2" id="citySelect" data-placeholder="City">
-
                 </select>
               </div>
             </div>
@@ -130,17 +142,38 @@
                 </select>
               </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-
     </div>
+
   </div>
-</section>
 
+  <div class="pt-5 pb-4 mb-5 bg-blue"></div>
 
-{% assign operators = site.data.weallmove.operators | sort: 'last_modified_at' | reverse %}
-<section class="weallmove-list my-5">
   <div class="container">
+
+    <div class="hamburg city-promo" id="frischepost-promo">
+      <div class="px-md-5 py-4 mb-5">
+        <div class="bg-greygradient promo-banner">
+          <div class="row">
+            <div class="col-lg-3 text-lg-center">
+              <img data-src="uploads/global/frischepost-logo.png" data-srcset="uploads/global/frischepost-logo@2x.png 2x" />
+            </div>
+            <div class="col-lg-5">
+              <h4 class="headline-small mt-4 mt-lg-0">Hey, Hamburgers!</h4>
+              <p>Are you an individual or company looking for tasty, locally grown grocery and prepared meal deliveries? Check out Frischepost!</p>
+            </div>
+            <div class="col-lg-4">
+              <div class="pl-xl-4 mt-4 mt-lg-0">
+                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon"/></a><br>
+                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <p class="showing-notice">Currently showing <span class="current-showing">{{ operators.size }}</span> out of <span class="total-showing">{{ operators.size }}</span> mobility operators.</p>
     <div class="noshow-feedback hide">
@@ -151,12 +184,12 @@
     {% for company in operators %}
     <div class="weallmove-card w-shadow">
       <div class="row">
-        <div class="col-lg-2 weallmove-card__col">
+        <div class="col-lg-2 weallmove-card__col mb-sm-4 mb-lg-0">
           <div class="weallmove-card__logo">
             <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
           </div>
         </div>
-        <div class="col-lg-4 weallmove-card__col">
+        <div class="col-lg-4 col-sm-6 weallmove-card__col">
           <div class="weallmove-card__offers">
             <h4 class="headline-small">Offers</h4>
             <ul class="list-unstyled">
@@ -199,8 +232,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 weallmove-card__col">
-          <div class="weallmove-card__locations">
+        <div class="col-lg-3 col-sm-6 weallmove-card__col">
+          <div class="weallmove-card__locations pl-sm-3 pl-lg-0">
             <h4 class="headline-small">Areas of operation</h4>
             {% for country in company.countries %}
               <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
@@ -208,8 +241,8 @@
           </div>
         </div>
         <div class="col-lg-3 weallmove-card__col">
-          <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Get in touch</button>
-          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+          <button class="btn btn-primary mb-3 mt-sm-4 mt-lg-0" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator">Get in touch</button>
+          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
         </div>
       </div>
     </div>
@@ -240,7 +273,7 @@
 <section class="block block-contact-form" id="section-contact">
     <div class="contact-form__wrapper">
       <div class="container">
-        <hr class="d-md-none">
+        <hr class="d-md-none mb-5">
         <div class="boxed-form w-shadow">
           <h2 class="headline-medium text-center mb-2">How can we help?</h2>
           <p style="max-width: 500px" class="mx-auto mb-1 text-center"><strong>Send over some info and we'll get in touch ASAP.</strong></p>
@@ -267,8 +300,8 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <label class="form-label" for="company">Company Name *</label>
-                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
+                    <label class="form-label" for="company">Company Name</label>
+                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters">
                     <div class="bottom-border"></div>
                   </div>
                   <div class="form-group">
@@ -383,9 +416,11 @@
 
 <footer class="footer">
   <div class="powered-by mb-5 text-center">
-    <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    <a href="https://wundermobility.com" target="_blank" title="View the Wunder Mobility homepage">
+      <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
+    </a>
     <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
-    <p class="small-label text-light mt-2">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
+    <p class="small-label text-light mt-2 pb-5">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
   </div>
   <div class="footer__bottom text-center text-md-left">
     <div class="row">
@@ -393,7 +428,7 @@
         <ul class="legal-links">
           {% comment %}<li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>{% endcomment %}
           {% for menu_item in site.menus.footerbottom %}
-            <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+            <li><a target="_blank" class="small-label text-mute" href="https://www.wundermobility.com{{ menu_item.url }}">{{ menu_item.title }}</a></li>
           {% endfor %}
         </ul>
       </div>

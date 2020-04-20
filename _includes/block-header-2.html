@@ -25,7 +25,7 @@
       {% if section.cta.enabled %}
         <a class="btn btn-primary gt-navcta"
           {% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020"{% endif %}
-          {% if page.lang-ref == 'home' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
+          {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
           href="{{ section.cta.url }}">
           {{ section.cta.button_text }}
         </a>
