@@ -24,7 +24,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in_ [_English_](www.wundermobility.com/blog/why-the-corona-crisis-is-making-mobility-changes-inevitable)_._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/why-the-corona-crisis-is-making-mobility-changes-inevitable)_._
 
 Während vor der Verbreitung des Corona-Virus alle Mobilitäts-Ansätze dazu dienen sollten, private Autos stehen zu lassen und stattdessen die öffentlichen Verkehrsmittel zu nutzen, ist der Ton im Moment ein anderer: Es wird dazu geraten, öffentliche Verkehrsmittel so weit wie möglich zu meiden und der Fokus liegt wieder auf individuellen Fortbewegungsmitteln – vor allem das Auto und das Fahrrad werden zumeist genannt.
 
