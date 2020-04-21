@@ -16,7 +16,7 @@ page_sections:
   menu: wunder-main
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Request a demo
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
