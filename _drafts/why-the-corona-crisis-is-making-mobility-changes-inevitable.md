@@ -13,10 +13,10 @@ cta_text: Wunder City is the tool that can help cities evaluate and regulate mob
 cta_link: pages/city.md
 title: Why the Corona Crisis Is Making Mobility Changes Inevitable
 publish_date: 2020-04-21 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 excerpt: 'While the pandemic has led to the creation of new regulations and guidelines,
   the mobility industry has had to deal with a lack of new, relevant rules. '
-share_image: ''
+share_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 sticky: false
 hidden: false
 
@@ -24,6 +24,8 @@ hidden: false
 _Lesen Sie den Artikel auf Deutsch._
 
 Pre-corona crisis, replacing private car rides with public transportation was encouraged by cities and local governments as much as possible. Today, the tone is very different: people are being advised to avoid using public shared mobility like buses and trains. The focus once again lies on individual transportation options like bikes and cars.
+
+![](/uploads/2020/04/21/MobilityChanges_Blog_Body-1.jpg)
 
 While the pandemic has led to the creation of new regulations and guidelines, the mobility industry has had to deal with a lack of new, relevant rules. In almost all communities, ticket inspections and the purchasing of a ticket directly from a bus driver have been made impossible by new hygienic barriers and fear of human contact. Some cities such as Lisbon or smaller communities in Austria are taking things a step further and are being more lenient with parking tickets or illegally parked vehicles, all as a reaction to the spreading of the virus.
 
