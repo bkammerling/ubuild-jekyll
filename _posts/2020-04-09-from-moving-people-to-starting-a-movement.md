@@ -10,7 +10,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/weallmove.md
-title: From Moving People to Starting a Movement
+title: From Moving People to Starting a Movement [Video]
 publish_date: 2020-04-09T16:00:00.000+00:00
 featured_image: "/uploads/2020/04/09/WeAllMove_Blog_List-1.png"
 excerpt: We believe that it is time to come together, break down barriers and take
