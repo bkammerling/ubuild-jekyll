@@ -7,10 +7,10 @@ tags:
 - cities
 - public transportation
 author: []
-cta_heading: Find Out More About Wunder City
-cta_text: Wunder City is the tool that can help cities evaluate and regulate mobility
-  companies by aggregating data.
-cta_link: pages/city.md
+cta_heading: Sign Up for our Monthly Policy Brief
+cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
+  to policymakers, city officials, mobility enthusiasts and curious industry followers.
+cta_link: pages/bernstein-newsletter.md
 title: Why the Corona Crisis Is Making Mobility Changes Inevitable
 publish_date: 2020-04-21T14:00:00.000+00:00
 featured_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
