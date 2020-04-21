@@ -21,7 +21,7 @@ excerpt: Während die Pandemie zu einer Vielzahl neuer Regeln führte, wurden im
   der Kommunen die meisten Regeln gelockert.
 share_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in_ [_English_](www.wundermobility.com/blog/why-the-corona-crisis-is-making-mobility-changes-inevitable)_._

@@ -18,7 +18,7 @@ excerpt: 'While the pandemic has led to the creation of new regulations and guid
   the mobility industry has had to deal with a lack of new, relevant rules. '
 share_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Lesen Sie den Artikel auf Deutsch._
