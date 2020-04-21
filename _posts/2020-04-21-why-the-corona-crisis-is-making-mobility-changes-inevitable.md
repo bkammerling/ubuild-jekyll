@@ -21,7 +21,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf Deutsch._
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/wie-die-corona-krise-eine-ver%C3%A4nderung-im-verkehrskonzept-der-st%C3%A4dte-notwendig-macht)_._
 
 Pre-corona crisis, replacing private car rides with public transportation was encouraged by cities and local governments as much as possible. Today, the tone is very different: people are being advised to avoid using public shared mobility like buses and trains. The focus once again lies on individual transportation options like bikes and cars.
 
