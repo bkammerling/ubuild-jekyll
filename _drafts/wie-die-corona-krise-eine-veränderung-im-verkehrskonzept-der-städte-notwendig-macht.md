@@ -16,17 +16,19 @@ cta_link: pages/city.md
 title: Wie die Corona-Krise eine Veränderung im Verkehrskonzept der Städte notwendig
   macht
 publish_date: 2020-04-21 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 excerpt: Während die Pandemie zu einer Vielzahl neuer Regeln führte, wurden im Mobilitätsbereich
   der Kommunen die meisten Regeln gelockert.
-share_image: ''
+share_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 sticky: false
 hidden: false
 
 ---
-_Read this article in English._ 
+_Read this article in_ [_English_](www.wundermobility.com/blog/why-the-corona-crisis-is-making-mobility-changes-inevitable)_._
 
 Während vor der Verbreitung des Corona-Virus alle Mobilitäts-Ansätze dazu dienen sollten, private Autos stehen zu lassen und stattdessen die öffentlichen Verkehrsmittel zu nutzen, ist der Ton im Moment ein anderer: Es wird dazu geraten, öffentliche Verkehrsmittel so weit wie möglich zu meiden und der Fokus liegt wieder auf individuellen Fortbewegungsmitteln – vor allem das Auto und das Fahrrad werden zumeist genannt.
+
+![](/uploads/2020/04/21/MobilityChanges_Blog_Body-1.jpg)
 
 Während die Pandemie zu einer Vielzahl neuer Regeln führte, wurden im Mobilitätsbereich der Kommunen die meisten Regeln gelockert: So werden in beinahe allen Kommunen die Ticket-Kontrollen des öffentlichen Nahverkehrs ausgesetzt und der Kauf eines Tickets zum Beispiel beim Busfahrer ist aufgrund von Absperrungen nicht möglich. Manche Städte, wie beispielsweise Lissabon oder vereinzelte Gemeinden in Österreich, gehen noch weiter und lassen die Parkraumbewirtschaftung für den Zeitraum der Corona-Krise ruhen – Maßnahmen als Reaktionen auf die Verbreitung des Virus.
 
