@@ -7,18 +7,18 @@ tags:
 - cities
 - public transportation
 author: []
-cta_heading: Find Out More About Wunder City
-cta_text: Wunder City is the tool that can help cities evaluate and regulate mobility
-  companies by aggregating data.
-cta_link: pages/city.md
+cta_heading: Sign Up for our Monthly Policy Brief
+cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
+  to policymakers, city officials, mobility enthusiasts and curious industry followers.
+cta_link: pages/bernstein-newsletter.md
 title: Why the Corona Crisis Is Making Mobility Changes Inevitable
-publish_date: 2020-04-21 14:00:00 +0000
+publish_date: 2020-04-21T14:00:00.000+00:00
 featured_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 excerpt: 'While the pandemic has led to the creation of new regulations and guidelines,
   the mobility industry has had to deal with a lack of new, relevant rules. '
 share_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/wie-die-corona-krise-eine-ver%C3%A4nderung-im-verkehrskonzept-der-st%C3%A4dte-notwendig-macht)_._
@@ -53,4 +53,4 @@ During this crisis, it’s of vital importance to think about long-term solution
 
 One thing is very clear: digitalizing mobility will no longer be seen as a side thought or something that’s “nice to have”, but rather an economic necessity. Mobile payments and digital ticket inspections, both of which have been successfully implemented in many European cities for years (Brussels, Paris and London, to name a few), could easily safeguard revenue made from ticket sales.
 
-The corona crisis has shown us that the mobility industry still has to be adapted for changing times, particularly public transportation. The further development of innovative urban mobility solutions is therefore a necessary _and_ a realistic future scenario. This won’t be something that can wait awhile, either: the financial and economic situation of cities during these times of crisis is already dictating otherwise. That’s why the corona crisis should be viewed as an excellent opportunity for mobility to finally digitalize.
+The corona crisis has shown us that the mobility industry still has to be adapted for changing times, particularly public transportation. The further development of innovative urban mobility solutions is therefore a necessary and realistic future scenario. This won’t be something that can wait, either: the financial and economic situation of cities during this crisis is already dictating otherwise. That’s why the corona crisis should be viewed as an excellent opportunity for mobility to finally digitalize.
