@@ -7,6 +7,27 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
+- name: Anywheel
+  url: https://www.anywheel.sg/#/
+  logo: "/uploads/2020/04/22/anywheel.png"
+  published: true
+  countries:
+  - name: Malaysia
+    cities:
+    - Shah Alam
+    - Penang
+  - name: Thailand
+    cities:
+    - Chiangmai
+  - name: Singapore
+    cities:
+    - Singapore
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: ''
+  service_3: alternative commuting options
+  service_3_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
@@ -622,6 +643,32 @@ operators:
     - Copenhagen
     - Arhus
   order: 
+- name: Green Motion
+  url: " https://greenmotion.com/"
+  logo: "/uploads/2020/04/20/green_motion.png"
+  published: true
+  countries:
+  - name: Austria
+    cities:
+    - All cities
+  - name: Turkey
+    cities:
+    - All cities
+  - name: Sweden
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: alternative commuting options
+  service_2_notes: 'Green Motion is providing keyless access to vehicles in the UK
+    and Sweden.
+
+'
+  service_3: ''
+  service_3_notes: ''
 - name: GoTo Mobility
   url: https://goto.global/
   logo: "/uploads/2020/04/06/goto.png"
@@ -970,6 +1017,21 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: MyKeego
+  url: http://www.mykeego.com/
+  logo: "/uploads/2020/04/22/keego.png"
+  published: true
+  countries:
+  - name: Argentina
+    cities:
+    - Buenos Aires
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'MyKeego is offering cheaper packages with up to 12 interest-free
+    financing to help essential workers commute safely. '
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: OoGyaa
   url: https://www.oogyaa.com/
   logo: "/uploads/2020/04/22/oogyaa.png"
@@ -1137,6 +1199,22 @@ operators:
     cities:
     - Bangalore
     - Pune
+- name: Scooty
+  url: https://scootysharing.be/
+  logo: "/uploads/2020/04/06/scooty.png"
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: discounted rides
+  service_2_notes: ''
+  service_3: expansion of area to hospitals
+  service_3_notes: ''
+  countries:
+  - name: Belgium
+    cities:
+    - Brussels
+    - Antwerp
+  order: 
 - name: SIXT rent
   url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
   logo: "/uploads/2020/04/09/sixt-1.png"
@@ -1217,22 +1295,6 @@ operators:
     discounted rates on flexible long-term rentals. Get in touich for more information.
   service_3: ''
   service_3_notes: ''
-- name: Scooty
-  url: https://scootysharing.be/
-  logo: "/uploads/2020/04/06/scooty.png"
-  published: true
-  service_1: support for healthcare and/or essential workers
-  service_1_notes: ''
-  service_2: discounted rides
-  service_2_notes: ''
-  service_3: expansion of area to hospitals
-  service_3_notes: ''
-  countries:
-  - name: Belgium
-    cities:
-    - Brussels
-    - Antwerp
-  order: 
 - name: Skut
   url: https://skut.mx/
   logo: "/uploads/2020/04/06/skut.png"
@@ -1248,6 +1310,21 @@ operators:
     cities:
     - Mexico City
   order: 
+- name: Snap
+  url: www.getasnap.com
+  logo: ''
+  published: false
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  service_1: alternative commuting options
+  service_1_notes: We can offer pop-up bus routes with full social distancing and
+    contact tracing.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Stella
   url: https://www.stella-sharing.de/
   logo: "/uploads/2020/04/06/stella.png"
@@ -1520,6 +1597,27 @@ operators:
   service_3_notes: Wyze is also offering free rides to parish council members in need
     to support to senior citizens, deliver of essential goods to local residents under
     house confinement or visit to people living in isolation.
+- name: YEGO
+  url: rideyego.com
+  logo: "/uploads/2020/04/22/yego.png"
+  published: true
+  countries:
+  - name: France
+    cities:
+    - Bordeaux
+  - name: Spain
+    cities:
+    - Valencia
+    - Barcelona
+  service_1: discounted rides
+  service_1_notes: " YEGO services remain open to meet critical transportation and
+    personal mobility needs and offer an alternative to public transportation. They
+    have adapted their service to allow you to rent a vehicle for 1 week at a discounted
+    price. This way you will be the only user of this vehicle. "
+  service_2: extra vehicle sanitisation
+  service_2_notes: ''
+  service_3: expansion of area to hospitals
+  service_3_notes: ''
 - name: Zeelo
   url: https://zeelo.co/key-worker-transport
   logo: "/uploads/2020/04/09/zeelo.png"
