@@ -267,6 +267,27 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: Cooltra
+  url: https://www.cooltra.com/es/
+  logo: "/uploads/2020/04/20/cooltra.png"
+  published: true
+  countries:
+  - name: Spain
+    cities:
+    - Barcelona
+  - name: Portugal
+    cities:
+    - Lisbon
+  service_1: groceries delivery for risk groups
+  service_1_notes: |-
+    Cooltra is  making weekly fruit deliveries to the Red Cross so they can support  families in need.
+    In Portugal, Cooltra is offering part of the fleet to “Apoio Social +65 anos”, a program that delivers first need products to the elderly.
+  service_2: alternative commuting options
+  service_2_notes: Cooltra is offering scooters to entrepreneurs who are  supporting
+    the current health demands and helping healthcare centres.
+  service_3: support for healthcare and/or essential workers
+  service_3_notes: Cooltra donated scooters to Doctors Without Borders to help with
+    their travel needs.
 - name: Communauto
   url: https://www.communauto.com/index_en.html
   logo: "/uploads/2020/04/20/communauto.png"
