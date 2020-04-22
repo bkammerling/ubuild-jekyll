@@ -455,7 +455,28 @@ operators:
     - Berlin
     - Düsseldorf
   order: 
-- name: Enterprise-Rent-A-Car
+- name: Enterprise Rent-A-Car (Australia and New Zealand)
+  url: https://www.enterpriserentacar.com.au/en/about/on-call-for-all.html
+  logo: "/uploads/2020/04/17/enterprise-1.png"
+  published: true
+  countries:
+  - name: New Zealand
+    cities:
+    - All cities
+  - name: Australia
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'Enterprise Rent-A-Car is offering free rental vehicle to frontline
+    health workers for up to 3 months. Available to first 100 vehicles, until June
+    30th. '
+  service_2: discounted rides
+  service_2_notes: Enterprise Rent-A-Car is also offering discounted pricing for essential
+    workers as well as discounted monthly rentals open for anyone, designed as a substitute
+    for those previously using public transport.
+  service_3: extra vehicle sanitisation
+  service_3_notes: ''
+- name: Enterprise-Rent-A-Car (Germany)
   url: https://www.enterprise.de/de/ueber-uns/on-call-for-all.html
   logo: "/uploads/2020/04/17/enterprise-1.png"
   published: true
@@ -703,6 +724,21 @@ operators:
     cities:
     - Lisbon
   order: 
+- name: Hiyacar
+  url: https://www.hiyacar.co.uk/
+  logo: "/uploads/2020/04/22/hiyacar.png"
+  published: true
+  countries:
+  - name: UK
+    cities:
+    - All cities
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Hiyacar offering free car hire to NHS workers in London. People
+    can list their cars for NHS workers anywhere in the UK on the platform.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Hobo
   url: ''
   logo: "/uploads/2020/04/06/hobo.png"
@@ -815,6 +851,38 @@ operators:
   service_1: support for healthcare and/or essential workers
   service_1_notes: With its initiative We Fight Covid, M is providing cars to healthcare
     personnel to guarantee a safe and quick commute.
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Mealing Taxis
+  url: http://www.mealingtaxis.co.uk/
+  logo: ''
+  published: false
+  countries:
+  - name: United Kingdom
+    cities:
+    - Barnet
+    - Stanmore
+    - Bushey
+    - Uxbridge
+    - Harrow
+    - Ruislip
+    - Pinner
+    - Denham
+    - Chorleywood
+    - Rickmansworth
+    - Hemel Hempstead
+    - St Albans
+    - Northwood
+    - Watford
+    - Buckinghamshire
+    - Bedfordshire
+    - Hertfordshire
+    - London
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: "Mealing Taxis is offering a 20% discount for NHS workers and Social
+    Care staff for all trips. \n"
   service_2: ''
   service_2_notes: ''
   service_3: ''
@@ -1194,6 +1262,14 @@ operators:
   published: true
   order: 
   countries:
+  - name: Denmark
+    cities:
+    - Odense
+    - Copenhagen
+  - name: France
+    cities:
+    - Bordeaux
+    - Paris
   - name: Sweden
     cities:
     - Lund
