@@ -741,7 +741,10 @@ operators:
   url: https://m.co/se/en-US/
   logo: "/uploads/2020/04/17/m_volvo-1.png"
   published: true
-  countries: []
+  countries:
+  - name: Sweden
+    cities:
+    - Stockholm
   service_1: support for healthcare and/or essential workers
   service_1_notes: With its initiative We Fight Covid, M is providing cars to healthcare
     personnel to guarantee a safe and quick commute.
