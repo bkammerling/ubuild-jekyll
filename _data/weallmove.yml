@@ -754,6 +754,22 @@ operators:
     cities:
     - Sofia
   order: 
+- name: HONK
+  url: https://www.honkforhelp.com/industry-solutions/
+  logo: "/uploads/2020/04/17/honk-1.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - All cities
+  service_1: alternative commuting options
+  service_1_notes: 'The HONK platform of approximately 70k service vehicles operating
+    nationwide is equipped to be digitally dispatched to provide mechanical services,
+    sanitation services and transportation services of goods, vehicles and equipment. '
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
 - name: Juuve
   url: https://juuve.nl/
   logo: "/uploads/2020/04/09/juuve.png"
@@ -1821,35 +1837,34 @@ operators:
 - name: Helbiz
   url: https://helbiz.com/
   logo: "/uploads/2020/04/06/helbiz.png"
-  published: false
-  service_1: alternative commuting options
-  service_1_notes: ''
+  published: true
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Helbiz is offering 25000 free rides in Italy (solidarietà digitale
+    project) and a special delivery Covid19 Kit with N95 masks.
   service_2: extra vehicle sanitisation
   service_2_notes: ''
-  service_3: ''
+  service_3: alternative commuting options
   service_3_notes: ''
   countries:
   - name: United States
     cities:
-    - Alexandria
     - Miami
+    - Washington DC
   - name: Serbia
     cities:
-    - Belgrade
+    - Belgrad
   - name: Spain
     cities:
     - Malaga
-    - Marbella
   - name: France
     cities:
     - Bordeaux
   - name: Italy
     cities:
+    - Rome
     - Turin
     - Verona
     - Milan
-    - Riccione
-    - Pesaro
   order: 
 - name: Hyundai
   url: https://www.hyundai.de/
