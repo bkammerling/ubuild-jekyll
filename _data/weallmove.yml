@@ -70,6 +70,24 @@ operators:
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
+- name: BOND Mobility
+  url: https://www.bond.info/
+  logo: "/uploads/2020/04/22/bond.png"
+  published: true
+  countries: []
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: Thanks to BOND Mobility and its partners, healthcare and emergency
+    workers enjoy safe rides for free.
+  service_2: cooperation with delivery and restaurants
+  service_2_notes: 'BOND Mobility  E-Bikes with trailers are provided to delivery
+    services at a discount rate.
+
+'
+  service_3: alternative commuting options
+  service_3_notes: BOND Mobility offers a 50% discount to the general public. They
+    also offer private fleets to businesses that care about their employees and want
+    to offer them a safe and healthy mode of commuting. The vehicles and helmets are
+    disinfected very frequently.
 - name: Bounce
   url: https://bounceshare.com/
   logo: "/uploads/2020/04/14/bounce.png"
@@ -313,6 +331,18 @@ operators:
   service_3: discounted rides
   service_3_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
     and Turin to support medicine delivery.
+- name: Drive Whip
+  url: ''
+  logo: "/uploads/2020/04/22/whip.png"
+  published: false
+  countries: []
+  service_1: alternative commuting options
+  service_1_notes: Whip has set up disinfecting stations in Washington DC to disinfect
+    the cars of ALL RideShare drivers, free of charge.
+  service_2: support for healthcare and/or essential workers
+  service_2_notes: ''
+  service_3: groceries delivery for risk groups
+  service_3_notes: ''
 - name: Driverseat
   url: https://driverseatinc.com/
   logo: "/uploads/2020/04/17/driver_seat-1.png"
@@ -624,7 +654,7 @@ operators:
 - name: Highspeed service
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
-  published: true
+  published: false
   countries:
   - name: Switzerland
     cities:
@@ -678,6 +708,22 @@ operators:
     - Rotterdam
   service_1: support for healthcare and/or essential workers
   service_1_notes: ''
+  service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: Kinto
+  url: www.kinto-cr.com
+  logo: ''
+  published: false
+  countries:
+  - name: Costa Rica
+    cities:
+    - San Jose
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: 'Kinto Costa Rica making part of their fleet available to Hospitals
+    and to the the Costa Rican National Healthcare System - Caja Costarricense de
+    Seguro Social to use for commute, operations, and other medical needs. '
   service_2: ''
   service_2_notes: ''
   service_3: ''
@@ -816,6 +862,20 @@ operators:
   service_1_notes: Motobee is offering long-term moped leases to help people generate
     income by doing deliveries for apps.
   service_2: ''
+  service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: OoGyaa
+  url: https://www.oogyaa.com/
+  logo: "/uploads/2020/04/22/oogyaa.png"
+  published: true
+  countries:
+  - name: Malaysia
+    cities:
+    - Kuala Lumpur
+  service_1: support for healthcare and/or essential workers
+  service_1_notes: ''
+  service_2: cooperation with delivery and restaurants
   service_2_notes: ''
   service_3: ''
   service_3_notes: ''
@@ -1004,6 +1064,52 @@ operators:
     Visit the website for more information
   service_2: ''
   service_2_notes: ''
+  service_3: ''
+  service_3_notes: ''
+- name: SIXT US
+  url: sixt.com
+  logo: "/uploads/2020/04/09/sixt.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Seattle
+    - Washington DC
+    - San Antonio
+    - Dallas
+    - New York
+    - Las Vegas
+    - Philadelphia
+    - Chicago
+    - Honolulu
+    - Oahu
+    - Maui
+    - Atlanta
+    - Boca Raton
+    - West Palm Beach
+    - Miami
+    - Fort Lauderdale
+    - Fort Myers
+    - Tampa
+    - Orlando
+    - Denver
+    - Aspen
+    - West Hollywood
+    - Venice Beach
+    - Santa Monica
+    - San Francisco
+    - San Jose
+    - San Diego
+    - Los Angeles
+    - Beverly Hills
+    - Scottsdale
+    - Phoenix
+  service_1: alternative commuting options
+  service_1_notes: SIXT is offering special Corporate rates until June 30th, 2020
+    on long-term rentals.Get in touch to learn more.
+  service_2: support for healthcare and/or essential workers
+  service_2_notes: Until June 30th of 2020, SIXT is providing healthcare workers with
+    discounted rates on flexible long-term rentals. Get in touich for more information.
   service_3: ''
   service_3_notes: ''
 - name: Scooty
