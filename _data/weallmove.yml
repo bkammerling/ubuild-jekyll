@@ -1151,6 +1151,56 @@ operators:
     service_notes: ''
   - service: expansion of area to hospitals
     service_notes: ''
+- name: Share Now
+  url: https://www.share-now.com/
+  logo: "/uploads/2020/04/23/share_now.png"
+  published: true
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+  - name: Netherlands
+    cities:
+    - Amsterdam
+  - name: Italy
+    cities:
+    - Turin
+    - Rome
+    - Milan
+  - name: Hungary
+    cities:
+    - Budapest
+  - name: Germany
+    cities:
+    - Munich
+    - Stuttgart
+    - Frankfurt
+    - Düsseldorf
+    - Cologne
+    - Hamburg
+    - Berlin
+  - name: France
+    cities:
+    - Paris
+  - name: Denmark
+    cities:
+    - Copenhagen
+  - name: Austria
+    cities:
+    - Vienna
+  services:
+  - service: groceries delivery for risk groups
+    service_notes: Cars available starting at 11,33 Euro per day.
+  - service: alternative commuting options
+    service_notes: |-
+      SHARE NOW is extending its mobility offer, so you can keep your
+      car just yourself around-the-clock for 30 days. Besides, you can now
+      book our 30-day package at 50% discount. In Frankfurt, Milan and Turin you can even have the car delivered to your doorstep.
+  - service: support for healthcare and/or essential workers
+    service_notes: |-
+      To help all healthcare and frontline workers get to work safely,
+      SHARE NOW is offering cashback on all trips and a 30-day mobility
+      rate at cost price. Available in France, Germany, Italy and Netherlands.
 - name: SIXT rent
   url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
   logo: "/uploads/2020/04/09/sixt-1.png"
@@ -1220,10 +1270,10 @@ operators:
   services:
   - service: alternative commuting options
     service_notes: SIXT is offering special Corporate rates until June 30th, 2020
-      on long-term rentals.Get in touch to learn more.
+      on long-term rentals. Get in touch to learn more.
   - service: support for healthcare and/or essential workers
     service_notes: Until June 30th of 2020, SIXT is providing healthcare workers with
-      discounted rates on flexible long-term rentals. Get in touich for more information.
+      discounted rates on flexible long-term rentals. Get in touch for more information.
 - name: Skut
   url: https://skut.mx/
   logo: "/uploads/2020/04/06/skut.png"
