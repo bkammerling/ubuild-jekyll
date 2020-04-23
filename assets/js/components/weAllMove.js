@@ -129,7 +129,15 @@ $(document).ready(function() {
 
 
   $('.we-select2').on("change", function (e) {
-    console.log("change");
+    if(e.target.value) {
+      console.log('FilterBy_'+e.target.name);
+      dataLayer.push({
+        'event': 'WeAllMove-Filter',
+        'eventCategory': 'WeAllMove',
+        'eventAction': 'FilterBy_'+e.target.name,
+        'eventLabel': e.target.value
+      });
+    }
     filterObj[e.target.name] = e.target.value;
     filterList();
   });
@@ -148,7 +156,7 @@ $(document).ready(function() {
       }
       // is country that has been selected same as city
       var theseCities = [...new Set(countryObject[e.target.value].map(item => item.text))];;
-      console.log(theseCities)
+      //console.log(theseCities)
       $("#citySelect").select2('destroy').empty().select2({
         data: theseCities.sort(),
         allowClear: true,
@@ -175,7 +183,7 @@ $(document).ready(function() {
     if($('html').scrollTop() >= $("#filter-intro").offset().top+$("#filter-intro").height()+150) {
       $('html').scrollTop($("#filter-intro").offset().top+$("#filter-intro").height()+150);
     }
-    
+
     $(`.weallmove-card:not(:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country}))`).addClass('card-hidden');
     $(`.weallmove-card:contains(${filterObj.need}):contains(${filterObj.city}):contains(${filterObj.country})`).removeClass('card-hidden');
     $(`.weallmove-card:contains(${filterObj.need}):contains(${filterObj.country}):contains('All cities')`).removeClass('card-hidden');
