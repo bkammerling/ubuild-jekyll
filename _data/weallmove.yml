@@ -959,6 +959,22 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: MyKeego is offering cheaper packages with up to 12 interest-free
       financing to help essential workers commute safely.
+- name: Onlogist
+  url: onlogist.com
+  logo: "/uploads/2020/04/23/onlogist.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Onlogist is offering discounts to all companies within the healthcare
+      and emergency industry. Emergency & care workers vehicles that need to undergo
+      maintenance or repairs will be picked-up & delivered back to you.
+  - service: groceries delivery for risk groups
+    service_notes: 'Onlogist is making its platform accessible for companies who are
+      in need of delivering groceries to their customers. '
 - name: OoGyaa
   url: https://www.oogyaa.com/
   logo: "/uploads/2020/04/22/oogyaa.png"
@@ -1222,8 +1238,8 @@ operators:
     service_notes: ''
 - name: Snap
   url: www.getasnap.com
-  logo: ''
-  published: false
+  logo: "/uploads/2020/04/23/snap.png"
+  published: true
   countries:
   - name: United Kingdom
     cities:
@@ -1316,6 +1332,19 @@ operators:
     service_notes: Tier is ensuring that everyday heros (Hospital staff and health
       care workers, Supermarket and pharmacy staff, Police and Fire brigade, Employees
       of local public transportation workers) have free, safe rides to their jobs.
+- name: Trōv
+  url: https://www.trov.com/
+  logo: "/uploads/2020/04/23/trov.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - All cities
+  services:
+  - service: consultancy
+    service_notes: 'Trōv has launched a rapid-quote program for last-mile delivery
+      insurance aimed at helping platforms that are looking to onboard new delivery
+      drivers during this challenging time. '
 - name: UFODRIVE
   url: https://www.ufodrive.com/en/
   logo: "/uploads/2020/04/17/ufo_drive-1.png"
@@ -1458,6 +1487,29 @@ operators:
   - service: extra vehicle sanitisation
     service_notes: Wheely has increased their vehicle sanitisation measures. Learn
       more by clicking on the link.
+- name: WhistleDrive
+  url: https://www.whistledrive.com/
+  logo: "/uploads/2020/04/23/whistle_drive.png"
+  published: true
+  countries:
+  - name: India
+    cities:
+    - Pune
+    - Bengaluru
+    - Chennai
+    - Hyderabad
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: For the critical domains like healthcare(medicine and pharmaceutical)
+      firms, WhistleDrive added COVID related safety & EHS aspects in technology /
+      application to ensure that vehicles (Cabs & buses) are hygiene and drivers are
+      healthy.
+  - service: alternative commuting options
+    service_notes: WhistleDrive is supporting corporates in moving employee workstations
+      and material to employees homes and back.
+  - service: groceries delivery for risk groups
+    service_notes: WhistleDrive is engaging it's fleet for delivering groceries and
+      everyday essentials from stores to doors of employees and the general public.
 - name: Whizascoot
   url: https://www.whizascoot.mt/
   logo: "/uploads/2020/04/14/whizascoot.png"
