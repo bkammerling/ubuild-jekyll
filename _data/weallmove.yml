@@ -1448,9 +1448,9 @@ operators:
     - All cities
   services:
   - service: consultancy
-    service_notes: 'Trōv has launched a rapid-quote program for last-mile delivery
-      insurance aimed at helping platforms that are looking to onboard new delivery
-      drivers during this challenging time. '
+    service_notes: 'Trōv has launched a commercial insurance program to help get more
+      delivery drivers on the road, ensuring communities that are social distancing
+      have access to the essential items they need. '
 - name: UFODRIVE
   url: https://www.ufodrive.com/en/
   logo: "/uploads/2020/04/17/ufo_drive-1.png"
