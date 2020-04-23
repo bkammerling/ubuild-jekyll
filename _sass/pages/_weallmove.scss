@@ -229,6 +229,9 @@ body.weallmove {
       background-color: $black96;
       color: $mobility-black;
     }
+    &.select2-container--disabled {
+      opacity: .8;
+    }
 
   }
 

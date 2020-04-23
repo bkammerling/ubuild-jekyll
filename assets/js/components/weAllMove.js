@@ -146,7 +146,7 @@ $(document).ready(function() {
     var selectedCity = $("#citySelect").val();
     if(e.target.value) {
       if(selectedCity) {
-        // is city selected
+        // is city selected - check if it's in the country that's been selected
         var selectedCountryArray = countryObject[e.target.value];
         var result = selectedCountryArray.filter(item => {
           return item.text == selectedCity
@@ -164,6 +164,7 @@ $(document).ready(function() {
         placeholder: "City"
       });
       $("#citySelect").trigger('change');
+      $("#citySelect").removeAttr('disabled');
     } else {
       // country field was cleared
       if(!selectedCity) {
@@ -173,6 +174,7 @@ $(document).ready(function() {
           minimumResultsForSearch: 15,
           placeholder: "City"
         });
+        $("#citySelect").prop('disabled', true);
       }
     }
   });
@@ -197,8 +199,10 @@ $(document).ready(function() {
     }
 
     if(filterObj.city) {
+      var firstWord = filterObj.city.replace(/ .*/,'');
+      console.log(firstWord);
       $(".city-promo").hide();
-      $(`.city-promo.${filterObj.city.toLowerCase()}`).show();
+      $(`.city-promo.${firstWord.toLowerCase()}`).show();
     }
   }
 
