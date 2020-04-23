@@ -776,8 +776,8 @@ operators:
     service_notes: ''
 - name: Kinto
   url: www.kinto-cr.com
-  logo: ''
-  published: false
+  logo: "/uploads/2020/04/23/kinto.png"
+  published: true
   countries:
   - name: Costa Rica
     cities:
@@ -853,8 +853,8 @@ operators:
       personnel to guarantee a safe and quick commute.
 - name: Mealing Taxis
   url: http://www.mealingtaxis.co.uk/
-  logo: ''
-  published: false
+  logo: "/uploads/2020/04/23/mealings_taxis.png"
+  published: true
   countries:
   - name: United Kingdom
     cities:
@@ -1477,6 +1477,44 @@ operators:
   - service: cooperation with delivery and restaurants
     service_notes: Our scooters can now be used (at reduced rates) for a delivery
       service.
+- name: Wind
+  url: http://wind.co/
+  logo: "/uploads/2020/04/23/wind.png"
+  published: true
+  countries:
+  - name: South Korea
+    cities:
+    - Seoul
+    - Busan
+  - name: Israel
+    cities:
+    - Tel Aviv
+  - name: Italy
+    cities:
+    - Milan
+  - name: Germany
+    cities:
+    - Frankfurt
+  - name: France
+    cities:
+    - Nice
+    - Bordeaux
+    - Paris
+  - name: Spain
+    cities:
+    - Lanzarote
+    - Madrid
+    - Malaga
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Wind are supporting key workers and volunteers with free rides
+      to ensure they get to work as safely as possible. This includes healthcare,
+      supermarket and fire service workers as well as those working for charitable
+      organisations.
+  - service: alternative commuting options
+    service_notes: Wind are continuing to providing a full service to the general
+      public in Frankfurt, Bordeaux, Tel Aviv, Seoul and Busan. The scooters are intensely
+      cleaned by the operations teams on a regular basis.
 - name: Wyze Mobility
   url: https://wyzemobility.com/
   logo: "/uploads/2020/04/20/wyze_mobility.png"
