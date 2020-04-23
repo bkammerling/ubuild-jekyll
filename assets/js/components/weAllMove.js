@@ -105,7 +105,12 @@ $(document).ready(function() {
   countryArray.unshift({id: "", text: ""});
   countryArray.sort(compare);
   for (let [key, value] of Object.entries(countryObject)) {
+    // add empty option to each country so placeholder works on select2
     countryObject[key].unshift({id: "", text: ""});
+    // remove All cities selection
+    countryObject[key] = countryObject[key].filter(function(item, index) {
+      return item.text.toLowerCase() != "all cities"
+    })
   };
   console.log(countryObject);
 
