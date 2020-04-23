@@ -813,10 +813,12 @@ operators:
   countries:
   - name: Netherlands
     cities:
+    - Utrecht
     - Rotterdam
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: ''
+    service_notes: During the Dutch lockdown, essential workers can ride Juuve cars
+      for rates between €5-10 per day.
 - name: Kinto
   url: www.kinto-cr.com
   logo: "/uploads/2020/04/23/kinto.png"
