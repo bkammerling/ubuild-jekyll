@@ -1,3 +1,4 @@
+---
 all_needs:
   - Access to vehicles for grocery delivery
   - Access to vehicles for takeaway delivery
@@ -42,10 +43,6 @@ operators:
     services:
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: BerlKönig
     url: 'https://www.berlkoenig.de/'
     logo: /uploads/2020/04/06/berlkonig.png
@@ -58,10 +55,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Big Green Coach
     url: 'https://www.biggreencoach.co.uk/'
     logo: /uploads/2020/04/17/big_green_coach-1.png
@@ -72,10 +65,6 @@ operators:
           - All cities
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: ' Biig'
     url: 'https://www.biig.co/'
@@ -93,10 +82,6 @@ operators:
           Biig’s smart lockbox, "the BiigVault”, provides remote access to
           vehicles, enabling mobility services like in-car delivery, car rental
           & sharing, gas delivery as well as many other mobility services.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: BOND Mobility
     url: 'https://www.bond.info/'
     logo: /uploads/2020/04/22/bond.png
@@ -154,10 +139,6 @@ operators:
         service_notes: >-
           Boxcar has partnered with a local food distributer to offer
           pre-ordered groceries..
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: 'Brite Mobility '
     url: 'https://www.brite.ie/'
     logo: /uploads/2020/04/09/brite.png
@@ -170,8 +151,6 @@ operators:
       - service: support for healthcare and/or essential workers
         service_notes: ''
       - service: alternative commuting options
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: BusUp
     url: 'https://www.busup.com/'
@@ -196,10 +175,6 @@ operators:
         service_notes: >-
           Busup has a Commute shuttle service for corporations with controlled
           capacity, safe distance and hygienization protocol and traceability.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Citybee
     url: 'https://www.citybee.lt/'
     logo: /uploads/2020/04/08/city_bee-1.png
@@ -215,10 +190,6 @@ operators:
     order: null
     services:
       - service: extra vehicle sanitisation
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Cluno
     url: 'https://www.cluno.com/'
@@ -238,8 +209,6 @@ operators:
         service_notes: >-
           Save up to €299 on starting fee when booking a Cluno car subscription.
           Available to everyone in need to commute.
-      - service: ''
-        service_notes: ''
   - name: Co-wheels Car Club
     url: 'https://www.co-wheels.org.uk/nhs_staff_volunteers'
     logo: /uploads/2020/04/14/co_wheels.png
@@ -269,10 +238,6 @@ operators:
           looking after vulnerable clients and NHS volunteers free membership of
           its car share club, plus all bookings are half price to help you get
           to work and do essential shopping.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Coach Scanner
     url: 'https://www.coachscanner.com/'
     logo: /uploads/2020/04/17/coach_scanner-1.png
@@ -288,10 +253,6 @@ operators:
           The service offers key workers a safe method of transport, combining
           changeable capacity levels and a customer app to allow Social
           Distancing and Social Tracing.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Coaster
     url: 'https://www.coastercycles.com/'
     logo: /uploads/2020/04/14/coaster_cycles.png
@@ -305,10 +266,6 @@ operators:
           - New York
     services:
       - service: face shields manufacture
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Cooltra
     url: 'https://www.cooltra.com/es/'
@@ -368,10 +325,6 @@ operators:
           free electric vehicles, discounted week rates to all its fleet and
           free passes to allow them to make unlimited trips less than 30
           minutes.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Dott
     url: 'https://ridedott.com/'
     logo: /uploads/2020/04/09/dott.png
@@ -464,8 +417,6 @@ operators:
         service_notes: ''
       - service: groceries delivery for risk groups
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Drover
     url: 'https://www.joindrover.com/'
     logo: /uploads/2020/04/20/drover.png
@@ -479,10 +430,6 @@ operators:
         service_notes: >-
           Drover is offering Key Workers a 50% discount on the usual Joining Fee
           (a saving of £124.50).
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Eloop
     url: 'https://eloop.at/en/'
     logo: /uploads/2020/04/06/eloop.png
@@ -513,10 +460,6 @@ operators:
     order: null
     services:
       - service: extra vehicle sanitisation
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Enterprise Rent-A-Car (Australia and New Zealand)
     url: 'https://www.enterpriserentacar.com.au/en/about/on-call-for-all.html'
@@ -583,8 +526,6 @@ operators:
           crisis.
       - service: alternative commuting options
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: evo-sharing
     url: 'https://www.evo-sharing.ruhr/'
     logo: /uploads/2020/04/06/evo_sharing.png
@@ -596,10 +537,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Felyx
     url: 'https://felyx.nl/'
@@ -618,10 +555,6 @@ operators:
     services:
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Founder Shield
     url: 'https://foundershield.com/'
     logo: /uploads/2020/04/14/founder_shield.png
@@ -636,10 +569,6 @@ operators:
           - All cities
     services:
       - service: consultancy
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Frank-E
     url: 'https://www.frank-e-sharing.de/'
@@ -657,8 +586,6 @@ operators:
         service_notes: >-
           Frank-E is offering 1h for free to any user doing something good for
           the community. Get in touch with us to learn more.
-      - service: ''
-        service_notes: ''
   - name: Freebike
     url: 'https://freebike.com/en/#help'
     logo: /uploads/2020/04/20/free_bike.png
@@ -669,10 +596,6 @@ operators:
           - London
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: GetHenry
     url: 'https://gethenry.co/en/home-en/'
@@ -688,8 +611,6 @@ operators:
         service_notes: ''
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Green Mobility
     url: 'https://greenmobility.com/dk/en/'
     logo: /uploads/2020/04/06/green_mobility.png
@@ -702,10 +623,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Green Motion
     url: ' https://greenmotion.com/'
@@ -731,8 +648,6 @@ operators:
         service_notes: >
           Green Motion is providing keyless access to vehicles in the UK and
           Sweden.
-      - service: ''
-        service_notes: ''
   - name: GoTo Mobility
     url: 'https://goto.global/'
     logo: /uploads/2020/04/06/goto.png
@@ -797,8 +712,6 @@ operators:
         service_notes: >-
           To support health care workers, Hertz is providing them with
           individual and safe mobility solutions. #Hertzenssache
-      - service: ''
-        service_notes: ''
   - name: Hertz
     url: www.hertz247.de
     logo: /uploads/2020/04/09/hertz.png
@@ -812,10 +725,6 @@ operators:
         service_notes: >-
           Hertz 24/7 offers hourly van rentals. For more information please
           visit the website.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Highspeed service
     url: 'https://www.highspeedservice.ch/'
     logo: /uploads/2020/04/08/high_speed_service.png
@@ -829,10 +738,6 @@ operators:
     services:
       - service: alternative commuting options
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Hive
     url: 'https://www.ridehive.com/'
     logo: /uploads/2020/04/06/hive.png
@@ -844,10 +749,6 @@ operators:
     order: null
     services:
       - service: groceries delivery for risk groups
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Hiyacar
     url: 'https://www.hiyacar.co.uk/'
@@ -862,10 +763,6 @@ operators:
         service_notes: >-
           Hiyacar offering free car hire to NHS workers in London. People can
           list their cars for NHS workers anywhere in the UK on the platform.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Hobo
     url: ''
     logo: /uploads/2020/04/06/hobo.png
@@ -897,10 +794,6 @@ operators:
           nationwide is equipped to be digitally dispatched to provide
           mechanical services, sanitation services and transportation services
           of goods, vehicles and equipment.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Juuve
     url: 'https://juuve.nl/'
     logo: /uploads/2020/04/09/juuve.png
@@ -912,10 +805,6 @@ operators:
           - Rotterdam
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Kinto
     url: www.kinto-cr.com
@@ -932,10 +821,6 @@ operators:
           to the the Costa Rican National Healthcare System - Caja Costarricense
           de Seguro Social to use for commute, operations, and other medical
           needs.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Kootenay Carshare
     url: 'http://www.carsharecoop.ca/'
     logo: /uploads/2020/04/17/kootenay_carshare-1.png
@@ -948,8 +833,6 @@ operators:
           homeless residents to an isolated location if they are showing signs
           of illness.
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Kyte
     url: 'https://drivekyte.com/'
@@ -994,10 +877,6 @@ operators:
         service_notes: >
           LULA helps workers in the healthcare, retail and essential services
           sector, with safe rides and with goods delivery.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: M
     url: 'https://m.co/se/en-US/'
     logo: /uploads/2020/04/17/m_volvo-1.png
@@ -1011,10 +890,6 @@ operators:
         service_notes: >-
           With its initiative We Fight Covid, M is providing cars to healthcare
           personnel to guarantee a safe and quick commute.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Mealing Taxis
     url: 'http://www.mealingtaxis.co.uk/'
     logo: ''
@@ -1045,10 +920,6 @@ operators:
         service_notes: >
           Mealing Taxis is offering a 20% discount for NHS workers and Social
           Care staff for all trips.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Mevo
     url: 'https://mevo.co.nz/auckland'
     logo: /uploads/2020/04/06/mevo.png
@@ -1066,8 +937,6 @@ operators:
         service_notes: >-
           We are offering discounted long term vehicle rentals to essential
           workers and those with essential needs.
-      - service: ''
-        service_notes: ''
   - name: Miles
     url: 'https://miles-mobility.com/'
     logo: /uploads/2020/04/06/miles.png
@@ -1118,10 +987,6 @@ operators:
         service_notes: >-
           Motobee is offering long-term moped leases to help people generate
           income by doing deliveries for apps.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: MyKeego
     url: 'http://www.mykeego.com/'
     logo: /uploads/2020/04/22/keego.png
@@ -1135,10 +1000,6 @@ operators:
         service_notes: >-
           MyKeego is offering cheaper packages with up to 12 interest-free
           financing to help essential workers commute safely.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: OoGyaa
     url: 'https://www.oogyaa.com/'
     logo: /uploads/2020/04/22/oogyaa.png
@@ -1152,8 +1013,6 @@ operators:
         service_notes: ''
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: OKQ8
     url: 'https://www.okq8.se/hyrbil/'
     logo: /uploads/2020/04/06/okq8.png
@@ -1165,10 +1024,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: PAYUCA GmbH
     url: 'http://payuca.com/'
@@ -1184,10 +1039,6 @@ operators:
         service_notes: >-
           PAYUCA has reduced its pricing by 75% to make safe parking affordable
           for everyone.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Pony
     url: 'https://getapony.com/en'
     logo: /uploads/2020/04/14/pony.png
@@ -1259,8 +1110,6 @@ operators:
           Rauschenberg, Gilserberg, Spangenberg, Treysa, Schwalmstadt
       - service: alternative commuting options
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Revel
     url: 'https://gorevel.com/safety/coronavirus/service-provider-form/'
     logo: /uploads/2020/04/20/revel.png
@@ -1282,8 +1131,6 @@ operators:
         service_notes: >-
           Revel is offering free rides to restaurants for delivery. Click on
           "Get In Touch!" to request.
-      - service: ''
-        service_notes: ''
   - name: Rhingo
     url: 'https://www.rhingo.de/'
     logo: /uploads/2020/04/06/rhingo.png
@@ -1301,8 +1148,6 @@ operators:
           Rhingo is offering free and safe rides to all people that are still
           working in food retailing, in pharmacies and drugstores, at the fire
           brigade, the police, in public order offices or in disaster control.
-      - service: ''
-        service_notes: ''
   - name: Routematic
     url: 'https://www.routematic.com/'
     logo: /uploads/2020/04/16/routematic.png
@@ -1355,10 +1200,6 @@ operators:
           Until April 30th, SIXT is offering discounted rides with two packages:
           SIXT Flat Offer and SIXT Flex Offer. Learn more by visiting the
           website.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: SIXT share
     url: 'https://www.sixt.com/share/rates/#/'
     logo: /uploads/2020/04/09/sixt.png
@@ -1375,10 +1216,6 @@ operators:
         service_notes: >-
           SIXT is offering rides from 9 cents/min for the general public. Visit
           the website for more information
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: SIXT US
     url: sixt.com
     logo: /uploads/2020/04/09/sixt.png
@@ -1427,8 +1264,6 @@ operators:
           Until June 30th of 2020, SIXT is providing healthcare workers with
           discounted rates on flexible long-term rentals. Get in touich for more
           information.
-      - service: ''
-        service_notes: ''
   - name: Skut
     url: 'https://skut.mx/'
     logo: /uploads/2020/04/06/skut.png
@@ -1440,10 +1275,6 @@ operators:
     order: null
     services:
       - service: cooperation with delivery and restaurants
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Snap
     url: www.getasnap.com
@@ -1458,10 +1289,6 @@ operators:
         service_notes: >-
           We can offer pop-up bus routes with full social distancing and contact
           tracing.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Stella
     url: 'https://www.stella-sharing.de/'
     logo: /uploads/2020/04/06/stella.png
@@ -1473,10 +1300,6 @@ operators:
     order: null
     services:
       - service: discounted rides
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Tier
     url: 'https://www.tier.app/'
@@ -1553,8 +1376,6 @@ operators:
           workers, Supermarket and pharmacy staff, Police and Fire brigade,
           Employees of local public transportation workers) have free, safe
           rides to their jobs.
-      - service: ''
-        service_notes: ''
   - name: UFODRIVE
     url: 'https://www.ufodrive.com/en/'
     logo: /uploads/2020/04/17/ufo_drive-1.png
@@ -1590,8 +1411,6 @@ operators:
       - service: discounted rides
         service_notes: ''
       - service: extra vehicle sanitisation
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: VOI
     url: 'https://www.voiscooters.com/'
@@ -1676,10 +1495,6 @@ operators:
     services:
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Wheely
     url: 'https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801'
     logo: /uploads/2020/04/14/wheely.png
@@ -1706,10 +1521,6 @@ operators:
         service_notes: >-
           Wheely has increased their vehicle sanitisation measures. Learn more
           by clicking on the link.
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Whizascoot
     url: 'https://www.whizascoot.mt/'
     logo: /uploads/2020/04/14/whizascoot.png
@@ -1794,10 +1605,6 @@ operators:
         service_notes: >-
           Zeelo can provide safe bus services for critical workers with managed
           social distancing
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: ZIP Scooters
     url: ridezip.co
     logo: /uploads/2020/04/14/zip.png
@@ -1812,10 +1619,6 @@ operators:
         service_notes: >-
           Zip Scooters is offering vehicles to first respones and healthcare
           workers
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Zolo
     url: 'https://www.zoloiceland.is/'
     logo: /uploads/2020/04/06/zolo.png
@@ -1830,8 +1633,6 @@ operators:
         service_notes: ''
       - service: discounted rides
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Zoov
     url: 'https://zoov.typeform.com/to/oCGJAs'
     logo: /uploads/2020/04/06/zoov.png
@@ -1845,10 +1646,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: deins&meins
     url: 'https://www.deinsundmeins-gt.de/e-carsharing/'
     logo: /uploads/2020/04/06/deins_and_meins.png
@@ -1861,10 +1658,6 @@ operators:
     services:
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: evhcle
     url: 'https://evhcle.com/'
     logo: /uploads/2020/04/06/evhcle.png
@@ -1876,10 +1669,6 @@ operators:
     order: null
     services:
       - service: cooperation with delivery and restaurants
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Aimo
     url: 'https://aimosolution.com/?lang=en'
@@ -1895,8 +1684,6 @@ operators:
         service_notes: ''
       - service: expansion of area to hospitals
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: BeRider
     url: 'https://www.be-rider.com/blog/zdravotnici-jezdi-zdarma'
     logo: /uploads/2020/04/06/be_rider.png
@@ -1908,10 +1695,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Bird
     url: >-
@@ -1970,10 +1753,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: CityScoot
     url: 'https://www.cityscoot.eu/en/paris/'
     logo: /uploads/2020/04/06/city_scoot.png
@@ -1985,10 +1764,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Ekar
     url: 'https://ekar.ae/'
@@ -2004,10 +1779,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Faxi
     url: 'https://faxi.co.uk/'
     logo: /uploads/2020/04/06/faxi.png
@@ -2019,10 +1790,6 @@ operators:
     order: null
     services:
       - service: groceries delivery for risk groups
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Free2Move
     url: 'https://de.free2move.com/'
@@ -2036,10 +1803,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Gocycle GS
     url: 'https://promo.fullycharged.com/nhs-support'
     logo: /uploads/2020/04/06/go_cycle.png
@@ -2052,10 +1815,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Gojek
     url: 'https://www.gojek.com/'
     logo: /uploads/2020/04/06/gojek.png
@@ -2067,10 +1826,6 @@ operators:
     order: null
     services:
       - service: discounted rides
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Gotcha Mobility
     url: 'https://ridegotcha.com/'
@@ -2089,10 +1844,6 @@ operators:
     services:
       - service: cooperation with delivery and restaurants
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Govecs
     url: 'https://www.govecsgroup.com/en/?r=1'
     logo: /uploads/2020/04/06/govecs_group.png
@@ -2104,10 +1855,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Helbiz
     url: 'https://helbiz.com/'
@@ -2155,10 +1902,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Ithaca Carshare
     url: 'https://www.ithacacarshare.org/'
     logo: /uploads/2020/04/06/ithaca_carshare.png
@@ -2170,10 +1913,6 @@ operators:
     order: null
     services:
       - service: extra vehicle sanitisation
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Kapten
     url: 'https://www.kapten.com/'
@@ -2190,10 +1929,6 @@ operators:
     services:
       - service: extra vehicle sanitisation
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Lyft
     url: 'https://www.lyft.com/'
     logo: /uploads/2020/04/06/lyft.png
@@ -2206,10 +1941,6 @@ operators:
     services:
       - service: groceries delivery for risk groups
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Marti
     url: 'https://www.marti.tech/'
     logo: /uploads/2020/04/06/marti.png
@@ -2221,10 +1952,6 @@ operators:
     order: null
     services:
       - service: extra vehicle sanitisation
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: MOL Limo
     url: 'https://www.mollimo.hu/en/'
@@ -2254,10 +1981,6 @@ operators:
     services:
       - service: support for healthcare and/or essential workers
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Poppy Mobility
     url: 'https://poppy.be/en/'
     logo: /uploads/2020/04/06/poppy.png
@@ -2272,8 +1995,6 @@ operators:
       - service: cooperation with delivery and restaurants
         service_notes: ''
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Share Now
     url: 'https://www.share-now.com/de/en/care-now/'
@@ -2321,10 +2042,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Sixt
     url: 'https://www.sixt.com/'
@@ -2380,10 +2097,6 @@ operators:
     services:
       - service: extra vehicle sanitisation
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Uber
     url: 'https://www.uber.com/de/en/'
     logo: /uploads/2020/04/06/uber.png
@@ -2417,8 +2130,6 @@ operators:
         service_notes: ''
       - service: discounted rides
         service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Wheels
     url: 'https://www.takewheels.com/'
     logo: /uploads/2020/04/06/wheels.png
@@ -2431,10 +2142,6 @@ operators:
     services:
       - service: extra vehicle sanitisation
         service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
-        service_notes: ''
   - name: Wible
     url: 'https://www.wible.es/'
     logo: /uploads/2020/04/06/wible.png
@@ -2446,10 +2153,6 @@ operators:
     order: null
     services:
       - service: support for healthcare and/or essential workers
-        service_notes: ''
-      - service: ''
-        service_notes: ''
-      - service: ''
         service_notes: ''
   - name: Zity
     url: 'https://zity.eco/'
