@@ -923,10 +923,9 @@ operators:
     - London
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: 'Mealing Taxis is offering a 20% discount for NHS workers and Social
-      Care staff for all trips.
-
-'
+    service_notes: Mealing Taxis is offering a 20% discount for NHS workers and Social
+      Care staff for all trips.  All vehicles and drivers have PPE and they offer
+      ambulance-grade safety at the price of a taxi.
 - name: Mevo
   url: https://mevo.co.nz/auckland
   logo: "/uploads/2020/04/06/mevo.png"
