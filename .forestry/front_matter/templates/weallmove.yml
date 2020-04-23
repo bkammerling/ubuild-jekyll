@@ -69,6 +69,9 @@ fields:
           format: markdown
       label: Service Notes
       description: This will replace the text defined as service description
+    label: Services
+    config:
+      labelField: service
   config:
     labelField: name
 - name: all_services
