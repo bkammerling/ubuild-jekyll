@@ -27,7 +27,7 @@ operators:
     service_notes: ''
   - service: alternative commuting options
     service_notes: ''
-  - service: alternative commuting options
+  - service: cooperation with delivery and restaurants
     service_notes: ''
 - name: Arnab Mobility
   url: http://arnabmobility.com/
@@ -320,6 +320,49 @@ operators:
       and essential workers can travel safely by offering them free electric vehicles,
       discounted week rates to all its fleet and free passes to allow them to make
       unlimited trips less than 30 minutes.
+- name: Dolly
+  url: dolly.com
+  logo: ''
+  published: false
+  countries:
+  - name: United States
+    cities:
+    - Tampa
+    - Seattle
+    - San Jose
+    - San Francisco
+    - San Diego
+    - San Antonio
+    - Raleigh
+    - Portland
+    - Phoenix
+    - Philadelphia
+    - Orlando
+    - Orange County
+    - New Haven
+    - Nashville
+    - Minneapolis
+    - Milwaukee
+    - Miami
+    - Los Angeles
+    - Houston
+    - Hartford
+    - Fort Lauderdale
+    - Detroit
+    - Denver
+    - Dallas
+    - Columbus
+    - Cleveland
+    - Charlotte
+    - New York
+    - Boston
+    - Baltimore
+    - Austin
+    - Atlanta
+  services:
+  - service: alternative commuting options
+    service_notes: Dolly is providing no Contact service for small residential moves
+      and retail delivery.
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
@@ -947,6 +990,18 @@ operators:
   - service: cooperation with delivery and restaurants
     service_notes: Motobee is offering long-term moped leases to help people generate
       income by doing deliveries for apps.
+- name: Move Mee
+  url: https://movemee.io/
+  logo: "/uploads/2020/04/23/movemee.png"
+  published: true
+  countries:
+  - name: Sweden
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Move Mee is providing Keyless, straight to car digital rental ensuring
+      that customer maintain social distancing and travel in the safest way.
 - name: MyKeego
   url: http://www.mykeego.com/
   logo: "/uploads/2020/04/22/keego.png"
