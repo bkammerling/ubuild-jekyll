@@ -1,5 +1,9 @@
 {% include head.html %}
 
+<script type="text/javascript" >
+var dataJSON = {{ site.data.weallmove | jsonify }};
+</script>
+
 <nav class="px-4 py-3 mb-5">
   <div class="row align-items-center">
     <div class="col-6 col-lg-2 mt-sm-1">
@@ -88,32 +92,12 @@
 {% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
 {% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 
-<script type="text/javascript">
-  var countryObject = {};
-  {% for operator in operators %}
-  {% assign mainindex = forloop.index %}
-    {% for country in operator.countries %}
-      if(typeof countryObject['{{country.name}}'] === 'undefined') {
-        countryObject['{{country.name}}'] = [];
-      }
-      {% for city in country.cities %}
-        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
-  var countryArray = [];
-  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
-  var cityArray = [];
-  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
-</script>
-
 <section class="weallmove-filters fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
   <div class="container text-center mt-5 pb-2">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="headline-large mb-5">Anbieter finden</h2>
         <p class="px-3 px-md-5 m-0 text-center">Wir haben dieses Tool entwickelt, um dir die Suche nach Mobilitätslösungen zu erleichtern. Dabei ist es ganz egal, ob du den Arbeitsweg für Pflegekräfte und Ärzte sicheren möchtest, oder mehr Fahrzeuge für deine Lieferflotte benötigst. Das Tool steht allen offen, die Hilfe benötigen. Wenn du hier einen geeigneten Mobilitätsanbieter findest, nehme Kontakt mit uns auf und wir setzen euch in Verbindung.</p>
-
     </div>
   </div>
 </section>
@@ -211,8 +195,8 @@
               {% assign serviceDetail = site.data.weallmove.services_detail | where: 'service_name', service.service | first %}
                 <li data-need="{{ serviceDetail.need_this_helps_with | replace: ' ', '_' | downcase }}">
                   <p><strong>{{ serviceDetail.need_this_helps_with }}</strong>
-                  <br>{% if service_notes.size > 0 %}
-                      {{ service_notes }}
+                  <br>{% if service.service_notes.size > 0 %}
+                      {{ service.service_notes }}
                     {% else %}
                       {{ serviceDetail.service_description | replace: '__company_name__', company.name }}
                     {% endif %}

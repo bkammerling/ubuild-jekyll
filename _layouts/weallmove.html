@@ -1,5 +1,10 @@
 {% include head.html %}
 
+<script type="text/javascript" >
+var dataJSON = {{ site.data.weallmove | jsonify }};
+
+</script>
+
 <nav class="px-4 py-3 mb-5">
   <div class="row align-items-center">
     <div class="col-6 col-lg-2 mt-sm-1">
@@ -88,25 +93,6 @@
 {% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
 {% assign operators = site.data.weallmove.operators | where: 'published', true %}
 
-<script type="text/javascript">
-  var countryObject = {};
-  {% for operator in operators %}
-  {% assign mainindex = forloop.index %}
-    {% for country in operator.countries %}
-      if(typeof countryObject['{{country.name}}'] === 'undefined') {
-        countryObject['{{country.name}}'] = [];
-      }
-      {% for city in country.cities %}
-        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
-  var countryArray = [];
-  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
-  var cityArray = [];
-  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
-</script>
-
 <section class="weallmove-filterinto fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
   <div class="container text-center mt-5 pb-2">
     <div class="row">
@@ -190,7 +176,6 @@
     <p class="showing-notice">Currently showing <span class="current-showing">{{ operators.size }}</span> out of <span class="total-showing">{{ operators.size }}</span> mobility operators.</p>
     <div class="noshow-feedback hide">
       <h4 class="headline-small">Shoot, looks like we haven't found an operator that suits your needs.</h4>
-
     </div>
 
     {% for company in operators %}
@@ -198,7 +183,7 @@
       <div class="row">
         <div class="col-lg-2 weallmove-card__col mb-sm-4 mb-lg-0">
           <div class="weallmove-card__logo">
-            <img class="" src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
+            <img class="" data-src="{{ company.logo }}" class="weallmove-card__logo" alt="{{ company.name }} logo" />
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 weallmove-card__col">
@@ -210,8 +195,8 @@
               {% assign serviceDetail = site.data.weallmove.services_detail | where: 'service_name', service.service | first %}
                 <li data-need="{{ serviceDetail.need_this_helps_with | replace: ' ', '_' | downcase }}">
                   <p><strong>{{ serviceDetail.need_this_helps_with }}</strong>
-                  <br>{% if service_notes.size > 0 %}
-                      {{ service_notes }}
+                  <br>{% if service.service_notes.size > 0 %}
+                      {{ service.service_notes }}
                     {% else %}
                       {{ serviceDetail.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
