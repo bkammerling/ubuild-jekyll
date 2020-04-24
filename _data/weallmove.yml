@@ -7,6 +7,18 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
+- name: A2B Car Rental
+  url: a2bcarrentals.com.au
+  logo: "/uploads/2020/04/24/a2b_car_rentals.png"
+  published: true
+  countries:
+  - name: Australia
+    cities:
+    - Sydney
+  services:
+  - service: alternative commuting options
+    service_notes: A2B Car Rentals is offering a free pick up and drop off service
+      and a no contact delivery service for our vehicles.
 - name: Anywheel
   url: https://www.anywheel.sg/#/
   logo: "/uploads/2020/04/22/anywheel.png"
@@ -320,10 +332,23 @@ operators:
       and essential workers can travel safely by offering them free electric vehicles,
       discounted week rates to all its fleet and free passes to allow them to make
       unlimited trips less than 30 minutes.
+- name: deins&meins
+  url: https://www.deinsundmeins-gt.de/e-carsharing/
+  logo: "/uploads/2020/04/06/deins_and_meins.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Gütersloh
+  order: 
+  services:
+  - service: alternative commuting options
+    service_notes: 'deins&meins is offering  long term rentals to everyone looking
+      for a safe commute option. '
 - name: Dolly
   url: dolly.com
-  logo: ''
-  published: false
+  logo: "/uploads/2020/04/24/dolly.png"
+  published: true
   countries:
   - name: United States
     cities:
@@ -1366,6 +1391,22 @@ operators:
   services:
   - service: discounted rides
     service_notes: ''
+- name: Swans Travel
+  url: www.swanstravel.com
+  logo: "/uploads/2020/04/24/swans_travel.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+    - Merseyside
+    - Cheshire
+    - Greater Manchester
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: 'Swans Travel is currently operating ‘key worker’ services to Amazon,
+      Sainsbury & NHS. The initiative supplies the vehicles fully sanitised, with
+      driver full PPE. '
 - name: Tier
   url: https://www.tier.app/
   logo: "/uploads/2020/04/16/tier.png"
@@ -1635,6 +1676,18 @@ operators:
   - service: cooperation with delivery and restaurants
     service_notes: Our scooters can now be used (at reduced rates) for a delivery
       service.
+- name: Wheels
+  url: https://www.takewheels.com/
+  logo: "/uploads/2020/04/06/wheels.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Milwaukee
+  order: 
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: Wheels guarantees a safe commute with its self-cleaning handlebars.
 - name: Wind
   url: http://wind.co/
   logo: "/uploads/2020/04/23/wind.png"
@@ -1693,6 +1746,18 @@ operators:
     service_notes: Wyze is also offering free rides to parish council members in need
       to support to senior citizens, deliver of essential goods to local residents
       under house confinement or visit to people living in isolation.
+- name: YADEA
+  url: https://www.globalyadea.com/
+  logo: "/uploads/2020/04/24/yadea.png"
+  published: true
+  countries:
+  - name: China
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: YADEA has donated face masks, electric vehicles, ambulances and
+      other medical material to institutions.
 - name: YEGO
   url: rideyego.com
   logo: "/uploads/2020/04/22/yego.png"
@@ -1773,18 +1838,6 @@ operators:
   order: 
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: ''
-- name: deins&meins
-  url: https://www.deinsundmeins-gt.de/e-carsharing/
-  logo: "/uploads/2020/04/06/deins_and_meins.png"
-  published: false
-  countries:
-  - name: Germany
-    cities:
-    - Gütersloh
-  order: 
-  services:
-  - service: cooperation with delivery and restaurants
     service_notes: ''
 - name: evhcle
   url: https://evhcle.com/
@@ -2255,18 +2308,6 @@ operators:
   - service: expansion of area to hospitals
     service_notes: ''
   - service: discounted rides
-    service_notes: ''
-- name: Wheels
-  url: https://www.takewheels.com/
-  logo: "/uploads/2020/04/06/wheels.png"
-  published: false
-  countries:
-  - name: United States
-    cities:
-    - Milwaukee
-  order: 
-  services:
-  - service: extra vehicle sanitisation
     service_notes: ''
 - name: Wible
   url: https://www.wible.es/
