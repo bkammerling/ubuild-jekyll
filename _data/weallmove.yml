@@ -19,6 +19,24 @@ operators:
   - service: alternative commuting options
     service_notes: A2B Car Rentals is offering a free pick up and drop off service
       and a no contact delivery service for our vehicles.
+- name: ALD Automotive
+  url: aldautomotive.com
+  logo: "/uploads/2020/04/24/ald_automotive.png"
+  published: true
+  countries:
+  - name: Italy
+    cities:
+    - Milan
+    - Rome
+  - name: Norway
+    cities:
+    - Oslo
+  - name: Mexico
+    cities:
+    - Mexico City
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
 - name: Anywheel
   url: https://www.anywheel.sg/#/
   logo: "/uploads/2020/04/22/anywheel.png"
@@ -1025,9 +1043,15 @@ operators:
     cities:
     - All cities
   services:
+  - service: extra vehicle sanitisation
+    service_notes: All of Move Mee's vehicles are frequently sanitized to provide
+      a safe ride for their users.
+  - service: support for healthcare and/or essential workers
+    service_notes: Move Mee is offering a completely digital car rental experience
+      to ensure that health care and essential works maintain social distancing.
   - service: alternative commuting options
-    service_notes: Move Mee is providing Keyless, straight to car digital rental ensuring
-      that customer maintain social distancing and travel in the safest way.
+    service_notes: Move Mee is making all of their fleet available to the general
+      public as a transport alternative.
 - name: MyKeego
   url: http://www.mykeego.com/
   logo: "/uploads/2020/04/22/keego.png"
@@ -1050,12 +1074,16 @@ operators:
     - All cities
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: Onlogist is offering discounts to all companies within the healthcare
-      and emergency industry. Emergency & care workers vehicles that need to undergo
-      maintenance or repairs will be picked-up & delivered back to you.
+    service_notes: 'Onlogist is offering discounted fleet services to the healthcare
+      industry. Any institution that needs to transport their vehicles from A to B,
+      get their cars to repair shops and back, wash their cars and more can count
+      on them.
+
+'
   - service: groceries delivery for risk groups
-    service_notes: 'Onlogist is making its platform accessible for companies who are
-      in need of delivering groceries to their customers. '
+    service_notes: Onlogist is making its platform accessible for grocery stores who
+      need manpower and a system to place delivery orders. The vehicles need to be
+      provided by the store.
 - name: OoGyaa
   url: https://www.oogyaa.com/
   logo: "/uploads/2020/04/22/oogyaa.png"
@@ -1717,6 +1745,8 @@ operators:
     - Madrid
     - Malaga
   services:
+  - service: groceries delivery for risk groups
+    service_notes: In Israel, users can shop for groceries through Wind's app.
   - service: support for healthcare and/or essential workers
     service_notes: Wind are supporting key workers and volunteers with free rides
       to ensure they get to work as safely as possible. This includes healthcare,
