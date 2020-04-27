@@ -11,10 +11,10 @@ cta_text: A movement to connect the world with mobility in times of crisis.
 cta_link: pages/weallmove.md
 title: Welcoming SHARE NOW
 publish_date: 2020-04-27 13:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/04/27/share_now_blog_announcement.jpg"
 excerpt: 'We are proud to welcome the world’s largest car sharing operator, SHARE
   NOW, to #WeAllMove.'
-share_image: ''
+share_image: "/uploads/2020/04/27/share_now_blog_announcement.jpg"
 sticky: false
 hidden: false
 
