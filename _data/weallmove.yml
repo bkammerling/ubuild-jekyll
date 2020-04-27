@@ -1709,13 +1709,40 @@ operators:
   logo: "/uploads/2020/04/06/wheels.png"
   published: true
   countries:
+  - name: Sweden
+    cities:
+    - Stockholm
+  - name: Germany
+    cities:
+    - Berlin
+  - name: Switzerland
+    cities:
+    - Basel
   - name: United States
     cities:
-    - Milwaukee
+    - New York
+    - Chicago
+    - Tallahassee
+    - Orlando
+    - Miami
+    - Austin
+    - Dallas
+    - Scottsdale
+    - San Diego
+    - Los Angeles
   order: 
   services:
+  - service: alternative commuting options
+    service_notes: Wheels is providing leasing and purchase options of their devices
+      to support continued work and safe, reliable modes of transportation for communities.
+  - service: cooperation with delivery and restaurants
+    service_notes: Wheels is partnering with delivery companies along with other business
+      and community entities to support safe, distanced work and transportation.
   - service: extra vehicle sanitisation
-    service_notes: Wheels guarantees a safe commute with its self-cleaning handlebars.
+    service_notes: Wheels comes with the mobility industry’s first-ever self-cleaning,
+      antiviral handlebars and brake levers with optional baskets in both the front
+      and the rear of the device in order to support safe, social distanced transportation
+      and delivery operations.
 - name: Wind
   url: http://wind.co/
   logo: "/uploads/2020/04/23/wind.png"
