@@ -1339,7 +1339,7 @@ operators:
     service_notes: SIXT is offering rides from 9 cents/min for the general public.
       Visit the website for more information
 - name: SIXT US
-  url: sixt.com
+  url: https://www.sixt.com/#/deals?campaign=5-en-us-longterm79-us-sixtrent&utm_campaign=sales&utm_medium=Display_WunderMobility&utm_content=weallmove_longterm79_web
   logo: "/uploads/2020/04/09/sixt.png"
   published: true
   countries:
