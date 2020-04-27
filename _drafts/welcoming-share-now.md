@@ -35,7 +35,7 @@ We are currently undergoing a transition to a new normal. These are extraordinar
 
 Whether you’re a provider or a person who just needs a safe way to get to work, weallmove.co has you covered. Check out the platform and feel free to use the contact form to send us your questions and comments.
 
-“Agility and multi-modality are key to a resilient mobility ecosystem,” says Dr. Maya Ben Dror, Lead Automotive and Autonomous Mobility, World Economic Forum. “We are excited to welcome Share Now, a key actor in multi-modal mobility, into the #WeAllMove family devoted to re-build a better mobility reality.”
+“Agility and multi-modality are key to a resilient mobility ecosystem,” says Dr. Maya Ben Dror, Lead Automotive and Autonomous Mobility, World Economic Forum. “We are excited to welcome SHARE NOW, a key actor in multi-modal mobility, into the #WeAllMove family devoted to re-build a better mobility reality.”
 
 This platform is open to everybody who needs help moving around, not just mobility experts. That’s why we’re extending our invitation to you, too, to join the movement.
 
@@ -43,5 +43,4 @@ Because if one of us moves, #WeAllMove.
 
 \---
 
-  
 _Weallmove.co is an open, online platform, connecting mobility providers with workers of essential services and is part of the World Economic Forum’s COVID Action Platform. It was created on the premise that as an industry, we should work together to help those providing the greatest services to society during times of crisis. For more information on the platform, check out our recent_ [_blog post_](https://www.wundermobility.com/blog/from-moving-people-to-starting-a-movement)_._
