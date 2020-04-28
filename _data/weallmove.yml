@@ -24,6 +24,11 @@ operators:
   logo: "/uploads/2020/04/24/ald_automotive.png"
   published: true
   countries:
+  - name: Finland
+    cities:
+    - Vantaa
+    - Espoo
+    - Helsinki
   - name: Italy
     cities:
     - Milan
