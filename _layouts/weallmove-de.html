@@ -1,5 +1,9 @@
 {% include head.html %}
 
+<script type="text/javascript" >
+var dataJSON = {{ site.data.weallmove | jsonify }};
+</script>
+
 <nav class="px-4 py-3 mb-5">
   <div class="row align-items-center">
     <div class="col-6 col-lg-2 mt-sm-1">
@@ -47,7 +51,7 @@
         <br>
         <p class="my-3 text-center">In Partnerschaft mit</p>
         <hr class="mt-3 mt-md-5 mb-0">
-        <div class="partner-logos d-flex justify-content-center">
+        <div class="partner-logos d-flex justify-content-center flex-wrap flex-sm-nowrap">
           <a href="https://wef.org" title="World economic forum homepage" target='_blank'>
             <span class="hidden">World Economic Forum partner</span>
             <img src="/uploads/global/wef-logo.png" srcset="/uploads/global/wef-logo@2x.png 2x" alt="World Economic Forum logo" />
@@ -60,9 +64,14 @@
             <span class="hidden">Allianz Partners partner</span>
             <img src="/uploads/global/allianz-partners.png" srcset="/uploads/global/allianz-partners@2x.png 2x" alt="Allianz automotive blau logo" />
           </a>
+          <div class="break d-sm-none"></div>
           <a href="https://www.voiscooters.com/" title="Voi homepage" target='_blank'>
             <span class="hidden">Voi Scooters partner</span>
             <img src="/uploads/global/voi-logo.png" srcset="/uploads/global/voi-logo@2x.png 2x" alt="Voi logo" />
+          </a>
+          <a href="https://www.share-now.com/" title="Share Now homepage" target='_blank'>
+            <span class="hidden">Share now partner</span>
+            <img src="/uploads/global/share-now.png" srcset="/uploads/global/share-now@2x.png 2x" alt="Share Now logo" />
           </a>
         </div>
         <hr class="mb-md-5 mt-0">
@@ -88,32 +97,12 @@
 {% assign cities = site.data.weallmove.operators | where: 'published', true | map: "countries" | map: "cities" | join: "__" | split: "__" | uniq  %}
 {% assign operators = site.data.weallmove.operators | where: 'published', true | sort: 'order' %}
 
-<script type="text/javascript">
-  var countryObject = {};
-  {% for operator in operators %}
-  {% assign mainindex = forloop.index %}
-    {% for country in operator.countries %}
-      if(typeof countryObject['{{country.name}}'] === 'undefined') {
-        countryObject['{{country.name}}'] = [];
-      }
-      {% for city in country.cities %}
-        countryObject['{{country.name}}'].push({ id: "{{city}}", text: "{{city}}"});
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
-  var countryArray = [];
-  {% for country in countries %}countryArray.push({  id: "{{country}}", text: "{{country}}" });{% endfor %}
-  var cityArray = [];
-  {% for city in cities %}cityArray.push({  id: "{{city}}", text: "{{city}}" });{% endfor %}
-</script>
-
 <section class="weallmove-filters fullscreen-bg bg-blue pt-5 pb-4" id="filter-intro">
   <div class="container text-center mt-5 pb-2">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <h2 class="headline-large mb-5">Anbieter finden</h2>
         <p class="px-3 px-md-5 m-0 text-center">Wir haben dieses Tool entwickelt, um dir die Suche nach Mobilitätslösungen zu erleichtern. Dabei ist es ganz egal, ob du den Arbeitsweg für Pflegekräfte und Ärzte sicheren möchtest, oder mehr Fahrzeuge für deine Lieferflotte benötigst. Das Tool steht allen offen, die Hilfe benötigen. Wenn du hier einen geeigneten Mobilitätsanbieter findest, nehme Kontakt mit uns auf und wir setzen euch in Verbindung.</p>
-
     </div>
   </div>
 </section>
@@ -211,8 +200,8 @@
               {% assign serviceDetail = site.data.weallmove.services_detail | where: 'service_name', service.service | first %}
                 <li data-need="{{ serviceDetail.need_this_helps_with | replace: ' ', '_' | downcase }}">
                   <p><strong>{{ serviceDetail.need_this_helps_with }}</strong>
-                  <br>{% if service_notes.size > 0 %}
-                      {{ service_notes }}
+                  <br>{% if service.service_notes.size > 0 %}
+                      {{ service.service_notes }}
                     {% else %}
                       {{ serviceDetail.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
@@ -233,7 +222,8 @@
         </div>
         <div class="col-lg-3 weallmove-card__col">
           <button class="btn btn-primary mb-3 mt-sm-4 mt-lg-0 gtm-operator-contact" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator" data-operator="{{ company.name }}">Kontakt aufnehmen</button>
-          <p><a href="{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
+          {% assign urlStart = company.url | slice: 0, 4 %}
+          <p><a href="{% if urlStart != 'http' %}http://{% endif %}{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <ion-icon class="text-blue" name="open-outline"></ion-icon></a></p>
         </div>
       </div>
     </div>

@@ -97,17 +97,33 @@ function recaptchaSubmit(token, $form) {
 
 $(document).ready(function() {
 
-  cityArray.unshift({id: "", text: ""});
-  cityArray = cityArray.filter(function(item, index) {
-    return item.text.toLowerCase() != "all cities"
-  })
+  var countryObject = {};
+  var cityArray = [{id: "", text: ""}];
+  var countryArray = [{id: "", text: ""}];
+  var publishedOperators = dataJSON.operators.filter(operator => {
+    return operator.published;
+  });
+  publishedOperators.map(operator => {
+    for(var country of operator.countries) {
+      var countrySelect = { id: country.name, text: country.name };
+      if(countryArray.findIndex(x => x.text == country.name) === -1) countryArray.push(countrySelect);
+      if(typeof countryObject[country.name] === 'undefined') {
+        countryObject[country.name] = [{id: "", text: ""}];
+      }
+      for(var city of country.cities) {
+        if(city.toLowerCase() != "all cities") {
+          var citySelect = { id: city, text: city};
+          if(cityArray.findIndex(x => x.text == city) == -1) {
+            cityArray.push(citySelect);
+            countryObject[country.name].push(citySelect);
+          }
+        }
+      }
+    }
+  });
+
   cityArray.sort(compare);
-  countryArray.unshift({id: "", text: ""});
   countryArray.sort(compare);
-  for (let [key, value] of Object.entries(countryObject)) {
-    countryObject[key].unshift({id: "", text: ""});
-  };
-  console.log(countryObject);
 
   $("#countrySelect").select2({
     data: countryArray,
@@ -130,7 +146,6 @@ $(document).ready(function() {
 
   $('.we-select2').on("change", function (e) {
     if(e.target.value) {
-      console.log('FilterBy_'+e.target.name);
       dataLayer.push({
         'event': 'WeAllMove-Filter',
         'eventCategory': 'WeAllMove',
@@ -145,15 +160,6 @@ $(document).ready(function() {
   $('#countrySelect').on("change", function(e) {
     var selectedCity = $("#citySelect").val();
     if(e.target.value) {
-      if(selectedCity) {
-        // is city selected - check if it's in the country that's been selected
-        var selectedCountryArray = countryObject[e.target.value];
-        var result = selectedCountryArray.filter(item => {
-          return item.text == selectedCity
-        })
-        // if city selected is in country that's been selected, don't do anything!
-        if(result.length >= 1) return;
-      }
       // is country that has been selected same as city
       var theseCities = [...new Set(countryObject[e.target.value].map(item => item.text))];;
       //console.log(theseCities)
@@ -167,21 +173,19 @@ $(document).ready(function() {
       $("#citySelect").removeAttr('disabled');
     } else {
       // country field was cleared
-      if(!selectedCity) {
-        $("#citySelect").select2('destroy').empty().select2({
-          data: cityArray,
-          allowClear: true,
-          minimumResultsForSearch: 15,
-          placeholder: "City"
-        });
-        $("#citySelect").prop('disabled', true);
-      }
+      $("#citySelect").select2('destroy').empty().select2({
+        data: cityArray,
+        allowClear: true,
+        minimumResultsForSearch: 15,
+        placeholder: "City"
+      });
+      $("#citySelect").prop('disabled', true);
     }
   });
 
 
   function filterList() {
-    console.log(filterObj);
+    //console.log(filterObj);
     if($('html').scrollTop() >= $("#filter-intro").offset().top+$("#filter-intro").height()+150) {
       $('html').scrollTop($("#filter-intro").offset().top+$("#filter-intro").height()+150);
     }
@@ -200,7 +204,7 @@ $(document).ready(function() {
 
     if(filterObj.city) {
       var firstWord = filterObj.city.replace(/ .*/,'');
-      console.log(firstWord);
+      //console.log(firstWord);
       $(".city-promo").hide();
       $(`.city-promo.${firstWord.toLowerCase()}`).show();
     }
