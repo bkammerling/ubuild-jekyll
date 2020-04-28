@@ -161,7 +161,80 @@
     }
   }
   .rent-animgif {
-    height: 52px;
+    height: 56px;
+  }
+
+  .rent-icons {
+    img {
+      max-height: 52px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.desktop-stretch {
+  text-align: center;
+  @include rwd(tablet-up) {
+    text-align: unset;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    bottom: 0;
+    width: 100%;
+    .dark-bg & {
+      background: $mobility-black;
+    }
+    &__pic {
+      transform: translateX(-50%);
+      margin-left: 75vw;
+      position: absolute;
+      height: 100%;
+      img {
+        height: 100%;
+        max-width: none;
+      }
+    }
+  }
+
+}
+
+
+.btn-group-filters .btn-group {
+  @include rwd(tablet-down) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    .btn {
+      width: 100%;
+      &:first-child {
+        border-top-right-radius: 0.25rem;
+      }
+      &:last-child {
+        border-bottom-left-radius: 0.25rem;
+      }
+      &:not(:last-child) {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      &:not(:first-child) {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: -1px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.icon-text-list {
+  margin-top: 40px;
+  .icon-text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    img {
+      margin-right: 25px;
+    }
   }
 }
 
@@ -207,12 +280,22 @@ ul.feature-list {
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
-      right: 103%;
+      right: calc(100% + 4px);
       top: 1px;
     }
   }
+  #rentintro-tabContent & {
+    li {
+      margin-bottom: 14px;
+      padding-left: 1em;
+    }
+  }
+  &.darker-check li:before {
+    filter: brightness(0.2);
+  }
 
 }
+
 
 /* ANIMATION FOR PHONE MOCKUPS - shuttle 02/2020 */
 

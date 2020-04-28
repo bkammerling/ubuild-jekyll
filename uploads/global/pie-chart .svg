@@ -66,7 +66,7 @@
 @keyframes dark-gray-2_f { 0% { fill: #374649; } 100% { fill: #374649; } }
     </style>
     <rect width="824" height="1048" fill="#ffffff" stroke="none" transform="translate(390,503) translate(-390,-503)" style="animation: 9s linear infinite both a0_t, 9s linear infinite both a0_w, 9s linear infinite both a0_h;"/>
-    <text fill="#1f1f1f" font-size="40" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" text-decoration="" transform="translate(68,108.12)" style="line-height: 50px; white-space: pre;">Total Active Days per Vehicle</text>
+    <text fill="#1f1f1f" font-size="40" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" text-decoration="" transform="translate(68,108.12)" style="line-height: 50px; white-space: pre;">Revenue per Vehicle</text>
     <text fill="#b2b2b2" font-size="30" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" text-decoration="" transform="translate(68,898)" style="line-height: 50px;">Vehicles</text>
     <text fill="#b2b2b2" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" text-decoration="" text-anchor="middle" transform="translate(78.6667,980.667)" style="line-height: 50px; white-space: pre; animation: 9s linear infinite both a1_t;">1</text>
     <text fill="#b2b2b2" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" text-decoration="" text-anchor="middle" transform="translate(120.063,980.667)" style="line-height: 50px; white-space: pre; animation: 9s linear infinite both a2_t;">2</text>

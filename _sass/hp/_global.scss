@@ -35,6 +35,11 @@ section.fullwidth-bg {
   &.dark-bg {
     background-color: $mobility-black;
     background: linear-gradient(120.94deg, #232323 0%, #141414 93.23%, #141414 100%);
+    &.image-bg {
+      @include rwd(tablet-up) {
+        background: linear-gradient(90deg, $mobility-black 0%, $mobility-black 49.99%, transparent 50%, transparent 100%);
+      }
+    }
     color: $white;
   }
   &.blue-bg {
