@@ -186,7 +186,7 @@
     margin-left: 0;
     max-width: 76%;
   }
-  
+
   .single-chart {
     max-width: 100%;
   }
@@ -243,6 +243,21 @@
         margin-left: 0;
       }
     }
+  } //end of tablet-down vertical styles
+  .btn-outline-primary:not(:disabled):not(.disabled) {
+    transition: all 0.1s;
+    &:focus {
+      box-shadow: 0px 4px 10px rgba(31, 31, 31, 0.1);
+    }
+    &.active:focus, &.active,  {
+      box-shadow: 0px 4px 10px rgba(31, 31, 31, 0.1);
+      border-radius: 0.25rem;
+      transform: scale(1.05);
+    }
+  }
+  .btn {
+    flex: 0 1 auto;
+    padding: 0.375rem 0.95rem;
   }
 }
 
