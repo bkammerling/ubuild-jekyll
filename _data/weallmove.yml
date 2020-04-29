@@ -7,12 +7,6 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
-- name: MiMoto
-  url: ''
-  logo: ''
-  published: false
-  countries: []
-  services: []
 - name: A2B Car Rental
   url: a2bcarrentals.com.au
   logo: "/uploads/2020/04/24/a2b_car_rentals.png"
@@ -559,6 +553,20 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: Drover is offering Key Workers a 50% discount on the usual Joining
       Fee (a saving of £124.50).
+- name: e-floater
+  url: https://www.e-floater.com/?lang=en
+  logo: "/uploads/2020/04/29/efloater.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Hamburg
+  services:
+  - service_notes: ''
+    service: alternative commuting options
+  - service_notes: All of e-floater's e-scooters are frequently sanitized to provide
+      a safe ride for their users.
+    service: extra vehicle sanitisation
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -972,6 +980,34 @@ operators:
     service_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
       safe rides to their jobs. Nurses/Healthcare employees get all products with
       significant discounts.
+- name: lifti
+  url: https://www.lifti.com/
+  logo: "/uploads/2020/04/29/lifti.png"
+  published: true
+  countries:
+  - name: South Africa
+    cities:
+    - All cities
+  services:
+  - service_notes: 'With the initiative "Smarter Work Commute", lifti is working with
+      corporates to encourage employees post lockdown to carpool with each to reduce
+      the risk of contamination during transit. '
+    service: alternative commuting options
+- name: like2drive
+  url: https://www.like2drive.de/home.html
+  logo: "/uploads/2020/04/29/like2drive.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service_notes: like2move has put together a few vehicles for you that are available
+      in 3 weeks at the respective location and have shortened terms between 3 and
+      10 months.
+    service: discounted rides
+  - service_notes: Essential workers receive € 249 in credits to commute.
+    service: support for healthcare and/or essential workers
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -1066,6 +1102,19 @@ operators:
   - service: expansion of area to hospitals
     service_notes: ''
   - service: in-app icon for recently-sanitised vehicle
+    service_notes: ''
+- name: MiMoto
+  url: https://mimoto.it/
+  logo: "/uploads/2020/04/29/mimoto.png"
+  published: true
+  countries:
+  - name: Italy
+    cities:
+    - Genova
+    - Turin
+    - Milan
+  services:
+  - service: alternative commuting options
     service_notes: ''
 - name: Moby
   url: https://mobymove.com/
