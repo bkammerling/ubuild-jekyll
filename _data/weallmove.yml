@@ -514,18 +514,22 @@ operators:
     service_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
       and Turin to support medicine delivery.
 - name: Drive Whip
-  url: ''
+  url: https://www.drivewhip.com/
   logo: "/uploads/2020/04/22/whip.png"
-  published: false
-  countries: []
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Washington DC
   services:
-  - service: alternative commuting options
-    service_notes: Whip has set up disinfecting stations in Washington DC to disinfect
-      the cars of ALL RideShare drivers, free of charge.
-  - service: support for healthcare and/or essential workers
-    service_notes: ''
-  - service: groceries delivery for risk groups
-    service_notes: ''
+  - service: extra vehicle sanitisation
+    service_notes: Drive Whip has also setup pop up sanitation stations throughout
+      the Washington DC area and are sanitizing vehicles with commercial grade steam
+      free of charge.
+  - service: discounted rides
+    service_notes: Drive Whip is offering hourly, daily, and weekly rentals to gig/rideshare
+      drivers to continue providing rides and delivering food to people that cannot
+      leave their home, through apps like Uber, Lyft, DoorDash, and Instacart.
 - name: Driverseat
   url: https://driverseatinc.com/
   logo: "/uploads/2020/04/17/driver_seat-1.png"
