@@ -7,6 +7,12 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
+- name: MiMoto
+  url: ''
+  logo: ''
+  published: false
+  countries: []
+  services: []
 - name: A2B Car Rental
   url: a2bcarrentals.com.au
   logo: "/uploads/2020/04/24/a2b_car_rentals.png"
@@ -748,7 +754,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: ''
 - name: Green Motion
-  url: " https://greenmotion.com/"
+  url: https://greenmotion.com/
   logo: "/uploads/2020/04/20/green_motion.png"
   published: true
   countries:
@@ -1081,6 +1087,22 @@ operators:
       can lend electric bikes to them and they''ll lend it to a worker.
 
 '
+- name: Modo
+  url: https://modo.coop/
+  logo: "/uploads/2020/04/29/modo.png"
+  published: true
+  countries:
+  - name: Canada
+    cities:
+    - Kelowna
+    - Nanaimo
+    - Victoria
+    - Vancouver
+  services:
+  - service: alternative commuting options
+    service_notes: Modo offers round trip carsharing services.
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
 - name: Motobee
   url: https://www.motobee.co/
   logo: "/uploads/2020/04/16/moto_bee.png"
@@ -1111,6 +1133,18 @@ operators:
   - service: alternative commuting options
     service_notes: Move Mee is making all of their fleet available to the general
       public as a transport alternative.
+- name: My Ride To Work
+  url: https://myridetowork.com/
+  logo: "/uploads/2020/04/29/my_ride_to_work.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Philadelphia
+  services:
+  - service: alternative commuting options
+    service_notes: Offer safe, dependable and affordable rides to and from work for
+      companies' essential workers.
 - name: MyKeego
   url: http://www.mykeego.com/
   logo: "/uploads/2020/04/22/keego.png"
@@ -1284,6 +1318,19 @@ operators:
     service_notes: Rhingo is offering free and safe rides to all people that are still
       working in food retailing, in pharmacies and drugstores, at the fire brigade,
       the police, in public order offices or in disaster control.
+- name: Roll Scooters
+  url: https://www.rollscooters.com/
+  logo: "/uploads/2020/04/29/roll.png"
+  published: true
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: 'Roll Scooters currently offers to loan electric scooters to our
+      public health workers, political leaders, city officials, and anyone fighting
+      COVID-19. '
 - name: Routematic
   url: https://www.routematic.com/
   logo: "/uploads/2020/04/16/routematic.png"
@@ -1318,6 +1365,23 @@ operators:
   - service: discounted rides
     service_notes: ''
   - service: expansion of area to hospitals
+    service_notes: ''
+- name: SelfDrive
+  url: SelfDrive.ae
+  logo: "/uploads/2020/04/29/self_drive.png"
+  published: true
+  countries:
+  - name: United Arab Emirates
+    cities:
+    - Umm al Quwain
+    - Sharjah
+    - Ras al Khaimah
+    - Fujairah
+    - Ajman
+    - Dubai
+    - Abu Dhabi
+  services:
+  - service: discounted rides
     service_notes: ''
 - name: Share Now
   url: https://www.share-now.com/
@@ -1478,6 +1542,37 @@ operators:
   services:
   - service: discounted rides
     service_notes: ''
+- name: STEP
+  url: https://www.ridestep.co/home
+  logo: "/uploads/2020/04/29/step.png"
+  published: true
+  countries:
+  - name: Belgium
+    cities:
+    - Evere
+    - Etterbeek
+    - Jette
+    - Saint-Gilles
+    - Forest
+    - Uccle
+    - Sint-Niklaas
+    - Aalst
+    - Ixelles
+    - Mechelen
+    - Molenbeek
+    - Leuven
+    - Anderlecht
+    - Schaerbeek
+    - Antwerp
+    - Ghent
+    - Brussels
+  services:
+  - service: cooperation with delivery and restaurants
+    service_notes: 'Step is offering a discount on all monthly subscription for electric
+      scooters. '
+  - service: support for healthcare and/or essential workers
+    service_notes: 'Step is offering a discount on all monthly subscription for electric
+      scooters. '
 - name: Swans Travel
   url: www.swanstravel.com
   logo: "/uploads/2020/04/24/swans_travel.png"
