@@ -165,10 +165,30 @@
   }
 
   .rent-icons {
-    img {
+    object {
       max-height: 52px;
       margin-bottom: 5px;
     }
+  }
+
+  .mini-section__text {
+    @include rwd(desktop-up){
+      margin: 120px 0;
+    }
+  }
+}
+
+
+#twochart-dash {
+  max-width: 67%;
+  margin-left: -10px;
+  @include rwd(tablet-up) {
+    margin-left: 0;
+    max-width: 76%;
+  }
+  
+  .single-chart {
+    max-width: 100%;
   }
 }
 
@@ -238,22 +258,6 @@
   }
 }
 
-
-
-#rent-dash {
-  max-width: 85%;
-  margin-left: -10px;
-  @include rwd(mobile-up) {
-    max-width: 160%;
-  }
-  @include rwd(tablet-up) {
-    margin-left: 0;
-    max-width: 200%;
-  }
-  @include rwd(desktop-up) {
-    max-width: 170%;
-  }
-}
 
 
 .smvideo-wrapper {

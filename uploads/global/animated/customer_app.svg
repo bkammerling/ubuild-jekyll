@@ -3,19 +3,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
     <defs>
         <clipPath id="ClipPath-5">
-            <rect width="25" height="2.5" fill="none" stroke="#000000" transform="translate(0.85973,5.12753) scale(0.142857,0.142857) translate(-12.5,36.625)" style="animation: 1.9s .5s linear both a0_t, 1.9s linear both a0_s, 1.9s linear both a0_f, 1.9s linear both a0_h;"/>
+            <rect width="25" height="2.5" fill="none" stroke="#000000" transform="translate(0.85973,5.12753) scale(0.142857,0.142857) translate(-12.5,36.625)" style="animation: 1.9s linear both a0_t, 1.9s linear both a0_s, 1.9s linear both a0_f, 1.9s linear both a0_h;"/>
         </clipPath>
         <clipPath id="ClipPath-2">
-            <rect width="0.25" height="39.75" fill="none" stroke="#000000" transform="translate(8.14544,17.449) scale(0.142857,0.142857) translate(-53.25,-19.875)" style="animation: 1.9s .5s linear both a1_w;"/>
+            <rect width="0.25" height="39.75" fill="none" stroke="#000000" transform="translate(8.14544,17.449) scale(0.142857,0.142857) translate(-53.25,-19.875)" style="animation: 1.9s linear both a1_w;"/>
         </clipPath>
         <clipPath id="ClipPath-1">
-            <path fill="none" stroke="#000000" d="M1.61102,15.1181L1.70201,15.1181L1.68571,15.1181L5.8631,15.0991L5.8631,15.0238L5.85022,15.0238L5.85022,15.0782L18.568,15.0782L18.568,16.8125L5.85022,16.8125L5.85022,19.1247L19.9966,19.1247L19.9966,25.1447L1.61905,25.1447Z" fill-rule="evenodd" transform="translate(11.8954,37.3835) translate(-14.6667,-37.8333)" style="animation: 1.9s .5s linear both a2_t, 1.9s linear both a2_s, 1.9s linear both a2_f, 1.9s linear both a2_d;"/>
+            <path fill="none" stroke="#000000" d="M1.61102,15.1181L1.70201,15.1181L1.68571,15.1181L5.8631,15.0991L5.8631,15.0238L5.85022,15.0238L5.85022,15.0782L18.568,15.0782L18.568,16.8125L5.85022,16.8125L5.85022,19.1247L19.9966,19.1247L19.9966,25.1447L1.61905,25.1447Z" fill-rule="evenodd" transform="translate(11.8954,37.3835) translate(-14.6667,-37.8333)" style="animation: 1.9s linear both a2_t, 1.9s linear both a2_s, 1.9s linear both a2_f, 1.9s linear both a2_d;"/>
         </clipPath>
         <clipPath id="ClipPath-3">
-            <path fill="none" stroke="#000000" d="M64.75,-12.25L25.75,-12.25L25.75,6L48,6L48,25.8L48.1,25.9L48.1,25.65L62.4962,25.8204L65,25.85L65,25.35L64.75,25.35L64.75,25.9L64.5,25.9L64.5,6L64.75,6Z" fill-rule="evenodd" transform="translate(17.574,18.8954) scale(0.142857,0.142857) translate(-8.25,-37.75)" style="animation: 1.9s .5s linear both a3_d;"/>
+            <path fill="none" stroke="#000000" d="M64.75,-12.25L25.75,-12.25L25.75,6L48,6L48,25.8L48.1,25.9L48.1,25.65L62.4962,25.8204L65,25.85L65,25.35L64.75,25.35L64.75,25.9L64.5,25.9L64.5,6L64.75,6Z" fill-rule="evenodd" transform="translate(17.574,18.8954) scale(0.142857,0.142857) translate(-8.25,-37.75)" style="animation: 1.9s linear both a3_d;"/>
         </clipPath>
         <clipPath id="ClipPath-4">
-            <rect width="0.5" height="15.75" fill="none" stroke="#000000" transform="translate(20.9312,21.3775) scale(0.142857,0.142857) translate(-11.5,-7.875)" style="animation: 1.9s .5s linear both a4_s, 1.9s linear both a4_f, 1.9s linear both a4_w;"/>
+            <rect width="0.5" height="15.75" fill="none" stroke="#000000" transform="translate(20.9312,21.3775) scale(0.142857,0.142857) translate(-11.5,-7.875)" style="animation: 1.9s linear both a4_s, 1.9s linear both a4_f, 1.9s linear both a4_w;"/>
         </clipPath>
     </defs>
     <style>

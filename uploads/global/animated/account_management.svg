@@ -3,22 +3,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
     <defs>
         <clipPath id="ClipPath-5">
-            <rect width="5.26667" height="28.6" fill="none" fill-opacity="0.2" stroke="#000000" transform="translate(44.7788,35.6167) rotate(-180) scale(1.21888,0.0170473) translate(-2.63333,-28.6)" style="animation: 1.4s 4s linear both a0_h;"/>
+            <rect width="5.26667" height="28.6" fill="none" fill-opacity="0.2" stroke="#000000" transform="translate(44.7788,35.6167) rotate(-180) scale(1.21888,0.0170473) translate(-2.63333,-28.6)" style="animation: 1.4s 4s both a0_h;"/>
         </clipPath>
         <clipPath id="ClipPath-6">
-            <rect width="0.4" height="5.2" fill="none" fill-opacity="0.2" stroke="#000000" transform="translate(33.1995,46.9117) scale(1.21888,1.21888) translate(-23.0667,-2.6)" style="animation: 1.4s 4s linear both a1_w;"/>
+            <rect width="0.4" height="5.2" fill="none" fill-opacity="0.2" stroke="#000000" transform="translate(33.1995,46.9117) scale(1.21888,1.21888) translate(-23.0667,-2.6)" style="animation: 1.4s 4s both a1_w;"/>
         </clipPath>
         <clipPath id="ClipPath-1">
-            <rect width="3.16" height="0.2" fill="none" stroke="#000000" stroke-width="0.5" transform="translate(0.94,15.8) rotate(-180) translate(-1.58,-17.98)" style="animation: 1.4s 4s linear both a4_h;"/>
+            <rect width="3.16" height="0.2" fill="none" stroke="#000000" stroke-width="0.5" transform="translate(0.94,15.8) rotate(-180) translate(-1.58,-17.98)" style="animation: 1.4s 4s both a4_h;"/>
         </clipPath>
         <clipPath id="ClipPath-2">
-            <rect width="0.3" height="3.9" fill="none" stroke="#000000" transform="translate(12.3567,0.6833) translate(-13.95,-1.95)" style="animation: 1.4s 4s linear both a5_w;"/>
+            <rect width="0.3" height="3.9" fill="none" stroke="#000000" transform="translate(12.3567,0.6833) translate(-13.95,-1.95)" style="animation: 1.4s 4s both a5_w;"/>
         </clipPath>
         <clipPath id="ClipPath-4">
-            <rect width="0.35" height="4.2" fill="none" stroke="#000000" transform="translate(6.2067,0.8912) translate(-8.45,-2.1)" style="animation: 1.4s 4s linear both a6_w;"/>
+            <rect width="0.35" height="4.2" fill="none" stroke="#000000" transform="translate(6.2067,0.8912) translate(-8.45,-2.1)" style="animation: 1.4s 4s both a6_w;"/>
         </clipPath>
         <clipPath id="ClipPath-3">
-            <rect width="0.3" height="3.9" fill="none" stroke="#000000" transform="translate(12.3567,0.6833) rotate(-180) translate(-13.95,-1.95)" style="animation: 1.4s 4s linear both a7_w;"/>
+            <rect width="0.3" height="3.9" fill="none" stroke="#000000" transform="translate(12.3567,0.6833) rotate(-180) translate(-13.95,-1.95)" style="animation: 1.4s 4s both a7_w;"/>
         </clipPath>
     </defs>
     <style>
@@ -33,8 +33,8 @@
     </style>
     <path d="M47.94,2.04004L42.84,2.04004L42.84,35.7L47.94,35.7L47.94,2.04004Z" fill="#2781FF" fill-opacity="0.2" clip-path="url(#ClipPath-5)" transform="translate(4.76234,4.57918) scale(0.820424,0.820424)"/>
     <path d="M32.64,44.8799L6.12,44.8799L6.12,49.9799L32.64,49.9799L32.64,44.8799Z" fill="#2781FF" fill-opacity="0.2" clip-path="url(#ClipPath-6)" transform="translate(4.76234,4.57918) scale(0.820424,0.820424)"/>
-    <path d="M34.6331,47.5072L34.6712,37.7356C34.6726,37.4659,34.7806,37.2077,34.9717,37.0174C35.1628,36.8271,35.4215,36.72,35.6912,36.7197L45.4155,36.7197L34.6331,47.5072Z" fill="#2781FF" fill-opacity="0.2" transform="translate(35.9333,37.6667) scale(0,0) translate(-37.9937,-40.3297)" style="animation: 1.4s 4s linear both a2_t;"/>
-    <path d="M45.9,0L7.13996,0C6.32839,0,5.55007,0.322392,4.97621,0.896253C4.40235,1.47011,4.07996,2.24844,4.07996,3.06L4.07996,47.94C4.07996,48.7516,4.40235,49.5299,4.97621,50.1037C5.55007,50.6776,6.32839,51,7.13996,51L32.7585,51C33.5703,50.9998,34.3488,50.6774,34.9229,50.1034L48.0644,36.956C48.6377,36.3824,48.9598,35.6046,48.96,34.7936L48.96,3.06C48.96,2.24844,48.6376,1.47011,48.0637,0.896253C47.4898,0.322392,46.7115,0,45.9,0L45.9,0ZM34.6339,47.5071L34.672,37.7355C34.6734,37.4658,34.7814,37.2076,34.9725,37.0173C35.1636,36.8269,35.4223,36.7199,35.692,36.7196L45.4163,36.7196L34.6339,47.5071ZM46.92,34.68L35.692,34.68C34.8829,34.6814,34.1072,35.0026,33.534,35.5735C32.9608,36.1445,32.6366,36.9189,32.632,37.728L32.5881,48.96L7.13996,48.96C6.86944,48.96,6.60999,48.8525,6.41871,48.6612C6.22742,48.47,6.11996,48.2105,6.11996,47.94L6.11996,3.06C6.11996,2.78948,6.22742,2.53004,6.41871,2.33875C6.60999,2.14746,6.86944,2.04,7.13996,2.04L45.9,2.04C46.1705,2.04,46.4299,2.14746,46.6212,2.33875C46.8125,2.53004,46.92,2.78948,46.92,3.06L46.92,34.68Z" fill="#2781FF" transform="translate(26.52,25.5) scale(0.820424,0.820424) translate(-26.52,-25.5)" style="animation: 1.4s 4s linear both a3_t;"/>
+    <path d="M34.6331,47.5072L34.6712,37.7356C34.6726,37.4659,34.7806,37.2077,34.9717,37.0174C35.1628,36.8271,35.4215,36.72,35.6912,36.7197L45.4155,36.7197L34.6331,47.5072Z" fill="#2781FF" fill-opacity="0.2" transform="translate(35.9333,37.6667) scale(0,0) translate(-37.9937,-40.3297)" style="animation: 1.4s 4s both a2_t;"/>
+    <path d="M45.9,0L7.13996,0C6.32839,0,5.55007,0.322392,4.97621,0.896253C4.40235,1.47011,4.07996,2.24844,4.07996,3.06L4.07996,47.94C4.07996,48.7516,4.40235,49.5299,4.97621,50.1037C5.55007,50.6776,6.32839,51,7.13996,51L32.7585,51C33.5703,50.9998,34.3488,50.6774,34.9229,50.1034L48.0644,36.956C48.6377,36.3824,48.9598,35.6046,48.96,34.7936L48.96,3.06C48.96,2.24844,48.6376,1.47011,48.0637,0.896253C47.4898,0.322392,46.7115,0,45.9,0L45.9,0ZM34.6339,47.5071L34.672,37.7355C34.6734,37.4658,34.7814,37.2076,34.9725,37.0173C35.1636,36.8269,35.4223,36.7199,35.692,36.7196L45.4163,36.7196L34.6339,47.5071ZM46.92,34.68L35.692,34.68C34.8829,34.6814,34.1072,35.0026,33.534,35.5735C32.9608,36.1445,32.6366,36.9189,32.632,37.728L32.5881,48.96L7.13996,48.96C6.86944,48.96,6.60999,48.8525,6.41871,48.6612C6.22742,48.47,6.11996,48.2105,6.11996,47.94L6.11996,3.06C6.11996,2.78948,6.22742,2.53004,6.41871,2.33875C6.60999,2.14746,6.86944,2.04,7.13996,2.04L45.9,2.04C46.1705,2.04,46.4299,2.14746,46.6212,2.33875C46.8125,2.53004,46.92,2.78948,46.92,3.06L46.92,34.68Z" fill="#2781FF" transform="translate(26.52,25.5) scale(0.820424,0.820424) translate(-26.52,-25.5)" style="animation: 1.4s 4s both a3_t;"/>
     <rect width="1.7" height="31.9" fill="#2781ff" stroke="none" fill-opacity="1" clip-path="url(#ClipPath-1)" transform="translate(17.33,25.49) translate(-0.85,-15.95)"/>
     <path fill="#2781ff" stroke="none" d="M-0.171687,-8.04976e-08L24.9491,-0.00332975C24.9491,-0.00332975,25.7733,-0.00749225,25.7733,0.833333C25.7733,1.67416,24.9491,1.65335,24.9491,1.65335L-0.171687,1.65668C-0.171687,1.65668,-1.025,1.665,-1.025,0.836663C-1.025,-8.04976e-08,-0.171687,-8.04976e-08,-0.171687,-8.04976e-08Z" fill-opacity="1" clip-path="url(#ClipPath-2)" transform="translate(17.1483,15.6117) translate(-3.005,-0.995)"/>
     <path fill="#2781ff" stroke="none" d="M-0.171687,-8.04976e-08L13.2325,-0.00332975C13.2325,-0.00332975,14.0567,-0.00749225,14.0567,0.833333C14.0567,1.67416,13.2325,1.65335,13.2325,1.65335L-0.171687,1.65668C-0.171687,1.65668,-1.025,1.665,-1.025,0.836663C-1.025,-8.04976e-08,-0.171687,-8.04976e-08,-0.171687,-8.04976e-08Z" fill-opacity="1" clip-path="url(#ClipPath-4)" transform="translate(17.1483,35.7038) translate(-3.005,-0.995)"/>
