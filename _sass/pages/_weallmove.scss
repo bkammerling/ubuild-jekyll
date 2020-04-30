@@ -72,7 +72,7 @@ body.weallmove {
     padding: 16px;
     width: 100%;
     margin: 15px auto 0;
-    @include rwd(desktop-up) {
+    @include rwd(tablet-up) {
       width: auto;
       background: none;
       padding: 0;
