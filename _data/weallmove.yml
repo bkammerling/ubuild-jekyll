@@ -244,6 +244,27 @@ operators:
   - service: alternative commuting options
     service_notes: Busup has a Commute shuttle service for corporations with controlled
       capacity, safe distance and hygienization protocol and traceability.
+- name: CarHelpline
+  url: https://www.carhelpline.pk/
+  logo: "/uploads/2020/04/29/car_helpline.png"
+  published: true
+  countries:
+  - name: Pakistan
+    cities:
+    - Karachi
+    - Rawalpindi
+    - Islamabad
+    - Lahore
+  services:
+  - service: alternative commuting options
+    service_notes: CarHelpline is a 24/7 roadside assistance platform with over 500
+      plus service providers operating in major cities of Pakistan, whom could be
+      digitally booked thru mobile applications to provide emergency roadside assistance,
+      breakdown services, transportation & recovery of vehicles & equipment.
+  - service: support for healthcare and/or essential workers
+    service_notes: CarHelpline is ensuring that healthcare and emergency workers get
+      discounted rates on roadside assistance or in case of breakdown or recovery
+      services to be at their jobs without delays. Get in touch to learn more.
 - name: Citybee
   url: https://www.citybee.lt/
   logo: "/uploads/2020/04/08/city_bee-1.png"
@@ -453,6 +474,12 @@ operators:
   - service: alternative commuting options
     service_notes: Dolly is providing no Contact service for small residential moves
       and retail delivery.
+- name: Donkey Republic
+  url: https://www.donkey.bike/
+  logo: "/uploads/2020/04/29/donkey_republic.png"
+  published: false
+  countries: []
+  services: []
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
@@ -487,18 +514,22 @@ operators:
     service_notes: Dott is offering free rides for pharmacists in Augsburg, Munich
       and Turin to support medicine delivery.
 - name: Drive Whip
-  url: ''
+  url: https://www.drivewhip.com/
   logo: "/uploads/2020/04/22/whip.png"
-  published: false
-  countries: []
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Washington DC
   services:
-  - service: alternative commuting options
-    service_notes: Whip has set up disinfecting stations in Washington DC to disinfect
-      the cars of ALL RideShare drivers, free of charge.
-  - service: support for healthcare and/or essential workers
-    service_notes: ''
-  - service: groceries delivery for risk groups
-    service_notes: ''
+  - service: extra vehicle sanitisation
+    service_notes: Drive Whip has also setup pop up sanitation stations throughout
+      the Washington DC area and are sanitizing vehicles with commercial grade steam
+      free of charge.
+  - service: discounted rides
+    service_notes: Drive Whip is offering hourly, daily, and weekly rentals to gig/rideshare
+      drivers to continue providing rides and delivering food to people that cannot
+      leave their home, through apps like Uber, Lyft, DoorDash, and Instacart.
 - name: Driverseat
   url: https://driverseatinc.com/
   logo: "/uploads/2020/04/17/driver_seat-1.png"
@@ -553,6 +584,20 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: Drover is offering Key Workers a 50% discount on the usual Joining
       Fee (a saving of £124.50).
+- name: e-floater
+  url: https://www.e-floater.com/?lang=en
+  logo: "/uploads/2020/04/29/efloater.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Hamburg
+  services:
+  - service_notes: ''
+    service: alternative commuting options
+  - service_notes: All of e-floater's e-scooters are frequently sanitized to provide
+      a safe ride for their users.
+    service: extra vehicle sanitisation
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -748,7 +793,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: ''
 - name: Green Motion
-  url: " https://greenmotion.com/"
+  url: https://greenmotion.com/
   logo: "/uploads/2020/04/20/green_motion.png"
   published: true
   countries:
@@ -966,6 +1011,34 @@ operators:
     service_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
       safe rides to their jobs. Nurses/Healthcare employees get all products with
       significant discounts.
+- name: lifti
+  url: https://www.lifti.com/
+  logo: "/uploads/2020/04/29/lifti.png"
+  published: true
+  countries:
+  - name: South Africa
+    cities:
+    - All cities
+  services:
+  - service_notes: 'With the initiative "Smarter Work Commute", lifti is working with
+      corporates to encourage employees post lockdown to carpool with each to reduce
+      the risk of contamination during transit. '
+    service: alternative commuting options
+- name: like2drive
+  url: https://www.like2drive.de/home.html
+  logo: "/uploads/2020/04/29/like2drive.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service_notes: like2move has put together a few vehicles for you that are available
+      in 3 weeks at the respective location and have shortened terms between 3 and
+      10 months.
+    service: discounted rides
+  - service_notes: Essential workers receive € 249 in credits to commute.
+    service: support for healthcare and/or essential workers
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -1061,6 +1134,19 @@ operators:
     service_notes: ''
   - service: in-app icon for recently-sanitised vehicle
     service_notes: ''
+- name: MiMoto
+  url: https://mimoto.it/
+  logo: "/uploads/2020/04/29/mimoto.png"
+  published: true
+  countries:
+  - name: Italy
+    cities:
+    - Genova
+    - Turin
+    - Milan
+  services:
+  - service: alternative commuting options
+    service_notes: ''
 - name: Moby
   url: https://mobymove.com/
   logo: "/uploads/2020/04/09/moby.png"
@@ -1081,6 +1167,22 @@ operators:
       can lend electric bikes to them and they''ll lend it to a worker.
 
 '
+- name: Modo
+  url: https://modo.coop/
+  logo: "/uploads/2020/04/29/modo.png"
+  published: true
+  countries:
+  - name: Canada
+    cities:
+    - Kelowna
+    - Nanaimo
+    - Victoria
+    - Vancouver
+  services:
+  - service: alternative commuting options
+    service_notes: Modo offers round trip carsharing services.
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
 - name: Motobee
   url: https://www.motobee.co/
   logo: "/uploads/2020/04/16/moto_bee.png"
@@ -1111,6 +1213,18 @@ operators:
   - service: alternative commuting options
     service_notes: Move Mee is making all of their fleet available to the general
       public as a transport alternative.
+- name: My Ride To Work
+  url: https://myridetowork.com/
+  logo: "/uploads/2020/04/29/my_ride_to_work.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Philadelphia
+  services:
+  - service: alternative commuting options
+    service_notes: Offer safe, dependable and affordable rides to and from work for
+      companies' essential workers.
 - name: MyKeego
   url: http://www.mykeego.com/
   logo: "/uploads/2020/04/22/keego.png"
@@ -1284,6 +1398,19 @@ operators:
     service_notes: Rhingo is offering free and safe rides to all people that are still
       working in food retailing, in pharmacies and drugstores, at the fire brigade,
       the police, in public order offices or in disaster control.
+- name: Roll Scooters
+  url: https://www.rollscooters.com/
+  logo: "/uploads/2020/04/29/roll.png"
+  published: true
+  countries:
+  - name: Canada
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: 'Roll Scooters currently offers to loan electric scooters to our
+      public health workers, political leaders, city officials, and anyone fighting
+      COVID-19. '
 - name: Routematic
   url: https://www.routematic.com/
   logo: "/uploads/2020/04/16/routematic.png"
@@ -1318,6 +1445,23 @@ operators:
   - service: discounted rides
     service_notes: ''
   - service: expansion of area to hospitals
+    service_notes: ''
+- name: SelfDrive
+  url: SelfDrive.ae
+  logo: "/uploads/2020/04/29/self_drive.png"
+  published: true
+  countries:
+  - name: United Arab Emirates
+    cities:
+    - Umm al Quwain
+    - Sharjah
+    - Ras al Khaimah
+    - Fujairah
+    - Ajman
+    - Dubai
+    - Abu Dhabi
+  services:
+  - service: discounted rides
     service_notes: ''
 - name: Share Now
   url: https://www.share-now.com/
@@ -1478,6 +1622,37 @@ operators:
   services:
   - service: discounted rides
     service_notes: ''
+- name: STEP
+  url: https://www.ridestep.co/home
+  logo: "/uploads/2020/04/29/step.png"
+  published: true
+  countries:
+  - name: Belgium
+    cities:
+    - Evere
+    - Etterbeek
+    - Jette
+    - Saint-Gilles
+    - Forest
+    - Uccle
+    - Sint-Niklaas
+    - Aalst
+    - Ixelles
+    - Mechelen
+    - Molenbeek
+    - Leuven
+    - Anderlecht
+    - Schaerbeek
+    - Antwerp
+    - Ghent
+    - Brussels
+  services:
+  - service: cooperation with delivery and restaurants
+    service_notes: 'Step is offering a discount on all monthly subscription for electric
+      scooters. '
+  - service: support for healthcare and/or essential workers
+    service_notes: 'Step is offering a discount on all monthly subscription for electric
+      scooters. '
 - name: Swans Travel
   url: www.swanstravel.com
   logo: "/uploads/2020/04/24/swans_travel.png"
