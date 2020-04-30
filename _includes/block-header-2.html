@@ -5,7 +5,7 @@
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
 <nav class="navbar fixed-top navbar-expand-md block block-header-2 px-4">
-  <a class="navbar-brand" href="{{ site.url }}">
+  <a class="navbar-brand" href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}">
     <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">
   </a>
   <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
@@ -49,7 +49,7 @@
                 <h2 class="headline-medium">
 
                     {{ nav_item.title }}
-                  
+
                 </h2>
               </div>
               <div class="col-md-12 col-lg-9 mt-md-3 mt-lg-0">

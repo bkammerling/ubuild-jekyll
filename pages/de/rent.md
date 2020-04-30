@@ -1,27 +1,28 @@
 ---
 layout: blocks
-title: Wunder Rent | Digitalize Your Rental Operations
-description: Save on costs and increase the utilization rate of your fleet with self-service rentals. Wunder Rent is an all-in-one solution to completely digitalize your vehicle rental operations.
+title: Wunder Rent | Fahrzeugvermietung im digitalen Zeitalter
+description: "Digitalisieren Sie Ihr Unternehmen: Online-Fahrzeugvermietung und eine Vielfalt von Features machen es möglich."
 date: 2019-07-28T23:00:00.000+00:00
-permalink: "/rent"
-lang: en
+permalink: "/de/rent"
+lang: de
 lang-ref: rent
 share_image: "/uploads/global/rent-shareimage.jpg"
 version: hp
+published: true
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: wunder-main
+  menu: wunder-de
   cta:
     url: "#section-contact"
-    button_text: Request a demo
+    button_text: Demo anfordern
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Upgrade your rental services for the digital age
+  headline: Fahrzeugvermietung im digitalen Zeitalter
   sub_logo: "/uploads/global/wunder-rent-white.svg"
   cta:
-    button_text: Watch how it works
+    button_text: Film ansehen
     url: "https://vimeo.com/361066939"
     enabled: true
   cta_2:
@@ -33,13 +34,12 @@ page_sections:
   background_image: "/uploads/global/rent-herobg@2x.jpg"
 - block: rent-main
   template: static-file
-  subdirectory: static
+  subdirectory: static/de
 - template: detail-content
   block: contact-form
-  title: Request a demo
-  content: We'll get you up and running in no time! Send over
-    some info and we'll get in touch in the next 24h.
-  headline: Let's Talk
+  title: Demo anfordern
+  content: Schicken Sie uns Infos, und wir werden uns in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.
+  subdirectory: de
   background_image: ''
 - template: simple-footer
   block: footer-1

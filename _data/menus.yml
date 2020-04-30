@@ -134,7 +134,7 @@ wunder-de:
   weight: 2
   parent: solutions
   identifier: rent
-  title: Rent | EN
+  title: Rent
   subtitle: Selbstbedienungsverleih ohne Schlüssel
 - url: "/de/carpool"
   weight: 3
@@ -212,95 +212,6 @@ wunder-de:
   title: Presse
   parent: firma
   subtitle: Yeah, we're being talked about!
-
-wunder-es:
-- url: "#"
-  weight: 1
-  title: Soluciones
-  identifier: solutions
-  sub: true
-- url: "/es/fleet"
-  weight: 1
-  parent: solutions
-  identifier: fleet
-  title: Fleet
-  subtitle: Tecnología integral para compartir coches y patinete
-- url: "/es/rent"
-  weight: 2
-  parent: solutions
-  identifier: rent
-  title: Rent
-  subtitle: Autoservicio y alquileres 100% en línea
-- url: "/shuttle"
-  weight: 3
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle | EN
-  subtitle: Una ruta dinámica y un gran viaje para su flota
-- url: "/carpool"
-  weight: 4
-  parent: solutions
-  identifier: carpool
-  title: Carpool | EN
-  subtitle: Trabajadores que conducen juntos al trabajo
-- url: "/park"
-  weight: 5
-  parent: solutions
-  identifier: park
-  title: Park | EN
-  subtitle: Gestión automatizada de aparcamiento digital
-- url: "/city"
-  weight: 6
-  parent: solutions
-  identifier: city
-  title: City | EN
-  subtitle: Adaptado a los nuevos cambios de movilidad en su ciudad
-- url: "#"
-  weight: 2
-  title: Eventos
-  identifier: events
-  sub: true
-- url: "/mobility-sessions"
-  weight: 3
-  identifier: autotech
-  title: Mobility Sessions | EN
-  parent: events
-  subtitle: Reuniones regulares enfocadas en el futuro de la movilidad
-- url: "/summit/startup-stage"
-  weight: 2
-  identifier: startup-stage
-  title: Startup Stage | EN
-  parent: events
-  subtitle: Le suceden buenas cosas a quienes se lanzan
-- url: "/summit/"
-  weight: 1
-  identifier: summit
-  title: Mobility Summit | EN
-  subtitle: El evento anual sobre la movilidad
-  parent: events
-- url: "#"
-  weight: 3
-  identifier: firma
-  title: Empresa
-  sub: true
-- url: "/careers/"
-  weight: 1
-  identifier: careers
-  title: Jobs | EN
-  parent: firma
-  subtitle: ¿Quiere unirse al viaje?
-- url: "/blog/"
-  weight: 2
-  identifier: blog
-  title: Blog | EN
-  subtitle: Explorando el futuro de la movilidad urbana
-  parent: firma
-- url: "/presse"
-  weight: 3
-  identifier: press
-  title: Press | EN
-  subtitle: Sí, ¡están hablando de nosotros!
-  parent: firma
 
 career:
 - identifier: workingatwunder

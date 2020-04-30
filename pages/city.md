@@ -22,7 +22,7 @@ page_sections:
   cta:
     button_text: Contact us
     url: "#section-contact"
-    enabled: true
+    enabled: false
   cta_2:  
     button_text: Find Out More
     url: "#section-challenges"

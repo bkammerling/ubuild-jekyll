@@ -14,6 +14,7 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Kontakt
+    enabled: true
 - template: hero-banner-center
   block: hero-1
   headline: Für eine <strong>bessere Zukunft</strong>
@@ -21,11 +22,11 @@ page_sections:
   cta:
     button_text: Mehr
     url: "#section-challenges"
-    enabled: true
+    enabled: false
   cta_2:  
     button_text: Kontakt
     url: "#section-contact"
-    enabled: true
+    enabled: false
   background_image: "/uploads/global/bg-city-wide@2x.jpg"
   featured_image: "/uploads/global/wundercity_map-2.svg"
 - block: city-main

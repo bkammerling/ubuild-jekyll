@@ -8,6 +8,7 @@
 /pt/*   /:splat  301
 /pt  /  301
 /platform   /  301
+/es/*   /:splat  301
 
 /pricing  /  301
 /carpool-app   https://help.wunder.org  301
