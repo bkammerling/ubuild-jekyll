@@ -9,7 +9,7 @@ component_scripts:
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  menu: career
+  menu: wunder-main
   cta:
     url: ''
     button_text: ''

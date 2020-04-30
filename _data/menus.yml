@@ -49,23 +49,6 @@ wunder-main:
   subtitle: Sharing-ready vehicles
 - url: "#"
   weight: 2
-  title: Events
-  identifier: events
-  sub: true
-- url: "/summit/"
-  weight: 2
-  identifier: summit
-  title: Wunder Summit
-  parent: events
-  subtitle: The mobility event of the year!
-- url: "/mobility-sessions/"
-  weight: 3
-  identifier: mobility-sessions
-  title: Mobility Sessions
-  parent: events
-  subtitle: Regular meetups focused on the future of mobility
-- url: "#"
-  weight: 3
   title: Company
   identifier: company
   sub: true
@@ -75,25 +58,65 @@ wunder-main:
   title: Blog
   parent: company
   subtitle: Exploring the future of urban mobility
+- url: "/summit/"
+  weight: 2
+  identifier: summit
+  title: Wunder Summit
+  parent: company
+  subtitle: The mobility event of the year!
+- url: "/mobility-sessions/"
+  weight: 3
+  identifier: mobility-sessions
+  title: Mobility Sessions
+  parent: company
+  subtitle: Regular meetups focused on the future of mobility
 - url: "/our-story"
   weight: 2
   identifier: our-story
   title: Our Story
   parent: company
   subtitle: Every journey starts somewhere
-- url: "/careers/"
-  weight: 3
-  identifier: careers
-  title: Careers
-  parent: company
-  subtitle: Wanna join the ride?
 - url: "/press"
   weight: 4
   identifier: press
   title: Press
   parent: company
   subtitle: Yeah, we're being talked about!
-
+- url: "#"
+  weight: 3
+  title: Careers
+  identifier: careers
+  sub: true
+- identifier: workingatwunder
+  subtitle: Wanna join the ride?
+  url: "/careers/"
+  parent: careers
+  weight: 5
+  title: Working at Wunder
+- identifier: jobs
+  url: "/careers/jobs"
+  subtitle: Check our available positions
+  title: Jobs
+  weight: 4
+  parent: careers
+- identifier: locations
+  url: "/careers/locations"
+  weight: 3
+  title: Locations
+  subtitle: Offices around the globe
+  parent: careers
+- identifier: culture
+  url: "/careers/culture"
+  weight: 2
+  title: Culture
+  subtitle: A ride to remember
+  parent: careers
+- identifier: perks
+  url: "/careers/perks"
+  weight: 1
+  title: Perks
+  subtitle: Not the normal 9 to 5
+  parent: careers
 
 wunder-de:
 - url: "#"

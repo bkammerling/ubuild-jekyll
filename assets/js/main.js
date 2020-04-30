@@ -87,7 +87,7 @@ var menu = {
   init: function() {
     var btn = $(".header__hamburger");
     //var menu = $(".navbar-nav");
-    var navlink = $("body:not(.careers) .navbar-nav .nav-link");
+    var navlink = $("body .navbar-nav .nav-link");
     var hideBtn = $(".nav-full__overlay");
     this.toggleMenu(btn, this.submenu);
     this.showMenu(navlink, this.submenu);
