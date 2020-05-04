@@ -119,6 +119,22 @@ operators:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
+- name: Beryl
+  url: https://beryl.cc/news/keeping-the-wheels-moving-for-key-workers
+  logo: "/uploads/2020/05/04/beryl.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+    - Hereford
+    - Watford
+    - Norwich
+    - Bournemouth
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Beryl is ensuring that healthcare and emergency workers have free,
+      safe rides to their jobs. Check city availability by clicking on the link.
 - name: Big Green Coach
   url: https://www.biggreencoach.co.uk/
   logo: "/uploads/2020/04/17/big_green_coach-1.png"
