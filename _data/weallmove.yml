@@ -477,9 +477,36 @@ operators:
 - name: Donkey Republic
   url: https://www.donkey.bike/
   logo: "/uploads/2020/04/29/donkey_republic.png"
-  published: false
-  countries: []
-  services: []
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Berlin
+  - name: Netherlands
+    cities:
+    - Rotterdam
+    - Utrecht
+  - name: Spain
+    cities:
+    - Barcelona
+  - cities:
+    - Budapest
+    name: Hungary
+  services:
+  - service: alternative commuting options
+    service_notes: 'In Denmark, Germany, Netherlands, Hungary, Spain, Sweden and Belgium,
+      Donkey Republic allows its users to keep one bike for up to 7 days with one
+      rental. They''re also offering a 20% payback on monthly public membership payments
+      once we are on the other side of the pandemic.
+
+'
+  - service: cooperation with delivery and restaurants
+    service_notes: Donkey Republic is making part of their fleet available to grocery
+      delivery services. Available in Berlin.
+  - service_notes: Donkey Republic is ensuring that healthcare and emergency workers
+      have free, safe rides to fulfill their duties. Available in Berlin, Budapest
+      and Barcelona.
+    service: support for healthcare and/or essential workers
 - name: Dott
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
@@ -874,7 +901,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: 'To support health care workers, Hertz is providing them with individual
       and safe mobility solutions. #Hertzenssache'
-- name: Hertz
+- name: Hertz Germany
   url: www.hertz247.de
   logo: "/uploads/2020/04/09/hertz.png"
   published: true
@@ -886,6 +913,24 @@ operators:
   - service: alternative commuting options
     service_notes: Hertz 24/7 offers hourly van rentals. For more information please
       visit the website.
+- name: Hertz Lisboa
+  url: https://www.hertz.pt/rentacar/reservation/
+  logo: "/uploads/2020/04/09/hertz.png"
+  published: true
+  countries:
+  - name: Portugal
+    cities:
+    - All cities
+  services:
+  - service: cooperation with delivery and restaurants
+    service_notes: Hertz offers a special daily rate for small cargo vans for 18,50
+      € incl. VAT. For more information please visit the Hertz website.
+  - service: support for healthcare and/or essential workers
+    service_notes: Hertz offers a special daily rate for economy category cars (diesel)
+      for 18,50 € incl. VAT. For more information please visit the Hertz website.
+  - service: alternative commuting options
+    service_notes: Hertz offers a special daily rate for economy category cars (petrol)
+      for 17,90 € incl. VAT. For more information please visit the Hertz website.
 - name: Highspeed service
   url: https://www.highspeedservice.ch/
   logo: "/uploads/2020/04/08/high_speed_service.png"
@@ -899,6 +944,27 @@ operators:
   services:
   - service: alternative commuting options
     service_notes: ''
+- name: Hip
+  url: https://ridehip.com/
+  logo: "/uploads/2020/05/04/hip.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Passaic County
+    - Hudson County
+    - Bergen County
+    - New York
+  services:
+  - service: alternative commuting options
+    service_notes: 'Hip provides pre-ticketed and capacity controlled commuter bus
+      and shuttle routes, and is available to plan customized services for companies
+      that want to support their employees in choosing a shared commute mode, but
+      have concerns about social distancing and employee health. '
+  - service: support for healthcare and/or essential workers
+    service_notes: Hip is available to plan and provide commute or other transportation
+      services for healthcare and other essential organizations that need to ensure
+      safe transit for their personnel.
 - name: Hive
   url: https://www.ridehive.com/
   logo: "/uploads/2020/04/06/hive.png"
@@ -952,6 +1018,21 @@ operators:
     service_notes: The HONK platform of approximately 70k service vehicles operating
       nationwide is equipped to be digitally dispatched to provide mechanical services,
       sanitation services and transportation services of goods, vehicles and equipment.
+- name: HyreCar
+  url: https://hyrecar.com/
+  logo: "/uploads/2020/05/04/hyre_car.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Los Angeles
+  services:
+  - service: discounted rides
+    service_notes: HyreCar is offering higher-than-normal relief rebates for its drivers
+      and vehicle owner partners.
+  - service: cooperation with delivery and restaurants
+    service_notes: HyreCar is actively pursuing ways to connect unemployed drivers
+      with understaffed logistics and delivery companies.
 - name: Juuve
   url: https://juuve.nl/
   logo: "/uploads/2020/04/09/juuve.png"
@@ -1624,7 +1705,7 @@ operators:
     service_notes: ''
 - name: STEP
   url: https://www.ridestep.co/home
-  logo: "/uploads/2020/04/29/step.png"
+  logo: "/uploads/2020/05/04/step.png"
   published: true
   countries:
   - name: Belgium
