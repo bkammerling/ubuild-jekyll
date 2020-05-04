@@ -17,7 +17,10 @@ body.weallmove {
 
   .partner-logos {
     a img {
-      max-height: 70px;
+      max-height: 65px;
+      @include rwd(mobile-up) {
+        max-height: 75px;
+      }
       @include rwd(tablet-up) {
         max-height: none;
       }
