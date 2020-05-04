@@ -1396,7 +1396,7 @@ ul.footer__socialmedia {
 
 /* gives lazy-loaded image a 16:9 ratio spacing before they low to helo ith reflow issues */
 
-img.make-space[data-src] {
+.make-space[data-src], .make-space.lazy {
   position: relative;
   display: block;
   &::before {
