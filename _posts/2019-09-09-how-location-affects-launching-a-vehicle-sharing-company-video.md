@@ -10,7 +10,7 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology to drive the future
   of mobility forward around the world.
 cta_link: pages/fleet.md
-title: How Location Affects Launching a Vehicle Sharing Company [Video]
+title: '[Video] How Location Affects Launching a Vehicle Sharing Company'
 publish_date: 2019-09-09 00:00:00 +0000
 featured_image: "/uploads/2019/09/09/howlocationaffectsvehiclesharing_blog_list.png"
 excerpt: 'We sat down with Yannick Hippolyte, Business Development Manager here at
@@ -25,7 +25,7 @@ Here are the three factors to consider:
 
 #### Vehicle Type & Local Preference
 
-It's important to leverage your location in order to find the right type of vehicle for your customer's needs. Beach communities and snowy rural landscapes might attract different customers, which will in turn affect the vehicles you select. 
+It's important to leverage your location in order to find the right type of vehicle for your customer's needs. Beach communities and snowy rural landscapes might attract different customers, which will in turn affect the vehicles you select.
 
 #### Target Users
 

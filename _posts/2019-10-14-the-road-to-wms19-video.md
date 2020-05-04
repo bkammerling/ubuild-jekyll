@@ -10,7 +10,7 @@ cta_heading: Find Out More About WMS19
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/summit.md
-title: WMS19 Trailer [Video]
+title: '[Video] The Road To WMS19'
 publish_date: 2019-10-14 00:00:00 +0000
 featured_image: "/uploads/2019/10/14/RoadToWMSTrailer.png"
 excerpt: WMS19 is just around the corner! Check out our trailer and get excited for

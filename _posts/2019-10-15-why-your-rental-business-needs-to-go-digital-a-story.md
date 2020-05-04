@@ -9,7 +9,7 @@ cta_heading: Find Out More About Wunder Rent
 cta_text: Revamp your rental company with minimal effort. We move fast - let's get
   your new-and-improved rental company ready within 6 weeks.
 cta_link: pages/rent.md
-title: 'Why Your Rental Business Needs to Go Digital: A Story'
+title: 'Why Your Rental Business Needs to Go Digital'
 publish_date: 2019-10-14T11:00:00.000+00:00
 featured_image: "/uploads/2019/10/14/rentstorylist.jpeg"
 excerpt: 'Here’s a story that might convince rental car business owners it''s time

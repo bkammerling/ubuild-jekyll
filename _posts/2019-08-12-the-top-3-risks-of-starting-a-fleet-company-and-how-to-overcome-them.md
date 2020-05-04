@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/fleet.md
-title: The Top 3 Risks of Starting a Fleet Company (and How to Overcome Them)
+title: Top 3 Risks of Starting a Fleet Company & How to Overcome Them
 publish_date: 2019-08-12T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/12/scooterdominoeffectblogimage800-1.jpg"
 excerpt: We’ve compiled a list of risks associated with starting a fleet company _and_

@@ -12,7 +12,7 @@ cta_heading: Sign Up for Our Newsletter
 cta_text: The monthly Wunder Bar newsletter is packed full of interesting news and
   insights from the ever-changing world of Wunder - sign up now to stay in the loop!
 cta_link: pages/newsletter-signup.md
-title: Adapt or Die! [Video]
+title: '[Video] What Automotive Companies Can Do To Stay Current'
 publish_date: 2019-10-24T12:00:00.000+00:00
 featured_image: "/uploads/2019/10/24/TamyShiftlist.png"
 excerpt: 'Watch our Chief Evangelist, Tamy B. Ribeiro, talk at Shift Automotive about

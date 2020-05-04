@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
   the future of mobility around the world.
 cta_link: pages/home.md
-title: Future Mobility Zones and their Potential Impact on Britain
+title: Future Mobility Zones and their Potential Impact on the UK
 publish_date: 2019-08-30 09:00:00 +0000
 featured_image: "/uploads/2019/08/30/londoneyebikelist.jpg"
 excerpt: Many governments, including that of the United Kingdom, have determined that

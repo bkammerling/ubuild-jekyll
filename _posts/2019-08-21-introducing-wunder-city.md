@@ -6,7 +6,7 @@ cta_heading: Find Out More About Wunder City
 cta_text: We have the tool cities need to gain a comprehensive overview of active
   mobility services in their area.
 cta_link: pages/city.md
-title: Introducing Wunder City
+title: Introducing a Mobility Data Platform For Cities - Wunder City
 publish_date: 2019-08-21T09:00:00.000+00:00
 featured_image: "/uploads/2019/08/20/introtocitytitleimage.jpeg"
 excerpt: As more and more mobility companies expand their services in urban centers
