@@ -1089,6 +1089,21 @@ operators:
     service_notes: The HONK platform of approximately 70k service vehicles operating
       nationwide is equipped to be digitally dispatched to provide mechanical services,
       sanitation services and transportation services of goods, vehicles and equipment.
+- name: HOP!
+  url: https://hoplagit.com/
+  logo: "/uploads/2020/05/05/hop_escooter.png"
+  published: true
+  countries:
+  - name: Turkey
+    cities:
+    - Ankara
+  services:
+  - service: alternative commuting options
+    service_notes: To provide safe commute options for general public, HOP! is making
+      sure all the fleet is cleaned/disinfected regularly based on WHO recommendations.
+  - service: support for healthcare and/or essential workers
+    service_notes: HOP! is giving away free 20-minute rides for healthcare and emergency
+      workers, providing them safe rides to their jobs.
 - name: HyreCar
   url: https://hyrecar.com/
   logo: "/uploads/2020/05/04/hyre_car.png"
