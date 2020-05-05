@@ -22,7 +22,7 @@ hidden: false
 ---
 ![](/uploads/2020/05/05/An-Interview-With-HarryEvers_body.jpg)
 
-_Lesen Sie diesen Artikel auf Deutsch._ 
+_Lesen Sie diesen Artikel auf_ [_Deutsch_](www.wundermobility.com/blog/es-braucht-mut-und-den-politischen-gesamtwillen-ein-interview-mit-harry-evers-zur-zukunft-autonomen-fahrens-in-deutschland)_._
 
 **Hamburg will host the ITS World Congress in 2021. The city often sees itself as a pioneer in the field of urban mobility, especially in terms of autonomous driving. What distinguishes Hamburg as a “mobility” city?**
 
