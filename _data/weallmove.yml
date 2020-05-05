@@ -357,7 +357,7 @@ operators:
 
 '
 - name: Coaster
-  url: https://www.coastercycles.com/
+  url: https://www.ccfaceshields.com/about
   logo: "/uploads/2020/04/14/coaster_cycles.png"
   published: true
   order: 
@@ -1166,6 +1166,19 @@ operators:
       goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.
 
 '
+- name: Levy
+  url: https://www.levyelectric.com/rent-electric-scooters
+  logo: "/uploads/2020/05/05/levy.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - New York
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Levy is offering discounted weekly and monthly electric scooter
+      rentals for healthcare and delivery workers in NYC. Reserve yours by following
+      the link to our website.
 - name: lifti
   url: https://www.lifti.com/
   logo: "/uploads/2020/04/29/lifti.png"
@@ -1967,6 +1980,24 @@ operators:
     service_notes: 'Trōv has launched a commercial insurance program to help get more
       delivery drivers on the road, ensuring communities that are social distancing
       have access to the essential items they need. '
+- name: Trusted Cars
+  url: https://www.trustedcars.com/
+  logo: "/uploads/2020/05/05/trusted_cars.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: discounted rides
+    service_notes: Trusted Cars has so Registration and Starting fee until May 31st
+      (worth €299).
+  - service: alternative commuting options
+    service_notes: TrustedCars offers a car subscription service with cars ready to
+      use within 1 week.
+  - service: support for healthcare and/or essential workers
+    service_notes: Trusted Cars has a special deal for healthcare and essential workers,
+      with a discount worth €199.
 - name: UFODRIVE
   url: https://www.ufodrive.com/en/
   logo: "/uploads/2020/04/17/ufo_drive-1.png"
@@ -2373,6 +2404,17 @@ operators:
     service_notes: ''
   - service: discounted rides
     service_notes: ''
+- name: Zoom Sharing
+  url: https://www.zoom-sharing.de/
+  logo: "/uploads/2020/05/05/zoom_sharing.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Stuttgart
+  services:
+  - service: alternative commuting options
+    service_notes: ''
 - name: Zoov
   url: https://zoov.typeform.com/to/oCGJAs
   logo: "/uploads/2020/04/06/zoov.png"
@@ -2574,7 +2616,7 @@ operators:
 - name: Govecs
   url: https://www.govecsgroup.com/en/?r=1
   logo: "/uploads/2020/04/06/govecs_group.png"
-  published: false
+  published: true
   countries:
   - name: Poland
     cities:
