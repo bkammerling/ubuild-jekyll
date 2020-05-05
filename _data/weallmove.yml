@@ -1636,6 +1636,24 @@ operators:
     service_notes: The company has partnered with hospitals in the cities they operate
       in to offer for the staff free rides. Privatising vehicles (for free) it's also
       an option.
+- name: Rally
+  url: https://rally.co/
+  logo: "/uploads/2020/05/05/rally.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - All cities
+  - name: Canada
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+  - service: alternative commuting options
+    service_notes: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
 - name: REACH NOW
   url: https://www.moovel.com/en
   logo: "/uploads/2020/05/05/reach_now.png"
