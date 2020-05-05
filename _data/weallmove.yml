@@ -19,6 +19,17 @@ operators:
   - service: alternative commuting options
     service_notes: A2B Car Rentals is offering a free pick up and drop off service
       and a no contact delivery service for our vehicles.
+- name: Air2E
+  url: https://www.air2e.com/
+  logo: "/uploads/2020/05/05/air2e.png"
+  published: true
+  countries: []
+  services:
+  - service: alternative commuting options
+    service_notes: 'Air2E provides individual air travel at affordable rates in small
+      business aircraft. For companies we provide on-demand flights or establish frequent
+      routes. In case of frequent commutes over larger distances, we offer flights
+      for teams of a few people at prices comparable to economy class flights. '
 - name: ALD Automotive
   url: aldautomotive.com
   logo: "/uploads/2020/04/24/ald_automotive.png"
@@ -1831,9 +1842,8 @@ operators:
     service_notes: Cars available starting at 11,33 Euro per day.
   - service: alternative commuting options
     service_notes: |-
-      SHARE NOW is extending its mobility offer, so you can keep your
-      car just yourself around-the-clock for 30 days. Besides, you can now
-      book our 30-day package at 50% discount. In Frankfurt, Milan and Turin you can even have the car delivered to your doorstep.
+      SHARE NOW is extending its mobility offer, so you can keep your car just yourself around-the-clock for 30 days. Besides, you can now book our 30-day package at 50% discount. In Frankfurt, Düsseldorf, Cologne, Milan and Turin you can even have the car delivered to your doorstep. 
+      Madrid: Service temporarily suspended until May 11th
   - service: support for healthcare and/or essential workers
     service_notes: |-
       To help all healthcare and frontline workers get to work safely,
