@@ -1290,10 +1290,18 @@ operators:
     - Victoria
     - Vancouver
   services:
+  - service: groceries delivery for risk groups
+    service_notes: Modo is providing access to a diverse fleet of round trip carshare
+      vehicles.
+  - service: cooperation with delivery and restaurants
+    service_notes: 'Modo is providing access to a diverse fleet of round trip carshare
+      vehicles. '
   - service: alternative commuting options
-    service_notes: Modo offers round trip carsharing services.
+    service_notes: 'Modo is providing access to a diverse fleet of round trip carshare
+      vehicles. '
   - service: support for healthcare and/or essential workers
-    service_notes: ''
+    service_notes: Modo is ensuring all essential workers can access a designated
+      safe vehicle, on a monthly basis, at heavily discounted rates.
 - name: Motobee
   url: https://www.motobee.co/
   logo: "/uploads/2020/04/16/moto_bee.png"
@@ -1785,6 +1793,22 @@ operators:
     service_notes: 'Swans Travel is currently operating ‘key worker’ services to Amazon,
       Sainsbury & NHS. The initiative supplies the vehicles fully sanitised, with
       driver full PPE. '
+- name: Swoop
+  url: https://swoopapp.com/
+  logo: "/uploads/2020/05/05/swoop.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - All cities
+  services:
+  - service: groceries delivery for risk groups
+    service_notes: Swoop has removed seats from its vehicles for large moving jobs
+      as well as delivering groceries and PPE.
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+  - service: alternative commuting options
+    service_notes: Swoop has Inter-state routes as a safe alternative to flying.
 - name: Tier
   url: https://www.tier.app/
   logo: "/uploads/2020/04/16/tier.png"
@@ -1908,8 +1932,8 @@ operators:
     service_notes: ''
 - name: URways
   url: https://www.terryreidhyundai.com/
-  logo: ''
-  published: false
+  logo: "/uploads/2020/05/05/urways.png"
+  published: true
   countries:
   - name: United States
     cities:
