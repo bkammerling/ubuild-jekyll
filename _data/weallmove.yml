@@ -1108,6 +1108,20 @@ operators:
     service_notes: Kyte is ensuring that healthcare and emergency workers have discounted,
       safe rides to their jobs. Nurses/Healthcare employees get all products with
       significant discounts.
+- name: Laplandar
+  url: https://laplandar.com/
+  logo: "/uploads/2020/05/05/laplandar.png"
+  published: true
+  countries:
+  - name: Denmark
+    cities:
+    - Copenhagen
+  services:
+  - service: cooperation with delivery and restaurants
+    service_notes: 'Laplandar is partnering with delivery companies (both food and
+      goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.
+
+'
 - name: lifti
   url: https://www.lifti.com/
   logo: "/uploads/2020/04/29/lifti.png"
