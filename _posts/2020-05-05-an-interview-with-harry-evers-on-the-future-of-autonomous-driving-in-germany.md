@@ -17,7 +17,7 @@ featured_image: "/uploads/2020/05/05/An-Interview-With-HarryEvers_list.jpeg"
 excerpt: ''
 share_image: "/uploads/2020/05/05/An-Interview-With-HarryEvers_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 ![](/uploads/2020/05/05/An-Interview-With-HarryEvers_body.jpg)
