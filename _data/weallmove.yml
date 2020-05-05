@@ -495,6 +495,17 @@ operators:
   logo: "/uploads/2020/04/29/donkey_republic.png"
   published: true
   countries:
+  - name: Sweden
+    cities:
+    - Malmo
+  - name: Belgium
+    cities:
+    - Ghent
+  - name: Denmark
+    cities:
+    - Odense
+    - Copenhagen
+    - Aarhus
   - name: Germany
     cities:
     - Berlin
@@ -810,6 +821,20 @@ operators:
     service_notes: ''
   - service: cooperation with delivery and restaurants
     service_notes: ''
+- name: Global Passenger Network
+  published: true
+  countries: []
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+  - service: alternative commuting options
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+  url: https://gpn.travel/
+  logo: "/uploads/2020/05/05/gpn.png"
 - name: GOMEEP
   url: http://gomeep.com/
   logo: "/uploads/2020/04/27/go_meep.png"
@@ -901,7 +926,7 @@ operators:
     service_notes: ''
   - service: cooperation with delivery and restaurants
     service_notes: ''
-- name: Hertz
+- name: Hertz Germany
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/09/hertz.png"
   published: true
@@ -917,7 +942,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: 'To support health care workers, Hertz is providing them with individual
       and safe mobility solutions. #Hertzenssache'
-- name: Hertz Germany
+- name: Hertz 24/7
   url: www.hertz247.de
   logo: "/uploads/2020/04/09/hertz.png"
   published: true
@@ -929,6 +954,25 @@ operators:
   - service: alternative commuting options
     service_notes: Hertz 24/7 offers hourly van rentals. For more information please
       visit the website.
+- name: Hertz Guatemala
+  url: https://www.rentautos.com.gt/
+  logo: "/uploads/2020/04/09/hertz.png"
+  published: true
+  countries:
+  - name: Guatemala
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Hertz Guatemala offers taxi service, which lets customers book
+      one-way travel and commute in safe vehicles.
+  - service: extra vehicle sanitisation
+    service_notes: Hertz Guatemala is offering at home car wash and sterilization
+      using certified products and procedures.
+  - service: support for healthcare and/or essential workers
+    service_notes: Hertz Transfer services, we are helping move essential personnel
+      to and from their homes and offices, using a microbus complying with the COVID-19
+      procedures, and each vehicle is cleaned and sanitized after each trip.
 - name: Hertz Lisboa
   url: https://www.hertz.pt/rentacar/reservation/
   logo: "/uploads/2020/04/09/hertz.png"
