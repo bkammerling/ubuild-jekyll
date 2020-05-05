@@ -22,6 +22,8 @@ hidden: false
 ---
 ![](/uploads/2020/05/05/An-Interview-With-HarryEvers_body.jpg)
 
+_Lesen Sie diesen Artikel auf Deutsch._ 
+
 **Hamburg will host the ITS World Congress in 2021. The city often sees itself as a pioneer in the field of urban mobility, especially in terms of autonomous driving. What distinguishes Hamburg as a “mobility” city?**
 
 Among other things, Hamburg has a test track that is unique in the world: the “Test Track for Automated and Networked Driving in Hamburg”. The test track includes roads and intersections located in an area which is open to the public and integrated into the normal flow of traffic. It takes all types of road users into account - pedestrians, cyclists, delivery traffic - and it’s smack-dab in the middle of the city centre. There are no similar examples anywhere else in the world.

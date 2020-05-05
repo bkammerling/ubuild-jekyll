@@ -19,7 +19,7 @@ featured_image: "/uploads/2020/05/05/An-Interview-With-HarryEvers_list.jpeg"
 excerpt: Im Gespräch mit Harry Evans, Geschäftsführer ITS Hamburg 2021 GmbH
 share_image: "/uploads/2020/05/05/An-Interview-With-HarryEvers_list.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 ![](/uploads/2020/05/05/An-Interview-With-HarryEvers_body.jpg)
