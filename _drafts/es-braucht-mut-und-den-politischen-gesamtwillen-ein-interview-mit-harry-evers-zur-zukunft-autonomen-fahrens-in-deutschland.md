@@ -24,7 +24,7 @@ hidden: false
 ---
 ![](/uploads/2020/05/05/An-Interview-With-HarryEvers_body.jpg)
 
-_Read this article in English._ 
+_Read this article in_ [_English_](www.wundermobility.com/blog/an-interview-with-harry-evers-on-the-future-of-autonomous-driving-in-germany)_._
 
 **Hamburg wird 2021 Gastgeber des ITS-Weltkongresses und sieht sich selbst häufig auch als Vorreiter im Bereich urbaner Mobilität, insbesondere mit Blick auf autonomes Fahren. Was zeichnet Hamburg als Stadt aus?**
 
