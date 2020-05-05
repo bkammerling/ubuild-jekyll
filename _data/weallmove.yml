@@ -1324,18 +1324,6 @@ operators:
   - service: alternative commuting options
     service_notes: Move Mee is making all of their fleet available to the general
       public as a transport alternative.
-- name: My Ride To Work
-  url: https://myridetowork.com/
-  logo: "/uploads/2020/04/29/my_ride_to_work.png"
-  published: true
-  countries:
-  - name: United States
-    cities:
-    - Philadelphia
-  services:
-  - service: alternative commuting options
-    service_notes: Offer safe, dependable and affordable rides to and from work for
-      companies' essential workers.
 - name: MyKeego
   url: http://www.mykeego.com/
   logo: "/uploads/2020/04/22/keego.png"
@@ -1509,6 +1497,23 @@ operators:
     service_notes: Rhingo is offering free and safe rides to all people that are still
       working in food retailing, in pharmacies and drugstores, at the fire brigade,
       the police, in public order offices or in disaster control.
+- name: Ride To Work
+  url: https://www.myride2work.com/
+  logo: ''
+  published: false
+  countries:
+  - name: United States
+    cities:
+    - Philadelphia
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: Ride To Work drivers wear masks and gloves, sanitize vehicles before
+      each pickup and after each drop off, paying special attention to knobs and handles.
+      In addition, the company changes the vehicle's air filter up to twice a week.
+  - service: alternative commuting options
+    service_notes: Ride To Work is offering transportation services for the essential
+      workers of companies and organizations. Reach out if you are a staff member
+      of a homeless shelters, nursing homes, senior centers and homes for disabled.
 - name: Roll Scooters
   url: https://www.rollscooters.com/
   logo: "/uploads/2020/04/29/roll.png"
@@ -1901,6 +1906,26 @@ operators:
     service_notes: ''
   - service: extra vehicle sanitisation
     service_notes: ''
+- name: URways
+  url: https://www.terryreidhyundai.com/
+  logo: ''
+  published: false
+  countries:
+  - name: United States
+    cities:
+    - Atlanta
+    - Georgia
+  services:
+  - service: groceries delivery for risk groups
+    service_notes: ''
+  - service: alternative commuting options
+    service_notes: 'URways will leave a completely sanitized vehicle for customer
+      use while service/maintenance is performed if requested.
+
+'
+  - service: discounted rides
+    service_notes: URways is offering discount vehicle rental to Uber, Lyft, door
+      dash, Instacart drivers.
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
