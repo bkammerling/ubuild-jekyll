@@ -1207,6 +1207,107 @@ operators:
     service: discounted rides
   - service_notes: Essential workers receive € 249 in credits to commute.
     service: support for healthcare and/or essential workers
+- name: Lime
+  url: https://www.li.me/en-us/home
+  logo: "/uploads/2020/05/05/lime.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Indianapolis
+    - Washington DC
+    - Salt Lake City
+    - Oklahoma City
+    - Norfolk
+    - Nashville
+    - Denver
+    - Dallas
+    - Columbus
+    - Baltimore
+    - Austin
+    - San Jose
+    - Orlando
+    - Portland
+    - New York
+    - Milwaukee
+    - Miami
+    - Detroit
+    - Los Angeles
+    - San Francisco
+    - Charlotte
+    - Oakland
+  - name: Switzerland
+    cities:
+    - Zurich
+  - name: Sweden
+    cities:
+    - Stockholm
+  - name: South Korea
+    cities:
+    - Busan
+    - Seoul
+  - name: Romania
+    cities:
+    - Bucharest
+  - name: Poland
+    cities:
+    - Poznan
+    - Wroclaw
+    - Warsaw
+  - name: Norway
+    cities:
+    - Oslo
+  - name: New Zealand
+    cities:
+    - Christchurch
+  - name: Italy
+    cities:
+    - Rimini
+  - name: Israel
+    cities:
+    - Tel Aviv
+  - name: Hungary
+    cities:
+    - Budapest
+  - name: Germany
+    cities:
+    - Frankfurt
+    - Hamburg
+    - Cologne
+    - Berlin
+  - name: France
+    cities:
+    - Lyon
+    - Paris
+  - name: Denmark
+    cities:
+    - Copenhagen
+  - name: Czech Republic
+    cities: []
+  - name: Chile
+    cities:
+    - Santiago
+  - name: Canada
+    cities:
+    - Calgary
+  - name: Brazil
+    cities:
+    - Rio de Janeiro
+  - name: Belgium
+    cities:
+    - Brussels
+  - name: Australia
+    cities:
+    - Brisbane
+  services:
+  - service: alternative commuting options
+    service_notes: ''
+  - service_notes: ''
+    service: groceries delivery for risk groups
+  - service_notes: ''
+    service: cooperation with delivery and restaurants
+  - service_notes: ''
+    service: support for healthcare and/or essential workers
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -1509,6 +1610,21 @@ operators:
     service_notes: The company has partnered with hospitals in the cities they operate
       in to offer for the staff free rides. Privatising vehicles (for free) it's also
       an option.
+- name: REACH NOW
+  url: https://www.moovel.com/en
+  logo: "/uploads/2020/05/05/reach_now.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: REACH NOW supports essential workers  with a € 10 voucher to stay
+      mobile with the mode of transport which fits best for them to get to work via
+      our multimodal REACH NOW App. Available for healthcare workers, geriatric nurses,
+      police and firefighters, child care professionals, supermarket and pharmacy
+      staff, employees of local public transport.
 - name: Regio.Mobil Deutschland GmbH
   url: https://www.regio-mobil-deutschland.de/unternehmen-1
   logo: "/uploads/2020/04/16/regio_mobil.png"
