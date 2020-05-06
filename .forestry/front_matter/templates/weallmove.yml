@@ -33,13 +33,13 @@ fields:
       type: list
       config:
         use_select: false
-        min: 
-        max: 
+        min:
+        max:
       label: Cities
       description: List of cities for this country
     config:
-      min: 
-      max: 
+      min:
+      max:
       labelField: name
     label: Countries
     description: List of countries and their cities
@@ -69,6 +69,16 @@ fields:
           format: markdown
       label: Service Notes
       description: This will replace the text defined as service description
+    - name: service_notes_de
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Service Notes DE
+      description: If they have a German translation, pop it here.
     label: Services
     config:
       labelField: service
@@ -78,8 +88,8 @@ fields:
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
     source:
       type: simple
   label: All Services
@@ -111,6 +121,16 @@ fields:
     label: Service Description
     description: More detailed description of service for the front-end. Use __company_name__
       to include it in the description
+  - name: service_description_de
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Service Description DE
+    description: Will appear as the service description on German page
   - name: need_this_helps_with
     type: select
     default: ''
@@ -124,8 +144,8 @@ fields:
         path: all_needs
     label: Need this helps with
   config:
-    min: 
-    max: 
+    min:
+    max:
     labelField: service_name
   label: Services Detail
   description: Details about all the possible services operators can offer
@@ -133,8 +153,8 @@ fields:
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
   label: All Needs
 pages:
 - _data/weallmove.yml
