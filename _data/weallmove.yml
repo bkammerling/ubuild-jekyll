@@ -192,9 +192,7 @@ operators:
       workers enjoy safe rides for free.
   - service: cooperation with delivery and restaurants
     service_notes: 'BOND Mobility  E-Bikes with trailers are provided to delivery
-      services at a discount rate.
-
-'
+      services at a discount rate.'
   - service: alternative commuting options
     service_notes: BOND Mobility offers a 50% discount to the general public. They
       also offer private fleets to businesses that care about their employees and
@@ -364,9 +362,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: 'Local authorities can request On-Demand minibus/coach for customers.
       The service offers key workers a safe method of transport, combining changeable
-      capacity levels and a customer app to allow Social Distancing and Social Tracing.
-
-'
+      capacity levels and a customer app to allow Social Distancing and Social Tracing.'
 - name: Coaster
   url: https://www.ccfaceshields.com/about
   logo: "/uploads/2020/04/14/coaster_cycles.png"
@@ -532,12 +528,10 @@ operators:
     name: Hungary
   services:
   - service: alternative commuting options
-    service_notes: 'In Denmark, Germany, Netherlands, Hungary, Spain, Sweden and Belgium,
+    service_notes: In Denmark, Germany, Netherlands, Hungary, Spain, Sweden and Belgium,
       Donkey Republic allows its users to keep one bike for up to 7 days with one
       rental. They''re also offering a 20% payback on monthly public membership payments
       once we are on the other side of the pandemic.
-
-'
   - service: cooperation with delivery and restaurants
     service_notes: Donkey Republic is making part of their fleet available to grocery
       delivery services. Available in Berlin.
@@ -893,9 +887,7 @@ operators:
     service_notes: ''
   - service: alternative commuting options
     service_notes: 'Green Motion is providing keyless access to vehicles in the UK
-      and Sweden.
-
-'
+      and Sweden.'
 - name: GoTo Mobility
   url: https://goto.global/
   logo: "/uploads/2020/04/06/goto.png"
@@ -1189,9 +1181,7 @@ operators:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: 'Laplandar is partnering with delivery companies (both food and
-      goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.
-
-'
+      goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.'
 - name: Levy
   url: https://www.levyelectric.com/rent-electric-scooters
   logo: "/uploads/2020/05/05/levy.png"
@@ -1351,9 +1341,7 @@ operators:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: 'LULA helps workers in the healthcare, retail and essential services
-      sector, with safe rides and with goods delivery.
-
-'
+      sector, with safe rides and with goods delivery.'
 - name: M
   url: https://m.co/se/en-US/
   logo: "/uploads/2020/04/17/m_volvo-1.png"
@@ -1459,9 +1447,7 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: 'Moby is providing dedicated electric bikes for healthcare workers
       for free. If you also want to help, Moby has also arranged program whereby anyone
-      can lend electric bikes to them and they''ll lend it to a worker.
-
-'
+      can lend electric bikes to them and they''ll lend it to a worker.'
 - name: Modo
   url: https://modo.coop/
   logo: "/uploads/2020/04/29/modo.png"
@@ -1570,9 +1556,7 @@ operators:
     service_notes: 'Onlogist is offering discounted fleet services to the healthcare
       industry. Any institution that needs to transport their vehicles from A to B,
       get their cars to repair shops and back, wash their cars and more can count
-      on them.
-
-'
+      on them.'
   - service: groceries delivery for risk groups
     service_notes: Onlogist is making its platform accessible for grocery stores who
       need manpower and a system to place delivery orders. The vehicles need to be
@@ -2207,9 +2191,7 @@ operators:
     service_notes: ''
   - service: alternative commuting options
     service_notes: 'URways will leave a completely sanitized vehicle for customer
-      use while service/maintenance is performed if requested.
-
-'
+      use while service/maintenance is performed if requested.'
   - service: discounted rides
     service_notes: URways is offering discount vehicle rental to Uber, Lyft, door
       dash, Instacart drivers.

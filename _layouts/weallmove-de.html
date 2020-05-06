@@ -25,10 +25,10 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
       <div class="covid-notice">
       <div class="row">
         <div class="col-8 col-sm-9 pr-0 col-md-12">
-          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-md-inline ml-md-2 text-blue text-link wholink">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
+          <p class="text-link text-dark">Besuchen Sie die Website der WHO, um mehr über COVID-19 zu erfahren <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-md-inline ml-md-2 text-blue text-link wholink">WHO <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
         </div>
         <div class="col-4 col-sm-3 d-md-none">
-          <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></div>
+          <div><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></div>
         </div>
       </div>
     </div>
@@ -162,8 +162,8 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
             </div>
             <div class="col-lg-4">
               <div class="pl-xl-4 mt-4 mt-lg-0">
-                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon"/></a><br>
-                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a><br>
+                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a>
               </div>
             </div>
           </div>
@@ -215,6 +215,17 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
             <h4 class="headline-small">Betriebsbereiche</h4>
             {% for country in company.countries %}
               <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
+              {% if forloop.index == 3 and forloop.length > 3 %}
+                <div class="locations-more collapse" id="locationsCollapse_{{ companyIndex }}">
+              {% endif %}
+              {% if forloop.last and forloop.index > 3 %}
+                </div>
+                <div class="pt-2">
+                  <a class="text-blue text-link more-locations-btn collapsed" href="#" data-toggle="collapse" data-target="#locationsCollapse_{{ companyIndex }}" aria-expanded="false" aria-controls="locationsCollapse_{{ companyIndex }}">
+                    <span class="collapsed__text"><img src="uploads/global/add-circle-outline.svg" class="show-more-icon align-top link-svg" /> Mehr</span><span class="shown__text"><img src="uploads/global/remove-circle-outline.svg" class="show-more-icon align-top link-svg" /> Weniger</span>
+                  </a>
+                </div>
+              {% endif %}
             {% endfor %}
           </div>
         </div>

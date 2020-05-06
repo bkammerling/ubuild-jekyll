@@ -245,6 +245,24 @@ body.weallmove {
 
 } //end of weallmove body
 
+
+.more-locations-btn {
+  .shown__text {
+    display: inline;
+  }
+  .collapsed__text {
+    display: none;
+  }
+  &.collapsed {
+    .shown__text {
+      display: none;
+    }
+    .collapsed__text {
+      display: inline;
+    }
+  }
+}
+
 a:hover ion-icon {
   color: inherit;
 }
@@ -268,13 +286,13 @@ a {
   img.externallink-icon {
     margin: 0 3px -6px;
   }
-  &:hover img.externallink-icon {
+  &:hover img.link-svg {
     filter: saturate(0) brightness(50%);
   }
-  &.btn img.externallink-icon {
+  &.btn img.link-svg {
     transition: all 0.15s;
   }
-  &.btn:hover img.externallink-icon {
+  &.btn:hover img.link-svg {
     filter: saturate(0) brightness(300%);
   }
 }

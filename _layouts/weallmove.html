@@ -25,10 +25,10 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
       <div class="covid-notice">
       <div class="row">
         <div class="col-8 col-sm-9 pr-0 col-md-12">
-          <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-md-inline-block ml-md-2 text-blue text-link wholink"> WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
+          <p class="text-link text-dark">Get the latest information about COVID-19 from the World Health Organization  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="d-none d-md-inline-block ml-md-2 text-blue text-link wholink"> WHO <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
         </div>
         <div class="col-4 col-sm-3 d-md-none">
-          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="text-blue text-link">WHO <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a>
         </div>
       </div>
     </div>
@@ -163,8 +163,8 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
             </div>
             <div class="col-lg-4">
               <div class="pl-xl-4 mt-4 mt-lg-0">
-                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon"/></a><br>
-                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon"/></a>
+                <a class="btn btn-outline-primary mb-3 external-link" target="_blank" href="https://hamburg.frischepost.de/firmen">Corporate Customers <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a><br>
+                <a class="btn btn-outline-primary" target="_blank" href="https://hamburg.frischepost.de/">Individuals <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a>
               </div>
             </div>
           </div>
@@ -178,6 +178,7 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
     </div>
 
     {% for company in operators %}
+    {% assign companyIndex = forloop.index %}
     <div class="weallmove-card w-shadow">
       <div class="row">
         <div class="col-lg-2 weallmove-card__col mb-sm-4 mb-lg-0">
@@ -209,15 +210,27 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
         <div class="col-lg-3 col-sm-6 weallmove-card__col">
           <div class="weallmove-card__locations pl-sm-3 pl-lg-0">
             <h4 class="headline-small">Areas of operation</h4>
+
             {% for country in company.countries %}
               <p><strong>{{ country.name }}</strong><br>{% for city in country.cities %}{% if forloop.first == false %} · {% endif %}{{ city }}{% endfor %}</p>
+              {% if forloop.index == 3 and forloop.length > 3 %}
+                <div class="locations-more collapse" id="locationsCollapse_{{ companyIndex }}">
+              {% endif %}
+              {% if forloop.last and forloop.index > 3 %}
+                </div>
+                <div class="pt-2">
+                  <a class="text-blue text-link more-locations-btn collapsed" href="#" data-toggle="collapse" data-target="#locationsCollapse_{{ companyIndex }}" aria-expanded="false" aria-controls="locationsCollapse_{{ companyIndex }}">
+                    <span class="collapsed__text"><img src="uploads/global/add-circle-outline.svg" class="show-more-icon align-top link-svg" /> More Locations</span><span class="shown__text"><img src="uploads/global/remove-circle-outline.svg" class="show-more-icon align-top link-svg" /> Fewer Locations</span>
+                  </a>
+                </div>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
         <div class="col-lg-3 weallmove-card__col">
           <button class="btn btn-primary mb-3 mt-sm-4 mt-lg-0 gtm-operator-contact" data-toggle="modal" data-target="#interestedModal" data-subject="I’m interested in this offer from {{ company.name }}" data-type="need-operator" data-operator="{{ company.name }}">Get in touch</button>
           {% assign urlStart = company.url | slice: 0, 4 %}
-          <p><a href="{% if urlStart != 'http' %}http://{% endif %}{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <img src="uploads/global/external-link.svg" class="externallink-icon"/></a></p>
+          <p><a href="{% if urlStart != 'http' %}http://{% endif %}{{ company.url }}" target="_blank" class="text-link text-blue">{{ company.name }}  <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
         </div>
       </div>
     </div>
@@ -395,7 +408,7 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
       <img src="uploads/global/wunder-symbol-white.png" alt="Wunder mobility logo symbol" width="48" />
     </a>
     <p class="text-link text-light mt-2">Powered by Wunder Mobility</p>
-    <p class="small-label text-light mt-2 pb-5">#WeAllMove is part of the World Economic Forum's Global Action Plan for Covid-19</p>
+    <p class="small-label text-light mt-2 pb-5">In collaboration with the World Economic Forum Platform on Mobility and COVID Action Platform</p>
   </div>
   <div class="footer__bottom text-center text-md-left">
     <div class="row">
