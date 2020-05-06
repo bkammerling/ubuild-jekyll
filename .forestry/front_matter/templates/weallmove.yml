@@ -33,13 +33,13 @@ fields:
       type: list
       config:
         use_select: false
-        min:
-        max:
+        min: 
+        max: 
       label: Cities
       description: List of cities for this country
     config:
-      min:
-      max:
+      min: 
+      max: 
       labelField: name
     label: Countries
     description: List of countries and their cities
@@ -88,8 +88,8 @@ fields:
   type: list
   config:
     use_select: false
-    min:
-    max:
+    min: 
+    max: 
     source:
       type: simple
   label: All Services
@@ -144,8 +144,8 @@ fields:
         path: all_needs
     label: Need this helps with
   config:
-    min:
-    max:
+    min: 
+    max: 
     labelField: service_name
   label: Services Detail
   description: Details about all the possible services operators can offer
@@ -153,8 +153,8 @@ fields:
   type: list
   config:
     use_select: false
-    min:
-    max:
+    min: 
+    max: 
   label: All Needs
 pages:
 - _data/weallmove.yml
