@@ -194,8 +194,12 @@ var dataJSON = {{ site.data.weallmove | jsonify }};
               {% assign serviceDetail = site.data.weallmove.services_detail | where: 'service_name', service.service | first %}
                 <li data-need="{{ serviceDetail.need_this_helps_with | replace: ' ', '_' | downcase }}">
                   <p><strong>{{ serviceDetail.need_this_helps_with }}</strong>
-                  <br>{% if service.service_notes.size > 0 %}
+                  <br>{% if service.service_notes_de.size > 0 %}
+                      {{ service.service_notes_de }}
+                    {% elsif service.service_notes.size > 0 %}
                       {{ service.service_notes }}
+                    {% elsif serviceDetail.service_description_de.size > 0 %}
+                      {{ serviceDetail.service_description_de | replace: '__company_name__', company.name }}
                     {% else %}
                       {{ serviceDetail.service_description | replace: '__company_name__', company.name }}
                     {% endif %}
