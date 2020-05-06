@@ -1686,8 +1686,10 @@ operators:
     - Milan
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: 'Movi is supporting hospitals, volunteer associations and local
-      governments, giving free access to our bike sharing service. '
+    service_notes: Movi is supporting hospitals, volunteer associations, local governments
+      and law enforcement, giving free access to a smart bike-sharing service. These
+      essential workers, medical staff, and volunteers are moving safely with Movi
+      bicycles respecting social distancing measures.
     service_notes_de: ''
 - name: MyKeego
   url: http://www.mykeego.com/
