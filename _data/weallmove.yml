@@ -27,10 +27,11 @@ operators:
   countries: []
   services:
   - service: alternative commuting options
-    service_notes: Air2E provides individual air travel at affordable rates in small
-      business aircraft. For companies we provide on-demand flights or establish frequent
-      routes. In case of frequent commutes over larger distances, we offer flights
-      for teams of a few people at prices comparable to economy class flights.
+    service_notes: 'Air2E provides individual air travel at affordable rates in small
+      business aircraft. For companies Air2E establishes frequent routes to transport
+      teams at prices comparable to economy-class flights or provides on-demand flights.
+      With a fleet of various 4 to 10-seat aircraft customers save time, avoid the
+      crowds and may land at a small airport close to their destination. '
     service_notes_de: ''
 - name: ALD Automotive
   url: aldautomotive.com
@@ -99,7 +100,7 @@ operators:
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United Arab Emirates
     cities:
@@ -137,7 +138,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -207,8 +208,8 @@ operators:
       workers enjoy safe rides for free.
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
-    service_notes: 'BOND Mobility  E-Bikes with trailers are provided to delivery
-      services at a discount rate.'
+    service_notes: BOND Mobility  E-Bikes with trailers are provided to delivery services
+      at a discount rate.
     service_notes_de: ''
   - service: alternative commuting options
     service_notes: BOND Mobility offers a 50% discount to the general public. They
@@ -220,7 +221,7 @@ operators:
   url: https://bounceshare.com/
   logo: "/uploads/2020/04/14/bounce.png"
   published: true
-  order:
+  order: 
   countries:
   - name: India
     cities:
@@ -260,7 +261,7 @@ operators:
   url: https://www.brite.ie/
   logo: "/uploads/2020/04/09/brite.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Ireland
     cities: []
@@ -275,7 +276,7 @@ operators:
   url: https://www.busup.com/
   logo: "/uploads/2020/04/14/busup.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United States
     cities:
@@ -329,7 +330,7 @@ operators:
     - Klaipėda
     - Kaunas
     - Vilnius
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -338,7 +339,7 @@ operators:
   url: https://www.cluno.com/
   logo: "/uploads/2020/04/09/cluno.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Germany
     cities:
@@ -356,7 +357,7 @@ operators:
   url: https://www.co-wheels.org.uk/nhs_staff_volunteers
   logo: "/uploads/2020/04/14/co_wheels.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United Kingdom
     cities:
@@ -391,15 +392,15 @@ operators:
     - All cities
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: 'Local authorities can request On-Demand minibus/coach for customers.
+    service_notes: Local authorities can request On-Demand minibus/coach for customers.
       The service offers key workers a safe method of transport, combining changeable
-      capacity levels and a customer app to allow Social Distancing and Social Tracing.'
+      capacity levels and a customer app to allow Social Distancing and Social Tracing.
     service_notes_de: ''
 - name: Coaster
   url: https://www.ccfaceshields.com/about
   logo: "/uploads/2020/04/14/coaster_cycles.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United States
     cities:
@@ -487,7 +488,7 @@ operators:
   - name: Germany
     cities:
     - Gütersloh
-  order:
+  order: 
   services:
   - service: alternative commuting options
     service_notes: 'deins&meins is offering  long term rentals to everyone looking
@@ -568,10 +569,10 @@ operators:
     name: Hungary
   services:
   - service: alternative commuting options
-    service_notes: 'In Denmark, Germany, Netherlands, Hungary, Spain, Sweden and Belgium,
+    service_notes: In Denmark, Germany, Netherlands, Hungary, Spain, Sweden and Belgium,
       Donkey Republic allows its users to keep one bike for up to 7 days with one
-      rental. They''re also offering a 20% payback on monthly public membership payments
-      once we are on the other side of the pandemic.'
+      rental. They're also offering a 20% payback on monthly public membership payments
+      once we are on the other side of the pandemic.
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
     service_notes: Donkey Republic is making part of their fleet available to grocery
@@ -586,7 +587,7 @@ operators:
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Belgium
     cities:
@@ -718,7 +719,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -740,7 +741,7 @@ operators:
     - Munich
     - Berlin
     - Düsseldorf
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -815,7 +816,7 @@ operators:
   - name: Germany
     cities:
     - Oberhausen
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -833,7 +834,7 @@ operators:
   - name: Belgium
     cities:
     - Brussels
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -842,7 +843,7 @@ operators:
   url: https://foundershield.com/
   logo: "/uploads/2020/04/14/founder_shield.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Canada
     cities:
@@ -862,7 +863,7 @@ operators:
   - name: Germany
     cities:
     - Frankfurt
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -887,7 +888,7 @@ operators:
   url: https://gethenry.co/en/home-en/
   logo: "/uploads/2020/04/14/get_henry.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Austria
     cities:
@@ -937,7 +938,7 @@ operators:
     cities:
     - Copenhagen
     - Arhus
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -964,8 +965,8 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: alternative commuting options
-    service_notes: 'Green Motion is providing keyless access to vehicles in the UK
-      and Sweden.'
+    service_notes: Green Motion is providing keyless access to vehicles in the UK
+      and Sweden.
     service_notes_de: ''
 - name: GoTo Mobility
   url: https://goto.global/
@@ -979,7 +980,7 @@ operators:
     cities:
     - Valetta
     - Pembroke
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: GoTo made part of their fleet available for healthcare and essential
@@ -999,7 +1000,7 @@ operators:
   url: https://www.govolt.it/
   logo: "/uploads/2020/04/09/go_volt.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Italy
     cities:
@@ -1022,7 +1023,7 @@ operators:
   - name: Germany
     cities:
     - All cities
-  order:
+  order: 
   services:
   - service: discounted rides
     service_notes: Hertz is offering special long-term rates for the general public
@@ -1097,7 +1098,7 @@ operators:
     cities:
     - Basel
     - Zürich
-  order:
+  order: 
   services:
   - service: alternative commuting options
     service_notes: ''
@@ -1133,7 +1134,7 @@ operators:
   - name: Portugal
     cities:
     - Lisbon
-  order:
+  order: 
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -1159,7 +1160,7 @@ operators:
   - name: Bulgaria
     cities:
     - Sofia
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1222,7 +1223,7 @@ operators:
   url: https://juuve.nl/
   logo: "/uploads/2020/04/09/juuve.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Netherlands
     cities:
@@ -1264,7 +1265,7 @@ operators:
   url: https://drivekyte.com/
   logo: "/uploads/2020/04/14/kyte.png"
   published: true
-  order:
+  order: 
   countries:
   - name: United States
     cities:
@@ -1294,8 +1295,8 @@ operators:
     - Copenhagen
   services:
   - service: cooperation with delivery and restaurants
-    service_notes: 'Laplandar is partnering with delivery companies (both food and
-      goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.'
+    service_notes: Laplandar is partnering with delivery companies (both food and
+      goods) to provide the hardware (e-cargo bikes) they need to deliver goods efficiently.
     service_notes_de: ''
 - name: Levy
   url: https://www.levyelectric.com/rent-electric-scooters
@@ -1334,7 +1335,7 @@ operators:
     cities:
     - All cities
   services:
-  - service_notes: like2move has put together a few vehicles for you that are available
+  - service_notes: like2drive has put together a few vehicles for you that are available
       in 3 weeks at the respective location and have shortened terms between 3 and
       10 months.
     service: discounted rides
@@ -1463,8 +1464,8 @@ operators:
     - Cape Town
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: 'LULA helps workers in the healthcare, retail and essential services
-      sector, with safe rides and with goods delivery.'
+    service_notes: LULA helps workers in the healthcare, retail and essential services
+      sector, with safe rides and with goods delivery.
     service_notes_de: ''
 - name: M
   url: https://m.co/se/en-US/
@@ -1519,7 +1520,7 @@ operators:
     cities:
     - Wellington
     - Auckland
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -1537,7 +1538,7 @@ operators:
     cities:
     - Berlin
     - Hamburg
-  order:
+  order: 
   services:
   - service: discounted rides
     service_notes: ''
@@ -1566,7 +1567,7 @@ operators:
   url: https://mobymove.com/
   logo: "/uploads/2020/04/09/moby.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Ireland
     cities:
@@ -1579,9 +1580,9 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: support for healthcare and/or essential workers
-    service_notes: 'Moby is providing dedicated electric bikes for healthcare workers
+    service_notes: Moby is providing dedicated electric bikes for healthcare workers
       for free. If you also want to help, Moby has also arranged program whereby anyone
-      can lend electric bikes to them and they''ll lend it to a worker.'
+      can lend electric bikes to them and they'll lend it to a worker.
     service_notes_de: ''
 - name: Modo
   url: https://modo.coop/
@@ -1648,7 +1649,7 @@ operators:
 - name: Movi
   url: https://www.ridemovi.com/caring-for-our-movi-community-covid-19/
   logo: "/uploads/2020/05/05/movi.png"
-  published: true
+  published: false
   countries:
   - name: Spain
     cities:
@@ -1700,10 +1701,10 @@ operators:
     - All cities
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: 'Onlogist is offering discounted fleet services to the healthcare
+    service_notes: Onlogist is offering discounted fleet services to the healthcare
       industry. Any institution that needs to transport their vehicles from A to B,
       get their cars to repair shops and back, wash their cars and more can count
-      on them.'
+      on them.
     service_notes_de: ''
   - service: groceries delivery for risk groups
     service_notes: Onlogist is making its platform accessible for grocery stores who
@@ -1733,7 +1734,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1742,7 +1743,7 @@ operators:
   url: http://payuca.com/
   logo: "/uploads/2020/04/16/payuca.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Austria
     cities:
@@ -1756,7 +1757,7 @@ operators:
   url: https://getapony.com/en
   logo: "/uploads/2020/04/14/pony.png"
   published: true
-  order:
+  order: 
   countries:
   - name: France
     cities:
@@ -1817,7 +1818,7 @@ operators:
   url: https://www.regio-mobil-deutschland.de/unternehmen-1
   logo: "/uploads/2020/04/16/regio_mobil.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Germany
     cities:
@@ -1891,7 +1892,7 @@ operators:
   - name: Germany
     cities:
     - Cologne
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1938,7 +1939,7 @@ operators:
   url: https://www.routematic.com/
   logo: "/uploads/2020/04/16/routematic.png"
   published: true
-  order:
+  order: 
   countries:
   - name: India
     cities:
@@ -1964,7 +1965,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2049,7 +2050,7 @@ operators:
   url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
   logo: "/uploads/2020/04/09/sixt-1.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Germany
     cities:
@@ -2063,7 +2064,7 @@ operators:
   url: https://www.sixt.com/share/rates/#/
   logo: "/uploads/2020/04/09/sixt.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Germany
     cities:
@@ -2130,7 +2131,7 @@ operators:
   - name: Mexico
     cities:
     - Mexico City
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2156,7 +2157,7 @@ operators:
   - name: Germany
     cities:
     - Stuttgart
-  order:
+  order: 
   services:
   - service: discounted rides
     service_notes: ''
@@ -2234,7 +2235,7 @@ operators:
   url: https://www.tier.app/
   logo: "/uploads/2020/04/16/tier.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Denmark
     cities:
@@ -2391,8 +2392,8 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: alternative commuting options
-    service_notes: 'URways will leave a completely sanitized vehicle for customer
-      use while service/maintenance is performed if requested.'
+    service_notes: URways will leave a completely sanitized vehicle for customer use
+      while service/maintenance is performed if requested.
     service_notes_de: ''
   - service: discounted rides
     service_notes: URways is offering discount vehicle rental to Uber, Lyft, door
@@ -2478,7 +2479,7 @@ operators:
   - name: Germany
     cities:
     - Regensburg
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2487,7 +2488,7 @@ operators:
   url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
   logo: "/uploads/2020/04/14/wheely.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Russia
     cities:
@@ -2539,7 +2540,7 @@ operators:
   url: https://www.whizascoot.mt/
   logo: "/uploads/2020/04/14/whizascoot.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Malta
     cities:
@@ -2586,7 +2587,7 @@ operators:
     - Scottsdale
     - San Diego
     - Los Angeles
-  order:
+  order: 
   services:
   - service: alternative commuting options
     service_notes: Wheels is providing leasing and purchase options of their devices
@@ -2710,7 +2711,7 @@ operators:
   url: https://zeelo.co/key-worker-transport
   logo: "/uploads/2020/04/09/zeelo.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Italy
     cities:
@@ -2730,7 +2731,7 @@ operators:
   url: ridezip.co
   logo: "/uploads/2020/04/14/zip.png"
   published: true
-  order:
+  order: 
   countries:
   - name: Canada
     cities:
@@ -2754,7 +2755,7 @@ operators:
     - Clinchy
     - Le Kremlin Bicêtre
     - Paris
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: In Paris, ZITY is making its fleet available free of charge for
@@ -2769,7 +2770,7 @@ operators:
   - name: Iceland
     cities:
     - Reykjavik
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2798,7 +2799,7 @@ operators:
     cities:
     - Bordeaux
     - Paris
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2811,7 +2812,7 @@ operators:
   - name: Germany
     cities:
     - Munich
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2824,7 +2825,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2840,7 +2841,7 @@ operators:
   - name: Czech Republic
     cities:
     - Prague
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2863,7 +2864,7 @@ operators:
   - name: Israel
     cities:
     - Tel Aviv
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2900,7 +2901,7 @@ operators:
     - Rennes
     - Strasbourg
     - Toulouse
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2913,7 +2914,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2928,7 +2929,7 @@ operators:
     - Dubai
     - Abu Dhabi
     - Sharjah
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2941,7 +2942,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -2954,7 +2955,7 @@ operators:
   - name: United States
     cities:
     - Washington DC
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2967,7 +2968,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2980,7 +2981,7 @@ operators:
   - name: Singapore
     cities:
     - Singapore
-  order:
+  order: 
   services:
   - service: discounted rides
     service_notes: ''
@@ -2998,7 +2999,7 @@ operators:
     - Mobile
     - Raleigh
     - Syracuse
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -3011,7 +3012,7 @@ operators:
   - name: Poland
     cities:
     - Wroclaw
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3040,7 +3041,7 @@ operators:
     - Turin
     - Verona
     - Milan
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: Helbiz is offering 25000 free rides in Italy (solidarietà digitale
@@ -3060,7 +3061,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3073,7 +3074,7 @@ operators:
   - name: United States
     cities:
     - New York
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3089,7 +3090,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3102,7 +3103,7 @@ operators:
   - name: United States
     cities:
     - San Francisco
-  order:
+  order: 
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -3115,7 +3116,7 @@ operators:
   - name: Turkey
     cities:
     - Istanbul
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3128,7 +3129,7 @@ operators:
   - name: Hungary
     cities:
     - Budapest
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3147,7 +3148,7 @@ operators:
   - name: Colombia
     cities:
     - Bogota
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3161,7 +3162,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order:
+  order: 
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -3212,7 +3213,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3227,7 +3228,7 @@ operators:
     - Berlin
     - Munich
     - Hamburg
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3254,7 +3255,7 @@ operators:
     - San Francisco
     - Tampa
     - Washington DC
-  order:
+  order: 
   services:
   - service: alternative commuting options
     service_notes: ''
@@ -3273,7 +3274,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order:
+  order: 
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3289,7 +3290,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order:
+  order: 
   services:
   - service: discounted rides
     service_notes: ''
@@ -3308,7 +3309,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order:
+  order: 
   services:
   - service: expansion of area to hospitals
     service_notes: ''
@@ -3324,7 +3325,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order:
+  order: 
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
