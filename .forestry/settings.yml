@@ -13,20 +13,23 @@ sections:
   match: "**/*"
   exclude: "*README.md"
   new_doc_ext: md
-- type: jekyll-posts
+- type: directory
+  path: wunder_collections/_posts
   label: Posts
   create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
   templates:
   - blog-post
 - type: directory
-  path: _people
+  path: wunder_collections/_people
   label: People
   create: documents
   match: "**/*"
   templates:
   - speaker
 - type: directory
-  path: _articles
+  path: wunder_collections/_articles
   label: Press
   create: documents
   match: "**/*"
@@ -34,7 +37,7 @@ sections:
   templates:
   - press-template
 - type: directory
-  path: _autotech-events
+  path: wunder_collections/_autotech-events
   label: Mobility Sessions
   create: documents
   match: "**/*"
@@ -43,9 +46,6 @@ sections:
 - type: document
   path: _data/weallmove.yml
   label: "#WeAllMove"
-- type: document
-  path: _data/vehicles.yml
-  label: Vehicles
 - type: heading
   label: Settings
 - type: document
