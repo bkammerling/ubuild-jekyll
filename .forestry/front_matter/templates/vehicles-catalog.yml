@@ -1,0 +1,33 @@
+---
+label: Vehicles Catalog
+hide_body: true
+fields:
+- type: field_group_list
+  name: vehicles
+  label: Vehicles
+  fields:
+  - name: name
+    type: text
+    label: Name
+  - name: published
+    type: boolean
+    label: Published
+  - name: featured
+    type: boolean
+    label: Featured
+  - type: image_gallery
+    name: image_gallery
+    label: Image Gallery
+    description: Photos of product, first image used for list view
+- name: all_brands
+  type: list
+  config:
+    use_select: false
+    min:
+    max:
+    source:
+      type: simple
+  label: All Brands
+  description: List of brands we offer
+pages:
+- _data/weallmove.yml
