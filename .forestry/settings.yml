@@ -19,6 +19,13 @@ sections:
   templates:
   - blog-post
 - type: directory
+  path: _people
+  label: People
+  create: documents
+  match: "**/*"
+  templates:
+  - speaker
+- type: directory
   path: _articles
   label: Press
   create: documents
@@ -36,13 +43,9 @@ sections:
 - type: document
   path: _data/weallmove.yml
   label: "#WeAllMove"
-- type: directory
-  path: _people
-  label: People
-  create: documents
-  match: "**/*"
-  templates:
-  - speaker
+- type: document
+  path: _data/vehicles.yml
+  label: Vehicles
 - type: heading
   label: Settings
 - type: document
