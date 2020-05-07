@@ -46,7 +46,6 @@ sections:
 - type: document
   path: _data/vehicles.yml
   label: Vehicles
-  match: "**/*"
 - type: heading
   label: Settings
 - type: document
