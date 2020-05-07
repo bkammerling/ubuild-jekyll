@@ -43,6 +43,11 @@ sections:
   match: "**/*"
   templates:
   - event-page
+- type: directory
+  path: wunder_collections/_vehicles
+  label: Vehicles
+  create: documents
+  match: "**/*"
 - type: document
   path: _data/weallmove.yml
   label: "#WeAllMove"
