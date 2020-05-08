@@ -29,3 +29,5 @@ fields:
       path: all_brands
   label: Brand
   description: Brand of product
+pages:
+- _data/weallmove.yml
