@@ -23,8 +23,8 @@ fields:
       options: []
       source:
         type: documents
-        section: weallmove
-        file: _data/vehicle-settings.yml
+        section: vehicles-settings
+        file: _data/vehicles-settings.yml
         path: all_brands
     label: Brand Name
     description: Which brand are you describing here
