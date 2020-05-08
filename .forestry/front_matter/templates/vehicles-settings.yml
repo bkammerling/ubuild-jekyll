@@ -28,3 +28,19 @@ fields:
         path: all_brands
     label: Brand Name
     description: Which brand are you describing here
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+    description: For perfect sharpness upload 1x image first (around 100px wide) and
+      then replace with @2x image (200px wide). e.g. okai.jpg &amp; okai@2x.jpg
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Website
+    description: 'Full website url incl. https://... '
+  label: Brands Detail
+  config:
+    labelField: brand_name
