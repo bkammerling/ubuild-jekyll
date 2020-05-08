@@ -1,33 +1,31 @@
 ---
 label: Vehicles Catalog
 hide_body: true
+display_field: name
 fields:
-- type: field_group_list
-  name: vehicles
-  label: Vehicles
-  fields:
-  - name: name
-    type: text
-    label: Name
-  - name: published
-    type: boolean
-    label: Published
-  - name: featured
-    type: boolean
-    label: Featured
-  - type: image_gallery
-    name: image_gallery
-    label: Image Gallery
-    description: Photos of product, first image used for list view
-- name: all_brands
-  type: list
+- name: name
+  type: text
+  label: Name
+- name: published
+  type: boolean
+  label: Published
+- name: featured
+  type: boolean
+  label: Featured
+- type: image_gallery
+  name: image_gallery
+  label: Image Gallery
+  description: Photos of product, first image used for list view
+- name: brand
+  type: select
+  default: []
   config:
-    use_select: false
-    min: 
-    max: 
+    required: false
+    options: []
     source:
-      type: simple
-  label: All Brands
-  description: List of brands we offer
-pages:
-- _data/weallmove.yml
+      type: documents
+      section: Vehicles
+      file: _data/vehicle-settings.yml
+      path: all_brands
+  label: Brand
+  description: Brand of product

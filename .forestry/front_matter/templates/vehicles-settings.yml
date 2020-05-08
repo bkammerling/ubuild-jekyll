@@ -1,0 +1,32 @@
+---
+label: Vehicles Settings
+hide_body: true
+fields:
+- name: all_brands
+  type: list
+  config:
+    use_select: false
+    min:
+    max:
+    source:
+      type: simple
+  label: All Brands
+  description: List of brands we offer
+- name: brands_detail
+  type: field_group_list
+  fields:
+  - name: brand_name
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: weallmove
+        file: _data/vehicle-settings.yml
+        path: all_brands
+    label: Brand Name
+    description: Which brand are you describing here
+pages:
+- _data/vehicle-settings.yml
