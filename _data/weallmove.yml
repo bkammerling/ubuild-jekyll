@@ -7,18 +7,6 @@ all_needs:
 - Others
 - Protection equipment for hospitals
 operators:
-- name: ''
-  url: ''
-  logo: ''
-  published: true
-  countries: []
-  services: []
-- name: ''
-  url: ''
-  logo: ''
-  published: true
-  countries: []
-  services: []
 - name: A2B Car Rental
   url: a2bcarrentals.com.au
   logo: "/uploads/2020/04/24/a2b_car_rentals.png"
