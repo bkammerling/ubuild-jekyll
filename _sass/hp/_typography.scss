@@ -107,7 +107,9 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: $font-semibold;
-  color: $mobility-blue;
+  &a {
+    color: $mobility-blue;
+  }
   .nav & {
     color: $mobility-black;
   }

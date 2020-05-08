@@ -285,6 +285,41 @@
   }
 }
 
+
+.simple-radio-group {
+  .radio-group {
+    @include rwd(tablet-up) {
+      margin: 0 1.5rem;
+    }
+  }
+  input {
+    -webkit-appearance: none;
+  }
+  label {
+    // padding here too for a bigger touch area
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+  input:checked ~ label {
+    text-decoration: underline;
+  }
+}
+
+.catalog-item {
+  margin-bottom: 40px;
+  &__image {
+    height: 210px;
+    background-size: cover;
+    background-position: center center;
+    @include rwd(mobile-up) {
+      height: 300px;
+    }
+    @include rwd(desktop-up) {
+      height: 440px;
+    }
+  }
+}
+
 ul.feature-list {
   padding-left: 1.8em;
   li {

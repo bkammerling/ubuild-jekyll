@@ -3,6 +3,13 @@ label: Vehicles Catalog
 hide_body: true
 display_field: name
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Layout
+  default: single-product-modal
 - name: name
   type: text
   label: Name
@@ -12,6 +19,17 @@ fields:
 - name: featured
   type: boolean
   label: Featured
+- name: type
+  type: select
+  label: Product type
+  default: []
+  config:
+    required: true
+    options: ['Kickscooter', 'Moped', 'Bike']
+- name: list-image
+  type: image
+  label: List Image
+  description: Appears in the product list view
 - type: image_gallery
   name: image_gallery
   label: Image Gallery
@@ -47,8 +65,8 @@ fields:
         format: markdown
     label: Description
   config:
-    min: 
-    max: 
+    min:
+    max:
     labelField: title
   label: Details
   description: List of specs / features

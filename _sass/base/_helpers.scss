@@ -32,6 +32,11 @@
   cursor: pointer;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .max-showmore {
   display: block;
   margin-bottom: 2rem;

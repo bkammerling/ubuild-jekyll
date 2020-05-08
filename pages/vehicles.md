@@ -10,6 +10,7 @@ lang-ref: vehicles
 component_scripts:
 - vehiclesCommerce.js
 - clientCarousel.js
+- isotope.min.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2

@@ -100,6 +100,57 @@
 
   </section>
 
+  <section id="vehicle-catalog">
+    <div class="container">
+      <h2 class="headline-large mb-5 text-center">Explore our full range of vehicles</h2>
+
+      <div class="catalog-filters mb-5 pt-5">
+        <div class="simple-radio-group d-flex justify-content-center flex-wrap">
+          <p class="pr-5">Filter by:</p>
+          <div class="break d-md-none"></div>
+          <div class="radio-group">
+            <input type="radio" name="options" id="option1" checked data-filter="*">
+            <label class="text-link" for="option1">All</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="options" id="option2" data-filter=".moped">
+            <label class="text-link" for="option2">Mopeds</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="options" id="option3" data-filter=".bike">
+            <label class="text-link" for="option3">Bikes</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="options" id="option4" data-filter=".kickscooter">
+            <label class="text-link" for="option4">Kickscooters</label>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="catalog-list">
+        <div class="row">
+        {% assign vehicles = site.vehicles | sort: "publish_date" | reverse | where: "published", true %}
+        {% for product in vehicles %}
+          <div class="col">
+            <a href="{{ product.url }}">
+              <div class="catalog-item">
+                <div class="catalog-item__image" style="background-image: url('{{ product.image_gallery | first | relative_url }}')">
+                  <span class="hidden">{{ product.name }}</span>
+                </div>
+                <p class="text-link mt-2">{{ product.name }}</p>
+              </div>
+            </a>
+          </div>
+          {% assign modMobile = forloop.index | modulo: 2 %}
+          {% if modMobile == 0 %}<div class="w-100 d-md-none"></div>{% endif %}
+        {% endfor %}
+        </div>
+      </div>
+
+    </div>
+
+
 
 
 

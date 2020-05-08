@@ -1,0 +1,8 @@
+<div class="single-poroduct-modal">
+  <div class="text-right">
+    <ion-icon name="close-circle-outline"></ion-icon>
+  </div>
+  {% assign brandDetail = site.data.vehicles-settings.brands_detail | where: 'brand_name', page.brand | first %}
+  <img src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
+  <h3 class="headline-medium">{{ page.name }}</h3>
+</div>
