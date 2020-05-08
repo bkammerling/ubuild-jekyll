@@ -56,7 +56,6 @@ sections:
 - type: document
   path: _data/vehicles-settings.yml
   label: Vehicles Settings
-  match: "**/*"
 - type: heading
   label: Custom Settings
 - type: document
