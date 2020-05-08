@@ -1,5 +1,5 @@
 ---
-brand: ''
+brand: OKAI
 name: Okai ES400 16Ah
 published: true
 featured: false

@@ -24,8 +24,8 @@ fields:
     options: []
     source:
       type: documents
-      section: Vehicles
-      file: _data/vehicle-settings.yml
+      section: ''
+      file: _data/vehicles-settings.yml
       path: all_brands
   label: Brand
   description: Brand of product
