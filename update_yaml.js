@@ -1,12 +1,14 @@
 console.log('Script running');
-var json = require('./weallmove.json'); //(with path)
-var operators = json.operators;
+var json = require('./convertcsv.json'); //(with path)
+var operators = json;
+/*
 for(var operator of operators) {
   var services = operator.services.filter(service => service.service.length > 2);
   operator.services = services;
 }
 console.log(JSON.stringify(json));
-/*
+*/
+
 for(var value of operators) {
   value.services = [];
   value.services.push({ service: value.service_1, service_notes: value.service_1_notes })
@@ -18,6 +20,9 @@ for(var value of operators) {
   delete value.service_2_notes;
   delete value.service_3;
   delete value.service_3_notes;
+  delete value.service_4;
+  delete value.service_4_notes;
+  delete value.service_5;
+  delete value.service_5_notes;
 }
 console.log(JSON.stringify(json));
-*/

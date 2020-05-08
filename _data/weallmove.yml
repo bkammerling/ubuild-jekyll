@@ -20,19 +20,6 @@ operators:
     service_notes: A2B Car Rentals is offering a free pick up and drop off service
       and a no contact delivery service for our vehicles.
     service_notes_de: ''
-- name: Air2E
-  url: https://www.air2e.com/
-  logo: "/uploads/2020/05/05/air2e.png"
-  published: true
-  countries: []
-  services:
-  - service: alternative commuting options
-    service_notes: 'Air2E provides individual air travel at affordable rates in small
-      business aircraft. For companies Air2E establishes frequent routes to transport
-      teams at prices comparable to economy-class flights or provides on-demand flights.
-      With a fleet of various 4 to 10-seat aircraft customers save time, avoid the
-      crowds and may land at a small airport close to their destination. '
-    service_notes_de: ''
 - name: ALD Automotive
   url: aldautomotive.com
   logo: "/uploads/2020/04/24/ald_automotive.png"
@@ -100,7 +87,7 @@ operators:
   url: http://arnabmobility.com/
   logo: "/uploads/2020/04/06/arnab.png"
   published: true
-  order: 
+  order:
   countries:
   - name: United Arab Emirates
     cities:
@@ -138,7 +125,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -221,7 +208,7 @@ operators:
   url: https://bounceshare.com/
   logo: "/uploads/2020/04/14/bounce.png"
   published: true
-  order: 
+  order:
   countries:
   - name: India
     cities:
@@ -261,7 +248,7 @@ operators:
   url: https://www.brite.ie/
   logo: "/uploads/2020/04/09/brite.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Ireland
     cities: []
@@ -276,7 +263,7 @@ operators:
   url: https://www.busup.com/
   logo: "/uploads/2020/04/14/busup.png"
   published: true
-  order: 
+  order:
   countries:
   - name: United States
     cities:
@@ -330,7 +317,7 @@ operators:
     - Klaipėda
     - Kaunas
     - Vilnius
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -339,7 +326,7 @@ operators:
   url: https://www.cluno.com/
   logo: "/uploads/2020/04/09/cluno.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Germany
     cities:
@@ -357,7 +344,7 @@ operators:
   url: https://www.co-wheels.org.uk/nhs_staff_volunteers
   logo: "/uploads/2020/04/14/co_wheels.png"
   published: true
-  order: 
+  order:
   countries:
   - name: United Kingdom
     cities:
@@ -400,7 +387,7 @@ operators:
   url: https://www.ccfaceshields.com/about
   logo: "/uploads/2020/04/14/coaster_cycles.png"
   published: true
-  order: 
+  order:
   countries:
   - name: United States
     cities:
@@ -488,7 +475,7 @@ operators:
   - name: Germany
     cities:
     - Gütersloh
-  order: 
+  order:
   services:
   - service: alternative commuting options
     service_notes: 'deins&meins is offering  long term rentals to everyone looking
@@ -587,7 +574,7 @@ operators:
   url: https://ridedott.com/
   logo: "/uploads/2020/04/09/dott.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Belgium
     cities:
@@ -719,7 +706,7 @@ operators:
   - name: Austria
     cities:
     - Vienna
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -741,7 +728,7 @@ operators:
     - Munich
     - Berlin
     - Düsseldorf
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -816,7 +803,7 @@ operators:
   - name: Germany
     cities:
     - Oberhausen
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -834,7 +821,7 @@ operators:
   - name: Belgium
     cities:
     - Brussels
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -843,7 +830,7 @@ operators:
   url: https://foundershield.com/
   logo: "/uploads/2020/04/14/founder_shield.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Canada
     cities:
@@ -863,7 +850,7 @@ operators:
   - name: Germany
     cities:
     - Frankfurt
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -888,7 +875,7 @@ operators:
   url: https://gethenry.co/en/home-en/
   logo: "/uploads/2020/04/14/get_henry.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Austria
     cities:
@@ -900,22 +887,6 @@ operators:
   - service: cooperation with delivery and restaurants
     service_notes: ''
     service_notes_de: ''
-- name: Global Passenger Network
-  published: true
-  countries: []
-  services:
-  - service: support for healthcare and/or essential workers
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
-    service_notes_de: ''
-  - service: alternative commuting options
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
-    service_notes_de: ''
-  url: https://gpn.travel/
-  logo: "/uploads/2020/05/05/gpn.png"
 - name: GOMEEP
   url: http://gomeep.com/
   logo: "/uploads/2020/04/27/go_meep.png"
@@ -938,7 +909,7 @@ operators:
     cities:
     - Copenhagen
     - Arhus
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -980,7 +951,7 @@ operators:
     cities:
     - Valetta
     - Pembroke
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: GoTo made part of their fleet available for healthcare and essential
@@ -1000,7 +971,7 @@ operators:
   url: https://www.govolt.it/
   logo: "/uploads/2020/04/09/go_volt.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Italy
     cities:
@@ -1023,7 +994,7 @@ operators:
   - name: Germany
     cities:
     - All cities
-  order: 
+  order:
   services:
   - service: discounted rides
     service_notes: Hertz is offering special long-term rates for the general public
@@ -1098,7 +1069,7 @@ operators:
     cities:
     - Basel
     - Zürich
-  order: 
+  order:
   services:
   - service: alternative commuting options
     service_notes: ''
@@ -1134,7 +1105,7 @@ operators:
   - name: Portugal
     cities:
     - Lisbon
-  order: 
+  order:
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -1160,7 +1131,7 @@ operators:
   - name: Bulgaria
     cities:
     - Sofia
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1223,7 +1194,7 @@ operators:
   url: https://juuve.nl/
   logo: "/uploads/2020/04/09/juuve.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Netherlands
     cities:
@@ -1265,7 +1236,7 @@ operators:
   url: https://drivekyte.com/
   logo: "/uploads/2020/04/14/kyte.png"
   published: true
-  order: 
+  order:
   countries:
   - name: United States
     cities:
@@ -1520,7 +1491,7 @@ operators:
     cities:
     - Wellington
     - Auckland
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -1538,7 +1509,7 @@ operators:
     cities:
     - Berlin
     - Hamburg
-  order: 
+  order:
   services:
   - service: discounted rides
     service_notes: ''
@@ -1567,7 +1538,7 @@ operators:
   url: https://mobymove.com/
   logo: "/uploads/2020/04/09/moby.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Ireland
     cities:
@@ -1734,7 +1705,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1743,7 +1714,7 @@ operators:
   url: http://payuca.com/
   logo: "/uploads/2020/04/16/payuca.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Austria
     cities:
@@ -1757,7 +1728,7 @@ operators:
   url: https://getapony.com/en
   logo: "/uploads/2020/04/14/pony.png"
   published: true
-  order: 
+  order:
   countries:
   - name: France
     cities:
@@ -1818,7 +1789,7 @@ operators:
   url: https://www.regio-mobil-deutschland.de/unternehmen-1
   logo: "/uploads/2020/04/16/regio_mobil.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Germany
     cities:
@@ -1892,7 +1863,7 @@ operators:
   - name: Germany
     cities:
     - Cologne
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1939,7 +1910,7 @@ operators:
   url: https://www.routematic.com/
   logo: "/uploads/2020/04/16/routematic.png"
   published: true
-  order: 
+  order:
   countries:
   - name: India
     cities:
@@ -1965,7 +1936,7 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -1994,63 +1965,11 @@ operators:
   - service: discounted rides
     service_notes: ''
     service_notes_de: ''
-- name: Share Now
-  url: https://www.share-now.com/
-  logo: "/uploads/2020/04/23/share_now.png"
-  published: true
-  countries:
-  - name: Spain
-    cities:
-    - Madrid
-  - name: Netherlands
-    cities:
-    - Amsterdam
-  - name: Italy
-    cities:
-    - Turin
-    - Rome
-    - Milan
-  - name: Hungary
-    cities:
-    - Budapest
-  - name: Germany
-    cities:
-    - Munich
-    - Stuttgart
-    - Frankfurt
-    - Düsseldorf
-    - Cologne
-    - Hamburg
-    - Berlin
-  - name: France
-    cities:
-    - Paris
-  - name: Denmark
-    cities:
-    - Copenhagen
-  - name: Austria
-    cities:
-    - Vienna
-  services:
-  - service: groceries delivery for risk groups
-    service_notes: Cars available starting at 11,33 Euro per day.
-    service_notes_de: ''
-  - service: alternative commuting options
-    service_notes: |-
-      SHARE NOW is extending its mobility offer, so you can keep your car just yourself around-the-clock for 30 days. Besides, you can now book our 30-day package at 50% discount. In Frankfurt, Düsseldorf, Cologne, Milan and Turin you can even have the car delivered to your doorstep. 
-      Madrid: Service temporarily suspended until May 11th
-    service_notes_de: ''
-  - service: support for healthcare and/or essential workers
-    service_notes: |-
-      To help all healthcare and frontline workers get to work safely,
-      SHARE NOW is offering cashback on all trips and a 30-day mobility
-      rate at cost price. Available in France, Germany, Italy and Netherlands.
-    service_notes_de: ''
 - name: SIXT rent
   url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
   logo: "/uploads/2020/04/09/sixt-1.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Germany
     cities:
@@ -2064,7 +1983,7 @@ operators:
   url: https://www.sixt.com/share/rates/#/
   logo: "/uploads/2020/04/09/sixt.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Germany
     cities:
@@ -2131,7 +2050,7 @@ operators:
   - name: Mexico
     cities:
     - Mexico City
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2157,7 +2076,7 @@ operators:
   - name: Germany
     cities:
     - Stuttgart
-  order: 
+  order:
   services:
   - service: discounted rides
     service_notes: ''
@@ -2235,7 +2154,7 @@ operators:
   url: https://www.tier.app/
   logo: "/uploads/2020/04/16/tier.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Denmark
     cities:
@@ -2479,7 +2398,7 @@ operators:
   - name: Germany
     cities:
     - Regensburg
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2488,7 +2407,7 @@ operators:
   url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
   logo: "/uploads/2020/04/14/wheely.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Russia
     cities:
@@ -2540,7 +2459,7 @@ operators:
   url: https://www.whizascoot.mt/
   logo: "/uploads/2020/04/14/whizascoot.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Malta
     cities:
@@ -2587,7 +2506,7 @@ operators:
     - Scottsdale
     - San Diego
     - Los Angeles
-  order: 
+  order:
   services:
   - service: alternative commuting options
     service_notes: Wheels is providing leasing and purchase options of their devices
@@ -2711,7 +2630,7 @@ operators:
   url: https://zeelo.co/key-worker-transport
   logo: "/uploads/2020/04/09/zeelo.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Italy
     cities:
@@ -2731,7 +2650,7 @@ operators:
   url: ridezip.co
   logo: "/uploads/2020/04/14/zip.png"
   published: true
-  order: 
+  order:
   countries:
   - name: Canada
     cities:
@@ -2755,7 +2674,7 @@ operators:
     - Clinchy
     - Le Kremlin Bicêtre
     - Paris
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: In Paris, ZITY is making its fleet available free of charge for
@@ -2770,7 +2689,7 @@ operators:
   - name: Iceland
     cities:
     - Reykjavik
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2799,7 +2718,7 @@ operators:
     cities:
     - Bordeaux
     - Paris
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2812,7 +2731,7 @@ operators:
   - name: Germany
     cities:
     - Munich
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -2825,7 +2744,7 @@ operators:
   - name: Sweden
     cities:
     - Stockholm
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2841,7 +2760,7 @@ operators:
   - name: Czech Republic
     cities:
     - Prague
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2864,7 +2783,7 @@ operators:
   - name: Israel
     cities:
     - Tel Aviv
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2901,7 +2820,7 @@ operators:
     - Rennes
     - Strasbourg
     - Toulouse
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2914,7 +2833,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2929,7 +2848,7 @@ operators:
     - Dubai
     - Abu Dhabi
     - Sharjah
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2942,7 +2861,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order: 
+  order:
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -2955,7 +2874,7 @@ operators:
   - name: United States
     cities:
     - Washington DC
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2968,7 +2887,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2981,7 +2900,7 @@ operators:
   - name: Singapore
     cities:
     - Singapore
-  order: 
+  order:
   services:
   - service: discounted rides
     service_notes: ''
@@ -2999,7 +2918,7 @@ operators:
     - Mobile
     - Raleigh
     - Syracuse
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
@@ -3012,7 +2931,7 @@ operators:
   - name: Poland
     cities:
     - Wroclaw
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3041,7 +2960,7 @@ operators:
     - Turin
     - Verona
     - Milan
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: Helbiz is offering 25000 free rides in Italy (solidarietà digitale
@@ -3061,7 +2980,7 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3074,7 +2993,7 @@ operators:
   - name: United States
     cities:
     - New York
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3090,7 +3009,7 @@ operators:
   - name: United Kingdom
     cities:
     - London
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3103,7 +3022,7 @@ operators:
   - name: United States
     cities:
     - San Francisco
-  order: 
+  order:
   services:
   - service: groceries delivery for risk groups
     service_notes: ''
@@ -3116,7 +3035,7 @@ operators:
   - name: Turkey
     cities:
     - Istanbul
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3129,7 +3048,7 @@ operators:
   - name: Hungary
     cities:
     - Budapest
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3148,7 +3067,7 @@ operators:
   - name: Colombia
     cities:
     - Bogota
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3162,59 +3081,11 @@ operators:
     cities:
     - Brussels
     - Antwerp
-  order: 
+  order:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
     service_notes_de: ''
-  - service: support for healthcare and/or essential workers
-    service_notes: ''
-    service_notes_de: ''
-- name: Share Now
-  url: https://www.share-now.com/de/en/care-now/
-  logo: "/uploads/2020/04/06/sharenow.png"
-  published: false
-  countries:
-  - name: Netherlands
-    cities:
-    - Amsterdam
-  - name: Germany
-    cities:
-    - Berlin
-    - Dusseldorf
-    - Cologne
-    - Frankfurt
-    - Hamburg
-    - Munich
-    - Stuttgart
-  - name: Hungary
-    cities:
-    - Budapest
-  - name: Denmark
-    cities:
-    - Copenhagen
-  - name: Finland
-    cities:
-    - Helsinki
-  - name: Portugal
-    cities:
-    - Lisbon
-  - name: Spain
-    cities:
-    - Madrid
-  - name: Italy
-    cities:
-    - Milan
-    - Rome
-    - Turin
-  - name: France
-    cities:
-    - Paris
-  - name: Austria
-    cities:
-    - Vienna
-  order: 
-  services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
     service_notes_de: ''
@@ -3228,7 +3099,7 @@ operators:
     - Berlin
     - Munich
     - Hamburg
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -3255,7 +3126,7 @@ operators:
     - San Francisco
     - Tampa
     - Washington DC
-  order: 
+  order:
   services:
   - service: alternative commuting options
     service_notes: ''
@@ -3274,7 +3145,7 @@ operators:
   - name: United States
     cities:
     - Milwaukee
-  order: 
+  order:
   services:
   - service: extra vehicle sanitisation
     service_notes: ''
@@ -3290,7 +3161,7 @@ operators:
   - name: France
     cities:
     - Paris
-  order: 
+  order:
   services:
   - service: discounted rides
     service_notes: ''
@@ -3309,7 +3180,7 @@ operators:
   - name: Germany
     cities:
     - Berlin
-  order: 
+  order:
   services:
   - service: expansion of area to hospitals
     service_notes: ''
@@ -3325,11 +3196,329 @@ operators:
   - name: Spain
     cities:
     - Madrid
-  order: 
+  order:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
     service_notes_de: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Hungary
+    cities:
+    - Budapest
+  - name: Denmark
+    cities:
+    - Copenhagen
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Netherlands
+    cities:
+    - Amsterdam
+  - name: Italy
+    cities:
+    - Turin
+    - Rome
+    - Milan
+  - name: Austria
+    cities:
+    - Vienna
+  - name: Germany
+    cities:
+    - Munich
+    - Stuttgart
+    - Frankfurt
+    - Düsseldorf
+    - Cologne
+    - Hamburg
+    - Berlin
+  - name: France
+    cities:
+    - Paris
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Care Now - To help all healthcare and frontline workers get to
+      work safely, SHARE NOW is offering cashback on all trips for Healthcare workers.
+  - service: groceries delivery for risk groups
+    service_notes: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+- name: AIR2E
+  published: true
+  url: https://www.air2e.com/
+  logo: "/uploads/global/air2e.png"
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  - name: Denmark
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Romania
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Czech Republic
+    cities:
+    - All cities
+  - name: Greece
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Hungary
+    cities:
+    - All cities
+  - name: Austria
+    cities:
+    - All cities
+  - name: Serbia
+    cities:
+    - All cities
+  - name: Switzerland
+    cities:
+    - All cities
+  - name: Bulgaria
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Ireland
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Moldova
+    cities:
+    - All cities
+  - name: Bosnia and Herzegovina
+    cities:
+    - All cities
+  - name: Albania
+    cities:
+    - All cities
+  - name: Lithuania
+    cities:
+    - All cities
+  - name: North Macedonia
+    cities:
+    - All cities
+  - name: Slovenia
+    cities:
+    - All cities
+  - name: Latvia
+    cities:
+    - All cities
+  - name: Estonia
+    cities:
+    - All cities
+  - name: Montenegro
+    cities:
+    - All cities
+  - name: Luxembourg
+    cities:
+    - All cities
+  - name: Malta
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Air2E provides individual air travel at affordable rates in small
+      business aircraft. For companies Air2E establishes frequent routes to transport
+      teams at prices comparable to economy-class flights or provides on-demand flights.
+      With a fleet of various 4 to 10-seat aircraft customers save time, avoid the
+      crowds and may land at a small airport close to their destination.
+  - service:
+    service_notes: ''
+- name: Global Passenger Network
+  published: true
+  url: https://gpn.travel/
+  logo: "/uploads/global/gpn.png"
+  countries:
+  - name: Austria
+    cities:
+    - All cities
+  - name: Argentina
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Bulgaria
+    cities:
+    - All cities
+  - name: Canada
+    cities:
+    - All cities
+  - name: Chile
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Cyprus
+    cities:
+    - All cities
+  - name: Denmark
+    cities:
+    - All cities
+  - name: Estonia
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Greece
+    cities:
+    - All cities
+  - name: Germany
+    cities:
+    - All cities
+  - name: Iceland
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: India
+    cities:
+    - All cities
+  - name: Ireland
+    cities:
+    - All cities
+  - name: Latvia
+    cities:
+    - All cities
+  - name: Lithuania
+    cities:
+    - All cities
+  - name: Luxembourg
+    cities:
+    - All cities
+  - name: Morocco
+    cities:
+    - All cities
+  - name: Mexico
+    cities:
+    - All cities
+  - name: Malta
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Russia
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  - name: Slovenia
+    cities:
+    - All cities
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Switzerland
+    cities:
+    - All cities
+  - name: Turkey
+    cities:
+    - All cities
+  - name: Uruguay
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: Vietnam
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+  - service: support for healthcare and/or essential workers
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+  - service:
+    service_notes: ''
 all_services:
 - consultancy
 - face shields manufacture
