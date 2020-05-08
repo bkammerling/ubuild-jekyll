@@ -3,3 +3,7 @@ all_brands:
 - OKAI
 - Acton
 - Hongji
+brands_detail:
+- logo: "/uploads/2020/05/08/okai-logo-black 1@2x.jpg"
+  url: https://okai.co/
+  brand_name: OKAI

@@ -44,3 +44,5 @@ fields:
   label: Brands Detail
   config:
     labelField: brand_name
+pages:
+- _data/vehicles-settings.yml
