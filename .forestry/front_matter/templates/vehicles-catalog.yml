@@ -31,3 +31,4 @@ fields:
   description: Brand of product
 pages:
 - _data/weallmove.yml
+- wunder_collections/_vehicles/okai-es400-16.md
