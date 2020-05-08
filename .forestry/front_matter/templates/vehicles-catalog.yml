@@ -29,6 +29,29 @@ fields:
       path: all_brands
   label: Brand
   description: Brand of product
+- name: spec_list
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Spec List
+  description: List of specs / features
 pages:
 - _data/weallmove.yml
 - wunder_collections/_vehicles/okai-es400-16.md
