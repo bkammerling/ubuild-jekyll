@@ -20,6 +20,127 @@ operators:
     service_notes: A2B Car Rentals is offering a free pick up and drop off service
       and a no contact delivery service for our vehicles.
     service_notes_de: ''
+- name: AIR2E
+  published: true
+  url: https://www.air2e.com/
+  logo: "/uploads/global/air2e.png"
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  - name: Denmark
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Romania
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Czech Republic
+    cities:
+    - All cities
+  - name: Greece
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Hungary
+    cities:
+    - All cities
+  - name: Austria
+    cities:
+    - All cities
+  - name: Serbia
+    cities:
+    - All cities
+  - name: Switzerland
+    cities:
+    - All cities
+  - name: Bulgaria
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Ireland
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Moldova
+    cities:
+    - All cities
+  - name: Bosnia and Herzegovina
+    cities:
+    - All cities
+  - name: Albania
+    cities:
+    - All cities
+  - name: Lithuania
+    cities:
+    - All cities
+  - name: North Macedonia
+    cities:
+    - All cities
+  - name: Slovenia
+    cities:
+    - All cities
+  - name: Latvia
+    cities:
+    - All cities
+  - name: Estonia
+    cities:
+    - All cities
+  - name: Montenegro
+    cities:
+    - All cities
+  - name: Luxembourg
+    cities:
+    - All cities
+  - name: Malta
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Air2E provides individual air travel at affordable rates in small
+      business aircraft. For companies Air2E establishes frequent routes to transport
+      teams at prices comparable to economy-class flights or provides on-demand flights.
+      With a fleet of various 4 to 10-seat aircraft customers save time, avoid the
+      crowds and may land at a small airport close to their destination.
+    service_notes_de: ''
+  - service: ''
+    service_notes: ''
+    service_notes_de: ''
 - name: ALD Automotive
   url: aldautomotive.com
   logo: "/uploads/2020/04/24/ald_automotive.png"
@@ -941,6 +1062,139 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+- name: Global Passenger Network
+  published: true
+  url: https://gpn.travel/
+  logo: "/uploads/global/gpn.png"
+  countries:
+  - name: Austria
+    cities:
+    - All cities
+  - name: Argentina
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Bulgaria
+    cities:
+    - All cities
+  - name: Canada
+    cities:
+    - All cities
+  - name: Chile
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Cyprus
+    cities:
+    - All cities
+  - name: Denmark
+    cities:
+    - All cities
+  - name: Estonia
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Greece
+    cities:
+    - All cities
+  - name: Germany
+    cities:
+    - All cities
+  - name: Iceland
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: India
+    cities:
+    - All cities
+  - name: Ireland
+    cities:
+    - All cities
+  - name: Latvia
+    cities:
+    - All cities
+  - name: Lithuania
+    cities:
+    - All cities
+  - name: Luxembourg
+    cities:
+    - All cities
+  - name: Morocco
+    cities:
+    - All cities
+  - name: Mexico
+    cities:
+    - All cities
+  - name: Malta
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Russia
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  - name: Slovenia
+    cities:
+    - All cities
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Switzerland
+    cities:
+    - All cities
+  - name: Turkey
+    cities:
+    - All cities
+  - name: Uruguay
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: Vietnam
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
+      service through the joint efforts of its members and various alliances throughout
+      the world. Get in touch to learn how they can help.
+    service_notes_de: ''
+  - service: ''
     service_notes: ''
     service_notes_de: ''
 - name: GOMEEP
@@ -2034,6 +2288,84 @@ operators:
     - Abu Dhabi
   services:
   - service: discounted rides
+    service_notes: ''
+    service_notes_de: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Hungary
+    cities:
+    - Budapest
+  - name: Denmark
+    cities:
+    - Copenhagen
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+    service_notes_de: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+    service_notes_de: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+- name: Share Now
+  published: true
+  url: https://www.share-now.com/
+  logo: "/uploads/global/share_now.png"
+  countries:
+  - name: Netherlands
+    cities:
+    - Amsterdam
+  - name: Italy
+    cities:
+    - Turin
+    - Rome
+    - Milan
+  - name: Austria
+    cities:
+    - Vienna
+  - name: Germany
+    cities:
+    - Munich
+    - Stuttgart
+    - Frankfurt
+    - Düsseldorf
+    - Cologne
+    - Hamburg
+    - Berlin
+  - name: France
+    cities:
+    - Paris
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Care Now - To help all healthcare and frontline workers get to
+      work safely, SHARE NOW is offering cashback on all trips for Healthcare workers.
+    service_notes_de: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
+  - service: cooperation with delivery and restaurants
     service_notes: ''
     service_notes_de: ''
 - name: SIXT rent
@@ -3270,338 +3602,6 @@ operators:
   order: 
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: ''
-    service_notes_de: ''
-- name: Share Now
-  published: true
-  url: https://www.share-now.com/
-  logo: "/uploads/global/share_now.png"
-  countries:
-  - name: Hungary
-    cities:
-    - Budapest
-  - name: Denmark
-    cities:
-    - Copenhagen
-  services:
-  - service: support for healthcare and/or essential workers
-    service_notes: ''
-    service_notes_de: ''
-  - service: groceries delivery for risk groups
-    service_notes: ''
-    service_notes_de: ''
-  - service: cooperation with delivery and restaurants
-    service_notes: ''
-    service_notes_de: ''
-- name: Share Now
-  published: true
-  url: https://www.share-now.com/
-  logo: "/uploads/global/share_now.png"
-  countries:
-  - name: Netherlands
-    cities:
-    - Amsterdam
-  - name: Italy
-    cities:
-    - Turin
-    - Rome
-    - Milan
-  - name: Austria
-    cities:
-    - Vienna
-  - name: Germany
-    cities:
-    - Munich
-    - Stuttgart
-    - Frankfurt
-    - Düsseldorf
-    - Cologne
-    - Hamburg
-    - Berlin
-  - name: France
-    cities:
-    - Paris
-  services:
-  - service: support for healthcare and/or essential workers
-    service_notes: Care Now - To help all healthcare and frontline workers get to
-      work safely, SHARE NOW is offering cashback on all trips for Healthcare workers.
-    service_notes_de: ''
-  - service: groceries delivery for risk groups
-    service_notes: ''
-    service_notes_de: ''
-  - service: cooperation with delivery and restaurants
-    service_notes: ''
-    service_notes_de: ''
-- name: Share Now
-  published: true
-  url: https://www.share-now.com/
-  logo: "/uploads/global/share_now.png"
-  countries:
-  - name: Spain
-    cities:
-    - Madrid
-  services:
-  - service: support for healthcare and/or essential workers
-    service_notes: ''
-    service_notes_de: ''
-  - service: groceries delivery for risk groups
-    service_notes: ''
-    service_notes_de: ''
-  - service: cooperation with delivery and restaurants
-    service_notes: ''
-    service_notes_de: ''
-- name: AIR2E
-  published: true
-  url: https://www.air2e.com/
-  logo: "/uploads/global/air2e.png"
-  countries:
-  - name: Germany
-    cities:
-    - All cities
-  - name: United Kingdom
-    cities:
-    - All cities
-  - name: France
-    cities:
-    - All cities
-  - name: Italy
-    cities:
-    - All cities
-  - name: Spain
-    cities:
-    - All cities
-  - name: Denmark
-    cities:
-    - All cities
-  - name: Poland
-    cities:
-    - All cities
-  - name: Romania
-    cities:
-    - All cities
-  - name: Netherlands
-    cities:
-    - All cities
-  - name: Belgium
-    cities:
-    - All cities
-  - name: Czech Republic
-    cities:
-    - All cities
-  - name: Greece
-    cities:
-    - All cities
-  - name: Portugal
-    cities:
-    - All cities
-  - name: Sweden
-    cities:
-    - All cities
-  - name: Hungary
-    cities:
-    - All cities
-  - name: Austria
-    cities:
-    - All cities
-  - name: Serbia
-    cities:
-    - All cities
-  - name: Switzerland
-    cities:
-    - All cities
-  - name: Bulgaria
-    cities:
-    - All cities
-  - name: Finland
-    cities:
-    - All cities
-  - name: Slovakia
-    cities:
-    - All cities
-  - name: Norway
-    cities:
-    - All cities
-  - name: Ireland
-    cities:
-    - All cities
-  - name: Croatia
-    cities:
-    - All cities
-  - name: Moldova
-    cities:
-    - All cities
-  - name: Bosnia and Herzegovina
-    cities:
-    - All cities
-  - name: Albania
-    cities:
-    - All cities
-  - name: Lithuania
-    cities:
-    - All cities
-  - name: North Macedonia
-    cities:
-    - All cities
-  - name: Slovenia
-    cities:
-    - All cities
-  - name: Latvia
-    cities:
-    - All cities
-  - name: Estonia
-    cities:
-    - All cities
-  - name: Montenegro
-    cities:
-    - All cities
-  - name: Luxembourg
-    cities:
-    - All cities
-  - name: Malta
-    cities:
-    - All cities
-  services:
-  - service: alternative commuting options
-    service_notes: Air2E provides individual air travel at affordable rates in small
-      business aircraft. For companies Air2E establishes frequent routes to transport
-      teams at prices comparable to economy-class flights or provides on-demand flights.
-      With a fleet of various 4 to 10-seat aircraft customers save time, avoid the
-      crowds and may land at a small airport close to their destination.
-    service_notes_de: ''
-  - service: ''
-    service_notes: ''
-    service_notes_de: ''
-- name: Global Passenger Network
-  published: true
-  url: https://gpn.travel/
-  logo: "/uploads/global/gpn.png"
-  countries:
-  - name: Austria
-    cities:
-    - All cities
-  - name: Argentina
-    cities:
-    - All cities
-  - name: Belgium
-    cities:
-    - All cities
-  - name: Bulgaria
-    cities:
-    - All cities
-  - name: Canada
-    cities:
-    - All cities
-  - name: Chile
-    cities:
-    - All cities
-  - name: Croatia
-    cities:
-    - All cities
-  - name: Cyprus
-    cities:
-    - All cities
-  - name: Denmark
-    cities:
-    - All cities
-  - name: Estonia
-    cities:
-    - All cities
-  - name: France
-    cities:
-    - All cities
-  - name: Finland
-    cities:
-    - All cities
-  - name: Greece
-    cities:
-    - All cities
-  - name: Germany
-    cities:
-    - All cities
-  - name: Iceland
-    cities:
-    - All cities
-  - name: Italy
-    cities:
-    - All cities
-  - name: India
-    cities:
-    - All cities
-  - name: Ireland
-    cities:
-    - All cities
-  - name: Latvia
-    cities:
-    - All cities
-  - name: Lithuania
-    cities:
-    - All cities
-  - name: Luxembourg
-    cities:
-    - All cities
-  - name: Morocco
-    cities:
-    - All cities
-  - name: Mexico
-    cities:
-    - All cities
-  - name: Malta
-    cities:
-    - All cities
-  - name: Netherlands
-    cities:
-    - All cities
-  - name: Poland
-    cities:
-    - All cities
-  - name: Norway
-    cities:
-    - All cities
-  - name: Portugal
-    cities:
-    - All cities
-  - name: Russia
-    cities:
-    - All cities
-  - name: Slovakia
-    cities:
-    - All cities
-  - name: Spain
-    cities:
-    - All cities
-  - name: Slovenia
-    cities:
-    - All cities
-  - name: Sweden
-    cities:
-    - All cities
-  - name: Switzerland
-    cities:
-    - All cities
-  - name: Turkey
-    cities:
-    - All cities
-  - name: Uruguay
-    cities:
-    - All cities
-  - name: United Kingdom
-    cities:
-    - All cities
-  - name: Vietnam
-    cities:
-    - All cities
-  services:
-  - service: alternative commuting options
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
-    service_notes_de: ''
-  - service: support for healthcare and/or essential workers
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
-    service_notes_de: ''
-  - service: ''
     service_notes: ''
     service_notes_de: ''
 all_services:
