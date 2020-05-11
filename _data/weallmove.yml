@@ -1484,12 +1484,50 @@ operators:
       workers, providing them safe rides to their jobs.
     service_notes_de: ''
 - name: HyreCar
-  url: https://hyrecar.com/
+  url: https://hyrecar.com/wundermobility?utm_source=wundermobility&utm_medium=operators_page&utm_campaign=we_all_move
   logo: "/uploads/2020/05/04/hyre_car.png"
   published: true
   countries:
   - name: United States
     cities:
+    - Alexandria
+    - Long Island
+    - Wilmington
+    - Joliet
+    - Scottsdale
+    - Pompano Beach
+    - Baytown
+    - Towson
+    - Livonia
+    - Warren
+    - Aurora
+    - Denver
+    - Roseville
+    - Arcade
+    - Arden
+    - Sacramento
+    - Detroit
+    - Towson
+    - Baltimore
+    - Kissimmee
+    - Orlando
+    - Sugar Land
+    - Houston
+    - Long Beach
+    - Sandy Springs
+    - Arlington
+    - Camden
+    - Mesa
+    - Fort Lauderdale
+    - Miami
+    - Phoenix
+    - Las Vegas
+    - Dallas
+    - Chicago
+    - Philadelphia
+    - New York
+    - Washington DC
+    - Atlanta
     - Los Angeles
   services:
   - service: discounted rides
