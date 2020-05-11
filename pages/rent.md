@@ -22,7 +22,7 @@ page_sections:
   sub_logo: "/uploads/global/wunder-rent-white.svg"
   cta:
     button_text: Watch how it works
-    url: "https://vimeo.com/361066939"
+    url: "https://vimeo.com/413480796"
     enabled: true
   cta_2:
     url: "#"
