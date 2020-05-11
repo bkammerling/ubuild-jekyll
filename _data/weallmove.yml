@@ -163,7 +163,7 @@ operators:
     - Bournemouth
   services:
   - service: support for healthcare and/or essential workers
-    service_notes: Beryl is ensuring that healthcare and emergency workers have free,
+    service_notes: Beryl Bikes is ensuring that healthcare and key workers have free,
       safe rides to their jobs. Check city availability by clicking on the link.
     service_notes_de: ''
 - name: Big Green Coach
@@ -1676,8 +1676,8 @@ operators:
     service_notes_de: ''
 - name: Movi
   url: https://www.ridemovi.com/caring-for-our-movi-community-covid-19/
-  logo: "/uploads/2020/05/05/movi.png"
-  published: false
+  logo: "/uploads/2020/05/11/movi.png"
+  published: true
   countries:
   - name: Spain
     cities:
