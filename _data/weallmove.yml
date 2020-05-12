@@ -1966,7 +1966,7 @@ operators:
     service_notes: Move Mee is making all of their fleet available to the general
       public as a transport alternative.
     service_notes_de: ''
-- name: Movi
+- name: Movi by Mobike
   url: https://www.ridemovi.com/caring-for-our-movi-community-covid-19/
   logo: "/uploads/2020/05/11/movi.png"
   published: true
@@ -1978,14 +1978,13 @@ operators:
     - Madrid
   - name: Italy
     cities:
+    - Reggio Emilia
     - Ferrara
     - Caorle
     - Lignano
     - Padua
     - Pesaro
     - Mantua
-    - Emilia
-    - Reggio
     - Bologna
     - Bergamo
     - Turin
