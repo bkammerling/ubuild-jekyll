@@ -3,7 +3,22 @@ all_brands:
 - OKAI
 - Acton
 - Hongji
+- Govecs
+- Gonbike
+- Askoll
 brands_detail:
-- logo: "/uploads/2020/05/08/okai-logo-black 1@2x.jpg"
+- logo: "/uploads/2020/05/11/okai-v-logo@2x.jpg"
   url: https://okai.co/
   brand_name: OKAI
+- logo: "/uploads/2020/05/11/acton-v-logo@2x.jpg"
+  url: https://www.acton.space/
+  brand_name: Acton
+- logo: "/uploads/2020/05/11/govecs-v-logo@2x.jpg"
+  url: https://www.globalyadea.com
+  brand_name: Govecs
+- logo: "/uploads/2020/05/11/gonbike-v-logo@2x.jpg"
+  url: http://www.foreversharing.com/
+  brand_name: Gonbike
+- logo: "/uploads/2020/05/11/askoll-v-logo@2x.jpg"
+  url: https://www.askollelectric.com/
+  brand_name: Askoll

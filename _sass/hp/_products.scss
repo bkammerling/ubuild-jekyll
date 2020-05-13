@@ -8,6 +8,9 @@
   }
 }
 
+.grey-bridge {
+  background: linear-gradient(to bottom, $black96 0%, $black96 60%, $white 60%, $white 100%);
+}
 
 .text-blue {
   color: $mobility-blue;
@@ -286,6 +289,8 @@
 }
 
 
+// Vehicles product page styling
+
 .simple-radio-group {
   .radio-group {
     @include rwd(tablet-up) {
@@ -305,20 +310,62 @@
   }
 }
 
+
 .catalog-item {
   margin-bottom: 40px;
   &__image {
     height: 210px;
-    background-size: cover;
+    background-size: auto 100%;
     background-position: center center;
+    transition: all 0.4s;
     @include rwd(mobile-up) {
       height: 300px;
     }
     @include rwd(desktop-up) {
       height: 440px;
     }
+    a:hover & {
+      background-size: auto 105%;
+    }
   }
 }
+
+.single-product-modal {
+  .brand-logo {
+    max-height: 29px;
+  }
+  .product-details {
+    @include rwd(desktop-up) {
+      column-count: 3;
+      column-gap: 50px;
+      column-fill: auto; //fills first columns first
+      height: 290px;
+      p {
+        break-inside: avoid-column;
+      }
+    }
+  }
+}
+
+.horizontal-gallery {
+  white-space: nowrap;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  img {
+    scroll-snap-align: start;
+  }
+}
+
+.bgimage-section {
+  &#bgimage-yadea {
+    background-image: url('/uploads/global/yadeaconnection-bg.jpg')
+  }
+  &__text {
+    padding: 230px 0;
+  }
+}
+
+
 
 ul.feature-list {
   padding-left: 1.8em;

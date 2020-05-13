@@ -8,9 +8,8 @@ version: hp
 lang: en
 lang-ref: vehicles
 component_scripts:
-- vehiclesCommerce.js
+- wunderCommerce.js
 - clientCarousel.js
-- isotope.min.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2

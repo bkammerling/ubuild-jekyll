@@ -1,30 +1,29 @@
 ---
 layout: single-product-modal
 brand: OKAI
-name: Okai ES200D
+name: ES200D
 published: true
 featured: false
 type: Kickscooter
 image_gallery:
-- "/uploads/2020/05/08/okai_es400_16ah_03@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_01@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_05@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_02@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_04@2x.jpg"
+- "/uploads/2020/05/12/okai_es200d_01@2x.jpg"
+- "/uploads/2020/05/12/okai_es200d_02@2x.jpg"
+- "/uploads/2020/05/12/okai_es200d_03@2x.jpg"
+- "/uploads/2020/05/12/okai_es200d_04@2x.jpg"
 details:
-- title: Tires
-  description: PU-filled rubber tire
+- title: Wheels
+  description: Powerful 10” front wheel electric motor with 350W
+- title: Suspension
+  description: Premium front suspension
 - title: Motor
-  description: 350W rear drive high torque motor
+  description: Powerful 48V motor with 350W
 - title: License Plate
   description: License plate holder built into the rear fender
 - title: Certification
   description: Germany ready
 - title: Cable Design
   description: Fully hidden cables for secure operations
-- title: Brakes
-  description: 'Independent double braking system '
 - title: Battery
-  description: Swappable battery
+  description: Large capacity 36V / 12.8Ah li-ion battery
 
 ---

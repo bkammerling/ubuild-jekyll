@@ -90,14 +90,38 @@
       </div>
 
 
-      <div class="text-md-center mt-5 pt-md-5 mx-auto">
-        <h3 class="headline-medium pb-3 rent-getstarted" data-aos="soft-up" data-aos-easing="apple-easing" >Get started today</h3>
-        <a href="#section-contact" class="btn btn-outline-primary mb-5" data-aos="fade-in" data-aos-easing="apple-easing" data-aos-anchor=".rent-getstarted">Request a demo</a>
+      <div class="row my-5 text-center pt-5">
+        <div class="col-12 order-md-2 my-5">
+          <img src="" alt="cheesy stock photo of some casual business peeps of different ethnicities" />
+        </div>
+        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+          <h3 class="headline-large mb-4 vehicles-financial" data-aos="fade-in" data-aos-easing="apple-easing" >Wunder Financial Services</h3>
+          <p class="mb-5">Wunder Finance can help you turn your dream fleet into a reality. Flexible financing options and consulting services are available to help you achieve your goals. Pay in installments and get support when you need it so we can make your ride a little smoother.</p>
+          <a href="#section-contact" class="btn btn-outline-dark mb-5" data-aos="fade-in" data-aos-easing="apple-easing" data-aos-anchor=".rent-getstarted">Learn more</a>
+        </div>
       </div>
-
 
     </div>
 
+  </section>
+
+  <section id="yadea-section" class="grey-bridge mb-0 pb-0 fullwidth-bg">
+    <div class="container text-center">
+      <div class="row pb-md-4">
+        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+          <h2 class="headline-large">Driven by excellence</h2>
+          <p>We searched the globe to connect with the most reliable partners in the industry.<br>
+            All our vehicles have been test driven for durability, quality and rideability. We want our vehicles to be the industry’s best, and we’re not hitting the brakes until they are.
+          </p>
+        </div>
+      </div>
+      <div class="bgimage-section mt-5" id="bgimage-yadea">
+        <div class="bgimage-section__text text-white">
+          <h3 class="headline-large yadeatitle mb-3" data-aos="soft-up" data-aos-easing="apple-easing">The Sharing-Ready <br> Yadea G5</h3>
+          <p class="text-link mb-4" data-aos="soft-up" data-aos-easing="apple-easing" data-aos-anchor=".yadeatitle">Powered by Wunder Mobility</p>
+          <a href="/vehicles/yadea-g5" class="btn btn-outline-light mt-3" data-aos="fade-in" data-aos-easing="apple-easing">Learn more</a>
+      </div>
+    </div>
   </section>
 
   <section id="vehicle-catalog">
@@ -130,20 +154,24 @@
 
       <div id="catalog-list">
         <div class="row">
-        {% assign vehicles = site.vehicles | sort: "publish_date" | reverse | where: "published", true %}
+        {% assign vehicles = site.vehicles | sort: "brand" | where: "published", true %}
         {% for product in vehicles %}
-          <div class="col">
-            <a href="{{ product.url }}">
+          <div class="col-6 col-md-4 catalog-item__wrapper {{ product.type | downcase }}">
+            <a class="cursor-pointer" data-toggle="modal" data-target="#commerceModal" data-content="{{ product.url }}">
               <div class="catalog-item">
                 <div class="catalog-item__image" style="background-image: url('{{ product.image_gallery | first | relative_url }}')">
-                  <span class="hidden">{{ product.name }}</span>
+                  <span class="hidden">Wunder Vehicles - {{ product.brand }} {{ product.name }}</span>
                 </div>
-                <p class="text-link mt-2">{{ product.name }}</p>
+                <p class="text-link mt-3">{{ product.brand }} {{ product.name }}</p>
               </div>
             </a>
           </div>
+          {% comment %}
           {% assign modMobile = forloop.index | modulo: 2 %}
           {% if modMobile == 0 %}<div class="w-100 d-md-none"></div>{% endif %}
+          {% assign modDesktop = forloop.index | modulo: 3 %}
+          {% if modDesktop == 0 %}<div class="w-100 d-none d-md-block"></div>{% endif %}
+          {% endcomment %}
         {% endfor %}
         </div>
       </div>
@@ -170,6 +198,16 @@
           <div class="plyr__video-embed" id="player">
             <iframe class="lazy" src="https://player.vimeo.com/video/361066939?title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade commercemodal" id="commerceModal" tabindex="-1" role="dialog" aria-labelledby="Wunder Vehicles product modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-body">
+
         </div>
     </div>
   </div>

@@ -1,16 +1,16 @@
 ---
 layout: single-product-modal
 brand: OKAI
-name: Okai ES400 16Ah
+name: ES400 16Ah
 published: true
 featured: false
 type: Kickscooter
 image_gallery:
-- "/uploads/2020/05/08/okai_es400_16ah_01@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_05@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_02@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_03@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_04@2x.jpg"
+- "/uploads/2020/05/12/okai_es400_16ah_01@2x.jpg"
+- "/uploads/2020/05/12/okai_es400_16ah_02@2x.jpg"
+- "/uploads/2020/05/12/okai_es400_16ah_03@2x.jpg"
+- "/uploads/2020/05/12/okai_es400_16ah_04@2x.jpg"
+- "/uploads/2020/05/12/okai_es400_16ah_05@2x.jpg"
 details:
 - title: Tires
   description: PU-filled rubber tire

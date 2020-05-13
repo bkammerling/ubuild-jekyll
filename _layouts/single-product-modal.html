@@ -1,8 +1,58 @@
-<div class="single-poroduct-modal">
-  <div class="text-right">
-    <ion-icon name="close-circle-outline"></ion-icon>
+<div class="single-product-modal">
+  <div class="row mb-5">
+    <div class="col">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <ion-icon name="close-circle-outline"></ion-icon>
+      </button>
+    </div>
   </div>
-  {% assign brandDetail = site.data.vehicles-settings.brands_detail | where: 'brand_name', page.brand | first %}
-  <img src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
-  <h3 class="headline-medium">{{ page.name }}</h3>
+  <div class="modal-inner px-md-4">
+    {% assign brandDetail = site.data.vehicles-settings.brands_detail | where: 'brand_name', page.brand | first %}
+    <img class="mb-3 brand-logo" src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
+    <h3 class="headline-medium mb-4">{{ page.name }}</h3>
+    <div class="row py-5">
+      <div class="col">
+
+        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            {% for image in page.image_gallery %}
+            <li data-target="#productCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index == 1 %}active{% endif %}"></li>
+            {% endfor %}
+          </ol>
+          <div class="carousel-inner">
+            {% for image in page.image_gallery %}
+            <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+              <img class="d-block w-100" src="{{ image | relative_url | replace: '@2x', '' }}" srcset="{{ image | relative_url }}" />
+            </div>
+            {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        {% comment %}
+        <div class="horizontal-gallery">
+          {% for image in page.image_gallery %}
+          <img src="{{ image | relative_url | replace: '@2x', '' }}" srcset="{{ image | relative_url }}" />
+          {% endfor %}
+        </div>
+        {% endcomment %}
+
+      </div>
+    </div>
+
+    <div class="product-details mb-5">
+      {% assign sortedProducts = page.details | sort: 'title'  %}
+      {% for detail in sortedProducts %}
+      <p class="text-link mb-3"><small>{{ detail.title }}</small><br>{{ detail.description }}</p>
+      {% endfor %}
+    </div>
+
+  </div>
 </div>
