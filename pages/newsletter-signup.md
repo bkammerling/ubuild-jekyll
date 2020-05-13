@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subscribe To Our Newlsetter | Wunder Mobility
+title: Subscribe To Our Newsletter | Wunder Mobility
 permalink: "/newsletter"
 version: hp
 page_sections:
@@ -11,7 +11,6 @@ page_sections:
   block: footer-1
 
 ---
-
 <div class="jumbotron d-flex flex-column justify-content-center" style="min-height: 40vh;">
 
   <h2>Subscribe to the Wunder Bar Newsletter</h2>
