@@ -2,7 +2,6 @@
 layout: single-product-modal
 brand: Askoll
 name: ES2
-published: true
 featured: false
 type: Moped
 image_gallery:
@@ -24,5 +23,6 @@ details:
   description: Dual kickstand
 - title: Battery
   description: Swappable battery
+published: false
 
 ---
