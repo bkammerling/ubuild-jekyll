@@ -2615,6 +2615,28 @@ operators:
     service_notes: We can offer pop-up bus routes with full social distancing and
       contact tracing.
     service_notes_de: ''
+- name: Stafcars
+  url: http://www.stafcars.be/en/
+  logo: "/uploads/2020/05/14/stafcars.png"
+  published: true
+  countries:
+  - name: Luxemburg
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: Stafcars do special transportations/evacuations for employees in
+      several industries, with high levels of hygienic procedures.
+    service_notes_de: ''
 - name: Stella
   url: https://www.stella-sharing.de/
   logo: "/uploads/2020/04/06/stella.png"
