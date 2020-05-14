@@ -1518,6 +1518,44 @@ operators:
   countries:
   - name: United States
     cities:
+    - Easton
+    - Bethlehem
+    - Allentown
+    - Kenner
+    - Metairie
+    - New Orleans
+    - Concord
+    - Gastonia
+    - Charlotte
+    - San Antonio
+    - Bellevue
+    - Tacoma
+    - Seattle
+    - Round Rock
+    - Austin
+    - San Marcos
+    - Carlsbad
+    - San Diego
+    - Ontario
+    - San Bernardino
+    - Riverside
+    - Bloomington
+    - St. Paul
+    - Minneapolis
+    - Clearwater
+    - St. Petersburg
+    - Tampa
+    - Fremont
+    - Oakland
+    - San Francisco
+    - Quincy
+    - Cambridge
+    - Boston
+    - Paradise
+    - Fort Worth
+    - Naperville
+    - Marietta
+    - Santa Ana
     - Alexandria
     - Long Island
     - Wilmington
@@ -1558,6 +1596,9 @@ operators:
     - Atlanta
     - Los Angeles
   services:
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
   - service: discounted rides
     service_notes: HyreCar is offering higher-than-normal relief rebates for its drivers
       and vehicle owner partners.
@@ -2824,6 +2865,25 @@ operators:
     service_notes: URways is offering discount vehicle rental to Uber, Lyft, door
       dash, Instacart drivers.
     service_notes_de: ''
+- name: Viamex
+  url: http://transportadoraviamex.com/
+  logo: "/uploads/2020/05/14/viamex.png"
+  published: true
+  countries:
+  - name: Mexico
+    cities:
+    - Chihuahua city
+    - Cancun city
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Viamex provide solutions in the private transportation service
+      for tourism and business, supporting the health sector with special transfers
+      for doctors and nurses.
+    service_notes_de: ''
+  - service_notes_de: ''
+    service: extra vehicle sanitisation
+    service_notes: Viamex units are disinfected frequently to provide safe travel
+      for their users.
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
