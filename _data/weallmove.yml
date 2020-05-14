@@ -863,6 +863,22 @@ operators:
     service_notes: Hand gel dispensers and anti-bacterial wipes are available at all
       branches, and cars are being cleaned and disinfected before every rental.
     service_notes_de: ''
+- name: ei travel group
+  url: http://www.eitravelgroup.ie/
+  logo: "/uploads/2020/05/14/ei.png"
+  published: true
+  countries:
+  - name: Ireland
+    cities:
+    - Dublin
+  services:
+  - service: alternative commuting options
+    service_notes: ei travel groups has implemented social distancing on all its coaches
+      to allow a safe commute.
+    service_notes_de: ''
+  - service_notes: ''
+    service_notes_de: ''
+    service: extra vehicle sanitisation
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -3008,6 +3024,39 @@ operators:
   services:
   - service: cooperation with delivery and restaurants
     service_notes: ''
+    service_notes_de: ''
+- name: WeDriveU
+  url: https://www.wedriveu.com/
+  logo: "/uploads/2020/05/14/wedriveu.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Seattle
+    - San Diego
+    - Los Angeles
+    - San Francisco
+    - Portland
+    - Philadelphia
+    - Jersey City
+    - Houston
+    - Fort Worth
+    - Dallas
+    - Chicago
+    - Boston
+    - Washington DC
+    - Baltimore
+    - Austin
+    - New York
+  services:
+  - service: alternative commuting options
+    service_notes: WeDriveU provides private transit solutions for corporations, hospitals
+      and universities, specialising in commuter shuttles, campus shuttles and on-demand
+      mobility services.
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: WeDriveU works with employers to provide hospital and other frontline
+      workers safe and efficient transportation to workplaces.
     service_notes_de: ''
 - name: Wheely
   url: https://wheely.com/en/faq/wheely_section_20200324085103156-3cdb3b3ed6d3801
