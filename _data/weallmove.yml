@@ -951,8 +951,17 @@ operators:
   countries:
   - name: Switzerland
     cities:
-    - Zürich
+    - Zurich
   services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+    service_notes_de: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
   - service: extra vehicle sanitisation
     service_notes: ''
     service_notes_de: ''
@@ -1185,17 +1194,15 @@ operators:
     - All cities
   services:
   - service: alternative commuting options
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
+    service_notes: GPN members' vehicles can be hired by anyone that needs to be transported
+      and as capacities of vehicles vary, they can serve a wide range of passenger
+      numbers.
     service_notes_de: ''
   - service: support for healthcare and/or essential workers
-    service_notes: Global Passenger Network (GPN) promotes the use of motor coach
-      service through the joint efforts of its members and various alliances throughout
-      the world. Get in touch to learn how they can help.
-    service_notes_de: ''
-  - service: ''
-    service_notes: ''
+    service_notes: GPN members' vehicles can be hired by hospitals or companies for
+      transporting their workers with a safe, cost-effect, ecological means of transport
+      as our members are adhering to safety rules and restrictions including social
+      distancing, hand sanitizers, masks, boarding procedures and more.
     service_notes_de: ''
 - name: GOMEEP
   url: http://gomeep.com/
@@ -1294,6 +1301,27 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+- name: Haup
+  url: https://www.haupcar.com/
+  logo: "/uploads/2020/05/14/haup.png"
+  published: true
+  countries:
+  - name: Thailand
+    cities:
+    - Bangkok
+    - Meenburi
+  services:
+  - service: alternative commuting options
+    service_notes: Per request sanitisation and drop-off service. Haup understands
+      that each user may make some specific requests during this crisis, so they provide
+      these special services to those who need most.
+    service_notes_de: ''
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
     service_notes: ''
     service_notes_de: ''
 - name: Hertz Germany
@@ -2110,6 +2138,19 @@ operators:
       in to offer for the staff free rides. Privatising vehicles (for free) it's also
       an option.
     service_notes_de: ''
+- name: Questor Insurance
+  url: https://www.questor-insurance.co.uk/
+  logo: "/uploads/2020/05/14/questor_insurance.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  services:
+  - service: consultancy
+    service_notes: The Company is providing discount code for mobility on its Questor
+      Insurance excess line.
+    service_notes_de: ''
 - name: Rally
   url: https://rally.co/
   logo: "/uploads/2020/05/05/rally.png"
@@ -2416,6 +2457,19 @@ operators:
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
     service_notes: ''
+    service_notes_de: ''
+- name: Sigo
+  url: https://sigo.green/
+  logo: "/uploads/2020/05/14/sigo.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: 'Sigo is offering rental of e-cargo bikes in Germany which allows
+      going on the weekly shopping tour or going on a trip with kids. '
     service_notes_de: ''
 - name: SIXT rent
   url: https://www.sixt.de/php/reservation/start?tab_identifier=1586433399&amp;kdnr=19091156&amp;ctyp=P&amp;tp
@@ -2841,6 +2895,24 @@ operators:
     service_notes: In collaboration with Vembla, VOI is assuring senior citizens and
       risk groups get free e-scooter deliveries of groceries and pharmaceuticals in
       Stockholm
+    service_notes_de: ''
+- name: Vooom
+  url: https://vooom.pl/
+  logo: "/uploads/2020/05/14/vooom.png"
+  published: true
+  countries:
+  - name: Poland
+    cities:
+    - All cities
+  services:
+  - service: consultancy
+    service_notes: Vooom has opened our platform for free for all shared mobility
+      operators in Poland at the beginning of April.
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: Vooom has opened its platform for free for every employer that
+      wants to give his employees the possibility to use safer alternatives to public
+      transport, like shared vehicles.
     service_notes_de: ''
 - name: Wave Mobility
   url: ''
