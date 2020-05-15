@@ -21,7 +21,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf Deutsch._
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/zugang-zu-neuen-einnahmequellen-durch-virtuelle-kraftwerke-fur-elektrofahrzeugflotten)_._
 
 ![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
