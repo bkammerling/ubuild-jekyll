@@ -23,6 +23,10 @@ hidden: true
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/zugang-zu-neuen-einnahmequellen-durch-virtuelle-kraftwerke-fur-elektrofahrzeugflotten)_._
 
+Electric vehicles can make a significant contribution to the climate-neutral future of mobility - politics, business and science agree on this. However, the exact nature of this contribution and where it should be made differ in terms of ideas and timetables. While the German government is laying the foundations for a solid charging infrastructure for electric cars with the help of the so-called _Gebäude-Elektromobilitätsinfrastruktur-Gesetz_ law, or GEIG, new, innovative ideas are already being developed. These parallel developments show once again how important the exchange between science and politics is in order to bring innovations to the market in the best possible way and not to prevent them by well-intentioned, political pre-determinations.
+
+One of the ideas is to use electric cars as virtual power plants. Prof. Dr. Wolfgang Ketter and Karsten Schroer of the University of Cologne have examined this approach in detail and have provided us with the results in a guest article in the Mobility Policy Newsletter.
+
 ![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
 The ensuing COVID-19 crisis has inflicted a deep shock on the mobility sector. Following comprehensive and strictly enforced lockdown measures[ mobility demand plummeted by as much as 80% or higher in some markets](https://www.tomtom.com/covid-19/country/italy/). The impact is especially strongly felt by privately-backed platform-based mobility networks that are poised for growth and often light on cash.
