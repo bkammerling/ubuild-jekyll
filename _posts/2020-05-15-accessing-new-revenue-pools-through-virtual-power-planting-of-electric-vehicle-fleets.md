@@ -45,7 +45,7 @@ The particular challenge of this mixed usage strategy is the continuous and real
 
 Our research focuses on the development of automated decision tools that leverage machine learning and mathematical programming and enable an effective and robust management of the above described trade-off while maximizing service level.
 
-**Factors of effectiveness and the importance of the local context**
+**Factors of Effectiveness and the Importance of the Local Context**
 
 The effectiveness of our VPP strategy is dependent on a number of factors. One big issue is infrastructure. We need charging stations to be located where there is highest demand for EVs, as these stations form a critical element of the whole virtual power plant. The location might be city dependent, environment dependent, or even seasonally dependent, but it requires careful planning. And of course, the charging points need to be bidirectional so that they can not only charge but also discharge a battery.
 
@@ -54,7 +54,7 @@ While charging infrastructure availability is a core requirement, consistent usa
 Specifications, performance and cost of battery technologies also play a crucial role. We examine the impact of various price trajectories and find that future battery technology can boost profit potential of VPPs considerably.  
 Finally, local factors play a crucial role, and have a direct impact on the EV fleet’s potential use as VPPs. Physical properties and culture both play a big role, as the success of a VPP depends on what percentage of sustainable resources a location has in its energy mix, and on the rate of energy taxes. It is also dependent on the willingness of people to share vehicles – this is much higher in Europe generally than it is in the United States.
 
-**The future of fleet-based VPPs – Doing well by doing good**
+**The Future of Fleet-based VPPs – Doing Well by Going Good**
 
 Fleet-based VPPs constitute a profitable secondary revenue stream for fleet operators and are a promising way of increasing fleet utilization. While the core business (and profit pool for that matter) remains firmly centered on the provision of mobility services, state-of-the-art forecasting and optimization methods enable operators to profitably tap into new business opportunities arising from virtual power planting. A well-managed fleet can become something we call "doing well by doing good". The fleet owner is doing good by providing a service to society: changing high volatility in the grid to a high level of energy independence to create balancing capacity. But at the same time, they are doing well for their company’s pocket by creating a second business model with an alternative income stream.
 
