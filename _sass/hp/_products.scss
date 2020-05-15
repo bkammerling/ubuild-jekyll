@@ -366,6 +366,91 @@
 }
 
 
+/* YADEAAAAAAAA */
+.vehicles-yadea {
+  .hero-banner {
+    background-image: url("/uploads/global/yadea-hero.jpg");
+    @include rwd(tablet-up) {
+      background-image: url("/uploads/global/yadea-hero.jpg");
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/yadea-hero@2x.jpg');
+      @include rwd(tablet-up) {
+        background-image: url('/uploads/global/yadea-hero@2x.jpg');
+      }
+    }
+
+    h1 {
+      font-size: 68px;
+      @include rwd(tablet-up) {
+        font-size: 120px;
+      }
+    }
+    .powered-by {
+      transform: translateX(125px);
+      @include rwd(tablet-up) {
+        transform: translateX(215px);
+      }
+    }
+  }
+
+  h1,h2:not(.page-heading) {
+    font-weight: normal;
+    line-height: 1;
+  }
+  .headline-large:not(.page-heading) {
+    font-size: 40px;
+    @include rwd(tablet-up) {
+      font-size: 70px;
+    }
+  }
+
+}
+
+.yadea-parallax {
+  img {
+    max-width: none;
+    &#yadea-iot__front {
+      @include rwd(tablet-up) {
+        transform: translateX(-33%);
+      }
+      @include rwd(wide-up) {
+        transform: translateX(-25%);
+      }
+    }
+    &#yadea-iot__iot {
+      position: absolute;
+      right: 0;
+      top: 40%;
+      z-index: 2;
+    }
+    &#yadea-battery__battery {
+      position: absolute;
+      left: 0;
+      bottom: 20px;
+      z-index: 2;
+    }
+    &#yadea-battery__side {
+      margin-left: 150px;
+    }
+  }
+}
+
+#gallery {
+  video {
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+#gallery {
+  .gallery-photo {
+    margin: 15px;
+  }
+}
+
+/* END OF VEHICLES STYLING   */
+
 
 ul.feature-list {
   padding-left: 1.8em;

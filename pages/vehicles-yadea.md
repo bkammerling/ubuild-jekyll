@@ -9,6 +9,7 @@ lang: en
 lang-ref: vehicles-yadea
 component_scripts:
 - mopedSVG.js
+- rellax.min.js
 page_sections:
 - template: navigation-header-scroller
   block: header-scroller
