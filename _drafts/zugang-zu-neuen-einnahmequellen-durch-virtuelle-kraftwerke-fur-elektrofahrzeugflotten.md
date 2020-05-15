@@ -9,7 +9,7 @@ cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: 'Our monthly bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts. '
 cta_link: pages/bernstein-newsletter.md
-title: Zugang zu neuen Einnahmequellen durch virtuelle Kraftwerke für Elektrofahrzeugflotten
+title: Zugang zu neuen Einnahmequellen durch virtuelle Kraftwerke für Elektrofahrzeug-flotten
 publish_date: 2020-05-15 14:00:00 +0000
 featured_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 excerpt: 'Die COVID-19-Krise hat den Mobilitätssektor tief erschüttert. Nach umfassenden
@@ -17,7 +17,7 @@ excerpt: 'Die COVID-19-Krise hat den Mobilitätssektor tief erschüttert. Nach u
   Märkten um bis zu 80% oder mehr ein. '
 share_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in English._
