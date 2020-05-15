@@ -3,6 +3,7 @@ layout: simple-article
 category: Insights
 tags:
 - guest article
+- COVID-19
 author: []
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: 'Our monthly bilingual policy brief is full of articles relevant to policymakers,
@@ -10,16 +11,18 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
 cta_link: pages/bernstein-newsletter.md
 title: Zugang zu neuen Einnahmequellen durch virtuelle Kraftwerke für Elektrofahrzeugflotten
 publish_date: 2020-05-15 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 excerpt: 'Die COVID-19-Krise hat den Mobilitätssektor tief erschüttert. Nach umfassenden
   und streng durchgesetzten Sperrmaßnahmen, brach die Mobilitätsnachfrage in einigen
   Märkten um bis zu 80% oder mehr ein. '
-share_image: ''
+share_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 sticky: false
 hidden: false
 
 ---
-_Read this article in English._ 
+_Read this article in English._
+
+![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
 Die COVID-19-Krise hat den Mobilitätssektor tief erschüttert. Nach umfassenden und streng durchgesetzten Sperrmaßnahmen, brach die Mobilitätsnachfrage in einigen Märkten um bis zu 80% oder mehr ein. Die Auswirkungen sind besonders stark bei privat unterstützten plattformbasierten Mobilitätsnetzwerken zu spüren, die auf Wachstum eingestellt sind und oft limitiertes Kapital zur Verfügung haben.
 
