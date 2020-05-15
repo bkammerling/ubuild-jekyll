@@ -3,24 +3,27 @@ layout: simple-article
 category: Insights
 tags:
 - guest article
+- COVID-19
 author: []
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: 'Our bilingual monthly policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts. '
-cta_link: []
+cta_link: pages/bernstein-newsletter.md
 title: Accessing new revenue pools through virtual power planting of electric vehicle
   fleets
-publish_date: 
-featured_image: ''
+publish_date: 2020-05-15 12:00:00 +0000
+featured_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 excerpt: The ensuing COVID-19 crisis has inflicted a deep shock on the mobility sector.
   The impact is especially strongly felt by privately-backed platform-based mobility
   networks that are poised for growth and often light on cash.
-share_image: ''
+share_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 sticky: false
 hidden: false
 
 ---
-_Lesen Sie den Artikel auf Deutsch._ 
+_Lesen Sie den Artikel auf Deutsch._
+
+![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
 The ensuing COVID-19 crisis has inflicted a deep shock on the mobility sector. Following comprehensive and strictly enforced lockdown measures[ mobility demand plummeted by as much as 80% or higher in some markets](https://www.tomtom.com/covid-19/country/italy/). The impact is especially strongly felt by privately-backed platform-based mobility networks that are poised for growth and often light on cash.
 
