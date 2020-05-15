@@ -22,6 +22,10 @@ hidden: true
 ---
 _Read this article in_ [_English_](https://www.wundermobility.com/blog/accessing-new-revenue-pools-through-virtual-power-planting-of-electric-vehicle-fleets.html)_._
 
+Elektrofahrzeuge können einen erheblichen Teil zur klimaneutralen Zukunft der Mobilität beitragen – da sind sich Politik, Wirtschaft und Wissenschaft einig. Doch wie dieser Beitrag genau aussieht und an welcher Stelle hier angesetzt wird, da unterscheiden sich Ideen und Zeitplan. Während die Bundesregierung mithilfe des Gebäude-Elektromobilitätsinfrastruktur-Gesetz (GEIG) Grundlagen einer soliden Ladeinfrastruktur für E-Autos schafft, gibt es auf innovativer Seite hierzu bereits neue Ideen. Diese parallelen Entwicklungen zeigen einmal mehr, wie wichtig der Austausch zwischen Wissenschaft und Politik ist, um Innovationen bestmöglich in den Markt zu bringen und sie nicht durch gutgemeinte, politische Vorfestlegungen zu verhindern.
+
+Eine der Ideen ist es, E-Autos als virtuelle Energiespeicher zu verwenden. Diesen Ansatz haben Prof. Dr. Wolfgang Ketter und Karsten Schroer der Universität Köln detailliert untersucht und uns die Ergebnisse in Rahmen des Mobility-Policy-Newsletters in einem Gastbeitrag zu Verfügung gestellt. 
+
 ![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
 Die COVID-19-Krise hat den Mobilitätssektor tief erschüttert. Nach umfassenden und streng durchgesetzten Sperrmaßnahmen, brach die Mobilitätsnachfrage in einigen Märkten um bis zu 80% oder mehr ein. Die Auswirkungen sind besonders stark bei privat unterstützten plattformbasierten Mobilitätsnetzwerken zu spüren, die auf Wachstum eingestellt sind und oft limitiertes Kapital zur Verfügung haben.
