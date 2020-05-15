@@ -20,7 +20,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/accessing-new-revenue-pools-through-virtual-power-planting-of-electric-vehicle-fleets.html)_._
 
 ![](/uploads/2020/05/15/bernstein_guestarticle_body.jpg)
 
