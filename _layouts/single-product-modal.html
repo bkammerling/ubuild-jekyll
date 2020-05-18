@@ -8,9 +8,17 @@
   </div>
   <div class="modal-inner px-md-4">
     {% assign brandDetail = site.data.vehicles-settings.brands_detail | where: 'brand_name', page.brand | first %}
-    <img class="mb-3 brand-logo" src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
-    <h3 class="headline-medium mb-4">{{ page.name }}</h3>
-    <div class="row py-5">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="mb-3 brand-logo" src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
+        <h3 class="headline-medium mb-4">{{ page.name }}</h3>
+      </div>
+      <div class="d-none d-md-flex col-md-4">
+        <a class="text-link" href="#section-contact">Contact us about this model</a>
+      </div>
+    </div>
+
+    <div class="row py-4 py-md-5">
       <div class="col">
 
         <div id="productCarousel" class="carousel slide" data-ride="carousel">

@@ -10,6 +10,9 @@ brands_detail:
 - logo: "/uploads/2020/05/11/okai-v-logo@2x.jpg"
   url: https://okai.co/
   brand_name: OKAI
+- logo: "/uploads/2020/05/11/hongji-v-logo@2x.jpg"
+  url: https://hongjibike.com/?lang=en
+  brand_name: Hongji
 - logo: "/uploads/2020/05/11/acton-v-logo@2x.jpg"
   url: https://www.acton.space/
   brand_name: Acton

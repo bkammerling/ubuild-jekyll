@@ -1,24 +1,24 @@
 ---
 layout: single-product-modal
-brand: OKAI
-name: ES400 9Ah
+brand: Hongji
+name: BD03
 published: true
 featured: true
-type: Kickscooter
-list-image: "/uploads/2020/05/18/okai-es400-listimage@2x.jpg"
+type: Bike
+list-image: "/uploads/2020/05/18/hongji-bd-listimage@2x.jpg"
 image_gallery:
-- "/uploads/2020/05/08/okai_es400_16ah_01@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_02@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_03@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_04@2x.jpg"
-- "/uploads/2020/05/08/okai_es400_16ah_05@2x.jpg"
+- "/uploads/2020/05/18/hongji_01@2x.jpg"
+- "/uploads/2020/05/18/hongji_02@2x.jpg"
+- "/uploads/2020/05/18/hongji_03@2x.jpg"
+- "/uploads/2020/05/18/hongji_04@2x.jpg"
+- "/uploads/2020/05/18/hongji_05@2x.jpg"
 details:
 - title: Wheels
   description: Extra large 12” front wheel (9,5” rear)
 - title: Motor
   description: Powerful 48V motor with 350W
-- title: Materials
-  description: Extruded alloy
+- title: Range
+  description: Extended range of up to 55 km
 - title: Suspension
   description: Hydraulic
 - title: Cable Design

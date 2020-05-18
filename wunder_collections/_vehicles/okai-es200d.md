@@ -5,6 +5,7 @@ name: ES200D
 published: true
 featured: false
 type: Kickscooter
+list-image: "/uploads/global/oka-es200d-listimage@2x.jpg"
 image_gallery:
 - "/uploads/2020/05/12/okai_es200d_01@2x.jpg"
 - "/uploads/2020/05/12/okai_es200d_02@2x.jpg"

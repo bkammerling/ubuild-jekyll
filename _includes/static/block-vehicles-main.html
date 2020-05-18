@@ -123,7 +123,7 @@
   </div>
 </section>
 
-<section id="vehicle-catalog" class="pt-5">
+<section id="vehicle-catalog" class="py-5">
   <div class="container">
     <h2 class="headline-large mb-5 text-center">Explore our full range of vehicles</h2>
 
@@ -153,12 +153,15 @@
 
     <div id="catalog-list">
       <div class="row">
-      {% assign vehicles = site.vehicles | sort: "brand" | where: "published", true %}
+      {% assign featuredVehicles = site.vehicles | sort: "brand" | where: "published", true | where: "featured", true %}
+      {% assign nonFeaturedVehicles = site.vehicles | sort: "brand" | where: "published", true | where: "featured", false %}
+      {% assign vehicles = featuredVehicles | concat: nonFeaturedVehicles %}
       {% for product in vehicles %}
-        <div class="col-6 col-md-4 catalog-item__wrapper {{ product.type | downcase }}">
+        <div class="{% if product.featured %}featured{% endif %} catalog-item__wrapper {{ product.type | downcase }}">
           <a class="cursor-pointer" data-toggle="modal" data-target="#commerceModal" data-content="{{ product.url }}">
             <div class="catalog-item">
-              <div class="catalog-item__image" style="background-image: url('{{ product.image_gallery | first | relative_url }}')">
+              {% capture imageURL %}{% if product.list-image.size > 1 %}{{ product.list-image | relative_url }}{% else %}{{ product.image_gallery | first | relative_url }}{% endif %}{% endcapture %}
+              <div class="catalog-item__image" style="background-image: url('{{ imageURL }}')">
                 <span class="hidden">Wunder Vehicles - {{ product.brand }} {{ product.name }}</span>
               </div>
               <p class="text-link mt-3">{{ product.brand }} {{ product.name }}</p>

@@ -10,6 +10,6 @@ $('#commerceModal').on('show.bs.modal', function (event) {
 
 $('.simple-radio-group').on('change', 'input', function() {
   var filterValue = $(this).attr('data-filter');
-  $("#catalog-list").find(`.catalog-item__wrapper`).removeClass("hidden");
+  $("#catalog-list").find(`.catalog-item__wrapper`).removeClass("hidden").removeClass("featured");
   $("#catalog-list").find(`.catalog-item__wrapper:not(${filterValue})`).addClass("hidden");
 });

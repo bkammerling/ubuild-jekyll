@@ -5,6 +5,7 @@ name: Schwalbe
 published: true
 featured: false
 type: Moped
+list-image: "/uploads/global/govecs-listimage@2x.jpg"
 image_gallery:
 - "/uploads/2020/05/08/govecs_schwalbe_01@2x.jpg"
 - "/uploads/2020/05/08/govecs_schwalbe_02@2x.jpg"
