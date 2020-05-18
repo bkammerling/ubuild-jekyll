@@ -18,7 +18,7 @@ excerpt: The ensuing COVID-19 crisis has inflicted a deep shock on the mobility 
   networks that are poised for growth and often light on cash.
 share_image: "/uploads/2020/05/15/bernstein_guestarticle_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/zugang-zu-neuen-einnahmequellen-durch-virtuelle-kraftwerke-fur-elektrofahrzeugflotten)_._
