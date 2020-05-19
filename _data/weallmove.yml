@@ -1856,6 +1856,21 @@ operators:
   - service_notes: ''
     service: support for healthcare and/or essential workers
     service_notes_de: ''
+- name: Linea Azzurra
+  url: https://www.lineaazzurrabus.com/
+  logo: "/uploads/2020/05/19/linea_azzura.png"
+  published: true
+  countries:
+  - name: " Italy"
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -2667,6 +2682,18 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: Stafcars do special transportations/evacuations for employees in
       several industries, with high levels of hygienic procedures.
+    service_notes_de: ''
+- name: Statt Auto
+  url: https://www.stattauto-muenchen.de/en/
+  logo: "/uploads/2020/05/19/statt_auto.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - Munich
+  services:
+  - service: alternative commuting options
+    service_notes: ''
     service_notes_de: ''
 - name: Stella
   url: https://www.stella-sharing.de/
