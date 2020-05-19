@@ -310,6 +310,10 @@
   }
 }
 
+svg.right-arrow {
+  margin-left: 3px;
+  margin-top: -3px;
+}
 
 .catalog-item__wrapper {
   &.featured {
@@ -389,6 +393,13 @@
   }
   &__text {
     padding: 230px 0;
+  }
+}
+
+.logo-boxes.sq .single-box.partners-text {
+  @include rwd(tablet-down) {
+    max-width: 100%;
+    width: 100%;
   }
 }
 

@@ -1,24 +1,25 @@
-<nav class="navbar navbar-{{ section.style }} bg-{{ section.style }} fixed-top navbar-expand-md block-header-scroller px-4">
-  <a class="navbar-brand" href="{{ site.url }}{{ section.brand_link }}">
-    {{ section.brand_text }}
-  </a>
-  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
+<nav class="navbar navbar-{{ section.style }} bg-{{ section.style }} fixed-top navbar-expand-md block-header-scroller px-md-4">
+  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button" data-toggle="collapse" data-target="#scrollerDropdown" aria-controls="scrollerDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
   </button>
-  <div class="collapse navbar-collapse">
+  {% if section.cta.enabled %}
+    <a class="order-md-3 ml-lg-5 d-inline-block btn btn-outline-{% if section.style == 'dark' %}light{% else %}dark{% endif %} gt-navcta" href="{{ section.cta.url }}">
+      {{ section.cta.button_text }}
+    </a>
+  {% endif %}
+  <div class="collapse navbar-collapse" id="scrollerDropdown">
+    <a class="text-link navbar-brand" href="{{ site.url }}{{ section.brand_link }}">
+      {{ section.brand_text }}
+      <svg width="24" height="24" class="right-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.20898 12.9997L16.379 12.9997L11.499 17.8797C11.109 18.2697 11.109 18.9097 11.499 19.2997C11.889 19.6897 12.519 19.6897 12.909 19.2997L19.499 12.7097C19.889 12.3197 19.889 11.6897 19.499 11.2997L12.919 4.69971C12.7322 4.51246 12.4785 4.40723 12.214 4.40723C11.9495 4.40723 11.6958 4.51246 11.509 4.69971C11.119 5.08971 11.119 5.71971 11.509 6.10971L16.379 10.9997L5.20898 10.9997C4.65898 10.9997 4.20898 11.4497 4.20898 11.9997C4.20898 12.5497 4.65898 12.9997 5.20898 12.9997Z"  {% if section.style != 'dark' %}fill="#141414"{% else %}fill="#FFFFFF"{% endif %}/>
+      </svg>
+    </a>
     <ul class="list-unstyled navbar-nav ml-auto">
       {% for nav_item in section.link_list %}
-        <li class="nav-item"><a class="nav-link body-text {% if section.style == 'dark' %}text-white{% endif %}" href="#{{ nav_item }}">{{ nav_item | capitalize }}</a></li>
+        <li class="nav-item"><a class="nav-link body-text" data-offset="100" href="#{{ nav_item }}">{{ nav_item | capitalize }}</a></li>
       {% endfor %}
-      {% if section.cta.enabled %}
-        <a class="ml-5 d-inline-block btn btn-outline-{% if section.style == 'dark' %}light{% else %}dark{% endif %} gt-navcta"
-          {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
-          href="{{ section.cta.url }}">
-          {{ section.cta.button_text }}
-        </a>
-      {% endif %}
     </ul>
   </div>
 </nav>

@@ -92,6 +92,7 @@ var menu = {
     this.toggleMenu(btn, this.submenu);
     this.showMenu(navlink, this.submenu);
     this.hideSetup(hideBtn, this.submenu);
+    if(pageref=='vehicles-yadea') this.toggleBootstrapMenu(navlink, btn);
   },
 
   toggleMenu: function(target, submenu) {
@@ -104,6 +105,12 @@ var menu = {
       $('body').toggleClass('mobmenu-active');
 
     });
+  },
+
+  toggleBootstrapMenu: function(target, toggleElement) {
+    target.on("click", function(e) {
+      toggleElement.trigger("click");
+    })
   },
 
   showMenu: function(target, submenu) {
@@ -601,6 +608,9 @@ $(document).ready(function() {
     var topOffset = 250;
     if(this.hash.indexOf('contact')!= -1 && pageref != "shuttle") {
       topOffset = -100;
+    }
+    if(typeof $(this).data('offset') !== 'undefined') {
+      topOffset = parseInt($(this).data('offset'));
     }
     // Does a scroll target exist?
     if (target.length) {

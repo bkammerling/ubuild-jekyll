@@ -34,6 +34,15 @@ nav.navbar {
       margin-left: 12px;
   }
 
+  &.bg-dark {
+    .hamburger {
+      outline: none;
+      .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        background-color: $white;
+      }
+    }
+  }
+
 }
 
 .navbar-brand{
@@ -172,6 +181,46 @@ nav.navbar {
   }
   img {
     max-width: 100%;
+  }
+}
+
+nav.bg-dark {
+  &.navbar .navbar-nav {
+    .nav-item, .nav-item.is-active {
+      a.nav-link {
+        color: $white;
+      }
+    }
+  }
+}
+
+.block-header-scroller {
+  min-height: 56px;
+  @include rwd(tablet-down) {
+    &.bg-dark {
+      background: linear-gradient(180deg, $mobility-black 56px, $white 57px);
+      .navbar-brand, .navbar-nav.is-active .nav-item a.nav-link {
+        color: $mobility-black;
+      }
+       svg path {
+         fill: $mobility-black;
+       }
+    }
+    .navbar-collapse {
+      padding: 40px 32px;
+      .navbar-brand {
+        width: 100%;
+        padding-bottom: 40px;
+        border-bottom: 1px solid $black;
+      }
+      .nav-item {
+        padding: 6px 0;
+        border-bottom: 1px solid $black;
+        a {
+          padding-left: 0;
+        }
+      }
+    }
   }
 }
 
