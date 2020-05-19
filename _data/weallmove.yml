@@ -146,6 +146,9 @@ operators:
   logo: "/uploads/2020/04/24/ald_automotive.png"
   published: true
   countries:
+  - name: Netherlands
+    cities:
+    - All cities
   - name: Finland
     cities:
     - Vantaa
@@ -319,7 +322,7 @@ operators:
   published: true
   countries:
   - cities:
-    - Zürich
+    - Zurich
     - Zug
     - Berne
     name: Switzerland
@@ -2156,6 +2159,18 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: Palm is providing 10 minutes free ride for each ride of healthcare
       professionals.
+    service_notes_de: ''
+- name: Pastuszak
+  url: https://pastuszak.com/
+  logo: "/uploads/2020/05/19/pastuszak.png"
+  published: true
+  countries:
+  - name: Poland
+    cities:
+    - Krakow
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
     service_notes_de: ''
 - name: PAYUCA GmbH
   url: http://payuca.com/
