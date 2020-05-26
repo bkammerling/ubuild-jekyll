@@ -2,7 +2,6 @@
 layout: single-product-modal
 brand: Hongji
 name: BD03
-published: true
 featured: true
 type: Bike
 list-image: "/uploads/2020/05/18/hongji-bd-listimage@2x.jpg"
@@ -27,5 +26,6 @@ details:
   description: Dual kickstand
 - title: Battery
   description: Swappable battery
+published: false
 
 ---
