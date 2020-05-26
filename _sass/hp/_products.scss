@@ -302,7 +302,7 @@
   }
   label {
     // padding here too for a bigger touch area
-    padding: 0 1rem;
+    padding: 0 .5rem;
     cursor: pointer;
   }
   input:checked ~ label {
@@ -389,7 +389,18 @@ svg.right-arrow {
 
 .bgimage-section {
   &#bgimage-yadea {
-    background-image: url('/uploads/global/yadeaconnection-bg.jpg')
+    background-image: url('/uploads/global/yadeaconnection-bg_mob.jpg');
+    background-size: cover;
+    @include rwd(tablet-up) {
+      background-image: url('/uploads/global/yadeaconnection-bg.jpg');
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/yadeaconnection-bg_mob@2x.jpg');
+      @include rwd(tablet-up) {
+        background-image: url('/uploads/global/yadeaconnection-bg@2x.jpg');
+      }
+    }
+
   }
   &__text {
     padding: 230px 0;
