@@ -1005,7 +1005,7 @@ operators:
 - name: Europcar
   url: https://www.europcar.com/
   logo: "/uploads/2020/05/27/europcar.png"
-  published: true
+  published: false
   countries:
   - name: Germany
     cities:
