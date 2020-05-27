@@ -1002,6 +1002,29 @@ operators:
   - service: extra vehicle sanitisation
     service_notes: ''
     service_notes_de: ''
+- name: Europcar
+  url: https://www.europcar.com/
+  logo: "/uploads/2020/05/27/europcar.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: 'Europcar has reinforced vehicle cleaning measures with the systematic
+      use of disinfectant agents. '
+    service_notes_de: ''
+  - service_notes: 'Europcar has set up special rates for frontline staff who provide
+      health or safety services. '
+    service_notes_de: ''
+    service: support for healthcare and/or essential workers
+  - service: alternative commuting options
+    service_notes: 'At Europcar, we offer you the possibility to book  on an hourly
+      basis, without any liabilities. Stay flexible in your planning and grab your
+      next rental car, which you can now rent  between 4 and 9 hours at an attractive
+      price. '
+    service_notes_de: ''
 - name: Evezy
   url: evezy.co.uk
   logo: "/uploads/2020/04/20/evezy.png"
@@ -3354,6 +3377,18 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: expansion of area to hospitals
+    service_notes: ''
+    service_notes_de: ''
+- name: Zarb Coaches
+  url: https://www.zarbcoaches.com/
+  logo: "/uploads/2020/05/27/zarb_coaches.png"
+  published: true
+  countries:
+  - name: Malta
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
     service_notes: ''
     service_notes_de: ''
 - name: Zeelo
