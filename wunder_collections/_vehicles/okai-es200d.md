@@ -25,6 +25,6 @@ details:
   description: Fully hidden cables
 - title: Battery
   description: Large capacity 36V / 12.8Ah li-ion battery
-published: false
+published: true
 
 ---
