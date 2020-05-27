@@ -302,6 +302,34 @@ blockquote {
 
 }
 
+.play-icon {
+  &:after {
+    content: '';
+    display: inline-block;
+    background: url('/uploads/global/play-inner.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.5px solid $black;
+    transition: all $transition-duration/2;
+    position: absolute;
+    background-position: center;
+    background-color: $black;
+    filter: invert(1);
+  }
+  &:hover {
+    &:after {
+      background-color: transparent;
+      border-color: $white;
+      filter: invert(0);
+    }
+  }
+  &.absolute-middle {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+  }
+}
 
 .grecaptcha-badge {
   display: none;

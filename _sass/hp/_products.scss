@@ -291,6 +291,14 @@
 
 // Vehicles product page styling
 
+body.vehicles, body.vehicles-yadea {
+  .hero-banner .hero-banner__inner-content {
+    @include rwd(tablet-up) {
+      padding: 17.25rem 0;
+    }
+  }
+}
+
 .simple-radio-group {
   .radio-group {
     @include rwd(tablet-up) {
@@ -306,7 +314,7 @@
     padding: 0 .5rem;
     cursor: pointer;
   }
-  input:checked ~ label {
+  input:checked ~ label, input:hover ~ label {
     text-decoration: underline;
   }
 }
@@ -348,6 +356,13 @@ svg.right-arrow {
       height: 500px;
     }
   }
+
+  a:hover & {
+    p {
+      text-decoration: underline;
+    }
+  }
+
   .featured & .catalog-item__image {
     height: 300px;
     @include rwd(mobile-up) {
@@ -506,36 +521,6 @@ svg.right-arrow {
 }
 @keyframes pulsing-circle_1 { 0% { rx:8; ry:8; } 52.3157% { rx:12; ry:12; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:8; ry:8; } }
 
-/*
-.yadea-parallax {
-  img {
-    max-width: none;
-    &#yadea-iot__front {
-      @include rwd(tablet-up) {
-        transform: translateX(-33%);
-      }
-      @include rwd(wide-up) {
-        transform: translateX(-25%);
-      }
-    }
-    &#yadea-iot__iot {
-      position: absolute;
-      right: 0;
-      top: 40%;
-      z-index: 2;
-    }
-    &#yadea-battery__battery {
-      position: absolute;
-      left: 0;
-      bottom: 20px;
-      z-index: 2;
-    }
-    &#yadea-battery__side {
-      margin-left: 150px;
-    }
-  }
-}
-*/
 
 // yadea highlight section
 #highlights {
