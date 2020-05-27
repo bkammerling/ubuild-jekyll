@@ -26,6 +26,6 @@ details:
   description: Dual kickstand
 - title: Battery
   description: Swappable battery
-published: false
+published: true
 
 ---
