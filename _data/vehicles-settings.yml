@@ -1,5 +1,6 @@
 ---
 all_brands:
+- Niu
 - Yadea
 - OKAI
 - Acton
@@ -8,6 +9,9 @@ all_brands:
 - Gonbike
 - Askoll
 brands_detail:
+- brand_name: Niu
+  logo: ''
+  url: ''
 - brand_name: Yadea
   logo: ''
   url: ''
