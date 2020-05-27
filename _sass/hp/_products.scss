@@ -298,6 +298,7 @@
     }
   }
   input {
+    appearance: none;
     -webkit-appearance: none;
   }
   label {
@@ -328,7 +329,7 @@ svg.right-arrow {
 .catalog-item {
   margin-bottom: 40px;
   &__image {
-    height: 210px;
+    height: 52vw;
     background-size: cover;
     background-position: center 85%;
     transition: all 0.4s;
@@ -336,7 +337,7 @@ svg.right-arrow {
       height: 300px;
     }
     @include rwd(tablet-up) {
-      height: 400px;
+      height: 300px;
       background-size: auto 100%;
       background-position: center center;
       a:hover & {
@@ -391,7 +392,11 @@ svg.right-arrow {
   &#bgimage-yadea {
     background-image: url('/uploads/global/yadeaconnection-bg_mob.jpg');
     background-size: cover;
+    background-position: right;
     @include rwd(tablet-up) {
+
+    }
+    @include rwd(desktop-up) {
       background-image: url('/uploads/global/yadeaconnection-bg.jpg');
     }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -418,29 +423,38 @@ svg.right-arrow {
 /* YADEAAAAAAAA */
 .vehicles-yadea {
   .hero-banner {
-    background-image: url("/uploads/global/yadea-hero.jpg");
-    @include rwd(tablet-up) {
+    background-image: url("/uploads/global/yadea-hero_mob.jpg");
+    @include rwd(mobile-up) {
       background-image: url("/uploads/global/yadea-hero.jpg");
     }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('/uploads/global/yadea-hero@2x.jpg');
-      @include rwd(tablet-up) {
+      background-image: url('/uploads/global/yadea-hero_mob@2x.jpg');
+      @include rwd(mobile-up) {
         background-image: url('/uploads/global/yadea-hero@2x.jpg');
       }
     }
+    @include rwd(mobile-down) {
+      background-position: bottom;
+      .hero-banner__inner-content {
+        padding: 8.0625rem 0 123vw;
+      }
+    }
+
 
     h1 {
-      font-size: 68px;
+      font-size: 62px;
       @include rwd(tablet-up) {
         font-size: 120px;
       }
     }
     .powered-by {
-      transform: translateX(125px);
+      transform: translateX(110px);
       @include rwd(tablet-up) {
         transform: translateX(215px);
       }
     }
+
+
   }
 
   h1,h2:not(.page-heading) {
@@ -449,12 +463,48 @@ svg.right-arrow {
   }
   .headline-large:not(.page-heading) {
     font-size: 40px;
+    line-height: 48px;
     @include rwd(tablet-up) {
       font-size: 70px;
+      line-height: 88px;
     }
   }
 
+
 }
+
+#yadea-3d {
+  clipPath {
+    rect, path {
+      animation-iteration-count: infinite !important;
+      animation-play-state: paused !important;
+      animation-duration: 1.9s !important;
+    }
+    &.active {
+      rect, path {
+        animation-iteration-count: 1 !important;
+        animation-play-state: running !important;
+        animation-direction: normal !important;
+      }
+    }
+    &.inactive {
+      rect, path {
+        animation-iteration-count: 1 !important;
+        animation-direction: reverse !important;
+        animation-play-state: running !important;
+      }
+    }
+  }
+  ellipse {
+    animation: 1.9s linear infinite both pulsing-circle_1;
+    cursor: pointer;
+    &.active {
+      animation: none;
+      fill: none;
+    }
+  }
+}
+@keyframes pulsing-circle_1 { 0% { rx:8; ry:8; } 52.3157% { rx:12; ry:12; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:8; ry:8; } }
 
 /*
 .yadea-parallax {
@@ -514,6 +564,8 @@ svg.right-arrow {
   }
 }
 
+
+
 #gallery {
   video {
     object-fit: cover;
@@ -523,7 +575,10 @@ svg.right-arrow {
 
 #gallery {
   .gallery-photo {
-    margin: 15px;
+    margin: 8px;
+    @include rwd(tablet-up) {
+      margin: 15px;
+    }
   }
 }
 

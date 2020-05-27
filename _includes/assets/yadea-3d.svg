@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 874" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+    <style>
+@keyframes line_o { 0% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a0_d { 0% { d: path('M0,0L1.53458,0L1.53458,9.24664L1.53458,25.1155L1.53458,31.6684L0,31.6684Z'); } 55.2632% { d: path('M0,0L1.53458,0L1.53458,9.24664L1.53458,25.1155L1.53458,31.6684L0,31.6684Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M0,0L202.652,0L202.652,9.24664L202.652,25.1155L202.652,31.6684L0,31.6684Z'); animation-timing-function: cubic-bezier(0,0,0,0.991578); } 81.5789% { d: path('M0,0L202.652,0L307.01,67.3607L293.575,90.8395L202.652,31.6684L0,31.6684Z'); } 100% { d: path('M0,0L202.652,0L307.01,67.3607L293.575,90.8395L202.652,31.6684L0,31.6684Z'); } }
+@keyframes pulsing-circle_t { 0% { transform: translate(8.34587px,114.968px) scale(1,1); } 26.3157% { transform: translate(8.34587px,114.968px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(8.34587px,114.968px) scale(1,1); } 100% { transform: translate(8.34587px,114.968px) scale(1,1); } }
+@keyframes pulsing-circle_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a1_w { 0% { width: 2.02785px; } 78.9474% { width: 2.02785px; animation-timing-function: cubic-bezier(0,0,0.054143,1); } 100% { width: 108.832px; } }
+@keyframes a2_t { 0% { transform: translate(8.1792px,8.468px) scale(1,1); } 26.3157% { transform: translate(8.1792px,8.468px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(8.1792px,8.468px) scale(1,1); } 100% { transform: translate(8.1792px,8.468px) scale(1,1); } }
+@keyframes a2_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a3_d { 0% { d: path('M0,0L0.85883,0L0.85883,5.03345L0.85883,15.5073L0.85883,21.5L0,21.5Z'); } 55.2632% { d: path('M0,0L0.85883,0L0.85883,5.03345L0.85883,15.5073L0.85883,21.5L0,21.5Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M0,0L220.552,0L220.552,5.03345L220.552,15.5073L220.552,21.5L0,21.5Z'); animation-timing-function: cubic-bezier(0,0,0,0.998947); } 81.5789% { d: path('M0,0L220.552,0L387.402,-98.4799L399.503,-82.9608L220.552,21.5L0,21.5Z'); } 100% { d: path('M0,0L220.552,0L387.402,-98.4799L399.503,-82.9608L220.552,21.5L0,21.5Z'); } }
+@keyframes a4_w { 0% { width: 3.67071px; } 78.9474% { width: 3.67071px; animation-timing-function: cubic-bezier(0.215,0.61,0,1); } 100% { width: 185.381px; } }
+@keyframes a5_d { 0% { d: path('M0,0L1.37941,0L1.37941,10.5935L0,10.5935L0,7.96721L0,2.47528Z'); } 55.2632% { d: path('M0,0L1.37941,0L1.37941,10.5935L0,10.5935L0,7.96721L0,2.47528Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M-190.994,0L1.37941,0L1.37941,10.5935L-190.994,10.5935L-190.994,7.96721L-190.994,2.47528Z'); animation-timing-function: cubic-bezier(0,0,0,0.993684); } 81.5789% { d: path('M-190.994,0L1.37941,0L1.37941,10.5935L-190.994,10.5935L-325.59,96.2281L-330.272,89.7457Z'); } 100% { d: path('M-190.994,0L1.37941,0L1.37941,10.5935L-190.994,10.5935L-325.59,96.2281L-330.272,89.7457Z'); } }
+@keyframes a6_t { 0% { transform: translate(519.33px,247.407px) scale(1,1); } 26.3157% { transform: translate(519.33px,247.407px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(519.33px,247.407px) scale(1,1); } 100% { transform: translate(519.33px,247.407px) scale(1,1); } }
+@keyframes a6_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a7_w { 0% { width: 2.75269px; } 78.9474% { width: 2.75269px; animation-timing-function: cubic-bezier(0.166128,0.603945,0,1); } 100% { width: 168.861px; } }
+@keyframes a8_t { 0% { transform: translate(450.716px,8.05394px) scale(1,1); } 26.3157% { transform: translate(450.716px,8.05394px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(450.716px,8.05394px) scale(1,1); } 100% { transform: translate(450.716px,8.05394px) scale(1,1); } }
+@keyframes a8_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a9_d { 0% { d: path('M0,0L1.27714,0L1.27714,11L0,11L0,8.16774L0,2.71654Z'); } 55.2632% { d: path('M0,0L1.27714,0L1.27714,11L0,11L0,8.16774L0,2.71654Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M-262.074,0L1.27714,0L1.27714,11L-262.074,11L-262.074,8.16774L-262.074,2.71654Z'); animation-timing-function: cubic-bezier(0,0,0,0.990414); } 81.5789% { d: path('M-262.074,0L1.27714,0L1.27714,11L-262.074,11L-455.042,-108.076L-450.875,-114.435Z'); } 100% { d: path('M-262.074,0L1.27714,0L1.27714,11L-262.074,11L-455.042,-108.076L-450.875,-114.435Z'); } }
+@keyframes a10_w { 0% { width: 4.13337px; } 78.9474% { width: 4.13337px; animation-timing-function: cubic-bezier(0.215,0.61,0.059138,1); } 100% { width: 224.031px; } }
+@keyframes a11_d { 0% { d: path('M0,0L0.971513,0L0.971513,2.31672L0.971513,6.15856L0.971513,8.8L0,8.8Z'); } 55.2632% { d: path('M0,0L0.971513,0L0.971513,2.31672L0.971513,6.15856L0.971513,8.8L0,8.8Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M0,0L194.091,0L194.091,2.31672L194.091,6.15856L194.091,8.8L0,8.8Z'); animation-timing-function: cubic-bezier(0,0,0,0.995087); } 81.5789% { d: path('M0,0L194.091,0L280.26,-168.071L284.079,-166.049L196.044,9.52184L0,8.8Z'); } 100% { d: path('M0,0L194.091,0L280.26,-168.071L284.079,-166.049L196.044,9.52184L0,8.8Z'); } }
+@keyframes a12_t { 0% { transform: translate(7.43833px,7.91062px) scale(1,1); } 26.3157% { transform: translate(7.43833px,7.91062px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(7.43833px,7.91062px) scale(1,1); } 100% { transform: translate(7.43833px,7.91062px) scale(1,1); } }
+@keyframes a12_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a13_w { 0% { width: 4.13386px; } 78.9474% { width: 4.13386px; animation-timing-function: cubic-bezier(0.215,0.61,0.102276,1); } 100% { width: 195.097px; } }
+@keyframes a14_t { 0% { transform: translate(7.84587px,7.968px) scale(1,1); } 26.3157% { transform: translate(7.84587px,7.968px) scale(1.55,1.55); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(7.84587px,7.968px) scale(1,1); } 100% { transform: translate(7.84587px,7.968px) scale(1,1); } }
+@keyframes a14_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a15_d { 0% { d: path('M0,0L4.00711,0L4.00711,3.6847L4.00711,8.51015L4.00711,13.0584L0,13.0584Z'); } 55.2632% { d: path('M0,0L4.00711,0L4.00711,3.6847L4.00711,8.51015L4.00711,13.0584L0,13.0584Z'); } 68.4211% { d: path('M0,0L260.245,0L260.245,3.6847L260.245,8.51015L260.245,13.0584L0,13.0584Z'); } 81.5789% { d: path('M0,0L260.245,0L488.389,-169.644L493.986,-162.092L260.245,13.0584L0,13.0584Z'); } 100% { d: path('M0,0L260.245,0L488.389,-169.644L493.986,-162.092L260.245,13.0584L0,13.0584Z'); } }
+@keyframes a16_w { 0% { width: 2.48052px; } 78.9474% { width: 2.48052px; animation-timing-function: cubic-bezier(0.215,0.61,0.355,1); } 100% { width: 287.686px; } }
+@keyframes a17_t { 0% { transform: translate(511.466px,8.05394px) scale(1,1); } 26.3157% { transform: translate(511.466px,8.05394px) scale(1.35,1.35); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.6315% { transform: translate(511.466px,8.05394px) scale(1,1); } 100% { transform: translate(511.466px,8.05394px) scale(1,1); } }
+@keyframes a17_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a18_d { 0% { d: path('M0,0L0.988523,0L0.988523,13.6667L0,13.6667L0,9.91928L0,3.2636Z'); } 55.2632% { d: path('M0,0L0.988523,0L0.988523,13.6667L0,13.6667L0,9.91928L0,3.2636Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M-259.035,0L0.988523,0L0.988523,13.6667L-259.035,13.6667L-259.035,9.91928L-259.035,3.2636Z'); animation-timing-function: cubic-bezier(0,0,0,0.996676); } 81.5789% { d: path('M-259.035,0L0.988523,0L0.988523,13.6667L-259.035,13.6667L-506.726,-141.97L-501.762,-149.952Z'); } 100% { d: path('M-259.035,0L0.988523,0L0.988523,13.6667L-259.035,13.6667L-506.726,-141.97L-501.762,-149.952Z'); } }
+@keyframes a19_w { 0% { width: 2.48052px; } 78.9474% { width: 2.48052px; animation-timing-function: cubic-bezier(0.215,0.61,0.355,1); } 100% { width: 287.686px; } }
+@keyframes a20_d { 0% { d: path('M-0.650324,0L1.85491,0L1.85491,7.81672L1.85491,24.6727L1.85491,33.1377L-0.650324,33.1377Z'); } 55.2632% { d: path('M-0.650324,0L1.85491,0L1.85491,7.81672L1.85491,24.6727L1.85491,33.1377L-0.650324,33.1377Z'); animation-timing-function: cubic-bezier(0,0,0.58,1); } 68.4211% { d: path('M-0.650324,0L216.351,0L216.351,7.81672L216.351,24.6727L216.351,33.1377L-0.650324,33.1377Z'); animation-timing-function: cubic-bezier(0,0,0,0.993776); } 81.5789% { d: path('M-0.650324,0L216.351,0L319.906,250.588L314.546,262.803L216.351,33.1377L-0.650324,33.1377Z'); } 100% { d: path('M-0.650324,0L216.351,0L319.906,250.588L314.546,262.803L216.351,33.1377L-0.650324,33.1377Z'); } }
+@keyframes a21_t { 0% { transform: translate(6.84587px,173.218px) scale(1,1); } 26.3157% { transform: translate(6.84587px,173.218px) scale(1.55,1.55); } 52.6315% { transform: translate(6.84587px,173.218px) scale(1,1); } 100% { transform: translate(6.84587px,173.218px) scale(1,1); } }
+@keyframes a21_o { 0% { opacity: 1; } 52.6316% { opacity: 1; } 55.2632% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a22_w { 0% { width: 2.70267px; } 78.9474% { width: 2.70267px; animation-timing-function: cubic-bezier(0.215,0.61,0.25,1); } 100% { width: 153.555px; } }
+    </style>
+    <defs>
+        <filter id="filter0_d" x="104.5" y="54.5" width="509.5" height="291.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="43"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0.1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter1_d" x="425" y="157" width="189" height="189" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="43"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0.1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter2_d" x="1170" y="652" width="35" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="4.5"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.65 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter3_d" x="600" y="569" width="35" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="4.5"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.65 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter4_d" x="250" y="555" width="189" height="189" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="43"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0.1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter5_d" x="329" y="630" width="35" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="4.5"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.65 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <filter id="filter6_d" x="1054" y="645" width="35" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" fill="none">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="4.5"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.65 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <clipPath id="ClipPath-1">
+            <path fill="none" stroke="#ff0000" stroke-linecap="round" d="M0,0L1.53458,0L1.53458,9.24664L1.53458,25.1155L1.53458,31.6684L0,31.6684Z" fill-rule="nonzero" stroke-width="2" transform="translate(1093.88,388.565) rotate(-33.3118) translate(-133.753,-17.5972)" style="animation: 3.8s linear infinite both a0_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-10">
+            <rect width="2.02785" height="28.391" fill="#ffffff" stroke="none" transform="translate(51.27,-8.114) translate(-53.74,-14.1955)" style="animation: 3.8s linear infinite both a1_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-3">
+            <path fill="none" stroke="#ffffff" stroke-linecap="round" d="M0,0L0.85883,0L0.85883,5.03345L0.85883,15.5073L0.85883,21.5L0,21.5Z" transform="translate(599.367,201.05) rotate(33.5092) scale(0.882164,1) translate(-130,-10.75)" style="animation: 3.8s linear infinite both a3_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-15">
+            <rect width="3.67071" height="33.0382" fill="#ffffff" stroke="none" transform="translate(89.462,-6.992) translate(-93.6081,-16.5191)" style="animation: 3.8s linear infinite both a4_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-4">
+            <path fill="#616161" stroke="none" d="M0,0L1.37941,0L1.37941,10.5935L0,10.5935L0,7.96721L0,2.47528Z" transform="translate(451,199.833) rotate(32.9041) scale(1,1.00267) translate(74.2869,-2.76009)" style="animation: 3.8s linear infinite both a5_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-16">
+            <rect width="2.75269" height="31.2027" fill="#ffffff" stroke="none" transform="translate(80.686,-6.782) translate(-83.0542,-15.6014)" style="animation: 3.8s linear infinite both a7_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-5">
+            <path fill="none" stroke="#ffffff" stroke-linecap="round" d="M0,0L1.27714,0L1.27714,11L0,11L0,8.16774L0,2.71654Z" transform="translate(1081,733.5) rotate(-31.7282) translate(114.473,-5.5)" style="animation: 3.8s linear infinite both a9_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-14">
+            <rect width="4.13337" height="30.5872" fill="#ffffff" stroke="none" transform="translate(108.712,-6.451) translate(-111.602,-15.2936)" style="animation: 3.8s linear infinite both a10_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-8">
+            <path fill="none" stroke="#ffffff" stroke-linecap="round" d="M0,0L0.971513,0L0.971513,2.31672L0.971513,6.15856L0.971513,8.8L0,8.8Z" transform="translate(664.495,680.321) rotate(63.1044) translate(-99.6667,-3.8)" style="animation: 3.8s linear infinite both a11_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-13">
+            <rect width="4.13386" height="32.2406" fill="#ffffff" stroke="none" transform="translate(92.951,-7.572) translate(-97.9618,-16.1203)" style="animation: 3.8s linear infinite both a13_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-7">
+            <path fill="none" stroke="#ffffff" stroke-linecap="round" d="M0,0L4.00711,0L4.00711,3.6847L4.00711,8.51015L4.00711,13.0584L0,13.0584Z" transform="translate(469.289,732.936) rotate(36.543) translate(-148,-1.39182)" style="animation: 3.8s linear infinite both a15_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-12">
+            <rect width="2.48052" height="31.4139" fill="#ffffff" stroke="none" transform="translate(140.295,-5.638) translate(-143.429,-15.707)" style="animation: 3.8s linear infinite both a16_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-6">
+            <path fill="#ffffff" stroke="none" d="M0,0L0.988523,0L0.988523,13.6667L0,13.6667L0,9.91928L0,3.2636Z" transform="translate(940.501,741.568) rotate(-31.8776) translate(143.177,-6.83333)" style="animation: 3.8s linear infinite both a18_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-11">
+            <rect width="2.48052" height="31.4139" fill="#ffffff" stroke="none" transform="translate(140.295,-5.638) translate(-143.429,-15.707)" style="animation: 3.8s linear infinite both a19_w;"/>
+        </clipPath>
+        <clipPath id="ClipPath-2">
+            <path fill="none" stroke="#ffffff" stroke-linecap="round" d="M-0.650324,0L1.85491,0L1.85491,7.81672L1.85491,24.6727L1.85491,33.1377L-0.650324,33.1377Z" transform="translate(853.333,312.167) rotate(-49.4884) scale(1,0.482614) translate(-62.3333,-16.1667)" style="animation: 3.8s linear infinite both a20_d;"/>
+        </clipPath>
+        <clipPath id="ClipPath-9">
+            <rect width="2.70267" height="34" fill="#ffffff" stroke="none" transform="translate(78.667,-10.333) translate(-82,-17)" style="animation: 3.8s linear infinite both a22_w;"/>
+        </clipPath>
+    </defs>
+    <path fill="#616161" stroke="none" d="M0,0L1440.39,0L1440.39,876.051L0,876.051Z" transform="translate(719.545,437.034) translate(-720.193,-438.026)"/>
+    <g id="IoT" transform="translate(1112,414.75) translate(-143.5,-61.75)">
+        <ellipse id="static-circle" stroke="white" rx="8" ry="8" fill="none" opacity="1" transform="translate(-968.5,-353) translate(976.5,468.5)"/>
+        <path id="line" d="M983,463L1092.96,391.896L1153.11,353L1255.5,353" stroke="white" stroke-linecap="round" fill="none" opacity="1" clip-path="url(#ClipPath-1)" transform="translate(-968.5,-353)" style="animation: 3.8s linear infinite both line_o;"/>
+        <ellipse id="pulsing-circle" rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(8.34587,114.968)" style="animation: 3.8s linear infinite both pulsing-circle_t, 3.8s linear infinite both pulsing-circle_o;"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-10)" transform="translate(185.83,-14.334)" style="line-height: 24px; white-space: pre;">In-built IoT </text>
+    </g>
+    <g id="LCD" transform="translate(668.25,184.25) translate(-178.75,-59.75)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-489.5,-124.5) translate(497.5,132.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(8.1792,8.468)" style="animation: 3.8s linear infinite both a2_t, 3.8s linear infinite both a2_o;"/>
+        <path d="M504,138L667.115,244L847,244" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-3)" transform="translate(-489.5,-124.5)"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-15)" transform="translate(181.833,105.5)" style="line-height: 24px; white-space: pre;">7-inch LCD display </text>
+    </g>
+    <g id="Alarm" filter="url(#filter0_d)" fill="none">
+        <path d="M512.5,243L349.385,137L191,137" stroke="white" stroke-linecap="round" clip-path="url(#ClipPath-4)"/>
+        <g filter="url(#filter1_d)">
+            <ellipse stroke="white" rx="8" ry="8" transform="translate(0,0) translate(519.5,247.5)"/>
+            <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(519.33,247.407)" style="animation: 3.8s linear infinite both a6_t, 3.8s linear infinite both a6_o;"/>
+        </g>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-16)" transform="translate(188.667,123.333)" style="line-height: 24px; white-space: pre;">Movement alarm</text>
+    </g>
+    <g id="Hub-Motor" transform="translate(964.25,735.75) translate(-229.25,-76.25)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-735,-659.5) translate(1185.5,667.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(450.716,8.05394)" style="animation: 3.8s linear infinite both a8_t, 3.8s linear infinite both a8_o;"/>
+        <path d="M1179,673L956,812L735,812" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-5)" transform="translate(-735,-659.5)"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-14)" transform="translate(0.33,138.499)" style="line-height: 24px; white-space: pre;">Max 2300W hub motor</text>
+    </g>
+    <g id="Battery" transform="translate(752.75,671.25) translate(-145.25,-94.75)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-607.5,-576.5) translate(615.5,584.5)"/>
+        <path d="M619,592L705.115,766L898,766" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-8)" transform="translate(-607.5,-576.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(7.43833,7.91062)" style="animation: 3.8s linear infinite both a12_t, 3.8s linear infinite both a12_o;"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-13)" transform="translate(103.497,175.499)" style="line-height: 24px; white-space: pre;">Lightweight battery </text>
+    </g>
+    <g id="Brakes-Left" opacity="1" transform="translate(589,720.25) translate(-252.5,-82.75)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-336.5,-637.5) translate(344.5,645.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(7.84587,7.968)" style="animation: 3.8s linear infinite both a14_t, 3.8s linear infinite both a14_o;"/>
+        <path d="M350,651.5L557,803L841.5,803" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-7)" transform="translate(-336.5,-637.5)"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-12)" transform="translate(222.164,151.832)" style="line-height: 24px; white-space: pre;">220 mm hydraulic disk brakes </text>
+    </g>
+    <g id="Brakes-Right" transform="translate(817.5,727.75) translate(-260,-75.25)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-557.5,-652.5) translate(1069.5,660.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(511.466,8.05394)" style="animation: 3.8s linear infinite both a17_t, 3.8s linear infinite both a17_o;"/>
+        <path d="M1063,665.5L842,803L557.5,803" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-6)" transform="translate(-557.5,-652.5)"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-11)" transform="translate(1.164,136.832)" style="line-height: 24px; white-space: pre;">220 mm hydraulic disk brakes </text>
+    </g>
+    <g id="seatbox" transform="translate(951.75,284) translate(-152.25,-90.5)">
+        <ellipse stroke="white" rx="8" ry="8" fill="none" transform="translate(-799.5,-193.5) translate(807.5,366.5)"/>
+        <path d="M813,360L953.549,193.5L1104,193.5" stroke="white" stroke-linecap="round" fill="none" clip-path="url(#ClipPath-2)" transform="translate(-799.5,-193.5)"/>
+        <ellipse rx="8.86013" ry="8.86013" fill="#ffffff" stroke="none" filter="drop-shadow(1px 1px 3px rgba(0,0,0,0.31))" opacity="1" transform="translate(6.84587,173.218)" style="animation: 3.8s linear infinite both a21_t, 3.8s linear infinite both a21_o;"/>
+        <text fill="#ffffff" font-size="20" font-family="'Averta PE'" letter-spacing="0" word-spacing="0" stroke="none" font-weight="600" clip-path="url(#ClipPath-9)" transform="translate(153.833,-14.167)" style="line-height: 24px; white-space: pre;">XL 26L seat box </text>
+    </g>
+</svg>
