@@ -3,7 +3,7 @@ layout: single-product-modal
 type: Kickscooter
 brand: Segway
 name: Max Pro Germany
-published: false
+published: true
 featured: false
 list-image: "/uploads/2020/05/27/segway_max_pro_germany_01-2x.jpg"
 image_gallery:
