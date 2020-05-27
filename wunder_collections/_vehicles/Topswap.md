@@ -1,11 +1,10 @@
 ---
 layout: single-product-modal
 type: Kickscooter
-brand: Segway
+brand: Acton
 name: Topswap
-published: true
 featured: false
-list-image: "/uploads/2020/05/27/acton_topswap_01-2x.jpg"
+list-image: "/uploads/2020/05/27/acton-topswap-2x.jpg"
 image_gallery:
 - "/uploads/2020/05/27/acton_topswap_01-2x.jpg"
 - "/uploads/2020/05/27/acton_topswap_02-2x.jpg"
@@ -25,5 +24,6 @@ details:
   description: Swappable batteries
 - title: 'Cable Design '
   description: Fully hidden cables
+published: true
 
 ---
