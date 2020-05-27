@@ -12,20 +12,18 @@ image_gallery:
 - "/uploads/2020/05/18/hongji_04@2x.jpg"
 - "/uploads/2020/05/18/hongji_05@2x.jpg"
 details:
+- title: Waterproof Rating
+  description: IP67 waterproof rating handles heavy rain
+- title: Brakes
+  description: Rear drum brakes
 - title: Wheels
-  description: Extra large 12” front wheel (9,5” rear)
+  description: 26-inch solid type wheels
 - title: Motor
-  description: Powerful 48V motor with 350W
+  description: Powerful 250W mid-motor
 - title: Range
-  description: Extended range of up to 55 km
-- title: Suspension
-  description: Hydraulic
-- title: Cable Design
-  description: Fully hidden cables for secure operations
-- title: Kickstand
-  description: Dual kickstand
+  description: Extended range of up to 60 km
 - title: Battery
-  description: Swappable battery
-published: false
+  description: Swappable battery system
+published: true
 
 ---
