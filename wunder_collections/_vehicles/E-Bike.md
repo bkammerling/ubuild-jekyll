@@ -1,9 +1,9 @@
 ---
 layout: single-product-modal
 type: Bike
-brand: ''
+brand: Imaatech
 name: E-Bike
-published: false
+published: true
 featured: false
 list-image: "/uploads/2020/05/27/imaatech_01-2x.jpg"
 image_gallery:
