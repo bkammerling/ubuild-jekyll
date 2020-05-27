@@ -3,7 +3,7 @@ layout: single-product-modal
 type: Moped
 brand: Niu
 name: Sharing
-published: false
+published: true
 featured: false
 list-image: "/uploads/2020/05/27/niu_01-2x.jpg"
 image_gallery:
