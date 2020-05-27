@@ -241,6 +241,24 @@ operators:
   - service: extra vehicle sanitisation
     service_notes: ''
     service_notes_de: ''
+- name: Barraqueiro Transportes
+  url: https://www.barraqueirotransportes.pt/
+  logo: "/uploads/2020/05/27/barraqueiro_transportes.png"
+  published: true
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+  - name: Portugal
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
+  - service_notes: ''
+    service_notes_de: ''
+    service: extra vehicle sanitisation
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkonig.png"
@@ -1871,6 +1889,19 @@ operators:
   - service: alternative commuting options
     service_notes: ''
     service_notes_de: ''
+- name: London Bus Group
+  url: http://www.londonbusgroup.com/
+  logo: "/uploads/2020/05/27/london_bus_group.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  services:
+  - service: alternative commuting options
+    service_notes: London Bus Group transports vulnerable and less mobile young adults
+      to college/schools.
+    service_notes_de: ''
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -2182,7 +2213,7 @@ operators:
   countries:
   - name: Poland
     cities:
-    - Krakow
+    - All cities
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
@@ -2693,7 +2724,9 @@ operators:
     - Munich
   services:
   - service: alternative commuting options
-    service_notes: ''
+    service_notes: STATTAUTO Munich Carsharing is offering different car-classes (from
+      small cars to vans) in their station-based carsharing. The cars can be booked
+      from one day to 4 weeks to meet all needs of the general public.
     service_notes_de: ''
 - name: Stella
   url: https://www.stella-sharing.de/
