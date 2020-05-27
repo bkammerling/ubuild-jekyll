@@ -21,7 +21,7 @@ details:
   description: Extended range of up to 45 km
 - title: Battery
   description: Swappable battery system
+list-image: "/uploads/2020/05/27/askoll-es2-2x.jpg"
 published: true
-list-image: "/uploads/2020/05/08/askoll_01@2x.jpg"
 
 ---

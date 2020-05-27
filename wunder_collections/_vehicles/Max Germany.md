@@ -3,9 +3,8 @@ layout: single-product-modal
 type: Kickscooter
 brand: Segway
 name: Max Germany
-published: true
 featured: false
-list-image: "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
+list-image: "/uploads/2020/05/27/segway-max-ger-2x.jpg"
 image_gallery:
 - "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
 - "/uploads/2020/05/27/segway_max_germany_02-2x.jpg"
@@ -26,5 +25,6 @@ details:
   description: Built-in 3A high power charger
 - title: Brakes
   description: Independent double braking system
+published: true
 
 ---

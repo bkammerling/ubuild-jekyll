@@ -3,9 +3,8 @@ layout: single-product-modal
 type: Kickscooter
 brand: Segway
 name: Max
-published: true
 featured: false
-list-image: "/uploads/2020/05/27/segway_max_01-2x.jpg"
+list-image: "/uploads/2020/05/27/segway-max-2x.jpg"
 image_gallery:
 - "/uploads/2020/05/27/segway_max_01-2x.jpg"
 - "/uploads/2020/05/27/segway_max_02-2x.jpg"
@@ -24,5 +23,6 @@ details:
   description: Independent double braking system
 - description: Significantly extended battery life
   title: Battery
+published: true
 
 ---

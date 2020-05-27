@@ -3,9 +3,8 @@ layout: single-product-modal
 type: Bike
 brand: Acton
 name: Nexus
-published: true
 featured: false
-list-image: "/uploads/2020/05/27/acton_01-2x.jpg"
+list-image: "/uploads/2020/05/27/acton-nexus-2x.jpg"
 image_gallery:
 - "/uploads/2020/05/27/acton_01-2x.jpg"
 details:
@@ -19,5 +18,6 @@ details:
   description: Powerful 350W e-motor
 - title: Body
   description: Aircraft-grade aluminium
+published: true
 
 ---

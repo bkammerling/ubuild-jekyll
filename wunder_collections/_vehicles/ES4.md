@@ -3,9 +3,8 @@ layout: single-product-modal
 type: Kickscooter
 brand: Segway
 name: ES4
-published: true
 featured: false
-list-image: "/uploads/2020/05/27/segway_es4_01-2x.jpg"
+list-image: "/uploads/2020/05/27/segway-es4-2x.jpg"
 image_gallery:
 - "/uploads/2020/05/27/segway_es4_01-2x.jpg"
 - "/uploads/2020/05/27/segway_es4_02-2x.jpg"
@@ -20,5 +19,6 @@ details:
   title: Lights
 - title: Brakes
   description: Anti-lock mechanical and electrical brake
+published: true
 
 ---

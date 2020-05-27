@@ -18,7 +18,7 @@ details:
   description: Up to 80 km of pedal-assisted range
 - title: Battery
   description: Swappable battery system
-published: false
-list-image: ''
+list-image: "/uploads/2020/05/27/gonbike-pab-2x.jpg"
+published: true
 
 ---
