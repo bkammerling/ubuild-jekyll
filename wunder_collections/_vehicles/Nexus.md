@@ -3,10 +3,11 @@ layout: single-product-modal
 type: Bike
 brand: Acton
 name: Nexus
-published: false
+published: true
 featured: false
-list-image: ''
-image_gallery: []
+list-image: "/uploads/2020/05/27/acton_01-2x.jpg"
+image_gallery:
+- "/uploads/2020/05/27/acton_01-2x.jpg"
 details:
 - title: Wheels
   description: 26-inch durable airless tires
