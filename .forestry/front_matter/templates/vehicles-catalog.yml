@@ -77,6 +77,7 @@ fields:
   description: List of specs / features
 pages:
 - _data/weallmove.yml
+- wunder_collections/_vehicles/E-Bike.md
 - wunder_collections/_vehicles/G5.md
 - wunder_collections/_vehicles/Sharing.md
 - wunder_collections/_vehicles/askoll-es2.md
