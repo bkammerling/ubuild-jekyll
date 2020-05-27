@@ -1,5 +1,9 @@
 ---
 all_brands:
+- Segway
+- Imaatech
+- Niu
+- Yadea
 - OKAI
 - Acton
 - Hongji
@@ -7,6 +11,12 @@ all_brands:
 - Gonbike
 - Askoll
 brands_detail:
+- brand_name: Niu
+  logo: ''
+  url: ''
+- brand_name: Yadea
+  logo: ''
+  url: ''
 - logo: "/uploads/2020/05/11/okai-v-logo@2x.jpg"
   url: https://okai.co/
   brand_name: OKAI

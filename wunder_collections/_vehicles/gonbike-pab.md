@@ -1,8 +1,7 @@
 ---
 layout: single-product-modal
 brand: Gonbike
-name: PAB
-published: true
+name: PAB 2.7
 featured: false
 type: Bike
 image_gallery:
@@ -11,19 +10,15 @@ image_gallery:
 - "/uploads/2020/05/12/gonbike_03@2x.jpg"
 - "/uploads/2020/05/12/gonbike_04@2x.jpg"
 details:
-- title: Wheels
-  description: Extra large 12” front wheel (9,5” rear)
+- title: Anti-theft
+  description: Invisible expansion brake lock
 - title: Motor
-  description: Powerful 48V motor with 350W
+  description: 36V motor with 250W
 - title: Range
-  description: Extended range of up to 55 km
-- title: Suspension
-  description: Hydraulic
-- title: Cable Design
-  description: Fully hidden cables for secure operations
-- title: Kickstand
-  description: Dual kickstand
+  description: Up to 80 km of pedal-assisted range
 - title: Battery
-  description: Swappable battery
+  description: Swappable battery system
+published: false
+list-image: ''
 
 ---
