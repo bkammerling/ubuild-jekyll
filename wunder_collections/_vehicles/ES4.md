@@ -3,7 +3,7 @@ layout: single-product-modal
 type: Kickscooter
 brand: Segway
 name: ES4
-published: false
+published: true
 featured: false
 list-image: "/uploads/2020/05/27/segway_es4_01-2x.jpg"
 image_gallery:
