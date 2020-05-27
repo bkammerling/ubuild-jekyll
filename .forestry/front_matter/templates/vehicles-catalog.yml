@@ -78,6 +78,7 @@ fields:
 pages:
 - _data/weallmove.yml
 - wunder_collections/_vehicles/G5.md
+- wunder_collections/_vehicles/Sharing.md
 - wunder_collections/_vehicles/askoll-es2.md
 - wunder_collections/_vehicles/gonbike-pab.md
 - wunder_collections/_vehicles/govecs-schwalbe.md

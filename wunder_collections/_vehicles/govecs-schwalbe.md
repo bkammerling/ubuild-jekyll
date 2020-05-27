@@ -18,6 +18,6 @@ details:
   description: Double-belt drive for a smooth ride
 - title: Battery
   description: Fast charging on-board 1200W battery
-published: false
+published: true
 
 ---
