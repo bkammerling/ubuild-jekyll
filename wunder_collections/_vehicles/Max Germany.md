@@ -5,11 +5,12 @@ brand: ''
 name: Max Germany
 published: false
 featured: false
-list-image: ''
+list-image: "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
 image_gallery:
+- "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
+- "/uploads/2020/05/27/segway_max_germany_02-2x.jpg"
 - "/uploads/2020/05/27/segway_max_germany_03-2x.jpg"
 - "/uploads/2020/05/27/segway_max_germany_04-2x.jpg"
-- "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
 details:
 - title: Motor
   description: 350W rear drive high torque motor
