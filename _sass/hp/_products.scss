@@ -322,6 +322,10 @@ body.vehicles, body.vehicles-yadea {
 svg.right-arrow {
   margin-left: 3px;
   margin-top: -3px;
+  transition: transform $transition-duration;
+  a:hover & {
+    transform: translateX(8px);
+  }
 }
 
 .catalog-item__wrapper {
