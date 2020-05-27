@@ -1,9 +1,9 @@
 ---
 layout: single-product-modal
 type: Kickscooter
-brand: ''
+brand: Segway
 name: Max Germany
-published: false
+published: true
 featured: false
 list-image: "/uploads/2020/05/27/segway_max_germany_01-2x.jpg"
 image_gallery:
