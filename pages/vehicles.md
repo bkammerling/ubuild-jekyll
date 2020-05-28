@@ -2,7 +2,8 @@
 layout: blocks
 title: Wunder Vehicles | Get your sharing-ready electric vehicles
 date: '2020-05-08T22:00:00.000+00:00'
-description: Build your dream fleet of sharing-ready electric bikes, scooters and mopeds with Wunder Vehicles. The future of mobility has arrived.
+description: Build your dream fleet of sharing-ready electric bikes, scooters and
+  mopeds with Wunder Vehicles. The future of mobility has arrived.
 permalink: "/vehicles"
 version: hp
 lang: en
@@ -21,7 +22,7 @@ page_sections:
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
-  headline: The future of mobility has arrived.  
+  headline: The future of mobility has arrived.
   sub_logo: "/uploads/global/wunder-vehicles-white.svg"
   cta:
     button_text: ''
@@ -44,10 +45,13 @@ page_sections:
   title: Your new fleet awaits
   content: Send over some info and we'll get in touch in the next 24 hours.
   background_image: ''
+  headline: ''
 - template: simple-footer
   block: footer-1
   content: ''
-share_image: ''
+  hide_menu: false
+  show_poweredby: false
+share_image: "/uploads/2020/05/28/social_share_image_vehicles.jpg"
 menu:
   wunder-main:
     weight: 7
