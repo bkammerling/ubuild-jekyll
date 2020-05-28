@@ -291,6 +291,12 @@
 
 // Vehicles product page styling
 
+.contact-form__wrapper {
+  @include rwd(tablet-down) {
+    box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
+  }
+}
+
 body.vehicles, body.vehicles-yadea {
   .hero-banner .hero-banner__inner-content {
     @include rwd(tablet-up) {
@@ -308,6 +314,8 @@ body.vehicles, body.vehicles-yadea {
   input {
     appearance: none;
     -webkit-appearance: none;
+    width: 0;
+    opacity: 0;
   }
   label {
     // padding here too for a bigger touch area

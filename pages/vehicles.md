@@ -31,7 +31,7 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
-  background_video: fleet_loop
+  background_video: vehicles-loop
   show_logos: false
   logo_row: ''
   background_image: "/uploads/global/fleet-frame.jpg"

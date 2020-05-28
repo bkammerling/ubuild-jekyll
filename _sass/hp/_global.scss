@@ -331,6 +331,27 @@ blockquote {
   }
 }
 
+
+#testimonialCarousel {
+  svg.quote-marks {
+    width: 56px;
+    margin-bottom: 20px;
+    @include rwd(tablet-up) {
+      width: 97px;
+    }
+  }
+  .carousel-inner {
+
+  }
+  .carousel-indicators li {
+    height: 2px;
+    width: 48px;
+    &:not(.active) {
+      opacity: .2;
+    }
+  }
+}
+
 .grecaptcha-badge {
   display: none;
 }

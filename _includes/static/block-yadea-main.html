@@ -15,11 +15,7 @@
   </div>
   <div class="position-absolute w-100 px-5" style="bottom: 3rem;">
     <a href="#introduction" data-offset="100"; class="float-left mt-0">
-      <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="15" cy="15.1914" r="10" stroke="white" stroke-width="0.5"/>
-        <circle opacity="0.3" cx="15.1992" cy="15.3926" r="15" fill="white"/>
-        <path d="M17.26 14.4411L14.9967 16.7045L12.7334 14.4411C12.6244 14.3319 12.4764 14.2705 12.3221 14.2705C12.1678 14.2705 12.0198 14.3319 11.9109 14.4411C11.6834 14.6686 11.6834 15.0361 11.9109 15.2636L14.5884 17.9411C14.8159 18.1686 15.1834 18.1686 15.4109 17.9411L18.0884 15.2636C18.3159 15.0361 18.3159 14.6686 18.0884 14.4411C17.8609 14.2195 17.4875 14.2136 17.26 14.4411Z" fill="white"/>
-      </svg>
+      {% include /assets/scroll_trigger.svg %}
     </a>
     <img class="float-right" src="uploads/global/wunder-yadea-logos.png" srcset="uploads/global/wunder-yadea-logos@2x.png 2x" />
   </div>
@@ -42,7 +38,7 @@
             <path d="M5.20898 12.9997L16.379 12.9997L11.499 17.8797C11.109 18.2697 11.109 18.9097 11.499 19.2997C11.889 19.6897 12.519 19.6897 12.909 19.2997L19.499 12.7097C19.889 12.3197 19.889 11.6897 19.499 11.2997L12.919 4.69971C12.7322 4.51246 12.4785 4.40723 12.214 4.40723C11.9495 4.40723 11.6958 4.51246 11.509 4.69971C11.119 5.08971 11.119 5.71971 11.509 6.10971L16.379 10.9997L5.20898 10.9997C4.65898 10.9997 4.20898 11.4497 4.20898 11.9997C4.20898 12.5497 4.65898 12.9997 5.20898 12.9997Z" fill="#141414"/>
           </svg>
         </a>
-      </div> 
+      </div>
     </div>
   </div>
 </section>
@@ -57,7 +53,7 @@
 
     <hr class="my-5">
 
-    <div class="row py-3">
+    <div class="row py-3" data-aos="soft-up" data-aos-easing="apple-easing">
       <div class="col-3 col-md-2">
         <p>Power</p>
       </div>
@@ -83,7 +79,7 @@
 
     <hr class="my-5">
 
-    <div class="row py-3">
+    <div class="row py-3" data-aos="soft-up" data-aos-easing="apple-easing">
       <div class="col-3 col-md-2">
         <p>Durability</p>
       </div>
@@ -109,7 +105,7 @@
 
     <hr class="my-5">
 
-    <div class="row py-3">
+    <div class="row py-3" data-aos="soft-up" data-aos-easing="apple-easing">
       <div class="col-3 col-md-2">
         <p>Design</p>
       </div>
@@ -137,13 +133,12 @@
 
 <section id="highlights" class="my-5 overflow-hidden">
   <div class="container">
-
     <div class="row align-items-center py-5 py-md-0">
-      <div class="col-md-6 col-lg-5 col-xl-4 offset-lg-1 order-md-2">
+      <div class="col-md-6 col-lg-5 col-xl-4 offset-lg-1 order-md-2" data-aos="fade-left" data-aos-easing="apple-easing">
         <h2 class="headline-large">Built-in IoT Device</h2>
         <p class="pr-5">Keep your fleet connected with built-in IoT technology and cut out third-party devices.</p>
       </div>
-      <div class="col-md-6 col-lg-5">
+      <div class="col-md-6 col-lg-5" data-aos="fade-right" data-aos-easing="apple-easing">
         <div id="yadea-iot">
           <img id="yadea-iot__front" data-src="uploads/global/yadea-front.png" data-srcset="uploads/global/yadea-front@2x.png 2x" />
         </div>
@@ -151,11 +146,11 @@
     </div>
 
     <div class="row pb-5 align-items-center">
-      <div class="col-md-6 col-lg-4 offset-lg-1">
+      <div class="col-md-6 col-lg-4 offset-lg-1" data-aos="fade-right" data-aos-easing="apple-easing">
         <h2 class="headline-large">Swappable Battery</h2>
         <p class="pr-5">Swap out the G5’s integrated, ultra-light battery with your master key - no other tools required.</p>
       </div>
-      <div class="col-md-6 col-lg-7">
+      <div class="col-md-6 col-lg-7" data-aos="fade-left" data-aos-easing="apple-easing">
         <div id="yadea-battery">
           <img id="yadea-battery__side" data-src="uploads/global/yadea-openbattery.png" data-srcset="uploads/global/yadea-openbattery@2x.png 2x" />
         </div>
@@ -166,7 +161,8 @@
 
 <section id="gallery" class="mt-5 ">
   <video class="w-100" width="1439" height="700" autoplay="autoplay" playsinline loop muted>
-    <source src="uploads/global/yadea-video-test2.mp4" type="video/mp4" />
+    <source src="uploads/global/yadea-loop.mp4" type="video/mp4" />
+    <source src="uploads/global/yadea-loop.webp" type="video/webp" />
   </video>
   <div class="container-fluid">
     <div class="row flex-sm-nowrap">
