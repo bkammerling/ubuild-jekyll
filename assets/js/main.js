@@ -163,7 +163,7 @@ var yadeaSVG = {
   init: function() {
     $("#yadea-3d ellipse, #yadea-3d-mob ellipse").click(function() {
       var $svg = $(this).parents('svg');
-      $(this).removeClass('active');
+      $("#yadea-3d ellipse, #yadea-3d-mob ellipse").removeClass('active');
       $(this).addClass('active');
       var $g = $(this).parents('g');
       var rx = /\((.*)\)$/;
