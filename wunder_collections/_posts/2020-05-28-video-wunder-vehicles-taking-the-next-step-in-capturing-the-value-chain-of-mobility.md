@@ -33,4 +33,6 @@ Today, we evolve from being a reseller of vehicles to launching our own. Over th
 
 Until today, we’re the only people who know the story of this capability; today, we want to tell the #FullStory to the world.
 
-The Yadea G5 is now available for pre-order. Visit our [website](https://www.wundermobility.com/vehicles/yadea-g5) for more details. 
+***
+
+Available for preorder now. Visit our [website](https://www.wundermobility.com/vehicles/yadea-g5) for more details. 
