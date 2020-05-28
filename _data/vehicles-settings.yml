@@ -11,6 +11,9 @@ all_brands:
 - Gonbike
 - Askoll
 brands_detail:
+- brand_name: Segway
+  logo: "/uploads/2020/05/28/segway-1-2x.jpg"
+  url: ''
 - brand_name: Imaatech
   logo: "/uploads/2020/05/28/imaatech-v-logo-2x.jpg"
   url: ''
