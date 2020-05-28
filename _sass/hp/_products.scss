@@ -513,7 +513,7 @@ svg.right-arrow {
 
 }
 
-#yadea-3d {
+#yadea-3d, #yadea-3d-mob {
   clipPath {
     rect, path {
       animation-iteration-count: infinite !important;
@@ -535,7 +535,6 @@ svg.right-arrow {
       }
     }
   }
-  @keyframes pulsingCircle1 { 0% { rx:10; ry:10; } 52.3157% { rx:14; ry:14; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:10; ry:10; } }
   ellipse {
     animation: pulsingCircle1 1.9s linear infinite both ;
     cursor: pointer;
@@ -546,6 +545,7 @@ svg.right-arrow {
   }
 }
 
+@keyframes pulsingCircle1 { 0% { rx:10; ry:10; } 52.3157% { rx:14; ry:14; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:10; ry:10; } }
 
 
 // yadea highlight section
