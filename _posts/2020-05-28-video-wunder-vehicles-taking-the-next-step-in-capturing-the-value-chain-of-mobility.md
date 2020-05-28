@@ -18,7 +18,7 @@ excerpt: Today, we’re taking the next step in becoming a full stack mobility p
   for operators by kicking off our official launch campaign for Wunder Vehicles.
 share_image: "/uploads/2020/05/28/vehicles_list.png"
 sticky: true
-hidden: false
+hidden: true
 
 ---
 Today, we’re taking the next step in becoming a full stack mobility platform for operators by kicking off our official launch campaign for Wunder Vehicles.
