@@ -404,6 +404,19 @@ svg.right-arrow {
       }
     }
   }
+
+  .loading & {
+    display: none;
+  }
+}
+
+.modal-content {
+  .spinning-wrapper {
+    display: none;
+    .loading & {
+      display: block;
+    }
+  }
 }
 
 .horizontal-gallery {

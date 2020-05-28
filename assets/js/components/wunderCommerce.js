@@ -1,7 +1,10 @@
 $('#commerceModal').on('show.bs.modal', function (event) {
+  var $modal = $(this);
+  $modal.addClass('loading');
   var button = $(event.relatedTarget) // Button that triggered the modal
   var content = button.data('content') // Extract info from data-* attributes
-  $(this).find('.modal-body').load(content, function() {
+  $(this).find('.api-content').load(content, function() {
+    $modal.removeClass('loading');
     $('.carousel').carousel({
       interval: false
     })
