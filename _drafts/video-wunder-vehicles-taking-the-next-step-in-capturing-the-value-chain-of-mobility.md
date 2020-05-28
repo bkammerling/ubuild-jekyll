@@ -13,10 +13,10 @@ cta_link: pages/hardware.md
 title: "[Video] Wunder Vehicles: Taking the next step in capturing the value chain
   of mobility"
 publish_date: 2020-05-28 12:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/05/28/vehicles_list.png"
 excerpt: Today, we’re taking the next step in becoming a full stack mobility platform
   for operators by kicking off our official launch campaign for Wunder Vehicles.
-share_image: ''
+share_image: "/uploads/2020/05/28/vehicles_list.png"
 sticky: true
 hidden: false
 
