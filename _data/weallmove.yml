@@ -4032,3 +4032,12 @@ services_detail:
   need_this_helps_with: Access to vehicles for takeaway delivery
   service_name: cooperation with delivery and restaurants
   service_description_de: ''
+layout: ''
+name: ''
+published: false
+featured: false
+type: Kickscooter
+list-image: ''
+image_gallery: []
+brand: ''
+details: []
