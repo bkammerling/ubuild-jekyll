@@ -92,6 +92,7 @@ var menu = {
     this.toggleMenu(btn, this.submenu);
     this.showMenu(navlink, this.submenu);
     this.hideSetup(hideBtn, this.submenu);
+    if(pageref=='vehicles-yadea') this.toggleBootstrapMenu(navlink, btn);
   },
 
   toggleMenu: function(target, submenu) {
@@ -104,6 +105,12 @@ var menu = {
       $('body').toggleClass('mobmenu-active');
 
     });
+  },
+
+  toggleBootstrapMenu: function(target, toggleElement) {
+    target.on("click", function(e) {
+      toggleElement.trigger("click");
+    })
   },
 
   showMenu: function(target, submenu) {
@@ -150,6 +157,26 @@ var myLazyLoad = new LazyLoad({
 var myLazyLoad2 = new LazyLoad({
     elements_selector: ".lazy"
 });
+
+
+var yadeaSVG = {
+  init: function() {
+    $("#yadea-3d ellipse").click(function() {
+      $(`#yadea-3d ellipse`).removeClass('active');
+      $(this).addClass('active');
+      var $g = $(this).parents('g');
+      var rx = /\((.*)\)$/;
+      var pathArray = $g.find('path');
+      var id1 = pathArray.eq(0).attr('clip-path').match(rx);
+      var id2 = pathArray.eq(1).attr('clip-path').match(rx);
+      console.log(id1, id2);
+      $(`#yadea-3d clipPath.active`).removeClass('active').addClass('inactive');
+      $(`#yadea-3d ${id1[1]}, #yadea-3d ${id2[1]}`).removeClass('inactive').addClass('active');
+    });
+  }
+}
+if(pageref == 'vehicles-yadea') yadeaSVG.init();
+
 
 var formHistory = [];
 var form = {
@@ -601,6 +628,9 @@ $(document).ready(function() {
     var topOffset = 250;
     if(this.hash.indexOf('contact')!= -1 && pageref != "shuttle") {
       topOffset = -100;
+    }
+    if(typeof $(this).data('offset') !== 'undefined') {
+      topOffset = parseInt($(this).data('offset'));
     }
     // Does a scroll target exist?
     if (target.length) {

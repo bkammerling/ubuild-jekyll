@@ -12,7 +12,14 @@ h1, h2, h3, h4 {
 h1, .headline-large {
   font-size: 32px;
   line-height: 36px;
-  @include rwd(tablet-up) {
+  &:not(.late-riser) {
+    @include rwd(tablet-up) {
+      font-size: 56px;
+      line-height: 60px;
+      margin-bottom: 32px;
+    }
+  }
+  @include rwd(desktop-up) {
     font-size: 56px;
     line-height: 60px;
     margin-bottom: 32px;
@@ -107,7 +114,9 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: $font-semibold;
-  color: $mobility-blue;
+  &a {
+    color: $mobility-blue;
+  }
   .nav & {
     color: $mobility-black;
   }

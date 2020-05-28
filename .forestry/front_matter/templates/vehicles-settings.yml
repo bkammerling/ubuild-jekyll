@@ -1,0 +1,48 @@
+---
+label: Vehicles Settings
+hide_body: true
+fields:
+- name: all_brands
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: All Brands
+  description: List of brands we offer
+- name: brands_detail
+  type: field_group_list
+  fields:
+  - name: brand_name
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: vehicles-settings
+        file: _data/vehicles-settings.yml
+        path: all_brands
+    label: Brand Name
+    description: Which brand are you describing here
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+    description: For perfect sharpness upload 1x image first (around 100px wide) and
+      then replace with @2x image (200px wide). e.g. okai.jpg &amp; okai@2x.jpg
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Website
+    description: 'Full website url incl. https://... '
+  label: Brands Detail
+  config:
+    labelField: brand_name
+pages:
+- _data/vehicles-settings.yml

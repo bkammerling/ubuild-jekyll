@@ -15,6 +15,10 @@ collections:
     output: true
   people:
     output: false
+  vehicles:
+    permalink: "/api/vehicles/:name"
+    output: true
+collections_dir: wunder_collections
 include:
 - _redirects
 exclude:

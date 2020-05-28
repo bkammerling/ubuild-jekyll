@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg width="31" height="31" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="background: rgba(0,0,0,0.00); white-space: pre;">
+    <style>
+@keyframes a0_t { 0% { transform: translate(32px,32px) scale(2.09,2.09); animation-timing-function: cubic-bezier(0,0,0.58,1); } 40% { transform: translate(32px,32px) scale(2.99,2.99); } 60% { transform: translate(32px,32px) scale(2.99,2.99); animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { transform: translate(32px,32px) scale(2.09,2.09); } }
+    </style>
+    <path fill="none" stroke="white" stroke-width="1" d="M10,0C10,5.52285,5.52285,10,0,10C-0.508102,10,-1.00735,9.96211,-1.49508,9.88899C-6.30875,9.16735,-10,5.01475,-10,0C-10,-5.52285,-5.52285,-10,0,-10C5.52285,-10,10,-5.52285,10,0Z" transform="translate(32,32) scale(2.09,2.09)" style="animation: 2.5s linear infinite both a0_t;"/>
+    <path d="M6.26003,0.441124L3.99669,2.70446L1.73336,0.441124C1.62437,0.331894,1.47641,0.270508,1.32211,0.270508C1.16781,0.270508,1.01984,0.331894,0.910859,0.441124C0.683359,0.668625,0.683359,1.03612,0.910859,1.26362L3.58836,3.94113C3.81586,4.16863,4.18336,4.16863,4.41086,3.94113L7.08836,1.26362C7.31586,1.03612,7.31586,0.668625,7.08836,0.441124C6.86086,0.219458,6.48753,0.213624,6.26003,0.441124L6.26003,0.441124Z" fill="white" transform="translate(23.6408,28.2205) scale(2.09,2.09)"/>
+</svg>

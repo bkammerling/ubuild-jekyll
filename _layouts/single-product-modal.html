@@ -1,0 +1,71 @@
+<div class="single-product-modal">
+  <div class="row mb-5">
+    <div class="col">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <ion-icon name="close-circle-outline"></ion-icon>
+      </button>
+    </div>
+  </div>
+  <div class="modal-inner px-md-4">
+    {% assign brandDetail = site.data.vehicles-settings.brands_detail | where: 'brand_name', page.brand | first %}
+    <div class="row">
+      <div class="col-md-7">
+        <img class="mb-3 brand-logo" src="{{ brandDetail.logo | relative_url }}" alt="Brand logo for {{ page.brand }}"/>
+        <h3 class="headline-medium mb-4">{{ page.name }}</h3>
+      </div>
+      <div class="d-none d-md-flex col-md-5">
+        <a class="text-link align-self-start ml-auto" id="product-modal-contact" onclick="modalContactClicked(event)" data-message="I would like to enquire about the vehicle {{ page.brand }} {{page.name}}" href="#section-contact">
+          Contact us about this model
+          <svg width="24" height="24" class="right-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.20898 12.9997L16.379 12.9997L11.499 17.8797C11.109 18.2697 11.109 18.9097 11.499 19.2997C11.889 19.6897 12.519 19.6897 12.909 19.2997L19.499 12.7097C19.889 12.3197 19.889 11.6897 19.499 11.2997L12.919 4.69971C12.7322 4.51246 12.4785 4.40723 12.214 4.40723C11.9495 4.40723 11.6958 4.51246 11.509 4.69971C11.119 5.08971 11.119 5.71971 11.509 6.10971L16.379 10.9997L5.20898 10.9997C4.65898 10.9997 4.20898 11.4497 4.20898 11.9997C4.20898 12.5497 4.65898 12.9997 5.20898 12.9997Z" fill="#141414"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="row py-4 py-md-5">
+      <div class="col">
+
+        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            {% for image in page.image_gallery %}
+            <li data-target="#productCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index == 1 %}active{% endif %}"></li>
+            {% endfor %}
+          </ol>
+          <div class="carousel-inner">
+            {% for image in page.image_gallery %}
+            <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+              <img class="d-block w-100" src="{{ image | relative_url | replace: '@2x', '' }}" srcset="{{ image | relative_url }}" />
+            </div>
+            {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        {% comment %}
+        <div class="horizontal-gallery">
+          {% for image in page.image_gallery %}
+          <img src="{{ image | relative_url | replace: '@2x', '' }}" srcset="{{ image | relative_url }}" />
+          {% endfor %}
+        </div>
+        {% endcomment %}
+
+      </div>
+    </div>
+
+    <div class="product-details mb-5">
+      {% assign sortedProducts = page.details | sort: 'title'  %}
+      {% for detail in sortedProducts %}
+      <p class="text-link mb-3"><small>{{ detail.title }}</small><br>{{ detail.description }}</p>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

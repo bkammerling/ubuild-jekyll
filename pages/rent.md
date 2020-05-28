@@ -39,7 +39,6 @@ page_sections:
   title: Request a demo
   content: We'll get you up and running in no time! Send over
     some info and we'll get in touch in the next 24h.
-  headline: Let's Talk
   background_image: ''
 - template: simple-footer
   block: footer-1

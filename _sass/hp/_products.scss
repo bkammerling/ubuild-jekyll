@@ -8,6 +8,9 @@
   }
 }
 
+.grey-bridge {
+  background: linear-gradient(to bottom, $black96 0%, $black96 60%, $white 60%, $white 100%);
+}
 
 .text-blue {
   color: $mobility-blue;
@@ -284,6 +287,300 @@
     padding-left: 25px
   }
 }
+
+
+// Vehicles product page styling
+
+.contact-form__wrapper {
+  @include rwd(tablet-down) {
+    box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
+  }
+}
+
+body.vehicles, body.vehicles-yadea {
+  .hero-banner .hero-banner__inner-content {
+    @include rwd(tablet-up) {
+      padding: 17.25rem 0;
+    }
+  }
+}
+
+.simple-radio-group {
+  .radio-group {
+    @include rwd(tablet-up) {
+      margin: 0 1.5rem;
+    }
+  }
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 0;
+    opacity: 0;
+  }
+  label {
+    // padding here too for a bigger touch area
+    padding: 0 .5rem;
+    cursor: pointer;
+  }
+  input:checked ~ label, input:hover ~ label {
+    text-decoration: underline;
+  }
+}
+
+svg.right-arrow {
+  margin-left: 3px;
+  margin-top: -3px;
+  transition: transform $transition-duration;
+  a:hover & {
+    transform: translateX(8px);
+  }
+}
+
+.catalog-item__wrapper {
+  &.featured {
+    @extend .col-12;
+    @extend .col-md-6;
+  }
+  &:not(.featured) {
+    @extend .col-6;
+    @extend .col-md-4;
+  }
+}
+.catalog-item {
+  margin-bottom: 40px;
+  &__image {
+    height: 52vw;
+    background-size: cover;
+    background-position: center 85%;
+    transition: all 0.4s;
+    @include rwd(mobile-up) {
+      height: 300px;
+    }
+    @include rwd(tablet-up) {
+      height: 300px;
+      background-size: auto 100%;
+      background-position: center center;
+      a:hover & {
+        background-size: auto 105%;
+      }
+    }
+    @include rwd(desktop-up) {
+      height: 500px;
+    }
+  }
+
+  a:hover & {
+    p {
+      text-decoration: underline;
+    }
+  }
+
+  .featured & .catalog-item__image {
+    height: 300px;
+    @include rwd(mobile-up) {
+      height: 400px;
+    }
+    @include rwd(tablet-up) {
+      height: 500px;
+    }
+    @include rwd(desktop-up) {
+      height: 650px;
+    }
+  }
+}
+
+.single-product-modal {
+  .brand-logo {
+    max-height: 29px;
+  }
+  .product-details {
+    @include rwd(desktop-up) {
+      column-count: 3;
+      column-gap: 50px;
+      column-fill: auto; //fills first columns first
+      height: 290px;
+      p {
+        break-inside: avoid-column;
+      }
+    }
+  }
+}
+
+.horizontal-gallery {
+  white-space: nowrap;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  img {
+    scroll-snap-align: start;
+  }
+}
+
+.bgimage-section {
+  &#bgimage-yadea {
+    background-image: url('/uploads/global/yadeaconnection-bg_mob.jpg');
+    background-size: cover;
+    background-position: right;
+    @include rwd(tablet-up) {
+
+    }
+    @include rwd(desktop-up) {
+      background-image: url('/uploads/global/yadeaconnection-bg.jpg');
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/yadeaconnection-bg_mob@2x.jpg');
+      @include rwd(tablet-up) {
+        background-image: url('/uploads/global/yadeaconnection-bg@2x.jpg');
+      }
+    }
+
+  }
+  &__text {
+    padding: 230px 0;
+  }
+}
+
+.logo-boxes.sq .single-box.partners-text {
+  @include rwd(tablet-down) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+/* YADEAAAAAAAA */
+.vehicles-yadea {
+  .hero-banner {
+    background-image: url("/uploads/global/yadea-hero_mob.jpg");
+    @include rwd(mobile-up) {
+      background-image: url("/uploads/global/yadea-hero.jpg");
+    }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('/uploads/global/yadea-hero_mob@2x.jpg');
+      @include rwd(mobile-up) {
+        background-image: url('/uploads/global/yadea-hero@2x.jpg');
+      }
+    }
+    @include rwd(mobile-down) {
+      background-position: bottom;
+      .hero-banner__inner-content {
+        padding: 8.0625rem 0 123vw;
+      }
+    }
+
+
+    h1 {
+      font-size: 62px;
+      @include rwd(tablet-up) {
+        font-size: 120px;
+      }
+    }
+    .powered-by {
+      transform: translateX(110px);
+      @include rwd(tablet-up) {
+        transform: translateX(215px);
+      }
+    }
+
+
+  }
+
+  h1,h2:not(.page-heading) {
+    font-weight: normal;
+    line-height: 1;
+  }
+  .headline-large:not(.page-heading) {
+    font-size: 40px;
+    line-height: 48px;
+    @include rwd(tablet-up) {
+      font-size: 70px;
+      line-height: 88px;
+    }
+  }
+
+
+}
+
+#yadea-3d {
+  clipPath {
+    rect, path {
+      animation-iteration-count: infinite !important;
+      animation-play-state: paused !important;
+      animation-duration: 1.9s !important;
+    }
+    &.active {
+      rect, path {
+        animation-iteration-count: 1 !important;
+        animation-play-state: running !important;
+        animation-direction: normal !important;
+      }
+    }
+    &.inactive {
+      rect, path {
+        animation-iteration-count: 1 !important;
+        animation-direction: reverse !important;
+        animation-play-state: running !important;
+      }
+    }
+  }
+  ellipse {
+    animation: 1.9s linear infinite both pulsing-circle_1;
+    cursor: pointer;
+    &.active {
+      animation: none;
+      fill: none;
+    }
+  }
+}
+@keyframes pulsing-circle_1 { 0% { rx:8; ry:8; } 52.3157% { rx:12; ry:12; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:8; ry:8; } }
+
+
+// yadea highlight section
+#highlights {
+  img {
+
+    &#yadea-iot__front {
+      max-width: 100%;
+      @include rwd(tablet-up) {
+        max-width: 140%;
+        transform: translateX(-20%);
+      }
+      @include rwd(desktop-up) {
+        transform: translateX(-12%);
+        max-width: none;
+      }
+    }
+    &#yadea-battery__side {
+      max-width: 150%;
+      @include rwd(tablet-up) {
+        max-width: 195%;
+      }
+      @include rwd(desktop-up) {
+        max-width: none;
+      }
+    }
+  }
+}
+
+
+
+#gallery {
+  video {
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+#gallery {
+  .gallery-photo {
+    margin: 8px;
+    @include rwd(tablet-up) {
+      margin: 15px;
+    }
+  }
+}
+
+/* END OF VEHICLES STYLING   */
+
 
 ul.feature-list {
   padding-left: 1.8em;
