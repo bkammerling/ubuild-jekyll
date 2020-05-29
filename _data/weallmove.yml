@@ -1401,6 +1401,66 @@ operators:
   - service: support for healthcare and/or essential workers
     service_notes: ''
     service_notes_de: ''
+- name: Herman & Vandamme
+  url: https://www.hervan.be/
+  logo: "/uploads/2020/05/29/herman_e_vandamme.png"
+  published: true
+  countries:
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Czech Republic
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Austria
+    cities:
+    - All cities
+  - name: Germany
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
 - name: Hertz Germany
   url: https://www.hertz.de/
   logo: "/uploads/2020/04/09/hertz.png"
