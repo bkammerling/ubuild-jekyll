@@ -2431,6 +2431,78 @@ operators:
   - service: alternative commuting options
     service_notes: ''
     service_notes_de: ''
+- name: Rent!
+  url: http://rent.com.br/
+  logo: "/uploads/2020/05/29/rent.png"
+  published: true
+  countries:
+  - name: Brazil
+    cities:
+    - Vitória
+    - Vinhedo
+    - Vilhena
+    - Vila Velha
+    - Várzea Grande
+    - Sinop
+    - São Paulo
+    - São José dos Pinhais
+    - São Bernardo do Campo
+    - Santa Cruz do Sul
+    - Salvador
+    - Rio Grande
+    - Rio de Janeiro
+    - Ribeirão Preto
+    - Recife
+    - Porto Velho
+    - Porto Seguro
+    - Porto Alegre
+    - Pelotas
+    - Passo Fundo
+    - Navegantes
+    - Natal
+    - Montes Claros
+    - Maringá
+    - Luís Eduardo Magalhães
+    - Lauro de Freitas
+    - Juiz de Fora
+    - João Pessoa
+    - Iúna
+    - Itu
+    - Indaiatuba
+    - Ijui
+    - Guarulhos
+    - Guarapari
+    - Goiânia
+    - Foz do Iguaçu
+    - Florianópolis
+    - Erechim
+    - Curitiba
+    - Cuiabá
+    - Confins
+    - Chapecó
+    - Caxias do Sul
+    - Canoas
+    - Grande
+    - Campo
+    - Campinas
+    - Cachoeirinha
+    - Cachoeira do Sul
+    - Brasília
+    - Blumenau
+    - Belo Horizonte
+    - Arcos
+    - Araguaína
+    - Aracaju
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Rent! is offering different car rental conditions for healthcare
+      professionals, with discounts and free days (Available in Araguaína, Cuiabá,
+      Curitiba, Foz do Iguaçu, Goiânia, Maringá, Salvador, São Paulo e Sinop)
+    service_notes_de: ''
+  - service_notes: " Through the website rent.com.br or the consumer buys promotional
+      discount coupons in advance and can be used on your car rental until June 2021."
+    service_notes_de: ''
+    service: discounted rides
 - name: Revel
   url: https://gorevel.com/safety/coronavirus/service-provider-form/
   logo: "/uploads/2020/04/20/revel.png"
