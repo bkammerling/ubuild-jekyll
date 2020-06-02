@@ -316,6 +316,8 @@ var form = {
     'Wunder Park': 'OgV9CMG_3qQBELDQutED',
     'Wunder Rent': '-Xc_CKWC7KQBELDQutED',
     'Wunder City': '0hWZCJeJ7KQBELDQutED',
+    'Wunder Vehicles': 'rmxbCLHIk9IBELDQutED',
+    'Yadea G5': 'od9sCL3Xk9IBELDQutED',
     'WMS': 'NvWgCNzV46QBELDQutED'
   }
 };

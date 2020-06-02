@@ -57,8 +57,7 @@
                     <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
                     <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
                     <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
-                    <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' %}selected{% endif %}>Wunder Vehicles</option>
-                    <option value="Yadea G5" data-id="vehicles" {% if page.lang-ref == 'vehicles-yadea' %}selected{% endif %}>Wunder Vehicles - Yadea</option>
+                    <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' or page.lang-ref == 'vehicles-yadea' %}selected{% endif %}>Wunder Vehicles</option>
                     <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
                     <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
                   </select>
