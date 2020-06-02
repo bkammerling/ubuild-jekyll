@@ -20,7 +20,7 @@ excerpt: 'Transport policy has been a task of the EU for decades, and yet not al
   decisions can be made by the EU alone - like when it comes to regulating drones. '
 share_image: "/uploads/2020/06/02/regulatingdrones_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/regulierung-von-drohnen)_._
