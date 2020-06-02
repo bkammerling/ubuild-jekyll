@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf_ [_Deutsch_](www.wundermobility.com//blog/regulierung-von-drohnen)_._
+_Lesen Sie den Artikel auf_ [_Deutsch_](www.wundermobility.com/blog/regulierung-von-drohnen)_._
 
 ![](/uploads/2020/06/02/regulatingdrones_body.jpg)
 
