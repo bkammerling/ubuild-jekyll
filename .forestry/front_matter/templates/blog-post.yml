@@ -114,3 +114,5 @@ fields:
   label: Hide from Article List
   description: When you want the post published and live but not in article list on
     /blog
+pages:
+- wunder_collections/_posts/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation.md
