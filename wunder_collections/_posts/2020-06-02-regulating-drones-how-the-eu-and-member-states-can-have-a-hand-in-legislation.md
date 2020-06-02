@@ -14,7 +14,7 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
   city officials and mobility enthusiasts. '
 cta_link: pages/bernstein-newsletter.md
 title: 'Regulating Drones: How the EU and member states can have a hand in legislation'
-publish_date: 2020-06-02 11:00:00 +0000
+publish_date: 2020-06-02T11:00:00.000+00:00
 featured_image: "/uploads/2020/06/02/regulatingdrones_list.jpeg"
 excerpt: 'Transport policy has been a task of the EU for decades, and yet not all
   decisions can be made by the EU alone - like when it comes to regulating drones. '
@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf Deutsch._
+_Lesen Sie den Artikel auf_ [_Deutsch_](www.wundermobility.com//blog/regulierung-von-drohnen)_._
 
 ![](/uploads/2020/06/02/regulatingdrones_body.jpg)
 

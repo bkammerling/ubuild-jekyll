@@ -13,7 +13,7 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
   city officials and mobility enthusiasts. '
 cta_link: pages/bernstein-newsletter.md
 title: Regulierung von Drohnen
-publish_date: 2020-06-01 11:00:00 +0000
+publish_date: 2020-06-01T11:00:00.000+00:00
 featured_image: "/uploads/2020/06/02/regulatingdrones_list.jpeg"
 excerpt: Wer hat welche Kompetenz in Europa? Nicht immer ist eindeutig, wann die Kompetenz
   bei der Europäische Union (EU) und wann bei den Mitgliedstaaten liegt.
@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](www.wundermobility.com//blog/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation)_._
 
 **Regulierung von Drohnen: Wie sich EU- und Mitgliedstaaten bei der Gesetzgebung an die Hand nehmen können**
 
