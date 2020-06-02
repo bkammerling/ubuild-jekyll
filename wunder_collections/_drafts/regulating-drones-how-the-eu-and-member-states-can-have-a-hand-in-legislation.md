@@ -25,11 +25,9 @@ hidden: true
 ---
 _Lesen Sie den Artikel auf Deutsch._
 
-Who has jurisdiction in Europe? It’s not always clear when the European Union (EU) or its member states do. Transport policy has been a task of the EU for decades, and yet not all decisions can be made by the EU alone. The EU’s agenda includes creating a trans-European transport network and promoting sustainable mobility, both of which are impossible without cooperation and input from member states. As soon as a new law within the mobility sector is adopted by the EU, its member states have a responsibility to transpose it into law. 
-
 ![](/uploads/2020/06/02/bernstein_template_drone_body.jpg)
 
-The national and European levels of government are mutually dependent and therefore can request improvements and changes of the other. Often when the process is at its most complicated and inconvenient does it ultimately lead to a result based on input from both levels, which is why it’s important to take both the European and national levels into consideration. Looking to drones as an example, the federal German government’s action plan regarding what loosely translates to ”innovative, unmanned aviation”, which was submitted at the beginning of May, is a follow up from two EU bylaws from 2019.
+Who has jurisdiction in Europe? It’s not always clear when the European Union (EU) or its member states do. Transport policy has been a task of the EU for decades, and yet not all decisions can be made by the EU alone. The EU’s agenda includes creating a trans-European transport network and promoting sustainable mobility, both of which are impossible without cooperation and input from member states. As soon as a new law within the mobility sector is adopted by the EU, its member states have a responsibility to transpose it into law. The national and European levels of government are mutually dependent and therefore can request improvements and changes of the other. Often when the process is at its most complicated and inconvenient does it ultimately lead to a result based on input from both levels, which is why it’s important to take both the European and national levels into consideration. Looking to drones as an example, the federal German government’s action plan regarding what loosely translates to ”innovative, unmanned aviation”, which was submitted at the beginning of May, is a follow up from two EU bylaws from 2019.
 
 **Endless possibilities: contactless delivery drones**
 
