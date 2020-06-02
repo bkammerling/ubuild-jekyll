@@ -18,7 +18,7 @@ excerpt: Today, we’re taking the next step in becoming a full stack mobility p
   for operators by kicking off our official launch campaign for Wunder Vehicles.
 share_image: "/uploads/2020/05/28/vehicles_list.png"
 sticky: true
-hidden: true
+hidden: false
 
 ---
 Today, we’re taking the next step in becoming a full stack mobility platform for operators by kicking off our official launch campaign for Wunder Vehicles.
@@ -35,4 +35,4 @@ Until today, we’re the only people who know the story of this capability; toda
 
 ***
 
-Available for preorder now. Visit our [website](https://www.wundermobility.com/vehicles/yadea-g5) for more details. 
+Available for preorder now. Visit our [website](https://www.wundermobility.com/vehicles/yadea-g5) for more details.

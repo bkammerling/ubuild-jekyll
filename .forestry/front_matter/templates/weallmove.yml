@@ -156,3 +156,5 @@ fields:
     min: 
     max: 
   label: All Needs
+pages:
+- _data/weallmove.yml
