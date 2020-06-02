@@ -14,17 +14,19 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
 cta_link: pages/bernstein-newsletter.md
 title: Regulierung von Drohnen
 publish_date: 2020-06-01 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/02/bernstein_template_drone_list.jpeg"
 excerpt: Wer hat welche Kompetenz in Europa? Nicht immer ist eindeutig, wann die Kompetenz
   bei der Europäische Union (EU) und wann bei den Mitgliedstaaten liegt.
-share_image: ''
+share_image: "/uploads/2020/06/02/bernstein_template_drone_list.jpeg"
 sticky: false
 hidden: true
 
 ---
-_Read this article in English._ 
+_Read this article in English._
 
 **Regulierung von Drohnen: Wie sich EU- und Mitgliedstaaten bei der Gesetzgebung an die Hand nehmen können**
+
+![](/uploads/2020/06/02/bernstein_template_drone_body.jpg)
 
 Wer hat welche Kompetenz in Europa? Nicht immer ist eindeutig, wann die Kompetenz bei der Europäische Union (EU) und wann bei den Mitgliedstaaten liegt. Die Verkehrspolitik ist seit Jahrzehnten Aufgabe der EU und doch hat diese nicht die alleinige Gestaltungsmacht darüber. Während die EU grundsätzlich ein transeuropäisches Verkehrsnetzwerk und eine nachhaltige Mobilität europaweit sicherstellen soll, geht dies nicht ohne die Mitarbeit der Mitgliedstaaten. Denn sobald von Seiten der EU ein Gesetz im Mobilitätssektor verabschiedet wird, liegt die Notwendigkeit bei den Mitgliedstaaten, dieses in das eigene Recht umzusetzen. Die nationale und die europäische Ebene bedingen sich somit gegenseitig und können Verbesserungen und Anpassungen voneinander fordern. Denn auch wenn der Prozess meist kompliziert und umständlich scheint, führt er letztlich zu einem Ergebnis, das nur durch den Input von beiden Ebenen und deren Zusammenspiel entstanden ist. Es ist deswegen notwendig, immer sowohl die europäische als auch die nationale Eben zu berücksichtigen. Ein Beispiel hierfür ist der Umgang mit Innovationen unbemannter Luftfahrt. Denn der Aktionsplan der Bundesregierung[ „Unbemannte Luftfahrtsysteme und innovative Luftfahrtkonzepte“](https://www.bmvi.de/SharedDocs/DE/Anlage/DG/aktionsplan-drohnen.pdf?__blob=publicationFile), der Anfang Mai vorgelegt wurde, folgt auf zwei EU-Verordnungen aus 2019.
 
