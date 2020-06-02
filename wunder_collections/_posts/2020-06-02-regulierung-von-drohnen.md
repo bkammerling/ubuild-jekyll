@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in_ [_English_](www.wundermobility.com/blog/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation)_._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation)_._
 
 **Wie sich EU- und Mitgliedstaaten bei der Gesetzgebung an die Hand nehmen können**
 
