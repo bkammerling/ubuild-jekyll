@@ -22,9 +22,9 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in_ [_English_](www.wundermobility.com//blog/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation)_._
+_Read this article in_ [_English_](www.wundermobility.com/blog/regulating-drones-how-the-eu-and-member-states-can-have-a-hand-in-legislation)_._
 
-**Regulierung von Drohnen: Wie sich EU- und Mitgliedstaaten bei der Gesetzgebung an die Hand nehmen können**
+**Wie sich EU- und Mitgliedstaaten bei der Gesetzgebung an die Hand nehmen können**
 
 ![](/uploads/2020/06/02/regulatingdrones_body.jpg)
 
