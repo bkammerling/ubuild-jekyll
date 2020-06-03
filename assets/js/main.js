@@ -163,15 +163,14 @@ var yadeaSVG = {
   init: function() {
     $("#yadea-3d ellipse, #yadea-3d-mob ellipse").click(function() {
       var $svg = $(this).parents('svg');
-      $("#yadea-3d ellipse, #yadea-3d-mob ellipse").removeClass('active');
-      $(this).addClass('active');
       var $g = $(this).parents('g');
-      var rx = /\((.*)\)$/;
-      var pathArray = $g.find('path');
-      var id1 = pathArray.eq(0).attr('clip-path').match(rx);
-      var id2 = pathArray.eq(1).attr('clip-path').match(rx);
-      $svg.find(`clipPath.active`).removeClass('active').addClass('inactive');
-      $svg.find(`${id1[1]}, ${id2[1]}`).removeClass('inactive').addClass('active');
+      $g.addClass('active').siblings().removeClass('active');
+      //var rx = /\((.*)\)$/;
+      //var pathArray = $g.find('path');
+      //var id1 = pathArray.eq(0).attr('clip-path').match(rx);
+      //var id2 = pathArray.eq(1).attr('clip-path').match(rx);
+      //$svg.find(`clipPath.active`).removeClass('active').addClass('inactive');
+      //$svg.find(`${id1[1]}, ${id2[1]}`).removeClass('inactive').addClass('active');
     });
   }
 }

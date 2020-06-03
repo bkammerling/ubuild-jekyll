@@ -514,38 +514,36 @@ svg.right-arrow {
 }
 
 #yadea-3d, #yadea-3d-mob {
-  clipPath {
-    rect, path {
-      animation-iteration-count: infinite !important;
-      animation-play-state: paused !important;
-      animation-duration: 1.9s !important;
-    }
-    &.active {
-      rect, path {
-        animation-iteration-count: 1 !important;
-        animation-play-state: running !important;
-        animation-direction: normal !important;
-      }
-    }
-    &.inactive {
-      rect, path {
-        animation-iteration-count: 1 !important;
-        animation-direction: reverse !important;
-        animation-play-state: running !important;
-      }
+  ellipse {
+    animation: pulsingCircle1 1.9s linear infinite both;
+    transform-origin: 4px 4px;
+    cursor: pointer;
+    fill: white;
+    transition: fill 0.4s;
+  }
+  path {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out 0s;
+    &[stroke="none"] {
+
     }
   }
-  ellipse {
-    animation: pulsingCircle1 1.9s linear infinite both ;
-    cursor: pointer;
-    &.active {
+  .active {
+    ellipse {
       animation: none;
-      fill: none;
+      fill: transparent;
+    }
+    path {
+      opacity: 1;
+      &[stroke="none"] {
+        transition: opacity 0.6s ease-in-out 0.3s;
+      }
     }
   }
 }
 
-@keyframes pulsingCircle1 { 0% { rx:10; ry:10; } 52.3157% { rx:14; ry:14; animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { rx:10; ry:10; } }
+@keyframes pulsingCircle1 { 0% { transform: scale(1); } 52.3157% { transform: scale(1.4); animation-timing-function: cubic-bezier(0.42,0,1,1); } 100% { transform: scale(1); } }
+
 
 
 // yadea highlight section
