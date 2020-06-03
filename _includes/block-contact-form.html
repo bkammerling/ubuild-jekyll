@@ -71,7 +71,7 @@
                 <div class="bottom-border"></div>
               </div>
 
-              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' %}
+              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' %}
               {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
               {% if page.lang-ref == 'carpool' %}
                 {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
@@ -94,21 +94,6 @@
 
 
               <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>
-
-              {% if page.lang-ref == 'fleet' %}
-              <div class="form-group fleet">
-                <div class="select-wrapper">
-                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
-                    <option disabled selected>What are you looking for? *</option>
-                    <option value="Full-package vehicle sharing solution">Full-package vehicle sharing solution</option>
-                    <option value="Software only">Software only</option>
-                    <option value="Hardware only (vehicles and/or IoT devices)">Hardware only (vehicles and/or IoT devices)</option>
-                    <option value="Other / Not sure">Other / Not sure</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endif %}
 
               {% if page.lang-ref == 'rent' %}
               <div class="form-group rent">
@@ -200,24 +185,11 @@
               {% if page.lang-ref == 'fleet' %}
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
-                    <option disabled selected>When would you like to launch? *</option>
-                    <option value="ASAP">ASAP</option>
-                    <option value="2-6 months">2-6 months</option>
-                    <option value=">6 months">Over 6 months</option>
+                  <select name="interested-in-vehicles" class="form-control select2-init" style="width:100%" id="interestedInVehicles" required=true>
+                    <option disabled selected>Would you be interested in our Vehicles & Telematics solutions? *</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                     <option value="Not sure">Not sure</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              <div class="form-group fleet">
-                <div class="select-wrapper">
-                  <select name="funding-status" class="form-control select2-init" style="width:100%" id="fundingStatus" required=true>
-                    <option disabled selected>What's the funding status of your project? *</option>
-                    <option value="Corporate funded">Corporate funded</option>
-                    <option value="Venture funded">Venture funded</option>
-                    <option value="Personally funded">Personally funded</option>
-                    <option value="Not yet funded">Not yet funded / Other</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
