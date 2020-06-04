@@ -48,6 +48,10 @@ $(document).ready(function() {
         localStorage.setItem('lastVideo', pagetitle);
         localStorage.setItem('lastVideoTime', new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',',''));
       });
+      $(".gt-videoplay").click(function() {
+        localStorage.setItem('lastVideo', pagetitle);
+        localStorage.setItem('lastVideoTime', new Date().toLocaleString('en-GB', { timeZone: 'UTC' }).replace(',',''));
+      })
     },
     startPlay: function() {
       if($(".filmmodal").length == 0) {

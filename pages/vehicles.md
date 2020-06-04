@@ -35,7 +35,7 @@ page_sections:
   background_video: vehicles-loop
   show_logos: false
   logo_row: ''
-  background_image: "/uploads/global/fleet-frame.jpg"
+  background_image: "/uploads/global/wvehicles-poster.jpg"
   intro_text: ''
 - block: vehicles-main
   template: static-file
