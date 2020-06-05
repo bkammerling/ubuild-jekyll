@@ -184,7 +184,16 @@ if(pageref == 'vehicles-yadea') yadeaSVG.init();
 var formHistory = [];
 var form = {
   init: function() {
+    var recaptchaLoaded = false;
     $('input, textarea, select').focus(function(){
+      if(!recaptchaLoaded) {
+        recaptchaLoaded = true;
+        var head = document.getElementsByTagName('head')[0];
+    		var script = document.createElement('script');
+    		script.type = 'text/javascript';
+    		script.src = 'https://www.google.com/recaptcha/api.js?render=6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR';
+    		head.appendChild(script);
+      }
       if($(this).parents('.form-group')) {
         $(this).parents('.form-group').addClass('focused');
       }
@@ -644,9 +653,6 @@ $(document).ready(function() {
       $('html, body').animate({
         scrollTop: target.offset().top - topOffset
       }, 600, function() {
-        grecaptcha.ready(function() {
-          grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "scrollclick"})
-        });
         // Callback after animation
       });
       var eventTarget = $(event.target);
