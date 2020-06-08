@@ -260,6 +260,28 @@ operators:
   - service: extra vehicle sanitisation
     service_notes: ''
     service_notes_de: ''
+- name: Barraqueiro Transportes
+  url: https://www.barraqueirotransportes.pt/
+  logo: "/uploads/2020/05/27/barraqueiro_transportes.png"
+  published: true
+  countries:
+  - name: Spain
+    cities:
+    - Madrid
+  - name: Portugal
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: GPN members' vehicles can be hired by anyone that needs to be transported
+      and as capacities of vehicles vary, they can serve a wide range of passenger
+      numbers.
+    service_notes_de: ''
+  - service_notes: GPN members' vehicles can be hired by hospitals or companies for
+      transporting their workers with a safe means of transport as our members are
+      adhering to safety rules.
+    service_notes_de: ''
+    service: extra vehicle sanitisation
 - name: BerlKönig
   url: https://www.berlkoenig.de/
   logo: "/uploads/2020/04/06/berlkonig.png"
@@ -272,6 +294,23 @@ operators:
   services:
   - service: support for healthcare and/or essential workers
     service_notes: ''
+    service_notes_de: ''
+- name: B2RIDE
+  url: https://b2ride.org/
+  logo: "/uploads/2020/05/11/b2ride.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  - name: Austria
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: 'B2RIDE offers a smart corporate carpooling solution to enable
+      safe carpools. The number of free places can be set according to the drivers
+      preference.'
     service_notes_de: ''
 - name: Beryl
   url: https://beryl.cc/news/keeping-the-wheels-moving-for-key-workers
@@ -843,6 +882,47 @@ operators:
       a safe ride for their users.
     service: extra vehicle sanitisation
     service_notes_de: ''
+- name: Easirent
+  url: https://www.easirent.com/
+  logo: "/uploads/2020/05/11/easirent.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Jacksonville
+    - Miami
+    - Tampa
+    - Orlando
+    - St. Petersburg
+    - Hialeah
+    - Port St. Lucie
+    - Cape Coral
+    - Tallahassee
+    - Fort Lauderdale
+  - name: United Kingdom
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: Hand gel dispensers and anti-bacterial wipes are available at all
+      branches, and cars are being cleaned and disinfected before every rental.
+    service_notes_de: ''
+- name: ei travel group
+  url: http://www.eitravelgroup.ie/
+  logo: "/uploads/2020/05/14/ei.png"
+  published: true
+  countries:
+  - name: Ireland
+    cities:
+    - Dublin
+  services:
+  - service: alternative commuting options
+    service_notes: ei travel groups has implemented social distancing on all its coaches
+      to allow a safe commute.
+    service_notes_de: ''
+  - service_notes: ''
+    service_notes_de: ''
+    service: extra vehicle sanitisation
 - name: Eloop
   url: https://eloop.at/en/
   logo: "/uploads/2020/04/06/eloop.png"
@@ -923,6 +1003,50 @@ operators:
     service_notes_de: ''
   - service: groceries delivery for risk groups
     service_notes: ''
+    service_notes_de: ''
+- name: Enuu
+  url: https://www.enuu.ch/
+  logo: "/uploads/2020/05/11/enuu.png"
+  published: true
+  countries:
+  - name: Switzerland
+    cities:
+    - Zurich
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: ''
+    service_notes_de: ''
+  - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+  - service: groceries delivery for risk groups
+    service_notes: ''
+    service_notes_de: ''
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+- name: Europcar
+  url: https://www.europcar.com/
+  logo: "/uploads/2020/05/28/europcar.png"
+  published: true
+  countries:
+  - name: Germany
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: 'Europcar has reinforced vehicle cleaning measures with the systematic
+      use of disinfectant agents. '
+    service_notes_de: ''
+  - service_notes: 'Europcar has set up special rates for frontline staff who provide
+      health or safety services. '
+    service_notes_de: ''
+    service: support for healthcare and/or essential workers
+  - service: alternative commuting options
+    service_notes: 'At Europcar, we offer you the possibility to book  on an hourly
+      basis, without any liabilities. Stay flexible in your planning and grab your
+      next rental car, which you can now rent  between 4 and 9 hours at an attractive
+      price. '
     service_notes_de: ''
 - name: Evezy
   url: evezy.co.uk
@@ -1297,6 +1421,66 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: cooperation with delivery and restaurants
+    service_notes: ''
+    service_notes_de: ''
+- name: Herman & Vandamme
+  url: https://www.hervan.be/
+  logo: "/uploads/2020/05/29/herman_e_vandamme.png"
+  published: true
+  countries:
+  - name: Sweden
+    cities:
+    - All cities
+  - name: Slovakia
+    cities:
+    - All cities
+  - name: Poland
+    cities:
+    - All cities
+  - name: Czech Republic
+    cities:
+    - All cities
+  - name: United Kingdom
+    cities:
+    - All cities
+  - name: Finland
+    cities:
+    - All cities
+  - name: Norway
+    cities:
+    - All cities
+  - name: Netherlands
+    cities:
+    - All cities
+  - name: Belgium
+    cities:
+    - All cities
+  - name: Croatia
+    cities:
+    - All cities
+  - name: Austria
+    cities:
+    - All cities
+  - name: Germany
+    cities:
+    - All cities
+  - name: France
+    cities:
+    - All cities
+  - name: Portugal
+    cities:
+    - All cities
+  - name: Italy
+    cities:
+    - All cities
+  - name: Spain
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
+  - service: extra vehicle sanitisation
     service_notes: ''
     service_notes_de: ''
 - name: Hertz Germany
@@ -1813,6 +1997,62 @@ operators:
   - service_notes: ''
     service: support for healthcare and/or essential workers
     service_notes_de: ''
+  - name: Linea Azzurra
+  url: https://www.lineaazzurrabus.com/
+  logo: "/uploads/2020/05/19/linea_azzura.png"
+  published: true
+  countries:
+  - name: " Italy"
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
+- name: London Bus Group
+  url: http://www.londonbusgroup.com/
+  logo: "/uploads/2020/05/27/london_bus_group.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  services:
+  - service: alternative commuting options
+    service_notes: London Bus Group transports vulnerable and less mobile young adults
+      to college/schools.
+    service_notes_de: ''
+- name: Linea Azzurra
+  url: https://www.lineaazzurrabus.com/
+  logo: "/uploads/2020/05/19/linea_azzura.png"
+  published: true
+  countries:
+  - name: " Italy"
+    cities:
+    - All cities
+  services:
+  - service: extra vehicle sanitisation
+    service_notes: ''
+    service_notes_de: ''
+  - service: alternative commuting options
+    service_notes: ''
+    service_notes_de: ''
+- name: London Bus Group
+  url: http://www.londonbusgroup.com/
+  logo: "/uploads/2020/05/27/london_bus_group.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - London
+  services:
+  - service: alternative commuting options
+    service_notes: London Bus Group transports vulnerable and less mobile young adults
+      to college/schools.
+    service_notes_de: ''
 - name: LULA
   url: https://www.lulaloop.co.za/essential-workers
   logo: "/uploads/2020/04/20/lula.png"
@@ -2115,6 +2355,28 @@ operators:
     service_notes: PAYUCA has reduced its pricing by 75% to make safe parking affordable
       for everyone.
     service_notes_de: ''
+- name: Palm
+  url: https://letspalm.com/
+  logo: "/uploads/2020/05/11/palm.png"
+  published: true
+  countries:
+  - name: Turkey
+    cities:
+    - Istanbul
+    - Mersin
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Palm is providing 10 minutes free ride for each ride of healthcare
+      professionals.
+    service_notes_de: ''
+- name: Pastuszak
+  url: https://pastuszak.com/
+  logo: "/uploads/2020/05/19/pastuszak.png"
+  published: true
+  countries:
+  - name: Poland
+    cities:
+    - All cities
 - name: Pony
   url: https://getapony.com/en
   logo: "/uploads/2020/04/14/pony.png"
@@ -2138,6 +2400,19 @@ operators:
     service_notes: The company has partnered with hospitals in the cities they operate
       in to offer for the staff free rides. Privatising vehicles (for free) it's also
       an option.
+    service_notes_de: ''
+- name: Questor Insurance
+  url: https://www.questor-insurance.co.uk/
+  logo: "/uploads/2020/05/14/questor_insurance.png"
+  published: true
+  countries:
+  - name: United Kingdom
+    cities:
+    - All cities
+  services:
+  - service: consultancy
+    service_notes: The Company is providing discount code for mobility on its Questor
+      Insurance excess line.
     service_notes_de: ''
 - name: Rally
   url: https://rally.co/
@@ -2225,6 +2500,78 @@ operators:
   - service: alternative commuting options
     service_notes: ''
     service_notes_de: ''
+- name: Rent!
+  url: http://rent.com.br/
+  logo: "/uploads/2020/05/29/rent.png"
+  published: true
+  countries:
+  - name: Brazil
+    cities:
+    - Vitória
+    - Vinhedo
+    - Vilhena
+    - Vila Velha
+    - Várzea Grande
+    - Sinop
+    - São Paulo
+    - São José dos Pinhais
+    - São Bernardo do Campo
+    - Santa Cruz do Sul
+    - Salvador
+    - Rio Grande
+    - Rio de Janeiro
+    - Ribeirão Preto
+    - Recife
+    - Porto Velho
+    - Porto Seguro
+    - Porto Alegre
+    - Pelotas
+    - Passo Fundo
+    - Navegantes
+    - Natal
+    - Montes Claros
+    - Maringá
+    - Luís Eduardo Magalhães
+    - Lauro de Freitas
+    - Juiz de Fora
+    - João Pessoa
+    - Iúna
+    - Itu
+    - Indaiatuba
+    - Ijui
+    - Guarulhos
+    - Guarapari
+    - Goiânia
+    - Foz do Iguaçu
+    - Florianópolis
+    - Erechim
+    - Curitiba
+    - Cuiabá
+    - Confins
+    - Chapecó
+    - Caxias do Sul
+    - Canoas
+    - Grande
+    - Campo
+    - Campinas
+    - Cachoeirinha
+    - Cachoeira do Sul
+    - Brasília
+    - Blumenau
+    - Belo Horizonte
+    - Arcos
+    - Araguaína
+    - Aracaju
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Rent! is offering different car rental conditions for healthcare
+      professionals, with discounts and free days (Available in Araguaína, Cuiabá,
+      Curitiba, Foz do Iguaçu, Goiânia, Maringá, Salvador, São Paulo e Sinop)
+    service_notes_de: ''
+  - service_notes: " Through the website rent.com.br or the consumer buys promotional
+      discount coupons in advance and can be used on your car rental until June 2021."
+    service_notes_de: ''
+    service: discounted rides
 - name: Revel
   url: https://gorevel.com/safety/coronavirus/service-provider-form/
   logo: "/uploads/2020/04/20/revel.png"
@@ -2783,6 +3130,22 @@ operators:
     service_notes: Trusted Cars has a special deal for healthcare and essential workers,
       with a discount worth €199.
     service_notes_de: ''
+- name: UcanShuttle
+  url: https://ucanshuttle.co.za/en
+  logo: "/uploads/2020/05/29/ucan.png"
+  published: true
+  countries:
+  - name: South Africa
+    cities:
+    - All cities
+  - cities:
+    - All cities
+    name: Kenya
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: UcanShuttle is a staff transportation platform enabling healthcare
+      workers and employees to move safely and securely to and from work.
+    service_notes_de: ''
 - name: UFODRIVE
   url: https://www.ufodrive.com/en/
   logo: "/uploads/2020/04/17/ufo_drive-1.png"
@@ -2842,6 +3205,25 @@ operators:
     service_notes: URways is offering discount vehicle rental to Uber, Lyft, door
       dash, Instacart drivers.
     service_notes_de: ''
+- name: Viamex
+  url: http://transportadoraviamex.com/
+  logo: "/uploads/2020/05/14/viamex.png"
+  published: true
+  countries:
+  - name: Mexico
+    cities:
+    - Chihuahua city
+    - Cancun city
+  services:
+  - service: support for healthcare and/or essential workers
+    service_notes: Viamex provide solutions in the private transportation service
+      for tourism and business, supporting the health sector with special transfers
+      for doctors and nurses.
+    service_notes_de: ''
+  - service_notes_de: ''
+    service: extra vehicle sanitisation
+    service_notes: Viamex units are disinfected frequently to provide safe travel
+      for their users.
 - name: VOI
   url: https://www.voiscooters.com/
   logo: "/uploads/2020/04/15/voi.png"
@@ -2914,6 +3296,24 @@ operators:
       risk groups get free e-scooter deliveries of groceries and pharmaceuticals in
       Stockholm
     service_notes_de: ''
+- name: Vooom
+  url: https://vooom.pl/
+  logo: "/uploads/2020/05/14/vooom.png"
+  published: true
+  countries:
+  - name: Poland
+    cities:
+    - All cities
+  services:
+  - service: consultancy
+    service_notes: Vooom has opened our platform for free for all shared mobility
+      operators in Poland at the beginning of April.
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: Vooom has opened its platform for free for every employer that
+      wants to give his employees the possibility to use safer alternatives to public
+      transport, like shared vehicles.
+    service_notes_de: ''
 - name: Wave Mobility
   url: ''
   logo: "/uploads/2020/04/06/wave_mobility.png"
@@ -2952,6 +3352,39 @@ operators:
   - service: extra vehicle sanitisation
     service_notes: Wheely has increased their vehicle sanitisation measures. Learn
       more by clicking on the link.
+    service_notes_de: ''
+- name: WeDriveU
+  url: https://www.wedriveu.com/
+  logo: "/uploads/2020/05/14/wedriveu.png"
+  published: true
+  countries:
+  - name: United States
+    cities:
+    - Seattle
+    - San Diego
+    - Los Angeles
+    - San Francisco
+    - Portland
+    - Philadelphia
+    - Jersey City
+    - Houston
+    - Fort Worth
+    - Dallas
+    - Chicago
+    - Boston
+    - Washington DC
+    - Baltimore
+    - Austin
+    - New York
+  services:
+  - service: alternative commuting options
+    service_notes: WeDriveU provides private transit solutions for corporations, hospitals
+      and universities, specialising in commuter shuttles, campus shuttles and on-demand
+      mobility services.
+    service_notes_de: ''
+  - service: support for healthcare and/or essential workers
+    service_notes: WeDriveU works with employers to provide hospital and other frontline
+      workers safe and efficient transportation to workplaces.
     service_notes_de: ''
 - name: WhistleDrive
   url: https://www.whistledrive.com/
@@ -3148,6 +3581,18 @@ operators:
     service_notes: ''
     service_notes_de: ''
   - service: expansion of area to hospitals
+    service_notes: ''
+    service_notes_de: ''
+- name: Zarb Coaches
+  url: https://www.zarbcoaches.com/
+  logo: "/uploads/2020/05/27/zarb_coaches.png"
+  published: true
+  countries:
+  - name: Malta
+    cities:
+    - All cities
+  services:
+  - service: alternative commuting options
     service_notes: ''
     service_notes_de: ''
 - name: Zeelo
