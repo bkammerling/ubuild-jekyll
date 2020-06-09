@@ -12,15 +12,17 @@ cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/fleet.md
 title: 'An Interview with Twist Mobility '
 publish_date: 2020-06-09 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/09/twistblog_list.jpg"
 excerpt: twist is a joint venture between the energy provider EnBW and company builder
   Bridgemaker, founded in January 2020.
-share_image: ''
+share_image: "/uploads/2020/06/09/twistblog_list.jpg"
 sticky: false
 hidden: false
 
 ---
-Our partners at twist, a shared mobility company with a unique business model, recently celebrated their launch day! We interviewed them on their startup story, concept and expansion plans. (Keep scrolling to read in the original German.)
+Our partners at twist, a shared mobility company with a unique business model, recently celebrated their launch day! We interviewed them on their startup story, concept and expansion plans. 
+
+![](/uploads/2020/06/09/twistblog_list.jpg)
 
 **Could you please tell us a bit about twist Mobility - what is the concept behind the company and how did you get started?**
 
@@ -38,7 +40,7 @@ We initially want to grow within Baden-Württemberg and then expand step by step
 
 Yes, absolutely. It’s important to develop your company alongside your customers when they have problems. That lets you deliver value and figure out real USPs for your products. Solving a serious problem can be crucial to your success: work out the kinks earlier in the journey so you don’t regret it the day before launch day!
 
-_German version below._
+**_![](/uploads/2020/06/09/twistblog_body.jpg)_**
 
 ***
 
