@@ -6,11 +6,11 @@ tags:
 - fleet
 - Germany
 - German
-author: []
+author: wunder_collections/_people/pia-benthien.md
 cta_heading: Find out more about Wunder Mobility
 cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/fleet.md
-title: 'An Interview with Twist Mobility '
+title: 'An Interview with twist Mobility '
 publish_date: 2020-06-09 14:00:00 +0000
 featured_image: "/uploads/2020/06/09/twistblog_list.jpg"
 excerpt: twist is a joint venture between the energy provider EnBW and company builder
