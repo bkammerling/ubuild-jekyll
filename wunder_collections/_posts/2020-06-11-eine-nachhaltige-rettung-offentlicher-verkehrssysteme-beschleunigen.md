@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen)_._
 
 **Während die allgemeinen Auslastungsquote bei den öffentlichen Verkehrsmitteln in ganz Europa um 90% gesunken ist, konzentrieren sich Städte und Regierungen nun darauf, die Erholung der Industrie durch Konjunkturpakete zu beschleunigen.**
 
