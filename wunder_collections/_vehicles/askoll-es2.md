@@ -10,9 +10,9 @@ image_gallery:
 - "/uploads/2020/05/08/askoll_03@2x.jpg"
 details:
 - title: Anti-theft
-  description: Electronically controlled theft prevention
+  description: Electronic stand block, top case with helmet sensor
 - title: Lock
-  description: Remotely lock/unlock topcase
+  description: 'Remotely lock/unlock top case and ignition '
 - title: Charge
   description: Fully charged battery in 3.2 hours
 - title: Motor
@@ -22,6 +22,6 @@ details:
 - title: Battery
   description: Swappable battery system
 list-image: "/uploads/2020/05/27/askoll-es2-2x.jpg"
-published: true
+published: false
 
 ---
