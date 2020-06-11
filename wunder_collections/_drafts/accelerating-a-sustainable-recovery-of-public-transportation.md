@@ -21,6 +21,8 @@ sticky: false
 hidden: false
 
 ---
+_Lesen Sie den Artikel auf Deutsch._ 
+
 **While the occupancy rate has dropped by 90% amongst general public transportation services across Europe, cities and governments are now focusing on accelerating industry recovery by providing stimulus packages.**
 
 In March and April, the number of passengers in many cities and communities dropped by up to 90 percent, according to the German Association of Cities and Municipalities (DStGB). Even after restrictions started loosening up, not more than 20 to 40 percent of the usual commuters were travelling by bus and train with services operating at almost 100 percent capacity. Providing services at a higher frequency ensured enough space for commuters; primarily aimed at the frontline workforce travelling to destinations such as hospitals, production sites and other essential workplaces.
