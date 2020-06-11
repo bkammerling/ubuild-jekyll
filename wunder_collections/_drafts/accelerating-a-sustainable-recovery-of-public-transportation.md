@@ -12,11 +12,11 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
 cta_link: pages/bernstein-newsletter.md
 title: Accelerating a sustainable recovery of public transportation
 publish_date: 2020-06-11 13:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 excerpt: While the occupancy rate has dropped by 90% amongst general public transportation
   services across Europe, cities and governments are now focusing on accelerating
   industry recovery by providing stimulus packages.
-share_image: ''
+share_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 sticky: false
 hidden: false
 
