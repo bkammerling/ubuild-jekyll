@@ -41,9 +41,10 @@
             <div class="blog-content">
               {{ content | replace: '<a ', '<a target="blank" ' }}
             </div>
+
             <div class="post-author">
               {% for person in site.people %}
-              {% if person.path == page.author %}
+              {% if page.author contains person.path %}
                 {% if person.type == 'Human' %}
                   <img class="author-image" src="{{ person.speaker_image }}" alt="Portrait photo of {{ person.name }}"/>
                   <p class="author-name"><strong>{{ person.name }}</strong></p>
@@ -56,6 +57,7 @@
               {% endif %}
               {% endfor %}
             </div>
+
           </div>
         </div>
 

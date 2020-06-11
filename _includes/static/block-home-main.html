@@ -169,6 +169,36 @@
 
   </section>
 
+  <section class="showcase-box">
+    <div class="container-fluid">
+      <div id="showcase-vehicles" class="showcase-box__bg text-left d-flex justify-content-start justify-content-md-center white-text">
+        <div class="row">
+          <div class="col-md-5 offset-md-6 col-lg-5 offset-lg-6 col-xl-4 offset-xl-7">
+            <div class="showcase-box_inner-content">
+              <p>Wunder Vehicles</p>
+              <h2 class="headline-large">The future of mobility has arrived</h2>
+              <a href="/vehicles" class="btn btn-outline-light">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style type="text/css">
+      #showcase-vehicles {
+        background-image: url('uploads/global/hp-vehiclesbg_mob@2x.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-color: #000;
+      }
+      @media only screen and (min-width: 768px) {
+        #showcase-vehicles {
+          background-image: url('uploads/global/hp-vehiclesbg@2x.jpg');
+          background-position: top center;
+        }
+      }
+    </style>
+  </section>
+
 
   <section class="showcase-box">
     <div class="container-fluid">
@@ -208,34 +238,29 @@
 
   <section class="showcase-box">
     <div class="container-fluid">
-      <div id="showcase-rent" class="showcase-box__bg grey-gradient-bg text-left d-flex justify-content-start justify-content-md-center">
+      <div id="showcase-rent" class="showcase-box__bg text-left d-flex justify-content-start justify-content-md-center white-text">
         <div class="row">
-          <div class="offset-md-1 col-md-6">
+          <div class="offset-md-1 col-md-7 col-xl-5">
             <div class="showcase-box_inner-content">
               <p>Wunder Rent</p>
               <h2 class="headline-large">Rental services for the digital age</h2>
-              <a href="/city" class="btn btn-outline-light">Learn more</a>
+              <a href="/rent" class="btn btn-outline-light">Learn more</a>
             </div>
-          </div>
-          <div class="showcase-box__image halign-right valign-bottom valign-md-center">
-            <img data-src="uploads/global/hp-city-mockupbg.png" data-srcset="uploads/global/hp-city-mockupbg@2x.png 2x" class="product-shadow" />
           </div>
         </div>
       </div>
     </div>
     <style type="text/css">
-      #showcase-city {
-
+      #showcase-rent {
+        background-image: url('uploads/global/hp-rentbg_mob@2x.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-color: #6E6D6B;
       }
-      #showcase-city .showcase-box__image {
-        max-width: 52%;
-      }
-      @media only screen and (max-width: 768px) {
-        #showcase-city {
-        }
-        #showcase-city .showcase-box__image {
-          max-width: 360px;
-          width: 70%;
+      @media only screen and (min-width: 620px) {
+        #showcase-rent {
+          background-image: url('uploads/global/hp-rentbg@2x.jpg');
+          background-position: top center;
         }
       }
     </style>
@@ -264,7 +289,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="offset-md-2 col-md-8 col-lg-6 offset-lg-3 text-center">
-          <h2 class="headline-medium">Over 60 partners trust in our technology worldwide</h2>
+          <h2 class="headline-medium">Over 100 partners trust in our technology worldwide</h2>
           <p class="text-mute">Wunder Mobility serves a diverse group of global clients ranging from OEMs and large corporations to startups and cities.</p>
         </div>
       </div>
@@ -273,7 +298,7 @@
     <div class="container-fluid text-center">
       <div class="row">
         <div class="offset-md-1 col-md-10">
-          <div class="my-4 client-map">
+          <div class="my-5 my-md-4 client-map">
             {% include /assets/world-map2.svg %}
           </div>
         </div>
@@ -285,11 +310,11 @@
         <div class="row">
           <div class="offset-md-1 col-md-10">
             <div class="row text-center">
-              <div class="col-md-4">
+              <div class="col-md-4 mb-3 mb-md-0">
                 <h2 class="headline-large">1 Million+</h2>
                 <p class="text-mute">Devices connected</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-3 mb-md-0">
                 <h2 class="headline-large">15 Million+</h2>
                 <p class="text-mute">Rides taken in 2019</p>
               </div>
