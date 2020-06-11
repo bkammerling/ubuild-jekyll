@@ -21,7 +21,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf Deutsch._ 
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen)_._
 
 **While the occupancy rate has dropped by 90% amongst general public transportation services across Europe, cities and governments are now focusing on accelerating industry recovery by providing stimulus packages.**
 
