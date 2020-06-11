@@ -14,13 +14,13 @@ details:
 - title: Lock
   description: 'Remotely lock/unlock top case and ignition '
 - title: Charge
-  description: Fully charged battery in 3.2 hours
+  description: Fully charged battery in 3.5 hours
 - title: Motor
-  description: Powerful 42200W motor
+  description: 'Brushless 2.2 kW e-motor '
 - title: Range
-  description: Extended range of up to 45 km
+  description: Up to 75 km
 - title: Battery
-  description: Swappable battery system
+  description: Dual swappable batteries
 list-image: "/uploads/2020/05/27/askoll-es2-2x.jpg"
 published: false
 
