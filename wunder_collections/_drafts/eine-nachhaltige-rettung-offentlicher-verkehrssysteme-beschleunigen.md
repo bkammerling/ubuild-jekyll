@@ -19,7 +19,7 @@ excerpt: Während die allgemeinen Auslastungsquote bei den öffentlichen Verkehr
   darauf, die Erholung der Industrie durch Konjunkturpakete zu beschleunigen.
 share_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in English._

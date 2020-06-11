@@ -18,7 +18,7 @@ excerpt: While the occupancy rate has dropped by 90% amongst general public tran
   industry recovery by providing stimulus packages.
 share_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Lesen Sie den Artikel auf Deutsch._ 
