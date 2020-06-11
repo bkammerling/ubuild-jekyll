@@ -10,25 +10,26 @@ author: []
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: 'Our bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts. '
-cta_link: []
+cta_link: pages/bernstein-newsletter.md
 title: Eine nachhaltige Rettung öffentlicher Verkehrssysteme beschleunigen
 publish_date: 2020-06-01 13:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 excerpt: Während die allgemeinen Auslastungsquote bei den öffentlichen Verkehrsmitteln
   in ganz Europa um 90% gesunken ist, konzentrieren sich Städte und Regierungen nun
   darauf, die Erholung der Industrie durch Konjunkturpakete zu beschleunigen.
-share_image: ''
+share_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 sticky: false
 hidden: false
 
 ---
-_Read this article in English._ 
+_Read this article in English._
 
 **Während die allgemeinen Auslastungsquote bei den öffentlichen Verkehrsmitteln in ganz Europa um 90% gesunken ist, konzentrieren sich Städte und Regierungen nun darauf, die Erholung der Industrie durch Konjunkturpakete zu beschleunigen.**
 
+![](/uploads/2020/06/11/bernstein_rettungschirm_body.jpg)
+
 In den Monaten März und April ist die Zahl der Fahrgäste im ÖPNV in vielen Städten und Gemeinden, nach Angaben des Deutsche Städte- und Gemeindebundes (DStGB), um bis zu 90 Prozent gesunken. Auch nach den allgemeinen Lockerungen nutzten nur 20 bis 40 Prozent der alltäglichen Pendler den Bus oder die Bahn, welche ihren Betrieb trotz allem zu fast 100 Prozent aufrechterhalten haben. Durch die erhöhte Frequentierung des Linienverkehrs konnte somit sichergestellt werden, dass den Pendlern genügend Platz zur Verfügung steht, um mehr als den empfohlenen Sicherheitsabstand einzuhalten. Dieses Angebot ist eine wichtige Grundlage für die Beschäftigten an vorderster Front, welche weiterhin zu ihren Arbeitsplätzen in Krankenhäusern, Betriebsstätten sowie anderen wichtigen Dienststellen anreisen müssen.
 
-  
 Doch dieses Ungleichgewicht der Aufrechterhaltung des Vollbetriebs bei einem Bruchteil der Einnahmen hat die ÖPNV-Branche schwer getroffen. Die derzeit erwarteten Verluste liegen bis Ende des Jahres in Deutschland in Höhe von 5 bis 7 Milliarden Euro. Diese Zahlen basieren auf einer Schätzung, die eine zweite Welle des Virus nicht berücksichtigt. Während Monats- und Jahreskarten unverändert bleiben, ist der Verkauf von Einzelfahrkarten um fast 100 Prozent zurückgegangen.
 
 Es scheint eher unwahrscheinlich, dass der ÖPNV in absehbarer Zeit seine volle Kapazität erreichen wird, um diesen Einnahmeausfall zu begleichen. 33 Prozent der Nutzer des öffentlichen Verkehrs, haben sich dazu entschieden, auf das Fahrrad oder das Auto umzusteigen. Neben der Aufrechterhaltung des Grundbetriebs, sind erhöhte Flächendesinfektionen als Routinen unerlässlich, um die Sicherheit der Pendler zu gewährleisten. Es bleibt unumstritten, dass ein funktionierender und leistungsfähiger öffentlicher Personennahverkehr unverzichtbar ist. Dies gilt insbesondere im Hinblick auf die Klimaschutzziele der Bundesregierung und die Notwendigkeit, barrierefreie Lebensbedingungen in den Städten zu gewährleisten. Doch die Verlagerung des Reiseverhaltens zurück auf den privaten Pkw, wird die anhaltende Krise die Transformation der Mobilitätsbranche erheblich negativ beeinflussen.
