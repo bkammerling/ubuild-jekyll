@@ -18,7 +18,7 @@ excerpt: While the occupancy rate has dropped by 90% amongst general public tran
   industry recovery by providing stimulus packages.
 share_image: "/uploads/2020/06/11/bernstein_rettungschirm_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen)_._
