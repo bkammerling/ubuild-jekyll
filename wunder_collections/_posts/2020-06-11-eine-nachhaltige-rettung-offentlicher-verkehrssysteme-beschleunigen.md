@@ -6,7 +6,7 @@ tags:
 - German
 - policy
 - Bernstein
-author: []
+author: wunder_collections/_people/IoanaFreise.md
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: 'Our bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts. '
