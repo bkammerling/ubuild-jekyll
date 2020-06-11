@@ -67,7 +67,7 @@ fields:
     options: []
     source:
       type: pages
-      section: people
+      section: people-8a3e1c07-8744-4a78-8ecd-2e184ab8a6d5
       file: 
       path: 
   label: Author
@@ -114,3 +114,7 @@ fields:
   label: Hide from Article List
   description: When you want the post published and live but not in article list on
     /blog
+pages:
+- wunder_collections/_posts/2020-06-09-an-interview-with-twist-mobility.md
+- wunder_collections/_posts/2020-06-11-accelerating-a-sustainable-recovery-of-public-transportation.md
+- wunder_collections/_posts/2020-06-11-eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen.md
