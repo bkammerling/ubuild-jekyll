@@ -22,6 +22,6 @@ details:
 - title: Battery
   description: Dual swappable batteries
 list-image: "/uploads/2020/05/27/askoll-es2-2x.jpg"
-published: false
+published: true
 
 ---
