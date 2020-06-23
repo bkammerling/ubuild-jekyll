@@ -1,0 +1,125 @@
+<button class="btn btn-primary" data-toggle="modal" data-target="#downloadModal">{{ include.button_text }}</button>
+<!-- Modal -->
+<div class="modal fade wunderform-modal" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="Download file modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <h4 class="modal-title text-center headline-medium my-2" id="formModalLabel">{{ include.form_title }}</h4>
+      <p class="mx-auto mb-0 mb-md-2 text-center">{{ include.form_subtitle }}</p>
+      <button type="button" class="close text-blue" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <form id="modal-form" class="ajaxForm contact-form__form" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/f9c030a4-73bb-4db9-9278-c8d8313b8953" method="POST">
+        <div class="modal-body">
+          <div class="container">
+            <div class="form-group mb-3">
+              <label for="modal_recipient-name" class="form-label">Full Name</label>
+              <input type="text" class="" id="modal_recipient-name" name="name" required />
+              <div class="bottom-border"></div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="modal_email" class="form-label">Email</label>
+              <input type="email" class="" id="modal_email" name="email" required />
+              <div class="bottom-border"></div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="modal_phone" class="form-label">Phone Number (optional)</label>
+              <input type="text" class="" id="modal_phone" name="phone" />
+              <div class="bottom-border"></div>
+            </div>
+            <input type="hidden" id="modal_captchaResponse" name="g-recaptcha-response" />
+            <div class="row mt-3">
+              <div class="col-sm-5">
+                <p class="form-feedback hidden">Cheers for the details. The file should open automatically but if it doesn't, <a id="whitepaper-link" target="_blank" href="" title="Open the white paper file in a new tab" class="d-inline text-blue">view the white paper.</a></p>
+              </div>
+              <div class="col-sm-7 text-right">
+                <button id="modal_form-submit" class="btn btn-primary" onclick="downloadModalSubmission(event)">
+                  View white paper
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var downloadForm = {
+    submit: function(contactForm) {
+      var postURL = contactForm.attr('action');
+      var data = downloadForm.serializeObject(contactForm);
+      var capitalizedName = data.name.toLowerCase().replace(/\b[a-z]/g, function(txtVal) {
+        return txtVal.toUpperCase();
+      });
+      data.name = capitalizedName;
+      data.referrer = document.referrer;
+      data.origin = document.title;
+      console.log(data);
+
+      $.ajax({
+        url: postURL,
+        method: "POST",
+        data: data,
+        dataType: "json",
+        headers: {
+          "Accept": "application/json"
+        }
+      }).done(function (response) {
+        $('#whitepaper-link').attr('href', '{{ include.file_link }}');
+        contactForm.find(".form-feedback").removeClass('hidden');
+        contactForm.trigger("reset");
+        contactForm.find('.form-group').removeClass('focused').removeClass('valid');
+        window.open('{{ include.file_link }}', '_blank');
+        $("#modal_form-submit").attr("disabled", false);
+      }).fail(function (error) {
+        console.log(error);
+        contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
+        $("#modal_form-submit").attr("disabled", false);
+      });
+
+    },
+
+    serializeObject: function($form){
+      var unindexed_array = $form.serializeArray();
+      console.log(unindexed_array);
+      var indexed_array = {};
+      $.map(unindexed_array, function(n, i){
+        if(indexed_array[n['name']]) {
+          indexed_array[n['name']] = indexed_array[n['name']] + ", " + n['value'];
+        } else {
+          indexed_array[n['name']] = n['value'];
+        }
+      });
+      return indexed_array;
+    },
+    htmlValidityCheck: function($form) {
+      $form[0].checkValidity();
+      return $form[0].reportValidity();
+    }
+  };
+
+  function downloadModalSubmission(e) {
+    e.preventDefault();
+    $(e.target).attr("disabled", true);
+    var $form = $(e.target).closest("form");
+    if(downloadForm.htmlValidityCheck($form)) {
+      console.log('form clean');
+      grecaptcha.ready(function() {
+        grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
+          recaptchaModalSubmit(token, $form);
+        });
+      });
+    } else {
+      console.log('form NOT clean');
+      $(e.target).attr("disabled", false);
+    }
+  }
+
+  function recaptchaModalSubmit(token, $form) {
+    $form.find("input[name='g-recaptcha-response']").val(token);
+    downloadForm.submit($form);
+  }
+</script>

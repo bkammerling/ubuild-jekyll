@@ -405,7 +405,22 @@ blockquote {
       max-width: 1200px;
   }
 
+}
 
+/* form modal for weallmove and whitepaper */
+.wunderform-modal {
+  .modal-content {
+    padding: 50px 15px 30px;
+    @include rwd(tablet-up) {
+      padding: 40px 30px 50px;
+    }
+  }
+  button.close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    opacity: 1;
+  }
 }
 
 
