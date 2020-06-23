@@ -4,6 +4,13 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Drafts
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
 - type: heading
   label: Content
 - type: directory
@@ -19,13 +26,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-  templates:
-  - blog-post
-- type: directory
-  path: wunder_collections/_drafts
-  label: Drafts
-  create: documents
-  match: "**/*"
   templates:
   - blog-post
 - type: directory
