@@ -72,7 +72,7 @@
         contactForm.find(".form-feedback").removeClass('hidden');
         contactForm.trigger("reset");
         contactForm.find('.form-group').removeClass('focused').removeClass('valid');
-        window.open('{{ include.file_link }}', '_blank');
+        window.open('{{ include.file-link }}', '_blank');
         $("#modal_form-submit").attr("disabled", false);
       }).fail(function (error) {
         console.log(error);
