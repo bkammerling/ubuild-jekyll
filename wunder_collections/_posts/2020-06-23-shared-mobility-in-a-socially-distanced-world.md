@@ -17,7 +17,7 @@ excerpt: After interviewing 12 of the most influential professionals from the mo
   publish this white paper.
 share_image: "/uploads/2020/06/23/covid_white_paper_list.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Over the last three months, our society has undergone massive changes. One of the areas where these changes have had the greatest impact is movement, or - as we like to we call it - **mobility.**
