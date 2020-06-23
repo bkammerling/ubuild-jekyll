@@ -11,11 +11,11 @@ cta_text: We're accelerating the transition to sustainable mobility.
 cta_link: pages/blog.md
 title: Shared Mobility in a Socially Distanced World
 publish_date: 2020-06-23T16:20:00.000+00:00
-featured_image: "/uploads/2020/06/23/covid_white_paper_list.jpg"
+featured_image: "/uploads/2020/06/23/social_share_image.jpg"
 excerpt: After interviewing 12 of the most influential professionals from the most
   important sectors in mobility, we combined their learnings with our insights to
   publish this white paper.
-share_image: "/uploads/2020/06/23/covid_white_paper_list.jpg"
+share_image: "/uploads/2020/06/23/social_share_image-1.jpg"
 sticky: false
 hidden: false
 
