@@ -7,8 +7,7 @@ sections:
 - type: jekyll-posts
   label: Drafts
   create: documents
-  match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - blog-post
 - type: heading
