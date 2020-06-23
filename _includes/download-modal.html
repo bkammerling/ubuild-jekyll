@@ -1,10 +1,10 @@
-<button class="btn btn-primary" data-toggle="modal" data-target="#downloadModal">{{ include.button_text }}</button>
+<button class="btn btn-primary" data-toggle="modal" data-target="#downloadModal">{{ include.button-text }}</button>
 <!-- Modal -->
 <div class="modal fade wunderform-modal" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="Download file modal" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4 class="modal-title text-center headline-medium my-2" id="formModalLabel">{{ include.form_title }}</h4>
-      <p class="mx-auto mb-0 mb-md-2 text-center">{{ include.form_subtitle }}</p>
+      <h4 class="modal-title text-center headline-medium my-2" id="formModalLabel">{{ include.form-title }}</h4>
+      <p class="mx-auto mb-0 mb-md-2 text-center">{{ include.form-subtitle }}</p>
       <button type="button" class="close text-blue" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -68,7 +68,7 @@
           "Accept": "application/json"
         }
       }).done(function (response) {
-        $('#whitepaper-link').attr('href', '{{ include.file_link }}');
+        $('#whitepaper-link').attr('href', '{{ include.file-link }}');
         contactForm.find(".form-feedback").removeClass('hidden');
         contactForm.trigger("reset");
         contactForm.find('.form-group').removeClass('focused').removeClass('valid');
