@@ -24,7 +24,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/imagining-a-car-free-future-a-guest-article-by-katja-diehl)_._
 
 **Katja Diehl** ist eine in Hamburg ansässige Mobilitätsexpertin und Podcastmoderatorin mit journalistischem und Marketinghintergrund. Sie arbeitet als Wirtschafts- und Kommunikationsberaterin für _She Drives Mobility_ und setzt sich leidenschaftlich für die Förderung der Diversität in der Mobilitätsbranche ein.
 
