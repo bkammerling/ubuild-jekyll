@@ -21,16 +21,18 @@ excerpt: 'Ich bin seit 20 Jahren beruflich tätig – und so lange schon beschä
   was nicht?!“'
 share_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in English._
 
-Intro text
+**Katja Diehl** ist eine in Hamburg ansässige Mobilitätsexpertin und Podcastmoderatorin mit journalistischem und Marketinghintergrund. Sie arbeitet als Wirtschafts- und Kommunikationsberaterin für _She Drives Mobility_ und setzt sich leidenschaftlich für die Förderung der Diversität in der Mobilitätsbranche ein.
+
+Katja möchte ein effizienteres, nachhaltiges Verkehrssystem schaffen, das der gesamten Gesellschaft zugute kommt. Wir baten sie, uns ihre Meinung über den aktuellen Stand der Mobilität in Hamburg und im übrigen Europa mitzuteilen.
 
 ![](/uploads/2020/06/24/katjadiehl_body.jpg)
 
-**Wem gehört die Stadt?**
+Katja Diehl möchte ein effizienteres, nachhaltiges Verkehrssystem schaffen, das der gesamten Gesellschaft zugute kommt. Wir baten sie, uns ihre Meinung über den aktuellen Stand der Mobilität in Hamburg und im übrigen Europa mitzuteilen und uns ihre Vorschläge zur Verbesserung zu unterbreiten.**Wem gehört die Stadt?**
 
 Ich bin seit 20 Jahren beruflich tätig – und so lange schon beschäftige ich mich mit Mobilität, Logistik – Bewegung von Menschen und Gütern. Denn von Beginn an (ich habe nie ein eigenes Auto besessen) war da dieses Gefühl: „Hier stimmt doch was nicht?!“ Was als diffuses Bauchgrummeln begann, hat sich in den letzten Jahren immer mehr manifestiert: Die Raumverteilung in unseren Städten ist in höchstem Maße ungerecht und schränkt mehr Menschen ein, als dass sie ihnen Freiheit schenkt. Dabei bin ich in den siebziger Jahren geboren und qua Geburt daran gewöhnt, dass an allen Straßen, die ich mit dem Rad befahre, zu Fuß begehe, mindestens eine Reihe geparktem Blech gehört. Dinge, die für unsere passive Bewegung gebaut werden, statistisch aber nur 45 Minuten am Tag wirklich gefahren werden. Meistens von nur einer Person.
 
@@ -47,7 +49,7 @@ Wollen wir, dass unsere Kinder in Angst aufwachsen und mit dem Auto zum Kinderga
 Lassen Sie uns den Status Quo hinterfragen, das wird allen mehr Lebensqualität ermöglichen. Denn schon heute, das weiß ich aus Gesprächen, sind Autobesitz und -fahrten nicht mehr die Freiheit, die die Autoindustrie in Werbeanzeigen verspricht.
 
 Es wird sich am Status Quo geradezu sklavisch festgehalten. Er wird nicht hinterfragt, obwohl wir aktuell enorm viele gute Gründe haben, das zu tun.  
- Und hier fängt das Thema “Haltung” meiner Meinung nach an. Wir scheinen uns nicht wohl damit zu fühlen, gestalten zu können oder es gar zu müssen. Wir strapazieren den Begriff der enkeltauglichen Zukunft, treiben aber weiter das Hamsterrad von Wachstum und Gewinnen an. Na klar, das ist uns über Jahrzehnte so vorgelebt und eingetrichtert worden. Aber genau das brachte uns ja in die Klimakrise. Wir müssen hinterfragen, was wir tun
+Und hier fängt das Thema “Haltung” meiner Meinung nach an. Wir scheinen uns nicht wohl damit zu fühlen, gestalten zu können oder es gar zu müssen. Wir strapazieren den Begriff der enkeltauglichen Zukunft, treiben aber weiter das Hamsterrad von Wachstum und Gewinnen an. Na klar, das ist uns über Jahrzehnte so vorgelebt und eingetrichtert worden. Aber genau das brachte uns ja in die Klimakrise. Wir müssen hinterfragen, was wir tun
 
 Wir MÜSSEN unser vertrautes Koordinatensystem zum Teil neu justieren, sonst verlieren wir nicht nur den Überblick, sondern gehen im schlimmsten Fall sogar in die falsche Richtung – nämlich rückwärts. Und genau das gibt auch mein Gefühl von 2019 in Sachen Mobilitätswandel wieder. Es ist nicht so, dass nichts passiert wäre, aber viel wurde wieder verzagter. Große Player haben den Markt wieder verlassen oder sich mehrjährige Expansionpausen verordnet, um “Verluste zu vermeiden”.
 
