@@ -2,31 +2,31 @@
 layout: simple-article
 category: Insights
 tags:
-- guest article
-- German
-- future of mobility
-- cars
 - city
+- future of mobility
+- guest article
+- cars
+- German
 author: []
 cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
   to policymakers, city officials, mobility enthusiasts and curious industry followers.
 cta_link: pages/bernstein-newsletter.md
 title: 'Die Vorstellung einer autofreien Zukunft: Ein Gastbeitrag von Katja Diehl'
-publish_date: 2020-06-01 14:00:00 +0000
-featured_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
+publish_date: 2020-06-24 14:01:00 +0000
+featured_image: ''
 excerpt: 'Ich bin seit 20 Jahren beruflich tätig – und so lange schon beschäftige
   ich mich mit Mobilität, Logistik – Bewegung von Menschen und Gütern. Denn von Beginn
   an (ich habe nie ein eigenes Auto besessen) war da dieses Gefühl: „Hier stimmt doch
   was nicht?!“'
-share_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
+share_image: ''
 sticky: false
 hidden: false
 
 ---
 _Read this article in English._
 
-_Intro text deustch_
+Intro text
 
 ![](/uploads/2020/06/24/katjadiehl_body.jpg)
 
@@ -46,7 +46,8 @@ Wollen wir, dass unsere Kinder in Angst aufwachsen und mit dem Auto zum Kinderga
 
 Lassen Sie uns den Status Quo hinterfragen, das wird allen mehr Lebensqualität ermöglichen. Denn schon heute, das weiß ich aus Gesprächen, sind Autobesitz und -fahrten nicht mehr die Freiheit, die die Autoindustrie in Werbeanzeigen verspricht.
 
-Es wird sich am Status Quo geradezu sklavisch festgehalten. Er wird nicht hinterfragt, obwohl wir aktuell enorm viele gute Gründe haben, das zu tun. Und hier fängt das Thema “Haltung” meiner Meinung nach an. Wir scheinen uns nicht wohl damit zu fühlen, gestalten zu können oder es gar zu müssen. Wir strapazieren den Begriff der enkeltauglichen Zukunft, treiben aber weiter das Hamsterrad von Wachstum und Gewinnen an. Na klar, das ist uns über Jahrzehnte so vorgelebt und eingetrichtert worden. Aber genau das brachte uns ja in die Klimakrise. Wir müssen hinterfragen, was wir tun.
+Es wird sich am Status Quo geradezu sklavisch festgehalten. Er wird nicht hinterfragt, obwohl wir aktuell enorm viele gute Gründe haben, das zu tun.  
+ Und hier fängt das Thema “Haltung” meiner Meinung nach an. Wir scheinen uns nicht wohl damit zu fühlen, gestalten zu können oder es gar zu müssen. Wir strapazieren den Begriff der enkeltauglichen Zukunft, treiben aber weiter das Hamsterrad von Wachstum und Gewinnen an. Na klar, das ist uns über Jahrzehnte so vorgelebt und eingetrichtert worden. Aber genau das brachte uns ja in die Klimakrise. Wir müssen hinterfragen, was wir tun
 
 Wir MÜSSEN unser vertrautes Koordinatensystem zum Teil neu justieren, sonst verlieren wir nicht nur den Überblick, sondern gehen im schlimmsten Fall sogar in die falsche Richtung – nämlich rückwärts. Und genau das gibt auch mein Gefühl von 2019 in Sachen Mobilitätswandel wieder. Es ist nicht so, dass nichts passiert wäre, aber viel wurde wieder verzagter. Große Player haben den Markt wieder verlassen oder sich mehrjährige Expansionpausen verordnet, um “Verluste zu vermeiden”.
 
