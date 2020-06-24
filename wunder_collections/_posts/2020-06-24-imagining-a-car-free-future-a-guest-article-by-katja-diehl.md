@@ -20,7 +20,7 @@ excerpt: For the duration of my 20-year-long professional career, I’ve focused
   just not right about the way our cities are designed.
 share_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/die-vorstellung-einer-autofreien-zukunft-ein-gastbeitrag-von-katja-diehl)_._
