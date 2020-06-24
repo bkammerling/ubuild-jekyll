@@ -14,18 +14,20 @@ cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles
 cta_link: pages/bernstein-newsletter.md
 title: 'Imagining a Car-Free Future: A Guest Article by Katja Diehl'
 publish_date: 2020-06-01 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 excerpt: For the duration of my 20-year-long professional career, I’ve focused my
   work on mobility and logistics, and I’ve always had the feeling that something’s
   just not right about the way our cities are designed.
-share_image: ''
+share_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 sticky: false
 hidden: true
 
 ---
+_Lesen Sie den Artikel auf Deutsch._
+
 **Katja Diehl** is a Hamburg-based mobility expert and podcast host with a background in journalism and marketing. She works as a business and communications consultant for She Drives Mobility and is passionate about promoting diversity within the mobility industry.
 
-Katja wants to create a more efficient, sustainable transport system that will benefit all of society. We sat down with Katja to talk about her opinions on the current state of mobility in Hamburg and the rest of Europe, as well as her suggestions on how we can improve.
+Katja wants to create a more efficient, sustainable transport system that will benefit all of society. We asked Katja to share her opinions on the current state of mobility in Hamburg and the rest of Europe, as well as her suggestions on how we can improve.
 
 ![](/uploads/2020/06/24/katjadiehl_body.jpg)
 
