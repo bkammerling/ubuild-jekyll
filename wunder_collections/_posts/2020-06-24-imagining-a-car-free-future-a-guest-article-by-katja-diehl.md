@@ -23,7 +23,7 @@ sticky: false
 hidden: true
 
 ---
-_Lesen Sie den Artikel auf Deutsch._
+_Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/die-vorstellung-einer-autofreien-zukunft-ein-gastbeitrag-von-katja-diehl)_._
 
 **Katja Diehl** is a Hamburg-based mobility expert and podcast host with a background in journalism and marketing. She works as a business and communications consultant for She Drives Mobility and is passionate about promoting diversity within the mobility industry.
 
