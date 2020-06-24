@@ -14,17 +14,21 @@ cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles
 cta_link: pages/bernstein-newsletter.md
 title: 'Die Vorstellung einer autofreien Zukunft: Ein Gastbeitrag von Katja Diehl'
 publish_date: 2020-06-01 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 excerpt: 'Ich bin seit 20 Jahren beruflich tätig – und so lange schon beschäftige
   ich mich mit Mobilität, Logistik – Bewegung von Menschen und Gütern. Denn von Beginn
   an (ich habe nie ein eigenes Auto besessen) war da dieses Gefühl: „Hier stimmt doch
   was nicht?!“'
-share_image: ''
+share_image: "/uploads/2020/06/24/katjadiehl_list.jpeg"
 sticky: false
 hidden: false
 
 ---
 _Read this article in English._
+
+_Intro text deustch_
+
+![](/uploads/2020/06/24/katjadiehl_body.jpg)
 
 **Wem gehört die Stadt?**
 
