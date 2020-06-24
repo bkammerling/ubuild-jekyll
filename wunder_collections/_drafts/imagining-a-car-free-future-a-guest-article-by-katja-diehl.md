@@ -21,7 +21,7 @@ sticky: false
 hidden: false
 
 ---
-_Read this article in German._
+_Lesen Sie den Artikel auf Deutsch._ 
 
 **Who really controls our cities?**
 
