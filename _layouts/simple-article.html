@@ -101,7 +101,7 @@
                 {% for linkedpage in site.pages %}
                 {% if linkedpage.path == ctalink %}
                   <a class="btn btn-primary mr-3" href="{{ linkedpage.url | default: site.url }}">Learn More</a>
-                  {% unless linkedpage.url contains 'career' or linkedpage.url contains 'blog' or linkedpage.url contains 'newsletter' %}<a class="btn btn-outline-primary" href="{{ linkedpage.url | default: site.url | absolute_url }}{% if page.cta_link contains 'summit' or page.cta_link contains 'sessions' %}#apply{% else %}#section-contact{% endif %}">Contact Us</a>{% endunless %}
+                  {% unless linkedpage.url contains 'career' or linkedpage.url contains 'blog' or linkedpage.url contains 'newsletter' or linkedpage.url contains 'policy' %}<a class="btn btn-outline-primary" href="{{ linkedpage.url | default: site.url | absolute_url }}{% if page.cta_link contains 'summit' or page.cta_link contains 'sessions' %}#apply{% else %}#section-contact{% endif %}">Contact Us</a>{% endunless %}
                 {% endif %}
                 {% endfor %}
               </div>
