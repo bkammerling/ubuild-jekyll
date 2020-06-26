@@ -363,6 +363,10 @@ blockquote {
   opacity: 0.7;
 }
 
+.modal {
+  z-index: 2050;
+}
+
 
 .filmmodal {
   -webkit-backdrop-filter: blur(10px);
@@ -420,6 +424,10 @@ blockquote {
     right: 30px;
     top: 20px;
     opacity: 1;
+  }
+
+  .modal-dialog {
+
   }
 }
 
