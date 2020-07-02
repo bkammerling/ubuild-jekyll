@@ -17,7 +17,7 @@ excerpt: The more employees a company has, the more of an influence it has on it
   management systems that take social responsibility into account.
 share_image: "/uploads/2020/07/02/parkhere_bernstein_200702_list.png"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Lesen Sie den Artikel auf_ [_Deutsch_](https://www.wundermobility.com/blog/csr-fur-die-strasse "CSR für die Straße")_._
