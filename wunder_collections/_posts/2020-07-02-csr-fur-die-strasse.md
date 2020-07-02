@@ -11,11 +11,11 @@ cta_text: Digital solutions for intelligent parking management
 cta_link: pages/de/park.md
 title: CSR für die Strasse
 publish_date: 2020-07-01 14:00:00 +0000
-featured_image: "/uploads/2020/07/02/parcoapp_list.png"
+featured_image: "/uploads/2020/07/02/parkhere_bernstein_200702_list.png"
 excerpt: Je mehr Mitarbeiter ein Unternehmen hat, desto größer ist sein Einfluss auf
   die regionale Parkplatzsituation. Unternehmen sind deshalb in der Pflicht, weitsichtiges
   Parkplatzmanagement zu betreiben.
-share_image: "/uploads/2020/07/02/parcoapp_list.png"
+share_image: "/uploads/2020/07/02/parkhere_bernstein_200702_list.png"
 sticky: false
 hidden: true
 
