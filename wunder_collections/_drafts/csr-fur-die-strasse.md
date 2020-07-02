@@ -1,19 +1,23 @@
 ---
 layout: simple-article
 category: Insights
-tags: []
+tags:
+- German
+- city
+- parking
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Find out more about Wunder Park
+cta_text: Digital solutions for intelligent parking management
+cta_link: pages/park.md
 title: CSR für die Strasse
-publish_date: 
+publish_date: 2020-07-01 14:00:00 +0000
 featured_image: ''
-excerpt: ''
+excerpt: Je mehr Mitarbeiter ein Unternehmen hat, desto größer ist sein Einfluss auf
+  die regionale Parkplatzsituation. Unternehmen sind deshalb in der Pflicht, weitsichtiges
+  Parkplatzmanagement zu betreiben.
 share_image: ''
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in English._ 
