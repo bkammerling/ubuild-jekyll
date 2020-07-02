@@ -5,7 +5,7 @@ tags:
 - German
 - city
 - parking
-author: []
+author: wunder_collections/_people/ParkHere.md
 cta_heading: Find out more about Wunder Park
 cta_text: Digital solutions for intelligent parking management
 cta_link: pages/de/park.md

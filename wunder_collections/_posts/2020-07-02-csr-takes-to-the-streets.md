@@ -5,10 +5,10 @@ tags:
 - German
 - city
 - parking
-author: []
+author: wunder_collections/_people/ParkHere.md
 cta_heading: Find out more about Wunder Park
 cta_text: Digital solutions for intelligent parking management
-cta_link: pages/de/park.md
+cta_link: pages/park.md
 title: CSR takes to the streets
 publish_date: 2020-07-01 14:00:00 +0000
 featured_image: "/uploads/2020/07/02/parkhere_bernstein_200702_list.png"
