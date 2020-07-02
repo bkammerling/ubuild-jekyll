@@ -20,7 +20,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/csr-takes-to-the-streets "CSR Takes to the Streets")_._
 
 **CSR für die Straße - Wie Unternehmen mit cleveren Parkkonzepten die Zukunft mitgestalten können**
 
