@@ -8,7 +8,7 @@ tags:
 author: []
 cta_heading: Find out more about Wunder Park
 cta_text: Digital solutions for intelligent parking management
-cta_link: pages/park.md
+cta_link: pages/de/park.md
 title: CSR für die Strasse
 publish_date: 2020-07-01 14:00:00 +0000
 featured_image: ''
@@ -20,7 +20,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._ 
+_Read this article in English._
 
 **CSR für die Straße - Wie Unternehmen mit cleveren Parkkonzepten die Zukunft mitgestalten können**
 
@@ -34,4 +34,4 @@ Die hohe Schadstoffbelastung in den Städten macht den Kommunen sehr zu schaffen
 
 **Doppelrezept: Elektromobilität fördern, Parkdruck verringern**
 
-Klar ist: Eine Mobilitätswende ist unbedingt erforderlich. Wenn sich die Lebensqualität in den Städten verbessern soll, dürfen innerstädtische Areale nicht länger von Autos mit Verbrennungsmotoren geflutet werden. Klar ist aber auch: Die motorisierte Individualmobilität ist Bestandteil unserer Kultur – und solange sie vornehmlich von Verbrennungsmotorfahrzeugen geprägt ist, müssen die Städte mit diesen Fahrzeugen zurechtkommen. Für die Lösung des Verkehrsproblems gibt es also zwei Direktiven: 1. Die Elektro-Mobilität muss gefördert werden. 2. Der Parkdruck in den Städten muss reduziert werden, damit der Parkplatzsuchverkehr abnimmt. In erster Linie ist die Umsetzung dieser Direktiven eine administrative Aufgabe – die Bundesregierung, die Landesregierungen und vor allem die Städte sind aufgerufen, entsprechende Regelungen zu entwerfen. Sie sind ferner aufgerufen, den Autofahrern Hilfe anzubieten. Diese Hilfe kann zum Beispiel in der Kooperation mit einem Park-App-Anbieter bestehen: Die PARCO-App etwa ermöglicht Autofahrern in teilnehmenden Städten das automatisierte Finden, Auswählen und Bezahlen eines Stellplatzes im öffentlichen Raum. Berücksichtigt werden derzeit Stellplätze am Straßenrand (On-Street-Parking), perspektivisch werden auch Stellplätze in Parkhäusern (Off-Street-Parking) integriert werden. Aber auch private Unternehmen können ihren Teil zur Förderung der Elektromobilität bzw. zur Verbesserung der regionalen Parksituation beitragen. Und wie eingangs gesagt, sollten sie es im Hinblick auf ihre soziale Verantwortung auch tun. 
+Klar ist: Eine Mobilitätswende ist unbedingt erforderlich. Wenn sich die Lebensqualität in den Städten verbessern soll, dürfen innerstädtische Areale nicht länger von Autos mit Verbrennungsmotoren geflutet werden. Klar ist aber auch: Die motorisierte Individualmobilität ist Bestandteil unserer Kultur – und solange sie vornehmlich von Verbrennungsmotorfahrzeugen geprägt ist, müssen die Städte mit diesen Fahrzeugen zurechtkommen. Für die Lösung des Verkehrsproblems gibt es also zwei Direktiven: 1. Die Elektro-Mobilität muss gefördert werden. 2. Der Parkdruck in den Städten muss reduziert werden, damit der Parkplatzsuchverkehr abnimmt. In erster Linie ist die Umsetzung dieser Direktiven eine administrative Aufgabe – die Bundesregierung, die Landesregierungen und vor allem die Städte sind aufgerufen, entsprechende Regelungen zu entwerfen. Sie sind ferner aufgerufen, den Autofahrern Hilfe anzubieten. Diese Hilfe kann zum Beispiel in der Kooperation mit einem Park-App-Anbieter bestehen: Die PARCO-App etwa ermöglicht Autofahrern in teilnehmenden Städten das automatisierte Finden, Auswählen und Bezahlen eines Stellplatzes im öffentlichen Raum. Berücksichtigt werden derzeit Stellplätze am Straßenrand (On-Street-Parking), perspektivisch werden auch Stellplätze in Parkhäusern (Off-Street-Parking) integriert werden. Aber auch private Unternehmen können ihren Teil zur Förderung der Elektromobilität bzw. zur Verbesserung der regionalen Parksituation beitragen. Und wie eingangs gesagt, sollten sie es im Hinblick auf ihre soziale Verantwortung auch tun.
