@@ -11,11 +11,11 @@ cta_text: Digital solutions for intelligent parking management
 cta_link: pages/de/park.md
 title: CSR für die Strasse
 publish_date: 2020-07-01 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/07/02/parcoapp_list.png"
 excerpt: Je mehr Mitarbeiter ein Unternehmen hat, desto größer ist sein Einfluss auf
   die regionale Parkplatzsituation. Unternehmen sind deshalb in der Pflicht, weitsichtiges
   Parkplatzmanagement zu betreiben.
-share_image: ''
+share_image: "/uploads/2020/07/02/parcoapp_list.png"
 sticky: false
 hidden: true
 
@@ -25,6 +25,8 @@ _Read this article in English._
 **CSR für die Straße - Wie Unternehmen mit cleveren Parkkonzepten die Zukunft mitgestalten können**
 
 Jedes Unternehmen ab einer gewissen Größe muss sich heute um eine positive Außenwirkung bemühen – CSR, also „Corporate Social Responsibility“, ist ein entscheidender Erfolgsfaktor. Die soziale Verantwortung erstreckt sich dabei auch auf den öffentlichen Verkehrsraum: Je mehr Mitarbeiter ein Unternehmen hat, desto größer ist sein Einfluss auf die regionale Parkplatzsituation. Unternehmen sind deshalb in der Pflicht, weitsichtiges Parkplatzmanagement zu betreiben.
+
+![](/uploads/2020/07/02/parcoapp_body.png)
 
 Deutschland ist ein Land mit relativ geringer Fläche und in Relation dazu vielen Autos. Das Kraftfahrt-Bundesamt wies am 1. Januar einen Bestand von 47,7 Millionen zugelassenen Pkw aus([1](https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Jahresbilanz/b_jahresbilanz_inhalt.html;jsessionid=055254C5FDF3E28722FA43A7F2FD3F99.live21302?nn=2598042)), die sich auf eine Fläche von 360.000 Quadratkilometer verteilen. Zum Vergleich: Die USA sind mit 9,6 Millionen Quadratkilometern rund 27-mal so groß wie Deutschland – es gibt dort aber nur knapp dreimal so viele Autos.([2](https://de.statista.com/statistik/daten/studie/739308/umfrage/pkw-bestand-in-den-usa/)) Entsprechend angespannt ist die allgemeine Parkplatzsituation in Deutschland, insbesondere in den Ballungsräumen. Eine Studie des Verkehrsforschungsunternehmens INRIX ergab, dass jede Autofahrt, die in eine deutsche Innenstadt führt, im Durchschnitt eine 10-minütige Parklatzsuchfahrt bedingt. Im Jahr summiert sich die Parkplatzsuchzeit pro Kopf auf 41 Stunden. Dabei entsteht ein finanzieller volkswirtschaftlicher Schaden von jährlich fast 40 Milliarden EUR, und es fallen Unmengen von Schadstoffen und klimaschädlichem CO2 an.([3](https://www.parkandjoy.de/blog-details/25-zahlen-rund-ums-parken))
 

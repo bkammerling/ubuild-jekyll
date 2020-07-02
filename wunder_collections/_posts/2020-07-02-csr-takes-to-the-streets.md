@@ -11,11 +11,11 @@ cta_text: Digital solutions for intelligent parking management
 cta_link: pages/de/park.md
 title: CSR takes to the streets
 publish_date: 2020-07-01 14:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/07/02/parcoapp_list.png"
 excerpt: The more employees a company has, the more of an influence it has on its
   local parking situation, which is why all companies should be utilizing parking
   management systems that take social responsibility into account.
-share_image: ''
+share_image: "/uploads/2020/07/02/parcoapp_list.png"
 sticky: false
 hidden: true
 
@@ -25,6 +25,8 @@ _Lesen Sie den Artikel auf Deutsch._
 **CSR takes to the streets: How companies with smart parking concepts can help design the future**
 
 These days, every mid- to large-sized company is expected to put an effort into cultivating a positive public image. An open commitment to CSR, or “corporate social responsibility”, is an important part of maintaining a socially responsible reputation. This also extends to parking lots: the more employees a company has, the more of an influence it has on its local parking situation, which is why all companies should be utilizing parking management systems that take social responsibility into account.
+
+![](/uploads/2020/07/02/parcoapp_body.png)
 
 In relation to the number of cars on the road, Germany is a country with relatively little space available. In fact, the Federal Motor Vehicle Transport Authority reported a total of 47.7 million registered cars in Germany([1](https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Jahresbilanz/b_jahresbilanz_inhalt.html;jsessionid=055254C5FDF3E28722FA43A7F2FD3F99.live21302?nn=2598042)), spread across just 360,000 square kilometers of space. In comparison, the USA has around 9.6 million square kilometers of space - approximately 27 times the size of Germany - but it only has about three times as many cars([2](https://de.statista.com/statistik/daten/studie/739308/umfrage/pkw-bestand-in-den-usa/)). This equates to a serious parking problem in many metropolitan areas. A study from the traffic research company INRIX showed that every ride taken by a car in the downtown area of German cities is concluded by **a 10-minute-long search for a parking spot** on average**.** Added together, that’s about 41 hours of looking for a parking spot per year. But that’s not at all: the economic costs of parking spot searching come to about **40 billion euros per year** - not to mention the pollution and climate-damaging CO2 these searches inadvertently produce([3](https://www.parkandjoy.de/blog-details/25-zahlen-rund-ums-parken)).
 
