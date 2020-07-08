@@ -83,6 +83,9 @@ a {
     color: inherit;
     text-decoration: none;
   }
+  p & {
+    color: $mobility-blue;
+  }
   &.with-play {
     padding-right: 55px; //to compensate for width+margin of play icon
     &:after {
