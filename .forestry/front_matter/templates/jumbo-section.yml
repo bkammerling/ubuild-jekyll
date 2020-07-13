@@ -12,7 +12,7 @@ fields:
     template: text-style
     label: Text Block
   config:
-    min:
+    min: 
     max: '3'
     labelField: content
   label: Text Blocks
