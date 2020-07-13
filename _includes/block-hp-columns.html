@@ -1,0 +1,43 @@
+<section class="block block-hp-columns fullwidth-bg" id="">
+  <div class="container">
+    <div class="text-center mb-5 pb-5">
+      <p>{{ section.heading }}</p>
+      {% if section.sub-heading and section.sub-heading != empty %}
+      <h2 class="page-heading">{{ section.sub-heading }}</h2>
+      {% endif %}
+    </div>
+    {% capture colClass %}
+      {% if section.column_count == 4 %}
+      col-sm-6 col-lg-3
+      {% elsif section.column_count == 3 %}
+      col-md-4
+      {% else %}
+      col-md-6
+      {% endif %}
+    {% endcapture %}
+    <div class="row">
+      {% for item in section.items %}
+      <div class="col {{ colClass | strip }} mb-5">
+        <!-- #Start Image-Caption Item -->
+        <div class="image-captions__item px-md-2">
+          {% if item.image.size > 0 %}
+          <div class="image-captions__image mb-2">
+            <img data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" class="lazy" />
+          </div>
+          {% endif %}
+          <div class="image-captions__content">
+            <div class="image-captions__title">
+              {% if item.icon and item.icon != empty %}<img src="{{ item.icon }}" />{% endif %}
+              <h3>{{ item.title }}</h3>
+            </div>
+            <p>{{ item.content }}</p>
+
+          </div>
+        </div>
+        <!-- #End Image-Caption Item -->
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

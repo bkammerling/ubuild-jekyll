@@ -1,5 +1,5 @@
 ---
-label: Block From Right
+label: Jumbo Section
 hide_body: true
 display_field: unique_id
 fields:
@@ -27,4 +27,4 @@ fields:
     required: false
   label: block
   hidden: true
-  default: wide-from-right
+  default: jumbo-section

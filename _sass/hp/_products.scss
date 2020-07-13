@@ -341,9 +341,14 @@ svg.right-arrow {
     @extend .col-12;
     @extend .col-md-6;
   }
-  &:not(.featured) {
+  &:not(.featured):not(.speaker) {
     @extend .col-6;
     @extend .col-md-4;
+  }
+  &.speaker {
+    @extend .col-6;
+    @extend .col-sm-4;
+    @extend .col-lg-3;
   }
 }
 .catalog-item {
@@ -366,6 +371,17 @@ svg.right-arrow {
     }
     @include rwd(desktop-up) {
       height: 500px;
+    }
+  }
+  .speaker & {
+    &__image {
+      height: 52vw;
+      @include rwd(mobile-up) {
+        height: 230px;
+      }
+      @include rwd(desktop-up) {
+        height: 340px;
+      }
     }
   }
 
