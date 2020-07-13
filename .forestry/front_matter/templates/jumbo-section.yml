@@ -3,18 +3,25 @@ label: Jumbo Section
 hide_body: true
 display_field: unique_id
 fields:
-- name: main_content
-  type: include
-  config: {}
-  template: 2-column-text
-  label: Main Content
-  description: Text content of block
-- name: bg_image
+- name: text_blocks
+  type: field_group_list
+  fields:
+  - name: text_block
+    type: include
+    config: {}
+    template: text-style
+    label: Text Block
+  config:
+    min:
+    max: '3'
+    labelField: content
+  label: Text Blocks
+- name: image
   type: file
   config:
     maxSize: '3'
-  label: Background Image
-  description: If added, only 1 column shown
+  label: Image
+  description: If added, shows in a 2nd column
 - name: unique_id
   type: text
   config:
