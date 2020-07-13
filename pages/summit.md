@@ -20,7 +20,7 @@ page_sections:
   block: hero-hp
   headline: Wunder Mobility Summit
   cta:
-    url: "https://vimeo.com/375405380"
+    url: https://vimeo.com/375405380
     button_text: Watch WMS Film
     enabled: true
   cta_2:
@@ -36,16 +36,27 @@ page_sections:
   block: jumbo-section
   col_1:
     headline: Wunder Mobility Summit...
-    content: "the yearly conference and innovation festival on the future
-      of mobility in Germany, Hamburg."
+    content: the yearly conference and innovation festival on the future of mobility
+      in Germany, Hamburg.
   col_2:
     headline: ''
     content: ''
   bg_image: ''
-  unique_id: summit-detail
+  unique_id: summit-intro
+  text_blocks:
+  - text_style: body
+    content: Wunder Mobility Summit
+  - text_style: headline-medium
+    content: Let's talk about mobility, baby
+  - content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+      ex in risus venenatis molestie. Maecenas vestibulum diam ante, vitae bibendum
+      ante eleifend in. Duis pretium vel dolor et sagittis. Vivamus at nisl nec erat
+      pellentesque gravida.
+    text_style: body
+  image: "/uploads/global/wms19-johnstage@mob.jpg"
 - template: speakers
   heading: Featured speakers
-  sub-heading: 'Hear from industry leaders'
+  sub-heading: Hear from industry leaders
   block: speaker-cards
   morecome: false
   speakers:
@@ -95,11 +106,11 @@ page_sections:
   items:
   - content: Inspirational speakers share their knowledge and best practices on stage.
     title: Conference
-    image: ""
+    image: ''
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: ""
+  - image: ''
     content: Guests have the chance to test out all types of new mobility firsthand.
     title: Test Drives
     icon: ''
@@ -108,18 +119,18 @@ page_sections:
   - title: Active Matchmaking
     content: We facilitate one-on-one meetings between guests who want to meet each
       other.
-    image: ""
+    image: ''
     icon: ''
     sub_title: ''
     show_meetups: false
   - title: Networking & Party
     content: A collaborative environment, memorable parties and effective and efficient
       networking breaks.
-    image: ""
+    image: ''
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: ""
+  - image: ''
     title: Expo
     content: Get into direct discussions with hand selected, high-caliber guests.
     icon: ''
@@ -127,17 +138,17 @@ page_sections:
     show_meetups: false
   - title: Tech Playground
     content: Guests can play around with and be inspired by new technology.
-    image: ""
+    image: ''
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: ""
+  - image: ''
     title: Startup Stage Battle
     content: Four selected startups share their groundbreaking visions.
     icon: ''
     sub_title: ''
     show_meetups: false
-  - image: ""
+  - image: ''
     title: Topic Deep Dives
     content: 30 to 45 minute sessions with an exclusive group of people.
     icon: ''
@@ -244,6 +255,9 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
+  hide_menu: false
+  show_poweredby: false
+description: ''
 menu:
   wunder-main:
     weight: 2
