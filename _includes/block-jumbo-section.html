@@ -2,13 +2,13 @@
 
   <div class="container">
 
-    {% if section.col_2.content and section.col_2.content != empty %}
+    {% if section.image and section.image != empty %}
       <div class="row">
-        <div class="col-sm-6 col-lg-5">
+        <div class="col-sm-6 col-xl-5 offset-xl-1">
     {% endif %}
           <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
           <p class="col1-text">{{ section.col_1.content }}</p>
-          {% if section.col_2.content and section.col_2.content != empty %}
+    {% if section.col_2.content and section.col_2.content != empty %}
         </div>
         <div class="col-sm-6 col-lg-7">
           {% if section.col_2.headline and section.col_2.headline != empty %}<h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>{% endif %}
@@ -20,16 +20,3 @@
   </div>
 
 </section>
-
-{% if section.bg_image and section.bg_image != empty %}
-<style>
-#section-{{ section.unique_id }} .bg-box__wrapper {
-  background-image: url("{{ section.bg_image | remove: '@2x' | relative_url }}");
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #section-{{ section.unique_id }} .bg-box__wrapper {
-    background-image: url('{{ section.bg_image | relative_url }}');
-  }
-}
-</style>
-{% endif %}
