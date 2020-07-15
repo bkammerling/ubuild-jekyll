@@ -18,7 +18,7 @@ fields:
     template: text-style
     label: Text Block
   config:
-    min:
+    min: 
     max: '3'
     labelField: content
   label: Text Blocks
@@ -48,7 +48,7 @@ fields:
     label: Content
     description: Optional
   config:
-    min:
-    max:
-    labelField:
+    min: 
+    max: 
+    labelField: 
   label: Items
