@@ -3,16 +3,28 @@
   <div class="container">
 
     {% if section.image and section.image != empty %}
-      <div class="row">
-        <div class="col-sm-6 col-xl-5 offset-xl-1">
+      <div class="row align-items-center">
+        <div class="col-sm-6 col-xl-5 px-xl-5 mb-4 mb-sm-0">
     {% endif %}
-          <h2 class="page-heading mb-4">{{ section.col_1.headline }}</h2>
-          <p class="col1-text">{{ section.col_1.content }}</p>
-    {% if section.col_2.content and section.col_2.content != empty %}
+        {% for item in section.text_blocks %}
+          {% assign style = item.text_style %} {% case style %}
+          {% when 'headline-large' %}
+          {% assign element = 'h2' %}
+          {% when 'headline-medium' %}
+          {% assign element = 'h3' %}
+          {% when 'headline-small' %}
+          {% assign element = 'h4' %}
+          {% when 'text-link' %}
+          {% assign element = 'a' %}
+          {% else %}
+          {% assign element = 'p' %}
+          {% endcase %}
+          <{{ element }} class="{{ style }}" data-aos="fade-in" data-aos-easing="apple-easing">{{ item.content }}</{{ element }}>
+        {% endfor %}
+    {% if section.image and section.image != empty %}
         </div>
-        <div class="col-sm-6 col-lg-7">
-          {% if section.col_2.headline and section.col_2.headline != empty %}<h2 class="page-heading mb-4">{{ section.col_2.headline }}</h2>{% endif %}
-          <p class="col2-text">{{ section.col_2.content }}</p>
+        <div class="col-sm-6 col-xl-6 offset-xl-1 pr-xl-5">
+          <img data-src="{{ section.image | remove: '@2x' }}" data-srcset="{{ section.image }} 2x" class="lazy" />
         </div>
       </div>
     {% endif %}

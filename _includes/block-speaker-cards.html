@@ -1,10 +1,9 @@
-<section id="speaker-list" class="block block-speaker-cards class="py-5">
+<section id="speaker-list" class="block block-speaker-cards fullwidth-bg">
   <div class="container">
     <div class="section-header text-center">
       <p>{{ section.heading | default: 'Featured Speakers' }}</p>
-      <h2 class="headline-large mb-5 ">{{ section.sub-heading | default: 'Hear from industry leaders' }}</h2>
+      <h2 class="headline-large">{{ section.sub-heading | default: 'Hear from industry leaders' }}</h2>
     </div>
-
 
     <div id="catalog-list" class="speaker-cards py-4">
       <div class="row">
@@ -14,7 +13,7 @@
           {% capture speaker_alt %}Photo of {{ speaker.name }}{% endcapture %}
           {% capture company_logo %}{{ speaker.company_logo }}{% endcapture %}
           {% capture logo_alt %}"Logo for {{ speaker.company }}"{% endcapture %}
-          <div class="catalog-item__wrapper speaker mb-5 d-flex flex-column justify-content-between">
+          <div class="catalog-item__wrapper speaker mt-5 d-flex flex-column justify-content-between">
             <div>
               <div class="catalog-item__image" style="background-image: url('{{ speaker_photo }}')">
                 <span class="hidden">Wunder Mobility Summit Speaker - {{ speaker.name }} from {{ speaker.company }}</span>
@@ -30,7 +29,7 @@
           {% endfor %}
 
       </div>
-      
+
       {% if section.morecome %}
       <div class="text-center mt-3">
           More to come

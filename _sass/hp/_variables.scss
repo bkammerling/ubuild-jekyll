@@ -50,6 +50,7 @@ $mobility-black: #1F1F1F;
 $mobility-blue: #2781FF;
 $primary: #2781FF;
 $danger: #F56300;
+$pink: #E11668;
 $dark: #1F1F1F;
 $black96: #F5F5F5;
 $black80: #CCCCCC;
@@ -72,7 +73,7 @@ $grass-green: #04DE47;
 $fleet-highlight: #2781FF;
 $carpool-highlight: #04DE47;
 $shuttle-highlight: #6C63FF;
-$summit-highlight: #E11668;
-$info: #E11668; //sets the bootstrap info color for use on buttons etc
+$summit-highlight: $pink;
+$info: $pink; //sets the bootstrap info color for use on buttons etc - now we can use those helper classes for our WMS pink!
 $park-highlight: #2D6F9B;
 $solution-highlight: $sky-blue !default;

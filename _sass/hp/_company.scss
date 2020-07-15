@@ -12,5 +12,53 @@
     }
   }
 
+}
 
+.percent-bar {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  &__item {
+    position: relative;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    .bar {
+      height: 20px;
+      width: 100%;
+      background: $white;
+      margin-bottom: 12px;
+    }
+    p {
+      position: absolute;
+      display: inline-block;
+      left: 100%;
+      top: 0px;
+      padding-left: 15px;
+      white-space: nowrap;
+    }
+    @include rwd(tablet-up) {
+      transform: none;
+      p {
+        left: 0px;
+        top: auto;
+        transform: translateX(-50%);
+      }
+      &:nth-child(n+3) p {
+        left: auto;
+        right: 0px;
+        transform: translateX(50%);
+      }
+    }
+  }
+  @include rwd(tablet-up) {
+    display: flex;
+  }
+}
+
+.photo-gallery > a {
+  max-width: 175px;
+  @include rwd(tablet-up) {
+    max-width: 250px;
+  }
 }

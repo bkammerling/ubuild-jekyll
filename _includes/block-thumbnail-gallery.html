@@ -1,21 +1,18 @@
 <section class="block block-thumbnail-gallery">
-  <div class="container" id="section-gallery">
-    {% comment %}<div class="wunder-bg right top-2"></div>{% endcomment %}
-
-    <div class="row">
-      <div class="col-lg-10 offset-lg-2">
-        <h2 class="page-heading mb-3">{{ section.heading }}</h2>
-        <section class="photo-gallery mt-5" id="lightgallery">
-          {% for image in section.photo_collection %}
-            {% capture path %}
-            {{ image | replace: '/uploads', 'uploads' }}
-            {% endcapture %}
-            <a href="{{ image }}" data-toggle="lightbox" data-gallery="example-gallery"  title="View image {{ forloop.index }}">
-              <img data-src="https://images.weserv.nl/?url=https://www.wundermobility.com/{{ path | strip | strip_newlines }}&w=250" alt="Photo in gallery" data-srcset="https://images.weserv.nl/?url=https://www.wundermobility.com/{{ path | strip | strip_newlines }}&w=500 2x">
-            </a>
-          {% endfor %}
-        </section>
-      </div>
+  <div class="text-center" id="section-gallery">
+    <div class="container">
+      <p>{{ section.heading }}</p>
+      <h2 class="headline-medium mb-3">{{ section.description }}</h2>
+    </div>
+    <div class="photo-gallery mt-5 d-flex flex-wrap justify-content-center" id="lightgallery">
+      {% for image in section.photo_collection %}
+        {% capture path %}
+        {{ image | replace: '/uploads', 'uploads' }}
+        {% endcapture %}
+        <a href="{{ image }}" class="m-1 photo-gallery__item" style="font-size:0; line-height:0;" data-toggle="lightbox" data-gallery="example-gallery"  title="View image {{ forloop.index }}">
+          <img class="w-100" data-src="https://images.weserv.nl/?url=https://www.wundermobility.com/{{ path | strip | strip_newlines }}&w=250" alt="Photo in gallery" data-srcset="https://images.weserv.nl/?url=https://www.wundermobility.com/{{ path | strip | strip_newlines }}&w=500 2x">
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>
