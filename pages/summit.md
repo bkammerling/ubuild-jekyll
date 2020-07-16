@@ -65,6 +65,13 @@ page_sections:
   block: speaker-cards
   morecome: false
   speakers:
+  - name: Robert Lokner
+    job_title: Industry Solution Manager Automotive / EMEA
+    company: Microsoft
+    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
+    company_logo: "/uploads/2019/10/17/MicrosoftLogo.png"
+    bio: ''
+    linkedin: ''
   - name: Clare Jones
     job_title: CCO
     company: what3words
