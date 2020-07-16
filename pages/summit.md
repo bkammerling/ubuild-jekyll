@@ -49,7 +49,10 @@ page_sections:
     content: Wunder Mobility Summit
   - text_style: headline-medium
     content: The Brightest Minds
-  - content: "This one-and-a-half day event connects the biggest players within the mobility ecosystem, from industry greats to academia and policy makers to visionaries, for an exchange of knowledge, ideas and insights. Let's discuss and shape the future of mobility."
+  - content: This one-and-a-half day event connects the biggest players within the
+      mobility ecosystem, from industry greats to academia and policy makers to visionaries,
+      for an exchange of knowledge, ideas and insights. Let's discuss and shape the
+      future of mobility.
     text_style: body
   image: "/uploads/global/wms19-johnstage@mob.jpg"
 - template: custom-content
@@ -96,6 +99,7 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
     bio: ''
+    linkedin: ''
   - name: John Krafcik
     job_title: CEO
     company: Waymo
@@ -114,7 +118,7 @@ page_sections:
     job_title: Industry Manager
     company: Google
     company_logo: "/uploads/2019/08/15/google-logo.png"
-    speaker_photo: "/uploads/2019/07/23/Patrick-Haller.jpg"
+    speaker_photo: "/uploads/2019/07/23/Patrick Haller.jpg"
     bio: ''
     linkedin: https://www.linkedin.com/in/phaller/
   - name: Paulin Dementhon
@@ -245,7 +249,10 @@ page_sections:
     content: Topics
   - text_style: headline-medium
     content: Stay up-to-date on mobility trends
-  - content: "The future is autonomous, shared and electric: find out more about the next generation of new mobility at the Wunder Mobility Summit. From micromobility to aerial transportation, WMS is the perfect place to hear from the industry’s brightest minds on mobility’s hottest topics."
+  - content: 'The future is autonomous, shared and electric: find out more about the
+      next generation of new mobility at the Wunder Mobility Summit. From micromobility
+      to aerial transportation, WMS is the perfect place to hear from the industry’s
+      brightest minds on mobility’s hottest topics.'
     text_style: body
   items:
   - heading: Autonomous Driving
