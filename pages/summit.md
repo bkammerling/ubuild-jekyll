@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Mobility Summit 2020 | Defining the Future of Mobility
+title: Wunder Mobility Summit | Defining the Future of Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
 version: hp
@@ -34,12 +34,12 @@ page_sections:
   logo_row: ''
 - template: custom-content
   block: custom-html
-  content: |-
-    <section class="post-hero d-flex align-items-center justify-content-center">
-      <div class="post-hero-message">
-        <p class="text-link">WMS 2020 has been cancelled due to COVID-19 restrictions <a href="https://wundermobility.com" target="_blank" class="d-inline-block ml-md-2 text-blue text-link"> Learn more <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
-      </div>  
-    </section>
+  content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
+    \ <div class=\"post-hero-message\">\n    <p class=\"text-link\">WMS 2020 has been
+    cancelled due to COVID-19 restrictions <a href=\"https://wundermobility.com\"
+    target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
+    more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
+    \ </div>  \n</section>"
   name: Post Hero Message
 - template: jumbo-section
   block: jumbo-section
@@ -211,39 +211,31 @@ page_sections:
   description: A sneak peek into what to expect
   photo_collection:
   - "/uploads/2020/01/02/DSC01058.jpg"
-  - "/uploads/2020/01/02/DSC01089.jpg"
   - "/uploads/2020/01/02/DSC01112.jpg"
-  - "/uploads/2020/01/02/DSC01178.jpg"
   - "/uploads/2020/01/02/DSC01318.jpg"
   - "/uploads/2020/01/02/DSC01345.jpg"
   - "/uploads/2020/01/02/DSC09403.jpg"
   - "/uploads/2020/01/02/DSC09525.jpg"
   - "/uploads/2020/01/02/DSC09580.jpg"
   - "/uploads/2020/01/02/DSC09593.jpg"
-  - "/uploads/2020/01/02/DSC09619.jpg"
   - "/uploads/2020/01/02/DSC09628.jpg"
   - "/uploads/2019/05/15/wms18-357.jpg"
-  - "/uploads/2019/05/15/wms18-355.jpg"
   - "/uploads/2019/05/15/wms18-343.jpg"
   - "/uploads/2019/05/15/wms18-327.jpg"
-  - "/uploads/2019/05/15/wms18-204.jpg"
   - "/uploads/2019/05/15/wms18-218.jpg"
   - "/uploads/2019/05/15/wms18-395-1.jpg"
   - "/uploads/2019/05/15/wms18-268.jpg"
   - "/uploads/2019/05/15/wms18-279.jpg"
   - "/uploads/2019/05/15/wms18-237.jpg"
   - "/uploads/2019/05/15/wms18-251.jpg"
-  - "/uploads/2019/05/15/wms18-303.jpg"
   - "/uploads/2019/05/15/wms18-317-1.jpg"
   - "/uploads/2019/05/15/wms18-296.jpg"
   - "/uploads/2019/05/15/wms18-314.jpg"
-  - "/uploads/2019/05/15/wms18-290.jpg"
   - "/uploads/2019/05/15/wms18-373.jpg"
   - "/uploads/2019/05/15/wms18-196.jpg"
   - "/uploads/2019/05/15/wms18-413.jpg"
   - "/uploads/2019/05/15/wms18-505.jpg"
   - "/uploads/2019/05/15/wms18-502.jpg"
-  - "/uploads/2019/05/15/wms18-438.jpg"
   - "/uploads/2019/05/15/wms18-587.jpg"
   - "/uploads/2019/05/15/wms18-519-1.jpg"
 - template: icon-heading-cards
@@ -492,7 +484,9 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-description: ''
+description: This one-and-a-half day event connects the biggest players within the
+  mobility ecosystem, from industry greats to academia and policy makers to visionaries,
+  for an exchange of knowledge, ideas and insights
 menu:
   wunder-main:
     weight: 2
