@@ -42,7 +42,7 @@ page_sections:
     \           </div>\n          </div>\n        </div>\n      </nav>\n\n    </div>\n
     \ </div>\n  <div class=\"summit-main-wrapper\">\n"
 - template: block-from-right
-  block: wide-from-right
+  block: jumbo-section
   col_1:
     headline: Wunder startup stage battle
     content: '<strong>We''re looking for innovative early-stage ventures that will
@@ -248,21 +248,6 @@ page_sections:
       </div>
     </div>
   name: faqs
-- template: block-from-right
-  block: wide-from-right
-  bg_image: "/uploads/2019/05/16/WMS18_44@2x.jpg"
-  unique_id: future
-  col_1:
-    content: Don't miss your chance to join the Startup Stage Battle at the Wunder
-      Mobility Summit. If you have any further questions, please don't hesitate to
-      <a target="_blank" class="text-blue" href="mailto:elizabeth.benitez@wunder.com?subject=
-      More info about the WMS19 startup stage battle">send us an email.</a><br><a
-      style="margin-bottom:-50px" class="round-cta dark mt-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWX2z1Zr2CXY3bzxDI0xbmG-iyP4hCSzuomvZzvXD3BXc7-A/viewform">Apply
-      here</a>
-    headline: Good things happen to those who pitch
-  col_2:
-    headline: ''
-    content: ''
 - template: custom-content
   block: custom-html
   content: "</div></main>"

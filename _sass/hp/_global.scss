@@ -237,21 +237,6 @@ img {
       padding: 0;
     }
   }
-  .client-logos & {
-    position: relative;
-    &:after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 32px;
-      display: block;
-      height: 1px;
-      width: calc(100% - 64px);
-      //box-shadow: 0px 0.5px 0px $black80;
-      border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-  }
-
   .single-box {
     padding: 24px;
     height: 150px;
@@ -263,6 +248,25 @@ img {
       max-width: 100%;
     }
   }
+}
+
+.client-logos .logo-boxes, .post-hero {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+    display: block;
+    height: 1px;
+    width: calc(100% - 64px);
+    //box-shadow: 0px 0.5px 0px $black80;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+}
+
+.post-hero {
+  min-height: 120px;
 }
 
 

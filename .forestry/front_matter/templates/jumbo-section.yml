@@ -1,0 +1,37 @@
+---
+label: Jumbo Section
+hide_body: true
+display_field: unique_id
+fields:
+- name: text_blocks
+  type: field_group_list
+  fields:
+  - name: text_block
+    type: include
+    config: {}
+    template: text-style
+    label: Text Block
+  config:
+    min: 
+    max: '3'
+    labelField: content
+  label: Text Blocks
+- name: image
+  type: file
+  config:
+    maxSize: '3'
+  label: Image
+  description: If added, shows in a 2nd column
+- name: unique_id
+  type: text
+  config:
+    required: true
+  label: Unique ID
+  description: 1 word ID for this block
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: jumbo-section

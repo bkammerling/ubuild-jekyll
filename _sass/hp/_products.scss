@@ -341,9 +341,15 @@ svg.right-arrow {
     @extend .col-12;
     @extend .col-md-6;
   }
-  &:not(.featured) {
+  &:not(.featured):not(.speaker) {
     @extend .col-6;
     @extend .col-md-4;
+  }
+  &.speaker {
+    @extend .col-6;
+    @extend .col-sm-4;
+    @extend .col-md-3;
+    @extend .col-xl-2;
   }
 }
 .catalog-item {
@@ -366,6 +372,20 @@ svg.right-arrow {
     }
     @include rwd(desktop-up) {
       height: 500px;
+    }
+  }
+  .speaker & {
+    &__image {
+      height: 48vw;
+      @include rwd(mobile-up) {
+        height: 230px;
+      }
+      @include rwd(desktop-up) {
+        height: 280px;
+      }
+      @include rwd(wide-up) {
+        height: 230px;
+      }
     }
   }
 

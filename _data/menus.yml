@@ -64,12 +64,6 @@ wunder-main:
   title: Wunder Summit
   parent: company
   subtitle: The mobility event of the year!
-- url: "/mobility-sessions/"
-  weight: 3
-  identifier: mobility-sessions
-  title: Mobility Sessions
-  parent: company
-  subtitle: Regular meetups focused on the future of mobility
 - url: "/our-story"
   weight: 2
   identifier: our-story
@@ -171,18 +165,6 @@ wunder-de:
   title: Events
   identifier: events
   sub: true
-- url: "/mobility-sessions"
-  weight: 3
-  identifier: autotech
-  title: Mobility Sessions | EN
-  parent: events
-  subtitle: Regular meetups focused on the future of mobility
-- url: "/summit/startup-stage"
-  weight: 2
-  identifier: startup-stage
-  title: Startup Stage | EN
-  parent: events
-  subtitle: Good things happen to those who pitch
 - url: "/summit/"
   weight: 1
   identifier: summit
@@ -335,16 +317,6 @@ footer:
     url: "/summit/"
     weight: 1
     title: Wunder Summit
-    parent: footerevents
-  - url: "/summit/startup-stage"
-    weight: 2
-    identifier: startup-stage
-    title: Startup Stage
-    parent: footerevents
-  - identifier: mobility-sessions
-    url: "/mobility-sessions/"
-    weight: 3
-    title: Mobility Sessions
     parent: footerevents
 - identifier: solutions
   title: Products

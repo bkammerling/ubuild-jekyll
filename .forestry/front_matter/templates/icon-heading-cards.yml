@@ -1,5 +1,5 @@
 ---
-label: Icon + Heading Cards
+label: Icon + Heading Section
 hide_body: true
 fields:
 - name: block
@@ -9,17 +9,20 @@ fields:
   label: block
   hidden: true
   default: icon-heading-grid
-- name: heading
-  type: text
+- name: text_blocks
+  type: field_group_list
+  fields:
+  - name: text_block
+    type: include
+    config: {}
+    template: text-style
+    label: Text Block
   config:
-    required: false
-  label: Heading
-- name: sub-heading
-  type: text
-  config:
-    required: false
-  label: Subheading
-- name: cards
+    min: 
+    max: '3'
+    labelField: content
+  label: Text Blocks
+- name: items
   type: field_group_list
   fields:
   - name: heading
@@ -48,4 +51,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Cards
+  label: Items

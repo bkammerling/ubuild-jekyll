@@ -1,37 +1,45 @@
-<section class="block block-icon-heading">
+<section class="block block-icon-heading fullwidth-bg">
   <div class="container">
-    {% unless page.dir contains 'career' %}
-    <div class="row">
-      <div class="col-lg-10 offset-lg-2">
-    {% endunless %}
-        <div class="icon-grid">
-          <h2 class="page-heading">{{ section.heading }}</h2>
-          {% if section.sub-heading and section.sub-heading != empty %}
-          <p class="lead mt-2">{{ section.sub-heading }}</p>
-          {% endif %}
-          <div class="row">
-            <div class="col-lg-11 offset-lg-1">
-              <div class="icon-grid__grid">
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0 px-xl-5" >
+        {% for item in section.text_blocks %}
+          {% assign style = item.text_style %} {% case style %}
+          {% when 'headline-large' %}
+          {% assign element = 'h2' %}
+          {% when 'headline-medium' %}
+          {% assign element = 'h3' %}
+          {% when 'headline-small' %}
+          {% assign element = 'h4' %}
+          {% when 'text-link' %}
+          {% assign element = 'a' %}
+          {% else %}
+          {% assign element = 'p' %}
+          {% endcase %}
+          <{{ element }} class="{{ style }}" data-aos="fade-in" data-aos-easing="apple-easing">{{ item.content }}</{{ element }}>
+        {% endfor %}
+      </div>
 
-              {% for item in section.cards %}
+      <div class="col-lg-6 offset-lg-1">
+        <div class="row">
+        {% for item in section.items %}
+          <div class="col-6 col-sm-4 col-lg-6 my-3 px-3 pr-lg-5">
 
-                <div class="icon-grid__item">
-                  {% if item.link and item.link != empty %}<a href="{{ item.link }}" title="See {{ item.heading }}">{% endif %}
-                    <img data-src="{{ item.icon }}" alt="{{ item.heading }}" />
-                    <h4>{{ item.heading }}</h4>
-                  {% if item.link and item.link != empty %}</a>{% endif %}
-                </div>
+            {% if item.link and item.link != empty %}
+            <a href="{{ item.link }}" title="See {{ item.heading }}">
+            {% endif %}
 
-              {% endfor %}
+              <img data-src="{{ item.icon }}" alt="{{ item.heading }}" />
+              <h4 class="headline-small">{{ item.heading }}</h4>
 
-              </div>
+            {% if item.link and item.link != empty %}
+            </a>
+            {% endif %}
 
-            </div>
           </div>
+        {% endfor %}
+
         </div>
       </div>
-  {% unless page.dir contains 'career' %}
     </div>
   </div>
-  {% endunless %}
 </section>
