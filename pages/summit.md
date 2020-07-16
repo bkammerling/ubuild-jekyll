@@ -72,6 +72,20 @@ page_sections:
     company_logo: "/uploads/2020/07/16/what3words.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/clare-jones-48053139/?originalSubdomain=uk
+  - name: Robert Heinrich
+    job_title: CEO
+    company: MOIA
+    speaker_photo: "/uploads/2020/07/16/robert-henrich-2x.jpg"
+    company_logo: "/uploads/global/moia-logo@2x.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/robert-henrich-02b3277/
+  - name: Sohaila Ouffata
+    job_title: Director of Platform BMW iVentures
+    company: BMW
+    speaker_photo: "/uploads/2020/07/16/sohaila-ouffata-2x.jpg"
+    company_logo: "/uploads/2020/07/16/bmw-2x.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/sohailaouffata/
   - name: Alexander Hitzinger
     job_title: Senior Vice President Autonomous Driving
     company: VW Group
