@@ -1,6 +1,9 @@
 ---
 layout: blocks
 title: Wunder Mobility Summit | Defining the Future of Mobility
+description: This one-and-a-half day event connects industry leaders within the mobility
+  ecosystem. During WMS, the biggest players, policymakers, visionaries and more come
+  together for an exchange of insights and ideas.
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
 version: hp
@@ -49,11 +52,8 @@ page_sections:
   - text_style: body
     content: Wunder Mobility Summit
   - text_style: headline-medium
-    content: The brightest minds
-  - content: This one-and-a-half day event connects industry leaders within the mobility
-      ecosystem. The biggest players, academia, policy makers and visionaries come
-      together for an exchange of knowledge, ideas and insights. Let's discuss and
-      shape the future of mobility.
+    content: Exploring the future of mobility
+  - content: "This one-and-a-half day event connects industry leaders within the mobility ecosystem. During WMS, the biggest players, policymakers, visionaries and more come together for an exchange of insights and ideas."
     text_style: body
   image: "/uploads/2020/07/16/john-kraf-home.jpg"
 - template: custom-content
@@ -241,7 +241,7 @@ page_sections:
 - template: photo-gallery
   block: thumbnail-gallery
   heading: Photo gallery
-  description: WMS snapshots
+  description: WMS Snapshots
   photo_collection:
   - "/uploads/2019/05/15/wms18-357.jpg"
   - "/uploads/2020/07/16/wms-outdoors.jpg"
@@ -512,9 +512,6 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-description: This one-and-a-half day event connects industry leaders within the mobility
-  ecosystem. During WMS, the biggest players, policymakers, visionaries and more come
-  together for an exchange of insights and ideas.
 menu:
   wunder-main:
     weight: 2
