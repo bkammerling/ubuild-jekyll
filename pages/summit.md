@@ -48,11 +48,8 @@ page_sections:
   - text_style: body
     content: Wunder Mobility Summit
   - text_style: headline-medium
-    content: Let's talk about mobility, baby
-  - content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
-      ex in risus venenatis molestie. Maecenas vestibulum diam ante, vitae bibendum
-      ante eleifend in. Duis pretium vel dolor et sagittis. Vivamus at nisl nec erat
-      pellentesque gravida.
+    content: The Brightest Minds
+  - content: "This one-and-a-half day event connects the biggest players within the mobility ecosystem, from industry greats to academia and policy makers to visionaries, for an exchange of knowledge, ideas and insights. Let's discuss and shape the future of mobility."
     text_style: body
   image: "/uploads/global/wms19-johnstage@mob.jpg"
 - template: custom-content
@@ -65,27 +62,40 @@ page_sections:
   block: speaker-cards
   morecome: false
   speakers:
-  - name: Peter Tschentscher
-    job_title: Mayor of Hamburg
-    company: City of Hamburg
-    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
-    company_logo: "/uploads/2019/05/10/logo-hh.png"
-    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+  - name: Alexander Hitzinger
+    job_title: Senior Vice President Autonomous Driving
+    company: VW Group
+    speaker_photo: "/uploads/2019/05/10/Alexander-Hitzinger.png"
+    company_logo: "/uploads/2019/06/13/Volkswagen.png"
     bio: ''
-  - name: Vanessa Govi
-    job_title: 'Chief Digital Officer '
-    company: ALD
-    speaker_photo: "/uploads/2020/03/12/vanessa-govi@2x.jpg"
-    company_logo: "/uploads/2020/03/12/ALD Automotive 1@2x.png"
+    linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
+  - name: Andrea Kollmorgen
+    job_title: VP Connected eMobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
     bio: ''
-    linkedin: https://www.linkedin.com/in/vanessa-govi-7a24491
-  - name: Johannes-Jörg Rüger
-    job_title: President
-    company: Bosch Engineering GmbH
-    speaker_photo: "/uploads/2020/03/12/johannes-jorg@2x.jpg"
-    company_logo: "/uploads/2020/03/12/BEG-2_4C_M_de.jpg"
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
     bio: ''
-    linkedin: https://www.linkedin.com/in/johannes-joerg-rueger-401ba1120/
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
+  - name: Eckart Diepenhorst
+    job_title: CEO Europe
+    company: FREENOW
+    company_logo: "/uploads/global/Freenow-logo.png"
+    speaker_photo: "/uploads/2019/07/29/Eckart-Diepenhorst.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/eckart-diepenhorst-288b673a/
+  - name: Horace Dediu
+    job_title: Co-Founder
+    company: Micromobility Industries
+    speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
+    company_logo: "/uploads/2019/05/10/logo-mm.png"
+    bio: ''
   - name: John Krafcik
     job_title: CEO
     company: Waymo
@@ -93,13 +103,48 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-waymo.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
-  - name: Sigrid Dalberg-Krajewski
-    job_title: Head of Marketing & Communications
-    company: Trafi
-    speaker_photo: "/uploads/2019/09/18/Sigrid-Dalberg-Krajewski.jpg"
-    company_logo: "/uploads/2019/09/18/Trafi logo 2.png"
+  - name: Jonas Seyfferth
+    job_title: Principal
+    company: Strategy&
+    speaker_photo: "/uploads/2019/07/31/Jonas Seyfferth.jpg"
+    company_logo: "/uploads/2019/08/01/Strategy-logo.jpg"
     bio: ''
-    linkedin: https://www.linkedin.com/in/sigriddalbergkrajewski/
+    linkedin: https://www.linkedin.com/in/jonas-seyfferth-b36925/
+  - name: Patrick Haller
+    job_title: Industry Manager
+    company: Google
+    company_logo: "/uploads/2019/08/15/google-logo.png"
+    speaker_photo: "/uploads/2019/07/23/Patrick-Haller.jpg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/phaller/
+  - name: Paulin Dementhon
+    job_title: CEO
+    company: Drivy by Getaround
+    company_logo: "/uploads/2019/06/12/Drivy-Logo.png"
+    speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/paulin/
+  - name: Peter Tschentscher
+    job_title: Mayor of Hamburg
+    company: City of Hamburg
+    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
+    company_logo: "/uploads/2019/05/10/logo-hh.png"
+    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+    bio: ''
+  - name: Tatiana Calderon
+    job_title: Test Driver
+    company: Alfa Romeo Formula One
+    speaker_photo: "/uploads/2019/10/14/Tatiana.jpg"
+    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/tatacalderon7/
+  - name: Gunnar Froh
+    job_title: CEO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wundermobility-black.svg"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/gunnarfroh/
 - template: custom-content
   block: custom-html
   name: Break
@@ -207,11 +252,8 @@ page_sections:
   - text_style: body
     content: Topics
   - text_style: headline-medium
-    content: Stay up-to-date on the industry's latest
-  - content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
-      ex in risus venenatis molestie. Maecenas vestibulum diam ante, vitae bibendum
-      ante eleifend in. Duis pretium vel dolor et sagittis. Vivamus at nisl nec erat
-      pellentesque gravida.
+    content: Stay up-to-date on mobility trends
+  - content: "The future is autonomous, shared and electric: find out more about the next generation of new mobility at the Wunder Mobility Summit. From micromobility to aerial transportation, WMS is the perfect place to hear from the industry’s brightest minds on mobility’s hottest topics."
     text_style: body
   items:
   - heading: Autonomous Driving
