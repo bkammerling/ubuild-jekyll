@@ -71,7 +71,7 @@ page_sections:
     speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
     company_logo: "/uploads/2019/10/17/MicrosoftLogo.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/robert-lokner/
   - name: Clare Jones
     job_title: CCO
     company: what3words
@@ -127,7 +127,7 @@ page_sections:
     speaker_photo: "/uploads/2019/05/10/horace-dediu.png"
     company_logo: "/uploads/2019/05/10/logo-mm.png"
     bio: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/dediu/
   - name: John Krafcik
     job_title: CEO
     company: Waymo
