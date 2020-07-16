@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Mobility Summit 2020 | Defining the Future of Mobility
+title: Wunder Mobility Summit | Defining the Future of Mobility
 date: '2019-01-22T23:00:00.000+00:00'
 permalink: "/summit/"
 version: hp
@@ -34,12 +34,12 @@ page_sections:
   logo_row: ''
 - template: custom-content
   block: custom-html
-  content: |-
-    <section class="post-hero d-flex align-items-center justify-content-center">
-      <div class="post-hero-message">
-        <p class="text-link">WMS 2020 has been cancelled due to COVID-19 restrictions <a href="https://wundermobility.com" target="_blank" class="d-inline-block ml-md-2 text-blue text-link"> Learn more <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
-      </div>  
-    </section>
+  content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
+    \ <div class=\"post-hero-message\">\n    <p class=\"text-link\">WMS 2020 has been
+    cancelled due to COVID-19 restrictions <a href=\"https://wundermobility.com\"
+    target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
+    more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
+    \ </div>  \n</section>"
   name: Post Hero Message
 - template: jumbo-section
   block: jumbo-section
@@ -450,7 +450,9 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-description: ''
+description: This one-and-a-half day event connects the biggest players within the
+  mobility ecosystem, from industry greats to academia and policy makers to visionaries,
+  for an exchange of knowledge, ideas and insights
 menu:
   wunder-main:
     weight: 2
