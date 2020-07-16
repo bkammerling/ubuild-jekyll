@@ -18,7 +18,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Wunder Mobility Summit
+  headline: Connecting the brightest minds in mobility
   cta:
     url: https://vimeo.com/375405380
     button_text: Watch WMS Film
@@ -32,6 +32,7 @@ page_sections:
   background_video: wms-web-loop-02
   intro_text: ''
   logo_row: ''
+  sub_logo: "/uploads/2020/07/16/wunder-mobility-summit.svg"
 - template: custom-content
   block: custom-html
   content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
