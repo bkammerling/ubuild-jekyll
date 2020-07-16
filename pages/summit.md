@@ -240,8 +240,8 @@ page_sections:
   column_count: 4
 - template: photo-gallery
   block: thumbnail-gallery
-  heading: Photo Gallery
-  description: WMS Snapshots
+  heading: Photo gallery
+  description: WMS snapshots
   photo_collection:
   - "/uploads/2019/05/15/wms18-357.jpg"
   - "/uploads/2020/07/16/wms-outdoors.jpg"
@@ -369,7 +369,7 @@ page_sections:
     <section id="section-supporters" class="fullwidth-bg">
       <div class="container text-center">
         <p>A big thank you to</p>
-        <h2 class="headline-medium mb-4">Our Sponsors</h2>
+        <h2 class="headline-medium mb-4">Our sponsors</h2>
         <div class="row align-items-center justify-content-center">
           <div class="col-6 col-md-3 col-xl-2 offset-xl-1">
             <div class="partner-box p-2">
