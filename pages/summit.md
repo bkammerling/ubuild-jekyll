@@ -239,8 +239,8 @@ page_sections:
   column_count: 4
 - template: photo-gallery
   block: thumbnail-gallery
-  heading: WMS Top Snaps
-  description: A sneak peek into what to expect
+  heading: Photo Gallery
+  description: WMS Snapshots
   photo_collection:
   - "/uploads/2019/05/15/wms18-357.jpg"
   - "/uploads/2020/07/16/wms-outdoors.jpg"
