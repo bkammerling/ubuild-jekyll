@@ -55,7 +55,7 @@ page_sections:
       for an exchange of knowledge, ideas and insights. Let's discuss and shape the
       future of mobility.
     text_style: body
-  image: "/uploads/global/wms19-johnstage@mob.jpg"
+  image: "/uploads/2020/07/16/john-kraf-home.jpg"
 - template: custom-content
   block: custom-html
   name: Break
