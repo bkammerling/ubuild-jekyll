@@ -512,9 +512,9 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-description: 'This one-and-a-half day event connects industry leaders within the mobility
+description: This one-and-a-half day event connects industry leaders within the mobility
   ecosystem. During WMS, the biggest players, policymakers, visionaries and more come
-  together for an exchange of insights and ideas. '
+  together for an exchange of insights and ideas.
 menu:
   wunder-main:
     weight: 2
