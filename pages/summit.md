@@ -36,7 +36,7 @@ page_sections:
   block: custom-html
   content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
     \ <div class=\"post-hero-message\">\n    <p class=\"text-link\">WMS 2020 has been
-    postponed due to COVID-19 restrictions <a href=\"https://wundermobility.com\"
+    postponed due to COVID-19 restrictions <a href=\"https://mailchi.mp/wundermobility.com/wunder-mobility-summit-postponed\"
     target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
     more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
     \ </div>  \n</section>"
@@ -48,7 +48,7 @@ page_sections:
   - text_style: body
     content: Wunder Mobility Summit
   - text_style: headline-medium
-    content: The Brightest Minds
+    content: The brightest minds
   - content: This one-and-a-half day event connects the biggest players within the
       mobility ecosystem, from industry greats to academia and policy makers to visionaries,
       for an exchange of knowledge, ideas and insights. Let's discuss and shape the
@@ -60,18 +60,11 @@ page_sections:
   name: Break
   content: "<div class='container'><hr class=''></div>"
 - template: speakers
-  heading: Featured speakers
-  sub-heading: Hear from industry leaders
+  heading: Our featured speakers
+  sub-heading: Meet the industry leaders
   block: speaker-cards
   morecome: false
   speakers:
-  - name: Robert Lokner
-    job_title: Industry Solution Manager Automotive / EMEA
-    company: Microsoft
-    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
-    company_logo: "/uploads/2019/10/17/MicrosoftLogo.png"
-    bio: ''
-    linkedin: https://www.linkedin.com/in/robert-lokner/
   - name: Clare Jones
     job_title: CCO
     company: what3words
@@ -86,6 +79,13 @@ page_sections:
     company_logo: "/uploads/global/moia-logo@2x.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/robert-henrich-02b3277/
+  - name: Peter Tschentscher
+    job_title: Mayor of Hamburg
+    company: City of Hamburg
+    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
+    company_logo: "/uploads/2019/05/10/logo-hh.png"
+    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+    bio: ''
   - name: Sohaila Ouffata
     job_title: Director of Platform BMW iVentures
     company: BMW
@@ -100,20 +100,20 @@ page_sections:
     company_logo: "/uploads/2019/06/13/Volkswagen.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/alexander-hitzinger-2163a035/
-  - name: Andrea Kollmorgen
-    job_title: VP Connected eMobility
-    company: Siemens
-    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
-    linkedin: https://www.linkedin.com/in/akollmorgen/
-    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
+  - name: John Krafcik
+    job_title: CEO
+    company: Waymo
+    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
+    company_logo: "/uploads/2019/05/10/logo-waymo.png"
     bio: ''
-  - name: Anna-Charlotte Fleischmann-Kopatsch
-    job_title: Senior Consultant
-    company: MHP
-    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
-    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
+    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
+  - name: Tatiana Calderon
+    job_title: Test Driver
+    company: Alfa Romeo Formula One
+    speaker_photo: "/uploads/2019/10/14/Tatiana.jpg"
+    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
+    linkedin: https://www.linkedin.com/in/tatacalderon7/
   - name: Eckart Diepenhorst
     job_title: CEO Europe
     company: FREENOW
@@ -128,13 +128,13 @@ page_sections:
     company_logo: "/uploads/2019/05/10/logo-mm.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/dediu/
-  - name: John Krafcik
-    job_title: CEO
-    company: Waymo
-    speaker_photo: "/uploads/2019/05/10/John-Krafcik.png"
-    company_logo: "/uploads/2019/05/10/logo-waymo.png"
+  - name: Andrea Kollmorgen
+    job_title: VP Connected eMobility
+    company: Siemens
+    company_logo: "/uploads/2019/10/25/Siemens-Logo.png"
+    linkedin: https://www.linkedin.com/in/akollmorgen/
+    speaker_photo: "/uploads/2019/10/25/Andrea-1.jpg"
     bio: ''
-    linkedin: https://www.linkedin.com/in/john-krafcik-341118a/
   - name: Jonas Seyfferth
     job_title: Principal
     company: Strategy&
@@ -156,20 +156,20 @@ page_sections:
     speaker_photo: "/uploads/2019/06/12/PaulinDementhon-1.png"
     bio: ''
     linkedin: https://www.linkedin.com/in/paulin/
-  - name: Peter Tschentscher
-    job_title: Mayor of Hamburg
-    company: City of Hamburg
-    speaker_photo: "/uploads/2019/05/10/Peter_Tschentscher.png"
-    company_logo: "/uploads/2019/05/10/logo-hh.png"
-    linkedin: https://www.linkedin.com/in/peter-tschentscher-501675111/
+  - name: Anna-Charlotte Fleischmann-Kopatsch
+    job_title: Senior Consultant
+    company: MHP
+    speaker_photo: "/uploads/2019/07/01/Anna-Charlotte-Fleischmann-Kopatsch.jpg"
+    company_logo: "/uploads/2019/07/01/MHP-logo.jpg"
     bio: ''
-  - name: Tatiana Calderon
-    job_title: Test Driver
-    company: Alfa Romeo Formula One
-    speaker_photo: "/uploads/2019/10/14/Tatiana.jpg"
-    company_logo: "/uploads/2019/05/10/logo_alfaromeo.png"
+    linkedin: https://www.linkedin.com/in/anna-charlotte-fleischmann/
+  - name: Robert Lokner
+    job_title: Industry Solution Manager Automotive / EMEA
+    company: Microsoft
+    speaker_photo: "/uploads/2019/10/29/Robert-Lokner.jpg"
+    company_logo: "/uploads/2019/10/17/MicrosoftLogo.png"
     bio: ''
-    linkedin: https://www.linkedin.com/in/tatacalderon7/
+    linkedin: https://www.linkedin.com/in/robert-lokner/
   - name: Gunnar Froh
     job_title: CEO & Co-Founder
     company: Wunder Mobility
