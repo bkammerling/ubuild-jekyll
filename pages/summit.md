@@ -65,6 +65,13 @@ page_sections:
   block: speaker-cards
   morecome: false
   speakers:
+  - name: Clare Jones
+    job_title: CCO
+    company: what3words
+    speaker_photo: "/uploads/2020/07/16/clare-jones-2x.jpg"
+    company_logo: "/uploads/2020/07/16/what3words.png"
+    bio: ''
+    linkedin: https://www.linkedin.com/in/clare-jones-48053139/?originalSubdomain=uk
   - name: Alexander Hitzinger
     job_title: Senior Vice President Autonomous Driving
     company: VW Group
