@@ -32,6 +32,15 @@ page_sections:
   background_video: wms-web-loop-02
   intro_text: ''
   logo_row: ''
+- template: custom-content
+  block: custom-html
+  content: |-
+    <section class="post-hero d-flex align-items-center justify-content-center">
+      <div class="post-hero-message">
+        <p class="text-link">WMS 2020 has been cancelled due to COVID-19 restrictions <a href="https://wundermobility.com" target="_blank" class="d-inline-block ml-md-2 text-blue text-link"> Learn more <img src="uploads/global/external-link.svg" class="externallink-icon link-svg"/></a></p>
+      </div>  
+    </section>
+  name: Post Hero Message
 - template: jumbo-section
   block: jumbo-section
   unique_id: summit-intro
@@ -252,19 +261,19 @@ page_sections:
         <h3 class="headline-medium pb-5">An international audience</h3>
         <div class="important-numbers my-5">
           <div class="row">
-            <div class="col-sm-4 col-xl-2 offset-xl-2">
+            <div class="col-4 col-xl-2 offset-xl-2">
               <div class="important-numbers__item mb-4 mb-sm-0">
                 <h2 class="headline-large mb-1">350</h2>
                 <p>Attendees</p>
               </div>
             </div>
-            <div class="col-sm-4 col-xl-2  offset-xl-1">
+            <div class="col-4 col-xl-2  offset-xl-1">
               <div class="important-numbers__item mb-4 mb-sm-0">
                 <h2 class="headline-large mb-1">205</h2>
                 <p>Companies</p>
               </div>
             </div>
-            <div class="col-sm-4 col-xl-2 offset-xl-1">
+            <div class="col-4 col-xl-2 offset-xl-1">
               <div class="important-numbers__item">
                 <h2 class="headline-large mb-1">32</h2>
                 <p>Countries</p>
@@ -297,7 +306,7 @@ page_sections:
   content: |-
     <section id="section-supporters" class="fullwidth-bg">
       <div class="container text-center">
-        <p>A big thank you</p>
+        <p>A big thank you to</p>
         <h2 class="headline-medium mb-4">Our Sponsors</h2>
         <div class="row align-items-center justify-content-center">
           <div class="col-6 col-md-3 col-xl-2 offset-xl-1">
@@ -414,6 +423,28 @@ page_sections:
       </div>
     </section>
   name: supporters
+- template: custom-content
+  block: custom-html
+  content: |-
+    <!-- Film Modal -->
+
+    <div class="modal fade filmmodal" id="filmModal" tabindex="-1" role="dialog" aria-labelledby="WMS film modal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="modal-body">
+              <div class="plyr__video-embed" id="player">
+                <iframe class="lazy" src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  name: Film popop modal
 - template: simple-footer
   block: footer-1
   content: ''
