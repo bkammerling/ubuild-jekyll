@@ -36,7 +36,7 @@ page_sections:
   block: custom-html
   content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
     \ <div class=\"post-hero-message\">\n    <p class=\"text-link\">WMS 2020 has been
-    cancelled due to COVID-19 restrictions <a href=\"https://wundermobility.com\"
+    postponed due to COVID-19 restrictions <a href=\"https://wundermobility.com\"
     target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
     more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
     \ </div>  \n</section>"
@@ -242,34 +242,32 @@ page_sections:
   heading: WMS Top Snaps
   description: A sneak peek into what to expect
   photo_collection:
-  - "/uploads/2020/01/02/DSC01058.jpg"
-  - "/uploads/2020/01/02/DSC01112.jpg"
-  - "/uploads/2020/01/02/DSC01318.jpg"
-  - "/uploads/2020/01/02/DSC01345.jpg"
   - "/uploads/2020/01/02/DSC09403.jpg"
+  - "/uploads/2020/07/16/wms-outdoors.jpg"
+  - "/uploads/2020/07/16/wms-inside.JPG"
+  - "/uploads/2020/01/02/DSC09628.jpg"
+  - "/uploads/2020/01/02/DSC01058.jpg"
   - "/uploads/2020/01/02/DSC09525.jpg"
   - "/uploads/2020/01/02/DSC09580.jpg"
-  - "/uploads/2020/01/02/DSC09593.jpg"
-  - "/uploads/2020/01/02/DSC09628.jpg"
+  - "/uploads/2020/01/02/DSC01345.jpg"
   - "/uploads/2019/05/15/wms18-357.jpg"
-  - "/uploads/2019/05/15/wms18-343.jpg"
-  - "/uploads/2019/05/15/wms18-327.jpg"
   - "/uploads/2019/05/15/wms18-218.jpg"
   - "/uploads/2019/05/15/wms18-395-1.jpg"
+  - "/uploads/2020/01/02/DSC01112.jpg"
   - "/uploads/2019/05/15/wms18-268.jpg"
   - "/uploads/2019/05/15/wms18-279.jpg"
   - "/uploads/2019/05/15/wms18-237.jpg"
   - "/uploads/2019/05/15/wms18-251.jpg"
-  - "/uploads/2019/05/15/wms18-317-1.jpg"
-  - "/uploads/2019/05/15/wms18-296.jpg"
+  - "/uploads/2020/01/02/DSC01318.jpg"
+  - "/uploads/2020/01/02/DSC09593.jpg"
   - "/uploads/2019/05/15/wms18-314.jpg"
   - "/uploads/2019/05/15/wms18-373.jpg"
-  - "/uploads/2019/05/15/wms18-196.jpg"
   - "/uploads/2019/05/15/wms18-413.jpg"
-  - "/uploads/2019/05/15/wms18-505.jpg"
   - "/uploads/2019/05/15/wms18-502.jpg"
-  - "/uploads/2019/05/15/wms18-587.jpg"
   - "/uploads/2019/05/15/wms18-519-1.jpg"
+  - "/uploads/2020/07/16/wunder-summit2019-mariadittrich-sequence-1-204.JPG"
+  - "/uploads/2020/07/16/wunder-summit2019-mariadittrich-sequence-1-102-1.JPG"
+  - "/uploads/2020/07/16/wms19-by-night-1.jpg"
 - template: icon-heading-cards
   block: icon-heading-grid
   text_blocks:
