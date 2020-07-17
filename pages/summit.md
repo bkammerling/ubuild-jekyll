@@ -39,7 +39,7 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
-    \ <div class=\"post-hero-message\">\n    <p class=\"text-link\">WMS 2020 has been
+    \ <div class=\"post-hero-message\">\n    <p class=\"text-link px-5\">WMS 2020 has been
     postponed due to COVID-19 restrictions <a href=\"https://mailchi.mp/wundermobility.com/wunder-mobility-summit-postponed\"
     target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
     more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
