@@ -12,14 +12,14 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
   city officials and mobility enthusiasts. '
 cta_link: pages/bernstein-newsletter.md
 title: An Interview with Stephan Kühn
-publish_date: 2020-07-17 14:00:00 +0000
+publish_date: 2020-07-17T14:00:00.000+00:00
 featured_image: "/uploads/2020/07/16/aninterview_stephankuehn_list.jpg"
 excerpt: We interviewed Stephan Kühn, transport policy speaker of Alliance 90/The
   Greens, about the tasks politicians (and society) need to take on to ensure a successful
   mobility revolution.
 share_image: "/uploads/2020/07/16/aninterview_stephankuehn_list.jpg"
-sticky: true
-hidden: false
+sticky: false
+hidden: true
 
 ---
 We interviewed Stephan Kühn, transport policy speaker of Alliance 90/The Greens, about the tasks politicians (and society) need to take on to ensure a successful mobility revolution.
