@@ -19,7 +19,7 @@ excerpt: We interviewed Stephan Kühn, transport policy speaker of Alliance 90/T
   mobility revolution.
 share_image: "/uploads/2020/07/16/aninterview_stephankuehn_list.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 We interviewed Stephan Kühn, transport policy speaker of Alliance 90/The Greens, about the tasks politicians (and society) need to take on to ensure a successful mobility revolution.
