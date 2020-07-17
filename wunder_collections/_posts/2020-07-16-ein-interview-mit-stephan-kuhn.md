@@ -19,7 +19,7 @@ excerpt: Ein Interview mit Stephan Kühn MdB, verkehrspolitischer Sprecher der B
   einen erfolgreichen Mobilitätswandel.
 share_image: "/uploads/2020/07/16/aninterview_stephankuehn_list.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Ein Interview mit Stephan Kühn MdB, verkehrspolitischer Sprecher der Bundestagsfraktion Bündnis 90/Die Grünen, über die politischen und gesellschaftlichen Aufgaben für einen erfolgreichen Mobilitätswandel und wie wir hierbei europaweit voneinander lernen können.
