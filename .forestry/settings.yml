@@ -28,6 +28,13 @@ sections:
   match: "**/*"
   templates:
   - speaker
+- type: jekyll-posts
+  label: Posts2
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
 - type: directory
   path: wunder_collections/_articles
   label: Press
