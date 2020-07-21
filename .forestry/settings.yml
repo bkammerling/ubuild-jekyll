@@ -28,13 +28,6 @@ sections:
   match: "**/*"
   templates:
   - speaker
-- type: jekyll-posts
-  label: Posts2
-  create: documents
-  match: "**/*"
-  new_doc_ext: ".md"
-  templates:
-  - blog-post
 - type: directory
   path: wunder_collections/_articles
   label: Press
@@ -43,6 +36,14 @@ sections:
   new_doc_ext: md
   templates:
   - press-template
+- type: directory
+  path: wunder_collections
+  label: Posts2
+  create: documents
+  match: _posts/**/*,_drafts/**/*
+  new_doc_ext: ".md"
+  templates:
+  - blog-list
 - type: directory
   path: wunder_collections/_autotech-events
   label: Mobility Sessions
