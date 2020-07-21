@@ -37,10 +37,10 @@ sections:
   templates:
   - press-template
 - type: directory
-  path: wunder_collections
+  path: ''
   label: Posts2
   create: documents
-  match: "{_posts/**/*,_drafts/**/*}"
+  match: "{wunder_collections/_posts/*,wunder_collections/_drafts/*}"
   new_doc_ext: ".md"
   templates:
   - blog-list
