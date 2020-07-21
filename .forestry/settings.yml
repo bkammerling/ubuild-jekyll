@@ -40,7 +40,7 @@ sections:
   path: wunder_collections
   label: Posts2
   create: documents
-  match: _posts/**/*,_drafts/**/*
+  match: "{_posts/**/*,_drafts/**/*}"
   new_doc_ext: ".md"
   templates:
   - blog-list
