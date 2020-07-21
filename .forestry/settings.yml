@@ -22,6 +22,14 @@ sections:
   templates:
   - blog-post
 - type: directory
+  path: ''
+  label: Posts incl. drafts
+  create: documents
+  match: "{wunder_collections/_posts/*,wunder_collections/_drafts/*}"
+  new_doc_ext: md
+  templates:
+  - blog-post
+- type: directory
   path: wunder_collections/_people
   label: People
   create: documents
@@ -36,14 +44,6 @@ sections:
   new_doc_ext: md
   templates:
   - press-template
-- type: directory
-  path: ''
-  label: Posts2
-  create: documents
-  match: "{wunder_collections/_posts/*,wunder_collections/_drafts/*}"
-  new_doc_ext: md
-  templates:
-  - blog-list
 - type: directory
   path: wunder_collections/_autotech-events
   label: Mobility Sessions
