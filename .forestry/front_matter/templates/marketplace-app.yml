@@ -1,4 +1,132 @@
 ---
 label: Marketplace app
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Short summary, about 100 characters. Shown on list card and app detail
+    page
+- name: preview_gallery
+  type: image_gallery
+  config: {}
+  label: Preview Gallery
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Description
+  description: Longer description of the app
+- name: screenshot_details
+  type: field_group_list
+  fields:
+  - name: screenshot
+    type: file
+    config:
+      maxSize: 1
+    label: Screenshot
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: screenshot_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Screenshot Description
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Screenshot Details
+  description: List of screens with descriptions
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Customer Service
+    - Fleet Optimisation
+    - API Integrations
+    - Fleet Maintenance
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: app_details
+  type: field_group_list
+  fields:
+  - name: detail_title
+    type: text
+    config:
+      required: false
+    label: Detail Title
+  - name: detail_content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Detail Content
+    description: Add text, links or an image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: App Details
+- name: access_needed
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Access needed
+  description: 'e.g. Wunder Fleet API: User Data'
+- name: getting_started
+  type: field_group_list
+  fields:
+  - name: column_title
+    type: text
+    config:
+      required: false
+    label: Column title
+  - name: column_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Column description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Getting started steps
+  description: 3 text columns showing next steps
