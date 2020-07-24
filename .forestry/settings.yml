@@ -22,14 +22,6 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: ''
-  label: Posts incl. drafts
-  create: documents
-  match: "{wunder_collections/_posts/*,wunder_collections/_drafts/*}"
-  new_doc_ext: md
-  templates:
-  - blog-post
-- type: directory
   path: wunder_collections/_people
   label: People
   create: documents
