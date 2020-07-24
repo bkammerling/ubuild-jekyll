@@ -46,6 +46,13 @@ sections:
 - type: document
   path: _data/weallmove.yml
   label: "#WeAllMove"
+- type: directory
+  path: wunder_collections/_apps
+  label: Marketplace Apps
+  create: documents
+  match: "**/*"
+  templates:
+  - marketplace-app
 - type: heading
   label: Vehicles
 - type: directory
