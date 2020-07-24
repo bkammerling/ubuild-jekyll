@@ -7,6 +7,12 @@ fields:
   config:
     required: false
   label: Name
+- name: icon
+  type: file
+  config:
+    maxSize: 0.4
+  label: Icon
+  description: Main app icon - <em>must be</em> <em>square</em>
 - name: excerpt
   type: textarea
   default: ''
