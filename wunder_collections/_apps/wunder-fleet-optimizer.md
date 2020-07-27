@@ -2,13 +2,28 @@
 category: Fleet Optimisation
 name: Wunder Fleet Optimizer
 excerpt: Everything you need to increase your fleet performance and streamline workflows.
-preview_gallery: []
+preview_gallery:
+- "/uploads/2020/07/27/optimizer-preview2-2x.jpg"
+- "/uploads/2020/07/27/optimizer-preview1-2x.jpg"
+- "/uploads/2020/07/27/optimizer-preview3-2x.jpg"
 description: Wunder Fleet Optimizer is a comprehensive tool to visualize, understand
   and optimize the utilization of a fleet. The tool is built incrementally, separated
   in self-contained modules which are sold individually.<br><br>A customer could use
   only the Demand Prediction Module, another customer could use all modules in one
   tool.
-screenshot_details: []
+screenshot_details:
+- screenshot: "/uploads/2020/07/27/optimizer-screen1-2x.jpg"
+  title: Analyze Fleet Utilization
+  screenshot_description: Velit officia consequat duis enim velit mollit. Exercitation
+    veniam consequat sunt nostrud amet.
+- screenshot: "/uploads/2020/07/27/optimizer-screen2-2x.jpg"
+  title: Insights into Usage Analytics
+  screenshot_description: Velit officia consequat duis enim velit mollit. Exercitation
+    veniam consequat sunt nostrud amet.
+- screenshot: "/uploads/2020/07/27/optimizer-screen3-2x.jpg"
+  title: Deployment Recommendations
+  screenshot_description: Velit officia consequat duis enim velit mollit. Exercitation
+    veniam consequat sunt nostrud amet.
 app_details:
 - detail_title: Works with
   detail_content: <img src="/uploads/2020/07/27/wunder-fleet-140-2x.png">
