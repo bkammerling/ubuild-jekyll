@@ -46,6 +46,7 @@ fields:
     config:
       maxSize: 1
     label: Screenshot
+    description: Upload regular and @2x images, then select the @2x file
   - name: title
     type: text
     config:
