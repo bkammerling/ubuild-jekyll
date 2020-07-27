@@ -10,8 +10,18 @@ description: Wunder Fleet Optimizer is a comprehensive tool to visualize, unders
   tool.
 screenshot_details: []
 app_details:
+- detail_title: Works with
+  detail_content: <img src="/uploads/2020/07/27/wunder-fleet-140-2x.png">
+- detail_title: Developer
+  detail_content: <a href="https://wundermobility.com" title="">Wunder Mobility →</a>
+- detail_title: Support contact
+  detail_content: <a href="mailto:support@wundermobility.com?subject=Wunder%20Fleet%20Optimization%20support&amp;body=Hey%20Wunder%20team%2C%0D%0A%0D%0AI%20have%20a%20question%20regarding%20your%20Wunder%20Fleet%20Optimization%20app."
+    title="">support@wundermobility.com</a>
 - detail_title: Resources
-  detail_content: Download Whitepaper<br>Privacy Policy<br>Terms of Service
+  detail_content: <a href="/uploads/Wunder-Mobility-Facts-Sheet-EN.pdf" title="Download
+    the fleet optimization whitepaper best use of e-scooter fleet">Download Whitepaper</a><br><a
+    href="/privacy" title="">Privacy Policy</a><br><a href="/terms" title="">Terms
+    of Service</a>
 access_needed:
 - 'Wunder Fleet API: User Data'
 - 'Wunder Fleet API: Trip Data'
