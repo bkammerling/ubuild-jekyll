@@ -2,11 +2,11 @@
 title: Wunder Mobility
 author: Wunder Mobility
 email: website@wundermobility.com
-description: A smart mobility marketplace and tech platform providing carpooling,
-  smart shuttles, and scooter/car-sharing to end customers, corporates, and cities.
+description: Technology to launch and scale shared mobility services; car & scooter sharing, vehicle rentals, carpooling and more. We're accelerating the global transition to sustainable mobility.
 baseurl: "/"
 url: https://www.wundermobility.com
 permalink: "/blog/:title:output_ext"
+gtm-code: "GTM-THSMP8S"
 collections:
   articles:
     output: false
@@ -17,6 +17,9 @@ collections:
     output: false
   vehicles:
     permalink: "/api/vehicles/:name"
+    output: true
+  apps:
+    permalink: "/marketplace/:title"
     output: true
 collections_dir: wunder_collections
 include:

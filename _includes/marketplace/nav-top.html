@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light px-4 border-0">
+  <a class="navbar-brand" href="{{ site.url }}/marketplace">
+    <img src="/uploads/global/marketplace/wunder-marketplace-logo.svg" alt="Wunder Marketplace logo" class="">
+  </a>
+  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <div class="collapse navbar-collapse">
+    <ul class="list-unstyled navbar-nav ml-auto">
+      {% for nav_item in menu %}
+      {% if nav_item.parent %}
+        {% continue %}
+      {% else %}
+        <li class="nav-item"><a class="nav-link body-text" href="{{ nav_item.url }}" data-target="{{ nav_item.identifier }}">{{ nav_item.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% unless page.collection %}
+      <a class="btn btn-primary gt-navcta" href="#contact">Developer & Partner Program</a>
+    {% endunless %}
+  </div>
+</nav>

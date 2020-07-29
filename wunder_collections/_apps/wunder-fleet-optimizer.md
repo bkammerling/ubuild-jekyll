@@ -1,6 +1,9 @@
 ---
+published: true
+layout: marketplace
+icon: "/uploads/2020/07/24/app-logo-square-small-col-1-2x.png"
 category: Fleet Optimisation
-name: Wunder Fleet Optimizer
+title: Wunder Fleet Optimizer
 excerpt: Everything you need to increase your fleet performance and streamline workflows.
 preview_gallery:
 - "/uploads/2020/07/27/optimizer-preview2-2x.jpg"
@@ -51,7 +54,5 @@ getting_started:
 - column_title: Optimize your fleet
   column_description: Velit officia consequat duis enim velit mollit. Exercitation
     veniam consequat sunt nostrud amet.
-icon: "/uploads/2020/07/24/app-logo-square-small-col-1-2x.png"
-published: false
 
 ---

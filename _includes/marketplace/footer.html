@@ -1,0 +1,36 @@
+    <script type="text/javascript">
+      var pagetitle = "{{ page.title }}";
+      var pageref = "{{ page.lang-ref }}";
+    </script>
+
+    <script type="text/javascript" src="/assets/js/plyr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer type="text/javascript" src="/assets/js/main.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    {% for static_file in site.static_files %}
+      {% if page.component_scripts contains static_file.name %}
+        <script defer type="text/javascript" src="{{ static_file.path | absolute_url }}"></script>
+      {% endif %}
+    {% endfor %}
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#F2F2F2"
+        },
+        "button": {
+          "background": "#449fdd",
+          "text": "#ffffff"
+        }
+      },
+      "content": {
+        "href": "https://www.wundermobility.com/privacy"
+      }
+    });
+    </script>
+
+  </body>
+</html>

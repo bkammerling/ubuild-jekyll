@@ -2,10 +2,10 @@
 label: Marketplace app
 hide_body: true
 fields:
-- name: name
+- name: title
   type: text
   config:
-    required: false
+    required: true
   label: Name
 - name: icon
   type: file
@@ -62,8 +62,8 @@ fields:
         format: markdown
     label: Screenshot Description
   config:
-    min: 
-    max: 
+    min:
+    max:
     labelField: title
   label: Screenshot Details
   description: List of screens with descriptions
@@ -79,9 +79,9 @@ fields:
     - Fleet Maintenance
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: app_details
   type: field_group_list
@@ -102,16 +102,16 @@ fields:
     label: Detail Content
     description: Add text, links or an image
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: App Details
 - name: access_needed
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
   label: Access needed
   description: 'e.g. Wunder Fleet API: User Data'
 - name: getting_started
@@ -132,9 +132,9 @@ fields:
         format: markdown
     label: Column description
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Getting started steps
   description: 3 text columns showing next steps
 pages:
