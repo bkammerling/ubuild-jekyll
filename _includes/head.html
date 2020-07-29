@@ -57,8 +57,22 @@
     {% else %}
       <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     {% endif %}
-    <meta property="og:image" content="{% if page.share_image.size > 0 %}{{ site.url }}{{ page.share_image }}{% else %}{{ site.url }}/uploads/global/share-img.png{% endif %}" />
+    <meta property="og:image" content="{% if page.share_image.size > 0 %}{{ site.url }}{{ page.share_image }}{% else %}{{ site.url }}/uploads/global/share-img.jpg{% endif %}" />
     <meta name="twitter:site" content="@wundermobility">
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Wunder Mobility",
+      "url" : "https://www.wundermobility.com",
+      "sameAs" : [
+        "https://www.linkedin.com/company/wundermobility",
+        "https://www.instagram.com/wundermobility/",
+        "https://twitter.com/wundermobility",
+        "https://www.youtube.com/channel/UCqATrIqYLXpuB78MNVV4bBQ"
+      ]
+    }
+    </script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" async>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async>
