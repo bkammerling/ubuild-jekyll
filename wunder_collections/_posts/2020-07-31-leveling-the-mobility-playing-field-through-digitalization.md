@@ -19,7 +19,10 @@ sticky: false
 hidden: false
 
 ---
-Mobility has changed so much in recent months that interaction between public and private market participants has become inevitable. Although some of these participants have been around for decades, interaction between them is still largely absent. Today, however, willingness to cooperate on a technical basis is crucial, as it provides a basis for future decisions. 
+_Read this article in_ [_German_](https://www.wundermobility.com/blog/entzerrung-durch-digitalisierung)_._
+
+  
+Mobility has changed so much in recent months that interaction between public and private market participants has become inevitable. Although some of these participants have been around for decades, interaction between them is still largely absent. Today, however, willingness to cooperate on a technical basis is crucial, as it provides a basis for future decisions.
 
 ![](/uploads/2020/07/31/digitalization_bernstein_200731_body.jpg)
 
