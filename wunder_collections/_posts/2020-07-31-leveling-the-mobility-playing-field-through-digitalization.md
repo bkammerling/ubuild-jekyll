@@ -16,7 +16,7 @@ excerpt: The digital exchange and cooperation between public and private actors 
   only be successful if monetary motives aren’t seen as the goal of the discussion.
 share_image: "/uploads/2020/07/31/digitalization_bernstein_200731_list.jpeg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Mobility has changed so much in recent months that interaction between public and private market participants has become inevitable. Although some of these participants have been around for decades, interaction between them is still largely absent. Today, however, willingness to cooperate on a technical basis is crucial, as it provides a basis for future decisions. 
