@@ -20,7 +20,9 @@ sticky: false
 hidden: true
 
 ---
-Das Mobilitätsverhalten der letzten Monate hat sich so stark verändert, dass eine Interaktion zwischen öffentlichen und privaten Marktteilnehmern unausweichlich ist. Und obwohl einige schon seit Jahrzehnten bestehen, fehlt diese Interaktion in weiten Teilen. Kooperationsbereitschaft auf technischer Grundlage ist heutzutage jedoch ausschlaggebend, denn sie birgt Entscheidungsgrundlagen für die Zukunft. 
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/leveling-the-mobility-playing-field-through-digitalization)_._ 
+
+Das Mobilitätsverhalten der letzten Monate hat sich so stark verändert, dass eine Interaktion zwischen öffentlichen und privaten Marktteilnehmern unausweichlich ist. Und obwohl einige schon seit Jahrzehnten bestehen, fehlt diese Interaktion in weiten Teilen. Kooperationsbereitschaft auf technischer Grundlage ist heutzutage jedoch ausschlaggebend, denn sie birgt Entscheidungsgrundlagen für die Zukunft.
 
 ![](/uploads/2020/07/31/digitalization_bernstein_200731_body.jpg)
 
