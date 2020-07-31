@@ -11,15 +11,19 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
 cta_link: pages/bernstein-newsletter.md
 title: Leveling the mobility playing field through digitalization
 publish_date: 2020-07-31 02:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/07/31/digitalization_bernstein_200731_list.jpeg"
 excerpt: The digital exchange and cooperation between public and private actors can
   only be successful if monetary motives aren’t seen as the goal of the discussion.
-share_image: ''
+share_image: "/uploads/2020/07/31/digitalization_bernstein_200731_list.jpeg"
 sticky: false
 hidden: true
 
 ---
-Mobility has changed so much in recent months that interaction between public and private market participants has become inevitable. Although some of these participants have been around for decades, interaction between them is still largely absent. Today, however, willingness to cooperate on a technical basis is crucial, as it provides a basis for future decisions. Several aspects have to be taken into account: the interaction between very different participants already starts with end customers sitting in their living room, organizing their mobility plans for the day, but is also a crucial talking point at the round tables of coalition committees. While private providers are perfecting their occupancy rates or algorithmically calculated locations, many municipalities are still only concerned with cannibalisation and price issues. Especially in the scope of Mobility as a Service (MaaS) offerings, a battle is being waged for the platforms with the most diverse modal split, the best integration of different apps, and monopoly-like pricing through tariff zones of public transport associations. Opinions are divided about who should “own” end customers, and all parties involved end up discouraged when users decide to just use a privately owned car rather than bother with other mobility services.
+Mobility has changed so much in recent months that interaction between public and private market participants has become inevitable. Although some of these participants have been around for decades, interaction between them is still largely absent. Today, however, willingness to cooperate on a technical basis is crucial, as it provides a basis for future decisions. 
+
+![](/uploads/2020/07/31/digitalization_bernstein_200731_body.jpg)
+
+Several aspects have to be taken into account: the interaction between very different participants already starts with end customers sitting in their living room, organizing their mobility plans for the day, but is also a crucial talking point at the round tables of coalition committees. While private providers are perfecting their occupancy rates or algorithmically calculated locations, many municipalities are still only concerned with cannibalisation and price issues. Especially in the scope of Mobility as a Service (MaaS) offerings, a battle is being waged for the platforms with the most diverse modal split, the best integration of different apps, and monopoly-like pricing through tariff zones of public transport associations. Opinions are divided about who should “own” end customers, and all parties involved end up discouraged when users decide to just use a privately owned car rather than bother with other mobility services.
 
 Quite a few MaaS projects have failed without a clear statement about the real reasons behind their failure. Behind closed doors, however, people are being honest with each other: you can’t earn big money with MaaS! It doesn't matter whether the operator of a platform is a public institution, or an internationally known mobility provider - anyone entering the race with the goal of monetization will end up disappointed.
 

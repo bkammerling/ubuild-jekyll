@@ -11,16 +11,20 @@ cta_text: 'Our monthly bilingual policy brief is full of articles relevant to po
 cta_link: pages/bernstein-newsletter.md
 title: Entzerrung durch Digitalisierung
 publish_date: 2020-07-31 06:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/07/31/digitalization_bernstein_200731_list.jpeg"
 excerpt: 'Das Mobilitätsverhalten der letzten Monate hat sich so stark verändert,
   dass eine Interaktion zwischen öffentlichen und privaten Marktteilnehmern unausweichlich
   ist. '
-share_image: ''
+share_image: "/uploads/2020/07/31/digitalization_bernstein_200731_list.jpeg"
 sticky: false
 hidden: true
 
 ---
-Das Mobilitätsverhalten der letzten Monate hat sich so stark verändert, dass eine Interaktion zwischen öffentlichen und privaten Marktteilnehmern unausweichlich ist. Und obwohl einige schon seit Jahrzehnten bestehen, fehlt diese Interaktion in weiten Teilen. Kooperationsbereitschaft auf technischer Grundlage ist heutzutage jedoch ausschlaggebend, denn sie birgt Entscheidungsgrundlagen für die Zukunft. Hierfür müssen mehrere Aspekte in Betracht gezogen werden: Die Interaktion zwischen diesen sehr unterschiedlichen Teilnehmern beginnt bereits bei dem Endkunden im Wohnzimmer während der Planung seiner/ihrer täglichen Mobilität, ist aber auch entscheidend am großen runden Tisch von Koalitionsausschüssen. Und während die privaten Anbieter ihre Auslastungsquoten oder algorithmisch errechneten Standorte perfektionieren, geht es leider immer noch bei vielen kommunalen Diskussionen nur um die Kannibalisierungs- und Preis-Frage. Gerade in den Sphären der Mobility-as-a-Service (MaaS) Angebote herrscht ein Kampf um die Plattformen mit den meisten Angeboten für einen möglichst vielfältigen Modal-Split, die beste Tiefenintegration unterschiedlicher Apps oder Monopol-ähnliche Preisgestaltungen durch Tarifzonen von öffentlichen Verkehrsverbünden. Die Gemüter spalten sich darüber, wem der Endkunden gehören sollte, und schlussendlich verlassen alle Beteiligte den Ring entmutigt, da der Endkunde sich für den privaten PKW entscheidet.
+Das Mobilitätsverhalten der letzten Monate hat sich so stark verändert, dass eine Interaktion zwischen öffentlichen und privaten Marktteilnehmern unausweichlich ist. Und obwohl einige schon seit Jahrzehnten bestehen, fehlt diese Interaktion in weiten Teilen. Kooperationsbereitschaft auf technischer Grundlage ist heutzutage jedoch ausschlaggebend, denn sie birgt Entscheidungsgrundlagen für die Zukunft. 
+
+![](/uploads/2020/07/31/digitalization_bernstein_200731_body.jpg)
+
+Hierfür müssen mehrere Aspekte in Betracht gezogen werden: Die Interaktion zwischen diesen sehr unterschiedlichen Teilnehmern beginnt bereits bei dem Endkunden im Wohnzimmer während der Planung seiner/ihrer täglichen Mobilität, ist aber auch entscheidend am großen runden Tisch von Koalitionsausschüssen. Und während die privaten Anbieter ihre Auslastungsquoten oder algorithmisch errechneten Standorte perfektionieren, geht es leider immer noch bei vielen kommunalen Diskussionen nur um die Kannibalisierungs- und Preis-Frage. Gerade in den Sphären der Mobility-as-a-Service (MaaS) Angebote herrscht ein Kampf um die Plattformen mit den meisten Angeboten für einen möglichst vielfältigen Modal-Split, die beste Tiefenintegration unterschiedlicher Apps oder Monopol-ähnliche Preisgestaltungen durch Tarifzonen von öffentlichen Verkehrsverbünden. Die Gemüter spalten sich darüber, wem der Endkunden gehören sollte, und schlussendlich verlassen alle Beteiligte den Ring entmutigt, da der Endkunde sich für den privaten PKW entscheidet.
 
 Gescheiterte MaaS Projekte gibt es inzwischen einige, allerdings keine klare Aussage über die wahren Gründe. Hinter vorgehaltener Hand wird aber klar formuliert: mit MaaS lässt sich nicht das große Geld verdienen! Da ist es egal, ob der Betreiber dieser Plattform eine öffentliche Institution oder ein internationaler Mobilitäts-Anbieter ist. Jeder, der mit der Zielvorstellung der Monetarisierung ins Rennen geht, wird jegliche Diskussionen in die gleiche Einbahnstraße ohne Wendemöglichkeit lenken.
 
