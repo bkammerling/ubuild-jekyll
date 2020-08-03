@@ -35,7 +35,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html
+      format: html-blocks
   label: Description
   description: Longer description of the app
 - name: screenshot_details
