@@ -1,8 +1,8 @@
 ---
 published: true
-layout: marketplace
+layout: marketplace-app
 icon: "/uploads/2020/07/24/app-logo-square-small-col-1-2x.png"
-category: Fleet Optimisation
+category: Fleet Optimization
 title: Wunder Fleet Optimizer
 excerpt: Everything you need to increase your fleet performance and streamline workflows.
 preview_gallery:

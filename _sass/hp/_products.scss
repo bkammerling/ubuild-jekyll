@@ -331,6 +331,9 @@ svg.right-arrow {
   margin-left: 3px;
   margin-top: -3px;
   transition: transform $transition-duration;
+  &.flip-x {
+    transform: rotate(180deg) !important;
+  }
   a:hover & {
     transform: translateX(8px);
   }

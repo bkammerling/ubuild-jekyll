@@ -1,13 +1,22 @@
 {% include marketplace/head.html %}
 
-<header>
-  {% include marketplace/nav-top.html %}
+<header class="bg-light">
+  {% include marketplace/block-nav-top.html %}
+
+  <div class="container hero pt-5">
+    <div class="row">
+      <div class="col-md-8 col-md-lg-7">
+        <h2>Extend your mobility business</h2>
+        <p class="pr-5">Build your competitive advantage on Wunder Mobility’s stable & scalable platform together with the world’s first mobility marketplace</p>
+      </div>
+    </div>
+  </div>
+
 </header>
 
 <!-- Add your site or application content here -->
 <div class="container my-5 py-5 text-{{page.textalign}}" style="min-height:40vh">
   <p>{{ content }}</p>
-  Wassup
 </div>
 
 

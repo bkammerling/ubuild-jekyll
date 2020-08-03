@@ -1,0 +1,68 @@
+{% include marketplace/head.html %}
+
+<header class="bg-gray-gradient position-relative">
+
+  {% include marketplace/block-nav-top.html %}
+
+  <div class="container py-4 z-20">
+    <div class="d-none d-md-block">
+      {% include marketplace/block-breadcrumbs.html %}
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-3 col-sm-2 col-lg-1">
+        <img src="{{ page.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ page.icon }} 2x" alt="App icon for {{ page.title }}" />
+      </div>
+      <div class="col-sm-10 col-md-7">
+        <h1 class="h2 mt-2 my-sm-0">{{ page.title }}</h1>
+        <p>{{ page. excerpt }}</p>
+      </div>
+      <div class="col-12 order-md-4">
+        <div class="app-previews row my-4 mt-md-5 mb-md-0">
+          {% for image in page.preview_gallery %}
+          <div class="app-previews__single col col-md-3 col-lg-2">
+            <img class="w-shadow" src="{{ image | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ image }} 2x" alt="App preview image {{ forloop.index }}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="offset-lg-1 col-md-3">
+        <a class="btn btn-dark btn-lg btn-block" href="#">Get started</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="white-bottom"></div>
+
+</header>
+
+<main id="app-details" class="py-5 my-5">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8">
+        <h4>Description</h4>
+        <p>{{ page.description }}</p>
+        <div class="row">
+          <div class="col-md-5">
+          </div>
+          <div class="col-md-7">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+
+{% include block-footer-1.html %}
+{% include marketplace/footer.html %}
