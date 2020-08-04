@@ -1,3 +1,5 @@
+$mkt-primary: #0026E6;
+
 /*
  ----- TYPOGRAPHY  ------
 */
@@ -24,6 +26,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 6px;
   @include rwd(tablet-up) {
     font-size: 20px;
     line-height: 32px;
@@ -33,6 +36,12 @@ h4, .h4 {
 p {
   font-size: 16px;
   line-height: 24px;
+  &.body-light, .body-light & {
+    color: #4d4d4d;
+  }
+  ~ p {
+    margin-top: inherit !important;
+  }
 }
 
 
@@ -44,11 +53,62 @@ p {
 .btn-lg {
   font-size: inherit;
 }
+.btn-primary {
+  background-color: $mkt-primary;
+  &:hover {
+    background-color: darken($mkt-primary, 8%);
+  }
+}
+
+
+#app-details {
+  a {
+    color: $mkt-primary;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.app-access {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  &:before {
+    content: '';
+    margin-right: 8px;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background: url('/uploads/global/marketplace/check-icon.svg');
+  }
+}
+
+.step-col {
+  display: flex;
+  align-items: flex-start;
+  &:before {
+    content: '';
+    margin-right: 8px;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background: url('/uploads/global/marketplace/li-number-1.svg');
+  }
+}
+
 
 
 
 .bg-gray-gradient {
   background: linear-gradient(141.15deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+}
+
+.bg-crossover {
+  background: linear-gradient(357.49deg, rgba(255, 255, 255, 0) 85.6%, #FFFFFF 85.6%), linear-gradient(312.8deg, #F1F1F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+  min-height: 26vw;
+  padding-top: 120px;
+  padding-bottom: 64px;
 }
 .white-bottom {
   position: absolute;

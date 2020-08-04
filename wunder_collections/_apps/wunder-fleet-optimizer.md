@@ -27,8 +27,6 @@ screenshot_details:
   screenshot_description: Velit officia consequat duis enim velit mollit. Exercitation
     veniam consequat sunt nostrud amet.
 app_details:
-- detail_title: Works with
-  detail_content: <img src="/uploads/2020/07/27/wunder-fleet-140-2x.png">
 - detail_title: Developer
   detail_content: <a href="https://wundermobility.com" title="">Wunder Mobility →</a>
 - detail_title: Support contact
