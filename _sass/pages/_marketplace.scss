@@ -1,4 +1,6 @@
 $mkt-primary: #0026E6;
+$black50: #808080;
+
 
 /*
  ----- TYPOGRAPHY  ------
@@ -60,6 +62,44 @@ p {
   }
 }
 
+.btn-link {
+  color: $black50;
+  &.active {
+    background-color: $black96;
+    color: $mobility-black;
+  }
+}
+
+
+.category-select {
+  .btn-link {
+    text-decoration: none;
+  }
+}
+
+.mob-scroll {
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+.category-select {
+  > * {
+    white-space: nowrap;
+    margin-right: 14px;
+    @include rwd(wide-up) {
+      margin-right: 22px;
+    }
+  }
+  &:after {
+    content: '';
+    min-width: 30px;
+    display: inline-block;
+    height: 1px;
+  }
+}
 
 #app-details {
   a {

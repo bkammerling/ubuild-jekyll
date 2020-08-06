@@ -1,23 +1,68 @@
 {% include marketplace/head.html %}
 
-<header class="bg-light">
+<header class="bg-gray-gradient">
   {% include marketplace/block-nav-top.html %}
 
   <div class="container hero pt-5">
     <div class="row">
       <div class="col-md-8 col-md-lg-7">
         <h2>Extend your mobility business</h2>
-        <p class="pr-5">Build your competitive advantage on Wunder Mobility’s stable & scalable platform together with the world’s first mobility marketplace</p>
+        <p class="pr-5 mb-5">Build your competitive advantage on Wunder Mobility’s stable & scalable platform together with the world’s first mobility marketplace</p>
       </div>
     </div>
   </div>
 
 </header>
 
-<!-- Add your site or application content here -->
-<div class="container my-5 py-5 text-{{page.textalign}}" style="min-height:40vh">
-  <p>{{ content }}</p>
-</div>
+<main id="marketplace-home" class="py-5">
+
+  <section id="app-catalog" class="my-2">
+
+    <div class="mob-scroll">
+      <div class="container position-relative">
+
+        <div class="category-select btn-group-toggle pb-3 pr-3 d-flex align-items-center justify-content-between" data-toggle="buttons">
+          <p class="mb-0">I want to:</p>
+          <label class="btn btn-link active" aria-pressed="true">
+            <input type="radio" name="categories" id="categories1" autocomplete="off" checked>Extend my business (All)
+          </label>
+          <label class="btn btn-link">
+            <input type="radio" name="categories" id="categories2" autocomplete="off">Engage my Customers
+          </label>
+          <label class="btn btn-link">
+            <input type="radio" name="categories" id="categories3" autocomplete="off">Optimize my Fleet
+          </label>
+          <label class="btn btn-link">
+            <input type="radio" name="categories" id="categories4" autocomplete="off">Improve Maintenance
+          </label>
+          <label class="btn btn-link">
+            <input type="radio" name="categories" id="categories4" autocomplete="off">Analyze Vehicle Performance
+          </label>
+        </div>
+
+        <div class="app-boxes row">
+          {% assign Apps = site.apps %}
+          {% for app in Apps %}
+          <div class="col-sm-6 col-md-4 col-xl-3">
+            <a href="{{ app.url }}">
+              <div class="app-box px-3 pt-3 pb-2 w-shadow">
+                <img class="" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+                <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
+                <p class="body-light">{{ app.excerpt }}</p>
+                <span class="badge badge-light">{{ app.category }}</span>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
 
 
 {% include block-footer-1.html %}
