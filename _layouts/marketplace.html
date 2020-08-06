@@ -40,16 +40,16 @@
           </label>
         </div>
 
-        <div class="app-boxes row">
+        <div class="app-boxes row pt-4 pb-5">
           {% assign Apps = site.apps %}
           {% for app in Apps %}
           <div class="col-sm-6 col-md-4 col-xl-3">
             <a href="{{ app.url }}">
-              <div class="app-box px-3 pt-3 pb-2 w-shadow">
+              <div class="app-box px-4 pt-4 pb-3 w-shadow">
                 <img class="" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
                 <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
-                <p class="body-light">{{ app.excerpt }}</p>
-                <span class="badge badge-light">{{ app.category }}</span>
+                <p class="body-light small mb-3">{{ app.excerpt }}</p>
+                <p class="badge badge-light body-label p-2">{{ app.category }}</p>
               </div>
             </a>
           </div>
