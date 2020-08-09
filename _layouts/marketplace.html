@@ -39,21 +39,58 @@
             <input type="radio" name="categories" id="categories4" autocomplete="off">Analyze Vehicle Performance
           </label>
         </div>
+      </div>
+    </div>
 
-        <div class="app-boxes row pt-4 pb-5">
-          {% assign Apps = site.apps %}
-          {% for app in Apps %}
-          <div class="col-sm-6 col-md-4 col-xl-3">
-            <a href="{{ app.url }}">
-              <div class="app-box px-4 pt-4 pb-3 w-shadow">
-                <img class="" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+    <div class="container">
+      <div class="app-boxes row pt-4 pb-5">
+        {% assign Apps = site.apps %}
+        {% for app in Apps %}
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <a href="{{ app.url }}">
+            <div class="app-box px-3 px-md-4 py-3 pt-md-4  w-shadow d-flex d-md-block">
+              <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+              <div class="d-flex flex-column justify-content-between align-items-start d-md-block">
                 <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
-                <p class="body-light small mb-3">{{ app.excerpt }}</p>
+                <p class="body-light small mb-3 d-none d-md-block">{{ app.excerpt }}</p>
                 <p class="badge badge-light body-label p-2">{{ app.category }}</p>
               </div>
-            </a>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 align-self-center">
+          <div class="px-3 py-5 py-sm-2">
+            <h3 class="my-sm-2">Didn't find what you're looking for?</h3>
+            <a href="#" class="link-text" title="Reach out to Wunder Mobility">Reach out →</a>
           </div>
-          {% endfor %}
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  {% assign app = site.apps | first %}
+  {% comment %} | where: 'featured', true {% endcomment %}
+  <section class="bg-gray-gradient my-0 py-5" >
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8 col-lg-7 offset-lg-1">
+          <p class="mb-3">Our Highlight</p>
+          <div class="d-flex mb-4 align-items-end">
+            <img class="mr-3 w-shadow" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+            <h2 class="mb-0">{{ app.title }}</h2>
+          </div>
+          <p class="large">{{ app.excerpt }}</p>
+          <a href="{{ app.url }}" class="" title="Reach out to Wunder Mobility">Find out more →</a>
+        </div>
+
+        <div class="col">
         </div>
 
       </div>

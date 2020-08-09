@@ -138,6 +138,14 @@ p {
   }
 }
 
+.text-highlight, .link-text {
+  color: $mkt-primary;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+
+
 .app-access {
   margin-bottom: 16px;
   display: flex;
@@ -186,4 +194,14 @@ p {
   height: 42px;
   background-color: white;
   z-index: 0;
+}
+
+
+.applist-icon {
+  max-width: 64px;
+  max-height: 64px;
+  @include rwd(tablet-up) {
+    max-width: 72px;
+    max-height: 72px;
+  }
 }
