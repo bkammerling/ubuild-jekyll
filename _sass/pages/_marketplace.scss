@@ -6,6 +6,18 @@ $black50: #808080;
  ----- TYPOGRAPHY  ------
 */
 
+h1, .h1 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  font-weight: 600;
+  @include rwd(tablet-up) {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 0px;
+  }
+}
+
 h2, .h2 {
   font-size: 24px;
   line-height: 32px;
@@ -80,8 +92,19 @@ p {
 */
 
 
-.btn-lg {
-  font-size: inherit;
+.btn {
+  font-size: 14px;
+  .arrow-svg {
+    margin-left: 5px;
+    max-width: 20px;
+    max-height: 20px;
+  }
+}
+.btn.btn-block {
+  font-size: 16px;
+}
+.btn-mkt {
+  padding: 16px 24px;
 }
 .btn-primary {
   background-color: $mkt-primary;
@@ -173,6 +196,10 @@ p {
   }
 }
 
+#wunder-statboxsvg {
+  filter: drop-shadow(1px 4px 6px rgba(0,0,0,0.1));
+}
+
 
 
 
@@ -186,6 +213,11 @@ p {
   padding-top: 120px;
   padding-bottom: 64px;
 }
+
+.bg-crossover.grey-white {
+  background: linear-gradient(357.83deg, #FFFFFF 28.08%, rgba(255, 255, 255, 0) 28.09%), linear-gradient(96.72deg, #F1F3F7 8.38%, #EAECF0 90.71%, #EAEBEF 96.68%);
+}
+
 .white-bottom {
   position: absolute;
   bottom: 0;
