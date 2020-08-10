@@ -198,6 +198,14 @@ p {
 
 #wunder-statboxsvg {
   filter: drop-shadow(1px 4px 6px rgba(0,0,0,0.1));
+  @include rwd(tablet-up){
+    max-width: 120%;
+    position: absolute;
+    left: -20px;
+  }
+  @include rwd(desktop-up){
+    max-width: 140%;
+  }
 }
 
 
