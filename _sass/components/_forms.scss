@@ -135,7 +135,7 @@ form {
 
   .select2-selection {
     span.select2-selection__rendered {
-      color: $olive-light;
+      color: $mobility-black;
       text-transform: uppercase;
       font-weight: 300;
       font-size: 14px;
@@ -149,7 +149,7 @@ form {
     }
   }
   .selected span.select2-selection__rendered {
-    color: $olive-matt;
+    color: $mobility-black;
     font-weight: 400;
     text-transform: capitalize;
     font-size: 16px;
@@ -172,7 +172,7 @@ form {
   }
 
   label:not(.form-check-label) {
-    color: #7D8A8D;
+    color: $mobility-black;
     opacity: 1;
     text-transform: uppercase;
     font-weight: 300;

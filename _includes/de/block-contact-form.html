@@ -66,18 +66,18 @@
               </div>
 
               <div class="form-group">
-                <label class="form-label" for="url">URL Unternehmen</label>
+                <label class="form-label" for="url">Ihre Business-Website</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
 
-              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' %}
+              {% unless page.lang-ref == 'city' or page.lang-ref == 'press'  or page.lang-ref == 'fleet' %}
               {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
               {% if page.lang-ref == 'carpool' %}
                 {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
                 {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
               {% endif %}
-              <div class="form-group shuttle fleet carpool">
+              <div class="form-group shuttle carpool">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Type of organisation *</option>
@@ -92,21 +92,7 @@
               </div>
               {% endunless %}
 
-
-              {% if page.lang-ref == 'fleet' %}
-              <div class="form-group fleet">
-                <div class="select-wrapper">
-                  <select name="what-looking-for" class="form-control select2-init" style="width:100%" id="lookingFor" required=true>
-                    <option disabled selected>Wonach suchen Sie? *</option>
-                    <option value="Full-package vehicle sharing solution">Komplettlösung für Fahrzeug-Sharing</option>
-                    <option value="Software only">Nur Software</option>
-                    <option value="Hardware only (vehicles and/or IoT devices)">Nur Hardware (Fahrzeuge und / oder IoT-Geräte)</option>
-                    <option value="Other / Not sure">Sonstiges / Nicht sicher</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endif %}
+              <h3 class="headline-small text-center mt-5 mb-3">Über Ihr Projekt</h3>
 
               {% if page.lang-ref == 'rent' %}
               <div class="form-group rent">
@@ -128,7 +114,8 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' %}
+
+              {% if page.lang-ref == 'rent' %}
               <div class="form-group rent fleet">
                 <div class="select-wrapper multiple">
                   <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
@@ -151,10 +138,30 @@
               </div>
               {% endif %}
 
+              {% if page.lang-ref == 'fleet' %}
+              <div class="form-group fleet">
+                <div class="select-wrapper">
+                  <select name="company-status" class="form-control select2-init" style="width:100%" id="companyStatus" required=true>
+                    <option disabled selected>Wie würden Sie Ihre Unternehmensphase am besten beschreiben? *</option>
+                    <option value="I’m starting my shared mobility operations and I need a technology partner">Ich beginne meinen Shared-Mobility Betrieb und brauche einen Technologiepartner</option>
+                    <option value="I’m already running a mobility service and I’m looking to expand my operations">Ich betreibe bereits einen Mobilitätsdienst und möchte meine Tätigkeit ausweiten</option>
+                    <option value="I want to replace my existing software provider">Ich möchte meinen bisherigen Software-Anbieter ersetzen</option>
+
+                  </select>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              {% endif %}
+
               {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
+              {% capture fConditionals %}{% endcapture %}{% capture fNonConditionals %}{% endcapture %}
+              {% if page.lang-ref == 'fleet' %}
+                {% capture fConditionals %}data-target="#vehicles6month"{% endcapture %}
+                {% capture fNonConditionals %}data-target="#vehicles6month" data-direction="up"{% endcapture %}
+              {% endif %}
               <div class="form-group rent fleet shuttle">
                 <div class="select-wrapper">
-                  <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
+                  <select name="what-fleet-size" class="form-control select2-init conditional-trigger" style="width:100%" id="fleetSize" required=true>
                     {% if page.lang-ref == 'rent' %}
                       <option disabled selected>Welche Grösse Hat Ihre Flotte Aktuell? *</option>
                       <option>0</option>
@@ -162,10 +169,11 @@
                       <option>51-150</option>
                       <option>150+</option>
                     {% elsif page.lang-ref == 'fleet' %}
-                      <option disabled selected>Wie viele Fahrzeuge möchten Sie anbieten? *</option>
-                      <option>1-100</option>
-                      <option>101-500</option>
-                      <option>500+</option>
+                      <option disabled selected>Mit wie vielen Fahrzeugen möchten Sie beginnen? *</option>
+                      <option value="1-50 F" {{fConditionals}}>1-50</option>
+                      <option {{fConditionals}}>51-100</option>
+                      <option {{fNonConditionals}}>101-500</option>
+                      <option {{fNonConditionals}}>500+</option>
                     {% elsif page.lang-ref == 'shuttle' %}
                       <option disabled selected>Verfügen Sie derzeit über einen bestehenden Fuhrpark? *</option>
                       <option value="0">Nein</option>
@@ -179,7 +187,43 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
+              {% if page.lang-ref == 'fleet' %}
+
+              <div class="collapse" id="vehicles6month">
+
+                <div class="form-group fleet">
+                  <div class="select-wrapper">
+                    <select name="what-fleet-size-6m" class="form-control select2-init" style="width:100%" id="fleetSize6m" required=true>
+                        <option disabled selected>Wie viele Fahrzeuge werden Sie Ihrer Meinung nach in 6 Monaten haben? *</option>
+                        <option value="1-50 F-6m">1-50</option>
+                        <option value="51-100 F-6m">51-100</option>
+                        <option value="101-500 F-6m">101-500</option>
+                        <option value="500+ F-6m">500+</option>
+                        <option value="I don’t know yet">Ich bin nicht sicher</option>
+                    </select>
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+              </div>
+
+              {% endif %}
+
+              {% if page.lang-ref == 'fleet' %}
+              <div class="form-group fleet">
+                <div class="select-wrapper">
+                  <select name="business-model" class="form-control select2-init" style="width:100%" id="businessModel" required=true>
+                    <option disabled selected>Was beschreibt Ihr Geschäftsmodell am besten? *</option>
+                    <option value="Vehicle sharing">Gemeinsame Nutzung von Fahrzeugen</option>
+                    <option value="Peer-to-peer sharing">Peer-to-Peer</option>
+                    <option value="Subscription / Leasing model">Abonnement / Leasing-Modell</option>
+                    <option value="I haven’t decided yet">Ich habe mich noch nicht entschieden</option>
+                  </select>
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+              {% endif %}
+
+              {% if page.lang-ref == 'shuttle' %}
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>
@@ -209,7 +253,7 @@
 
 
               <div class="form-group">
-                <label class="form-label" for="message">Nachricht {% if page.lang-ref == 'carpool' %}- Wie können wir Ihnen helfen? *{% endif %}</label>
+                <label class="form-label" for="message">Erzählen Sie uns von Ihrem Unternehmen und Ihren Anforderungen {% if page.lang-ref == 'carpool' %}- Wie können wir Ihnen helfen? *{% endif %}</label>
                 <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>

@@ -66,7 +66,7 @@
               </div>
 
               <div class="form-group">
-                <label class="form-label" for="url">Company URL</label>
+                <label class="form-label" for="url">Your business website</label>
                 <input type="text" name="url" id="url"></input>
                 <div class="bottom-border"></div>
               </div>
@@ -77,7 +77,7 @@
                 {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
                 {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
               {% endif %}
-              <div class="form-group shuttle fleet carpool">
+              <div class="form-group shuttle carpool">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
                     <option disabled selected>Type of organisation *</option>
@@ -114,7 +114,7 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' %}
+              {% if page.lang-ref == 'rent' %}
               <div class="form-group rent fleet">
                 <div class="select-wrapper multiple">
                   <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
@@ -137,15 +137,23 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'shuttle' %}
-              <div class="form-group shuttle">
+
+              {% if page.lang-ref == 'fleet' %}
+              <div class="form-group shuttle fleet">
                 <div class="select-wrapper">
                   <select name="company-status" class="form-control select2-init" style="width:100%" id="companyStatus" required=true>
-                    <option disabled selected>What is the current status of your company? *</option>
-                    <option value="Researching & planning">Researching & planning</option>
-                    <option value="Already operating (recently launched)">Already operating (recently launched)</option>
-                    <option value="Operating and scaling">Operating and scaling</option>
-                    <option value="Other">Other</option>
+                    {% if page.lang-ref == 'shuttle' %}
+                      <option disabled selected>What is the current status of your company? *</option>
+                      <option value="Researching & planning">Researching & planning</option>
+                      <option value="Already operating (recently launched)">Already operating (recently launched)</option>
+                      <option value="Operating and scaling">Operating and scaling</option>
+                      <option value="Other">Other</option>
+                    {% elsif page.lang-ref == 'fleet' %}
+                      <option disabled selected>How would you best describe your business stage? *</option>
+                      <option>I’m starting my shared mobility operations and I need a technology partner</option>
+                      <option>I’m already running a mobility service and I’m looking to expand my operations</option>
+                      <option>I want to replace my existing software provider</option>
+                    {% endif %}
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -153,9 +161,14 @@
               {% endif %}
 
               {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
+              {% capture fConditionals %}{% endcapture %}{% capture fNonConditionals %}{% endcapture %}
+              {% if page.lang-ref == 'fleet' %}
+                {% capture fConditionals %}data-target="#vehicles6month"{% endcapture %}
+                {% capture fNonConditionals %}data-target="#vehicles6month" data-direction="up"{% endcapture %}
+              {% endif %}
               <div class="form-group rent fleet shuttle">
                 <div class="select-wrapper">
-                  <select name="what-fleet-size" class="form-control select2-init" style="width:100%" id="fleetSize" required=true>
+                  <select name="what-fleet-size" class="form-control select2-init conditional-trigger" style="width:100%" id="fleetSize" required=true>
                     {% if page.lang-ref == 'rent' %}
                       <option disabled selected>What is the current size of your fleet? *</option>
                       <option>0</option>
@@ -163,11 +176,11 @@
                       <option>51-150</option>
                       <option>150+</option>
                     {% elsif page.lang-ref == 'fleet' %}
-                      <option disabled selected>How many vehicles would you like to offer? *</option>
-                      <option value="1-50 F">1-50</option>
-                      <option>51-100</option>
-                      <option>101-500</option>
-                      <option>500+</option>
+                      <option disabled selected>How many vehicles would you like to start with? *</option>
+                      <option value="1-50 F" {{fConditionals}}>1-50</option>
+                      <option {{fConditionals}}>51-100</option>
+                      <option {{fNonConditionals}}>101-500</option>
+                      <option {{fNonConditionals}}>500+</option>
                     {% elsif page.lang-ref == 'shuttle' %}
                       <option disabled selected>How many drivers do you currently work with? *</option>
                       <option value="0">None, so far</option>
@@ -183,13 +196,35 @@
               {% endif %}
 
               {% if page.lang-ref == 'fleet' %}
+
+              <div class="collapse" id="vehicles6month">
+
+                <div class="form-group fleet">
+                  <div class="select-wrapper">
+                    <select name="what-fleet-size-6m" class="form-control select2-init" style="width:100%" id="fleetSize6m" required=true>
+                        <option disabled selected>How many vehicles do you project to have in 6 months from the launch? *</option>
+                        <option value="1-50 F-6m">1-50</option>
+                        <option value="51-100 F-6m">51-100</option>
+                        <option value="101-500 F-6m">101-500</option>
+                        <option value="500+ F-6m">500+</option>
+                        <option value="I don’t know yet">I don’t know yet</option>
+                    </select>
+                    <div class="bottom-border"></div>
+                  </div>
+                </div>
+              </div>
+
+              {% endif %}
+
+              {% if page.lang-ref == 'fleet' %}
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select name="interested-in-vehicles" class="form-control select2-init" style="width:100%" id="interestedInVehicles" required=true>
-                    <option disabled selected>Would you be interested in our Vehicles & Telematics solutions? *</option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                    <option value="Not sure">Not sure</option>
+                  <select name="business-model" class="form-control select2-init" style="width:100%" id="businessModel" required=true>
+                    <option disabled selected>What best describes your business model? *</option>
+                    <option>Vehicle sharing</option>
+                    <option>Peer-to-peer sharing</option>
+                    <option>Subscription / Leasing model</option>
+                    <option>I haven’t decided yet</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
@@ -260,7 +295,7 @@
 
 
               <div class="form-group">
-                <label class="form-label" for="message">Message {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
+                <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
                 <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>
