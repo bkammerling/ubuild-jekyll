@@ -16,7 +16,7 @@ publish_date: 2020-08-14 13:00:00 +0000
 featured_image: "/uploads/2020/08/14/pbefg_bernstein_list.jpg"
 excerpt: It’s been two years since the CDU/CSU and SPD committed to modernizing Germany’s
   Passenger Transportation Act. Now, little more than a benchmark paper has been published.
-share_image: ''
+share_image: "/uploads/2020/08/14/pbefg_bernstein_list.jpg"
 sticky: false
 hidden: false
 

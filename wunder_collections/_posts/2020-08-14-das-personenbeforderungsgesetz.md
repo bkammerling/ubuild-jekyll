@@ -15,7 +15,7 @@ featured_image: "/uploads/2020/08/14/pbefg_bernstein_list.jpg"
 excerpt: Zweieinhalb Jahre ist es her, dass sich CDU/CSU und SPD im [Koalitionsvertrag](https://www.bundesregierung.de/resource/blob/656734/847984/5b8bc23590d4cb2892b31c987ad672b7/2018-03-14-koalitionsvertrag-data.pdf?download=1)
   der Modernisierung des „Personenbeförderungsgesetzes \[PBefG\] mit Blick auf neue
   digitale Mobilitätsangebote“ verpflichtet haben.
-share_image: ''
+share_image: "/uploads/2020/08/14/pbefg_bernstein_list.jpg"
 sticky: false
 hidden: true
 
