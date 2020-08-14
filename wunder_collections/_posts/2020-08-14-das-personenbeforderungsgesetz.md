@@ -20,7 +20,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in English._
+_Read this article in_ [_English_](https://www.wundermobility.com/blog/the-future-of-the-passenger-transportation-act)_._
 
 Zweieinhalb Jahre ist es her, dass sich CDU/CSU und SPD im [Koalitionsvertrag](https://www.bundesregierung.de/resource/blob/656734/847984/5b8bc23590d4cb2892b31c987ad672b7/2018-03-14-koalitionsvertrag-data.pdf?download=1) der Modernisierung des „Personenbeförderungsgesetzes \[PBefG\] mit Blick auf neue digitale Mobilitätsangebote“ verpflichtet haben. Jetzt, gut ein Jahr vor der nächsten Bundestagswahl, steht nicht mehr als ein[ Eckpunktepapier der PBefG-Findungskommission](https://www.roedl.de/de-de/de/medien/publikationen/newsletter/kompass-mobilitaet/documents/200619_eckpunktepapier%20pbefg-novelle%20fiko.pdf). Und das, obwohl es zu einem der zentralen Projekte der Koalition zählte – oder gerade deswegen?
 

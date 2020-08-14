@@ -21,7 +21,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in German._ 
+_Read this article in_ [_German_](https://www.wundermobility.com/blog/das-personenbeforderungsgesetz)_._
 
 It’s been two years since the CDU/CSU and SPD committed to modernizing Germany’s Passenger Transportation Act (with a focus on digital mobility services) as part of the [coalition agreement](https://www.bundesregierung.de/resource/blob/656734/847984/5b8bc23590d4cb2892b31c987ad672b7/2018-03-14-koalitionsvertrag-data.pdf?download=1). Now, roughly a year ahead of the next national vote, little more than a [benchmark paper](https://www.roedl.de/de-de/de/medien/publikationen/newsletter/kompass-mobilitaet/documents/200619_eckpunktepapier%20pbefg-novelle%20fiko.pdf) has been published to that effect, even though it’s considered a priority for the coalition - or is that _because_ it’s been deemed so important?
 
