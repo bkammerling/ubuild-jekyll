@@ -18,7 +18,7 @@ excerpt: It’s been two years since the CDU/CSU and SPD committed to modernizin
   Passenger Transportation Act. Now, little more than a benchmark paper has been published.
 share_image: ''
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Read this article in_ [_German_](https://www.wundermobility.com/blog/das-personenbeforderungsgesetz)_._
