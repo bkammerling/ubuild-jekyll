@@ -13,7 +13,7 @@ cta_text: 'The Wunder Mobility x Bernstein Group Policy Brief is full of article
 cta_link: pages/bernstein-newsletter.md
 title: The Future of The Passenger Transportation Act
 publish_date: 2020-08-14 13:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/08/14/pbefg_bernstein_list.jpg"
 excerpt: It’s been two years since the CDU/CSU and SPD committed to modernizing Germany’s
   Passenger Transportation Act. Now, little more than a benchmark paper has been published.
 share_image: ''
@@ -21,7 +21,11 @@ sticky: false
 hidden: true
 
 ---
+_Read this article in German._ 
+
 It’s been two years since the CDU/CSU and SPD committed to modernizing Germany’s Passenger Transportation Act (with a focus on digital mobility services) as part of the [coalition agreement](https://www.bundesregierung.de/resource/blob/656734/847984/5b8bc23590d4cb2892b31c987ad672b7/2018-03-14-koalitionsvertrag-data.pdf?download=1). Now, roughly a year ahead of the next national vote, little more than a [benchmark paper](https://www.roedl.de/de-de/de/medien/publikationen/newsletter/kompass-mobilitaet/documents/200619_eckpunktepapier%20pbefg-novelle%20fiko.pdf) has been published to that effect, even though it’s considered a priority for the coalition - or is that _because_ it’s been deemed so important?
+
+![](/uploads/2020/08/14/pbefg_bernstein_body.jpeg)
 
 While so far only eleven (seemingly vague) benchmarks of the amendment have been published, they represent a joint effort by the legislative and executive branches and the federal and state governments across party lines: the work of the Findings Commission, which is composed of the Minister of Transportation Andreas Scheuer (CSU), the Chairman of the Traffic Committee Cem Özdemir (Alliance 90/The Greens), other members of the German _Bundestag_ and four state transport ministers.
 
