@@ -87,6 +87,33 @@ p {
 }
 
 
+
+/*
+ ------ HEADER / NAV ------
+*/
+
+.marketplace-hero {
+  background: no-repeat center -9vw;
+  background-size: cover;
+  background-image: linear-gradient(160.13deg, #FFFFFF 8.08%, rgba(255, 255, 255, 0.748634) 20.01%, rgba(255, 255, 255, 0) 48.26%), url("../uploads/global/marketplace/marketplace-hero_mob.jpg");
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: linear-gradient(160.13deg, #FFFFFF 8.08%, rgba(255, 255, 255, 0.748634) 20.01%, rgba(255, 255, 255, 0) 48.26%), url("../uploads/global/marketplace/marketplace-hero_mob@2x.jpg");
+  }
+  @include rwd(tablet-up) {
+    background-image: url('../uploads/global/marketplace/marketplace-hero.jpg');
+    background-position-y: center;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../uploads/global/marketplace/marketplace-hero@2x.jpg');
+    }
+  }
+}
+
+.marketplace nav {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+
 /*
  ------ COMPONENTS ------
 */
@@ -108,6 +135,7 @@ p {
 }
 .btn-primary {
   background-color: $mkt-primary;
+  border: none;
   &:hover {
     background-color: darken($mkt-primary, 8%);
   }
@@ -197,11 +225,8 @@ p {
 }
 
 #wunder-statboxsvg {
-  filter: drop-shadow(1px 4px 6px rgba(0,0,0,0.1));
   @include rwd(tablet-up){
-    max-width: 120%;
-    position: absolute;
-    left: -20px;
+    max-width: 110%;
   }
   @include rwd(desktop-up){
     max-width: 140%;

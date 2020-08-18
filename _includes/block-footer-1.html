@@ -102,6 +102,7 @@
               </ul>
             </div>
             <div class="col-md-2 language-select order-1 order-md-2 mb-4 mb-md-0">
+              {% if page.lang-ref %}
               <div class="btn-group dropup">
                 <a role="button" id="langMenuLink" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <ion-icon name="globe-outline" class="inline-icon"></ion-icon>
@@ -131,6 +132,7 @@
                 {% endfor %}
                 </ul>
               </div>
+              {% endif %}
             </div>
             <div class="col-md-4 order-2 order-md-3">
               <ul class="footer__socialmedia d-flex justify-content-md-end my-4 my-md-0 mt-md-2">

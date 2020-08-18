@@ -1,6 +1,6 @@
 {% include marketplace/head.html %}
 
-<header class="bg-gray-gradient">
+<header class="marketplace-hero">
   {% include marketplace/block-nav-top.html %}
 
   <div class="container hero pt-5">
@@ -108,17 +108,26 @@
       <h2 class="mb-4">Solutions for all business stages</h2>
       <div class="row">
         <div class="col-md-4 mb-5 mb-md-0">
-          <img class="mb-3" src="https://source.unsplash.com/370x230/?business,small" alt="" />
-          <h3 class="h1 mb-2">Start up</h3>
+          <picture class="mb-3 d-block">
+            <source media="(min-width: 768px)" srcset="uploads/global/marketplace/img-startup.jpg 1x, uploads/global/marketplace/img-startup@2x.jpg 2x">
+            <img src="uploads/global/marketplace/img-startup_mob.jpg" srcset="uploads/global/marketplace/img-startup_mob@2x.jpg 2x" alt="Man sitting on stool typing at a macbook" />
+          </picture>
+          <h3 class="h1 mb-2">Start</h3>
           <p>Kick off your operations and enlarge your customer base with CRM integrations</p>
         </div>
         <div class="col-md-4 mb-5 mb-md-0">
-          <img class="mb-3" src="https://source.unsplash.com/370x230/?business,big" alt="" />
-          <h3 class="h1 mb-2">Scale up</h3>
+          <picture class="mb-3 d-block">
+            <source media="(min-width: 768px)" srcset="uploads/global/marketplace/img-scaleup.jpg 1x, uploads/global/marketplace/img-scaleup@2x.jpg 2x">
+            <img src="uploads/global/marketplace/img-scaleup_mob.jpg" srcset="uploads/global/marketplace/img-scaleup_mob@2x.jpg 2x" alt="Two people sitting at an Apple Monitor pointing at the screen" />
+          </picture>
+          <h3 class="h1 mb-2">Scale</h3>
           <p>Unlock the full potential of your operations and optimize your business</p>
         </div>
         <div class="col-md-4 mb-5 mb-md-0">
-          <img class="mb-3" src="https://source.unsplash.com/370x230/?business,wild" alt="" />
+          <picture class="mb-3 d-block">
+            <source media="(min-width: 768px)" srcset="uploads/global/marketplace/img-standout.jpg 1x, uploads/global/marketplace/img-standout@2x.jpg 2x">
+            <img src="uploads/global/marketplace/img-standout_mob.jpg" srcset="uploads/global/marketplace/img-standout_mob@2x.jpg 2x" alt="Man sticking branding onto an electric scooter" />
+          </picture>
           <h3 class="h1 mb-2">Stand out</h3>
           <p>Reach the top with solutions that drive your business forward</p>
         </div>
@@ -134,7 +143,7 @@
       <div class="row py-5">
 
         <div class="order-md-2 col-md-5 offset-md-1 col-xl-4 offset-xl-2">
-          <img class="mb-4" src="https://source.unsplash.com/420x230/?build,develop" alt="" />
+          <img class="mb-4" src="uploads/global/marketplace/img-buildapps.jpg" srcset="uploads/global/marketplace/img-buildapps@2x.jpg 2x" alt="Two people sitting at 2 computers with code on the screen and a cup of hot coffee" />
         </div>
 
         <div class="col-md-6">
