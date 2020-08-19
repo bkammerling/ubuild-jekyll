@@ -435,6 +435,13 @@ blockquote {
   }
 }
 
+@include rwd(tablet-up) {
+  .modal-md {
+    max-width: 580px;
+    margin: 1.75rem auto;
+  }
+}
+
 
 @for $o from 1 through 9 {
   .o-#{$o} {

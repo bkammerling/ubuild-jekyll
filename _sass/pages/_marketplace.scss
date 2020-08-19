@@ -114,6 +114,7 @@ p {
 }
 
 
+
 /*
  ------ COMPONENTS ------
 */
@@ -149,12 +150,55 @@ p {
   }
 }
 
+.marketplace-radio:checked ~ .custom-control-label::before {
+  border-color: $mkt-primary;
+  background-color: $mkt-primary;
+}
+
 
 .category-select {
   .btn-link {
     text-decoration: none;
   }
 }
+
+
+
+/*
+ ------ FORM ------
+*/
+
+.mktform {
+  label {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: $mobility-black;
+  }
+  .custom-radio label {
+    font-size: 14px;
+  }
+  .text-input, .textarea-input {
+    min-height: 48px;
+    border: none;
+    background: $black96;
+    color: $mobility-black;
+    width: 100%;
+    padding-left: 12px;
+    font-size: 14px;
+    &:focus {
+      background-color: white;
+    }
+  }
+  .textarea-input {
+    padding-top: 10px;
+  }
+  ::-webkit-input-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder, ::placeholder {
+    font-size: 14px;
+    color: $black50;
+  }
+}
+
+
 
 .mob-scroll {
   -webkit-overflow-scrolling: touch;
