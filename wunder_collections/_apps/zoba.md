@@ -42,7 +42,10 @@ app_details:
   detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
     underline;">https://zoba.com</span></a>'
 access_needed: []
-getting_started: []
+getting_started:
+- column_title: Reach out
+  column_description: If you are interested feel free to contact your Wunder business
+    account-manger  to receive more information and a demo.
 published: false
 
 ---
