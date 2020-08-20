@@ -43,12 +43,16 @@ app_details:
     underline;">https://zoba.com</span></a>'
 access_needed: []
 getting_started:
-- column_title: Connect your account
-  column_description: All connections are prepared and you are ready to go by just
-    providing your Wunder Fleet API credentials to Zoba.
 - column_title: Reach out
   column_description: If you are interested feel free to contact your Wunder business
     account-manger  to receive more information and a demo.
+- column_title: Connect your account
+  column_description: All connections are prepared and you are ready to go by just
+    providing your Wunder Fleet API credentials to Zoba.
+- column_title: Optimize your fleet
+  column_description: After the connection is set up data will automatically flow
+    from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
+    recommendations into your operations stack.
 published: false
 
 ---
