@@ -74,6 +74,10 @@ p {
       margin-bottom: 16px;
     }
   }
+  &.smallprint {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 .body-label {
@@ -123,7 +127,8 @@ p {
 .btn {
   font-size: 14px;
   .arrow-svg {
-    margin-left: 5px;
+    margin-left: 4px;
+    margin-top: -2px;
     max-width: 20px;
     max-height: 20px;
   }
@@ -131,8 +136,11 @@ p {
 .btn.btn-block {
   font-size: 16px;
 }
+.btn-mktlg {
+  padding: 15px 24px;
+}
 .btn-mkt {
-  padding: 16px 24px;
+  padding: 11px 16px;
 }
 .btn-primary {
   background-color: $mkt-primary;
