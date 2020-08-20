@@ -142,3 +142,4 @@ fields:
   description: 3 text columns showing next steps
 pages:
 - wunder_collections/_apps/wunder-fleet-optimizer.md
+- wunder_collections/_apps/zoba.md
