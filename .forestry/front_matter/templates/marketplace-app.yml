@@ -73,10 +73,13 @@ fields:
   config:
     required: false
     options:
-    - Customer Service
-    - Fleet Optimisation
-    - API Integrations
+    - Analytics and Monitoring
+    - Customer Engagement
+    - Customer Relationship Management (CRM)
     - Fleet Maintenance
+    - Integrations (API)
+    - Operations Improvement
+    - Utilization Improvement
     source:
       type: simple
       section: 
@@ -133,9 +136,10 @@ fields:
     label: Column description
   config:
     min: 
-    max: 
+    max: 3
     labelField: 
   label: Getting started steps
   description: 3 text columns showing next steps
 pages:
 - wunder_collections/_apps/wunder-fleet-optimizer.md
+- wunder_collections/_apps/zoba.md
