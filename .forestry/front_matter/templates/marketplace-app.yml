@@ -73,10 +73,13 @@ fields:
   config:
     required: false
     options:
-    - Customer Service
-    - Fleet Optimisation
-    - API Integrations
+    - Analytics and Monitoring
+    - Customer Engagement
+    - Customer Relationship Management (CRM)
     - Fleet Maintenance
+    - Integrations (API)
+    - Operations Improvement
+    - Utilization Improvement
     source:
       type: simple
       section: 
