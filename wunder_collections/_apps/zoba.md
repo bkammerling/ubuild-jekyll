@@ -4,6 +4,7 @@ title: Zoba
 icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
 preview_gallery:
+- "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mp4"
 - "/uploads/2020/08/20/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.png"
 - "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
 - "/uploads/2020/08/20/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.png"
@@ -54,6 +55,6 @@ getting_started:
   column_description: After the connection is set up data will automatically flow
     from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
     recommendations into your operations stack.
-layout: marketplace-app
+layout: ''
 
 ---
