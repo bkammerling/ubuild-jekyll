@@ -133,7 +133,7 @@ fields:
     label: Column description
   config:
     min: 
-    max: 
+    max: 3
     labelField: 
   label: Getting started steps
   description: 3 text columns showing next steps
