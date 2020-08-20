@@ -41,7 +41,10 @@ app_details:
 - detail_title: Terms of services
   detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
     underline;">https://zoba.com</span></a>'
-access_needed: []
+access_needed:
+- Live vehicle locations
+- Trip Data
+- MDS feed if available
 getting_started:
 - column_title: Reach out
   column_description: If you are interested feel free to contact your Wunder business
