@@ -32,7 +32,15 @@ screenshot_details:
   title: 'City-block level market intelligence. '
   screenshot_description: 'Always know where your demand will be, where your competition
     is, and where you can expect your vehicles to end up. Every minute of every day. '
-app_details: []
+app_details:
+- detail_title: Developer Website
+  detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
+    underline;">https://zoba.com</span></a>'
+- detail_title: Support contact
+  detail_content: info@zoba.com
+- detail_title: Terms of services
+  detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
+    underline;">https://zoba.com</span></a>'
 access_needed: []
 getting_started: []
 published: false
