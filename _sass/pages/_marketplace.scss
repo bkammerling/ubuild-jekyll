@@ -274,6 +274,12 @@ p {
     height: 24px;
     background: url('/uploads/global/marketplace/li-number-1.svg');
   }
+  &.step2:before {
+    background: url('/uploads/global/marketplace/li-number-2.svg');
+  }
+  &.step3:before {
+    background: url('/uploads/global/marketplace/li-number-3.svg');
+  }
 }
 
 #wunder-statboxsvg {

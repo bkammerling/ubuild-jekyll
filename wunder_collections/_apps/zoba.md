@@ -1,4 +1,5 @@
 ---
+layout: marketplace-app
 category: Analytics and Monitoring
 title: Zoba
 icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"

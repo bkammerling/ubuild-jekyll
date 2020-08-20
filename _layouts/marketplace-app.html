@@ -86,11 +86,11 @@
     </div>
 
     <div class="post-detail mt-5 pt-3">
-      <h3 class="mb-4 pb-2">Getting started with Wunder Fleet Optimizer</h3>
+      <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
       <div class="row step-cols">
         {% for item in page.getting_started %}
           <div class="col-md-4 mb-4 mb-md-0">
-            <div class="step-col">
+            <div class="step-col step{{ forloop.index }}">
               <div class="d-flex flex-column">
                 <p><strong>{{ item.column_title }}</strong></p>
                 <p>{{ item.column_description }}</p>
