@@ -1,7 +1,7 @@
 ---
 category: Analytics and Monitoring
 title: Zoba
-icon: "/uploads/2020/08/20/zoba_zsquare-01-daniel-brennan.png"
+icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
 preview_gallery:
 - "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mov"
