@@ -169,12 +169,6 @@ var yadeaSVG = {
       var $svg = $(this).parents('svg');
       var $g = $(this).parents('g');
       $g.addClass('active').siblings().removeClass('active');
-      //var rx = /\((.*)\)$/;
-      //var pathArray = $g.find('path');
-      //var id1 = pathArray.eq(0).attr('clip-path').match(rx);
-      //var id2 = pathArray.eq(1).attr('clip-path').match(rx);
-      //$svg.find(`clipPath.active`).removeClass('active').addClass('inactive');
-      //$svg.find(`${id1[1]}, ${id2[1]}`).removeClass('inactive').addClass('active');
     });
   }
 }

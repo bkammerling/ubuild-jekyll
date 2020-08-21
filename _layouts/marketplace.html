@@ -61,7 +61,7 @@
         {% endfor %}
 
         <div class="col-sm-6 col-lg-4 col-xl-3 align-self-center">
-          <div class="px-3 py-5 py-sm-2">
+          <div class="px-3 py-5">
             <h3 class="my-sm-2">Didn't find what you're looking for?</h3>
             <a href="#" class="link-text" title="Reach out to Wunder Mobility">Reach out →</a>
           </div>
@@ -192,8 +192,8 @@
   <div class="modal-dialog modal-md" role="document">
     <div class="modal-content p-0">
       <div class="modal-header bg-dark text-white pl-4 pr-5 flex-column">
-        <h3 class="modal-title mb-2" id="formModalLabel">Let’s extend your business</h3>
-        <p>Tell us a bit about your idea to get this conversation started. We’ll get back to you in now time.</p>
+        <h3 class="modal-title mb-2" id="mkt-formtitle">Let’s extend your business</h3>
+        <p id="mkt-formintro">Tell us a bit about your idea to get this conversation started. We’ll get back to you in now time.</p>
         <button type="button" class="close text-white font-weight-light" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -237,26 +237,23 @@
 
             <div class="form-group">
               <div class="select-wrapper multiple">
-                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" required=true novalidate>
-                  <option disabled>Pick an extension from the list</option>
-                  {% for app in Apps %}
-                  <option value="{{ ap.name }}">{{ app.name }}</option>
-                  {% endfor %}
-                </select>
                 <label for="vehicle-interest[]" class="w-100">
                   Extensions you are interested in
                 </label>
+                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" required=true novalidate placeholder="Pick an extension from the list">
+                  <option disabled>Pick an extension from the list</option>
+                  {% for app in Apps %}
+                  <option value="{{ app.title }}">{{ app.title }}</option>
+                  {% endfor %}
+                </select>
               </div>
             </div>
 
-            <input type="hidden" id="modal_captchaResponse" name="g-recaptcha-response" />
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
 
             <p class="text-mute smallprint mt-3">By clicking "Get started" I agree that Wunder Mobility or its representatives may contact me by email, phone, or SMS at the email address or number I provide and that my information will be used in accordance with Wunder Mobility’s Privacy Policy.</p>
 
             <div class="row mt-4">
-              <div class="col-sm-5">
-                <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
-              </div>
               <div class="col-sm-7 text-right">
                 <button id="modal_form-submit" class="btn btn-primary btn-mkt" onclick="mktplaceSubmit(event)">
                   Get Started
@@ -270,7 +267,6 @@
           </div>
 
         </div>
-
       </form>
     </div>
   </div>
