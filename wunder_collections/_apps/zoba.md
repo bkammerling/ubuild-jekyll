@@ -1,12 +1,9 @@
 ---
-layout: marketplace-app
 category: Analytics and Monitoring
 title: Zoba
 icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
 preview_gallery:
-- "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mov"
-- "/uploads/2020/08/20/zoba-s-station-selection-algorithm-can-tell-you-the-most-profitable-places-to-drop-vehicles-daniel-brennan.png"
 - "/uploads/2020/08/20/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.png"
 - "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
 - "/uploads/2020/08/20/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.png"
@@ -29,7 +26,7 @@ screenshot_details:
   screenshot_description: 'Following Zoba’s recommendations will have an immediate
     impact on your trips per deployed vehicle and revenue, allowing you to pay back
     your vehicles faster and become profitable. '
-- screenshot: "/uploads/2020/08/20/zoba-s-station-selection-algorithm-can-tell-you-the-most-profitable-places-to-drop-vehicles-daniel-brennan.png"
+- screenshot: "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
   title: 'City-block level market intelligence. '
   screenshot_description: 'Always know where your demand will be, where your competition
     is, and where you can expect your vehicles to end up. Every minute of every day. '
@@ -57,5 +54,6 @@ getting_started:
   column_description: After the connection is set up data will automatically flow
     from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
     recommendations into your operations stack.
+layout: ''
 
 ---
