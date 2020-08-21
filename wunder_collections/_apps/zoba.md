@@ -1,4 +1,5 @@
 ---
+layout: marketplace-app
 category: Analytics and Monitoring
 title: Zoba
 icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"
@@ -54,6 +55,5 @@ getting_started:
   column_description: After the connection is set up data will automatically flow
     from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
     recommendations into your operations stack.
-layout: ''
 
 ---
