@@ -201,13 +201,13 @@
       <form id="modal-form" class="ajaxForm mktform" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/ab543ce6-282f-4d25-93b6-76c727bb4c19" method="POST">
         <div class="modal-body">
           <input type="hidden" name="subject" id="modal_subject-field" value="Developer & Partner Program">
-          <div class="container">
+          <div class="container pt-3">
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customerRadio1" name="customer" class="custom-control-input marketplace-radio">
+              <input type="radio" id="customerRadio1" name="customer" value="customerYes" class="custom-control-input marketplace-radio" checked>
               <label class="custom-control-label" for="customerRadio1">I'm a customer</label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customerRadio2" name="customer" class="custom-control-input marketplace-radio">
+              <input type="radio" id="customerRadio2" name="customer" value="customerNo" class="custom-control-input marketplace-radio">
               <label class="custom-control-label" for="customerRadio2">I'm not a customer yet</label>
             </div>
             <div class="row mt-3">
@@ -218,14 +218,14 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="form-group mb-3 mb-md-0">
+                <div class="form-group mb-3 mb-md-0 conditional-hide">
                   <label for="phone" class="form-label">Work Phone Number</label>
                   <input type="text" class="text-input" id="phone" name="phone" placeholder="+00 1234 567 89" required />
                 </div>
               </div>
             </div>
 
-            <div class="form-group mb-3">
+            <div class="form-group mb-3 conditional-hide">
               <label for="recipient-name" class="form-label">Full name</label>
               <input type="text" class="text-input" id="recipient-name" name="name" required placeholder="What should we call you?" />
             </div>
@@ -240,8 +240,7 @@
                 <label for="vehicle-interest[]" class="w-100">
                   Extensions you are interested in
                 </label>
-                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" required=true novalidate placeholder="Pick an extension from the list">
-                  <option disabled>Pick an extension from the list</option>
+                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" required novalidate placeholder="Pick an extension from the list">
                   {% for app in Apps %}
                   <option value="{{ app.title }}">{{ app.title }}</option>
                   {% endfor %}
@@ -253,15 +252,13 @@
 
             <p class="text-mute smallprint mt-3">By clicking "Get started" I agree that Wunder Mobility or its representatives may contact me by email, phone, or SMS at the email address or number I provide and that my information will be used in accordance with Wunder Mobility’s Privacy Policy.</p>
 
-            <div class="row mt-4">
-              <div class="col-sm-7 text-right">
-                <button id="modal_form-submit" class="btn btn-primary btn-mkt" onclick="mktplaceSubmit(event)">
-                  Get Started
-                  <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
-                  </svg>
-                </button>
-              </div>
+            <div class="mt-4 text-right">
+              <button id="modal_form-submit" class="btn btn-primary btn-mkt" onclick="mktplaceSubmit(event)">
+                Get Started
+                <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
+                </svg>
+              </button>
             </div>
 
           </div>

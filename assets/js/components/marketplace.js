@@ -62,8 +62,7 @@ var form = {
   },
   initializeSelect2: function(selector) {
     $(selector).select2({
-      minimumResultsForSearch: Infinity,
-      placeholder: $(this).attr("placeholder")
+      minimumResultsForSearch: Infinity
     });
     $(selector).on('select2:select', function (e) {
       $(this).siblings('.select2').addClass('selected');
@@ -120,12 +119,22 @@ $(document).ready(function() {
 
   form.initializeSelect2('.select2-init');
 
+  $('#partnerModal').on('shown.bs.modal', function (e) {
+    $('#extension-interest').select2({
+      placeholder: "Pick an extension from the list"
+    });
+  })
+
   $("form .conditional-trigger").on('change', function(e) {
-    var $optionSelection = $(this).prop("tagName") == 'SELECT' ? $("option:selected", this) : $(this);
-    var selection = $optionSelection.data('target');
-    var direction = $optionSelection.data('direction');
-    // show/hide our conditional inputs and mark them as requried / not-required
-    direction == 'up' ? $(selection).slideUp(function() { console.log($(":input:hidden", "form .collapse")); $(":input:hidden", "form .collapse").prop('required', false) }) : $(selection).slideDown(function() { $(":input:visible", "form .collapse").prop('required', true) });
+
   });
+  $('input:radio[name="customer"]').change(function() {
+    if ($(this).val() == 'customerNo') {
+      $('.conditional-hide').fadeIn(100);
+    } else {
+      $('.conditional-hide').fadeOut(100);
+    }
+  });
+
 
 });

@@ -4,7 +4,7 @@
 
   {% include marketplace/block-nav-top.html %}
 
-  <div class="container py-4 z-20">
+  <div class="container pt-4 z-20">
     <div class="d-none d-md-block">
       {% include marketplace/block-breadcrumbs.html %}
     </div>
@@ -17,27 +17,39 @@
         <h1 class="h2 mt-2 my-sm-0">{{ page.title }}</h1>
         <p>{{ page.excerpt }}</p>
       </div>
-      <div class="col-12 order-md-4">
-        <div class="app-previews row my-4 mt-md-5 mb-md-0">
-          {% for image in page.preview_gallery %}
-          <div class="app-previews__single col col-md-3 col-lg-2">
-            <img class="w-shadow" src="{{ image | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ image }} 2x" alt="App preview image {{ forloop.index }}" />
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="offset-lg-1 col-md-3">
+      <div class="offset-lg-1 col-md-3 d-none d-md-block">
         <a class="btn btn-dark btn-lg btn-block" href="#">Get started</a>
       </div>
     </div>
-
+  </div>
+  <div class="mob-scroll">
+    <div class="container position-relative z-20">
+      <div class="app-previews py-4 py-md-5 d-flex flex-nowrap align-items-center">
+        {% for image in page.preview_gallery %}
+        <div class="app-previews__single">
+          {% if image contains '.mp4' %}
+          <video controls muted class="mw-100 w-shadow">
+            <source src="{{ image }}" type="video/mp4">
+          </video>
+          {% else %}
+          <img class="w-shadow" src="{{ image | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ image }} 2x" alt="App preview image {{ forloop.index }}" />
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="container z-20">
+    <div class="d-md-none">
+      <a class="btn btn-dark btn-lg btn-block" href="#">Get started</a>
+    </div>
   </div>
 
   <div class="white-bottom"></div>
 
 </header>
 
-<main id="app-info" class="py-5">
+<main id="app-info" class="py-5 pt-md-3">
 
   <div class="container">
     <div class="row">
