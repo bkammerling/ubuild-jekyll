@@ -46,7 +46,9 @@ var form = {
       $('#mkt-formintro').text("Your message has been sent successfully. We’ll get back to you in no time.");
     }).fail(function (error) {
       console.log(error);
-      contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
+      $("#modalheader").removeClass('bg-dark').addClass('bg-danger');
+      $('#mkt-formtitle').text("Message failed to send");
+      $('#mkt-formintro').text("Your message failed to send. You can try again or reach out to moritz.dreger@wundermobility.com.");
       $("#form-submit").attr("disabled", false);
     });
 
@@ -99,11 +101,17 @@ function mktplaceSubmit(e) {
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
-    grecaptcha.ready(function() {
+    try {
       grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
         recaptchaSubmit(token);
-      });
-    });
+      }).catch(function(e) { throw(e) });
+    } catch(e) {
+      console.log(e);
+      $("#modalheader").removeClass('bg-dark').addClass('bg-danger');
+      $('#mkt-formtitle').text("Message failed to send");
+      $('#mkt-formintro').text("Your message failed to send because of a reCaptcha issue. You can try again or reach out to moritz.dreger@wundermobility.com.");
+      $("#form-submit").attr("disabled", false);
+    }
   } else {
     console.log('form NOT clean');
     $(e.target).attr("disabled", false);
