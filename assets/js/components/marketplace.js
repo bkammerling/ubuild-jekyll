@@ -29,6 +29,7 @@ var form = {
       return txtVal.toUpperCase();
     });
     data.name = capitalizedName;
+    //console.log(data);
 
     $.ajax({
       url: postURL,
@@ -39,13 +40,16 @@ var form = {
         "Accept": "application/json"
       }
     }).done(function (response) {
-      contactForm.find(".form-feedback").removeClass('hidden');
-      //console.log('ajax done success', response);
+      $("#modal-form").slideUp(400);
+      $("#modalheader").removeClass('bg-dark').addClass('bg-success');
+      $('#mkt-formtitle').text("Thanks for reaching out");
+      $('#mkt-formintro').text("Your message has been sent successfully. We’ll get back to you in no time.");
     }).fail(function (error) {
       console.log(error);
       contactForm.find(".form-feedback").removeClass('hidden').text('There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.');
       $("#form-submit").attr("disabled", false);
     });
+
   },
 
   serializeObject: function($form){
@@ -89,7 +93,7 @@ var form = {
 
 form.init();
 
-function formSubmit(e) {
+function mktplaceSubmit(e) {
   e.preventDefault();
   $(e.target).attr("disabled", true);
   var $form = $(e.target).closest("form");
@@ -130,9 +134,9 @@ $(document).ready(function() {
   });
   $('input:radio[name="customer"]').change(function() {
     if ($(this).val() == 'customerNo') {
-      $('.conditional-hide').fadeIn(100);
+      $('.conditional-hide').fadeIn(100).find('input').attr('required', true);
     } else {
-      $('.conditional-hide').fadeOut(100);
+      $('.conditional-hide').fadeOut(100).find('input').attr('required', false);
     }
   });
 

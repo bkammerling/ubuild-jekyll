@@ -112,6 +112,12 @@ p {
   }
 }
 
+
+.modal-header {
+  transition: background-color;
+  border: none;
+}
+
 .marketplace nav {
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -223,7 +229,7 @@ p {
     font-size: 14px;
     color: $black50;
   }
-  
+
   .conditional-hide {
     display: none;
   }

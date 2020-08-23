@@ -191,7 +191,7 @@
 <div class="modal fade wunderform-modal" id="partnerModal" tabindex="-1" role="dialog" aria-labelledby="Interested modal" aria-hidden="true">
   <div class="modal-dialog modal-md" role="document">
     <div class="modal-content p-0">
-      <div class="modal-header bg-dark text-white pl-4 pr-5 flex-column">
+      <div class="modal-header bg-dark text-white pl-4 pr-5 flex-column" id="modalheader">
         <h3 class="modal-title mb-2" id="mkt-formtitle">Let’s extend your business</h3>
         <p id="mkt-formintro">Tell us a bit about your idea to get this conversation started. We’ll get back to you in now time.</p>
         <button type="button" class="close text-white font-weight-light" data-dismiss="modal" aria-label="Close">
@@ -220,19 +220,19 @@
               <div class="col-sm-6">
                 <div class="form-group mb-3 mb-md-0 conditional-hide">
                   <label for="phone" class="form-label">Work Phone Number</label>
-                  <input type="text" class="text-input" id="phone" name="phone" placeholder="+00 1234 567 89" required />
+                  <input type="text" class="text-input" id="phone" name="phone" placeholder="+00 1234 567 89"  />
                 </div>
               </div>
             </div>
 
             <div class="form-group mb-3 conditional-hide">
               <label for="recipient-name" class="form-label">Full name</label>
-              <input type="text" class="text-input" id="recipient-name" name="name" required placeholder="What should we call you?" />
+              <input type="text" class="text-input" id="recipient-name" name="name"  placeholder="What should we call you?" />
             </div>
 
             <div class="form-group">
               <label for="message-text" class="form-label">What is your project idea?</label>
-              <textarea rows="4" class="textarea-input" id="message-text" name="message" placeholder="Tell us a bit about the problem you want to solve"></textarea>
+              <textarea rows="4" class="textarea-input" id="message-text" name="message" required placeholder="Tell us a bit about the problem you want to solve"></textarea>
             </div>
 
             <div class="form-group">
