@@ -18,11 +18,17 @@ screenshot_details:
   title: Citation monitoring and resolution
   screenshot_description: ''
 app_details:
-- detail_title: Whitepaper Download
-  detail_content: ''
+- detail_title: Terms of Services
+  detail_content: '<a href="https://wisemobility.com" title="https://wisemobility.com"><span
+    style="text-decoration: underline;">https://wisemobility.com</span></a>'
 - detail_title: Developer Website
   detail_content: '<a href="https://wisemobility.com" title="https://wisemobility.com"><span
     style="text-decoration: underline;">https://wisemobility.com</span></a>'
+- detail_title: Support contact
+  detail_content: <a href="mailto:fleet@wisemobility.com" title="">fleet@wisemobility.com</a>
+- detail_title: Resources
+  detail_content: <a href="/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
+    title="">Whitepaper Download</a>
 access_needed: []
 getting_started: []
 published: false

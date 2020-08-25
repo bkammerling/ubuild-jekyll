@@ -36,8 +36,8 @@ app_details:
 - detail_title: Developer Website
   detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
     underline;">https://zoba.com</span></a>'
-- detail_title: Support contact
-  detail_content: info@zoba.com
+- detail_title: Support Contact
+  detail_content: <a href="mailto:info@zoba.com" title="">info@zoba.com</a>
 - detail_title: Terms of services
   detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
     underline;">https://zoba.com</span></a>'
