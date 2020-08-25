@@ -48,11 +48,15 @@
         {% for app in Apps %}
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <a href="{{ app.url }}">
-            <div class="app-box px-3 px-md-4 py-3 pt-md-4  w-shadow d-flex d-md-block">
-              <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
-              <div class="d-flex flex-column justify-content-between align-items-start d-md-block">
-                <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
-                <p class="body-light small mb-3 d-none d-md-block">{{ app.excerpt }}</p>
+            <div class="app-box px-3 px-md-4 py-3 pt-md-4 h-100 w-shadow d-flex flex-column justify-content-between">
+              <div class="app-box__main">
+                <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+                <div class="d-flex flex-column justify-content-between align-items-start d-md-block">
+                  <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
+                  <p class="body-light small mb-3 d-none d-md-block">{{ app.excerpt }}</p>
+                </div>
+              </div>
+              <div class="app-box__footer">
                 <p class="badge badge-light body-label p-2">{{ app.category }}</p>
               </div>
             </div>
@@ -76,14 +80,14 @@
 
   {% assign app = site.apps | first %}
   {% comment %} | where: 'featured', true {% endcomment %}
-  <section class="bg-gray-gradient my-0 py-5" >
+  <section id="app-highlight" class="bg-gray-gradient my-0 py-5" >
     <div class="container py-5">
       <div class="row">
 
         <div class="col-md-8 col-lg-7 offset-lg-1">
           <p class="mb-3">Our Highlight</p>
           <div class="d-flex mb-4 align-items-end">
-            <img class="mr-3 w-shadow" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
+            <img class="mr-3 w-shadow app-icon" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
             <h2 class="mb-0">{{ app.title }}</h2>
           </div>
           <p class="large">{{ app.excerpt }}</p>
