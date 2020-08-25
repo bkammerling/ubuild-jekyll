@@ -17,9 +17,9 @@ fields:
 - name: icon
   type: file
   config:
-    maxSize: 0.4
+    maxSize: 0.1
   label: Icon
-  description: Main app icon - <em>must be</em> <em>square</em>
+  description: Main app icon - <em>72x72px (144x144px @2x)</em>
 - name: excerpt
   type: textarea
   default: ''
@@ -31,10 +31,49 @@ fields:
   label: Excerpt
   description: Short summary, about 100 characters. Shown on list card and app detail
     page
-- name: preview_gallery
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Analytics and Monitoring
+    - Customer Engagement
+    - Customer Relationship Management (CRM)
+    - Fleet Maintenance
+    - Integrations (API)
+    - Operations Improvement
+    - Utilization Improvement
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: preview_gallery1
   type: image_gallery
   config: {}
   label: Preview Gallery
+- name: preview_gallery
+  type: field_group_list
+  fields:
+  - name: image-video
+    type: file
+    config:
+      maxSize: 8
+    label: Image /  Video
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Appears in popup when image is clicked
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Preview Gallery
+  description: Images and videos appearing under the app icon
 - name: description
   type: textarea
   default: ''
@@ -74,25 +113,6 @@ fields:
     labelField: title
   label: Screenshot Details
   description: List of screens with descriptions
-- name: category
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Analytics and Monitoring
-    - Customer Engagement
-    - Customer Relationship Management (CRM)
-    - Fleet Maintenance
-    - Integrations (API)
-    - Operations Improvement
-    - Utilization Improvement
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Category
 - name: app_details
   type: field_group_list
   fields:
