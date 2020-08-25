@@ -178,6 +178,13 @@ p {
 }
 
 
+#app-highlight {
+  .app-icon {
+    max-width: 72px;
+  }
+}
+
+
 .app-previews {
   &__single {
     width: 155px;
@@ -196,12 +203,30 @@ p {
   }
 }
 
-
-#app-highlight {
-  .app-icon {
-    max-width: 72px;
+.ekko-lightbox {
+  .modal-dialog {
+    //max-width: 95% !important;
+  }
+  .modal-content {
+    background-color: $black96;
+    border: 0;
+    //padding: 5px 100px;
   }
 }
+.ekko-lightbox-nav-overlay {
+  display: flex !important;
+    top: -60px;
+    width: 65px;
+    height: 24px;
+    left: calc(100% - 100px);
+    a {
+      opacity: .5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+}
+
 
 /*
  ------ FORM ------

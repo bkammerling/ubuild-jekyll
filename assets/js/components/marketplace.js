@@ -137,9 +137,6 @@ $(document).ready(function() {
     });
   })
 
-  $("form .conditional-trigger").on('change', function(e) {
-
-  });
   $('input:radio[name="customer"]').change(function() {
     if ($(this).val() == 'customerNo') {
       $('.conditional-hide').fadeIn(100).find('input').attr('required', true);
@@ -147,6 +144,23 @@ $(document).ready(function() {
       $('.conditional-hide').fadeOut(100).find('input').attr('required', false);
     }
   });
+
+  $('[data-toggle="lightbox"]').click(function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox({
+        alwaysShowClose: true,
+        leftArrow: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" fill="#141414"/>
+        </svg>`,
+        rightArrow: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
+        </svg>`,
+        onShown: function() {
+          $('.ekko-lightbox button.close').html('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="#141414"/></svg>');
+        },
+      });
+  });
+
 
 
 });
