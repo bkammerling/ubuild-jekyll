@@ -51,5 +51,6 @@ getting_started:
 - column_title: Optimize your fleet
   column_description: Velit officia consequat duis enim velit mollit. Exercitation
     veniam consequat sunt nostrud amet.
+published: false
 
 ---

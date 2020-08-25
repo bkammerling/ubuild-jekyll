@@ -38,6 +38,6 @@ getting_started:
 - column_title: 'Step 1:'
   column_description: " Subscribe your fleet!"
 - column_title: 'Step 2:'
-  column_description: Focus on your business
+  column_description: Focus on your business!
 
 ---
