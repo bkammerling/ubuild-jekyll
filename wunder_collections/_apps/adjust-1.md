@@ -6,10 +6,14 @@ icon: "/uploads/2020/08/25/logokit-04-alexandre-pham.png"
 excerpt: Adjust’s platform includes measurement, fraud prevention, cybersecurity and
   marketing automation products.
 preview_gallery:
-- "/uploads/2020/08/25/what-is-adjust_-alexandre-pham.mp4"
-- "/uploads/2020/08/25/deliverables-alexandre-pham.png"
-- "/uploads/2020/08/25/dashboard-alexandre-pham.png"
-- "/uploads/2020/08/25/cohorts-alexandre-pham.png"
+- image-video: "/uploads/2020/08/25/what-is-adjust_-alexandre-pham.mp4"
+  title: Wassup
+- image-video: "/uploads/2020/08/25/deliverables-alexandre-pham.png"
+  title: Wassup 2
+- image-video: "/uploads/2020/08/25/dashboard-alexandre-pham.png"
+  title: Wassup 3
+- image-video: "/uploads/2020/08/25/cohorts-alexandre-pham.png"
+  title: Wassup 4
 description: "<p>Adjust is the industry leader in mobile measurement, marketing automation
   and fraud prevention. As a data-driven marketer, gain full control of your data
   to make smarter and more secure decisions about your campaigns, budgets and app

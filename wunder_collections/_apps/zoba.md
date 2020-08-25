@@ -5,11 +5,16 @@ title: Zoba
 icon: "/uploads/2020/08/20/copy-of-zoba_z3.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
 preview_gallery:
-- "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mp4"
-- "/uploads/2020/08/20/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.png"
-- "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
-- "/uploads/2020/08/20/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.png"
-- "/uploads/2020/08/20/zoba-increases-utilization-by-recommending-which-vehicles-to-discount-daniel-brennan.png"
+- image-video: "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mp4"
+  title: Video demonstration
+- image-video: "/uploads/2020/08/20/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.png"
+  title: Optimization at the highest level
+- image-video: "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
+  title: Load up all your stuff in the dashboard
+- image-video: "/uploads/2020/08/20/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.png"
+  title: Alright sunshine
+- image-video: "/uploads/2020/08/20/zoba-increases-utilization-by-recommending-which-vehicles-to-discount-daniel-brennan.png"
+  title: Hey hey
 description: "<p>Zoba increases the performance of micromobility and car-sharing fleets
   with market-leading demand forecasting and optimization. The Zoba Platform predicts
   near-term market conditions like demand, supply, and competition using historical

@@ -5,9 +5,12 @@ category: ''
 title: Fleet Optimizer (test page)
 excerpt: Everything you need to increase your fleet performance and streamline workflows.
 preview_gallery:
-- "/uploads/2020/07/27/optimizer-preview2-2x.jpg"
-- "/uploads/2020/07/27/optimizer-preview1-2x.jpg"
-- "/uploads/2020/07/27/optimizer-preview3-2x.jpg"
+- image-video: "/uploads/2020/07/27/optimizer-preview2-2x.jpg"
+  title: Hey 1
+- image-video: "/uploads/2020/07/27/optimizer-preview1-2x.jpg"
+  title: Hey 2
+- image-video: "/uploads/2020/07/27/optimizer-preview3-2x.jpg"
+  title: Hey 3
 description: "<p>Wunder Fleet Optimizer is a comprehensive tool to visualize, understand
   and optimize the utilization of a fleet. The tool is built incrementally, separated
   in self-contained modules which are sold individually.</p><p>A customer could use
