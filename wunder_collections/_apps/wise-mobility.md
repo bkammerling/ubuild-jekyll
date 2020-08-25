@@ -29,8 +29,15 @@ app_details:
 - detail_title: Resources
   detail_content: <a href="/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
     title="">Whitepaper Download</a>
-access_needed: []
-getting_started: []
-published: false
+access_needed:
+- API Credentials
+- " Vehicle Data"
+- User Data
+- Trip Data
+getting_started:
+- column_title: 'Step 1:'
+  column_description: " Subscribe your fleet!"
+- column_title: 'Step 2:'
+  column_description: Focus on your business
 
 ---
