@@ -62,6 +62,5 @@ getting_started:
     the SDK is already integrated.
 - column_title: 3. Start optimizing your performance marketing campaigns
   column_description: " Consult your campaign results on the Adjust dashboard."
-published: false
 
 ---
