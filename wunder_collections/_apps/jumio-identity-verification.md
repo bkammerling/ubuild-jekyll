@@ -5,18 +5,14 @@ title: Jumio Identity Verification
 icon: "/uploads/2020/08/26/jumio-logo-color-reversed-01-3-claire-galbois-alcaix-2.jpg"
 excerpt: Identity Verification for the Mobility Services Industry
 preview_gallery:
-- image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-10-15-claire-galbois-alcaix.png"
-  title: Jumio 2
+- image-video: "/uploads/2020/08/26/full_hd-1-claire-galbois-alcaix.mp4"
+  title: Product Video
 - image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-19-49-claire-galbois-alcaix.png"
   title: Jumio Answer
 - image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-15-50-claire-galbois-alcaix.png"
   title: Jumio Verification
 - image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-11-19-claire-galbois-alcaix.png"
   title: Jumio License
-- image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-09-23-claire-galbois-alcaix.png"
-  title: Jumio
-- image-video: "/uploads/2020/08/26/full_hd-1-claire-galbois-alcaix.mp4"
-  title: Product Video
 description: "<p>If your business involves the letting of cars, scooters and other
   vehicles, you need to be sure to verify the identities of your customers before
   you hand over the keys or pick up a new rider. Jumio’s end-to-end identity verification
@@ -26,23 +22,17 @@ description: "<p>If your business involves the letting of cars, scooters and oth
   with a low-friction experience</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/08/26/id-verification-claire-galbois-alcaix.png"
-  title: 'How Jumio Benefits Mobility Services:'
-  screenshot_description: |-
-    ID Verification
-
-    Establish the genuine identity of your users before letting them take the wheel. Jumio’s ID Verification solution verifies government-issued IDs in real time, employing advanced technologies and informed AI to detect digital manipulations.
+  title: ID Verification
+  screenshot_description: Establish the genuine identity of your users before letting
+    them take the wheel. Jumio’s ID Verification solution verifies government-issued
+    IDs in real-time, employing advanced technologies and informed AI to detect digital
+    manipulations.
 - screenshot: "/uploads/2020/08/26/fraud-deterrence-claire-galbois-alcaix.png"
   title: Fraud Deterrence
   screenshot_description: Cars, e-bikes and scooters are high-value assets that must
     be protected against theft. By requiring a valid government-issued ID and a selfie,
     Jumio provides a valuable fraud prevention tool, as fraudsters generally prefer
     not to use their own likeness when trying to scam the system.
-- screenshot: "/uploads/2020/08/26/liveness-detection-claire-galbois-alcaix.png"
-  title: Liveness Detection
-  screenshot_description: Given the rise of spoofing (the act of using a photo, video
-    or a different substitute for an authorized person’s face), Jumio employs state-of-the-art
-    3D liveness detection and informed AI to ensure that a new customer or driver
-    creating an online account is physically present and not a spoof or deepfake.
 - screenshot: "/uploads/2020/08/26/ongoing-authentication-claire-galbois-alcaix.png"
   title: Ongoing Authentication
   screenshot_description: After your customers have verified themselves online, Jumio
@@ -55,8 +45,8 @@ app_details:
   detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
     style="text-decoration: underline;">https://www.jumio.com/</span></a>'
 - detail_title: Support Contact
-  detail_content: <a href="https://support.jumio.com/hc/en-us/requests/new" title="Jumio
-    Support Request">https://support.jumio.com/hc/en-us/requests/new</a>
+  detail_content: <a href="https://support.jumio.com/hc/en-us/requests/new" title="">Request
+    Support</a>
 - detail_title: Whitepaper Download
   detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
     title="">Jumio Whitepaper</a>
