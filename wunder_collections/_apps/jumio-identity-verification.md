@@ -51,16 +51,25 @@ screenshot_details:
     identities, while rental agencies can quickly and reliably authenticate known
     customers to unlock their vehicles with a quick selfie.
 app_details:
-- detail_title: ''
-  detail_content: ''
-- detail_title: Support Contact
-  detail_content: <a href="https://support.jumio.com/hc/en-us/requests/new" title="Jumio
-    Support Request">https://support.jumio.com/hc/en-us/requests/new</a>
 - detail_title: Developer Website
   detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
     style="text-decoration: underline;">https://www.jumio.com/</span></a>'
-access_needed: []
+- detail_title: Support Contact
+  detail_content: <a href="https://support.jumio.com/hc/en-us/requests/new" title="Jumio
+    Support Request">https://support.jumio.com/hc/en-us/requests/new</a>
+- detail_title: Whitepaper Download
+  detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
+    title="">Jumio Whitepaper</a>
+- detail_title: Privacy Policy
+  detail_content: '<a href="https://www.jumio.com/legal-information/privacy-policy/"
+    title="https://www.jumio.com/legal-information/privacy-policy/"><span style="text-decoration:
+    underline;">https://www.jumio.com/legal-information/privacy-policy/</span></a>'
+- detail_title: Terms of Services
+  detail_content: '<a href="https://www.jumio.com/about/" title="https://www.jumio.com/about/"><span
+    style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
+access_needed:
+- User Data
+- SDK in App needed
 getting_started: []
-published: false
 
 ---
