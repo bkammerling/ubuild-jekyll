@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Analytics and Monitoring
 title: Adjust
-icon: "/uploads/2020/08/25/logokit-04-alexandre-pham.png"
+icon: "/uploads/2020/08/26/logokit-04-alexandre-pham-2.png"
 excerpt: Adjust’s platform includes measurement, fraud prevention, cybersecurity and
   marketing automation products.
 preview_gallery:
