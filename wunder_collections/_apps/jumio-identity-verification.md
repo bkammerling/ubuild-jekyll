@@ -7,11 +7,11 @@ excerpt: Identity Verification for the Mobility Services Industry
 preview_gallery:
 - image-video: "/uploads/2020/08/26/full_hd-1-claire-galbois-alcaix.mp4"
   title: Product Video
-- image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-19-49-claire-galbois-alcaix.png"
+- image-video: "/uploads/2020/08/26/answer-claire-galbois-alcaix.png"
   title: Jumio Answer
-- image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-15-50-claire-galbois-alcaix.png"
+- image-video: "/uploads/2020/08/26/verification-claire-galbois-alcaix.png"
   title: Jumio Verification
-- image-video: "/uploads/2020/08/26/screenshot-2020-08-25-at-18-11-19-claire-galbois-alcaix.png"
+- image-video: "/uploads/2020/08/26/licence-claire-galbois-alcaix.png"
   title: Jumio License
 description: "<p>If your business involves the letting of cars, scooters and other
   vehicles, you need to be sure to verify the identities of your customers before
