@@ -4,6 +4,6 @@ title: Wir haben uns gegen die Übernahme durch VW entschieden
 date: 2020-07-13 22:00:00 +0000
 lang: German
 image: "/uploads/2020/08/17/venturecapital-magazin.png"
-featured: true
+featured: false
 
 ---
