@@ -177,6 +177,13 @@ p {
   }
 }
 
+.app-box {
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0px 16px 34px rgba(0, 0, 0, 0.2);
+  }
+}
+
 
 #app-highlight {
   .app-icon {
@@ -207,10 +214,26 @@ p {
   .modal-dialog {
     //max-width: 95% !important;
   }
+  .modal-title {
+    @extend p;
+    font-weight: bold;
+  }
   .modal-content {
     background-color: $black96;
     border: 0;
-    //padding: 5px 100px;
+    border-radius: 0;
+    padding: 10px 40px;
+  }
+  .ekko-lightbox-item {
+    :first-child() {
+        @extend .w-shadow;
+    }
+  }
+  .modal-footer {
+    font-size: 14px;
+    padding: 1rem;
+    justify-content: flex-start;
+    border: 0;
   }
 }
 .ekko-lightbox-nav-overlay {
@@ -370,6 +393,7 @@ p {
 }
 .link-text:hover {
   text-decoration: underline;
+  color: $mkt-primary;
 }
 
 
