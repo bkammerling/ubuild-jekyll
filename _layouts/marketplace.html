@@ -46,21 +46,20 @@
       <div class="app-boxes row pt-4 pb-5">
         {% assign Apps = site.apps %}
         {% for app in Apps %}
-        <div class="col-sm-6 col-lg-4 col-xl-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 pb-2">
           <a href="{{ app.url }}">
-            <div class="app-box px-3 px-md-4 py-3 pt-md-4 h-100 w-shadow d-flex flex-column justify-content-between">
-              <div class="app-box__main">
+            <div class="app-box px-3 px-md-4 py-3 pt-md-4 h-100 w-shadow d-flex flex-row flex-md-column">
                 <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
-                <div class="d-flex flex-column justify-content-between align-items-start d-md-block">
-                  <h3 class="my-0 my-sm-2">{{ app.title }}</h3>
-                  <p class="body-light small mb-3 d-none d-md-block">{{ app.excerpt }}</p>
-                </div>
-              </div>
-              <div class="app-box__footer">
-                <p class="badge badge-light body-label p-2">{{ app.category }}</p>
-                <svg class="d-none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#0026E6"/>
-                </svg>
+                <div class="d-flex flex-column d-md-block">
+                  <h3 class="mt-0 mb-2 my-sm-2">{{ app.title }}</h3>
+                  <p class="body-light small mb-3 d-none d-md-block app-excerpt">{{ app.excerpt }}</p>
+                  <div class="app-box__footer position-md-absolute">
+                    <p class="badge badge-light body-label p-2">{{ app.category }}</p>
+                    <svg class="d-none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#0026E6"/>
+                    </svg>
+                  </div>
+
               </div>
             </div>
           </a>
