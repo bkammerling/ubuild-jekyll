@@ -10,7 +10,7 @@ cta_heading: Find Out More About Wunder Fleet
 cta_text: Wunder Fleet is an all-in-one solution for vehicle sharing.
 cta_link: pages/fleet.md
 title: An Interview with Electric Life Rides
-publish_date: 2020-09-01 12:00:00 +0000
+publish_date: 2020-08-27 16:00:00 +0000
 featured_image: "/uploads/2020/08/27/an_interview_with_electric_life_rides.jpg"
 excerpt: Electric Life Rides, based in Johannusberg, South Africa, is one of the first
   companies bringing micromobility to the African continent. We talked to them about
