@@ -12,7 +12,7 @@ cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: Our monthly bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
-title: 'Use of data: Finland as a model of efficient mobility'
+title: 'Use of data: Finland as a model of efficient mobility?'
 publish_date: 2020-08-28 11:00:00 +0000
 featured_image: "/uploads/2020/08/28/cover_082820.jpg"
 excerpt: ''
