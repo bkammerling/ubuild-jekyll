@@ -13,9 +13,11 @@ cta_text: Our monthly bilingual policy brief is full of articles relevant to pol
   city officials and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
 title: 'Use of data: Finland as a model of efficient mobility?'
-publish_date: 2020-08-28 10:00:00 +0000
+publish_date: 2020-08-28 04:00:00 +0000
 featured_image: "/uploads/2020/08/28/cover_082820.jpg"
-excerpt: ''
+excerpt: 'Finland requires all mobility operators (both public and private) to share
+  their data in order to create a cohesive, country-wide Mobility-as-a-Service model.
+  We asked ourselves: can this Finnish model be transferred to Germany?'
 share_image: "/uploads/2020/08/28/cover_082820.jpg"
 sticky: false
 hidden: false
