@@ -14,9 +14,9 @@ cta_text: Our monthly bilingual policy brief is full of articles relevant to pol
 cta_link: pages/bernstein-newsletter.md
 title: 'Use of data: Finland as a model of efficient mobility'
 publish_date: 2020-08-28 11:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/08/28/cover_082820.jpg"
 excerpt: ''
-share_image: ''
+share_image: "/uploads/2020/08/28/cover_082820.jpg"
 sticky: false
 hidden: true
 
