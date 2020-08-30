@@ -84,8 +84,13 @@
   </section>
 
 
-  {% assign app = site.apps | first %}
-  {% comment %} | where: 'featured', true {% endcomment %}
+  {% assign app = site.apps | where: 'featured', true | first %}
+  {% for item in app.preview_gallery %}
+    {% if item.image-video contains '.jpg' or item.image-video contains '.png' %}
+      {% assign previewImage = item.image-video %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
   <section id="app-highlight" class="bg-gray-gradient my-0 py-5" >
     <div class="container py-5">
       <div class="row">
@@ -104,7 +109,64 @@
           </a>
         </div>
 
-        <div class="col">
+        <div class="col-md-4">
+          <div class="dyanmic-macbook">
+            <svg width="629" height="368" viewBox="0 0 629 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_i)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M48.7588 32C48.7588 14.3269 63.0857 0 80.7588 0L547.685 0C565.359 0 579.685 14.3269 579.685 32V348.848H48.7588L48.7588 32Z" fill="white"/>
+              </g>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M314.222 16.4163C315.718 16.4163 316.931 15.1914 316.931 13.6803C316.931 12.1692 315.718 10.9442 314.222 10.9442C312.726 10.9442 311.513 12.1692 311.513 13.6803C311.513 15.1914 312.726 16.4163 314.222 16.4163Z" fill="white"/>
+              <g filter="url(#filter1_i)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.00135 348.849C0.896255 348.848 0 349.743 0 350.849V355.866C0 355.866 17.3599 366.6 78.9414 367.983C140.689 367.816 527.695 367.983 527.695 367.983C527.695 367.983 603.226 368.969 628.444 355.866V351.271C628.444 350.167 627.549 349.272 626.445 349.271L2.00135 348.849Z" fill="white"/>
+              </g>
+              <g filter="url(#filter2_ii)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M253.951 348.847H374.493V348.847C374.493 353.599 371.086 357.581 366.354 358.012C357.695 358.801 341.449 359.792 314.46 359.792C287.3 359.792 270.844 358.788 262.089 357.997C257.363 357.569 253.951 353.593 253.951 348.847V348.847Z" fill="white"/>
+              </g>
+              <rect fill="url(#prevImg1)" x="71.4292" y="28.3607" width="485.586" height="305.807" rx="3" stroke="#959595" stroke-width="2"/>
+              <defs>
+                <pattern id="prevImg1" patternUnits="userSpaceOnUse" width="485.586" height="332">
+                  <image href="{{ previewImage }}" x="71.4292" y="28.3607" width="485.586" height="308" />
+                </pattern>
+                <filter id="filter0_i" x="48.7588" y="0" width="530.927" height="348.848" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset/>
+                  <feGaussianBlur stdDeviation="2"/>
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+                  <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                </filter>
+                <filter id="filter1_i" x="0" y="348.849" width="628.444" height="19.1512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset/>
+                  <feGaussianBlur stdDeviation="2"/>
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+                  <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                </filter>
+                <filter id="filter2_ii" x="245.951" y="348.847" width="136.542" height="14.9442" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset dx="8" dy="4"/>
+                  <feGaussianBlur stdDeviation="6"/>
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+                  <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset dx="-8"/>
+                  <feGaussianBlur stdDeviation="6"/>
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+                  <feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+                </filter>
+              </defs>
+            </svg>
+
+          </div>
         </div>
 
       </div>
