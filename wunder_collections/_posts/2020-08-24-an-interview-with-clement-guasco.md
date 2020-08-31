@@ -9,14 +9,14 @@ cta_heading: Find Out More About Wunder Carpool
 cta_text: 'The Wunder Carpool app enables employees to organize shared rides to work. '
 cta_link: pages/carpool.md
 title: An Interview with Clément Guasco
-publish_date: 2020-09-01 12:00:00 +0000
-featured_image: ''
+publish_date: 2020-09-01 15:00:00 +0000
+featured_image: "/uploads/2020/08/31/clement_guasco.jpg"
 excerpt: In a world full of emerging mobility options, the benefits of one of the
   simplest forms of shared mobility - carpooling - are often overlooked. Clément Guasco
   of Denmark's FDM gives us the details.
-share_image: ''
+share_image: "/uploads/2020/08/31/clement_guasco-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 In a world full of emerging mobility options, the benefits of one of the simplest forms of shared mobility - carpooling - are often overlooked. Shinier, futuristic alternatives, such as autonomous driving, e-vehicles and aerial mobility tend to steal the new mobility stage instead.
