@@ -213,6 +213,12 @@ p {
       margin-right: 24px;
     }
   }
+  img, video {
+    height: 120px;
+    width: 180px;
+    object-fit: cover;
+    object-position: top left;
+  }
   &:after {
     content: '';
     min-width: 30px;
