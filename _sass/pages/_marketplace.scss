@@ -223,7 +223,8 @@ p {
 
 .ekko-lightbox {
   .modal-dialog {
-    //max-width: 95% !important;
+    max-width: 95% !important;
+    align-self: flex-start;
   }
   .modal-title {
     @extend p;
@@ -236,9 +237,20 @@ p {
     padding: 10px 40px;
   }
   .ekko-lightbox-item {
-    :first-child() {
-        @extend .w-shadow;
+    text-align: center;
+    img, video {
+      @extend .w-shadow;
+      width: auto !important;
+      max-height: 100%;
     }
+    video {
+      left: 50%;
+      transform: translateX(-50%);
+      height: inherit !important;
+    }
+  }
+  .embed-responsive {
+    max-height: 100%;
   }
   .modal-footer {
     font-size: 14px;
