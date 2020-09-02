@@ -21,15 +21,11 @@ hidden: false
 ---
 In a world full of emerging mobility options, the benefits of one of the simplest forms of shared mobility - carpooling - are often overlooked. Shinier, futuristic alternatives, such as autonomous driving, e-vehicles and aerial mobility tend to steal the new mobility stage instead.
 
-(Image of FDM HQ)
-
 But carpooling is one of the most effective and easy-to-implement forms of shared mobility out there. It takes cars off the streets and reduces CO2 emissions in the process. After all, carpooling uses resources that the world already has plenty of: cars, drivers and passengers. Putting multiple people in one car is such a simple way of reducing congestion and improving the daily commute, it’s hard to believe that more companies haven’t embraced a carpooling program yet.
 
 But for **Clément Guasco**, **Digital Business Developer at the Federation of Danish Motorists,** the benefits of carpooling need no explanation. Clément is, by any definition, a carpool enthusiast. We met him at his company’s HQ in Lyngby, just outside of Copenhagen, to talk about carpooling - and why FDM believes it’s the future of Danish mobility.
 
 P: Thanks for taking the time to speak with me, Clément! First things first: it was hard not to notice that beautifully maintained 1903 Model-T parked downstairs in the atrium.
-
-(image of Model T)
 
 C: Welcome, Pia. Yes, we are very proud of our Model-T. It took part in a parade last year - we drove it out of the building for some “fresh air”.
 
@@ -51,7 +47,7 @@ C: Our pilot project_,_ called _Ta’Med!_ (loosely translated as “come with!�
 
 We consider this a societal issue that affects everyone, including our members - and we have quite a lot. **Almost a quarter million families are members of FDM,** and this topic touches all our members.
 
-(image of Clement)
+![](/uploads/2020/09/02/clement_portrait.jpg)
 
 P: Who is the Ta’Med project helping directly and how does it affect its end users?
 
@@ -69,7 +65,7 @@ C: This year, we started our project in an industrial area where ten companies a
 
 Following the success of our launch, we quickly opened the system to all of Denmark. We’re currently in the process of partnering with companies and municipalities around Denmark and inviting them to join our carpooling program for free. Our agenda is also to spread the word about carpooling: **we want every company to know that the option exists today for them to start carpooling tomorrow.**
 
-(mobility image)
+![](/uploads/2020/09/02/car.jpg)
 
 As I mentioned before, we think that if passengers have to pay for the service, carpooling won’t get big enough to actually make a difference for society. We think it should be institutionalized, which is of course very political. We want to build an ecosystem where the ones providing value to society are rewarded for it.
 
