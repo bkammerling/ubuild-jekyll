@@ -16,7 +16,7 @@ excerpt: In a world full of emerging mobility options, the benefits of one of th
   of Denmark's FDM gives us the details.
 share_image: "/uploads/2020/08/31/clement_guasco-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 In a world full of emerging mobility options, the benefits of one of the simplest forms of shared mobility - carpooling - are often overlooked. Shinier, futuristic alternatives, such as autonomous driving, e-vehicles and aerial mobility tend to steal the new mobility stage instead.
