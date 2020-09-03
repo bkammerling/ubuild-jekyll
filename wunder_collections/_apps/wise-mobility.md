@@ -6,11 +6,11 @@ icon: "/uploads/2020/08/26/wm-logo-megan-broccoli-2.png"
 excerpt: The citation management solution you've been looking for.
 preview_gallery:
 - image-video: "/uploads/2020/08/25/openrentals-page-megan-broccoli.png"
-  title: Hey hey
+  title: ''
 - image-video: "/uploads/2020/08/25/events-page-megan-broccoli.png"
-  title: Hey hey
+  title: ''
 - image-video: "/uploads/2020/08/25/citations-page-megan-broccoli.png"
-  title: Hey hey
+  title: ''
 description: "<p>Citation management has been untouched by technology until Wise Mobility.
   Now, it's at your fingertips. Across our network of agency integrations, we monitor
   your vehicles for citations issued and resolve them immediately. This saves you
