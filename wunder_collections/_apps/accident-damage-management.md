@@ -7,11 +7,11 @@ excerpt: Monitor, analyze and optimise your damage & service management with mot
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/02/web-portal-overview-of-damages-natalie-kolb.png"
-  title: Portal
+  title: ''
 - image-video: "/uploads/2020/09/02/web-app-damage-reporting-natalie-kolb.png"
-  title: App Damage
+  title: ''
 - image-video: "/uploads/2020/09/02/web-app-home-screen-natalie-kolb.png"
-  title: App Home
+  title: ''
 description: "<p>Our accident &amp; damage reporting allows you to have a live overview
   of the fleet condition at any time and significantly increase the utilization of
   your fleet. With our web-based app and dashboard, we enable you to react to vehicle
