@@ -29,7 +29,7 @@ P: Thanks for taking the time to speak with me, Clément! First things first: it
 
 C: Welcome, Pia. Yes, we are very proud of our Model-T. It took part in a parade last year - we drove it out of the building for some “fresh air”.
 
-![](/uploads/2020/09/03/model_t.jpg)
+![](/uploads/2020/09/03/model_t-1.jpg)
 
 P: That’s incredible, I can’t believe it still drives! It serves as a testament to FDM’s long history, too. Can you briefly walk us through FDM’s timeline?
 
