@@ -29,6 +29,8 @@ P: Thanks for taking the time to speak with me, Clément! First things first: it
 
 C: Welcome, Pia. Yes, we are very proud of our Model-T. It took part in a parade last year - we drove it out of the building for some “fresh air”.
 
+![](/uploads/2020/09/03/model_t.jpg)
+
 P: That’s incredible, I can’t believe it still drives! It serves as a testament to FDM’s long history, too. Can you briefly walk us through FDM’s timeline?
 
 C: FDM was founded in 1909. The association actually started as a reaction to a new Danish law that forbade car owners to drive on secondary roads, which was a grassroots issue at the time. Eventually, and partially thanks to FDM, the government gave car owners the right to drive everywhere. That’s when things took off, and FDM developed into an association that promotes the interest of all car owners. Today, we help members buy, insure, sell or repair their cars, as well as offer a variety of other services.
