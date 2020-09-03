@@ -35,9 +35,27 @@ screenshot_details:
     web-portal in order to receive & approve cost estimates, make appointments as
     well as transmit invoices in a structured and digital way.
 app_details:
-- detail_title: ''
-  detail_content: ''
-access_needed: []
-getting_started: []
+- detail_title: Developer Website
+  detail_content: <a href="https://repairfix.eu" title="https://repairfix.eu">https://repairfix.eu</a><br>
+- detail_title: Support contact
+  detail_content: <a href="mailto:fleets@repairfix.eu" title="fleets@repairfix.eu">fleets@repairfix.eu</a>
+- detail_title: Terms of services
+  detail_content: <a href="https://repairfix.eu/agb" title="https://repairfix.eu/agb">https://repairfix.eu/agb</a><br>
+- detail_title: " Privacy policy"
+  detail_content: <a href="https://repairfix.eu/datenschutz" title="https://repairfix.eu/datenschutz">https://repairfix.eu/datenschutz</a><br>
+access_needed:
+- User Data
+- Vehicle Data
+- Deliver API credentials
+getting_started:
+- column_title: 1. Reach out
+  column_description: Reach out to us to discuss your current setup and how motum
+    can help you to reduce your damage management costs!
+- column_title: 2. Import your fleet & driver data
+  column_description: When all is set, we will import your fleet and driver data in
+    order to register the vehicles and drivers.
+- column_title: 3. Start saving!
+  column_description: 'Once the set-up is completed, it is up to your drivers to start
+    reporting so that you can manage & monitor the fleet condition! '
 
 ---
