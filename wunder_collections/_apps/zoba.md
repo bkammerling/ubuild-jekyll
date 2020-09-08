@@ -61,6 +61,6 @@ getting_started:
   column_description: After the connection is set up data will automatically flow
     from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
     recommendations into your operations stack.
-featured: true
+featured: false
 
 ---
