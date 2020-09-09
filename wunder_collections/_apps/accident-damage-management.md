@@ -48,13 +48,13 @@ access_needed:
 - Vehicle Data
 - Deliver API credentials
 getting_started:
-- column_title: 1. Reach out
+- column_title: Reach out
   column_description: Reach out to us to discuss your current setup and how motum
     can help you to reduce your damage management costs!
-- column_title: 2. Import your fleet & driver data
+- column_title: Import your fleet & driver data
   column_description: When all is set, we will import your fleet and driver data in
     order to register the vehicles and drivers.
-- column_title: 3. Start saving!
+- column_title: Start saving!
   column_description: 'Once the set-up is completed, it is up to your drivers to start
     reporting so that you can manage & monitor the fleet condition! '
 

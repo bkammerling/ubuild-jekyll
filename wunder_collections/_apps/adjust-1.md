@@ -58,14 +58,14 @@ app_details:
 access_needed:
 - User Data
 getting_started:
-- column_title: 1. Get in touch with our team
+- column_title: Get in touch with our team
   column_description: Reach out to our sales team through (alexandre@adjust.com) in
     order to understand our pricing and onboarding process.
-- column_title: " 2. Integrate our open-source SDK"
+- column_title: Integrate our open-source SDK
   column_description: Get familiar with our product and integrate our SDK to measure
     the important user activity within your app. If you are using the Wunder Whitelabel-App,
     the SDK is already integrated.
-- column_title: 3. Start optimizing your performance marketing campaigns
+- column_title: Start optimizing your performance marketing campaigns
   column_description: " Consult your campaign results on the Adjust dashboard."
 
 ---
