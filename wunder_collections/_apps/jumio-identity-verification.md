@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Operations Improvement
-title: Jumio Identity Verification
+title: Jumio
 icon: "/uploads/2020/08/26/jumio-logo-color-reversed-01-3-claire-galbois-alcaix-2.jpg"
 excerpt: Identity Verification for the Mobility Services Industry
 featured: false

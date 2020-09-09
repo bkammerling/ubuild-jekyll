@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Fleet Maintenance
-title: Accident & damage management
+title: motum
 icon: "/uploads/2020/09/02/motum-logo-256x256-natalie-kolb.png"
 excerpt: Monitor, analyze and optimise your damage & service management with motum!
 featured: false
