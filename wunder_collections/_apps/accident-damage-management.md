@@ -57,5 +57,6 @@ getting_started:
 - column_title: Start saving!
   column_description: 'Once the set-up is completed, it is up to your drivers to start
     reporting so that you can manage & monitor the fleet condition! '
+published: false
 
 ---
