@@ -12,9 +12,9 @@ preview_gallery:
   title: ''
 - image-video: "/uploads/2020/09/10/stripe-radar.jpg"
   title: ''
-description: <h1 class="Copy__title">A complete payments platform, engineered for
-  growth</h1><p>Accept payments and move money globally with Stripe’s powerful APIs
-  and software solutions designed to help you capture more revenue.</p>
+description: "<p>A complete payments platform, engineered for growth.</p><p>Accept
+  payments and move money globally with Stripe’s powerful APIs and software solutions
+  designed to help you capture more revenue.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/10/screenshot-2020-09-10-at-16-07-33.png"
   title: Present and future proof
