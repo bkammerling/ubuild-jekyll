@@ -20,7 +20,7 @@ excerpt: An interview with Dr. Christoph Ploß MdB, member of the Committee for 
   how we should respond to the differences between city and country.
 share_image: "/uploads/2020/09/11/cover_082820_02.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Read this article in_ [_German_](https://bernstein-group.com/2020/09/08/die-unterschiede-zwischen-regulierung-und-praxis/).
