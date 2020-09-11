@@ -2,12 +2,12 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Jumio
-icon: "/uploads/2020/08/26/jumio-logo-color-reversed-01-3-claire-galbois-alcaix-2.jpg"
-excerpt: Identity Verification for the Mobility Services Industry.
+icon: "/uploads/2020/09/11/screenshot-2020-09-11-at-12-35-22-claire-galbois-alcaix.png"
+excerpt: End-to-End ID and Identity Verification Solutions.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/08/26/full_hd-1-claire-galbois-alcaix.mp4"
-  title: ''
+- image-video: "/uploads/2020/09/11/full_hd-2-claire-galbois-alcaix.mp4"
+  title: Video
 - image-video: "/uploads/2020/08/26/verification-claire-galbois-alcaix.jpg"
   title: ''
 - image-video: "/uploads/2020/08/26/answer-claire-galbois-alcaix.jpg"
