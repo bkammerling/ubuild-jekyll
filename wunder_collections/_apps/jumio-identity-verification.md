@@ -57,8 +57,6 @@ app_details:
     style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
 access_needed:
 - User Data
-getting_started:
-- column_description: ''
-  column_title: ''
+getting_started: []
 
 ---
