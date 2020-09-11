@@ -12,7 +12,8 @@ cta_heading: Sign Up for our Monthly Policy Brief
 cta_text: Our monthly bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
-title: An Interview with Dr. Christoph Ploß
+title: 'An Interview with Dr. Christoph Ploß: Member on the Committee of Transport
+  and Digital Infrastructure'
 publish_date: 2020-09-11 12:30:00 +0000
 featured_image: "/uploads/2020/09/11/cover_100920.jpg"
 excerpt: An interview with Dr. Christoph Ploß MdB, member of the Committee for Transport
