@@ -17,7 +17,7 @@ description: "<p>Our accident &amp; damage reporting allows you to have a live o
   your fleet. With our web-based app and dashboard, we enable you to react to vehicle
   damages and service issues at an early stage and reduce your damage-related costs.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/10/web-portal-damage-details.png"
+- screenshot: "/uploads/2020/09/10/web-app-damage-reporting.png"
   title: Easy and intuitive damage and service reporting
   screenshot_description: 'With our web-app solution, you can enable your drivers
     to get a live overview of the car condition and report new damages & service requests
