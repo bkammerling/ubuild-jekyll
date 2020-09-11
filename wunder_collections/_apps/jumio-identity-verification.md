@@ -8,21 +8,11 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/11/full_hd-2-claire-galbois-alcaix.mp4"
   title: Video
-- image-video: "/uploads/2020/08/26/verification-claire-galbois-alcaix.jpg"
-  title: ''
-- image-video: "/uploads/2020/08/26/answer-claire-galbois-alcaix.jpg"
-  title: ''
-- image-video: "/uploads/2020/08/26/licence-claire-galbois-alcaix.jpg"
-  title: ''
-- image-video: "/uploads/2020/08/26/girl-claire-galbois-alcaix.jpg"
-  title: ''
-description: "<p>If your business involves the letting of cars, scooters and other
-  vehicles, you need to be sure to verify the identities of your customers before
-  you hand over the keys or pick up a new rider. Jumio’s end-to-end identity verification
-  and authentication solutions leverage informed AI, computer vision and machine learning
-  to establish the real-world identity of your users.<br><br>Increase account opening
-  conversions<br>Detect and deter online fraud and account takeovers<br>Attract customers
-  with a low-friction experience</p>"
+- image-video: "/uploads/2020/09/11/screenshot-2020-09-11-at-12-40-17-claire-galbois-alcaix.png"
+  title: ID Verification
+description: "<p>Identity Verification for the Mobility Services Industry Deter fraud
+  and provide a seamless user experience for customers on the go.</p><p>Jumio’s suite
+  of identity and authentication solutions is specifically designed for mobility organizations.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/08/26/id-verification-claire-galbois-alcaix.jpg"
   title: ID Verification
