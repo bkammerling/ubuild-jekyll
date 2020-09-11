@@ -40,6 +40,5 @@ getting_started:
 - column_title: 'Step 2:'
   column_description: Focus on your business!
 featured: false
-published: false
 
 ---
