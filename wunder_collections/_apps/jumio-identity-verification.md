@@ -17,9 +17,9 @@ screenshot_details:
 - screenshot: "/uploads/2020/08/26/id-verification-claire-galbois-alcaix.jpg"
   title: ID Verification
   screenshot_description: Establish the genuine identity of your users before letting
-    them take the wheel. Jumio’s ID Verification solution verifies government-issued
-    IDs in real-time, employing advanced technologies and informed AI to detect digital
-    manipulations.
+    them take the wheel. Jumio ID Verification verifies government-issued IDs in real
+    time, employing advanced technologies to detect digital manipulations of genuine
+    ID images, content (name, address, date of birth, etc.) and face photo replacements.
 - screenshot: "/uploads/2020/08/26/fraud-deterrence-claire-galbois-alcaix.jpg"
   title: Fraud Deterrence
   screenshot_description: Cars, e-bikes and scooters are high-value assets that must
