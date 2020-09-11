@@ -14,38 +14,37 @@ description: "<p>Identity Verification for the Mobility Services Industry Deter 
   and provide a seamless user experience for customers on the go.</p><p>Jumio’s suite
   of identity and authentication solutions is specifically designed for mobility organizations.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/08/26/id-verification-claire-galbois-alcaix.jpg"
+- screenshot: "/uploads/2020/09/11/id-verification-claire-galbois-alcaix.png"
   title: ID Verification
   screenshot_description: Establish the genuine identity of your users before letting
     them take the wheel. Jumio ID Verification verifies government-issued IDs in real
     time, employing advanced technologies to detect digital manipulations of genuine
     ID images, content (name, address, date of birth, etc.) and face photo replacements.
-- screenshot: "/uploads/2020/08/26/fraud-deterrence-claire-galbois-alcaix.jpg"
+- screenshot: "/uploads/2020/09/11/fraud-deterrence-claire-galbois-alcaix.png"
   title: Fraud Deterrence
   screenshot_description: Cars, e-bikes and scooters are high-value assets that must
-    be protected against theft. By requiring a valid government-issued ID and a selfie,
-    Jumio provides a valuable fraud prevention tool, as fraudsters generally prefer
-    not to use their own likeness when trying to scam the system.
-- screenshot: "/uploads/2020/08/26/liveness-detection-claire-galbois-alcaix.jpg"
+    be protected against theft. Jumio’s identity verification and authentication solutions
+    can help mobility-based businesses protect their fleets by ensuring that the person
+    creating an account or leasing a vehicle is who they claim to be. By requiring
+    a valid government-issued ID and a selfie, Jumio provides a valuable fraud-prevention
+    tool, as fraudsters generally prefer not to use their own likeness when trying
+    to scam the system.
+- screenshot: "/uploads/2020/09/11/liveness-detection-claire-galbois-alcaix.png"
   title: Liveness Detection
-  screenshot_description: Given the rise of spoofing (the act of using a photo, video
+  screenshot_description: 'Given the rise of spoofing (the act of using a photo, video
     or a different substitute for an authorized person’s face), Jumio employs state-of-the-art
-    3D liveness detection and informed AI to ensure that a new customer or driver
-    creating an online account is physically present and not a spoof or deepfake.
-- screenshot: "/uploads/2020/08/26/ongoing-authentication-claire-galbois-alcaix.jpg"
-  title: Ongoing Authentication
-  screenshot_description: After your customers have verified themselves online, Jumio
-    Authentication ensures all future logins and transactions are being made by the
-    original account owner. Ride-sharing services can consistently re-verify drivers’
-    identities, while rental agencies can quickly and reliably authenticate known
-    customers to unlock their vehicles with a quick selfie.
+    liveness detection to ensure that the person creating the account or making an
+    online purchase is physically present. Jumio leverages FaceTec for its advanced
+    liveness detection and anti-spoofing capabilities — the only biometrics solution
+    provider to pass Level-1 and Level-2 anti-spoofing results in NIST/NVLAP-certified
+    iBeta Presentation Attack Detection (PAD) testing. When a new customer or driver
+    creates an online account, Jumio captures an image of a government-issued ID and
+    a 3D face map, which is instantly analyzed via AI to determine that the user is
+    a living human and not a spoof. '
 app_details:
 - detail_title: Developer Website
   detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
     style="text-decoration: underline;">https://www.jumio.com/</span></a>'
-- detail_title: Support Contact
-  detail_content: <a href="https://support.jumio.com/hc/en-us/requests/new" title="">Request
-    Support</a>
 - detail_title: Whitepaper Download
   detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
     title="">Jumio Whitepaper</a>
@@ -58,7 +57,8 @@ app_details:
     style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
 access_needed:
 - User Data
-- SDK in App needed
-getting_started: []
+getting_started:
+- column_description: ''
+  column_title: ''
 
 ---
