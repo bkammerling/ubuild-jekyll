@@ -24,6 +24,8 @@ sticky: false
 hidden: false
 
 ---
+© Tobias Koch 2020
+
 _Read this article in_ [_German_](https://bernstein-group.com/2020/09/08/die-unterschiede-zwischen-regulierung-und-praxis/).
 
 **The differences between regulation and practice**
