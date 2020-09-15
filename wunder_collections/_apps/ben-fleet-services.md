@@ -7,7 +7,7 @@ excerpt: Full range of on-demand services required for the care and maintenance 
   fleet vehicles.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/15/wide.jpg"
+- image-video: "/uploads/2020/09/15/smart-repair-jakob-kraemer.png"
   title: We offer smart repair services for your fleet.
 - image-video: "/uploads/2020/09/15/cleaning-services-jakob-kraemer.jpg"
   title: We provide cleaning and disinfection services for your fleet.
