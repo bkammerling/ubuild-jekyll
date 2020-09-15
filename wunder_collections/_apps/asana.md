@@ -39,10 +39,10 @@ screenshot_details:
 app_details:
 - detail_title: Developer Website
   detail_content: <a href="www.asana.com" title="www.asana.com">www.asana.com</a>
-- detail_title: Privacy policy
-  detail_content: <a href="https://asana.com/security-statement" title="https://asana.com/security-statement">https://asana.com/security-statement</a><br>
-- detail_title: Terms of services
+- detail_title: Terms of Services
   detail_content: <a href="https://asana.com/terms" title="https://asana.com/terms">https://asana.com/terms</a><br>
+- detail_title: Privacy Policy
+  detail_content: <a href="https://asana.com/security-statement" title="https://asana.com/security-statement">https://asana.com/security-statement</a><br>
 access_needed:
 - API Credentials
 getting_started:

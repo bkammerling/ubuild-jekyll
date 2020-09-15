@@ -29,7 +29,7 @@ app_details:
     style="text-decoration: underline;">https://wisemobility.com</span></a>'
 - detail_title: Resources
   detail_content: <a href="/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
-    title="">Whitepaper Download</a>
+    title="Wise Mobility Whitepaper">Whitepaper Download</a>
 access_needed:
 - API Credentials
 - " Vehicle Data"

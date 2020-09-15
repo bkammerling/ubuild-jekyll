@@ -37,11 +37,9 @@ screenshot_details:
 app_details:
 - detail_title: Developer Website
   detail_content: <a href="https://repairfix.eu" title="https://repairfix.eu">https://repairfix.eu</a><br>
-- detail_title: Support contact
-  detail_content: <a href="mailto:fleets@repairfix.eu" title="fleets@repairfix.eu">fleets@repairfix.eu</a>
-- detail_title: Terms of services
+- detail_title: Terms of Services
   detail_content: <a href="https://repairfix.eu/agb" title="https://repairfix.eu/agb">https://repairfix.eu/agb</a><br>
-- detail_title: " Privacy policy"
+- detail_title: " Privacy Policy"
   detail_content: <a href="https://repairfix.eu/datenschutz" title="https://repairfix.eu/datenschutz">https://repairfix.eu/datenschutz</a><br>
 access_needed:
 - User Data

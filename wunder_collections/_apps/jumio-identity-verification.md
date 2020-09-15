@@ -45,16 +45,16 @@ app_details:
 - detail_title: Developer Website
   detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
     style="text-decoration: underline;">https://www.jumio.com/</span></a>'
-- detail_title: Whitepaper Download
-  detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
-    title="">Jumio Whitepaper</a>
+- detail_title: Terms of Services
+  detail_content: '<a href="https://www.jumio.com/about/" title="https://www.jumio.com/about/"><span
+    style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
 - detail_title: Privacy Policy
   detail_content: '<a href="https://www.jumio.com/legal-information/privacy-policy/"
     title="https://www.jumio.com/legal-information/privacy-policy/"><span style="text-decoration:
     underline;">https://www.jumio.com/legal-information/privacy-policy/</span></a>'
-- detail_title: Terms of Services
-  detail_content: '<a href="https://www.jumio.com/about/" title="https://www.jumio.com/about/"><span
-    style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
+- detail_title: Resources
+  detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
+    title="">Jumio Whitepaper</a>
 access_needed:
 - User Data
 getting_started: []

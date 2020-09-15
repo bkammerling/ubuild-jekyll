@@ -38,12 +38,10 @@ screenshot_details:
 app_details:
 - detail_title: Developer Website
   detail_content: <a href="https://serveedo.com" title="https://serveedo.com">https://serveedo.com</a><br>
-- detail_title: Support contact
-  detail_content: <a href="mailto:info@serveedo.com" title="info@serveedo.com">info@serveedo.com<br></a>
-- detail_title: Privacy policy
-  detail_content: <a href="https://serveedo.com/privacy.html" title="https://serveedo.com/privacy.html">https://serveedo.com/privacy.html</a><br>
-- detail_title: Terms of services
+- detail_title: Terms of Services
   detail_content: <a href="https://serveedo.com/terms.html" title="https://serveedo.com/terms.html">https://serveedo.com/terms.html</a><br>
+- detail_title: Privacy Policy
+  detail_content: <a href="https://serveedo.com/privacy.html" title="https://serveedo.com/privacy.html">https://serveedo.com/privacy.html</a><br>
 access_needed:
 - Vehicle Data
 - API Credentials

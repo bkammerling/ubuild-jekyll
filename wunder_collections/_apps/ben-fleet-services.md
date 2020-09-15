@@ -36,10 +36,10 @@ screenshot_details:
 app_details:
 - detail_title: Developer Website
   detail_content: <a href="https://www.benfleetservices.com/" title="https://www.benfleetservices.com/">https://www.benfleetservices.com/</a><br>
-- detail_title: Privacy policy
-  detail_content: <a href="https://www.benfleetservices.com/datenschutz" title="https://www.benfleetservices.com/datenschutz">https://www.benfleetservices.com/datenschutz</a><br>
-- detail_title: Terms of services
+- detail_title: Terms of Services
   detail_content: <a href="https://www.benfleetservices.com/agb-kunden" title="https://www.benfleetservices.com/agb-kunden">https://www.benfleetservices.com/agb-kunden</a><br>
+- detail_title: Privacy Policy
+  detail_content: <a href="https://www.benfleetservices.com/datenschutz" title="https://www.benfleetservices.com/datenschutz">https://www.benfleetservices.com/datenschutz</a><br>
 access_needed:
 - Vehicle Data
 - Deliver API credentials
