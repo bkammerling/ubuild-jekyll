@@ -36,11 +36,9 @@ screenshot_details:
 app_details:
 - detail_title: Developer website
   detail_content: <a href="https://strivecloud.io/" title="https://strivecloud.io/">https://strivecloud.io/</a><br>
-- detail_title: Support contact
-  detail_content: <a href="mailto:support@strivecloud.io" title="support@strivecloud.io">support@strivecloud.io<br></a>
-- detail_title: Privacy policy
+- detail_title: Terms of Services
   detail_content: <a href="https://strivecloud.io/legal/" title="https://strivecloud.io/legal/">https://strivecloud.io/legal/</a><br>
-- detail_title: Terms of services
+- detail_title: Privacy Policy
   detail_content: <a href="https://strivecloud.io/legal/" title="https://strivecloud.io/legal/">https://strivecloud.io/legal/</a><br>
 access_needed:
 - API credentials
