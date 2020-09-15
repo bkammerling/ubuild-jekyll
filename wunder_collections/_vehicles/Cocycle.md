@@ -5,7 +5,7 @@ brand: Comodule
 name: Cocycle
 published: true
 featured: false
-list-image: "/uploads/2020/09/15/cocycle_main.jpg"
+list-image: "/uploads/2020/09/15/cocycle_main-1.jpg"
 image_gallery: []
 details:
 - title: Battery
