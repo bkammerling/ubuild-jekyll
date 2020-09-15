@@ -7,11 +7,11 @@ excerpt: Full range of on-demand services required for the care and maintenance 
   fleet vehicles.
 featured: false
 preview_gallery:
-- image-video: ''
+- image-video: "/uploads/2020/09/15/5.jpg"
   title: We offer smart repair services for your fleet.
-- image-video: ''
+- image-video: "/uploads/2020/09/15/1.jpg"
   title: We provide cleaning and disinfection services for your fleet.
-- image-video: ''
+- image-video: "/uploads/2020/09/15/4.jpg"
   title: We provide relocation services for your fleet.
 description: "<p>We provide all services required for the care and maintenance of
   fleet vehicles by means of digital interfaces that are efficiently integrated into
@@ -19,7 +19,7 @@ description: "<p>We provide all services required for the care and maintenance o
   charging, damage &amp; condition documentation, smart-repair, relocation, charging
   &amp; refueling, and retrieval &amp; deploy.</p>"
 screenshot_details:
-- screenshot: ''
+- screenshot: "/uploads/2020/09/15/4.jpg"
   title: Run your fleet effortlessly and efficiently.
   screenshot_description: We offer all services required for the on-site care and
     maintenance of your vehicles. This allows you to focus on your main tasks while
@@ -29,7 +29,7 @@ screenshot_details:
   screenshot_description: |-
     Our solutions are mutimodal and crossfunctional:
     cars, transporters, e-kickscooters, bikes, trains and scooters. Even airtaxis. Stationary and free-floating.
-- screenshot: ''
+- screenshot: "/uploads/2020/09/15/2.jpg"
   title: Integrate us seamlessly.
   screenshot_description: API real time status updates & data exchange optimise routing
     & scheduling which allows for an increased availability of your fleet.
