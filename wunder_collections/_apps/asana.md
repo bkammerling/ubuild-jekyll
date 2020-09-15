@@ -2,11 +2,13 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Asana
-icon: "/uploads/2020/09/15/image4.png"
+icon: "/uploads/2020/09/15/image4-1.png"
 excerpt: Why use Asana? Asana gives you everything you need to stay in sync, hit deadlines,
   and reach your goals.
 featured: false
 preview_gallery:
+- image-video: "/uploads/2020/09/15/asana-demo-and-product-tour.mp4"
+  title: Asana Demo Video
 - image-video: "/uploads/2020/09/15/image3.png"
   title: Asana, the easiest way to manage your teams work and tasks
 - image-video: "/uploads/2020/09/15/image6.png"
@@ -41,7 +43,8 @@ app_details:
   detail_content: <a href="https://asana.com/security-statement" title="https://asana.com/security-statement">https://asana.com/security-statement</a><br>
 - detail_title: Terms of services
   detail_content: <a href="https://asana.com/terms" title="https://asana.com/terms">https://asana.com/terms</a><br>
-access_needed: []
+access_needed:
+- API Credentials
 getting_started:
 - column_description: Trying Asana for free is easy, once you are set up we will send
     you some how to guides to get you started with your first tasks and workflows,
