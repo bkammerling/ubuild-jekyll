@@ -163,4 +163,47 @@ $(document).ready(function() {
 
 
 
+  // Select all links with hashes
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href*="pill"]')
+  .click(function(event) {
+    // On-page links
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    var topOffset = 0;
+    // Does a scroll target exist?
+    if (target.length) {
+      event.preventDefault();
+      // Only prevent default if animation is actually gonna happen
+      $('html, body').animate({
+        scrollTop: target.offset().top - topOffset
+      }, 600, function() {
+        // Callback after animation
+      });
+    }
+
+  });
+
+  var categoriesObj = {
+    all: ['Analytics and Monitoring','API Integrations','Customer Engagement','CRM','Operations Improvement','Fleet Maintenance','Utilization Improvement'],
+    engageCusomter: ['Customer Engagement','CRM'],
+    optimizeFleet: ['Analytics and Monitoring','API Integrations'],
+    improveMaintenance: ['Operations Improvement','Fleet Maintenance'],
+    analyzePerformance: ['Analytics and Monitoring','Utilization Improvement']
+  }
+
+  $('input[name="categories"]').click(function() {
+    var categoryArray = categoriesObj[$(this).attr('id')];
+    console.log(categoryArray);
+    $('.app-box__container').each(function() {
+      $(this).show();
+      if(categoryArray.indexOf($(this).data('category')) == -1) {
+        $(this).hide();
+      }
+    })
+  });
+
+
 });

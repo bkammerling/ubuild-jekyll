@@ -24,19 +24,19 @@
         <div class="category-select btn-group-toggle pb-3 pr-3 d-flex align-items-center justify-content-between" data-toggle="buttons">
           <p class="mb-0">I want to:</p>
           <label class="btn btn-link active" aria-pressed="true">
-            <input type="radio" name="categories" id="categories1" autocomplete="off" checked>Extend my business (All)
+            <input type="radio" name="categories" id="all" autocomplete="off" checked>Extend my business (All)
           </label>
           <label class="btn btn-link">
-            <input type="radio" name="categories" id="categories2" autocomplete="off">Engage my Customers
+            <input type="radio" name="categories" id="engageCusomter" autocomplete="off">Engage my Customers
           </label>
           <label class="btn btn-link">
-            <input type="radio" name="categories" id="categories3" autocomplete="off">Optimize my Fleet
+            <input type="radio" name="categories" id="optimizeFleet" autocomplete="off">Optimize my Fleet
           </label>
           <label class="btn btn-link">
-            <input type="radio" name="categories" id="categories4" autocomplete="off">Improve Maintenance
+            <input type="radio" name="categories" id="improveMaintenance" autocomplete="off">Improve Maintenance
           </label>
           <label class="btn btn-link">
-            <input type="radio" name="categories" id="categories4" autocomplete="off">Analyze Vehicle Performance
+            <input type="radio" name="categories" id="analyzePerformance" autocomplete="off">Analyze Vehicle Performance
           </label>
         </div>
       </div>
@@ -46,12 +46,12 @@
       <div class="app-boxes row pt-4 pb-5">
         {% assign Apps = site.apps %}
         {% for app in Apps %}
-        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 pb-2">
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 pb-2 app-box__container" data-category="{{ app.category }}">
           <a href="{{ app.url }}">
             <div class="app-box px-3 px-md-4 py-3 pt-md-4 h-100 w-shadow d-flex flex-row flex-md-column">
                 <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
                 <div class="d-flex flex-column d-md-block">
-                  <h3 class="mt-0 mb-2 my-sm-2">{{ app.title }}</h3>
+                  <h3 class="mt-0 mb-1 mt-sm-2">{{ app.title }}</h3>
                   <p class="body-light small mb-3 d-none d-md-block app-excerpt">{{ app.excerpt }}</p>
                   <div class="app-box__footer position-md-absolute">
                     <p class="badge badge-light body-label p-2">{{ app.category }}</p>
@@ -59,15 +59,14 @@
                       <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#0026E6"/>
                     </svg>
                   </div>
-
               </div>
             </div>
           </a>
         </div>
         {% endfor %}
 
-        <div class="col-sm-6 col-lg-4 col-xl-3 align-self-center">
-          <div class="px-3 py-5">
+        <div class="col-sm-6 col-lg-4 col-xl-3 align-self-md-center">
+          <div class="px-3 py-3 py-sm-1 py-md-5">
             <h3 class="my-sm-2">Didn't find what you're looking for?</h3>
             <a data-toggle="modal" data-target="#partnerModal" class="cursor-pointer text-decoration-none" href="" title="Reach out to Wunder Mobility">Get in touch
               <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +208,7 @@
   </section>
 
 
-  <section class="bg-crossover grey-white my-0 py-5">
+  <section class="bg-crossover grey-white my-0 py-5" id="build-apps">
     <div class="container">
 
       <div class="row py-5">
@@ -303,11 +302,6 @@
             </div>
 
             <div class="form-group">
-              <label for="message-text" class="form-label">What is your project idea?</label>
-              <textarea rows="4" class="textarea-input" id="message-text" name="message" required placeholder="Tell us a bit about the problem you want to solve"></textarea>
-            </div>
-
-            <div class="form-group">
               <div class="select-wrapper multiple">
                 <label for="vehicle-interest[]" class="w-100">
                   Extensions you are interested in
@@ -319,6 +313,12 @@
                 </select>
               </div>
             </div>
+
+            <div class="form-group">
+              <label for="message-text" class="form-label">What is your project idea? (optional)</label>
+              <textarea rows="4" class="textarea-input" id="message-text" name="message" placeholder="Tell us a bit about the problem you want to solve"></textarea>
+            </div>
+
 
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
 

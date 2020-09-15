@@ -18,7 +18,7 @@
         <p>{{ page.excerpt }}</p>
       </div>
       <div class="offset-lg-1 col-md-3 d-none d-md-block">
-        <a class="btn btn-dark btn-lg btn-block" href="#">Get started</a>
+        <a class="btn btn-dark btn-lg btn-block btn-mkt" href="#">Get started</a>
       </div>
     </div>
   </div>
@@ -60,6 +60,8 @@
         <h4>Description</h4>
         <div class="body-light">{{ page.description }}</div>
 
+        {% if page.screenshot_details.size > 0 %}
+
         <div class="mt-4">
         {% for screen in page.screenshot_details %}
           <div class="row mt-5">
@@ -73,6 +75,35 @@
           </div>
         {% endfor %}
         </div>
+
+        {% else %}
+
+        <div class="post-detail mt-5 pt-3">
+          <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
+          <div class="row step-cols">
+            {% for item in page.getting_started %}
+              <div class="col-md-12 mb-4">
+                <div class="step-col step{{ forloop.index }}">
+                  <div class="d-flex flex-column">
+                    <p><strong>{{ item.column_title }}</strong></p>
+                    <p>{{ item.column_description }}</p>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="mt-5 text-left">
+            <a class="btn btn-primary btn-mkt" href="#">Let's go
+              <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        {% endif %}
+
+
 
       </div>
 
@@ -99,6 +130,7 @@
 
     </div>
 
+    {% if page.screenshot_details.size > 0 %}
     <div class="post-detail mt-5 pt-3">
       <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
       <div class="row step-cols">
@@ -121,6 +153,7 @@
         </a>
       </div>
     </div>
+    {% endif %}
 
   </div>
 </main>
@@ -128,7 +161,7 @@
 
 <div class="bg-crossover">
   <div class="container">
-    <h3>If you’re interested in this app, you might also like:</h3>
+    <h3>Discover other interesting solutions</h3>
     <div class="related-apps mt-4 pt-2">
       <div class="app-boxes row py-5">
         {% assign randomApps = site.apps | sample: 3 %}
