@@ -8,7 +8,7 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/10/web-app-damage-reporting.png"
   title: Damage Report
-- image-video: "/uploads/2020/09/10/web-portal-and-web-app.png"
+- image-video: "/uploads/2020/09/14/web-portal-damage-details.png"
   title: Damage Detail
 - image-video: "/uploads/2020/09/10/web-app-home-screen.png"
   title: App
