@@ -60,6 +60,12 @@ app_details:
     title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - User Data
-getting_started: []
+getting_started:
+- column_description: ''
+  column_title: Contact us.
+- column_description: ''
+  column_title: Pick Package.
+- column_title: Start.
+  column_description: ''
 
 ---
