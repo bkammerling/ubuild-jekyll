@@ -38,15 +38,15 @@ screenshot_details:
   screenshot_description: 'Always know where your demand will be, where your competition
     is, and where you can expect your vehicles to end up. Every minute of every day. '
 app_details:
-- detail_title: Developer Website
-  detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
-    underline;">https://zoba.com</span></a>'
-- detail_title: Terms of Services
-  detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
-    underline;">https://zoba.com</span></a>'
-- detail_title: Privacy Policy
-  detail_content: '<a href="https://zoba.com" title="https://zoba.com"><span style="text-decoration:
-    underline;">https://zoba.com</span></a>'
+- detail_title: ''
+  detail_content: <a href="https://www.zoba.com" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.zoba.com" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://zoba.com" title="Privacy Policy →">Privacy Policy
+    →</a>
 access_needed:
 - Live vehicle locations
 - Trip Data
