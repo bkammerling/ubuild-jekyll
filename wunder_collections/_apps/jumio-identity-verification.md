@@ -61,11 +61,8 @@ app_details:
 access_needed:
 - User Data
 getting_started:
-- column_description: ''
-  column_title: Contact us.
-- column_description: ''
-  column_title: Pick Package.
-- column_title: Start.
-  column_description: ''
+- column_title: Get in contact.
+  column_description: Feel free to get in contact with your Wunder Mobility's business
+    account-manager by clicking on the "let's go" button.
 
 ---
