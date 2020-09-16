@@ -34,12 +34,15 @@ screenshot_details:
   screenshot_description: API real time status updates & data exchange optimise routing
     & scheduling which allows for an increased availability of your fleet.
 app_details:
-- detail_title: Developer Website
-  detail_content: <a href="https://www.benfleetservices.com/" title="https://www.benfleetservices.com/">https://www.benfleetservices.com/</a><br>
-- detail_title: Terms of Services
-  detail_content: <a href="https://www.benfleetservices.com/agb-kunden" title="https://www.benfleetservices.com/agb-kunden">https://www.benfleetservices.com/agb-kunden</a><br>
-- detail_title: Privacy Policy
-  detail_content: <a href="https://www.benfleetservices.com/datenschutz" title="https://www.benfleetservices.com/datenschutz">https://www.benfleetservices.com/datenschutz</a><br>
+- detail_title: ''
+  detail_content: <a href="https://www.benfleetservices.com/" title="Developer Website
+    →">Developer Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.benfleetservices.com/agb-kunden" title="Terms
+    of Service →">Terms of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.benfleetservices.com/datenschutz" title="Privacy
+    Policy →">Privacy Policy →</a>
 access_needed:
 - Vehicle Data
 - Deliver API credentials

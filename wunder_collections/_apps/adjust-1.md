@@ -43,16 +43,15 @@ screenshot_details:
     types of fraud - like SDK spoofing, device farms, click spamming and click injection
     - so that you don’t have to worry about fraudsters looking to rob you blind.
 app_details:
-- detail_title: Developer Website
-  detail_content: '<a href="https://www.adjust.com" title="https://www.adjust.com"><span
-    style="text-decoration: underline;">https://www.adjust.com</span></a>'
-- detail_title: Terms of Services
-  detail_content: '<a href="https://www.adjust.com/terms/general-terms-and-conditions/"
-    title="https://www.adjust.com/terms/general-terms-and-conditions/"><span style="text-decoration:
-    underline;">https://www.adjust.com/terms/general-terms-and-conditions/</span></a>'
-- detail_title: Privacy Policy
-  detail_content: '<a href="https://www.adjust.com/terms/privacy-policy/" title="https://www.adjust.com/terms/privacy-policy/"><span
-    style="text-decoration: underline;">https://www.adjust.com/terms/privacy-policy/</span></a>'
+- detail_title: ''
+  detail_content: <a href="https://www.adjust.com/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.adjust.com/terms/general-terms-and-conditions/"
+    title="Terms of Service →">Terms of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.adjust.com/terms/privacy-policy/" title="Privacy
+    Policy →">Privacy Policy →</a>
 access_needed:
 - User Data
 getting_started:
