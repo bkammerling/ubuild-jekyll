@@ -8,8 +8,12 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/11/full_hd-2-claire-galbois-alcaix.mp4"
   title: Video
-- image-video: "/uploads/2020/09/11/screenshot-2020-09-11-at-12-40-17-claire-galbois-alcaix.png"
-  title: ID Verification
+- image-video: "/uploads/2020/09/16/8.jpg"
+  title: ''
+- image-video: "/uploads/2020/09/16/7.jpg"
+  title: ''
+- image-video: "/uploads/2020/09/16/3.jpg"
+  title: ''
 description: "<p>Identity Verification for the Mobility Services Industry Deter fraud
   and provide a seamless user experience for customers on the go.</p><p>Jumio’s suite
   of identity and authentication solutions is specifically designed for mobility organizations.</p>"
@@ -42,19 +46,18 @@ screenshot_details:
     a 3D face map, which is instantly analyzed via AI to determine that the user is
     a living human and not a spoof. '
 app_details:
-- detail_title: Developer Website
-  detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
-    style="text-decoration: underline;">https://www.jumio.com/</span></a>'
-- detail_title: Whitepaper Download
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/about/" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/legal-information/privacy-policy/"
+    title="Privacy Policy →">Privacy Policy →</a>
+- detail_title: ''
   detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
-    title="">Jumio Whitepaper</a>
-- detail_title: Privacy Policy
-  detail_content: '<a href="https://www.jumio.com/legal-information/privacy-policy/"
-    title="https://www.jumio.com/legal-information/privacy-policy/"><span style="text-decoration:
-    underline;">https://www.jumio.com/legal-information/privacy-policy/</span></a>'
-- detail_title: Terms of Services
-  detail_content: '<a href="https://www.jumio.com/about/" title="https://www.jumio.com/about/"><span
-    style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
+    title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - User Data
 getting_started: []

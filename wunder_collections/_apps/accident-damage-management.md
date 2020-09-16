@@ -35,14 +35,15 @@ screenshot_details:
     web-portal in order to receive & approve cost estimates, make appointments as
     well as transmit invoices in a structured and digital way.
 app_details:
-- detail_title: Developer Website
-  detail_content: <a href="https://repairfix.eu" title="https://repairfix.eu">https://repairfix.eu</a><br>
-- detail_title: Support contact
-  detail_content: <a href="mailto:fleets@repairfix.eu" title="fleets@repairfix.eu">fleets@repairfix.eu</a>
-- detail_title: Terms of services
-  detail_content: <a href="https://repairfix.eu/agb" title="https://repairfix.eu/agb">https://repairfix.eu/agb</a><br>
-- detail_title: " Privacy policy"
-  detail_content: <a href="https://repairfix.eu/datenschutz" title="https://repairfix.eu/datenschutz">https://repairfix.eu/datenschutz</a><br>
+- detail_title: ''
+  detail_content: <a href="https://repairfix.eu/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://repairfix.eu/agb" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://repairfix.eu/datenschutz" title="Privacy Policy
+    →">Privacy Policy →</a>
 access_needed:
 - User Data
 - Vehicle Data
