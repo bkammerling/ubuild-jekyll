@@ -40,11 +40,11 @@ app_details:
   detail_content: <a href="http://www.serveedo.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
-  detail_content: <a href="https://serveedo.com/privacy.html" title="Privacy Policy
-    →">Privacy Policy →</a>
-- detail_title: ''
   detail_content: <a href="https://serveedo.com/terms.html" title="Terms of Service
     →">Terms of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://serveedo.com/privacy.html" title="Privacy Policy
+    →">Privacy Policy →</a>
 access_needed:
 - Vehicle Data
 - API Credentials
