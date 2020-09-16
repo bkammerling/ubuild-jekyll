@@ -34,12 +34,15 @@ screenshot_details:
     progress, and reward users for behaviours that support your product goals. Set-up
     your own loyalty program or integrate existing functionalities into your products.
 app_details:
-- detail_title: Developer website
-  detail_content: <a href="https://strivecloud.io/" title="https://strivecloud.io/">https://strivecloud.io/</a><br>
-- detail_title: Terms of Services
-  detail_content: <a href="https://strivecloud.io/legal/" title="https://strivecloud.io/legal/">https://strivecloud.io/legal/</a><br>
-- detail_title: Privacy Policy
-  detail_content: <a href="https://strivecloud.io/legal/" title="https://strivecloud.io/legal/">https://strivecloud.io/legal/</a><br>
+- detail_title: ''
+  detail_content: <a href="https://strivecloud.io/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://strivecloud.io/legal/" title="Terms of Service
+    →">Terms of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://strivecloud.io/legal/" title="Privacy Policy →">Privacy
+    Policy →</a>
 access_needed:
 - API credentials
 - " Invoice Data"
