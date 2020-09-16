@@ -6,10 +6,10 @@ icon: "/uploads/2020/09/11/screenshot-2020-09-11-at-12-35-22-claire-galbois-alca
 excerpt: End-to-End ID and Identity Verification Solutions.
 featured: false
 preview_gallery:
-- image-video: ''
-  title: ''
 - image-video: "/uploads/2020/09/11/full_hd-2-claire-galbois-alcaix.mp4"
   title: Video
+- image-video: "/uploads/2020/09/16/8.jpg"
+  title: ''
 - image-video: "/uploads/2020/09/16/7.jpg"
   title: ''
 - image-video: "/uploads/2020/09/16/3.jpg"
