@@ -42,19 +42,18 @@ screenshot_details:
     a 3D face map, which is instantly analyzed via AI to determine that the user is
     a living human and not a spoof. '
 app_details:
-- detail_title: Developer Website
-  detail_content: '<a href="https://www.jumio.com/" title="https://www.jumio.com/"><span
-    style="text-decoration: underline;">https://www.jumio.com/</span></a>'
-- detail_title: Terms of Services
-  detail_content: '<a href="https://www.jumio.com/about/" title="https://www.jumio.com/about/"><span
-    style="text-decoration: underline;">https://www.jumio.com/about/</span></a>'
-- detail_title: Privacy Policy
-  detail_content: '<a href="https://www.jumio.com/legal-information/privacy-policy/"
-    title="https://www.jumio.com/legal-information/privacy-policy/"><span style="text-decoration:
-    underline;">https://www.jumio.com/legal-information/privacy-policy/</span></a>'
-- detail_title: Resources
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/about/" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.jumio.com/legal-information/privacy-policy/"
+    title="Privacy Policy →">Privacy Policy →</a>
+- detail_title: ''
   detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
-    title="">Whitepaper Download</a>
+    title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - User Data
 getting_started: []
