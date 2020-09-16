@@ -1,6 +1,6 @@
 ---
 layout: marketplace
-title: Wunder Marketplace | Wunder Mobility
+title: Wunder Marketplace | Extend your mobility businesses
 permalink: "/marketplace"
 version: hp
 ---

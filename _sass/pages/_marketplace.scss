@@ -324,7 +324,7 @@ p {
     background: $black96;
     border: none;
     border-radius: 0;
-    height: 48px;
+    min-height: 48px;
   }
   &.select2-container--focus {
     outline: -webkit-focus-ring-color auto 1px;
@@ -337,6 +337,7 @@ p {
     padding: 5px 12px;
     .select2-selection__rendered {
      padding: 0;
+     max-height: none;
     }
     .select2-selection__choice {
       background: $mkt-primary;

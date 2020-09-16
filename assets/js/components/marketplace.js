@@ -187,9 +187,9 @@ $(document).ready(function() {
   });
 
   var categoriesObj = {
-    all: ['Analytics and Monitoring','API Integrations','Customer Engagement','CRM','Operations Improvement','Fleet Maintenance','Utilization Improvement'],
-    engageCusomter: ['Customer Engagement','CRM'],
-    optimizeFleet: ['Analytics and Monitoring','API Integrations'],
+    all: ['Analytics and Monitoring','Integrations (API)','Customer Engagement','Customer Relationship Management (CRM)','Operations Improvement','Fleet Maintenance','Utilization Improvement'],
+    engageCusomter: ['Customer Engagement','Customer Relationship Management (CRM)'],
+    optimizeFleet: ['Analytics and Monitoring','Integrations (API)'],
     improveMaintenance: ['Operations Improvement','Fleet Maintenance'],
     analyzePerformance: ['Analytics and Monitoring','Utilization Improvement']
   }
