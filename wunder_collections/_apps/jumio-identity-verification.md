@@ -8,11 +8,11 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/11/full_hd-2-claire-galbois-alcaix.mp4"
   title: Video
-- image-video: "/uploads/2020/09/16/istock-495457462.jpg"
+- image-video: ''
   title: ''
-- image-video: "/uploads/2020/09/16/istock-897391278.jpg"
+- image-video: ''
   title: ''
-- image-video: "/uploads/2020/09/16/istock-1125854927.jpg"
+- image-video: ''
   title: ''
 description: "<p>Identity Verification for the Mobility Services Industry Deter fraud
   and provide a seamless user experience for customers on the go.</p><p>Jumio’s suite
