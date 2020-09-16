@@ -36,8 +36,8 @@ screenshot_details:
 
     You can also see the status of your vehicles and warehouses and their activities log.
 app_details:
-- detail_title: Developer Website
-  detail_content: <a href="https://serveedo.com" title="https://serveedo.com">https://serveedo.com</a><br>
+- detail_title: ''
+  detail_content: <a href="http://www.serveedo.com" title="Website →">Website →</a>
 - detail_title: Terms of Services
   detail_content: <a href="https://serveedo.com/terms.html" title="https://serveedo.com/terms.html">https://serveedo.com/terms.html</a><br>
 - detail_title: Privacy Policy
