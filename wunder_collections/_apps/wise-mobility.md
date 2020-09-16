@@ -27,7 +27,7 @@ app_details:
 - detail_title: Privacy Policy
   detail_content: '<a href="https://wisemobility.com" title="https://wisemobility.com"><span
     style="text-decoration: underline;">https://wisemobility.com</span></a>'
-- detail_title: Resources
+- detail_title: ''
   detail_content: <a href="/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
     title="">Whitepaper Download</a>
 access_needed:
