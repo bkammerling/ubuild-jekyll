@@ -7,11 +7,11 @@ excerpt: Full range of on-demand services required for the care and maintenance 
   fleet vehicles.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/17/cleaning-services.png"
+- image-video: "/uploads/2020/09/17/cleaning-services.jpg"
   title: We provide cleaning and disinfection services for your fleet.
-- image-video: "/uploads/2020/09/17/relocation.png"
+- image-video: "/uploads/2020/09/17/relocation.jpg"
   title: We provide relocation services for your fleet.
-- image-video: "/uploads/2020/09/17/smart-repair.png"
+- image-video: "/uploads/2020/09/17/smart-repair.jpg"
   title: We offer smart repair services for your fleet.
 description: "<p>We provide all services required for the care and maintenance of
   fleet vehicles by means of digital interfaces that are efficiently integrated into
