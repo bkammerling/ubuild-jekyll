@@ -108,27 +108,9 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'rent' %}
-              <div class="form-group rent">
-                <div class="select-wrapper multiple">
-                  <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>Was Möchten Sie Mit Wunder Rent Erreichen? *</option>
-                    <option value="Counterless Station-based Vehicle Rental">Schalterfreien Und Stationsbasierten Fahrzeugverleih</option>
-                    <option value="Free-floating Vehicle Rental">Free-floating-fahrzeugverleih</option>
-                    <option value="Peer to Peer Vehicle Rental">Peer-to-peer-fahrzeugverleih</option>
-                    <option value="I only want an online booking system">Ich Brauche Nur Ein Online-buchungssystem</option>
-                    <option value="Traditional Vehicle Rental (fully offline)">Klassischen Fahrzeugverleih (Komplett Offline)</option>
-                    <option value="Other">Sonstiges</option>
-                  </select>
-                  <label for="tech-interest[]" class="w-100">
-                    Was Möchten Sie Mit Wunder Rent Erreichen? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endif %}
 
-              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' %}
+
+              {% if page.lang-ref == 'fleet' %}
               <div class="form-group rent fleet">
                 <div class="select-wrapper multiple">
                   <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
