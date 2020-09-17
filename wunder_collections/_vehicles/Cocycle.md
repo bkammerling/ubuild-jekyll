@@ -6,7 +6,9 @@ name: Cocycle
 published: true
 featured: false
 list-image: "/uploads/2020/09/17/cocycle_main.jpg"
-image_gallery: []
+image_gallery:
+- "/uploads/2020/09/17/comodule_cocycle_01-2x.jpg"
+- "/uploads/2020/09/17/comodule_cocycle_01-2x-1.jpg"
 details:
 - title: Battery
   description: |2-
