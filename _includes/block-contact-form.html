@@ -95,49 +95,6 @@
 
               <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>
 
-              {% if page.lang-ref == 'rent' %}
-              <div class="form-group rent">
-                <div class="select-wrapper multiple">
-                  <select name="tech-interest[]" class="form-control select2-init" style="width: 100%" id="tech-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What would you like to achieve with Wunder Rent? *</option>
-                    <option value="Counterless Station-based Vehicle Rental">Station-based Vehicle Rental</option>
-                    <option value="Free-floating Vehicle Rental">Free-floating Vehicle Rental</option>
-                    <option value="Corporate Vehicle Sharing">Corporate Vehicle Sharing</option>
-                    <option value="Vehicle Subscriptions">Vehicle Subscriptions</option>
-                    <option value="Other">Other</option>
-                  </select>
-                  <label for="tech-interest[]" class="w-100">
-                    What would you like to achieve with Wunder Rent? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endif %}
-
-              {% if page.lang-ref == 'rent' %}
-              <div class="form-group rent fleet">
-                <div class="select-wrapper multiple">
-                  <select name="vehicle-interest[]" class="form-control select2-init" style="width: 100%" id="vehicle-interest" multiple="multiple" required=true novalidate>
-                    <option disabled>What vehicles would you like to offer? *</option>
-                    <option value="Cars">Cars</option>
-                    <option value="Bikes">Bikes</option>
-                    <option value="Mopeds">Mopeds</option>
-                    <option value="Kick-scooters">Kick-scooters</option>
-                    <option value="Motorcycles">Motorcycles</option>
-                    <option value="Trucks">Trucks</option>
-                    <option value="Vans">Vans</option>
-                    <option value="Boats">Boats</option>
-                    <option value="Other">Other</option>
-                  </select>
-                  <label for="vehicle-interest[]" class="w-100">
-                    What vehicles would you like to offer? *
-                  </label>
-                  <div class="bottom-border"></div>
-                </div>
-              </div>
-              {% endif %}
-
-
               {% if page.lang-ref == 'fleet' %}
               <div class="form-group shuttle fleet">
                 <div class="select-wrapper">
@@ -295,8 +252,8 @@
 
 
               <div class="form-group">
-                <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' %}- How can we help you? *{% endif %}</label>
-                <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
+                <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
+                <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>
 
