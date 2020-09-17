@@ -19,17 +19,17 @@ description: "<p>We provide all services required for the care and maintenance o
   charging, damage &amp; condition documentation, smart-repair, relocation, charging
   &amp; refueling, and retrieval &amp; deploy.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/15/4.jpg"
+- screenshot: "/uploads/2020/09/17/one-stop-shop-for-fleet-care-and-maintenance.png"
   title: Run your fleet effortlessly and efficiently.
   screenshot_description: We offer all services required for the on-site care and
     maintenance of your vehicles. This allows you to focus on your main tasks while
     we keep your fleet running.
-- screenshot: ''
+- screenshot: "/uploads/2020/09/17/multimodal-and-crossfunctional-solutions.png"
   title: We keep any fleet running!
   screenshot_description: |-
     Our solutions are mutimodal and crossfunctional:
     cars, transporters, e-kickscooters, bikes, trains and scooters. Even airtaxis. Stationary and free-floating.
-- screenshot: "/uploads/2020/09/15/2.jpg"
+- screenshot: "/uploads/2020/09/17/digital-integration-into-your-system.png"
   title: Integrate us seamlessly.
   screenshot_description: API real time status updates & data exchange optimise routing
     & scheduling which allows for an increased availability of your fleet.
