@@ -71,7 +71,7 @@
                 <div class="bottom-border"></div>
               </div>
 
-              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' %}
+              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' or page.lang-ref == 'rent' %}
               {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
               {% if page.lang-ref == 'carpool' %}
                 {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
