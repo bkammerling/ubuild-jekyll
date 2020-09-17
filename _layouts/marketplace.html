@@ -230,12 +230,14 @@
 
       </div>
 
-      <div class="row py-5">
-        <div class="col-md-5 col-lg-4">
-          {% include assets/wunder-statbox.svg %}
+      <div class="row py-5" id="wunder-kpis">
+        <div class="col-md-6 col-lg-4">
+          <div id="stats-svg">
+            {% include assets/wunder-kpis.svg %}
+          </div>
         </div>
 
-        <div class="col-md-6 offset-md-1 offset-lg-2">
+        <div class="col-md-6 offset-lg-2">
           <h2 class="mb-0 mt-3 mt-md-5">Sell your apps or extensions</h2>
           <h3 class="mb-4">for Wunder Mobility products</h3>
           <p class="mb-4">Over 70 clients worldwide trust in Wunder Mobility technology. 55 of them are using extensions already to boost their business. Become a Marketplace partner to reach them.</p>
@@ -275,7 +277,7 @@
           <div class="container pt-2">
             <div class="row">
               <div class="col-sm-6">
-                <div class="form-group mb-3">
+                <div class="form-group mb-4">
                   <label for="recipient-name" class="form-label">What should we call you?</label>
                   <input type="text" class="text-input" id="recipient-name" name="name" placeholder="Firstname Lastname" required />
                 </div>
@@ -321,7 +323,7 @@
 
             <div class="form-group mb-4">
               <label for="message-text" class="form-label">Tell us a bit more about your idea or solution </label>
-              <textarea rows="4" class="textarea-input" id="message-text" name="message" required placeholder="Outline your idea or solution: Whose problems does it solve how?"></textarea>
+              <textarea rows="4" class="textarea-input" id="message-text" name="message" required placeholder="Outline your idea or solution: Whose problems does it solve and how?"></textarea>
             </div>
 
             <div class="radio-wrapper mb-4">
