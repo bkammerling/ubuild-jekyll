@@ -78,28 +78,23 @@
 
         {% else %}
 
-        <div class="post-detail mt-5 pt-3">
-          <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
-          <div class="row step-cols">
-            {% for item in page.getting_started %}
-              <div class="col-md-12 mb-4">
-                <div class="step-col step{{ forloop.index }}">
-                  <div class="d-flex flex-column">
-                    <p><strong>{{ item.column_title }}</strong></p>
-                    <p>{{ item.column_description }}</p>
+        {% if page.getting_started.size > 0 %}
+          <div class="post-detail mt-5 pt-3">
+            <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
+            <div class="row step-cols">
+              {% for item in page.getting_started %}
+                <div class="col-md-12 mb-4">
+                  <div class="step-col step{{ forloop.index }}">
+                    <div class="d-flex flex-column">
+                      <p><strong>{{ item.column_title }}</strong></p>
+                      <p>{{ item.column_description }}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            {% endfor %}
+              {% endfor %}
+            </div>
           </div>
-          <div class="mt-5 text-left">
-            <a class="btn btn-primary btn-mkt text-white" data-toggle="modal" data-target="#contactModal">Let's go
-              <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
-              </svg>
-            </a>
-          </div>
-        </div>
+          {% endif %}
 
         {% endif %}
 
@@ -130,7 +125,7 @@
 
     </div>
 
-    {% if page.screenshot_details.size > 0 %}
+    {% if page.screenshot_details.size > 0 and page.getting_started.size > 0 %}
     <div class="post-detail mt-5 pt-3">
       <h3 class="mb-4 pb-2">Getting started with {{ page.title }}</h3>
       <div class="row step-cols">
@@ -145,15 +140,16 @@
           </div>
         {% endfor %}
       </div>
-      <div class="mt-5 text-center">
-        <a class="btn btn-primary btn-mkt text-white" data-toggle="modal" data-target="#contactModal">Let's go
-          <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
-          </svg>
-        </a>
-      </div>
     </div>
     {% endif %}
+
+    <div class="mt-5 {% if page.screenshot_details.size > 0 %}text-center{% endif %}">
+      <a class="btn btn-primary btn-mkt text-white" data-toggle="modal" data-target="#contactModal">Let's go
+        <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
+        </svg>
+      </a>
+    </div>
 
   </div>
 </main>
@@ -169,7 +165,7 @@
         {% for app in randomApps %}
         {% if app.title == page.title %}{% continue %}{% endif %}
         {% if index > 2 %}{% break %}{% endif %}
-        <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 pb-2">
+        <div class="col-sm-6 col-lg-4 mb-4 pb-2">
           <a href="{{ app.url }}">
             <div class="app-box px-3 px-md-4 py-3 pt-md-4 bg-white h-100 w-shadow d-flex flex-row flex-md-column">
                 <img class="applist-icon mr-3" src="{{ app.icon | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ app.icon }} 2x" alt="App icon for {{ app.title }}" />
