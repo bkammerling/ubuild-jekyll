@@ -44,6 +44,8 @@ var form = {
       $("#modalheader").removeClass('bg-dark').addClass('bg-success');
       $('#mkt-formtitle').text("Thanks for reaching out");
       $('#mkt-formintro').text("Your message has been sent successfully. We’ll get back to you in no time.");
+      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
+      dataLayer.push({ 'event': 'formSubmitted', 'eventAction': 'Submit success', 'eventLabel': data.subject });
     }).fail(function (error) {
       console.log(error);
       $("#modalheader").removeClass('bg-dark').addClass('bg-danger');
@@ -101,17 +103,15 @@ function mktplaceSubmit(e) {
   var $form = $(e.target).closest("form");
   if(form.htmlValidityCheck($form) && form.customValidityChecks($form)) {
     console.log('form clean');
-    try {
-      grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
-        recaptchaSubmit(token);
-      }).catch(function(e) { throw(e) });
-    } catch(e) {
+    grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function(token) {
+      recaptchaSubmit(token);
+    }).catch(function(e) {
       console.log(e);
       $("#modalheader").removeClass('bg-dark').addClass('bg-danger');
       $('#mkt-formtitle').text("Message failed to send");
       $('#mkt-formintro').text("Your message failed to send because of a reCaptcha issue. You can try again or reach out to moritz.dreger@wundermobility.com.");
       $("#form-submit").attr("disabled", false);
-    }
+    });
   } else {
     console.log('form NOT clean');
     $(e.target).attr("disabled", false);
@@ -132,9 +132,15 @@ $(document).ready(function() {
   form.initializeSelect2('.select2-init');
 
   $('#partnerModal').on('shown.bs.modal', function (e) {
+
+    // send event to GA
+  });
+  $('#contactModal').on('shown.bs.modal', function (e) {
     $('#extension-interest').select2({
-      placeholder: "Pick an extension from the list"
-    });
+      placeholder: "Pick an extension from the list",
+      minimumResultsForSearch: Infinity
+    }).trigger('select2:select');
+    // send event to GA
   })
 
   $('input:radio[name="customer"]').change(function() {

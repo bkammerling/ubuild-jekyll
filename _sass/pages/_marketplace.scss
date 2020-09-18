@@ -228,6 +228,9 @@ p {
 }
 
 .ekko-lightbox {
+  .modal-header {
+    margin-top: 8px;
+  }
   .modal-dialog {
     max-width: 95% !important;
     align-self: flex-start;
@@ -267,7 +270,7 @@ p {
 }
 .ekko-lightbox-nav-overlay {
   display: flex !important;
-    top: -60px;
+    top: -62px;
     width: 65px;
     height: 24px;
     left: calc(100% - 100px);
@@ -335,6 +338,19 @@ p {
   }
    .select2-selection--multiple {
     padding: 5px 12px;
+    cursor: pointer;
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
+      position: absolute;
+      right: 19px;
+      top: 21px;
+      pointer-events: none;
+    }
     .select2-selection__rendered {
      padding: 0;
      max-height: none;
@@ -364,6 +380,7 @@ p {
     font-size: 14px;
     color: $black50;
     margin-top: 7px;
+    display: none;
   }
   .select2-results__option {
     font-size: 14px;
@@ -373,6 +390,10 @@ p {
     background-color: $black96;
     color: $mobility-black;
   }
+}
+
+.popover {
+  z-index: 2060;
 }
 
 

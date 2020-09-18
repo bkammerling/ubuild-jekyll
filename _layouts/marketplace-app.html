@@ -204,7 +204,7 @@
       </div>
       <form id="modal-form" class="ajaxForm mktform" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/ab543ce6-282f-4d25-93b6-76c727bb4c19" method="POST">
         <div class="modal-body">
-          <input type="hidden" name="subject" id="modal_subject-field" value="Marketplace App Interest">
+          <input type="hidden" name="subject" id="modal_subject-field" value="Marketplace Interest in {{ page.title }}">
           <div class="container pt-3">
             <div class="custom-control custom-radio custom-control-inline">
               <input type="radio" id="customerRadio1" name="customer" value="customerYes" class="custom-control-input marketplace-radio" checked>
@@ -239,7 +239,7 @@
                 <label for="vehicle-interest[]" class="w-100">
                   Extensions you are interested in
                 </label>
-                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" required novalidate placeholder="Pick an extension from the list">
+                <select name="extension-interest[]" class="form-control select2-init" style="width: 100%" id="extension-interest" multiple="multiple" autocomplete="off" required novalidate placeholder="Pick an extension from the list">
                   {% for app in site.apps %}
                   <option value="{{ app.title }}" {% if app.title == page.title %}selected{% endif %}>{{ app.title }}</option>
                   {% endfor %}
