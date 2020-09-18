@@ -43,7 +43,7 @@
   </div>
   <div class="container z-20">
     <div class="d-md-none">
-      <a class="btn btn-dark btn-lg btn-block"  data-toggle="modal" data-target="#contactModal">Get started</a>
+      <a class="btn btn-dark btn-lg btn-block text-white"  data-toggle="modal" data-target="#contactModal">Get started</a>
     </div>
   </div>
 
@@ -66,7 +66,9 @@
         {% for screen in page.screenshot_details %}
           <div class="row mt-5">
             <div class="col-md-5">
-              <img class="w-shadow mb-3 mb-md-0" src="{{ screen.screenshot | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ screen.screenshot }} 2x" alt="App screenshot for {{ page.title }} {{ forloop.index }}" />
+              <a href="{{ screen.screenshot }}" data-toggle="lightbox" data-gallery="app-screens" data-footer="{{ screen.title }}" data-title="{{ forloop.index }} / {{ page.screenshot_details.size }}">
+                <img class="w-shadow mb-3 mb-md-0" src="{{ screen.screenshot | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ screen.screenshot }} 2x" alt="App screenshot for {{ page.title }} {{ forloop.index }}" />
+              </a>
             </div>
             <div class="col-md-7">
               <p class=""><strong>{{ screen.title }}</strong></p>

@@ -58,14 +58,15 @@
               {% if menu_cat.items %}
               <ul>
                 {% for menu_item in menu_cat.items %}
-                  <li><a  class="small-label" href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
+                  <li><a  class="small-label" href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a>
+                    {% if menu_item.content %}
+                      <address class="mb-0">
+                        <p class="small-label mb-0">{{ menu_item.content }}</p>
+                      </address>
+                    {% endif %}
+                  </li>
                 {% endfor %}
               </ul>
-              {% endif %}
-              {% if menu_item.content %}
-                <address>
-                  <p>{{ menu_cat.content }}</p>
-                </address>
               {% endif %}
             {% endif %}
           {% endfor %}

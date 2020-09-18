@@ -358,3 +358,8 @@ footer:
     parent: solutions
     identifier: hardware
     title: Vehicles
+  - url: "/marketplace"
+    weight: 8
+    parent: solutions
+    identifier: marketplace
+    title: Marketplace
