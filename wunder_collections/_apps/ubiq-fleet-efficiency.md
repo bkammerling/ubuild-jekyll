@@ -50,16 +50,16 @@ screenshot_details:
 
     If you are unsure how underutilized your vehicles are, Ubiq’s plug-in forecasting models can help you see where improvements can be made.
 app_details:
-- detail_title: Developer Website →
+- detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/" title="Developer Website →">Developer
     Website →</a>
-- detail_title: Terms of Service →
+- detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/" title="Terms of Service →">Terms
     of Service →</a>
-- detail_title: Privacy Policy →
+- detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/privacy-policy" title="Privacy Policy
     →">Privacy Policy →</a>
-- detail_title: Whitepaper Download →
+- detail_title: ''
   detail_content: <a href="/uploads/2020/09/21/casestudy_reachnow-sam-hargreaves.pdf"
     title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
