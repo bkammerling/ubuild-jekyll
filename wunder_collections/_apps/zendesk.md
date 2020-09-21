@@ -28,15 +28,27 @@ screenshot_details:
   title: Manage customer interactions
   screenshot_description: Everything they need lives in a single, dynamic help desk
     interface so it’s easy to be productive and manage customer interactions.
-- screenshot: ''
-  title: ''
-  screenshot_description: ''
-- screenshot: ''
-  title: ''
-  screenshot_description: ''
-app_details: []
+- screenshot: "/uploads/2020/09/21/usp2-marina-snegirjova.png"
+  title: Right place, right time
+  screenshot_description: Bring in customer interactions from anywhere. With features
+    like web widgets, pre-defined ticket responses, and customer search history, give
+    them faster support on their preferred channels at the moment they need it.
+- screenshot: "/uploads/2020/09/21/usp3-marina-snegirjova.png"
+  title: Customize and personalize
+  screenshot_description: It lets agents draft new articles and knowledge on the fly,
+    flag old content for improvements, and share AI-powered article recommendations
+    inside tickets.
+app_details:
+- detail_title: ''
+  detail_content: ''
+- detail_title: ''
+  detail_content: ''
+- detail_title: ''
+  detail_content: ''
 access_needed: []
-getting_started: []
+getting_started:
+- column_title: 'Get Started:'
+  column_description: Get in contact with us and start your free trial!
 published: false
 
 ---
