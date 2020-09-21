@@ -7,11 +7,11 @@ excerpt: Zoba drastically increases revenue with demand forecasting and optimiza
 preview_gallery:
 - image-video: "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mp4"
   title: ''
-- image-video: "/uploads/2020/08/20/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.png"
+- image-video: "/uploads/2020/09/21/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.jpg"
   title: ''
-- image-video: "/uploads/2020/08/20/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.png"
+- image-video: "/uploads/2020/09/21/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.jpg"
   title: ''
-- image-video: "/uploads/2020/08/20/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.png"
+- image-video: "/uploads/2020/09/21/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.jpg"
   title: ''
 - image-video: "/uploads/2020/08/20/zoba-increases-utilization-by-recommending-which-vehicles-to-discount-daniel-brennan.png"
   title: ''
