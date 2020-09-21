@@ -40,15 +40,19 @@ screenshot_details:
     inside tickets.
 app_details:
 - detail_title: ''
-  detail_content: ''
+  detail_content: <a href="https://www.zendesk.com" title="Developer Website →">Developer
+    Website →</a>
 - detail_title: ''
-  detail_content: ''
+  detail_content: <a href="https://www.zendesk.com/company/customers-partners/terms-of-use/"
+    title="Terms of Service →">Terms of Service →</a>
 - detail_title: ''
-  detail_content: ''
-access_needed: []
+  detail_content: <a href="https://www.zendesk.com/company/customers-partners/privacy-policy/"
+    title="Privacy Policy →">Privacy Policy →</a>
+access_needed:
+- Deliver API Credentials
+- Zendesk Connector
 getting_started:
-- column_title: 'Get Started:'
+- column_title: Get Started
   column_description: Get in contact with us and start your free trial!
-published: false
 
 ---

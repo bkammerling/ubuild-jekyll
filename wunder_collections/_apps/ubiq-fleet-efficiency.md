@@ -67,12 +67,12 @@ access_needed:
 - Vehicle Data
 - Trip Data
 getting_started:
-- column_title: Reach out.
+- column_title: Reach out
   column_description: Fill out the contact form and a Ubiq representative will be
     in touch to discuss how you can increase your vehicle utilization.
-- column_title: Connect your data.
+- column_title: Connect your data
   column_description: A trial will be set up to enable you to test Ubiq’s services.
-- column_title: Access the API or Service to increase vehicle utilization.
+- column_title: Access the API or Service to increase vehicle utilization
   column_description: Once set-up, watch how your daily rentals increase as vehicle
     supply better matches demand.
 

@@ -50,10 +50,10 @@ access_needed:
 - User Data
 getting_started:
 - column_description: Fill out the contact form and we will get in touch with you.
-  column_title: Contact us.
-- column_title: We will schedule a demo.
+  column_title: Contact us
+- column_title: We will schedule a demo
   column_description: After contacting us, we will schedule a demo together with you.
-- column_title: Integration of MOBACK within one week.
+- column_title: Integration of MOBACK within one week
   column_description: We will set up your MOBACK integration within no time.
 
 ---
