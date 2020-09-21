@@ -7,7 +7,7 @@ excerpt: Data-driven fleet optimization for increased vehicle utilization and re
   operational costs.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/21/streetcrowd-sam-hargreaves.mp4"
+- image-video: "/uploads/2020/09/21/streetcrowd-sam-hargreaves.mov"
   title: Video
 - image-video: "/uploads/2020/09/21/warsaw-final-sam-hargreaves.jpg"
   title: Easy-to-use StreetCrowd app showing vehicles in need of repositioning or
