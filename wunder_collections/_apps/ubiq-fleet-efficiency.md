@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Utilization Improvement
-title: Ubiq - Fleet Efficiency
+title: Ubiq
 icon: "/uploads/2020/09/21/logo-gradient-sam-hargreaves.jpg"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
   operational costs.
