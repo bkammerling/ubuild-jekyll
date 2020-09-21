@@ -2,19 +2,19 @@
 layout: marketplace-app
 category: Utilization Improvement
 title: Ubiq - Fleet Efficiency
-icon: "/uploads/2020/09/21/logo-gradient-sam-hargreaves.png"
+icon: "/uploads/2020/09/21/logo-gradient-sam-hargreaves.jpg"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
   operational costs.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/21/streetcrowd-walkthrough-mp4-tech-house-audio-sam-hargreaves.mp4"
   title: Video
-- image-video: "/uploads/2020/09/21/warsaw-final-sam-hargreaves.png"
+- image-video: "/uploads/2020/09/21/warsaw-final-sam-hargreaves.jpg"
   title: Easy-to-use StreetCrowd app showing vehicles in need of repositioning or
     charging.
-- image-video: "/uploads/2020/09/21/washington-screenshot-final-image-sam-hargreaves.png"
+- image-video: "/uploads/2020/09/21/washington-screenshot-final-image-sam-hargreaves.jpg"
   title: Potential new high demand locations for fleet rebalancing.
-- image-video: "/uploads/2020/09/21/charging-app-sam-hargreaves.png"
+- image-video: "/uploads/2020/09/21/charging-app-sam-hargreaves.jpg"
   title: The StreetCrowd app matches users with nearby charging stations.
 description: "<p>Most shared mobility services aren’t profitable. Ubiq's data-driven
   services address this by automating operations to ensure vehicles are in the right
