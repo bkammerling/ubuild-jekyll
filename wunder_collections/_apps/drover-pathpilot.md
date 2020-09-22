@@ -7,7 +7,7 @@ excerpt: AI powered fleet IoT module with sidewalk detection and real-time vehic
   control.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/22/drover-sidewalk-control-small-file-alex-nesic.mov"
+- image-video: "/uploads/2020/09/22/drover.mp4"
   title: Video
 - image-video: "/uploads/2020/09/22/drover-path-pilot-exploded-view-alex-nesic.png"
   title: PathPilot module with customizable mounting bracket designed to be mounted
