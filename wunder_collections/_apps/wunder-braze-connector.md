@@ -1,0 +1,30 @@
+---
+layout: marketplace-app
+category: Integrations (API)
+title: Wunder - Braze Connector
+icon: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-04-38.png"
+excerpt: Seamlessly engage with your customers by connecting Wunder Fleet & Braze.
+featured: false
+preview_gallery: []
+description: "<p>Enabling this tool will connect the Wunder Fleet API with the Braze
+  API. This way your relevant user data is automatically &amp; seamlessly synchronized
+  with your Braze database. Braze is a customer engagement platform built for today’s
+  mobile–first world. It helps leading brands create live views of their customers
+  that stream and process historical, in–the–moment, and predictive data in an interactive
+  feedback loop, so immediate action on insights can be taken with relevant messaging
+  across mobile and web.</p>"
+screenshot_details:
+- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-39.png"
+  title: Connects to Wunder Fleet
+  screenshot_description: ''
+- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-51.png"
+  title: Pulls your customers data
+  screenshot_description: ''
+- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-04-38.png"
+  title: Imports the data to Braze
+  screenshot_description: ''
+app_details: []
+access_needed: []
+getting_started: []
+
+---

@@ -6,16 +6,15 @@ icon: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-57.png"
 excerpt: Create better customer relationships by connecting Wunder Fleet & Zendesk.
 featured: false
 preview_gallery: []
-description: '<p>Enabling this tool will connect the Wunder Fleet API with the Zendesk
+description: "<p>Enabling this tool will connect the Wunder Fleet API with the Zendesk
   API.</p><p>This way your Wunder Fleet customer data is automatically &amp; seamlessly
-  synchronized with your Zendesk database.   Zendesk is a customer support platform that lets you connect with customers on any
-  channel. Whether your customers want to connect by phone, chat, email, social media,
-  or any other channel, Zendesk brings all your customer interactions to one easy
-  to use the platform to make it easy to keep track of all your support requests,
-  answer questions quickly, and monitor customer service agent’s effectiveness.</p><p>Get
-  rid of manual work and be less error-prone with our Zendesk Connector.</p><p>Find
-  out more about Zendesk here: <a href="https://u-a7jpoe24dhla.instant.forestry.io/marketplace/zendesk"
-  title="Link">Link</a></p>'
+  synchronized with your Zendesk database. Zendesk is a customer support platform
+  that lets you connect with customers on any channel. Whether your customers want
+  to connect by phone, chat, email, social media, or any other channel, Zendesk brings
+  all your customer interactions to one easy to use the platform to make it easy to
+  keep track of all your support requests, answer questions quickly, and monitor customer
+  service agent’s effectiveness.</p><p>Get rid of manual work and be less error-prone
+  with our Zendesk Connector.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-39.png"
   title: Connects to Wunder Fleet
