@@ -45,7 +45,7 @@ getting_started:
 - column_description: After you decide to use the Zendesk Connector our team will
     help to setup the connector for you.
   column_title: Setup
-- column_title: ''
-  column_description: ''
+- column_title: Go
+  column_description: After things are setup the connector will do the work for you.
 
 ---
