@@ -24,7 +24,13 @@ screenshot_details:
   title: Imports the data to Braze
   screenshot_description: ''
 app_details: []
-access_needed: []
-getting_started: []
+access_needed:
+- Braze account needed
+- Deliver API Credentials
+getting_started:
+- column_title: ''
+  column_description: ''
+- column_title: ''
+  column_description: ''
 
 ---
