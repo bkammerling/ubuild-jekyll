@@ -28,7 +28,7 @@ screenshot_details:
     Take your vehicle IoT intelligence to the next level with Drover PathPilot. Easy compliance with regulations, demonstration of superior safety capabilities for city RFPs, and potential reduction of insurance costs. PathPilot will provide you with unparalleled understanding of rider behavior by being precisely aware of where your vehicles are being ridden.
     Granular location categorization - specific designated categories like sidewalk, bike lane, crosswalk, street and possibility of taking specific vehicle level action based on those.
 
-    • Infrastructure distinction - ability to identify specific areas like covered parking garages or building lobbies and take real-time vehicle level control - preventing users from taking scooters in those areas
+    Infrastructure distinction - ability to identify specific areas like covered parking garages or building lobbies and take real-time vehicle level control - preventing users from taking scooters in those areas
     Drover can help you run a more efficient, safe and compliant fleet ultimately increasing your profitability!
   title: The only AI powered IoT module
 app_details:
