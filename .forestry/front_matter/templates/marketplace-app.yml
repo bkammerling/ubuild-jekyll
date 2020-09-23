@@ -39,16 +39,16 @@ fields:
     options:
     - Analytics and Monitoring
     - Customer Engagement
-    - Customer Relationship Management (CRM)
+    - CRM
     - Fleet Maintenance
     - Integrations (API)
     - Operations Improvement
     - Utilization Improvement
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: featured
   type: boolean
@@ -69,9 +69,9 @@ fields:
     label: Title
     description: Appears in popup when image is clicked
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Preview Gallery
   description: Images and videos appearing under the app icon
 - name: description
@@ -108,8 +108,8 @@ fields:
         format: markdown
     label: Screenshot Description
   config:
-    min: 
-    max: 
+    min:
+    max:
     labelField: title
   label: Screenshot Details
   description: List of screens with descriptions
@@ -132,16 +132,16 @@ fields:
     label: Detail Content
     description: Add text, links or an image
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: App Details
 - name: access_needed
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
   label: Access needed
   description: 'e.g. Wunder Fleet API: User Data'
 - name: getting_started
@@ -162,9 +162,9 @@ fields:
         format: markdown
     label: Column description
   config:
-    min: 
+    min:
     max: 3
-    labelField: 
+    labelField:
   label: Getting started steps
   description: 3 text columns showing next steps
 pages:
