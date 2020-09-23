@@ -16,14 +16,14 @@ description: "<p>Our Zendesk Connector connects the Wunder Fleet API with the Ze
   service agent’s effectiveness.</p><p>Get rid of manual work and be less error-prone
   with our Zendesk Connector.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/23/zendesk-connector-1.png"
+- screenshot: "/uploads/2020/09/23/zendesk-connector-1-1.png"
   title: Connects to your Wunder Fleet database
   screenshot_description: Our API connects to you Wunder Fleet customer database
-- screenshot: "/uploads/2020/09/23/zendesk-connector-2.png"
+- screenshot: "/uploads/2020/09/23/zendesk-connector-2-1.png"
   title: Pulls your customers data
   screenshot_description: 'After successfully connecting to your customer database,
     the Zendesk Connector gathers and converts your customer database entries. '
-- screenshot: "/uploads/2020/09/23/zendesk-connector-3.png"
+- screenshot: "/uploads/2020/09/23/zendesk-connector-3-1.png"
   title: Imports the data to Zendesk
   screenshot_description: The Zendesk Connector sends all user data over to your connected
     Zendesk account – all your Wunder Fleet customers are now available in Zendesk.
