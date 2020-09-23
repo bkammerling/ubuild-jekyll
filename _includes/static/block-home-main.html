@@ -217,10 +217,10 @@
   </section>
 
 
-  <section class="fullwidth-bg dark-bg text-light">
+  <section class="fullwidth-bg dark-bg text-light" id="section-global">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8 col-lg-6">
           <p>Global Scale</p>
           <h2 class="headline-medium">Powering top brands around the world</h2>
           <p class="">At Wunder Mobility, we think global. Our tech powers mobility services in over 100 cities on 5 continents, and our partners range from major OEMs to city planners to small startups. Our headquarters are in Hamburg, Germany, with further presence in Dortmund and Los Angeles. Our international team of over 50 nationalities would be happy to help find the perfect solution for you and localize it to your market.</p>
@@ -270,8 +270,44 @@
         </div>
       </div>
 
+      <div id="client-logos" class="mt-5 text-center">
+        <picture>
+          <source media="(min-width: 550px)" srcset="uploads/global/home/scale-logos..png 1x, uploads/global/home/scale-logos@2x.png 2x">
+          <img data-src="uploads/global/home/scale-logos__mob.png" data-srcset="uploads/global/home/scale-logos__mob@2x.png 2x" alt="Rows of logos of companies that worked with Wunder Mobility e.g. Ford, Toyota, Lufthansa, Audi, hive, Green Mobility, Segway and more." />
+        </picture>
+      </div>
+
     </div>
 
+    <style type="text/css">
+      #section-global {
+        background: url('uploads/global/home/samgunnar-bg__mob.png') #1F1F1F top right no-repeat;
+        background-size: 100%;
+        padding-top: 75vw;
+      }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        #section-global {
+          background-image: url('uploads/global/home/samgunnar-bg__mob@2x.png');
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        #section-global {
+          background-image: url('uploads/global/home/samgunnar-bg.png');
+          background-size: 80%;
+          padding-top: 128px;
+        }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          #section-global {
+            background-image: url('uploads/global/home/samgunnar-bg@2x.png');
+          }
+        }
+      }
+      @media only screen and (min-width: 992px) {
+        #section-global {
+          background-size: 60%;
+        }
+      }
+    </style>
 
   </section>
 
