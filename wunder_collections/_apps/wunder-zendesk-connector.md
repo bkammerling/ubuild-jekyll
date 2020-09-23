@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
 category: Integrations (API)
-title: 'Zendesk Connector '
-icon: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-57.png"
+title: Zendesk Connector
+icon: "/uploads/2020/09/23/zendesk-connector-logo.png"
 excerpt: Create better customer relationships by connecting Wunder Fleet & Zendesk.
 featured: false
 preview_gallery: []
