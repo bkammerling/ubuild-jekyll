@@ -19,12 +19,14 @@ screenshot_details:
 - screenshot: "/uploads/2020/09/23/zendesk-connector-1.png"
   title: Connects to your Wunder Fleet database
   screenshot_description: Our API connects to you Wunder Fleet customer database
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-51.png"
+- screenshot: "/uploads/2020/09/23/zendesk-connector-2.png"
   title: Pulls your customers data
-  screenshot_description: ''
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-57.png"
+  screenshot_description: 'After successfully connecting to your customer database,
+    the Zendesk Connector gathers and converts your customer database entries. '
+- screenshot: "/uploads/2020/09/23/zendesk-connector-3.png"
   title: Imports the data to Zendesk
-  screenshot_description: ''
+  screenshot_description: The Zendesk Connector sends all user data over to your connected
+    Zendesk account – all your Wunder Fleet customers are now available in Zendesk.
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
