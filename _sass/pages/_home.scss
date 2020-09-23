@@ -1,21 +1,9 @@
-
-.product-tray {
-  margin: 120px 0;
-
-  .single-product {
-    transition: background-color $transition-duration;
-    img {
-      //filter: grayscale(1) brightness(1.1);
-      //transition: filter $transition-duration;
-    }
-    &:hover {
-      background-color: $black96;
-      img {
-        //filter: none;
-      }
-    }
+#scroll-nav {
+  a:hover {
+    text-decoration: underline;
   }
 }
+
 
 .article-list {
   margin: 64px 0;
@@ -38,19 +26,6 @@ a.post-imagelink  {
   &:hover {
     img {
       transform: scale(1.04);
-    }
-  }
-}
-
-.client-map {
-  filter: drop-shadow(0 8px 32px rgba(20,20,20,0.06));
-
-  svg {
-    width: 100%;
-    height: auto;
-    overflow: visible;
-    #DE,#BE,#NL,#ES,#FR,#SE,#AT,#PT,#PL,#GR,#NZ,#MX,#US,#LV,#FI,#IS,#DK,#NO,#TR,#BG,#CR,#PA,#IE,#MY,#AE,#ZA,#AU,#PF,#GB,#SA,#AR,#PE,#CH,#HR,#CL,#CO,#PH,#BR,#IN,#VN,#CI,#NG,#MT,#IT,#KR,#LT,#LB {
-      fill: $mobility-blue;
     }
   }
 }
