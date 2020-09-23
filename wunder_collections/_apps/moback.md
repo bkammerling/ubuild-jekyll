@@ -21,17 +21,17 @@ description: "<p>Increase customer loyalty and retention, while building a green
   rewards and planted trees.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/21/moback_in-app-rewards-stephan-leppler.png"
-  title: Turning mobility behaviours into CO2-savings.
+  title: Turning mobility behaviours into CO2-savings
   screenshot_description: MOBACK allows automatic transport mode detection and CO2
     calculation while being GDPR compliant. It always runs in the background of your
     app without draining your users’ battery.
 - screenshot: "/uploads/2020/09/21/moback_mobility-data-insights-stephan-leppler.png"
-  title: Understand the context of your service usage.
+  title: Understand the context of your service usage
   screenshot_description: Get insights on the full mobility of your users, understanding
     how, when, and where they travel, even when they are not using your services.
     Understand your competition and segment your users based on their travel preferences.
 - screenshot: "/uploads/2020/09/21/moback_rewards-management-system-stephan-leppler.png"
-  title: Build a green loyalty ecosystem beyond your services.
+  title: Build a green loyalty ecosystem beyond your services
   screenshot_description: Push your own green services by providing custom individual
     rewards through our marketplace. You also have the option to provide affiliated
     rewards with existing partners (eg. Garmin and Komoot).
@@ -50,10 +50,10 @@ access_needed:
 - User Data
 getting_started:
 - column_description: Fill out the contact form and we will get in touch with you.
-  column_title: Contact us.
-- column_title: We will schedule a demo.
+  column_title: Contact us
+- column_title: We will schedule a demo
   column_description: After contacting us, we will schedule a demo together with you.
-- column_title: Integration of MOBACK within one week.
+- column_title: Integration of MOBACK within one week
   column_description: We will set up your MOBACK integration within no time.
 
 ---

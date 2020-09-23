@@ -171,6 +171,7 @@ pages:
 - wunder_collections/_apps/adjust.md
 - wunder_collections/_apps/asana.md
 - wunder_collections/_apps/ben-fleet-services.md
+- wunder_collections/_apps/drover-pathpilot.md
 - wunder_collections/_apps/jumio.md
 - wunder_collections/_apps/moback.md
 - wunder_collections/_apps/motum.md
@@ -178,5 +179,9 @@ pages:
 - wunder_collections/_apps/strivecloud.md
 - wunder_collections/_apps/ubiq-fleet-efficiency.md
 - wunder_collections/_apps/wise-mobility.md
+- wunder_collections/_apps/wunder-braze-connector.md
 - wunder_collections/_apps/wunder-fleet-optimizer.md
+- wunder_collections/_apps/wunder-iot-connector.md
+- wunder_collections/_apps/wunder-zendesk-connector.md
+- wunder_collections/_apps/zendesk.md
 - wunder_collections/_apps/zoba.md

@@ -23,18 +23,18 @@ description: "<p>Zoba increases the performance of micromobility and car-sharing
   vehicle by 10-50%.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/21/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.jpg"
-  title: Automated recommendations for deployments, rebalancing, and user incentives.
+  title: Automated recommendations for deployments, rebalancing, and user incentives
   screenshot_description: Zoba automates your most important operational decisions
     so that you can seamlessly deploy and rebalance thousands of vehicles in any market
     in the world. Zoba’s recommendations are delivered into your Wunder operations
     tools via API so that you can immediately see results.
 - screenshot: "/uploads/2020/09/21/zoba-provides-actionable-recommendations-for-rebalancing-daniel-brennan.jpg"
-  title: Increased revenue.
+  title: Increased revenue
   screenshot_description: 'Following Zoba’s recommendations will have an immediate
     impact on your trips per deployed vehicle and revenue, allowing you to pay back
     your vehicles faster and become profitable. '
 - screenshot: "/uploads/2020/09/21/zoba-s-dashboard-shows-you-how-many-rides-you-can-expect-in-the-coming-days-daniel-brennan.jpg"
-  title: 'City-block level market intelligence. '
+  title: City-block level market intelligence
   screenshot_description: 'Always know where your demand will be, where your competition
     is, and where you can expect your vehicles to end up. Every minute of every day. '
 app_details:

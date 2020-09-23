@@ -7,8 +7,8 @@ excerpt: Data-driven fleet optimization for increased vehicle utilization and re
   operational costs.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/21/ubiq.mp4"
-  title: ''
+- image-video: "/uploads/2020/09/22/ubiq.mp4"
+  title: Video
 - image-video: "/uploads/2020/09/21/warsaw-final-sam-hargreaves.jpg"
   title: Easy-to-use StreetCrowd app showing vehicles in need of repositioning or
     charging.
@@ -27,7 +27,7 @@ description: "<p>Most shared mobility services aren’t profitable. Ubiq's data-
   app), Predictive Charging (StreetCrowd app) and Dynamic Pricing ---</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/21/usp-1-resized-sam-hargreaves.png"
-  title: Leverage the power of the crowd to exploit the full potential of your fleet.
+  title: Leverage the power of the crowd to exploit the full potential of your fleet
   screenshot_description: "Ubiq created StreetCrowd: Allowing citizens to contribute
     hands-on to the future of shared mobility. Through StreetCrowd, Ubiq matches vehicles
     requiring repositioning, or charging, with crowd users, allowing shared mobility
@@ -35,14 +35,14 @@ screenshot_details:
     providers have access to scalable, decentralized operations that run 24/7, across
     the city. \n\n*The service can also be used by operational teams."
 - screenshot: "/uploads/2020/09/21/usp-2-sam-hargreaves.png"
-  title: 'Plug in and play: API option to get started right away.'
+  title: 'Plug in and play: API option to get started right away'
   screenshot_description: Provide your historic fleet data and live vehicle availability
     information / API, then access the Ubiq Fleet Rebalancing, Predictive Charging
     or Dynamic Pricing API in real-time to meet customer demand from day one. Ubiq
     adds proxy data such as app opening data, third party fleets or event data where
     available.
 - screenshot: "/uploads/2020/09/21/usp-3-resized-sam-hargreaves.png"
-  title: Fleet efficiency your way.
+  title: Fleet efficiency your way
   screenshot_description: |-
     Whatever your operational needs are, Ubiq adds value.
 
@@ -67,12 +67,12 @@ access_needed:
 - Vehicle Data
 - Trip Data
 getting_started:
-- column_title: Reach out.
+- column_title: Reach out
   column_description: Fill out the contact form and a Ubiq representative will be
     in touch to discuss how you can increase your vehicle utilization.
-- column_title: Connect your data.
+- column_title: Connect your data
   column_description: A trial will be set up to enable you to test Ubiq’s services.
-- column_title: Access the API or Service to increase vehicle utilization.
+- column_title: Access the API or Service to increase vehicle utilization
   column_description: Once set-up, watch how your daily rentals increase as vehicle
     supply better matches demand.
 

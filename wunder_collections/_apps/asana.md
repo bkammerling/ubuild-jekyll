@@ -32,7 +32,7 @@ description: "<p>Asana is a work management platform that helps teams orchestrat
   with work, with confidence and flow.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/15/image3.png"
-  title: Asana, the work management app instead of 1,000 emails.
+  title: Asana, the work management app instead of 1,000 emails
   screenshot_description: Get organised, add and request action items. Stay on track,
     focus on tasks at hands with ‘my tasks’. Hit deadlines, see how work maps out
     over time and track dependencies and workload.

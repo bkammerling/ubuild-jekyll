@@ -55,7 +55,7 @@ getting_started:
 - column_title: Import your fleet & driver data
   column_description: When all is set, we will import your fleet and driver data in
     order to register the vehicles and drivers.
-- column_title: Start saving!
+- column_title: Start saving
   column_description: 'Once the set-up is completed, it is up to your drivers to start
     reporting so that you can manage & monitor the fleet condition! '
 
