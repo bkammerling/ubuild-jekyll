@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
 category: Integrations (API)
-title: Wunder - Braze Connector
-icon: "/uploads/2020/09/23/braze-connector-logo.png"
+title: Braze Connector
+icon: "/uploads/2020/09/23/braze-connector-logo-1.png"
 excerpt: Seamlessly engage with your customers by connecting Wunder Fleet & Braze.
 featured: false
 preview_gallery: []
@@ -14,10 +14,10 @@ description: "<p>Enabling this tool will connect the Wunder Fleet API with the B
   feedback loop, so immediate action on insights can be taken with relevant messaging
   across mobile and web.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-39.png"
+- screenshot: "/uploads/2020/09/23/braze-connector-1.png"
   title: Connects to Wunder Fleet
   screenshot_description: ''
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-10-55-51.png"
+- screenshot: "/uploads/2020/09/23/braze-connector-2.png"
   title: Pulls your customers data
   screenshot_description: ''
 - screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-04-38.png"
