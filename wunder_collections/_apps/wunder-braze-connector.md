@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Integrations (API)
 title: Wunder - Braze Connector
-icon: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-04-38.png"
+icon: "/uploads/2020/09/23/braze-connector-logo.png"
 excerpt: Seamlessly engage with your customers by connecting Wunder Fleet & Braze.
 featured: false
 preview_gallery: []

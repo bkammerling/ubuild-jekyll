@@ -2,11 +2,11 @@
 layout: marketplace-app
 category: Integrations (API)
 title: Zendesk Connector
-icon: "/uploads/2020/09/23/zendesk-connector-logo.png"
+icon: "/uploads/2020/09/23/zendesk-connector-logo-1.png"
 excerpt: Create better customer relationships by connecting Wunder Fleet & Zendesk.
 featured: false
 preview_gallery: []
-description: "<p>Enabling this tool will connect the Wunder Fleet API with the Zendesk
+description: "<p>Our Zendesk Connector connects the Wunder Fleet API with the Zendesk
   API.</p><p>This way your Wunder Fleet customer data is automatically &amp; seamlessly
   synchronized with your Zendesk database. Zendesk is a customer support platform
   that lets you connect with customers on any channel. Whether your customers want
