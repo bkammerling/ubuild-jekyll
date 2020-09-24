@@ -5,7 +5,13 @@ title: Zendesk Connector
 icon: "/uploads/2020/09/23/zendesk-connector-logo-2.png"
 excerpt: Create better customer relationships by connecting Wunder Fleet & Zendesk.
 featured: false
-preview_gallery: []
+preview_gallery:
+- image-video: "/uploads/2020/09/23/zendesk-connector-1-1.png"
+  title: Connects to your Wunder Fleet database
+- image-video: "/uploads/2020/09/23/zendesk-connector-2-1.png"
+  title: Pulls your customers data
+- image-video: "/uploads/2020/09/23/zendesk-connector-3-1.png"
+  title: Imports the data to Zendesk
 description: "<p>Our Zendesk Connector connects the Wunder Fleet API with the Zendesk
   API.</p><p>This way your Wunder Fleet customer data is automatically &amp; seamlessly
   synchronized with your Zendesk database. Zendesk is a customer support platform
