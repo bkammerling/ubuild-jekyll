@@ -1,6 +1,6 @@
 ---
 layout: marketplace-app
-category: Integrations (API)
+category: Operations Improvement
 title: Asana
 icon: "/uploads/2020/09/15/image4-1.png"
 excerpt: Why use Asana? Asana gives you everything you need to stay in sync, hit deadlines,
