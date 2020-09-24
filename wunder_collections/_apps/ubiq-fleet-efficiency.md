@@ -1,13 +1,13 @@
 ---
 layout: marketplace-app
-category: Utilization Improvement
+category: Analytics and Monitoring
 title: Ubiq
 icon: "/uploads/2020/09/21/logo-gradient-sam-hargreaves.jpg"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
   operational costs.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/22/ubiq.mp4"
+- image-video: "/uploads/2020/09/24/ubiq_new.mp4"
   title: Video
 - image-video: "/uploads/2020/09/21/warsaw-final-sam-hargreaves.jpg"
   title: Easy-to-use StreetCrowd app showing vehicles in need of repositioning or
