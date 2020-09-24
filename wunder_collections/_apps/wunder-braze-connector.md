@@ -5,7 +5,13 @@ title: Braze Connector
 icon: "/uploads/2020/09/23/braze-connector-logo-1.png"
 excerpt: Seamlessly engage with your customers by connecting Wunder Fleet & Braze.
 featured: false
-preview_gallery: []
+preview_gallery:
+- image-video: "/uploads/2020/09/23/braze-connector-1.png"
+  title: Connects to Wunder Fleet
+- image-video: "/uploads/2020/09/23/braze-connector-2.png"
+  title: Pulls your customers data
+- image-video: "/uploads/2020/09/24/braze-connector-3.png"
+  title: Imports the data to Braze
 description: "<p>Enabling this tool will connect the Wunder Fleet API with the Braze
   API. This way your relevant user data is automatically &amp; seamlessly synchronized
   with your Braze database. Braze is a customer engagement platform built for today’s
@@ -20,7 +26,7 @@ screenshot_details:
 - screenshot: "/uploads/2020/09/23/braze-connector-2.png"
   title: Pulls your customers data
   screenshot_description: ''
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-04-38.png"
+- screenshot: "/uploads/2020/09/24/braze-connector-3.png"
   title: Imports the data to Braze
   screenshot_description: ''
 app_details:
