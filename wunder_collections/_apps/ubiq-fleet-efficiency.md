@@ -22,7 +22,7 @@ description: "<p>Most shared mobility services aren’t profitable. Ubiq's data-
   monetization and decrease operational costs.</p><p>Whatever your operational needs
   are, Ubiq can add value. This could be intelligence to help existing service teams
   work more effectively or, for operators looking for a more hands-off approach, Ubiq
-  has established the StreetCrowd: Crowdsourced operations executed by citizens.</p><p>-----
+  has established the StreetCrowd: Crowdsourced operations executed by citizens.</p><p>---
   Solutions include: Automated Rebalancing (intelligence only or with optional StreetCrowd
   app), Predictive Charging (StreetCrowd app) and Dynamic Pricing ---</p>"
 screenshot_details:
@@ -43,12 +43,12 @@ screenshot_details:
     available.
 - screenshot: "/uploads/2020/09/21/usp-3-resized-sam-hargreaves.png"
   title: Fleet efficiency your way
-  screenshot_description: |-
-    Whatever your operational needs are, Ubiq adds value.
-
-    If you have a brilliant service team already, Ubiq can help them to be more efficient.
-
-    If you are unsure how underutilized your vehicles are, Ubiq’s plug-in forecasting models can help you see where improvements can be made.
+  screenshot_description: "Whatever your operational needs are, Ubiq adds value.\n\nIf
+    you have a brilliant service team already, Ubiq can help them to be more efficient.
+    If you are unsure how underutilized your vehicles are, Ubiq’s plug-in forecasting
+    models help you see where improvements can be made.\n\nRather not have to worry
+    about any of this? Ubiq’s complete StreetCrowd platform automates operations by
+    leveraging the power of the crowd. \n"
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/" title="Developer Website →">Developer
