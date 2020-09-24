@@ -18,7 +18,7 @@ description: "<p>Our Zendesk Connector connects the Wunder Fleet API with the Ze
 screenshot_details:
 - screenshot: "/uploads/2020/09/23/zendesk-connector-1-1.png"
   title: Connects to your Wunder Fleet database
-  screenshot_description: Our API connects to you Wunder Fleet customer database
+  screenshot_description: Our API connects to your Wunder Fleet customer database
 - screenshot: "/uploads/2020/09/23/zendesk-connector-2-1.png"
   title: Pulls your customers data
   screenshot_description: 'After successfully connecting to your customer database,
