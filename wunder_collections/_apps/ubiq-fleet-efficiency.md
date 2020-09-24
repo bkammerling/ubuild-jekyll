@@ -18,13 +18,13 @@ preview_gallery:
   title: The StreetCrowd app matches users with nearby charging stations.
 description: "<p>Most shared mobility services aren’t profitable. Ubiq's data-driven
   services address this by automating operations to ensure vehicles are in the right
-  place, at the right time, to meet demand. This enables operators to increase fleet
-  monetization and decrease operational costs.</p><p>Whatever your operational needs
-  are, Ubiq can add value. This could be intelligence to help existing service teams
-  work more effectively or, for operators looking for a more hands-off approach, Ubiq
-  has established the StreetCrowd: Crowdsourced operations executed by citizens.</p><p>---
-  Solutions include: Automated Rebalancing (intelligence only or with optional StreetCrowd
-  app), Predictive Charging (StreetCrowd app) and Dynamic Pricing ---</p>"
+  place, at the right time, to meet demand. This enables operators to increase revenues
+  and decrease operational costs.</p><p>Whatever your operational needs are, Ubiq
+  can add value. This could be intelligence to help existing service teams work more
+  effectively or, for operators looking for a more hands-off approach, Ubiq has established
+  the StreetCrowd: Crowdsourced operations executed by citizens.</p><p>--- Solutions
+  include: Automated Rebalancing (intelligence only or with optional StreetCrowd app),
+  Predictive Charging (StreetCrowd app) and Dynamic Pricing ---</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/21/usp-1-resized-sam-hargreaves.png"
   title: Leverage the power of the crowd to exploit the full potential of your fleet
