@@ -7,12 +7,12 @@ excerpt: Cut running costs & stay in full control of your vehicle fleet with the
   IoT Connector.
 featured: false
 preview_gallery:
+- image-video: "/uploads/2020/09/25/wunder-iot_admin-1.png"
+  title: View & monitor all you IoT devices at a glance
+- image-video: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
+  title: Onboard & manage multiple IoT devices at once
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-3.png"
   title: Define & adjust device settings centrally with configuration presets
-- image-video: "/uploads/2020/09/25/wunder-iot_admin-1.png"
-  title: All you IoT devices at a glance
-- image-video: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
-  title: Onboard & manage multiple devices at once
 description: "<p>The Wunder IoT Connector API is the bridge between your IoT devices
   and our standardized Wunder Fleet APIs. It does not matter what kind of hardware
   or vehicle is trying to talk to Wunder Fleet — the IoT Connector makes sure that
