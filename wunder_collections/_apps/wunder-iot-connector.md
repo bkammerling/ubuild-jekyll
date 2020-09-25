@@ -30,11 +30,11 @@ screenshot_details:
 
     Our smart configuration feature allows to update multiple vehicles with just one click.
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
-  title: Manage device configuration presets centrally
-  screenshot_description: |-
-    Speed limits differ across your operation areas? You're launching a new market? Define parameters – like max. allowed speed – once and simply assign devices to that configuration.
-    With configuration presets you define, manage, and update device settings in one central place.
-    Simple as that!
+  title: Configure devices centrally with configuration presets
+  screenshot_description: Speed limits differ across your operation areas? Regulations
+    in one of your markets changed? With configuration presets you define, manage,
+    and update device settings in one central place. Set parameters, e.g. local speed
+    limit, once and assign devices to that configuration. Simple as that!
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
