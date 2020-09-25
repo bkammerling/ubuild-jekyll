@@ -14,6 +14,18 @@ nav.navbar {
       padding-right: 16px;
       padding-left: 16px;
       margin: 0;
+      position: relative;
+      &:after {
+        content: '';
+        display: block;
+        width: calc(100% - 32px);
+        position: absolute;
+        height: 2px;
+        background: #1f1f1f;
+        bottom: -8px;
+        transition: opacity .4s;
+        opacity: 0;
+      }
     }
     &.is-active {
       .nav-item {
@@ -22,6 +34,9 @@ nav.navbar {
         }
         &.is-active .nav-link {
           color: $mobility-black;
+          &:after {
+            opacity: 1;
+          }
         }
       }
     }
@@ -82,15 +97,15 @@ nav.navbar {
     padding-top: 56px;
     height: 100%;
     overflow: scroll;
-    @include rwd(tablet-up) {
-      height: 470px;
+    @include rwd(desktop-up) {
+      height: 435px;
     }
   }
   &__single-menu {
     padding: 40px 0 16px;
     width: 100%;
     background-color: $white;
-    @include rwd(tablet-up) {
+    @include rwd(desktop-up) {
       position: absolute;
       opacity: 0;
       transition: opacity $transition-duration;

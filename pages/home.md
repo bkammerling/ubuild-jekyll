@@ -28,6 +28,7 @@ page_sections:
   background_video: hp-loop-test2
   show_logos: false
   background_image: "/uploads/global/fleet-frame.jpg"
+  sub_logo: "/uploads/global/home/mobility-os.svg"
   intro_text: ''
   logo_row:
 - template: custom-block

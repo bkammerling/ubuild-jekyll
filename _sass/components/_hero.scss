@@ -10,15 +10,17 @@
 
   .hero-banner__inner-content {
     .block-hero-hp & {
-      padding: rem(145px) 0;
+      padding: rem(125px) 0;
       @include rwd(tablet-up) {
-        padding: rem(260px) 0;
+        padding: rem(200px) 0;
       }
     }
     margin: 0 auto;
     position: relative;
     text-align: center;
-
+    .home & {
+      text-align: left;
+    }
   }
 
   .hero-banner__title-wrapper {
@@ -28,6 +30,11 @@
     color: $white;
     display: inline-block;
     z-index: 2;
+    .home & {
+      h1 {
+        max-width: 80%;
+      }
+    }
   }
 
   a {

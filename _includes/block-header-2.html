@@ -4,11 +4,11 @@
   {% assign menu_name = 'wunder-main' %}
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
-<nav class="navbar fixed-top navbar-expand-md block block-header-2 px-4">
+<nav class="navbar fixed-top navbar-expand-lg block block-header-2 px-4">
   <a class="navbar-brand" href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}">
     <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">
   </a>
-  <button class="hamburger hamburger--collapse header__hamburger d-md-none" type="button">
+  <button class="hamburger hamburger--collapse header__hamburger d-lg-none" type="button">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
@@ -23,7 +23,7 @@
       {% endif %}
       {% endfor %}
       {% if section.cta.enabled %}
-        <a class="btn btn-primary gt-navcta"
+        <a class="btn btn-dark gt-navcta"
           {% comment %}{% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020"{% endif %}{% endcomment %}
           {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
           href="{{ section.cta.url }}">
@@ -37,6 +37,14 @@
   <div class="nav-full__overlay"></div>
   <div class="nav-full__wrapper">
     <div class="container">
+      {% if section.cta.enabled %}
+        <a class="btn btn-dark gt-navcta mt-4 d-lg-none"
+          {% comment %}{% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020"{% endif %}{% endcomment %}
+          {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
+          href="{{ section.cta.url }}">
+          {{ section.cta.button_text }}
+        </a>
+      {% endif %}
       <div class="row">
         <div class="col-md-11 col-xl-10 offset-xl-1 d-flex flex-wrap">
           {% for nav_item in menu %}
@@ -47,9 +55,7 @@
             <div class="row">
               <div class="col-md-12 col-lg-3">
                 <h2 class="headline-medium">
-
                     {{ nav_item.title }}
-
                 </h2>
               </div>
               <div class="col-md-12 col-lg-9 mt-md-3 mt-lg-0">

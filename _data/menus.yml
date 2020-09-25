@@ -2,115 +2,102 @@
 wunder-main:
 - url: "#"
   weight: 1
-  title: Products
-  identifier: solutions
+  title: Vehicle Sharing
+  identifier: vehiclesharing
   sub: true
 - url: "/fleet"
   weight: 1
-  parent: solutions
+  parent: vehiclesharing
   identifier: fleet
   title: Fleet
-  subtitle: All-in-one vehicle sharing
+  subtitle: Launch your free-floating sharing company with an all-in-one platform.
 - url: "/rent"
   weight: 2
-  parent: solutions
+  parent: vehiclesharing
   identifier: rent
   title: Rent
-  subtitle: Keyless, self-service rentals
-- url: "/carpool"
+  subtitle: Keyless, station-based rentals, booked in advance.
+- url: "/vehicles"
   weight: 3
-  parent: solutions
+  parent: vehiclesharing
+  identifier: vehicles
+  title: Vehicles
+  subtitle: Sharing-ready vehicles for the next generation of mobility
+- url: "#"
+  weight: 2
+  title: Ride Hailing
+  identifier: ridehailing
+  sub: true
+- url: "/shuttle"
+  weight: 1
+  parent: ridehailing
+  identifier: ride
+  title: Ride
+  subtitle: Single or pooled rides, booked in advance or on-demand.
+- url: "/carpool"
+  weight: 2
+  parent: ridehailing
   identifier: carpool
   title: Carpool
-  subtitle: Improve the daily commute
-- url: "/shuttle"
+  subtitle: Enable employees to organize shared rides to work and cut emissions.
+- url: "#"
   weight: 3
-  parent: solutions
-  identifier: shuttle
-  title: Shuttle
-  subtitle: On-demand ride hailing
-- url: "/park"
-  weight: 5
-  parent: solutions
-  identifier: park
-  title: Park
-  subtitle: Smart parking management
+  title: Extensions
+  identifier: extensions
+  sub: true
+- url: "/marketplace"
+  weight: 1
+  parent: extensions
+  identifier: marketplace
+  title: NEW! Marketplace
+  subtitle: Enhance and scale your mobility business with our modular platform.
 - url: "/city"
-  weight: 6
-  parent: solutions
+  weight: 2
+  parent: extensions
   identifier: city
   title: City
-  subtitle: Mobility data analysis
-- url: "/vehicles"
-  weight: 7
-  parent: solutions
-  identifier: hardware
-  title: Vehicles
-  subtitle: Sharing-ready vehicles
+  subtitle: Analytics to prepare cities for a connected future.
+- url: "/park"
+  weight: 3
+  parent: extensions
+  identifier: park
+  title: Park
+  subtitle: Make better use of limited space with digital parking management.
 - url: "#"
   weight: 2
   title: Company
   identifier: company
   sub: true
-- url: "/blog/"
-  weight: 1
-  identifier: blog
-  title: Blog
-  parent: company
-  subtitle: Exploring the future of urban mobility
-- url: "/summit/"
-  weight: 2
-  identifier: summit
-  title: Wunder Summit
-  parent: company
-  subtitle: The mobility event of the year!
 - url: "/our-story"
-  weight: 2
+  weight: 1
   identifier: our-story
   title: Our Story
   parent: company
   subtitle: Every journey starts somewhere
+- url: "/blog/"
+  weight: 2
+  identifier: blog
+  title: Blog
+  parent: company
+  subtitle: Exploring the future of urban mobility
+- identifier: workingatwunder
+  subtitle: Wanna join the ride?
+  url: "/careers/"
+  parent: company
+  weight: 3
+  title: Working at Wunder
 - url: "/press"
   weight: 4
   identifier: press
   title: Press
   parent: company
   subtitle: Yeah, we're being talked about!
-- url: "#"
-  weight: 3
-  title: Careers
-  identifier: careers
-  sub: true
-- identifier: workingatwunder
-  subtitle: Wanna join the ride?
-  url: "/careers/"
-  parent: careers
+- url: "/summit/"
   weight: 5
-  title: Working at Wunder
-- identifier: jobs
-  url: "/careers/jobs"
-  subtitle: Check our available positions
-  title: Jobs
-  weight: 4
-  parent: careers
-- identifier: locations
-  url: "/careers/locations"
-  weight: 3
-  title: Locations
-  subtitle: Offices around the globe
-  parent: careers
-- identifier: culture
-  url: "/careers/culture"
-  weight: 2
-  title: Culture
-  subtitle: A ride to remember
-  parent: careers
-- identifier: perks
-  url: "/careers/perks"
-  weight: 1
-  title: Perks
-  subtitle: Not the normal 9 to 5
-  parent: careers
+  identifier: summit
+  title: Wunder mobility Summit
+  parent: company
+  subtitle: The mobility event of the year!
 
 wunder-de:
 - url: "#"

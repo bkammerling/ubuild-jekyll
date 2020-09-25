@@ -5,28 +5,25 @@ date: '2019-01-08T23:00:00.000+00:00'
 permalink: "/fleet"
 lang: en
 lang-ref: fleet
+version: hp
 component_scripts:
 - animatedHeadline.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   menu: wunder-main
-  sub_logo: "/uploads/global/Wunder_Fleet_White.svg"
+  sub_logo: ""
   cta:
     url: "#section-contact"
     button_text: Contact
     enabled: true
 - template: hero-banner-w-image
-  block: hero-2
-  headline: <div class="cd-headline push">an <strong>all-in-one</strong> solution
-    for <span class="cd-words-wrapper"><b class="is-visible">scooter&nbsp;sharing</b><b>bike&nbsp;sharing</b><b>car&nbsp;sharing</b></span>
+  block: hero-hp
+  headline: Launch your free-floating sharing company
+  sub_logo: "/uploads/global/Wunder_Fleet_White.svg"
   cta:
-    button_text: Contact Us
-    url: "#section-contact"
-    enabled: true
-  cta_2:
     url: "#main-video"
-    button_text: Watch Fleet Film
+    button_text: Watch how it works
     enabled: true
   background_video: fleet_loop
   show_logos: true
