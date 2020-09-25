@@ -14,10 +14,10 @@ preview_gallery:
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-3.png"
   title: Define & adjust device settings centrally with configuration presets
 description: "<p>The Wunder IoT Connector API is the bridge between your IoT devices
-  and our standardized Wunder Fleet APIs. It does not matter what kind of hardware
-  or vehicle is trying to talk to Wunder Fleet — the IoT Connector makes sure that
-  both always understand each other.</p><p>With the Wunder IoT Connector you can manage
-  all your devices in a central place and easy-to-use interface.</p>"
+  and our standardized Wunder Fleet APIs. No matter what kind of hardware or vehicle
+  is trying to talk to Wunder Fleet — the IoT Connector makes sure that both always
+  understand each other.</p><p>With the Wunder IoT Connector interface you can manage
+  all your devices efficiently in once central place through easy-to-use interface.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-1.png"
   title: View & monitor all you IoT devices in one place
