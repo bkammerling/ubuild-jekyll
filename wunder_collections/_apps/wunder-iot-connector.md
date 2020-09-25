@@ -17,8 +17,8 @@ description: "<p>The Wunder IoT Connector API is the bridge between your IoT dev
   both always understand each other.</p><p>With the Wunder IoT Connector you can manage
   all your devices in a central place and easy-to-use interface.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-21.png"
-  title: All you devices at a glance
+- screenshot: "/uploads/2020/09/25/wunder-iot_admin-1.png"
+  title: Manage & Monitor all you IoT devices at a glance
   screenshot_description: |-
     Don’t loose track of what is going on — see all your devices and their status, like battery level, in a comprehensive table.
 
