@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Operations Improvement
-title: Wunder - IoT Connector
+title: Wunder IoT Connector
 icon: "/uploads/2020/09/25/wunderiotconnector_square.png"
 excerpt: Cut ongoing costs & stay in full control of your vehicle fleet with the Wunder
   IoT Connector.
