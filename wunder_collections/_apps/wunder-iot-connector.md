@@ -17,12 +17,6 @@ description: "<p>The Wunder IoT Connector API is the bridge between your IoT dev
   both always understand each other.</p><p>With the Wunder IoT Connector you can manage
   all your devices in a central place and easy-to-use interface.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
-  title: Manage device configuration presets centrally
-  screenshot_description: |-
-    Speed limits differ across your operation areas? You're launching a new market? Define parameters – like max. allowed speed – once and simply assign devices to that configuration.
-    With configuration presets you define, manage, and update device settings in one central place.
-    Simple as that!
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-1.png"
   title: Manage & Monitor all you IoT devices at a glance
   screenshot_description: |-
@@ -35,6 +29,12 @@ screenshot_details:
     Integrate thousands of vehicles at once and configure them with just a few clicks.
 
     Our smart configuration feature allows to update multiple vehicles with just one click.
+- screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
+  title: Manage device configuration presets centrally
+  screenshot_description: |-
+    Speed limits differ across your operation areas? You're launching a new market? Define parameters – like max. allowed speed – once and simply assign devices to that configuration.
+    With configuration presets you define, manage, and update device settings in one central place.
+    Simple as that!
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
