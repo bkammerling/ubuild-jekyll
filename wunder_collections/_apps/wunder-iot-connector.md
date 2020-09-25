@@ -3,10 +3,12 @@ layout: marketplace-app
 category: Operations Improvement
 title: Wunder IoT Connector
 icon: "/uploads/2020/09/25/wunderiotconnector_square.png"
-excerpt: Cut ongoing costs & stay in full control of your vehicle fleet with the Wunder
+excerpt: Cut running costs & stay in full control of your vehicle fleet with the Wunder
   IoT Connector.
 featured: false
 preview_gallery:
+- image-video: "/uploads/2020/09/25/wunder-iot_admin-3.png"
+  title: Define & adjust device settings centrally with configuration presets
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-1.png"
   title: All you IoT devices at a glance
 - image-video: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
@@ -30,7 +32,7 @@ screenshot_details:
 
     Our smart configuration feature allows to update multiple vehicles with just one click.
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
-  title: Configure devices centrally with configuration presets
+  title: Define & adjust device settings centrally with configuration presets
   screenshot_description: Speed limits differ across your operation areas? Regulations
     in one of your markets changed? With configuration presets you define, manage,
     and update device settings in one central place. Set parameters, e.g. local speed
