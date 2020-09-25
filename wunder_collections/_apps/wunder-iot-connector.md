@@ -8,8 +8,8 @@ excerpt: Cut running costs & stay in full control of your vehicle fleet with the
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-1.png"
-  title: View & monitor all you IoT devices at a glance
-- image-video: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
+  title: View & monitor all you IoT devices in one place
+- image-video: "/uploads/2020/09/25/wunder-iot_admin-2.png"
   title: Onboard & manage multiple IoT devices at once
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-3.png"
   title: Define & adjust device settings centrally with configuration presets
@@ -20,13 +20,13 @@ description: "<p>The Wunder IoT Connector API is the bridge between your IoT dev
   all your devices in a central place and easy-to-use interface.</p>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-1.png"
-  title: Manage & Monitor all you IoT devices at a glance
+  title: View & monitor all you IoT devices in one place
   screenshot_description: |-
     Don’t loose track of what is going on — see all your devices and their status, like battery level, in a comprehensive table.
 
-    Quickly find the right devices with smart filters and sorting.
-- screenshot: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
-  title: Bulk onboard & edit multiple devices
+    Quickly find the devices you're looking for with smart filters and sorting.
+- screenshot: "/uploads/2020/09/25/wunder-iot_admin-2.png"
+  title: Onboard & manage multiple IoT devices at once
   screenshot_description: |-
     Integrate thousands of vehicles at once and configure them with just a few clicks.
 
