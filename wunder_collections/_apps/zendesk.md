@@ -1,6 +1,6 @@
 ---
 layout: marketplace-app
-category: CRM
+category: Customer Relationship Management (CRM)
 title: Zendesk
 icon: "/uploads/2020/09/21/ac81981ea4e811e8cc02d7fbfe0f8516-marina-snegirjova.png"
 excerpt: The best customer experiences are built with Zendesk.
