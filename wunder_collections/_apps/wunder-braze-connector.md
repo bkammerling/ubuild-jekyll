@@ -22,13 +22,15 @@ description: "<p>Enabling this tool will connect the Wunder Fleet API with the B
 screenshot_details:
 - screenshot: "/uploads/2020/09/23/braze-connector-1.png"
   title: Connects to Wunder Fleet
-  screenshot_description: ''
+  screenshot_description: Our API connects to your Wunder Fleet customer database.
 - screenshot: "/uploads/2020/09/23/braze-connector-2.png"
   title: Pulls your customers data
-  screenshot_description: ''
+  screenshot_description: After successfully connecting to your customer database,
+    the Braze Connector gathers and converts your customer database entries.
 - screenshot: "/uploads/2020/09/24/braze-connector-3.png"
   title: Imports the data to Braze
-  screenshot_description: ''
+  screenshot_description: The Braze Connector sends all user data over to your connected
+    Braze account – all your Wunder Fleet customers are now available in Braze.
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
