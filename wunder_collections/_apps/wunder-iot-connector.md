@@ -10,13 +10,19 @@ preview_gallery:
 - image-video: "/uploads/2020/09/25/wunder-iot_admin-1.png"
   title: All you IoT devices at a glance
 - image-video: "/uploads/2020/09/22/screenshot-2020-09-22-at-11-20-31.png"
-  title: Bulk onboard & edit multiple devices
+  title: Onboard & manage multiple devices at once
 description: "<p>The Wunder IoT Connector API is the bridge between your IoT devices
   and our standardized Wunder Fleet APIs. It does not matter what kind of hardware
   or vehicle is trying to talk to Wunder Fleet — the IoT Connector makes sure that
   both always understand each other.</p><p>With the Wunder IoT Connector you can manage
   all your devices in a central place and easy-to-use interface.</p>"
 screenshot_details:
+- screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
+  title: Manage device configuration presets centrally
+  screenshot_description: |-
+    Speed limits differ across your operation areas? You're launching a new market? Define parameters – like max. allowed speed – once and simply assign devices to that configuration.
+    With configuration presets you define, manage, and update device settings in one central place.
+    Simple as that!
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-1.png"
   title: Manage & Monitor all you IoT devices at a glance
   screenshot_description: |-
