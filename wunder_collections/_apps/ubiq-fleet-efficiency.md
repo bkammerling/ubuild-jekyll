@@ -34,7 +34,7 @@ screenshot_details:
     operators to automate operations. By leveraging the power of the crowd,  mobility
     providers have access to scalable, decentralized operations that run 24/7, across
     the city. \n\n*The service can also be used by operational teams."
-- screenshot: "/uploads/2020/09/21/usp-2-sam-hargreaves.png"
+- screenshot: "/uploads/2020/09/25/technical-graphic-final-version.png"
   title: 'Plug in and play: API option to get started right away'
   screenshot_description: Provide your historic fleet data and live vehicle availability
     information / API, then access the Ubiq Fleet Rebalancing, Predictive Charging
