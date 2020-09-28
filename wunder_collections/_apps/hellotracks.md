@@ -3,10 +3,9 @@ layout: marketplace-app
 category: Operations Improvement
 title: Hellotracks
 icon: "/uploads/2020/09/28/logo-hellotracks_mesa-de-trabajo-1-mariana-frese.png"
-excerpt: Hellotracks is a real-time location tracking service. Offering in-field and
-  office employees greater visibility and control of all activities that occur in
-  the field. Managers can create, dispatch and follow jobs. Field staff can easily
-  access job data, input relevant customer information and optimize routes.
+excerpt: Hellotracks is a real-time location tracking service. Managers can create,
+  dispatch and follow jobs. Field staff can easily access job data, input relevant
+  customer information and optimize routes.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
@@ -38,9 +37,44 @@ description: "<p>Hellotracks is a Field Service Management platform which will b
   The job can also be synchronized with the Google Calendar of the assigned team member.
   You also have the ability to integrate with any other app or CRM that you use with
   our developer-friendly APIs.</p>"
-screenshot_details: []
-app_details: []
-access_needed: []
-getting_started: []
+screenshot_details:
+- screenshot: "/uploads/2020/09/28/real-time-location-mariana-frese.jpg"
+  title: Real-time location
+  screenshot_description: On the go tracking follows your staff’s live location and
+    day routes in real-time from your desk or smartphone.
+- screenshot: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
+  title: Automatic job dispatch
+  screenshot_description: Create, assign and automate jobs easily and effectively.
+    Your operations will be streamlined from start to finish and you’ll have time
+    and space to get the job done.
+- screenshot: "/uploads/2020/09/28/jobs-list-field-staff-view-mariana-frese.jpg"
+  title: Leverage your smartphone
+  screenshot_description: Your employees can easily input data for each job, as simple
+    as a quick Thumbs Up on completing the job, and use valuable functions like attaching
+    images and capturing client signatures. Hellotracks integrates with your preferred
+    navigation app.
+app_details:
+- detail_title: ''
+  detail_content: <a href="https://hellotracks.com/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://hellotracks.com/en/terms-of-service/" title="Terms
+    of Service →">Terms of Service →</a>
+- detail_content: <a href="https://hellotracks.com/en/privacy-notice/" title="Privacy
+    Policy →">Privacy Policy →</a>
+  detail_title: ''
+access_needed:
+- Deliver API Credentials
+getting_started:
+- column_title: Contact your Account manager and sign up for a 30-day free trial account
+  column_description: Click the 'Let's go' or 'Get started' button to reach out and
+    sign up for a 30-day free trial account in less then 2 minutes.
+- column_title: Create an account for your team members
+  column_description: 'From the dashboard enter the email address and the role (admin,
+    operator, or worker) for each team member you want to invite to your account.
+    They will receive an invite to get started and to download the mobile app. '
+- column_title: Finish
+  column_description: Your account manager will connect you with us and we will help
+    you during the deployment and integration phase.
 
 ---
