@@ -49,9 +49,16 @@ app_details:
     Policy →">Privacy Policy →</a>
 access_needed: []
 getting_started:
+- column_title: Good to go!
+  column_description: After things are setup the connector will do it's work in the
+    back, keeping all your devices connected. You can setup, monitor, and configure
+    your devices in our easy-to-use admin interface.
 - column_title: Get in Touch
   column_description: |2
 
     Hit "Let's go" to reach out to us — one of our account managers will get back to you in no time.
+- column_title: Setting everything up
+  column_description: After you decide to use the Wunder IoT Connector, our team guides
+    you through every step towards setting everything up.
 
 ---
