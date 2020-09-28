@@ -3,9 +3,7 @@ layout: marketplace-app
 category: Operations Improvement
 title: Hellotracks
 icon: "/uploads/2020/09/28/logo-hellotracks_mesa-de-trabajo-1-mariana-frese.png"
-excerpt: Hellotracks is a real-time location tracking service that allows managers
-  to create, dispatch, and follow jobs which their field staff can access, input relevant
-  information, and optimize routes.
+excerpt: Hellotracks is a real-time location tracking service.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
