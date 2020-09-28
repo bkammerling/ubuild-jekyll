@@ -21,7 +21,7 @@ description: "<p>Taking a page from app-based car hire products, RateMonitor Eli
 screenshot_details:
 - screenshot: "/uploads/2020/09/28/ratemonitor-pro-large-michael-meyer.png"
   title: RateMonitor Elite helps you price by demand, increasing revenue by 18% on
-    average.
+    average
   screenshot_description: There are two approaches to pricing; the first and most
     effective is where demand for a product drives pricing; the second is simple flat
     pricing – which is far less financially rewarding. RateMonitor Elite is the most
@@ -30,7 +30,7 @@ screenshot_details:
     inventory. Whether the demand for your product is steady or experiencing increased
     demand, your pricing is always optimal.
 - screenshot: "/uploads/2020/09/28/ratemonitor-pro-large-michael-meyer.png"
-  title: Using RateMonitor Elite for pricing saves hundreds of hours.
+  title: Using RateMonitor Elite for pricing saves hundreds of hours
   screenshot_description: Customers using a market-based pricing strategy for their
     rentals will save hundreds of hours by off-loading the busy work of competitive
     pricing to automation. By using RateMonitor Elite to perform your (formerly) manual
