@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Wunder IoT Connector
-icon: "/uploads/2020/09/25/wunderiotconnector_square.png"
+icon: "/uploads/2020/09/28/glyph.png"
 excerpt: Cut running costs & stay in full control of your vehicle fleet with the Wunder
   IoT Connector.
 featured: false
@@ -48,6 +48,10 @@ app_details:
   detail_content: <a href="https://www.wundermobility.com/privacy" title="Privacy
     Policy →">Privacy Policy →</a>
 access_needed: []
-getting_started: []
+getting_started:
+- column_title: Get in Touch
+  column_description: |2
+
+    Hit "Let's go" to reach out to us — one of our account managers will get back to you in no time.
 
 ---
