@@ -212,6 +212,10 @@
       margin-left: 75vw;
       position: absolute;
       height: 100%;
+      .fleet & {
+        transform: none;
+        margin-left: 50%; // reverting to grid-framework
+      }
       img {
         height: 100%;
         max-width: none;
@@ -620,6 +624,29 @@ a img.right-arrow {
 
 /* END OF VEHICLES STYLING   */
 
+
+
+/* FLEET 2020 */
+
+.fleet-app-img {
+  @include rwd(tablet-up) {
+    width: 130%;
+    max-width: none;
+  }
+  @include rwd(desktop-up) {
+    width: 110%;
+  }
+}
+
+.fleet-mockup {
+  @include rwd(tablet-up) {
+    max-width: 140%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
 
 ul.feature-list {
   padding-left: 1.8em;

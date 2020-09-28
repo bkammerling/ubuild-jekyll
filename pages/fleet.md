@@ -6,8 +6,6 @@ permalink: "/fleet"
 lang: en
 lang-ref: fleet
 version: hp
-component_scripts:
-- animatedHeadline.js
 page_sections:
 - template: navigation-header-w-button
   block: header-2
