@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Utilization Improvement
-title: RateMonitor Elite Dynamic Pricing
+title: RateMonitor Elite
 icon: "/uploads/2020/09/28/rh-logo-stacked-256-x-256-ver2-michael-meyer.png"
 excerpt: Easily price your rentals based on your strategy and the current demand .
 featured: false
