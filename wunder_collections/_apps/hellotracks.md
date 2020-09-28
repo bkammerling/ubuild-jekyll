@@ -9,7 +9,7 @@ preview_gallery:
 - image-video: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
   title: Automatically dispatch jobs with optimized routes - Dispatch jobs and optimize
     routes.
-- image-video: "/uploads/2020/09/28/real-time-location-and-field-staff-status-mariana-frese.jpg"
+- image-video: "/uploads/2020/09/28/hellotracks-2.jpg"
   title: Follow your field staff in real-time - Real time location and field staff
     status.
 - image-video: "/uploads/2020/09/28/jobs-list-and-route-mariana-frese.jpg"
@@ -40,7 +40,7 @@ screenshot_details:
   title: Real-time location
   screenshot_description: On the go tracking follows your staff’s live location and
     day routes in real-time from your desk or smartphone.
-- screenshot: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
+- screenshot: "/uploads/2020/09/28/hello-tracks-4.jpg"
   title: Automatic job dispatch
   screenshot_description: Create, assign and automate jobs easily and effectively.
     Your operations will be streamlined from start to finish and you’ll have time
