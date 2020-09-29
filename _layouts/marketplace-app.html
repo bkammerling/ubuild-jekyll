@@ -208,11 +208,11 @@
           <div class="container pt-3">
             <div class="custom-control custom-radio custom-control-inline">
               <input type="radio" id="customerRadio1" name="customer" value="customerYes" class="custom-control-input marketplace-radio" checked>
-              <label class="custom-control-label" for="customerRadio1">I'm a customer</label>
+              <label class="custom-control-label" for="customerRadio1">I’m Wunder Mobility customer</label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
               <input type="radio" id="customerRadio2" name="customer" value="customerNo" class="custom-control-input marketplace-radio">
-              <label class="custom-control-label" for="customerRadio2">I'm not a customer yet</label>
+              <label class="custom-control-label" for="customerRadio2">Not a Wunder Mobility customer</label>
             </div>
             <div class="row mt-3">
               <div class="col-sm-6">
@@ -232,6 +232,41 @@
             <div class="form-group mb-3 conditional-hide">
               <label for="recipient-name" class="form-label">What should we call you?</label>
               <input type="text" class="text-input" id="recipient-name" name="name"  placeholder="Firstname Lastname" />
+            </div>
+
+            <div class="product-radios pt-1 mb-3 conditional-hide">
+              <p class="smallprint">What <a href="https://www.wundermobility.com" class="text-blue" title="Wunder Mobility homepage showcasing mobility products">mobility product</a> are you interested in?</p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="fleetRadio" name="productSelect" value="Wunder Fleet" class="custom-control-input marketplace-radio" required>
+                    <label class="custom-control-label" for="fleetRadio"><strong>Wunder Fleet</strong><br/>All-in-one vehicle sharing</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="rentRadio" name="productSelect" value="Wunder Rent" class="custom-control-input marketplace-radio">
+                    <label class="custom-control-label" for="rentRadio"><strong>Wunder Rent</strong><br/>Keyless, self-service rentals</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="carpoolRadio" name="productSelect" value="Wunder Carpool" class="custom-control-input marketplace-radio">
+                    <label class="custom-control-label" for="carpoolRadio"><strong>Wunder Carpool</strong><br/>Improve the daily commute</label>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="shuttleRadio" name="productSelect" value="Wunder Shuttle" class="custom-control-input marketplace-radio">
+                    <label class="custom-control-label" for="shuttleRadio"><strong>Wunder Shuttle</strong><br/>On-demand ride hailing</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="cityRadio" name="productSelect" value="Wunder City" class="custom-control-input marketplace-radio">
+                    <label class="custom-control-label" for="cityRadio"><strong>Wunder City</strong><br/>Mobility data analysis</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="parkRadio" name="productSelect" value="Wunder Park" class="custom-control-input marketplace-radio">
+                    <label class="custom-control-label" for="parkRadio"><strong>Wunder Park</strong><br/>Smart parking management</label>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
