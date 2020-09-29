@@ -167,6 +167,13 @@ fields:
     labelField: 
   label: Getting started steps
   description: 3 text columns showing next steps
+- name: whitepaper_link
+  type: text
+  config:
+    required: false
+  label: Whitepaper link
+  description: Link which points to whitepaper PDF. Use full link (e.g. including
+    <em>https://)</em>
 pages:
 - wunder_collections/_apps/adjust.md
 - wunder_collections/_apps/asana.md

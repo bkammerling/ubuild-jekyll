@@ -17,16 +17,11 @@ preview_gallery:
 description: "<p>Chargery is a 360° provider for intelligent shared mobility operations.
   By combining intelligent software, smart infrastructure solutions and services,
   Chargery enables its customers all over Europe to run their fleets efficiently and
-  cost effectively.</p><p>Our own software allows end-to-end operations management
-  through automated ticket allocation, dynamic route optimization, inventory management,
-  and resource planning to increase the availability of any shared mobility fleet
-  significantly.</p><p>Our smart and customized infrastructure solutions enable operational
-  excellence for our customers.</p><p>With our own highly-motivated service team we
-  guarantee a sustainable full-service for every shared mobility provider.</p>"
+  cost effectively.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/29/routeoptimizationcomputer-laura-mueller.jpg"
-  title: By enabling intelligent shared mobility operations we guarantee maximized
-    fleet uptime alongside minimized operational costs
+- screenshot: ''
+  title: Intelligent software solution to increase the availability of vehicles in
+    sharing fleets.
   screenshot_description: The Chargery software substantially increases the availability
     of vehicles in a shared fleet with a variety of features. The software solution
     allows you to finally experience full transparency over your vehicles and their
