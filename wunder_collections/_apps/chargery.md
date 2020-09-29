@@ -6,7 +6,7 @@ icon: "/uploads/2020/09/29/chrgry-logo_png-laura-mueller.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/29/softwareupdated2-01-laura-mueller.png"
+- image-video: "/uploads/2020/09/29/softwareupdated2-01-laura-mueller.jpg"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
 - image-video: "/uploads/2020/09/29/serviceupdated-01-laura-mueller.png"
@@ -24,7 +24,7 @@ description: "<p>Chargery is a 360° provider for intelligent shared mobility op
   excellence for our customers.</p><p>With our own highly-motivated service team we
   guarantee a sustainable full-service for every shared mobility provider.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/29/routeoptimizationcomputer-laura-mueller.png"
+- screenshot: "/uploads/2020/09/29/routeoptimizationcomputer-laura-mueller.jpg"
   title: By enabling intelligent shared mobility operations we guarantee maximized
     fleet uptime alongside minimized operational costs
   screenshot_description: The Chargery software substantially increases the availability
@@ -37,10 +37,10 @@ screenshot_details:
     developed algorithms and outstanding computing efficiency realize optimization
     of all operations dynamically. Finally, tickets can be measured against and prioritized
     according to SLAs such as reaction time or fleet uptime targets.
-- screenshot: "/uploads/2020/09/29/dashboardcomputer-laura-mueller.png"
+- screenshot: "/uploads/2020/09/29/dashboardcomputer-laura-mueller.jpg"
   title: ''
   screenshot_description: ''
-- screenshot: "/uploads/2020/09/29/taskoverviewcomputer-laura-mueller.png"
+- screenshot: "/uploads/2020/09/29/taskoverviewcomputer-laura-mueller.jpg"
   title: ''
   screenshot_description: ''
 app_details:
