@@ -54,6 +54,6 @@ access_needed:
 getting_started:
 - column_title: Get Started
   column_description: Get in contact with us and start your free trial!
-whitepaper_link: https://www.wundermobility.com/uploads/Wunder-Mobility-Facts-Sheet-EN.pdf
+whitepaper_link: ""
 
 ---

@@ -29,7 +29,7 @@ var form = {
       return txtVal.toUpperCase();
     });
     data.name = capitalizedName;
-    //console.log(data);
+    console.log(data);
 
     $.ajax({
       url: postURL,
@@ -40,14 +40,20 @@ var form = {
         "Accept": "application/json"
       }
     }).done(function (response) {
+      $("#contactModal, #partnerModal").addClass('success');
+      $("#form-submit").attr("disabled", false);
+      contactForm.removeClass('sending');
+      /*
       $("#modal-form").slideUp(400);
       $("#modalheader").removeClass('bg-dark').addClass('bg-success');
       $('#mkt-formtitle').text("Thanks for reaching out");
       $('#mkt-formintro').text("Your message has been sent successfully. We’ll get back to you in no time.");
-      // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
+      */
+      // Google tag 'formSubmitted' conversion event
       dataLayer.push({ 'event': 'formSubmitted', 'eventAction': 'Submit success', 'eventLabel': data.subject });
     }).fail(function (error) {
       console.log(error);
+      contactForm.removeClass('sending');
       $("#modalheader").removeClass('bg-dark').addClass('bg-danger');
       $('#mkt-formtitle').text("Message failed to send");
       $('#mkt-formintro').text("Your message failed to send. You can try again or reach out to moritz.dreger@wundermobility.com.");
@@ -122,6 +128,7 @@ function recaptchaSubmit(token) {
   console.log(token);
   var $form = $("#captchaResponse").parents("form");
   $('#captchaResponse').val(token);
+  $form.addClass('sending');
   form.submit($form);
 }
 

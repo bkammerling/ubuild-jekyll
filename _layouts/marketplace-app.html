@@ -146,6 +146,14 @@
     {% endif %}
 
     <div class="mt-5 {% if page.screenshot_details.size > 0 %}text-center{% endif %}">
+      {% if page.whitepaper_link contains 'http' %}
+      <a class="text-link py-3 d-block mb-3" target="_blank" href="{{ page.whitepaper_link }}">
+        Download Whitepaper
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M15 9.5H19L12 16.5L5 9.5H9V3.5H15V9.5ZM5 20.5V18.5H19V20.5H5Z" fill="#141414"/>
+        </svg>
+      </a>
+      {% endif %}
       <a class="btn btn-primary btn-mkt text-white" data-toggle="modal" data-target="#contactModal">Let's go
         <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
@@ -194,7 +202,7 @@
 <!-- Modal -->
 <div class="modal fade wunderform-modal" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Interested modal" aria-hidden="true">
   <div class="modal-dialog modal-md" role="document">
-    <div class="modal-content p-0">
+    <div class="modal-content p-0 form-content">
       <div class="modal-header bg-dark text-white pl-4 pr-5 flex-column" id="modalheader">
         <h3 class="modal-title mb-2" id="mkt-formtitle">Let’s extend your business</h3>
         <p id="mkt-formintro">Tell us a bit about your idea to get this conversation started. We’ll get back to you in now time.</p>
@@ -235,33 +243,33 @@
             </div>
 
             <div class="product-radios pt-1 mb-3 conditional-hide">
-              <p class="smallprint">What <a href="https://www.wundermobility.com" class="text-blue" title="Wunder Mobility homepage showcasing mobility products">mobility product</a> are you interested in?</p>
+              <p class="smallprint">What <a href="https://www.wundermobility.com" class="text-blue" target="_blank" title="Wunder Mobility homepage showcasing mobility products">mobility product</a> are you interested in?</p>
               <div class="row">
                 <div class="col-sm-6">
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="fleetRadio" name="productSelect" value="Wunder Fleet" class="custom-control-input marketplace-radio" required>
                     <label class="custom-control-label" for="fleetRadio"><strong>Wunder Fleet</strong><br/>All-in-one vehicle sharing</label>
                   </div>
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="rentRadio" name="productSelect" value="Wunder Rent" class="custom-control-input marketplace-radio">
                     <label class="custom-control-label" for="rentRadio"><strong>Wunder Rent</strong><br/>Keyless, self-service rentals</label>
                   </div>
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="carpoolRadio" name="productSelect" value="Wunder Carpool" class="custom-control-input marketplace-radio">
                     <label class="custom-control-label" for="carpoolRadio"><strong>Wunder Carpool</strong><br/>Improve the daily commute</label>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="shuttleRadio" name="productSelect" value="Wunder Shuttle" class="custom-control-input marketplace-radio">
                     <label class="custom-control-label" for="shuttleRadio"><strong>Wunder Shuttle</strong><br/>On-demand ride hailing</label>
                   </div>
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="cityRadio" name="productSelect" value="Wunder City" class="custom-control-input marketplace-radio">
                     <label class="custom-control-label" for="cityRadio"><strong>Wunder City</strong><br/>Mobility data analysis</label>
                   </div>
-                  <div class="custom-control custom-radio custom-control-inline">
+                  <div class="custom-control custom-radio custom-control-inline d-block">
                     <input type="radio" id="parkRadio" name="productSelect" value="Wunder Park" class="custom-control-input marketplace-radio">
                     <label class="custom-control-label" for="parkRadio"><strong>Wunder Park</strong><br/>Smart parking management</label>
                   </div>
@@ -305,6 +313,19 @@
 
         </div>
       </form>
+    </div>
+    <div class="formsuccess-content modal-content text-center position-absolute h-100">
+      <div class="success-content">
+        <button type="button" class="close font-weight-light" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <svg class="mx-auto" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.24 59.3639C17.8007 59.3617 15.4619 58.3917 13.7371 56.6668C12.0122 54.942 11.0422 52.6032 11.04 50.1639V15.2109H5.52C4.05601 15.2109 2.65197 15.7925 1.61677 16.8277C0.58157 17.8629 0 19.2669 0 20.7309L0 64.8835C0 66.3475 0.58157 67.7516 1.61677 68.7868C2.65197 69.822 4.05601 70.4035 5.52 70.4035H14.72V81.4435C14.7195 81.9286 14.8149 82.409 15.0005 82.8571C15.1862 83.3053 15.4586 83.7123 15.8021 84.0549C16.1455 84.3974 16.5533 84.6687 17.0019 84.8533C17.4505 85.0378 17.9311 85.1319 18.4162 85.1302C19.2082 85.1286 19.978 84.8679 20.608 84.3879L39.2523 70.4039H66.2437L51.5237 59.3639H20.24Z" fill="#BDC8FF"/>
+          <path d="M87.38 0.390121H19.62C18.3951 0.391361 17.2207 0.854253 16.3546 1.67723C15.4885 2.5002 15.0013 3.61604 15 4.77991V51.6043C15.0013 52.7681 15.4885 53.884 16.3546 54.707C17.2207 55.5299 18.3951 55.9928 19.62 55.9941H58.6223C58.9627 55.9955 59.2933 56.1024 59.5639 56.2984L74.7354 67.0999C75.192 67.43 75.7366 67.6323 76.3078 67.684C76.879 67.7357 77.454 67.6348 77.9681 67.3926C78.4821 67.1505 78.9148 66.7767 79.2172 66.3135C79.5197 65.8502 79.68 65.3159 79.68 64.7707V55.9941H87.38C88.6049 55.9928 89.7793 55.5299 90.6454 54.707C91.5115 53.884 91.9987 52.7681 92 51.6043V4.77991C91.9987 3.61604 91.5115 2.5002 90.6454 1.67723C89.7793 0.854253 88.6049 0.391361 87.38 0.390121ZM66.9088 20.4471L48.4288 38.0062C48.1571 38.2646 47.7935 38.4172 47.4095 38.4338C47.0255 38.4505 46.6488 38.3301 46.3535 38.0963L37.1135 30.78C36.7996 30.5315 36.6024 30.1747 36.5653 29.7881C36.5283 29.4015 36.6544 29.0167 36.9159 28.7184C37.1774 28.4202 37.5529 28.2328 37.9598 28.1976C38.3667 28.1624 38.7717 28.2822 39.0856 28.5307L47.2442 34.9925L64.7312 18.3786C64.8733 18.2388 65.0432 18.1274 65.2311 18.0507C65.419 17.974 65.6211 17.9336 65.8255 17.9319C66.03 17.9302 66.2328 17.9673 66.4221 18.0408C66.6113 18.1144 66.7833 18.2231 66.9279 18.3604C67.0725 18.4978 67.1868 18.6612 67.2642 18.841C67.3417 19.0209 67.3806 19.2136 67.3789 19.4078C67.3771 19.6021 67.3346 19.7941 67.2539 19.9727C67.1732 20.1512 67.0559 20.3127 66.9088 20.4476V20.4471Z" fill="#0026E6"/>
+        </svg>
+        <h2 class="headline-medium mb-3">Thanks for reaching out</h2>
+        <p class="">Your message has been sent and a member of our team will be in touch with you shortly.</p>
+      </div>
     </div>
   </div>
 </div>
