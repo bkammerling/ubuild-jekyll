@@ -76,6 +76,7 @@ fields:
   label: Details
   description: List of specs / features
 pages:
+- wunder_collections/_vehicles/Cocycle.md
 - wunder_collections/_vehicles/E-Bike.md
 - wunder_collections/_vehicles/ES200B.md
 - wunder_collections/_vehicles/ES4.md

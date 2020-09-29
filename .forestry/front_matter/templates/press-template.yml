@@ -25,3 +25,7 @@ fields:
   name: featured
   label: Featured
   description: Shows on news on homepage
+pages:
+- wunder_collections/_articles/innovative-start-ups-in-travel.md
+- wunder_collections/_articles/wir-haben-uns-gegen-die-ubernahme-durch-vw-entschieden.md
+- wunder_collections/_articles/wir-wollen-das-bosch-fur-neue-mobilitat-sein.md
