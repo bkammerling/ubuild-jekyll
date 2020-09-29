@@ -54,7 +54,7 @@ access_needed:
 - Trip Data
 getting_started:
 - column_title: Create an account
-  column_description: Rech out to your business account manager to create your personal
+  column_description: Reach out to your business account manager to create your personal
     My Transport Planner account.
 - column_title: Buy credits
   column_description: Buy credits - purchase credits per vehicle route per day
