@@ -155,10 +155,15 @@ $(document).ready(function() {
       $('.conditional-hide').fadeIn(100).find('input').attr('required', true);
       $('#message-text_label').text('What is your project idea?');
       $('#message-text').attr('required', true);
+      $('#extension-interest').attr('required', false);
+      $('#extension-label').text('Extensions you are interested in (optional)');
     } else {
       $('.conditional-hide').fadeOut(100).find('input').attr('required', false);
       $('#message-text_label').text('What is your project idea? (optional)');
       $('#message-text').attr('required', false);
+      $('#extension-interest').attr('required', true);
+      $('#extension-label').text('Extensions you are interested in');
+
     }
   });
 
