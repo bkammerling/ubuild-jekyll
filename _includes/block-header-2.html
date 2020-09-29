@@ -63,7 +63,7 @@
                   {% for sub_item in menu %}
                   {% if sub_item.parent == nav_item.identifier %}
                   <div class="col-md-4 mb-4">
-                    <a href="{{ sub_item.url }}">
+                    <a href="{{ sub_item.url }}" {% if sub_item.target %}target="{{ sub_item.target}}"{% endif %}>
                       <p class="text-link">{{ sub_item.title }}</p>
                       <p class="text-mute small-label">{{ sub_item.subtitle }}</p>
                     </a>

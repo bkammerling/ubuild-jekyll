@@ -112,7 +112,7 @@
         </div>
         {% for detail in page.app_details %}
         <p class="text-mute"><strong>{{ detail.detail_title }}</strong></p>
-        <div class="mb-4">{{ detail.detail_content | replace: '<a', '<a taget="_blank"'  }}</div>
+        <div class="mb-4">{{ detail.detail_content | replace: '<a', '<a target="_blank"'  }}</div>
         {% endfor %}
 
         <h4 class="mb-4">This App requests access to</h4>
@@ -216,7 +216,7 @@
           <div class="container pt-3">
             <div class="custom-control custom-radio custom-control-inline">
               <input type="radio" id="customerRadio1" name="customer" value="customerYes" class="custom-control-input marketplace-radio" checked>
-              <label class="custom-control-label" for="customerRadio1">I’m Wunder Mobility customer</label>
+              <label class="custom-control-label" for="customerRadio1">I’m a Wunder Mobility customer</label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
               <input type="radio" id="customerRadio2" name="customer" value="customerNo" class="custom-control-input marketplace-radio">

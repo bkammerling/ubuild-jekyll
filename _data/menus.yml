@@ -46,6 +46,7 @@ wunder-main:
   identifier: extensions
   sub: true
 - url: "/marketplace"
+  target: "_blank"
   weight: 1
   parent: extensions
   identifier: marketplace

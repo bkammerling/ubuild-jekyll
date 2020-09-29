@@ -213,6 +213,10 @@ p {
       width: 180px;
       margin-right: 24px;
     }
+    > a {
+      font-size: 0px;
+      display: block;
+    }
   }
   img, video {
     height: 120px;
@@ -234,7 +238,9 @@ p {
   }
   .modal-dialog {
     max-width: 95% !important;
-    align-self: flex-start;
+    @include rwd(tablet-up) {
+      align-self: flex-start;
+    }
   }
   .modal-title {
     @extend p;
@@ -307,6 +313,14 @@ p {
     font-size: 14px;
     &:focus {
       background-color: white;
+      @supports (-ms-accelerator:true) {
+        /* IE Edge 12+ CSS styles go here */
+        outline: 2px solid #2161C5;
+      }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        outline: 2px solid #2161C5;
+      }
     }
   }
   .textarea-input {
@@ -412,6 +426,8 @@ p {
 
 .mob-scroll {
   -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
   &::-webkit-scrollbar {
     display: none;
   }
