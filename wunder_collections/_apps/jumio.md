@@ -55,11 +55,9 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://www.jumio.com/legal-information/privacy-policy/"
     title="Privacy Policy →">Privacy Policy →</a>
-- detail_title: ''
-  detail_content: <a href="/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
-    title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - User Data
 getting_started: []
+whitepaper_link: "/uploads/2020/08/26/jumio-mobility-datasheet-us-final-claire-galbois-alcaix.pdf"
 
 ---
