@@ -39,11 +39,11 @@ fields:
     options:
     - Analytics and Monitoring
     - Customer Engagement
-    - Customer Relationship Management (CRM)
     - Fleet Maintenance
     - Integrations (API)
     - Operations Improvement
     - Utilization Improvement
+    - CRM
     source:
       type: simple
       section: 

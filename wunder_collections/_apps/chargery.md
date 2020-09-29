@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Chargery
-icon: "/uploads/2020/09/29/chrgry-logo_png-laura-mueller.png"
+icon: "/uploads/2020/09/29/chrgry-logo_greybg-01.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
 featured: false
 preview_gallery:
@@ -19,25 +19,30 @@ description: "<p>Chargery is a 360° provider for intelligent shared mobility op
   Chargery enables its customers all over Europe to run their fleets efficiently and
   cost effectively.</p>"
 screenshot_details:
-- screenshot: ''
+- screenshot: "/uploads/2020/09/29/software.jpg"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
-  screenshot_description: The Chargery software substantially increases the availability
-    of vehicles in a shared fleet with a variety of features. The software solution
-    allows you to finally experience full transparency over your vehicles and their
-    maintenance needs and history. At the same time, the platform manages to allocate
-    open maintenance tickets that require specific skill-sets to qualified field operations
-    staff. This is done automatically and in real-time while also planning optimized
-    routes for field operations staff to run their work most efficiently. The in-house
-    developed algorithms and outstanding computing efficiency realize optimization
-    of all operations dynamically. Finally, tickets can be measured against and prioritized
-    according to SLAs such as reaction time or fleet uptime targets.
-- screenshot: "/uploads/2020/09/29/dashboardcomputer-laura-mueller.jpg"
-  title: ''
-  screenshot_description: ''
-- screenshot: "/uploads/2020/09/29/taskoverviewcomputer-laura-mueller.jpg"
-  title: ''
-  screenshot_description: ''
+  screenshot_description: "Our software solution is the key to your operational excellence.
+    \nOur software allows you to experience full transparency over your vehicles and
+    their maintenance needs and history. At the same time, the platform allocates
+    open maintenance tickets, which require specific skill sets to qualified field
+    operations staff. This is done automatically in real-time, and also plans optimized
+    routes for field operations staff to run their work most efficiently. Optimization
+    of operations is made possible by in-house developed algorithms and streamlined
+    computer efficiency. Finally, tickets can be measured and prioritized according
+    to SLAs such as reaction time or fleet uptime targets."
+- screenshot: "/uploads/2020/09/29/fullservice.jpg"
+  title: 'Full service for any shared mobility fleet: From cleaning and recharging
+    to battery swapping and relocating your fleet.'
+  screenshot_description: |-
+    We guarantee a sustainable full-service for any kind of shared mobility provider all over Europe with our own highly-motivated service team.
+    We are constantly extending our service portfolio to serve the demands of our customers.
+- screenshot: "/uploads/2020/09/29/infrastructure1.jpg"
+  title: Smart infrastructure solutions to guarantee highly-efficient operations.
+  screenshot_description: Our intelligent and customized infrastructure solutions
+    enable operational excellence for our customers (e.g. state of the art warehouses,
+    emission free service fleets). A seamless integration into our software platform
+    guarantees shorter routes and more efficient operations (e.g. decentralized microhubs).
 app_details:
 - detail_title: ''
   detail_content: <a href="https://chargery.de/" title="Developer Website →">Developer
@@ -67,5 +72,6 @@ getting_started:
     different configurations between different locations. In some markets, it may
     make sense for you to fully outsource the software, service delivery by our own
     team on the ground and complementary infrastructure to Chargery. '
+whitepaper_link: ''
 
 ---
