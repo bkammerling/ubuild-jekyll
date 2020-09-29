@@ -19,7 +19,7 @@ description: "<p>Chargery is a 360° provider for intelligent shared mobility op
   Chargery enables its customers all over Europe to run their fleets efficiently and
   cost effectively.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/29/software.jpg"
+- screenshot: "/uploads/2020/09/29/software22.jpg"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
   screenshot_description: "Our software solution is the key to your operational excellence.
@@ -31,13 +31,13 @@ screenshot_details:
     of operations is made possible by in-house developed algorithms and streamlined
     computer efficiency. Finally, tickets can be measured and prioritized according
     to SLAs such as reaction time or fleet uptime targets."
-- screenshot: "/uploads/2020/09/29/fullservice.jpg"
+- screenshot: "/uploads/2020/09/29/fullservice22.jpg"
   title: 'Full service for any shared mobility fleet: From cleaning and recharging
     to battery swapping and relocating your fleet.'
   screenshot_description: |-
     We guarantee a sustainable full-service for any kind of shared mobility provider all over Europe with our own highly-motivated service team.
     We are constantly extending our service portfolio to serve the demands of our customers.
-- screenshot: "/uploads/2020/09/29/infrastructure1.jpg"
+- screenshot: "/uploads/2020/09/29/infrastructure22.jpg"
   title: Smart infrastructure solutions to guarantee highly-efficient operations.
   screenshot_description: Our intelligent and customized infrastructure solutions
     enable operational excellence for our customers (e.g. state of the art warehouses,
