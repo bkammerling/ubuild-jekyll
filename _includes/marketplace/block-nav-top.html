@@ -1,18 +1,18 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-transparent px-4 border-0">
+<nav class="navbar navbar-expand-sm navbar-light bg-transparent px-4 border-0 align-items-center">
   <a class="navbar-brand" href="{{ site.url }}/marketplace">
-    <img src="/uploads/global/marketplace/wunder-marketplace-logo.svg" alt="Wunder Marketplace logo" class="">
+    <img src="/uploads/global/marketplace/wundermarketplace-logo.svg" alt="Wunder Marketplace logo" class="">
   </a>
-  <button class="hamburger hamburger--collapse header__hamburger d-sm-none" type="button">
+  {% unless page.collection %}
+  <button class="hamburger hamburger--collapse header__hamburger d-sm-none" type="button" data-toggle="collapse" data-target="#marketplaceNavbar" aria-controls="marketplaceNavbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
   </button>
-  <div class="collapse navbar-collapse">
-    <ul class="list-unstyled navbar-nav ml-auto">
-
-    </ul>
-    {% unless page.collection %}
+  <div class="collapse navbar-collapse" id="marketplaceNavbar">
+    <ul class="list-unstyled navbar-nav ml-auto align-items-center">
+      {% comment %}<a class="small-label mr-4" href="https://www.wundermobility.com"><u>www.wundermobility.com</u></a>{% endcomment %}
       <a class="btn btn-dark btn-mkt gt-navcta text-white" href="#build-apps">Developer & Partner Program</a>
-    {% endunless %}
+    </ul>
   </div>
+  {% endunless %}
 </nav>

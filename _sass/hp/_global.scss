@@ -258,7 +258,7 @@ img {
 
 .client-logos .logo-boxes, .post-hero {
   position: relative;
-  &:after {
+  &:not(.no-border):after {
     content: '';
     position: absolute;
     bottom: 0;

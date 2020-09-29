@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Fleet | Technology for car, bike & scooter sharing
+title: Wunder Fleet | Launch your free-floating sharing company
 date: '2019-01-08T23:00:00.000+00:00'
 permalink: "/fleet"
 lang: en
@@ -33,11 +33,10 @@ page_sections:
   subdirectory: static
 - template: detail-content
   block: contact-form
-  title: Let's Talk
+  title: Request a demo
   content: We'll get your fleet up and running in no time! Send over some info and
     we'll get in touch in the next 24h.
-  headline: Let's Talk
-  background_image: "/uploads/2019/02/05/skyline-bg@2x.jpg"
+  background_image: ""
 - template: simple-footer
   block: footer-1
   content: ''

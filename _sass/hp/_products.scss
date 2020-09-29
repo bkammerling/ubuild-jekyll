@@ -214,11 +214,18 @@
       height: 100%;
       .fleet & {
         transform: none;
-        margin-left: 50%; // reverting to grid-framework
+        margin-left: 58%; // reverting to grid-framework
       }
       img {
         height: 100%;
         max-width: none;
+      }
+    }
+  }
+  @include rwd(wide-up) {
+    &__pic {
+      .fleet & {
+        margin-left: 50%;
       }
     }
   }
@@ -645,6 +652,12 @@ a img.right-arrow {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+#fleet-partners {
+  .logo-boxes {
+    grid-row-gap: 5px;
   }
 }
 

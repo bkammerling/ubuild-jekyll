@@ -198,7 +198,7 @@
 
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
               <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-                Senden!
+                Abschicken
               </button>
               <p class="form-feedback hidden">Danke, Ihre Nachricht wurde gesendet.</p>
             </form>
@@ -206,7 +206,7 @@
           </div>
 
 
-          {% if page.lang-ref == 'press' %}
+          {% comment %}
           <div class="press-contact d-sm-flex mt-5 pt-5 pt-sm-5 align-items-sm-end">
             {% comment %}<img class="mr-4" data-src="/uploads/global/Photo_Daniel.jpg" data-srcset="/uploads/global/Photo_Daniel@2x.jpg 2x" />{% endcomment %}
             <div class="press-contact__info mt-3 mt-sm-0">
@@ -220,7 +220,7 @@
               <p>E-mail: <a href="mailto:wunder@schoesslers.com" title="Email Wunder's press contact in the EU">wunder@schoesslers.com</a></p>
             </div>
           </div>
-          {% endif %}
+          {% endcomment %}
 
         </div>
       </div>

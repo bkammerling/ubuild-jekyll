@@ -208,6 +208,7 @@ p {
     width: 155px;
     margin-right: 16px;
     flex-shrink: 0;
+    background: $white;
     @include rwd(tablet-up) {
       width: 180px;
       margin-right: 24px;
@@ -504,7 +505,7 @@ p {
   background: linear-gradient(357.49deg, rgba(255, 255, 255, 0) 85.6%, #FFFFFF 85.6%), linear-gradient(312.8deg, #F1F1F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
   min-height: 26vw;
   padding-top: 120px;
-  padding-bottom: 64px;
+  //padding-bottom: 64px; 
 }
 
 .bg-crossover.grey-white {

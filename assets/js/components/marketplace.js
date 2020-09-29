@@ -195,8 +195,8 @@ $(document).ready(function() {
   var categoriesObj = {
     all: ['Analytics and Monitoring','Integrations (API)','Customer Engagement','CRM','Operations Improvement','Fleet Maintenance','Utilization Improvement'],
     engageCusomter: ['Customer Engagement','CRM'],
-    optimizeFleet: ['Analytics and Monitoring','Integrations (API)'],
-    improveMaintenance: ['Operations Improvement','Fleet Maintenance'],
+    optimizeFleet: ['Integrations (API)','Operations Improvement'],
+    improveMaintenance: ['Fleet Maintenance'],
     analyzePerformance: ['Analytics and Monitoring','Utilization Improvement']
   }
 

@@ -128,7 +128,7 @@ var menu = {
         $(".navbar-nav").addClass("is-active");
         clickedLink.parent().addClass("is-active").siblings().removeClass("is-active");
         var identifier = clickedLink.data('target');
-        $("#" + identifier).addClass('is-active').siblings().removeClass('is-active');
+        $("#nav_" + identifier).addClass('is-active').siblings().removeClass('is-active');
         $(".header__hamburger").addClass("is-active");;
       }
     });
@@ -642,6 +642,7 @@ $(document).ready(function() {
     }
     // Does a scroll target exist?
     if (target.length) {
+      console.log(target);
       event.preventDefault();
       // Only prevent default if animation is actually gonna happen
       $('html, body').animate({
