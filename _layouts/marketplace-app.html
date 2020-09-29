@@ -29,8 +29,8 @@
         <div class="app-previews__single">
           <a href="{{ item.image-video }}" data-toggle="lightbox" data-gallery="app-preview" {% if item.image-video contains '.mp4' %}data-type="video"{% endif %} data-footer="{{ item.title }}" data-title="{{ forloop.index }} / {{ page.preview_gallery.size }}" >
             {% if item.image-video contains '.mp4' %}
-            <video controls muted class="mw-100 w-shadow">
-              <source src="{{ item.image-video }}" type="video/mp4">
+            <video id="previewVideo" controls muted class="mw-100 w-shadow">
+              <source src="sf{{ item.image-video }}" type="video/mp4">
             </video>
             {% else %}
             <img class="w-shadow" src="{{ item.image-video | replace: '@2x', '' | replace: '-2x', '' }}" srcset="{{ item.image-video }} 2x" alt="App preview image {{ forloop.index }}" />

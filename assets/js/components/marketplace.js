@@ -133,7 +133,6 @@ function recaptchaSubmit(token) {
 }
 
 
-
 $(document).ready(function() {
 
   form.initializeSelect2('.select2-init');
@@ -182,7 +181,6 @@ $(document).ready(function() {
         },
       });
   });
-
 
 
   // Select all links with hashes
