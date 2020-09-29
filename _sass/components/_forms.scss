@@ -90,7 +90,6 @@ form {
     pointer-events: none;
     z-index: 10;
     color: $olive-light;
-    text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
     transition: transform 150ms ease-out, font-size 150ms ease-out;
@@ -115,7 +114,6 @@ form {
     color: $olive-light;
     font-size: 14px;
     font-weight: 300;
-    text-transform: uppercase;
     background-color: #EDEDED;
     box-shadow: none;
   }
@@ -135,8 +133,7 @@ form {
 
   .select2-selection {
     span.select2-selection__rendered {
-      color: $olive-light;
-      text-transform: uppercase;
+      color: $mobility-black;
       font-weight: 300;
       font-size: 14px;
     }
@@ -149,7 +146,7 @@ form {
     }
   }
   .selected span.select2-selection__rendered {
-    color: $olive-matt;
+    color: $mobility-black;
     font-weight: 400;
     text-transform: capitalize;
     font-size: 16px;
@@ -172,9 +169,8 @@ form {
   }
 
   label:not(.form-check-label) {
-    color: #7D8A8D;
+    color: $mobility-black;
     opacity: 1;
-    text-transform: uppercase;
     font-weight: 300;
     font-size: 14px;
     position: absolute;
@@ -210,7 +206,6 @@ form {
   .dropdown button, .dropdown button:focus, .dropdown button:not(:disabled):active, .dropdown button:not(:disabled):focus:active, .show > .btn-secondary.dropdown-toggle, .show > .btn-secondary.dropdown-toggle:focus, .show > .btn-secondary.dropdown-toggle:active {
     width: 100%;
     text-align: left;
-    text-transform: uppercase;
     height: 60px;
     background-color: #EDEDED;
     outline: 0;
@@ -291,7 +286,6 @@ form {
 
   label {
     color: #8B90A0;
-    text-transform: uppercase;
     font-size: 13px;
     position: absolute;
     top: 13px;

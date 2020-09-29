@@ -1,5 +1,6 @@
 ---
 all_brands:
+- Comodule
 - Segway
 - Imaatech
 - Niu
@@ -11,6 +12,9 @@ all_brands:
 - Gonbike
 - Askoll
 brands_detail:
+- brand_name: Comodule
+  logo: "/uploads/2020/09/17/comodule-logo.png"
+  url: https://www.comodule.com/
 - brand_name: Segway
   logo: "/uploads/2020/05/28/segway-1-2x.jpg"
   url: ''

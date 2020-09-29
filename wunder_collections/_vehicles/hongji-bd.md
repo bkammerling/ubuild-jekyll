@@ -2,7 +2,7 @@
 layout: single-product-modal
 brand: Hongji
 name: BD03
-featured: true
+featured: false
 type: Bike
 list-image: "/uploads/2020/05/18/hongji-bd-listimage@2x.jpg"
 image_gallery:
@@ -24,6 +24,6 @@ details:
   description: Extended range of up to 60 km
 - title: Battery
   description: Swappable battery system
-published: true
+published: false
 
 ---
