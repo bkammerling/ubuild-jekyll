@@ -44,9 +44,6 @@ app_details:
 - detail_content: <a href="https://www.mytransportplanner.com/privacy-policy/" title="Privacy
     Policy →">Privacy Policy →</a>
   detail_title: ''
-- detail_content: <a href="/uploads/2020/09/29/motor-transport-supplement-my-transport-planner-june-2020_e-dan-jenkins.pdf"
-    title="Whitepaper Download →">Whitepaper Download →</a>
-  detail_title: ''
 access_needed:
 - Deliver API credentials
 - Vehicle Data
@@ -60,5 +57,6 @@ getting_started:
   column_description: Buy credits - purchase credits per vehicle route per day
 - column_title: Start making savings!
   column_description: Start making savings - you can achieve immediate ROI.
+whitepaper_link: "/uploads/2020/09/29/motor-transport-supplement-my-transport-planner-june-2020_e-dan-jenkins.pdf"
 
 ---

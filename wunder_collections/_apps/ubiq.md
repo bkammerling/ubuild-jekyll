@@ -59,9 +59,6 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/privacy-policy" title="Privacy Policy
     →">Privacy Policy →</a>
-- detail_title: ''
-  detail_content: <a href="/uploads/2020/09/21/casestudy_reachnow-sam-hargreaves.pdf"
-    title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - Deliver API Credentials
 - Vehicle Data
@@ -75,5 +72,6 @@ getting_started:
 - column_title: Access the API or Service to increase vehicle utilization
   column_description: Once set-up, watch how your daily rentals increase as vehicle
     supply better matches demand.
+whitepaper_link: "/uploads/2020/09/21/casestudy_reachnow-sam-hargreaves.pdf"
 
 ---
