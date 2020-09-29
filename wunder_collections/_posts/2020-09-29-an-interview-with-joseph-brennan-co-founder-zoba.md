@@ -5,6 +5,10 @@ tags:
 - partner
 - marketplace
 - extensions
+- Zoba
+- demand
+- forecasting
+- optimization
 author: []
 cta_heading: Find Out More About Wunder Mobility
 cta_text: We have a range of solutions using the latest technology driving forward
@@ -12,12 +16,12 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: An Interview with Zoba, a Wunder Marketplace Partner
 publish_date: 2020-10-01 09:00:00 +0000
-featured_image: "/uploads/2020/09/29/social_share_image-1.jpg"
+featured_image: "/uploads/2020/09/29/social_share_image-2.jpg"
 excerpt: 'Wunder Mobility’s platform makes it easy to integrate with Zoba: with an
   API key and some easy configurations, users can send their data to Zoba and get
   started. This will broaden access to our technology and help more mobility providers
   make use of it.'
-share_image: "/uploads/2020/09/29/social_share_image-1.jpg"
+share_image: "/uploads/2020/09/29/social_share_image-2.jpg"
 sticky: false
 hidden: true
 
