@@ -8,14 +8,11 @@ excerpt: Optimize your field operations with real-time tracking, auto job dispat
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
-  title: Automatically dispatch jobs with optimized routes - Dispatch jobs and optimize
-    routes.
+  title: Automatically dispatch jobs with optimized routes.
 - image-video: "/uploads/2020/09/28/hellotracks-2.jpg"
-  title: Follow your field staff in real-time - Real time location and field staff
-    status.
+  title: Follow your field staff in real-time.
 - image-video: "/uploads/2020/09/28/jobs-list-and-route-mariana-frese.jpg"
-  title: Field staff access to daily job list and route from their mobile device -
-    Jobs list and route.
+  title: Field staff access to daily job list and route from their mobile device.
 description: "<p>Hellotracks will bring simplicity and speed in managing thousands
   of daily tasks. With route optimization, automatic allocation and bulk job uploads,
   you’ll cut dispatching costs and easily reduce mileage and route redundancy. Get
@@ -57,15 +54,15 @@ app_details:
 access_needed:
 - Deliver API Credentials
 getting_started:
-- column_title: Contact your Account manager and sign up for a 30-day free trial account
+- column_title: Contact your account manager and sign up for a 30-day free trial account
   column_description: Click the 'Let's go' or 'Get started' button to reach out and
     sign up for a 30-day free trial account in less then 2 minutes.
 - column_title: Create an account for your team members
-  column_description: 'From the dashboard enter the email address and the role (admin,
+  column_description: From the dashboard enter the email address and the role (admin,
     operator, or worker) for each team member you want to invite to your account.
-    They will receive an invite to get started and to download the mobile app. '
-- column_title: Finish
-  column_description: Your account manager will connect you with us and we will help
-    you during the deployment and integration phase.
+    They will receive an invite to get started and to download the mobile app.
+- column_title: Finish and reach out
+  column_description: Your account manager will connect you with Hellotracks and they
+    will help you during the deployment and integration phase.
 
 ---
