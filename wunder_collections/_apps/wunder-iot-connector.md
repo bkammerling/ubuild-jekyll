@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
-category: Operations Improvement
+category: Integrations (API)
 title: Wunder IoT Connector
-icon: "/uploads/2020/09/25/wunderiotconnector_square.png"
+icon: "/uploads/2020/09/28/wunder-iot_connector-logo.png"
 excerpt: Cut running costs & stay in full control of your vehicle fleet with the Wunder
   IoT Connector.
 featured: false
@@ -33,10 +33,10 @@ screenshot_details:
     Our smart configuration feature allows to update multiple vehicles with just one click.
 - screenshot: "/uploads/2020/09/25/wunder-iot_admin-3.png"
   title: Configure & adjust device settings centrally
-  screenshot_description: Speed limits differ across your operation areas? Regulations
-    in one of your markets changed? With configuration presets you define, manage,
-    and update device settings in one central place. Set parameters, e.g. local speed
-    limit, once and assign devices to that configuration. Simple as that!
+  screenshot_description: Regulations in one of your markets changed? With configuration
+    presets you define, manage, and update device settings centrally. Set parameters,
+    e.g. local speed limit, once and assign that configuration to multiple devices.
+    Simple as that!
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
@@ -47,7 +47,19 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://www.wundermobility.com/privacy" title="Privacy
     Policy →">Privacy Policy →</a>
-access_needed: []
-getting_started: []
+access_needed:
+- Fleet API Credentials
+getting_started:
+- column_title: Get in touch
+  column_description: |2
+
+    Hit "Let's go" to reach out to us — one of our account managers will get back to you in no time.
+- column_title: Setting everything up
+  column_description: After you decide to use the Wunder IoT Connector, our team guides
+    you through every step towards setting everything up.
+- column_title: Good to go!
+  column_description: The connector is working in the back, keeping all your devices
+    connected. Use our easy-to-use admin interface to setup, monitor, and configure
+    your devices
 
 ---
