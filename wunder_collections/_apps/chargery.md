@@ -26,16 +26,13 @@ screenshot_details:
     sharing fleets.
   screenshot_description: "Our software solution is the key to your operational excellence.
     \nThe software allows you to experience full transparency over your vehicles and
-    their maintenance needs and history."
-- screenshot: "/uploads/2020/09/29/dashboardcomputer.jpg"
-  title: ''
-  screenshot_description: At the same time, the platform allocates open maintenance
-    tickets, which require specific skill sets to qualified field operations staff.
-    This is done automatically in real-time, and also plans optimized routes for field
-    operations staff to run their work most efficiently. Optimization of operations
-    is made possible by in-house developed algorithms and streamlined computer efficiency.
-    Finally, tickets can be measured and prioritized according to SLAs such as reaction
-    time or fleet uptime targets.
+    their maintenance needs and history. At the same time, the platform allocates
+    open maintenance tickets, which require specific skill sets to qualified field
+    operations staff. This is done automatically in real-time, and also plans optimized
+    routes for field operations staff to run their work most efficiently. Optimization
+    of operations is made possible by in-house developed algorithms and streamlined
+    computer efficiency. Finally, tickets can be measured and prioritized according
+    to SLAs such as reaction time or fleet uptime targets."
 - screenshot: "/uploads/2020/09/29/fullservicex.jpg"
   title: 'Full service for any shared mobility fleet: From cleaning and recharging
     to battery swapping and relocating your fleet.'
