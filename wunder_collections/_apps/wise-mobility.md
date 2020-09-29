@@ -27,9 +27,6 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://wisemobility.com" title="Privacy Policy →">Privacy
     Policy →</a>
-- detail_title: ''
-  detail_content: <a href="/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
-    title="Whitepaper Download →">Whitepaper Download →</a>
 access_needed:
 - API Credentials
 - " Vehicle Data"
@@ -41,5 +38,6 @@ getting_started:
 - column_title: Step 2
   column_description: Focus on your business!
 featured: false
+whitepaper_link: "/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
 
 ---

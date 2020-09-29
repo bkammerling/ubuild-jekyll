@@ -25,7 +25,7 @@ screenshot_details:
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
   screenshot_description: "Our software solution is the key to your operational excellence.
-    \nOur software allows you to experience full transparency over your vehicles and
+    \nThe software allows you to experience full transparency over your vehicles and
     their maintenance needs and history. At the same time, the platform allocates
     open maintenance tickets, which require specific skill sets to qualified field
     operations staff. This is done automatically in real-time, and also plans optimized
@@ -41,10 +41,11 @@ screenshot_details:
     We are constantly extending our service portfolio to serve the demands of our customers.
 - screenshot: "/uploads/2020/09/29/infrastructurex.jpg"
   title: Smart infrastructure solutions to guarantee highly-efficient operations.
-  screenshot_description: Our intelligent and customized infrastructure solutions
-    enable operational excellence for our customers (e.g. state of the art warehouses,
-    emission free service fleets). A seamless integration into our software platform
-    guarantees shorter routes and more efficient operations (e.g. decentralized microhubs).
+  screenshot_description: In addition to our software and services, smart infrastructure
+    solutions help to increase the efficiency of shared mobility fleets (e.g. state
+    of the art warehouses, emission free service fleets). A seamless integration of
+    these solutions (e.g. decentralized microhubs) into our software platform guarantees
+    shorter routes and more efficient operations.
 app_details:
 - detail_title: ''
   detail_content: <a href="https://chargery.de/" title="Developer Website →">Developer
