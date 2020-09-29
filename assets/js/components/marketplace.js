@@ -153,8 +153,12 @@ $(document).ready(function() {
   $('input:radio[name="customer"]').change(function() {
     if ($(this).val() == 'customerNo') {
       $('.conditional-hide').fadeIn(100).find('input').attr('required', true);
+      $('#message-text_label').text('What is your project idea?');
+      $('#message-text').attr('required', true);
     } else {
       $('.conditional-hide').fadeOut(100).find('input').attr('required', false);
+      $('#message-text_label').text('What is your project idea? (optional)');
+      $('#message-text').attr('required', false);
     }
   });
 
