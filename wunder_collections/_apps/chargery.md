@@ -6,6 +6,8 @@ icon: "/uploads/2020/09/29/chrgry-logo_greybg-01.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
 featured: false
 preview_gallery:
+- image-video: "/uploads/2020/09/29/wdthefofycsl_colorgrade_edit-1.mp4"
+  title: Video
 - image-video: "/uploads/2020/09/29/softwareupdated2-01-laura-mueller.jpg"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
