@@ -29,7 +29,7 @@
         <div class="app-previews__single">
           <a href="{{ item.image-video }}" data-toggle="lightbox" data-gallery="app-preview" {% if item.image-video contains '.mp4' %}data-type="video"{% endif %} data-footer="{{ item.title }}" data-title="{{ forloop.index }} / {{ page.preview_gallery.size }}" >
             {% if item.image-video contains '.mp4' %}
-            <video id="previewVideo" controls muted class="mw-100 w-shadow">
+            <video id="previewVideo" controls muted class="mw-100 w-shadow" {% if page.video_poster %} poster="{% page.video_poster %}}">
               <source src="{{ item.image-video }}" type="video/mp4">
             </video>
             {% else %}
@@ -146,7 +146,7 @@
     {% endif %}
 
     <div class="mt-5 {% if page.screenshot_details.size > 0 %}text-center{% endif %}">
-      {% if page.whitepaper_link contains 'http' %}
+      {% if page.whitepaper_link contains 'http' or page.whitepaper_link contains 'uploads/' %}
       <a class="text-link py-3 d-block mb-3" target="_blank" href="{{ page.whitepaper_link }}">
         Download Whitepaper
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
