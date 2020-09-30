@@ -103,85 +103,103 @@ wunder-main:
 wunder-de:
 - url: "#"
   weight: 1
-  title: Produkte
-  identifier: solutions
+  title: Fahrzeug-Sharing
+  identifier: vehiclesharing
   sub: true
-- url: "/de/fleet"
+- url: "/fleet"
   weight: 1
-  parent: solutions
+  parent: vehiclesharing
   identifier: fleet
   title: Fleet
-  subtitle: All-in-one Fahrzeug-Sharing
+  subtitle: Starten Sie Ihr Free-Floating-Unternehmen mit einer All-in-one-Plattform.
 - url: "/rent"
   weight: 2
-  parent: solutions
+  parent: vehiclesharing
   identifier: rent
   title: Rent
-  subtitle: Selbstbedienungsverleih ohne Schlüssel
-- url: "/de/carpool"
-  weight: 3
-  parent: solutions
-  identifier: carpool
-  title: Carpool
-  subtitle: Mitfahrgelegenheiten für Angestellte
-- url: "/de/ride"
-  weight: 4
-  parent: solutions
-  identifier: shuttle
-  title: Ride
-  subtitle: Ridehailing On-Demand
-- url: "/de/park"
-  weight: 5
-  parent: solutions
-  identifier: park
-  title: Park
-  subtitle: Effizientes Parkmanagement
-- url: "/de/city"
-  weight: 6
-  parent: solutions
-  identifier: city
-  title: City
-  subtitle: Datenanalyse für Mobilität
+  subtitle: Schlüssellose, stationsbasierte Vermietungen, im Voraus gebucht.
 - url: "/vehicles"
-  weight: 7
-  parent: solutions
-  identifier: hardware
-  title: Vehicles | EN
-  subtitle: Sharing-ready vehicles
+  weight: 3
+  parent: vehiclesharing
+  identifier: vehicles
+  title: Vehicles
+  subtitle: Sharing-fähige Fahrzeuge für die nächste Generation der Mobilität.
 - url: "#"
   weight: 2
-  title: Events
-  identifier: events
+  title: Ride-Hailing
+  identifier: ridehailing
   sub: true
-- url: "/summit/"
+- url: "/ride"
   weight: 1
-  identifier: summit
-  title: Mobility Summit | EN
-  parent: events
-  subtitle: The mobility event of the year!
+  parent: ridehailing
+  identifier: ride
+  title: Ride
+  subtitle: Einzel- oder Sammelfahrten, im Voraus oder auf Abruf gebucht.
+- url: "/carpool"
+  weight: 2
+  parent: ridehailing
+  identifier: carpool
+  title: Carpool
+  subtitle: Ermöglichen Sie Mitarbeitern, gemeinsame Fahrten zur Arbeit zu organisieren und Emissionen zu reduzieren.
 - url: "#"
   weight: 3
-  identifier: firma
-  title: Unternehmen
+  title: Erweiterungen
+  identifier: extensions
   sub: true
-- url: "/careers/"
+- url: "/marketplace"
+  target: "_blank"
   weight: 1
-  identifier: careers
-  title: Jobs | EN
-  parent: firma
-  subtitle: Wanna join the ride?
+  parent: extensions
+  identifier: marketplace
+  title: NEU! Marketplace
+  subtitle: Verbessern und skalieren Sie Ihr Mobilitätsgeschäft mit unserer modularen Plattformm.
+- url: "/city"
+  weight: 2
+  parent: extensions
+  identifier: city
+  title: City
+  subtitle: Analysen zur Vorbereitung der Städte auf eine vernetzte Zukunft.
+- url: "/park"
+  weight: 3
+  parent: extensions
+  identifier: park
+  title: Park
+  subtitle: Mit digitaler Parkraumbewirtschaftung den begrenzten Raum besser nutzen.
+- url: "#"
+  weight: 2
+  title: Firma
+  identifier: company
+  sub: true
+- url: "/our-story"
+  weight: 1
+  identifier: our-story
+  title: Our Story
+  parent: company
+  subtitle: Every journey starts somewhere
 - url: "/blog/"
   weight: 2
   identifier: blog
-  title: Blog | EN
-  parent: firma
-  subtitle: Exploring the future of urban mobility
-- url: "/de/presse"
+  title: Blog
+  parent: company
+  subtitle: Erkunden Sie die Zukunft der Mobilität.
+- identifier: workingatwunder
+  subtitle: Wollen Sie mitfahren?
+  url: "/careers/"
+  parent: company
   weight: 3
+  title: Karriere
+- url: "/press"
+  weight: 4
   identifier: press
   title: Presse
-  parent: firma
-  subtitle: Yeah, we're being talked about!
+  parent: company
+  subtitle: Yeah, es wird über uns geredet!
+- url: "/summit/"
+  weight: 5
+  identifier: summit
+  title: Wunder mobility Summit
+  parent: company
+  subtitle: Der Mobilität-Event des Jahres!
 
 career:
 - identifier: workingatwunder
