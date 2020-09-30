@@ -332,7 +332,7 @@
                 </a>
                 <p class="small-label mt-3">{{ sticky.category }}</p>
                 <h3 class="headline-small">{{ sticky.title }}</h3>
-                <a class="text-highlight text-dark" href="{{ sticky.url }}">Read post</a>
+                <a class="font-weight-bold" href="{{ sticky.url }}">Read post</a>
               </div>
             </div>
           {% endfor %}
@@ -349,7 +349,7 @@
 
   <section class="home-quotes position-relative">
     <div class="container-fluid">
-      <div class="mob-scroll" style="scroll-snap-type: x mandatory; scroll-padding: 20%;">
+      <div class="mob-scroll" >
         <div class="featured-quotes">
           {% assign articles = site.articles | sort: "date" | reverse | where:"featured", "true"  %}
           {% for item in articles limit: 3 %}
@@ -364,6 +364,11 @@
           <div class="featured-quotes__spacer"></div>
         </div>
       </div>
+      <ol class="carousel-indicators flat-indicators scroller-indicators position-static mx-0">
+        <li class="bg-dark"></li>
+        <li class="bg-dark active"></li>
+        <li class="bg-dark"></li>
+      </ol>
       <div class="sidefade-overlay"></div>
     </div>
   </section>

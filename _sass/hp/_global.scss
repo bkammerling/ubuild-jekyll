@@ -7,6 +7,12 @@ body {
 
 div.mob-scroll {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 
@@ -353,12 +359,13 @@ blockquote {
   .carousel-inner {
 
   }
-  .carousel-indicators li {
-    height: 2px;
-    width: 48px;
-    &:not(.active) {
-      opacity: .2;
-    }
+}
+
+.carousel-indicators.flat-indicators li {
+  height: 2px;
+  width: 48px;
+  &:not(.active) {
+    opacity: .2;
   }
 }
 

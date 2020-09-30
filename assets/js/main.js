@@ -615,7 +615,7 @@ $(document).ready(function() {
     fallbackPlacement: ['bottom'],
     flip: 'bottom',
   };
-  // popover used for speaker bios as of sep2019
+  // popover used for speaker bios as of sep2019 + validation?
   $('[data-toggle="popover"]').popover(options);
   $('[data-toggle="lightbox"]').click(function(event) {
       event.preventDefault();
@@ -660,8 +660,35 @@ $(document).ready(function() {
 
   });
 
-  var hpScrollerWidth = $(".home-quotes .mob-scroll").width();
-  $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth/2 );
+  var hpScrollerWidth = $(".featured-quotes__single-quote:nth-child(2)").width() * 3 + $(window).width()*0.2;
+  var halfQuoteWidth = $(".featured-quotes__single-quote:nth-child(2)").width()/2;
+  $(".home-quotes .mob-scroll").scrollLeft( hpScrollerWidth * 0.5 - halfQuoteWidth );
+  $(".scroller-indicators li").click(function() {
+    console.log(hpScrollerWidth, halfQuoteWidth)
+    var childNo = $(".scroller-indicators li").index(this);
+    if(childNo == 0 || childNo == 2) {
+      $('.home-quotes .mob-scroll').animate({
+        scrollLeft: hpScrollerWidth * childNo * 0.5
+      }, 400);
+    } else {
+      $('.home-quotes .mob-scroll').animate({
+        scrollLeft: hpScrollerWidth * childNo * 0.5 - halfQuoteWidth
+      }, 400);
+    }
+    //style="scroll-snap-type: x mandatory; scroll-padding: 20%;"
+  });
+
+  $('.home-quotes .mob-scroll').scroll(function(){
+      var scrollPos = $('.home-quotes .mob-scroll').scrollLeft();
+      $(".scroller-indicators li").removeClass('active');
+      if(scrollPos >= hpScrollerWidth * 0.6) {
+        $(".scroller-indicators li").last().addClass('active');
+      } else if(scrollPos <= hpScrollerWidth * 0.3) {
+        $(".scroller-indicators li").first().addClass('active');
+      } else {
+        $(".scroller-indicators li:nth-child(2)").addClass('active');
+      }
+  });
 
 
   function loopVideo() {

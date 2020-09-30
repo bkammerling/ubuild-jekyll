@@ -4,12 +4,14 @@
   }
 }
 
-
 .article-list {
   margin: 64px 0;
   overflow: visible;
   .row {
     min-width: 1000px;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
 
