@@ -13,9 +13,10 @@ page_sections:
   cta:
     url: "#section-contact"
     button_text: Kontakt
+    enabled: true
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Technologie für intelligente und nachhaltige Mobilität
+  headline: Technologie zur Gründung und Skalierung von Shared-Mobility-Diensten
   cta:
     url: "https://vimeo.com/318402556"
     button_text: Film Anschauen
@@ -25,6 +26,7 @@ page_sections:
     button_text:
     enabled: false
   background_video: hp-loop-test2
+  sub_logo: "/uploads/global/home/mobility-os.svg"
   show_logos: false
   background_image: "/uploads/global/fleet-frame.jpg"
 - block: home-main
