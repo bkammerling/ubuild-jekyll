@@ -25,6 +25,8 @@ hidden: true
 ---
 Today, we are excited to announce the launch of the Wunder Marketplace — a first-of-its-kind Mobility-as-a-Service (MaaS) marketplace.
 
+{% include block-video-2.html vimeo-id="423405261" %}
+
 Through working with our clients around the globe, we’ve realized the unique challenges that each operator faces. From varying regional requirements, difficulties forecasting demand, and more, one solution alone cannot serve all clients equally. With the Wunder Marketplace, we’re providing our clients with more choices and more flexibility — allowing them to adapt our software solutions to fit their specific needs.
 
 As of today, our clients can visit the **Wunder Marketplace** and choose from several partner-built software solutions to extend their platform. With our seamless integration, these extensions can be installed quickly — allowing our clients to get started with ease.
@@ -37,6 +39,5 @@ The Wunder Marketplace is the next step in our promise to help our clients, star
 
 ——————————————————————————————————
 
-  
 The Wunder Marketplace is available at [www.wundermobility.com/marketplace_  
 _](http://www.wundermobility.com/marketplace)_Existing Wunder Mobility customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
