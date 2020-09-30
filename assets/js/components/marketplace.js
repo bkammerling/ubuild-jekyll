@@ -147,7 +147,18 @@ $(document).ready(function() {
       minimumResultsForSearch: Infinity
     }).trigger('select2:select');
     // send event to GA
+  });
+
+  
+  if(!localStorage.getItem('marketplaceBanner')) {
+      //$('#topBanner').slideDown();
+      $('body').addClass('show-banner');
+  }
+  $('#bannerClose').click(function() {
+    $('#topBanner').slideUp();
+    localStorage.setItem('marketplaceBanner', true)
   })
+
 
   $('input:radio[name="customer"]').change(function() {
     if ($(this).val() == 'customerNo') {

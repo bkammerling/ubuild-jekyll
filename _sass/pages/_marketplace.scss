@@ -130,7 +130,6 @@ p {
  ------ COMPONENTS ------
 */
 
-
 .btn {
   font-size: 14px;
   .arrow-svg {
@@ -195,6 +194,12 @@ p {
   }
 }
 
+#topBanner {
+  display: none;
+  .show-banner & {
+    display: flex; //so we can use jquery slideup
+  }
+}
 
 #app-highlight {
   .app-icon {

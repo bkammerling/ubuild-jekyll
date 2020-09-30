@@ -106,13 +106,13 @@ wunder-de:
   title: Fahrzeug-Sharing
   identifier: vehiclesharing
   sub: true
-- url: "/fleet"
+- url: "/de/fleet"
   weight: 1
   parent: vehiclesharing
   identifier: fleet
   title: Fleet
   subtitle: Starten Sie Ihr Free-Floating-Unternehmen mit einer All-in-one-Plattform.
-- url: "/rent"
+- url: "/de/rent"
   weight: 2
   parent: vehiclesharing
   identifier: rent
@@ -122,20 +122,20 @@ wunder-de:
   weight: 3
   parent: vehiclesharing
   identifier: vehicles
-  title: Vehicles
+  title: Vehicles | EN
   subtitle: Sharing-fähige Fahrzeuge für die nächste Generation der Mobilität.
 - url: "#"
   weight: 2
   title: Ride-Hailing
   identifier: ridehailing
   sub: true
-- url: "/ride"
+- url: "/de/ride"
   weight: 1
   parent: ridehailing
   identifier: ride
   title: Ride
   subtitle: Einzel- oder Sammelfahrten, im Voraus oder auf Abruf gebucht.
-- url: "/carpool"
+- url: "/de/carpool"
   weight: 2
   parent: ridehailing
   identifier: carpool
@@ -143,7 +143,7 @@ wunder-de:
   subtitle: Ermöglichen Sie Mitarbeitern, gemeinsame Fahrten zur Arbeit zu organisieren und Emissionen zu reduzieren.
 - url: "#"
   weight: 3
-  title: Erweiterungen
+  title: Extensions
   identifier: extensions
   sub: true
 - url: "/marketplace"
@@ -151,15 +151,15 @@ wunder-de:
   weight: 1
   parent: extensions
   identifier: marketplace
-  title: NEU! Marketplace
+  title: NEU! Marketplace | EN
   subtitle: Verbessern und skalieren Sie Ihr Mobilitätsgeschäft mit unserer modularen Plattformm.
-- url: "/city"
+- url: "/de/city"
   weight: 2
   parent: extensions
   identifier: city
   title: City
   subtitle: Analysen zur Vorbereitung der Städte auf eine vernetzte Zukunft.
-- url: "/park"
+- url: "/de/park"
   weight: 3
   parent: extensions
   identifier: park
@@ -173,13 +173,13 @@ wunder-de:
 - url: "/our-story"
   weight: 1
   identifier: our-story
-  title: Our Story
+  title: Our Story | EN
   parent: company
   subtitle: Every journey starts somewhere
 - url: "/blog/"
   weight: 2
   identifier: blog
-  title: Blog
+  title: Blog | EN
   parent: company
   subtitle: Erkunden Sie die Zukunft der Mobilität.
 - identifier: workingatwunder
@@ -188,7 +188,7 @@ wunder-de:
   parent: company
   weight: 3
   title: Karriere
-- url: "/press"
+- url: "/de/presse"
   weight: 4
   identifier: press
   title: Presse
@@ -197,7 +197,7 @@ wunder-de:
 - url: "/summit/"
   weight: 5
   identifier: summit
-  title: Wunder mobility Summit
+  title: Wunder Mobility Summit | EN
   parent: company
   subtitle: Der Mobilität-Event des Jahres!
 
