@@ -86,7 +86,7 @@ wunder-main:
   url: "/careers/"
   parent: company
   weight: 3
-  title: Working at Wunder
+  title: Careers
 - url: "/press"
   weight: 4
   identifier: press
