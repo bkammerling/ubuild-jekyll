@@ -4,6 +4,6 @@ title: Wunder Mobility to Co-Develop Its First Sharing-Ready EV With China’s Y
 date: 
 lang: English
 image: "/uploads/2020/09/30/autofutures-1.png"
-featured: true
+featured: false
 
 ---

@@ -4,6 +4,6 @@ title: 'Mobility actors launch #WeAllMove'
 date: 
 lang: English
 image: "/uploads/2020/09/30/polis-1.png"
-featured: true
+featured: false
 
 ---

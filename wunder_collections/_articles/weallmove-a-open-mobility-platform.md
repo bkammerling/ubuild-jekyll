@@ -4,6 +4,6 @@ title: 'WeAllMove: A open mobility platform'
 date: 
 lang: English
 image: "/uploads/2020/09/30/wef-logo_xl-1.png"
-featured: true
+featured: false
 
 ---
