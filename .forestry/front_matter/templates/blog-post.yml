@@ -26,9 +26,9 @@ fields:
     - Life@Wunder
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: tags
   type: tag_list
@@ -68,8 +68,8 @@ fields:
     source:
       type: pages
       section: people-8a3e1c07-8744-4a78-8ecd-2e184ab8a6d5
-      file: 
-      path: 
+      file:
+      path:
   label: Author
 - name: share_image
   type: file
@@ -102,8 +102,8 @@ fields:
     source:
       type: pages
       section: pages
-      file: 
-      path: 
+      file:
+      path:
   label: CTA Link
 - name: sticky
   type: boolean
@@ -122,3 +122,16 @@ pages:
 - wunder_collections/_posts/2020-06-24-imagining-a-car-free-future-a-guest-article-by-katja-diehl.md
 - wunder_collections/_posts/2020-07-02-csr-fur-die-strasse.md
 - wunder_collections/_posts/2020-07-02-csr-takes-to-the-streets.md
+- wunder_collections/_posts/2020-07-02-csr-takes-to-the-streets.md
+- wunder_collections/_posts/2020-07-17-an-interview-with-stephan-kuhn.md
+- wunder_collections/_posts/2020-07-17-an-interview-with-stephan-kuhn.md
+- wunder_collections/_posts/2020-07-31-entzerrung-durch-digitalisierung.md
+- wunder_collections/_posts/2020-07-31-leveling-the-mobility-playing-field-through-digitalization.md
+- wunder_collections/_posts/2020-08-14-das-personenbeforderungsgesetz.md
+- wunder_collections/_posts/2020-08-14-the-future-of-the-passenger-transportation-act.md
+- wunder_collections/_posts/2020-08-24-an-interview-with-clement-guasco.md
+- wunder_collections/_posts/2020-08-24-an-interview-with-electric-life-rides.md
+- wunder_collections/_posts/2020-08-28-use-of-data-finland-as-a-model-of-efficient-mobility.md
+- wunder_collections/_posts/2020-09-11-an-interview-with-dr.christoph-ploss.md
+- wunder_collections/_posts/2020-09-30-video-wunder-marketplace-the-first-mobility-as-a-service-maas-marketplace.md
+- wunder_collections/_posts/an-interview-with-joseph-brennan-co-founder-zoba.md
