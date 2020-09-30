@@ -1,10 +1,10 @@
 ---
 layout: blocks
-title: Wunder Shuttle | On-demand ride-hailing technology
+title: Wunder Ride | On-demand ride-hailing technology
 date: '2019-01-10T23:00:00.000+00:00'
-permalink: "/shuttle"
+permalink: "/ride"
 lang: en
-lang-ref: shuttle
+lang-ref: ride
 version: hp
 page_sections:
 - template: navigation-header-w-button
@@ -17,7 +17,7 @@ page_sections:
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
-  sub_logo: "/uploads/global/Wunder-Shuttle_Dark.svg"
+  sub_logo: "/uploads/global/wunderride-logo.svg"
   headline: Scale quickly with <br>on-demand ride-hailing
   cta:
     button_text: Contact Us

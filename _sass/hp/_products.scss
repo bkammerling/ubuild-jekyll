@@ -134,7 +134,7 @@
 
 
 
-.shuttle {
+.ride {
   .hero-banner__title-wrapper {
     h1 {
       color: $mobility-black;
@@ -636,8 +636,9 @@ a img.right-arrow {
 /* FLEET 2020 */
 
 .fleet-app-img {
+  max-width: 400px;
   @include rwd(tablet-up) {
-    width: 130%;
+    width: 200%;
     max-width: none;
   }
   @include rwd(desktop-up) {
@@ -647,11 +648,14 @@ a img.right-arrow {
 
 .fleet-mockup {
   @include rwd(tablet-up) {
-    max-width: 140%;
+    max-width: 190%;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+  }
+  @include rwd(desktop-up) {
+    max-width: 140%;
   }
 }
 

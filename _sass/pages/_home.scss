@@ -2,6 +2,12 @@
   a:hover {
     text-decoration: underline;
   }
+  li {
+    @include rwd(tablet-down) {
+      width: 40%;
+      display: inline-block;
+    }
+  }
 }
 
 .article-list {
@@ -12,6 +18,12 @@
   }
   a:hover {
     text-decoration: underline;
+  }
+}
+
+.shiftleft-hack {
+  @include rwd(tablet-down) {
+    margin-left: -15px;
   }
 }
 

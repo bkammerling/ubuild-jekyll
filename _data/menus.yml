@@ -28,7 +28,7 @@ wunder-main:
   title: Ride Hailing
   identifier: ridehailing
   sub: true
-- url: "/shuttle"
+- url: "/ride"
   weight: 1
   parent: ridehailing
   identifier: ride
@@ -124,11 +124,11 @@ wunder-de:
   identifier: carpool
   title: Carpool
   subtitle: Mitfahrgelegenheiten für Angestellte
-- url: "/de/shuttle"
+- url: "/de/ride"
   weight: 4
   parent: solutions
   identifier: shuttle
-  title: Shuttle
+  title: Ride
   subtitle: Ridehailing On-Demand
 - url: "/de/park"
   weight: 5
@@ -322,9 +322,9 @@ footer:
     identifier: rent
     title: Rent
   - identifier: shuttle
-    url: "/shuttle"
+    url: "/ride"
     weight: 3
-    title: Shuttle
+    title: Ride
     parent: solutions
   - identifier: carpool
     url: "/carpool"

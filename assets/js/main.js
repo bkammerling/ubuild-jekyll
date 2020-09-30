@@ -642,7 +642,6 @@ $(document).ready(function() {
     }
     // Does a scroll target exist?
     if (target.length) {
-      console.log(target);
       event.preventDefault();
       // Only prevent default if animation is actually gonna happen
       $('html, body').animate({
@@ -655,6 +654,8 @@ $(document).ready(function() {
         var inputTarget = $('#'+eventTarget.data('input'));
         inputTarget.val(eventTarget.data('value')).siblings('.select2').addClass('selected')
         inputTarget.trigger('change.select2').trigger('change');;
+      } else if(eventTarget.hasClass('gt-navcta')) {
+        $(".header__hamburger").trigger('click');
       }
     }
 

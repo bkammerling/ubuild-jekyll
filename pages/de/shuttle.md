@@ -2,10 +2,10 @@
 layout: blocks
 title: Wunder Shuttle | Skalieren Sie ridehailing On-Demand
 date: 2019-01-10 23:00:00 +0000
-permalink: "/de/shuttle"
+permalink: "/de/ride"
 lang: de
 version: hp
-lang-ref: shuttle
+lang-ref: ride
 share_image: "/uploads/2020/01/30/Sharer-Shuttle@2x.jpg"
 page_sections:
 - template: navigation-header-w-button
@@ -18,7 +18,7 @@ page_sections:
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
-  sub_logo: "/uploads/global/Wunder-Shuttle_Dark.svg"
+  sub_logo: "/uploads/global/wunderride-logo.svg"
   headline: Skalieren Sie schnell mit Ridehailing On-Demand
   cta:
     button_text: Kontakt
