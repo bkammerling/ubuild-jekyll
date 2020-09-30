@@ -40,7 +40,7 @@ screenshot_details:
     inside tickets.
 app_details:
 - detail_title: ''
-  detail_content: <a href="https://www.zendesk.com" title="Developer Website →">Developer
+  detail_content: <a href="https://www.zendesk.com" title="Developer Website →" target="_blank">Developer
     Website →</a>
 - detail_title: ''
   detail_content: <a href="https://www.zendesk.com/company/customers-partners/terms-of-use/"
@@ -54,6 +54,6 @@ access_needed:
 getting_started:
 - column_title: Get Started
   column_description: Get in contact with us and start your free trial!
-whitepaper_link: ""
+whitepaper_link: ''
 
 ---
