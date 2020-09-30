@@ -654,7 +654,7 @@ $(document).ready(function() {
         var inputTarget = $('#'+eventTarget.data('input'));
         inputTarget.val(eventTarget.data('value')).siblings('.select2').addClass('selected')
         inputTarget.trigger('change.select2').trigger('change');;
-      } else if(eventTarget.hasClass('gt-navcta')) {
+      } else if(eventTarget.is('.nav-full__wrapper .gt-navcta')) {
         $(".header__hamburger").trigger('click');
       }
     }
