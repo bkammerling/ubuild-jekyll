@@ -1,6 +1,6 @@
 ---
 layout: marketplace-app
-category: Analytics and Monitoring
+category: Operations Improvement
 title: Ubiq
 icon: "/uploads/2020/10/01/design-gradient-final.png"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
