@@ -34,7 +34,7 @@ Learn more at [https://www.wundermobility.com/marketplace/zoba](https://www.wund
 
 Zoba is a mobility demand forecasting and optimization company. Our platform enables mobility operators to forecast demand and optimize supply to meet it. We primarily focus on supply positioning and dynamic pricing optimization for shared mobility operators.
 
-![](/uploads/2020/10/01/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.jpg)
+![](/uploads/2020/10/01/zoba-s-platform-allows-you-to-visualize-things-like-demand-and-competition-daniel-brennan.jpg "The Zoba Platform")
 
 My brother, Dan, and I founded Zoba in 2016 to develop a demand forecasting and optimization platform for the wave of new mobility services popping up globally. These services are here to stay in our increasingly urban world, but nearly all of them struggle with some of their most foundational issues around the dynamics of demand and supply. Building off of leading MIT research on demand forecasting, we spent years developing the core technology that powers our products today.
 
