@@ -23,7 +23,7 @@ sticky: false
 hidden: false
 
 ---
-Today, we are excited to announce the launch of the [**Wunder Marketplace**](www.wundermobility.com/marketplace) — a first-of-its-kind Mobility-as-a-Service (MaaS) marketplace.
+Today, we are excited to announce the launch of the [**Wunder Marketplace** ](www.wundermobility.com/marketplace)— a first-of-its-kind Mobility-as-a-Service (MaaS) marketplace.
 
 {% include block-video-2.html vimeo-id="463397319" %}
 
