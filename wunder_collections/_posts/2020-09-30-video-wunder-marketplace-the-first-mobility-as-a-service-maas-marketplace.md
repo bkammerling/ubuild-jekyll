@@ -23,7 +23,7 @@ sticky: false
 hidden: false
 
 ---
-Today, we are excited to announce the launch of the [**Wunder Marketplace** ](www.wundermobility.com/marketplace)— a first-of-its-kind Mobility-as-a-Service (MaaS) marketplace.
+Today, we are excited to announce the launch of the **Wunder Marketplace** — a first-of-its-kind Mobility-as-a-Service (MaaS) marketplace.
 
 {% include block-video-2.html vimeo-id="463397319" %}
 
@@ -41,4 +41,4 @@ The Wunder Marketplace is the next step in our promise to help our clients, star
 
 The Wunder Marketplace is available at [www.wundermobility.com/marketplace](http://www.wundermobility.com/marketplace)
 
-_Existing_ [_Wunder Mobility_](www.wundermobility.com) _customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
+_Existing_ _Wunder Mobility_ _customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
