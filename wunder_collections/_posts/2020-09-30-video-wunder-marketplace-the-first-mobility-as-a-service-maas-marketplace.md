@@ -8,10 +8,10 @@ tags:
 - product
 - launch
 author: wunder_collections/_people/Michael Wolf.md
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Find Out More About The Wunder Marketplace
+cta_text: Get ahead of the competition with the Wunder Marketplace — the world’s first
+  mobility marketplace connected to our stable and scalable mobility platform.
+cta_link: pages/marketplace.md
 title: "[Video] Wunder Marketplace: The first Mobility-as-a-Service (MaaS) marketplace"
 publish_date: 2020-10-01T09:00:00.000+00:00
 featured_image: "/uploads/2020/09/30/marketplace_share_graphic_wide_02.jpg"
@@ -39,5 +39,6 @@ The Wunder Marketplace is the next step in our promise to help our clients, star
 
 ——————————————————————————————————
 
-The Wunder Marketplace is available at [www.wundermobility.com/marketplace_  
-_](http://www.wundermobility.com/marketplace)_Existing Wunder Mobility customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
+The Wunder Marketplace is available at [www.wundermobility.com/marketplace](http://www.wundermobility.com/marketplace)  
+  
+_Existing_ [_Wunder Mobility_](www.wundermobility.com) _customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
