@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: motum
-icon: "/uploads/2020/09/17/repairfix_neu.png"
+icon: "/uploads/2020/10/01/logo-repairfix-wunder.png"
 excerpt: Monitor, analyze and optimise your damage & service management with motum!
 featured: false
 preview_gallery:
@@ -58,5 +58,7 @@ getting_started:
 - column_title: Start saving
   column_description: 'Once the set-up is completed, it is up to your drivers to start
     reporting so that you can manage & monitor the fleet condition! '
+whitepaper_link: ''
+video_poster: ''
 
 ---
