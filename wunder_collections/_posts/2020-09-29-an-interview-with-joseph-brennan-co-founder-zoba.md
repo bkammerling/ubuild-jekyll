@@ -23,7 +23,7 @@ excerpt: 'Wunder Mobility’s platform makes it easy to integrate with Zoba: wit
   make use of it.'
 share_image: "/uploads/2020/09/29/social_share_image-2.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Today we hear from Joseph Brennan, Co-founder of Zoba, one of our Wunder Marketplace partners.
@@ -33,6 +33,8 @@ Learn more at [https://www.wundermobility.com/marketplace/zoba](https://www.wund
 **What is Zoba?**
 
 Zoba is a mobility demand forecasting and optimization company. Our platform enables mobility operators to forecast demand and optimize supply to meet it. We primarily focus on supply positioning and dynamic pricing optimization for shared mobility operators.
+
+![](/uploads/2020/10/01/screen-shot-2020-08-04-at-4-35-32-pm.png)
 
 My brother, Dan, and I founded Zoba in 2016 to develop a demand forecasting and optimization platform for the wave of new mobility services popping up globally. These services are here to stay in our increasingly urban world, but nearly all of them struggle with some of their most foundational issues around the dynamics of demand and supply. Building off of leading MIT research on demand forecasting, we spent years developing the core technology that powers our products today.
 
