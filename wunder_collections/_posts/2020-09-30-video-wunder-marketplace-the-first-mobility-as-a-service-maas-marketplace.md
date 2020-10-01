@@ -13,7 +13,7 @@ cta_text: Get ahead of the competition with the Wunder Marketplace — the world
   mobility marketplace connected to our stable and scalable mobility platform.
 cta_link: pages/marketplace.md
 title: "[Video] Wunder Marketplace: The first Mobility-as-a-Service (MaaS) marketplace"
-publish_date: 2020-10-01T09:00:00.000+00:00
+publish_date: 2020-10-01 07:40:00 +0000
 featured_image: "/uploads/2020/09/30/marketplace_share_graphic_wide_02.jpg"
 excerpt: The Wunder Marketplace is the next step in our promise to help our clients,
   start, scale, and stand out in the mobility industry. We're looking forward to growing
@@ -37,8 +37,8 @@ The Wunder Marketplace represents our strong belief in opening up our software s
 
 The Wunder Marketplace is the next step in our promise to help our clients, start, scale, and stand out in the mobility industry. We're looking forward to growing together.
 
-——————————————————————————————————
+—
 
-The Wunder Marketplace is available at [www.wundermobility.com/marketplace](http://www.wundermobility.com/marketplace)  
-  
+The Wunder Marketplace is available at [www.wundermobility.com/marketplace](http://www.wundermobility.com/marketplace)
+
 _Existing_ [_Wunder Mobility_](www.wundermobility.com) _customers can find the Wunder Marketplace within the Wunder Fleet product back-end in the drop-down menu._
