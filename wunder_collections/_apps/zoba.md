@@ -1,6 +1,6 @@
 ---
 layout: marketplace-app
-category: Analytics and Monitoring
+category: Operations Improvement
 title: Zoba
 icon: "/uploads/2020/08/26/copy-of-zoba_z3-2.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
@@ -63,5 +63,7 @@ getting_started:
     from Wunder Fleet to Zoba. Zoba will do real-time demand forecast, and integrate
     recommendations into your operations stack.
 featured: false
+whitepaper_link: ''
+video_poster: ''
 
 ---
