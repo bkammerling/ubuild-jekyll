@@ -673,7 +673,7 @@ $(document).ready(function() {
       }, 400);
     } else {
       $('.home-quotes .mob-scroll').animate({
-        scrollLeft: hpScrollerWidth * childNo * 0.5 - halfQuoteWidth
+        scrollLeft: hpScrollerWidth * childNo * 0.5 - halfQuoteWidth // - $(window).width()/12
       }, 400);
     }
     //style="scroll-snap-type: x mandatory; scroll-padding: 20%;"
