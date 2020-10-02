@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
-category: Analytics and Monitoring
+category: Operations Improvement
 title: Ubiq
-icon: "/uploads/2020/09/21/logo-gradient-sam-hargreaves.jpg"
+icon: "/uploads/2020/10/01/design-gradient-final.png"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
   operational costs.
 featured: false
@@ -73,5 +73,6 @@ getting_started:
   column_description: Once set-up, watch how your daily rentals increase as vehicle
     supply better matches demand.
 whitepaper_link: "/uploads/2020/09/21/casestudy_reachnow-sam-hargreaves.pdf"
+video_poster: ''
 
 ---
