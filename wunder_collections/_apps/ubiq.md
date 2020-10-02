@@ -72,7 +72,7 @@ getting_started:
 - column_title: Access the API or Service to increase vehicle utilization
   column_description: Once set-up, watch how your daily rentals increase as vehicle
     supply better matches demand.
-whitepaper_link: "/uploads/2020/09/21/casestudy_reachnow-sam-hargreaves.pdf"
+whitepaper_link: "/uploads/2020/10/02/casestudy_reachnow_fleet-efficiency-streetcrowd-_v1-1-5-pages-deleted.pdf"
 video_poster: ''
 
 ---
