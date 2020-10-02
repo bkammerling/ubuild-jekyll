@@ -1,6 +1,6 @@
 ---
 layout: marketplace-app
-category: Operations Improvement
+category: Fleet Maintenance
 title: Chargery
 icon: "/uploads/2020/09/29/chrgry-logo_greybg-01.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
@@ -36,9 +36,11 @@ screenshot_details:
 - screenshot: "/uploads/2020/09/29/fullservicex.jpg"
   title: 'Full service for any shared mobility fleet: From cleaning and recharging
     to battery swapping and relocating your fleet.'
-  screenshot_description: |-
-    We guarantee a sustainable full-service for any kind of shared mobility provider all over Europe with our own highly-motivated service team.
-    We are constantly extending our service portfolio to serve the demands of our customers.
+  screenshot_description: We place significant value on our social responsibility.
+    That’s why we abstain from using temp agencies and hire on all of our service
+    professionals in-house. Having our own highly-motivated team allows us to guarantee
+    a high-quality and sustainable full-service for any kind of shared mobility provider
+    in Europe.
 - screenshot: "/uploads/2020/09/29/infrastructurex.jpg"
   title: Smart infrastructure solutions to guarantee highly-efficient operations.
   screenshot_description: In addition to our software and services, smart infrastructure
@@ -61,8 +63,8 @@ access_needed:
 - Vehicle Data
 getting_started:
 - column_title: Reach out to your business account manager
-  column_description: 'How can we help your business with our solutions? tell us everything
-    about your inquiry and we will be in touch shortly. '
+  column_description: How can we help your business with our solutions? Leave us a
+    detailed inquiry and we will be in touch shortly.
 - column_title: Schedule a free consultation with our mobility experts
   column_description: At Chargery, we live mobility and talk to customers or potential
     partners at eye level. Our experience with all major operators in many countries
@@ -76,5 +78,6 @@ getting_started:
     make sense for you to fully outsource the software, service delivery by our own
     team on the ground and complementary infrastructure to Chargery. '
 whitepaper_link: ''
+video_poster: ''
 
 ---
