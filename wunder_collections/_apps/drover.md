@@ -15,13 +15,14 @@ preview_gallery:
 description: "<p>Drover’s PathPilot is a ‘plug and play’ module designed to be retrofit
   onto existing micromobility fleet vehicles and uses AI and our proprietary sensor
   fusion technology to deliver granular infrastructure distinction and the ability
-  to control vehicle behavior based on that.</p><ul><li><p>Sidewalk detection (and
-  resulting vehicle level decisions that can be taken).</p></li><li><p>Granular location
-  categorization - specifically designated categories like a sidewalk, bike lane,
-  crosswalk, street, and the possibility of taking specific vehicle level action based
-  on those.</p></li><li><p>Parking verification &amp; management. Real-time ability
-  to verify and enforce user parking in a designated area like corrals or docking
-  stations</p></li></ul>"
+  to control vehicle behavior based on that. PathPilot can function as a secondary
+  IoT module in concert with your existing module, or be used as the primary IoT module
+  to manage your fleet vehicles.</p><ul><li><p>Sidewalk detection (and resulting vehicle
+  level decisions that can be taken).</p></li><li><p>Granular location categorization
+  - specifically designated categories like a sidewalk, bike lane, crosswalk, street,
+  and the possibility of taking specific vehicle level action based on those.</p></li><li><p>Parking
+  verification &amp; management. Real-time ability to verify and enforce user parking
+  in a designated area like corrals or docking stations</p></li></ul>"
 screenshot_details:
 - screenshot: "/uploads/2020/09/22/path-pilot-v1-2-alex-nesic.PNG"
   screenshot_description: |-
@@ -57,5 +58,7 @@ getting_started:
   column_description: Chances are, we may have already worked with the vehicles you
     use but if your hardware is new to us, we customize a mounting bracket. On the
     software side, we help you with the integration of the APIs provided by Drover.
+whitepaper_link: ''
+video_poster: ''
 
 ---
