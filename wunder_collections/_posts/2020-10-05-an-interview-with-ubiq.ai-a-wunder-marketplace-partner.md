@@ -14,12 +14,12 @@ cta_text: Get ahead of the competition with the Wunder Marketplace — the world
 cta_link: pages/marketplace.md
 title: " An Interview with Ubiq.ai, a Wunder Marketplace Partner"
 publish_date: 2020-10-06 09:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/10/05/social_share_image-2.jpg"
 excerpt: Ubiq is a mobility tech provider, supporting future mobility companies to
   operate profitably and sustainably.
-share_image: ''
+share_image: "/uploads/2020/10/05/social_share_image-2.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Today we hear from Christian Adelsberger, Founder and CEO of Ubiq.ai, one of our Wunder Marketplace partners.
