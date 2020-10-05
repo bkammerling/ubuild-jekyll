@@ -19,7 +19,7 @@ excerpt: Ubiq is a mobility tech provider, supporting future mobility companies 
   operate profitably and sustainably.
 share_image: "/uploads/2020/10/05/social_share_image-2.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Today we hear from Christian Adelsberger, Founder and CEO of Ubiq.ai, one of our Wunder Marketplace partners.
