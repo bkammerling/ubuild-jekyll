@@ -13,12 +13,14 @@ cta_text: Get ahead of the competition with the Wunder Marketplace — the world
   mobility marketplace connected to our stable and scalable mobility platform.
 cta_link: pages/marketplace.md
 title: " An Interview with StriveCloud, a Wunder Marketplace Partner"
-publish_date: 2020-10-05 00:00:00 +0000
-featured_image: ''
-excerpt: ''
-share_image: ''
+publish_date: 2020-10-05 14:00:00 +0000
+featured_image: "/uploads/2020/10/05/social_share_image.jpg"
+excerpt: 'Gamification specialist StriveCloud has one goal: help businesses across
+  industries unlock the drivers of engagement and in doing so, support their growth
+  through app gamification.'
+share_image: "/uploads/2020/10/05/social_share_image-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Today we hear from Freek Borghgraef and Joris De Koninck, Co-founders of StriveCloud, one of our Wunder Marketplace partners.
