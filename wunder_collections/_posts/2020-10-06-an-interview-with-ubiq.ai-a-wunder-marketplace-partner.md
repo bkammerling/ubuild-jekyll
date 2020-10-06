@@ -50,6 +50,8 @@ The main value we provide is automating operations in terms of rebalancing and c
 
 Secondly, what really differentiates us is our capability to execute in a seamless and scalable way. We have developed what we call _StreetCrowd_. StreetCrowd is a crowd-based model that helps our customers to exploit efficiency potentials out there. With StreetCrowd they can do this without the need to necessarily expand their own operations team. This means they can scale their operations without spending considerable sums of money.
 
+![](/uploads/2020/10/06/demand-fulfilment.png)
+
 #### **Interesting. This crowdsourcing concept in mobility is quite well known in the scooter business in the form of ‘juicers’. Could you tell us a bit more about how StreetCrowd works?**
 
 **Christian:** StreetCrowd is a pool of StreetCrowd members who are contracted by us and are paid to carry out operational activities that help share mobility providers to improve their business.
