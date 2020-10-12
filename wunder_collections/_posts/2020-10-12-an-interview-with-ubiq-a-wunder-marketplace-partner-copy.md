@@ -15,12 +15,12 @@ cta_text: Get ahead of the competition with the Wunder Marketplace — the world
 cta_link: pages/marketplace.md
 title: An Interview with Ben, a Wunder Marketplace Partner
 publish_date: 2020-10-12 15:00:00 +0000
-featured_image: "/uploads/2020/10/06/social_share_image.jpg"
+featured_image: "/uploads/2020/10/12/social_share_image.jpg"
 excerpt: Ben is the tech-driven one-stop-shop service company for all fleet maintenance
   services.
-share_image: "/uploads/2020/10/06/social_share_image.jpg"
+share_image: "/uploads/2020/10/12/social_share_image.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Today we talk to [Axel Kalisch](https://www.linkedin.com/in/axel-kalisch/), founder, and CEO of Ben Fleet Services, one of our Wunder Marketplace partners.  
