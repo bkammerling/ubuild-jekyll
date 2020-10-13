@@ -7,6 +7,8 @@ excerpt: Turn your website or mobile app into products users love with the plug-
   gamification technology.
 featured: true
 preview_gallery:
+- image-video: "/uploads/2020/09/08/usp1_leaderboard-alexa-andrei.png"
+  title: ''
 - image-video: "/uploads/2020/10/12/leaderboards.png"
   title: Leaderboard - Make progress visible
 - image-video: "/uploads/2020/10/12/levellingsystem.png"
