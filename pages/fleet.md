@@ -13,7 +13,7 @@ page_sections:
   sub_logo: ""
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Contact Us
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
@@ -23,7 +23,7 @@ page_sections:
     url: "#main-video"
     button_text: Watch how it works
     enabled: true
-  background_video: fleet_loop
+  background_video: fleet-loop
   show_logos: true
   background_image: "/uploads/global/fleet-frame.jpg"
   intro_text: ''

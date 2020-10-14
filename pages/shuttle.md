@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Wunder Ride | On-demand ride-hailing technology
+title: Wunder Ride | On-demand ride-hailing platform
 date: '2019-01-10T23:00:00.000+00:00'
 permalink: "/ride"
 lang: en
@@ -12,20 +12,20 @@ page_sections:
   menu: wunder-main
   cta:
     url: "#section-contact"
-    button_text: Contact
+    button_text: Contact Us
     enabled: true
   sub_logo: ''
 - template: hero-banner-w-image
   block: hero-hp
   sub_logo: "/uploads/global/wunderride-logo.svg"
-  headline: Scale quickly with <br>on-demand ride-hailing
+  headline: Scale quickly with the most flexible ride-hailing platform
   cta:
     button_text: Contact Us
     url: "#section-contact"
     enabled: false
   background_video: ''
   show_logos: true
-  background_image: "/uploads/global/shuttle-3dhero@2x.png"
+  background_image: "/uploads/global/shuttle-photohero@2x.jpg"
   intro_text: ''
   cta_2:
     enabled: false
