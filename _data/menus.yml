@@ -96,7 +96,7 @@ wunder-main:
 - url: "/summit/"
   weight: 5
   identifier: summit
-  title: Wunder mobility Summit
+  title: Wunder Mobility Summit
   parent: company
   subtitle: The mobility event of the year!
 
@@ -170,12 +170,12 @@ wunder-de:
   title: Firma
   identifier: company
   sub: true
-- url: "/our-story"
+- url: "/de/unsere-geschichte"
   weight: 1
   identifier: our-story
-  title: Our Story | EN
+  title: Unsere Geschichte
   parent: company
-  subtitle: Every journey starts somewhere
+  subtitle: Jede Reise hat einen Anfang
 - url: "/blog/"
   weight: 2
   identifier: blog
