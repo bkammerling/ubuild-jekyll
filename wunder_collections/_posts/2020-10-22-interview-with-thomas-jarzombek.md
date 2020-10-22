@@ -13,7 +13,7 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
   city officials and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
 title: Interview with Thomas Jarzombek
-publish_date: 
+publish_date: 2020-10-22 00:00:00 +0000
 featured_image: "/uploads/2020/10/22/cover_221020_02.jpg"
 excerpt: The stronger the competition is, the more agile the players become, and the
   better their chances are to be successful in the international market.
