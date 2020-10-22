@@ -30,8 +30,7 @@ _Read this article in_ [_German_](https://bernstein-group.com/de/2020/10/19/inte
 
 ***
 
-**  
-Innovative mobility ideas often come from very agile and fast start-ups. A major challenge for them is communication with officially organized communities. How can this exchange be improved in the future?**
+**Innovative mobility ideas often come from very agile and fast start-ups. A major challenge for them is communication with officially organized communities. How can this exchange be improved in the future?**
 
 Cooperation between start-ups and large organizations, especially public authorities, is a topic that we are very concerned about. With our "go-inno" initiative, we are in the process of taking various measures to give start-up entrepreneurs better access to public tenders. For example, we are pushing more strongly for technology-neutral tenders. This is often a decisive prerequisite, especially when we are talking about tech start-ups. For example, do I put out tenders for helicopter services to find people in distress at sea, or do I put such services out to tender in a technology-neutral way so that drones can also be used for this purpose?
 
