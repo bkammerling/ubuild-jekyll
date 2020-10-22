@@ -5,20 +5,27 @@ tags:
 - Bernstein
 - policy
 - cities
+- mobility
+- diversity
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Sign Up for our Policy Brief
+cta_text: Our bilingual policy brief is full of articles relevant to policymakers,
+  city officials and mobility enthusiasts.
+cta_link: pages/bernstein-newsletter.md
 title: Interview with Thomas Jarzombek
 publish_date: 
-featured_image: ''
-excerpt: ''
-share_image: "/uploads/2020/10/22/cover_1022220.jpg"
+featured_image: "/uploads/2020/10/22/cover_221020_02.jpg"
+excerpt: The stronger the competition is, the more agile the players become, and the
+  better their chances are to be successful in the international market.
+share_image: "/uploads/2020/10/22/cover_1022220-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
+© Tobias Koch 2020
+
+_Read this article in_ [_German_](https://bernstein-group.com/de/2020/10/19/interview-mit-thomas-jarzombek-nur-durch-wettbewerb-entstehen-erfolgreiche-innovationen/).
+
 > Successful innovations can only be created through competition
 
 ***
@@ -48,6 +55,6 @@ I would like to see the Federal Ministry of Transport commissioning the first ro
 
 **One final question: Is there an ideal mobility concept for you that you would like to see, or should the better person simply win?**
 
-Well, I am an absolute fan of competition and diversity. I don't think there is such a thing as the "one size fits all" solution. It won't be one concept that replaces everything in the future, but the key is indeed competition. Only through competition will innovations emerge in the end. Through competition and through openness. The ideas that compete strongly will ultimately be successful beyond Germany. The question is, how can technologies develop quickly so that they give rise to companies that can be globally successful and change the world? That must be our goal, and that can only be achieved through competition, through an open platform where as many founders as possible can challenge existing concepts with new ideas.
+Well, I am an absolute fan of competition and diversity. I don't think there is such a thing as the "one size fits all" solution. It won't be one concept that replaces everything in the future, but the key is indeed competition. Only through competition will innovations emerge in the end. Through competition and through openness. The ideas that compete strongly will ultimately be successful beyond Germany. The question is, how can technologies develop quickly so that they give rise to companies that can be globally successful and change the world? That must be our goal, and that can only be achieved through competition, through an open platform whereas many founders as possible can challenge existing concepts with new ideas.
 
 The stronger the competition is, the more agile the players become, and the better their chances are to be successful in the international market.
