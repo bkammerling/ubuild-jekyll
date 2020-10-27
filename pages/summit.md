@@ -175,7 +175,7 @@ page_sections:
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
+    company_logo: "/uploads/global/wunder-logo-2020.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/gunnarfroh/
 - template: custom-content
