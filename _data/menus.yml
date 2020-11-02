@@ -58,12 +58,6 @@ wunder-main:
   identifier: city
   title: City
   subtitle: Analytics to prepare cities for a connected future.
-- url: "/park"
-  weight: 3
-  parent: extensions
-  identifier: park
-  title: Park
-  subtitle: Make better use of limited space with digital parking management.
 - url: "#"
   weight: 2
   title: Company
@@ -159,12 +153,6 @@ wunder-de:
   identifier: city
   title: City
   subtitle: Analysen zur Vorbereitung der Städte auf eine vernetzte Zukunft.
-- url: "/de/park"
-  weight: 3
-  parent: extensions
-  identifier: park
-  title: Park
-  subtitle: Mit digitaler Parkraumbewirtschaftung den begrenzten Raum besser nutzen.
 - url: "#"
   weight: 2
   title: Firma
@@ -348,11 +336,6 @@ footer:
     url: "/carpool"
     weight: 4
     title: Carpool
-    parent: solutions
-  - identifier: park
-    url: "/park"
-    weight: 5
-    title: Park
     parent: solutions
   - identifier: city
     url: "/city"
