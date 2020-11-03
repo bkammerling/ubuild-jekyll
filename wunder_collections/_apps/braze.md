@@ -25,12 +25,37 @@ description: "<ol><li><p>Braze facilitates interactive conversations across chan
   amplifies the value of your ecosystem: Braze easily integrates with the technology
   you already have, allowing brands to build custom integrations that multiply its
   value inside of your infrastructure –and beyond.</p></li></ol>"
-screenshot_details: []
-app_details: []
-access_needed: []
-getting_started: []
-whitepaper_link: ''
+screenshot_details:
+- screenshot: "/uploads/2020/11/03/usps-daniel-lancioni.png"
+  title: Braze delivers tremendous value to brands, quickly!
+  screenshot_description: On average, Braze drives an 840% ROI for the brands who
+    purchase it, with an average payback window of 3 months (which means that the
+    average brand will pay off their Braze license, in full, within 3 months). Braze
+    has been listed as a leader in Mobile Engagement Automation in Forrester's recent
+    review of the market.
+app_details:
+- detail_title: ''
+  detail_content: <a href="https://www.braze.com" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.braze.com/terms" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://www.braze.com/privacy" title="Privacy Policy →">Privacy
+    Policy →</a>
+access_needed:
+- User Data
+- Trip Data
+getting_started:
+- column_title: Reach out
+  column_description: Speak to your local Wunder Mobility Account Manager, and ask
+    for a Braze introduction.
+- column_title: Spend some time with us
+  column_description: Jump on a call with us so we can understand your business challenges.
+- column_title: See our product
+  column_description: Have a short demonstration of Braze, and see how our product
+    can add value to your business.
+whitepaper_link: "/uploads/2020/11/03/braze-one-sheet-emea-enterprise-focus-daniel-lancioni.pdf"
 video_poster: ''
-published: false
 
 ---
