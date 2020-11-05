@@ -44,7 +44,10 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
-share_image: "/uploads/2020/01/30/Sharer-Shuttle@2x.jpg"
+  hide_menu: false
+  show_poweredby: false
+share_image: "/uploads/2020/11/05/social_share_image_ride.jpg"
+description: ''
 menu:
   wunder-main:
     weight: 3
