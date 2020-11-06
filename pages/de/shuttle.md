@@ -1,12 +1,12 @@
 ---
 layout: blocks
-title: Wunder Shuttle | Skalieren Sie ridehailing On-Demand
+title: Wunder Ride | Skalieren Sie ridehailing On-Demand
 date: 2019-01-10 23:00:00 +0000
 permalink: "/de/ride"
 lang: de
 version: hp
 lang-ref: ride
-share_image: "/uploads/2020/01/30/Sharer-Shuttle@2x.jpg"
+share_image: "/uploads/2020/11/05/social_share_image_ride.jpg"
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -26,7 +26,7 @@ page_sections:
     enabled: false
   background_video:
   show_logos: false
-  background_image: "/uploads/global/shuttle-3dhero@2x.png"
+  background_image: "/uploads/global/shuttle-photohero@2x.jpg"
 - block: shuttle-main
   template: static-file
   subdirectory: static/de
