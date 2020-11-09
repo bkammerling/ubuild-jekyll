@@ -34,14 +34,14 @@ screenshot_details:
     operators to automate operations. By leveraging the power of the crowd,  mobility
     providers have access to scalable, decentralized operations that run 24/7, across
     the city. \n\n*The service can also be used by operational teams."
-- screenshot: "/uploads/2020/09/25/technical-graphic-final-version.png"
+- screenshot: "/uploads/2020/11/09/api-product-graphic-final.png"
   title: 'Plug in and play: API option to get started right away'
   screenshot_description: Provide your historic fleet data and live vehicle availability
     information / API, then access the Ubiq Fleet Rebalancing, Predictive Charging
     or Dynamic Pricing API in real-time to meet customer demand from day one. Ubiq
     adds proxy data such as app opening data, third party fleets or event data where
     available.
-- screenshot: "/uploads/2020/09/21/usp-3-resized-sam-hargreaves.png"
+- screenshot: "/uploads/2020/11/09/platform-graphic.png"
   title: Fleet efficiency your way
   screenshot_description: "Whatever your operational needs are, Ubiq adds value.\n\nIf
     you have a brilliant service team already, Ubiq can help them to be more efficient.
