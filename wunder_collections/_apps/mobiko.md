@@ -9,9 +9,9 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/11/09/mobiko_das_digitale_mobilitatsbudget_fur_mitarbeiter-katja-hornung.mp4"
   title: Video
-- image-video: "/uploads/2020/11/09/instapage-admin-640x450-katja-hornung.png"
+- image-video: "/uploads/2020/11/09/web-desktop-admin-1567x1165.png"
   title: MOBIKO-App Admin-Ansicht
-- image-video: "/uploads/2020/11/09/instapage-user-640x450-mix-katja-hornung.png"
+- image-video: "/uploads/2020/11/09/web-desktop-user-1567x1165.png"
   title: MOBIKO-App User-Ansicht
 description: "<p>With MOBIKO, companies provide their employees with a monthly mobility
   budget via the MOBIKOapp. The budget can be used for all means of transportation
@@ -21,14 +21,14 @@ description: "<p>With MOBIKO, companies provide their employees with a monthly m
   promoting a sustainable mobility behavior among employees - true to the motto: the
   greener you go, the more you get!</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/11/09/mobiko-mitarbeitermobilitat-in-zeiten-von-corona-katja-hornung.png"
-  title: Employee mobility as a digital self-service-solution
-  screenshot_description: With MOBIKO organizations can provide their employees with
-    an individual monthly mobility budget via App.
 - screenshot: "/uploads/2020/11/09/mobiko-belegeinreichen-app-katja-hornung.jpg"
   title: 100% tailored to your employees mobility needs
   screenshot_description: Employees may use every kind of mobility worldwide, pay
     as usual, and upload the corresponding ticket or invoice via the MOBIKO App.
+- screenshot: "/uploads/2020/11/09/mobiko-mitarbeitermobilitat-in-zeiten-von-corona-katja-hornung.png"
+  title: Employee mobility as a digital self-service-solution
+  screenshot_description: With MOBIKO organizations can provide their employees with
+    an individual monthly mobility budget via App.
 - screenshot: "/uploads/2020/11/09/reduction-of-co2-emission-katja-hornung.png"
   title: "- 40% corporate greenhouse gas emissions"
   screenshot_description: The mobility expenses will be reimbursed with the salary
