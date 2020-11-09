@@ -68,6 +68,5 @@ getting_started:
     as invite them to MOBIKO via auto-generated email in just one go.
 whitepaper_link: "/uploads/2020/11/09/mobiko_mobilitatsreport2020-katja-hornung.pdf"
 video_poster: ''
-published: false
 
 ---
