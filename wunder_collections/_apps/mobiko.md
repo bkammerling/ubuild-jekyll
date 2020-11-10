@@ -21,14 +21,14 @@ description: "<p>With MOBIKO, companies provide their employees with a monthly m
   promoting a sustainable mobility behavior among employees - true to the motto: the
   greener you go, the more you get!</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/11/09/mobiko-mitarbeitermobilitat-in-zeiten-von-corona-katja-hornung.png"
-  title: 100% tailored to your employees mobility needs
-  screenshot_description: Employees may use every kind of mobility worldwide, pay
-    as usual, and upload the corresponding ticket or invoice via the MOBIKO App.
 - screenshot: "/uploads/2020/11/09/mobiko-belegeinreichen-app-katja-hornung.jpg"
   title: Employee mobility as a digital self-service-solution
   screenshot_description: With MOBIKO organizations can provide their employees with
     an individual monthly mobility budget via App.
+- screenshot: "/uploads/2020/11/09/mobiko-mitarbeitermobilitat-in-zeiten-von-corona-katja-hornung.png"
+  title: 100% tailored to your employees mobility needs
+  screenshot_description: Employees may use every kind of mobility worldwide, pay
+    as usual, and upload the corresponding ticket or invoice via the MOBIKO App.
 - screenshot: "/uploads/2020/11/09/reduction-of-co2-emission-katja-hornung.png"
   title: "- 40% corporate greenhouse gas emissions"
   screenshot_description: The mobility expenses will be reimbursed with the salary
