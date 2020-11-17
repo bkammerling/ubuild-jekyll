@@ -70,7 +70,7 @@ p, .body-text, input.form-control {
   }
 }
 
-p:not(.text-link) ~ p {
+p:not(.text-link) + p {
   margin-top: 12px;
 }
 
