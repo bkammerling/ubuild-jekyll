@@ -89,7 +89,7 @@ function WC_showPopup() {
             </div>
           </div>
         </div>
-        <p class="my-4" style="line-height:1.3"><small>Read more about cookies, the cookies we use, their duration and how to recognize them in our <a href="https://wundermobility.com/privacy">Cookies Policy</a>.</small></p>
+        <p class="my-4" style="line-height:1.3"><small>Read more about cookies, the cookies we use, their duration and how to recognize them in our <a href="https://wundermobility.com/privacy#5-cookies">Cookies Policy</a>.</small></p>
         <div class="mt-4 row d-lg-none">
           <div class="col">
             <button onclick="WC_AcceptAll()" class="btn btn-dark btn-block">Accept All</button>
