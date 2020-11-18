@@ -13,7 +13,7 @@ cta_link: pages/bernstein-newsletter.md
 title: 'The clock is ticking: Will the Ministry of Transport be able to implement
   all the projects in the coalition agreement?'
 publish_date: 2020-11-19 12:00:00 +0000
-featured_image: "/uploads/2020/11/18/cover_111920.jpg"
+featured_image: "/uploads/2020/11/18/cover_111920_02.jpg"
 excerpt: In the transport sector, it is clear that proposals and agreements that are
   laid down between the parliamentary groups in the coalition agreement are usually
   also dealt with and have a chance of being put into practice.
