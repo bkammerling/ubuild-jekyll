@@ -5,7 +5,7 @@ title: StriveCloud
 icon: "/uploads/2020/09/08/profile-picture-alexa-andrei.png"
 excerpt: Turn your website or mobile app into products users love with the plug-in
   gamification technology.
-featured: true
+featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/08/usp1_leaderboard-alexa-andrei.png"
   title: ''

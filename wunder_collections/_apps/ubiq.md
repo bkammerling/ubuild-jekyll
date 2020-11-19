@@ -5,7 +5,7 @@ title: Ubiq
 icon: "/uploads/2020/10/01/design-gradient-final.png"
 excerpt: Data-driven fleet optimization for increased vehicle utilization and reduced
   operational costs.
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2020/09/24/ubiq_new.mp4"
   title: Video
