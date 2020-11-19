@@ -12,25 +12,23 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
 cta_link: pages/bernstein-newsletter.md
 title: 'The clock is ticking: Will the Ministry of Transport be able to implement
   all the projects in the coalition agreement?'
-publish_date: 2020-11-19 12:00:00 +0000
+publish_date: 2020-11-19 06:00:00 +0000
 featured_image: "/uploads/2020/11/18/cover_111920_02.jpg"
 excerpt: In the transport sector, it is clear that proposals and agreements that are
   laid down between the parliamentary groups in the coalition agreement are usually
   also dealt with and have a chance of being put into practice.
 share_image: "/uploads/2020/11/18/cover_111920.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
-_Read this article in_ [_German_](https://bernstein-group.com/2020/11/04/die-passau-declaration/).
+_Read this article in_ [_German_](https://bernstein-group.com/2020/11/19/die-uhr-tickt-verkehrsministerium/).
 
 ***
 
 A glance at the coalition agreement of the government factions CDU/CSU and SPD from 2018 shows more than 20 planned projects in the mobility sector for the 19th legislative period. A look at the past months shows: The areas affecting the Federal Ministry of Transport and Digital Infrastructure have been largely worked through, especially in road traffic - even if some "big chunks" are still waiting for a parliamentary procedure.
 
 * The planned mobility research program was adopted in January 2020, the amendment to the Road Traffic Act was implemented at the beginning of the year (although ultimately only partially), and in the spring a legal framework was created for cycle paths on federal roads.
-
-
 * Nevertheless, major projects from this legislation are still open: the development of a mobility platform, the amendment of the Passenger Transport Act, and a new law on autonomous driving.
 
 **3 major projects and 15 weeks of meetings remain**
