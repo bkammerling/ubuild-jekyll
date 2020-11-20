@@ -15,8 +15,8 @@ preview_gallery:
 description: "<p>Shared mobility operators are struggling to stay profitable due to
   high operational costs and regulatory requirements. apfie provides global insurance
   solutions, powered by AI-driven technology, for shared-mobility fleets. Our insurance
-  solutions are backed by world-leading insurance providers. We utilize Realtime to
-  offer unique insurance solutions:</p><ul><li><p>On-Demand rider insurance – Offered
+  solutions are backed by world-leading insurance providers. We utilize Realtime data
+  to offer unique insurance solutions:</p><ul><li><p>On-Demand rider insurance – Offered
   to the riders via the app: Pay Per minute or ride or subscription-based. Shared
   mobility operators can use this insurance as a monetization channel.</p></li><li><p>Usage-Based
   fleet insurance – The most affordable fleet insurance, pay per usage-based on the
