@@ -6,11 +6,11 @@ icon: "/uploads/2020/11/19/apfie_logo-yarden-peled.png"
 excerpt: We provide affordable connected insurance solutions for shared-mobility fleets.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/11/19/mobility-page-new_1-1-yarden-peled.jpg"
+- image-video: "/uploads/2020/11/20/activate-yarden-peled.png"
   title: Click 2 activate (may look different in your app)
-- image-video: "/uploads/2020/11/19/mobility-page-new_2-1-yarden-peled.jpg"
+- image-video: "/uploads/2020/11/20/terms1-1-yarden-peled.png"
   title: Click 2 turn off (may look different in your app)
-- image-video: "/uploads/2020/11/19/mobility-page-new_3-1-yarden-peled.jpg"
+- image-video: "/uploads/2020/11/20/fleet-yarden-peled.png"
   title: Fleet insurance
 description: "<p>Shared mobility operators are struggling to stay profitable due to
   high operational costs and regulatory requirements. apfie provides global insurance
@@ -24,15 +24,14 @@ description: "<p>Shared mobility operators are struggling to stay profitable due
   coverages for third party liability and personal injuries. Also, we are offering
   a General (product) Liability insurance.</p></li></ul>"
 screenshot_details:
-- screenshot: "/uploads/2020/11/19/mobility-page-new_4-yarden-peled.jpg"
-  title: One-click embedded riders insurance
-  screenshot_description: apfie helps shared mobility operators to create a new revenue
-    stream and improve their value proposition by enabling them to offer personalized,
-    micro-insurance seamlessly embedded in their customer journey.
-- screenshot: "/uploads/2020/11/19/mobility-page-new_5-1-yarden-peled.jpg"
-  title: From cost to profit
-  screenshot_description: By integrating our On-Demand riders insurance, shared mobility
-    operators are getting paid for each insurance unit sold via their platform.
+- screenshot: "/uploads/2020/11/20/activate-yarden-peled.png"
+  title: New revenue streaming by offering on demand micro insurance
+  screenshot_description: "apfie helps shared mobility operators to create a new revenue
+    stream and improve their value proposition by enabling them to offer on-demand,
+    micro-insurance seamlessly embedded in their customer journey.\n\nThe rider needs
+    to approve the insurance terms once and from that point the insurance can be activated
+    automatically with each ride.\n\nInsurance cost will be added to the ride cost.
+    \ "
 app_details:
 - detail_title: ''
   detail_content: <a href="https://www.apfie.com/" title="Developer Website →">Developer
@@ -47,14 +46,18 @@ access_needed:
 - Invoice Data
 - Deliver API credentials
 getting_started:
-- column_title: Approve the insurance terms once
-  column_description: Users should approve the insurance terms once during registration
-    or when they want to activate the insurance for the first time.
-- column_title: Insurance will be automatically activated during the ride session.
-  column_description: Insurance will be automatically activated with each ride, the
-    insurance cost will be added to the ride cost.
+- column_title: Fill the insurance application form
+  column_description: The operator should fill an insurance application form that
+    will allow us to understand the requirement and offer the most appropriate insurance
+    solution and coverages.
+- column_title: Receive an insurance quote
+  column_description: After reviewing the application form we will provide a detailed
+    quote.
+- column_title: Approve insurance quote and  set up the insurance details at the Wunder
+    platform
+  column_description: After the operator is approving the quote we will set up the
+    insurance and activate it on the Wunder platform.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
