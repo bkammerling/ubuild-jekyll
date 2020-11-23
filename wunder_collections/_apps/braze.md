@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Customer Engagement
 title: Braze
-icon: "/uploads/2020/11/03/braze-monogram_filled_black_rgb-daniel-lancioni.png"
+icon: "/uploads/2020/11/23/braze-monogram_filled_black_rgb-daniel-lancioni.png"
 excerpt: Braze is a comprehensive customer engagement platform that powers relevant
   and memorable experiences between customers and the brands they love.
 featured: false

@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Integrations (API)
 title: apfie
-icon: "/uploads/2020/11/19/apfie_logo-yarden-peled.png"
+icon: "/uploads/2020/11/23/apfie_logo-yarden-peled.png"
 excerpt: We provide affordable connected insurance solutions for shared-mobility fleets.
 featured: false
 preview_gallery:
