@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: motum
-icon: "/uploads/2020/10/01/logo-repairfix-wunder.png"
+icon: "/uploads/2020/11/23/logo-repairfix-wunder.png"
 excerpt: Monitor, analyze and optimise your damage & service management with motum!
 featured: false
 preview_gallery:

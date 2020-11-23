@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Drover PathPilot
-icon: "/uploads/2020/11/23/drover-small-icon-teal-alex-nesic.png"
+icon: "/uploads/2020/11/23/drover-small-icon-teal-alex-nesic-1.png"
 excerpt: AI powered fleet IoT module with sidewalk detection and real-time vehicle
   control.
 featured: false

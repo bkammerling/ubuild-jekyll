@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Zoba
-icon: "/uploads/2020/08/26/copy-of-zoba_z3-2.png"
+icon: "/uploads/2020/11/23/copy-of-zoba_z3-2.png"
 excerpt: Zoba drastically increases revenue with demand forecasting and optimization.
 preview_gallery:
 - image-video: "/uploads/2020/08/20/zoba-demo-video-daniel-brennan.mp4"

@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Integrations (API)
 title: OpenCage Geocoding API
-icon: "/uploads/2020/11/10/opencage-256x256-ed-freyfogle.png"
+icon: "/uploads/2020/11/23/opencage-256x256-ed-freyfogle.png"
 excerpt: An API to convert coordinates to location information.
 featured: false
 preview_gallery:

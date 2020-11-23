@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Customer Engagement
 title: StriveCloud
-icon: "/uploads/2020/09/08/profile-picture-alexa-andrei.png"
+icon: "/uploads/2020/11/23/profile-picture-alexa-andrei.png"
 excerpt: Turn your website or mobile app into products users love with the plug-in
   gamification technology.
 featured: false

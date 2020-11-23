@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: CRM
 title: Zendesk
-icon: "/uploads/2020/09/21/ac81981ea4e811e8cc02d7fbfe0f8516-marina-snegirjova.png"
+icon: "/uploads/2020/11/23/ac81981ea4e811e8cc02d7fbfe0f8516-marina-snegirjova.png"
 excerpt: The best customer experiences are built with Zendesk.
 featured: false
 preview_gallery:
@@ -55,5 +55,6 @@ getting_started:
 - column_title: Get Started
   column_description: Get in contact with us and start your free trial!
 whitepaper_link: ''
+video_poster: ''
 
 ---

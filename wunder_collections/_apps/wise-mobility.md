@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Wise Mobility
-icon: "/uploads/2020/08/26/wm-logo-megan-broccoli-2.png"
+icon: "/uploads/2020/11/23/wm-logo-megan-broccoli-2.png"
 excerpt: The citation management solution you've been looking for.
 preview_gallery:
 - image-video: "/uploads/2020/08/25/openrentals-page-megan-broccoli.png"
@@ -39,5 +39,6 @@ getting_started:
   column_description: Focus on your business!
 featured: false
 whitepaper_link: "/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
+video_poster: ''
 
 ---
