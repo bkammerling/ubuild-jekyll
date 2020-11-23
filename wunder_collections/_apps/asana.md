@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Asana
-icon: "/uploads/2020/09/15/image4-1.png"
+icon: "/uploads/2020/11/23/image4-1.png"
 excerpt: Why use Asana? Asana gives you everything you need to stay in sync, hit deadlines,
   and reach your goals.
 featured: false
@@ -53,5 +53,7 @@ getting_started:
     you some how to guides to get you started with your first tasks and workflows,
     and we’ll also be on hand to give you 1:1 support as needed.
   column_title: Try Asana for free
+whitepaper_link: ''
+video_poster: ''
 
 ---
