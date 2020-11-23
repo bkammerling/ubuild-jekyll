@@ -2,19 +2,19 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: Chargery
-icon: "/uploads/2020/09/29/chrgry-logo_greybg-01.png"
+icon: "/uploads/2020/11/23/chrgry-logo_greybg-01.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/29/wdthefofycsl_colorgrade_edit-1.mp4"
   title: Video
-- image-video: "/uploads/2020/09/29/softwareupdated2-01-laura-mueller.jpg"
+- image-video: "/uploads/2020/11/23/softwareupdated2-01-laura-mueller.png"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets.
-- image-video: "/uploads/2020/09/29/serviceupdated-01-laura-mueller.png"
+- image-video: "/uploads/2020/11/23/serviceupdated-01-laura-mueller.png"
   title: 'Full service for any shared mobility fleet: From cleaning and recharging
     to battery swapping and relocating your fleet.'
-- image-video: "/uploads/2020/09/29/infrastructureupdated-01-laura-mueller.png"
+- image-video: "/uploads/2020/11/23/infrastructureupdated-01-laura-mueller.png"
   title: Smart infrastructure solutions to guarantee highly-efficient operations.
 description: "<p>Chargery is a 360° provider for intelligent shared mobility operations.
   By combining intelligent software, smart infrastructure solutions and services,
