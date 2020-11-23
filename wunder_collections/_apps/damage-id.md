@@ -54,6 +54,5 @@ getting_started:
     in Cloud.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
