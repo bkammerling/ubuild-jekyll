@@ -41,7 +41,7 @@ screenshot_details:
     or Dynamic Pricing API in real-time to meet customer demand from day one. Ubiq
     adds proxy data such as app opening data, third party fleets or event data where
     available.
-- screenshot: "/uploads/2020/11/09/platform-graphic.png"
+- screenshot: "/uploads/2020/11/23/platform-graphic.png"
   title: Fleet efficiency your way
   screenshot_description: "Whatever your operational needs are, Ubiq adds value.\n\nIf
     you have a brilliant service team already, Ubiq can help them to be more efficient.
