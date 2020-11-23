@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Hellotracks
-icon: "/uploads/2020/09/28/logo-hellotracks_mesa-de-trabajo-1-mariana-frese.png"
+icon: "/uploads/2020/11/23/logo-hellotracks_mesa-de-trabajo-1-mariana-frese-1.png"
 excerpt: Optimize your field operations with real-time tracking, auto job dispatch,
   and route optimization.
 featured: false
@@ -64,5 +64,7 @@ getting_started:
 - column_title: Finish and reach out
   column_description: Your account manager will connect you with Hellotracks and they
     will help you during the deployment and integration phase.
+whitepaper_link: ''
+video_poster: ''
 
 ---
