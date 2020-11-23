@@ -2,14 +2,14 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Drover PathPilot
-icon: "/uploads/2020/09/22/drover-small-icon-teal-alex-nesic.png"
+icon: "/uploads/2020/11/23/drover-small-icon-teal-alex-nesic.png"
 excerpt: AI powered fleet IoT module with sidewalk detection and real-time vehicle
   control.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/09/22/drover.mp4"
   title: Video
-- image-video: "/uploads/2020/09/22/drover-path-pilot-exploded-view-alex-nesic.png"
+- image-video: "/uploads/2020/11/23/drover-path-pilot-exploded-view-alex-nesic.png"
   title: PathPilot module with customizable mounting bracket designed to be mounted
     on scooters, bikes or mopeds.
 description: "<p>Drover’s PathPilot is a ‘plug and play’ module designed to be retrofit
@@ -24,7 +24,7 @@ description: "<p>Drover’s PathPilot is a ‘plug and play’ module designed t
   verification &amp; management. Real-time ability to verify and enforce user parking
   in a designated area like corrals or docking stations</p></li></ul>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/22/path-pilot-v1-2-alex-nesic.PNG"
+- screenshot: "/uploads/2020/11/23/path-pilot-v1-2-alex-nesic.PNG"
   screenshot_description: |-
     Take your vehicle IoT intelligence to the next level with Drover PathPilot. Easy compliance with regulations, demonstration of superior safety capabilities for city RFPs, and potential reduction of insurance costs. PathPilot will provide you with unparalleled understanding of rider behavior by being precisely aware of where your vehicles are being ridden.
     Granular location categorization - specific designated categories like sidewalk, bike lane, crosswalk, street and possibility of taking specific vehicle level action based on those.
