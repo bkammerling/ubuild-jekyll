@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: Chargery
-icon: "/uploads/2020/11/23/chrgry-logo_greybg-01.png"
+icon: "/uploads/2020/11/23/chrgry-logo_greybg-01-1.png"
 excerpt: Europe’s No. 1 for intelligent shared mobility operations.
 featured: false
 preview_gallery:

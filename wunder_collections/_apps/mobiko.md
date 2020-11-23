@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Customer Engagement
 title: MOBIKO
-icon: "/uploads/2020/11/09/mobiko_logo_256x49-katja-hornung.png"
+icon: "/uploads/2020/11/23/mobiko_logo_256x49-katja-hornung.png"
 excerpt: The market-leading mobility budget as a benefit for employees within the
   DACH region.
 featured: false

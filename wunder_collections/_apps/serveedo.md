@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: Serveedo
-icon: "/uploads/2020/09/09/app-icon-1-serveedo.png"
+icon: "/uploads/2020/11/23/app-icon-1-serveedo.png"
 excerpt: Mobility operations at scale!
 featured: false
 preview_gallery:

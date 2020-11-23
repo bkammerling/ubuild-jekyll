@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Hellotracks
-icon: "/uploads/2020/11/23/logo-hellotracks_mesa-de-trabajo-1-mariana-frese-1.png"
+icon: "/uploads/2020/11/23/logo-hellotracks_mesa-de-trabajo-1-mariana-frese-1-1.png"
 excerpt: Optimize your field operations with real-time tracking, auto job dispatch,
   and route optimization.
 featured: false

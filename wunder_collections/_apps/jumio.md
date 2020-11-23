@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Jumio
-icon: "/uploads/2020/11/23/screenshot-2020-09-11-at-12-35-22-claire-galbois-alcaix.png"
+icon: "/uploads/2020/11/23/screenshot-2020-09-11-at-12-35-22-claire-galbois-alcaix-1.png"
 excerpt: End-to-End ID and Identity Verification Solutions.
 featured: false
 preview_gallery:
