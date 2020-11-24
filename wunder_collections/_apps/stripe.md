@@ -45,10 +45,28 @@ screenshot_details:
     action. You can manage every payment, customer, transfer, and more. With built-in
     financial reporting you can view and export details on all of your charges, from
     fees to payouts, in real-time.
-app_details: []
-access_needed: []
-getting_started: []
-whitepaper_link: ''
+app_details:
+- detail_title: ''
+  detail_content: <a href="https://stripe.com/docs " title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://stripe.com/legal " title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://stripe.com/privacy " title="Privacy Policy →">Privacy
+    Policy →</a>
+access_needed:
+- Deliver API Credentials
+getting_started:
+- column_title: Ready to get started?
+  column_description: Explore Stripe (https://stripe.com/payments) to start accepting
+    payments. You can also contact us to design a custom package for your business
+    (https://stripe.com/contact/sales).
+- column_title: Create an account
+  column_description: 'Sign-up is easy and instant: https://dashboard.stripe.com/register.'
+- column_title: Contact us for help
+  column_description: '24/7 support across all channels to help you: https://support.stripe.com/.'
+whitepaper_link: "/uploads/2020/11/24/introduction_to_online_payments-28b94575ae8b3009815fb868396ad9ba7bacbdb4-filip-juric.pdf"
 video_poster: ''
 published: false
 
