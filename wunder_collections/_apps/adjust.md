@@ -23,10 +23,11 @@ description: "<p>Adjust is the industry leader in mobile measurement, marketing 
 screenshot_details:
 - screenshot: "/uploads/2020/08/25/1-attribution-alexandre-pham.png"
   title: Granular attribution for user acquisition
-  screenshot_description: Save time from going in and out of several dashboards to
-    analyze your marketing performance. Adjust Automate unifies all your campaign
-    data from Facebook, Google UAC, Snapchat, Twitter and Apple Search ads in a single
-    dashboard that lets you optimize your bids and budgets in real time.
+  screenshot_description: Discover your most valuable users and the channels that
+    brought them to you. No matter where they come from - organic, social or paid
+    campaigns, Adjust lets you plug into over 2000 partners around the world and filter
+    your results into a single dashboard. Delve into your most successful campaigns
+    with four levels of granularity to find the path that drives the most success.
 - screenshot: "/uploads/2020/08/25/2-automation-alexandre-pham.png"
   screenshot_description: Save time from going in and out of several dashboards to
     analyze your marketing performance. Adjust Automate unifies all your campaign
