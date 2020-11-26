@@ -51,5 +51,6 @@ getting_started:
     for startups and global brands alike.
 whitepaper_link: "/uploads/2020/11/26/goodpatch_intro_mobility-grotzke-matthias.pdf"
 video_poster: ''
+published: false
 
 ---

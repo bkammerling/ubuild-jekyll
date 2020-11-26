@@ -24,10 +24,36 @@ description: "<p>OneSignal is the fastest and most most reliable service to send
   an average of 80 times per day. Powered by superior architecture, the OneSignal
   platform delivers messages faster, more efficiently, and at a greater scale than
   any other solution in the world.</p>"
-screenshot_details: []
-app_details: []
-access_needed: []
-getting_started: []
+screenshot_details:
+- screenshot: "/uploads/2020/11/26/ease-of-use-and-setup-integrations-serena-wang.png"
+  title: Ease of Use
+  screenshot_description: Our easy-to-use platform takes less than 15 minutes to set
+    up. OneSignal supports mobile and web push notifications, in-app messaging, and
+    email marketing, allowing organizations to engage with users on a personal level.
+- screenshot: "/uploads/2020/11/26/seamless-api-setup-serena-wang.png"
+  title: ''
+  screenshot_description: ''
+app_details:
+- detail_title: ''
+  detail_content: <a href="https://onesignal.com/" title="Developer Website →">Developer
+    Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://onesignal.com/tos" title="Terms of Service →">Terms
+    of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://onesignal.com/privacy_policy" title="Privacy Policy
+    →">Privacy Policy →</a>
+access_needed:
+- OneSignal SDK integration
+getting_started:
+- column_title: 'Choose Integration: Typical Site, Website Builder, or Custom Code'
+  column_description: Select what type of integration you would like to use, this
+    various depending on whether you are using web push or mobile app push.
+- column_title: 'Site Setup: Web Push or Mobile App Push'
+  column_description: Easy SDK Setup (less than 15 minutes) following our simple documentation.
+- column_title: Welcome Notification
+  column_description: Subscribers will see a welcome notification as soon as they
+    subscribe.
 whitepaper_link: ''
 video_poster: ''
 published: false
