@@ -24,11 +24,11 @@ description: "<p>Goodpatch is an independent design company with 200 employees s
   the past 10 years Goodpatch has designed and built over 110 products. We merged
   our learnings into one standardized and modular service offering.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/11/26/bildschirmfoto-2020-11-25-um-16-09-00-grotzke-matthias.png"
+- screenshot: "/uploads/2020/11/26/bildschirmfoto-2020-11-25-um-16-09-00-grotzke-matthias.jpg"
   title: 'Prove the power     of design'
   screenshot_description: We are a true Digital Product Studio and can design projects
     completely in-house.
-- screenshot: ''
+- screenshot: "/uploads/2020/11/26/bildschirmfoto-2020-11-25-um-16-09-00-grotzke-matthias.jpg"
   title: We speak English, Japanese, German, design & tech
   screenshot_description: Since we recently listed to the Tokyo Stock Exchange, we
     are a stable company with a highly professional setup - meeting the compliance
@@ -51,5 +51,6 @@ getting_started:
     for startups and global brands alike.
 whitepaper_link: "/uploads/2020/11/26/goodpatch_intro_mobility-grotzke-matthias.pdf"
 video_poster: ''
+published: false
 
 ---
