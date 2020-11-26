@@ -7,13 +7,13 @@ excerpt: Goodpatch is an independent design company, driven by the mission to pr
   the power of design.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/11/26/goodpatch_emmy-grotzke-matthias.png"
+- image-video: "/uploads/2020/11/26/goodpatch_emmy-grotzke-matthias.jpeg"
   title: "Bringing Germany’s \Lelectric scooter sharing \Lto the next level"
-- image-video: "/uploads/2020/11/26/goodpatch_nissan-grotzke-matthias.png"
+- image-video: "/uploads/2020/11/26/goodpatch_nissan-grotzke-matthias.jpeg"
   title: Connected and mobility services for OEMs
-- image-video: "/uploads/2020/11/26/goodpatch_parkling-grotzke-matthias.png"
+- image-video: "/uploads/2020/11/26/goodpatch_parkling-grotzke-matthias.jpeg"
   title: 'Take on parking in the city: the parking journey, made simple'
-- image-video: "/uploads/2020/11/26/goodpatch_athena-grotzke-matthias.png"
+- image-video: "/uploads/2020/11/26/goodpatch_athena-grotzke-matthias.jpeg"
   title: We are extremely passionate about the future of mobility and use immersive
     technologies to make it reality today
 description: "<p>Goodpatch is an independent design company with 200 employees spread
