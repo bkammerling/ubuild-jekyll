@@ -70,6 +70,5 @@ getting_started:
   column_description: '24/7 support across all channels to help you: https://support.stripe.com/.'
 whitepaper_link: "/uploads/2020/11/24/introduction_to_online_payments-28b94575ae8b3009815fb868396ad9ba7bacbdb4-filip-juric.pdf"
 video_poster: ''
-published: false
 
 ---
