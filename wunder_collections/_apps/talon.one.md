@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Customer Engagement
 title: Talon.One
-icon: "/uploads/2020/11/30/talon-one-sebastian-haas.png"
+icon: "/uploads/2020/11/30/t1logo.png"
 excerpt: Build flexible promotion marketing campaigns that perform, without wasting
   development time and marketing money.
 featured: false
