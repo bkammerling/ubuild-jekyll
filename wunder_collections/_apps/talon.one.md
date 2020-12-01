@@ -77,6 +77,5 @@ getting_started:
   column_description: Get onboarded and configure any promotion
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
