@@ -47,6 +47,7 @@ plugins:
 - jekyll-menus
 - jekyll-sitemap
 - jekyll-minifier
+- jekyll-paginate-v2
 jekyll-minifier:
   uglifier_args:
     harmony: true
