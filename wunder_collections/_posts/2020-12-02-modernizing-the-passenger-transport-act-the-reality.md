@@ -18,7 +18,7 @@ excerpt: The question of how local authorities want to orchestrate successful al
   mobility without raw data insights still remains unanswered.
 share_image: "/uploads/2020/12/02/031220.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Last week, yet again we saw another hearing on the amendment of the Passenger Transportation Act (PBefG) by the BMVI, including the involved associations. Compared to former cornerstone drafts dated 19.06.2020 and 08.10.2020, certain cuts regarding digital aspects of on-demand transportation involving virtual stops have been dismissed. Nevertheless, while other parts have been disregarded in favor of the Taxi industry, one main observation in the current draft is striking: the additional empowerment of local licensing authorities and their role around enforcement.
