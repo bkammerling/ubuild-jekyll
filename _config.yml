@@ -37,6 +37,11 @@ defaults:
 markdown: kramdown
 sass:
   sass_dir: _sass
+pagination:
+  enabled: true
+  collection: 'articles'
+  per_page: 6
+  sort_reverse: true
 plugins:
 - jekyll-feed
 - jekyll-menus

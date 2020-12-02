@@ -1,6 +1,4 @@
 .about {
-
-
   #wunder-locations {
     img {
       @include rwd(mobile-down) {
@@ -60,5 +58,55 @@
   max-width: 175px;
   @include rwd(tablet-up) {
     max-width: 250px;
+  }
+}
+
+.presscard-header {
+  height: 74px;
+  img {
+    max-width: 100px;
+    max-height: 35px;
+  }
+}
+
+.social-card {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 30px;
+  a {
+    line-height: 0;
+  }
+  img {
+    transition: transform .6s;
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    background: rgba(31,31,31,0.9);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s;
+
+    ion-icon {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+  }
+  &:hover {
+    img {
+      transform: scale(1.03);
+    }
+    .social-card__overlay {
+      opacity: 1;
+    }
   }
 }
