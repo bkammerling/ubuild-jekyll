@@ -13,10 +13,10 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
 cta_link: pages/bernstein-newsletter.md
 title: 'Modernizing the Passenger Transport Act: The Reality'
 publish_date: 2020-12-03 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2020/12/02/031220.jpg"
 excerpt: The question of how local authorities want to orchestrate successful alternative
   mobility without raw data insights still remains unanswered.
-share_image: ''
+share_image: "/uploads/2020/12/02/031220.jpg"
 sticky: false
 hidden: true
 
