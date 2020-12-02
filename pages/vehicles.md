@@ -51,7 +51,7 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-share_image: "/uploads/2020/05/28/social_share_image_vehicles.jpg"
+share_image: "/uploads/2020/11/05/social_share_image_vehicles.jpg"
 menu:
   wunder-main:
     weight: 7

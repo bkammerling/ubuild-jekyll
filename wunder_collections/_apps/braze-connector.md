@@ -53,5 +53,8 @@ getting_started:
     to setup the connector for you.
 - column_title: Go
   column_description: After things are setup the connector will do the work for you.
+whitepaper_link: ''
+video_poster: ''
+published: false
 
 ---

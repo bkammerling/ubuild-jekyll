@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Utilization Improvement
 title: RateMonitor Elite
-icon: "/uploads/2020/09/28/rh-logo-stacked-256-x-256-ver2-michael-meyer.png"
+icon: "/uploads/2020/11/23/rh-logo-stacked-256-x-256-ver2-michael-meyer.png"
 excerpt: Easily price your rentals based on your strategy and the current demand.
 featured: false
 preview_gallery:
@@ -60,8 +60,15 @@ access_needed:
 - Vehicle Data
 - Trip Data
 getting_started:
-- column_title: Contact Us
-  column_description: Simply contact our sales team to get started!
+- column_title: Get in touch with us
+  column_description: Simply contact our sales team and let them know which type of
+    vehicles you have and how many.
+- column_title: Get your customized RateMonitor Elite quote
+  column_description: We will create a customized solution to fit your requirements.
+- column_title: Integrate for increased revenue
+  column_description: Together we will integrate our digital solution into your existing
+    system, so that you can work on your business while we price your rentals and
+    grow your revenue.
 whitepaper_link: ''
 video_poster: ''
 

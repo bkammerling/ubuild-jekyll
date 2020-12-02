@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Operations Improvement
 title: My Transport Planner
-icon: "/uploads/2020/09/29/mtp_logo_ood_sm-1-dan-jenkins.JPG"
+icon: "/uploads/2020/11/23/mtp_logo_ood_sm-1-dan-jenkins.jpg"
 excerpt: My Transport Planner is the first fully pay-as-you-go route optimisation
   platform.
 featured: false
@@ -58,5 +58,6 @@ getting_started:
 - column_title: Start making savings!
   column_description: Start making savings - you can achieve immediate ROI.
 whitepaper_link: "/uploads/2020/09/29/motor-transport-supplement-my-transport-planner-june-2020_e-dan-jenkins.pdf"
+video_poster: ''
 
 ---

@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: Serveedo
-icon: "/uploads/2020/09/09/app-icon-1-serveedo.png"
+icon: "/uploads/2020/11/23/app-icon-1-serveedo.png"
 excerpt: Mobility operations at scale!
 featured: false
 preview_gallery:
@@ -40,10 +40,10 @@ app_details:
   detail_content: <a href="http://www.serveedo.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
-  detail_content: <a href="https://serveedo.com/terms.html" title="Terms of Service
+  detail_content: <a href="https://www.serveedo.com/terms.html" title="Terms of Service
     →">Terms of Service →</a>
 - detail_title: ''
-  detail_content: <a href="https://serveedo.com/privacy.html" title="Privacy Policy
+  detail_content: <a href="https://www.serveedo.com/privacy.html" title="Privacy Policy
     →">Privacy Policy →</a>
 access_needed:
 - Vehicle Data
@@ -57,5 +57,7 @@ getting_started:
 - column_title: Scale
   column_description: Now that your costs have been reduced and that your quality
     is under control, you can focus on growing.
+whitepaper_link: ''
+video_poster: ''
 
 ---

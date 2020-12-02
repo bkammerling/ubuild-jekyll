@@ -183,19 +183,28 @@ fields:
     played.
 pages:
 - wunder_collections/_apps/adjust.md
+- wunder_collections/_apps/apfie.md
 - wunder_collections/_apps/asana.md
 - wunder_collections/_apps/ben-fleet-services.md
 - wunder_collections/_apps/braze-connector.md
+- wunder_collections/_apps/braze.md
 - wunder_collections/_apps/chargery.md
+- wunder_collections/_apps/damage-id.md
 - wunder_collections/_apps/drover.md
+- wunder_collections/_apps/goodpatch.md
 - wunder_collections/_apps/hellotracks.md
 - wunder_collections/_apps/jumio.md
 - wunder_collections/_apps/moback.md
+- wunder_collections/_apps/mobiko.md
 - wunder_collections/_apps/motum.md
 - wunder_collections/_apps/my-transport-planner.md
+- wunder_collections/_apps/onesignal.md
+- wunder_collections/_apps/opencage-geocoding-api.md
 - wunder_collections/_apps/ratemonitor-elite-dynamic-pricing.md
 - wunder_collections/_apps/serveedo.md
+- wunder_collections/_apps/stripe.md
 - wunder_collections/_apps/strivecloud.md
+- wunder_collections/_apps/talon.one.md
 - wunder_collections/_apps/ubiq.md
 - wunder_collections/_apps/wise-mobility.md
 - wunder_collections/_apps/wunder-iot-connector.md

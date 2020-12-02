@@ -136,16 +136,6 @@
 }
 
 
-
-.ride {
-  .hero-banner__title-wrapper {
-    h1 {
-      color: $mobility-black;
-    }
-  }
-}
-
-
 .out-right {
   // used in rent for macbook mockup section
   img {
@@ -662,6 +652,7 @@ a img.right-arrow {
   }
 }
 
+
 #fleet-partners {
   .logo-boxes {
     grid-row-gap: 5px;
@@ -702,7 +693,7 @@ ul.feature-list {
 /* ANIMATION FOR PHONE MOCKUPS - shuttle 02/2020 */
 
 $eachslide-duration: 3s;
-$count: 4;
+$count: 3;
 
 .phonemockup-animation {
   position: relative;
@@ -723,6 +714,9 @@ $count: 4;
   &.screens-4 {
     $count: 4;
   }
+  &.screens-3 {
+    $count: 3;
+  }
   &_screen-mask {
     height: 597px;
     width: 281px;
@@ -733,6 +727,7 @@ $count: 4;
     border-radius: 24px;
     > img {
       position: absolute;
+      height: 100%;
     }
   }
   &_notch {
@@ -807,6 +802,15 @@ $count: 4;
    50% { left: 281px; opacity: 0;  }
    96% { left: 281px; opacity: 1; }
    100% { left: 0px; opacity: 1;  }
+}
+@keyframes cycle3 {
+  0%  { left: 0px; opacity: 1; } /* When you start the slide, the first image is already visible */
+  28%  { left: 0px; }
+  33% { left: -281px; opacity: 1; }
+  74% { left: -281px; opacity: 0}
+  75% { left: 281px; opacity: 0;  }
+  95% { left: 281px; opacity: 1; }
+  100% { left: 0px; opacity: 1;  }
 }
 
 @keyframes fullexpand {
