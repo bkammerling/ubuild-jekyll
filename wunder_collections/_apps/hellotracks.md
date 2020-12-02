@@ -2,16 +2,16 @@
 layout: marketplace-app
 category: Operations Improvement
 title: Hellotracks
-icon: "/uploads/2020/09/28/logo-hellotracks_mesa-de-trabajo-1-mariana-frese.png"
+icon: "/uploads/2020/11/23/logo-hellotracks_mesa-de-trabajo-1-mariana-frese-1-1.png"
 excerpt: Optimize your field operations with real-time tracking, auto job dispatch,
   and route optimization.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2020/09/28/dispatch-jobs-and-optimize-routes-mariana-frese.jpg"
+- image-video: "/uploads/2020/11/23/dispatch-jobs-and-optimize-routes-mariana-frese.jpeg"
   title: Automatically dispatch jobs with optimized routes.
-- image-video: "/uploads/2020/09/28/hellotracks-2.jpg"
+- image-video: "/uploads/2020/11/23/real-time-location-and-field-staff-status-mariana-frese.jpeg"
   title: Follow your field staff in real-time.
-- image-video: "/uploads/2020/09/28/jobs-list-and-route-mariana-frese.jpg"
+- image-video: "/uploads/2020/11/23/jobs-list-and-route-mariana-frese.jpeg"
   title: Field staff access to daily job list and route from their mobile device.
 description: "<p>Hellotracks will bring simplicity and speed in managing thousands
   of daily tasks. With route optimization, automatic allocation and bulk job uploads,
@@ -26,16 +26,16 @@ description: "<p>Hellotracks will bring simplicity and speed in managing thousan
   the ability to integrate with any other app or CRM that you use with our developer-friendly
   APIs.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/09/28/real-time-location-mariana-frese.jpg"
+- screenshot: "/uploads/2020/11/23/real-time-location-mariana-frese.jpeg"
   title: Real-time location
   screenshot_description: On the go tracking follows your staff’s live location and
     day routes in real-time from your desk or smartphone.
-- screenshot: "/uploads/2020/09/28/hello-tracks-4.jpg"
+- screenshot: "/uploads/2020/11/23/dispatch-jobs-and-optimize-routes-mariana-frese.jpeg"
   title: Automatic job dispatch
   screenshot_description: Create, assign and automate jobs easily and effectively.
     Your operations will be streamlined from start to finish and you’ll have time
     and space to get the job done.
-- screenshot: "/uploads/2020/09/28/jobs-list-field-staff-view-mariana-frese.jpg"
+- screenshot: "/uploads/2020/11/23/jobs-list-field-staff-view-mariana-frese.jpeg"
   title: Leverage your smartphone
   screenshot_description: Your employees can easily input data for each job, as simple
     as a quick Thumbs Up on completing the job, and use valuable functions like attaching
@@ -64,5 +64,7 @@ getting_started:
 - column_title: Finish and reach out
   column_description: Your account manager will connect you with Hellotracks and they
     will help you during the deployment and integration phase.
+whitepaper_link: ''
+video_poster: ''
 
 ---

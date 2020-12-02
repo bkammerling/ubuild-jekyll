@@ -20,6 +20,10 @@ page_sections:
 
 &nbsp;
 
+<p>Looking for a quick way to edit your cookie preferences?</p>
+<button class="btn btn-dark" onclick="WC_getCookieConsent(true)">Edit cookie preferences</button>
+
+&nbsp;
 ## 1\. General
 
 1.1 WunderCar Mobility Solutions GmbH ('Wunder', “we” or “us”) take the privacy of your information very seriously. Our Privacy Policy is designed to tell you about our practices regarding the collection, use and disclosure of information that you may provide via the www.wunder.org website and other associated partner websites, microsites and sub-sites (the “Site”) and the Wunder mobile app.

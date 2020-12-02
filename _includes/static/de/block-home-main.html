@@ -1,4 +1,4 @@
-<section id="scroll-nav">
+<section id="scroll-nav" class="d-none d-md-block">
   <div class="container">
     <div class="border-bottom py-5">
       <ul class="list-unstyled d-md-flex flex-row justify-content-between">
@@ -18,13 +18,13 @@
   <section id="vehiclesharing">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-sm-4 col-md-6 mb-4 mb-sm-0">
-          <img src="uploads/global/home/vehicle-sharing-square.jpg" srcset="uploads/global/home/vehicle-sharing-square@2x.jpg 2x" />
-        </div>
-        <div class="col-sm-8 col-md-6 offset-lg-1 col-lg-5">
+        <div class="col-sm-8 col-md-6 offset-lg-1 col-lg-5 order-sm-2">
           <p>Fahrzeug-Sharing</p>
           <h2 class="headline-medium">Zukunftssicheres Sharing von Fahrzeugen</h2>
           <p>Entdecken Sie die Wunder Mobility OS und finden Sie die ideale Lösung, um Ihre Kunden zu bedienen. Ganz gleich, ob Sie nach einer stationären Miettechnologie oder einer Software für die gemeinsame Nutzung von Fahrzeugen suchen, unsere Expertenteams und unsere erstklassige Technologie werden Ihr neues Mobilitätsunternehmen antreiben und Sie auf Erfolgskurs bringen.</p>
+        </div>
+        <div class="col-sm-4 col-md-6 mt-4 mt-sm-0 ">
+          <img src="uploads/global/home/vehicle-sharing-square.jpg" srcset="uploads/global/home/vehicle-sharing-square@2x.jpg 2x" />
         </div>
       </div>
 
@@ -111,13 +111,13 @@
   <section id="ridehailing">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-sm-4 col-md-6 mb-4 mb-sm-0">
-          <img src="uploads/global/home/ridehailing-square.jpg" srcset="uploads/global/home/ridehailing-square@2x.jpg 2x" />
-        </div>
-        <div class="col-sm-8 col-md-6 offset-lg-1 col-lg-5">
+        <div class="col-sm-8 col-md-6 offset-lg-1 col-lg-5 order-sm-2">
           <p>Ride-Hailing</p>
           <h2 class="headline-medium">On-demand Flexibilität für Unternehmen und Gemeinden</h2>
           <p>Entdecken Sie On-Demand und planmäßige Fahrten, Ride-Hailing sowie Pooling-Lösungen für Städte, ländliche Gemeinden, Unternehmen und Pendler. Eine App verbindet Ihre Fahrer und Mitfahrer nahtlos mit Ihrer Mobilitätsplattform, und die automatische Disposition spart Ihnen wertvolle Zeit.</p>
+        </div>
+        <div class="col-sm-4 col-md-6 mt-4 mt-sm-0">
+          <img src="uploads/global/home/ridehailing-square.jpg" srcset="uploads/global/home/ridehailing-square@2x.jpg 2x" />
         </div>
       </div>
 
@@ -199,17 +199,16 @@
 
   <section id="extensions">
     <div class="container">
-      <div class="row">
-        <div class="mb-4 mb-lg-0 col-lg-6 pr-lg-4 col-xl-5 pl-xl-5" >
+      <div class="row align-items-center text-center text-md-left">
+        <div class="mb-4 mb-lg-0 col-lg-5 pr-lg-4 pl-xl-5" >
           <h2 class="headline-medium">Vervollständigen Sie Ihr Mobilitäts-Ökosystem</h2>
         </div>
-        <div class="col-md-6 col-lg-3 pl-xl-4 mb-5 mb-md-0">
+        <div class="col-md-6 col-lg-4 pl-xl-4 mb-5 mb-md-0 text-align-center order-3 order-md-2">
+          <img data-src="/uploads/global/home/marketplace-mockup-hp.jpg" data-srcset="/uploads/global/home/marketplace-mockup-hp@2x.jpg 2x" alt="Laptop mockup of Wunder Marketplace" />
+        </div>
+        <div class="col-md-6 col-lg-3 pl-xl-4 mb-5 mb-md-0 order-md-3">
           <p class="mb-2">Verbessern und skalieren Sie Ihr Mobilitätsgeschäft mit unserer modularen Plattform.</p>
           <a class="text-link text-nowrap" href="/marketplace">Entdecken Sie <br/>Wunder Marketplace <img src="/uploads/global/right-arrow.svg" class="right-arrow"/></a>
-        </div>
-        <div class="col-md-6 col-lg-3 pl-xl-5">
-          <p class="mb-2">Bessere Ausnutzung begrenzter Flächen mit digitaler Parkraumbewirtschaftung.</p>
-          <a class="text-link" href="/de/park">Entdecken Sie <br/>Wunder Park <img src="/uploads/global/right-arrow.svg" class="right-arrow"/></a>
         </div>
       </div>
     </div>
@@ -271,7 +270,7 @@
 
       <div id="client-logos" class="mt-5 text-center">
         <picture>
-          <source media="(min-width: 550px)" srcset="uploads/global/home/scale-logos..png 1x, uploads/global/home/scale-logos@2x.png 2x">
+          <source media="(min-width: 550px)" srcset="uploads/global/home/scale-logos.png 1x, uploads/global/home/scale-logos@2x.png 2x">
           <img data-src="uploads/global/home/scale-logos__mob.png" data-srcset="uploads/global/home/scale-logos__mob@2x.png 2x" alt="Rows of logos of companies that worked with Wunder Mobility e.g. Ford, Toyota, Lufthansa, Audi, hive, Green Mobility, Segway and more." />
         </picture>
       </div>
@@ -392,75 +391,6 @@
     </div>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="Contact form modal" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="formModalLabel">Get in touch with us</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <form id="modal-form"  class="ajaxForm" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
-          <div class="modal-body">
-            <input type="hidden" name="country" id="user-country" value="">
-            <input type="hidden" name="region" id="user-region" value="EN">
-            <input type="hidden" name="lang" id="site-lang" value="de">
-            <input type="hidden" name="utm_source" id="utm_source" value="">
-            <input type="hidden" name="utm_medium" id="utm_medium" value="">
-            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-            <input type="hidden" name="utm_term" id="utm_term" value="">
-            <input type="hidden" name="campaign_id" id="campaign_id" value="">
-            <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
-            <input type="hidden" name="title_id" id="title_id" value="">
-            <input type="hidden" name="first_visit" id="first_visit" value="">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">Name *</label>
-                    <input type="text" class="form-control" id="recipient-name" name="name" required placeholder="Your full name"/>
-                  </div>
-                  <div class="form-group">
-                    <label for="email" class="col-form-label">Email *</label>
-                    <input type="email" class="form-control" id="email" name="email" required placeholder="your-email@example.com"/>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="phone" class="col-form-label">Telefonnummer</label>
-                    <input type="text" class="form-control" id="phone" name="phone" placeholder="+49 173 1234 567"/>
-                  </div>
-                  <div class="form-group">
-                    <label for="recipient-company" class="col-form-label">Unternehmen *</label>
-                    <input type="text" class="form-control" id="recipient-company" name="company" placeholder="Your company" required />
-                  </div>
-                </div>
-              </div>
-              <hr>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label">Nachricht</label>
-                <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
-              </div>
-              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
-            </div>
-          </div>
-          <div class="modal-footer">
-            <div class="col-sm-5">
-              <h5 class="form-feedback hidden">Your message has been sent. We'll be in touch!</h5>
-            </div>
-            <div class="col-sm-7 text-right">
-              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-                Send Message
-              </button>
-            </div>
-          </div>
-
-        </form>
-      </div>
-    </div>
-  </div>
-
+  {% include de/block-contact-modal.html %}
 
 </main>

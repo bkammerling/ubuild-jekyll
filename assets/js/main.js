@@ -91,7 +91,7 @@ var menu = {
   init: function() {
     var btn = $(".header__hamburger");
     //var menu = $(".navbar-nav");
-    var navlink = $("body .navbar-nav .nav-link");
+    var navlink = $("body:not(.careers) .navbar-nav .nav-link");
     var hideBtn = $(".nav-full__overlay");
     this.toggleMenu(btn, this.submenu);
     this.showMenu(navlink, this.submenu);
@@ -654,7 +654,7 @@ $(document).ready(function() {
         var inputTarget = $('#'+eventTarget.data('input'));
         inputTarget.val(eventTarget.data('value')).siblings('.select2').addClass('selected')
         inputTarget.trigger('change.select2').trigger('change');;
-      } else if(eventTarget.hasClass('gt-navcta')) {
+      } else if(eventTarget.is('.nav-full__wrapper .gt-navcta')) {
         $(".header__hamburger").trigger('click');
       }
     }
@@ -673,7 +673,7 @@ $(document).ready(function() {
       }, 400);
     } else {
       $('.home-quotes .mob-scroll').animate({
-        scrollLeft: hpScrollerWidth * childNo * 0.5 - halfQuoteWidth
+        scrollLeft: hpScrollerWidth * childNo * 0.5 - halfQuoteWidth // - $(window).width()/12
       }, 400);
     }
     //style="scroll-snap-type: x mandatory; scroll-padding: 20%;"

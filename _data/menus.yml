@@ -58,12 +58,6 @@ wunder-main:
   identifier: city
   title: City
   subtitle: Analytics to prepare cities for a connected future.
-- url: "/park"
-  weight: 3
-  parent: extensions
-  identifier: park
-  title: Park
-  subtitle: Make better use of limited space with digital parking management.
 - url: "#"
   weight: 2
   title: Company
@@ -86,7 +80,7 @@ wunder-main:
   url: "/careers/"
   parent: company
   weight: 3
-  title: Working at Wunder
+  title: Careers
 - url: "/press"
   weight: 4
   identifier: press
@@ -96,7 +90,7 @@ wunder-main:
 - url: "/summit/"
   weight: 5
   identifier: summit
-  title: Wunder mobility Summit
+  title: Wunder Mobility Summit
   parent: company
   subtitle: The mobility event of the year!
 
@@ -159,23 +153,17 @@ wunder-de:
   identifier: city
   title: City
   subtitle: Analysen zur Vorbereitung der Städte auf eine vernetzte Zukunft.
-- url: "/de/park"
-  weight: 3
-  parent: extensions
-  identifier: park
-  title: Park
-  subtitle: Mit digitaler Parkraumbewirtschaftung den begrenzten Raum besser nutzen.
 - url: "#"
   weight: 2
   title: Firma
   identifier: company
   sub: true
-- url: "/our-story"
+- url: "/de/unsere-geschichte"
   weight: 1
   identifier: our-story
-  title: Our Story | EN
+  title: Unsere Geschichte
   parent: company
-  subtitle: Every journey starts somewhere
+  subtitle: Jede Reise hat einen Anfang
 - url: "/blog/"
   weight: 2
   identifier: blog
@@ -246,7 +234,7 @@ footer:
     title: Hamburg HQ
     weight: 1
     url: https://goo.gl/maps/gLfhawLd9LoKjrbD7
-    content: Hongkongstraße 2<br>20457 Hamburg<br>Germany
+    content: Hongkongstraße 2-4<br>20457 Hamburg<br>Germany
     parent: offices
     newtab: 1
   - identifier: dortmund
@@ -348,11 +336,6 @@ footer:
     url: "/carpool"
     weight: 4
     title: Carpool
-    parent: solutions
-  - identifier: park
-    url: "/park"
-    weight: 5
-    title: Park
     parent: solutions
   - identifier: city
     url: "/city"

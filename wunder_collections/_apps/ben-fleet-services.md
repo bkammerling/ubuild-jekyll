@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Fleet Maintenance
 title: Ben Fleet Services
-icon: "/uploads/2020/09/15/ben-logo-256x256-jakob-kramer.png"
+icon: "/uploads/2020/11/23/ben-logo-256x256-jakob-kramer.png"
 excerpt: Full range of on-demand services required for the care and maintenance of
   fleet vehicles.
 featured: false
@@ -55,5 +55,7 @@ getting_started:
 - column_title: Integrate the solution
   column_description: Together we will integrate our digital solution into your existing
     system, so that you can lean back.
+whitepaper_link: ''
+video_poster: ''
 
 ---

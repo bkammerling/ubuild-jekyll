@@ -39,8 +39,8 @@ page_sections:
 - template: custom-content
   block: custom-html
   content: "<section class=\"post-hero d-flex align-items-center justify-content-center\">\n
-    \ <div class=\"post-hero-message\">\n    <p class=\"text-link px-5\">WMS 2020 has been
-    postponed due to COVID-19 restrictions <a href=\"https://mailchi.mp/wundermobility.com/wunder-mobility-summit-postponed\"
+    \ <div class=\"post-hero-message\">\n    <p class=\"text-link px-5\">WMS 2020
+    has been postponed due to COVID-19 restrictions <a href=\"https://mailchi.mp/wundermobility.com/wunder-mobility-summit-postponed\"
     target=\"_blank\" class=\"d-inline-block ml-md-2 text-blue text-link\"> Learn
     more <img src=\"uploads/global/external-link.svg\" class=\"externallink-icon link-svg\"/></a></p>\n
     \ </div>  \n</section>"
@@ -53,7 +53,9 @@ page_sections:
     content: Wunder Mobility Summit
   - text_style: headline-medium
     content: Exploring the future of mobility
-  - content: "This one-and-a-half day event connects industry leaders within the mobility ecosystem. During WMS, the biggest players, policymakers, visionaries and more come together for an exchange of insights and ideas."
+  - content: This one-and-a-half day event connects industry leaders within the mobility
+      ecosystem. During WMS, the biggest players, policymakers, visionaries and more
+      come together for an exchange of insights and ideas.
     text_style: body
   image: "/uploads/2020/07/16/john-kraf-home.jpg"
 - template: custom-content
@@ -175,7 +177,7 @@ page_sections:
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wundermobility-black.svg"
+    company_logo: "/uploads/global/wunder-logo-2020.svg"
     bio: ''
     linkedin: https://www.linkedin.com/in/gunnarfroh/
 - template: custom-content

@@ -53,7 +53,7 @@
                     <option disabled selected>Subject *</option>
                     <option value="Wunder Fleet" data-id="fleet" {% if page.lang-ref == 'fleet' %}selected{% endif %}>Wunder Fleet</option>
                     <option value="Wunder Rent" data-id="rent" {% if page.lang-ref == 'rent' %}selected{% endif %}>Wunder Rent</option>
-                    <option value="Wunder Shuttle" data-id="shuttle" {% if page.lang-ref == 'shuttle' %}selected{% endif %}>Wunder Shuttle</option>
+                    <option value="Wunder Ride" data-id="ride" {% if page.lang-ref == 'ride' %}selected{% endif %}>Wunder Ride</option>
                     <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
                     <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
                     <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
@@ -109,7 +109,7 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
+              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'ride' %}
               {% capture fConditionals %}{% endcapture %}{% capture fNonConditionals %}{% endcapture %}
               {% if page.lang-ref == 'fleet' %}
                 {% capture fConditionals %}data-target="#vehicles6month"{% endcapture %}
@@ -130,7 +130,7 @@
                       <option {{fConditionals}}>51-100</option>
                       <option {{fNonConditionals}}>101-500</option>
                       <option {{fNonConditionals}}>500+</option>
-                    {% elsif page.lang-ref == 'shuttle' %}
+                    {% elsif page.lang-ref == 'ride' %}
                       <option disabled selected>Verfügen Sie derzeit über einen bestehenden Fuhrpark? *</option>
                       <option value="0">Nein</option>
                       <option value="1-20">Ja, 1-20 Fahrzeuge</option>
@@ -179,7 +179,7 @@
               </div>
               {% endif %}
 
-              {% if page.lang-ref == 'shuttle' %}
+              {% if page.lang-ref == 'ride' %}
               <div class="form-group fleet shuttle">
                 <div class="select-wrapper">
                   <select name="when-to-launch" class="form-control select2-init" style="width:100%" id="launchTimeline" required=true>

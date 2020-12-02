@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Customer Engagement
 title: Moback
-icon: "/uploads/2020/09/21/moback-stephan-leppler.png"
+icon: "/uploads/2020/11/23/moback-stephan-leppler.png"
 excerpt: An engaging loyalty system (SDK) for your app to reward users for their green
   mobility.
 featured: false
@@ -55,5 +55,7 @@ getting_started:
   column_description: After contacting us, we will schedule a demo together with you.
 - column_title: Integration of MOBACK within one week
   column_description: We will set up your MOBACK integration within no time.
+whitepaper_link: ''
+video_poster: ''
 
 ---
