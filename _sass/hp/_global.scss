@@ -302,20 +302,20 @@ blockquote {
         margin-bottom: 32px;
       }
     }
-    svg.quote-marks {
-      width: 45px;
-      margin-bottom: 20px;
-      @include rwd(tablet-up) {
-        width: 62px;
-        margin-bottom: 25px;
-      }
-      @include rwd(desktop-up) {
-        width: 78px;
-        margin-bottom: 30px;
-      }
-    }
   }
 
+}
+svg.quote-marks {
+  width: 45px;
+  margin-bottom: 20px;
+  @include rwd(tablet-up) {
+    width: 62px;
+    margin-bottom: 25px;
+  }
+  @include rwd(desktop-up) {
+    width: 78px;
+    margin-bottom: 30px;
+  }
 }
 
 .play-icon {
@@ -460,4 +460,55 @@ blockquote {
   .o-#{$o} {
     opacity: $o / 10;
   }
+}
+
+
+#WC_popup {
+  position: fixed;
+  width: 472px;
+  max-width: 100%;
+  bottom: 25px;
+  left: 0px;
+  z-index: 9999;
+  @include rwd(tablet-up) {
+    width: 100%;
+  }
+  .card-header {
+    background: #F4F3F3;
+    @include rwd(desktop-up) {
+      min-width: 380px;
+      width: 380px;
+    }
+  }
+  .custom-control-input, .custom-control-label::before, .custom-control-label::after {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: -5px;
+  }
+  .custom-control-label {
+    padding-left: 12px;
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #208050;
+    background-color: #208050;
+  }
+  .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+  }
+  .custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
+    color: inherit;
+  }
+  .custom-control {
+    p {
+      margin-left: -1.5rem;
+    }
+  }
+}
+
+
+.youtube-link {
+  &:hover {
+    text-decoration: underline;
+  } 
 }

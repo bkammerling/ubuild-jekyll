@@ -1,290 +1,286 @@
 <section class="block block-contact-form" id="section-contact">
-    <div class="contact-form__wrapper block-full-right col-2-in">
-      <div class="container container-fullright">
-        <div class="boxed-form {% if page.version == 'hp' %}w-shadow{% endif %}">
-          <h2 class="page-heading headline-large text-center mb-2">{{ section.title }}</h2>
-          <p style="max-width: 480px" class="mx-auto mb-5 text-center">{{ section.content }}</p>
-          <div class="contact-form__form">
-            <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
-              <p class="hidden">
-                <input name="_gotcha">
-              </p>
-              <input type="hidden" name="country" id="user-country" value="">
-              <input type="hidden" name="region" id="user-region" value="EN">
-              <input type="hidden" name="lang" id="site-lang" value="en">
-              <input type="hidden" name="utm_source" id="utm_source" value="">
-              <input type="hidden" name="utm_medium" id="utm_medium" value="">
-              <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-              <input type="hidden" name="utm_term" id="utm_term" value="">
-              <input type="hidden" name="campaign_id" id="campaign_id" value="">
-              <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
-              <input type="hidden" name="title_id" id="title_id" value="">
-              <input type="hidden" name="first_visit" id="first_visit" value="">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label class="form-label" for="name">Full name *</label>
-                    <input type="text" name="name" id="name" required>
-                    <div class="bottom-border"></div>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="email">Your email *</label>
-                    <input type="email" name="email" id="email" required>
-                    <div class="bottom-border"></div>
-                  </div>
+  <div class="contact-form__wrapper block-full-right col-2-in {{ section.bg }}">
+    <div class="container container-fullright">
+      <div class="boxed-form {% if page.version == 'hp' %}w-shadow{% endif %}">
+        <h2 class="page-heading headline-large text-center mb-2">{{ section.title }}</h2>
+        <p style="max-width: 480px" class="mx-auto mb-5 text-center">{{ section.content }}</p>
+        <div class="contact-form__form">
+          <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
+            <p class="hidden">
+              <input name="_gotcha">
+            </p>
+            <input type="hidden" name="country" id="user-country" value="">
+            <input type="hidden" name="region" id="user-region" value="EN">
+            <input type="hidden" name="lang" id="site-lang" value="en">
+            <input type="hidden" name="utm_source" id="utm_source" value="">
+            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+            <input type="hidden" name="utm_term" id="utm_term" value="">
+            <input type="hidden" name="campaign_id" id="campaign_id" value="">
+            <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
+            <input type="hidden" name="title_id" id="title_id" value="">
+            <input type="hidden" name="first_visit" id="first_visit" value="">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label class="form-label" for="name">Full name *</label>
+                  <input type="text" name="name" id="name" required maxlength="40">
+                  <div class="bottom-border"></div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label class="form-label" for="company">{% unless page.url == '/city' %}Company Name *{% else %}Your city *{% endunless %}</label>
-                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
-                    <div class="bottom-border"></div>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="phone">Phone (incl. country code)</label>
-                    <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
-                    <div class="bottom-border"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group hidden">
-                <div class="select-wrapper">
-                  <select name="subject" class="form-control select2-init " style="width:100%" id="subject-field" required>
-                    <option disabled>Subject *</option>
-                    <option value="Wunder Fleet" data-id="fleet" {% if page.lang-ref == 'fleet' %}selected{% endif %}>Wunder Fleet</option>
-                    <option value="Wunder Rent" data-id="rent" {% if page.lang-ref == 'rent' %}selected{% endif %}>Wunder Rent</option>
-                    <option value="Wunder Shuttle" data-id="shuttle" {% if page.lang-ref == 'shuttle' %}selected{% endif %}>Wunder Shuttle</option>
-                    <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
-                    <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
-                    <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
-                    <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' or page.lang-ref == 'vehicles-yadea' %}selected{% endif %}>Wunder Vehicles</option>
-                    <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
-                    <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
-                  </select>
+                <div class="form-group">
+                  <label class="form-label" for="email">Your email *</label>
+                  <input type="email" name="email" id="email" required>
                   <div class="bottom-border"></div>
                 </div>
               </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label class="form-label" for="company">{% unless page.url == '/city' %}Company Name *{% else %}Your city *{% endunless %}</label>
+                  <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
+                  <div class="bottom-border"></div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone (incl. country code)</label>
+                  <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
+                  <div class="bottom-border"></div>
+                </div>
+              </div>
+            </div>
 
-              <div class="form-group">
-                <label class="form-label" for="url">Your business website</label>
-                <input type="text" name="url" id="url"></input>
+            <div class="form-group hidden">
+              <div class="select-wrapper">
+                <select name="subject" class="form-control select2-init " style="width:100%" id="subject-field" required>
+                  <option disabled>Subject *</option>
+                  <option value="Wunder Fleet" data-id="fleet" {% if page.lang-ref == 'fleet' %}selected{% endif %}>Wunder Fleet</option>
+                  <option value="Wunder Rent" data-id="rent" {% if page.lang-ref == 'rent' %}selected{% endif %}>Wunder Rent</option>
+                  <option value="Wunder Ride" data-id="ride" {% if page.lang-ref == 'ride' %}selected{% endif %}>Wunder Ride</option>
+                  <option value="Wunder Carpool" data-id="carpool" {% if page.lang-ref == 'carpool' %}selected{% endif %}>Wunder Carpool</option>
+                  <option value="Wunder Park" data-id="park" {% if page.lang-ref == 'park' %}selected{% endif %}>Wunder Park</option>
+                  <option value="Wunder City" data-id="city" {% if page.lang-ref == 'city' %}selected{% endif %}>Wunder City</option>
+                  <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' or page.lang-ref == 'vehicles-yadea' %}selected{% endif %}>Wunder Vehicles</option>
+                  <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
+                  <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
+                </select>
                 <div class="bottom-border"></div>
               </div>
+            </div>
 
-              {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' or page.lang-ref == 'rent' %}
-              {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
-              {% if page.lang-ref == 'carpool' %}
-                {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
-                {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
-              {% endif %}
-              <div class="form-group shuttle carpool">
-                <div class="select-wrapper">
-                  <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
-                    <option disabled selected>Type of organisation *</option>
-                    <option value="Setting up" {{ nonConditionals }}>I am a setting up a new mobility service</option>
-                    <option value="Already running" {{ nonConditionals }}>I am already running a mobility service</option>
-                    <option value="Interested internal" {{ conditionals }}>I am interested in employee mobility solutions for my company</option>
-                    {% comment %}<option value="Enterprise" {{ conditionals }}>Enterprise with mobility as a core business</option>{% endcomment %}
-                    <option value="Other" {{ conditionals }}>Other</option>
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
+            <div class="form-group">
+              <label class="form-label" for="url">Your business website</label>
+              <input type="text" name="url" id="url"></input>
+              <div class="bottom-border"></div>
+            </div>
+
+            {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' or page.lang-ref == 'rent' %}
+            {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
+            {% if page.lang-ref == 'carpool' %}
+              {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
+              {% capture nonConditionals %}data-target="#parkingQs" data-direction="up"{% endcapture %}
+            {% endif %}
+            <div class="form-group shuttle carpool">
+              <div class="select-wrapper">
+                <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
+                  <option disabled selected>Type of organisation *</option>
+                  <option value="Setting up" {{ nonConditionals }}>I am a setting up a new mobility service</option>
+                  <option value="Already running" {{ nonConditionals }}>I am already running a mobility service</option>
+                  <option value="Interested internal" {{ conditionals }}>I am interested in employee mobility solutions for my company</option>
+                  {% comment %}<option value="Enterprise" {{ conditionals }}>Enterprise with mobility as a core business</option>{% endcomment %}
+                  <option value="Other" {{ conditionals }}>Other</option>
+                </select>
+                <div class="bottom-border"></div>
               </div>
-              {% endunless %}
+            </div>
+            {% endunless %}
 
 
-              <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>
+            <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>
 
-              {% if page.lang-ref == 'fleet' %}
-              <div class="form-group shuttle fleet">
-                <div class="select-wrapper">
-                  <select name="company-status" class="form-control select2-init" style="width:100%" id="companyStatus" required=true>
-                    {% if page.lang-ref == 'shuttle' %}
-                      <option disabled selected>What is the current status of your company? *</option>
-                      <option value="Researching & planning">Researching & planning</option>
-                      <option value="Already operating (recently launched)">Already operating (recently launched)</option>
-                      <option value="Operating and scaling">Operating and scaling</option>
-                      <option value="Other">Other</option>
-                    {% elsif page.lang-ref == 'fleet' %}
-                      <option disabled selected>How would you best describe your business stage? *</option>
-                      <option>I’m starting my shared mobility operations and I need a technology partner</option>
-                      <option>I’m already running a mobility service and I’m looking to expand my operations</option>
-                      <option>I want to replace my existing software provider</option>
-                    {% endif %}
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
+            {% if page.lang-ref == 'fleet' %}
+            <div class="form-group shuttle fleet">
+              <div class="select-wrapper">
+                <select name="company-status" class="form-control select2-init" style="width:100%" id="companyStatus" required=true>
+                  {% if page.lang-ref == 'ride' %}
+                    <option disabled selected>What is the current status of your company? *</option>
+                    <option value="Researching & planning">Researching & planning</option>
+                    <option value="Already operating (recently launched)">Already operating (recently launched)</option>
+                    <option value="Operating and scaling">Operating and scaling</option>
+                    <option value="Other">Other</option>
+                  {% elsif page.lang-ref == 'fleet' %}
+                    <option disabled selected>How would you best describe your business stage? *</option>
+                    <option>I’m starting my shared mobility operations and I need a technology partner</option>
+                    <option>I’m already running a mobility service and I’m looking to expand my operations</option>
+                    <option>I want to replace my existing software provider</option>
+                  {% endif %}
+                </select>
+                <div class="bottom-border"></div>
               </div>
-              {% endif %}
+            </div>
+            {% endif %}
 
-              {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'shuttle' %}
-              {% capture fConditionals %}{% endcapture %}{% capture fNonConditionals %}{% endcapture %}
-              {% if page.lang-ref == 'fleet' %}
-                {% capture fConditionals %}data-target="#vehicles6month"{% endcapture %}
-                {% capture fNonConditionals %}data-target="#vehicles6month" data-direction="up"{% endcapture %}
-              {% endif %}
-              <div class="form-group rent fleet shuttle">
-                <div class="select-wrapper">
-                  <select name="what-fleet-size" class="form-control select2-init conditional-trigger" style="width:100%" id="fleetSize" required=true>
-                    {% if page.lang-ref == 'rent' %}
-                      <option disabled selected>What is the current size of your fleet? *</option>
-                      <option>0</option>
-                      <option>1-50</option>
-                      <option>51-150</option>
-                      <option>150+</option>
-                    {% elsif page.lang-ref == 'fleet' %}
-                      <option disabled selected>How many vehicles would you like to start with? *</option>
-                      <option value="1-50 F" {{fConditionals}}>1-50</option>
-                      <option {{fConditionals}}>51-100</option>
-                      <option {{fNonConditionals}}>101-500</option>
-                      <option {{fNonConditionals}}>500+</option>
-                    {% elsif page.lang-ref == 'shuttle' %}
-                      <option disabled selected>How many drivers do you currently work with? *</option>
-                      <option value="0">None, so far</option>
-                      <option value="1-10">1-10</option>
-                      <option value="10-50">10-50</option>
-                      <option value="50-150 S">50-150</option>
-                      <option value="150+ S">150+</option>
-                    {% endif %}
-                  </select>
-                  <div class="bottom-border"></div>
-                </div>
+            {% if page.lang-ref == 'rent' or page.lang-ref == 'fleet' or page.lang-ref == 'ride' %}
+            {% capture fConditionals %}{% endcapture %}{% capture fNonConditionals %}{% endcapture %}
+            {% if page.lang-ref == 'fleet' %}
+              {% capture fConditionals %}data-target="#vehicles6month"{% endcapture %}
+              {% capture fNonConditionals %}data-target="#vehicles6month" data-direction="up"{% endcapture %}
+            {% endif %}
+            <div class="form-group rent fleet shuttle">
+              <div class="select-wrapper">
+                <select name="what-fleet-size" class="form-control select2-init conditional-trigger" style="width:100%" id="fleetSize" required=true>
+                  {% if page.lang-ref == 'rent' %}
+                    <option disabled selected>What is the current size of your fleet? *</option>
+                    <option>0</option>
+                    <option>1-50</option>
+                    <option>51-150</option>
+                    <option>150+</option>
+                  {% elsif page.lang-ref == 'fleet' %}
+                    <option disabled selected>How many vehicles would you like to start with? *</option>
+                    <option value="1-50 F" {{fConditionals}}>1-50</option>
+                    <option {{fConditionals}}>51-100</option>
+                    <option {{fNonConditionals}}>101-500</option>
+                    <option {{fNonConditionals}}>500+</option>
+                  {% elsif page.lang-ref == 'ride' %}
+                    <option disabled selected>How many drivers do you currently work with? *</option>
+                    <option value="0">None, so far</option>
+                    <option value="1-10">1-10</option>
+                    <option value="10-50">10-50</option>
+                    <option value="50-150 S">50-150</option>
+                    <option value="150+ S">150+</option>
+                  {% endif %}
+                </select>
+                <div class="bottom-border"></div>
               </div>
-              {% endif %}
+            </div>
+            {% endif %}
 
-              {% if page.lang-ref == 'fleet' %}
+            {% if page.lang-ref == 'fleet' %}
 
-              <div class="collapse" id="vehicles6month">
+            <div class="collapse" id="vehicles6month">
 
-                <div class="form-group fleet">
-                  <div class="select-wrapper">
-                    <select name="what-fleet-size-6m" class="form-control select2-init" style="width:100%" id="fleetSize6m" required=true>
-                        <option disabled selected>How many vehicles do you project to have in 6 months from the launch? *</option>
-                        <option value="1-50 F-6m">1-50</option>
-                        <option value="51-100 F-6m">51-100</option>
-                        <option value="101-500 F-6m">101-500</option>
-                        <option value="500+ F-6m">500+</option>
-                        <option value="I don’t know yet">I don’t know yet</option>
-                    </select>
-                    <div class="bottom-border"></div>
-                  </div>
-                </div>
-              </div>
-
-              {% endif %}
-
-              {% if page.lang-ref == 'fleet' %}
               <div class="form-group fleet">
                 <div class="select-wrapper">
-                  <select name="business-model" class="form-control select2-init" style="width:100%" id="businessModel" required=true>
-                    <option disabled selected>What best describes your business model? *</option>
-                    <option>Vehicle sharing</option>
-                    <option>Peer-to-peer sharing</option>
-                    <option>Subscription / Leasing model</option>
-                    <option>I haven’t decided yet</option>
+                  <select name="what-fleet-size-6m" class="form-control select2-init" style="width:100%" id="fleetSize6m" required=true>
+                      <option disabled selected>How many vehicles do you project to have in 6 months from the launch? *</option>
+                      <option value="1-50 F-6m">1-50</option>
+                      <option value="51-100 F-6m">51-100</option>
+                      <option value="101-500 F-6m">101-500</option>
+                      <option value="500+ F-6m">500+</option>
+                      <option value="I don’t know yet">I don’t know yet</option>
                   </select>
                   <div class="bottom-border"></div>
                 </div>
               </div>
-              {% endif %}
+            </div>
 
-              {% if page.lang-ref == 'carpool' %}
-              <div class="collapse" id="parkingQs">
-                <div class="form-group ml-3 py-5">
-                  <h4 class="lighter mb-3">Do you currently own / manage a parking space? *</h4>
+            {% endif %}
+
+            {% if page.lang-ref == 'fleet' %}
+            <div class="form-group fleet">
+              <div class="select-wrapper">
+                <select name="business-model" class="form-control select2-init" style="width:100%" id="businessModel" required=true>
+                  <option disabled selected>What best describes your business model? *</option>
+                  <option>Vehicle sharing</option>
+                  <option>Peer-to-peer sharing</option>
+                  <option>Subscription / Leasing model</option>
+                  <option>I haven’t decided yet</option>
+                </select>
+                <div class="bottom-border"></div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.lang-ref == 'carpool' %}
+            <div class="collapse" id="parkingQs">
+              <div class="form-group ml-3 py-5">
+                <h4 class="lighter mb-3">Do you currently own / manage a parking space? *</h4>
+                <div class="form-check">
+                  <input class="form-check-input conditional-trigger" data-target="#limitedParkingQs" data-direction="down" type="radio" name="own-parking" id="own-parkingY" value="Yes-Parking">
+                  <label class="form-check-label" for="own-parkingY">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input conditional-trigger" data-target="#limitedParkingQs" data-direction="up" type="radio" name="own-parking" id="own-parkingN" value="No-Parking">
+                  <label class="form-check-label" for="own-parkingN">
+                    No
+                  </label>
+                </div>
+              </div>
+
+              <div class="collapse" id="limitedParkingQs">
+
+                <div class="form-group carpool ml-3  pb-5">
+                  <h4 class="lighter mb-3">How many parking spaces do you have available? *</h4>
+                  <div class="form-check mb-1">
+                    <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces1" value="<50">
+                    <label class="form-check-label" for="parking-spaces1">
+                      Less than 50
+                    </label>
+                  </div>
                   <div class="form-check">
-                    <input class="form-check-input conditional-trigger" data-target="#limitedParkingQs" data-direction="down" type="radio" name="own-parking" id="own-parkingY" value="Yes-Parking">
-                    <label class="form-check-label" for="own-parkingY">
+                    <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces2" value="50-500">
+                    <label class="form-check-label" for="parking-spaces2">
+                      50 - 500
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces3" value="500+">
+                    <label class="form-check-label" for="parking-spaces3">
+                      Over 500
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group carpool ml-3  pb-5">
+                  <h4 class="lighter mb-3">Is parking currently limited and therefore a pain for your employees/citizens? *</h4>
+                  <div class="form-check mb-1">
+                    <input class="form-check-input" type="radio" name="parking-limited" id="parking-limitedY" value="Yes-ParkingLimited">
+                    <label class="form-check-label" for="parking-limitedY">
                       Yes
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input conditional-trigger" data-target="#limitedParkingQs" data-direction="up" type="radio" name="own-parking" id="own-parkingN" value="No-Parking">
-                    <label class="form-check-label" for="own-parkingN">
+                    <input class="form-check-input" type="radio" name="parking-limited" id="parking-limitedN" value="No-ParkingLimited">
+                    <label class="form-check-label" for="parking-limitedN">
                       No
                     </label>
                   </div>
                 </div>
 
-                <div class="collapse" id="limitedParkingQs">
-
-                  <div class="form-group carpool ml-3  pb-5">
-                    <h4 class="lighter mb-3">How many parking spaces do you have available? *</h4>
-                    <div class="form-check mb-1">
-                      <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces1" value="<50">
-                      <label class="form-check-label" for="parking-spaces1">
-                        Less than 50
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces2" value="50-500">
-                      <label class="form-check-label" for="parking-spaces2">
-                        50 - 500
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="parking-spaces" id="parking-spaces3" value="500+">
-                      <label class="form-check-label" for="parking-spaces3">
-                        Over 500
-                      </label>
-                    </div>
-                  </div>
-
-                  <div class="form-group carpool ml-3  pb-5">
-                    <h4 class="lighter mb-3">Is parking currently limited and therefore a pain for your employees/citizens? *</h4>
-                    <div class="form-check mb-1">
-                      <input class="form-check-input" type="radio" name="parking-limited" id="parking-limitedY" value="Yes-ParkingLimited">
-                      <label class="form-check-label" for="parking-limitedY">
-                        Yes
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="parking-limited" id="parking-limitedN" value="No-ParkingLimited">
-                      <label class="form-check-label" for="parking-limitedN">
-                        No
-                      </label>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              {% endif %}
-
-
-              <div class="form-group">
-                <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
-                <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
-                <div class="bottom-border"></div>
-              </div>
-
-              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
-              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-                Send message
-              </button>
-              <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
-            </form>
-            {% comment %} 6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR {% endcomment %}
-
-            {% if page.lang-ref == 'press' %}
-            <div class="press-contact mt-5 pt-5 pt-sm-5 d-sm-flex">
-              {% comment %}<img class="mr-4" data-src="/uploads/global/Photo_Daniel.jpg" data-srcset="/uploads/global/Photo_Daniel@2x.jpg 2x" />{% endcomment %}
-              <div class="press-contact__info mt-3 mt-sm-0">
-                <p class="mb-3 mt-3"><strong>US Press Contact</strong></p>
-                <h3>Inkhouse</h3>
-                <p>E-mail: <a href="mailto:wundermobility@inkhouse.com" title="Email Wunder's press contact in the US">wundermobility@inkhouse.com</a></p>
-              </div>
-              <div class="press-contact__info mt-5 mt-sm-0 ml-sm-5 ">
-                <p class="mb-3 mt-3"><strong>EU Press Contact</strong></p>
-                <h3>Schoesslers</h3>
-                <p>E-mail: <a href="mailto:wunder@schoesslers.com" title="Email Wunder's press contact in the EU">wunder@schoesslers.com</a></p>
               </div>
             </div>
             {% endif %}
 
+
+            <div class="form-group">
+              <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
+              <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
+              <div class="bottom-border"></div>
+            </div>
+
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+              Send message
+            </button>
+            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+          </form>
+          {% comment %} 6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR {% endcomment %}
+
+          {% if page.lang-ref == 'press' %}
+          <div class="press-contact mt-5 pt-5 pt-sm-5 d-sm-flex">
+            {% comment %}<img class="mr-4" data-src="/uploads/global/Photo_Daniel.jpg" data-srcset="/uploads/global/Photo_Daniel@2x.jpg 2x" />{% endcomment %}
+            <div class="press-contact__info mt-3 mt-sm-0">
+              <p class="mb-3 mt-3"><strong>Press Contact</strong></p>
+              <h3>Marius Koch</h3>
+              <p>Head of Communications and Events</p>
+              <p>E-mail: <a href="mailto:press@wundermobility.com" title="Email Wunder's press contact email address">press@wundermobility.com</a></p>
+            </div>
           </div>
+          {% endif %}
+
         </div>
       </div>
     </div>
+  </div>
 
   {% if section.background_image %}
   <style>

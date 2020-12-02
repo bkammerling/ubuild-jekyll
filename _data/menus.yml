@@ -92,7 +92,7 @@ wunder-main:
   identifier: press
   title: Press
   parent: company
-  subtitle: Yeah, we're being talked about!
+  subtitle: Wunder Mobility in the news
 - url: "/summit/"
   weight: 5
   identifier: summit
@@ -193,7 +193,7 @@ wunder-de:
   identifier: press
   title: Presse
   parent: company
-  subtitle: Yeah, es wird über uns geredet!
+  subtitle: Wunder Mobility in den News
 - url: "/summit/"
   weight: 5
   identifier: summit
