@@ -61,6 +61,34 @@
   }
 }
 
+
+body.press {
+  .hero-banner .hero-banner__inner-content {
+    padding: 12rem 0;
+    @include rwd(tablet-up) {
+      padding: 16.35rem 0;
+    }
+  }
+  .grey-bridge {
+    
+
+  }
+}
+#featured-news {
+  .card {
+    border-radius: 12px;
+    transition: box-shadow .4s;
+    &:hover {
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+      transform: scale(1.01);
+    }
+  }
+  @include rwd(tablet-down) {
+    .card-col:nth-child(4), .card-col:nth-child(5), .card-col:nth-child(6) {
+      display: none;
+    }
+  }
+}
 .presscard-header {
   height: 74px;
   img {
