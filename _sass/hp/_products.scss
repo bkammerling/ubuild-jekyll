@@ -9,10 +9,19 @@
 }
 
 .grey-bridge {
-  background: linear-gradient(to bottom, $black96 0%, $black96 60%, $white 60%, $white 100%);
-  &.flipped {
-    background: linear-gradient(to top, $black96 0%, $black96 60%, $white 60%, $white 100%);
+  &:not(.desktop-up) {
+    background: linear-gradient(to bottom, $black96 0%, $black96 60%, $white 60%, $white 100%);
+    &.flipped {
+      background: linear-gradient(to top, $black96 0%, $black96 60%, $white 60%, $white 100%);
+    }
   }
+  @include rwd(desktop-up) {
+    background: linear-gradient(to bottom, $black96 0%, $black96 60%, $white 60%, $white 100%);
+    &.flipped {
+      background: linear-gradient(to top, $black96 0%, $black96 60%, $white 60%, $white 100%);
+    }
+  }
+
 }
 
 .text-blue {

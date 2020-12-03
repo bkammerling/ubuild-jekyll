@@ -35,7 +35,6 @@ $(document).ready(function() {
           //console.log('true');
         } else {
           $("#player").css('pointerEvents', 'auto');
-          console.log('false');
         }
       });
       this.player.on('ended', event => {
@@ -604,10 +603,11 @@ $(document).ready(function() {
 
   $('#filmModal').on('hidden.bs.modal', function (e) {
     videoPlayer.player.pause();
-    $(".video-banner video").get(0).play();
-  }).on('show.bs.modal', function (e) {
+    if ( $(".video-banner video").length ) $(".video-banner video").get(0).play();
+  }).on('shown.bs.modal', function (e) {
     videoPlayer.player.play();
-    $(".video-banner video").get(0).pause();
+    // pause hero banner video to avoid eye strain
+    if ( $(".video-banner video").length ) $(".video-banner video").get(0).pause();
   });
 
   $('[data-toggle="tooltip"]').tooltip();

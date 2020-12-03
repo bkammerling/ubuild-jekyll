@@ -22,12 +22,12 @@
     <div class="row align-items-center pt-0 pb-5 py-md-5">
       <div class="col-md-6 order-md-2 offset-md-1 col-lg-5">
         <p class="wv-podcast" data-aos="fade-in" data-aos-easing="apple-easing">Der Wunder Mobility Podcast</p>
-        <h2 class="headline-large " data-aos="fade-in" data-aos-easing="apple-easing" data-aos-anchor=".wv-podcast">Werde aktiv</h2>
+        <h2 class="headline-large late-riser" data-aos="fade-in" data-aos-easing="apple-easing" data-aos-anchor=".wv-podcast">Werde aktiv</h2>
         <p data-aos="soft-up" data-aos-easing="apple-easing" data-aos-delay="200" data-aos-anchor=".wv-podcast">Zusammenarbeit ist der Schlüssel zur Bewältigung aktueller und zukünftiger Mobilitätsherausforderungen. Wir glauben an den Austausch von Ideen, und wir wollen Gespräche zwischen den Mitgliedern unserer Branche fördern. Hört rein, wenn wir einige der interessantesten Themen und Gedanken zum Thema Mobilität aufdecken.</p>
         <a href="https://wundermobility.podigee.io/" target="_blank" class="btn btn-outline-dark mt-3" data-aos="fade-in" data-aos-easing="apple-easing">Jetzt reinhören</a>
       </div>
       <div class="col-md-5">
-        <img class="mt-5 mb-md-0" data-src="uploads/global/podcast-square.jpg" data-srcset="uploads/global/podcast-square@2x.jpg 2x" alt="A middle-aged man in a blue shirt looks at the camera. It's Gunnar Froh." />
+        <img class="mt-5 mt-md-0" data-src="uploads/global/podcast-square.jpg" data-srcset="uploads/global/podcast-square@2x.jpg 2x" alt="A middle-aged man in a blue shirt looks at the camera. It's Gunnar Froh." />
       </div>
     </div>
     <hr class="mt-5">
@@ -69,7 +69,7 @@
           <div class="col-md-10">
             <div class="row">
               <div class="col-sm-8 col-md-12 col-lg-8">
-                <h4 class="headline-small">Unternehmens Factsheet</h4>
+                <h4 class="headline-small">Unternehmens factsheet</h4>
                 <p>Unsere Fakten und Zahlen.</p>
               </div>
               <div class="col-sm-4 col-md-12 col-lg-4">
@@ -112,18 +112,18 @@
     
     <div class="row text-left pt-4 align-items-stretch">
       {% for item in paginator.posts %}
-      <div class="col-sm-6 col-lg-4 mb-5" data-pagination="clone">
-        <div class="card w-shadow h-100 bg-grey border-0">
-          <div class="presscard-header d-flex justify-content-between align-items-center px-4 py-3 bg-white">
-            <img data-pagination="image" data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" />
-            <div data-pagination="date" class="article-date text-muted">{{ item.date | date: "%d.%m.%Y" }}</div>
-          </div>
-          <div class="presscard-body px-4 py-3">
-            <a target="_blank" data-pagination="link" href="{{ item.link }}" title="View article '{{ item.title }}'">
+      <div class="col-sm-6 col-lg-4 mb-4 mb-md-5 card-col" data-pagination="clone">
+        <a target="_blank" data-pagination="link" href="{{ item.link }}" title="View article '{{ item.title }}'">
+          <div class="card w-shadow h-100 bg-grey border-0">
+            <div class="presscard-header d-flex justify-content-between align-items-center px-4 py-3 bg-white">
+              <img data-pagination="image" data-src="{{ item.image | remove: '@2x' }}" data-srcset="{{ item.image }} 2x" />
+              <div data-pagination="date" class="article-date text-muted">{{ item.date | date: "%d.%m.%Y" }}</div>
+            </div>
+            <div class="presscard-body px-4 py-3">
               <h4 data-pagination="title" class="headline-small">{{ item.title }}</h4>
-            </a>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       {% endfor %}
     </div>
@@ -169,7 +169,7 @@
       <a target="_blank" href="{{ site.data.global.twitter }}"><ion-icon size="large" class="twitter-icon text-dark mr-3" name="logo-twitter" ></ion-icon></a>
       <a target="_blank" href="{{ site.data.global.vimeo }}""><ion-icon size="large" class="vimeo-icon text-dark" name="logo-vimeo""></ion-icon></a>
     </div>
-    <div class="row mt-5 pt-4">
+    <div class="row mt-5 pt-4  d-none d-lg-flex>
       <div class="col-6 col-md-4">
         {% for item in page.social_feed %}
         <div class="social-card">
