@@ -69,10 +69,6 @@ body.press {
       padding: 16.35rem 0;
     }
   }
-  .grey-bridge {
-    
-
-  }
 }
 #featured-news {
   .card {
@@ -108,6 +104,27 @@ body.press {
   }
   img {
     transition: transform .6s;
+  }
+
+  p {
+    @include rwd(desktop-up) {
+      max-height: 48px;
+      overflow: hidden;
+      &:after {
+        content: '...';
+        position: absolute;
+        bottom: 22px;
+        left: 31px;
+        letter-spacing: 2px;
+      }
+    }
+    @include rwd(wide-up) {
+      max-height: none;
+      overflow: visible;
+      &:after {
+        display: none;
+      }
+    }
   }
 
   &__overlay {
