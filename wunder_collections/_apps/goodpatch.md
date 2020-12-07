@@ -26,13 +26,6 @@ description: "<p>Goodpatch is an independent Design company with 200 employees s
   User Experience. Supporting our clients by implementing a company- wide design-driven
   culture is part of our DNA.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/11/26/bildschirmfoto-2020-11-25-um-16-09-00-grotzke-matthias.jpg"
-  title: We speak English, Japanese, German, design & tech
-  screenshot_description: We craft details and create delight. With a Human-Centered
-    Design approach, we ensure that digital products and services become meaningful
-    to your users and enrich their lives. On and off the screen. Since we recently
-    listed to the Tokyo Stock Exchange, we are a stable company with a highly professional
-    setup - meeting the compliance requirements of our corporate customers.
 - screenshot: "/uploads/2020/12/04/bild_03.jpg"
   title: Prove the power of design
   screenshot_description: |-
@@ -41,12 +34,19 @@ screenshot_details:
     We also facilitate workshops to bring the teams together and to bring a Human- Centered Design approach into the organisation. So we ensure prototyping the UX and creating the UI experience of products and mobility services.
 - screenshot: "/uploads/2020/12/04/bild_04.JPG"
   title: Goodpatch’s Research Lab
-  screenshot_description: " A clear and comprehensive understanding of user behavior
+  screenshot_description: A clear and comprehensive understanding of user behavior
     is at the core of everything we do. For this reason, we decided to build an in-house
     research lab that would enable us to provide our clients with the valuable user
     insights required to make key decisions and guarantee that their products have
     the biggest impact. Equipped with the latest technologies, our research lab is
-    located in the heart of Kreuzberg, Berlin."
+    located in the heart of Kreuzberg, Berlin.
+- screenshot: "/uploads/2020/12/07/bild_05.jpg"
+  title: We speak English, Japanese, German, design & tech
+  screenshot_description: We craft details and create delight. With a Human-Centered
+    Design approach, we ensure that digital products and services become meaningful
+    to your users and enrich their lives. On and off the screen. Since we recently
+    listed to the Tokyo Stock Exchange, we are a stable company with a highly professional
+    setup - meeting the compliance requirements of our corporate customers.
 app_details:
 - detail_title: ''
   detail_content: <a href="https://global.goodpatch.com" title="Developer Website
