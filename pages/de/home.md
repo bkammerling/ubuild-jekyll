@@ -1,6 +1,7 @@
 ---
 layout: blocks
 title: Wunder Mobility | Technologie Für Intelligente Mobilität
+share_image: "/uploads/global/share-images/social_share_image_home.jpg"
 date: 2019-01-08 23:00:00 +0000
 permalink: "/de/"
 lang: de

@@ -6,7 +6,7 @@ date: 2019-07-28T23:00:00.000+00:00
 permalink: "/de/rent"
 lang: de
 lang-ref: rent
-share_image: "/uploads/global/rent-shareimage.jpg"
+share_image: "/uploads/2020/11/05/social_share_image_rent.jpg"
 version: hp
 published: true
 page_sections:
