@@ -1,6 +1,7 @@
 ---
 layout: blocks
 title: Wunder Fleet | Launch your free-floating sharing company
+share_image: "/uploads/2020/11/05/social_share_image_fleet.jpg"
 date: 2019-01-08 23:00:00 +0000
 permalink: "/de/fleet"
 lang: de

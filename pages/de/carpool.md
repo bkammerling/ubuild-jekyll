@@ -6,7 +6,7 @@ permalink: "/de/carpool"
 lang: de
 lang-ref: carpool
 version: hp
-share_image: "/uploads/global/Sharer-Carpool@2x.jpg"
+share_image: "/uploads/2020/11/05/social_share_image_carpool.jpg"
 page_sections:
 - template: navigation-header-w-button
   block: header-2

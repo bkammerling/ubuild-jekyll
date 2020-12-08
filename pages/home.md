@@ -2,6 +2,7 @@
 layout: blocks
 title: Wunder Mobility | Driving forward urban mobility worldwide
 description: Shaping and sharing the future of smart mobility with hardware and software solutions for car-pooling, ride-hailing, vehicle rentals and our unique Mobility Summit.
+share_image: "/uploads/global/share-images/social_share_image_home.jpg"
 permalink: "/"
 lang: en
 lang-ref: home
