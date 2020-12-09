@@ -46,8 +46,19 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://www.progeny.tech/privacy.html" title="Privacy Policy
     →">Privacy Policy →</a>
-access_needed: []
-getting_started: []
+access_needed:
+- Deliver API Credentials
+getting_started:
+- column_title: 'Reach out: Your Wunder team will help'
+  column_description: Send us information about your company and the contact person
+    vis the form on this page or your Wunder contact, and let us tell you more about
+    our ID & identity verification service.
+- column_title: 'Sign agreement: Select from the available plans'
+  column_description: Chose which plan fits best for you and agree to the terms, service
+    level, payment, etc.
+- column_title: 'Start integration: Provide token'
+  column_description: Obtain your token from the Wunder Dashboard, download the SDK
+    and integrate it into your app. That's it!
 whitepaper_link: "/uploads/2020/12/09/one-pager-fully-automated-kyci-docx-roland-trimmel.pdf"
 video_poster: ''
 published: false
