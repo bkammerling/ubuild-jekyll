@@ -617,9 +617,9 @@ p {
 
 
 
-ul#timeline {
+#timeline {
   padding: 130px calc((100vw - 100%) / 2);
-  margin: 40px 0;
+  margin: 40px 0 20px;
   display: flex;
   width: 100vw;
   position: relative;
@@ -674,4 +674,52 @@ ul#timeline {
       top: calc(100% - 25px);
     }
   }
+}
+
+.horizontal-scrolling {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  &::-webkit-scrollbar { width: 0 !important }
+}
+
+.horizontal-scrollbar {
+  height: 1px;
+  background: #e6e6e6;
+  position: relative;
+  z-index: 1;
+  &__overlay {
+    height: 1px;
+    position: absolute;
+    z-index: 2;
+    background: $olive-matt;
+    max-width: 100%;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    z-index: 3;
+    left: 0%;
+    background: $olive-matt;
+    opacity: 0;
+    animation: fill-line 3s ease-in-out infinite;
+  }
+}
+
+@keyframes fill-line {
+0% {
+  opacity: 0;
+  left: 0%;
+}
+20% {
+  opacity: 0.5;
+}
+80% {
+  opacity: 0.5;
+}
+100% {
+  left: calc(100% - 50px);
+  opacity: 0;
+}
 }
