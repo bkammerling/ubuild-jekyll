@@ -16,11 +16,6 @@
             </div>
           </div>
         </ul>
-        <a class="btn btn-primary btn-mktlg text-white" data-toggle="modal" data-target="#partnerModal">Join our developer program
-          <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
-          </svg>
-        </a>
       </div> 
       <div class="col-md-3 offset-md-2 offset-lg-2 mt-5 mt-md-0">
         <div class="mkt-stat mb-4">
@@ -37,6 +32,11 @@
         </div>
       </div>
     </div>
+    <a class="btn btn-primary btn-mktlg text-white" data-toggle="modal" data-target="#partnerModal">Join our developer program
+      <svg class="arrow-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
+      </svg>
+    </a>
   </div>
 </section>
 
@@ -100,8 +100,8 @@
     <h2>From idea to partnership in no time.</h2>
     <a class="btn btn-primary btn-mktlg text-white mt-3" data-toggle="modal" data-target="#partnerModal">Get started</a>
   </div>
-  <div class="container scroller">
-    <ul id="timeline" >
+  <div class="container">
+    <ul id="timeline" class="horizontal-scrolling"  >
       <li><p>Fill in <a href="#" data-toggle="modal" data-target="#partnerModal">the form</a> to join the Wunder Marketplace Partner program today.</p></li>
       <li><p>We will reach out to learn more about your solution.</p></li>
       <li><p>After signing our partnership agreement we will share your solution on the Wunder Marketplace.</p></li>
@@ -109,7 +109,9 @@
       <li><p>Let’s do marketing together! We will help you market your solution to the public.</p></li>
       <li><p>Our sales team will help sell your solution to our global customer base.</p></li>
     </ul>
-
+    <div class="horizontal-scrollbar d-xl-none">
+      <div class="horizontal-scrollbar__overlay"></div>
+    </div>
   </div>
 
 </section>
