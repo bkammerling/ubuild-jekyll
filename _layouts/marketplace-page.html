@@ -1,0 +1,51 @@
+{% include marketplace/head.html %}
+
+<header class="marketplace-hero">
+  <br>
+  
+  <div class="container hero pt-5">
+    
+    <div class="d-none d-md-block">
+      {% include marketplace/block-breadcrumbs.html %}
+    </div>
+
+    <div class="row pt-5">
+      <div class="col-md-8 col-lg-9">
+        <h2>{{ page.heading }}</h2>
+        <p class="pr-5 mb-5">{{ page.subheading }}</p>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<style type="text/css">
+  .marketplace-hero {
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("{{ page.hero_img | remove: '@2x' | relative_url }}");
+    background-image: linear-gradient(107.56deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .marketplace-hero {
+      background-image: url('{{ page.hero_img | relative_url }}');
+      background-image: linear-gradient(107.56deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+    }
+  }
+  @media (min-width: 769px) {
+    .marketplace-hero {
+      background-image: url("{{ page.hero_img | remove: '@2x' | relative_url }}");
+    }
+  }
+  @media (min-width: 769px) and ((-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)) {
+    .marketplace-hero {
+      background-image: url('{{ page.hero_img | relative_url }}');
+    }
+  }
+</style>
+
+{% include {{ page.static_block }}.html %}
+
+{% include block-footer-1.html %}
+{% include marketplace/footer.html %}
+ 

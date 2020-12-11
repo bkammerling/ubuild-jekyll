@@ -479,7 +479,7 @@ p {
 /* END OF  FORM *///
 
 
-#app-details {
+#app-details, p {
   a {
     color: $mkt-primary;
     &:hover {
@@ -584,5 +584,94 @@ p {
   @include rwd(tablet-up) {
     max-width: 72px;
     max-height: 72px;
+  }
+}
+
+
+
+/* 
+ *   For Partner Program page 
+ */
+
+
+.bg-grey {
+  background: linear-gradient(107.56deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
+}
+.wave svg {
+  width: 100%;
+  height: auto;
+}
+.wave-bottom svg {
+  vertical-align: bottom;
+}
+.wave-top svg {
+  margin-top: -1px;
+  vertical-align: top;
+}
+
+#infrastructure-icon {
+  @include rwd(tablet-up) {
+    margin-left:- 38px;
+  }
+}
+
+
+
+ul#timeline {
+  padding: 130px calc((100vw - 100%) / 2);
+  margin: 40px 0;
+  display: flex;
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+  overflow: scroll;
+  &:after {
+    content: '';
+    width: 190px;
+    min-width: 190px;
+  }
+  li {
+    display: inline-block;
+    list-style-type: none;
+    width: 190px;
+    min-width: 190px;
+    flex: 0 0 190px;
+    height: 1px;
+    background-color: $mkt-primary;
+    position: relative;
+    &:before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: $mkt-primary;
+      position: absolute;
+      left: 0;
+      top: -4px;
+    }
+    &:last-child:after {
+      content: '';
+      position: absolute;
+      border-right: 1px solid $mkt-primary;
+      border-top: 1px solid $mkt-primary;
+      width: 8px;
+      height: 8px;
+      right: 1px;
+      top: -4px;
+      transform: translateY(.5px) rotate(45deg);
+    }
+    p {
+      @extend .small;
+      position: absolute;
+      top: 25px;
+      width: 140%;
+      @include rwd(tablet-down) {
+        font-size: 12px;
+      }
+    }
+    &:nth-child(even) p {
+      transform: translateY(-100%);
+      top: calc(100% - 25px);
+    }
   }
 }
