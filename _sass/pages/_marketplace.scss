@@ -687,12 +687,16 @@ p {
   background: #e6e6e6;
   position: relative;
   z-index: 1;
+  width: 500px;
+  margin: 0 auto;
+  max-width: 100%;
   &__overlay {
     height: 1px;
     position: absolute;
     z-index: 2;
     background: $olive-matt;
     max-width: 100%;
+    min-width: 10vw;
   }
   &:after {
     content: '';
