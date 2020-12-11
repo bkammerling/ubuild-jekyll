@@ -694,36 +694,8 @@ p {
     height: 1px;
     position: absolute;
     z-index: 2;
-    background: $olive-matt;
+    background: $mobility-black;
     max-width: 100%;
     min-width: 10vw;
   }
-  &:after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 1px;
-    z-index: 3;
-    left: 0%;
-    background: $olive-matt;
-    opacity: 0;
-    animation: fill-line 3s ease-in-out infinite;
-  }
-}
-
-@keyframes fill-line {
-0% {
-  opacity: 0;
-  left: 0%;
-}
-20% {
-  opacity: 0.5;
-}
-80% {
-  opacity: 0.5;
-}
-100% {
-  left: calc(100% - 50px);
-  opacity: 0;
-}
 }
