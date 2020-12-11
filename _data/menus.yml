@@ -234,7 +234,7 @@ footer:
     title: Hamburg HQ
     weight: 1
     url: https://goo.gl/maps/gLfhawLd9LoKjrbD7
-    content: Hongkongstraße 2-4<br>20457 Hamburg<br>Germany
+    content: Hongkongstraße 2-4<br>20457 Hamburg<br>Germany<br><a href='https://what3words.com/helpful.prepares.launched' target='_blank' title='what3words location'>///helpful.prepares.launched</a>
     parent: offices
     newtab: 1
   - identifier: dortmund
