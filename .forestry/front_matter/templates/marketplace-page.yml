@@ -5,27 +5,41 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
+- type: textarea
+  name: description
+  label: description
+  description: For SEO purposes. Seen mainly on search results and when the page is
+    shared.
 - type: text
   name: heading
   label: heading
 - type: text
   name: subheading
   label: subheading
-- type: textarea
-  name: description
-  label: description
 - type: file
   name: hero_img
   label: hero_img
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: text
   name: version
   label: version
+  hidden: true
 - type: text
   name: static_block
   label: static_block
+  hidden: true
+- name: api_docs
+  type: file
+  config:
+    maxSize: 5
+  label: API Docs
+  description: Upload new .zip file included API docs and webhook PDF
+pages:
+- pages/marketplace/partner.md
