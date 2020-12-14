@@ -1,0 +1,31 @@
+---
+label: Marketplace page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subheading
+  label: subheading
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: hero_img
+  label: hero_img
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: version
+  label: version
+- type: text
+  name: static_block
+  label: static_block
