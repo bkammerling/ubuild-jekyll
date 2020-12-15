@@ -79,5 +79,6 @@ getting_started:
     team on the ground and complementary infrastructure to Chargery. '
 whitepaper_link: ''
 video_poster: ''
+published: false
 
 ---
