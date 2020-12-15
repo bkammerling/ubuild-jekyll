@@ -8,13 +8,13 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/12/14/what-does-the-future-of-your-city-sound-like_-_-surve-mobility-_-we-set-mobility-in-motion-laura-mueller.mp4"
   title: Video
-- image-video: "/uploads/2020/12/14/wundermarketplace_software-laura-mueller.png"
+- image-video: "/uploads/2020/12/15/wundermarketplace_software-1.png"
   title: Intelligent software solution to increase the availability of vehicles in
     sharing fleets
-- image-video: "/uploads/2020/12/14/wundermarketplace_fullservice-laura-mueller.png"
+- image-video: "/uploads/2020/12/15/wundermarketplace_fullservice-1.png"
   title: 'Full service for any shared mobility fleet: From cleaning and recharging
     to battery swapping and relocating your fleet'
-- image-video: "/uploads/2020/12/14/wundermarketplace_infrastructure-laura-mueller.png"
+- image-video: "/uploads/2020/12/15/wundermarketplace_infrastructure-1.png"
   title: Custom infrastructure solutions to guarantee highly-efficient operations
 description: "<p>We are SURVE - Europe’s No 1 for intelligent shared mobility operations.
   Through an integration of full service, intelligent software and smart infrastructure
