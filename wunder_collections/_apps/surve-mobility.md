@@ -4,7 +4,7 @@ category: Operations Improvement
 title: Surve Mobility
 icon: "/uploads/2020/12/14/wundermarketplace_logo-02-laura-mueller.png"
 excerpt: We are SURVE - Europe’s No 1 for intelligent shared mobility operations.
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2020/12/14/what-does-the-future-of-your-city-sound-like_-_-surve-mobility-_-we-set-mobility-in-motion-laura-mueller.mp4"
   title: Video
@@ -77,6 +77,5 @@ getting_started:
     ground and complementary infrastructure to Surve.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
