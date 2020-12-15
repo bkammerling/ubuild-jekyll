@@ -238,5 +238,12 @@ $(document).ready(function() {
     })
   });
 
+  $(".horizontal-scrolling").scroll(function(e) {
+    var width = e.target.scrollWidth - e.target.clientWidth; // size of pseudoelement appended to end of row
+    var left = e.target.scrollLeft;
+    var perc = (left * 100) / width;
+    $('.horizontal-scrollbar__overlay').css('left', `calc(${perc}% - ${(perc/100) * $('.horizontal-scrollbar__overlay').width()}px)`);
+  });
+
 
 });
