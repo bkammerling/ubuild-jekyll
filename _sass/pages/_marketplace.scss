@@ -617,9 +617,9 @@ p {
 
 
 
-ul#timeline {
+#timeline {
   padding: 130px calc((100vw - 100%) / 2);
-  margin: 40px 0;
+  margin: 40px 0 20px;
   display: flex;
   width: 100vw;
   position: relative;
@@ -673,5 +673,29 @@ ul#timeline {
       transform: translateY(-100%);
       top: calc(100% - 25px);
     }
+  }
+}
+
+.horizontal-scrolling {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  &::-webkit-scrollbar { width: 0 !important }
+}
+
+.horizontal-scrollbar {
+  height: 1px;
+  background: #e6e6e6;
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  margin: 0 auto;
+  max-width: 100%;
+  &__overlay {
+    height: 1px;
+    position: absolute;
+    z-index: 2;
+    background: $mobility-black;
+    max-width: 100%;
+    min-width: 10vw;
   }
 }
