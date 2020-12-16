@@ -13,9 +13,11 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
 cta_link: pages/bernstein-newsletter.md
 title: Sustainable inner-city logistics needs more than just electric vehicles
 publish_date: 2020-12-17 00:00:00 +0000
-featured_image: ''
-excerpt: ''
-share_image: ''
+featured_image: "/uploads/2020/12/16/161220.jpg"
+excerpt: While discussions around traffic problems due to high volumes of deliveries
+  have been going on for some time now, public authorities continue their struggle
+  to identify the best way forward.
+share_image: "/uploads/2020/12/16/161220-1.jpg"
 sticky: false
 hidden: true
 
