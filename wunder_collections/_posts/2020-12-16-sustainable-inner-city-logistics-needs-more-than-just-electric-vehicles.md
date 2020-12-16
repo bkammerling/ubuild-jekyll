@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-_Read this article in_ [_German_](https://bernstein-group.com/2020/11/19/die-uhr-tickt-verkehrsministerium/).
+_Read this article in_ [_German_](https://bernstein-group.com/2020/12/16/nachhaltige-innerstaedtische-logistik-benoetigt-mehr-als-elektrofahrzeuge/).
 
 ***
 
