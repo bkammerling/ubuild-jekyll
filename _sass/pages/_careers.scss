@@ -1,5 +1,41 @@
-body.careers {
+.careers {
 
-  background-color: $background-grey;
+  .hero-banner {
 
+    .hero-banner__title-wrapper img {
+      max-width: 30%;
+      position: absolute;
+      top: 95%;
+      right: 5%;
+      @include rwd(tablet-up){
+        max-width: 40%;
+        top: 90%;
+        right: -10%;
+      }
+
+    }
+  }
+
+}
+
+img.card-icon {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+
+img.perks-content-icon {
+  transform: scale(1.4);
+  margin-bottom: 8px;
+}
+
+div.shift-left {
+  @include rwd(desktop-up) {
+    transform: translateX(-60px);
+  }
+}
+div.align-bottom {
+  @include rwd(desktop-up) {
+    margin-top: 60%;
+  }
 }
