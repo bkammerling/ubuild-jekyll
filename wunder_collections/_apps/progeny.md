@@ -51,9 +51,9 @@ access_needed:
 getting_started:
 - column_title: 'Reach out: Your Wunder team will help'
   column_description: Send us information about your company and the contact person
-    vis the form on this page or your Wunder contact, and let us tell you more about
+    via the form on this page or your Wunder contact, and let us tell you more about
     our ID & identity verification service.
-- column_title: 'Sign agreement: Select from the available plans'
+- column_title: 'Sign agreement: Select a plan'
   column_description: Chose which plan fits best for you and agree to the terms, service
     level, payment, etc.
 - column_title: 'Start integration: Provide token'
