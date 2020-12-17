@@ -61,7 +61,7 @@ getting_started:
 - column_title: Integrate cidaas ID validator in your Flow
   column_description: As the final step cidaas ID validator will be integrated in
     your flow to onboard the user and connect to your backend systems.
-whitepaper_link: ''
+whitepaper_link: "/uploads/2020/12/17/cidaasidvalidator_drivinglicencevalidation-noa-widmann.pdf"
 video_poster: ''
 published: false
 
