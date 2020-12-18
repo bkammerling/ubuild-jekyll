@@ -12,8 +12,8 @@
       <div class="row">
         <div class="hero-banner__inner-content">
           <div class="hero-banner__title-wrapper">
-            {% if section.sub_logo %}
-              <img class="mb-3" src="{{ section.sub_logo | replace: '@2x', '' }}" srcset="{{ section.sub_logo }} 2x" alt="Wunder product logo" />
+            {% if section.sub_logo.size > 5  %}
+              <img class="mb-3" src="{{ section.sub_logo }}" alt="Wunder product logo" />
             {% endif %}
             <h1 class="headline-large">{{ section.headline }}</h1>
             {% if section.cta.enabled %}
