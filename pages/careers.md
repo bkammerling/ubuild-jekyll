@@ -23,7 +23,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-hp
   headline: Join the ride and become the next face of Wunder Mobility
-  sub_logo: "/uploads/global/linkedin-top-badge@2x.png"
+  sub_logo: ''
   cta:
     button_text: ''
     url: ''
