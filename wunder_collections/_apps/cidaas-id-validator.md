@@ -9,11 +9,11 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2020/12/17/productvideo-noa-widmann.mp4"
   title: Video
-- image-video: "/uploads/2020/12/17/productscreenshot1-noa-widmann.png"
+- image-video: "/uploads/2020/12/18/productscreenshot1.jpg"
   title: Driving License Scan
-- image-video: "/uploads/2020/12/17/productscreenshot2-noa-widmann.png"
+- image-video: "/uploads/2020/12/18/productscreenshot2.jpg"
   title: Facial Recognition
-- image-video: "/uploads/2020/12/17/productscreenshot3-noa-widmann.png"
+- image-video: "/uploads/2020/12/18/productscreenshot3.jpg"
   title: Data Verification
 description: "<p>The cidaas ID validator is a new, innovative and eIDAS compliant
   service for the verification of ID cards, passports and driving licenses. The documents
@@ -22,18 +22,18 @@ description: "<p>The cidaas ID validator is a new, innovative and eIDAS complian
   The procedure is based on AI technologies and the checks are carried out automatically
   within seconds.</p>"
 screenshot_details:
-- screenshot: "/uploads/2020/12/17/usp1-noa-widmann.png"
+- screenshot: "/uploads/2020/12/18/usp1.jpg"
   title: Best-Price Validity Check of Driving Licenses
   screenshot_description: The cidaas ID detects the type of badge and checks for its
     authenticity using badge-specific security features. Personal and biometric data
     are extracted, and the validity is analysed.
-- screenshot: "/uploads/2020/12/17/usp2-noa-widmann.png"
+- screenshot: "/uploads/2020/12/18/usp2.jpg"
   title: Fast and comfortable verification of a person and driving license (anywhere,
     anytime)
   screenshot_description: 'No matter at what time or where, using the cidaas ID validator
     a person can authenticate and get securely onboarded in short time using any camera-ready
     device. '
-- screenshot: "/uploads/2020/12/17/usp3-noa-widmann.png"
+- screenshot: "/uploads/2020/12/18/usp3.jpg"
   title: High Security for you and your users
   screenshot_description: An AI-based comparison of the extracted biometric data of
     the face and the ID card images ensure that only reliable identified persons are
@@ -63,6 +63,5 @@ getting_started:
     your flow to onboard the user and connect to your backend systems.
 whitepaper_link: "/uploads/2020/12/17/cidaasidvalidator_drivinglicencevalidation-noa-widmann.pdf"
 video_poster: ''
-published: false
 
 ---
