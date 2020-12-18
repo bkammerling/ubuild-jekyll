@@ -16,7 +16,7 @@ var jobs = {
     });
   },
   buildJobsList: function(jobData = this.jobArray) {
-    $("#jobs_scroll-link").append(` (${jobData.length})`)
+    // $("#jobs_scroll-link").append(` (${jobData.length})`) -- i thought it would be cool to show the # of open positions at the top, designers did not :(
     var jobHTML = this.makeHTML(jobData);
     $(".job-list__list").append(jobHTML);
   },
@@ -37,3 +37,26 @@ var jobs = {
 };
 
 jobs.init();
+
+/*
+if(pageref == 'careers') {
+  // get the sticky element
+  const stickyElm = document.getElementById('scroll-nav');
+
+  const observer = new IntersectionObserver(intersect, 
+    {
+      root: document.getElementById('main-section'),
+      rootMargin: '-100px 0px -1px 0px',
+      threshold: [1],
+    }
+  );  
+  observer.observe(stickyElm);
+
+  function intersect([e]) {
+    console.log(e);
+    if(e.intersectionRatio == 1 && e.isIntersecting) e.target.classList.add('isSticky')
+    else e.target.classList.remove('isSticky')
+  }
+}
+
+*/

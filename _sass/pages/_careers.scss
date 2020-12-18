@@ -1,4 +1,6 @@
 .careers {
+  padding-top: 0;
+  
 
   .hero-banner {
 
@@ -16,7 +18,25 @@
     }
   }
 
+  .video-banner {
+    video {
+      filter: brightness(0.7);
+    }
+  }
+
 }
+
+
+#scroll-nav {
+  .scroll-nav__wrapper {
+    // /transition: height 0.4s;
+    padding: 45px;
+  }
+  &.isSticky .scroll-nav__wrapper {
+    //height: 50px;
+  }
+}
+
 
 img.card-icon {
   position: absolute;
@@ -36,6 +56,6 @@ div.shift-left {
 }
 div.align-bottom {
   @include rwd(desktop-up) {
-    margin-top: 60%;
+    margin-top: 80%;
   }
 }
