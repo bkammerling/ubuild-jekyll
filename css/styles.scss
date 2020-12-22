@@ -4,7 +4,6 @@
 // Imports
 @import "hp/_variables";
 @import "bootstrap/bootstrap";
-@import "components/slick";
 @import "helpers/_mixins";
 
 @import "base/_base";
@@ -13,12 +12,8 @@
 @import "base/_helpers";
 @import "base/_animations";
 
-@import "components/_3-col-grid";
 @import "components/_2-col";
 @import "components/_video";
-@import "components/_icon-text";
-@import "components/_svg";
-@import "components/_picture-slider";
 @import "components/_job-list";
 @import "components/_header";
 @import "components/_locations";

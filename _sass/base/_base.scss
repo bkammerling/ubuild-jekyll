@@ -36,18 +36,6 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-  .careers .container {
-      max-width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  .careers .container {
-      max-width: 1040px;
-  }
-}
-
-
 .invisible {
   opacity: 0 !important;
 }

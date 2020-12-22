@@ -68,11 +68,6 @@ fields:
 pages:
 - pages/about-us.md
 - pages/autotech.md
-- pages/careers/careers.md
-- pages/careers/culture.md
-- pages/careers/jobs.md
-- pages/careers/locations.md
-- pages/careers/perks.md
 - pages/carpool.md
 - pages/fleet.md
 - pages/home.md
