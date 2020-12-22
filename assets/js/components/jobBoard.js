@@ -38,7 +38,7 @@ var jobs = {
 
 jobs.init();
 
-/*
+
 if(pageref == 'careers') {
   // get the sticky element
   const stickyElm = document.getElementById('scroll-nav');
@@ -46,17 +46,15 @@ if(pageref == 'careers') {
   const observer = new IntersectionObserver(intersect, 
     {
       root: document.getElementById('main-section'),
-      rootMargin: '-100px 0px -1px 0px',
+      rootMargin: '-1px 0px -1px 0px',
       threshold: [1],
     }
   );  
   observer.observe(stickyElm);
 
   function intersect([e]) {
-    console.log(e);
+    //console.log(e);
     if(e.intersectionRatio == 1 && e.isIntersecting) e.target.classList.add('isSticky')
     else e.target.classList.remove('isSticky')
   }
 }
-
-*/

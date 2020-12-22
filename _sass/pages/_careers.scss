@@ -40,17 +40,21 @@
   filter: drop-shadow(1px 1px 10px 24px rgba(0,0,0,0.1));
   @include rwd(tablet-up) {
     max-width: 300px;
-    top: -238px;
+    top: -260px;
   }
 }
 
 #scroll-nav {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(6px);
   .scroll-nav__wrapper {
-    // /transition: height 0.4s;
-    padding: 45px;
+    transition: all 0.4s;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
   &.isSticky .scroll-nav__wrapper {
-    //height: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
   }
 }
 
