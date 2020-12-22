@@ -100,31 +100,31 @@
             </div>
             <div class="col-md-8 col-lg-9">
               <div class="row">
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Company & Team Events</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Visa & Relocation</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Professional Growth</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Apple Equipment</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Gym or Transport</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Language Classes</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">30 Paid Vacation Days</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Dog Friendly</p>
                 </div>
-                <div class="col-sm-6 col-xl-4 mb-3">
+                <div class="col-6 col-xl-4 mb-3">
                   <p class="">Healthy breakfast, lunch, snacks, and drinks</p>
                 </div>
               </div>
@@ -220,28 +220,23 @@
           </div>
         </div>
       </div>
-      <div class="row py-3">
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig1.jpg" srcset="/uploads/global/careers/instagram/ig1@2x.jpg 2x" />
-        </div>
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig2.jpg" srcset="/uploads/global/careers/instagram/ig2@2x.jpg 2x" />
-        </div>
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig3.jpg" srcset="/uploads/global/careers/instagram/ig3@2x.jpg 2x" />
-        </div>
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig4.jpg" srcset="/uploads/global/careers/instagram/ig4@2x.jpg 2x" />
-        </div>
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig5.jpg" srcset="/uploads/global/careers/instagram/ig5@2x.jpg 2x" />
-        </div>
-        <div class="col-6 col-sm-4 mb-3 mb-md-4">
-          <img src="/uploads/global/careers/instagram/ig6.jpg" srcset="/uploads/global/careers/instagram/ig6@2x.jpg 2x" />
-        </div>
+      <div class="row py-3 text-left">
+        {% for item in page.social_feed %}
+        <div class="col-6 col-sm-4">
+          <div class="social-card">
+            <a href="{{ item.link }}" target="_blank">
+              <img data-src="{{ item.image | replace: '@2x', '' }}" data-srcset="{{ item.image }} 2x" alt="" />
+              <div class="social-card__overlay d-none d-md-flex">
+                <ion-icon class="text-white mr-3" name="logo-{{ item.platform }}"></ion-icon>
+                <p class="d-none d-sm-block">{{ item.excerpt }}</p>
+              </div>
+            </a>
+          </div>
+        </div>  
+        {% endfor %}
+        
       </div>
 
-      
       <a href="{{ site.data.global.instagram }}" class="btn btn-outline-dark mt-3">Visit our Instagram page</a>
 
     </div>
@@ -258,7 +253,7 @@
         </div>
       </div>
 
-      <div class="job-list__list pl-4">
+      <div class="job-list__list pl-md-4">
         <div class="job-list__item mb-3 hidden card">
           <div class="card-body">
             <a href="#" class="job-link" target="_blank" title="View job on Wunder Mobility's Lever job board."><h4 class="job-title mb-3"></h4></a>
