@@ -12,7 +12,7 @@
       <div class="row">
         <div class="hero-banner__inner-content">
           <div class="hero-banner__title-wrapper">
-            {% if section.sub_logo %}
+            {% if section.sub_logo.size > 5  %}
               <img class="mb-3" src="{{ section.sub_logo }}" alt="Wunder product logo" />
             {% endif %}
             <h1 class="headline-large">{{ section.headline }}</h1>

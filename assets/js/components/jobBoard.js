@@ -1,102 +1,60 @@
-/* Pull job list from Greenhouse and add filters etc */
+/* Pull job list from Lever and add filters etc */
 var jobs = {
-  filters: {
-    location: '',
-    departments: ''
-  },
+  jobArray: [],
+  // we had filters on the old (Greenhouse) job board - if they come back, check repo 12/2020 for old code
   init: function() {
-    var currentJobsHtml;
-    var urlParams = new URLSearchParams(window.location.search);
-    var teamParam = urlParams.get('team');
-    if(teamParam) {
-      jobs.filters.departments = teamParam;
-      $(".job-filter select.team-select").val(teamParam);
-    }
     $.ajax({
       method: "GET",
-      url: "https://boards-api.greenhouse.io/v1/boards/wunder/jobs?content=true"
+      url: "https://api.lever.co/v0/postings/wundermobility?mode=json"
     }).done(function (data) {
-      jobs.jobArray = data.jobs;
-      jobs.setupDropdowns();
-      var filteredJobs = jobs.filterJobs();
-      jobs.buildJobsList(filteredJobs)
+      //data.sort((a, b) => a.text.localeCompare(b.text)) --- Already comes sorted alphabetically
+      jobs.jobArray = data;
+      jobs.buildJobsList(data);
     }).fail(function(error) {
-      var errorMessageHTML = '<p>Could not connect with job board. Find our open positions <a href="https://boards.greenhouse.io/wunder/" target="_blank">here</a>.</p>';
-      $(".job-list__listing").append(errorMessageHTML);
+      var errorMessageHTML = '<p>😳 Could not connect with job board. You can also find our open positions on our <a href="https://api.lever.co/wundermobility" target="_blank">lever job board</a>.</p>';
+      $(".job-list__list").append(errorMessageHTML);
     });
-
-    $(".job-filter select").change(function() {
-      var filterType = $(this).data('type');
-      jobs.filters[filterType] = $(this).val();
-      var filteredJobs = jobs.filterJobs();
-      jobs.buildJobsList(filteredJobs);
-    });
-
   },
   buildJobsList: function(jobData = this.jobArray) {
-    this.clear();
+    // $("#jobs_scroll-link").append(` (${jobData.length})`) -- i thought it would be cool to show the # of open positions at the top, designers did not :(
     var jobHTML = this.makeHTML(jobData);
-    $(".job-list__listing").append(jobHTML);
+    $(".job-list__list").append(jobHTML);
   },
-  jobArray: null,
-  makeHTML: function(jobData = this.jobArray) {
-    console.log(jobData);
+  makeHTML: function(jobData = this.jobArray) {    
     if(jobData.length < 1) return '<p>😳 Sorry, no positions currently available.</p>';
-    var sortedJobs = jobData;
     var singleHTML = $(".job-list__item").clone().removeClass('hidden');
     var jobListHTML = "";
-    for(var i = 0; i < sortedJobs.length; i++) {
-      var job = sortedJobs[i];
-      singleHTML.find(".job-title").text(job.title);
-      if(job.departments[0].name == 'Analytics') {
-        var jobCategory = 'Data';
-      } else {
-        jobCategory = job.departments[0].name;
-      }
-      singleHTML.find(".job-category").text(jobCategory);
-      singleHTML.find(".job-title").attr('href', job.absolute_url);
-      var location = job.location.name.indexOf("Wunder") == -1 ? job.location.name : job.location.name.replace("Wunder ", "").replace("Mobility ", "");
-      singleHTML.find(".job-location").text(location);
-      var content = $('<textarea />').html(job.content).text();
-      if(content.split('</h3>').length > 2) content = content.split('</h3>')[1];
-
-      singleHTML.find(".job-excerpt").text(this.strip(content).substring(0, 300)+"...");
+    for(var i = 0; i < jobData.length; i++) {
+      var job = jobData[i];
+      singleHTML.find(".job-title").html(job.text);
+      singleHTML.find(".job-link").attr('href', job.hostedUrl);
+      singleHTML.find(".job-location").html(`<ion-icon name="navigate"></ion-icon> ${job.categories.location}`)
+      singleHTML.find(".job-team").html(`<ion-icon name="people"></ion-icon> ${job.categories.department} - ${job.categories.team}`)
       jobListHTML += singleHTML.wrap('<p/>').parent().html()
-
     } // end of for loop
     return jobListHTML;
-  },
-  filterJobs: function() {
-    var filteredJobs = this.jobArray.filter(function(item) {
-        //if(jobs.filters[key] == '') continue;
-        if(item.departments[0].name.toLowerCase().indexOf(jobs.filters.departments) !== -1 && item.location.name.toLowerCase().indexOf(jobs.filters.location) !== -1) return true;
-    });
-    return filteredJobs;
-  },
-  setupDropdowns: function() {
-    var locationDropdown = $(".job-list .location-select");
-    this.jobArray.forEach(function(item) {
-      var gotit = false;
-      locationDropdown.children('option').each(function() {
-        if($(this).val().toLowerCase() == item.location.name.toLowerCase()) gotit = true;
-      });
-      if(!gotit) {
-        locationDropdown.append($('<option>', {
-            value: item.location.name.toLowerCase(),
-            text: item.location.name
-        }));
-      }
-      //if(locationDropdown.children('option').value().toLowerCase()item.location.name)
-    })
-  },
-  clear: function() {
-    $(".job-list__listing .job-list__item:not(.hidden), .job-list__listing > p").remove();
-  },
-  strip: function(html) {
-    var tmp = document.createElement("DIV");
-    tmp.innerHTML = html;
-    return tmp.textContent || tmp.innerText || "";
   }
 };
 
 jobs.init();
+
+
+if(pageref == 'careers') {
+  // get the sticky element
+  const stickyElm = document.getElementById('scroll-nav');
+
+  const observer = new IntersectionObserver(intersect, 
+    {
+      root: document.getElementById('main-section'),
+      rootMargin: '-1px 0px -1px 0px',
+      threshold: [1],
+    }
+  );  
+  observer.observe(stickyElm);
+
+  function intersect([e]) {
+    //console.log(e);
+    if(e.intersectionRatio == 1 && e.isIntersecting) e.target.classList.add('isSticky')
+    else e.target.classList.remove('isSticky')
+  }
+}
