@@ -1,4 +1,175 @@
 ---
 label: Case Study
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Name of company
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: "<strong>White</strong> logo to appear on clients page and individual
+    case studies"
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Intro
+  description: Short sentence for hero text ~10 words / ~50 characters
+- name: the_details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: The Details
+  description: Longer paragraph to appear next to 'The Details' heading.
+- name: company_url
+  type: text
+  config:
+    required: false
+  label: Company URL
+  description: URL of the client's homepage (English if possible)<br><em>Include https://</em>
+  default: ''
+- name: shared_vision
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Shared vision
+  description: e.g. <em>[Company name] </em>and Wunder Mobility share the vision to...
+- name: show_stats
+  type: boolean
+  label: Show stats
+  default: false
+- name: stats
+  type: field_group_list
+  fields:
+  - name: number
+    type: text
+    config:
+      required: false
+    label: Number
+    description: e.g. <strong>99%</strong>, <strong>100K+</strong>, <strong>7</strong>
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+    description: Statistic text to appear under number
+  config:
+    min: 2
+    max: 4
+    labelField: 
+  label: Stats
+  showOnly:
+    field: show_stats
+    value: true
+- name: show_cta
+  type: boolean
+  label: Replace video with CTA
+  description: Toggle external case study
+- name: video_poster
+  type: file
+  config:
+    maxSize: 1
+  label: Video poster
+  description: Usually a nice frame from the video. <br><em>Upload ~1400px wide .jpg
+    file and then replace with ~2800px wide @2x.jpg file for best performance.<br></em>
+  showOnly:
+    field: show_cta
+- name: vimeo_id
+  type: text
+  config:
+    required: false
+    max: 14
+  label: Vimeo ID
+  description: Find in Vimeo URL e.g. https://vimeo.com/<strong>470131634</strong>
+  showOnly:
+    field: show_cta
+- name: case_study_cta
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: external_url
+    type: text
+    config:
+      required: false
+    label: External URL
+    description: "<em>Include https://</em>"
+  - name: supporting_image
+    type: file
+    config:
+      maxSize: 1
+    label: Supporting Image
+  label: Case Study CTA
+  showOnly:
+    field: show_cta
+    value: true
+- name: image_gallery
+  type: image_gallery
+  config: {}
+  label: Image Gallery
+  description: Suggested 3 images to appear in 1 row, same height please
+- name: quote
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+    description: 'Actual quote '
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: Who are we quoting?
+  - name: job_title
+    type: text
+    config:
+      required: false
+    label: Job Title
+    description: Job title of person we are quoting
+  label: Quote
+- name: product
+  type: select
+  default: Fleet
+  config:
+    required: false
+    options:
+    - None
+    - Fleet
+    - Carpool
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Product CTA
+  description: Which product CTA section to display
