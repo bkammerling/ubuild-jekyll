@@ -174,4 +174,5 @@ fields:
   label: Product CTA
   description: Which product CTA section to display
 pages:
+- wunder_collections/_case-studies/blueduck.md
 - wunder_collections/_case-studies/greenmobility.md
