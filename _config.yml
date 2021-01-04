@@ -21,6 +21,9 @@ collections:
   apps:
     permalink: "/marketplace/:title"
     output: true
+  case-studies:
+    permalink: "/case-studies/:name"
+    output: true
 collections_dir: wunder_collections
 include:
 - _redirects
