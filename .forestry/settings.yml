@@ -53,6 +53,13 @@ sections:
   match: "**/*"
   templates:
   - marketplace-app
+- type: directory
+  path: wunder_collections/_case-studies
+  label: Case Studies
+  create: documents
+  match: "**/*"
+  templates:
+  - case-study
 - type: heading
   label: Vehicles
 - type: directory
