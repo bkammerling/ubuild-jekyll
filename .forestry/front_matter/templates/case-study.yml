@@ -2,6 +2,13 @@
 label: Case Study
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Layout
+  default: case-study
 - name: name
   type: text
   config:

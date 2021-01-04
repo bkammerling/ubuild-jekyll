@@ -1,4 +1,5 @@
 ---
+layout: case-study
 product: Fleet
 name: Blue Duck
 logo: "/uploads/2021/01/04/blue_duck-white.svg"

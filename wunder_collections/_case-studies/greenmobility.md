@@ -1,4 +1,5 @@
 ---
+layout: case-study
 product: Fleet
 name: Green Mobility
 logo: "/uploads/2021/01/04/greenmobility_logo_white.svg"

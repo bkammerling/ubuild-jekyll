@@ -30,6 +30,9 @@
           {{ section.cta.button_text }}
         </a>
       {% endif %}
+      {% if include.include_cta == "include" %}
+        <a class="btn btn-dark gt-navcta" href="{{ include.cta_url }}"> {{ include.cta_text }}</a>
+      {% endif %}
     </ul>
   </div>
 </nav>
