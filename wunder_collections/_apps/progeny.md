@@ -61,6 +61,5 @@ getting_started:
     and integrate it into your app. That's it!
 whitepaper_link: "/uploads/2020/12/09/one-pager-fully-automated-kyci-docx-roland-trimmel.pdf"
 video_poster: ''
-published: false
 
 ---
