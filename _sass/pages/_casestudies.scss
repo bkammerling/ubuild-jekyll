@@ -1,0 +1,30 @@
+.hero-textbottom { 
+  min-height: 600px;
+  max-height: 800px;
+  @include rwd(tablet-up) {
+    height: calc(100vh - 57px); // 57px = height of navbar
+  }
+  &__wrapper {
+    padding-bottom: 110px;
+    @include rwd(desktop-up) {
+      padding-bottom: 130px;
+    }
+  }
+  h1 {
+    @include rwd(desktop-up) {
+      flex-basis: 59%;
+    }
+  }
+}
+
+.vertical-divider {
+  height: 50px;
+  width: 2px;
+  margin: 0 30px;
+  background: #fff;
+}
+#hero .logo-area {
+  @include rwd(desktop-up) {
+    flex-basis: 40%;
+  }
+}
