@@ -27,8 +27,8 @@ page_sections:
     button_text: Find Out More
     url: ""
     enabled: false
-  background_video: /city/small-drone_compressed
-  background_image: "/uploads/global/bg-city-wide@2x.jpg"
+  background_video: city/city-drone-loop_compressed
+  background_image: "/uploads/global/city/city-firstframe.jpg"
 - block: city-main
   subdirectory: static
 - template: detail-content
