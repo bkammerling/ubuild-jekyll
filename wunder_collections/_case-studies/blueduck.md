@@ -29,5 +29,6 @@ quote:
     the relationship begins.
   name: Andre J. Champagne
   job_title: Chief Innovation Officer, Blue Duck
+hero_image: "/uploads/2021/01/05/blueduck_hero-2x.jpg"
 
 ---

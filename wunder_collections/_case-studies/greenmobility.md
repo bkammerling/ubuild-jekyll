@@ -33,5 +33,6 @@ quote:
   text: ''
   name: ''
   job_title: ''
+hero_image: "/uploads/2021/01/05/hero_greenmob-2x.jpg"
 
 ---
