@@ -32,6 +32,12 @@ fields:
       format: markdown
   label: Intro
   description: Short sentence for hero text ~10 words / ~50 characters
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
+  description: "<em>Add ~1440px .jpg first, then ~2880px @2x.jpg</em>"
 - name: the_details
   type: textarea
   default: ''
