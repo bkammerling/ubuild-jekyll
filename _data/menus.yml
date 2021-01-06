@@ -277,30 +277,20 @@ footer:
   col: 3
   weight: 3
   items:
-  - identifier: workingatwunder
-    url: "/careers/"
-    weight: 1
-    title: Working at Wunder
-    parent: footercareers
-  - identifier: jobs
-    url: "/careers/jobs"
-    weight: 2
-    title: Jobs
-    parent: footercareers
   - identifier: culture
-    url: "/careers/culture"
-    weight: 3
+    url: "/careers#culture"
+    weight: 1
     title: Culture
     parent: footercareers
-  - identifier: locations
-    url: "/careers/locations"
-    weight: 4
-    title: Locations
+  - identifier: lifeatwunder
+    url: "/careers#life"
+    weight: 2
+    title: Life At Wunder
     parent: footercareers
-  - identifier: perks
-    url: "/careers/perks"
-    weight: 4
-    title: Perks
+  - identifier: jobs
+    url: "/careers#jobs"
+    weight: 3
+    title: Jobs
     parent: footercareers
 - identifier: footerevents
   title: Events
