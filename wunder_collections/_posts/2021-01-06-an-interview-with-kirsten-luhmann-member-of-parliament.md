@@ -26,7 +26,7 @@ _Read this article in_ [_German_](https://bernstein-group.com/2021/01/06/persone
 
 ***
 
-# A discussion about the SPD prioritization of cabs within the framework of the Passenger Transport Act
+##### A discussion about the SPD prioritization of cabs within the framework of the Passenger Transport Act
 
 ### Especially in rural areas, many are dependent on their cars and cannot benefit from mostly urban, new forms of mobility. How can we support the mobility change in rural areas as well, and how can politics respond to the different circumstances between urban and rural areas in this context?
 
