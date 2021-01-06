@@ -89,6 +89,7 @@ a {
     color: $mobility-blue;
   }
   &.with-play {
+    transition: all $transition-duration/2;
     padding-right: 55px; //to compensate for width+margin of play icon
     &:after {
       content: '';
@@ -97,18 +98,19 @@ a {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      border: 1.5px solid $white;
+      border: 1.5px solid $black;
       transition: all $transition-duration/2;
       position: absolute;
       margin-left: 15px;
       margin-top: -8px;
       background-position: center;
+      background-color: $black;
+      filter: invert(1);
     }
     &:hover {
+      color: $black;
       &:after {
-        background-color: $black;
-        border-color: $black;
-        filter: invert(1);
+        filter: invert(0);
       }
     }
   }

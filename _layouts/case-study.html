@@ -65,9 +65,9 @@
     </div>
   </section>
  
-  <section class="container">
+  <div class="container">
     <hr/>
-  </section>
+  </div>
 
   <section id="vision" class="">
     <div class="container text-center">
@@ -117,7 +117,7 @@
     </div>
   </section>
 
-  <section id="quote" class="mt-0 bg-dark fullwidth-bg">
+  <section id="quote" class="my-0 bg-dark fullwidth-bg">
     <div class="container py-3 py-md-5">
       <div class="row text-white">
         <div class="col-md-2">
@@ -138,8 +138,46 @@
     </div>
   </section>
 
+  
+  {% assign product = page.product %}
+  {% capture productText %}
+    {% if product == 'Fleet' %}Wunder Fleet is an all-in-one platform to help get your vehicle sharing company off the ground. Equipped with a mobile app, backend management system, and sharing-ready vehicles, Wunder Fleet can get you on the streets in no time.{% endif %}
+    {% if product == 'Carpool' %}Wunder Carpool enables employees to organize shared rides to work. Free up space in your parking, fight climate change and improve the daily commute with carpooling.{% endif %}
+  {% endcapture %}
+  {% capture productImage %}
+    {% if product == 'Fleet' %}/uploads/global/fleet/fleet-app.gif{% endif %}
+    {% if product == 'Carpool' %}/uploads/global/carpool-brandedscreens@2x.png{% endif %}
+    {% endcapture %}
+  <section id="product-cta" class="my-5 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6 col-md-7 col-lg-6">
+          <h2 class="headline-large">Get started with Wunder {{product}}</h2>
+          <p>{{ productText | strip }}</p>
+          <a class="btn btn-outline-dark mt-4" href="/{{ product | downcase }}" title="Visit the Wunder {{ product }} product page">Learn more</a>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mt-3 mt-sm-0 text-center">
+          <img class="app-img w-100" data-src="{{ productImage | strip | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ productImage | strip }} 2x" alt="Mockup of the Wunder {{ product }} app on a smartphone." />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <hr/>
+  </div>
+
+  <section id="discover-more">
+    <div class="container text-center">
+        <h2 class="headline-large">Discover more client <br class="d-none d-md-block" />success stories</h2>
+        <a class="btn btn-outline-dark mt-4" href="/clients" title="Visit the Wunder Mobility clients page">Discover more</a>
+    </div>
+  </section>
+
 
 </main>
+
+{% include block-contact-form.html %}
 
 {% include block-footer-1.html %}
 
