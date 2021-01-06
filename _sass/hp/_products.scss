@@ -311,6 +311,16 @@
   margin-bottom: 12px;
 }
 
+.city {
+  .out-right img {
+    @include rwd(tablet-down) {
+      max-width: 105%;
+      margin-left: -2.5%;
+    }
+  }
+}
+
+
 // Vehicles product page styling
 
 .contact-form__wrapper {
