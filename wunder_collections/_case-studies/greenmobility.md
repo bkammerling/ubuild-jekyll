@@ -28,11 +28,15 @@ case_study_cta:
   heading: ''
   external_url: ''
   supporting_image: ''
-image_gallery: []
+image_gallery:
+- "/uploads/2021/01/06/greenmobility-gallery1-2x.jpg"
+- "/uploads/2021/01/06/greenmobility-gallery2-2x.jpg"
+- "/uploads/2021/01/06/greenmobility-gallery3-2x.jpg"
 quote:
-  text: 'Wunder Mobility helped us move [from] a platform that didn’t really work onto a better platform.'
-  name: 'Steffen W. Frølund'
-  job_title: 'Chief Marketing Officer, Green Mobility'
+  text: Wunder Mobility helped us move [from] a platform that didn’t really work onto
+    a better platform.
+  name: Steffen W. Frølund
+  job_title: Chief Marketing Officer, Green Mobility
 hero_image: "/uploads/2021/01/05/green-mobility-hero-2x.jpg"
 
 ---
