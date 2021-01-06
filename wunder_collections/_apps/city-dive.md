@@ -37,25 +37,27 @@ screenshot_details:
   screenshot_description: Visualize aggregated trip data to make informed conclusions
     about rider usage and vehicle demand in the cities where you operate.
 app_details:
-- detail_title: ''
-  detail_content: <a href="https://dive.fluctuo.com/" title="Developer Website →">Developer
+- detail_content: <a href="https://dive.fluctuo.com/" title="Developer Website →">Developer
     Website →</a>
+  detail_title: ''
 - detail_title: ''
   detail_content: <a href="https://docs.google.com/document/d/e/2PACX-1vQZN0Bkm36xEf-Y-7NLSeXbIsEYsAWqhtfhi6KqF9Mx0BXAUzlF-mZE0B0vlREFLHxsL89Pjjk4XOYn/pub"
     title="Terms of Service →">Terms of Service →</a>
 - detail_title: ''
   detail_content: <a href="https://dive.fluctuo.com/" title="Privacy Policy →">Privacy
     Policy →</a>
-access_needed: []
+access_needed:
+- None
 getting_started:
-- column_title: Fill out the contact form
-  column_description: The fluctuo team will get in touch shortly.
+- column_title: Get in touch
+  column_description: Fill out the contact form. The fluctuo team will get in touch
+    shortly.
 - column_title: Tell us more
-  column_description: Tell us about the countries & cities where your services are
-    (or will be) available.
+  column_description: 'Tell us about the countries & cities where your services are
+    (or will be) available '
 - column_title: Start
   column_description: Start a free trial of City Dive to enable you to test its functionalities.
-whitepaper_link: "/uploads/2021/01/06/fluctuo-city-dive-2020-09-without-pricing-julien-chamussy.pdf"
+whitepaper_link: "/uploads/2021/01/06/locale-whitepaper-for-logistics-aditi-sinha.pdf"
 video_poster: ''
 published: false
 
