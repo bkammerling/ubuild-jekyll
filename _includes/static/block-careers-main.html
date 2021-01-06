@@ -1,9 +1,9 @@
 <div class="" id="main-section"> 
 
-  <img class="linkedin-badge" data-src="/uploads/global/linkedin-top-badge.png" data-srcset="/uploads/global/linkedin-top-badge@2x.png 2x" />
+  <img class="linkedin-badge z-2000" data-src="/uploads/global/linkedin-top-badge.png" data-srcset="/uploads/global/linkedin-top-badge@2x.png 2x" />
   
   <div class='my-4'></div>
-  <section id="scroll-nav" class="sticky-top z-2001"> 
+  <section id="scroll-nav" class="sticky-top"> 
     <div class="container">
       <div class="scroll-nav__wrapper border-bottom ">
         <ul class="list-unstyled d-flex flex-row justify-content-between text-center text-md-left">
@@ -23,7 +23,7 @@
         <div class="row align-items-top">
           <div class="col-lg-5 offset-xl-1 mb-5 mb-lg-0 pb-md-5 text-center">
             <div>
-              <img data-src="/uploads/global/careers/sam-gunnar-steps.jpg" data-srcset="/uploads/global/careers/sam-gunnar-steps@2x.jpg 2x" />
+              <img src="/uploads/global/careers/sam-gunnar-steps.jpg" srcset="/uploads/global/careers/sam-gunnar-steps@2x.jpg 2x" />
               <p class="small-label text-left"><strong>Gunnar Froh & Samuel Baker</strong><br>Co-Founders</p>
             </div>
           </div>
@@ -81,7 +81,7 @@
           <p>We are committed to hiring top talent with a shared goal to push the boundaries around mobility. Hiring the best doesn’t stop at borders, and our dream team comes from 50+ different countries. Having such a diverse team allows us to be innovative and understanding of our international customers needs. </p>
         </div>
       </div>
-      <img data-src="/uploads/global/virtual-team.jpg" data-srcset="/uploads/global/virtual-team@2x.jpg 2x" class="my-5" />
+      <img src="/uploads/global/virtual-team.jpg" srcset="/uploads/global/virtual-team@2x.jpg 2x" class="my-5" />
     </div>
   </section>
 
@@ -194,7 +194,7 @@
             <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <img class="perks-content-icon " src="/uploads/global/icons/icon-dog.svg" alt="White line icon of a cute dog seen from the side sitting down." />
               <h3 class="headline-medium">Dog Friendly</h3>
-              <p>Our 4-legged friends are an integral part of our team! If you have a dog of your own, we’re happy to add them to our Wunder dog family!.</p>
+              <p>Our 4-legged friends are an integral part of our team! If you have a dog of your own, we’re happy to add them to our Wunder dog family!</p>
             </div>
           </div>
           <img src="/uploads/global/careers/dog-face.png" srcset="/uploads/global/careers/dog-face@2x.png 2x" alt="3 faces of global humans with a line connecting them to a map marker" />            
@@ -225,7 +225,7 @@
         <div class="col-6 col-sm-4">
           <div class="social-card">
             <a href="{{ item.link }}" target="_blank">
-              <img data-src="{{ item.image | replace: '@2x', '' }}" data-srcset="{{ item.image }} 2x" alt="" />
+              <img src="{{ item.image | replace: '@2x', '' }}" srcset="{{ item.image }} 2x" alt="" />
               <div class="social-card__overlay d-none d-md-flex">
                 <ion-icon class="text-white mr-3" name="logo-{{ item.platform }}"></ion-icon>
                 <p class="d-none d-sm-block">{{ item.excerpt }}</p>
