@@ -23,7 +23,19 @@ description: "<p>City Dive is a business intelligence tool that tracks the suppl
   of daily metrics in each city:</p><ul><li><p>Fleet size &amp; total trips</p></li><li><p>Maps
   on vehicles deployment</p></li><li><p>Maps on Origin/Destination of trips</p></li></ul><p>4
   types of vehicles monitored (bikes, scooters, mopeds &amp; cars).</p>"
-screenshot_details: []
+screenshot_details:
+- screenshot: "/uploads/2021/01/06/city-dive-2-julien-chamussy.png"
+  title: Benchmark services in 60 cities
+  screenshot_description: Compare the KPIs of 140+ shared-mobility services (bikes,
+    scooters, mopeds & cars) in more than 60 European cities.
+- screenshot: "/uploads/2021/01/06/city-dive-4-julien-chamussy.png"
+  title: Identify business opportunities
+  screenshot_description: Explore European countries & cities to identify markets
+    where you could launch your service.
+- screenshot: "/uploads/2021/01/06/city-dive-6-julien-chamussy.png"
+  title: Analyze vehicle demand
+  screenshot_description: Visualize aggregated trip data to make informed conclusions
+    about rider usage and vehicle demand in the cities where you operate.
 app_details: []
 access_needed: []
 getting_started: []
