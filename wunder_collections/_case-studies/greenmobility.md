@@ -30,9 +30,9 @@ case_study_cta:
   supporting_image: ''
 image_gallery: []
 quote:
-  text: ''
-  name: ''
-  job_title: ''
+  text: 'Wunder Mobility helped us move [from] a platform that didn’t really work onto a better platform.'
+  name: 'Steffen W. Frølund'
+  job_title: 'Chief Marketing Officer, Green Mobility'
 hero_image: "/uploads/2021/01/05/green-mobility-hero-2x.jpg"
 
 ---

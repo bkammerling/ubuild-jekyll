@@ -28,3 +28,28 @@
     flex-basis: 40%;
   }
 }
+
+#gallery {
+  .gallery-scroller {
+    overflow: scroll;
+  }
+  ul {
+    width: fit-content;
+  }
+  li {
+    min-width: 190px;
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.case-studies svg.quote-marks {
+  width: 44px;
+  @include rwd(tablet-up) { 
+    width: 72px;
+  }
+  @include rwd(desktop-up) {
+    width: 97px;
+  }
+}

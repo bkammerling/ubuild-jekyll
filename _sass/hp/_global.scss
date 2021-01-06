@@ -33,7 +33,10 @@ main > section {
 }
 
 section.fullwidth-bg {
-  padding: 128px 0;
+  padding: 100px 0;
+  @include rwd(tablet-up) {
+    padding: 128px 0;
+  }
   &.grey-bg {
     background-color: $black96;
     background: linear-gradient(120.94deg, #F1F3F7 0%, #EAECF0 93.23%, #EAEBEF 100%);
