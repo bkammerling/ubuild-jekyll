@@ -14,11 +14,11 @@ cta_link: pages/bernstein-newsletter.md
 title: An Interview with Kirsten Lühmann — Transport Policy Spokesperson of the SPD
   Parliamentary Group
 publish_date: 2021-01-07 00:00:00 +0000
-featured_image: "/uploads/2021/01/06/070120.jpg"
+featured_image: "/uploads/2021/01/06/070120-1.jpg"
 excerpt: With a view of ecological change, we also need to promote alternative drive
   systems and synthetic fuels. This is the only way we can really get closer to the
   goal of reducing CO2 emissions.
-share_image: "/uploads/2021/01/06/070120.jpg"
+share_image: "/uploads/2021/01/06/070120-1.jpg"
 sticky: false
 hidden: true
 
