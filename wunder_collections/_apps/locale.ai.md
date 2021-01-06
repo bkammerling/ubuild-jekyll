@@ -53,6 +53,5 @@ getting_started:
     and we will get in touch with you soon.
 whitepaper_link: "/uploads/2021/01/06/locale-whitepaper-for-logistics-aditi-sinha.pdf"
 video_poster: ''
-published: false
 
 ---
