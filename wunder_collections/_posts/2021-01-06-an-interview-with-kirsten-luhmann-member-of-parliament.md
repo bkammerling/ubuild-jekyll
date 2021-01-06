@@ -11,7 +11,8 @@ cta_heading: " Sign Up for our Policy Brief"
 cta_text: Our bilingual policy brief is full of articles relevant to policymakers,
   city officials, and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
-title: An Interview with Kirsten Lühmann — Member of Parliament
+title: An Interview with Kirsten Lühmann — Transport Policy Spokesperson of the SPD
+  Parliamentary Group
 publish_date: 2021-01-07 00:00:00 +0000
 featured_image: "/uploads/2021/01/06/070120.jpg"
 excerpt: With a view of ecological change, we also need to promote alternative drive
@@ -19,7 +20,7 @@ excerpt: With a view of ecological change, we also need to promote alternative d
   goal of reducing CO2 emissions.
 share_image: "/uploads/2021/01/06/070120.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in_ [_German_](https://bernstein-group.com/2021/01/06/personenbefoerderungsgesetz-als-spd-geben-wir-taxen-im-rahmen-des-oepnv-den-vorrang/).
