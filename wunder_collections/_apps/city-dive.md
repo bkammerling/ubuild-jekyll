@@ -46,8 +46,7 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://dive.fluctuo.com/" title="Privacy Policy →">Privacy
     Policy →</a>
-access_needed:
-- None
+access_needed: []
 getting_started:
 - column_title: Get in touch
   column_description: Fill out the contact form. The fluctuo team will get in touch
