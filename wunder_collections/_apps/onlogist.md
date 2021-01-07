@@ -12,11 +12,11 @@ preview_gallery:
   title: Accessible 24/7
 - image-video: "/uploads/2021/01/06/onlogist-product-3-philip-grave.jpg"
   title: Experienced & professional service providers
-description: "<p>From first car registration to end of a car life cycle, ONLOGIST
-  offers a wide range of “on-demand” services around the use of cars and car sales.
-  All integrated services are meeting automotive industry professionals’ requirements
-  - specifically for single or mass transports. ONLOGIST offers several mobility solutions
-  that are available through a digital platform.</p>"
+description: "<p>From first car registration to end of a car life cycle ONLOGIST offers
+  a wide range of “on-demand” services around the use of cars and car sales. All integrated
+  services are meeting automotive industry professionals’ requirements - specifically
+  for single or mass transports. ONLOGIST offers several mobility solutions that are
+  available through a digital platform.</p>"
 screenshot_details:
 - title: ">80% of orders are assigned in less than 10 mins"
   screenshot: "/uploads/2021/01/06/onlogist-usp-2-philip-grave.jpg"
@@ -52,7 +52,7 @@ getting_started:
     to show you how our smart solution will support your needs.
 - column_title: Use your customised ONLOGIST Solution via API or Web-Interface
   column_description: And you will be able to focus on what's important again.
-whitepaper_link: "/uploads/2021/01/06/onlogist_prasentation-philip-grave.pdf"
+whitepaper_link: "/uploads/2021/01/07/onlogist_whitepaper_wunder.pdf"
 video_poster: ''
 published: false
 
