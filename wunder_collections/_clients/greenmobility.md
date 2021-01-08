@@ -4,7 +4,7 @@ product: Fleet
 name: Green Mobility
 logo: "/uploads/2021/01/04/greenmobility_logo_white.svg"
 intro: "Electric carsharing \Lin Copenhagen and beyond"
-the_details: Powered by <strong>Wunder Fleet</strong>, GreenMobility offers easy transportation
+the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a>, GreenMobility offers easy transportation
   to private consumers and companies in 7 different cities across Europe. Their operational
   expertise, coupled with Wunder Mobility’s technology, has created the foundation
   for steady growth and profitability in the share mobility space.

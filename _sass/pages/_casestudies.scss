@@ -158,7 +158,6 @@
   }
 }
 
-
 .vertical-divider {
   height: 50px;
   width: 2px;
@@ -168,6 +167,15 @@
 #hero .logo-area {
   @include rwd(desktop-up) {
     flex-basis: 40%;
+  }
+}
+
+#details {
+  a {
+    color: $mobility-black;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
