@@ -18,8 +18,14 @@ fields:
 - name: logo
   type: file
   config:
-    maxSize: 64
+    maxSize: 1
   label: Logo
+  description: Regular (colour) logo of company
+- name: logo_white
+  type: file
+  config:
+    maxSize: 64
+  label: White Logo
   description: "<strong>White</strong> logo to appear on clients page and individual
     case studies"
 - name: intro
@@ -38,6 +44,20 @@ fields:
     maxSize: 64
   label: Hero Image
   description: "<em>Add ~1440px .jpg first, then ~2880px @2x.jpg</em>"
+- name: hero_is_carousel
+  type: boolean
+  label: Hero Same as Carousel
+  hidden: false
+  default: true
+  description: The hero image on the single client page is the same that appears in
+    the clients "homepage" carousel.
+- name: carousel_image
+  type: file
+  config:
+    maxSize: 1
+  label: Carousel Image
+  showOnly:
+    field: hero_is_carousel
 - name: the_details
   type: textarea
   default: ''

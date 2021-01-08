@@ -2,11 +2,12 @@
 layout: case-study
 product: Fleet
 name: Arnab Mobility
-logo: "/uploads/2021/01/08/arnab-whitelogo.svg"
+logo: "/uploads/global/client-logos/arnab-sq@2x.jpg"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"
 the_details: Arnab Mobility provides a platform for light electric vehicle sharing
-  in the UAE. Using <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet's</strong></a> technology, Arnab has been able
+  in the UAE. Using <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet
+  product page"><strong>Wunder Fleet's</strong></a> technology, Arnab has been able
   to make clean, affordable, healthy, safe, smart and smooth mobility accessible for
   all in the region. An impressive feat for a geography so reliant on gasoline powered
   vehicles.
@@ -37,5 +38,7 @@ quote:
     while with Wunder Mobility we hit the ground in less then six month.
   name: Vaibhav Chauhan
   job_title: Co-Founder, Arnab Mobility
+logo_white: "/uploads/2021/01/08/arnab-whitelogo.svg"
+hero_is_carousel: true
 
 ---

@@ -2,12 +2,13 @@
 layout: case-study
 product: Fleet
 name: Green Mobility
-logo: "/uploads/2021/01/04/greenmobility_logo_white.svg"
+logo: "/uploads/global/client-logos/green-mobility-sq.svg"
 intro: "Electric carsharing \Lin Copenhagen and beyond"
-the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a>, GreenMobility offers easy transportation
-  to private consumers and companies in 7 different cities across Europe. Their operational
-  expertise, coupled with Wunder Mobility’s technology, has created the foundation
-  for steady growth and profitability in the share mobility space.
+the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder
+  Fleet product page"><strong>Wunder Fleet</strong></a>, GreenMobility offers easy
+  transportation to private consumers and companies in 7 different cities across Europe.
+  Their operational expertise, coupled with Wunder Mobility’s technology, has created
+  the foundation for steady growth and profitability in the share mobility space.
 company_url: https://www.greenmobility.com/dk/en/
 shared_vision: Green Mobility and Wunder Mobility share the vision to replace car
   ownership by car sharing with a fleet that is 100% run by e-vehicles
@@ -38,5 +39,7 @@ quote:
   name: Steffen W. Frølund
   job_title: Chief Marketing Officer, Green Mobility
 hero_image: "/uploads/2021/01/05/green-mobility-hero-2x.jpg"
+logo_white: "/uploads/2021/01/04/GreenMobility_Logo_white.svg"
+hero_is_carousel: true
 
 ---
