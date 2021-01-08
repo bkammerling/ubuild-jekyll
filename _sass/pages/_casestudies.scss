@@ -56,7 +56,7 @@
   .carousel-inner img {
     object-fit: cover;
     display: block;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     @include rwd(wide-up) {
       max-width: none;
