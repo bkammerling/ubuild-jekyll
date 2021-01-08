@@ -38,5 +38,6 @@ quote:
     on how to push the business forward.
   name: David Wiethoff
   job_title: Head of Marketing, Süwag
+logo_white: "/uploads/2021/01/08/suwag-whitelogo.svg"
 
 ---
