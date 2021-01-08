@@ -92,6 +92,16 @@ body.press {
     max-height: 35px;
   }
 }
+#pagination-loadmore {
+  .spinner-border {
+    display: none;
+  }
+  &.disabled {
+    .spinner-border {
+      display: inline-block;
+    }
+  }
+}
 
 .social-card {
   position: relative;

@@ -6,6 +6,7 @@ date: 2019-02-08 23:00:00 +0000
 permalink: press
 lang: en
 lang-ref: press
+share_image: '/uploads/global/share-images/social_share_image_press.jpg'
 version: hp
 pagination:
   enabled: true

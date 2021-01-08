@@ -7,6 +7,7 @@ lang: en
 lang-ref: city
 published: true
 version: hp
+share_image: '/uploads/global/share-images/social_share_image_city.jpg'
 page_sections:
 - template: navigation-header-w-button
   block: header-2

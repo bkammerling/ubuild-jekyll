@@ -44,7 +44,7 @@
     {% if page.ogurl.size > 1 %}
       <meta property="og:url" content="{{ page.ogurl }}" />
     {% else %}
-      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+      <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
     {% endif %}
     {% if page.url contains 'blog' and page.layout == 'simple-article' %}
       <meta property="og:type" content="article" />

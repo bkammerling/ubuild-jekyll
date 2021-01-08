@@ -6,7 +6,7 @@ date: '2020-12-20T12:00:00.000+00:00'
 permalink: "/careers"
 lang: en
 lang-ref: careers
-share_image: ''
+share_image: '/uploads/global/share-images/social_share_image_careers.jpg'
 version: hp
 component_scripts:
 - rellax.min.js
