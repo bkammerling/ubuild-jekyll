@@ -54,8 +54,8 @@ sections:
   templates:
   - marketplace-app
 - type: directory
-  path: wunder_collections/_case-studies
-  label: Case Studies
+  path: wunder_collections/_clients
+  label: Clients
   create: documents
   match: "**/*"
   templates:
