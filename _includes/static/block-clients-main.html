@@ -1,0 +1,137 @@
+<header id="header" class="carousel-inheader bg-dark text-white">
+  <div class="container-fluid h-100">
+    <div class="row h-100 align-items-end align-items-xl-center">
+      <div class="col-xl-6 py-5 my-4">
+        <div class="text-wrapper pl-md-4 pl-xl-5 py-5 text-sm-center text-xl-left" >
+          <h1 class="headline-large">We’re powering shared mobility <br class="d-none d-sm-block d-md-none d-lg-block d-xl-none"/>around the globe</h1>
+          <p>Discover how our clients are shaping the future of mobility </p>
+        </div>
+      </div>
+      <div class="col-xl-6 px-0 pl-xl-3 carousel-col">
+        <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators flat-indicators justify-content-md-end">
+            {% for company in site.case-studies limit:4 %}
+            <li data-target="#headerCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
+            {% endfor %}
+          </ol>
+          <div class="carousel-inner">
+            {% for company in site.case-studies limit:4 %}
+            <div class="carousel-item {% if forloop.first %} active {% endif %}">
+              <img data-src="{{ company.hero_image }}" class="" alt="Cityscape photo for location of {{ company.name }}">
+              <div class="carousel-caption">
+                <a href="{{ company.url }}" class="text-link text-white d-block mt-4">
+                  {{ company.name }}
+                  <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="intro">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+          <h2 class="headline-medium">Our clients come from all over the world — each one working to accelerate the global transition to sustainable mobility.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="client-list" class="pb-md-5">
+    <div class="container">
+      <div class="row">
+      {% for company in site.case-studies limit:4 %}
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="square">
+            <img src="{{ company.image_gallery[0] }}" />
+          </div>
+        </div>
+      {% endfor %}
+        <div class="col-sm-6 col-lg-4">
+          <div class="square d-flex align-items-center">
+            <div class="px-3 px-xl-5 mr-lg-2 square__inner-text">
+              <h4 class="headline-medium">Let’s bring your vision to life</h4>
+              <a href="#section-contact" data-offset="20" class="text-link d-block mt-4">
+                Get in touch
+                <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="client-testimonials" class="my-5">
+    <div class="container">
+      <div class="carousel-wrapper">
+        <div id="testimonialCarousel" class="carousel slide" data-ride="">
+          <div class="carousel-header py-2 d-flex justify-content-between">
+            <p>What our clients are saying</p>
+            <ol class="carousel-indicators flat-indicators position-static mx-0">
+              {% for company in site.case-studies limit:4 %}
+              <li data-target="#testimonialCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
+              {% endfor %}
+            </ol>
+          </div>
+          <hr>
+          <div class="carousel-inner mt-md-5 mt-3 pt-4">
+            {% for company in site.case-studies limit:4 %}
+            <div class="carousel-item {% if forloop.first %} active {% endif %}">
+              <div class="row">
+                <div class="col-md-2">
+                  <svg class="quote-marks" viewBox="0 0 97 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M78 8.90239C67.8006 13.8482 62.701 19.6594 62.701 26.3362C67.0482 26.8308 70.6431 28.603 73.4855 31.6529C76.328 34.6204 77.7492 38.0824 77.7492 42.039C77.7492 46.243 76.3698 49.7874 73.6109 52.6725C70.8521 55.5575 67.3826 57 63.2026 57C58.5209 57 54.4662 55.1453 51.0386 51.436C47.6109 47.6443 45.8971 43.0694 45.8971 37.7115C45.8971 21.6377 55.0096 9.06725 73.2347 0L78 8.90239ZM32.1029 8.90239C21.8199 13.8482 16.6785 19.6594 16.6785 26.3362C21.1093 26.8308 24.746 28.603 27.5884 31.6529C30.4309 34.6204 31.8521 38.0824 31.8521 42.039C31.8521 46.243 30.4309 49.7874 27.5884 52.6725C24.8296 55.5575 21.3601 57 17.1801 57C12.4984 57 8.44373 55.1453 5.01608 51.436C1.67203 47.6443 0 43.0694 0 37.7115C0 21.6377 9.07074 9.06725 27.2122 0L32.1029 8.90239Z" fill="#F2F2F2"/>
+                  </svg>
+                </div>
+                <div class="col-md-10 col-xl-9">
+                  <blockquote>
+                    <h3 class="headline-large">{{ company.quote.text }}</h3>
+                    <img src="{{ company.logo }}" alt="{{ company.name }} white logo" style="filter: invert(1);" />
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mb-5">
+    <hr>
+  </div>
+
+  <section id="success">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-8 col-md-6 col-lg-5">
+          <p>Client Success</p>
+          <h3 class="headline-large">We go the extra mile</h2>
+          <p>We’ll guide you as you navigate new business models and give you practical advice on going digital. </p>
+          <p>Forget commitment issues: we’ll still pick up the phone after your successful launch, and you’ll receive on-demand help from the Wunder Mobility team whenever you need it.</p>
+        </div>
+        <div class="col-sm-4 col-md-6 mt-5 mt-sm-0 offset-lg-1">
+          <picture>
+            <source media="(min-width: 769px)" srcset="/uploads/global/client-sucess-team.jpg, /uploads/global/client-sucess-team@2x.jpg 2x">
+            <img src="/uploads/global/client-sucess-team_mob.jpg" srcset="/uploads/global/client-sucess-team_mob@2x.jpg 2x"  alt="6 portrait photos of the client success team, all smiling and all ruddy beautiful">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

@@ -71,20 +71,6 @@
     {% include block-logo-list.html rowname=logorow %}
   {% endif %}
 
-  {% if page.lang-ref == 'summit' or page.lang-ref == 'stage-battle' %}
-    {% include block-summit-info.html  date="September 23-24" %}
-  {% endif %}
-
-  {% if page.lang-ref == 'wms19' %}
-    {% include block-summit-info.html  date="November 6-7" %}
-  {% endif %}
-
-  {% if page.url contains 'session' %}
-    {% include block-autotech-info.html %}
-  {% endif %}
-
-
-
 </section>
 
 {% if section.intro_text != empty and section.intro_text %}
