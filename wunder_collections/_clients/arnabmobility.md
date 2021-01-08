@@ -27,7 +27,7 @@ vimeo_id: ''
 case_study_cta:
   heading: Read the full case study
   external_url: https://www.wundermobility.com
-  supporting_image: "/uploads/2021/01/08/arnab-client-cta-2x.jpg"
+  supporting_image: "/uploads/2021/01/08/arnab-client-cta@2x.png"
 image_gallery:
 - "/uploads/2021/01/08/arnab-gallery2-2x.jpg"
 - "/uploads/2021/01/08/arnab-gallery1-2x.jpg"

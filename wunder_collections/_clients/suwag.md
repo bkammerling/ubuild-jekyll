@@ -27,7 +27,7 @@ vimeo_id: ''
 case_study_cta:
   heading: Read the full case study in German
   external_url: https://google.com
-  supporting_image: "/uploads/2021/01/08/suwag-clientcta-2x.jpg"
+  supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
 image_gallery:
 - "/uploads/2021/01/08/suwag-gallery1-2x.jpg"
 - "/uploads/2021/01/08/suwag-gallery2-2x.jpg"
