@@ -16,8 +16,10 @@
           </ol>
           <div class="carousel-inner">
             {% for company in site.clients limit:4 %}
+              {% assign hero_image = company.hero_image %}
+              {% if company.carousel_image %} {% assign hero_image = company.carousel_image %} {% endif %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
-              <img data-src="{{ company.hero_image }}" class="" alt="Cityscape photo for location of {{ company.name }}">
+              <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.name }}">
               <div class="carousel-caption">
                 <a href="{{ company.url }}" class="text-link text-white d-block mt-4">
                   {{ company.name }}
