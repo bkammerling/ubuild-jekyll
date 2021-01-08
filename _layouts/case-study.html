@@ -78,7 +78,7 @@
   {% if page.show_stats %}
   <section id="stats" class="">
     <div class="container text-center">
-      <div class="row">
+      <div class="row justify-content-center">
         {% for stat in page.stats %}
         <div class="col-sm-3 col-lg-3  mb-5 mb-lg-0">
           <p>
@@ -102,6 +102,20 @@
   </section>
   
   {% else %}
+
+  <section id="product-cta" class="fullwidth-bg grey-bg py-5 py-sm-0 mb-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
+          <h2 class="headline-large">{{ page.case_study_cta.heading }}</h2>
+          <a class="btn btn-outline-dark mt-4" href="/{{ page.case_study_cta.external_url | downcase }}" title="View the case study on {{ page.name }} working with Wunder Mobility.">Learn more</a>
+        </div>
+        <div class="col-sm-7">
+          <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.name }}." />
+        </div>
+      </div>
+    </div>
+  </section>
 
   {% endif %}
 
@@ -178,8 +192,8 @@
 </main>
 
 
+{% if page.show_cta == false %}
 <!-- Modal -->
-
 <div class="modal fade filmmodal" id="filmModal" tabindex="-1" role="dialog" aria-labelledby="Fleet film modal" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -196,7 +210,7 @@
     </div>
   </div>
 </div>
-
+{% endif %}
 
 {% include block-contact-form.html %}
 

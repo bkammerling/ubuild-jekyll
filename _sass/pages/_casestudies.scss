@@ -1,8 +1,26 @@
+.clients {
+  .container {
+    @include rwd(mobile-down) {
+      max-width: 100%;
+    }
+  }
+  svg.quote-marks {
+    width: 44px;
+    @include rwd(tablet-up) { 
+      width: 72px;
+    }
+    @include rwd(desktop-up) {
+      width: 97px;
+    }
+  }
+}
+
 .hero-textbottom { 
-  height: 600px;
-  max-height: 800px;
+  height: 760px;
+  //max-height: 800px;
   @include rwd(wide-up) {
-    height: calc(100vh - 56px); // 57px = height of navbar
+    //height: calc(100vh - 56px); // 57px = height of navbar
+    height: 850px;
   }
   &__wrapper {
     padding-bottom: 110px;
@@ -24,9 +42,12 @@
       height: 400px;
     }
     @include rwd(wide-up) {
+      height: 850px;
+      /*
       height: calc(100vh - 56px);
       min-height: 600px;
       max-height: 850px;
+      */
     }
   }
   .container-fluid {
@@ -70,6 +91,7 @@
   > img {
     height: 100%;
     width: 105px;
+    max-width: 30%;
     object-fit: cover;
     transition: transform .6s;
   }
@@ -79,7 +101,8 @@
     align-items: start;
     color: white;
     background: $mobility-black;
-    padding: 19px 17px;
+    padding: 0 17px;
+    justify-content: center;
     width: 100%;
     img {
       max-height: 17px;
@@ -99,6 +122,7 @@
       top: 0;
       height: 100%;
       width: 100%;
+      max-width: none;
     }
     &__inner-text {
       position: absolute;
@@ -162,12 +186,3 @@
   }
 }
 
-.case-studies svg.quote-marks {
-  width: 44px;
-  @include rwd(tablet-up) { 
-    width: 72px;
-  }
-  @include rwd(desktop-up) {
-    width: 97px;
-  }
-}

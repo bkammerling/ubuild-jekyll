@@ -1,13 +1,13 @@
 <header id="header" class="carousel-inheader bg-dark text-white">
   <div class="container-fluid h-100">
     <div class="row h-100 align-items-end align-items-xl-center">
-      <div class="col-xl-6 py-5 my-4">
-        <div class="text-wrapper pl-md-4 pl-xl-5 py-5 text-sm-center text-xl-left" >
-          <h1 class="headline-large">We’re powering shared mobility <br class="d-none d-sm-block d-md-none d-lg-block d-xl-none"/>around the globe</h1>
+      <div class="col-xl-6 py-3 py-md-5 my-4">
+        <div class="text-wrapper pl-md-4 pl-xl-0 py-5 text-center">
+          <h1 class="headline-large mb-3 mb-md-4">We’re powering shared mobility <br class="d-none d-sm-block d-md-none d-lg-block d-xl-none"/>around the globe</h1>
           <p>Discover how our clients are shaping the future of mobility </p>
         </div>
       </div>
-      <div class="col-xl-6 px-0 pl-xl-3 carousel-col">
+      <div class="col-xl-6 px-0 pl-xl-3 carousel-col"> 
         <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators flat-indicators justify-content-md-end">
             {% for company in site.clients limit:4 %}
