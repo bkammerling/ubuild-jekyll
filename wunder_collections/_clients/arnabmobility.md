@@ -6,7 +6,7 @@ logo: "/uploads/2021/01/08/arnab-whitelogo.svg"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"
 the_details: Arnab Mobility provides a platform for light electric vehicle sharing
-  in the UAE. Using <strong>Wunder Fleet’s</strong> technology, Arnab has been able
+  in the UAE. Using <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet's</strong></a> technology, Arnab has been able
   to make clean, affordable, healthy, safe, smart and smooth mobility accessible for
   all in the region. An impressive feat for a geography so reliant on gasoline powered
   vehicles.
