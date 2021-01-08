@@ -1,6 +1,7 @@
 $('#pagination-loadmore').click((e) => {
   // stop the button loading whatever url is in it's href
   e.preventDefault();
+  $(e.target).addClass('disabled').attr('disabled', true);
   var htmlParent = $("[data-pagination='clone']").first();
   // get the data dynamically with jquery ajax
   $.get( e.target.href, function( data ) {
@@ -17,6 +18,7 @@ $('#pagination-loadmore').click((e) => {
         }
       }
       htmlParent.parent().append($element);
+      $(e.target).removeClass('disabled').attr('disabled', false);
     })
     if(data.next) {
       e.target.href = data.next;
