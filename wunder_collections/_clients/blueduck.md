@@ -32,5 +32,6 @@ quote:
   job_title: Chief Innovation Officer, Blue Duck
 hero_image: "/uploads/2021/01/05/blueduck_hero-2x.jpg"
 logo_white: "/uploads/2021/01/04/blue_duck-white.svg"
+carousel_image: "/uploads/2021/01/08/blue-duck-carousel-2x.jpg"
 
 ---

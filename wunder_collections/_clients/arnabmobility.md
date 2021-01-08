@@ -39,6 +39,7 @@ quote:
   name: Vaibhav Chauhan
   job_title: Co-Founder, Arnab Mobility
 logo_white: "/uploads/2021/01/08/arnab-whitelogo.svg"
-hero_is_carousel: true
+hero_is_carousel: false
+carousel_image: "/uploads/2021/01/08/arnab-carousel-2x.jpg"
 
 ---
