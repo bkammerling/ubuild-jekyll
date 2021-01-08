@@ -118,15 +118,17 @@ var menu = {
 
   showMenu: function(target, submenu) {
     target.on("click", function(e) {
-      e.preventDefault();
       var clickedLink = $(e.target);
+      var identifier = clickedLink.data('target');
+      if(!identifier) return;
+      e.preventDefault();
       if(clickedLink.parent().hasClass("is-active")) {
         menu.hideMenu(clickedLink.parent(), menu.submenu);
       } else {
         submenu.addClass("is-active");
         $(".navbar-nav").addClass("is-active");
         clickedLink.parent().addClass("is-active").siblings().removeClass("is-active");
-        var identifier = clickedLink.data('target');
+        
         $("#nav_" + identifier).addClass('is-active').siblings().removeClass('is-active');
         $(".header__hamburger").addClass("is-active");;
       }
