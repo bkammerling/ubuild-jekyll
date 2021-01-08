@@ -5,8 +5,10 @@ name: Blue Duck
 logo: "/uploads/2021/01/04/blue_duck-white.svg"
 intro: Bringing micromobility across the Southern U.S.
 the_details: Blue Duck provides environmentally friendly and affordable transportation
-  solutions to riders across the Southeastern United States. Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a>, their mantra is “Micromobility, Southern style.” Blue Duck, in partnership
-  with Wunder Mobility, delivers micrmobility to smaller cities across the country.
+  solutions to riders across the Southeastern United States. Powered by <a href="https://www.wundermobility.com/fleet"
+  title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a>, their mantra
+  is “Micromobility, Southern style.” Blue Duck, in partnership with Wunder Mobility,
+  delivers micrmobility to smaller cities across the country.
 company_url: https://www.flyblueduck.com/
 shared_vision: "Blue Duck and Wunder Mobility’s shared vision is to bring micromobility
   and shared mobility \Lto all different markets."
@@ -29,5 +31,6 @@ quote:
   name: Andre J. Champagne
   job_title: Chief Innovation Officer, Blue Duck
 hero_image: "/uploads/2021/01/05/blueduck_hero-2x.jpg"
+logo_white: "/uploads/2021/01/04/blue_duck-white.svg"
 
 ---
