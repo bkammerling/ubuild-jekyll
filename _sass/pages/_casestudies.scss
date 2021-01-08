@@ -49,6 +49,9 @@
       width: 50%;
       bottom: 20px;
       padding-bottom: 20px;
+      &.flat-indicators li:not(.active) {
+        opacity: .5;
+      }
     }
   }
   .carousel-caption {
@@ -62,24 +65,72 @@
 .square {
   position: relative;
   overflow: hidden;
-  padding-top: 100%;
-  /* initial ratio of 1:1*/
-  img {
-    position: absolute;
-    top: 0;
-    object-fit: cover;
+  height: 105px;
+  display: flex;
+  > img {
     height: 100%;
-    width: 100%;
+    width: 105px;
+    object-fit: cover;
+    transition: transform .6s;
   }
-  &__inner-text {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  &__overlay {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column;
+    align-items: start;
+    color: white;
+    background: $mobility-black;
+    padding: 19px 17px;
+    width: 100%;
+    img {
+      max-height: 17px;
+      max-width: 71px;
+      @include rwd(mobile-up) {
+        max-width: 128px;
+        max-height: 35px;
+      }
+    }
+  }
+  @include rwd(mobile-up) {
+    height: 0;
+    padding-top: 100%;
+    /* initial ratio of 1:1*/
+    > img {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+    &__inner-text {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__overlay {
+      position: absolute;
+      bottom: 0;
+      height: 100%; 
+      padding: 30px;
+      background: rgba(31,31,31,0.9);
+      justify-content: flex-end;
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+  }
+  a {
+    line-height: 0;
+  }
+  &:hover {
+    > img {
+      transform: scale(1.03);
+    }
+    .square__overlay {
+      opacity: 1;
+    }
   }
 }
 

@@ -52,9 +52,15 @@
       <div class="row">
       {% for company in site.case-studies limit:4 %}
         <div class="col-sm-6 col-lg-4 mb-4">
-          <div class="square">
-            <img src="{{ company.image_gallery[0] }}" />
-          </div>
+          <a href="{{ company.url }}" title="Read the case study of {{ company.name }} working with Wunder Mobility">
+            <div class="square">
+              <img data-src="{{ company.image_gallery[0] | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.image_gallery[0] }} 2x" />
+              <div class="square__overlay">
+                <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
+                <img src="{{ company.logo }}" alt="White logo of {{ company.name }}" />
+              </div>
+            </div>
+          </a>
         </div>
       {% endfor %}
         <div class="col-sm-6 col-lg-4">
