@@ -81,6 +81,12 @@
       left: 10%;
     }
   }
+  .text-wrapper {
+    @include rwd(wide-up) {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
 }
 
 .square {
