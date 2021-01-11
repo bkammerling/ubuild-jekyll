@@ -2,7 +2,7 @@
 layout: case-study
 product: Fleet
 title: Arnab Mobility
-logo: "/uploads/2021/01/11/arnab-copy-1-2x.png"
+logo: "/uploads/2021/01/11/arnab-col-1-2x.png"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"
 the_details: Arnab Mobility provides a platform for light electric vehicle sharing

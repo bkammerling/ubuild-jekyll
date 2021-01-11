@@ -2,7 +2,7 @@
 layout: case-study
 product: Fleet
 title: Blue Duck
-logo: "/uploads/2021/01/04/blue_duck-white.svg"
+logo: "/uploads/2021/01/11/blue_duck-3-2x.png"
 intro: Bringing micromobility across the Southern U.S.
 the_details: Blue Duck provides environmentally friendly and affordable transportation
   solutions to riders across the Southeastern United States. Powered by <a href="https://www.wundermobility.com/fleet"
@@ -31,7 +31,7 @@ quote:
   name: Andre J. Champagne
   job_title: Chief Innovation Officer, Blue Duck
 hero_image: "/uploads/2021/01/05/blueduck_hero-2x.jpg"
-logo_white: "/uploads/2021/01/04/blue_duck-white.svg"
+logo_white: "/uploads/2021/01/11/blue_duck-1-2x.png"
 carousel_image: "/uploads/2021/01/08/blue-duck-carousel-2x.jpg"
 
 ---
