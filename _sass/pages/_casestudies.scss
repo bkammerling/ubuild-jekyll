@@ -13,11 +13,7 @@
       width: 97px;
     }
   }
-  #client-testimonials {
-    blockquote img {
-      width: 109px;
-    }
-  }
+  
 }
 
 .hero-textbottom { 
@@ -38,6 +34,12 @@
       flex-basis: 59%;
     }
   }
+}
+
+.logo-area img:last-child {
+  /* client logo */
+  max-width: 98px;
+  max-height: 38px;
 }
 
 .carousel-inheader {

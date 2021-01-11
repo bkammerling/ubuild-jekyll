@@ -59,7 +59,7 @@
               <img data-src="{{ company.image_gallery[0] | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.image_gallery[0] }} 2x" />
               <div class="square__overlay">
                 <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
-                <img src="{{ company.logo_white }}" alt="White logo of {{ company.title }}" />
+                <img data-src="{{ company.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo_white }} 2x" alt="White logo of {{ company.title }}" />
               </div>
             </div>
           </a>
@@ -107,7 +107,7 @@
                 <div class="col-md-10 col-xl-9">
                   <blockquote>
                     <h3 class="headline-large">{{ company.quote.text }}</h3>
-                    <img data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.title }} logo" />
+                    <img class="mt-4" data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.title }} logo" />
                   </blockquote>
                 </div>
               </div>
