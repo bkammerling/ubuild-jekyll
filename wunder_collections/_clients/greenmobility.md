@@ -1,7 +1,7 @@
 ---
 layout: case-study
 product: Fleet
-name: Green Mobility
+title: Green Mobility
 logo: "/uploads/global/client-logos/green-mobility-sq.svg"
 intro: "Electric carsharing \Lin Copenhagen and beyond"
 the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder

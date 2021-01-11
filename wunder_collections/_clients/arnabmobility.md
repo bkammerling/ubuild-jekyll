@@ -1,7 +1,7 @@
 ---
 layout: case-study
 product: Fleet
-name: Arnab Mobility
+title: Arnab Mobility
 logo: "/uploads/global/client-logos/arnab-sq@2x.jpg"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"

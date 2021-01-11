@@ -11,7 +11,7 @@
         <div class="logo-area d-flex align-items-center mt-4 mt-lg-0 justify-content-lg-end">
           <img src="/uploads/global/wundermobility-logo-stacked.svg" alt="Wunder Mobility white text logo" />
           <div class="vertical-divider">&nbsp;</div>
-          <img src="{{ page.logo_white }}" alt="{{ page.name }} white logo" />
+          <img src="{{ page.logo_white }}" alt="{{ page.title }} white logo" />
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
         <div class="col-md-8 col-xl-7">
           <p>{{ page.the_details }}</p>
           <a href="{{ page.company_url }}" target="_blank" class="text-link d-block mt-4">
-            Visit {{ page.name }}'s website
+            Visit {{ page.title }}'s website
             <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
             </svg>
@@ -96,7 +96,7 @@
   
   <section id="video" class="mb-4">
     <div class="video-wrapper d-flex justify-content-center align-items-center">
-      <img data-src="{{ page.video_poster | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.video_poster }} 2x" alt="Frame from a video case study of {{ page.name }}" />
+      <img data-src="{{ page.video_poster | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.video_poster }} 2x" alt="Frame from a video case study of {{ page.title }}" />
       <a class="text-link white-text with-play position-absolute" href="#" data-toggle="modal" data-target="#filmModal">Watch the video</a>
     </div>
   </section>
@@ -108,10 +108,10 @@
       <div class="row align-items-center">
         <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
           <h2 class="headline-large">{{ page.case_study_cta.heading }}</h2>
-          <a class="btn btn-outline-dark mt-4" href="/{{ page.case_study_cta.external_url | downcase }}" title="View the case study on {{ page.name }} working with Wunder Mobility.">Learn more</a>
+          <a class="btn btn-outline-dark mt-4" href="{{ page.case_study_cta.external_url | downcase }}" title="View the case study on {{ page.title }} working with Wunder Mobility.">Learn more</a>
         </div>
         <div class="col-sm-7">
-          <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.name }}." />
+          <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.title }}." />
         </div>
       </div>
     </div>
