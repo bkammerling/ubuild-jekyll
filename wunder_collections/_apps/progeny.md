@@ -3,7 +3,7 @@ layout: marketplace-app
 category: Operations Improvement
 title: Progeny
 icon: "/uploads/2020/12/09/progeny_squared-roland-trimmel.png"
-excerpt: Fully automated ID & identity verification
+excerpt: Fully automated ID & identity verification.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2020/12/09/showcase-1-roland-trimmel.jpg"
