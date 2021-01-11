@@ -2,7 +2,7 @@
 layout: case-study
 product: Fleet
 title: Arnab Mobility
-logo: "/uploads/global/client-logos/arnab-sq@2x.jpg"
+logo: "/uploads/2021/01/11/arnab-copy-1-2x.png"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"
 the_details: Arnab Mobility provides a platform for light electric vehicle sharing
@@ -38,7 +38,7 @@ quote:
     while with Wunder Mobility we hit the ground in less then six month.
   name: Vaibhav Chauhan
   job_title: Co-Founder, Arnab Mobility
-logo_white: "/uploads/2021/01/08/arnab-whitelogo.svg"
+logo_white: "/uploads/2021/01/11/arnab-1-2x.png"
 hero_is_carousel: true
 
 ---
