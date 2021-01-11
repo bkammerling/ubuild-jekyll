@@ -42,9 +42,26 @@ screenshot_details:
   screenshot_description: Integrate our global mobility network ranging from ridehailing
     to bike and scooter-sharing into your native app to unlock a global market for
     your users.
-app_details: []
-access_needed: []
-getting_started: []
+app_details:
+- detail_title: ''
+  detail_content: <a href="https://splyt.com/en/solutions/mobility-providers/" title="Developer
+    Website →">Developer Website →</a>
+- detail_title: ''
+  detail_content: <a href="https://splyt.com/en/legal/privacy-policy/" title="Terms
+    of Service →">Terms of Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://splyt.com/en/legal/privacy-policy/" title="Privacy
+    Policy →">Privacy Policy →</a>
+access_needed:
+- " Deliver API credentials"
+- " Invoice Data"
+- " Vehicle Data"
+- " User Data"
+- Trip Data
+getting_started:
+- column_title: Reach out
+  column_description: Please contact us by filling in the form on this page and we'll
+    be in touch with you!
 whitepaper_link: ''
 video_poster: ''
 published: false
