@@ -9,10 +9,10 @@ fields:
   hidden: true
   label: Layout
   default: case-study
-- name: name
+- name: title
   type: text
   config:
-    required: false
+    required: true
   label: Name
   description: Name of company
 - name: logo

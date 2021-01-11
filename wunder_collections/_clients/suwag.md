@@ -1,7 +1,7 @@
 ---
 layout: case-study
 product: Fleet
-name: Süwag2Go
+title: Süwag2Go
 logo: "/uploads/2021/01/08/suwag-whitelogo.svg"
 intro: "Energy service providers and the path \Lto shared mobility"
 hero_image: "/uploads/2021/01/08/suwag-hero-2x.jpg"

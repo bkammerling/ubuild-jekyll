@@ -1,7 +1,7 @@
 ---
 layout: case-study
 product: Fleet
-name: Blue Duck
+title: Blue Duck
 logo: "/uploads/2021/01/04/blue_duck-white.svg"
 intro: Bringing micromobility across the Southern U.S.
 the_details: Blue Duck provides environmentally friendly and affordable transportation

@@ -19,10 +19,10 @@
               {% assign hero_image = company.hero_image %}
               {% if company.carousel_image %} {% assign hero_image = company.carousel_image %} {% endif %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
-              <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.name }}">
+              <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.title }}">
               <div class="carousel-caption">
                 <a href="{{ company.url }}" class="text-link text-white d-block mt-4">
-                  {{ company.name }}
+                  {{ company.title }}
                   <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#FFFFFF"/>
                   </svg>
@@ -54,12 +54,12 @@
       <div class="row">
       {% for company in site.clients limit:4 %}
         <div class="col-sm-6 col-lg-4 mb-4">
-          <a href="{{ company.url }}" title="Read the case study of {{ company.name }} working with Wunder Mobility">
+          <a href="{{ company.url }}" title="Read the case study of {{ company.title }} working with Wunder Mobility">
             <div class="square">
               <img data-src="{{ company.image_gallery[0] | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.image_gallery[0] }} 2x" />
               <div class="square__overlay">
                 <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
-                <img src="{{ company.logo_white }}" alt="White logo of {{ company.name }}" />
+                <img src="{{ company.logo_white }}" alt="White logo of {{ company.title }}" />
               </div>
             </div>
           </a>
@@ -107,7 +107,7 @@
                 <div class="col-md-10 col-xl-9">
                   <blockquote>
                     <h3 class="headline-large">{{ company.quote.text }}</h3>
-                    <img data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.name }} logo" />
+                    <img data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.title }} logo" />
                   </blockquote>
                 </div>
               </div>
