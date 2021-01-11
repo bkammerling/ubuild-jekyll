@@ -2,7 +2,7 @@
 layout: case-study
 product: Fleet
 title: Süwag2Go
-logo: "/uploads/2021/01/08/suwag-whitelogo.svg"
+logo: "/uploads/2021/01/11/suwag_logo-1-2x.png"
 intro: "Energy service providers and the path \Lto shared mobility"
 hero_image: "/uploads/2021/01/08/suwag-hero-2x.jpg"
 the_details: Utility provider, Süwag Vertrieb AG &amp; Co KG, brings electric scooter
@@ -38,6 +38,6 @@ quote:
     on how to push the business forward.
   name: David Wiethoff
   job_title: Head of Marketing, Süwag
-logo_white: "/uploads/2021/01/08/suwag-whitelogo.svg"
+logo_white: "/uploads/2021/01/11/suwag-1-2x.png"
 
 ---
