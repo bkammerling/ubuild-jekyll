@@ -11,7 +11,7 @@
         <div class="logo-area d-flex align-items-center mt-4 mt-lg-0 justify-content-lg-end">
           <img src="/uploads/global/wundermobility-logo-stacked.svg" alt="Wunder Mobility white text logo" />
           <div class="vertical-divider">&nbsp;</div>
-          <img src="{{ page.logo_white }}" alt="{{ page.title }} white logo" />
+          <img data-src="{{ page.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.logo_white }} 2x" alt="{{ page.title }} white logo" />
         </div>
       </div>
     </div>
