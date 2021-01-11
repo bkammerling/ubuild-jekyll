@@ -2,7 +2,7 @@
 layout: case-study
 product: Fleet
 title: Green Mobility
-logo: "/uploads/global/client-logos/green-mobility-sq.svg"
+logo: "/uploads/2021/01/11/greenmobility_logo_green_grey-1-2x.png"
 intro: "Electric carsharing \Lin Copenhagen and beyond"
 the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wunder
   Fleet product page"><strong>Wunder Fleet</strong></a>, GreenMobility offers easy
@@ -39,7 +39,7 @@ quote:
   name: Steffen W. Frølund
   job_title: Chief Marketing Officer, Green Mobility
 hero_image: "/uploads/2021/01/05/green-mobility-hero-2x.jpg"
-logo_white: "/uploads/2021/01/04/GreenMobility_Logo_white.svg"
+logo_white: "/uploads/2021/01/11/greenmobility_logo_white-1-2x.png"
 hero_is_carousel: true
 
 ---
