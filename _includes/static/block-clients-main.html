@@ -55,7 +55,7 @@
       {% for company in site.clients limit:4 %}
         <div class="col-sm-6 col-lg-4 mb-4">
           <a href="{{ company.url }}" title="Read the case study of {{ company.title }} working with Wunder Mobility">
-            <div class="square">
+            <div class="square w-shadow">
               <img data-src="{{ company.image_gallery[0] | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.image_gallery[0] }} 2x" />
               <div class="square__overlay">
                 <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
