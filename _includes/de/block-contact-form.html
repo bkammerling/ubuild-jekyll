@@ -1,7 +1,7 @@
 <section class="block block-contact-form" id="section-contact">
     <div class="contact-form__wrapper block-full-right col-2-in {{ section.bg }}">
       <div class="container container-fullright">
-        <div class="boxed-form {% if page.version == 'hp' %}w-shadow{% endif %}">
+        <div class="boxed-form w-shadow">
           <h2 class="page-heading headline-large text-center mb-2">{{ section.title }}</h2>
           <p style="max-width: 480px" class="mx-auto mb-5 text-center">{{ section.content }}</p>
           <div class="contact-form__form">
@@ -216,7 +216,7 @@
 
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
               <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-                Abschicken
+                Formular senden
               </button>
               <p class="form-feedback hidden">Danke, Ihre Nachricht wurde gesendet.</p>
             </form>
