@@ -2,18 +2,12 @@
 
 # Redirect with 301
 /de/karriere    /careers  301
-/de/ueber-uns    /de  301
-/de/faq   /de  301
-/de/leistungen  /de/  301
-/pt/*   /:splat  301
-/pt  /  301
-/platform   /  301
+/de/ueber-uns    /de/unsere-geschichte  301
 /es/*   /:splat  301
+/careers/*   /careers 301
 
-/pricing  /  301
 /carpool-app   https://help.wunder.org  301
-/about  /  301
-/meetup  /autotech  301
+/about  /our-story  301
 /terms-conditions  /terms  301
 /wunder-fleet  /fleet  301!
 /shuttle  /ride  301!
@@ -36,10 +30,9 @@ http://weallmove.co/de /weallmove/de 200!
 https://www.weallmove.co/de /weallmove/de 200!
 http://www.weallmove.co/de /weallmove/de 200!
 
-https://scooter.wunder.org/* https://www.wundermobility.com/fleet/ 301
-https://shuttle.wunder.org/ https://www.wundermobility.com/shuttle/ 301
-https://meetup.wunder.org/ https://www.wundermobility.com/autotech/ 301
+https://scooter.wunder.org/ https://www.wundermobility.com/fleet/ 301
+https://shuttle.wunder.org/ https://www.wundermobility.com/ride/ 301
 https://carpool.wunder.org/ https://www.wundermobility.com/carpool/ 301
 https://wundermobilitysummit.wunder.org/ https://www.wundermobility.com/summit/ 301
-https://blog.wundermobility.com/ https://www.wundermobility.com/blog/:splat 301!
+https://blog.wundermobility.com/ https://www.wundermobility.com/blog/ 301
 https://blog.wunder.org/ https://www.wundermobility.com/blog/ 301
