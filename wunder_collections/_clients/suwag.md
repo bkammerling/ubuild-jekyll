@@ -40,5 +40,6 @@ quote:
   job_title: Head of Marketing, Süwag
 logo_white: "/uploads/2021/01/11/suwag-1-2x.png"
 hero_is_carousel: true
+listing_image: "/uploads/2021/01/13/suwag-listimage-2x.jpg"
 
 ---
