@@ -123,8 +123,8 @@
     <div class="gallery-scroller">
       <ul class="px-4 pb-4 d-flex list-unstyled">
         {% for image in page.image_gallery %}
-        <li class="{% unless forloop.last %}mr-3{% endunless %} d-flex">
-          <img  data-src="{{ image | replace: '@2x', '' | replace: '-2x', ''  }}" data-srcset="{{ image }} 2x" />
+        <li class="{% unless forloop.last %}mr-3{% endunless %} d-flex align-items-center">
+          <img data-src="{{ image | replace: '@2x', '' | replace: '-2x', ''  }}" data-srcset="{{ image }} 2x" />
         </li>
         {% endfor %}
       </ul>
