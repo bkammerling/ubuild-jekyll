@@ -17,9 +17,11 @@
           <div class="carousel-inner">
             {% for company in site.clients limit:4 %}
               {% assign hero_image = company.hero_image %}
-              {% if company.carousel_image %} {% assign hero_image = company.carousel_image %} {% endif %}
+              {% if company.hero_is_carousel and company.carousel_image.size > 5 %} {% assign hero_image = company.carousel_image %} {% endif %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
-              <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.title }}">
+              <a href="{{ company.url }}" class="">
+                <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.title }}" />
+              </a>
               <div class="carousel-caption">
                 <a href="{{ company.url }}" class="text-link text-white d-block mt-4">
                   {{ company.title }}
@@ -56,7 +58,9 @@
         <div class="col-sm-6 col-lg-4 mb-4">
           <a href="{{ company.url }}" title="Read the case study of {{ company.title }} working with Wunder Mobility">
             <div class="square w-shadow">
-              <img data-src="{{ company.image_gallery[0] | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.image_gallery[0] }} 2x" />
+              {% assign list_image = company.image_gallery[0] %}
+              {% if company.listing_image %} {% assign list_image = company.listing_image %} {% endif %}
+              <img data-src="{{ list_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ list_image }} 2x" />
               <div class="square__overlay">
                 <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
                 <img data-src="{{ company.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo_white }} 2x" alt="White logo of {{ company.title }}" />
@@ -88,7 +92,7 @@
         <div id="testimonialCarousel" class="carousel slide" data-ride="">
           <div class="carousel-header py-2 d-flex justify-content-between">
             <p>What our clients are saying</p>
-            <ol class="carousel-indicators flat-indicators position-static mx-0">
+            <ol class="carousel-indicators flat-indicators position-static mx-0 ml-4 ml-md-0">
               {% for company in site.clients limit:4 %}
               <li data-target="#testimonialCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
               {% endfor %}
@@ -135,7 +139,7 @@
         <div class="col-sm-4 col-md-6 mt-5 mt-sm-0 offset-lg-1">
           <picture>
             <source media="(min-width: 769px)" srcset="/uploads/global/client-sucess-team.jpg, /uploads/global/client-sucess-team@2x.jpg 2x">
-            <img src="/uploads/global/client-sucess-team_mob.jpg" srcset="/uploads/global/client-sucess-team_mob@2x.jpg 2x"  alt="6 portrait photos of the client success team, all smiling and all ruddy beautiful">
+            <img class="w-100" src="/uploads/global/client-sucess-team_mob.jpg" srcset="/uploads/global/client-sucess-team_mob@2x.jpg 2x"  alt="6 portrait photos of the client success team, all smiling and all ruddy beautiful">
           </picture>
         </div>
       </div>

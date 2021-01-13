@@ -8,7 +8,7 @@
     <div class="container">
       <div class="hero-textbottom__wrapper d-flex flex-column justify-content-end flex-lg-row align-items-lg-end h-100">
         <h1 class="headline-large mb-0">{{ page.intro }}</h1>
-        <div class="logo-area d-flex align-items-center mt-4 mt-lg-0 justify-content-lg-end">
+        <div class="logo-area d-flex align-items-center mt-5 mt-lg-0 justify-content-lg-end">
           <img src="/uploads/global/wundermobility-logo-stacked.svg" alt="Wunder Mobility white text logo" />
           <div class="vertical-divider">&nbsp;</div>
           <img data-src="{{ page.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.logo_white }} 2x" alt="{{ page.title }} white logo" />
@@ -80,9 +80,9 @@
     <div class="container text-center">
       <div class="row justify-content-center">
         {% for stat in page.stats %}
-        <div class="col-sm-3 col-lg-3  mb-5 mb-lg-0">
+        <div class="col-sm-3 {% unless forloop.last %} mb-4 pb-3 {% endunless %} mb-sm-0">
           <p>
-            <strong class="headline-medium mb-2 d-block">{{ stat.number }}</strong>
+            <strong class="headline-medium headline-stat mb-2 d-block">{{ stat.number }}</strong>
             {{ stat.text }}
           </p>
         </div>
@@ -103,7 +103,7 @@
   
   {% else %}
 
-  <section id="product-cta" class="fullwidth-bg grey-bg py-5 py-sm-0 mb-0">
+  <section id="product-cta" class="fullwidth-bg grey-bg pt-5 pb-4 py-sm-0 mb-0">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
@@ -170,7 +170,7 @@
           <p>{{ productText | strip }}</p>
           <a class="btn btn-outline-dark mt-4" href="/{{ product | downcase }}" title="Visit the Wunder {{ product }} product page">Learn more</a>
         </div>
-        <div class="col-sm-6 col-md-5 col-lg-6 mt-3 mt-sm-0 text-center">
+        <div class="col-sm-6 col-md-5 col-lg-6 mt-5 mt-sm-0 text-center">
           <img class="app-img w-100" data-src="{{ productImage | strip | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ productImage | strip }} 2x" alt="Mockup of the Wunder {{ product }} app on a smartphone." />
         </div>
       </div>
