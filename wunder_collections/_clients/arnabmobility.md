@@ -5,6 +5,7 @@ title: Arnab Mobility
 logo: "/uploads/2021/01/11/arnab-col-1-2x.png"
 intro: Convincing commuters in the Gulf region to leave their cars at home
 hero_image: "/uploads/2021/01/08/arnab-hero-2x.jpg"
+published: false
 the_details: Arnab Mobility provides a platform for light electric vehicle sharing
   in the UAE. Using <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet
   product page"><strong>Wunder Fleet's</strong></a> technology, Arnab has been able
@@ -35,9 +36,9 @@ image_gallery:
 - "/uploads/2021/01/08/arnab-gallery3-2x.jpg"
 quote:
   text: Building the software in-house and launching would have taken us 1.5 years
-    while with Wunder Mobility we hit the ground in less then six month.
+    while with Wunder Mobility we hit the ground in less than six months.
   name: Vaibhav Chauhan
-  job_title: Co-Founder, Arnab Mobility
+  job_title: Cofounder, Arnab Mobility
 logo_white: "/uploads/2021/01/11/arnab-1-2x.png"
 hero_is_carousel: true
 listing_image: "/uploads/2021/01/13/arnab-listimage-2x.jpg"

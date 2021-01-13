@@ -37,7 +37,12 @@ h2, .headline-medium {
     font-size: 40px;
     line-height: 44px;
   }
-
+  &.headline-stat {
+    @include rwd(tablet-down) {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  }
 }
 
 h3, .headline-small {
