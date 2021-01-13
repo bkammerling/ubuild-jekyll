@@ -16,11 +16,13 @@
 }
 
 .hero-textbottom { 
-  height: 760px;
+  height: calc(100vh - 120px); // 57px = height of navbar + some for mobile browser bar
+  min-height: 550px;
+  max-height: 760px;
   //max-height: 800px;
-  @include rwd(wide-up) {
-    //height: calc(100vh - 56px); // 57px = height of navbar
-    height: 850px;
+  @include rwd(tablet-up) {
+    height: calc(100vh - 56px); // 57px = height of navbar
+    max-height: 850px;
   }
   &__wrapper {
     padding-bottom: 110px;
