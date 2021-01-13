@@ -147,8 +147,8 @@ fields:
     type: text
     config:
       required: false
-    label: External URL
-    description: "<em>Include https://</em>"
+    label: Case study URL
+    description: "<em>If outside of Wunder, make sure to include 'https://'</em>"
   - name: supporting_image
     type: file
     config:
