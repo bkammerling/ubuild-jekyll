@@ -56,6 +56,5 @@ getting_started:
     subscribe.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
