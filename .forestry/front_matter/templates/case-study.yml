@@ -206,3 +206,9 @@ fields:
       path: 
   label: Product CTA
   description: Which product CTA section to display
+- name: listing_image
+  type: file
+  config:
+    maxSize: 1
+  label: Listing image
+  description: Appears on main clients page in grid of clients. If nothing is selected.
