@@ -154,6 +154,13 @@ fields:
     config:
       maxSize: 1
     label: Supporting Image
+  - name: cta_text
+    type: text
+    config:
+      required: false
+    label: CTA Button Text
+    description: 'Text appears in button link to case study. <em>Default: Learn more</em>'
+    default: Learn more
   label: Case Study CTA
   showOnly:
     field: show_cta
