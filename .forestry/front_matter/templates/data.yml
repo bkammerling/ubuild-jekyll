@@ -10,8 +10,8 @@ fields:
     type: list
     config:
       use_select: true
-      min: 
-      max: 
+      min: 2
+      max: 4
       source:
         type: pages
         section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
