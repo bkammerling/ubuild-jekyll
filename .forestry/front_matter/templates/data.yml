@@ -17,7 +17,7 @@ fields:
         section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
     label: Carousel / Quote Clients
     description: Choose clients for hero and quote carousels
-  - name: client_list_order
+  - name: featured_clients
     type: list
     config:
       use_select: true
@@ -26,9 +26,9 @@ fields:
       source:
         type: pages
         section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
-    label: Client List Order
-    description: 'Order of clients in the image listing on the clients homepage. <em>Default:
-      date</em>'
+    label: Featured Clients
+    description: 'Featured clients appear first on client list on clients homepage.
+      <em>Default: date.</em>'
   - name: client_cta
     type: text
     config:
