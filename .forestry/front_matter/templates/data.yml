@@ -2,33 +2,42 @@
 label: Data
 hide_body: true
 fields:
-- type: field_group_list
-  name: events
-  label: Events
+- name: clients
+  type: field_group
+  config: {}
   fields:
-  - type: text
-    name: title
-    label: Title
-  - type: text
-    name: url
-    label: URL
-  description: List of events to be displayed on careers - culture page
-- type: field_group_list
-  name: partners
-  label: Partners
-  description: Logos of our clients/partners
-  fields:
-  - type: text
-    name: title
-    label: Title
-    description: Company name
-  - type: file
-    name: logo
-    label: Logo
-  - type: text
-    name: url
-    label: URL
-    description: URL to the company's website
+  - name: carousel_clients
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
+    label: Carousel / Quote Clients
+    description: Choose clients for hero and quote carousels
+  - name: client_list_order
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
+    label: Client List Order
+    description: 'Order of clients in the image listing on the clients homepage. <em>Default:
+      date</em>'
+  - name: client_cta
+    type: text
+    config:
+      required: false
+    description: Appears after client list with a contact button
+    label: Client CTA
+    default: Let’s bring your vision to life
+  label: Clients
+  description: Settings for the client pages
 - name: hero_logo_rows
   type: field_group_list
   fields:
