@@ -71,3 +71,10 @@ hero_logo_names:
 - carpool
 - wunderpark
 - mainlogos
+clients:
+  carousel_clients:
+  - wunder_collections/_clients/greenmobility.md
+  - wunder_collections/_clients/blueduck.md
+  - wunder_collections/_clients/suwag.md
+  client_cta: Let’s bring your vision to life
+  client_list_order: []
