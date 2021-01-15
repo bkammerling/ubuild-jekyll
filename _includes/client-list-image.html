@@ -1,0 +1,14 @@
+{% assign company = includes.company %}
+<div class="col-sm-6 col-lg-4 mb-4">
+  <a href="{{ company.url }}" title="Read the case study of {{ company.title }} working with Wunder Mobility">
+    <div class="square w-shadow">
+      {% assign list_image = company.image_gallery[0] %}
+      {% if company.listing_image %} {% assign list_image = company.listing_image %} {% endif %}
+      <img data-src="{{ list_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ list_image }} 2x" />
+      <div class="square__overlay">
+        <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
+        <img data-src="{{ company.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo_white }} 2x" alt="White logo of {{ company.title }}" />
+      </div>
+    </div>
+  </a>
+</div>

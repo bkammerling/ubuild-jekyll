@@ -10,12 +10,14 @@
       <div class="col-xl-6 px-0 pl-xl-3 carousel-col"> 
         <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators flat-indicators justify-content-md-end">
-            {% for company in site.clients limit:4 %}
-            <li data-target="#headerCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
+            {% for companyPath in site.data.data.clients.carousel_clients limit:4 %}
+               <li data-target="#headerCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
             {% endfor %}
           </ol>
           <div class="carousel-inner">
-            {% for company in site.clients limit:4 %}
+            {% for company in site.clients %}
+              {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
+              {% unless site.data.data.clients.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
               {% assign hero_image = company.hero_image %}
               {% if company.hero_is_carousel and company.carousel_image.size > 5 %} {% assign hero_image = company.carousel_image %} {% endif %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
@@ -42,6 +44,7 @@
 <main>
 
   <section id="intro">
+    {{ site.clients | first }}
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
@@ -54,25 +57,20 @@
   <section id="client-list" class="pb-md-5">
     <div class="container">
       <div class="row">
-      {% for company in site.clients limit:4 %}
-        <div class="col-sm-6 col-lg-4 mb-4">
-          <a href="{{ company.url }}" title="Read the case study of {{ company.title }} working with Wunder Mobility">
-            <div class="square w-shadow">
-              {% assign list_image = company.image_gallery[0] %}
-              {% if company.listing_image %} {% assign list_image = company.listing_image %} {% endif %}
-              <img data-src="{{ list_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ list_image }} 2x" />
-              <div class="square__overlay">
-                <p class="font-weight-bold mb-2 mb-sm-4">{{ company.intro }}</p>
-                <img data-src="{{ company.logo_white | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo_white }} 2x" alt="White logo of {{ company.title }}" />
-              </div>
-            </div>
-          </a>
-        </div>
-      {% endfor %}
+        {% for company in site.data.data.clients.featured_clients %}
+          {% include client-list-image.html company=company %}
+        {% endfor %}
+        {% for company in site.clients %}
+          {% if site.data.data.clients.featured_clients contains company %}
+            {% continue %}
+          {% else %}
+            {% include client-list-image.html company=company %}
+          {% endif %}
+        {% endfor %}
         <div class="col-sm-6 col-lg-4">
           <div class="square d-flex align-items-center">
             <div class="px-3 px-xl-5 mr-lg-2 square__inner-text">
-              <h4 class="headline-medium">Let’s bring your vision to life</h4>
+              <h4 class="headline-medium">{{ site.data.data.clients.client_cta }}</h4>
               <a href="#section-contact" data-offset="20" class="text-link d-block mt-4">
                 Get in touch
                 <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,14 +91,16 @@
           <div class="carousel-header py-2 d-flex justify-content-between">
             <p>What our clients are saying</p>
             <ol class="carousel-indicators flat-indicators position-static mx-0 ml-4 ml-md-0">
-              {% for company in site.clients limit:4 %}
+              {% for company in site.data.data.clients.carousel_clients limit:4 %}
               <li data-target="#testimonialCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
               {% endfor %}
             </ol>
           </div>
           <hr>
           <div class="carousel-inner mt-md-5 mt-3 pt-4">
-            {% for company in site.clients limit:4 %}
+            {% for company in site.clients %}
+            {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
+            {% unless site.data.data.clients.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
               <div class="row">
                 <div class="col-md-2">
