@@ -78,3 +78,5 @@ clients:
   - wunder_collections/_clients/suwag.md
   client_cta: Let’s bring your vision to life
   client_list_order: []
+  featured_clients:
+  - wunder_collections/_clients/greenmobility.md
