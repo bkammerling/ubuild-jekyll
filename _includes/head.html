@@ -26,7 +26,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="{{ site.baseurl }}">
+    {% assign pageTitle = site.title %}
+      {% if page.title %} {% assign pageTitle = page.title %} {% endif %}
+      {% if page.layout == 'simple-article' %} {% assign pageTitle = page.title | append: " | Wunder Blog" %} {% endif %}
+      {% if page.layout == 'case-study' %} {% assign pageTitle = page.title | append: " | " | append: page.intro %} {% endif %}
+    <title>{{ pageTitle }}</title>
+    {% comment %}
     <title>{% if page.title %}{{ page.title }}{% if page.layout == 'simple-article' %} | Wunder Blog{% endif %}{% else %}{{ site.title }}{% endif %}</title>
+    {% endcomment %}
     {% if page.url contains 'blog' %}
       {% for person in site.people %}
         {% if person.path == page.author %}

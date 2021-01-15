@@ -13,7 +13,7 @@ the_details: Arnab Mobility provides a platform for light electric vehicle shari
   all in the region. An impressive feat for a geography so reliant on gasoline powered
   vehicles.
 company_url: https://arnabmobility.com/
-shared_vision: Arnab Mobility and Wunder Mobility share the vision of making sustainable
+description: Arnab Mobility and Wunder Mobility share the vision of making sustainable
   and affordable urban transportation available to everyone.
 show_stats: true
 stats:
