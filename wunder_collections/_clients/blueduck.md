@@ -10,7 +10,7 @@ the_details: Blue Duck provides environmentally friendly and affordable transpor
   is “Micromobility, Southern style.” Blue Duck, in partnership with Wunder Mobility,
   delivers micrmobility to smaller cities across the country.
 company_url: https://www.flyblueduck.com/
-shared_vision: "Blue Duck and Wunder Mobility’s shared vision is to bring micromobility
+description: "Blue Duck and Wunder Mobility’s shared vision is to bring micromobility
   and shared mobility \Lto all different markets."
 show_stats: false
 stats: []

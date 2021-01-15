@@ -10,7 +10,7 @@ the_details: Powered by <a href="https://www.wundermobility.com/fleet" title="Wu
   Their operational expertise, coupled with Wunder Mobility’s technology, has created
   the foundation for steady growth and profitability in the share mobility space.
 company_url: https://www.greenmobility.com/dk/en/
-shared_vision: Green Mobility and Wunder Mobility share the vision to replace car
+description: Green Mobility and Wunder Mobility share the vision to replace car
   ownership by car sharing with a fleet that is 100% run by e-vehicles
 show_stats: true
 stats:

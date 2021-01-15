@@ -12,7 +12,7 @@ the_details: Utility provider, Süwag Vertrieb AG &amp; Co KG, brings electric s
   to attract new customers, improve customer loyalty and positively contribute to
   sustainability efforts throughout the country.
 company_url: https://suewag2go.de/
-shared_vision: 'Süwag and Wunder Mobility believe that energy suppliers can build
+description: 'Süwag and Wunder Mobility believe that energy suppliers can build
   a promising, effective and sustainable foothold in shared mobility. '
 show_stats: true
 stats:

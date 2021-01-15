@@ -16,6 +16,11 @@
           </ol>
           <div class="carousel-inner">
             {% for company in site.clients %}
+              {% comment %}
+                Collection path, like in object above, looks like _clients/abc.md 
+                Multi-select field path, like in site.data..., lookies like wunder_collections/_clients/...
+                So we gotta format the path for the liquid filter to work
+              {% endcomment %}
               {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
               {% unless site.data.data.clients.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
               {% assign hero_image = company.hero_image %}
@@ -57,15 +62,17 @@
   <section id="client-list" class="pb-md-5">
     <div class="container">
       <div class="row">
-        {% for company in site.data.data.clients.featured_clients %}
-          {% include client-list-image.html company=company %}
-        {% endfor %}
         {% for company in site.clients %}
-          {% if site.data.data.clients.featured_clients contains company %}
-            {% continue %}
-          {% else %}
+          {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
+          {% if site.data.data.clients.featured_clients contains fullPath %}
             {% include client-list-image.html company=company %}
           {% endif %}
+        {% endfor %}
+        {% for company in site.clients %}
+          {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
+          {% unless site.data.data.clients.featured_clients contains fullPath %}
+            {% include client-list-image.html company=company %}
+          {% endunless %}
         {% endfor %}
         <div class="col-sm-6 col-lg-4">
           <div class="square d-flex align-items-center">

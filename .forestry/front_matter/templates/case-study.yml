@@ -75,7 +75,7 @@ fields:
   label: Company URL
   description: URL of the client's homepage (English if possible)<br><em>Include https://</em>
   default: ''
-- name: shared_vision
+- name: description
   type: textarea
   default: ''
   config:
