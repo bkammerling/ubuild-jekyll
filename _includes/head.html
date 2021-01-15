@@ -59,7 +59,7 @@
     {% else %}
       <meta property="og:type" content="website" />
     {% endif %}
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% if page.layout == 'simple-article'%} | Wunder Blog{% endif %}" />
+    <meta property="og:title" content="{{ pageTitle }}" />
     {% if page.url contains 'blog' and page.layout == 'simple-article' %}
       <meta property="og:description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
     {% else %}
