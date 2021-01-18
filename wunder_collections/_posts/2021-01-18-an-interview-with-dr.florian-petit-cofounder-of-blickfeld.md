@@ -21,7 +21,7 @@ excerpt: In the long term, I see enormous added value from autonomous driving, a
   rural regions.
 share_image: "/uploads/2021/01/18/210120.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 _Read this article in_ [_German_](https://bernstein-group.com/2021/01/06/personenbefoerderungsgesetz-als-spd-geben-wir-taxen-im-rahmen-des-oepnv-den-vorrang/).
