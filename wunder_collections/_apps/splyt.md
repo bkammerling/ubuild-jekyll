@@ -20,14 +20,19 @@ preview_gallery:
 - image-video: "/uploads/2021/01/11/lyft-robin-moradian.png"
   title: 'Lyft: Global travel app Ctrip is providing a seamless mobility experience
     to their users via Lyft and co. through Splyt''s technology'
-description: "<p>Most of us make journeys every day – whether we walk, cycle, hail
-  a ride, or catch a bus or train. But when we leave our hometowns and familiar areas,
-  working out how to make short trips at unfamiliar places can be difficult. Splyt
-  exists to make those journeys easy; whether it’s the trip between the rail station
-  and hotel or a way of exploring a new city. Our technology integrates local smart
-  mobility – from ride-hailing to bike share – in the apps travelers already use.
-  Let us bring you international customers and help them ride with you – via one simple
-  integration and at no cost to you!</p>"
+description: "<p>How many people visit your cities each year? And yet how many of
+  them never take a ride with you?</p><p>Think about it. Who wants to download an
+  app for one holiday? Or set up an account in a foreign language and pay through
+  an unfamiliar interface for one ride?</p><p>By joining Splyt's mobility marketplace,
+  you remove those friction points. Instead, customers can find, ride and pay for
+  your vehicles in their local apps. This might be their digital wallet, their journey
+  planner or the app they used to book their hotel. We enable customers to use sustainable
+  modes of transportation that are fitting to the cities they visit.</p><p>What’s
+  more, we provide visibility. Our app partners, which include Alipay, Booking.com,
+  Klook and more, encourage uptake through push notifications, banner ads and loyalty
+  point systems - at no cost to you, as you keep 100% of the original fare.</p><p>So
+  if you operate a fleet of scooters, bikes, mopeds or anything between, please reach
+  out to learn more.</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/01/11/1-robin-moradian.png"
   title: Increase Your Fleet Utilisation & Revenue
