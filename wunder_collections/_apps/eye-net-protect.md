@@ -7,7 +7,15 @@ excerpt: Eye-Net protect  is a SW add-on (SDK) designed to provide real-time pre
   alerts to pedestrians and micromobility riders by using smartphones and relying
   on existing cellular networks.
 featured: false
-preview_gallery: []
+preview_gallery:
+- image-video: "/uploads/2021/01/19/scotter_movie_english-gilad-steiner.mp4"
+  title: ''
+- image-video: ''
+  title: ''
+- image-video: ''
+  title: ''
+- image-video: ''
+  title: ''
 description: ''
 screenshot_details: []
 app_details: []
