@@ -9,15 +9,30 @@ excerpt: Eye-Net protect  is a SW add-on (SDK) designed to provide real-time pre
 featured: false
 preview_gallery:
 - image-video: "/uploads/2021/01/19/scotter_movie_english-gilad-steiner.mp4"
-  title: ''
-- image-video: ''
-  title: ''
-- image-video: ''
-  title: ''
-- image-video: ''
-  title: ''
-description: ''
-screenshot_details: []
+  title: Video
+- image-video: "/uploads/2021/01/19/capture-1-gilad-steiner.PNG"
+  title: Safe Micromobility , anytime, anywhere , pre-collision alerts
+- image-video: "/uploads/2021/01/19/capture-2-gilad-steiner.PNG"
+  title: How it works
+- image-video: "/uploads/2021/01/19/capture-3-gilad-steiner.PNG"
+  title: Unique Characteristics
+description: "<p>Filling the safety void Eye-Net develops cellular-based V2X ( vehicle
+  to everything) collision prediction and prevention solutions. The company’s innovative
+  Eye-Net protect safe micromobility solution is an intuitive and easy to-use mobile
+  application that provides real-time pre-collision alerts to pedestrians and micromobility
+  users. The anonymous service seamlessly integrates with personal smartphones and
+  relies on existing cellular networks without requiring a registered profile.</p>"
+screenshot_details:
+- screenshot: "/uploads/2021/01/19/capture-1-gilad-steiner.PNG"
+  title: Real time safety warning system for micromobility users
+  screenshot_description: The growing popularity of alternative transportation options
+    – both shared and owned – has changed the urban mobility landscape. E-bikes, e-scooters,
+    and hoverboards have become mainstream replacements for cars and public transportation,
+    a positive trend that eases traffic congestion while allowing greater maneuverability
+    on city streets.  However, unlike cars, which have multiple layers of protection,  micromobility
+    vehicles typically lack any kind of safety warning system. To ensure its continued
+    success and increase adoption, it's important to solve the problem of how to protect
+    riders and vulnerable road users.
 app_details: []
 access_needed: []
 getting_started: []
