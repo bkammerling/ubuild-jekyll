@@ -3,7 +3,7 @@ layout: marketplace-app
 category: Analytics and Monitoring
 title: Locale.ai
 icon: "/uploads/2021/01/06/darknavy-aditi-sinha.png"
-excerpt: Location Analystics for Opertaional Efficiency
+excerpt: Location Analytics for Operational Efficiency
 featured: false
 preview_gallery:
 - image-video: "/uploads/2021/01/06/locale-video-aditi-sinha.mp4"
