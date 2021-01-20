@@ -44,7 +44,7 @@ app_details:
 access_needed: []
 getting_started:
 - column_title: Try Fixico for free and Upload photos
-  column_description: Easily upload photos of your damage along with a small description.
+  column_description: Easily Upload photos of your damage along with a small description.
 - column_title: Compare quotes
   column_description: Compare several quotes from repair shops within your vicinity.
 - column_title: Repair your car
