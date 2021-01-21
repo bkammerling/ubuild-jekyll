@@ -12,7 +12,7 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
   city officials, and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
 title: An Interview with Dr. Florian Petit
-publish_date: 2021-01-21T00:00:00.000+00:00
+publish_date: 2021-01-21 06:00:00 +0000
 featured_image: "/uploads/2021/01/21/210120.jpg"
 excerpt: In the long term, I see enormous added value from autonomous driving, as
   it will make the roads much safer on the one hand and give everyone access to mobility
