@@ -8,11 +8,11 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/01/19/fixico-fleet-explainer-final-version-updated-with-subs-1-jens-roelofs.mp4"
   title: Video
-- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_01.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_02_01.png"
   title: Easily upload photos
-- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_02.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_02_02.png"
   title: Plan your repair
-- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_03.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_02_03.png"
   title: Leave a review
 description: "<p>Manage repairs from start to finish, reduce costs and offer a hassle-free
   journey. Fixico is an end-to-end car damage repair management platform. Via Fixico’s
