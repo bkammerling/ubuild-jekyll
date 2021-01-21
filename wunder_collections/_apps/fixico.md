@@ -8,26 +8,26 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/01/19/fixico-fleet-explainer-final-version-updated-with-subs-1-jens-roelofs.mp4"
   title: Video
-- image-video: "/uploads/2021/01/19/fixico_product_01-jens-roelofs.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_01.png"
   title: Easily upload photos
-- image-video: "/uploads/2021/01/19/fixico_product_02-jens-roelofs.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_02.png"
   title: Plan your repair
-- image-video: "/uploads/2021/01/19/fixico_product_03-jens-roelofs.png"
+- image-video: "/uploads/2021/01/21/fixico-x-wundermobility_03.png"
   title: Leave a review
 description: "<p>Manage repairs from start to finish, reduce costs and offer a hassle-free
   journey. Fixico is an end-to-end car damage repair management platform. Via Fixico’s
   personalised dashboard you get access to a marketplace with a network of over 2,000
   body repair shops across six countries.</p>"
 screenshot_details:
-- screenshot: "/uploads/2021/01/19/ups1_boost-driver-satisfaction-jens-roelofs.png"
+- screenshot: "/uploads/2021/01/21/ups1_boost-driver-satisfaction.png"
   title: Boost driver satisfaction
   screenshot_description: Offer a frictionless and convenient repair journey to your
     drivers.
-- screenshot: "/uploads/2021/01/19/usp2_lower-repair-costs-jens-roelofs.png"
+- screenshot: "/uploads/2021/01/21/usp2_lower-repair-costs.png"
   title: Lower repair costs
   screenshot_description: Save costs on repair and (external) experts, and never compromise
     on quality.
-- screenshot: "/uploads/2021/01/19/usp3_reduce-cycle-times-jens-roelofs.png"
+- screenshot: "/uploads/2021/01/21/usp3_reduce-cycle-times.png"
   title: Reduce cycle times
   screenshot_description: Streamline workflows, minimise manual activities, and schedule
     repairs more efficiently by utilising dynamic capacity.
@@ -51,7 +51,7 @@ getting_started:
   column_description: Select one of the quotes. We confirm the appointment with the
     repair shop and send you all the details.
 whitepaper_link: ''
-video_poster: ''
+video_poster: "/uploads/2021/01/21/fixico-video-thumbnail.png"
 published: false
 
 ---
