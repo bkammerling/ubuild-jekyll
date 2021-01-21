@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Customer Engagement
-title: Instant PhoneCheck
+title: Instant Phone Check
 icon: "/uploads/2021/01/21/tru-id-logo-paul-mcguire.png"
 excerpt: Improve user conversion with our easy to integrate silent authentication
   solution.
