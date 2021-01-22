@@ -35,7 +35,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label class="form-label" for="company">{% unless page.url == '/city' %}Company Name *{% else %}Your city *{% endunless %}</label>
+                  <label class="form-label" for="company">{% unless page.url == '/city' %}Company name *{% else %}Your city *{% endunless %}</label>
                   <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
                   <div class="bottom-border"></div>
                 </div>
@@ -80,7 +80,7 @@
             <div class="form-group shuttle carpool">
               <div class="select-wrapper">
                 <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
-                  <option disabled selected>Type of organisation *</option>
+                  <option disabled selected>Type of organization *</option>
                   <option value="Setting up" {{ nonConditionals }}>I am a setting up a new mobility service</option>
                   <option value="Already running" {{ nonConditionals }}>I am already running a mobility service</option>
                   <option value="Interested internal" {{ conditionals }}>I am interested in employee mobility solutions for my company</option>
