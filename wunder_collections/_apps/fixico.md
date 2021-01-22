@@ -52,6 +52,5 @@ getting_started:
     repair shop and send you all the details.
 whitepaper_link: ''
 video_poster: "/uploads/2021/01/21/fixico-video-thumbnail.png"
-published: false
 
 ---
