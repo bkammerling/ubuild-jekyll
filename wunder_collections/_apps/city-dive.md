@@ -58,6 +58,5 @@ getting_started:
   column_description: Start a free trial of City Dive to enable you to test its functionalities.
 whitepaper_link: "/uploads/2021/01/06/fluctuo-city-dive-2020-09-without-pricing-julien-chamussy.pdf"
 video_poster: ''
-published: false
 
 ---
