@@ -18,11 +18,14 @@ preview_gallery:
   title: Trips visualization
 - image-video: "/uploads/2021/01/06/city-dive-9-julien-chamussy.png"
   title: List of services monitored
-description: "<p>City Dive is a business intelligence tool that tracks the supply
-  and usage of shared-mobility services in 60+ European cities.</p><p>Get an overview
-  of daily metrics in each city:</p><ul><li><p>Fleet size &amp; total trips</p></li><li><p>Maps
-  on vehicles deployment</p></li><li><p>Maps on Origin/Destination of trips</p></li></ul><p>4
-  types of vehicles monitored (bikes, scooters, mopeds &amp; cars).</p>"
+description: <p>City Dive is a business intelligence tool that lets you track the
+  supply and use of shared-mobility services (bikes, scooters, mopeds, and cars) in
+  70+ European cities.</p><p class="MsoNormal">Get access to exclusive insights &amp;
+  daily metrics for each city:</p><ul><li><p>Fleet size &amp; total trips</p></li><li><p>Maps
+  on vehicles deployment</p></li><li><p>Maps on Origin/Destination of trips</p></li></ul><p
+  class="MsoNormal"><strong>Benchmark services in 70+ cities</strong></p><p class="MsoNormal">Compare
+  the KPIs of 140+ shared-mobility services (bikes, scooters, mopeds &amp; cars) in
+  more than 70 European cities.</p>
 screenshot_details:
 - screenshot: "/uploads/2021/01/06/city-dive-2-julien-chamussy.png"
   title: Benchmark services in 60 cities
@@ -56,7 +59,7 @@ getting_started:
     (or will be) available '
 - column_title: Start
   column_description: Start a free trial of City Dive to enable you to test its functionalities.
-whitepaper_link: "/uploads/2021/01/06/locale-whitepaper-for-logistics-aditi-sinha.pdf"
+whitepaper_link: "/uploads/2021/01/06/fluctuo-city-dive-2020-09-without-pricing-julien-chamussy.pdf"
 video_poster: ''
 published: false
 
