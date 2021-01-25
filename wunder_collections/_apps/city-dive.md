@@ -18,11 +18,11 @@ preview_gallery:
   title: Trips visualization
 - image-video: "/uploads/2021/01/06/city-dive-9-julien-chamussy.png"
   title: List of services monitored
-description: <p>City Dive is a business intelligence tool that lets you track the
+description: "<p>City Dive is a business intelligence tool that lets you track the
   supply and use of shared-mobility services (bikes, scooters, mopeds, and cars) in
-  70+ European cities.</p><p class="MsoNormal">Get access to exclusive insights &amp;
-  daily metrics for each city:</p><ul><li><p>Fleet size &amp; total trips</p></li><li><p>Maps
-  on vehicles deployment</p></li><li><p>Maps on Origin/Destination of trips</p></li></ul>
+  70+ European cities.<br><br>Get access to exclusive insights &amp; daily metrics
+  for each city:<br><br>- Fleet size &amp; total trips<br>- Maps on vehicles deployment<br>-
+  Maps on Origin/Destination of trips</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/01/06/city-dive-2-julien-chamussy.png"
   title: Benchmark services in 70+ cities
