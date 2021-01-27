@@ -54,6 +54,5 @@ getting_started:
   column_description: And you will be able to focus on what's important again.
 whitepaper_link: "/uploads/2021/01/07/onlogist_whitepaper_wunder.pdf"
 video_poster: ''
-published: false
 
 ---
