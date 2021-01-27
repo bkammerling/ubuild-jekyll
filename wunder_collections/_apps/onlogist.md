@@ -6,11 +6,11 @@ icon: "/uploads/2021/01/06/unnamed.jpg"
 excerpt: Changing the future of vehicle transportation.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2021/01/25/infografik_usp_marketplace_onlogist_1-1.jpeg"
+- image-video: "/uploads/2021/01/06/onlogist-product-1-philip-grave.jpg"
   title: " Fast & reliable"
-- image-video: "/uploads/2021/01/25/infografik_usp_marketplace_onlogist_1-2.jpeg"
+- image-video: "/uploads/2021/01/06/onlogist-product-2-philip-grave.jpg"
   title: Experienced & professional service providers
-- image-video: "/uploads/2021/01/25/infografik_usp_marketplace_onlogist_1-3.jpeg"
+- image-video: "/uploads/2021/01/06/onlogist-product-3-philip-grave.jpg"
   title: Accessible 24/7
 description: "<p>From first car registration to end of a car life cycle ONLOGIST offers
   a wide range of “on-demand” services around the use of cars and car sales. All integrated
