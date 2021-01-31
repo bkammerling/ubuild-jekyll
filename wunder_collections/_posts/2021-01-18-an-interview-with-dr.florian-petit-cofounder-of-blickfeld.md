@@ -11,8 +11,8 @@ cta_heading: " Sign Up for our Policy Brief"
 cta_text: Our bilingual policy brief is full of articles relevant to policymakers,
   city officials, and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
-title: An Interview with Dr. Florian Petit, Cofounder of Blickfeld.
-publish_date: 2021-01-21T00:00:00.000+00:00
+title: An Interview with Dr. Florian Petit
+publish_date: 2021-01-21 06:00:00 +0000
 featured_image: "/uploads/2021/01/21/210120.jpg"
 excerpt: In the long term, I see enormous added value from autonomous driving, as
   it will make the roads much safer on the one hand and give everyone access to mobility
@@ -24,7 +24,7 @@ sticky: false
 hidden: false
 
 ---
-_Read this article in_ [_German_](https://bernstein-group.com/2021/01/06/personenbefoerderungsgesetz-als-spd-geben-wir-taxen-im-rahmen-des-oepnv-den-vorrang/).
+_Read this article in_ [_German_](https://bernstein-group.com/2021/01/20/mobilitaet-als-ein-grundrecht-des-menschen/).
 
 ***
 
