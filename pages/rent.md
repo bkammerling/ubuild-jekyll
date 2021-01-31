@@ -17,7 +17,7 @@ page_sections:
     enabled: true
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Upgrade your rental services for the digital age
+  headline: Unlock new revenue streams for your rental business
   sub_logo: "/uploads/global/wunder-rent-white.svg"
   cta:
     button_text: Watch how it works
