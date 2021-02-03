@@ -148,10 +148,10 @@ wunder-de:
   sub: true
 - url: "/de/clients"
   weight: 1
-  title: Clients
+  title: Kunden
   identifier: false
   parent: false
-  subtitle: Explore how our clients are improving global mobility
+  subtitle: Entdecken Sie wie unsere Kunden die globale Mobilität verbessern
 - url: "/marketplace"
   target: "_blank"
   weight: 1

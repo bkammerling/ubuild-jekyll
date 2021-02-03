@@ -15,19 +15,19 @@
             {% endfor %}
           </ol>
           <div class="carousel-inner">
-            {% for company in site.clients %}
+            {% for company in site.clients_de %}
               {% comment %}
                 Collection path, like in object above, looks like _clients/abc.md 
                 Multi-select field path, like in site.data..., lookies like wunder_collections/_clients/...
                 So we gotta format the path for the liquid filter to work
               {% endcomment %}
               {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
-              {% unless site.data.data.clients.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
+              {% unless site.data.data.clients_de.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
               {% assign hero_image = company.hero_image %}
               {% if company.hero_is_carousel and company.carousel_image.size > 5 %} {% assign hero_image = company.carousel_image %} {% endif %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
               <a href="{{ company.url }}" class="">
-                <img data-src="{{ hero_image }}" class="" alt="Cityscape photo for location of {{ company.title }}" />
+                <img data-src="{{ hero_image | absolute_url }}" class="" alt="Cityscape photo for location of {{ company.title }}" />
               </a>
               <div class="carousel-caption">
                 <a href="{{ company.url }}" class="text-link text-white d-block mt-4">
@@ -61,22 +61,22 @@
   <section id="client-list" class="pb-md-5">
     <div class="container">
       <div class="row">
-        {% for company in site.clients %}
+        {% for company in site.clients_de %}
           {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
-          {% if site.data.data.clients.featured_clients contains fullPath %}
+          {% if site.data.data.clients_de.featured_clients contains fullPath %}
             {% include client-list-image.html company=company %}
           {% endif %}
         {% endfor %}
-        {% for company in site.clients %}
+        {% for company in site.clients_de %}
           {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
-          {% unless site.data.data.clients.featured_clients contains fullPath %}
+          {% unless site.data.data.clients_de.featured_clients contains fullPath %}
             {% include client-list-image.html company=company %}
           {% endunless %}
         {% endfor %}
         <div class="col-sm-6 col-lg-4">
           <div class="square d-flex align-items-center">
             <div class="px-3 px-xl-5 mr-lg-2 square__inner-text">
-              <h4 class="headline-medium">{{ site.data.data.clients.client_cta }}</h4>
+              <h4 class="headline-medium">{{ site.data.data.clients_de.client_cta }}</h4>
               <a href="#section-contact" data-offset="20" class="text-link d-block mt-4">
                 Kontaktieren Sie uns
                 <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,16 +97,16 @@
           <div class="carousel-header py-2 d-flex justify-content-between">
             <p>Das sagen unsere Kunden</p>
             <ol class="carousel-indicators flat-indicators position-static mx-0 ml-4 ml-md-0">
-              {% for company in site.data.data.clients.carousel_clients limit:4 %}
+              {% for company in site.data.data.clients_de.carousel_clients limit:4 %}
               <li data-target="#testimonialCarousel" data-slide-to="{{ forloop.index0 }}" class="bg-dark {% if forloop.first %} active {% endif %}"></li>
               {% endfor %}
             </ol>
           </div>
           <hr>
           <div class="carousel-inner mt-md-5 mt-3 pt-4">
-            {% for company in site.clients %}
+            {% for company in site.clients_de %}
             {% capture fullPath %}wunder_collections/{{ company.path }}{% endcapture %}
-            {% unless site.data.data.clients.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
+            {% unless site.data.data.clients_de.carousel_clients contains fullPath %}{% continue %}{% endunless %}  
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
               <div class="row">
                 <div class="col-md-2">
@@ -117,7 +117,7 @@
                 <div class="col-md-10 col-xl-9">
                   <blockquote>
                     <h3 class="headline-large">{{ company.quote.text }}</h3>
-                    <img class="mt-4" data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.title }} logo" />
+                    <img class="mt-4" data-src="{{ company.logo | replace: '@2x', '' | replace: '-2x', '' | absolute_url }}" data-srcset="{{ company.logo }} 2x" alt="{{ company.title }} logo" />
                   </blockquote>
                 </div>
               </div>
