@@ -1,7 +1,7 @@
 ---
 layout: blocks
-title: Clients & Our Shared Vision | Wunder Mobility
-description: Our clients come from all over the world — each one working to accelerate the global transition to sustainable mobility. Together, we want to make the world a greener, healthier and happier place through shared mobility.
+title: Unsere Kunden & Gemeinsame Vision | Wunder Mobility
+description: Unsere Kunden kommen aus der ganzen Welt und sie beschleunigen den globalen Übergang zur nachhaltigen Mobilität. Durch Shared Mobility wollen wir gemeinsam eine grüne, gesunde und glückliche Umwelt gestalten.
 share_image: ''
 date: '2020-01-12T12:00:00.000+00:00'
 permalink: "/de/clients"

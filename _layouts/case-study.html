@@ -2,8 +2,8 @@
 
 {% if page.language == "EN" %}
   {% include block-header-2.html include_cta="include" cta_text="Contact Us" cta_url="#section-contact" %}
-{% elsif language == "DE" %}
-  {% include block-header-2.html include_cta="include" cta_text="Kontaktieren Sie uns" cta_url="#section-contact" %}
+{% elsif page.language == "DE" %}
+  {% include block-header-2.html menu="wunder-de" include_cta="include" cta_text="Kontaktieren Sie uns" cta_url="#section-contact" %}
 {% endif %}
 <main>
 

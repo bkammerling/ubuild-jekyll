@@ -1,5 +1,7 @@
 {% if section.menu != null %}
   {% assign menu_name = section.menu %}
+{% elsif include.menu != null %}
+  {% assign menu_name = include.menu %}
 {% else %}
   {% assign menu_name = 'wunder-main' %}
 {% endif %}

@@ -24,6 +24,9 @@ collections:
   clients:
     permalink: "/clients/:name"
     output: true
+  clients_de:
+    permalink: "/de/clients/:name"
+    output: true
 collections_dir: wunder_collections
 include:
 - _redirects
