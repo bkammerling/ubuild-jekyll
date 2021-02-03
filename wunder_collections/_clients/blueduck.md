@@ -35,5 +35,6 @@ logo_white: "/uploads/2021/01/11/blue_duck-1-2x.png"
 carousel_image: ''
 hero_is_carousel: true
 listing_image: "/uploads/2021/01/13/blueduck-listimage-2x.jpg"
+language: "EN"
 
 ---
