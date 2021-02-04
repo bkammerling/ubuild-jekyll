@@ -3,7 +3,7 @@ layout: case-study
 product: Fleet
 title: Süwag2Go
 logo: "/uploads/2021/01/11/suwag_logo-1-2x.png"
-intro: "Energiedienstleister und der Weg zur gemeinsamen Mobilität"
+intro: "Energiedienstleister und der Weg zur \Lgemeinsamen Mobilität"
 hero_image: "/uploads/2021/01/08/suwag-hero-2x.jpg"
 the_details: Unter dem Namen Süwag2GO bringt Energiedienstleister Süwag Vertrieb AG & Co KG Elektroroller-Sharing in vier deutsche Städte—Frankfurt, Neuwied, Mainz, und Bad Homburg. Angetrieben von <a href="https://www.wundermobility.com/fleet"
   title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a> ist Süwag in der Lage neue Kunden zu gewinnen, die Beziehung zu ihren bestehenden Kunden zu verbessern und einen positiven Beitrag zur Nachhaltigkeit zu leisten. 

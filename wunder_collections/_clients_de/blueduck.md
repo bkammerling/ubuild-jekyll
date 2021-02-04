@@ -6,7 +6,7 @@ logo: "/uploads/2021/01/11/blue_duck-3-2x.png"
 intro: Micromobility im Süden der USA
 the_details: Blue Duck bietet umweltfreundliche und erschwingliche Transportlösungen im Südosten der Vereinigten Staaten. Unter dem Mantra “Micromobility, Southern style” und in Partnerschaft mit <a href="https://www.wundermobility.com/fleet" title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a> liefert Blue Duck Mikromobilität in kleinere Städte im ganzen Land.
 company_url: https://www.flyblueduck.com/
-description: "Die gemeinsame Vision von Blue Duck und Wunder Mobility ist es, Micromobility und Shared Mobility in verschiedene Märkte zu bringen."
+description: "Die gemeinsame Vision von Blue Duck und Wunder Mobility ist es, Micromobility und Shared Mobility \Lin verschiedene Märkte zu bringen."
 show_stats: false
 stats: []
 show_cta: false

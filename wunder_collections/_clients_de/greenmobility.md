@@ -3,7 +3,7 @@ layout: case-study
 product: Fleet
 title: Green Mobility
 logo: "/uploads/2021/01/11/greenmobility_logo_green_grey-1-2x.png"
-intro: "Elektro-Carsharing in Kopenhagen und ganz Europa"
+intro: "Elektro-Carsharing in \LKopenhagen und ganz Europa"
 the_details: Angetrieben von <a href="https://www.wundermobility.com/de/fleet" title="Wunder
   Fleet product page"><strong>Wunder Fleet</strong></a>, bietet GreenMobility in 7 Städten in Europa mühelose Transportmöglichkeiten für Privatkunden und Unternehmen. Ihr operatives Know-How, gepaart mit der Technologie von Wunder Mobility, hat die Grundlage für stetiges Wachstum und Profitabilität im Bereich Shared Mobility geschaffen.
 company_url: https://www.greenmobility.com/dk/en/
