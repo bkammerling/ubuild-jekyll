@@ -9,6 +9,20 @@ fields:
   hidden: true
   label: Layout
   default: case-study
+- name: language
+  type: select
+  default: EN
+  config:
+    required: true
+    options:
+    - EN
+    - DE
+    source:
+      type: simple
+      section: case-studies-d47c8f28-5702-4ed2-81d6-dbc2dad09571
+      file: wunder_collections/_clients/suwag.md
+      path: 
+  label: Language
 - name: title
   type: text
   config:

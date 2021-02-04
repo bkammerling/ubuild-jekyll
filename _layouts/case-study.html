@@ -1,7 +1,10 @@
 {% include head.html %}
 
-{% include block-header-2.html include_cta="include" cta_text="Contact Us" cta_url="#section-contact" %}
-
+{% if page.language == "EN" %}
+  {% include block-header-2.html include_cta="include" cta_text="Contact Us" cta_url="#section-contact" %}
+{% elsif page.language == "DE" %}
+  {% include block-header-2.html menu="wunder-de" include_cta="include" cta_text="Kontaktieren Sie uns" cta_url="#section-contact" %}
+{% endif %}
 <main>
 
   <section id="hero" class="hero-banner text-white hero-textbottom my-0">
@@ -50,12 +53,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h2 class="headline-medium">The details</h2>
+          <h2 class="headline-medium">
+            {% if page.language == "EN"%}
+              The details
+            {% elsif page.language == "DE" %}
+              Die Details
+            {% endif %}
+          </h2>
         </div>
         <div class="col-md-8 col-xl-7">
           <p>{{ page.the_details }}</p>
           <a href="{{ page.company_url }}" target="_blank" class="text-link d-block mt-4">
+            {% if page.language == "EN" %}
             Visit {{ page.title }}'s website
+            {% elsif page.language == "DE" %}
+            Erfahren Sie mehr über {{ page.title }}
+            {% endif %}
             <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
             </svg>
@@ -97,7 +110,13 @@
   <section id="video" class="mb-4">
     <div class="video-wrapper d-flex justify-content-center align-items-center">
       <img data-src="{{ page.video_poster | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.video_poster }} 2x" alt="Frame from a video case study of {{ page.title }}" />
-      <a class="text-link white-text with-play position-absolute" href="#" data-toggle="modal" data-target="#filmModal">Watch the video</a>
+      <a class="text-link white-text with-play position-absolute" href="#" data-toggle="modal" data-target="#filmModal">
+        {% if page.language == "EN" %}
+        Watch the video
+        {% elsif page.language == "DE" %}
+        Film Anschauen
+        {% endif %}
+      </a>
     </div>
   </section>
   
@@ -155,10 +174,13 @@
 
   
   {% assign product = page.product %}
+  {% assign language = page.language %}
   {% capture productText %}
-    {% if product == 'Fleet' %}Wunder Fleet is an all-in-one platform to help get your vehicle sharing company off the ground. Equipped with a mobile app, backend management system, and sharing-ready vehicles, Wunder Fleet can get you on the streets in no time.{% endif %}
-    {% if product == 'Carpool' %}Wunder Carpool enables employees to organize shared rides to work. Free up space in your parking, fight climate change and improve the daily commute with carpooling.{% endif %}
-  {% endcapture %}
+    {% if product == 'Fleet' and language == "EN" %}Wunder Fleet is an all-in-one platform to help get your vehicle sharing company off the ground. Equipped with a mobile app, backend management system, and sharing-ready vehicles, Wunder Fleet can get you on the streets in no time.{% endif %}
+    {% if product == 'Carpool' and language == "EN" %}Wunder Carpool enables employees to organize shared rides to work. Free up space in your parking, fight climate change and improve the daily commute with carpooling.{% endif %}
+    {% if product == 'Fleet' and language == "DE" %}Wunder Fleet ist eine All-in-one-Plattform, die Ihr Fahrzeug-Sharing Unternehmen auf den Weg bringt. Ausgerüstet mit einer Mobile-App, einem Backend-Management-System, und sharing-ready Fahrzeugen, Wunder Fleet kann Sie im Handumdrehen auf die Straße bringen.{% endif %}
+    {% if product == 'Carpool' and language == "DE" %}Wunder Carpool enables employees to organize shared rides to work. Free up space in your parking, fight climate change and improve the daily commute with carpooling.{% endif %}
+    {% endcapture %}
   {% capture productImage %}
     {% if product == 'Fleet' %}/uploads/global/fleet/fleet-app.gif{% endif %}
     {% if product == 'Carpool' %}/uploads/global/carpool-brandedscreens@2x.png{% endif %}
@@ -167,9 +189,20 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-6 col-md-7 col-lg-6">
-          <h2 class="headline-large">Get started with Wunder {{product}}</h2>
+          {% if page.language == "EN" %}
+            <h2 class="headline-large">Get started with Wunder {{product}}</h2>
+          {% elsif page.language == "DE" %}
+            <h2 class="headline-large">Starten Sie mit {{product}}</h2>
+          {% endif %}  
           <p>{{ productText | strip }}</p>
-          <a class="btn btn-outline-dark mt-4" href="/{{ product | downcase }}" title="Visit the Wunder {{ product }} product page">Learn more</a>
+            {% if page.language == "EN" %}
+            <a class="btn btn-outline-dark mt-4" href="/{{ product | downcase }}" title="Visit the Wunder {{ product }} product page">
+              Learn more 
+            {% elsif page.language == "DE" %} 
+            <a class="btn btn-outline-dark mt-4" href="/de/{{ product | downcase }}" title="Visit the Wunder {{ product }} product page">
+              Jetzt herunterladen
+            {% endif %}
+          </a>
         </div>
         <div class="col-sm-6 col-md-5 col-lg-6 mt-5 mt-sm-0 text-center">
           <img class="app-img w-100" data-src="{{ productImage | strip | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ productImage | strip }} 2x" alt="Mockup of the Wunder {{ product }} app on a smartphone." />
@@ -184,9 +217,14 @@
 
   <section id="discover-more">
     <div class="container text-center">
+      {% if page.language == "EN" %}
         <h2 class="headline-large">Discover more client <br class="d-none d-md-block" />success stories</h2>
         <a class="btn btn-outline-dark mt-4" href="/clients" title="Visit the Wunder Mobility clients page">Discover more</a>
-    </div>
+      {% elsif page.language == "DE" %}
+        <h2 class="headline-large">Entdecken Sie weitere <br class="d-none d-md-block" />Kundengeschichten</h2>
+        <a class="btn btn-outline-dark mt-4" href="/de/clients" title="Visit the Wunder Mobility clients page">Mehr entdecken</a>
+      {% endif %}
+      </div>
   </section>
 
 
@@ -213,7 +251,11 @@
 </div>
 {% endif %}
 
-{% include block-contact-form.html %}
+{% if page.language == "EN" %}
+  {% include block-contact-form.html %}
+{% elsif page.language == "DE" %}
+  {% include de/block-contact-form.html %}
+{% endif %}
 
 {% include block-footer-1.html %}
 
