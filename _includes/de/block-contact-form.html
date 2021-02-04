@@ -2,8 +2,8 @@
     <div class="contact-form__wrapper block-full-right col-2-in {{ section.bg }}">
       <div class="container container-fullright">
         <div class="boxed-form w-shadow">
-          <h2 class="page-heading headline-large text-center mb-2">{{ section.title }}</h2>
-          <p style="max-width: 480px" class="mx-auto mb-5 text-center">{{ section.content }}</p>
+          <h2 class="page-heading headline-large text-center mb-2">{{ section.title | default: "Kontaktieren Sie uns" }}</h2>
+          <p style="max-width: 480px" class="mx-auto mb-5 text-center">{{ section.content | default: "Ein Mitglied unseres Teams wird sich so schnell wie möglich mit Ihnen in Verbindung setzen." }}</p>
           <div class="contact-form__form">
             <form id="main-contact" class="ajaxForm" enctype="multipart/form-data" name="website-contact-form" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
               <p class="hidden">
@@ -80,7 +80,7 @@
               <div class="form-group shuttle carpool">
                 <div class="select-wrapper">
                   <select name="type-of-company" class="form-control select2-init conditional-trigger" style="width:100%" id="typeSelect" required=true>
-                    <option disabled selected>Type of organisation *</option>
+                    <option disabled selected>Art des Unternehmens *</option>
                     <option value="Setting up" {{ nonConditionals }}>Ich möchte einen neuen Mobilitätsservice starten</option>
                     <option value="Already running" {{ nonConditionals }}>Ich betreibe bereits einen Mobilitätsservice</option>
                     <option value="Interested internal" {{ conditionals }}>Ich suche nach Mobilitätslösungen für die Mitarbeiter meines Unternehmens</option>
