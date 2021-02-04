@@ -7,35 +7,37 @@
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
 <nav class="navbar {% if page.lang-ref != 'careers' %}fixed-top{% endif %} navbar-expand-lg block block-header-2 px-4">
-  <a class="navbar-brand" href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}">
-    <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">
-  </a>
-  <button class="hamburger hamburger--collapse header__hamburger d-lg-none" type="button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button>
-  <div class="collapse navbar-collapse">
-    <ul class="list-unstyled navbar-nav ml-auto">
-      {% for nav_item in menu %}
-      {% if nav_item.parent %}
-        {% continue %}
-      {% else %}
-        <li class="nav-item"><a class="nav-link body-text" href="{{ nav_item.url }}" data-target="{{ nav_item.identifier }}">{{ nav_item.title }}</a></li>
-      {% endif %}
-      {% endfor %}
-      {% if section.cta.enabled %}
-        <a class="btn btn-dark gt-navcta"
-          {% comment %}{% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020"{% endif %}{% endcomment %}
-          {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
-          href="{{ section.cta.url }}">
-          {{ section.cta.button_text }}
-        </a>
-      {% endif %}
-      {% if include.include_cta == "include" %}
-        <a class="btn btn-dark gt-navcta" href="{{ include.cta_url }}"> {{ include.cta_text }}</a>
-      {% endif %}
-    </ul>
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}">
+      <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">
+    </a>
+    <button class="hamburger hamburger--collapse header__hamburger d-lg-none" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="list-unstyled navbar-nav ml-auto">
+        {% for nav_item in menu %}
+        {% if nav_item.parent %}
+          {% continue %}
+        {% else %}
+          <li class="nav-item"><a class="nav-link body-text" href="{{ nav_item.url }}" data-target="{{ nav_item.identifier }}">{{ nav_item.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% if section.cta.enabled %}
+          <a class="btn btn-dark gt-navcta"
+            {% comment %}{% if page.lang-ref == 'summit' %}data-toggle="modal" data-target="#summitModal" data-subject="Attend WMS 2020"{% endif %}{% endcomment %}
+            {% if page.lang-ref == 'home' or page.lang-ref == 'about' %}data-toggle="modal" data-target="#formModal" data-subject="Get in touch with Wunder Mobility"{% endif %}
+            href="{{ section.cta.url }}">
+            {{ section.cta.button_text }}
+          </a>
+        {% endif %}
+        {% if include.include_cta == "include" %}
+          <a class="btn btn-dark gt-navcta" href="{{ include.cta_url }}"> {{ include.cta_text }}</a>
+        {% endif %}
+      </ul>
+    </div>
   </div>
 </nav>
 <div class="nav-full">
