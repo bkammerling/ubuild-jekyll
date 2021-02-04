@@ -40,5 +40,6 @@ getting_started:
 featured: false
 whitepaper_link: "/uploads/2020/08/25/wisemobility_onepager-megan-broccoli.pdf"
 video_poster: ''
+published: false
 
 ---
