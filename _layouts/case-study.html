@@ -110,7 +110,13 @@
   <section id="video" class="mb-4">
     <div class="video-wrapper d-flex justify-content-center align-items-center">
       <img data-src="{{ page.video_poster | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.video_poster }} 2x" alt="Frame from a video case study of {{ page.title }}" />
-      <a class="text-link white-text with-play position-absolute" href="#" data-toggle="modal" data-target="#filmModal">Watch the video</a>
+      <a class="text-link white-text with-play position-absolute" href="#" data-toggle="modal" data-target="#filmModal">
+        {% if page.language == "EN" %}
+        Watch the video
+        {% elsif page.language == "DE" %}
+        Film Anschauen
+        {% endif %}
+      </a>
     </div>
   </section>
   
