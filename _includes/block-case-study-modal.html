@@ -101,7 +101,6 @@
         })
         .done(function (response) {
           $("#whitepaper-link").attr("href", "{{ page.case_study_cta.external_url | downcase }}");
-          contactForm.find(".form-content").addClass("hidden");
           contactForm.find(".form-feedback").removeClass("hidden");
           contactForm.modal('handleUpdate');
           contactForm.trigger("reset");
