@@ -146,6 +146,12 @@ wunder-de:
   title: Extensions
   identifier: extensions
   sub: true
+- url: "/de/clients"
+  weight: 1
+  title: Kunden
+  identifier: false
+  parent: false
+  subtitle: Entdecken Sie wie unsere Kunden die globale Mobilität verbessern
 - url: "/marketplace"
   target: "_blank"
   weight: 1

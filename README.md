@@ -2,6 +2,35 @@
 
 Built as a static site with the help of [Jekyll](https://jekyllrb.com/) and `ubuild-jekyll` which is a Jekyll theme designed to work with [Forestry](https://forestry.io/), a Static Site CMS.
 
+## Setting up the dev environment
+1. Install Jekyll
+```
+gem install bundler jekyll
+```
+
+2. Install packages
+```
+bundle install
+```
+
+3. Run local server
+```
+bundle exec jekyll serve
+```
+## The Client page and collection:
+### Where the data lives
+The Client pages in both English and German utilize the `data_yml` frontmatter to determine which client testimonials/case studies are featured in the Banner and Quote carousels. 
+
+### Layout used for client testimonials
+Both english and german client collections use the `case-study.html` 
+
+### Troubelshooting
+If the carousels are not working, it is likely an issue with this line:
+```
+<div class="carousel-item {% if forloop.first %} active {% endif %}">
+```
+At the point of writing, we are looping over collections, one separate one for each language. This is because if we used a filter and integrated both languages into 1 collection, this would cause the `forloop.first` to break. Eg Blueduck is the first item, and de/Blueduck is the second item. If we looped over the collection containing both sets of languages, even if de/Blueduck is the first item in the German language, it will not be the 1st item in the collections array, and hence will not be assigned the `active` class.
+
 ## Plugins
 
 Currently using:

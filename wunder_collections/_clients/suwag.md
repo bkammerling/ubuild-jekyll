@@ -5,15 +5,15 @@ title: Süwag2Go
 logo: "/uploads/2021/01/11/suwag_logo-1-2x.png"
 intro: "Energy service providers and the path \Lto shared mobility"
 hero_image: "/uploads/2021/01/08/suwag-hero-2x.jpg"
-the_details: Utility provider, Süwag Vertrieb AG &amp; Co KG, brings electric scooter
+the_details: Utility provider Süwag Vertrieb AG &amp Co KG, brings electric scooter
   sharing to four cities across Germany—Frankfurt, Neuwied, Mainz, and Bad Homburg—
   under the name Süwag2Go. Powered by <a href="https://www.wundermobility.com/fleet"
   title="Wunder Fleet product page"><strong>Wunder Fleet</strong></a>, Süwag is able
   to attract new customers, improve customer loyalty and positively contribute to
   sustainability efforts throughout the country.
 company_url: https://suewag2go.de/
-description: 'Süwag and Wunder Mobility believe that energy suppliers can build
-  a promising, effective and sustainable foothold in shared mobility. '
+description: 'Süwag and Wunder Mobility believe that energy suppliers can build a
+  promising, effective and sustainable foothold in shared mobility. '
 show_stats: true
 stats:
 - number: "4"
@@ -41,5 +41,6 @@ quote:
 logo_white: "/uploads/2021/01/11/suwag-1-2x.png"
 hero_is_carousel: true
 listing_image: "/uploads/2021/01/13/suwag-listimage-2x.jpg"
+language: "EN"
 
 ---
