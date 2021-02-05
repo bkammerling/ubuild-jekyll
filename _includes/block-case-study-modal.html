@@ -9,8 +9,16 @@
         <div class="modal-body">
           <div class="container">
             <h4 class="modal-title text-center headline-medium mb-4" id="formModalLabel">{{ page.case_study_cta.heading }}</h4>
-              <p class="form-feedback hidden">Thank you for submitting your information! The file should open automatically. If it doesn’t,
-                <a id="whitepaper-link" target="_blank" href="{{ page.case_study_cta.external_url | downcase }}" title="Open the {{ page.title }} file in a new tab" class="d-inline text-blue">click here to access the file.</a>
+              <p class="form-feedback hidden">
+                {% if page.language == "EN" or page.lang == "en" %}
+                  Thank you for submitting your information! <br/>
+                  The file should open automatically. If it doesn’t,
+                  <a id="whitepaper-link" target="_blank" href="{{ page.case_study_cta.external_url | downcase }}" title="Open the {{ page.title }} file in a new tab" class="d-inline text-blue">click here to access the file.</a>
+                {% elsif page.language == "DE" or page.lang == "de" %}
+                  Vielen Dank für Ihre Angaben! <br/>
+                  Die Datei sollte sich automatisch öffnen. Wenn nicht,
+                  <a id="whitepaper-link" target="_blank" href="{{ page.case_study_cta.external_url | downcase }}" title="um die Datei aufzurufen." class="d-inline text-blue">dann klicken Sie hier, um die Datei aufzurufen.</a>
+                {% endif %}
               </p>
             <div class="form-content">
               <div class="form-group mb-3">
@@ -19,17 +27,29 @@
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_email">Email</label>
+                <label class="form-label" for="modal_email">E-mail</label>
                 <input class="" id="modal_email" name="email" required type="email"/>
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_phone">Role</label>
+                <label class="form-label" for="modal_phone">
+                  {% if page.language == "EN" or page.lang == "en" %}
+                    Role
+                  {% elsif page.language == "DE" or page.lang == "de" %}
+                    Position
+                  {% endif %}
+                </label>
                 <input class="" id="modal_role" name="role" required type="text"/>
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_phone">Company</label>
+                <label class="form-label" for="modal_phone">
+                  {% if page.language == "EN" or page.lang == "en" %}
+                    Company
+                  {% elsif page.language == "DE" or page.lang == "de" %}
+                    Unternehmen
+                  {% endif %}
+                </label>
                 <input class="" id="modal_company" name="company" required type="text"/>
                 <div class="bottom-border"></div>
               </div>
@@ -37,9 +57,11 @@
               <div class="row mt-3">
                 <div class="col-sm-10 text-right">
                   <button class="btn btn-primary" id="modal_form-submit" onclick="downloadModalSubmission(event)">
-                    View the
-                    {{ page.title }}
-                    case study.
+                    {% if page.language == "EN" or page.lang == "en" %}
+                      View the {{ page.title }} case study
+                    {% elsif page.language == "DE" or page.lang == "de" %}
+                      Die {{ page.title }} Case Study ansehen
+                    {% endif %}
                   </button>
                 </div>
               </div>
@@ -87,7 +109,9 @@
             .find(".form-group")
             .removeClass("focused")
             .removeClass("valid");
-          window.open("{{ page.case_study_cta.external_url | downcase }}", "_blank");
+          setTimeout(
+            window.open("{{ page.case_study_cta.external_url | downcase }}", "_blank"), 
+            3000)
           $("#modal_form-submit").attr("disabled", false);
         })
         .fail(function (error) {
