@@ -42,5 +42,6 @@ hero_image: "/uploads/2021/01/05/green-mobility-hero-2x.jpg"
 logo_white: "/uploads/2021/01/11/greenmobility_logo_white-1-2x.png"
 hero_is_carousel: true
 listing_image: "/uploads/2021/01/13/greenmobility-listimage-2x.jpg"
+language: "EN"
 
 ---
