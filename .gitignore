@@ -3,6 +3,7 @@
 node_modules/
 .sass-cache/
 .jekyll-metadata
+Gemfile.lock
 
 # Ensure Hugo builds aren't committed to Git
 public/

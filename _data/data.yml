@@ -80,3 +80,12 @@ clients:
   client_list_order: []
   featured_clients:
   - wunder_collections/_clients/greenmobility.md
+clients_de:
+  carousel_clients:
+  - wunder_collections/_clients_de/greenmobility.md
+  - wunder_collections/_clients_de/blueduck.md
+  - wunder_collections/_clients_de/suwag.md
+  client_cta: Lassen Sie uns Ihre Vision verwirklichen
+  client_list_order: []
+  featured_clients:
+  - wunder_collections/_clients_de/greenmobility.md
