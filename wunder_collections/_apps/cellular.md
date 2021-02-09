@@ -58,10 +58,14 @@ getting_started:
 - column_title: Get in touch
   column_description: Fill in the form on this page, write us an email, give us a
     call or drop by for a coffee.
-- column_title: ''
-  column_description: ''
-- column_title: ''
-  column_description: ''
+- column_title: Schedule a free consultation with our mobility experts
+  column_description: Our strategy, design and or development experts would be happy
+    to analyze your existing offerings and show you the potential for optimization
+    in your digitization strategy.
+- column_title: Start with a workshop
+  column_description: To find out if the chemistry is right, we like to start with
+    a workshop with potential customers oder partners. Either we start with a concrete
+    requirement or we look at your digital roadmap together.
 whitepaper_link: ''
 video_poster: ''
 published: false
