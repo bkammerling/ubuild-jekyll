@@ -3,22 +3,22 @@ layout: marketplace-app
 category: Integrations (API)
 title: Eye-Net protect
 icon: "/uploads/2021/01/19/eye-net_logo_square-gilad-steiner.jpg"
-excerpt: Eye-Net protect is an SW add-on (SDK) designed to provide real-time pre-collision
-  alerts to pedestrians and micromobility riders by using smartphones and relying
-  on existing cellular networks.
+excerpt: Eye-Net protect is a software add-on (SDK) designed to provide real-time
+  pre-collision alerts to pedestrians and micromobility users by using smartphones
+  and relying on existing cellular networks.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2021/01/19/scotter_movie_english-gilad-steiner.mp4"
+- image-video: "/uploads/2021/02/09/eye-net-collision-avoidance-technology-protecting-road-users-anywhere-all-the-time.mp4"
   title: Video
 - image-video: "/uploads/2021/01/19/capture-1-gilad-steiner.PNG"
   title: Safe Micromobility , anytime, anywhere , pre-collision alerts
-- image-video: "/uploads/2021/01/19/capture-2-gilad-steiner.PNG"
+- image-video: "/uploads/2021/02/09/how-it-works_revised.PNG"
   title: How it works
-- image-video: "/uploads/2021/01/19/capture-3-gilad-steiner.PNG"
+- image-video: "/uploads/2021/02/09/unique-characteristics_revised.PNG"
   title: Unique Characteristics
-description: "<p>Filling the safety void Eye-Net develops cellular-based V2X ( vehicle
+description: "<p>Filling the safety void, Eye-Net develops cellular-based V2X (vehicle
   to everything) collision prediction and prevention solutions. The company’s innovative
-  Eye-Net protect safe micromobility solution is an intuitive and easy to-use mobile
+  Eye-Net™. Protect safe micromobility solution is an intuitive and easy-to-use mobile
   application that provides real-time pre-collision alerts to pedestrians and micromobility
   users. The anonymous service seamlessly integrates with personal smartphones and
   relies on existing cellular networks without requiring a registered profile.</p>"
@@ -52,7 +52,7 @@ getting_started:
   column_description: ''
 - column_title: Guide on how to install and start to use the SDK
   column_description: ''
-whitepaper_link: "/uploads/2021/01/19/eye-net-brochure-micromobility-gilad-steiner.pdf"
+whitepaper_link: "/uploads/2021/02/09/micromobility-01-21_low-res.pdf"
 video_poster: ''
 published: false
 
