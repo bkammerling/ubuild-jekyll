@@ -52,7 +52,7 @@ getting_started:
   column_description: ''
 - column_title: Guide on how to install and start to use the SDK
   column_description: ''
-whitepaper_link: "/uploads/2021/01/19/eye-net-brochure-micromobility-gilad-steiner.pdf"
+whitepaper_link: "/uploads/2021/02/09/micromobility-01-21_low-res.pdf"
 video_poster: ''
 published: false
 
