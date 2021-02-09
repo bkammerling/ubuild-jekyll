@@ -42,18 +42,29 @@
                 <input class="" id="modal_company" name="company" required type="text"/>
                 <div class="bottom-border"></div>
               </div>
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_sales" name="deep_dive_with_sales?" value="true">
+                  <label for="modal_sales" class="form-check-label custom-control-label font-weight-bold">
+                    {% if page.language == "EN" or page.lang == "en" %}
+                    I am interested in having a conversation with a Wunder Mobility sales representative.
+                    {% elsif page.language == "DE" or page.lang == "de" %}
+                    Ich bin an einem Gespräch mit einem Wunder Mobility Vertriebsmitarbeiter interessiert.
+                    {% endif %} 
+                  </label>
+                </div>
+              </div>
               <input id="modal_captchaResponse" name="g-recaptcha-response" type="hidden"/>
+              <input id="modal_case_study_company" name="case_study_name" value="{{ page.title }}" type="hidden">
               <div class="row my-3">
                 <div class="col-sm-12">
                   <p class="form-feedback hidden">
                     {% if page.language == "EN" or page.lang == "en" %}
-                      Thank you for submitting your information! <br/>
-                      The file should open automatically. If it doesn’t,
-                      <a id="whitepaper-link" target="_blank" href="{{ page.case_study_cta.external_url | downcase }}" title="Open the {{ page.title }} file in a new tab" class="d-inline text-blue">click here to access the file.</a>
+                    Thank you for submitting your information!<br>
+                    You'll receive a link to the case study in your email shortly. If you did not receive the email, you can always contact us at <a href="mailto:marketing@wundermobility.com" target="_blank">marketing@wundermobility.com</a>
                     {% elsif page.language == "DE" or page.lang == "de" %}
-                      Vielen Dank für Ihre Angaben! <br/>
-                      Die Datei sollte sich automatisch öffnen. Wenn nicht,
-                      <a id="whitepaper-link" target="_blank" href="{{ page.case_study_cta.external_url | downcase }}" title="um die Datei aufzurufen." class="d-inline text-blue">dann klicken Sie hier, um die Datei aufzurufen.</a>
+                    Vielen Dank für Ihre Angaben!<br>
+                    Sie erhalten in Kürze einen Link zur Case Study per E-Mail. Wenn Sie die E-Mail nicht erhalten haben, dann kontaktieren Sie uns bitte über <a href="mailto:marketing@wundermobility.com" target="_blank">marketing@wundermobility.com</a>
                     {% endif %}
                   </p>
                 </div>
@@ -63,7 +74,7 @@
                   <button class="btn btn-primary mx-auto" id="modal_form-submit" onclick="downloadModalSubmission(event)">
                     {% if page.language == "EN" or page.lang == "en" %}
                       View the {{ page.title }} case study
-                    {% elsif page.language == "DE" or page.lang == "de" %}
+                    {% elsif page.languaßge == "DE" or page.lang == "de" %}
                       Die {{ page.title }} Case Study ansehen
                     {% endif %}
                   </button>
@@ -104,7 +115,6 @@
           }
         })
         .done(function (response) {
-          $("#whitepaper-link").attr("href", "{{ page.case_study_cta.external_url | downcase }}");
           contactForm.find(".form-feedback").removeClass("hidden");
           contactForm.modal('handleUpdate');
           contactForm.trigger("reset");
@@ -112,7 +122,6 @@
             .find(".form-group")
             .removeClass("focused")
             .removeClass("valid");
-          window.open("{{ page.case_study_cta.external_url | downcase }}", "_blank");
           $("#modal_form-submit").attr("disabled", false);
         })
         .fail(function (error) {
