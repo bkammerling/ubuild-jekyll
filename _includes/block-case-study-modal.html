@@ -11,12 +11,12 @@
             <h4 class="modal-title text-center headline-medium mb-5" id="formModalLabel">{{ page.case_study_cta.heading }}</h4>
             <div class="form-content">
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_recipient-name">Full Name</label>
+                <label class="form-label" for="modal_recipient-name">Full Name *</label>
                 <input class="" id="modal_recipient-name" name="name" required type="text"/>
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_email">E-mail</label>
+                <label class="form-label" for="modal_email">E-mail *</label>
                 <input class="" id="modal_email" name="email" required type="email"/>
                 <div class="bottom-border"></div>
               </div>
@@ -27,6 +27,7 @@
                   {% elsif page.language == "DE" or page.lang == "de" %}
                     Position
                   {% endif %}
+                   *
                 </label>
                 <input class="" id="modal_role" name="role" required type="text"/>
                 <div class="bottom-border"></div>
@@ -38,6 +39,7 @@
                   {% elsif page.language == "DE" or page.lang == "de" %}
                     Unternehmen
                   {% endif %}
+                   *
                 </label>
                 <input class="" id="modal_company" name="company" required type="text"/>
                 <div class="bottom-border"></div>
