@@ -54,6 +54,5 @@ getting_started:
   column_description: ''
 whitepaper_link: "/uploads/2021/02/09/micromobility-01-21_low-res.pdf"
 video_poster: ''
-published: false
 
 ---
