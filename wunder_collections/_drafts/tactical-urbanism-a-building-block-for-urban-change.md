@@ -9,9 +9,9 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: []
 title: 'Tactical Urbanism: A Building Block for Urban Change'
 publish_date: 
-featured_image: ''
+featured_image: "/uploads/2021/02/11/110221_02.jpg"
 excerpt: ''
-share_image: ''
+share_image: "/uploads/2021/02/11/110221_02-1.jpg"
 sticky: false
 hidden: false
 
