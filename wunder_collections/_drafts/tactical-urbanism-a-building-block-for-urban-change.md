@@ -15,12 +15,18 @@ cta_link: pages/bernstein-newsletter.md
 title: 'Tactical Urbanism: A Building Block for Urban Change'
 publish_date: 2021-02-11 15:00:00 +0000
 featured_image: "/uploads/2021/02/11/110221_02.jpg"
-excerpt: ''
+excerpt: 'Redistributing public spaces like car lanes and parking spots in order for
+  citizens to engage more actively with their public infrastructure is part of a new
+  movement in highly dense urban areas. '
 share_image: "/uploads/2021/02/11/110221_02-1.jpg"
 sticky: false
 hidden: false
 
 ---
+_Read this article in_ [_German_](https://bernstein-group.com/de/2021/02/11/taktischer-urbanismus-ein-baustein-fuer-den-urbanen-wandel/)_._
+
+***
+
 The rise of pop-up bike lanes and the extension of pedestrian spaces during the COVID-19 pandemic is a phenomenon that has impacted many cities around the world. New rules and routines of social distancing became the ‘new normal’ as recommendations for walking and biking were formulated for safe methods of mobility in urban environments. Research shows that by May 2020, local actions to support walking and cycling during times of social distancing were implemented in more than 140 cities worldwide, with many of them repurposing parking spaces and street lanes.
 
 Redistributing public spaces like car lanes and parking spots in order for citizens to engage more actively with their public infrastructure is part of a new movement in highly dense urban areas. Urban planning around the world has often prioritized the space for cars, resulting in a concrete jungle that doesn’t invite visitors and citizens to dwell. Local communities have taken on the challenge to involve citizens to come up with ideas and validate alternatives that make their city more liveable. Already in 2005 city planners and activists in the U.S. created ideas on how citizen-led projects could showcase the possibilities of redesigning parking spaces to their policy makers. By 2009 this activism caused Times Square, New York City’s largest traffic intersection, to be partially converted into a pedestrian zone for city dwellers. Starting with the intention of a short-term action, the initiative was so well received that city representatives decided to make the partial transformation of Times Square permanent.
