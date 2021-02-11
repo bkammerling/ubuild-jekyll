@@ -1,9 +1,9 @@
 ---
 layout: marketplace-app
 category: Integrations (API)
-title: Eye-Net protect
+title: Eye-Net™ Protect
 icon: "/uploads/2021/01/19/eye-net_logo_square-gilad-steiner.jpg"
-excerpt: Eye-Net protect is a software add-on (SDK) designed to provide real-time
+excerpt: Eye-Net™ Protect is a software add-on (SDK) designed to provide real-time
   pre-collision alerts to pedestrians and micromobility users by using smartphones
   and relying on existing cellular networks.
 featured: false
@@ -18,7 +18,7 @@ preview_gallery:
   title: Unique Characteristics
 description: "<p>Filling the safety void, Eye-Net develops cellular-based V2X (vehicle
   to everything) collision prediction and prevention solutions. The company’s innovative
-  Eye-Net™. Protect safe micromobility solution is an intuitive and easy-to-use mobile
+  Eye-Net™ Protect safe micromobility solution is an intuitive and easy-to-use mobile
   application that provides real-time pre-collision alerts to pedestrians and micromobility
   users. The anonymous service seamlessly integrates with personal smartphones and
   relies on existing cellular networks without requiring a registered profile.</p>"
@@ -54,6 +54,5 @@ getting_started:
   column_description: ''
 whitepaper_link: "/uploads/2021/02/09/micromobility-01-21_low-res.pdf"
 video_poster: ''
-published: false
 
 ---

@@ -10,6 +10,6 @@ hero_img: uploads/global/marketplace/partners-hero@2x.jpg
 permalink: "/marketplace/partner-program"
 version: hp
 static_block: marketplace/block-partnerprogram
-api_docs: "/uploads/2020/12/14/api_docs-wunder_marketplace_14122020.zip"
+api_docs: "/uploads/2021/02/10/api_docs-wunder_marketplace_10022021.zip"
 
 ---
