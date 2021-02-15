@@ -69,6 +69,5 @@ getting_started:
     requirement or we look at your digital roadmap together.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
