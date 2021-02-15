@@ -1,4 +1,4 @@
-<section class="block block-hero-hp">
+<section class="block block-hero-hp" id="hero">
   <div class="hero-banner">
     {% assign vidLength = section.background_video | size %}
     {% if vidLength > 2 %}
@@ -16,6 +16,9 @@
               <img class="mb-3" src="{{ section.sub_logo }}" alt="Wunder product logo" />
             {% endif %}
             <h1 class="headline-large">{{ section.headline }}</h1>
+            {% if section.subheadline %}
+            <h2 class="headline-small">{{ section.subheadline }}</h2>
+            {% endif %}
             {% if section.cta.enabled %}
               <a class="gt-headercta text-link white-text {% if section.cta.button_text contains 'film' or section.cta.button_text contains 'Film' or section.cta.button_text contains 'Watch' or section.cta.button_text contains 'Schauen' %}with-play gt-videoplay{% endif %}" href="{{ section.cta.url }}" target="_blank"{% if section.cta.button_text contains "film" or section.cta.button_text contains 'Film'  or section.cta.button_text contains 'Watch' %} data-toggle="modal" data-target="#filmModal"{% endif %}>{{ section.cta.button_text }}</a>
             {% endif %}
