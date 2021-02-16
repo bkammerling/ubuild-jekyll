@@ -1,0 +1,34 @@
+<div class="comparison-slider" id="volta-marketing">
+  <figure>
+    <div class="handle" id="comparison_handle"></div>
+    <div class="divider" id="comparison_divider"></div>
+  </figure>
+  <input type="range" min="0" max="100" value="50" id="comparison_slider" oninput="moveDivider()">
+</div>
+
+<style>
+  figure {
+    background-image: url("/uploads/global/rent-new-possibilities@2x.jpg")
+  }
+  .divider {
+    background-image: url("/uploads/global/sanfran.jpg");
+  }
+</style>
+<script>
+var comparison_divider = document.getElementById("comparison_divider"),
+    comparison_handle = document.getElementById("comparison_handle"),
+    comparison_slider = document.getElementById("comparison_slider");
+
+function moveDivider() {
+  comparison_handle.style.left = comparison_slider.value+"%";
+	comparison_divider.style.width = comparison_slider.value+"%";
+}
+
+comparison_slider.addEventListener(input, ()=>{
+  moveDivider();
+});
+
+window.onload = function() {
+	moveDivider();
+};
+</script>
