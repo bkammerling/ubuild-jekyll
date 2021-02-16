@@ -410,8 +410,8 @@ var contentDropdown = {
 if($(".content-dropdown").length>0) contentDropdown.init();
 
 
-if($("input[type='range']").length) {
-  $("input[type='range']").on('input',function() {
+if($("input[type='range'].wunder-range").length) {
+  $("input[type='range'].wunder-range").on('input',function() {
     var percent = $(this).val() / $(this).attr('max') * 100;
     $(this).css('background', 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF ' + percent + '%, #ffffff90 ' + percent + '%, #ffffff90 100%)');
     $('.range-label').css('left', 'calc(' + percent + '% - 30px)').text(numberWithCommas($(this).val()));
