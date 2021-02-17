@@ -14,12 +14,12 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/home.md
 title: Can New Mobility Become Profitable?
 publish_date: 2021-02-17 00:00:00 +0000
-featured_image: "/uploads/2021/02/16/morgan-housel-pcdggex9-ja-unsplash.jpg"
+featured_image: "/uploads/2021/02/17/blog-social-share-profitability.jpg"
 excerpt: Many new mobility companies struggle with slow growth and high initial investments.
   The idea of profitability almost seems too good to be true. But is it?
-share_image: ''
+share_image: "/uploads/2021/02/17/blog-social-share-profitability.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 ###### _Many new mobility companies struggle with slow growth and high initial investments. The idea of profitability almost seems too good to be true. But is it?_
