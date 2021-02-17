@@ -34,4 +34,9 @@ page_sections:
   hide_menu: false
   show_poweredby: false
 share_image: "/uploads/2020/11/05/social_share_image_vehicles.jpg"
+case_study_cta:
+  heading: Read the full case study in German
+  subheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate blandit arcu luctus bibendum. Pellentesque aliquam mauris non neque rhoncus, sed ullamcorper nulla varius. Etiam ut lacinia turpis, vel pharetra ante. Nunc ornare augue lorem, in elementum quam dapibus id.
+  external_url: "/uploads/2021/01/13/suwag-wunder-case-study-2020.pdf"
+  supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
 ---
