@@ -166,6 +166,8 @@
     //without the snippet below, the value becomes "no, yes"
     if ($("#modal_sales:checked").length > 0) {
       disableHiddenValue();
+    } else {
+      $("#modal_sales_default_value").prop("disabled", false);
     }
     var $form = $(e.target).closest("form");
     if (downloadForm.htmlValidityCheck($form)) {
