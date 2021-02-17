@@ -46,7 +46,8 @@
               </div>
               <div class="form-group mb-3">
                 <div class="custom-control custom-checkbox form-check">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_sales" name="deep_dive_with_sales?" value="true">
+                  <input type="hidden" id="modal_sales_default_value" name="deep_dive_with_sales?" value="no">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_sales" name="deep_dive_with_sales?" value="yes">
                   <label for="modal_sales" class="form-check-label custom-control-label font-weight-bold">
                     {% if page.language == "EN" or page.lang == "en" %}
                     I am interested in having a conversation with a Wunder Mobility sales representative.
@@ -104,8 +105,7 @@
       data.name = capitalizedName;
       data.referrer = document.referrer;
       data.origin = document.title;
-      console.log(data);
-
+      //console.log(data);
       $
         .ajax({
           url: postURL,
@@ -139,7 +139,7 @@
 
     serializeObject: function ($form) {
       var unindexed_array = $form.serializeArray();
-      console.log(unindexed_array);
+      //console.log(unindexed_array);
       var indexed_array = {};
       $.map(unindexed_array, function (n, i) {
         if (indexed_array[n["name"]]) {
@@ -156,9 +156,17 @@
     }
   };
 
+  function disableHiddenValue(){
+    $("#modal_sales_default_value").prop("disabled", true);
+  }
+
   function downloadModalSubmission(e) {
     e.preventDefault();
     $(e.target).attr("disabled", true);
+    //without the snippet below, the value becomes "no, yes"
+    if ($("#modal_sales:checked").length > 0) {
+      disableHiddenValue();
+    }
     var $form = $(e.target).closest("form");
     if (downloadForm.htmlValidityCheck($form)) {
       console.log("form clean");
