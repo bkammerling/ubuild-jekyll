@@ -431,7 +431,7 @@ svg.quote-marks {
 /* form modal for weallmove and whitepaper */
 .wunderform-modal {
   .modal-content {
-    padding: 50px 15px 30px;
+    padding: 50px 15px;
     @include rwd(tablet-up) {
       padding: 40px 30px 50px;
     }
