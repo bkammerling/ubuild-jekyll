@@ -19,7 +19,7 @@ excerpt: Many new mobility companies struggle with slow growth and high initial 
   The idea of profitability almost seems too good to be true. But is it?
 share_image: ''
 sticky: false
-hidden: true
+hidden: false
 
 ---
 ###### Many new mobility companies struggle with slow growth and high initial investments. The idea of profitability almost seems too good to be true. But is it?
