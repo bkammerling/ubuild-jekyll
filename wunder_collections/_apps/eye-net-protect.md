@@ -3,7 +3,7 @@ layout: marketplace-app
 category: Integrations (API)
 title: Eye-Net™ Protect
 icon: "/uploads/2021/01/19/eye-net_logo_square-gilad-steiner.jpg"
-excerpt: Eye-Net protect is a software add-on (SDK) designed to provide real-time
+excerpt: Eye-Net™ Protect is a software add-on (SDK) designed to provide real-time
   pre-collision alerts to pedestrians and micromobility users by using smartphones
   and relying on existing cellular networks.
 featured: false
@@ -54,6 +54,5 @@ getting_started:
   column_description: ''
 whitepaper_link: "/uploads/2021/02/09/micromobility-01-21_low-res.pdf"
 video_poster: ''
-published: false
 
 ---
