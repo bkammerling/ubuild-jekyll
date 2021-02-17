@@ -71,8 +71,8 @@
 </section>
 
 <section id="sustainability" class="black-to-white-bridge mb-0 pb-5">
-  <div class="container text-white">
-    <div class="row pb-md-4">
+  <div class="container pb-md-5 text-white">
+    <div class="row pb-md-5">
       <div class="col-md-5">
         <img src="/uploads/global/bg-map.png" alt="">
       </div>
@@ -80,7 +80,7 @@
         <h2 class="headline-large mb-2 sustainability-header" data-aos="soft-up" data-aos-easing="apple-easing">Lorem ipsum dolor sit amet</h2>
         <p class="mb-5" data-aos="soft-up" data-aos-easing="apple-easing" data-aos-anchor=".sustainability-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quas rerum dolor, officia nostrum quos libero aliquid quaerat! Commodi modi, nam explicabo vel cumque aut quidem? Illum quae rem enim.</p>
         <hr class="mb-5">
-        <div class="row pb-md-4">
+        <div class="row pb-md-5">
           <div class="col">
             <h3 class="mb-4 headline-small">What will your fleet look like?</h3>
             <h2 class="headline-large">000</h2>
@@ -105,7 +105,7 @@
             </div>
           </div>
           <div class="col">
-            <input type="range" class="wunder-range" min="0" max="5000">
+            <input type="range" class="wunder-range position-relative" min="0" max="5000">
           </div>
         </div>
       </div>
@@ -113,67 +113,66 @@
   </div>
 </section>
 
-<section id="vehicle-catalog" class="py-5">
-  <div class="container">
-    <h2 class="headline-large mb-5 text-center">Explore our full range of vehicles</h2>
-
-    <div class="catalog-filters mb-5 pt-5">
-      <div class="simple-radio-group d-flex justify-content-around justify-content-md-center flex-wrap">
-        <p class="pr-md-5 mb-3 mb-md-0">Filter by:</p>
-        <div class="break d-md-none"></div>
-        <div class="radio-group">
-          <input type="radio" name="options" id="option1" checked data-filter="*">
-          <label class="text-link" for="option1">All</label>
-        </div>
-        <div class="radio-group">
-          <input type="radio" name="options" id="option2" data-filter=".moped">
-          <label class="text-link" for="option2">Mopeds</label>
-        </div>
-        <div class="radio-group">
-          <input type="radio" name="options" id="option3" data-filter=".bike">
-          <label class="text-link" for="option3">Bikes</label>
-        </div>
-        <div class="radio-group">
-          <input type="radio" name="options" id="option4" data-filter=".kickscooter">
-          <label class="text-link" for="option4">Kickscooters</label>
-        </div>
+<section id="get-started" class="pb-5">
+  <div class="container-fluid pb-5">
+    <div class="row align-items-center">
+      <div class="offset-md-1 col-md-7 col-lg-5">
+        <h2 class="headline-large">What can Wunder Fleet do for you?</h2>
+        <p class="mb-4">Wunder Fleet is an all-in-one platform to help get your vehicle sharing company off the ground. Equipped with a mobile app, backend management system, and sharing-ready vehicles, Wunder Fleet can get you on the streets in no time.</p>
+        <a href="#contact" class="btn btn-dark">Contact Us</a>
       </div>
-
-    </div>
-
-    <div id="catalog-list">
-      <div class="row">
-      {% assign featuredVehicles = site.vehicles | sort: "brand" | where: "published", true | where: "featured", true %}
-      {% assign nonFeaturedVehicles = site.vehicles | sort: "brand" | where: "published", true | where: "featured", false %}
-      {% assign vehicles = featuredVehicles | concat: nonFeaturedVehicles %}
-      {% for product in vehicles %}
-        <div class="{% if product.featured %}featured{% endif %} catalog-item__wrapper {{ product.type | downcase }}">
-          <a class="cursor-pointer" data-toggle="modal" data-target="#commerceModal" data-content="{{ product.url }}">
-            <div class="catalog-item">
-              {% capture imageURL %}{% if product.list-image.size > 1 %}{{ product.list-image | relative_url }}{% else %}{{ product.image_gallery | first | relative_url }}{% endif %}{% endcapture %}
-              <div class="catalog-item__image" style="background-image: url('{{ imageURL }}')">
-                <span class="hidden">Wunder Vehicles - {{ product.brand }} {{ product.name }}</span>
-              </div>
-              <p class="text-link mt-3">{{ product.brand }} {{ product.name }}</p>
-            </div>
-          </a>
-        </div>
-        {% comment %}
-        {% assign modMobile = forloop.index | modulo: 2 %}
-        {% if modMobile == 0 %}<div class="w-100 d-md-none"></div>{% endif %}
-        {% assign modDesktop = forloop.index | modulo: 3 %}
-        {% if modDesktop == 0 %}<div class="w-100 d-none d-md-block"></div>{% endif %}
-        {% endcomment %}
-      {% endfor %}
+      <div class="col-md-4 col-lg-6 mt-5 mt-md-0 text-center">
+        <img class="fleet-app-img" data-src="uploads/global/fleet/fleet-app.gif" data-srcset="uploads/global/fleet/fleet-app@2x.gif 2x"  />
       </div>
     </div>
-
   </div>
-
+  <div class="container">
+    <hr>
+  </div>
+  <div class="container py-5">
+    <div class="row align-items-center my-5">
+      <div class="col-md-6 offset-md-3 flex justify-content-center text-center">
+        <h2 class="headline-large mb-5">Lorem ipsum dolor sit amet</h2>
+        <a href="#contact" class="btn btn-dark">Lorem Ipsum</a>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-4">
+        <img src="/uploads/global/Bike.png" alt="">
+        <h4 class="headline-small">USP #1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis condimentum enim. Ut eget gravida ex.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="/uploads/global/Bike.png" alt="">
+        <h4 class="headline-small">USP #1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis condimentum enim. Ut eget gravida ex.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="/uploads/global/Bike.png" alt="">
+        <h4 class="headline-small">USP #1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis condimentum enim. Ut eget gravida ex.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 
-<section id="client-testimonials" class="my-5">
+<section id="case-study" class="fullwidth-bg grey-bg pt-5 pb-4 py-sm-0 mb-0">
+  <div class="container full-width">
+    <div class="row align-items-center">
+      <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
+        <h2 class="headline-large">{{ page.case_study_cta.heading }}</h2>
+        <p>{{ page.case_study_cta.subheading }}</p>
+        <a class="btn btn-outline-dark mt-4" data-toggle="modal" data-target="#downloadModal" title="View the case study on {{ page.title }} working with Wunder Mobility.">{{ page.case_study_cta.cta_text | default: "Learn more" }}</a>
+        {% include block-case-study-modal.html %}
+      </div>
+      <div class="col-sm-7">
+        <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.title }}." />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fullwidth-bg py-md-5 dark-bg pt-5 pb-4 py-sm-0 mb-0">
   <div class="container">
     <div class="carousel-wrapper">
       <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
@@ -221,6 +220,35 @@
       </div>
     </div>
   </div>
+</section>
+<section id="contact" class="fullwidth py-5">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-md-4">
+          <h2 class="headline-medium">Complete your mobility ecosystem</h2>
+        </div>
+        <div class="col-md-4">
+          <p class="mb-3">
+            Enhance and scale your  mobility business with our modular platform.
+          </p>
+          <a href="{{site.url}}/marketplace" target="_blank" class="text-link d-block">Discover Wunder Marketplace
+            <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <p class="mb-3">
+            Build your fleet with vehicles, IoT and flexible financing options.
+          </p>
+          <a href="/vehicles" target="_blank" class="text-link d-block">Discover Wunder Vehicles
+            <svg class="right-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#141414"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
 </section>
 
 
