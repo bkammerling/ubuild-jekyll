@@ -14,15 +14,15 @@ cta_text: We have a range of solutions using the latest technology driving forwa
 cta_link: pages/home.md
 title: Can New Mobility Become Profitable?
 publish_date: 2021-02-17 00:00:00 +0000
-featured_image: "/uploads/2021/02/16/morgan-housel-pcdggex9-ja-unsplash.jpg"
+featured_image: "/uploads/2021/02/17/blog-social-share-profitability.jpg"
 excerpt: Many new mobility companies struggle with slow growth and high initial investments.
   The idea of profitability almost seems too good to be true. But is it?
-share_image: ''
+share_image: "/uploads/2021/02/17/blog-social-share-profitability.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
-###### _Many new mobility companies struggle with slow growth and high initial investments. The idea of profitability almost seems too good to be true. But is it?_
+_Many new mobility companies struggle with slow growth and high initial investments. The idea of profitability almost seems too good to be true. But is it?_
 
 To the end consumer, new mobility services like ride hailing and vehicle sharing don’t present many problems. They’re convenient, easy to use and offer peace of mind when it comes to their own sustainability habits.
 
@@ -59,7 +59,6 @@ In spite of this, Sebastian thinks it’s possible for new mobility companies to
 
    Last but not least, a meticulous operational planning of fleet activities is essential. New mobility companies should permanently monitor and analyze customer behavior to quickly understand mobility patterns and market dynamics. This helps to predict months in advance how many vehicles they’ll need, where they’ll need their vehicles to be and how those calculations can change based on the hour of the day or the city they’re operating in. This way operators can make sure their fleet is being used to its utmost capacity and they’re not losing money by just standing around.
 
-Not only can these three tactics put mobility companies on the road to profitability, investors are also more likely to target companies that can prove their financial savvy - definitely a win/win.
+   Not only can these three tactics put mobility companies on the road to profitability, investors are also more likely to target companies that can prove their financial savvy - definitely a win/win.
 
-  
-Curious for more? Listen to the full conversation between Gunnar and Sebastian on the Wunder Mobility Podcast, which you can find [wherever you get your podcasts](https://linktr.ee/wundermobility).
+_Curious for more? Listen to the full conversation between Gunnar and Sebastian on the Wunder Mobility Podcast, which you can find_ [_wherever you get your podcasts_](https://linktr.ee/wundermobility)_._
