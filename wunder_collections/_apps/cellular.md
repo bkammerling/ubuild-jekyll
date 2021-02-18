@@ -5,7 +5,7 @@ title: Cellular
 icon: "/uploads/2021/02/09/cellular-c-logo-stefanie-bilen.png"
 excerpt: Cellular develops customized software and creates API as well as complete
   ecosystems.
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2021/02/09/hvv_switch-stefanie-bilen.jpg"
   title: 'Multiple mobility service provider in one app: HVV Switch App for Hamburger
