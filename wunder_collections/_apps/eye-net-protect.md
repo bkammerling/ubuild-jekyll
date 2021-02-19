@@ -10,9 +10,9 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/02/09/eye-net-collision-avoidance-technology-protecting-road-users-anywhere-all-the-time.mp4"
   title: Video
-- image-video: "/uploads/2021/01/19/capture-1-gilad-steiner.PNG"
+- image-video: "/uploads/2021/02/19/safe-micromobility_wunder-marketplace.jpg"
   title: Safe Micromobility , anytime, anywhere , pre-collision alerts
-- image-video: "/uploads/2021/02/09/how-it-works_revised.PNG"
+- image-video: "/uploads/2021/02/19/how-it-works_-wunder-marketplace.jpg"
   title: How it works
 - image-video: "/uploads/2021/02/09/unique-characteristics_revised.PNG"
   title: Unique Characteristics
