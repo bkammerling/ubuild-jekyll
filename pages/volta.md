@@ -11,11 +11,12 @@ language: DE
 lang-ref: vehicles
 component_scripts:
 - clientCarousel.js
+- rellax.js
 page_sections:
 - template: hero-banner-w-image
   block: hero-hp
-  headline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  subheadline: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate blandit arcu luctus bibendum. Pellentesque aliquam mauris.
+  headline: Power Your Tomorrow
+  subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared-Mobility-Flotte antreiben.
   background_image: "/uploads/global/wvehicles-poster.jpg"
   background_video: vehicles-loop
 - block: volta-main

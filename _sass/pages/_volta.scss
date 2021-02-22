@@ -1,0 +1,33 @@
+.instruction-title {
+  opacity: 60%;
+}
+
+.vehicle-type-button {
+  padding: 1.4em 1.6em;
+  width: 100%;
+  border: 1px solid $white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+  .label-image {
+    margin-right: 1.6em;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input[name="vehicle-type"]:checked ~ .vehicle-type-button, .vehicle-type-button:hover{
+  background-color: $white;
+  color: $mobility-black;
+  .label-image {
+    svg, * {
+      fill: $mobility-black;
+    }
+    
+  }
+}
