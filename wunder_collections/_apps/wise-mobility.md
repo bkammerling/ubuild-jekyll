@@ -30,11 +30,11 @@ app_details:
     Policy →</a>
   detail_title: ''
 access_needed:
+- Data access may incur additional costs
 - API Credentials
 - " Vehicle Data"
 - User Data
 - Trip Data
-- Data access may incur additional costs
 getting_started:
 - column_title: Step 1
   column_description: " Subscribe your fleet!"
