@@ -426,6 +426,17 @@ if($("input[type='range'].wunder-range").length) {
   }
 
 }
+if ($("#volta-fleet-size-range").length) {
+  function trees() {
+    var vehicle_number = $("#volta-fleet-size-range").val();
+    var vehicle_value = $("input[name='vehicle-type']:checked").val();
+    $("#volta-calculation-result").text(((vehicle_number * vehicle_value) / 58).toFixed(2));
+  }
+  
+  $("#volta-fleet-size-range").on('input', trees);
+  $("input[name='vehicle-type']").change(trees); 
+}
+
 
 var googleMap = {
   map: null,
