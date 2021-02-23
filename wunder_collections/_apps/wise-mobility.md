@@ -19,8 +19,8 @@ description: "<p>Citation management has been untouched by technology until Wise
 screenshot_details: []
 app_details:
 - detail_title: ''
-  detail_content: ''
-- detail_title: ''
+  detail_content: "*Additional fees may be charged."
+- detail_title: 'Partner details:'
   detail_content: <a href="https://wisemobility.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
@@ -29,8 +29,6 @@ app_details:
 - detail_content: <a href="https://wisemobility.com" title="Privacy Policy →">Privacy
     Policy →</a>
   detail_title: ''
-- detail_title: ''
-  detail_content: Data access may incur additional costs
 access_needed:
 - Data access may incur additional costs
 - API Credentials
