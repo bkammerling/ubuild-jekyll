@@ -45,6 +45,8 @@ screenshot_details:
     - so that you don’t have to worry about fraudsters looking to rob you blind.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.adjust.com/" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

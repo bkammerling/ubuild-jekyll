@@ -35,6 +35,8 @@ screenshot_details:
     & scheduling which allows for an increased availability of your fleet.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.benfleetservices.com/" title="Developer Website
     →">Developer Website →</a>
 - detail_title: ''

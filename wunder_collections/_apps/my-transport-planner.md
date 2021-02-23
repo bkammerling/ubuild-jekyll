@@ -35,6 +35,8 @@ screenshot_details:
   screenshot_description: If you would like to offer route optimisation as part of
     your product portfolio, we offer an algorithm-only version, accessed via API.
 app_details:
+- detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://www.mytransportplanner.com/" title="Developer Website
     →">Developer Website →</a>
   detail_title: ''

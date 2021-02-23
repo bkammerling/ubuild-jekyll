@@ -49,6 +49,8 @@ screenshot_details:
     setup - meeting the compliance requirements of our corporate customers.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://global.goodpatch.com" title="Developer Website
     →">Developer Website →</a>
 - detail_title: ''

@@ -45,6 +45,8 @@ screenshot_details:
     Next step: networking business-relevant systems for booking, mobile ticketing, reservations, and the sale of additional services.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="http://www.cellular.de" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
