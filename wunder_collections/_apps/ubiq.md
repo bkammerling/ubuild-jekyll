@@ -51,6 +51,8 @@ screenshot_details:
     leveraging the power of the crowd. \n"
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://www.ubiq.ai/" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

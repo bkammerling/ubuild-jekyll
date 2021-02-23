@@ -46,6 +46,8 @@ screenshot_details:
     of spending time heads-down, checking and entering constantly changing rental
     prices.
 app_details:
+- detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://www.ratehighway.com" title="Developer Website →">Developer
     Website →</a>
   detail_title: ''

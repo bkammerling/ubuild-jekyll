@@ -19,7 +19,7 @@ description: "<p>Citation management has been untouched by technology until Wise
 screenshot_details: []
 app_details:
 - detail_title: ''
-  detail_content: "*Additional fees may be charged."
+  detail_content: "<em>*Additional fees may be charged</em>"
 - detail_title: 'Partner details:'
   detail_content: <a href="https://wisemobility.com" title="Developer Website →">Developer
     Website →</a>
