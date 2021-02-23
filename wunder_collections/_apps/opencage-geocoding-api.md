@@ -31,6 +31,8 @@ screenshot_details:
     and require long-term contracts. We don't. Pricing start from €45/$50 per month.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://opencagedata.com/" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

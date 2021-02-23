@@ -39,6 +39,8 @@ screenshot_details:
     is, and where you can expect your vehicles to end up. Every minute of every day. '
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://www.zoba.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
