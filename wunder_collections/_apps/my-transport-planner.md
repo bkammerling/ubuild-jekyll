@@ -39,7 +39,7 @@ app_details:
   detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://www.mytransportplanner.com/" title="Developer Website
     →">Developer Website →</a>
-  detail_title: ''
+  detail_title: 'Partner details:'
 - detail_content: <a href="https://www.mytransportplanner.com/myutilities/" title="Terms
     of Service →">Terms of Service →</a>
   detail_title: ''

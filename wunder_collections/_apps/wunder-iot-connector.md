@@ -38,7 +38,7 @@ screenshot_details:
     e.g. local speed limit, once and assign that configuration to multiple devices.
     Simple as that!
 app_details:
-- detail_title: ''
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
     →">Developer Website →</a>
 - detail_title: ''

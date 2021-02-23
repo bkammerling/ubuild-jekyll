@@ -50,7 +50,7 @@ app_details:
   detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://www.ratehighway.com" title="Developer Website →">Developer
     Website →</a>
-  detail_title: ''
+  detail_title: 'Partner details:'
 - detail_title: ''
   detail_content: <a href="http://www.ratehighway.com/wundermarketplace-terms" title="Terms
     of Service →">Terms of Service →</a>
