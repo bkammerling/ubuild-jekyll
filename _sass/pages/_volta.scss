@@ -21,6 +21,24 @@
   }
 }
 
+.border-wrapper-dark {
+  padding: 2rem;
+  border: 1px white solid;
+  border-radius: 4px;
+  padding-bottom: calc(28px + 2rem);
+  max-width: calc(100% - 2rem);
+}
+
+#volta-fleet-size-range {
+  height: 12px;
+  &:before {
+    content: "1 Fahrzeug"
+  }
+  &:after {
+    content: "5,000 Fahrzeuge"
+  }
+}
+
 input[name="vehicle-type"]:checked ~ .vehicle-type-button, .vehicle-type-button:hover{
   background-color: $white;
   color: $mobility-black;
