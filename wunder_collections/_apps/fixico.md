@@ -34,7 +34,7 @@ screenshot_details:
 app_details:
 - detail_title: ''
   detail_content: "<em>*Additional fees may be charged</em>"
-- detail_title: ''
+- detail_title: 'Partner details:'
   detail_content: <a href="https://fixico-business.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
