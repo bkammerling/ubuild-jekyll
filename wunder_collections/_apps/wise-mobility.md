@@ -29,6 +29,8 @@ app_details:
 - detail_content: <a href="https://wisemobility.com" title="Privacy Policy →">Privacy
     Policy →</a>
   detail_title: ''
+- detail_title: ''
+  detail_content: Data access may incur additional costs
 access_needed:
 - Data access may incur additional costs
 - API Credentials
