@@ -30,6 +30,8 @@ screenshot_details:
     and metrics that are relevant for your growth and operations teams.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://demo.locale.ai" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

@@ -40,6 +40,8 @@ screenshot_details:
     getting access to your fleet.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: ''
   detail_content: <a href="https://www.cidaas.com/id-validator/ " title="Developer
     Website →">Developer Website →</a>
 - detail_title: ''

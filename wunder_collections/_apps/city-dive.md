@@ -37,6 +37,8 @@ screenshot_details:
   screenshot_description: Visualize aggregated trip data to make informed conclusions
     about rider usage and vehicle demand in the cities where you operate.
 app_details:
+- detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://dive.fluctuo.com/" title="Developer Website →">Developer
     Website →</a>
   detail_title: ''
