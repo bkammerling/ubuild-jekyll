@@ -24,6 +24,7 @@ fields:
     - Insights
     - News
     - Life@Wunder
+    - Clients
     source:
       type: simple
       section: 
