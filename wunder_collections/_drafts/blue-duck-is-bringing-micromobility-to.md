@@ -1,6 +1,6 @@
 ---
 layout: simple-article
-category: Insights
+category: Clients
 tags:
 - shared vision
 - sustainability
