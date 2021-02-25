@@ -36,8 +36,10 @@ page_sections:
   show_poweredby: false
 share_image: "/uploads/2020/11/05/social_share_image_vehicles.jpg"
 case_study_cta:
-  heading: Read the full case study in German
-  subheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate blandit arcu luctus bibendum. Pellentesque aliquam mauris non neque rhoncus, sed ullamcorper nulla varius. Etiam ut lacinia turpis, vel pharetra ante. Nunc ornare augue lorem, in elementum quam dapibus id.
+  heading: Schnelle Skalierung aufgrund großer Nachfrage
+  subheading: Der Energiedienstleister Süwag startete zunächst mit 50 Rollern in einer Stadt. Dank der großen Nachfrage konnten sie innerhalb von 18 Monaten schnell auf 250 Roller und 4 Städte in Deutschland skalieren. Ganz zu schweigen davon, dass sie ihre Kundenbindung verbessert haben und aktiv zu nationalen Nachhaltigkeitsinitiativen beitragen.
+  cta_title: Werden Sie der Nächste sein?
+  cta_text: Lesen Sie die Case Study
   external_url: "/uploads/2021/01/13/suwag-wunder-case-study-2020.pdf"
   supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
 ---
