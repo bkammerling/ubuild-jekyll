@@ -22,7 +22,7 @@ excerpt: Blue Duck is expanding their business by bringing micromobility to smal
   world.
 share_image: "/uploads/2021/02/24/531b50d5-0199-4c0a-859d-7f5190bd0fad-blue_duck.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 Blue Duck is expanding their business by bringing micromobility to smaller cities around the U.S. By partnering with cities, they are able to bring equitable and sustainable services to otherwise underserved markets. Read on to learn more about their mission and predictions for the transportation landscape in a post-COVID world.
