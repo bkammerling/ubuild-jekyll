@@ -66,3 +66,5 @@ _In what ways has Blue Duck proven additionally beneficial to U.S. customers dur
 CDC and WHO guidelines to prevent the spread of COVID-19 include social distancing and favoring outdoor, open air activities. This affects ridership on many standard forms of multi-personnel transportation, leading to a significant warrant for individualized micromobility.
 
 Blue Duck embraces this shift and has continued to operate during these times providing assets that have gone through our comprehensive operating procedures to ensure that riders are receiving clean and well-maintained scooters to assist them during these trying times. We are dedicated to our continued safe operations and are also testing new hardware technologies to utilize on our assets which may prove effective at reducing the spread of Covid-19.
+
+Learn more about Blue Duck on their [website](https://www.flyblueduck.com/).
