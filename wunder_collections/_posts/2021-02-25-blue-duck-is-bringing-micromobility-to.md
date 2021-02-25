@@ -43,7 +43,7 @@ In addition to responding to RFPs and permits that fit our business model, Blue 
 
 _What makes Blue Duck’s approach to last-mile travel different from others in the marketplace?_
 
-Blue Duck takes great pride in the client experience with our relationships with our municipal and private partnerships. This strategic focus begins from our initial meeting with our respective city partners and extends to outreach and collaboration with community leaders, businesses, and residents, and results in the unique experience of local riders when they take one of our professionally maintained Blue Duck scooters or e-bikes for a ride.
+Blue Duck takes great pride in the client experience with our relationships with our municipal and private partnerships. This strategic focus begins from our initial meeting with our respective city partners and extends to outreach and collaboration with community leaders, businesses, and residents, and results in the unique experience of local riders when they take one of our professionally maintained Blue Duck scooters or e-bikes for a ride. 
 
 _In addition to working with cities in the South, you’re also bringing Ducks to college campuses and corporate organizations throughout the U.S. Tell us a bit more about that!_
 
