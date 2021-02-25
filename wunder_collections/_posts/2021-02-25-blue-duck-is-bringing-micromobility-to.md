@@ -39,7 +39,7 @@ On a trip to Los Angeles in early 2018, our founders observed the launch of elec
 
 _How is Blue Duck transforming mobility in smaller cities around the US? How are you partnering with cities to accomplish this?_
 
-In addition to responding to RFPs and permits that fit our business model, Blue Duck engages in active outreach to markets of all sizes. This often results in what we call a “guided process” in which we collaborate with a city or university, or even a corporate campus, to create a micromobility program suited to their community or organization’s unique needs. This process usually results in an exclusive relationship that allows us a develop a deeper relationship with our partner that yields more meaningful and useful data to inform the evolution of the program and overall planning efforts to improve infrastructure, regulations and public education and engagement.
+In addition to responding to RFPs and permits that fit our business model, Blue Duck engages in active outreach to markets of all sizes. This often results in what we call a “guided process” in which we collaborate with a city or university, or even a corporate campus, to create a micromobility program suited to their community or organization’s unique needs. This process usually results in an exclusive relationship that allows us to develop a deeper relationship with our partner that yields more meaningful and useful data to inform the evolution of the program and overall planning efforts to improve infrastructure, regulations and public education and engagement.
 
 _What makes Blue Duck’s approach to last-mile travel different from others in the marketplace?_
 
