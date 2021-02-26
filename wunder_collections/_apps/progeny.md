@@ -38,6 +38,8 @@ screenshot_details:
     errors, etc through visualisation charts and data tables.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.progeny.tech/" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

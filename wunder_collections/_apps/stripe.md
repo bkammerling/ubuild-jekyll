@@ -49,6 +49,8 @@ screenshot_details:
     fees to payouts, in real-time.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://stripe.com/docs " title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''

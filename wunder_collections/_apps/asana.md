@@ -38,6 +38,8 @@ screenshot_details:
     over time and track dependencies and workload.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.asana.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
