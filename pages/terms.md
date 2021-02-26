@@ -12,264 +12,61 @@ page_sections:
   block: footer-1
 
 ---
+# Terms of Service
 
+1. **Scope**<br>
+The following Terms of Service (the **“Agreement"**) describe the general terms and conditions of your use of all our white label mobility platform mobile applications (**“Mobile Application”** or **“Service”**) and any related products and services (collectively, “Services”). These Terms of Service are legally binding between you (**"you"** or **"your"**) and WunderCar Mobility Solutions GmbH and its affiliated companies (**"Wunder Mobility"**, **"we"**, **"us"** or **"our"**). By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and Wunder Mobility, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services. <br><br>
+This Agreement does not apply to independent operators who provide our Services to you (**“Third Party Operators”**).
 
-# Terms & Conditions
+2. **Services and Mobile Application**<br>
+Wunder Mobility is not a transport carrier, nor does it provide transport services, rather, it facilitates Third-Party Operators in providing such services to you. As such we have no responsibility or liability for any transport services secured by you or provided by any licensor or Third-Party Operators, <br><br>
+The provision of transport services to you is at the sole discretion of licensors and Third-Party Operators. Accepting such services from licensors or Third-Party Operators is at your sole discretion. 
 
-These terms and conditions (“Terms & Conditions”) apply to the use of the Wunder App (as defined below) and to your use of any service provided or facilitated by Wunder (defined below).There terms and conditions are valid for all countries and cities where Wunder operates.
+3. **Use of the Service and Mobile Application**<br>
+Wunder Mobility grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the Service for non-commercial purposes, strictly in accordance with this Agreement. 
 
-&nbsp;
+4. **Member Account, Password and Security**<br>
+By using our Services and by agreeing to this Agreement, you warrant and confirm that you are at least 18 years old (or the age required to use our Services in your applicable jurisdiction). If you create an account in the Mobile Application, you are responsible for maintaining the security of your account and you are fully responsible for all activities that occur under the account and any other actions taken in connection with it. We may, but have no obligation to, monitor and review new accounts before you may sign in and start using the Services. 
+Providing false contact information of any kind may result in the termination of your account. You must immediately notify us of any unauthorized uses of your account or any other breaches of security. We will not be liable for any acts or omissions by you, including any damages of any kind incurred as a result of such acts or omissions. We may suspend, disable, or delete your account (or any part thereof) if we determine that you have violated any provision of this Agreement or that your conduct or content would tend to damage our reputation and goodwill. If we delete your account for the foregoing reasons, you may not re-register for our Services. We may block your email address and Internet protocol address to prevent further registration.
 
-## 1\. GENERAL
+5. **Billing and Payments**<br>
+You shall pay all fees or charges to your account in accordance with the fees, charges, and billing terms in effect at the time a fee or charge is due and payable. If, in our judgment, your purchase constitutes a high-risk transaction, we will require you to provide us with a copy of your valid government-issued photo identification, and possibly a copy of a recent bank statement for the credit or debit card used for the purchase. We reserve the right to change product pricing at any time.
 
-a. The Wunder App is developed, owned and managed by Wunder.
+6. **Accuracy of information**<br>
+Occasionally there may be information in the Mobile Application that contains typographical errors, inaccuracies or omissions that may relate to product descriptions, pricing, availability, promotions and offers. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information in the Mobile Application or Services is inaccurate at any time without prior notice (including after you have submitted your order). We undertake no obligation to update, amend or clarify information in the Mobile Application including, without limitation, pricing information, except as required by law. No specified update or refresh date applied in the Mobile Application should be taken to indicate that all information in the Mobile Application or Services has been modified or updated.
 
-b. By downloading the Wunder App you agree to adhere by these Terms & Conditions. If you do not agree to these Terms & Conditions, please deregister your profile, uninstall the Wunder App and refrain from using any service provided by Wunder.
+7. **Uptime guarantee**<br>
+We offer a Service uptime guarantee of 99% of available time per month. The service uptime guarantee does not apply to service interruptions caused by: (a) periodic scheduled maintenance or repairs we may undertake from time to time; (b) interruptions caused by you or your activities; (c) outages that do not affect core Service functionality; (d) causes beyond our control or that are not reasonably foreseeable; and (e) outages related to the reliability of certain programming environments.
 
-c. In these Terms & Conditions,
+8. **Links to other resources**<br>
+Although the Mobile Application and Services may link to other resources (such as websites, mobile applications, etc.), we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked resource, unless specifically stated herein. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any businesses or individuals or the content of their resources. We do not assume any responsibility or liability for the actions, products, services, and content of any other third parties. You should carefully review the legal statements and other conditions of use of any resource which you access through a link in the Mobile Application and Services. Your linking to any other off-site resources is at your own risk.
 
-*   'Community' or 'Wunder Community' includes all Users.
+9. **Prohibited uses**<br>
+In addition to other terms in this Agreement, you are prohibited from using the Mobile Application and Services: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international national or local laws regulations, rules or ordinances; (d) to infringe or violate our intellectual property rights or the intellectual property rights of others; (e) to display, distribute, duplicate, publish create derivative works from modify, sell resell for commercial purposes; (f) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (g) to submit false or misleading information; (h) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Mobile Application and Services, third party products and services, or the Internet; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Mobile Application and Services, third party products and services, or the Internet; or (l) use the Service to gain competitive intelligence about Wunder Mobility or its affiliates; or (m) copying the appearance or functions of the Service or any portion of the Service. We reserve the right to terminate your use of the Mobile Application and Services for violating any of the prohibited uses.
 
-*   'Drivers' are Users who use the Wunder App to provide carpooling services or the car owners
+10. **Intellectual Property Rights**<br>
+"Intellectual Property Rights" means all present and future rights at law, equity or in relation to any copyright and related rights, trademarks, designs, patents, inventions, goodwill and the right to sue for passing off, rights to inventions, rights to use, and all other intellectual property rights, in each case whether registered or unregistered and including all applications and rights to apply for and be granted, rights to claim priority from, such rights and all similar or equivalent rights or forms of protection and any other results of intellectual activity which subsist or will subsist now or in the future in any part of the world. This Agreement does not transfer to you any intellectual property owned by Wunder Mobility or third parties, and all rights, titles, and interests in and to such property will remain (as between the parties) solely with Wunder Mobility. All trademarks, service marks, graphics and logos used in connection with the Mobile Application and Services, are trademarks or registered trademarks of Wunder Mobility, its licensors or Third-Party Operators. Other trademarks, service marks, graphics and logos used in connection with the Mobile Application and Services may be the trademarks of other third parties. Your use of the Mobile Application and Services grants you no right or license to reproduce or otherwise use any of Wunder Mobility or licensor’s trademarks.
 
-*   'Passengers' are Users who use the Wunder App to avail carpooling services or also Co-travelers.
+11. **Disclaimer of warranty**<br>
+You agree that the Service is provided on an "as is" and "as available" basis and that your use of the Mobile Application and Services is solely at your own risk. We expressly disclaim all warranties of any kind, whether express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose and non-infringement. We make no warranty that the Services will meet your requirements, or that the Service will be uninterrupted, timely, secure, or error-free; nor do we make any warranty as to the results that may be obtained from the use of the Service or as to the accuracy or reliability of any information obtained through the Service or that defects in the Service will be corrected. You understand and agree that any material and/or data downloaded or otherwise obtained through the use of Service is done at your own discretion and risk and that you will be solely responsible for any damage or loss of data that results from the download of such material and/or data. We make no warranty regarding any goods or services purchased or obtained through the Service or any transactions entered into through the Service unless stated otherwise. No advice or information, whether oral or written, obtained by you from us or through the Service shall create any warranty not expressly made in this Agreement.
 
-*   'Trip' refers to a carpooling trip between Users facilitated through the Wunder App.
+12. **Limitation of Liability**<br>
+To the fullest extent permitted by applicable law, in no event will Wunder Mobility, its affiliates, directors, officers, employees, agents, suppliers licensors or Third-Party Operators shall be liable to any person for any indirect, incidental, special, punitive, cover or consequential damages (including, without limitation, damages for lost profits, revenue, sales, goodwill, use of content, impact on business, business interruption, loss of anticipated savings, loss of business opportunity) however caused, under any theory of liability, including, without limitation, contract, delict, warranty, breach of statutory duty, negligence or otherwise, even if the liable party has been advised as to the possibility of such damages or could have foreseen such damages. <br>
+To the maximum extent permitted by applicable law, the aggregate liability of Wunder Mobility and its affiliates, officers, employees, agents, suppliers, licensors and Third-Party Operators relating to the services will be limited to an amount greater of one Euro or any amounts actually paid in cash by you to the licensor for the prior one-month period prior to the first event or occurrence giving rise to such liability. The limitations and exclusions also apply if this remedy does not fully compensate you for any losses or fails of its essential purpose.
 
-*   'User' or 'you' shall mean any legal person or entity accessing or using the Wunder App
+13. **Indemnification**<br>
+You agree to indemnify and hold Wunder Mobility and its affiliates, directors, officers, employees, agents, suppliers, licensors and Third-Party Operators harmless from and against any liabilities, losses, damages or costs, including reasonable attorneys' fees, incurred in connection with or arising from any third party allegations, claims, actions, disputes, or demands asserted against any of them as a result of or relating to your Content, your use of the Mobile Application and Services or any willful misconduct on your part.
 
-*   'Wunder' or 'we' or 'us' means WunderCar Mobility Solutions GmbH, headquartered at Hongkongstr.7, 20457 Hamburg, Germany.
+14. **Assignment**<br>
+You may not assign, resell, sub-license or otherwise transfer or delegate any of your rights or obligations in this Agreement, in whole or in part, without our prior written consent, which consent shall be at our own sole discretion and without obligation; any such assignment or transfer shall be null and void. We are free to assign any of its rights or obligations hereunder, in whole or in part, to any third party as part of the sale of all or substantially all of its assets or stock or as part of a merger.
 
-*   “Wunder App” means the mobile application available at [https://play.google.com/store/apps/details?id=org.wundercar.android&hl=de](https://play.google.com/store/apps/details?id=org.wundercar.android&hl=de)) and the Apple App Store ([https://itunes.apple.com/de/app/wunder-carpool/id808868615?mt=8](https://itunes.apple.com/de/app/wunder-carpool/id808868615?mt=8))
+15. **Termination**<br>
+We may, with or without any notice to you, suspend or terminate your member account or your use of our Services in the event that you violate the terms of this Agreement or no longer use our Services or Mobile Application. We may, at our sole discretion discontinue providing our Services or Mobile Applications with or without any further notice to you. 
 
-d. Wunder reserves the right to modify these Terms & Conditions at any time, without any notice to the Users. Any modification to these Terms & Conditions will take effect as soon as these changes are published. While Wunder will endeavor to communicate the fact of modification of these Terms & Conditions to its Users, the modifications will take effect regardless of such communication. Any continued use will signify consent to the modifications.
+16. **Changes and Amendments**<br>
+We reserve the right to modify this Agreement or its terms relating to the Mobile Application and Services at any time, effective upon posting of an updated version of this Agreement in the Mobile Application. When we do, we will revise the updated date at the bottom of this page. Continued use of the Mobile Application and Services after any such changes shall constitute your consent to such changes.
 
-&nbsp;
 
-## 2\. STATUS OF WUNDER
-
-a. Wunder does not provide any transportation services and is not a transportation carrier.
-
-b. Wunder offers a technological platform, information and a method to connect Drivers and Passengers.
-
-c. It is up to a Driver of a vehicle to decide whether to offer a ride to a Passenger when contacted through the Wunder App. Any decision by a Passenger to decide whether or not to accept a ride from a Driver is a decision made in the Passenger’s sole discretion.
-
-d. All Trips, collection and destination points much be pre-agreed through the Wunder App and between drivers and passengers. Drivers may not collect passengers from any location which was not agreed via the Wunder App.
-
-e. Wunder is not and will not act as an agent for any User.
-
-f. The Wunder service is limited to providing a technology platform that allows Users to offer noncommercial car sharing in a private capacity. Activities which are for hire or reward in any commercial or professional context are not permitted. The only compensation for the service of car sharing or carpooling, wherein a private driver offers an empty seat in his/her car to a passenger, is the sharing of costs (fuel & oil expenses, car expenses & maintenance, insurance, cleaning of vehicle) of the trip, which would occur even if the trip was not shared with other passengers.
-
-g. Under no circumstances can a Driver using the Wunder app gain commercial or professional benefits. The Driver shall not provide any additional services to the passenger such as parcel delivery or other commercial services. If the Driver is using as professional vehicle (i.e. ride-sharing vehicle) with a regulatory licence, he/she shall not offer any carpools to passengers for hire or reward or any commercial purposes.
-
-h. Users are reminded that using the Wunder services and offering carpooling trips for hire or reward may invalidate their drivers’ licences and insurance and possibly cause adverse legal actions under applicable laws. Wunder is not liable for any loss or damage incurred as a result of any user breaching Wunder’s terms of conditions.
-
-i. Any breach of the above conditions will give rise to immediate suspension of the user account. Any future use of Wunder’s services may also be restricted.
-
-j. WUNDER HAS NO RESPONSIBILITY TO AND LIABILITY IN RESPECT OF ANY TRANSPORTATION SERVICES PROVIDED TO ANY PASSENGER BY ANY DRIVER USING THE WUNDER APP.
-
-&nbsp;
-
-## 4\. THE WUNDER CODE OF CONDUCT
-
-In the Wunder Community, Members are required to treat another as they would like to be treated themselves. Members are required to be fair and honest at all times, care for safety on the road, be convivial with each other and enjoy a joint trip.
-
-**All Community members shall:**
-
-*   register with the Community under their real name and keep their personal data up to date. Anonymous participation in the Wunder community is not permitted. This serves both to protect our Community members and to build trust within the Community. Wunder Users will have to provide their correct phone number and under no circumstances create two profiles with the same phone number. No user account may be created to impersonate or on behalf of another person. Customers will need to verify their phone number in order to use the service and optionally provide their facebook profile. Members agree that Wunder does not undertake any additional verification, other than the verification mentioned above. Thus, information provided by the Users (drivers, passengers) may not be accurate. Wunder will not be liable in the event that any information provided by another user is false, incomplete, inaccurate, misleading or fraudulent.
-
-*   not store, process or publish data gathered about other Community members while using Wunder (such as, but not limited to, profile picture, name, license plate number, etc.) without the affected members’ prior written consent.
-
-*   protect their personal log-in to the Wunder Community from unwanted access by third parties and not share their personal log-in data with others.
-
-*   not use the Wunder Community and Wunder App for purposes other than sharing a car ride. Drivers are not allowed to provide users other services (such as parcel delivery, city tours, taxi services etc.).
-
-*   not misuse Wunder. For example, do not disrupt the Wunder App or attempt to access any method other than the interface and the provisions we have provided. Do not remove, circumvent, disable, damage or otherwise interfere with security-related features of the Wunder services.
-
-*   not use Wunder to transfer money from Passengers to Drivers, except for the contribution to the Driver's expenses (such as fuel cost, vehicle depreciation, etc.) (“Cost Contribution”).
-
-*   not use Wunder to transfer cash advances.
-
-*   not use Wunder with any credit card or bank account issued to a different name other than the user name.
-
-*   not perform any other fraudulent activity or avail of Wunder services what we reasonably believe to be potentially fraudulent funds. We reserve the unconditional right to reimburse any money payed-in via any payment method to the other of the bank card/account of whom it originated.
-
-*   not impersonate any person or entity, falsely claiming or otherwise misrepresent your affiliation with any person or entity, forge another person’s digital signature, misrepresent the source, identify or content information transmitted via Wunder.
-
-*   not refuse to cooperate with Wunder in an investigation or provide confirmation of your identity.
-
-*   To respect local legislation, these Community terms and all other rules communicated by Wunder in association with the Community only apply to the extent that they do not interfere with local law. Users agree to keep themselves informed about any updates of these rules.
-
-**For Drivers**
-
-Drivers shall always act according to highest ethical standards and respect and protect all Passengers. They shall:
-
-*   never drive under the influence of alcohol or drugs.
-
-*   not smoke while driving.
-
-*   not answer phone calls while driving, not write text messages or otherwise let themselves be distracted.
-
-*   only offer rides with their own car, which they have previously registered with Wunder (“Vehicle”).
-
-*   not carry more Passengers than is legally allowed.
-
-*   always buckle up and ensure that their Passengers use their seatbelt.
-
-*   offer Wunder Community rides only after having been summoned by the Wunder App and never pick up people on the street.
-
-*   not offer rides for money, hire or reward, or profit through the Wunder App.
-
-*   carry a photo ID card and show it to your Passenger if requested.
-
-*   not use their mobile phones while driving, according to local laws.
-
-**For Passengers**
-
-Passengers will treat their Drivers respectfully at all times. In particular, they shall:
-
-*   wait for the Driver on time, at the designated place and be visible.
-
-*   respect the Driver and treat him or her like a friend.
-
-*   respect the car and all other property of the Driver and treat it with special care.
-
-*   always use a seatbelt.
-
-&nbsp;
-
-## 5\. SAFETY
-
-General General legal liability rules apply to members of our Community. Consequently, all claims between Community members in relation to the Wunder Community or Community rides must be agitated directly amongst the Community members. In the event of any dispute, Wunder may try to facilitate an agreement amongst the Community member but is not responsible for reaching a resolution. In the case of a legal dispute between Community members or if a Community member learns about the abuse of the Wunder App or of a behavior detrimental to other Community members or the Community per se, the member commits to inform Wunder immediately.
-
-Insurance
-
-The Driver agrees and undertakes that he or she will take out and maintain insurance to cover the Trip and any carpooling offered or booked through the platform. The Driver agrees that he or she will, on request, provide the Passenger with evidence in advance of the Trip of the complete validity of his or her insurance policy. The Driver shall also ensure that she/he has in place all insurances required under law, including third party insurance.
-
-The Driver also undertakes that he will hold a valid driving license and that the Driver will own or will be entitled to use the Vehicle and that the Vehicle will have authorization to drive and the Passenger is entitled to request evidence of the Driver’s insurance and driving license at any time up to completion of the Trip.
-
-It is up to each Driver and Passenger to confirm with each other that the Driver is covered by valid insurance for a Trip. The Driver must confirm that his or her insurance policy allows him or her to carry Passengers and that the insurance policy covers all Passengers and any accident or incident which may occur during a Trip.
-
-It is Wunder’s understanding that a Trip during which a Passenger contributes only towards travel expenses is not a Trip for “hire or reward”. A Passenger in such a Trip is a third party passenger who is covered by compulsory third party insurance. However, Wunder gives no warranty or assurance in this regard and it is the Driver’s responsibility to verify that their insurance provides adequate cover.
-
-The Driver and the Passenger are aware that standard non-commercial insurance policies may refuse to cover loss or damage arising in the event that the Driver had made or was seeking to make a profit. The Driver may collect no payment from the Passenger other than the Cost Contribution and the Driver must not, in any event, make a profit.
-
-The Driver, therefore, undertakes to calculate his or her expenses (fuel, toll, maintenance, repairs, depreciation, insurance, cleaning, interest of loan payment, loss in value of his or her Vehicle) and guarantees that the total Cost Contributions requested from his or her Passengers does not result in any profit. If the Driver does make a profit, or if the insurers repudiate or refuse to accept any claim arising during a Trip for any other reason, the Driver will be responsible for the financial consequences, losses, and damages arising and Wunder will not be liable under any circumstances to the Driver or the Passenger.
-
-The Wunder App proposes a suggested price for the trip, based on a fixed fee and costs per kilometer per ride of a standard vehicle used by Wunder drivers.
-
-The Driver may adjust the price per kilometer based on the actual expenses encountered by his vehicle. If the driver offers rides in medium or large sized vehicle, the likely expenses per kilometer will be higher and thus there is a possibility to adjust the pricing up to a maximum allowed price. The vehicle expenses may differ, depending on the model, year of purchase, fuel efficiency and level of maintenance of the car. Wunder is thus in no position to determine the final price of the ride.However, Wunder provides suggestions and limits any excessive pricing, which may be deemed to be commercial or for hire.
-
-Disputes
-
-Wunder shall provide its Users with an online service for resolving disputes. This service is non-binding. Wunder is under no obligation to seek to resolve disputes and this service is offered at Wunder’s sole discretion and may be withdrawn at any time. If a dispute is not settled, Wunder reserves the right to retain any sums paid by the Passenger until an amicable agreement has been reached between the Passenger and the Driver or a definitive judicial decision has been made.
-
-&nbsp;
-
-## 6\. COMMUNITY RIDES
-
-The core of the Wunder Community is to facilitate Community rides via the Wunder App. The Wunder App allows our members to organize shared rides ('') within a safe and trustworthy Community and to share any costs through a fair contribution to Drivers’ expenses.
-
-No Contractual Relationship between Driver and Passenger
-
-Wunder Community rides are favors between Community members. No contract (e.g., transportation contract) is made between Drivers and Passengers. The Wunder Community and the Wunder App must not be abused to facilitate contracts between Community members. Giving a ride based on a contractual obligation is not a Community trip even if the Wunder App is used to facilitate the trip. Claims against Wunder, especially for an invoice or the reimbursement of fees, cannot be based on such abuse.
-
-Cancelling Transactions
-
-Wunder has the right to cancel a transaction at any point in time solely at its discretion. Reasons for cancellation can include, without limitation:
-
-*   Drivers and passengers have not confirmed a Trip;
-
-*   There is no interaction between the Driver and Passenger on the Wunder App;
-
-*   Wunder finds a User acting against these Terms and Conditions.
-
-Banning of Drivers and Passengers
-
-Wunder constitutes a circle of trust and it is important that these trust levels be maintained. As such, Wunder may, at its sole discretion, ban Users from the platform for any reason whatsoever, including but not limited to potential suspicious activity such as money laundering, fraudulent transactions via credit cards etc. We retain the right to report and cooperate with the local law enforcement in these cases.
-
-Cost Sharing
-
-After finishing a Community trip, the Passenger shall contribute to the Driver’s expenses through the payment system integrated into the Wunder App. The Wunder App incorporates a proprietary cost sharing algorithm designed to calculate the cost of the ride and to share it between the Driver and the Passengers, equitably.
-
-In addition, Wunder reserves the right to charge an administrative fee for any ride. The amount is to be determined by Wunder, depending on its geography. The administrative fee covers costs for technology, services provided and support costs.
-
-&nbsp;
-
-## 7\. PAYMENTS & TAXES
-
-Participating in the Wunder Community is free.
-
-The Passenger shall not pay any reimbursement to the Driver for a Community trip beyond sharing in the cost of the Trip. Wunder does not process the payments towards costs by itself. Payments are processed by One Communications Limited (PayTM) in India or Dragonpay in the Philippines (''), which will process payouts and deductions ('') through a third party payment gateway (“”) for Wunder for any electronic payments.
-
-Wunder Wallet
-
-In certain countries, we facilitate payments through a closed wallet (the “” or “” in the Wunder app). All money uploaded to the Wunder Wallet is solely to be used to pay for Wunder Carpool rides.
-
-All electronic payments are only to be processed via the Wunder Wallet, supported by the Payment Provider. Wunder is not responsible for any delays or problems caused by or on account of the Payment Provider.
-
-Once a Community member contributes to Driver’s expenses or otherwise sets off a payment within the Community, the amount is charged to the payment method on file with our payment provider. Once a payment has been made to any Driver, the Payment (including any deduction or Administrative Fee) is nonrefundable regardless of the trip or any other disruption that was caused (including but not limited to accidents).
-
-Promotional Offers
-
-Wunder may offer promotional offers to any User and these promotional offers are given at the sole discretion of Wunder. Any promotional discounts, offers and reward points in the form of Wunder Wallet money/points accumulated can be revoked without prior notice in the event of suspicious account activity or mala fide intent of the User.
-
-Cancelled Transaction
-
-If a payment to the WunderWallet in respect of a cancelled transaction was successful, then the money is refunded to the Users. Wunder aims to make such payments within [90] business days, but cannot be held liable for any delays that are beyond its control.
-
-Bank Account
-
-Drivers are required to create an account with our payment provider and record a functional personal bank account to receive any expense contribution payouts.
-
-Passengers are required to record a valid payment method with our payment provider using the Wunder App.
-
-Wunder has to be notified immediately and in writing about all inconsistencies in processing the expense contributions. If no claims are made within one month after an expense contribution is processed, it is considered as accepted by the receiver. If a deduction fails or is reversed, the debtor will immediately balance the missing amount. If the failure is due to reasons within the control of the debtor (e.g., the payment method on file is no longer valid or does not have sufficient coverage, a payment is reversed based on the order of the debtor, etc.), the debtor also has to cover any damages that occurred due to the failure. If the payout to the bank account on file fails Wunder will notify the Community member and ask that the bank account on file be corrected. The amount to be paid out will be added to the next regular payout and paid out at the same time as the next payout.
-
-Tax obligations of Drivers
-
-If you are driving, you agree to pay all taxes that may apply to the payments you receive from Passengers and this responsibility rests solely with you.
-
-&nbsp;
-
-## 8\. LIABILITY
-
-Wunder is merely a platform provider and is not liable for any loss or damage that Community Members incur while using the Wunder App. Apart from the Community Guarantee, Wunder also is not liable for the behavior of Community Members.
-
-Notwithstanding any term in these terms and conditions and otherwise, Wunder expressly disclaims any warranty, express or implied, in respect of the platform, any trip facilitated on the platform, reliability, completeness of information and the legality, skill level, appropriateness or driving skill of any User. The Wunder App, the website and the Platform is provided on “as is” basis and all Users are required to conduct their own due diligence prior to engaging with any other User (including by agreeing to carpool and share costs).
-
-If claims are made against Wunder based on the behavior of a Community member, all Community Members ought to help defend against any such claims and, if the behavior was due to the actions of any User, such User will (without any limitation on any other legal remedy that may be available to Wunder) compensate Wunder for any damages, loss or costs or legal or transactional fees incurred by Wunder or its Users.
-
-Without prejudice to any other remedies that may be available, if WunderCar is damaged due to the negligent behavior of a Community member, the Community member will reimburse for all loss, damage or costs that may be attributable to her or his action or inaction, regardless of whether such loss, damage or cost was foreseeable or direct.
-
-&nbsp;
-
-## 9\. PRIVACY
-
-Wunder takes the privacy of our Users very seriously and is compliant with applicable privacy and data protection laws. For more details, please refer our Privacy Policy
-
-&nbsp;
-
-## 10\. CONTENT
-
-The intellectual property behind the content of the Wunder Community and the Wunder App, especially software, pictures, graphics, logos, texts etc. ('our intellectual property') is owned by Wunder.
-
-As long as you act in accordance with these terms and conditions and the Community Code of Conduct, we grant you a revocable, non-exclusive license for personal, non-commercial usage of the Wunder App. You cannot grant any sublicenses and you are not allowed to alter the content or to use them in any manner that is not expressly permitted by these Terms & Conditions and the Community Code of Conduct.
-
-Where you contribute your own content in the Wunder App or the Wunder Community in general, e.g., in the form of pictures, profile information, reviews and comments ('your intellectual property'), this content always remain your property. By contributing them to the Wunder Community you are granting us an irrevocable, non-exclusive, transferable, sub-licensable license to your intellectual property in the knowledge that it will be used, altered, copied, published and distributed as part of the Wunder Community. This includes the use of your intellectual property for advertising purposes as well as the publication outside of the Wunder Community as long as there is a sufficiently strong connection to the Wunder Community (e.g., Wunder Advertising).
-
-Community members are not allowed to contribute content that is infringing on other intellectual property rights, illegal, insulting, racist, pornographic or otherwise inappropriate for the Wunder Community. This kind of content will be deleted without warning and you will indemnify us for any direct or indirect loss, damage or costs arising therefrom.
-
-&nbsp;
-
-## 11\. TERMINATION
-
-Wunder reserves the right to change the services described here or to partially or fully stop operating.
-
-&nbsp;
-
-## 12\. CHOICE OF LAW, JURISDICTION AND DISPUTE RESOLUTION
-
-WThese Terms & Conditions shall be governed by, construed under and enforced in accordance with the laws of India, without regard to any conflict of law provisions.
-
-Any controversies, conflicts, disputes and/or arising out of these Terms & Conditions shall be resolved by arbitration in Bengaluru, India in accordance with the Indian Arbitration and Conciliation Act, 1996\. The tribunal shall consist of 1 arbitrator whose decision shall be final and binding.
+17. **General**<br>
+This Agreement constitutes the entire agreement between you and Wunder Mobility regarding the provision of Services and your use of the Mobile application. You may be subject to additional terms and conditions that will apply when you use third party services or software.<br><br> 
+This Agreement is governed by the laws of Germany, excluding the application of the United Nations Convention on Contracts for the International Sale of Goods, CISG (Convention des Nations unies sur les contrats de vente internationale de marchandises, CVIM) and without any reference to the German conflict of laws principles 

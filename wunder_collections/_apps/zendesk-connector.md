@@ -34,7 +34,7 @@ screenshot_details:
   screenshot_description: The Zendesk Connector sends all user data over to your connected
     Zendesk account – all your Wunder Fleet customers are now available in Zendesk.
 app_details:
-- detail_title: ''
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.wundermobility.com/" title="Developer Website
     →">Developer Website →</a>
 - detail_title: ''
@@ -55,5 +55,7 @@ getting_started:
   column_title: Setup
 - column_title: Go
   column_description: After things are setup the connector will do the work for you.
+whitepaper_link: ''
+video_poster: ''
 
 ---

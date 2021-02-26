@@ -36,9 +36,11 @@ screenshot_details:
     rewards through our marketplace. You also have the option to provide affiliated
     rewards with existing partners (eg. Garmin and Komoot).
 app_details:
+- detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
 - detail_content: <a href="https://motion-tag.com" title="Developer Website →">Developer
     Website →</a>
-  detail_title: ''
+  detail_title: 'Partner details:'
 - detail_content: <a href="/uploads/2020/09/21/motiontag-service-and-sdk-license-agreement_open.pdf"
     title="Terms of Service →">Terms of Service →</a>
   detail_title: ''

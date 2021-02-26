@@ -37,6 +37,8 @@ screenshot_details:
     You can also see the status of your vehicles and warehouses and their activities log.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="http://www.serveedo.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
