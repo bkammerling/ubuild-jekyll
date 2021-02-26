@@ -1,9 +1,35 @@
+#volta-header {
+  .nav-item {
+    svg {
+      display: none;
+    }
+    @include rwd(tablet-down) {
+      border: none;
+      span {
+        display: none;
+      }
+      svg {
+        display: block
+      }
+    }
+  }
+}
+
+#scroller-nav {
+  @include rwd(tablet-down) {
+    display: none;
+  }
+}
+
 #volta_sustainability_video {
-  position: absolute;
-  top: 17%;
-  transform: translateX(-75%);
-  width: 315%;
-  object-fit: contain;
+  width: 100%;
+  @include rwd(tablet-up) {
+    position: absolute;
+    top: 17%;
+    transform: translateX(-75%);
+    width: 315%;
+    object-fit: contain;
+  }
 }
 
 .instruction-title {
