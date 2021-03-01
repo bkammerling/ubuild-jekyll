@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Volta | Get your sharing-ready electric vehicles
+title: Power Your Tomorrow | Wunder Mobility
 date: '2020-05-08T22:00:00.000+00:00'
 description: Build your dream fleet of sharing-ready electric bikes, scooters and
   mopeds with Wunder Vehicles. The future of mobility has arrived.
@@ -11,24 +11,22 @@ language: DE
 lang-ref: vehicles
 component_scripts:
 - clientCarousel.js
-- rellax.js
+- rellax.min.js
 page_sections:
 - template: hero-banner-w-image
-  block: hero-hp
+  block: hero-hp-text-right
   headline: Power Your Tomorrow
   subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared-Mobility-Flotte antreiben.
-  background_image: "/uploads/global/wvehicles-poster.jpg"
-  background_video: vehicles-loop
+  background_video: city/city-drone-loop_compressed
+  background_image: "/uploads/global/city/city-firstframe.jpg"
 - block: volta-main
   template: static-file
-  subdirectory: static
+  subdirectory: static/de
 - template: detail-content
   block: contact-form
-  title: Volta
-  content: Send over some info and we'll get in touch in the next 24 hours.
-  background_video: vehicles-loop
-  background_image: "/uploads/global/wvehicles-poster.jpg"
-  headline: ''
+  title: Persönliche Beratung anfordern
+  content: Sind Sie bereit in Ihrem Unternehmen zu innovieren? Kontaktieren Sie uns und ein Mitglied unseres Teams wird sich so schnell wie möglich mit Ihnen in Verbindung setzen.
+  subdirectory: de
 - template: simple-footer
   block: footer-1
   content: ''

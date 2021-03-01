@@ -1,0 +1,71 @@
+<section class="block block-hero-hp" id="hero">
+  <div class="hero-banner">
+    {% assign vidLength = section.background_video | size %}
+    {% if vidLength > 2 %}
+    <div class="video-banner">
+      <video autoplay playsinline loop muted poster="{{ section.background_image }}" class="video-banner__video" id="videoBg">
+          <source src="/uploads/global/{{ section.background_video }}.mp4" type="video/mp4" />
+      </video>
+    </div>
+    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="hero-banner__inner-content">
+          <div class="hero-banner__title-wrapper">
+            {% if section.sub_logo.size > 5  %}
+              <img class="mb-3" src="{{ section.sub_logo }}" alt="Wunder product logo" />
+            {% endif %}
+            <h1 class="headline-large">{{ section.headline }}</h1>
+            {% if section.subheadline %}
+            <h2 class="headline-small">{{ section.subheadline }}</h2>
+            {% endif %}
+            {% if section.cta.enabled %}
+              <a class="gt-headercta text-link white-text {% if section.cta.button_text contains 'film' or section.cta.button_text contains 'Film' or section.cta.button_text contains 'Watch' or section.cta.button_text contains 'Schauen' %}with-play gt-videoplay{% endif %}" href="{{ section.cta.url }}" target="_blank"{% if section.cta.button_text contains "film" or section.cta.button_text contains 'Film'  or section.cta.button_text contains 'Watch' %} data-toggle="modal" data-target="#filmModal"{% endif %}>{{ section.cta.button_text }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% assign bg_image = section.background_image %}
+  {% if bg_image ==  %}
+    {% assign bg_image = page.feature_image %}
+  {% endif %}
+  {% assign bg_image_mob = section.background_image_mobile %}
+  {% if bg_image_mob ==  %}
+    {% assign bg_image_mob = bg_image %}
+  {% endif %}
+
+  {% if bg_image %}
+  <style>
+  .hero-banner {
+    background-image: url("{{ bg_image_mob | remove: '@2x' | relative_url }}");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-banner {
+      background-image: url('{{ bg_image_mob | relative_url }}');
+    }
+  }
+  @media (min-width: 769px) {
+    .hero-banner {
+      background-image: url("{{ bg_image | remove: '@2x' | relative_url }}");
+    }
+  }
+  @media (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-banner {
+      background-image: url('{{ bg_image | relative_url }}');
+    }
+  }
+  {% if section.background_video and section.background_video != empty %}
+    @media screen and (min-width: 769px) {
+      .hero-banner {
+        background-image: none;
+      }
+    }
+  {% endif %}
+  </style>
+  {% endif %}
+
+</section>

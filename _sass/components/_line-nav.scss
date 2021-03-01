@@ -27,13 +27,13 @@
       display: block;
       background-color: #ccc;
     }
-    &.active, &:hover {
+    &:hover {
       &::before {
         width: 30px;
       }
       span {
         opacity: 1;
-        transform: translateX(35px);
+        transform: translateX(40px);
       }
     }
   }

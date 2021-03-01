@@ -1,5 +1,9 @@
 #volta-header {
+  background-color: $mobility-black;
   .nav-item {
+    span:hover {
+      color: $mobility-black;
+    }
     svg {
       display: none;
     }
@@ -15,20 +19,31 @@
   }
 }
 
+#volta-marketing {
+  overflow: hidden;
+}
+
 #scroller-nav {
   @include rwd(tablet-down) {
     display: none;
   }
 }
 
+
+.sustainability-header, #contact h2 {
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  -ms-word-wrap: break-word;
+}
+
 #volta_sustainability_video {
   width: 100%;
-  @include rwd(tablet-up) {
+  @include rwd(desktop-up) {
     position: absolute;
-    top: 17%;
-    transform: translateX(-75%);
-    width: 315%;
-    object-fit: contain;
+    top: 14%;
+    right: 0;
+    height: 103%;
+    object-fit: cover;
   }
 }
 
@@ -66,11 +81,21 @@
 #volta-fleet-size-range {
   height: 12px;
   &:before {
-    content: "1 Fahrzeug"
+    content: "1"
   }
   &:after {
-    content: "5,000 Fahrzeuge"
+    content: "5,000"
   }
+  @include rwd(mobile-up) {
+    &:before {
+      content: "1 Fahrzeug"
+    }
+    &:after {
+      content: "5,000 Fahrzeuge"
+    }
+  }
+  
+  
 }
 
 input[name="vehicle-type"]:checked ~ .vehicle-type-button, .vehicle-type-button:hover{

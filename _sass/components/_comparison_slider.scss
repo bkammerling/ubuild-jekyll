@@ -3,21 +3,23 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding-bottom: 500px; //controls the height of the figure
+  padding-bottom: 67%; //controls the height of the figure
 
   figure {
     position: absolute;
     //set background image in the slider comparison file.
     background-size: cover;
+    background-position: left bottom;
     font-size: 0;
     width: 100%;
-    height: 500px;
+    height: 100%;
     margin: 0;
   }
   .divider {
     //photo on the right side of the slider. set in the file.
 
     background-size: cover;
+    background-position: left bottom;
     position: absolute;
     width: 20%;
     box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
@@ -36,11 +38,9 @@
     }
     &::before {
       top: 0;
-      box-shadow: 0 -3px 8px 1px rgba(0,0,0,.3);
     }
     &::after {
       bottom: 0;
-      box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
     }
   }
   .handle {
@@ -97,7 +97,6 @@
     border-radius: 50%;
     background: transparent;
     border: 4px solid white;
-    box-shadow: 0 0 8px 1px rgba(0,0,0,.3);
   }
   input[type=range]::-moz-range-track {
     -moz-appearance:none;
@@ -111,14 +110,9 @@
 
 #comparison_slider_label {
   left: calc(20% + 3rem);
-  top: calc(50% - 1rem);
+  top: calc(50% - 0.5rem);
   color: #fff;
   filter: drop-shadow(black 2px 4px 6px);
   font-size: 2rem;
   z-index: 10;
-}
-
-#volta-marketing {
-  overflow: visible;
-  //to allow the label to be visible outside of the bounds
 }
