@@ -3,7 +3,7 @@
     <div class="handle" id="comparison_handle"></div>
     <div class="divider" id="comparison_divider"></div>
   </figure>
-  <p class="range-label" id="comparison_slider_label">48.56€</p>
+  <p class="range-label" id="comparison_slider_label">48.56 €</p>
   <!-- TODO: Min $8.20, max 210 -->
   <input type="range" min="0" max="100" value="20" id="comparison_slider" oninput="moveDivider()">
 </div>
@@ -26,7 +26,7 @@ function moveDivider() {
   var percentage = comparison_slider.value;
   comparison_handle.style.left = percentage + "%";
 	comparison_divider.style.width = percentage + "%";
-  comparison_label.innerHTML = ((201.8 * (percentage / 100)) + 8.2).toFixed(2) + "€";
+  comparison_label.innerHTML = ((201.8 * (percentage / 100)) + 8.2).toFixed(2) + " €";
 
   if (percentage > 50) {
     comparison_label.style.right = 'calc(' + (100 - percentage) + '% + 6rem)';
