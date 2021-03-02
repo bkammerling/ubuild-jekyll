@@ -5,7 +5,7 @@ tags:
 - micromobility
 - Blue Duck
 - shared mobility
-author: []
+author: wunder_collections/_people/Peter Mazzoli.md
 cta_heading: Ready to launch your own fleet?
 cta_text: We have a range of solutions that use the latest technology to drive the
   future of mobility forward.
