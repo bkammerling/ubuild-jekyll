@@ -27,133 +27,151 @@ body.volta {
     height: 70vh;
     margin-top: 3.5rem;
   }
-}
+  #contact {
+    a.text-link { @include rwd(tablet-up) {
+        span {
+          width: 72%;
+        }
+        svg {
+          margin-top: 0;
+        }
+      }
+    }
+    .small-label {
+      font-size: 0.6rem;
+      color: #CCCCCC;
+    }
+  }
 
-#volta-header {
-  background-color: $mobility-black;
-  .nav-item {
-    span:hover {
-      color: $mobility-black;
-    }
-    svg {
-      display: none;
-    }
-    @include rwd(tablet-down) {
-      border: none;
-      span {
-        display: none;
+  #volta-header {
+    background-color: $mobility-black;
+    .nav-item {
+      span:hover {
+        color: $mobility-black;
       }
       svg {
-        display: block
+        display: none;
+      }
+      @include rwd(tablet-down) {
+        border: none;
+        span {
+          display: none;
+        }
+        svg {
+          display: block
+        }
       }
     }
   }
-}
-
-#digitalization {
-  h2#digitalization-header.aos-animate {
-    transition-delay: 2.5s
-  }
-  .table-wrapper .row.aos-animate {
-    &:first-of-type {
-      transition-delay: 4s;
+  
+  #digitalization {
+    h2#digitalization-header.aos-animate {
+      transition-delay: 2.5s
     }
-    &:nth-of-type(2) {
-      transition-delay: 4.1s;
+    .table-wrapper .row.aos-animate {
+      &:first-of-type {
+        transition-delay: 4s;
+      }
+      &:nth-of-type(2) {
+        transition-delay: 4.1s;
+      }
+      &:last-of-type {
+        transition-delay: 4.2s;
+      }
+  
     }
-    &:last-of-type {
-      transition-delay: 4.2s;
+  }
+  
+  #volta-marketing {
+    overflow: hidden;
+  }
+  
+  #scroller-nav {
+    @include rwd(tablet-down) {
+      display: none;
     }
-
   }
-}
-
-#volta-marketing {
-  overflow: hidden;
-}
-
-#scroller-nav {
-  @include rwd(tablet-down) {
-    display: none;
+  
+  .sustainability-header, #contact h2 {
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-word-wrap: break-word;
   }
-}
-
-.sustainability-header, #contact h2 {
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  -ms-word-wrap: break-word;
-}
-
-#volta_sustainability_video {
-  width: 100%;
-  @include rwd(desktop-up) {
-    position: absolute;
-    top: 14%;
-    right: 0;
-    height: 103%;
-    object-fit: cover;
+  
+  #volta_sustainability_video {
+    width: 100%;
+    @include rwd(desktop-up) {
+      position: absolute;
+      top: 14%;
+      right: 0;
+      height: 103%;
+      object-fit: cover;
+    }
   }
-}
-
-
-.instruction-title {
-  opacity: 60%;
-}
-
-.vehicle-type-button {
-  padding: 1.4em 1.6em;
-  width: 100%;
-  border: 1px solid $white;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
-  .label-image {
-    margin-right: 1.6em;
+  
+  
+  .instruction-title {
+    opacity: 60%;
   }
-
-  &:hover {
-    cursor: pointer;
+  
+  .vehicle-type-button {
+    padding: 1.4em 1.6em;
+    width: 100%;
+    border: 1px solid $white;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+    .label-image {
+      margin-right: 1.6em;
+    }
+  
+    &:hover {
+      cursor: pointer;
+    }
   }
-}
-
-.border-wrapper-dark {
-  padding: 2rem;
-  border: 1px white solid;
-  border-radius: 4px;
-  padding-bottom: calc(28px + 2rem);
-  max-width: calc(100% - 2rem);
-}
-
-#volta-fleet-size-range {
-  height: 12px;
-  &:before {
-    content: "1"
+  
+  .border-wrapper-dark {
+    padding: 2rem;
+    border: 1px white solid;
+    border-radius: 4px;
+    padding-bottom: calc(28px + 2rem);
+    max-width: calc(100% - 2rem);
   }
-  &:after {
-    content: "5,000"
-  }
-  @include rwd(mobile-up) {
+  
+  #volta-fleet-size-range {
+    height: 12px;
     &:before {
-      content: "1 Fahrzeug"
+      content: "1"
     }
     &:after {
-      content: "5,000 Fahrzeuge"
+      content: "5,000"
     }
+    @include rwd(mobile-up) {
+      &:before {
+        content: "1 Fahrzeug"
+      }
+      &:after {
+        content: "5,000 Fahrzeuge"
+      }
+    }
+    
+    
   }
   
+  input[name="vehicle-type"]:checked ~ .vehicle-type-button, .vehicle-type-button:hover{
+    background-color: $white;
+    color: $mobility-black;
+    .label-image {
+      svg, * {
+        fill: $mobility-black;
+      }
+      
+    }
+  }
   
 }
 
-input[name="vehicle-type"]:checked ~ .vehicle-type-button, .vehicle-type-button:hover{
-  background-color: $white;
-  color: $mobility-black;
-  .label-image {
-    svg, * {
-      fill: $mobility-black;
-    }
-    
-  }
-}
+
