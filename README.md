@@ -45,6 +45,9 @@ component_scripts:
 - rellax.min.js
 ```
 
+## Environment
+Git LFS is enabled in both local and Netlify deploy environments.
+[Read more about LFS](https://docs.netlify.com/large-media/setup/)
 ## Plugins
 
 Currently using:
