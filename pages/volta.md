@@ -35,7 +35,7 @@ page_sections:
   content: ''
   hide_menu: false
   show_poweredby: false
-share_image: "/uploads/global/volta/social_share_image_volta.jpg"
+share_image: "/uploads/2021/03/02/social_share_image_volta.jpg"
 case_study_cta:
   heading: Eine Erfolgsgeschichte der Shared Mobilität
   subheading: Der Energiedienstleister Süwag startete zunächst mit 50 Rollern in einer Stadt. Dank der großen Nachfrage konnten sie innerhalb von 18 Monaten schnell auf 250 Roller und 4 Städte in Deutschland skalieren. Ganz zu schweigen davon, dass sie ihre Kundenbindung verbessert haben und aktiv zu nationalen Nachhaltigkeitsinitiativen beitragen.
