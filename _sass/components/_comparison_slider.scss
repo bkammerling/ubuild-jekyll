@@ -3,36 +3,23 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-<<<<<<< HEAD
   padding-bottom: 67%; //controls the height of the figure
-=======
-  padding-bottom: 500px; //controls the height of the figure
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
 
   figure {
     position: absolute;
     //set background image in the slider comparison file.
     background-size: cover;
-<<<<<<< HEAD
     background-position: left bottom;
     font-size: 0;
     width: 100%;
     height: 100%;
-=======
-    font-size: 0;
-    width: 100%;
-    height: 500px;
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
     margin: 0;
   }
   .divider {
     //photo on the right side of the slider. set in the file.
 
     background-size: cover;
-<<<<<<< HEAD
     background-position: left bottom;
-=======
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
     position: absolute;
     width: 20%;
     box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
@@ -51,17 +38,9 @@
     }
     &::before {
       top: 0;
-<<<<<<< HEAD
     }
     &::after {
       bottom: 0;
-=======
-      box-shadow: 0 -3px 8px 1px rgba(0,0,0,.3);
-    }
-    &::after {
-      bottom: 0;
-      box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
     }
   }
   .handle {
@@ -118,10 +97,6 @@
     border-radius: 50%;
     background: transparent;
     border: 4px solid white;
-<<<<<<< HEAD
-=======
-    box-shadow: 0 0 8px 1px rgba(0,0,0,.3);
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
   }
   input[type=range]::-moz-range-track {
     -moz-appearance:none;
@@ -135,21 +110,9 @@
 
 #comparison_slider_label {
   left: calc(20% + 3rem);
-<<<<<<< HEAD
   top: calc(50% - 0.5rem);
-=======
-  top: calc(50% - 1rem);
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
   color: #fff;
   filter: drop-shadow(black 2px 4px 6px);
   font-size: 2rem;
   z-index: 10;
-<<<<<<< HEAD
-=======
-}
-
-#volta-marketing {
-  overflow: visible;
-  //to allow the label to be visible outside of the bounds
->>>>>>> 205c11d99ff8d320f7f929a26991715d59757b8a
 }
