@@ -8,13 +8,16 @@ permalink: "/de/poweryourtomorrow"
 version: hp
 lang: de
 language: DE
-lang-ref: vehicles
+lang-ref: volta
 component_scripts:
 - clientCarousel.js
 - rellax.min.js
 page_sections:
 - template: hero-banner-w-image
-  block: hero-hp-text-right
+  block: hero-hp
+  background_video: rent-loop
+  show_logos: false
+  background_image: "/uploads/global/rent-herobg@2x.jpg"
   headline: Power Your Tomorrow
   subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared-Mobility-Flotte antreiben.
   background_video: city/city-drone-loop_compressed

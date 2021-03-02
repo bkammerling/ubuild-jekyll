@@ -1,3 +1,34 @@
+body.volta {
+  .block-hero-hp .hero-banner .hero-banner__inner-content {
+    text-align: left;
+    height: 70vh;
+    max-height: 750px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 4rem 1rem;
+    .hero-banner__title-wrapper {
+      max-width: 565px; //to make the headline wrap
+      .headline-large {
+        margin-bottom: 1rem;
+      }
+      .headline-small {
+        font-weight: 500;
+      }
+    }
+    @include rwd(desktop-up) {
+      width: 50%;
+      margin-right: 0;
+      align-items: center;
+    }
+  
+  }
+  #hero {
+    height: 70vh;
+    margin-top: 3.5rem;
+  }
+}
+
 #volta-header {
   background-color: $mobility-black;
   .nav-item {
