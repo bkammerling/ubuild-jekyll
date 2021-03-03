@@ -109,6 +109,12 @@ body.volta {
     }
   }
   
+  br#digital-usp-line-breaker {
+    //if you're here i am so sorry
+    @include rwd (tablet-down) {
+      display:none
+    }
+  }
   
   .instruction-title {
     opacity: 60%;
