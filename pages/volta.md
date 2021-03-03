@@ -2,8 +2,7 @@
 layout: blocks
 title: Power Your Tomorrow | Wunder Mobility
 date: '2020-05-08T22:00:00.000+00:00'
-description: Build your dream fleet of sharing-ready electric bikes, scooters and
-  mopeds with Wunder Vehicles. The future of mobility has arrived.
+description: Eine Shared Mobility Lösung für Versorgungsunternehmen
 permalink: "/de/poweryourtomorrow"
 version: hp
 lang: de
