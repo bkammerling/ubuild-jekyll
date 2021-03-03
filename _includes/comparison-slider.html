@@ -29,7 +29,7 @@ function moveDivider() {
   comparison_label.innerHTML = ((201.8 * (percentage / 100)) + 8.2).toFixed(2) + " €";
 
   if (percentage > 50) {
-    comparison_label.style.right = 'calc(' + (100 - percentage) + '% + 6rem)';
+    comparison_label.style.right = 'calc(' + (100 - percentage) + '% + 3rem)';
     comparison_label.style.left = "unset";
   }else {
     comparison_label.style.left = 'calc(' + percentage + '% + 3rem)';
