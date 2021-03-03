@@ -105,6 +105,20 @@
       height: 1rem;
     }
   }
+  &::-moz-range-thumb {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+    background-color: $white;
+    border: 0;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    @include rwd(tablet-up) {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
 
   &:before, &:after {
     position: absolute;
