@@ -112,10 +112,11 @@ body.volta {
   
   .instruction-title {
     opacity: 60%;
+    font-size: 1rem;
   }
   
   .vehicle-type-button {
-    padding: 1.4em 1.6em;
+    padding: 0 1.6em;
     width: 100%;
     border: 1px solid $white;
     display: flex;
@@ -124,8 +125,14 @@ body.volta {
     font-weight: bold;
     margin-bottom: 1rem;
     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+    height:4rem;
+    
     .label-image {
-      margin-right: 1.6em;
+      margin-right: 2em;
+    }
+
+    &[for="vehicle-type__cars"] .label-image{
+      margin-right: 1.2em;
     }
   
     &:hover {
