@@ -52,17 +52,17 @@ body.volta {
     }
     @include rwd (tablet-up) {
     h2#digitalization-header.aos-animate {
-      transition-delay: 2.5s
+      transition-delay: 1.5s
     }
     .table-wrapper .row.aos-animate {
       &:first-of-type {
-        transition-delay: 4s;
+        transition-delay: 2s;
       }
       &:nth-of-type(2) {
-        transition-delay: 4.1s;
+        transition-delay: 2.1s;
       }
       &:last-of-type {
-        transition-delay: 4.2s;
+        transition-delay: 2.2s;
       }
     }
   }
