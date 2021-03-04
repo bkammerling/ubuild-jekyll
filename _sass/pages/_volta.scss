@@ -128,13 +128,6 @@ body.volta {
     }
   }
   
-  .sustainability-header, #contact h2 {
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    -ms-word-wrap: break-word;
-    word-break: break-all;
-  }
-  
   #volta_sustainability_video {
     width: 100%;
     @include rwd(desktop-up) {
