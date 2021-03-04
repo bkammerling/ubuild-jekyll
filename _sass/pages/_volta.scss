@@ -35,7 +35,7 @@ body.volta {
   #volta-header {
     background-color: $mobility-black;
     .nav-item {
-      &:hover {
+      &:hover span{
         color: $mobility-black;
       }
     }
