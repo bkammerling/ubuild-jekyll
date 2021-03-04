@@ -1,4 +1,10 @@
 body.volta {
+  #hero {
+    margin-top: 3.5rem;
+  }
+  .fullwidth-bg.dark-bg {
+    background-color: $mobility-black;
+  }
   .block-hero-hp .hero-banner .hero-banner__inner-content {
     text-align: left;
     height: 70vh;
