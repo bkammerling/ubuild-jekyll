@@ -3,7 +3,10 @@ body.volta {
     margin-top: 3.5rem;
   }
   .fullwidth-bg.dark-bg {
-    background-color: $mobility-black;
+    background: $mobility-black;
+  }
+  #hero .hero-banner {
+    background-color: #1F1F1F5C;
   }
   .block-hero-hp .hero-banner .hero-banner__inner-content {
     text-align: left;
@@ -28,66 +31,38 @@ body.volta {
     }
   
   }
-  
-  #contact {
-    a.text-link { @include rwd(tablet-up) {
-        span {
-          width: 72%;
-        }
-        svg {
-          margin-top: 0;
-        }
-      }
-    }
-    .small-label {
-      font-size: 0.6rem;
-      color: #CCCCCC;
-    }
-  }
 
   #volta-header {
     background-color: $mobility-black;
     .nav-item {
-      span:hover {
+      &:hover span{
         color: $mobility-black;
-      }
-      svg {
-        display: none;
-      }
-      @include rwd(tablet-down) {
-        border: none;
-        &:hover {
-          background-color: transparent;
-        }
-        span {
-          display: none;
-        }
-        svg {
-          display: block
-        }
       }
     }
   }
   
   #digitalization {
-    @include rwd (tablet-down) {
-      img {
+    
+    object {
+      width: 100%;
+      max-width: 500px;
+      @include rwd (tablet-down) {
         max-height: 600px;
       }
     }
     @include rwd (tablet-up) {
     h2#digitalization-header.aos-animate {
-      transition-delay: 2.5s
+      transition-delay: 1.5s
     }
     .table-wrapper .row.aos-animate {
       &:first-of-type {
-        transition-delay: 4s;
+        transition-delay: 2s;
       }
       &:nth-of-type(2) {
-        transition-delay: 4.1s;
+        transition-delay: 2.1s;
       }
       &:last-of-type {
-        transition-delay: 4.2s;
+        transition-delay: 2.2s;
       }
     }
   }
@@ -119,19 +94,12 @@ body.volta {
     }
   }
   
-  .sustainability-header, #contact h2 {
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    -ms-word-wrap: break-word;
-    word-break: break-all;
-  }
-  
   #volta_sustainability_video {
     width: 100%;
     @include rwd(desktop-up) {
       position: absolute;
       top: 14%;
-      right: 0;
+      left: -4rem;
       height: 103%;
       object-fit: cover;
     }
@@ -184,6 +152,7 @@ body.volta {
   
   #volta-fleet-size-range {
     height: 12px;
+    -moz-appearance: initial;
     &:before {
       content: "1"
     }
@@ -213,6 +182,21 @@ body.volta {
     }
   }
   
+  section#contact {
+    a.text-link { @include rwd(tablet-up) {
+        span {
+          width: 72%;
+        }
+        svg {
+          margin-top: 0;
+        }
+      }
+    }
+    .small-label {
+      font-size: 0.6rem;
+      color: #CCCCCC;
+    }
+  }
 }
 
 

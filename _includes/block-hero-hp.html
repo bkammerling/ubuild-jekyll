@@ -40,14 +40,7 @@
 
   {% if bg_image %}
   <style>
-  .hero-banner {
-    background-image: url("{{ bg_image_mob | remove: '@2x' | relative_url }}");
-  }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .hero-banner {
-      background-image: url('{{ bg_image_mob | relative_url }}');
-    }
-  }
+  
   @media (min-width: 769px) {
     .hero-banner {
       background-image: url("{{ bg_image | remove: '@2x' | relative_url }}");
@@ -56,6 +49,14 @@
   @media (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero-banner {
       background-image: url('{{ bg_image | relative_url }}');
+    }
+  }
+  .hero-banner {
+    background-image: url("{{ bg_image_mob | remove: '@2x' | relative_url }}");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-banner {
+      background-image: url('{{ bg_image_mob | relative_url }}');
     }
   }
   {% if section.background_video and section.background_video != empty %}
