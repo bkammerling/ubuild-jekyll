@@ -68,6 +68,7 @@ body.volta {
   }
   
   #digitalization {
+    @include rwd (tablet-up) {
     h2#digitalization-header.aos-animate {
       transition-delay: 2.5s
     }
