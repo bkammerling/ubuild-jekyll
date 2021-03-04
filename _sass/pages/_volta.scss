@@ -5,6 +5,9 @@ body.volta {
   .fullwidth-bg.dark-bg {
     background-color: $mobility-black;
   }
+  #hero .hero-banner {
+    background-color: #1F1F1F5C;
+  }
   .block-hero-hp .hero-banner .hero-banner__inner-content {
     text-align: left;
     height: 70vh;
@@ -48,6 +51,7 @@ body.volta {
   #volta-header {
     background-color: $mobility-black;
     .nav-item {
+      display:flex;
       span:hover {
         color: $mobility-black;
       }
@@ -56,6 +60,7 @@ body.volta {
       }
       @include rwd(tablet-down) {
         border: none;
+        
         &:hover {
           background-color: transparent;
         }
@@ -63,15 +68,19 @@ body.volta {
           display: none;
         }
         svg {
-          display: block
+          display: block;
+          
         }
       }
     }
   }
   
   #digitalization {
-    @include rwd (tablet-down) {
-      img {
+    
+    object {
+      width: 100%;
+      max-width: 500px;
+      @include rwd (tablet-down) {
         max-height: 600px;
       }
     }
@@ -184,6 +193,7 @@ body.volta {
   
   #volta-fleet-size-range {
     height: 12px;
+    -moz-appearance: initial;
     &:before {
       content: "1"
     }
