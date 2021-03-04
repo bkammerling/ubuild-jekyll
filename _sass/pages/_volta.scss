@@ -89,7 +89,23 @@ body.volta {
       &:last-of-type {
         transition-delay: 4.2s;
       }
-  
+    }
+  }
+    .table-col {
+      .table-wrapper .row {
+        border-color: $white;
+      }
+      @include rwd (tablet-down) {
+        background-color: $black96;
+        color: $mobility-black;
+        .table-wrapper .row {
+          border-color: $mobility-black;
+        }
+        .col-12 {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
     }
   }
   
