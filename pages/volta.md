@@ -17,7 +17,7 @@ page_sections:
   background_video: rent-loop
   show_logos: false
   headline: Power Your Tomorrow
-  subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared-Mobility-Flotte antreiben.
+  subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared Mobility Flotte antreiben.
   background_video: city/city-drone-loop_compressed
   background_image: "uploads/global/volta/Oliver_Vonberg_Wunder_Mobility@2x.png"
 - block: volta-main
