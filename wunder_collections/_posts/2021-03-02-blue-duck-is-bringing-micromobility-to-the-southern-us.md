@@ -11,7 +11,7 @@ cta_text: We have a range of solutions that use the latest technology to drive t
   future of mobility forward.
 cta_link: pages/fleet.md
 title: "[Interview] How Blue Duck Is Bringing Micromobility Across the Southern U.S."
-publish_date: 2021-02-25 00:00:00 +0000
+publish_date: 2021-02-25T00:00:00.000+00:00
 featured_image: "/uploads/2021/03/02/531b50d5-0199-4c0a-859d-7f5190bd0fad-blue_duck.jpg"
 excerpt: "Blue Duck is expanding their business by bringing micromobility to smaller
   cities around the U.S. By partnering with cities, they are able to bring equitable
@@ -20,7 +20,7 @@ excerpt: "Blue Duck is expanding their business by bringing micromobility to sma
   in a post-COVID world."
 share_image: "/uploads/2021/03/02/531b50d5-0199-4c0a-859d-7f5190bd0fad-blue_duck.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Blue Duck is expanding their business by bringing micromobility to smaller cities around the U.S. By partnering with cities, they are able to bring equitable and sustainable services to otherwise underserved markets. 
