@@ -54,6 +54,9 @@ body.volta {
       }
       @include rwd(tablet-down) {
         border: none;
+        &:hover {
+          background-color: transparent;
+        }
         span {
           display: none;
         }
