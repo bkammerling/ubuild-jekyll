@@ -47,7 +47,7 @@ body.volta {
       width: 100%;
       max-width: 500px;
       @include rwd (tablet-down) {
-        max-height: 600px;
+        //max-height: 600px;
       }
     }
     @include rwd (tablet-up) {
