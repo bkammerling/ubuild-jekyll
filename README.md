@@ -31,6 +31,23 @@ If the carousels are not working, it is likely an issue with this line:
 ```
 At the point of writing, we are looping over collections, one separate one for each language. This is because if we used a filter and integrated both languages into 1 collection, this would cause the `forloop.first` to break. Eg Blueduck is the first item, and de/Blueduck is the second item. If we looped over the collection containing both sets of languages, even if de/Blueduck is the first item in the German language, it will not be the 1st item in the collections array, and hence will not be assigned the `active` class.
 
+## JavaScript Libraries
+- [Rellax](https://dixonandmoe.com/rellax/) - Parallax
+- [AOS/Animate on Scroll](https://michalsnik.github.io/aos/)
+- plyr.js
+- Carousel
+
+### Add it to your page front matter:
+```
+component_scripts:
+- clientCarousel.js
+- rellax.js
+- rellax.min.js
+```
+
+## Environment
+Git LFS is enabled in both local and Netlify deploy environments.
+[Read more about LFS](https://docs.netlify.com/large-media/setup/)
 ## Plugins
 
 Currently using:

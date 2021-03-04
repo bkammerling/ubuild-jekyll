@@ -1,0 +1,48 @@
+<div class="comparison-slider-container position-relative" id="volta-marketing">
+  <figure>
+    <div class="handle" id="comparison_handle"></div>
+    <div class="divider" id="comparison_divider"></div>
+  </figure>
+  <p class="range-label" id="comparison_slider_label">48.56 €</p>
+  <!-- TODO: Min $8.20, max 210 -->
+  <input type="range" min="0" max="100" value="20" id="comparison_slider" oninput="moveDivider()">
+</div>
+
+<style>
+  figure {
+    background-image: url("/uploads/global/volta/marketing-comparison/0001_mopeds.jpg")
+  }
+  .divider {
+    background-image: url("/uploads/global/volta/marketing-comparison/0000_billboard.jpg");
+  }
+</style>
+<script>
+var comparison_divider = document.getElementById("comparison_divider"),
+    comparison_handle = document.getElementById("comparison_handle"),
+    comparison_slider = document.getElementById("comparison_slider"),
+    comparison_label = document.getElementById("comparison_slider_label");
+
+function moveDivider() {
+  var percentage = comparison_slider.value;
+  comparison_handle.style.left = percentage + "%";
+	comparison_divider.style.width = percentage + "%";
+  comparison_label.innerHTML = ((201.8 * (percentage / 100)) + 8.2).toFixed(2) + " €";
+
+  if (percentage > 50) {
+    comparison_label.style.right = 'calc(' + (100 - percentage) + '% + 3rem)';
+    comparison_label.style.left = "unset";
+  }else {
+    comparison_label.style.left = 'calc(' + percentage + '% + 3rem)';
+    comparison_label.style.right = 0;
+  }
+  
+}
+
+comparison_slider.addEventListener(input, ()=>{
+  moveDivider();
+});
+
+window.onload = function() {
+	moveDivider();
+};
+</script>
