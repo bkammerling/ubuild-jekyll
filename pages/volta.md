@@ -20,6 +20,7 @@ page_sections:
   subheadline: Versorgungsunternehmen, bleiben Sie nicht auf der Strecke. Innovieren Sie für morgen, indem Sie heute eine eigene Shared Mobility Flotte antreiben.
   background_video: volta/VOLTA_LANDINGPAGE_VIDEOLOOP
   background_image: "uploads/global/volta/Oliver_Vonberg_Wunder_Mobility@2x.png"
+  background_image_mobile: "uploads/global/volta/hero-background@2x.jpg"
 - block: volta-main
   template: static-file
   subdirectory: static/de
