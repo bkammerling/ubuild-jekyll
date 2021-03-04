@@ -31,46 +31,12 @@ body.volta {
     }
   
   }
-  
-  #contact {
-    a.text-link { @include rwd(tablet-up) {
-        span {
-          width: 72%;
-        }
-        svg {
-          margin-top: 0;
-        }
-      }
-    }
-    .small-label {
-      font-size: 0.6rem;
-      color: #CCCCCC;
-    }
-  }
 
   #volta-header {
     background-color: $mobility-black;
     .nav-item {
-      display:flex;
-      span:hover {
+      &:hover {
         color: $mobility-black;
-      }
-      svg {
-        display: none;
-      }
-      @include rwd(tablet-down) {
-        border: none;
-        
-        &:hover {
-          background-color: transparent;
-        }
-        span {
-          display: none;
-        }
-        svg {
-          display: block;
-          
-        }
       }
     }
   }
@@ -216,6 +182,21 @@ body.volta {
     }
   }
   
+  section#contact {
+    a.text-link { @include rwd(tablet-up) {
+        span {
+          width: 72%;
+        }
+        svg {
+          margin-top: 0;
+        }
+      }
+    }
+    .small-label {
+      font-size: 0.6rem;
+      color: #CCCCCC;
+    }
+  }
 }
 
 

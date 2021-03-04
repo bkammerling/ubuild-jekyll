@@ -1,38 +1,25 @@
-<header id="volta-header" class="fixed-top px-4 navbar d-block">
+<header id="volta-header" class="fixed-top p-0 py-md-3 px-md-3 navbar d-block">
   <div class="container px-0 px-md-3">
     <a
-      class="navbar-brand"
+      class="navbar-brand p-0 p-md-3"
       href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}"
     >
       <img
+        src="/uploads/global/volta/wunder-logo-black-on-white.svg"
+        alt="{{ site.title }}"
+        class="mobile-logo d-md-none h-100"
+      />
+      <img
         src="/uploads/global/wunder-logo-2020-white.svg"
         alt="{{ site.title }}"
-        class=""
-      />
+        class="desktop-logo d-none d-md-block"
+      >
     </a>
     <a
       href="/#section-contact"
-      class="mb-0 px-0 px-md-3 nav-item nav-link body-text text-white btn btn-outline-light"
-      ><span>Kontaktieren Sie uns</span
-      ><svg
-        width="43"
-        height="33"
-        viewBox="0 0 43 33"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0)">
-          <path
-            d="M40.42 0H2.58C1.204 0 0 1.19563 0 2.56207V29.8908C0 31.2572 1.204 32.4528 2.58 32.4528H40.42C41.796 32.4528 43 31.2572 43 29.8908V2.56207C43 1.19563 41.796 0 40.42 0ZM1.72 2.56207C1.72 2.04965 2.064 1.70804 2.58 1.70804H40.42C40.936 1.70804 41.28 2.04965 41.28 2.56207V5.80735L22.36 16.9096C21.844 17.2512 21.156 17.2512 20.64 16.9096L1.72 5.80735V2.56207ZM41.28 29.8908C41.28 30.4032 40.936 30.7448 40.42 30.7448H2.58C2.064 30.7448 1.72 30.4032 1.72 29.8908V7.857L19.78 18.4469C20.812 19.1301 22.188 19.1301 23.22 18.4469L41.28 7.857V29.8908Z"
-            fill="white"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0">
-            <rect width="43" height="32.4528" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
+      class="mx-3 mb-0 px-3 nav-item nav-link body-text text-white btn btn-outline-light"
+      ><span class="d-none d-md-block">Kontaktieren Sie uns</span>
+      <span class="d-md-block">Kontakt</span>
     </a>
   </div>
 </header>
