@@ -24,6 +24,9 @@ The Client pages in both English and German utilize the `data_yml` frontmatter t
 ### Layout used for client testimonials
 Both english and german client collections use the `case-study.html` 
 
+### Jump links and offsets
+Add `data-offset="[value]"` to `<a>` tags to adjust offsets. Values of 50-100 usually work.
+
 ### Troubelshooting
 If the carousels are not working, it is likely an issue with this line:
 ```
