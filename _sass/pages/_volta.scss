@@ -70,6 +70,11 @@ body.volta {
   }
   
   #digitalization {
+    @include rwd (tablet-down) {
+      img {
+        max-height: 600px;
+      }
+    }
     @include rwd (tablet-up) {
     h2#digitalization-header.aos-animate {
       transition-delay: 2.5s
