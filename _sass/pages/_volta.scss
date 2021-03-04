@@ -43,7 +43,7 @@ body.volta {
   
   #digitalization {
     
-    object {
+    object, img {
       width: 100%;
       max-width: 500px;
       @include rwd (tablet-down) {
