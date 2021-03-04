@@ -232,14 +232,14 @@
 <section id="case-study" class="fullwidth-bg grey-bg pt-5 pb-4 py-sm-0 mb-0">
   <div class="container full-width">
     <div class="row align-items-center">
-      <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
+      <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5" data-aos="soft-up" data-aos-easing="apple-easing">
         <h2 class="headline-large">{{ page.case_study_cta.heading }}</h2>
         <p class="mb-4">{{ page.case_study_cta.subheading }}</p>
         <p class="headline-small font-weight-bold">{{ page.case_study_cta.cta_title }}</p>
         <a href="#" class="btn btn-outline-dark mt-3" data-toggle="modal" data-target="#downloadModal" title="View the case study on {{ page.title }} working with Wunder Mobility.">{{ page.case_study_cta.cta_text | default: "Learn more" }}</a>
         {% include block-case-study-modal.html %}
       </div>
-      <div class="col-sm-7">
+      <div class="col-sm-7" data-aos="soft-up" data-aos-easing="apple-easing" data-aos-delay="100">
         <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.title }}." />
       </div>
     </div>
@@ -247,7 +247,7 @@
 </section>
 <section class="fullwidth-bg py-md-5 dark-bg mb-0">
   <div class="container">
-    <div class="carousel-wrapper">
+    <div class="carousel-wrapper" data-aos="soft-up" data-aos-easing="apple-easing">
       <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-header py-2 d-flex justify-content-between">
           <ol class="carousel-indicators flat-indicators position-static mx-0">
