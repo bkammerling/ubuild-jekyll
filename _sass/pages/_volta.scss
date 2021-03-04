@@ -8,7 +8,6 @@ body.volta {
   .block-hero-hp .hero-banner .hero-banner__inner-content {
     text-align: left;
     height: 70vh;
-    max-height: 750px;
     display: flex;
     align-items: flex-end;
     justify-content: end;
@@ -29,10 +28,7 @@ body.volta {
     }
   
   }
-  #hero {
-    height: 70vh;
-    margin-top: 3.5rem;
-  }
+  
   #contact {
     a.text-link { @include rwd(tablet-up) {
         span {
