@@ -19,15 +19,18 @@ description: "<p>Citation management has been untouched by technology until Wise
 screenshot_details: []
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://wisemobility.com" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
   detail_content: <a href="https://wisemobility.com" title="Terms of Service →">Terms
     of Service →</a>
-- detail_title: ''
-  detail_content: <a href="https://wisemobility.com" title="Privacy Policy →">Privacy
+- detail_content: <a href="https://wisemobility.com" title="Privacy Policy →">Privacy
     Policy →</a>
+  detail_title: ''
 access_needed:
+- Data access may incur additional costs
 - API Credentials
 - " Vehicle Data"
 - User Data

@@ -1,0 +1,50 @@
+.line-nav {
+  position: fixed;
+  top: 35%;
+  left: 0;
+  z-index: 10;
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+
+    &::before, span {
+      transition: 500ms all;
+    }
+    span {
+      color: #ccc;
+      opacity: 0;
+      transform: translateX(25px);
+    }
+    position: relative;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      display: block;
+      background-color: #ccc;
+    }
+    &:hover {
+      &::before {
+        width: 30px;
+      }
+      span {
+        opacity: 1;
+        transform: translateX(40px);
+      }
+    }
+  }
+  &.dark {
+    .nav-link {
+      span{
+        color: #1f1f1f;
+      } 
+      &::before {
+        background-color: #1f1f1f;
+      }
+    }
+  }
+}

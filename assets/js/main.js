@@ -410,8 +410,8 @@ var contentDropdown = {
 if($(".content-dropdown").length>0) contentDropdown.init();
 
 
-if($("input[type='range']").length) {
-  $("input[type='range']").on('input',function() {
+if($("input[type='range'].wunder-range").length) {
+  $("input[type='range'].wunder-range").on('input',function() {
     var percent = $(this).val() / $(this).attr('max') * 100;
     $(this).css('background', 'linear-gradient(to right, #FFFFFF 0%, #FFFFFF ' + percent + '%, #ffffff90 ' + percent + '%, #ffffff90 100%)');
     $('.range-label').css('left', 'calc(' + percent + '% - 30px)').text(numberWithCommas($(this).val()));
@@ -426,6 +426,17 @@ if($("input[type='range']").length) {
   }
 
 }
+if ($("#volta-fleet-size-range").length) {
+  function trees() {
+    var vehicle_number = $("#volta-fleet-size-range").val();
+    var vehicle_value = $("input[name='vehicle-type']:checked").val();
+    $("#volta-calculation-result").text(numberWithCommas(((vehicle_number * vehicle_value) / 58).toFixed(2)));
+  }
+  
+  $("#volta-fleet-size-range").on('input', trees);
+  $("input[name='vehicle-type']").change(trees); 
+}
+
 
 var googleMap = {
   map: null,

@@ -5,7 +5,7 @@ title: Cellular
 icon: "/uploads/2021/02/09/cellular-c-logo-stefanie-bilen.png"
 excerpt: Cellular develops customized software and creates API as well as complete
   ecosystems.
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2021/02/09/hvv_switch-stefanie-bilen.jpg"
   title: 'Multiple mobility service provider in one app: HVV Switch App for Hamburger
@@ -13,7 +13,7 @@ preview_gallery:
 - image-video: "/uploads/2021/02/09/tuic-mrl-stefanie-bilen.jpg"
   title: 'All digital touchpoints equipped by Cellular: Tui Cruises solutions for
     "Mein Schiff"'
-- image-video: "/uploads/2021/02/09/tuic-mrs-stefanie-bilen.jpg"
+- image-video: "/uploads/2021/02/15/tuic-ibe.jpg"
   title: 'All digital touchpoints equipped by Cellular: Tui Cruises solutions for
     "Mein Schiff"'
 - image-video: "/uploads/2021/02/09/vtg_1-stefanie-bilen.png"
@@ -25,15 +25,16 @@ screenshot_details:
 - screenshot: "/uploads/2021/02/09/hvv_switch_google_maps-stefanie-bilen.png"
   title: HVV Switch integrated in Google Maps
   screenshot_description: |-
-    World novelty with Google Maps: Ticket purchase possible directly via the map service thanks to HVV Switch app
+    World novelty with Google Maps: Ticket purchase possible directly via the map service thanks to HVV Switch app.
+
     Hamburger Hochbahn AG is the world's first public transport partner with this type of Google Maps integration. Users can research a suitable connection and jump directly to HVV Switch to purchase a ticket. Cellular is the only development partner for the integration as well as the developer of the HVV Switch app as a whole.
 - screenshot: "/uploads/2021/02/09/vtg_2-stefanie-bilen.png"
   title: VTG solutions for efficient and sustainable fleet management
-  screenshot_description: As an innovative booking and analysis platform, the traigo
-    platform bundles the data from 95,000 rail wagons belonging to the rail logistics
+  screenshot_description: As an innovative booking and analysis platform, the so-called
+    Traigo platform bundles the data of 95,000 rail wagons belonging to the rail logistics
     company VTG - for example, movement, vibration and temperature data. This does
-    not only enable the company to create "predictive maintenance" scenarios, i.e.
-    to plan maintenance and repairs in advance. It also allows VTG to offer customers
+    not only enable the company to create predictive maintenance scenarios, i.e. to
+    plan maintenance and repairs in advance. It also allows VTG to offer customers
     data-based new services and test business models. Cellular is VTG's development
     partner.
 - screenshot: "/uploads/2021/02/09/tuic-mrs-stefanie-bilen.jpg"
@@ -44,6 +45,8 @@ screenshot_details:
     Next step: networking business-relevant systems for booking, mobile ticketing, reservations, and the sale of additional services.
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="http://www.cellular.de" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
@@ -68,6 +71,5 @@ getting_started:
     requirement or we look at your digital roadmap together.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
