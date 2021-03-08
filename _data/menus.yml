@@ -233,7 +233,7 @@ footerbottom:
   url: "/imprint"
   weight: 3
 - identifier: terms
-  title: Terms & Conditions
+  title: Terms of Service
   url: "/terms"
   weight: 2
 
