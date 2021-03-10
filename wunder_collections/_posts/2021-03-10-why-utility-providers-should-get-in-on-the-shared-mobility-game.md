@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-🇩🇪 [_Click here_](\[text to link\](#####german-version)) _for the German version of this article._
+🇩🇪 [_Click here_](#####german-version) _for the German version of this article._
 
 You’ve probably heard the calls to innovate stale and outdated business models, maybe even within your own organization. You want to speak to new and younger audiences while staying authentic and not relying on empty marketing stunts.
 
@@ -55,6 +55,8 @@ Instantly refresh your brand image and bring it into the digital age. Show that 
 **It’s Cost-Effective**
 
 Best of all? You can launch your own branded fleet at the fraction of what a traditional marketing campaign costs. As an example, you can launch your own fleet for 4% of what it would cost to advertise on billboards. Better reach for your marketing buck? Nothing beats that.
+
+***
 
 ##### German Version
 
