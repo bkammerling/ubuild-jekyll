@@ -15,11 +15,11 @@ cta_text: |-
 cta_link: pages/fleet.md
 title: Why Utility Providers Should Get In On the Shared Mobility Game
 publish_date: 
-featured_image: ''
+featured_image: "/uploads/2021/03/10/max-small.jpg"
 excerpt: ''
-share_image: ''
+share_image: "/uploads/2021/03/10/max-small.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 🇩🇪 [_Click here_](#german-version "Click here") _for the German version of this article._
