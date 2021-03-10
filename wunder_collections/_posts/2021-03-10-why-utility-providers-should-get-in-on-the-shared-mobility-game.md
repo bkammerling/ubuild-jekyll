@@ -14,7 +14,7 @@ cta_text: |-
   Wunder Fleet is a flexible and customizable all-in-one platform designed to get your branded fleet off the ground. Equipped with a mobile app, backend management system, and sharing-ready vehicles, Wunder Fleet can get you on the streets in no time.
 cta_link: pages/fleet.md
 title: Why Utility Providers Should Get In On the Shared Mobility Game
-publish_date: 
+publish_date: 2021-03-10 00:00:00 +0000
 featured_image: "/uploads/2021/03/10/max-small.jpg"
 excerpt: ''
 share_image: "/uploads/2021/03/10/max-small.jpg"
