@@ -22,6 +22,8 @@ sticky: false
 hidden: false
 
 ---
+🇩🇪 [_Click here_](\[text to link\](#german-version)) _for the German version of this article._
+
 You’ve probably heard the calls to innovate stale and outdated business models, maybe even within your own organization. You want to speak to new and younger audiences while staying authentic and not relying on empty marketing stunts.
 
 It’s crucial for any business to keep up with the times and to develop along with its customer base. As a utility provider, you already know what it means to take care of your customers. You literally power their homes, their offices, their everyday lives.
@@ -53,3 +55,7 @@ Instantly refresh your brand image and bring it into the digital age. Show that 
 **It’s Cost-Effective**
 
 Best of all? You can launch your own branded fleet at the fraction of what a traditional marketing campaign costs. As an example, you can launch your own fleet for 4% of what it would cost to advertise on billboards. Better reach for your marketing buck? Nothing beats that.
+
+##### German Version
+
+# Warum Versorgungsunternehmen in den Shared Mobility Markt einsteigen sollten
