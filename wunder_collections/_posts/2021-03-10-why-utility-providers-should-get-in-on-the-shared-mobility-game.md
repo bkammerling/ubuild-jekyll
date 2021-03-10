@@ -22,7 +22,7 @@ sticky: false
 hidden: true
 
 ---
-🇩🇪 [_Click here_](#####german-version) _for the German version of this article._
+🇩🇪 [_Click here_](#german-version "Click here") _for the German version of this article._
 
 You’ve probably heard the calls to innovate stale and outdated business models, maybe even within your own organization. You want to speak to new and younger audiences while staying authentic and not relying on empty marketing stunts.
 
