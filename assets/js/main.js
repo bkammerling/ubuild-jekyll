@@ -397,6 +397,7 @@ function addGclid() {
 }
 
 window.addEventListener('load', addGclid);
+//end GCLID
 
 function recaptchaSubmit(token) {
   //console.log(token);
