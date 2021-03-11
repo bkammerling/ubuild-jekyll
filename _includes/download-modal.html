@@ -32,6 +32,7 @@
                 <p class="form-feedback hidden">Cheers for the details. The file should open automatically but if it doesn't, <a id="whitepaper-link" target="_blank" href="" title="Open the {{ include.form-content }} file in a new tab" class="d-inline text-blue">view the {{ include.form-content }}.</a></p>
               </div>
               <div class="col-sm-7 text-right">
+                <input type="hidden" id="gclid_field" name="gclid_field" value="">
                 <button id="modal_form-submit" class="btn btn-primary" onclick="downloadModalSubmission(event)">
                   View {{ include.form-content }}
                 </button>
