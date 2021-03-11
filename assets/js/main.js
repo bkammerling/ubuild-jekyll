@@ -349,56 +349,6 @@ function formSubmit(e) {
   }
 }
 
-//Offline Conversions https://support.google.com/google-ads/answer/7012522?hl=en#:~:text=Tip%3A%20Use%20Google%20Tag%20Manager%20to%20collect%20the%20GCLID&text=Under%20%22Accounts%2C%22%20click%20the,from%20the%20drop%2Ddown%20menu.
-function getParam(p) {
-  var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
-  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
-
-function getExpiryRecord(value) {
-  var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
-
-  var expiryDate = new Date().getTime() + expiryPeriod;
-  return {
-    value: value,
-    expiryDate: expiryDate
-  };
-}
-
-function addGclid() {
-  var gclidParam = getParam('gclid');
-  var gclidFormFields = ['gclid_field']; // all possible gclid form field ids here
-  var gclidRecord = null;
-  var currGclidFormField;
-
-  var gclsrcParam = getParam('gclsrc');
-  var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
-
-  gclidFormFields.forEach(function (field) {
-    if (document.getElementById(field)) {
-      currGclidFormField = document.querySelectorAll("#" + field);
-    }
-  });
-
-  if (gclidParam && isGclsrcValid) {
-    gclidRecord = getExpiryRecord(gclidParam);
-    localStorage.setItem('gclid', JSON.stringify(gclidRecord));
-  }
-
-  var gclid = gclidRecord || JSON.parse(localStorage.getItem('gclid'));
-  var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
-
-  if (currGclidFormField && isGclidValid) {
-    currGclidFormField.forEach(function (form_field)
-    {
-      form_field.value = gclid.value;
-    })
-  }
-}
-
-window.addEventListener('load', addGclid);
-//end GCLID
-
 function recaptchaSubmit(token) {
   //console.log(token);
   var $form = $("#captchaResponse").parents("form");
