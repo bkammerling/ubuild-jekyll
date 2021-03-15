@@ -42,6 +42,8 @@ If you’re a carsharing company, then all of your cars have to be clean or else
 
 As you can see, there are a lot of services needed to keep a MaaS fleet running smoothly and most of those services have to be performed hands-on by individuals. That's what we do.
 
+![](/uploads/2021/03/15/wundermobilityblog-x-conradschlenkhoff.jpg)
+
 **_Taking all those services into account: What are the main challenges you are facing?_**
 
 As you can imagine, it is rather easy to perform a singular service such as damage documentation. However when you want to combine a lot of services and provide them not only to carsharing fleets, but also to e-scooters, mopeds and company fleets, the operational complexity is a big challenge.
