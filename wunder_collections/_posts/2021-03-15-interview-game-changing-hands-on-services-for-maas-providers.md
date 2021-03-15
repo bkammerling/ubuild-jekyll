@@ -13,13 +13,13 @@ cta_text: Get ahead of the competition with the Wunder Marketplace — the world
 cta_link: pages/marketplace/partner.md
 title: "[Interview] Game-Changing Hands-on Services for MaaS Providers"
 publish_date: 2021-03-15 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/03/15/interview-with-conrad-schlenkhoff.png"
 excerpt: _Today we’re hearing from_ [_Conrad Schlenkhoff_](https://www.linkedin.com/in/conrad-schlenkhoff/)_,
   COO at_ [_Ben Fleet Services_](https://www.benfleetservices.com/)_, one of our Wunder
   Marketplace partners. Conrad is responsible for the operations and product development
   at Ben. In this interview, he talks about their approach to MaaS services and what
   it means for them to be “hands-on”._
-share_image: ''
+share_image: "/uploads/2021/03/15/interview-with-conrad-schlenkhoff.png"
 sticky: false
 hidden: false
 
