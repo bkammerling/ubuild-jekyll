@@ -38,7 +38,7 @@ Yes. For us “hands-on” is not a catch-phrase but an integral part of the ser
 
 Our mission at Ben is “100% fleet readiness for consumers and customers” and we achieve this by offering a full range of services. In practice, it looks like this:
 
-If you’re a car sharing company, then all of your cars have to be clean or else your customers won’t use them. Or if they do use them, it won’t be for long. Next, your cars have to be charged or fuelled in order for a customer to get from A to B, and they have to be located at the right spot at the right time. Every once in a while your cars will also be damaged, which makes damage documentation and smart repair necessary.
+If you’re a carsharing company, then all of your cars have to be clean or else your customers won’t use them. Or if they do use them, it won’t be for long. Next, your cars have to be charged or fuelled in order for a customer to get from A to B, and they have to be located at the right spot at the right time. Every once in a while your cars will be damaged, which makes damage documentation and smart repair necessary.
 
 As you can see, there are a lot of services needed to keep a MaaS fleet running smoothly and most of those services have to be performed hands-on by individuals. That's what we do.
 
@@ -46,7 +46,7 @@ As you can see, there are a lot of services needed to keep a MaaS fleet running 
 
 As you can imagine, it is rather easy to perform a singular service such as damage documentation. However when you want to combine a lot of services and provide them not only to carsharing fleets, but also to e-scooters, mopeds and company fleets, the operational complexity is a big challenge.
 
-This is due to several factors. As a service provider, you are in touch with different contact persons from various companies which makes the communication complex. Furthermore, you have to obey certain timings when it comes to the fulfilment of the services, and we are working in a very dynamic and changing service landscape which can especially be seen in the rise of e-scooters over the last few years.
+This is due to several factors. As a service provider, you are in touch with different contact persons from various companies which makes the communication complex. Furthermore, you have to obey certain timings when it comes to the fulfilment of the services, and we are working in a very dynamic and ever-changing service landscape which can especially be seen in the rise of e-scooters over the last few years.
 
 Another challenge is that the services that are being conducted are part of the blue collar service industry where price dumping and working with subcontractors is not uncommon. That is why it is important for us to treat our workforce in a fair and respectful way, meaning creating fair working conditions and paying a fair salary.
 
