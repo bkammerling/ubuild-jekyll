@@ -13,181 +13,589 @@ page_sections:
 
 ---
 
-
-# Privacy Policy
-
-## Privacy and Data Protection Policy
-
-&nbsp;
-
 <p>Looking for a quick way to edit your cookie preferences?</p>
 <button class="btn btn-dark" onclick="WC_getCookieConsent(true)">Edit cookie preferences</button>
 
 &nbsp;
-## 1\. General
 
-1.1 WunderCar Mobility Solutions GmbH ('Wunder', “we” or “us”) take the privacy of your information very seriously. Our Privacy Policy is designed to tell you about our practices regarding the collection, use and disclosure of information that you may provide via the www.wunder.org website and other associated partner websites, microsites and sub-sites (the “Site”) and the Wunder mobile app.
+# Privacy Policy 
+updated on 1 March 2021 
 
-1.2 By using this Site or any services we offer, you are consenting to the collection, use, and disclosure of that information about you in accordance with, and are agreeing to be bound by, this Privacy Policy.
-
-&nbsp;
-
-## 2\. Ways that we collect information
-
-2.1 We may collect and process the following personal information or data (information that can be uniquely identified with you) about you:
-
-2.1.1 Certain information required to register with the Site or to access other services provided by us, including your name, address, date of birth and if you are a Driver certain information about your vehicle etc.;
-
-2.1.2 Your e-mail address and a password;
-
-2.1.3 A mobile phone number;
-
-2.1.4 A record of any correspondence between you and us;
-
-2.1.5 A record of any bookings you have made or trips you have placed with or through the Site;
-
-2.1.6 Your replies to any surveys or questionnaires that we may use for research purposes;
-
-2.1.7 Details of accounting or financial transactions including transactions carried out through the Site or otherwise. This may include information such as your credit card, debit card or bank account details, details of Trips (as described in our Conditions) you have booked or offered through the Site;
-
-2.1.8 Details of your visits to the Site and the resources that you access;
-
-2.1.9 Information we may require from you when you report a problem with the Site.
-
-2.2 We only collect such information when you choose to supply it to us. You do not have to supply any personal information to us but you may not be able to take advantage of all the services we offer without doing so.
-
-2.3 Information is also gathered without you actively providing it, through the use of various technologies and methods such as Internet Protocol (IP) addresses and cookies. These methods do not collect or store personal information.
-
-2.4 An IP address is a number assigned to your computer by your Internet Service Provider (ISP), so you can access the Internet. It is generally considered to be non-personally identifiable information, because in most cases an IP address can only be traced back to your ISP or the large company or organisation that provides your internet access (such as your employer if you are at work).
-
-2.5 We use your IP address to diagnose problems with our server, report aggregate information, and determine the fastest route for your computer to use in connecting to our site, and to administer and improve the site.
+WunderCar Mobility Solutions GmbH and its affiliated companies (“Wunder”, “we”, “us”) is committed to the protection of your (“you” or “your”) personal data. Our Privacy policy is designed to inform you of our practices concerning the collection, use and disclosure of information that you may provide to us via our website, other associated partner websites, as required by Art. 13 of the General Data Protection Regulation (GDPR).
+By using our website or any service that we offer, you agree to the collection, use, and disclosure of that information about you in accordance with, and are agreeing to be bound by, this Privacy Policy. 
 
 &nbsp;
 
-## 3\. Use
+1. [Controller](#1-controller)
+2. [How we collect your data](#2-how-we-collect-your-data)
+3. [Usage data](#3-usage-data)
+4. [Anonymous visitor measurement](#4-anonymous-visitor-measurement)
+5. [Storage of IP address for security purposes](#5-storage-of-ip-address-for-security-purposes)
+6. [Data security](#6-data-security)
+7. [Cookies](#7-cookies)
+8. [Third party tracking technologies for advertising purposes](#8-third-party-tracking-technologies-for-advertising-purposes)
+9. [Google Analytics](#9-google-analytics)
+10. [Visitor measurement](#10-visitor-measurement)
+11. [Social plugins](#11-social-plugins)
+12. [Embedded videos](#12-embedded-videos)
+13. [Newsletter Registration and Delivery](#13-newsletter-registration-and-delivery)
+14. [Direct Marketing](#14-direct-marketing)
+15. [Contact form](#15-contact-form)
+16. [Your rights as a data subject](#16-your-rights-as-a-data-subject)
+17. [Asserting your rights](#17-asserting-your-rights)
 
-3.1 We may use this information to:
+&nbsp;
+### 1\. Controller
 
-3.1.1 ensure that the content of the Site is presented in the most effective manner for you and for your computer and customise the Site to your preferences;
-
-3.1.2 assist in making general improvements to the Site;
-
-3.1.3 carry out and administer any obligations arising from any agreements entered into between you and us;
-
-3.1.4 allow you to participate in features of the Site and other services;
-
-3.1.5 contact you and notify you about changes to the Site or the services we offer (except where you have asked us not to do this);
-
-3.1.6 collect payments from you;
-
-3.1.7 analyse how users are making use of the Site and for internal marketing and research purposes.
-
-3.2 We will not resell your information to any third party nor use it for any third party marketing.
+The Controller for the data processing operations described below is the office named in the [imprint](https://www.wundermobility.com/imprint).
 
 &nbsp;
 
-## 4\. Sharing your information
+### 2\. How we collect your data
 
-4.1 If we charge you any fees or collect any money from you in relation to any services on the Site, credit or debit card payments will be collected by our payment processor.
+We use different methods to collect data from and about you including through:
+- Direct interactions. You may give us your identity, email and contact details by filling out our online forms or by corresponding with us by post, phone, email or otherwise. 
+- This includes personal data you provide when you:
+    - apply for our products or services;
+    - subscribe to our service or publications; 
+    - request marketing to be sent to you; or
+    - give us feedback or contact us. 
+&nbsp;
 
-4.2 In order for payments to be processed you may need to provide some necessary details to our payment processor. We will tell you about this at the point we collect that information.
+More details are provided in the sections: Contact us, Newsletters and Direct Marketing.
+- Automated technologies or interactions. As you interact with our website, we will automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies, server logs and other similar technologies. We may also receive Technical Data about you if you visit other websites employing our cookies. Please see our cookie section for further details.
+- Third parties or publicly available sources. We will receive personal data about you from various third parties and public sources as set out below: 
+- Technical Data from the following parties:
+    - analytics providers such as Google based outside the EU; 
+    - advertising networks such as Google & LinkedIn based outside the EU; and
+    - search information providers such as Google & based outside the EU.
+    - We keep your personal data only as long as necessary for fulfilment of the purposes described or as required by law.
+&nbsp;
 
-4.3 We do not disclose any information you provide via the Site to any third parties except:
+We keep your personal data only as long as necessary for fulfilment of the purposes described or as required by law.
 
-4.3.1 As part of our booking process and in order to provide our services information may be passed to a Passenger (if you are a Driver) or to a Driver (if you are a Passenger).
-
-4.3.2 If we are under a duty to disclose or share your personal data in order to comply with any legal obligation (for example, if required to do so by a court order or for the purposes of prevention of fraud or other crime);
-
-4.3.3 in order to enforce any terms of use that apply to any of the Site, or to enforce any other terms and conditions or agreements for our Services that may apply;
-
-4.3.4 we may share information with our international partner websites where you have made a booking through the Site with a user of our partner websites or where you have used the Site to interact with a third party;
-
-4.3.5 we may transfer your personal information to a third party as part of a sale of some or all of our business and assets to any third party or as part of any business restructuring or reorganization, but we will take consent prior to such transfer;
-
-4.3.6 to protect the rights, property, or safety of Wunder, the Site’s users, or any other third parties. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.
-
-4.4 Other than as set out above, we shall not disclose any of your personal information unless you give us permission to do so.
 
 &nbsp;
 
-## 5\. Cookies
+### 3\. Usage data
 
-5.1 A cookie is a piece of data stored locally on your computer and contains information about your activities on the Internet. The information in a cookie does not contain any personally identifiable information you submit to our site.
+When you visit our website, our web server temporarily stores usage data for statistical purposes as a protocol in order to improve the quality of our website. This data consists of the following data categories:
+- the name and address of the requested content,
+- the date and time of the query,
+- of the transferred data volume,
+- the access status (content transferred, content not found),
+- the description of the used web browser and operating system,
+- the referral link, which indicates from which page you reached ours,
+- the IP address of the requesting computer, which is shortened in such a way that a personal reference can no longer be established. 
 
-5.2 On the Site, we use cookies to track users' progress through the Site, allowing us to make improvements based on usage data. We also use cookies if you log in to one of our online services to enable you to remain logged in to that service. A cookie helps you get the best out of the Site and helps us to provide you with a more customized service.
-
-5.3 Once you close your browser, our access to the cookie terminates. You have the ability to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. To change your browser settings you should go to your advanced preferences.
-
-5.4 We are required to obtain your consent to use cookies. If you continue to use the Site having seen the notice then we assume you are happy for us to use the cookies described above.
-
-5.5 If you choose not to accept the cookies, this will not affect your access to the majority of information available on the Site. However, you will not be able to make full use of our online services.
-
-&nbsp;
-
-## 6\. Access to and correction of personal information
-
-6.1 We will take all reasonable steps in accordance with our legal obligations to update or correct personally identifiable information in our possession that you submit via this Site.
-
-6.2 You have the right to access information held about you. Your right of access can be exercised in accordance with local laws. If you wish to see details of any personal information that we hold about you please contact us by way of our contact page.
-
-6.3 We take all appropriate steps to protect your personally identifiable information as you transmit your information from your computer to our Site and to protect such information for loss, misuse, and unauthorized access, disclosure, alteration, or destruction. We use leading technologies and encryption software to safeguard your data, and operate strict security standards to prevent any unauthorized access to it.
-
-6.4 Where you use passwords, usernames, or other special access features on this site, you also have a responsibility to take reasonable steps to safeguard them.
+The mentioned log data will only be evaluated anonymously.
 
 &nbsp;
 
-## 7\. Other websites, Cookies of third party providers and tracking
+### 4\. Anonymous visitor measurement
 
-7.1 This Site contains links and references to other websites. Please be aware that this Privacy Policy does not apply to those websites.
-
-7.2 We cannot be responsible for the privacy policies and practices of sites that are not operated by us, even if you access them via the Site. We recommend that you check the policy of each site you visit and contact its owner or operator if you have any concerns or questions.
-
-7.3 In addition, if you came to this Site via a third party site, we cannot be responsible for the privacy policies and practices of the owners or operators of that third party site and recommend that you check the policy of that third party site and contact its owner or operator if you have any concerns or questions.
-
-7.4 Google Analytics: This website uses Google Analytics, a web analytics service provided by Google, Inc. (“Google”). Google Analytics uses cookies, text files stored on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. We use Google Analytics with the add-on “anonymizeIP()” so that the IP addresses later transmitted to Google are shortened and modified in advance on the European servers to prevent any direct references to particular persons. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators, and providing other services relating to website activity and internet usage to the website operator. Your IP address, which has been transmitted by Google Analytics, will not be associated with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser. However, please note that if you do this, you may not be able to use all functions of this website. Furthermore, you can prohibit Google from collecting and analyzing the cookie generated data about your use of the website (including your IP address) by clicking here or downloading and installing the browser plugin available here [http://tools.google.com/dlpage/gaoptout?hl=en](http://tools.google.com/dlpage/gaoptout?hl=en).
+On our web pages we make an anonymous visitor measurement. For this purpose, the protocol data of the web server as well as the abbreviated IP address are evaluated. Any conclusions about you are not possible.
 
 &nbsp;
 
-## 7.5 Facebook
+### 5\. Storage of IP address for security purposes 
 
-Facebook Social Plugins: This website uses social plugins of the social network facebook.com, which is operated by Facebook Inc. The plugins are inserted within a visible Facebook logo or with the addition of “Facebook Social Plugin” sign. The list and the appearance of the Facebook social plugins can be found here [https://developers.facebook.com/docs/plugins/](https://developers.facebook.com/docs/plugins/). By integrating the plugin, Facebook receives information that a user has accessed our website. If the user is logged into Facebook, Facebook can assign the website visit to that user’s Facebook account. When users interact with plugins like the Like button or leave a comment, the corresponding information is sent directly from your browser and stored on Facebook.  
-Purpose and scope of data collection and further processing and use of data through Facebook and the relevant rights and ways to protect the privacy your privacy as relates to Facebook can be found in Facebook’s Privacy Policy [https://www.facebook.com/policy.php](https://www.facebook.com/policy.php).  
-If you have a Facebook account and do not want Facebook to collect information about your activities on this website and link such information to your account data stored on Facebook, you must log off on Facebook before visiting our website. It is also possible to block Facebook social plugins with an add-on for your browser, for example, the “Facebook Blocker”.Facebook SDK: Within our app, we use the Software Development Kit (SDK) from Facebook. The Facebook SDK is issued and administered by Facebook Inc, 1601 S. California Ave, Palo Alto, CA 94304, USA. By means of this integration, we can link various Facebook services with our app. For example, users can use the Facebook SDK to share contents of our apps on their own Facebook timeline, or to send messages to other Facebook users. Further information about Facebook SDK within iOS can be found here: [https://developers.facebook.com/docs/ios](https://developers.facebook.com/docs/ios). For Android, please refer to: [https://developers.facebook.com/docs/android](https://developers.facebook.com/docs/android).Facebook Login via the SDK: In order to use Facebook services within our apps, you will need to first use Facebook Login to connect with Facebook. This requires that you have an existing Facebook account or that you create a Facebook account. If you want to use your Facebook account to log in to our services, you will be guided directly in a first step to Facebook, where Facebook will ask you to sign in or register. In no event will we learn your personal login information (username and password). In a second step, you can link your Facebook profile with each service you want to register to use. You will then receive a separate notice detailing which data is transferred to us from your Facebook profile. This generally includes your “public information” on Facebook and anything you make public or make accessible to the respective application. This generally includes your name, your profile and cover picture, your gender, your networks, your username (Facebook URL) and your user identifier (Facebook ID). In order to communicate with you without going through Facebook, we also use the e-mail address you have registered with Facebook. You can check and modify the status of your connection to Facebook and the respective access privileges of our apps at any time under your Facebook profile settings ([https://www.facebook.com/settings?tab=applications](https://www.facebook.com/settings?tab=applications)). Here, you will also find an overview of which information in your profile is public. If you want to cancel the connection between Facebook and our apps, please log in to Facebook and make the necessary changes in your profile settings. We will then no longer be able to access information from your Facebook profile in order to serve you.  
-Facebook App Events: We use the Facebook SDK service called “Facebook App Events” to evaluate the reach of our advertising campaigns and use of Facebook SDK. Facebook merely provides us with an aggregated analysis of user behavior with our app. We also have no influence on the information that will be processed by Facebook App Events. In our app settings, you can opt out of using App Events for the given purposes.
-
-7.6 Twitter: This website uses the Twitter Follow button. This button is offered by Twitter, Inc. The Follow button is a small button displayed on our website to help users easily follow our Twitter account. A Follow button consists of two parts: a link to a follow web intent page on Twitter.com and Twitter’s widgets JavaScript to enhance the link with Twitter’s official and easily recognizable Follow button. More information can be found in Twitter’s Privacy Policy. [https://twitter.com/privacy?lang=en](https://twitter.com/privacy?lang=en)
-
-7.7 LinkedIn: This website uses the LinkedIn Follow button. This button is offered by LinkedIn, Corp. The follow button makes it making it easy for you to follow our updates on LinkedIn. When you click the Follow button, you will automatically follow us on Linkedin. More information can be found in Linkedin’s Privacy Policy. [https://www.linkedin.com/legal/privacy-policy](https://www.linkedin.com/legal/privacy-policy)
+In addition, we store the complete IP address transmitted by your web browser for a period of 90 days in the interest of detecting, limiting and eliminating attacks on our web pages. After this period we delete or anonymize the IP address. The legal basis is Art. 6  (1) (1f) of the GDPR.
 
 &nbsp;
 
-## 8\. Data analysis by WunderCar Mobility Solutions GmbH
+### 6\. Data security
 
-8.1 We perform analyses on the behavior of users of our services, to establish findings for service optimization. These evaluations are conducted with a pseudonym, in accordance with § 15 para. 3 German Telemedia Act (TMG), i.e. the user name and other identifying characteristics are replaced by a random character for the purpose, making the determination of a specific natural person impossible or significantly more difficult. Within our apps, we do not use any proprietary marketing or advertising cookies.
-
-&nbsp;
-
-## 9\. Export of Data
-
-9.1 As part of the services offered to you through the Site, the information you provide to us is transferred to, and stored at a server, in countries outside of India, the Philippines or your current location. We may also share information with other equivalent national bodies, which may be located in countries worldwide. Where we transfer your information outside of India or other countries, we will take steps with the aim of ensuring that your privacy rights continue to be protected as outlined in this privacy policy and in accordance with applicable Indian and filippino law.
-
-9.2 If you use the Site while you are outside India, your information may be stored outside India in order to provide you with those services.
-
-9.3 By submitting your personal information to us you agree to the transfer, storing or processing of your information outside India in the manner described above.
+We take technical and organizational measures to protect your data as effectively as possible from unwanted access. We use an encryption procedure on our web pages. Your data is transferred from your computer to our server and vice versa via the Internet using TLS encryption. You can usually recognize this by the fact that the lock symbol in the status bar of your browser is closed and the address line begins with https://.
 
 &nbsp;
 
-## 10\. Notification of changes to our Privacy Policy
+### 7\. Cookies 
 
-We will post details of any changes to our Privacy Policy on the Site to help ensure you are always aware of the information we collect, how we use it, and in what circumstances, if any, we share it with other parties.
+##### (a) Required Cookies
+We use cookies on our websites, which are necessary for the use of our websites.
+
+Cookies are small text files that can be stored and read on your end device. A distinction is made between session cookies, which are deleted as soon as you close your browser, and permanent cookies, which are stored beyond the individual session. 
+
+We do not use these required cookies for analysis, tracking or advertising purposes. 
+
+In some cases, these cookies only contain information on certain settings and cannot be linked to a person. They may also be necessary to enable user guidance, security and implementation of the site. 
+
+We use these cookies on the basis of Art. 6 (1) (1f) GDPR. 
+
+You can set your browser to inform you about the placement of cookies. This is in order to make the use of cookies transparent for you. You can also delete cookies at any time by using the appropriate browser setting and prevent the setting of new cookies. 
 
 &nbsp;
 
-## 11\. Contact
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Cookie Name</th>
+<th scope="col">Type</th>
+<th scope="col">More Information</th>
+<th scope="col">Expiration Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cache-sprite-plyr</td>
+<td>HTML</td>
+<td>This cookie is necessary for the cache function. A cache is used by the website to optimize the response time between the visitor and the website. The cache is usually stored on the visitor’s browser</td>
+<td>Persistent</td>
+</tr>
+<tr>
+<td>plyr</td>
+<td>HTML</td>
+<td>Necessary for the implementation of embedded video-content on the website</td>
+<td>Persistent</td>
+</tr>
+<tr>
+<td>player</td>
+<td>HTM</td>
+<td>Saves the user's preferences when playing embedded videos from Vimeo</td>
+<td>1 year</td>
+</tr>
+</tbody>
+</table>
 
-If at any time you would like to contact us with your views about our privacy practices, or with any enquiry relating to your personal information (review, update, deletion), you can do so by writing to support(at)wunder.org. If you have questions regarding data protection, please address these by post:
+&nbsp;
 
-Data Protection Officer  
-WunderCar Mobility Solutions GmbH  
-Hongkongstraße 7
-20457 Hamburg
+##### (b) Optional Cookies
+**Session cookies and Analytical Cookies**
+
+&nbsp;
+
+<table class="table">
+<thead>
+  <tr>
+    <th>Cookie Name</th>
+    <th>Type</th>
+    <th>More information</th>
+    <th>Expiration period</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>lang</td>
+    <td>HTTP</td>
+    <td>Session cookie - Remembers the user's selected language version of a website</td>
+    <td>For the duration of the session</td>
+  </tr>
+  <tr>
+    <td>_ga</td>
+    <td>HTTP</td>
+    <td>Registers a unique ID that is used to generate statistical data on how the visitor uses the website</td>
+    <td>2 Years</td>
+  </tr>
+  <tr>
+    <td>_gat</td>
+    <td>HTTP</td>
+    <td>Used by Google Analytics to throttle request rate</td>
+    <td>1 day</td>
+  </tr>
+  <tr>
+    <td>_gid</td>
+    <td>HTTP</td>
+    <td>Registers a unique ID that is used to generate statistical data on how the visitor uses the website</td>
+    <td>1 day</td>
+  </tr>
+  <tr>
+    <td>sliguid</td>
+    <td>HTTP</td>
+    <td>Contains an visitor ID - This is used to track visitors' navigation and interaction on the website for internal website optimization</td>
+    <td>5 years</td>
+  </tr>
+  <tr>
+    <td>slirequested</td>
+    <td>HTTP</td>
+    <td>Contains an visitor ID - This is used to track visitors' navigation and interaction on the website for internal website optimization</td>
+    <td>5 years</td>
+  </tr>
+  <tr>
+    <td>sync_captions</td>
+    <td>HTTP</td>
+    <td>Statistics cookie - Used by Vimeo to track usage of their embedded video player</td>
+    <td>Persistent</td>
+  </tr>
+  <tr>
+    <td>vuid</td>
+    <td>HTTP</td>
+    <td>Collects data on the user's visits to the website, such as which pages have been read</td>
+    <td>2 years</td>
+  </tr>
+  <tr>
+    <td>lastBlog</td>
+    <td>HTTP</td>
+    <td>Registers blog post views in order for us to measure success of our blog and content.</td>
+    <td>Persistent</td>
+  </tr>
+  <tr>
+    <td>lastBlogTime</td>
+    <td>HTTP</td>
+    <td>Registers blog post view date in order for us to understand how engaging a blog post is when paired with contact date.</td>
+    <td>Persistent</td>
+  </tr>
+</tbody>
+</table>
+
+&nbsp;
+
+##### (c) Targeting cookies
+
+&nbsp;
+
+<table class="table">
+<thead>
+  <tr>
+    <th>Cookie name</th>
+    <th>Type</th>
+    <th>More information</th>
+    <th>Expiration period</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>_gcl_au</td>
+    <td>HTTP</td>
+    <td>Used by Google AdSense for experimenting with advertisement efficiency across websites using their services</td>
+    <td>3 months</td>
+  </tr>
+  <tr>
+    <td>_uetsid</td>
+    <td>HTML</td>
+    <td>Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement</td>
+    <td>Persistent</td>
+  </tr>
+  <tr>
+    <td>_uetsid_exp</td>
+    <td>HTML</td>
+    <td>Contains the expiry-date for the cookie with corresponding name</td>
+    <td>Persistent</td>
+  </tr>
+  <tr>
+    <td>ads/ga-audiences</td>
+    <td>Pixel</td>
+    <td>Used by Google AdWords to re-engage visitors that are likely to convert to customers based on the visitor 's online behaviour across websites</td>
+    <td>Session</td>
+  </tr>
+  <tr>
+    <td>bcookie</td>
+    <td>HTTP</td>
+    <td>Used by the social networking service, LinkedIn, for tracking the use of embedded services</td>
+    <td>2 years</td>
+  </tr>
+  <tr>
+    <td>bscookie</td>
+    <td>HTTP</td>
+    <td>Used by the social networking service, LinkedIn, for tracking the use of embedded services</td>
+    <td>2 years</td>
+  </tr>
+  <tr>
+    <td>lidc</td>
+    <td>HTTP</td>
+    <td>Used by the social networking service, LinkedIn, for tracking the use of embedded services</td>
+    <td>1 day</td>
+  </tr>
+  <tr>
+    <td>lissc</td>
+    <td>HTTP</td>
+    <td>Used by the social networking service, LinkedIn, for tracking the use of embedded services</td>
+    <td>1 year</td>
+  </tr>
+  <tr>
+    <td>MUID</td>
+    <td>HTTP</td>
+    <td>Used widely by Microsoft as a unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.</td>
+    <td>1 year</td>
+  </tr>
+  <tr>
+    <td>site_identity</td>
+    <td>HTTP</td>
+    <td>Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.</td>
+    <td>999 days</td>
+  </tr>
+  <tr>
+    <td>slireg</td>
+    <td>HTTP</td>
+    <td>Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting.</td>
+    <td>6 days</td>
+  </tr>
+  <tr>
+    <td>UserMatchHistory</td>
+    <td>HTTP</td>
+    <td>Used to track visitors on multiple websites, in order to present relevant advertisements based on the visitor 's preferences.</td>
+    <td>29 days</td>
+  </tr>
+  <tr>
+    <td>_uetvid</td>
+    <td>HTTP</td>
+    <td>This is a cookie utilised by Microsoft Bing Ads and is a tracking cookie. It allows us to engage with a user that has previously visited our website.</td>
+    <td>16 days</td>
+  </tr>
+  <tr>
+    <td>_uetvid_exp</td>
+    <td>HTML</td>
+    <td>Contains the expiry-date for the cookie with corresponding name</td>
+    <td>Persistent</td>
+  </tr>
+  <tr>
+    <td>utm_data</td>
+    <td>HTML</td>
+    <td>Registers the source of a user who has submitted our contact form. e.g. organic google search or bing ad</td>
+    <td>Persistent</td>
+  </tr>
+</tbody>
+</table>
+
+&nbsp;
+
+Analytical cookies and Targeting cookies are used on the basis of Art. 6 (1) (a) GDPR (your consent).
+
+You can set your cookies preference at any time by following this [link](https://www.youronlinechoices.com/de/praferenzmanagement/) to make the appropriate changes. 
+
+Or, click the button below:
+
+<button class="btn btn-dark" onclick="WC_getCookieConsent(true)">Edit cookie preferences</button>
+
+&nbsp;
+### 8\. Third party tracking technologies for advertising purposes
+
+We use cross-device tracking technologies so that based on your visit to our websites you can see advertisements tailored to your interests on other websites and we can measure how effective our advertising has been.
+The data processing is based on your consent in accordance with Art. 6 (1) (1a) GDPR, if you have given your consent via our website banner. Your consent is voluntary and can be revoked at any time.
+
+&nbsp;
+##### (a) How does tracking work?
+When you visit our websites, it is possible that those third-party providers listed below may retrieve identification characteristics of your browser or terminal device (e.g. a so-called browser fingerprint), evaluate your IP address, save or extract identification characteristics on your terminal device (e.g. cookies) or gain access to unique tracking pixels.
+The individual characteristics can be used by those third parties to identify your terminal device on other websites. We may commission the relevant third parties to place advertisements based on the pages visited on our website.
+
+&nbsp;
+##### (b) What does cross-device tracking mean?
+If you log on to the third-party provider with your user data, the respective identification characteristics of different browsers and terminal devices can be linked with each other. For example, if the third-party provider has created a separate characteristic for each laptop, desktop personal computer, smartphone or tablet you use, these individual characteristics can be assigned to each other as soon as you log in to a service of the third-party provider with your login credentials. This allows the third party to target our advertising campaigns across different devices.
+
+&nbsp;
+
+##### (c) Which third-party providers do we use in this context?
+Listed below we specify those third-party providers with whom we work for advertising purposes. If the data is processed outside the EU or EEA in this context, please note that there is a risk that authorities may access the data for security and monitoring purposes without you being informed or having the right to appeal. If we use providers in unsafe third countries and you give us your consent, any transfer to a third country is based on Art. 49 (1a) GDPR.
+
+&nbsp;
+
+### 9\. Google Analytics
+We use the web analysis tool "Google Analytics" to design our websites according to your needs. Google Analytics creates usage profiles based on pseudonyms. For this purpose, permanent cookies are stored on your end device and read out by us. In this way we are able to recognize returning visitors and count them as such.
+
+Within the framework of Google Analytics, Google Ireland Limited and Google LLC support us. (USA) support us as processors according to Art. 28 of the GDPR. The data processing can therefore also take place outside the EU or EEA. With regard to Google LLC, no adequate level of data protection can be assumed due to the processing in the USA. There is a risk that authorities may access the data for security and monitoring purposes without you being informed or having the right to appeal. Please take this into account if you decide to give your consent to our use of Google Analytics. 
+
+The data processing is based on your consent in accordance with Art. 6 (1 a) of the, if you have given your consent via our banner. The transfer to a third country takes place on the basis of Art. 49 (1a) of the GDPR.  
+
+You can withdraw your consent at any time. Please follow this [link](https://www.youronlinechoices.com/de/praferenzmanagement/) and make the appropriate changes.
+
+<button class="btn btn-dark" onclick="WC_getCookieConsent(true)">Edit cookie preferences</button>
+
+&nbsp;
+
+### 10\. Visitor measurement
+
+These create usage profiles based on pseudonyms. For this purpose, permanent cookies are stored on your end device and read out by us. In addition, it is possible that we call up recognition features for your browser or terminal device (e.g. a so-called browser fingerprint or your unabridged IP address). In this way we are able to recognize returning visitors and count them as such. 
+
+In addition, we use the following functions in the context of visitor measurement:
+-  We enrich the pseudonymous data with additional data provided by third parties. In this way, we are able to record demographic characteristics of our visitors, such as age, gender and place of residence.
+- We use a recognition method that allows us to record and subsequently evaluate the mouse pointer movements of our visitors. 
+
+The data processing is based on your consent in accordance with Art. 6 (1a) of the GDPR, if you have given your consent via our banners. 
+
+&nbsp;
+##### Which third-party providers do we use in this context?
+
+In the following, we will name the third-party providers with whom we cooperate in connection with visitor measurement. If the data is processed outside the EU or EEA in this context, please note that there is a risk that authorities may access the data for security and monitoring purposes without you being informed or having the right to appeal. If we use providers in insecure third countries and you give your consent, the transfer to a third country is based on Art. 49 (1a) of the GDPR.
+
+&nbsp;
+
+<table class="table">
+<thead>
+  <tr>
+    <th>Provider</th>
+    <th>Adequate level of data protection</th>
+    <th>Revocation of consent</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Google Ireland Limited</td>
+    <td>Processing within EU/EEA</td>
+    <td>If you want to revoke your consent, please follow this <a href="https://www.youronlinechoices.com/de/praferenzmanagement/">link</a> and make the appropriate changes.</td>
+  </tr>
+  <tr>
+    <td>Google LLC (USA)</td>
+    <td>No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) of the GDPR.</td>
+    <td>If you want to withdraw your consent, please Please follow this <a href="https://www.youronlinechoices.com/de/praferenzmanagement/">link</a> and make the appropriate changes.</td>
+  </tr>
+</tbody>
+</table>
+
+&nbsp;
+
+### 11\. Social plugins
+
+You can use social plugins on our website. However, for reasons of data protection, we only integrate the social plugins we use in a deactivated form. Therefore, when you visit our websites, no data is transmitted to social media services. 
+
+You can, however, activate and use the social plugins integrated in our websites. For this purpose, we use a solution by which our web server provides in a first step all data and functions required to display the social plugin. Only when you decide to activate the respective social plugin and click on the corresponding preview image or icon, in a second step your browser will establish a connection to the servers of the provider of the respective social media service. 
+
+If you activate a plugin, the social media service receives in particular your IP address and, among other things, information about your visit to our websites. This happens regardless of whether you have registered an account with the respective social media service. If you are logged in, the data can be directly assigned to your social media profile. 
+
+Overall, we have no influence on whether and to what extent the respective social media service processes personal data after activation. However, it is likely that the social media service will create user profiles based on your data and use them for the purpose of personalized advertising. Furthermore, your data will be used to inform other users of the social media service about your activities on our websites. 
+
+The integration is based on your consent according to Art. 6 (1) (1a) GDPR, if you have given your consent by clicking on the preview image. Please note that the integration of many social plugins means that your data is processed outside the EU or EEA. In some countries, there is a risk that authorities may access the data for security and monitoring purposes without you being informed or having the right to appeal. If we use providers in unsafe third countries and you provide consent, the transfer to an unsafe third country is based on Art. 49 (1a) GDPR.
+
+If you no longer wish your personal data to be processed by the activated social plugins, you can prevent future processing by no longer clicking on the preview image or icon of the respective Social Plugin
+
+&nbsp;
+
+<table class="table">
+<thead>
+  <tr>
+    <th>Third party Provider</th>
+    <th>Adequate level of data protection</th>
+    <th>Revocation of consent</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://www.twitter.com/privacy">Twitter (USA)</a></td>
+    <td>No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) GDPR.</td>
+    <td>If you have clicked on a preview image, the content of the third-party provider is immediately reloaded. If you do not want such reloading on other sites, please do not click on the preview image anymore.</td>
+  </tr>
+  <tr>
+    <td>Facebook. (Instagram) (USA)</td>
+    <td>No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) GDPR.</td>
+    <td>If you have clicked on a preview image, the content of the third-party provider is immediately reloaded. If you do not want such reloading on other sites, please do not click on the preview image anymore.</td>
+  </tr>
+  <tr>
+    <td>LinkedIn (USA)</td>
+    <td>No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) GDPR.</td>
+    <td>If you have clicked on a preview image, the content of the third-party provider is immediately reloaded. If you do not want such reloading on other sites, please do not click on the preview image anymore.</td>
+  </tr>
+</tbody>
+</table>
+
+&nbsp;
+
+### 12\. Embedded videos
+
+On our websites we embed videos that are not hosted on our servers. If you access web pages with embedded videos, content from the third-party provider who provides the videos will be downloaded. The third-party provider is thereby informed that you have accessed our website and receives the usage data that is technically required for this purpose. 
+
+We have no influence on further data processing by the third-party provider. However, when embedding the videos, we have taken care to activate the extended data protection mode offered by the third-party provider. The extended data protection mode ensures that the third-party provider does not set any cookies. 
+
+The embedding is based on Art. 6 (1) (1f) GDPR and in the interest of making our site as appealing and informative as possible.
+
+&nbsp;
+
+<table class="table">
+<thead>
+  <tr>
+    <th>Third party Provider</th>
+    <th>Maximum retention period</th>
+    <th>Adequate level of data protection</th>
+    <th>Revocation of consent</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://www.youtube.com/privacy">YouTube / Google (USA)</a></td>
+    <td>90 days</td>
+    <td>- No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) GDPR.</td>
+    <td>If you wish to object to the embedding, please stop using our site.</td>
+  </tr>
+  <tr>
+    <td><a href="https://vimeo.com/privacy">Vimeo (USA)</a></td>
+    <td>90 days</td>
+    <td>- No adequate level of data protection. The data is transmitted on the basis of Art. 49 (1a) GDPR.</td>
+    <td>If you wish to object to the embedding, please stop using our site.</td>
+  </tr>
+</tbody>
+</table>
+
+&nbsp;
+
+### 13\. Newsletter Registration and Delivery
+
+You may register to receive our newsletter on our website. Please note that we require certain data (your email address) to complete the newsletter registration. 
+
+We will only send you the newsletter if you have given us your express consent in accordance with Art. 6 (1) (a) GDPR. After you have completed the newsletter registration on our website, you will receive a confirmation e-mail to the e-mail address you provided (double opt-in). You may withdraw your consent at any time. An easy way to withdraw your consent is, for example, to use the unsubscribe link provided in every newsletter. 
+
+As part of the newsletter registration process, we store certain data in addition to the above-mentioned data, as far as is necessary to prove so that you have registered for our newsletter. This may include storing the complete IP address at the time of the registration or confirmation of the newsletter, as well as a copy of the confirmation mail sent by us. 
+
+The legal basis for the data processing is our legitimate interest to be able to account for the legality of the newsletter delivery according to Art. 6 (1) (a) GDPR.
+
+&nbsp;
+
+### 14\. Direct Marketing
+
+Where we receive your email address in connection with the sale of a product or service, we will use the email address for direct marketing of our own similar goods or services, unless you have objected to the processing. When collecting the address and for each use, we clearly point out that you can object to the use at any time without incurring any costs other than the transmission costs according to the basic rates. 
+
+The legal basis for the data processing is our legitimate interest to be able to promote the sale of our goods or services according to Art. 6 (1) (f) GDPR. An uncomplicated method to object to this processing is provided e.g. by the cancellation link provided in every email.&nbsp;
+
+&nbsp;
+
+### 15\. Contact form
+
+You are welcome to reach us via our contact form. In order to use our contact form, we first need the data marked as mandatory. 
+
+We use this data on the basis of Art. 6 (1) (1f) GDPR to respond to your requests. 
+
+Furthermore, you can decide for yourself whether you would like to provide us with further information. This information is provided voluntarily and is not required for contacting us. We process your voluntary details on the basis of your consent in accordance with Art. 6 (1) (1a) GDPR. 
+
+Your data will only be processed to answer your request. We will delete your data if they are no longer required and there are no legal obligations to retain them. 
+
+As far as your data, transmitted via contact form, is processed on the basis of Art. 6 (1) (1f) GDPR, you can object to the processing at any time. In addition, you can revoke your consent to the processing of your voluntarily stated information at any time.  To do so, please use the email address provided in the section below “Asserting your rights”. 
+
+If you get in contact with us via the contact form for the “Wunder Marketplace” program, the basis of your consent is based on Art. 6.1 (a) GDPR. Our sales representatives may share your personal data (contact data provided by you in the form) with the “Wunder Marketplace” partner you are interested in. Some of those service providers are based in countries outside of the European Economic Area therefore the processing may pose a risk due to the possible absence of an adequacy decision or appropriate safeguards (Art.49.1 (a) GDPR).
+
+&nbsp;
+
+### 16\. Your rights as a data subject
+
+When processing your personal data, the GDPR grants you certain rights as a data subject:
+
+**Right of access by the data subject (Art. 15 GDPR)** 
+
+You have the right to obtain confirmation as to whether personal data concerning you are being processed; if this is the case, you have the right to be informed of this personal data and to receive the information specified in Art. 15 GDPR. 
+
+**Right to rectification (Art. 16 GDPR)** 
+
+You have the right to rectification of inaccurate personal data concerning you and, taking into account the purposes of the processing, the right to have incomplete personal data completed, including by means of providing a supplementary statement without delay. 
+
+**Right to erasure (Art. 17 GDPR)** 
+
+You have the right to obtain the erasure of personal data concerning you without undue delay if one of the reasons listed in Art. 17 GDPR applies. 
+
+**Right to restriction of processing (Art. 18 GDPR)** 
+
+You have the right to request the restriction of processing if one of the conditions listed in Art. 18 GDPR is met, e.g. if you have objected to the processing, for the duration of our examination. 
+
+**Right to data portability (Art. 20 GDPR)** 
+
+In certain cases, which are listed in detail in Art. 20 GDPR, you have the right to receive the personal data concerning you in a structured, commonly used and machine-readable format, or to request that this data be transferred to a third party. 
+
+**Right to withdraw consent (Art. 7 GDPR)** 
+
+If the processing of data is based on your consent, you are entitled to withdraw your consent to the use of your personal data at any time in accordance with Art. 7 (3) GDPR. Please note that the withdrawal is only effective for the future. Processing that took place before the withdrawal is not affected. 
+
+**Right to object (Art. 21 GDPR)** 
+
+If data is collected on the basis of Art. 6 (1) 1 f GDPR (data processing for the purpose of our legitimate interests) or on the basis of Art. 6 (1) 1 e GDPR (data processing for the purpose of protecting public interests or in the exercise of official authority), you have the right to object to the processing at any time for reasons arising from your particular situation. We will then no longer process the personal data unless there are compelling legitimate grounds for the processing which override your interests, rights and freedoms or if data is still needed for the establishment, exercise or defence of legal claims. 
+
+**Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)** 
+
+In terms of Art. 77 GDPR, you have the right to lodge a complaint with a supervisory authority if you believe that the processing of your data violates data protection regulations. This right may be asserted in particular with a supervisory authority in the Member State of your habitual residence, your place of work or the place of the suspected infringement. 
+
+&nbsp;
+
+### 17\. Asserting your rights
+
+Please contact us to assert your rights. You will find our contact details in our [imprint](/imprint). 
+
+WunderCar Mobility Solutions GmbH 
+
+Email address: [privacy@wundermobility.com](mailto:privacy@wundermobility.com) 
+
+Postal address: Hongkongstrasse 2-4, 20457, Hamburg, Germany
+
