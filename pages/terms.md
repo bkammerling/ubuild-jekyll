@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Terms & Conditions | Wunder Mobility
+title: Terms of Service | Wunder Mobility
 date: 2019-02-10 23:00:00 +0000
 permalink: '/terms'
 version: hp
@@ -15,11 +15,11 @@ page_sections:
 # Terms of Service
 
 1. **Scope**<br>
-The following Terms of Service (the **“Agreement"**) describe the general terms and conditions of your use of all our white label mobility platform mobile applications (**“Mobile Application”** or **“Service”**) and any related products and services (collectively, “Services”). These Terms of Service are legally binding between you (**"you"** or **"your"**) and WunderCar Mobility Solutions GmbH and its affiliated companies (**"Wunder Mobility"**, **"we"**, **"us"** or **"our"**). By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you do not agree with the terms of this Agreement, you must not accept this Agreement and may not access and use the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and Wunder Mobility, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services. <br><br>
+The following Terms of Service (the **“Agreement"**) describe the general terms and conditions of your use of all our white label mobility platform mobile applications (**“Mobile Application”** or **“Service”**) and any related products and services (collectively, “Services”). These Terms of Service are legally binding between you (**"you"** or **"your"**) and WunderCar Mobility Solutions GmbH and its affiliated companies (**"Wunder Mobility"**, **"we"**, **"us"** or **"our"**). By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. If you do not agree with the terms of this Agreement, you must stop using the Mobile Application and Services. You acknowledge that this Agreement is a contract between you and Wunder Mobility, even though it is electronic and is not physically signed by you, and it governs your use of the Mobile Application and Services. <br><br>
 This Agreement does not apply to independent operators who provide our Services to you (**“Third Party Operators”**).
 
 2. **Services and Mobile Application**<br>
-Wunder Mobility is not a transport carrier, nor does it provide transport services, rather, it facilitates Third-Party Operators in providing such services to you. As such we have no responsibility or liability for any transport services secured by you or provided by any licensor or Third-Party Operators, <br><br>
+Wunder Mobility is not a transport carrier, nor does it provide transport services, rather, it facilitates Third-Party Operators in providing such services to you. As such we have no responsibility or liability for any transport services secured by you or provided by any licensor or Third-Party Operators. <br><br>
 The provision of transport services to you is at the sole discretion of licensors and Third-Party Operators. Accepting such services from licensors or Third-Party Operators is at your sole discretion. 
 
 3. **Use of the Service and Mobile Application**<br>
