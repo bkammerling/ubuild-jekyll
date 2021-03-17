@@ -19,7 +19,7 @@ The following Terms of Service (the **“Agreement"**) describe the general term
 This Agreement does not apply to independent operators who provide our Services to you (**“Third Party Operators”**).
 
 2. **Services and Mobile Application**<br>
-Wunder Mobility is not a transport carrier, nor does it provide transport services, rather, it facilitates Third-Party Operators in providing such services to you. As such we have no responsibility or liability for any transport services secured by you or provided by any licensor or Third-Party Operators, <br><br>
+Wunder Mobility is not a transport carrier, nor does it provide transport services, rather, it facilitates Third-Party Operators in providing such services to you. As such we have no responsibility or liability for any transport services secured by you or provided by any licensor or Third-Party Operators. <br><br>
 The provision of transport services to you is at the sole discretion of licensors and Third-Party Operators. Accepting such services from licensors or Third-Party Operators is at your sole discretion. 
 
 3. **Use of the Service and Mobile Application**<br>
