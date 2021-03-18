@@ -23,6 +23,8 @@ sticky: false
 hidden: false
 
 ---
+_Read this article in_ [_German_](https://bernstein-group.com/2021/03/18/die-frage-nach-dem-perfekten-mobilitaetskonzept/)_._
+
 For more than a year we have been working with the [Bernstein Group](https://bernstein-group.com/de/) to create and curate conversations around the topics of mobility, tech and regulation in the form of articles and the Policy Brief newsletter. We’ve received insights from representatives from politics and business, but regardless of the individual fields of expertise of our guests, we repeatedly pursued one question in the course of the exchange: **What does the ideal mobility concept of the future look like?**
 
 To celebrate the one year anniversary of our collaboration, we’ve rounded up insights and thoughts from our past speakers in this article, where we will compare and analyze where there are differences and similarities. Which topics do politicians focus on? And which topics play a bigger role for entrepreneurs?
