@@ -12,13 +12,13 @@ cta_text: Our bilingual policy brief is full of articles relevant to policymaker
 cta_link: pages/bernstein-newsletter.md
 title: Is There A "Perfect Mobility Concept"?
 publish_date: 2021-03-18 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/03/18/is-there-a-perfect-mobility-concept_portrait.png"
 excerpt: 'For more than a year, the insights we received from politics and business
   have been the foundation of our Bernstein x Wunder Mobility content. Regardless
   of the individual fields of expertise of our guests, we repeatedly pursued one question
   in the course of the exchange: **What does the ideal mobility concept of the future
   look like?**'
-share_image: ''
+share_image: "/uploads/2021/03/18/is-there-a-perfect-mobility-concept.png"
 sticky: false
 hidden: false
 
