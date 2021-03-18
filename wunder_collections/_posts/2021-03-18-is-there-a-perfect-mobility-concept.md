@@ -31,23 +31,23 @@ To celebrate the one year anniversary of our collaboration, we’ve rounded up i
 
 Just by doing a rough comparison of the various mobility concepts, we already see a great deal of agreement between the individual speakers. In all of them, the overriding goal is to consider change as a whole and to see individual modes of transport in relation to one another.
 
-**_"Basically, there is always a need for integrated urban transport planning." – Stephan Kühn, Alliance 90 / The Greens_**
+**_"Basically, there is always a need for integrated urban transport planning." –_** [**_Stephan Kühn, Alliance 90 / The Greens_**]( "https://www.wundermobility.com/blog/an-interview-with-stephan-kuhn.html")
 
 This integrated and holistic concept acts as a common ground on which ultimately different priorities are set and individual solutions are developed. All of them aim to closely connect the various forms of mobility with one another, thereby developing a user-friendly concept that keeps the effort for citizens as low as possible.
 
 Individuals and ideas are also quite similar in their approach to implementing this overarching goal. The focus is always on the possibilities of digitization – specifically the possibilities of an app that reflects integrated city and traffic planning.
 
-**_“You have a mobility app with which you can step outside and book a door to door service and only have one payment process. You always have the option of using an alternative means of transport instead of your own car - be it a pooled ride, the bus or public transport. "– Kirsten Lühmann, SPD_**
+**_“You have a mobility app with which you can step outside and book a door to door service and only have one payment process. You always have the option of using an alternative means of transport instead of your own car - be it a pooled ride, the bus or public transport. "–_** [**_Kirsten Lühmann, SPD_**]( "https://www.wundermobility.com/blog/an-interview-with-kirsten-luhmann-member-of-parliament.html")
 
 Thomas Jarzombek (CDU), on the other hand, focuses on another aspect and sees great opportunity in competition and in diversity:
 
-**_“I don't think there is this “one size fits all” solution. One concept will not replace everything in the future. The key is competition. In the end, innovation will only come about through competition. Through competition and openness. Only strong, competitive ideas will ultimately be successful in and outside of Germany." – Thomas Jarzombek, CDU_**
+**_“I don't think there is this “one size fits all” solution. One concept will not replace everything in the future. The key is competition. In the end, innovation will only come about through competition. Through competition and openness. Only strong, competitive ideas will ultimately be successful in and outside of Germany." –_** [**_Thomas Jarzombek, CDU_**]( "https://www.wundermobility.com/blog/interview-with-thomas-jarzombek.html")
 
 But does one exclude the other? Time and again, various approaches to solving various challenges have been brought up in our discussions. But these are seldom actually in opposition to one another.
 
 For example, the role of cars in Germany offers a lot of space for discussion and differing opinions. Often there is a consensus - also among our speakers - that the car is part of Germany's culture and that there are many situations in which a car is (still) the only sensible means of transport. But the approach to how the role and function of the car can be changed is different for everyone:
 
-**_“If we go a little further \[...\] then individual mobility will actually play an important role in 10, 15 or 20 years. That is why it is very important that cars are climate-neutral "– Christoph Ploß, CDU_**
+**_“If we go a little further \[...\] then individual mobility will actually play an important role in 10, 15 or 20 years. That is why it is very important that cars are climate-neutral "–_** [**_Christoph Ploß, CDU_**]( "https://www.wundermobility.com/blog/an-interview-with-dr.christoph-ploss.html")
 
 For some, like Christoph Ploß, the focus is on establishing climate-neutral vehicles. For others it’s on ensuring that parking spaces are converted. ParkHere emphasizes the interplay of both arguments for a successful change in mobility:
 
@@ -57,7 +57,7 @@ This demonstrates that the one does not exclude the other. The chosen focus is s
 
 However we can also see from these discussions that we still think about networked mobility with an urban perspective. Long distances and low demand in rural areas are seen as a separate task that has to be tackled after finding the supposedly perfect solution in cities. In rural areas in particular, individual mobility will take up a large portion of transportation for a long time. Dr. Florian Petit sees a solution for this in autonomous driving:
 
-**"_I see mobility as a basic human right and autonomous vehicles enable old people and children to access this basic right, as it does for people in rural areas." – Dr. Florian Petit, Blickfeld_**
+> **"_I see mobility as a basic human right and autonomous vehicles enable old people and children to access this basic right, as it does for people in rural areas." –_** [**_Dr. Florian Petit, Blickfeld_**]( "https://www.wundermobility.com/blog/an-interview-with-dr.florian-petit-cofounder-of-blickfeld.html")
 
 How the change in mobility will actually develop and how mobility will define itself in 10 or 15 years is a task that politicians – municipalities, states and the federal government – must shape together with companies. However, it is important to keep up the conversation and to constantly challenge the status quo with new ideas and innovations.
 
