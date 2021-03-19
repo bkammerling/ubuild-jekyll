@@ -215,7 +215,20 @@
                 <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>
-
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                  <label for="contactForm" class="pt-sm-1 form-check-label custom-control-label font-weight-bold">
+                    Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
+                  </label>
+                </div>
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
+                  <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
+                    Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
+                  </label>
+                </div>
+              </div>
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
               <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
                 Formular senden
