@@ -57,8 +57,33 @@
                   </label>
                 </div>
               </div>
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_marketing" name="add_to_newsletter" value="yes" required checked>
+                  <label for="modal_marketing" class="form-check-label custom-control-label font-weight-bold">
+                    {% if page.language == "EN" or page.lang == "en" %}
+                    I agree to receiving marketing materials from Wunder Mobility.
+                    {% elsif page.language == "DE" or page.lang == "de" %}
+                    Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
+                    {% endif %} 
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_privacy" name="privacy_policy" value="agree" checked required>
+                  <label for="modal_privacy" class="form-check-label custom-control-label font-weight-bold">
+                    {% if page.language == "EN" or page.lang == "en" %}
+                    I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
+                    {% elsif page.language == "DE" or page.lang == "de" %}
+                    Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
+                    {% endif %} 
+                  </label>
+                </div>
+              </div>
               <input id="modal_captchaResponse" name="g-recaptcha-response" type="hidden"/>
               <input id="modal_case_study_company" name="case_study_name" value="{{ page.title }}" type="hidden">
+              <input type="hidden" id="gclid_field" name="gclid_field" value="">
               <div class="row my-3">
                 <div class="col-sm-12">
                   <p class="form-feedback hidden">

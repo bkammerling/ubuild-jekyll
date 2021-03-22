@@ -415,6 +415,7 @@
             <input type="hidden" name="adgroup_id" id="adgroup_id" value="">
             <input type="hidden" name="title_id" id="title_id" value="">
             <input type="hidden" name="first_visit" id="first_visit" value="">
+            <input type="hidden" id="gclid_field" name="gclid_field" value="">
             <div class="container">
               <div class="row">
                 <div class="col-sm-6">
@@ -439,9 +440,23 @@
                 </div>
               </div>
               <hr>
-              <div class="form-group">
+              <div class="form-group mb-3">
                 <label for="message-text" class="col-form-label">Message</label>
                 <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
+              </div>
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                  <label for="contactForm" class="form-check-label custom-control-label font-weight-bold">
+                    I agree to receiving marketing materials from Wunder Mobility.
+                  </label>
+                </div>
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
+                  <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
+                    I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
+                  </label>
+                </div>
               </div>
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             </div>

@@ -290,15 +290,24 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <div class="form-group mb-3">
               <label for="message-text" id="message-text_label" class="form-label">What is your project idea? (optional)</label>
               <textarea rows="4" class="textarea-input" id="message-text" name="message" placeholder="Tell us a bit about the problem you want to solve"></textarea>
             </div>
 
+            <div class="form-group mb">
+              <div class="custom-control custom-checkbox form-check">
+                <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                <label for="contactForm" class="pt-sm-1 form-check-label custom-control-label font-weight-bold">
+                  I agree to receiving marketing materials from Wunder Mobility.
+                </label>
+              </div>
+            </div>
 
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+            <input type="hidden" id="gclid_field" name="gclid_field" value="">
 
-            <p class="text-mute smallprint mt-3">By clicking "Get started" I agree that Wunder Mobility or its representatives may contact me by email, phone, or SMS at the email address or number I provide and that my information will be used in accordance with Wunder Mobility’s Privacy Policy.</p>
+            <p class="text-mute smallprint mt-3">By submitting the form, I consent to Wunder Mobility sharing my personal data with Marketplace partners in which I have an interest. I acknowledge that some Marketplace partners may be based outside the European Economic Area (EEA) and that appropriate safeguards or adequacy decisions, on the processing of personal data, may not be in place. In this regard, we refer you to section 15 of our <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>.</p>
 
             <div class="mt-4 text-right">
               <button id="modal_form-submit" class="btn btn-primary btn-mkt" onclick="mktplaceSubmit(event)">
