@@ -18,7 +18,7 @@ excerpt: We are living in unique times. Not only are we able to witness and part
   influence every little step of the process – now more than ever.
 share_image: "/uploads/2021/03/24/ubiq-qunder-240321-1.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 We are living in unique times. Not only are we able to witness and participate in a global process of readapting, reshaping and refocusing, we can also easily influence every little step of the process – now more than ever.
