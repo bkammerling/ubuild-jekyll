@@ -21,7 +21,7 @@ sticky: false
 hidden: false
 
 ---
-_This post was authored by our Wunder Marketplace client_ [_Ubiq_](https://www.wundermobility.com/marketplace/ubiq)_._
+_This post was authored by our Wunder Marketplace partner_ [_Ubiq_](https://www.wundermobility.com/marketplace/ubiq)_._
 
 We are living in unique times. Not only are we able to witness and participate in a global process of readapting, reshaping and refocusing, we can also easily influence every little step of the process – now more than ever.
 
