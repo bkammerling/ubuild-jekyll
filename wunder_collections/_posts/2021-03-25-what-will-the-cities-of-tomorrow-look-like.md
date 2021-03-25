@@ -21,6 +21,8 @@ sticky: false
 hidden: false
 
 ---
+_This post was authored by our Wunder Marketplace client_ [_Ubiq_](https://www.wundermobility.com/marketplace/ubiq)_._
+
 We are living in unique times. Not only are we able to witness and participate in a global process of readapting, reshaping and refocusing, we can also easily influence every little step of the process – now more than ever.
 
 At Ubiq, we are very happy to contribute to this process with our solutions and innovations. We believe that the importance of [working together](https://eurocities.eu/latest/cities-and-the-eu-together-for-green-mobility/) to reach common goals becomes stronger and more obvious by the day. But sometimes it seems easier said than done in a world that no longer looks the same. City centers are slowly coming back to life, having languished in the eerie silence of uncertainty. Yet things are far from being “normal” again. In fact, the old normal is gone and what’s left now are predictions and speculations of what the new normal will look like – and what that will mean for our cities and the world of mobility.
