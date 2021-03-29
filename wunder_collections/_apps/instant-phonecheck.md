@@ -9,13 +9,13 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/01/21/tru-id-instant-phonecheck-demo-video-paul-mcguire.mp4"
   title: Video
-- image-video: "/uploads/2021/01/21/tru-id-ipc-signed-in-to-your-app-paul-mcguire.png"
+- image-video: "/uploads/2021/03/26/three.png"
   title: Your App
-- image-video: "/uploads/2021/01/21/tru-id-ipc-step-1-phone-number-entry-paul-mcguire.png"
+- image-video: "/uploads/2021/03/26/four.png"
   title: Enter your mobile number
-- image-video: "/uploads/2021/01/21/tru-id-ipc-step-2-verification-processing-in-background-paul-mcguire.png"
+- image-video: "/uploads/2021/03/26/two.png"
   title: Real-time verification
-- image-video: "/uploads/2021/01/21/tru-id-ipc-step-3-verification-results-retrieved-paul-mcguire.png"
+- image-video: "/uploads/2021/03/26/one.png"
   title: Approved !
 description: "<p>Using SMS to verify mobile numbers creates a bad user experience
   which leads to abandonment, and lost revenues.</p><p>tru.ID can verify a user's
