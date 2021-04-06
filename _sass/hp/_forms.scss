@@ -99,6 +99,27 @@ form {
     box-shadow: none;
   }
 
+  label.form-check-label {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 8px;
+
+    a {
+      color: $mobility-black;
+      text-decoration: underline;
+    }
+  }
+
+  .custom-control-label::before, .custom-control-label::after {
+    height: 24px;
+    width: 24px;
+    top: -1px;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $mobility-black;
+    border-color: $mobility-black;
+  }
 
   select, select:focus {
     padding: rem(4px) 1rem;

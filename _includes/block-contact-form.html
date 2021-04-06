@@ -252,28 +252,29 @@
             {% endif %}
 
 
-            <div class="form-group">
+            <div class="form-group mb-4">
               <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
               <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
               <div class="bottom-border"></div>
             </div>
+            <hr class="mb-5">
             <div class="form-group mb-3">
-              <div class="custom-control custom-checkbox form-check">
+              <div class="custom-control custom-checkbox form-check mb-3">
                 <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
-                <label for="contactForm" class="form-check-label custom-control-label font-weight-bold">
+                <label for="contactForm" class="form-check-label custom-control-label">
                   I agree to receiving marketing materials from Wunder Mobility.
                 </label>
               </div>
               <div class="custom-control custom-checkbox form-check">
                 <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
-                <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
+                <label for="contact_privacy" class="form-check-label custom-control-label">
                   I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
                 </label>
               </div>
             </div>
 
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
-            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+            <button id="form-submit" class="btn btn-dark" onclick="formSubmit(event)">
               Send message
             </button>
             <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
