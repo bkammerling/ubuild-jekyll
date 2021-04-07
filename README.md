@@ -16,6 +16,29 @@ bundle install
 3. Run local server
 ```
 bundle exec jekyll serve
+``` 
+OR, 
+
+3. Run local server with 0.0.0.0 host to run tests on forms
+```
+bundle exec jekyll serve --host 0.0.0.0
+``` 
+## Menus 
+### Enabling CTAs on the top navbar 
+In the page's frontmatter, under `page_sections`
+```
+--- 
+...
+page_sections:
+- template: navigation-header-w-button
+  block: header-2
+  menu: [wunder-main] OR [wunder-de]
+  cta:
+    url: "#id-of-section" OR "https://example.com"
+    button_text: Example button text
+    enabled: true
+...
+---
 ```
 ## The Client page and collection:
 ### Where the data lives
