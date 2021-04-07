@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Fleet Maintenance
-title: M-TRIBES Fleet Servicing
+title: M-TOOLS Fleet Servicing
 icon: "/uploads/2021/02/18/59531867_2242725362655431_5126719740441526272_o-m-tribes-operations.png"
 excerpt: Automation-assisted job dispatching and live tracking for maintenance teams.
 featured: false
@@ -60,6 +60,5 @@ getting_started:
     software solution for vehicle sharing providers.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
