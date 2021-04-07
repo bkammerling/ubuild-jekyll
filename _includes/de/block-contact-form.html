@@ -208,32 +208,37 @@
                 </div>
               </div>
               {% endif %}
-
-
               <div class="form-group">
                 <label class="form-label" for="message">Erzählen Sie uns von Ihrem Unternehmen und Ihren Anforderungen {% if page.lang-ref == 'carpool' %}- Wie können wir Ihnen helfen? *{% endif %}</label>
                 <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool'%} required{% endif %}></textarea>
                 <div class="bottom-border"></div>
               </div>
-              <div class="form-group mb-3">
-                <div class="custom-control custom-checkbox form-check">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
-                  <label for="contactForm" class="form-check-label custom-control-label font-weight-bold">
-                    Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
-                  </label>
-                </div>
-                <div class="custom-control custom-checkbox form-check">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
-                  <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
-                    Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
-                  </label>
+              <hr class="mb-5">
+              <div class="row">
+                <div class="col-lg-8 col-md-7">
+                <div class="form-group mb-lg-3 mb-5">
+                  <div class="custom-control custom-checkbox form-check">
+                    <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                    <label for="contactForm" class="form-check-label custom-control-label">
+                      Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
+                    </label>
+                  </div>
+                  <div class="custom-control custom-checkbox form-check">
+                    <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
+                    <label for="contact_privacy" class="form-check-label custom-control-label">
+                      Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
+                    </label>
+                  </div>
                 </div>
               </div>
-              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
-              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-                Formular senden
-              </button>
-              <p class="form-feedback hidden">Danke, Ihre Nachricht wurde gesendet.</p>
+              <div class="col-lg-4 col-md-5">
+                <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+                  Formular senden
+                </button>
+              </div>
+            </div>
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+            <p class="form-feedback mt-md-4 mt-5 hidden">Danke, Ihre Nachricht wurde gesendet.</p>
             </form>
 
           </div>

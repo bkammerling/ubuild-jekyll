@@ -40,7 +40,7 @@ form {
   position: relative;
   #form-submit {
     #section-contact & {
-      margin-left: auto;
+      margin: 0 auto;
       display: block;
     }
   }
@@ -119,6 +119,12 @@ form {
   .custom-control-input:checked ~ .custom-control-label::before {
     background-color: $mobility-black;
     border-color: $mobility-black;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::after {
+    background: url("/uploads/global/icons/check_24px.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   select, select:focus {
