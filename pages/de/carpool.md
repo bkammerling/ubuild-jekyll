@@ -22,7 +22,7 @@ page_sections:
     button_text: Film Anschauen
     url: "https://vimeo.com/318402556"
     enabled: true
-  sub_logo: "/uploads/global/wunder-carpool-white.svg"
+  sub_logo: "/uploads/global/wunder-carpool-white_new.svg"
   background_video: carpool-web-loop-02
   background_image: "/uploads/global/carpool-loop-still.jpg"
   background_image_mobile: "/uploads/global/carpool-loop-still_mob@2x.jpg"

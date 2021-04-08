@@ -20,7 +20,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-hp
   headline: Engage employees and cut emissions with carpool
-  sub_logo: "/uploads/global/wunder-carpool-white.svg"
+  sub_logo: "/uploads/global/wunder-carpool-white_new.svg"
   cta:
     button_text: Watch our film
     url: https://vimeo.com/318402556
