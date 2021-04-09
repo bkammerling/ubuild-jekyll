@@ -25,10 +25,16 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2 order-1">
+          <div class="col-md-3 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 2 %}
-              <h3 class="headline-small">{{ menu_cat.title }}</h3>
+              <h3 class="headline-small">
+                {% if menu_cat.url %}
+                <a href="{{ menu_cat.url }}">{{ menu_cat.title }}</a>
+                {% else %}
+                {{ menu_cat.title }}
+                {% endif %}
+                </h3>
               <ul>
                 {% for menu_item in menu_cat.items %}
                   <li><a class="small-label"  href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
@@ -38,22 +44,9 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2 order-1">
+          <div class="col-md-3 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 3 %}
-              <h3 class="headline-small">{{ menu_cat.title }}</h3>
-              <ul>
-                {% for menu_item in menu_cat.items %}
-                  <li><a class="small-label"  href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          {% endfor %}
-          </div>
-
-          <div class="col-md-2 order-1">
-          {% for menu_cat in site.menus.footer %}
-            {% if menu_cat.col == 4 %}
               <h3 class="headline-small">{{ menu_cat.title }}</h3>
               {% if menu_cat.items %}
               <ul>
@@ -96,10 +89,10 @@
         <div class="footer__bottom">
           <div class="row">
             <div class="col-md-6 order-3 order-md-1">
-              <ul class="legal-links">
-                <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+              <ul class="legal-links row">
+                <li class="col-12 small-label text-mute mt-5 mt-sm-0 order-last order-sm-first">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
                 {% for menu_item in site.menus.footerbottom %}
-                  <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+                  <li class="col-12"><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
                 {% endfor %}
               </ul>
             </div>
