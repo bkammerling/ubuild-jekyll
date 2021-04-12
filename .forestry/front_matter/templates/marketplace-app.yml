@@ -196,7 +196,6 @@ pages:
 - wunder_collections/_apps/fixico.md
 - wunder_collections/_apps/goodpatch.md
 - wunder_collections/_apps/hellotracks.md
-- wunder_collections/_apps/instant-phonecheck.md
 - wunder_collections/_apps/jumio.md
 - wunder_collections/_apps/locale.ai.md
 - wunder_collections/_apps/m-tools-fleet-servicing.md
@@ -217,6 +216,7 @@ pages:
 - wunder_collections/_apps/strivecloud.md
 - wunder_collections/_apps/surve-mobility.md
 - wunder_collections/_apps/talon.one.md
+- wunder_collections/_apps/truid.md
 - wunder_collections/_apps/ubiq.md
 - wunder_collections/_apps/wise-mobility.md
 - wunder_collections/_apps/wunder-iot-connector.md

@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
 category: Customer Engagement
-title: Instant Phone Check
-icon: "/uploads/2021/04/09/color_normal_logomark-4x.png"
+title: tru.ID
+icon: "/uploads/2021/04/12/color_normal_logomark-4x.png"
 excerpt: Improve user conversion with our easy to integrate silent authentication
   solution.
 featured: false
