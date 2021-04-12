@@ -42,7 +42,7 @@ screenshot_details:
     all customers, but also creates fast and innovative business processes and collaborations
     between the automotive industry and other sectors, such as vehicle registration,
     insurance or the long-term realization of smart cities.
-- screenshot: ''
+- screenshot: "/uploads/2021/03/26/mobility-circle-2x-marketing-myego.png"
   title: 'Data ownership:'
   screenshot_description: Car manufacturers and mobility providers collect vast amounts
     of different data, i.e. CO2 emissions, velocity, GPS etc. At myEGO, companies

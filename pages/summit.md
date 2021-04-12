@@ -451,7 +451,7 @@ page_sections:
           <div class="col-6 col-md-3 col-xl-2">
             <div class="partner-box p-2">
               <a target="_blank" href="https://ngin-mobility.com/">
-                <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/bus2bus/layout/images/bus_logo.svg">
+                <img class="" style="width: 110px; max-width:90%;" data-src="https://www.bus2bus.berlin/bus2bus/downloads-alle-sprachen/bus2bus-logo-rgb-300dpi.jpg">
               </a>
             </div>
           </div>
