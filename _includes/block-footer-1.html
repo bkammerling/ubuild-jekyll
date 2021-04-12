@@ -89,10 +89,10 @@
         <div class="footer__bottom">
           <div class="row">
             <div class="col-md-6 order-3 order-md-1">
-              <ul class="legal-links row">
-                <li class="col-12 small-label text-mute mt-5 mt-sm-0 order-last order-sm-first">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+              <ul class="legal-links">
+                <li class="small-label text-mute mt-5 mt-md-0 site-name">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
                 {% for menu_item in site.menus.footerbottom %}
-                  <li class="col-12"><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+                  <li class=""><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
                 {% endfor %}
               </ul>
             </div>

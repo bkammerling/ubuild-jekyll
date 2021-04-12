@@ -82,6 +82,16 @@
     margin-top: 0;
   }
   .legal-links {
+    & {
+      display: flex;
+      flex-direction: column;
+      .site-name {
+        order: 99;
+      }
+      li:not(.site-name){
+        order: 1;
+      }
+    }
     @include rwd(tablet-up) {
       a {
         margin-left: 32px;
@@ -89,8 +99,9 @@
       li {
         display: inline-block;
       }
-      ul {
+      & {
         margin: 0;
+        display: block;
       }
     }
   }
