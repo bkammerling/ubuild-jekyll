@@ -25,7 +25,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-3 order-1">
+          <div class="col-md-3 col-lg-2 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 2 %}
               <h3 class="headline-small">
@@ -44,7 +44,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-3 order-1">
+          <div class="col-md-4 col-lg-3 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 3 %}
               <h3 class="headline-small">{{ menu_cat.title }}</h3>
@@ -65,7 +65,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-4 order-0 order-md-2 mb-5 mb-md-0">
+          <div class="col-md-3 col-lg-4 order-0 order-md-2 mb-5 mb-md-0">
             <h3 class="headline-small">Join us at the Wunder Bar<br/><span class="text-mute text-muted">Subscribe to our newsletter today</span></h3>
             <div id="mc_embed_signup">
               <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
@@ -74,7 +74,7 @@
                   <input type="hidden" id="gclid_field" name="gclid_field" value="">
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6ee53e24cd30c208f1a610b1_0ba0a2cc79" tabindex="-1" value=""></div>
                   <div class="input-group-append">
-                    <a class="btn btn-primary d-flex" value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe"><img src="/uploads/global/white-arrow.svg" /></a>
+                    <a class="btn btn-outline-light d-flex" value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe"><img src="/uploads/global/white-arrow.svg" /></a>
                   </div>
                   {% comment %}<div class="invalid-feedback">
                     Please enter a valid email address
