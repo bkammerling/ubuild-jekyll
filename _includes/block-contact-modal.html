@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <div class="row">
+          <div class="row w-100">
             <div class="col-lg-8 col-md-7">
               <div class="form-group mb-3">
                 <div class="custom-control custom-checkbox form-check">
@@ -66,20 +66,20 @@
                 <div class="custom-control custom-checkbox form-check">
                   <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
                   <label for="contact_privacy" class="form-check-label custom-control-label">
-                    I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
+                    I agree to the <a href="/privacy" target="_blank" class="text-underline"><u>Privacy Policy</u></a> *
                   </label>
                 </div>
               </div>
               
             </div>
             <div class="col-md-5 col-lg-4 text-right">
-              <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
+              <button id="form-submit" class="btn btn-dark" onclick="formSubmit(event)">
                 Send Message
               </button>
             </div>
           </div>
 
-              <h5 class="form-feedback mt-5 hidden">Your message has been sent. We'll be in touch!</h5>
+              <p class="form-feedback mb-5 hidden w-100 text-center">Your message has been sent. We'll be in touch!</p>
 
         </div>
 

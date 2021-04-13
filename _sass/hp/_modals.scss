@@ -7,6 +7,16 @@
   .custom-radio label {
     font-size: 14px;
   }
+  label.form-check-label {
+    &:before, &:after {
+      top: 0.004rem;
+    }
+  }
+  input[type="checkbox"]:checked ~ .custom-control-label::before {
+    background-color: $mobility-black;
+    border-color: $mobility-black;
+  }
+
   .text-input, .textarea-input {
     min-height: 48px;
     border: none;
