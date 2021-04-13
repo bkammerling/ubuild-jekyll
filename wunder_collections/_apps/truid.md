@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
 category: Customer Engagement
-title: Instant Phone Check
-icon: "/uploads/2021/04/09/color_normal_logomark-4x.png"
+title: tru.ID
+icon: "/uploads/2021/04/12/color_normal_logomark-4x.png"
 excerpt: Improve user conversion with our easy to integrate silent authentication
   solution.
 featured: false
@@ -18,10 +18,10 @@ preview_gallery:
 - image-video: "/uploads/2021/03/26/one.png"
   title: Approved !
 description: "<p>Using SMS to verify mobile numbers creates a bad user experience
-  which leads to abandonment, and lost revenues.</p><p>tru.ID can verify a user's
-  mobile number instantly, without the need for SMS or PIN codes, using the SIM card
-  in their mobile phone. The result is a frictionless, secure authentication that
-  improves user conversion and is quick and easy to implement.</p>"
+  which leads to abandonment, and lost revenues.</p><p>Instant PhoneCheck by tru.ID
+  can verify a user's mobile number instantly, without the need for SMS or PIN codes,
+  using the SIM card in their mobile phone. The result is a frictionless, secure authentication
+  that improves user conversion and is quick and easy to implement.</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/01/21/blazingly_fast-paul-mcguire.png"
   title: Blazingly fast
