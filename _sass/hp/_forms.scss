@@ -34,13 +34,23 @@ $field-bgcolor: #F0F0F0;
   @include rwd(tablet-down) {
     box-shadow: none;
   }
+  @include rwd(desktop-up) {
+    .col-lg-6 {
+      &:first-of-type {
+        padding-right: 11px;
+      }
+      &:last-of-type {
+        padding-left: 11px;
+      }
+    }
+  }
 }
 
 form {
   position: relative;
   #form-submit {
     #section-contact & {
-      margin: 0 auto;
+      margin: 0 0 0 auto;
       display: block;
     }
   }
@@ -210,7 +220,7 @@ form {
   .bottom-border {
     max-width: 100%;
     height: 2px;
-    background-color: $sky-blue;
+    background-color: $mobility-black;
     opacity: 0.5;
     width: 0;
     transition: width 0.4s;
