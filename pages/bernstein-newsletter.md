@@ -14,7 +14,7 @@ page_sections:
 
 <div class="jumbotron d-flex flex-column justify-content-center" style="min-height: 40vh;">
 
-  <h2 class="text-center">The Wunder x Bernstein Policy Brief</h2>
+  <h2 class="text-center">The Wunder Mobility x Bernstein Policy Brief</h2>
 
   <div class="mx-auto clearfix" style="max-width:500px">
     <p class=" mb-4 mt-3">We’ve teamed up with the Bernstein Group to create a quarterly policy brief. Sign up to get all the latest policy and mobility updates delivered directly to your inbox. Articles are in English and German.</p>
@@ -28,7 +28,7 @@ page_sections:
           <ul>
             <li><input type="checkbox" value="256" name="group[65][256]" id="mce-group[65]-65-0"><label for="mce-group[65]-65-0">Wunder Bar Newsletter</label></li>
             <li><input type="checkbox" value="512" name="group[65][512]" id="mce-group[65]-65-1"><label for="mce-group[65]-65-1">Mobility Events</label></li>
-            <li><input checked type="checkbox" value="1024" name="group[65][1024]" id="mce-group[65]-65-2"><label for="mce-group[65]-65-2">Wunder x Bernstein Policy Brief</label></li>
+            <li><input checked type="checkbox" value="1024" name="group[65][1024]" id="mce-group[65]-65-2"><label for="mce-group[65]-65-2">Wunder Mobility x Bernstein Policy Brief</label></li>
           </ul>
       </div>
       	<div id="mce-responses" class="clear">
