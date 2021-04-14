@@ -8,8 +8,7 @@ tags:
 - city
 author: []
 cta_heading: Subscribe to Our Monthly Policy Brief
-cta_text: 'The monthly Berstein Group x Wunder Mobility policy brief is full of interesting
-  German and English articles relevant to city officials. '
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: An Interview with Harry Evers on the Future of Autonomous Driving in Germany
 publish_date: 2020-05-01 15:00:00 +0000

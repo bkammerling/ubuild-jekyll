@@ -8,9 +8,8 @@ tags:
 - privacy
 - MDS
 author: _people/pia-benthien.md
-cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
-  to policymakers, city officials, mobility enthusiasts and curious industry followers.
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: 'Data as a Service: Mobility Data Specification at a Glance'
 publish_date: 2020-03-16 12:00:00 +0000

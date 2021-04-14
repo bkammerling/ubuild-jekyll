@@ -9,9 +9,8 @@ tags:
 - Germany
 - EU
 author: []
-cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: 'Our monthly bilingual policy brief is full of articles relevant to policymakers,
-  city officials and mobility enthusiasts. '
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: 'Regulating Drones: How the EU and member states can have a hand in legislation'
 publish_date: 2020-06-02T11:00:00.000+00:00
