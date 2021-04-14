@@ -7,10 +7,9 @@ tags:
 - cities
 - public transportation
 author: []
-cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: The Wunder Mobility x Bernstein Group Policy Brief is full of articles relevant
-  to policymakers, city officials, mobility enthusiasts and curious industry followers.
-cta_link: pages/bernstein-newsletter.md
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
+cta_link: pages/-newsletter.md
 title: Why the Corona Crisis Is Making Mobility Changes Inevitable
 publish_date: 2020-04-21T14:00:00.000+00:00
 featured_image: "/uploads/2020/04/21/MobilityChanges_Blog_List.jpeg"

@@ -8,9 +8,8 @@ tags:
 - city
 - Hamburg
 author: []
-cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: 'We''ve teamed up with the Bernstein Group to create a monthly policy brief
-  with German and English articles. '
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: 'Es braucht Mut und den politischen Gesamtwillen: Ein Interview mit Harry Evers
   zur Zukunft autonomen Fahrens in Deutschland'

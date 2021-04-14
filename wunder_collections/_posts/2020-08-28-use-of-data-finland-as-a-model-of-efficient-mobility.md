@@ -8,9 +8,8 @@ tags:
 - city
 - mobility
 author: []
-cta_heading: Sign Up for our Monthly Policy Brief
-cta_text: Our monthly bilingual policy brief is full of articles relevant to policymakers,
-  city officials and mobility enthusiasts.
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: 'Use of data: Finland as a model of efficient mobility?'
 publish_date: 2020-08-28 04:00:00 +0000

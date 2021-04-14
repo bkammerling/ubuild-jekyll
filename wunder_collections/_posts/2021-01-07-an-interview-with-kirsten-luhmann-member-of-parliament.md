@@ -7,9 +7,8 @@ tags:
 - mobility
 - Germany
 author: []
-cta_heading: " Sign Up for our Policy Brief"
-cta_text: Our bilingual policy brief is full of articles relevant to policymakers,
-  city officials, and mobility enthusiasts.
+cta_heading: Subscribe to our quarterly Policy Brief
+cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Brief, a quarterly round-up featuring fascinating articles on mobility, tech, the role of cities and regulation.
 cta_link: pages/bernstein-newsletter.md
 title: An Interview with Kirsten Lühmann — Transport Policy Spokesperson of the SPD
   Parliamentary Group

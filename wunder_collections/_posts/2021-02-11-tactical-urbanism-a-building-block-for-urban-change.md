@@ -8,7 +8,7 @@ tags:
 - Germany
 - cities
 author: []
-cta_heading: Sign up for our Policy Brief
+cta_heading: Subscribe to our quarterly Policy Brief
 cta_text: Our bilingual Policy Brief is filled with articles relevant to policymakers,
   city officials, and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md

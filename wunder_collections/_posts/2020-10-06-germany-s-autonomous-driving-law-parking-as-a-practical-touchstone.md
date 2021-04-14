@@ -9,7 +9,7 @@ tags:
 - vehicles
 - parking
 author: []
-cta_heading: Sign Up for our Monthly Policy Brief
+cta_heading: Subscribe to our quarterly Policy Brief
 cta_text: Our monthly bilingual policy brief is full of articles relevant to policymakers,
   city officials and mobility enthusiasts.
 cta_link: pages/bernstein-newsletter.md
