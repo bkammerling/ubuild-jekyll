@@ -74,5 +74,6 @@ getting_started:
     and form new synergies.
 whitepaper_link: ''
 video_poster: ''
+published: false
 
 ---
