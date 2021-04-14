@@ -255,7 +255,13 @@ var form = {
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
       $('.select2-init').select2('destroy');
       form.initializeSelect2('.select2-init');
-      $("#form-submit").attr("disabled", false);
+      $("#form-submit").attr("disabled", true);
+      setTimeout(
+        function () {
+          $("#form-submit").attr("disabled", false)
+          console.log("reenable form")
+        }
+        , 5000)
       formHistory.push("sent");
       // Google tag 'formSubmitted' conversion event for "Google Ad Conversion" + analytics B2BLead event
       dataLayer.push({ 'event': 'formSubmitted', 'formSubject': data.subject, 'conversionLabel': label });
