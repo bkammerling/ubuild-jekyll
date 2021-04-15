@@ -259,7 +259,6 @@ var form = {
       setTimeout(
         function () {
           $("#form-submit").attr("disabled", false)
-          console.log("reenable form")
         }
         , 5000)
       formHistory.push("sent");
