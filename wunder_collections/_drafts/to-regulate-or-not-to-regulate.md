@@ -15,9 +15,9 @@ cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Bri
 cta_link: pages/bernstein-newsletter.md
 title: To Regulate Or Not To Regulate?
 publish_date: 2021-04-15 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/04/15/frame-8.png"
 excerpt: ''
-share_image: ''
+share_image: "/uploads/2021/04/15/frame-5.png"
 sticky: false
 hidden: false
 
