@@ -19,7 +19,7 @@ featured_image: "/uploads/2021/04/15/frame-8.png"
 excerpt: ''
 share_image: "/uploads/2021/04/15/frame-5.png"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 At the end of last year, our CEO Gunnar Froh spoke with [Laurin Hahn](https://www.linkedin.com/in/laurin-hahn-162680127/), founder of [Sono Motors](https://www.linkedin.com/company/sono-motors-gmbh/), on the [Wunder Mobility Podcast](https://linktr.ee/wundermobility). They discussed the development of a solar-powered electric car. What does it take, how does it work, what successes have there been and where do the difficulties lie? In this article, created in collaboration with the Bernstein Group, we dive deeper to look at what conclusions can be drawn from this form of innovation for political decision-makers.
