@@ -7,7 +7,7 @@ excerpt: Improve user conversion with our easy to integrate silent authenticatio
   solution.
 featured: false
 preview_gallery:
-- image-video: "/uploads/2021/01/21/tru-id-instant-phonecheck-demo-video-paul-mcguire.mp4"
+- image-video: "/uploads/2021/04/15/tru_id_demo.mp4"
   title: Video
 - image-video: "/uploads/2021/03/26/three.png"
   title: Your App
@@ -61,6 +61,5 @@ getting_started:
     process.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
