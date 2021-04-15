@@ -19,7 +19,7 @@ featured_image: "/uploads/2021/04/15/frame-8.png"
 excerpt: ''
 share_image: "/uploads/2021/04/15/frame-5.png"
 sticky: false
-hidden: true
+hidden: false
 
 ---
 _Read this article in_ [_German_](https://bernstein-group.com/de/)_._
