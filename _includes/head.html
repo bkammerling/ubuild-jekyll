@@ -1,101 +1,194 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <script type="text/javascript" src="/assets/js/components/cookieWunder.js"></script>
+    <script
+      type="text/javascript"
+      src="/assets/js/components/cookieWunder.js"
+    ></script>
     <!-- Anti-flicker snippet (recommended) for Google Optimize  -->
-    <style>.async-hide { opacity: 0 !important} </style>
-    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-    })(window,document.documentElement,'async-hide','dataLayer',4000,
-    {'GTM-THSMP8S':true});</script>
+    <style>
+      .async-hide {
+        opacity: 0 !important;
+      }
+    </style>
+    <script>
+      (function (a, s, y, n, c, h, i, d, e) {
+        s.className += " " + y;
+        h.start = 1 * new Date();
+        h.end = i = function () {
+          s.className = s.className.replace(RegExp(" ?" + y), "");
+        };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function () {
+          i();
+          h.end = null;
+        }, c);
+        h.timeout = c;
+      })(window, document.documentElement, "async-hide", "dataLayer", 4000, {
+        "GTM-THSMP8S": true,
+      });
+    </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-THSMP8S');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-THSMP8S");
+    </script>
     <!-- End Google Tag Manager -->
 
-    <meta name="google-site-verification" content="6d1osEueOiNyYiMom16JyGA8oaKUQ8VKq23L8zsKxO4" />
-    <meta name="ahrefs-site-verification" content="0c77d1bf4f54418620a59adeb8ddcea4560444d7354351252afd0ca4ff8d9dfb">
-    <meta name="zoom-domain-verification" content="ZOOM_verify_BneJjNonTYqSAak_ZnajMw">
-    <meta name="zoom-domain-verification" content="ZOOM_verify_y8omAKZQS26uPpg7OH1f0A">
+    <meta
+      name="google-site-verification"
+      content="6d1osEueOiNyYiMom16JyGA8oaKUQ8VKq23L8zsKxO4"
+    />
+    <meta
+      name="ahrefs-site-verification"
+      content="0c77d1bf4f54418620a59adeb8ddcea4560444d7354351252afd0ca4ff8d9dfb"
+    />
+    <meta
+      name="zoom-domain-verification"
+      content="ZOOM_verify_BneJjNonTYqSAak_ZnajMw"
+    />
+    <meta
+      name="zoom-domain-verification"
+      content="ZOOM_verify_y8omAKZQS26uPpg7OH1f0A"
+    />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <base href="{{ site.baseurl }}">
-    {% assign pageTitle = site.title %}
-      {% if page.title %} {% assign pageTitle = page.title %} {% endif %}
-      {% if page.layout == 'simple-article' %} {% assign pageTitle = page.title | append: " | Wunder Blog" %} {% endif %}
-      {% if page.layout == 'case-study' %} {% assign pageTitle = page.title | append: " | " | append: page.intro %} {% endif %}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <base href="{{ site.baseurl }}" />
+    {% assign pageTitle = site.title %} {% if page.title %} {% assign pageTitle
+    = page.title %} {% endif %} {% if page.layout == 'simple-article' %} {%
+    assign pageTitle = page.title | append: " | Wunder Blog" %} {% endif %} {%
+    if page.layout == 'case-study' %} {% assign pageTitle = page.title | append:
+    " | " | append: page.intro %} {% endif %}
     <title>{{ pageTitle }}</title>
     {% comment %}
-    <title>{% if page.title %}{{ page.title }}{% if page.layout == 'simple-article' %} | Wunder Blog{% endif %}{% else %}{{ site.title }}{% endif %}</title>
-    {% endcomment %}
-    {% if page.url contains 'blog' %}
-      {% for person in site.people %}
-        {% if person.path == page.author %}
-        <meta name="author" content="{{ person.name }}">
-        {% endif %}
-      {% endfor %}
+    <title>
+      {% if page.title %}{{ page.title }}{% if page.layout == 'simple-article'
+      %} | Wunder Blog{% endif %}{% else %}{{ site.title }}{% endif %}
+    </title>
+    {% endcomment %} {% if page.url contains 'blog' %} {% for person in
+    site.people %} {% if person.path == page.author %}
+    <meta name="author" content="{{ person.name }}" />
+    {% endif %} {% endfor %} {% else %}
+    <meta name="author" content="{{ site.author }}" />
+    {% endif %} {% if page.url contains 'blog' and page.layout ==
+    'simple-article' %}
+    <meta
+      name="description"
+      content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}"
+    />
     {% else %}
-      <meta name="author" content="{{ site.author }}">
-    {% endif %}
-    {% if page.url contains 'blog' and page.layout == 'simple-article' %}
-      <meta name="description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
+    <meta
+      name="description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    {% endif %} {% if page.ogurl.size > 1 %}
+    <meta property="og:url" content="{{ page.ogurl }}" />
     {% else %}
-      <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    {% endif %}
-    {% if page.ogurl.size > 1 %}
-      <meta property="og:url" content="{{ page.ogurl }}" />
+    <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
+    {% endif %} {% if page.url contains 'blog' and page.layout ==
+    'simple-article' %}
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:article:published_time"
+      content="{{ page.publish_date }}"
+    />
     {% else %}
-      <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
-    {% endif %}
-    {% if page.url contains 'blog' and page.layout == 'simple-article' %}
-      <meta property="og:type" content="article" />
-      <meta property="og:article:published_time" content="{{ page.publish_date }}" />
-    {% else %}
-      <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" />
     {% endif %}
     <meta property="og:title" content="{{ pageTitle }}" />
     {% if page.url contains 'blog' and page.layout == 'simple-article' %}
-      <meta property="og:description" content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}">
+    <meta
+      property="og:description"
+      content="{% if page.excerpt and page.excerpt != '' %}{{ page.excerpt }}{% else %}{{ content | strip_html | slice: 0, 150 }}{% endif %}"
+    />
     {% else %}
-      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    {% endif %}
-    <meta property="og:image" content="{% if page.share_image.size > 0 %}{{ site.url }}{{ page.share_image }}{% else %}{% if page.lang == "de" or page.language == "DE" %}{{ site.url }}/uploads/global/share-images/social_share_image_home_german.jpg{% else %}{{ site.url }}/uploads/global/share-images/social_share_image_home.jpg{% endif %}{% endif %}" />
-    <meta name="twitter:site" content="@wundermobility">
+    <meta
+      property="og:description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    {% endif %} <meta property="og:image" content="{% if page.share_image.size >
+    0 %}{{ site.url }}{{ page.share_image }}{% else %}{% if page.lang == "de" or
+    page.language == "DE" %}{{ site.url
+    }}/uploads/global/share-images/social_share_image_home_german.jpg{% else
+    %}{{ site.url }}/uploads/global/share-images/social_share_image_home.jpg{%
+    endif %}{% endif %}" />
+    <meta name="twitter:site" content="@wundermobility" />
     <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Organization",
-      "name" : "Wunder Mobility",
-      "url" : "https://www.wundermobility.com",
-      "sameAs" : [
-        "https://www.linkedin.com/company/wundermobility",
-        "https://www.instagram.com/wundermobility/",
-        "https://twitter.com/wundermobility",
-        "https://www.youtube.com/channel/UCqATrIqYLXpuB78MNVV4bBQ"
-      ]
-    }
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Wunder Mobility",
+        "url": "https://www.wundermobility.com",
+        "sameAs": [
+          "https://www.linkedin.com/company/wundermobility",
+          "https://www.instagram.com/wundermobility/",
+          "https://twitter.com/wundermobility",
+          "https://www.youtube.com/channel/UCqATrIqYLXpuB78MNVV4bBQ"
+        ]
+      }
     </script>
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" async>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" async>
-    {% if page.url contains 'session' or page.url contains 'summit' %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" async>{% endif %}
-    <link rel="stylesheet" href="/css/styles-hp.css" async>
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+      async
+    />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css" async />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css"
+      rel="stylesheet"
+      async
+    />
+    {% if page.url contains 'session' or page.url contains 'summit' %}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      async
+    />
+    {% endif %}
+    <link rel="stylesheet" href="/css/styles-hp.css" async />
 
-    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
 
-
+    <script
+      type="module"
+      src="https://cdn.skypack.dev/pin/lottie-web@v5.7.8-a416FcKXFvEacnSUSgsT/mode=imports/optimized/lottie-web.js"
+    ></script>
+    <script type="module" src="/assets/js/lottie.js"></script>
   </head>
 
-  <body class="{{ page.title | downcase | replace: ' ', '-' }} {{ page.lang-ref }} {% if page.collection %}{{ page.collection }}{% endif %} {% if page.dir %}{{ page.dir | replace: "/", "" }}{% endif %}" data-spy="scroll" data-target="#scroller-nav" data-offset="350">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THSMP8S"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <body class="{{ page.title | downcase | replace: ' ', '-' }} {{ page.lang-ref
+  }} {% if page.collection %}{{ page.collection }}{% endif %} {% if page.dir
+  %}{{ page.dir | replace: "/", "" }}{% endif %}" data-spy="scroll"
+  data-target="#scroller-nav" data-offset="350">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript
+    ><iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-THSMP8S"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+    ></iframe
+  ></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+</html>

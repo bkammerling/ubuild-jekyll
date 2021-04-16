@@ -12,6 +12,21 @@ window.addEventListener('load', function() {
   AOS.refresh();
 });
 
+var container = document.getElementById('formSuccess');
+
+var animation = lottie.loadAnimation({
+  container: container,
+  path: 'https://assets3.lottiefiles.com/packages/lf20_8zbohnyf.json',
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  name: "Success Animation",
+  rendererSettings: {
+    className: 'animation',
+  }
+});
+
+
 var centerOffset = function(element) {
   var topOffset = ($(window).height() / 2) - ($(element).height() / 1.3)
   $(element).css('top', topOffset);
@@ -251,6 +266,7 @@ var form = {
       }
     }).done(function (response) {
       contactForm.find(".form-feedback").removeClass('hidden');
+      animation.play();
       contactForm.trigger("reset");
       contactForm.find('.form-group').removeClass('focused').removeClass('valid');
       $('.select2-init').select2('destroy');

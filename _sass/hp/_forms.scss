@@ -286,3 +286,13 @@ form {
 .grecaptcha-badge {
   display: none !important;
 }
+
+.form-feedback .animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  rect {
+    fill: transparent;
+  }
+}
