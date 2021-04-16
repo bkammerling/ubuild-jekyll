@@ -275,6 +275,7 @@ var form = {
       setTimeout(
         function () {
           $("#form-submit").attr("disabled", false)
+          $(".form-feedback .animation").remove()
         }
         , 5000)
       formHistory.push("sent");
