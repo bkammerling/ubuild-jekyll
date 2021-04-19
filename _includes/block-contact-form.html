@@ -283,7 +283,14 @@
 
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             
-            <p class="form-feedback mt-md-4 mt-5 text-center d-relative hidden" id="formSuccess">Your message has been sent. We'll be in touch!</p>
+            <div class="success-container mt-md-4 mt-5 hidden">
+              <div class="d-flex align-items-center justify-content-center">
+                <div id="successAnimation" class="lottie"></div>
+              <p class="form-feedback text-center">
+                Your message has been sent. We'll be in touch!
+              </p>
+              </div>
+            </div>
           </form>
           {% comment %} 6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR {% endcomment %}
 
