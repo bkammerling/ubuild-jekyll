@@ -1,110 +1,227 @@
 <!-- Modal -->
-<div aria-hidden="true" aria-labelledby="Download file modal" class="modal fade wunderform-modal" id="downloadModal" role="dialog" tabindex="-1">
+<div
+  aria-hidden="true"
+  aria-labelledby="Download file modal"
+  class="modal fade wunderform-modal"
+  id="downloadModal"
+  role="dialog"
+  tabindex="-1"
+>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <button aria-label="Close" class="close text-blue" data-dismiss="modal" type="button">
+      <button
+        aria-label="Close"
+        class="close text-blue"
+        data-dismiss="modal"
+        type="button"
+      >
         <span aria-hidden="true">&times;</span>
       </button>
-      <form accept-charset="UTF-8" action="https://getform.io/f/f9c030a4-73bb-4db9-9278-c8d8313b8953" class="ajaxForm contact-form__form" enctype="multipart/form-data" id="modal-form" method="POST">
+      <form
+        accept-charset="UTF-8"
+        action="https://getform.io/f/f9c030a4-73bb-4db9-9278-c8d8313b8953"
+        class="ajaxForm contact-form__form"
+        enctype="multipart/form-data"
+        id="modal-form"
+        method="POST"
+      >
         <div class="modal-body">
           <div class="container">
-            <h4 class="modal-title text-center headline-medium mb-5" id="formModalLabel">{{ page.case_study_cta.heading }}</h4>
+            <h4
+              class="modal-title text-center headline-small mb-5"
+              id="formModalLabel"
+            >
+              {{ page.case_study_cta.heading }}
+            </h4>
             <div class="form-content">
               <div class="form-group mb-3">
-                <label class="form-label" for="modal_recipient-name">Full Name *</label>
-                <input class="" id="modal_recipient-name" name="name" required type="text"/>
+                <label class="form-label" for="modal_recipient-name"
+                  >Full Name *</label
+                >
+                <input
+                  class=""
+                  id="modal_recipient-name"
+                  name="name"
+                  required
+                  type="text"
+                />
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
                 <label class="form-label" for="modal_email">E-mail *</label>
-                <input class="" id="modal_email" name="email" required type="email"/>
+                <input
+                  class=""
+                  id="modal_email"
+                  name="email"
+                  required
+                  type="email"
+                />
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
                 <label class="form-label" for="modal_phone">
-                  {% if page.language == "EN" or page.lang == "en" %}
-                    Role
-                  {% elsif page.language == "DE" or page.lang == "de" %}
-                    Position
-                  {% endif %}
-                   *
+                  {% if page.language == "EN" or page.lang == "en" %} Role {%
+                  elsif page.language == "DE" or page.lang == "de" %} Position
+                  {% endif %} *
                 </label>
-                <input class="" id="modal_role" name="role" required type="text"/>
+                <input
+                  class=""
+                  id="modal_role"
+                  name="role"
+                  required
+                  type="text"
+                />
                 <div class="bottom-border"></div>
               </div>
               <div class="form-group mb-3">
                 <label class="form-label" for="modal_phone">
-                  {% if page.language == "EN" or page.lang == "en" %}
-                    Company
-                  {% elsif page.language == "DE" or page.lang == "de" %}
-                    Unternehmen
-                  {% endif %}
-                   *
+                  {% if page.language == "EN" or page.lang == "en" %} Company {%
+                  elsif page.language == "DE" or page.lang == "de" %}
+                  Unternehmen {% endif %} *
                 </label>
-                <input class="" id="modal_company" name="company" required type="text"/>
+                <input
+                  class=""
+                  id="modal_company"
+                  name="company"
+                  required
+                  type="text"
+                />
                 <div class="bottom-border"></div>
               </div>
-              <div class="form-group mb-3">
+              <hr class="mt-4 mb-5" />
+              <div class="form-group mb-4">
                 <div class="custom-control custom-checkbox form-check">
-                  <input type="hidden" id="modal_sales_default_value" name="deep_dive_with_sales?" value="no">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_sales" name="deep_dive_with_sales?" value="yes">
-                  <label for="modal_sales" class="form-check-label custom-control-label font-weight-bold">
-                    {% if page.language == "EN" or page.lang == "en" %}
-                    I am interested in having a conversation with a Wunder Mobility sales representative.
-                    {% elsif page.language == "DE" or page.lang == "de" %}
-                    Ich bin an einem Gespräch mit einem Wunder Mobility Vertriebsmitarbeiter interessiert.
-                    {% endif %} 
+                  <input
+                    type="hidden"
+                    id="modal_sales_default_value"
+                    name="deep_dive_with_sales?"
+                    value="no"
+                  />
+                  <input
+                    type="checkbox"
+                    class="custom-control-input form-check-input"
+                    id="modal_sales"
+                    name="deep_dive_with_sales?"
+                    value="yes"
+                  />
+                  <label
+                    for="modal_sales"
+                    class="form-check-label custom-control-label"
+                  >
+                    {% if page.language == "EN" or page.lang == "en" %} I am
+                    interested in having a conversation with a Wunder Mobility
+                    sales representative. {% elsif page.language == "DE" or
+                    page.lang == "de" %} Ich bin an einem Gespräch mit einem
+                    Wunder Mobility Vertriebsmitarbeiter interessiert. {% endif
+                    %}
                   </label>
                 </div>
               </div>
-              <div class="form-group mb-3">
+              <div class="form-group mb-4">
                 <div class="custom-control custom-checkbox form-check">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_marketing" name="add_to_newsletter" value="yes" required checked>
-                  <label for="modal_marketing" class="form-check-label custom-control-label font-weight-bold">
-                    {% if page.language == "EN" or page.lang == "en" %}
-                    I agree to receiving marketing materials from Wunder Mobility.
-                    {% elsif page.language == "DE" or page.lang == "de" %}
-                    Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
-                    {% endif %} 
+                  <input
+                    type="checkbox"
+                    class="custom-control-input form-check-input"
+                    id="modal_marketing"
+                    name="add_to_newsletter"
+                    value="yes"
+                    required
+                    checked
+                  />
+                  <label
+                    for="modal_marketing"
+                    class="form-check-label custom-control-label"
+                  >
+                    {% if page.language == "EN" or page.lang == "en" %} I agree
+                    to receiving marketing materials from Wunder Mobility. * {%
+                    elsif page.language == "DE" or page.lang == "de" %} Ich
+                    möchte Marketingmaterialen von Wunder Mobility erhalten. *
+                    {% endif %}
                   </label>
                 </div>
               </div>
-              <div class="form-group mb-3">
+              <div class="form-group mb-4">
                 <div class="custom-control custom-checkbox form-check">
-                  <input type="checkbox" class="custom-control-input form-check-input" id="modal_privacy" name="privacy_policy" value="agree" checked required>
-                  <label for="modal_privacy" class="form-check-label custom-control-label font-weight-bold">
-                    {% if page.language == "EN" or page.lang == "en" %}
-                    I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
-                    {% elsif page.language == "DE" or page.lang == "de" %}
-                    Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
-                    {% endif %} 
+                  <input
+                    type="checkbox"
+                    class="custom-control-input form-check-input"
+                    id="modal_privacy"
+                    name="privacy_policy"
+                    value="agree"
+                    checked
+                    required
+                  />
+                  <label
+                    for="modal_privacy"
+                    class="form-check-label custom-control-label"
+                  >
+                    {% if page.language == "EN" or page.lang == "en" %} I agree
+                    to the
+                    <a href="/privacy" target="_blank">Privacy Policy.</a> * {%
+                    elsif page.language == "DE" or page.lang == "de" %} Ich
+                    stimme den
+                    <a href="/privacy" target="_blank"
+                      >Datenschutzbestimmungen.</a
+                    >
+                    zu. * {% endif %}
                   </label>
                 </div>
               </div>
-              <input id="modal_captchaResponse" name="g-recaptcha-response" type="hidden"/>
-              <input id="modal_case_study_company" name="case_study_name" value="{{ page.title }}" type="hidden">
-              <input type="hidden" id="gclid_field" name="gclid_field" value="">
+              <input
+                id="modal_captchaResponse"
+                name="g-recaptcha-response"
+                type="hidden"
+              />
+              <input
+                id="modal_case_study_company"
+                name="case_study_name"
+                value="{{ page.title }}"
+                type="hidden"
+              />
+              <input
+                type="hidden"
+                id="gclid_field"
+                name="gclid_field"
+                value=""
+              />
               <div class="row my-3">
                 <div class="col-sm-12">
                   <p class="form-feedback hidden">
-                    {% if page.language == "EN" or page.lang == "en" %}
-                    Thank you for submitting your information!<br>
-                    You'll receive a link to the case study in your email shortly. If you did not receive the email, you can always contact us at <a href="mailto:marketing@wundermobility.com" target="_blank">marketing@wundermobility.com</a>
+                    {% if page.language == "EN" or page.lang == "en" %} Thank
+                    you for submitting your information!<br />
+                    You'll receive a link to the case study in your email
+                    shortly. If you did not receive the email, you can always
+                    contact us at
+                    <a
+                      href="mailto:marketing@wundermobility.com"
+                      target="_blank"
+                      >marketing@wundermobility.com</a
+                    >
                     {% elsif page.language == "DE" or page.lang == "de" %}
-                    Vielen Dank für Ihre Angaben!<br>
-                    Sie erhalten in Kürze einen Link zur Case Study per E-Mail. Wenn Sie die E-Mail nicht erhalten haben, dann kontaktieren Sie uns bitte über <a href="mailto:marketing@wundermobility.com" target="_blank">marketing@wundermobility.com</a>
+                    Vielen Dank für Ihre Angaben!<br />
+                    Sie erhalten in Kürze einen Link zur Case Study per E-Mail.
+                    Wenn Sie die E-Mail nicht erhalten haben, dann kontaktieren
+                    Sie uns bitte über
+                    <a
+                      href="mailto:marketing@wundermobility.com"
+                      target="_blank"
+                      >marketing@wundermobility.com</a
+                    >
                     {% endif %}
                   </p>
                 </div>
               </div>
               <div class="row mt-3">
                 <div class="col-sm-12 d-flex justify-content-center">
-                  <button class="btn btn-primary mx-auto" id="modal_form-submit" onclick="downloadModalSubmission(event)">
-                    {% if page.language == "EN" or page.lang == "en" %}
-                      View the {{ page.title }} case study
-                    {% elsif page.language == "DE" or page.lang == "de" %}
-                      Die {{ page.title }} Case Study ansehen
-                    {% endif %}
+                  <button
+                    class="btn btn-dark mx-auto"
+                    id="modal_form-submit"
+                    onclick="downloadModalSubmission(event)"
+                  >
+                    {% if page.language == "EN" or page.lang == "en" %} View the
+                    {{ page.title }} case study {% elsif page.language == "DE"
+                    or page.lang == "de" %} Die {{ page.title }} Case Study
+                    ansehen {% endif %}
                   </button>
                 </div>
               </div>
@@ -121,8 +238,7 @@
     submit: function (contactForm) {
       var postURL = contactForm.attr("action");
       var data = downloadForm.serializeObject(contactForm);
-      var capitalizedName = data
-        .name
+      var capitalizedName = data.name
         .toLowerCase()
         .replace(/\b[a-z]/g, function (txtVal) {
           return txtVal.toUpperCase();
@@ -131,19 +247,18 @@
       data.referrer = document.referrer;
       data.origin = document.title;
       //console.log(data);
-      $
-        .ajax({
-          url: postURL,
-          method: "POST",
-          data: data,
-          dataType: "json",
-          headers: {
-            "Accept": "application/json"
-          }
-        })
+      $.ajax({
+        url: postURL,
+        method: "POST",
+        data: data,
+        dataType: "json",
+        headers: {
+          Accept: "application/json",
+        },
+      })
         .done(function (response) {
           contactForm.find(".form-feedback").removeClass("hidden");
-          contactForm.modal('handleUpdate');
+          contactForm.modal("handleUpdate");
           contactForm.trigger("reset");
           contactForm
             .find(".form-group")
@@ -156,10 +271,11 @@
           contactForm
             .find(".form-feedback")
             .removeClass("hidden")
-            .text("There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com.");
+            .text(
+              "There was a problem sending your message, please try again or ping us an email at marketing@wundermobility.com."
+            );
           $("#modal_form-submit").attr("disabled", false);
         });
-
     },
 
     serializeObject: function ($form) {
@@ -168,7 +284,8 @@
       var indexed_array = {};
       $.map(unindexed_array, function (n, i) {
         if (indexed_array[n["name"]]) {
-          indexed_array[n["name"]] = indexed_array[n["name"]] + ", " + n["value"];
+          indexed_array[n["name"]] =
+            indexed_array[n["name"]] + ", " + n["value"];
         } else {
           indexed_array[n["name"]] = n["value"];
         }
@@ -178,10 +295,10 @@
     htmlValidityCheck: function ($form) {
       $form[0].checkValidity();
       return $form[0].reportValidity();
-    }
+    },
   };
 
-  function disableHiddenValue(){
+  function disableHiddenValue() {
     $("#modal_sales_default_value").prop("disabled", true);
   }
 
@@ -198,9 +315,13 @@
     if (downloadForm.htmlValidityCheck($form)) {
       console.log("form clean");
       grecaptcha.ready(function () {
-        grecaptcha.execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {action: "submission"}).then(function (token) {
-          recaptchaModalSubmit(token, $form);
-        });
+        grecaptcha
+          .execute("6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR", {
+            action: "submission",
+          })
+          .then(function (token) {
+            recaptchaModalSubmit(token, $form);
+          });
       });
     } else {
       console.log("form NOT clean");
