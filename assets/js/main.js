@@ -18,7 +18,7 @@ var animation = lottie.loadAnimation({
   container: container,
   path: "https://assets9.lottiefiles.com/private_files/lf30_3vNNXU.json",
   renderer: "svg",
-  loop: false,
+  loop: true,
   autoplay: false,
   name: "Success Animation",
   rendererSettings: {
