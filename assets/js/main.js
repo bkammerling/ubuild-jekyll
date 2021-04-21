@@ -16,7 +16,7 @@ var container = document.getElementById("successAnimation");
 
 var animation = lottie.loadAnimation({
   container: container,
-  path: "https://assets2.lottiefiles.com/packages/lf20_keqlhgrz.json",
+  path: "https://assets9.lottiefiles.com/private_files/lf30_3vNNXU.json",
   renderer: "svg",
   loop: false,
   autoplay: false,
