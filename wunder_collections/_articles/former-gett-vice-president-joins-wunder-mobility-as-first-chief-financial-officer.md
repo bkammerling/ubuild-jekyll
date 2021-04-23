@@ -4,7 +4,7 @@ title: 'Former Gett Vice President joins Wunder Mobility as first Chief Financia
   Officer '
 date: 2021-02-28 23:00:00 +0000
 lang: German
-image: ''
+image: "/uploads/2019/08/21/automobilwochelogo.png"
 featured: true
 
 ---

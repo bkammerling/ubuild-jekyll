@@ -3,7 +3,7 @@ link: https://www.handelsblatt.com/technik/thespark/digitalpreis-von-handelsblat
 title: These are the winners of The Spark
 date: 2020-11-11 23:00:00 +0000
 lang: German
-image: ''
+image: "/uploads/2019/08/21/handelsblattlogo2.png"
 featured: true
 
 ---
