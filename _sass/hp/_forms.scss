@@ -305,11 +305,14 @@ form {
 }
 
 .success-container {
-  #successAnimation {
+  .lottie {
     width: 80px;
     height: 80px;
     rect {
       fill: transparent;
     }
   }
+}
+#downloadModalSuccessAnimation {
+  width: 160px;
 }

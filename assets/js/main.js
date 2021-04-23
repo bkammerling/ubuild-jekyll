@@ -12,14 +12,44 @@ window.addEventListener("load", function () {
   AOS.refresh();
 });
 
-var container = document.getElementById("successAnimation");
+var mainFormSuccessContainer = document.getElementById("successAnimation");
+var contactModalSuccessContainer = document.getElementById(
+  "contactModalSuccessAnimation"
+);
+var downloadModalSuccessContainer = document.getElementById(
+  "downloadModalSuccessAnimation"
+);
 
-var animation = lottie.loadAnimation({
-  container: container,
+var mainFormSuccessAnimation = lottie.loadAnimation({
+  container: mainFormSuccessContainer,
   path: "https://assets9.lottiefiles.com/private_files/lf30_3vNNXU.json",
   renderer: "svg",
   loop: true,
-  autoplay: false,
+  autoplay: true,
+  name: "Success Animation",
+  rendererSettings: {
+    className: "animation",
+  },
+});
+
+var contactModalSuccessAnimation = lottie.loadAnimation({
+  container: contactModalSuccessContainer,
+  path: "https://assets9.lottiefiles.com/private_files/lf30_3vNNXU.json",
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  name: "Success Animation",
+  rendererSettings: {
+    className: "animation",
+  },
+});
+
+var downloadModalSuccessAnimation = lottie.loadAnimation({
+  container: downloadModalSuccessContainer,
+  path: "https://assets9.lottiefiles.com/private_files/lf30_3vNNXU.json",
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
   name: "Success Animation",
   rendererSettings: {
     className: "animation",
@@ -296,7 +326,6 @@ var form = {
     })
       .done(function (response) {
         contactForm.find(".success-container").removeClass("hidden");
-        animation.play();
         contactForm.trigger("reset");
         contactForm
           .find(".form-group")
