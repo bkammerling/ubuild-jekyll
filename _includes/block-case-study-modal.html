@@ -11,7 +11,7 @@
     <div class="modal-content">
       <button
         aria-label="Close"
-        class="close text-blue"
+        class="close text-black"
         data-dismiss="modal"
         type="button"
       >
@@ -186,29 +186,39 @@
               />
               <div class="row my-3">
                 <div class="col-sm-12">
-                  <p class="form-feedback hidden">
-                    {% if page.language == "EN" or page.lang == "en" %} Thank
-                    you for submitting your information!<br />
-                    You'll receive a link to the case study in your email
-                    shortly. If you did not receive the email, you can always
-                    contact us at
-                    <a
-                      href="mailto:marketing@wundermobility.com"
-                      target="_blank"
-                      >marketing@wundermobility.com</a
+                  <div class="success-container w-100 hidden">
+                    <div
+                      class="d-flex w-100 align-items-center justify-content-center"
                     >
-                    {% elsif page.language == "DE" or page.lang == "de" %}
-                    Vielen Dank für Ihre Angaben!<br />
-                    Sie erhalten in Kürze einen Link zur Case Study per E-Mail.
-                    Wenn Sie die E-Mail nicht erhalten haben, dann kontaktieren
-                    Sie uns bitte über
-                    <a
-                      href="mailto:marketing@wundermobility.com"
-                      target="_blank"
-                      >marketing@wundermobility.com</a
-                    >
-                    {% endif %}
-                  </p>
+                      <div
+                        id="downloadModalSuccessAnimation"
+                        class="lottie"
+                      ></div>
+                      <p class="form-feedback">
+                        {% if page.language == "EN" or page.lang == "en" %}
+                        Thank you for submitting your information!<br />
+                        You'll receive a link to the case study in your email
+                        shortly. If you did not receive the email, you can
+                        always contact us at
+                        <a
+                          href="mailto:marketing@wundermobility.com"
+                          target="_blank"
+                          >marketing@wundermobility.com</a
+                        >
+                        {% elsif page.language == "DE" or page.lang == "de" %}
+                        Vielen Dank für Ihre Angaben!<br />
+                        Sie erhalten in Kürze einen Link zur Case Study per
+                        E-Mail. Wenn Sie die E-Mail nicht erhalten haben, dann
+                        kontaktieren Sie uns bitte über
+                        <a
+                          href="mailto:marketing@wundermobility.com"
+                          target="_blank"
+                          >marketing@wundermobility.com</a
+                        >
+                        {% endif %}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="row mt-3">
@@ -257,7 +267,7 @@
         },
       })
         .done(function (response) {
-          contactForm.find(".form-feedback").removeClass("hidden");
+          contactForm.find(".success-container").removeClass("hidden");
           contactForm.modal("handleUpdate");
           contactForm.trigger("reset");
           contactForm
