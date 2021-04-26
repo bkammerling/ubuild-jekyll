@@ -1,14 +1,16 @@
 <!-- Modal -->
-<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="Contact form modal" aria-hidden="true">
+<div class="modal fade wunderform-modal" id="formModal" tabindex="-1" role="dialog" aria-labelledby="Contact form modal" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="formModalLabel">Kontaktieren Sie uns</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <div class="modal-content p-0 form-content">
+      <div class="modal-header bg-dark text-white">
+        <div class="container">
+          <h5 class="modal-title" id="formModalLabel">Kontaktieren Sie uns</h5>
+          <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
       </div>
-      <form id="modal-form"  class="ajaxForm" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
+      <form id="modal-form"  class="ajaxForm contactmodal" enctype="multipart/form-data" accept-charset="UTF-8" action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb" method="POST">
         <div class="modal-body">
           <input type="hidden" name="subject" id="subject-field" value="General enquiry">
           <input type="hidden" name="country" id="user-country" value="">
@@ -27,55 +29,61 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">Name *</label>
-                  <input type="text" class="form-control" id="recipient-name" name="name" required placeholder="Your full name"/>
+                  <label for="recipient-name" class="form-label">Name *</label>
+                  <input type="text" class="form-control text-input" id="recipient-name" name="name" required placeholder="Your full name"/>
                 </div>
                 <div class="form-group">
-                  <label for="email" class="col-form-label">Email *</label>
-                  <input type="email" class="form-control" id="email" name="email" required placeholder="your-email@example.com"/>
+                  <label for="email" class="form-label">Email *</label>
+                  <input type="email" class="form-control text-input" id="email" name="email" required placeholder="your-email@example.com"/>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <label for="phone" class="col-form-label">Telefonnummer</label>
-                  <input type="text" class="form-control" id="phone" name="phone" placeholder="+49 173 1234 567"/>
+                  <label for="phone" class="form-label">Telefonnummer</label>
+                  <input type="text" class="form-control text-input" id="phone" name="phone" placeholder="+49 173 1234 567"/>
                 </div>
                 <div class="form-group">
-                  <label for="recipient-company" class="col-form-label">Unternehmen *</label>
-                  <input type="text" class="form-control" id="recipient-company" name="company" placeholder="Your company" required />
+                  <label for="recipient-company" class="form-label">Unternehmen *</label>
+                  <input type="text" class="form-control text-input" id="recipient-company" name="company" placeholder="Your company" required />
                 </div>
               </div>
             </div>
             <hr>
             <div class="form-group">
-              <label for="message-text" class="col-form-label">Nachricht</label>
-              <textarea rows="3" class="form-control" id="message-text" name="message"></textarea>
-            </div>
-            <div class="form-group mb-3">
-              <div class="custom-control custom-checkbox form-check">
-                <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
-                <label for="contactForm" class="form-check-label custom-control-label font-weight-bold">
-                  Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
-                </label>
-              </div>
-              <div class="custom-control custom-checkbox form-check">
-                <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
-                <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
-                  Ich stimme den <a href="/privacy" target="_blank" class="text-blue">Datenschutzbestimmungen</a> zu.
-                </label>
-              </div>
+              <label for="message-text" class="form-label">Nachricht</label>
+              <textarea rows="3" class="form-control textarea-input" id="message-text" name="message"></textarea>
             </div>
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
           </div>
         </div>
         <div class="modal-footer">
-          <div class="col-sm-5">
-            <h5 class="form-feedback hidden">Danke, Ihre Nachricht wurde gesendet.</h5>
+          <div class="row w-100">
+            <div class="col-lg-8 col-md-7">
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                  <label for="contactForm" class="form-check-label custom-control-label">
+                    Ich möchte Marketingmaterialen von Wunder Mobility erhalten.
+                  </label>
+                </div>
+                <div class="custom-control custom-checkbox form-check">
+                  <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
+                  <label for="contact_privacy" class="form-check-label custom-control-label">
+                    Ich stimme den <a href="/privacy" target="_blank"><u>Datenschutzbestimmungen</a></u> zu. *
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-4 text-right">
+              <button id="form-submit" class="btn btn-dark" onclick="formSubmit(event)">
+                Formular senden
+              </button>
+            </div>
           </div>
-          <div class="col-sm-7 text-right">
-            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-              Formular senden
-            </button>
+          <div class="success-container w-100 row hidden">
+            <div class="d-flex w-100 align-items-center justify-content-center">
+              <div id="downloadModalSuccessAnimation" class="lottie"></div>
+              <p class="form-feedback text-center">Danke, Ihre Nachricht wurde gesendet.</p>
           </div>
         </div>
 

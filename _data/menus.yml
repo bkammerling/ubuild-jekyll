@@ -238,9 +238,85 @@ footerbottom:
   weight: 2
 
 footer:
+- identifier: solutions
+  title: Products
+  col: 1
+  weight: 4
+  items:
+  - identifier: fleet
+    url: "/fleet"
+    weight: 1
+    title: Wunder Fleet
+    parent: solutions
+  - url: "/rent"
+    weight: 2
+    parent: solutions
+    identifier: rent
+    title: Wunder Rent
+  - url: "/vehicles"
+    weight: 3
+    parent: solutions
+    identifier: hardware
+    title: Wunder Vehicles
+  - identifier: shuttle
+    url: "/ride"
+    weight: 4
+    title: Wunder Ride
+    parent: solutions
+  - identifier: carpool
+    url: "/carpool"
+    weight: 5
+    title: Wunder Carpool
+    parent: solutions
+  - url: "/marketplace"
+    weight: 6
+    parent: solutions
+    identifier: marketplace
+    title: Wunder Marketplace
+    parent: solutions
+  - identifier: city
+    url: "/city"
+    weight: 7
+    title: Wunder City
+    parent: solutions
+- identifier: company
+  title: Company
+  col: 2
+  weight: 1
+  items:
+  - url: "/our-story"
+    weight: 1
+    identifier: our-story
+    title: Our Story
+    parent: company
+  - identifier: blog
+    url: "/blog"
+    weight: 2
+    title: Blog
+    parent: company
+  - identifier: careers
+    url: "/careers"
+    weight: 3
+    title: Careers
+  - identifier: press
+    url: "/press"
+    weight: 4
+    title: Press
+    parent: company
+  - identifier: footerevents
+    title: Wunder Mobility Summit
+    weight: 5
+    url: "/summit"
+    parent: company
+- identifier: clients
+  col: 2
+  weight: 2
+  url: "/clients"
+  title: Clients
 - identifier: offices
   title: Offices
-  col: 4
+  col: 3
+  weight: 1
   items:
   - identifier: hamburg
     title: Hamburg HQ
@@ -263,94 +339,4 @@ footer:
     content: "1031 S Broadway<br> Los Angeles, CA 90015<br> United States"
     parent: offices
     newtab: 1
-  weight: 1
-- identifier: company
-  title: Company
-  col: 2
-  weight: 2
-  items:
-  - identifier: blog
-    url: "/blog"
-    weight: 3
-    title: Blog
-    parent: company
-  - url: "/our-story"
-    weight: 2
-    identifier: our-story
-    title: Our Story
-    parent: company
-  - identifier: press
-    url: "/press"
-    weight: 1
-    title: Press
-    parent: company
-- identifier: footercareers
-  title: Careers
-  col: 3
-  weight: 3
-  items:
-  - identifier: culture
-    url: "/careers#culture"
-    weight: 1
-    title: Culture
-    parent: footercareers
-  - identifier: lifeatwunder
-    url: "/careers#life"
-    weight: 2
-    title: Life At Wunder
-    parent: footercareers
-  - identifier: jobs
-    url: "/careers#jobs"
-    weight: 3
-    title: Jobs
-    parent: footercareers
-- identifier: footerevents
-  title: Events
-  col: 2
-  weight: 1
-  items:
-  - identifier: summit
-    url: "/summit/"
-    weight: 1
-    title: Wunder Summit
-    parent: footerevents
-- identifier: solutions
-  title: Products
-  col: 1
-  weight: 4
-  items:
-  - identifier: fleet
-    url: "/fleet"
-    weight: 1
-    title: Fleet
-    parent: solutions
-  - url: "/rent"
-    weight: 2
-    parent: solutions
-    identifier: rent
-    title: Rent
-  - identifier: shuttle
-    url: "/ride"
-    weight: 3
-    title: Ride
-    parent: solutions
-  - identifier: carpool
-    url: "/carpool"
-    weight: 4
-    title: Carpool
-    parent: solutions
-  - identifier: city
-    url: "/city"
-    weight: 6
-    title: City
-    parent: solutions
-  - url: "/vehicles"
-    weight: 7
-    parent: solutions
-    identifier: hardware
-    title: Vehicles
-  - url: "/marketplace"
-    weight: 8
-    parent: solutions
-    identifier: marketplace
-    title: Marketplace
+  

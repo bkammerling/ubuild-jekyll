@@ -1,0 +1,54 @@
+.mktform, .contactmodal {
+  label {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: $mobility-black;
+  }
+  .custom-radio label {
+    font-size: 14px;
+  }
+  label.form-check-label {
+    &:before, &:after {
+      top: 0.004rem;
+    }
+  }
+  input[type="checkbox"]:checked ~ .custom-control-label::before {
+    background-color: $mobility-black;
+    border-color: $mobility-black;
+  }
+
+  .text-input, .textarea-input {
+    min-height: 48px;
+    border: none;
+    background: $black96;
+    color: $mobility-black;
+    width: 100%;
+    padding-left: 12px;
+    font-size: 14px;
+    &:focus {
+      background-color: white;
+      @supports (-ms-accelerator:true) {
+        /* IE Edge 12+ CSS styles go here */
+        outline: 2px solid #2161C5;
+      }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        outline: 2px solid #2161C5;
+      }
+    }
+  }
+  .textarea-input {
+    padding-top: 10px;
+  }
+  ::-webkit-input-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder, ::placeholder {
+    font-size: 14px;
+    color: #808080;
+  }
+
+  .conditional-hide {
+    display: none;
+  }
+  &.sending {
+    opacity: .6;
+  }
+}

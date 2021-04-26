@@ -94,7 +94,7 @@
             {% endunless %}
 
 
-            <h3 class="headline-small text-center mt-5 mb-3">Tell us a bit about your project</h3>
+            <h3 class="headline-small text-center mt-5 mb-4">Tell us a bit about your project</h3>
 
             {% if page.lang-ref == 'fleet' %}
             <div class="form-group shuttle fleet">
@@ -250,33 +250,47 @@
               </div>
             </div>
             {% endif %}
-
-
-            <div class="form-group">
+            <div class="form-group mb-4">
               <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
               <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
               <div class="bottom-border"></div>
             </div>
-            <div class="form-group mb-3">
-              <div class="custom-control custom-checkbox form-check">
-                <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
-                <label for="contactForm" class="form-check-label custom-control-label font-weight-bold">
-                  I agree to receiving marketing materials from Wunder Mobility.
-                </label>
+            <hr class="mb-5">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="form-group mb-lg-3 mb-5">
+                  <div class="custom-control custom-checkbox form-check mb-4">
+                    <input type="checkbox" class="custom-control-input form-check-input" id="contactForm" name="add_to_newsletter" value="yes">
+                    <label for="contactForm" class="form-check-label custom-control-label">
+                      I agree to receiving marketing materials from Wunder Mobility.
+                    </label>
+                  </div>
+                  <div class="custom-control custom-checkbox form-check">
+                    <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
+                    <label for="contact_privacy" class="form-check-label custom-control-label">
+                      I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>*
+                    </label>
+                  </div>
+                </div>
               </div>
-              <div class="custom-control custom-checkbox form-check">
-                <input type="checkbox" class="custom-control-input form-check-input" id="contact_privacy" name="privacy_policy" value="agree" checked required>
-                <label for="contact_privacy" class="form-check-label custom-control-label font-weight-bold">
-                  I agree to the <a href="/privacy" target="_blank" class="text-blue">Privacy Policy</a>
-                </label>
+              <div class="col-lg-4">
+                <button id="form-submit" class="btn btn-dark" onclick="formSubmit(event)">
+                  Send message
+                </button>
               </div>
             </div>
+            
 
             <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
-            <button id="form-submit" class="btn btn-primary" onclick="formSubmit(event)">
-              Send message
-            </button>
-            <p class="form-feedback hidden">Your message has been sent. We'll be in touch!</p>
+            
+            <div class="success-container mt-md-4 mt-5 hidden">
+              <div class="d-flex align-items-center justify-content-center">
+                <div id="successAnimation" class="lottie"></div>
+                <p class="form-feedback text-center">
+                  Your message has been sent. We'll be in touch!
+                </p>
+              </div>
+            </div>
           </form>
           {% comment %} 6LeHSagUAAAAACPB5JfFS9ihSEbW-PJHqbBjlDgR {% endcomment %}
 

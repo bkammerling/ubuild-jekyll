@@ -25,10 +25,16 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2 order-1">
+          <div class="col-md-3 col-lg-2 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 2 %}
-              <h3 class="headline-small">{{ menu_cat.title }}</h3>
+              <h3 class="headline-small">
+                {% if menu_cat.url %}
+                <a href="{{ menu_cat.url }}">{{ menu_cat.title }}</a>
+                {% else %}
+                {{ menu_cat.title }}
+                {% endif %}
+                </h3>
               <ul>
                 {% for menu_item in menu_cat.items %}
                   <li><a class="small-label"  href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
@@ -38,22 +44,9 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-2 order-1">
+          <div class="col-md-4 col-lg-3 order-1">
           {% for menu_cat in site.menus.footer %}
             {% if menu_cat.col == 3 %}
-              <h3 class="headline-small">{{ menu_cat.title }}</h3>
-              <ul>
-                {% for menu_item in menu_cat.items %}
-                  <li><a class="small-label"  href="{{ menu_item.url }}" {% if menu_item.newtab == 1 %}target="_blank" {% endif %}>{{ menu_item.title }}</a></li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          {% endfor %}
-          </div>
-
-          <div class="col-md-2 order-1">
-          {% for menu_cat in site.menus.footer %}
-            {% if menu_cat.col == 4 %}
               <h3 class="headline-small">{{ menu_cat.title }}</h3>
               {% if menu_cat.items %}
               <ul>
@@ -72,7 +65,7 @@
           {% endfor %}
           </div>
 
-          <div class="col-md-4 order-0 order-md-2 mb-5 mb-md-0">
+          <div class="col-md-3 col-lg-4 order-0 order-md-2 mb-5 mb-md-0">
             <h3 class="headline-small">Join us at the Wunder Bar<br/><span class="text-mute text-muted">Subscribe to our newsletter today</span></h3>
             <div id="mc_embed_signup">
               <form action="https://wunder.us3.list-manage.com/subscribe/post?u=c6ee53e24cd30c208f1a610b1&amp;id=0ba0a2cc79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
@@ -81,7 +74,7 @@
                   <input type="hidden" id="gclid_field" name="gclid_field" value="">
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6ee53e24cd30c208f1a610b1_0ba0a2cc79" tabindex="-1" value=""></div>
                   <div class="input-group-append">
-                    <a class="btn btn-primary d-flex" value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe"><img src="/uploads/global/white-arrow.svg" /></a>
+                    <a class="btn btn-outline-light d-flex" value="Subscribe" onclick="document.getElementById('mc-embedded-subscribe-form').submit()" name="subscribe" id="mc-embedded-subscribe"><img src="/uploads/global/white-arrow.svg" /></a>
                   </div>
                   {% comment %}<div class="invalid-feedback">
                     Please enter a valid email address
@@ -97,9 +90,9 @@
           <div class="row">
             <div class="col-md-6 order-3 order-md-1">
               <ul class="legal-links">
-                <li class="small-label text-mute">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
+                <li class="small-label text-mute mt-5 mt-md-0 site-name">© {{ site.title }} {{ site.time | date: '%Y' }}</li>
                 {% for menu_item in site.menus.footerbottom %}
-                  <li><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
+                  <li class=""><a class="small-label text-mute" href="{{ menu_item.url }}">{{ menu_item.title }}</a></li>
                 {% endfor %}
               </ul>
             </div>
