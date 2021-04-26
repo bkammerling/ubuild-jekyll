@@ -13,10 +13,10 @@ cta_text: Dann legen Sie los mit Wunder Fleet! Wunder Fleet ist eine flexible un
   kann Wunder Fleet Sie in kürzester Zeit auf die Straße bringen.
 cta_link: pages/fleet.md
 title: Warum Versorgungsunternehmen in den Shared-Mobility-Markt einsteigen sollten
-publish_date: 2021-03-25 00:00:00 +0000
-featured_image: "/uploads/2021/04/19/max-small.jpg"
+publish_date: 2021-03-25T00:00:00.000+00:00
+featured_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 excerpt: ''
-share_image: "/uploads/2021/04/19/max-small.jpg"
+share_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 sticky: false
 hidden: true
 
