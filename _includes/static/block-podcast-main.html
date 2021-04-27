@@ -1,38 +1,47 @@
-<section class="jumbo-intro block block-text-vertical" id="podcast-intro">
-  <div class="container px-lg-5">
-    <div class="row">
+<section class="block block-text-vertical" id="podcast-intro">
+  <div class="background-container"></div>
+  <div
+    class="container pt-lg-5 px-lg-5 d-flex justify-content-between flex-column h-100"
+  >
+    <div class="row mb-5">
       <div class="col-md-10 offset-md-1">
-        <div class="text-left px-lg-5 mx-xl-5">
-          <h1 class="headline-large">
+        <div class="text-left">
+          <h1 class="headline-large text-white">
             The Wunder
             <br />
             Mobility Podcast
           </h1>
-          <a href="" class="btn btn-light">Listen now</a>
+          <a href="" class="btn btn-light mt-md-0 mt-3">Listen now</a>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-10">
-        <span>Episode 1 | Ozgur Tohumcu, CEO, Oxbotica</span>
-        <audio id="player" controls>
-          <source src="" type="" />
-        </audio>
+    <div class="row d-none d-md-block">
+      <div class="col-md-10 offset-md-1">
+        <div class="row">
+          <div class="col-md-4 text-white">
+            <span>Episode 1 | Ozgur Tohumcu, CEO, Oxbotica</span>
+          </div>
+          <div class="col-md-8">
+            <audio id="player" controls>
+              <source src="" type="" />
+            </audio>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section id="podcast-about-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 offset-md-1">
+<section id="podcast-about-section" class="my-5 py-5">
+  <div class="container py-5">
+    <div class="row mb-5 py-5">
+      <div class="col-md-4 offset-md-1">
         <img
           data-src="/uploads/global/podcast/gunnar_sam.png"
           data-srcset="/uploads/global/podcast/gunnar_sam@2x.png 2x"
         />
       </div>
-      <div class="col-md-5">
-        <h3>The Wunder Mobility Podcast</h3>
+      <div class="col-md-4 offset-md-1">
+        <h3 class="pt-3">The Wunder Mobility Podcast</h3>
         <h2>Uncover the most interesting topics and minds within mobility</h2>
         <p>
           Join our hosts, Gunnar Froh and Samuel Baker, every two weeks as they
@@ -41,8 +50,65 @@
         </p>
       </div>
     </div>
+    <div class="row border-bottom"></div>
+    <div class="row my-5 py-5">
+      <div class="col-md-4 offset-md-1">
+        <h2 class="mb-5">Listen wherever your get your podcasts</h2>
+        <a href="" class="btn btn-dark">Follow Along</a>
+      </div>
+      <div class="col-md-6 offset-md-1">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/spotify-sq.png"
+                data-srcset="/uploads/global/podcast/logos/spotify@2x.png 2x"
+                alt=""
+            /></a>
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/google-podcast-sq.png"
+                data-srcset="/uploads/global/podcast/logos/google-podcast@2x.png 2x"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/apple-podcast-sq.png"
+                data-srcset="/uploads/global/podcast/logos/apple-podcast@2x.png 2x"
+                alt=""
+            /></a>
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/podigee-sq.png"
+                data-srcset="/uploads/global/podcast/logos/podigee@2x.png 2x"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/amazon-music-sq.png"
+                data-srcset="/uploads/global/podcast/logos/amazon-music@2x.png 2x"
+                alt=""
+            /></a>
+            <a href="" target="_blank"
+              ><img
+                data-src="/uploads/global/podcast/logos/deezer-sq.png"
+                data-srcset="/uploads/global/podcast/logos/deezer@2x.png 2x"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row border-bottom"></div>
+    <div class="row my-5 py-5">
+      <h2 class="headline-large w-100 text-center">Recent episodes</h2>
+      <a href="" class="btn btn-outline-dark d-block mx-auto"
+        >Discover More Episodes</a
+      >
+    </div>
   </div>
 </section>
-
-<!-- Modal -->
-{% include block-contact-modal.html %}
