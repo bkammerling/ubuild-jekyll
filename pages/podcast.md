@@ -18,13 +18,6 @@ page_sections:
       button_text: Contact us
       enabled: true
     sub_logo: ""
-  - template: body-heading
-    block: text-vertical
-    text_blocks:
-      - content: The Wunder Mobility Podcast
-        text_style: headline-large
-      - content: <a href="#" class="d-inline-block m-auto btn btn-light">Subscribe Now</a>
-        text_style: body
   - block: podcast-main
     subdirectory: static
     template: static-file
