@@ -14,12 +14,12 @@ cta_text: The marketplace is the first of its kind, enabling you to mix-and-matc
 cta_link: pages/marketplace/marketplace.md
 title: How to Maximize Your Fleet and Boost Revenue with Hyperlocal Data
 publish_date: 2021-04-29 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/04/29/markus-winkler-irrbsnd5euc-unsplash.jpg"
 excerpt: Understanding your demand and getting the most out of your fleet are key
   to unlocking successful operations.
-share_image: ''
+share_image: "/uploads/2021/04/29/markus-winkler-irrbsnd5euc-unsplash.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 #### Understanding your demand and getting the most out of your fleet are key to unlocking successful operations.
