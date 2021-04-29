@@ -10,10 +10,10 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/02/09/sentiance-explanation-video-sentiance-awards.mp4"
   title: Video
-- image-video: "/uploads/2021/02/09/customer-timeline-sentiance-awards.png"
-  title: Customer Timeline
 - image-video: "/uploads/2021/02/09/segments-sentiance-awards.png"
   title: Customer Segments Overview
+- image-video: "/uploads/2021/02/09/transport-mode-detection-sentiance-awards.png"
+  title: Customer Timeline
 - image-video: "/uploads/2021/02/09/driving-behavior-sentiance-awards.png"
   title: Driving Behavior Insights
 description: "<p>Sentiance enables MaaS companies to create innovative, human-centric
