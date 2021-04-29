@@ -25,7 +25,7 @@ description: "<p>Sentiance enables MaaS companies to create innovative, human-ce
   to understand their customers better with contextual insights, and therefore drive
   hyper-personalized customer engagement at scale.</p>"
 screenshot_details:
-- screenshot: "/uploads/2021/02/09/customer-timeline-sentiance-awards.png"
+- screenshot: "/uploads/2021/02/09/segments-sentiance-awards.png"
   title: We enable you to create hyper-personalized customer engagement through privacy-aware
     and contextual customer insights.
   screenshot_description: We turn motion data into contextual mobility insights and
