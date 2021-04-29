@@ -63,6 +63,5 @@ getting_started:
   column_description: Technical assessment and deep technical dive.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
