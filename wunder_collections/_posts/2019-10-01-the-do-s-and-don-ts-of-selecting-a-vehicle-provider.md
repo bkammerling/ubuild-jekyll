@@ -2,23 +2,24 @@
 layout: simple-article
 category: Insights
 tags:
-- vehicle sharing
-- launching a business
-author: _people/Jan_kluetsch_profile.md
+  - vehicle sharing
+  - launching a business
 cta_heading: Find Out More About Wunder Fleet
-cta_text: Wunder Fleet is an all-in-one vehicle sharing platform that companies all
+cta_text:
+  Wunder Fleet is an all-in-one vehicle sharing platform that companies all
   across the world rely on to power their fleet.
 cta_link: pages/fleet.md
 title: The Do’s and Don’ts of Selecting a Vehicle Provider
 publish_date: 2019-09-27T00:00:00.000+00:00
 featured_image: "/uploads/2021/04/30/sourcing.jpg"
-excerpt: Choosing the right vehicles for your micromobility business is no small task
+excerpt:
+  Choosing the right vehicles for your micromobility business is no small task
   and the process can be a bit overwhelming to say the least. That’s why we’ve compiled
   a handy list of do’s and don’ts to keep in mind when selecting a vehicle provider
   for your micromobility business.
 share_image: "/uploads/2021/04/30/sourcing-1.jpg"
-
 ---
+
 Choosing the right vehicles for your micromobility business is no small task. After settling on which vehicle type – bike, scooter, moped – makes most sense for your business model, it’s on to researching manufacturers and considering the countless models they have to offer.
 
 This can be a bit overwhelming, to say the least. Though it might be tempting to choose the cheapest or coolest-looking vehicles you can find, it pays off to take your time and really consider your business needs and how the right vehicle type can support you.
