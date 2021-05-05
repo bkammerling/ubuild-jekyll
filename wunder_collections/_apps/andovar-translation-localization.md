@@ -52,7 +52,8 @@ app_details:
 - detail_title: ''
   detail_content: <a href="https://andovar.com" title="Privacy Policy →">Privacy Policy
     →</a>
-access_needed: []
+access_needed:
+- Service provider with little to no data exchanged with your API
 getting_started:
 - column_title: Reach out & Talk to Us
   column_description: |-
