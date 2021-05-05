@@ -25,4 +25,19 @@ page_sections:
     block: footer-1
     content: ""
 share_image: ""
+hero_episode_number: Episode 1
+hero_episode_name: Ozgur Tohumcu, CEO, Oxbotica
+featured_episodes:
+  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
+    url: ""
+    number: 1
+    title: Ozgur Tohumcu
+  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
+    url: ""
+    number: 2
+    title: Ozgur Tohumcu
+  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
+    url: ""
+    number: 3
+    title: Ozgur Tohumcu
 ---
