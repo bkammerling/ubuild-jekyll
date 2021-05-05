@@ -10,10 +10,10 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/02/09/sentiance-explanation-video-sentiance-awards.mp4"
   title: Video
-- image-video: "/uploads/2021/02/09/customer-timeline-sentiance-awards.png"
-  title: Customer Timeline
 - image-video: "/uploads/2021/02/09/segments-sentiance-awards.png"
   title: Customer Segments Overview
+- image-video: "/uploads/2021/02/09/transport-mode-detection-sentiance-awards.png"
+  title: Customer Timeline
 - image-video: "/uploads/2021/02/09/driving-behavior-sentiance-awards.png"
   title: Driving Behavior Insights
 description: "<p>Sentiance enables MaaS companies to create innovative, human-centric
@@ -25,7 +25,7 @@ description: "<p>Sentiance enables MaaS companies to create innovative, human-ce
   to understand their customers better with contextual insights, and therefore drive
   hyper-personalized customer engagement at scale.</p>"
 screenshot_details:
-- screenshot: "/uploads/2021/02/09/customer-timeline-sentiance-awards.png"
+- screenshot: "/uploads/2021/02/09/segments-sentiance-awards.png"
   title: We enable you to create hyper-personalized customer engagement through privacy-aware
     and contextual customer insights.
   screenshot_description: We turn motion data into contextual mobility insights and
@@ -42,6 +42,8 @@ screenshot_details:
   screenshot_description: ''
 app_details:
 - detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
   detail_content: <a href="https://www.sentiance.com/" title="Developer Website →">Developer
     Website →</a>
 - detail_title: ''
@@ -63,6 +65,5 @@ getting_started:
   column_description: Technical assessment and deep technical dive.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
