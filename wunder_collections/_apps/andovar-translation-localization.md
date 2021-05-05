@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Customer Engagement
-title: Andovar
+title: Andovar Translation & Localization
 icon: "/uploads/2021/04/29/andovar_900x600_cd-south-bay.png"
 excerpt: Translate your software, website, apps, media, and more into any language.
 featured: true
