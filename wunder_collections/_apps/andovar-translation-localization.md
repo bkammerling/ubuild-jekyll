@@ -20,23 +20,38 @@ description: "<p>Andovar is an international provider of comprehensive localizat
   fundamental components; Expertise, Resources and Process.</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/05/05/picture1a-south-bay.jpg"
-  title: Reach out & Talk to Us
-  screenshot_description: |-
-    Reach out via email or call us. At the beginning of every project, we carry out an
-    in-depth consultation to ensure we fully understand the localisation requirements and to determine the technology we will deploy.
-    When we are certain we have everything we need, we’ll conduct an analysis of the content,
-    maximizing costs savings by using a suite of translation technology.
+  title: Scalability
+  screenshot_description: 'Andovar is a leader in technology-driven translation solutions.
+    Headquartered in Singapore, with offices across the world, we offer solutions
+    we offer solutions in a range of specialist industries. Working with over 5000
+    translators, voice actors and localization support staff globally, this gives
+    us the scalability needed to manage projects of any size, complexity and language. '
 - screenshot: "/uploads/2021/05/05/picture1b-south-bay.jpg"
-  title: Prepare & Plan
-  screenshot_description: |-
-    Using content connectors, APIs, translation memories and term-base, as well as style guides and other reference materials, the translation and localization process begins.
-    All projects pass through a multi-stage linguistic process as standard, including translation by subject matter experts and editing by separate senior editors.
+  title: Technical Expertise
+  screenshot_description: 'Andovar focuses on emerging markets and technologies, such
+    as mobile and web apps, gaming, web and e-commerce, multimedia and cloud software.
+    Emerging markets presents the best opportunities for growth and still represent
+    the newest frontier in localization, but where others struggle with the complex
+    scripts and lack of standards, Andovar has the expertise to succeed. '
 - screenshot: "/uploads/2021/05/05/picture1c-south-bay.jpg"
-  title: Localise and Launch
-  screenshot_description: |-
-    Using content connectors, APIs, translation memories and termbase, as well as style guides and other reference materials, the translation and localization process begins.
-    All projects pass through a multi-stage linguistic process as standard, including translation by subject matter experts and editing by separate senior editors.
-app_details: []
+  title: Automation
+  screenshot_description: 'Unlike our competitors we don''t sell our software translation
+    solutions, but we do extend the latest cutting-edge technology to all of our clients,
+    big and small, helping them to drive efficiency, across their organization. Within
+    our offering are a suite of AI driven solutions enabling you to automate processes
+    and translate more for less, giving maximum bang for your buck. '
+app_details:
+- detail_title: ''
+  detail_content: "<em>*Additional fees may be charged</em>"
+- detail_title: 'Partner details:'
+  detail_content: <a href="https://www.andovar.com/" title="Developer Website →">Developer
+    Website →</a><br>
+- detail_title: ''
+  detail_content: <a href="https://andovar.com" title="Terms of Service →">Terms of
+    Service →</a>
+- detail_title: ''
+  detail_content: <a href="https://andovar.com" title="Privacy Policy →">Privacy Policy
+    →</a>
 access_needed: []
 getting_started:
 - column_title: Reach out & Talk to Us
@@ -53,7 +68,7 @@ getting_started:
   column_description: |-
     Using content connectors, APIs, translation memories and term-base, as well as style guides and other reference materials, the translation and localization process begins.
     All projects pass through a multi-stage linguistic process as standard, including translation by subject matter experts and editing by separate senior editors.
-whitepaper_link: ''
+whitepaper_link: https://drive.google.com/file/d/1_VUJm3p3F4Sq7gcZwFEB7qpACEec90t5/view?usp=sharing
 video_poster: ''
 published: false
 
