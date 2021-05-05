@@ -10,7 +10,7 @@ preview_gallery:
   image-video: "/uploads/2021/05/05/picture1-south-bay.jpg"
 - image-video: "/uploads/2021/05/05/picture2-south-bay.jpg"
   title: Resources
-- image-video: ''
+- image-video: "/uploads/2021/05/05/picture1-south-bay.jpg"
   title: Process
 description: "<p>Andovar is an international provider of comprehensive localization
   and globalization solutions, Andovar manages wide-ranging language services on behalf
