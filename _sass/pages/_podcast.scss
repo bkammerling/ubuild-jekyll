@@ -26,6 +26,22 @@
   }
 }
 
+#podcast-logos {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    top: -64%;
+    left: -37rem;
+    background: url(/uploads/global/podcast/gradient_circle.png);
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 50rem;
+    background-position: center;
+    background-size: 50rem;
+  }
+}
+
 .plyr--audio .plyr__controls {
   background-color: transparent;
   .plyr__control svg {
