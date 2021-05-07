@@ -8,7 +8,7 @@ author: []
 cta_heading: ''
 cta_text: ''
 cta_link: pages/fleet.md
-title: A Strong Operational Platform is the Backbone of your Fleet Business
+title: A Strong Operational Platform is the Backbone of Your Fleet Business
 publish_date: 
 featured_image: ''
 excerpt: "#### _Aesthetics and features take a backseat to one thing: reliability.
@@ -28,6 +28,8 @@ These numbers got us thinking: What prompts mobility operators to switch from on
 When choosing between software services, there are commonly two major deciding factors that come into play: **features and price**. But we’ve heard firsthand from clients who have migrated to our platform that these two things lose their importance when the product isn’t reliable and doesn’t perform as promised.
 
 In an industry like mobility, where a lot is at stake for technology to work as expected, businesses **cannot afford to disregard the reliability of the software** that they’re buying. If you’re experiencing hours of downtime, annoying bugs, delays with updates, upset end users, and even unclear support from your software provider, you might want to strongly consider switching to a more reliable mobility platform.
+
+![](/uploads/2021/05/07/mockup_fleet_backend-2x.png)
 
 ## Migrating Your Mobility Software to a Better Platform
 
