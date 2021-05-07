@@ -1,14 +1,17 @@
 #podcast-intro {
   .background-container {
     background-image: url("/uploads/global/podcast/background-image.png");
-    background-position: center;
+    background-position: 67% 80%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 170rem;
     height: 120vh;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    @include rwd(tablet-up) {
+      background-position: 17% 80%;
+    }
   }
   background-color: #ad0e9e;
   position: relative;

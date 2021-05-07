@@ -3,7 +3,7 @@
   <div
     class="container pt-lg-5 px-lg-5 d-flex justify-content-between flex-column h-100"
   >
-    <div class="row mb-5">
+    <div class="row mb-5 mt-auto mt-md-0">
       <div class="col-md-10 offset-md-1">
         <div class="text-left">
           <h1
@@ -184,3 +184,22 @@
     </div>
   </div>
 </section>
+<style>
+  :root {
+    --x: 0;
+    --y: 0;
+  }
+  #podcast-intro .background-container {
+    transition: all 3s ease-in;
+  }
+</style>
+<script>
+  document.querySelector("#podcast-intro").onmousemove = (e) => {
+    requestAnimationFrame(() => {
+      const x = (e.pageX - e.target.offsetLeft) / 20;
+      const y = (e.pageY - e.target.offsetTop) / 20;
+      e.target.style.setProperty("--x", `${x}px`);
+      e.target.style.setProperty("--y", `${y}px`);
+    });
+  };
+</script>
