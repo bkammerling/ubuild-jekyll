@@ -94,47 +94,18 @@ wunder-de:
   identifier: vehicles
   title: Vehicles | EN
   subtitle: Sharing-fähige Fahrzeuge für die nächste Generation der Mobilität.
-- url: "#"
-  weight: 2
-  title: Ride-Hailing
-  identifier: ridehailing
-  sub: true
-- url: "/de/ride"
-  weight: 1
-  parent: ridehailing
-  identifier: ride
-  title: Ride
-  subtitle: Einzel- oder Sammelfahrten, im Voraus oder auf Abruf gebucht.
-- url: "/de/carpool"
-  weight: 2
-  parent: ridehailing
-  identifier: carpool
-  title: Carpool
-  subtitle: Ermöglichen Sie Mitarbeitern, gemeinsame Fahrten zur Arbeit zu organisieren und Emissionen zu reduzieren.
-- url: "#"
+- url: "/marketplace"
   weight: 3
-  title: Extensions
-  identifier: extensions
-  sub: true
+  title: Extensions | EN
+  identifier: false
+  sub: false
+  parent: false
 - url: "/de/clients"
   weight: 1
   title: Kunden
   identifier: false
   parent: false
   subtitle: Entdecken Sie wie unsere Kunden die globale Mobilität verbessern
-- url: "/marketplace"
-  target: "_blank"
-  weight: 1
-  parent: extensions
-  identifier: marketplace
-  title: NEU! Marketplace | EN
-  subtitle: Verbessern und skalieren Sie Ihr Mobilitätsgeschäft mit unserer modularen Plattformm.
-- url: "/de/city"
-  weight: 2
-  parent: extensions
-  identifier: city
-  title: City
-  subtitle: Analysen zur Vorbereitung der Städte auf eine vernetzte Zukunft.
 - url: "#"
   weight: 2
   title: Firma
