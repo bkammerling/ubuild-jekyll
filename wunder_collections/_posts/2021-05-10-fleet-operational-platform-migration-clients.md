@@ -30,7 +30,7 @@ When choosing between software services, there are commonly two major deciding f
 
 In an industry like mobility, where a lot is at stake for technology to work as expected, businesses **cannot afford to disregard the reliability of the software** that they’re buying. If you’re experiencing hours of downtime, annoying bugs, delays with updates, upset end users, and even unclear support from your software provider, you might want to strongly consider switching to a more reliable mobility platform.
 
-![](/uploads/2021/05/07/mockup_fleet_backend-2x.png)
+![The Wunder Mobility platform is feature-rich and reliable.](/uploads/2021/05/07/mockup_fleet_backend-2x.png)
 
 ## Migrating Your Mobility Software to a Better Platform
 
