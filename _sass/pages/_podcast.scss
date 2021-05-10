@@ -9,6 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    animation: sizeup 10s ease-in-out infinite;
     @include rwd(tablet-up) {
       background-position: 17% 80%;
     }
@@ -42,6 +43,7 @@
     width: 50rem;
     background-position: center;
     background-size: 50rem;
+    animation: float 6s ease-in-out infinite, rotate 20s linear infinite;
   }
 }
 /*
@@ -70,4 +72,37 @@ body.podcast .block-contact-form {
 }
 .plyr--full-ui input[type="range"] {
   color: #fff;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sizeup {
+  0% {
+    background-size: 170rem;
+  }
+  50% {
+    background-size: 190rem;
+  }
+  100% {
+    background-size: 170rem;
+  }
 }
