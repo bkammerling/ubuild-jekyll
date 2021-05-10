@@ -25,7 +25,7 @@ wunder-main:
   subtitle: Sharing-ready vehicles for the next generation of mobility
 - url: "/marketplace"
   weight: 3
-  title: Extensions
+  title: Marketplace
   identifier: false
   parent: false
 - url: "/clients"
@@ -96,7 +96,7 @@ wunder-de:
   subtitle: Sharing-fähige Fahrzeuge für die nächste Generation der Mobilität.
 - url: "/marketplace"
   weight: 3
-  title: Extensions | EN
+  title: Marketplace | EN
   identifier: false
   sub: false
   parent: false
