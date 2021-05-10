@@ -5,18 +5,19 @@ tags:
 - reliability
 - mobility tech stack
 author: []
-cta_heading: ''
-cta_text: ''
+cta_heading: Get in touch for a demo
+cta_text: Want to see our Fleet technology in action? Contact us today to set up a
+  call.
 cta_link: pages/fleet.md
 title: A Strong Operational Platform is the Backbone of Your Fleet Business
 publish_date: 
-featured_image: ''
+featured_image: "/uploads/2021/05/10/okai-vehicles-4g7hzhihrqa-unsplash.jpg"
 excerpt: "#### _Aesthetics and features take a backseat to one thing: reliability.
   If you want to be successful, your mobility tech stack should be robust, dependable,
   and safe._"
-share_image: ''
+share_image: "/uploads/2021/05/10/okai-vehicles-4g7hzhihrqa-unsplash.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 #### _Aesthetics and features take a backseat to one thing: reliability. If you want to be successful, your mobility tech stack should be robust, dependable, and safe._
