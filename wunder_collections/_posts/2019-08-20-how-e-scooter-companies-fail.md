@@ -15,6 +15,7 @@ excerpt: It's not all fun and games in the e-scooter business. Some companies _d
 tags:
 - video
 share_image: ''
+hidden: true
 
 ---
 E-(kick) scooters are everywhere. Their rising popularity is no secret anymore: if you live in an urban area in Western Europe or North America, chances are you pass by more than one e-scooter on your daily commute. 
