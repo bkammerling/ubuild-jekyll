@@ -20,7 +20,7 @@ sticky: false
 hidden: true
 
 ---
-#### _Aesthetics and features take a backseat to one thing: reliability. If you want to be successful, your mobility tech stack should be robust, dependable, and safe._
+#### Aesthetics and features take a backseat to one thing: reliability. If you want to be successful, your mobility tech stack should be robust, dependable, and safe.
 
 In the last 14 months, 7 mobility operators migrated to our software platform. For these migrations alone, our team processed quite a number of datasets, **over 7.5 million to be exact.**
 
