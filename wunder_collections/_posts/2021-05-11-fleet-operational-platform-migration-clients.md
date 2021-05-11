@@ -5,21 +5,22 @@ tags:
 - reliability
 - mobility tech stack
 author: []
-cta_heading: ''
-cta_text: ''
+cta_heading: Get in touch for a demo
+cta_text: Want to see our Fleet technology in action? Contact us today to set up a
+  call.
 cta_link: pages/fleet.md
 title: A Strong Operational Platform is the Backbone of Your Fleet Business
-publish_date: 
-featured_image: ''
+publish_date: 2021-05-11 00:00:00 +0000
+featured_image: "/uploads/2021/05/10/okai-vehicles-4g7hzhihrqa-unsplash.jpg"
 excerpt: "#### _Aesthetics and features take a backseat to one thing: reliability.
   If you want to be successful, your mobility tech stack should be robust, dependable,
   and safe._"
-share_image: ''
+share_image: "/uploads/2021/05/10/okai-vehicles-4g7hzhihrqa-unsplash.jpg"
 sticky: false
 hidden: false
 
 ---
-#### _Aesthetics and features take a backseat to one thing: reliability. If you want to be successful, your mobility tech stack should be robust, dependable, and safe._
+#### Aesthetics and features take a backseat to one thing: reliability. If you want to be successful, your mobility tech stack should be robust, dependable, and safe.
 
 In the last 14 months, 7 mobility operators migrated to our software platform. For these migrations alone, our team processed quite a number of datasets, **over 7.5 million to be exact.**
 
@@ -29,7 +30,7 @@ When choosing between software services, there are commonly two major deciding f
 
 In an industry like mobility, where a lot is at stake for technology to work as expected, businesses **cannot afford to disregard the reliability of the software** that they’re buying. If you’re experiencing hours of downtime, annoying bugs, delays with updates, upset end users, and even unclear support from your software provider, you might want to strongly consider switching to a more reliable mobility platform.
 
-![](/uploads/2021/05/07/mockup_fleet_backend-2x.png)
+![The Wunder Mobility platform is feature-rich and reliable.](/uploads/2021/05/07/mockup_fleet_backend-2x.png)
 
 ## Migrating Your Mobility Software to a Better Platform
 
