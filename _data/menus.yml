@@ -199,26 +199,11 @@ footer:
     parent: solutions
     identifier: hardware
     title: Wunder Vehicles
-  - identifier: shuttle
-    url: "/ride"
-    weight: 4
-    title: Wunder Ride
-    parent: solutions
-  - identifier: carpool
-    url: "/carpool"
-    weight: 5
-    title: Wunder Carpool
-    parent: solutions
   - url: "/marketplace"
     weight: 6
     parent: solutions
     identifier: marketplace
     title: Wunder Marketplace
-    parent: solutions
-  - identifier: city
-    url: "/city"
-    weight: 7
-    title: Wunder City
     parent: solutions
 - identifier: company
   title: Company
