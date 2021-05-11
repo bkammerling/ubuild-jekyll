@@ -10,7 +10,7 @@ cta_text: Want to see our Fleet technology in action? Contact us today to set up
   call.
 cta_link: pages/fleet.md
 title: A Strong Operational Platform is the Backbone of Your Fleet Business
-publish_date: 
+publish_date: 2021-05-11 00:00:00 +0000
 featured_image: "/uploads/2021/05/10/okai-vehicles-4g7hzhihrqa-unsplash.jpg"
 excerpt: "#### _Aesthetics and features take a backseat to one thing: reliability.
   If you want to be successful, your mobility tech stack should be robust, dependable,
