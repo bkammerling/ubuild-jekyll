@@ -9,7 +9,7 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/05/14/apaya-no_text-michael-tomlins.mp4"
   title: Video
-- image-video: "/uploads/2021/05/14/1-michael-tomlins.png"
+- image-video: "/uploads/2021/05/14/13-michael-tomlins.png"
   title: Increase conversions, reduce transactions costs
 - image-video: "/uploads/2021/05/14/2-michael-tomlins.png"
   title: Improve Customer Acquisition Rates
