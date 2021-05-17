@@ -19,10 +19,10 @@ featured_image: "/uploads/2021/03/10/max-small.jpg"
 excerpt: ''
 share_image: "/uploads/2021/03/10/max-small.jpg"
 sticky: false
-hidden: false
+hidden: true
 
 ---
-🇩🇪 [_Click here_](https://www.wundermobility.com/blog/warum-versorgungsunternehmen-in-den-shared-mobility-markt-einsteigen-sollten) _for the German version of this article._
+[Read this article in German.](https://www.wundermobility.com/blog/warum-versorgungsunternehmen-in-den-shared-mobility-markt-einsteigen-sollten)
 
 You’ve probably heard the calls to innovate stale and outdated business models, maybe even within your own organization. You want to speak to new and younger audiences while staying authentic and not relying on empty marketing stunts.
 
