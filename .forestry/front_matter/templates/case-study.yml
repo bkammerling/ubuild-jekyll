@@ -233,3 +233,5 @@ fields:
     maxSize: 1
   label: Listing image
   description: Appears on main clients page in grid of clients. If nothing is selected.
+pages:
+- wunder_collections/_clients/rheinenergie.md
