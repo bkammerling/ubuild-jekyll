@@ -8,7 +8,7 @@ case_study_cta:
   external_url: ''
   supporting_image: "/uploads/2021/05/18/pdf-cover-3.png"
 product: Fleet
-title: RheinEnergie
+title: rhingo
 logo: "/uploads/2021/05/18/rheinenergie.svg"
 logo_white: "/uploads/2021/05/18/rheinenergie_stammlogo-white-1.png"
 intro: "Reaching a younger audience with \Lshared mobility"
@@ -43,6 +43,7 @@ quote:
     of Cologne.
   name: RheinEnergie
   job_title: ''
-listing_image: "/uploads/2021/05/18/gallery-card-rheinenergie.jpg"
+listing_image: "/uploads/2021/05/18/gallery-card-rheinenergie-1.jpg"
+published: false
 
 ---
