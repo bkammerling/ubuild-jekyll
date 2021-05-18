@@ -44,6 +44,5 @@ quote:
   name: RheinEnergie
   job_title: ''
 listing_image: "/uploads/2021/05/18/gallery-card-rheinenergie.jpg"
-published: false
 
 ---
