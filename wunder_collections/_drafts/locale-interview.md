@@ -3,10 +3,11 @@ layout: simple-article
 category: ''
 tags: []
 author: []
-cta_heading: Find Out More About Wunder Mobility
-cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+cta_heading: Find Locale.ai on the Wunder Marketplace
+cta_text: The marketplace is the first of its kind, enabling you to mix-and-match
+  suitable add-ons that will enhance your mobility business, including solutions like
+  insurance, analytics, fleet maintenance, damage reporting, and much more.
+cta_link: pages/marketplace/marketplace.md
 title: Locale Interview
 publish_date: 
 featured_image: ''
@@ -74,6 +75,8 @@ Location intelligence can help companies:
 * **Create a central knowledge base of operational metrics** and understand what strategies are working well. For instance, a discount of x% always drives up conversion in the eastern part of the city.
 * **Run multiple experiments and strategies for different locations, users, and times of the day and iterate them by measuring their impact**. A culture of rapid experimentation is essential to know what works best in different locations. For example, we can run an experiment by provisioning extra members of the delivery fleet in the western part of the city and see if delays are reducing or not.
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Juzmg0OaclI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Location and operational analytics services are seeing a surge. What makes yours different?
 
 The most interesting fact about location analytics companies is that so many have emerged in the past year or so, which is a testament to the fact that this pain point is only increasing.
@@ -89,6 +92,8 @@ Locale gathers all location data in one place and acts as one source of truth fo
 * **Measuring Impact:** Once you take your decisions, you can measure the impact of your actions and iterate, thus closing the decision loop.
 
 Along with this, a simple and intuitive user interface doubled with a robust ETL that can handle streaming data and historical data, Locale is one of a kind tool which can provide scalable geospatial visualizations with actionability.
+
+![](/uploads/2021/05/19/locale_wunder_2.png)
 
 ## What does the future of location analytics look like? And what’s next for Locale?
 
