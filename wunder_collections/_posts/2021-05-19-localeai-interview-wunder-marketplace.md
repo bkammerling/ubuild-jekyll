@@ -13,7 +13,7 @@ cta_text: The marketplace is the first of its kind, enabling you to mix-and-matc
   suitable add-ons that will enhance your mobility business, including solutions like
   insurance, analytics, fleet maintenance, damage reporting, and much more.
 cta_link: pages/marketplace/marketplace.md
-title: A Location Analytics Framework to Scale Your Mobility Operations | Interview
+title: A Location Analytics Framework to Scale Your Mobility Operations | An Interview
   with Locale.ai
 publish_date: 
 featured_image: "/uploads/2021/05/19/locale-post.png"
@@ -59,9 +59,9 @@ At Locale, we are solving this exact problem by reducing time to insight by 300x
 
 We envision a world where the pace of operational analytics and testing on ground is the same as analytics and A/B testing on products.
 
-###### You can explore and play around with Locale by clicking on the image below:
+###### You can explore and play around with Locale by visiting [**our demo page**]()**.**
 
-## [![](https://lh5.googleusercontent.com/aMwDcJVOAm-hx3gCkF3RgBs1tColh1OXTdUCyuKF4o6PdtlvMTHCIv6fgGDpQFFBKd2jJw1AqgCyra0Cv_8a8hkK5vitmjW9ysR_Qixw3C1AYESTzKwe6doDHHayu-QaHTWGHYHp =624x345)](https://demo.locale.ai/demo)
+![](/uploads/2021/05/19/screenshot-2021-05-17-at-11-24-33.png)
 
 ## Who is a typical Locale customer? What segments and markets do you cater to?
 
