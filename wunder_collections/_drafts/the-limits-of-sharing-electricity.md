@@ -22,7 +22,7 @@ sticky: false
 hidden: false
 
 ---
-_Read this article in German._
+[_Read this article in German_](https://bernstein-group.com/de/2021/05/19/die-grenzen-des-sharings-wo-beim-strom-probleme-entstehen/)_._
 
 Sharing is caring – but what if sharing becomes associated with so many hurdles that it becomes infeasible?
 
