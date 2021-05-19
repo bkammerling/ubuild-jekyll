@@ -16,15 +16,15 @@ cta_link: pages/marketplace/marketplace.md
 title: A Location Analytics Framework to Scale Your Mobility Operations | Interview
   with Locale.ai
 publish_date: 
-featured_image: ''
+featured_image: "/uploads/2021/05/19/locale-post.png"
 excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Locale.ai
   to dive deeper into what Locale does, to see what problems hyperlocal insights solve
   for mobility companies and other businesses with moving assets, and to look at the
   future of the location analytics market (spoiler: it’s expected to grow by 13% by
   2027).'
-share_image: ''
+share_image: "/uploads/2021/05/19/locale-post.png"
 sticky: false
-hidden: false
+hidden: true
 
 ---
 Recently we dove into the subject of hyperlocal data and how it can help your vehicle sharing business to maximize fleet capacity and [to boost revenue](https://www.wundermobility.com/blog/how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.html). We talked to the experts on the subject: [Aditi Sinha](https://www.linkedin.com/in/aditi-sinha-6b774ba9/) and [Saahil Sachdeva](https://www.linkedin.com/in/saahil-sachdeva/) from [Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview), who are partners on the [Wunder Marketplace](https://www.wundermobility.com/marketplace).
