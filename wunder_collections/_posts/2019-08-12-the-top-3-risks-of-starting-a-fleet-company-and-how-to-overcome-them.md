@@ -48,5 +48,4 @@ An app with a poor user experience will only confuse and frustrate your customer
 
 ***
 
-####   
-The good news is that all of the risks we mentioned can be overcome. If you’re unsure of the best way to go about launching your company or want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us by clicking the button below.
+#### The good news is that all of the risks we mentioned can be overcome. If you’re unsure of the best way to go about launching your company or want to learn more about what to expect when starting a vehicle sharing business, feel free to contact us by clicking the button below.
