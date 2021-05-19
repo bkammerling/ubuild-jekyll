@@ -17,7 +17,7 @@ publish_date: 2021-05-20 00:00:00 +0000
 featured_image: "/uploads/2021/05/19/bernstein.png"
 excerpt: Sharing is caring – but what if sharing becomes associated with so many hurdles
   that it becomes infeasible?
-share_image: "/uploads/2021/05/19/bernstein.png"
+share_image: "/uploads/2021/05/19/blog-bernstein.png"
 sticky: false
 hidden: false
 
