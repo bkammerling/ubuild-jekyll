@@ -49,7 +49,8 @@ We envision a world where the pace of operational analytics and testing on groun
 
 ##### You can explore and play around with Locale by clicking on the image below:
 
-## [![](https://lh5.googleusercontent.com/aMwDcJVOAm-hx3gCkF3RgBs1tColh1OXTdUCyuKF4o6PdtlvMTHCIv6fgGDpQFFBKd2jJw1AqgCyra0Cv_8a8hkK5vitmjW9ysR_Qixw3C1AYESTzKwe6doDHHayu-QaHTWGHYHp =624x345)](https://demo.locale.ai/demo)  
+## [![](https://lh5.googleusercontent.com/aMwDcJVOAm-hx3gCkF3RgBs1tColh1OXTdUCyuKF4o6PdtlvMTHCIv6fgGDpQFFBKd2jJw1AqgCyra0Cv_8a8hkK5vitmjW9ysR_Qixw3C1AYESTzKwe6doDHHayu-QaHTWGHYHp =624x345)](https://demo.locale.ai/demo)
+
 Who is a typical Locale customer? What segments and markets do you cater to?
 
 An ideal Locale customer is any company with moving assets. This could be vehicles, driver fleets, delivery personnel and so on. We are currently working with
@@ -61,3 +62,46 @@ An ideal Locale customer is any company with moving assets. This could be vehicl
 * Workforce companies with moving sales fleets
 
 The use cases we work with are generally catered to operations and city teams to help them get a holistic view of the real word behavior of their users and on-ground assets without any engineering bandwidth. **Locale focuses on metrics like asset utilization, user conversion, user acquisition, cost per delivery and unit economics among others.**
+
+## What are the benefits that location intelligence can provide to these businesses?
+
+Location intelligence can help companies:
+
+* **Take data driven strategic decisions based on historical analysis**. For example, where have the user cancellations been growing for the last month in an area?
+
+
+* **React to things in real time and make tactical decisions to address bottlenecks on the go**. For example, reacting to the sudden increase in demand due to a concert by placing the driver fleet in those areas.
+* **Create a central knowledge base of operational metrics** and understand what strategies are working well. For instance, a discount of x% always drives up conversion in the eastern part of the city.
+* **Run multiple experiments and strategies for different locations, users, and times of the day and iterate them by measuring their impact**. A culture of rapid experimentation is essential to know what works best in different locations. For example, we can run an experiment by provisioning extra members of the delivery fleet in the western part of the city and see if delays are reducing or not.
+
+## Location and operational analytics services are seeing a surge. What makes yours different?
+
+The most interesting fact about location analytics companies is that so many have emerged in the past year or so, which is a testament to the fact that this pain point is only increasing.
+
+Locale is an end-to-end location analytics solution that is more than just visualizations. This means that whenever business users or decision-makers need the right insights about their ground operations, they can turn to Locale and need not depend on their teams of analysts or engineers.
+
+Locale gathers all location data in one place and acts as one source of truth for all location-based decisions. The five-fold model we follow to achieve this is one of the big differentiating factors from other existing tools.
+
+* **Orchestration:** We get your location data in one place and help modules to create relevant metrics like idle time, unfulfilled demand, etc in just 3 clicks.
+* **Decisions:** Enables decision-taking either in real-time when you need to react or, more strategically, when you need to analyze patterns and trends.
+* **Analyses:** We have templates for the most relevant use cases where you can visually analyze the data. For example, demand-supply gaps to analyze idle time, life cycle analysis to analyze drop-offs in distinct steps.
+* **Collaboration:** Analytics cannot be done in a silo. Locale ensures that people across teams can come together to debug and implement decisions.
+* **Measuring Impact:** Once you take your decisions, you can measure the impact of your actions and iterate, thus closing the decision loop.
+
+Along with this, a simple and intuitive user interface doubled with a robust ETL that can handle streaming data and historical data, Locale is one of a kind tool which can provide scalable geospatial visualizations with actionability.
+
+## What does the future of location analytics look like? And what’s next for Locale?
+
+The [global location analytics](https://www.fortunebusinessinsights.com/location-analytics-market-102041) market is projected to reach USD 25.48 billion by 2027, exhibiting a CAGR of 13.0% during the forecast period. This is in line with the fact that we have seen an increased adoption of location based technologies in the recent years.
+
+However, I believe that as we approach the future, we will see its applications across various industries like FMCG, retail, hospitality, healthcare and so on. This is because every commercial asset that moves in the real world needs to be analyzed. Not to mention with smart cities, drone deliveries, and self driving cars gaining momentum, location analytics will play an important role in enabling these revolutionary technologies.
+
+Location analytics will continue to grow and evolve as companies start using and collecting location data proactively and incorporate it into all their business strategies. As for Locale, we are slowly expanding into the e-commerce and logistics industries as well.
+
+## By joining the Wunder Marketplace, Locale joins a select group of companies offering B2B services for shared mobility. Why did you choose to become a Wunder Mobility partner?
+
+I want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to the customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
+
+It is also an excellent platform not only to expand our reach but also contribute to the global shared mobility revolution. Moreover, the ease of integration will enable mobility players all over the world to access hyperlocal insights with great ease and accelerate their growth.
+
+We couldn’t be more excited to help companies achieve operational excellence with Wunder Mobility!
