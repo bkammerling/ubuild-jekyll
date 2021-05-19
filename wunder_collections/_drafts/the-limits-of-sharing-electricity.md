@@ -14,10 +14,10 @@ cta_text: Sign up for the bilingual Bernstein Group x Wunder Mobility Policy Bri
 cta_link: pages/bernstein-newsletter.md
 title: 'The Limits of Sharing: Where Problems Arise with Electricity'
 publish_date: 2021-05-20 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/05/19/bernstein.png"
 excerpt: Sharing is caring – but what if sharing becomes associated with so many hurdles
   that it becomes infeasible?
-share_image: ''
+share_image: "/uploads/2021/05/19/bernstein.png"
 sticky: false
 hidden: false
 
