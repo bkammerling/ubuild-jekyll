@@ -42,9 +42,9 @@ We provide for various use cases and a custom build based on your requirements. 
 * City and operations teams can use it for **allocation** (redistribution) **monitoring** and track **profitability.**
 * Strategy teams and CXOs can use it for identifying **cancellations**, **delays & SLAs, productivity** and **overall revenue**.
 
-Today, it takes 60-75 days and a team of 10 members (engineers, data scientists, analysts, ops managers) to run strategies on the ground. The analyst and engineering bandwidth become the biggest bottleneck to growth. When using multiple tools (BI tools, python, SQL,etc), building location cohorts takes 2-3 weeks. After finalizing the strategy, debugging & collaboration across disparate tools, takes 7-10 days. And yet impact evaluation & iteration is missing from the current process.
+Today, it takes 60-75 days and a team of 10 members (engineers, data scientists, analysts, ops managers) to run strategies on the ground. The analyst and engineering bandwidth become the biggest bottleneck to growth. When using multiple tools (BI tools, python, SQL,etc), building location cohorts takes 2-3 weeks. After finalizing the strategy, debugging and collaboration across disparate tools, takes 7-10 days. And yet impact evaluation and iteration is missing from the current process.
 
-At Locale, we are solving this exact problem by **reducing time to insight by 300x by helping to create metrics and location-based cohorts** in minutes as compared to 2-3 weeks, **deploying localized decisions in 3 clicks and improving operational KPIs** by including hyperlocal nuances.
+At Locale, we are solving this exact problem by reducing time to insight by 300x by helping to create metrics and location-based cohorts in minutes as compared to 2-3 weeks, deploying localized decisions in 3 clicks and improving operational KPIs by including hyperlocal nuances.
 
 We envision a world where the pace of operational analytics and testing on ground is the same as analytics and A/B testing on products.
 
@@ -69,13 +69,11 @@ The use cases we work with are generally catered to operations and city teams to
 Location intelligence can help companies:
 
 * **Take data driven strategic decisions based on historical analysis**. For example, where have the user cancellations been growing for the last month in an area?
-
-
 * **React to things in real time and make tactical decisions to address bottlenecks on the go**. For example, reacting to the sudden increase in demand due to a concert by placing the driver fleet in those areas.
 * **Create a central knowledge base of operational metrics** and understand what strategies are working well. For instance, a discount of x% always drives up conversion in the eastern part of the city.
 * **Run multiple experiments and strategies for different locations, users, and times of the day and iterate them by measuring their impact**. A culture of rapid experimentation is essential to know what works best in different locations. For example, we can run an experiment by provisioning extra members of the delivery fleet in the western part of the city and see if delays are reducing or not.
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Juzmg0OaclI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Juzmg0OaclI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Location and operational analytics services are seeing a surge. What makes yours different?
 
