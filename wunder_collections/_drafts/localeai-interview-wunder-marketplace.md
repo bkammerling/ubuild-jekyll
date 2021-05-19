@@ -1,17 +1,27 @@
 ---
 layout: simple-article
-category: ''
-tags: []
+category: Clients
+tags:
+- location analytics
+- mobility operations
+- maas
+- hyperlocal data
+- geo data
 author: []
 cta_heading: Find Locale.ai on the Wunder Marketplace
 cta_text: The marketplace is the first of its kind, enabling you to mix-and-match
   suitable add-ons that will enhance your mobility business, including solutions like
   insurance, analytics, fleet maintenance, damage reporting, and much more.
 cta_link: pages/marketplace/marketplace.md
-title: Locale Interview
+title: A Location Analytics Framework to Scale Your Mobility Operations | Interview
+  with Locale.ai
 publish_date: 
 featured_image: ''
-excerpt: ''
+excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Locale.ai
+  to dive deeper into what Locale does, to see what problems hyperlocal insights solve
+  for mobility companies and other businesses with moving assets, and to look at the
+  future of the location analytics market (spoiler: it’s expected to grow by 13% by
+  2027).'
 share_image: ''
 sticky: false
 hidden: false
@@ -23,7 +33,7 @@ In this article, we spoke to Aditi and Saahil to dive deeper into what Locale do
 
 ## What was the idea or story that prompted you to launch Locale?
 
-It is a well known saying that necessity is the mother of all invention. You could say our story is similar to that.
+It's a well known saying that necessity is the mother of all invention. You could say our story is similar to that.
 
 [Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview) was born out of a personal problem. We used to work with mounds of geo data in our previous company, and there were no off-the-shelf tools that we could use. We had to build internal solutions and create tools to perform geospatial analysis.
 
@@ -35,28 +45,25 @@ We could go deeper into our journey, but you can also read more [here](https://b
 
 ## What services do you provide today? What problems does your product solve?
 
-With Locale, users have the ability to get **hyperlocal insights about their assets within minutes**. We make this possible through various analytics processes, like hex heatmaps, trips analysis, comparison analysis (to analyze supply demand gaps) and so on.
+With Locale, users have the ability to get **hyperlocal insights about their assets within minutes**. We make this possible through various analyticL processes, like hex heat maps, trip analysis, comparison analysis (to analyze supply demand gaps) and so on.
 
-We provide for various use cases and a custom build based on your requirements. Some of them include:
+We provide for various use cases and a custom build based on requirements. Some of them include:
 
-* Marketing and growth teams can use Locale for **acquisition**
-
-(expanding in areas of latent demand), **conversion** (identifying high user churn in areas) and **retention**.
-
+* Marketing and growth teams can use Locale for **acquisition** (expanding in areas of latent demand), **conversion** (identifying high user churn in areas) and **retention**.
 * City and operations teams can use it for **allocation** (redistribution) **monitoring** and track **profitability.**
 * Strategy teams and CXOs can use it for identifying **cancellations**, **delays & SLAs, productivity** and **overall revenue**.
 
-Today, it takes 60-75 days and a team of 10 members (engineers, data scientists, analysts, ops managers) to run strategies on the ground. The analyst and engineering bandwidth become the biggest bottleneck to growth. When using multiple tools (BI tools, python, SQL,etc), building location cohorts takes 2-3 weeks. After finalizing the strategy, debugging and collaboration across disparate tools, takes 7-10 days. And yet impact evaluation and iteration is missing from the current process.
+Today, it takes 60-75 days and a team of 10 members (engineers, data scientists, analysts, ops managers) to run strategies on the ground. The analyst and engineering bandwidth become the biggest bottleneck to growth. When using multiple tools (BI tools, python, SQL, etc.), building location cohorts takes 2-3 weeks. After finalizing the strategy, debugging and collaboration across disparate tools takes 7-10 days. And yet impact evaluation and iteration is missing from the current process.
 
 At Locale, we are solving this exact problem by reducing time to insight by 300x by helping to create metrics and location-based cohorts in minutes as compared to 2-3 weeks, deploying localized decisions in 3 clicks and improving operational KPIs by including hyperlocal nuances.
 
 We envision a world where the pace of operational analytics and testing on ground is the same as analytics and A/B testing on products.
 
-##### You can explore and play around with Locale by clicking on the image below:
+###### You can explore and play around with Locale by clicking on the image below:
 
 ## [![](https://lh5.googleusercontent.com/aMwDcJVOAm-hx3gCkF3RgBs1tColh1OXTdUCyuKF4o6PdtlvMTHCIv6fgGDpQFFBKd2jJw1AqgCyra0Cv_8a8hkK5vitmjW9ysR_Qixw3C1AYESTzKwe6doDHHayu-QaHTWGHYHp =624x345)](https://demo.locale.ai/demo)
 
-Who is a typical Locale customer? What segments and markets do you cater to?
+## Who is a typical Locale customer? What segments and markets do you cater to?
 
 An ideal Locale customer is any company with moving assets. This could be vehicles, driver fleets, delivery personnel and so on. We are currently working with
 
@@ -107,7 +114,7 @@ Location analytics will continue to grow and evolve as companies start using and
 
 ## By joining the Wunder Marketplace, Locale joins a select group of companies offering B2B services for shared mobility. Why did you choose to become a Wunder Mobility partner?
 
-We want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to the customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
+We want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
 
 It is also an excellent platform not only to expand our reach but also contribute to the global shared mobility revolution. Moreover, the ease of integration will enable mobility players all over the world to access hyperlocal insights with great ease and accelerate their growth.
 
