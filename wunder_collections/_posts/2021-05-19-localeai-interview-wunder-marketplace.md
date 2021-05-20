@@ -57,7 +57,7 @@ listing_image: ''
 ---
 Recently we dove into the subject of hyperlocal data and how it can help your vehicle sharing business to maximize fleet capacity and [to boost revenue](https://www.wundermobility.com/blog/how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.html). We talked to the experts on the subject: [Aditi Sinha](https://www.linkedin.com/in/aditi-sinha-6b774ba9/) and [Saahil Sachdeva](https://www.linkedin.com/in/saahil-sachdeva/) from [Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview), who are partners on the [Wunder Marketplace](https://www.wundermobility.com/marketplace).
 
-In this article, we spoke to Aditi and Saahil to dive deeper into what Locale does, to see what problems hyperlocal insights solve for mobility companies and other businesses with moving assets, and to look at the future of the location analytics market (spoiler: it’s expected to grow by 13% by 2027).
+In this article, we spoke to Aditi to dive deeper into what Locale does, to see what problems hyperlocal insights solve for mobility companies and other businesses with moving assets, and to look at the future of the location analytics market (spoiler: it’s expected to grow by 13% by 2027).
 
 ## What was the idea or story that prompted you to launch Locale?
 
@@ -67,7 +67,7 @@ It's a well known saying that necessity is the mother of all invention. You coul
 
 While location data was in abundance, the tools to handle them weren’t. The idea of Locale dawned on us when we found out that multiple companies are looking to build geospatial teams internally. We asked ourselves, “_Could we build a product to empower local teams to get the right insights and spend time working on their core problems instead of writing queries?“_
 
-We could go deeper into our journey, but you can also read more [here](https://blog.locale.ai/how-were-building-our-geospatial-analytics-product-using-first-principles-2/).
+I could go deeper into our journey, but you can also read more [here](https://blog.locale.ai/how-were-building-our-geospatial-analytics-product-using-first-principles-2/).
 
 ![](/uploads/2021/05/19/comparison-view-gif.gif)
 
@@ -142,7 +142,7 @@ Location analytics will continue to grow and evolve as companies start using and
 
 ## By joining the Wunder Marketplace, Locale joins a select group of companies offering B2B services for shared mobility. Why did you choose to become a Wunder Mobility partner?
 
-We want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
+I want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
 
 It is also an excellent platform not only to expand our reach but also contribute to the global shared mobility revolution. Moreover, the ease of integration will enable mobility players all over the world to access hyperlocal insights with great ease and accelerate their growth.
 
