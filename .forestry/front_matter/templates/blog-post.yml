@@ -152,6 +152,7 @@ fields:
       field: include_case_study
       value: true
 pages:
+<<<<<<< HEAD
   - wunder_collections/_posts/2020-06-09-an-interview-with-twist-mobility.md
   - wunder_collections/_posts/2020-06-11-accelerating-a-sustainable-recovery-of-public-transportation.md
   - wunder_collections/_posts/2020-06-11-eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen.md
@@ -182,3 +183,33 @@ pages:
   - wunder_collections/_posts/2021-04-29-how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.md
   - wunder_collections/_posts/2021-05-19-localeai-interview-wunder-marketplace.md
   - wunder_collections/_posts/the-limits-of-sharing-electricity.md
+=======
+- wunder_collections/_posts/2020-06-09-an-interview-with-twist-mobility.md
+- wunder_collections/_posts/2020-06-11-accelerating-a-sustainable-recovery-of-public-transportation.md
+- wunder_collections/_posts/2020-06-11-eine-nachhaltige-rettung-offentlicher-verkehrssysteme-beschleunigen.md
+- wunder_collections/_posts/2020-06-24-die-vorstellung-einer-autofreien-zukunft-ein-gastbeitrag-von-katja-diehl.md
+- wunder_collections/_posts/2020-06-24-imagining-a-car-free-future-a-guest-article-by-katja-diehl.md
+- wunder_collections/_posts/2020-07-02-csr-fur-die-strasse.md
+- wunder_collections/_posts/2020-07-02-csr-takes-to-the-streets.md
+- wunder_collections/_posts/2020-07-17-an-interview-with-stephan-kuhn.md
+- wunder_collections/_posts/2020-07-31-entzerrung-durch-digitalisierung.md
+- wunder_collections/_posts/2020-07-31-leveling-the-mobility-playing-field-through-digitalization.md
+- wunder_collections/_posts/2020-08-14-das-personenbeforderungsgesetz.md
+- wunder_collections/_posts/2020-08-14-the-future-of-the-passenger-transportation-act.md
+- wunder_collections/_posts/2020-08-24-an-interview-with-clement-guasco.md
+- wunder_collections/_posts/2020-08-24-an-interview-with-electric-life-rides.md
+- wunder_collections/_posts/2020-08-28-use-of-data-finland-as-a-model-of-efficient-mobility.md
+- wunder_collections/_posts/2020-09-11-an-interview-with-dr.christoph-ploss.md
+- wunder_collections/_posts/2020-09-30-video-wunder-marketplace-the-first-mobility-as-a-service-maas-marketplace.md
+- wunder_collections/_posts/2020-10-12-an-interview-with-ubiq-a-wunder-marketplace-partner-copy.md
+- wunder_collections/_posts/2021-02-11-tactical-urbanism-a-building-block-for-urban-change.md
+- wunder_collections/_posts/2021-02-17-can-new-mobility-become-profitable.md
+- wunder_collections/_posts/2021-03-02-blue-duck-is-bringing-micromobility-to-the-southern-us.md
+- wunder_collections/_posts/2021-03-10-why-utility-providers-should-get-in-on-the-shared-mobility-game.md
+- wunder_collections/_posts/2021-03-15-interview-game-changing-hands-on-services-for-maas-providers.md
+- wunder_collections/_posts/2021-03-18-is-there-a-perfect-mobility-concept.md
+- wunder_collections/_posts/2021-03-25-what-will-the-cities-of-tomorrow-look-like.md
+- wunder_collections/_posts/2021-04-15-to-regulate-or-not-to-regulate.md
+- wunder_collections/_posts/2021-04-19-warum-versorgungsunternehmen-in-den-shared-mobility-markt-einsteigen-sollten.md
+- wunder_collections/_posts/2021-04-29-how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.md
+>>>>>>> cc7a9afbabc643367b41fc7623e46bb63810561b
