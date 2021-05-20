@@ -63,7 +63,7 @@ In this article, we spoke to Aditi to dive deeper into what Locale does, to see 
 
 It's a well known saying that necessity is the mother of all invention. You could say our story is similar to that.
 
-[Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview) was born out of a personal problem. We used to work with mounds of geo data in our previous company, and there were no off-the-shelf tools that we could use. We had to build internal solutions and create tools to perform geospatial analysis.
+[Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview) was born out of a personal problem. My co-founder and I used to work with mounds of geo data in our previous company, and there were no off-the-shelf tools that we could use. We had to build internal solutions and create tools to perform geospatial analysis.
 
 While location data was in abundance, the tools to handle them weren’t. The idea of Locale dawned on us when we found out that multiple companies are looking to build geospatial teams internally. We asked ourselves, “_Could we build a product to empower local teams to get the right insights and spend time working on their core problems instead of writing queries?“_
 
@@ -73,7 +73,7 @@ I could go deeper into our journey, but you can also read more [here](https://bl
 
 ## What services do you provide today? What problems does your product solve?
 
-With Locale, users have the ability to get **hyperlocal insights about their assets within minutes**. We make this possible through various analyticL processes, like hex heat maps, trip analysis, comparison analysis (to analyze supply demand gaps) and so on.
+With Locale, users have the ability to get **hyperlocal insights about their assets within minutes**. We make this possible through various analytical processes, like hex heat maps, trip analysis, comparison analysis (to analyze supply demand gaps) and so on.
 
 We provide for various use cases and a custom build based on requirements. Some of them include:
 
@@ -101,7 +101,7 @@ An ideal Locale customer is any company with moving assets. This could be vehicl
 * Logistics companies with mobile trucks and drivers
 * Workforce companies with moving sales fleets
 
-The use cases we work with are generally catered to operations and city teams to help them get a holistic view of the real word behavior of their users and on-ground assets without any engineering bandwidth. **Locale focuses on metrics like asset utilization, user conversion, user acquisition, cost per delivery and unit economics among others.**
+The use cases we work with are generally catered to operations and city teams to help them get a holistic view of the real word behavior of their users and on-ground assets without any engineering bandwidth. Locale focuses on metrics like **asset utilization, user conversion, user acquisition, cost per delivery** and **unit economics** among others**.**
 
 ## What are the benefits that location intelligence can provide to these businesses?
 
@@ -122,11 +122,11 @@ Locale is an end-to-end location analytics solution that is more than just visua
 
 Locale gathers all location data in one place and acts as one source of truth for all location-based decisions. The five-fold model we follow to achieve this is one of the big differentiating factors from other existing tools.
 
-* **Orchestration:** We get your location data in one place and help modules to create relevant metrics like idle time, unfulfilled demand, etc in just 3 clicks.
-* **Decisions:** Enables decision-taking either in real-time when you need to react or, more strategically, when you need to analyze patterns and trends.
+* **Orchestration:** We get your location data in one place and help modules to create relevant metrics like idle time, unfulfilled demand, etc. in just 3 clicks.
+* **Decisions:** Enables decision-making either in real-time when you need to react or, more strategically, when you need to analyze patterns and trends.
 * **Analyses:** We have templates for the most relevant use cases where you can visually analyze the data. For example, demand-supply gaps to analyze idle time, life cycle analysis to analyze drop-offs in distinct steps.
 * **Collaboration:** Analytics cannot be done in a silo. Locale ensures that people across teams can come together to debug and implement decisions.
-* **Measuring Impact:** Once you take your decisions, you can measure the impact of your actions and iterate, thus closing the decision loop.
+* **Measuring Impact:** Once you make your decisions, you can measure the impact of your actions and iterate, thus closing the decision loop.
 
 Along with this, a simple and intuitive user interface doubled with a robust ETL that can handle streaming data and historical data, Locale is one of a kind tool which can provide scalable geospatial visualizations with actionability.
 
@@ -142,7 +142,7 @@ Location analytics will continue to grow and evolve as companies start using and
 
 ## By joining the Wunder Marketplace, Locale joins a select group of companies offering B2B services for shared mobility. Why did you choose to become a Wunder Mobility partner?
 
-I want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated solely to innovating for the sustainable mobility space, Locale can add great value to customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
+I want to start off by saying that the partners at Wunder Mobility have been an absolute delight to work with. As a company dedicated to innovating for the sustainable mobility space, Locale can add great value to customers by equipping them with the best location analytics framework to scale their operations. Our conversations with Wunder Mobility and their appreciation of the product make us believe it will be an impressive addition to all companies.
 
 It is also an excellent platform not only to expand our reach but also contribute to the global shared mobility revolution. Moreover, the ease of integration will enable mobility players all over the world to access hyperlocal insights with great ease and accelerate their growth.
 
