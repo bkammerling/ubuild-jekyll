@@ -30,19 +30,18 @@ page_sections:
     block: footer-1
     content: ""
 share_image: ""
-hero_episode_number: Episode 1
-hero_episode_name: Ozgur Tohumcu, CEO, Oxbotica
+hero_episode_embed_url: "https://open.spotify.com/embed/episode/2tzEiirSRpmuOYencoBobC"
 featured_episodes:
   - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: ""
+    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
     number: 1
     title: Ozgur Tohumcu
   - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: ""
+    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
     number: 2
     title: Ozgur Tohumcu
   - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: ""
+    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
     number: 3
     title: Ozgur Tohumcu
 ---

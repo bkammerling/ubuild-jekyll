@@ -37,19 +37,15 @@
     <div class="row d-none d-md-block">
       <div class="col-md-10 offset-md-1">
         <div class="row">
-          <div class="col-md-5 text-white d-flex align-items-center">
-            <span class="hero-podcast-title"
-              ><strong>{{ page.hero_episode_number }} </strong> |
-              {{page.hero_episode_name }}</span
-            >
-          </div>
-          <div class="col-md-7">
-            <audio id="player" controls>
-              <source
-                src="https://open.spotify.com/embed/episode/49NiGOFpj8D7IsrTWJ0wZZ"
-                type="audio/mpeg"
-              />
-            </audio>
+          <div class="col">
+            <iframe
+              src="{{ page.hero_episode_embed_url }}"
+              width="100%"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
           </div>
         </div>
       </div>
