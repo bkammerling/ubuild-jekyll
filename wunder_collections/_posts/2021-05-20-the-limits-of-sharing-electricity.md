@@ -19,7 +19,7 @@ excerpt: Sharing is caring – but what if sharing becomes associated with so ma
   that it becomes infeasible?
 share_image: "/uploads/2021/05/19/blog-bernstein.png"
 sticky: false
-hidden: true
+hidden: false
 include_case_study: false
 language: ''
 logo: ''
