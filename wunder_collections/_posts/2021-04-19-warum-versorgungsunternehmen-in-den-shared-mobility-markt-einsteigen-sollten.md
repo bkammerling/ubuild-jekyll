@@ -18,9 +18,11 @@ featured_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 excerpt: ''
 share_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 sticky: false
-hidden: true
+hidden: false
 
 ---
+[Read this article in English.](https://www.wundermobility.com/blog/why-utility-providers-should-get-in-on-the-shared-mobility-game.html)
+
 Viele Unternehmen stehen vor der gleichen Herausforderung: Wie erreicht man jüngere Generationen und bleibt dabei authentisch? Wie kann man veraltete Geschäftsmodelle umstellen und Innovationen einbringen?
 
 Für jedes Unternehmen ist es entscheidend, sich zusammen mit seinem Kundenstamm zu entwickeln. Als Versorgungsunternehmen wissen Sie bereits, was es bedeutet, sich um Ihre Kunden zu kümmern. Sie treiben alles an: ihre Häuser, ihre Büros, ihren Alltag.

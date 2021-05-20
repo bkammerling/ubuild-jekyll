@@ -115,6 +115,17 @@ fields:
   label: Hide from Article List
   description: When you want the post published and live but not in article list on
     /blog
+- name: include_case_study
+  type: boolean
+  label: Include case study?
+- name: case_study
+  type: include
+  config: {}
+  template: case-study
+  label: Case Study
+  showOnly:
+    field: include_case_study
+    value: true
 pages:
 - wunder_collections/_posts/2020-06-09-an-interview-with-twist-mobility.md
 - wunder_collections/_posts/2020-06-11-accelerating-a-sustainable-recovery-of-public-transportation.md
@@ -144,3 +155,5 @@ pages:
 - wunder_collections/_posts/2021-04-15-to-regulate-or-not-to-regulate.md
 - wunder_collections/_posts/2021-04-19-warum-versorgungsunternehmen-in-den-shared-mobility-markt-einsteigen-sollten.md
 - wunder_collections/_posts/2021-04-29-how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.md
+- wunder_collections/_posts/2021-05-19-localeai-interview-wunder-marketplace.md
+- wunder_collections/_posts/2021-05-20-the-limits-of-sharing-electricity.md
