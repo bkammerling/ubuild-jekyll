@@ -19,7 +19,35 @@ excerpt: Sharing is caring – but what if sharing becomes associated with so ma
   that it becomes infeasible?
 share_image: "/uploads/2021/05/19/blog-bernstein.png"
 sticky: false
-hidden: false
+hidden: true
+include_case_study: false
+language: ''
+logo: ''
+logo_white: ''
+intro: ''
+hero_image: ''
+hero_is_carousel: false
+carousel_image: ''
+the_details: ''
+company_url: ''
+description: ''
+show_stats: false
+stats: []
+show_cta: false
+video_poster: ''
+vimeo_id: ''
+case_study_cta:
+  heading: ''
+  external_url: ''
+  supporting_image: ''
+  cta_text: ''
+image_gallery: []
+quote:
+  text: ''
+  name: ''
+  job_title: ''
+product: ''
+listing_image: ''
 
 ---
 [_Read this article in German_](https://bernstein-group.com/de/2021/05/19/die-grenzen-des-sharings-wo-beim-strom-probleme-entstehen/)_._
