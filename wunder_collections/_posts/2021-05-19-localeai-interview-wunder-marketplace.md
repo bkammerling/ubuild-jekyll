@@ -24,7 +24,35 @@ excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Local
   2027).'
 share_image: "/uploads/2021/05/19/locale-post.png"
 sticky: false
-hidden: false
+hidden: true
+include_case_study: false
+language: ''
+logo: ''
+logo_white: ''
+intro: ''
+hero_image: ''
+hero_is_carousel: false
+carousel_image: ''
+the_details: ''
+company_url: ''
+description: ''
+show_stats: false
+stats: []
+show_cta: false
+video_poster: ''
+vimeo_id: ''
+case_study_cta:
+  heading: ''
+  external_url: ''
+  supporting_image: ''
+  cta_text: ''
+image_gallery: []
+quote:
+  text: ''
+  name: ''
+  job_title: ''
+product: ''
+listing_image: ''
 
 ---
 Recently we dove into the subject of hyperlocal data and how it can help your vehicle sharing business to maximize fleet capacity and [to boost revenue](https://www.wundermobility.com/blog/how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.html). We talked to the experts on the subject: [Aditi Sinha](https://www.linkedin.com/in/aditi-sinha-6b774ba9/) and [Saahil Sachdeva](https://www.linkedin.com/in/saahil-sachdeva/) from [Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview), who are partners on the [Wunder Marketplace](https://www.wundermobility.com/marketplace).
