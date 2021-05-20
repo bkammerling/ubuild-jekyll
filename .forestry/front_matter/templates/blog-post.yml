@@ -118,6 +118,20 @@ fields:
 - name: include_case_study
   type: boolean
   label: Include case study?
+- name: language
+  type: select
+  default: EN
+  config:
+    required: true
+    options:
+    - EN
+    - DE
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
 - name: case_study_cta
   type: field_group
   config: {}
