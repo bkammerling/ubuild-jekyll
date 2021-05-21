@@ -172,12 +172,10 @@
                 name="g-recaptcha-response"
                 type="hidden"
               />
-              <input
-                id="modal_case_study_company"
-                name="case_study_name"
-                value="{{ page.title }}"
-                type="hidden"
-              />
+              <input id="modal_case_study_company" name="case_study_name"
+              value="{% unless page.layout == "simple-article"%}{{ page.title
+              }}{% else %}{{ page.case_study_cta.heading }}{% endunless %}"
+              type="hidden" />
               <input
                 type="hidden"
                 id="gclid_field"
@@ -188,7 +186,12 @@
                 <div class="col-sm-12">
                   <div class="success-container w-100 hidden">
                     <div
-                      class="d-flex w-100 align-items-center justify-content-center"
+                      class="
+                        d-flex
+                        w-100
+                        align-items-center
+                        justify-content-center
+                      "
                     >
                       <div
                         id="downloadModalSuccessAnimation"
@@ -228,10 +231,12 @@
                     id="modal_form-submit"
                     onclick="downloadModalSubmission(event)"
                   >
-                    {% if page.language == "EN" or page.lang == "en" %} View the
-                    {{ page.title }} case study {% elsif page.language == "DE"
-                    or page.lang == "de" %} Die {{ page.title }} Case Study
-                    ansehen {% endif %}
+                    {% unless page.layout == "simple-article"%} {% if
+                    page.language == "EN" or page.lang == "en" %} View the {{
+                    page.title }} case study {% elsif page.language == "DE" or
+                    page.lang == "de" %} Die {{ page.title }} Case Study ansehen
+                    {% endif %} {% else %}{{ page.case_study_cta.cta_text }}{%
+                    endunless %}
                   </button>
                 </div>
               </div>
