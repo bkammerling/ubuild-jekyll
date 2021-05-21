@@ -5,7 +5,7 @@ hero_is_carousel: true
 case_study_cta:
   cta_text: Download Now
   heading: Read the full case study in German
-  external_url: ''
+  external_url: "/uploads/2021/05/21/rhingo-case-study-130521.pdf"
   supporting_image: "/uploads/2021/05/18/pdf-cover-3.png"
 product: Fleet
 title: rhingo
@@ -44,6 +44,5 @@ quote:
   name: RheinEnergie
   job_title: ''
 listing_image: "/uploads/2021/05/18/gallery-card-rheinenergie-1.jpg"
-published: false
 
 ---
