@@ -2,39 +2,39 @@
 label: press-template
 hide_body: true
 fields:
-- type: text
-  name: link
-  label: URL
-  config:
-    required: true
-- type: text
-  name: title
-  label: Title
-- type: datetime
-  name: date
-  label: Date
-  config:
-    date_format: DD-MM-YYY
-- type: text
-  name: lang
-  label: Language
-- type: file
-  name: image
-  label: Image
-- type: boolean
-  name: featured
-  label: Featured
-  description: Shows on news on homepage
+  - type: text
+    name: link
+    label: URL
+    config:
+      required: true
+  - type: text
+    name: title
+    label: Title
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      date_format: DD-MM-YYY
+  - type: text
+    name: lang
+    label: Language
+  - type: file
+    name: image
+    label: Image
+  - type: boolean
+    name: featured
+    label: Featured
+    description: Shows on news on homepage
 pages:
-- wunder_collections/_articles/blue-duck-bolsters-micromobility-approach.md
-- wunder_collections/_articles/former-gett-vice-president-joins-wunder-mobility-as-first-chief-financial-officer.md
-- wunder_collections/_articles/innovative-start-ups-in-travel.md
-- wunder_collections/_articles/mobility-actors-launch-weallmove.md
-- wunder_collections/_articles/these-are-the-top-40-under-40-of-2020.md
-- wunder_collections/_articles/these-are-the-winners-of-the-spark.md
-- wunder_collections/_articles/weallmove-a-open-mobility-platform.md
-- wunder_collections/_articles/wir-haben-uns-gegen-die-ubernahme-durch-vw-entschieden.md
-- wunder_collections/_articles/wir-wollen-das-bosch-fur-neue-mobilitat-sein.md
-- wunder_collections/_articles/wunder-mobility-expands-role-in-latin-america.md
-- wunder_collections/_articles/wunder-mobility-s-new-lending-business-helps-micromobility-startups-finance-fleets.md
-- wunder_collections/_articles/wunder-mobility-to-co-develop-its-first-sharing-ready-ev-with-china-s-yadea.md
+  - wunder_collections/_articles/blue-duck-bolsters-micromobility-approach.md
+  - wunder_collections/_articles/former-gett-vice-president-joins-wunder-mobility-as-first-chief-financial-officer.md
+  - wunder_collections/_articles/innovative-start-ups-in-travel.md
+  - wunder_collections/_articles/mobility-actors-launch-weallmove.md
+  - wunder_collections/_articles/these-are-the-top-40-under-40-of-2020.md
+  - wunder_collections/_articles/these-are-the-winners-of-the-spark.md
+  - wunder_collections/_articles/weallmove-a-open-mobility-platform.md
+  - wunder_collections/_articles/wir-haben-uns-gegen-die-ubernahme-durch-vw-entschieden.md
+  - wunder_collections/_articles/wir-wollen-das-bosch-fur-neue-mobilitat-sein.md
+  - wunder_collections/_articles/wunder-mobility-expands-role-in-latin-america.md
+  - wunder_collections/_articles/wunder-mobility-s-new-lending-business-helps-micromobility-startups-finance-fleets.md
+  - wunder_collections/_articles/wunder-mobility-to-co-develop-its-first-sharing-ready-ev-with-china-s-yadea.md

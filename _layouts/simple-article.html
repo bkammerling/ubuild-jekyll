@@ -62,7 +62,18 @@
 
           </div>
         </div>
-
+        {% if page.include_case_study == true%}
+        <div class="row align-items-center">
+          <div class="col-sm-5 text-center text-sm-left pt-5 py-sm-5 my-sm-5">
+            <h2 class="headline-large">{{ page.case_study_cta.heading }}</h2>
+            <a class="btn btn-outline-dark mt-4" data-toggle="modal" data-target="#downloadModal" href="{{ page.case_study_cta.external_url | downcase }}" title="View the case study on {{ page.title }} working with Wunder Mobility.">{{ page.case_study_cta.cta_text | default: "Learn more" }}</a>
+            {% include block-case-study-modal.html %}
+          </div>
+          <div class="col-sm-7">
+            <img class="w-100" data-src="{{ page.case_study_cta.supporting_image | replace: '@2x', '' | replace: '-2x', '' }}" data-srcset="{{ page.case_study_cta.supporting_image }} 2x" alt="Preview of the case study on {{ page.title }}." />
+          </div>
+        </div>
+        {% endif %}
         <footer class="article-header">
           <div class="row align-items-centerr">
             <div class="col-sm-8 offset-sm-2">

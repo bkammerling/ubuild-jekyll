@@ -1,0 +1,108 @@
+#podcast-intro {
+  .background-container {
+    background-image: url("/uploads/global/podcast/background-image.png");
+    background-position: 32% 80%;
+    background-repeat: no-repeat;
+    background-size: 170rem;
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: sizeup 10s ease-in-out infinite;
+    @include rwd(tablet-up) {
+      background-position: 17% 80%;
+    }
+  }
+  background-color: #ad0e9e;
+  position: relative;
+  height: 80vh;
+  padding: 96px 0;
+  @include rwd(tablet-up) {
+    padding: 120px 0;
+    .background-container {
+      height: 110vh;
+    }
+    h1.headline-large {
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+  }
+}
+
+#podcast-logos {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    top: -64%;
+    left: -37rem;
+    background: url(/uploads/global/podcast/gradient_circle.png);
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 50rem;
+    background-position: center;
+    background-size: 50rem;
+    animation: float 6s ease-in-out infinite, rotate 20s linear infinite;
+  }
+}
+/*
+body.podcast .block-contact-form {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: -40rem;
+    background: url(/uploads/global/podcast/dotgrid_circle.png);
+    background-repeat: no-repeat;
+    height: 80rem;
+    width: 80rem;
+    background-position: center;
+    background-size: 80rem;
+  }
+}
+*/
+.plyr--audio .plyr__controls {
+  background-color: transparent;
+  .plyr__control svg {
+    fill: #fff;
+  }
+}
+.plyr--full-ui input[type="range"] {
+  color: #fff;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sizeup {
+  0% {
+    background-size: 170rem;
+  }
+  50% {
+    background-size: 190rem;
+  }
+  100% {
+    background-size: 170rem;
+  }
+}
