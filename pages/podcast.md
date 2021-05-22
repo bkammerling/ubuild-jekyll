@@ -32,16 +32,16 @@ page_sections:
 share_image: "/uploads/global/podcast/share.jpg"
 hero_episode_embed_url: "https://open.spotify.com/embed/episode/1Mmxjk4lmyF047QrlyHRoL"
 featured_episodes:
-  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
-    number: 1
-    title: Ozgur Tohumcu
-  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
-    number: 2
-    title: Ozgur Tohumcu
-  - image: "/uploads/global/podcast/episodes/tohumcu@2x.png"
-    url: "https://open.spotify.com/episode/49NiGOFpj8D7IsrTWJ0wZZ?si=V_GceCy_QVeT9-Se1KB0mA"
-    number: 3
-    title: Ozgur Tohumcu
+  - image: "uploads/global/podcast/episodes/Podcast Cover 16 - Hui Zhang.jpg"
+    url: "https://open.spotify.com/episode/1Mmxjk4lmyF047QrlyHRoL?si=FtSV2djDSN6hzBp2b3yuGQ"
+    number: 17
+    title: Hui Zhang
+  - image: "/uploads/global/podcast/episodes/Podcast Cover 16 - Sandra Philips.jpg"
+    url: "https://open.spotify.com/episode/3jjZiGlT41FYG2d6Ltr0ZW?si=XgN4jAIMSNakjnAIHWGSGQ"
+    number: 16
+    title: Sandra Philips
+  - image: "uploads/global/podcast/episodes/Podcast Cover 15 - Olivier Reppert.jpg"
+    url: "https://open.spotify.com/episode/6WvHIVbPPYW56cZKiBvg8k?si=XQYHNW-rTRWhAQXwFnkLEA"
+    number: 15
+    title: Olivier Reppert
 ---
