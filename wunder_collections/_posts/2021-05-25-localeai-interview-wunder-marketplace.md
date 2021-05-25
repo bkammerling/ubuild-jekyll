@@ -21,7 +21,7 @@ excerpt: 'In this article we speak to Aditi Sinha from Locale.ai to dive deeper 
   what Locale does, to see what problems hyperlocal insights solve for mobility companies
   and other businesses with moving assets, and to look at the future of the location
   analytics market (spoiler: it’s expected to grow by 13% by 2027).'
-share_image: "/uploads/2021/05/19/locale-post.png"
+share_image: "/uploads/2021/05/25/locale_wunder_3.png"
 sticky: false
 hidden: false
 include_case_study: false
