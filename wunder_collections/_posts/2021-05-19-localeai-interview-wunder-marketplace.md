@@ -16,7 +16,7 @@ cta_link: pages/marketplace/marketplace.md
 title: A Location Analytics Framework to Scale Your Mobility Operations | An Interview
   with Locale.ai
 publish_date: 
-featured_image: "/uploads/2021/05/19/locale-post.png"
+featured_image: "/uploads/2021/05/25/image.png"
 excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Locale.ai
   to dive deeper into what Locale does, to see what problems hyperlocal insights solve
   for mobility companies and other businesses with moving assets, and to look at the
@@ -24,9 +24,9 @@ excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Local
   2027).'
 share_image: "/uploads/2021/05/19/locale-post.png"
 sticky: false
-hidden: true
+hidden: false
 include_case_study: false
-language: ''
+language: EN
 logo: ''
 logo_white: ''
 intro: ''
@@ -46,6 +46,24 @@ case_study_cta:
   external_url: ''
   supporting_image: ''
   cta_text: ''
+  title: ''
+  category: ''
+  tags: []
+  publish_date: 
+  featured_image: ''
+  excerpt: ''
+  author: ''
+  share_image: ''
+  cta_heading: ''
+  cta_link: ''
+  sticky: false
+  hidden: false
+  include_case_study: false
+  case_study_cta:
+    heading: ''
+    external_url: ''
+    supporting_image: ''
+    cta_text: ''
 image_gallery: []
 quote:
   text: ''
