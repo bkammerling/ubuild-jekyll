@@ -24,7 +24,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label class="form-label" for="name">Full name *</label>
+                  <label class="form-label" for="name">Your Full name *</label>
                   <input type="text" name="name" id="name" required maxlength="40">
                   <div class="bottom-border"></div>
                 </div>
@@ -33,18 +33,43 @@
                   <input type="email" name="email" id="email" required>
                   <div class="bottom-border"></div>
                 </div>
-              </div>
-              <div class="col-lg-6">
+                {% if page.url == '/podcast' %}
                 <div class="form-group">
-                  <label class="form-label" for="company">{% unless page.url == '/city' %}Company name *{% else %}Your city *{% endunless %}</label>
-                  <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
-                  <div class="bottom-border"></div>
-                </div>
-                <div class="form-group">
-                  <label class="form-label" for="phone">Phone (incl. country code)</label>
+                  <label class="form-label" for="phone">Your phone number</label>
                   <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
                   <div class="bottom-border"></div>
                 </div>
+                {% endif %}
+              </div>
+              <div class="col-lg-6">
+                {% unless page.url == '/podcast' %}
+                  <div class="form-group">
+                    <label class="form-label" for="company">{% unless page.url == '/city' %}Company name *{% else %}Your city *{% endunless %}</label>
+                    <input type="text" name="company" id="company" pattern=".{2,}" title="Must contain at least 2 characters" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Phone (incl. country code)</label>
+                    <input type="text" name="phone" id="phone" pattern="\+?[\d\s\)\(-]{8,15}" title="Must be between 8-15 characters long. Accepted characters +0-9()-">
+                    <div class="bottom-border"></div>
+                  </div>
+                {% else %}
+                  <div class="form-group">
+                    <label class="form-label" for="guest_name">Proposed guest's name *</label>
+                    <input type="text" name="guest_name" id="guest_name" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="guest_linkedin">Proposed guest's LinkedIn URL *</label>
+                    <input type="url" name="guest_linkedin" id="guest_linkedin" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="guest_company">Proposed guest's company name *</label>
+                    <input type="text" name="guest_company" id="guest_company" required>
+                    <div class="bottom-border"></div>
+                  </div>
+                {% endunless %}
               </div>
             </div>
 
@@ -61,18 +86,19 @@
                   <option value="Wunder Vehicles" data-id="vehicles" {% if page.lang-ref == 'vehicles' or page.lang-ref == 'vehicles-yadea' %}selected{% endif %}>Wunder Vehicles</option>
                   <option value="General enquiry" data-id="general" {% if page.lang-ref == 'home' %}selected{% endif %}>General enquiry</option>
                   <option value="Press" data-id="press" {% if page.lang-ref == 'press' %}selected{% endif %}>Press</option>
+                  <option value="Podcast" data-id="podcast" {% if page.lang-ref == 'podcast' %}selected{% endif %}>Podcast</option>
                 </select>
                 <div class="bottom-border"></div>
               </div>
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="url">Your business website</label>
+              <label class="form-label" for="url">{% unless page.url == '/podcast'%}Your business website {% else %}Proposed guest's company URL {% endunless %}</label>
               <input type="text" name="url" id="url"></input>
               <div class="bottom-border"></div>
             </div>
 
-            {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' or page.lang-ref == 'rent' %}
+            {% unless page.lang-ref == 'city' or page.lang-ref == 'press' or page.lang-ref == 'fleet' or page.lang-ref == 'rent' or page.lang-ref=='podcast' %}
             {% capture conditionals %}{% endcapture %}{% capture nonConditionals %}{% endcapture %}
             {% if page.lang-ref == 'carpool' %}
               {% capture conditionals %}data-target="#parkingQs"{% endcapture %}
@@ -94,7 +120,7 @@
             {% endunless %}
 
 
-            <h3 class="headline-small text-center mt-5 mb-4">Tell us a bit about your project</h3>
+            <h3 class="headline-small text-center mt-5 mb-4">{% unless page.url =='/podcast' %}Tell us a bit about your project {% else %}Tell us more about your proposed guest {% endunless %}</h3>
 
             {% if page.lang-ref == 'fleet' %}
             <div class="form-group shuttle fleet">
@@ -251,7 +277,7 @@
             </div>
             {% endif %}
             <div class="form-group mb-4">
-              <label class="form-label" for="message">Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}</label>
+              <label class="form-label" for="message">{% unless page.url=='/podcast' %}Tell us about your business and your needs {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %}*{% endif %}{%else%}Message{% endunless %}</label>
               <textarea type="text" name="message" id="message" {% if page.lang-ref == 'carpool' or page.lang-ref == 'rent' %} required{% endif %}></textarea>
               <div class="bottom-border"></div>
             </div>

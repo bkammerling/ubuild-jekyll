@@ -9,11 +9,11 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/05/14/apaya-no_text-michael-tomlins.mp4"
   title: Video
-- image-video: "/uploads/2021/05/14/13-michael-tomlins.png"
+- image-video: "/uploads/2021/05/21/1.png"
   title: Increase conversions, reduce transactions costs
-- image-video: "/uploads/2021/05/14/2-michael-tomlins.png"
+- image-video: "/uploads/2021/05/21/2.png"
   title: Improve Customer Acquisition Rates
-- image-video: "/uploads/2021/05/14/3-michael-tomlins.png"
+- image-video: "/uploads/2021/05/21/3.png"
   title: Local, Flexible, Secure Payment Options
 description: "<p>Apaya empowers merchants to offer a localised experience to satisfy
   their customer’s payment preferences and rapidly expand geographical reach.</p><p>Customers
@@ -66,7 +66,7 @@ getting_started:
   column_description: 'Complete a short integration into Apaya or, if you use the
     Wunder Customer App, we will soon be able to configure you without any need to
     integrate.  '
-whitepaper_link: "/uploads/2021/05/14/apaya_merchant-sales_v2-3_static_compressed-michael-tomlins.pdf"
+whitepaper_link: "/uploads/2021/05/21/apaya_merchant-sales_wunder.pdf"
 video_poster: ''
 published: false
 

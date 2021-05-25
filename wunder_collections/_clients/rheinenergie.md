@@ -5,7 +5,7 @@ hero_is_carousel: true
 case_study_cta:
   cta_text: Download Now
   heading: Read the full case study in German
-  external_url: ''
+  external_url: "/uploads/2021/05/21/rhingo-case-study-130521.pdf"
   supporting_image: "/uploads/2021/05/18/pdf-cover-3.png"
 product: Fleet
 title: rhingo
@@ -17,9 +17,10 @@ carousel_image: ''
 the_details: As a municipal energy supplier, RheinEnergie has long been a pioneer
   in electromobility. It was only natural for the company to launch an additional
   service for climate-friendly transportation, which it did by introducing 400 e-mopeds
-  in the city of Cologne under the name rhingo. Powered by <a href="www.wundermobility.com/fleet"
-  title="">Wunder Fleet</a>, rhingo is able to serve younger audiences and existing
-  customers by bringing sustainable shared mobility to local hotspots.
+  in the city of Cologne under the name rhingo. Powered by <a href="https://www.wundermobility.com/fleet"
+  title="Wunder Fleet"><strong>Wunder Fleet</strong></a>, rhingo is able to serve
+  younger audiences and existing customers by bringing sustainable shared mobility
+  to local hotspots.
 company_url: https://www.rhingo.de/
 description: RheinEnergie and Wunder Mobility believe that shared mobility services
   add value to communities by providing alternative transportation methods and by

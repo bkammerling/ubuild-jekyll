@@ -63,8 +63,14 @@ wunder-main:
   title: Press
   parent: company
   subtitle: Wunder Mobility in the news
-- url: "/summit/"
+- url: "/podcast/"
   weight: 5
+  identifier: podcast
+  title: Podcast
+  parent: company
+  subtitle: The Wunder Mobility Podcast
+- url: "/summit/"
+  weight: 6
   identifier: summit
   title: Wunder Mobility Summit
   parent: company
@@ -229,9 +235,14 @@ footer:
     weight: 4
     title: Press
     parent: company
+  - identifier: podcast
+    url: "/podcast"
+    weight: 5
+    title: Podcast
+    parent: company
   - identifier: footerevents
     title: Wunder Mobility Summit
-    weight: 5
+    weight: 6
     url: "/summit"
     parent: company
 - identifier: clients
