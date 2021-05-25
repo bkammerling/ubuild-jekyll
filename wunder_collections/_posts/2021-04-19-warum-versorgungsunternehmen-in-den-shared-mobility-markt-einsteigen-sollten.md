@@ -19,6 +19,13 @@ excerpt: ''
 share_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 sticky: false
 hidden: false
+include_case_study: true
+language: DE
+case_study_cta:
+  heading: Download case study here
+  external_url: "/uploads/2021/05/21/rhingo-case-study-130521.pdf"
+  supporting_image: "/uploads/2021/05/18/pdf-cover-3.png"
+  cta_text: Download
 
 ---
 [Read this article in English.](https://www.wundermobility.com/blog/why-utility-providers-should-get-in-on-the-shared-mobility-game.html)
