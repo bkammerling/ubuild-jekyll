@@ -15,7 +15,7 @@ cta_text: The marketplace is the first of its kind, enabling you to mix-and-matc
 cta_link: pages/marketplace/marketplace.md
 title: A Location Analytics Framework to Scale Your Mobility Operations | An Interview
   with Locale.ai
-publish_date: 
+publish_date: 2021-05-25 00:00:00 +0000
 featured_image: "/uploads/2021/05/25/image.png"
 excerpt: 'In this article we speak to Aditi Sinha from Locale.ai to dive deeper into
   what Locale does, to see what problems hyperlocal insights solve for mobility companies
