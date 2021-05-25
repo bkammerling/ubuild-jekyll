@@ -17,11 +17,10 @@ title: A Location Analytics Framework to Scale Your Mobility Operations | An Int
   with Locale.ai
 publish_date: 
 featured_image: "/uploads/2021/05/25/image.png"
-excerpt: 'In this article we speak to Aditi Sinha and Saahil Sachdeva from Locale.ai
-  to dive deeper into what Locale does, to see what problems hyperlocal insights solve
-  for mobility companies and other businesses with moving assets, and to look at the
-  future of the location analytics market (spoiler: it’s expected to grow by 13% by
-  2027).'
+excerpt: 'In this article we speak to Aditi Sinha from Locale.ai to dive deeper into
+  what Locale does, to see what problems hyperlocal insights solve for mobility companies
+  and other businesses with moving assets, and to look at the future of the location
+  analytics market (spoiler: it’s expected to grow by 13% by 2027).'
 share_image: "/uploads/2021/05/19/locale-post.png"
 sticky: false
 hidden: false
@@ -79,7 +78,7 @@ In this article, we spoke to Aditi to dive deeper into what Locale does, to see 
 
 ## What was the idea or story that prompted you to launch Locale?
 
-It's a well known saying that necessity is the mother of all invention. You could say our story is similar to that.
+It's a well known saying that necessity is the mother of all invention. You could say our story is similar to that. 
 
 [Locale.ai](https://www.locale.ai/?utm_source=wunder&utm_medium=inbound&utm_campaign=interview) was born out of a personal problem. My co-founder and I used to work with mounds of geo data in our previous company, and there were no off-the-shelf tools that we could use. We had to build internal solutions and create tools to perform geospatial analysis.
 
@@ -119,7 +118,7 @@ An ideal Locale customer is any company with moving assets. This could be vehicl
 * Logistics companies with mobile trucks and drivers
 * Workforce companies with moving sales fleets
 
-The use cases we work with are generally catered to operations and city teams to help them get a holistic view of the real word behavior of their users and on-ground assets without any engineering bandwidth. Locale focuses on metrics like **asset utilization, user conversion, user acquisition, cost per delivery** and **unit economics** among others**.**
+The use cases we work with are generally catered to operations and city teams to help them get a holistic view of the real word behavior of their users and on-ground assets without any engineering bandwidth. Locale focuses on metrics like **asset utilization, user conversion, user acquisition, cost per delivery** and **unit economics__ among others**.**
 
 ## What are the benefits that location intelligence can provide to these businesses?
 
