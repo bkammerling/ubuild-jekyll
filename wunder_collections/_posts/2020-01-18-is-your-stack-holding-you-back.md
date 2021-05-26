@@ -11,13 +11,14 @@ cta_text: 'Our monthly Wunder Bar newsletter is full of news, updates and exciti
 cta_link: pages/newsletter-signup.md
 title: Is Your Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
-featured_image: "/uploads/2020/01/22/api-linkedin.jpg"
+featured_image: "/uploads/2021/05/26/iot-vehicles-1.jpeg"
 excerpt: Both established startups and first-time founders can benefit from a platform
   with an open API. It enables you to extend and customize your tech stack to perfect
   your product.
-share_image: "/uploads/2020/01/22/api-linkedin.jpg"
+share_image: "/uploads/2021/05/26/iot-vehicles.jpeg"
 sticky: false
 hidden: false
+language: EN
 
 ---
 If your company is anything like most carsharing or vehicle sharing startups, or even in the tech sector at all, you’ve probably heard the phrase ‘tech stack’ before. It’s not just another piece of jargon, however. Understanding your tech stack is vital for the success of your product, whether it’s just a standalone app or a complete ecosystem.
