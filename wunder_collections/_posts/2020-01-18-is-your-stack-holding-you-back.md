@@ -11,7 +11,7 @@ cta_heading: Get in touch for a demo
 cta_text: Want to see our Fleet technology in action? Contact us today to set up a
   call.
 cta_link: pages/newsletter-signup.md
-title: Is Your Tech Stack Holding You Back?
+title: Is Your Mobility Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
 featured_image: "/uploads/2021/05/26/iot-vehicles-1.jpeg"
 excerpt: Both established shared mobility startups and first-time founders can benefit
@@ -57,6 +57,6 @@ In a vehicle-sharing company, the technology you use becomes the glue holding yo
 
 ***
 
-###### It pays to give your business and your customers a smooth ride and a seamless experience. Make sure you can provide them with one by having a flexible platform that matches your ambitions. 
+###### It pays to give your business and your customers a smooth ride and a seamless experience. Make sure you can provide them with one by having a flexible platform that matches your ambitions.
 
 ###### Get in touch with us today to learn how our vehicle-sharing software and hardware grows with you.
