@@ -60,6 +60,5 @@ getting_started:
     pricing based on the value we create.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
