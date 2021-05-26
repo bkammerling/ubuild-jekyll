@@ -4,9 +4,12 @@ category: Insights
 tags:
 - tech
 - software
+- mobility technology
+- vehicle sharing
 author: _people/ben-kammerling.md
-cta_heading: ''
-cta_text: ''
+cta_heading: Get in touch for a demo
+cta_text: Want to see our Fleet technology in action? Contact us today to set up a
+  call.
 cta_link: pages/newsletter-signup.md
 title: Is Your Tech Stack Holding You Back?
 publish_date: 2020-01-20T09:00:00.000+00:00
@@ -28,9 +31,10 @@ Imagine all the technologies used to build and maintain a web or mobile applicat
 
 An Application Programming Interface (API) allows you to extend or customize your tech stack by creating an interface for communication. Think of it as a handshake between your core platform (the technology you use to run your business operations) and any third party apps, vehicles, tools or whatever it is that needs to connect. This is what gives your tech ecosystem the chance to grow and scale with you.
 
+![](/uploads/2021/05/26/iot-vehicles-1.jpeg)
+
 ## Using an API for Your Shared Mobility Operations
 
-  
 Imagine you want to get the latest model of your mobile phone. There may be a small set-up process, but before you know it, you’re making calls, texting your parents, and posting a picture of your latte on Instagram. Only now you have vastly improved performance, a much crisper camera and maybe some extra features.
 
 With an open API, the same thing is possible for your mobility platform. Perhaps you just want some stronger, deeper data analysis. An API lets you leverage the many endpoints it offers to get the data you need into whatever tool or software you are using. Data is, of course, immensely valuable for companies, especially for mobility companies who want to gain insights into their user behavior on the ground. But deciding how, when, and what to analyze is a flexibility and advantage not all platforms offer.
@@ -40,6 +44,8 @@ With an open API, the same thing is possible for your mobility platform. Perhaps
 In the world of a shared mobility company, there’s a lot of handshaking to be done between different technologies.There’s driver license verification, payments and of course the vehicles themselves, just to name a few.
 
 Sharing vehicles need to be connected with an IoT device so that you can effectively monitor their status. All the data touch-points from this IoT device are then available to you to use as you please. Operationally, vehicle health and tracking is simple. For your customers, they get a seamless experience when finding, unlocking, and riding your shared vehicles.
+
+![](/uploads/2021/05/26/api-linkedin-1.jpeg)
 
 ### Is Your Current Mobility Tech Stack Up to the Task?
 
