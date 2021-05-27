@@ -22,10 +22,15 @@ hidden: false
 include_case_study: true
 language: DE
 case_study_cta:
-  heading: Download case study here
+  heading: Eine Erfolgsgeschichte der Shared Mobilität
   external_url: "/uploads/2021/01/13/suwag-wunder-case-study-2020.pdf"
   supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
-  cta_text: Download
+  cta_text: Lesen Sie die Case Study
+  body: "<p>Der Energiedienstleister Süwag startete zunächst mit 50 Rollern in einer
+    Stadt. Dank der großen Nachfrage konnten sie innerhalb von 18 Monaten schnell
+    auf 250 Roller und 4 Städte in Deutschland skalieren. Ganz zu schweigen davon,
+    dass sie ihre Kundenbindung verbessert haben und aktiv zu nationalen Nachhaltigkeitsinitiativen
+    beitragen. </p><p><strong>Werden Sie der Nächste sein?</strong></p>"
 
 ---
 [Read this article in English.](https://www.wundermobility.com/blog/why-utility-providers-should-get-in-on-the-shared-mobility-game.html)
