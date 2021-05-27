@@ -14,14 +14,24 @@ preview_gallery:
   title: Receive tailored rebalancing recommendations via airtable or API integration
 - image-video: "/uploads/2021/05/05/3-avgcummulativerides-alex-barnes.png"
   title: Our recommendations substantially increase cumulative rides
-description: "<p>We use a machine learning model which combines open source and operator
-  to serve predictions to get the best possible fleet utilisation.</p>"
+description: "<p>Lanterne helps you to deploy your fleet optimally across a city to
+  achieve up to 30% more rides.</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/05/05/1-demopredictions-alex-barnes.png"
-  title: 'We help operators get the most possible rides per day by predicting demand. '
-  screenshot_description: 'We predict oversupplied and undersupplied areas, giving
-    operators actionable insights to improve their fleet utilisation and minimise
-    operations costs. '
+  title: 'We help operators get the most possible rides '
+  screenshot_description: Our machine learning model predicts demand by combining
+    your historical demand and supply data with external data to identify areas with
+    a supply demand mismatch. We then serve you actionable recommendations tailored
+    to your operations to close that gap and boost utilisation.
+- screenshot: "/uploads/2021/05/05/2-demorecommendationsairtable-alex-barnes.png"
+  title: Our solution is easy to use and integrate
+  screenshot_description: You can simply start following our recommendations through
+    the dashboard we provide. You can also integrate our demand predictions and recommendations
+    into your existing tools through our API.
+- screenshot: "/uploads/2021/05/05/3-avgcummulativerides-alex-barnes.png"
+  title: Risk-free trial
+  screenshot_description: Don’t take our word for the value of our solution – our
+    initial analysis and trial will prove it to you.
 app_details:
 - detail_content: "<em>*Additional fees may be charged</em>"
   detail_title: ''
@@ -50,6 +60,5 @@ getting_started:
     pricing based on the value we create.
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---

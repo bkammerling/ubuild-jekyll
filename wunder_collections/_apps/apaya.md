@@ -5,7 +5,7 @@ title: Apaya
 icon: "/uploads/2021/05/14/start-building-connections-2-michael-tomlins.png"
 excerpt: Apaya empowers merchants to satisfy their customer’s payment preferences,
   expand their reach and improve conversion rates.
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2021/05/14/apaya-no_text-michael-tomlins.mp4"
   title: Video
@@ -68,6 +68,5 @@ getting_started:
     integrate.  '
 whitepaper_link: "/uploads/2021/05/21/apaya_merchant-sales_wunder.pdf"
 video_poster: ''
-published: false
 
 ---
