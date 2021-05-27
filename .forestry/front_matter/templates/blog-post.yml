@@ -264,6 +264,10 @@ fields:
             config:
               required: false
             label: Heading
+          - name: body
+            type: text
+            config:
+              required: false
           - name: external_url
             type: text
             config:
