@@ -142,156 +142,34 @@ fields:
         type: text
         config:
           required: false
-        hidden: true
-        label: Layout
-        default: simple-article
-      - name: title
+        label: Heading
+      - name: body
         type: text
         config:
           required: false
-        label: Post Title
-      - name: category
-        type: select
-        default: []
-        config:
-          required: false
-          options:
-            - Insights
-            - News
-            - Life@Wunder
-            - Clients
-          source:
-            type: simple
-            section:
-            file:
-            path:
-        label: Category
-      - name: tags
-        type: tag_list
-        default: []
-        label: Tags
-      - name: publish_date
-        type: datetime
-        label: Publish Date
-        description: ""
-        config:
-          required: false
-          date_format: ""
-          time_format: ""
-          display_utc: true
-          export_format: ""
-      - name: featured_image
-        type: file
-        config:
-          maxSize: "1"
-        label: Featured Image
-        description: To appear on blog list page - good to use an image from the article
-      - name: excerpt
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: true
-          schema:
-            format: markdown
-        label: Excerpt
-      - name: author
-        type: select
-        default: []
-        config:
-          required: false
-          options: []
-          source:
-            type: pages
-            section: people-8a3e1c07-8744-4a78-8ecd-2e184ab8a6d5
-            file:
-            path:
-        label: Author
-      - name: share_image
-        type: file
-        config:
-          maxSize: "1"
-        label: Share Image
-        description: The image that is displayed when this post is shared on social media
-      - name: cta_heading
+        label: Body text
+      - name: external_url
         type: text
         config:
           required: false
-        label: CTA Heading
-        default: Find Out More About Wunder Mobility
+        description: "<em>If outside of Wunder, make sure to include 'https://'</em>"
+        label: Case study URL
+      - name: supporting_image
+        type: file
+        config:
+          maxSize: 64
+        label: Supporting Image
       - name: cta_text
-        type: textarea
-        default:
-          We have a range of solutions using the latest technology driving forward
-          the future of mobility around the world.
+        type: text
         config:
           required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: CTA Text
-      - name: cta_link
-        type: select
-        default: []
-        config:
-          required: false
-          options: []
-          source:
-            type: pages
-            section: pages
-            file:
-            path:
-        label: CTA Link
-      - name: sticky
-        type: boolean
-        label: Sticky Post
-        description: Your latest sticky post will be pinned to the top of the blog list
-      - name: hidden
-        type: boolean
-        label: Hide from Article List
-        description:
-          When you want the post published and live but not in article list
-          on /blog
-      - name: include_case_study
-        type: boolean
-        label: Include case study?
-      - name: case_study_cta
-        type: field_group
-        config: {}
-        fields:
-          - name: heading
-            type: text
-            config:
-              required: false
-            label: Heading
-          - name: body
-            type: text
-            config:
-              required: false
-          - name: external_url
-            type: text
-            config:
-              required: false
-            label: Case study URL
-            description: "<em>If outside of Wunder, make sure to include 'https://'</em>"
-          - name: supporting_image
-            type: file
-            config:
-              maxSize: 1
-            label: Supporting Image
-          - name: cta_text
-            type: text
-            config:
-              required: false
-            label: CTA Button Text
-            description:
-              "Text appears in button link to case study. <em>Default: Learn
-              more</em>"
-            default: Learn more
-        label: Case Study CTA
-        showOnly:
-          field: include_case_study
-          value: true
+        label: CTA Button Text
+        description: "<em>Text appears in button link to case study. Default: Learn more</em>"
+        default: Learn More
+    label: Case Study CTA
+    showOnly:
+      field: include_case_study
+      value: true
 pages:
   - wunder_collections/_posts/2020-06-09-an-interview-with-twist-mobility.md
   - wunder_collections/_posts/2020-06-11-accelerating-a-sustainable-recovery-of-public-transportation.md

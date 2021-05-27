@@ -19,6 +19,13 @@ excerpt: ''
 share_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 sticky: false
 hidden: false
+include_case_study: true
+language: DE
+case_study_cta:
+  heading: Download case study here
+  external_url: "/uploads/2021/01/13/suwag-wunder-case-study-2020.pdf"
+  supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
+  cta_text: Download
 
 ---
 [Read this article in English.](https://www.wundermobility.com/blog/why-utility-providers-should-get-in-on-the-shared-mobility-game.html)
