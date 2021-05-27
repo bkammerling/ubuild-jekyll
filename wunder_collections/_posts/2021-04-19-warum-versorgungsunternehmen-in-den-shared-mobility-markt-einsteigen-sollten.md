@@ -2,12 +2,13 @@
 layout: simple-article
 category: Insights
 tags:
-- versorgungsunternehmen
-- shared mobility
-- e-flotte
+  - versorgungsunternehmen
+  - shared mobility
+  - e-flotte
 author: []
 cta_heading: Sie wollen in Ihrem Unternehmen innovieren?
-cta_text: Dann legen Sie los mit Wunder Fleet! Wunder Fleet ist eine flexible und
+cta_text:
+  Dann legen Sie los mit Wunder Fleet! Wunder Fleet ist eine flexible und
   anpassbare All-in-One-Plattform, die Ihre gebrandete E-Flotte auf den Weg bringt.
   Ausgestattet mit einer App, einem Backend-Managementsystem und Sharing-fähigen Fahrzeugen,
   kann Wunder Fleet Sie in kürzester Zeit auf die Straße bringen.
@@ -15,7 +16,7 @@ cta_link: pages/fleet.md
 title: Warum Versorgungsunternehmen in den Shared-Mobility-Markt einsteigen sollten
 publish_date: 2021-03-25T00:00:00.000+00:00
 featured_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
-excerpt: ''
+excerpt: ""
 share_image: "/uploads/2021/04/21/210421_versorgungsunternehmen_1.jpg"
 sticky: false
 hidden: false
@@ -23,16 +24,18 @@ include_case_study: true
 language: DE
 case_study_cta:
   heading: Eine Erfolgsgeschichte der Shared Mobilität
+  case_study_name: Süwag
   external_url: "/uploads/2021/01/13/suwag-wunder-case-study-2020.pdf"
   supporting_image: "/uploads/2021/01/08/suwag-clientcta@2x.png"
   cta_text: Lesen Sie die Case Study
-  body: "<p>Der Energiedienstleister Süwag startete zunächst mit 50 Rollern in einer
+  body:
+    "<p>Der Energiedienstleister Süwag startete zunächst mit 50 Rollern in einer
     Stadt. Dank der großen Nachfrage konnten sie innerhalb von 18 Monaten schnell
     auf 250 Roller und 4 Städte in Deutschland skalieren. Ganz zu schweigen davon,
     dass sie ihre Kundenbindung verbessert haben und aktiv zu nationalen Nachhaltigkeitsinitiativen
     beitragen. </p><p><strong>Werden Sie der Nächste sein?</strong></p>"
-
 ---
+
 [Read this article in English.](https://www.wundermobility.com/blog/why-utility-providers-should-get-in-on-the-shared-mobility-game.html)
 
 Viele Unternehmen stehen vor der gleichen Herausforderung: Wie erreicht man jüngere Generationen und bleibt dabei authentisch? Wie kann man veraltete Geschäftsmodelle umstellen und Innovationen einbringen?
