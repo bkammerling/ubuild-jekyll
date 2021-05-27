@@ -174,13 +174,19 @@
               />
               <input id="modal_case_study_company" name="case_study_name"
               value="{% unless page.layout == "simple-article"%}{{ page.title
-              }}{% else %}{{ page.case_study_cta.heading }}{% endunless %}"
-              type="hidden" />
+              }}{% else %}{{ page.case_study_cta.case_study_name }}{% endunless
+              %}" type="hidden" />
               <input
                 type="hidden"
                 id="gclid_field"
                 name="gclid_field"
                 value=""
+              />
+              <input
+                type="hidden"
+                id="download_file"
+                name="download_file"
+                value="{{ page.case_study_cta.external_url }}"
               />
               <div class="row my-3">
                 <div class="col-sm-12">
