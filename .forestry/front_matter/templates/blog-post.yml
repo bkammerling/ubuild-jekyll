@@ -136,10 +136,17 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: case_study_name
+    type: text
+    config:
+      required: true
+    label: Case Study Name
+    description: 'This is the keyword we will use for Zapier to send clients the correct
+      case study. EG: Suwag, Rhingo, Volta'
   - name: heading
     type: text
     config:
-      required: false
+      required: true
     label: Heading
   - name: body
     type: textarea
