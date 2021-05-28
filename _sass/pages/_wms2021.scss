@@ -1,0 +1,24 @@
+body.wunder-mobility-summit-2021-\|-defining-the-future-of-mobility {
+  background-color: $mobility-black;
+}
+main#wms2021-main {
+  background-color: $mobility-black;
+
+  & > section.bg-black {
+    background-color: $mobility-black;
+    color: white;
+  }
+  section#countdown {
+    margin-top: 0;
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+  section#dates {
+    p.dates {
+      font-size: 20px;
+    }
+  }
+  hr {
+    border-top: 2px solid white;
+  }
+}
