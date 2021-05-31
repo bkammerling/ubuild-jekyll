@@ -41,6 +41,8 @@ Below we present the differences between each sharing model along with their res
 
 As the name suggests, station-based sharing means that the vehicles need to be picked up and returned to a station. Often it doesn’t matter which station that is and there can be multiple stations within a city. As an example, you might be able to rent a city bike in the city center and then later park it at a station that’s closest to your hotel.
 
+![Station-based sharing bicycles in the UK.](/uploads/2021/05/31/john-jackson-lfgl2rcaytg-unsplash.jpg)
+
 ### **The benefits of station-based vehicles**
 
 The pros of having your vehicles linked to a dedicated station include higher security and increased protection from damages. Your vehicles will probably also last longer, since they’ll be used less often compared to vehicles that are out and about in the key hotspots of a city. Not to mention you won’t need to expend resources to round up your fleet for recharging, since they’ll be brought back to the station by the users themselves.
@@ -61,6 +63,8 @@ Lastly, since the shared mobility market favors free-floating models, you might 
 
 Contrary to station-based, a free-floating model means that your vehicles are independent of a station and can be placed anywhere. As long as you comply with your city’s regulations for micromobility, your mopeds or kickscooters can be strategically placed in hotspot areas where there is high demand. Users can book and use a vehicle and park it wherever is most convenient for them.
 
+![Free floating kickscooters on a road.](/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg)
+
 ### **The benefits of free-floating vehicles**
 
 Flexibility is the biggest benefit of a free-floating vehicle-sharing model. And when it comes to your bottom line, it’s one that can have a huge impact.
@@ -79,4 +83,4 @@ Of course free-floating isn’t 100% perfect. Not having your vehicles tied to a
 
 The winner is clear: Free-floating is by far the superior model for vehicle sharing businesses. The pros heavily outweigh the cons: Free-floating is more flexible, making it more appealing to end users, which in the end is better for your business.
 
-If you’re still married to the idea of station-based vehicle-sharing but can’t find the necessary hardware to realize your dream, Wunder Mobility can support you with a custom geo-fencing solution. We’re also the market leader in mobility software for free-floating vehicle sharing, so get in touch below to receive a tailored demo. 
+If you’re still married to the idea of station-based vehicle-sharing but can’t find the necessary hardware to realize your dream, Wunder Mobility can support you with a custom geo-fencing solution. We’re also the market leader in mobility software for free-floating vehicle sharing, so get in touch below to receive a tailored demo.
