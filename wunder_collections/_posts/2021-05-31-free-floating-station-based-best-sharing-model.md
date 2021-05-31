@@ -6,10 +6,10 @@ tags:
 - vehicle sharing
 - micromobility
 author: []
-cta_heading: Find Out More About Wunder Mobility
+cta_heading: Get in touch for a software demo
 cta_text: We have a range of solutions using the latest technology driving forward
-  the future of mobility around the world.
-cta_link: []
+  the future of free floating shared mobility around the world.
+cta_link: pages/de/fleet.md
 language: EN
 case_study_cta:
   cta_text: Learn More
@@ -21,11 +21,11 @@ case_study_cta:
 title: 'Free-Floating vs. Station-Based: Which is the best sharing model for your
   business?'
 publish_date: 2021-06-04 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg"
 excerpt: 'Since the boom of vehicle sharing, there’s been one key question that mobility
   companies need to answer before they can launch their services: Should we use a
   free-floating or a station-based vehicle sharing model?'
-share_image: ''
+share_image: "/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg"
 sticky: false
 hidden: true
 include_case_study: false
@@ -77,4 +77,6 @@ Of course free-floating isn’t 100% perfect. Not having your vehicles tied to a
 
 ### **Free-floating vs. station-based: Which one is better?**
 
-If you’re married to the idea of station-based vehicle-sharing but can’t find the necessary hardware to realize your dream, Wunder Mobility can support you with a geo-fencing solution. We’re also the market leader in mobility software for free-floating vehicle sharing, so get in touch to receive a tailored demo!
+The winner is clear: Free-floating is by far the superior model for vehicle sharing businesses. The pros heavily outweigh the cons: Free-floating is more flexible, making it more appealing to end users, which in the end is better for your business.
+
+If you’re still married to the idea of station-based vehicle-sharing but can’t find the necessary hardware to realize your dream, Wunder Mobility can support you with a custom geo-fencing solution. We’re also the market leader in mobility software for free-floating vehicle sharing, so get in touch below to receive a tailored demo. 
