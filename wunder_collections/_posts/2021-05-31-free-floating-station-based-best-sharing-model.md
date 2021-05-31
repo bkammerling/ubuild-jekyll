@@ -79,7 +79,7 @@ All of these points add up to a superior user experience, and in the end, thatâ€
 
 Of course free-floating isnâ€™t 100% perfect. Not having your vehicles tied to a station may increase the potential for damage and theft. However, even this pain point can be addressed with modern security systems and locks, which are already part of the future of electric vehicles.
 
-### **Free-floating vs. station-based: Which one is better?**
+## **Free-floating vs. station-based: Which one is better?**
 
 The winner is clear: Free-floating is by far the superior model for vehicle sharing businesses. The pros heavily outweigh the cons: Free-floating is more flexible, making it more appealing to end users, which in the end is better for your business.
 
