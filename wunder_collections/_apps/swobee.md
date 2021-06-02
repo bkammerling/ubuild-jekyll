@@ -14,13 +14,13 @@ preview_gallery:
   title: Dashboard & App
 - image-video: "/uploads/2021/06/02/swobbee-station_4-kevin-goebel.png"
   title: Swobbee station
-description: <p>Swobbee is the e-"gas station" for micro-mobility. </p><p>Empty batteries
+description: <p>Swobbee is the e-"gas station" for micro-mobility.</p><p>Empty batteries
   of e-bikes, e-scooters, e-kickscooters and other light electric vehicles can be
-  swapped for full ones 24/7 at a Swobbee station in just a few seconds. </p><p>The
+  swapped for full ones 24/7 at a Swobbee station in just a few seconds.</p><p>The
   Swobbee network is the only open decentralised battery swapping network for sharing
   and last mile logistic providers. With our services we guarantee our customers the
-  constant availability of charged batteries wherever they go. </p><p>Our software
-  analytics supports them to optimize operations and reduce costs. </p><p>With Swobbee
+  constant availability of charged batteries wherever they go.</p><p>Our software
+  analytics supports them to optimize operations and reduce costs.</p><p>With Swobbee
   our customers can focus on what matters the most – moving foreward !</p>
 screenshot_details:
 - screenshot: "/uploads/2021/06/02/charing_infrastructure1-kevin-goebel.png"
