@@ -1,17 +1,19 @@
-body.wunder-mobility-summit-2021-\|-defining-the-future-of-mobility {
-  background-color: $mobility-black;
+body[class*="summit"] {
+  background-color: #000;
+  padding-top: 0;
 }
 main#wms2021-main {
-  background-color: $mobility-black;
+  background-color: #000;
 
   & > section.bg-black {
-    background-color: $mobility-black;
+    background-color: #000;
     color: white;
   }
   section#countdown {
     margin-top: 0;
-    padding-top: 53px;
-    padding-bottom: 53px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 0;
   }
   section#dates {
     p.dates {
@@ -19,6 +21,65 @@ main#wms2021-main {
     }
   }
   hr {
-    border-top: 2px solid white;
+    border-top: 1px solid white;
+  }
+  section#speakers {
+    .headline-medium {
+      color: white;
+    }
+
+    .speaker-container {
+      color: $mobility-black;
+      background-color: white;
+      hr {
+        border-top: 1px solid $mobility-black;
+        width: 100%;
+      }
+    }
+  }
+  @media (min-width: 769px) {
+    .hero-banner {
+      background-image: url("/uploads/global/wms2021/relive_wms19@2x.png");
+    }
+  }
+  @media (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .hero-banner {
+      background-image: url("/uploads/global/wms2021/relive_wms19.png");
+    }
+  }
+  .hero-banner {
+    background-image: url("/uploads/global/wms2021/relive_wms19@2x.png");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-banner {
+      background-image: url("/uploads/global/wms2021/relive_wms19.png");
+    }
+  }
+  .block-hero-hp .hero-banner .hero-banner__inner-content {
+    padding: 4rem 0;
+  }
+  section#faq {
+    .card {
+      background-color: transparent;
+    }
+    .card-header {
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid #fff;
+    }
+    .btn.btn-link {
+      color: white;
+      text-decoration: none;
+      width: 100%;
+      padding-left: 0;
+      text-align: left;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  section#podcast {
+    margin-bottom: 0;
   }
 }

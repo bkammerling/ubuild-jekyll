@@ -6,18 +6,41 @@ description:
   ecosystem. During WMS, the biggest players, policymakers, visionaries and more come
   together for an exchange of insights and ideas.
 date: "2021-06-04T23:00:00.000+00:00"
+component_scripts:
+  - clientCarousel.js
 permalink: "/summit/"
 version: hp
 lang-ref: summit
 lang: en
 share_image: ""
 speakers:
-- name: Gunnar Froh
-        job_title: CEO & Co-Founder
-        company: Wunder Mobility
-        speaker_photo: "/uploads/2019/05/10/gunnar.png"
-        company_logo: "/uploads/global/wunder-logo-2020.svg"
-        bio: ""
+  - name: Gunnar Froh
+    job_title: CEO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/2019/05/10/gunnar.png"
+    company_logo: "/uploads/global/wunder-logo-2020.svg"
+    bio: ""
+    linkedin:
+  - name: Cristoph Wolff
+    job_title: Global Head of Future Mobility
+    company: World Economic Forum
+    speaker_photo:
+    linkedin:
+  - name: Oliver Reppert
+    job_title: CEO
+    company: SHARE NOW
+    speaker_photo:
+    linkedin:
+  - name: Thomas Juul Heltborg
+    job_title: Group CEO
+    company: GreenMobility
+    speaker_photo:
+    linkedin:
+  - name: Valerian Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo:
+    linkedin:
 page_sections:
   - template: navigation-header-w-button
     block: header-2
