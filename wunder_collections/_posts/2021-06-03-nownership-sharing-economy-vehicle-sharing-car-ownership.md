@@ -33,7 +33,7 @@ The sharing economy has been around for quite some time now, tracing its start b
 
 This is due to millennials and younger generations increasingly foregoing ownership of things in favor of sharing items, services, and experiences within their communities – known also as the NOwnership movement.
 
-NOwnership is especially attractive for younger generations because it’s more sustainable as well as economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and fits well into overcrowded or even cramped lifestyles. 
+NOwnership is especially attractive for younger generations because it’s more sustainable and economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and fits well into overcrowded or even cramped lifestyles. 
 
 This might be why the sharing model works so well in cities and urban environments. Citizens already deal with a lack of space and resources – e.g. apartment space, parking spaces, higher rent, expensive appliances, tools or vehicles – so having the option to save money while still getting the things they need makes a lot of economic sense.
 
@@ -41,7 +41,7 @@ This might be why the sharing model works so well in cities and urban environmen
 
 This is especially true for car ownership. A [study from Goldman Sachs](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) has shown that millennials are increasingly reluctant to buy big ticket items, like cars and luxury goods. Instead, they are making use of the sharing economy for mobility, where they can access vehicles like cars, scooters, and bikes whenever they need them and without having to own them.
 
-![a graph showing the interest of millennials in car ownership.](https://lh3.googleusercontent.com/kVzq8i_Q6uUfPrqjNDAjasqTuHQAMfqja28w1VUb8LkhR1Kh88SN6GwXo8ynlWJdXauQiCB1d2YdaBUfLMVPMEwzZkW-uZ6lHOSvkPBXdE5w5Pe8D7013B6fWLoqS7AI4gARXXAd "Source: Goldman Sachs" =509x300)
+![a graph showing the interest of millennials in car ownership.](/uploads/2021/06/03/screenshot-2021-06-01-at-14-55-09.png "Source: Goldman Sachs")
 
 30% of millennials [surveyed](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) said they don’t intend to purchase a private car in the near future. 25% deemed car ownership not a big priority, and a further 25% were indifferent.
 
@@ -63,10 +63,10 @@ The emissions from road vehicles are high because a significant amount of commut
 
 It may be disappointing to see how many people still rely on the outdated car ownership model, even though it no longer makes much financial and environmental sense. The tides are turning, however, and vehicle sharing is growing as a viable alternative to car ownership that can also have a positive impact on the environment and on urban landscapes.
 
-How? One solution is eliminating the need for parking spaces. An [MIT study](http://senseable.mit.edu/unparking/) estimates that vehicle sharing can reduce parking spaces in cities by 86%, freeing up valuable areas for green projects for citizens. And on the sustainability front, [the combination](https://www.linkedin.com/feed/update/urn:li:activity:6803287639601496064) of car sharing, public transport and bike sharing could save up to 3,500 tons of CO₂ per day alone in Germany.
+One solution is eliminating the need for parking spaces. An [MIT study](http://senseable.mit.edu/unparking/) estimates that vehicle sharing can reduce parking spaces in cities by 86%, freeing up valuable areas for green projects for citizens. And on the sustainability front, [the combination](https://www.linkedin.com/feed/update/urn:li:activity:6803287639601496064) of car sharing, public transport and bike sharing could save up to 3,500 tons of CO₂ per day alone in Germany.
 
 ## Vehicle sharing as the future of mobility
 
 As the EU Green Deal aims for the reduction of carbon emissions [by 55% by 2030](https://www.weforum.org/agenda/2021/04/future-of-transport-sustainable-development-goals/), cities and commuters should look increasingly towards shared mobility as a proven way to reach their own sustainability goals.
 
-It’s also what the new generations prefer in terms of interacting with goods and services. Entrepreneurs and mobility veterans should take note: giving up car ownership for shared mobility is where the market is heading. Those who don’t get on board get left behind.
+It’s also what the new generations prefer in terms of interacting with goods and services. Entrepreneurs and mobility veterans should take note: giving up car ownership for shared mobility is where the market is headed. Those who don’t get on board get left behind.
