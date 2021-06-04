@@ -1,11 +1,11 @@
 <main id="wms2021-main">
   <section id="countdown" class="bg-black sticky-top">
-    <div class="container-fluid">
+    <div class="container-fluid px-5">
       <div class="row align-items-center">
-        <div class="col-md-4">
+        <div class="col-md-4 timer-container">
           <div id="timer"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 date-container">
           <p class="text-center m-0">
             October 11
             <img
@@ -16,7 +16,7 @@
             12 | Hamburg, Germany
           </p>
         </div>
-        <div class="col-md-4 d-flex align-items-center">
+        <div class="col-md-4 justify-content-end apply-container">
           <p class="mr-2 mb-0">Apply for exclusive WMS'21 tickets</p>
           <a href="" class="btn btn-outline-light">Apply to attend</a>
         </div>
@@ -91,14 +91,17 @@
       <h2 class="headline-medium mb-5">Our 2021 Panelists & Speakers</h2>
       <div class="row">
         {% for speaker in page.speakers %}
-        <div class="col-md-3 pb-3">
+        <div class="col-md-3 col-sm-6 pb-3">
           <div class="speaker-container p-3 h-100">
             <div class="d-flex flex-column">
               <p class="headline-small font-weight-bold">{{ speaker.name }}</p>
               <hr />
               <p class="mb-0">{{ speaker.job_title }}</p>
               <p class="mt-0 mb-4">{{ speaker.company }}</p>
-              <img src="{{ speaker.speaker_photo }}" alt="" />
+              <div
+                class="speaker-image"
+                style="background-image: url('{{ speaker.speaker_photo | relative_url }}');"
+              ></div>
             </div>
           </div>
         </div>
@@ -106,20 +109,36 @@
       </div>
     </div>
   </section>
-  <section id="agenda">
+  <section id="timeline">
     <div class="container">
       <div class="row text-white">
-        <div class="col-md-3 pt-3">
+        <div class="col-lg-4 pt-3">
           <h2>
             Exclusive <br />
             Vibrant <br />
             Inspiring
           </h2>
         </div>
-        <div class="col-md-3 pt-3">
-          <h4 class="headline-medium font-weight-light">11.10.</h4>
+        <div class="col-lg-2 pt-3">
+          <h4 class="headline-medium font-weight-light">
+            11.10.<svg
+              class="ml-3"
+              width="31"
+              height="15"
+              viewBox="0 0 31 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23.4565 0.298304L30.6681 6.77983C31.1106 7.17757 31.1106 7.82243 30.6681 8.22017L23.4565 14.7017C23.0139 15.0994 22.2964 15.0994 21.8539 14.7017C21.4113 14.304 21.4113 13.6591 21.8539 13.2614L27.131 8.51847H1.1332C0.507351 8.51847 0 8.06249 0 7.5C0 6.93751 0.507351 6.48153 1.1332 6.48153H27.131L21.8539 1.73864C21.4113 1.3409 21.4113 0.696043 21.8539 0.298304C22.2964 -0.0994348 23.0139 -0.0994348 23.4565 0.298304Z"
+                fill="white"
+              />
+            </svg>
+          </h4>
         </div>
-        <div class="col-md-6 border-left pl-5 pt-3">
+        <div class="col-lg-6 border-left pl-5 pt-3">
           <h4 class="headline-medium font-weight-bold">Kick-Off</h4>
           <p class="font-weight-bold">8.00 PM: Mix & Mingle</p>
           <p class="mb-5">
@@ -129,10 +148,26 @@
             guests over drinks and music.
           </p>
         </div>
-        <div class="col-md-3 offset-md-3">
-          <h4 class="headline-medium font-weight-light">12.10.</h4>
+        <div class="col-lg-2 offset-lg-4">
+          <h4 class="headline-medium font-weight-light">
+            12.10.<svg
+              class="ml-3"
+              width="31"
+              height="15"
+              viewBox="0 0 31 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23.4565 0.298304L30.6681 6.77983C31.1106 7.17757 31.1106 7.82243 30.6681 8.22017L23.4565 14.7017C23.0139 15.0994 22.2964 15.0994 21.8539 14.7017C21.4113 14.304 21.4113 13.6591 21.8539 13.2614L27.131 8.51847H1.1332C0.507351 8.51847 0 8.06249 0 7.5C0 6.93751 0.507351 6.48153 1.1332 6.48153H27.131L21.8539 1.73864C21.4113 1.3409 21.4113 0.696043 21.8539 0.298304C22.2964 -0.0994348 23.0139 -0.0994348 23.4565 0.298304Z"
+                fill="white"
+              />
+            </svg>
+          </h4>
         </div>
-        <div class="col-md-6 border-left pl-5">
+        <div class="col-lg-6 border-left pl-5">
           <h4 class="headline-medium font-weight-bold">Summit Day</h4>
           <p class="font-weight-bold">9.00 AM: Let’s Get Started</p>
           <p class="mb-5">
@@ -143,7 +178,7 @@
             drives, and fantastic food, drinks, and entertainment.
           </p>
         </div>
-        <div class="offset-md-6 col-md-6 pl-5 border-left">
+        <div class="offset-lg-6 col-md-6 pl-5 border-left">
           <h4 class="headline-medium font-weight-bold">Dinner & Party</h4>
           <p class="font-weight-bold">5.30 PM Until Late: The Grand Finale</p>
           <p class="mb-3">
@@ -163,95 +198,167 @@
     <div class="container-fluid text-white">
       <h2 class="headline-medium">What to expect at this year's event</h2>
       <div class="row mt-5">
-        <div class="mb-5 col-md-4 agenda-container">
+        <div class="mb-5 col-lg-4 col-sm-6 agenda-container">
           <div class="h-100 p-4 border">
             <h4 class="headline-medium">Conference</h4>
             <hr />
-            <p>
-              inspirational speakers share their knowledge in lively panel
+            <p class="mb-4">
+              Inspirational speakers share their knowledge in lively panel
               discussions
             </p>
-            <img src="uploads/global/Dortmund.jpg" alt="" />
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/conference.png');
+              "
+            ></div>
           </div>
         </div>
-        <div class="col-md-4 mb-5 agenda-container">
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container">
           <div class="h-100 p-4 border">
-            <h4 class="headline-medium">Conference</h4>
+            <h4 class="headline-medium">Tech Playground</h4>
             <hr />
-            <p>
+            <p class="mb-4">
               inspirational speakers share their knowledge in lively panel
               discussions
             </p>
-            <img src="uploads/global/Dortmund.jpg" alt="" />
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/tech_playground.png');
+              "
+            ></div>
           </div>
         </div>
-        <div class="col-md-4 mb-5 agenda-container">
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container">
           <div class="h-100 p-4 border">
-            <h4 class="headline-medium">Conference</h4>
+            <h4 class="headline-medium">Test Drive</h4>
             <hr />
-            <p>
+            <p class="mb-4">
               inspirational speakers share their knowledge in lively panel
               discussions
             </p>
-            <img src="uploads/global/Dortmund.jpg" alt="" />
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/tech_playground.png');
+              "
+            ></div>
           </div>
         </div>
-        <div class="col-md-4 mb-5 agenda-container">
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container">
           <div class="h-100 p-4 border">
-            <h4 class="headline-medium">Conference</h4>
+            <h4 class="headline-medium">Active Matchmaking</h4>
             <hr />
-            <p>
+            <p class="mb-4">
               inspirational speakers share their knowledge in lively panel
               discussions
             </p>
-            <img src="uploads/global/Dortmund.jpg" alt="" />
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/active_matchmaking.png');
+              "
+            ></div>
           </div>
         </div>
-        <div class="col-md-4 mb-5 agenda-container">
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container">
           <div class="h-100 p-4 border">
-            <h4 class="headline-medium">Conference</h4>
+            <h4 class="headline-medium">Network & Conferencing</h4>
             <hr />
-            <p>
+            <p class="mb-4">
               inspirational speakers share their knowledge in lively panel
               discussions
             </p>
-            <img src="uploads/global/Dortmund.jpg" alt="" />
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/conference.png');
+              "
+            ></div>
           </div>
         </div>
-        <div class="col-md-4 mb-5 agenda-container">
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container">
           <div
             class="h-100 p-4 border d-flex flex-column justify-content-between"
           >
             <h4 class="headline-medium">Not your average summit</h4>
-            <a></a>
-            <p>Discover the agenda</p>
+            <a
+              href="{{ page.agenda_file }}"
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-white
+              "
+            >
+              <p>
+                Discover the <br />
+                complete agenda
+              </p>
+              <svg
+                width="57"
+                height="57"
+                viewBox="0 0 57 57"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 28C13.4477 28 13 28.4477 13 29C13 29.5523 13.4477 30 14 30V28ZM40.7071 29.7071C41.0976 29.3166 41.0976 28.6834 40.7071 28.2929L34.3431 21.9289C33.9526 21.5384 33.3195 21.5384 32.9289 21.9289C32.5384 22.3195 32.5384 22.9526 32.9289 23.3431L38.5858 29L32.9289 34.6569C32.5384 35.0474 32.5384 35.6805 32.9289 36.0711C33.3195 36.4616 33.9526 36.4616 34.3431 36.0711L40.7071 29.7071ZM14 30H40V28H14V30Z"
+                  fill="white"
+                />
+                <circle
+                  cx="28.5"
+                  cy="28.5"
+                  r="27.5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="sponsors">
+  <section id="sponsors" class="py-5">
     <div class="container text-white">
-      <div class="row">
+      <div class="row justify-content-around">
         <div class="col-12">
           <h3 class="text-center mb-5">Sponsors</h3>
         </div>
-        <div class="col-md-2 offset-md-5 mb-5">
-          <img src="uploads/global/wms2021/pwc.png" alt="" class="mb-5" />
+        <div class="col-md-4 mb-5">
+          <img
+            src="uploads/global/wms2021/pwc.png"
+            alt=""
+            class="mb-5 mx-auto d-block"
+          />
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-around">
         <div class="col-12">
           <h3 class="text-center mb-5">Media Partners & Supporters</h3>
         </div>
         <div class="col-md-4">
-          <img src="uploads/global/wms2021/background_logo.png" alt="" />
+          <img
+            src="uploads/global/wms2021/background_logo.png"
+            class="mx-auto d-block"
+            alt=""
+          />
         </div>
         <div class="col-md-4">
-          <img src="uploads/global/wms2021/automobil_logo.png" alt="" />
+          <img
+            src="uploads/global/wms2021/automobil_logo.png"
+            class="mx-auto d-block"
+            alt=""
+          />
         </div>
         <div class="col-md-4">
-          <img src="uploads/global/wms2021/next_mobility_logo.png" alt="" />
+          <img
+            src="uploads/global/wms2021/next_mobility_logo.png"
+            class="mx-auto d-block"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -296,7 +403,7 @@
   </section>
   <section id="wms19">
     <div class="container">
-      <div class="row text-white mb-5">
+      <div class="row text-white mb-5 description">
         <div class="col-md-6">
           <h2 class="headline-medium">
             WMS’19 caught <br />
@@ -307,7 +414,7 @@
           <h4 class="headline-small">120+</h4>
           <p class="mb-4">Accounts live-tweeting about the event</p>
           <h4 class="headline-small">420k</h4>
-          <p>Poeple reached via #WMS19</p>
+          <p>People reached via #WMS19</p>
         </div>
       </div>
       <div class="row">

@@ -11,9 +11,29 @@ main#wms2021-main {
   }
   section#countdown {
     margin-top: 0;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 0;
+    .container-fluid {
+      max-width: 1920px;
+    }
+    #timer {
+      @include rwd(tablet-down) {
+        text-align: center;
+      }
+    }
+    .date-container {
+      @include rwd(tablet-down) {
+        display: none;
+      }
+    }
+    .apply-container {
+      display: flex;
+      align-items: center;
+      @include rwd(tablet-down) {
+        display: none;
+      }
+    }
   }
   section#dates {
     p.dates {
@@ -34,6 +54,20 @@ main#wms2021-main {
       hr {
         border-top: 1px solid $mobility-black;
         width: 100%;
+      }
+      & > div.d-flex {
+        justify-content: space-around;
+        height: 100%;
+      }
+      .speaker-image {
+        max-width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @include rwd(tablet-up) {
+          height: 147px;
+        }
       }
     }
   }
@@ -81,5 +115,76 @@ main#wms2021-main {
   }
   section#podcast {
     margin-bottom: 0;
+    position: relative;
+    &:after {
+      content: url("/uploads/global/wms2021/circle_group.png");
+      position: absolute;
+      bottom: -500px;
+      left: -200px;
+      height: 800px;
+      width: 800px;
+      z-index: 0;
+    }
+
+    #podcast-logos:before {
+      display: none;
+    }
+    #podcast-logos {
+      z-index: 2;
+    }
+  }
+  section#agenda {
+    position: relative;
+
+    .container-fluid {
+      &:after {
+        content: url("/uploads/global/wms2021/pink_blur.png");
+        position: absolute;
+        top: 0;
+        left: 70%;
+        height: 800px;
+        width: 800px;
+        z-index: 0;
+      }
+    }
+    .agenda-container {
+      z-index: 2;
+      .border {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      hr {
+        width: 100%;
+      }
+    }
+    .img-container {
+      max-width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-self: flex-end;
+      @include rwd(tablet-up) {
+        height: 202px;
+      }
+    }
+  }
+  section#sponsors {
+    position: relative;
+    &:after {
+      content: url("/uploads/global/wms2021/circle-2.png");
+      position: absolute;
+      bottom: -60%;
+      left: -900px;
+      transform: rotate(90deg);
+    }
+  }
+  section#wms19 {
+    .description {
+      @include rwd(tablet-down) {
+        text-align: center;
+      }
+    }
   }
 }
