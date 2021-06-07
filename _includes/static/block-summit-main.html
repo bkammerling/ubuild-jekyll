@@ -18,7 +18,13 @@
         </div>
         <div class="col-md-4 justify-content-end apply-container">
           <p class="mr-2 mb-0">Apply for exclusive WMS'21 tickets</p>
-          <a href="" class="btn btn-outline-light">Apply to attend</a>
+          <button
+            class="btn btn-outline-light"
+            data-target="#wmsModal"
+            data-toggle="modal"
+          >
+            Apply to attend
+          </button>
         </div>
       </div>
     </div>
@@ -677,6 +683,7 @@
       </div>
     </div>
   </div>
+  {% include block-wms-modal.html %}
 </main>
 <!-- Countdown Timer -->
 <script>
