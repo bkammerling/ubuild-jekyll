@@ -38,7 +38,7 @@ featured_episodes:
 - image: "/uploads/2021/06/08/web_opti_podcast-cover-18-timo-buetefisch.jpeg"
   url: https://open.spotify.com/episode/1yxVJdiv6hpLGkNvGJiB9S?si=AVDyJjV3RhW_ItX-EQqv1g
   number: "18"
-  title: Timo Buetefisch, Co-founder & CEO, Cooltra
+  title: Timo Buetefisch
 - image: uploads/global/podcast/episodes/Podcast Cover 16 - Hui Zhang.jpg
   url: https://open.spotify.com/episode/1Mmxjk4lmyF047QrlyHRoL?si=FtSV2djDSN6hzBp2b3yuGQ
   number: "17"
