@@ -4,7 +4,7 @@ category: Analytics and Monitoring
 title: City Dive
 icon: "/uploads/2021/01/06/fluctuo-1-dark-julien-chamussy.png"
 excerpt: Take a deep dive into the shared-mobility ecosystem
-featured: false
+featured: true
 preview_gallery:
 - image-video: "/uploads/2021/01/06/city-dive-video-demo-ld-2020-05-julien-chamussy.mp4"
   title: Video
