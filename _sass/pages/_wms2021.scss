@@ -9,6 +9,11 @@ main#wms2021-main {
     background-color: #000;
     color: white;
   }
+  section#apply {
+    @include rwd(tablet-up) {
+      display: none;
+    }
+  }
   section#countdown {
     margin-top: 0;
     padding-top: 20px;
@@ -102,6 +107,10 @@ main#wms2021-main {
       color: white;
       border-bottom: 1px solid #fff;
     }
+    .card-body a {
+      color: white;
+      text-decoration: underline;
+    }
     .btn.btn-link {
       color: white;
       text-decoration: none;
@@ -110,6 +119,11 @@ main#wms2021-main {
       text-align: left;
       &:hover {
         text-decoration: none;
+      }
+      &[aria-expanded="true"] {
+        img {
+          transform: rotate(180deg);
+        }
       }
     }
   }
