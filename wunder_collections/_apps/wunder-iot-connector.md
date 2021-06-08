@@ -63,6 +63,5 @@ getting_started:
     your devices
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
