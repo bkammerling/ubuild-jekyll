@@ -2,7 +2,7 @@
 layout: marketplace-app
 category: Integrations (API)
 title: Wunder IoT Connector
-icon: "/uploads/2020/11/23/wunder-iot_connector-logo-1.png"
+icon: "/uploads/2021/06/08/group-33.png"
 excerpt: Cut running costs & stay in full control of your vehicle fleet with the Wunder
   IoT Connector.
 featured: false
