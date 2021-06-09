@@ -56,6 +56,7 @@ main#wms2021-main {
     .speaker-container {
       color: $mobility-black;
       background-color: white;
+
       hr {
         border-top: 1px solid $mobility-black;
         width: 100%;
@@ -64,16 +65,36 @@ main#wms2021-main {
         justify-content: space-around;
         height: 100%;
       }
+      .headline-small {
+        border-bottom: 1px solid black;
+      }
+      .speaker-description p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
       .speaker-image {
         max-width: 100%;
         height: 250px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
+        &.with-linkedin:after {
+          content: url("/uploads/global/wms2021/speakers/linkedin.svg");
+          height: 24px;
+          width: 24px;
+          position: absolute;
+          bottom: 6px;
+          right: 6px;
+        }
         @include rwd(tablet-up) {
           height: 147px;
         }
       }
+    }
+    .collapse.show,
+    .collapsing {
+      display: flex;
     }
   }
   @media (min-width: 769px) {

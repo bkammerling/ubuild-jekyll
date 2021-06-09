@@ -14,32 +14,91 @@ lang-ref: summit
 lang: en
 share_image: ""
 speakers:
-  - name: Gunnar Froh
+  - first_name: Gunnar 
+    last_name: Froh
     job_title: CEO & Co-Founder
     company: Wunder Mobility
     speaker_photo: "/uploads/2019/05/10/gunnar.png"
     company_logo: "/uploads/global/wunder-logo-2020.svg"
     bio: ""
-    linkedin:
-  - name: Cristoph Wolff
-    job_title: Global Head of Future Mobility
+    linkedin: "https://linkedin.com/in/"
+  - first_name: Cristoph 
+    last_name: Wolff
+    job_title: Global Head of Mobility and Member of the Executive Committee 
     company: World Economic Forum
-    speaker_photo:
+    speaker_photo: "uploads/global/wms2021/speakers/WEF-Christoph-Wolff-2020 1.png"
     linkedin:
-  - name: Oliver Reppert
+  - first_name: Oliver 
+    last_name: Reppert
     job_title: CEO
     company: SHARE NOW
-    speaker_photo:
+    speaker_photo: "uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
     linkedin:
-  - name: Thomas Juul Heltborg
+  - first_name: Thomas Juul 
+    last_name: Heltborg
     job_title: Group CEO
     company: GreenMobility
-    speaker_photo:
+    speaker_photo: "uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
     linkedin:
-  - name: Valerian Seither
+  - first_name: Valerian 
+    last_name: Seither
     job_title: Co-founder & CEO
     company: emmy
-    speaker_photo:
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:  
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin:
+  - first_name: Valerian 
+    last_name: Seither
+    job_title: Co-founder & CEO
+    company: emmy
+    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
     linkedin:
 faqs:
   - question: Who is WMS’21 for?
@@ -88,4 +147,16 @@ menu:
     parent: events
     title: Startup Stage
     identifier: item_TVWQMxx
+sponsors:
+  - logo: "/uploads/global/wms2021/sponsors/pwc_logo.png"
+    url: "https://pwc.com"
+media_partners:
+  - logo: "/uploads/global/wms2021/sponsors/background_logo.png"
+    url: 
+  - logo: "/uploads/global/wms2021/sponsors/automobil_logo.png"
+    url:
+  - logo: "/uploads/global/wms2021/sponsors/next_mobility_logo.png"
+    url:
+  - logo: "/uploads/global/wms2021/sponsors/intellicarde_logo.png"
+    url:
 ---
