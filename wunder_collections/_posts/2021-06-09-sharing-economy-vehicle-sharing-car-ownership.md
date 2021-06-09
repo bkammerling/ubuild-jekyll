@@ -45,7 +45,7 @@ This is especially true for car ownership. A [study from Goldman Sachs](https://
 
 30% of millennials [surveyed](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) said they don’t intend to purchase a private car in the near future. 25% deemed car ownership not a big priority, and a further 25% were indifferent.
 
-This goes to show that the NOwnership is having a serious impact on the mobility and transportation industries – and the vehicle sharing market is [growing accordingly](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/micromobilitys-15000-mile-checkup). American economic writer and theorist [Jeremy Rifkin says](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) that, “25 years from now, car sharing will be the norm, and car ownership an anomaly.”
+This goes to show that the NOwnership is having a serious impact on the mobility and transportation industries – and the vehicle sharing market is [growing accordingly](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/micromobilitys-15000-mile-checkup). American economic writer and theorist [Jeremy Rifkin says](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) that, “25 years from now, car sharing will be the norm, and car ownership an anomaly.” 
 
 ## The true costs of car ownership
 
