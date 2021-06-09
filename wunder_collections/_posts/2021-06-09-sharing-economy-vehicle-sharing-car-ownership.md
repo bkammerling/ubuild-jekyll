@@ -29,9 +29,11 @@ hidden: true
 include_case_study: false
 
 ---
-You've heard of the sharing economy – a [still growing](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) socio-economic system that traces its rise back to the Great Recession. Well, millennials have taken the sharing economy to the next level with a movement that [Forbes](https://www.forbes.com/sites/blakemorgan/2019/01/02/nownership-no-problem-an-updated-look-at-why-millennials-value-experiences-over-owning-things/?sh=2405d6f4522f) has dubbed NOwnership.
+You've heard of the sharing economy: it's a [still growing](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) socio-economic system that traces its rise back to the Great Recession. 
 
-NOwnership – a portmanteau of "no" and "ownership" – is a movement by younger generations away from owning things in favor of sharing them with others within their community or relying one a service that provides what they need, when they need it. 
+Well, millennials have taken the sharing economy to the next level with a movement that [Forbes](https://www.forbes.com/sites/blakemorgan/2019/01/02/nownership-no-problem-an-updated-look-at-why-millennials-value-experiences-over-owning-things/?sh=2405d6f4522f) has dubbed NOwnership.
+
+NOwnership – a portmanteau of "no" and "ownership" – is a movement by younger generations away from owning things in favor of sharing them with others within their community, or relying on a service that provides what they need, when they need it.
 
 It's especially attractive for younger generations because foregoing the ownership of objects is more sustainable and economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and coexists well with overcrowded or even cramped urban dwellings.
 
@@ -45,7 +47,7 @@ This is especially true for car ownership. A [study from Goldman Sachs](https://
 
 30% of millennials [surveyed](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) said they don’t intend to purchase a private car in the near future. 25% deemed car ownership not a big priority, and a further 25% were indifferent.
 
-This goes to show that the NOwnership is having a serious impact on the mobility and transportation industries – and the vehicle sharing market is [growing accordingly](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/micromobilitys-15000-mile-checkup). American economic writer and theorist [Jeremy Rifkin says](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) that, “25 years from now, car sharing will be the norm, and car ownership an anomaly.” 
+This goes to show that the NOwnership is having a serious impact on the mobility and transportation industries – and the vehicle sharing market is [growing accordingly](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/micromobilitys-15000-mile-checkup). American economic writer and theorist [Jeremy Rifkin says](https://www.goldmansachs.com/insights/archive/millennials/#:\~:text=Pew%20Research%20Center-,Access%2C%20not%20ownership,called%20a%20%22sharing%20economy.%22) that, “25 years from now, car sharing will be the norm, and car ownership an anomaly.”
 
 ## The true costs of car ownership
 
