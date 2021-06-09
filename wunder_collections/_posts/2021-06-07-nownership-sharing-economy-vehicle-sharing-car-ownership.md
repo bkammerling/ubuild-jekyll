@@ -18,7 +18,7 @@ case_study_cta:
   external_url: ''
   supporting_image: ''
 title: NOwnership, Sharing Economy, and the Impact on Vehicle Sharing and Car Ownership
-publish_date: 2021-06-04 00:00:00 +0000
+publish_date: 2021-06-04T00:00:00.000+00:00
 featured_image: "/uploads/2021/06/07/pop-zebra-kjzsixoxrue-unsplash.jpg"
 excerpt: In the sharing economy, car ownership is decreasing while vehicle sharing
   is starting to become the predominant mode of transport, especially for younger
@@ -29,13 +29,13 @@ hidden: true
 include_case_study: false
 
 ---
-The sharing economy has been around for quite some time now, tracing its start back to the global financial crisis in 2008. Though most economies have recovered over the last decade, the sharing economy is here to stay – and not showing any signs of slowing its impressive [growth](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) trajectory.
+You've heard of the sharing economy – a [still growing](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) socio-economic system that traces its rise back to the Great Recession. Well, millennials have taken the sharing economy to the next level with a movement that [Forbes](https://www.forbes.com/sites/blakemorgan/2019/01/02/nownership-no-problem-an-updated-look-at-why-millennials-value-experiences-over-owning-things/?sh=2405d6f4522f) has dubbed NOwnership.
 
-This is due to millennials and younger generations increasingly foregoing ownership of things in favor of sharing items, services, and experiences within their communities – known also as the NOwnership movement.
+NOwnership – a portmanteau of "no" and "ownership" – is a movement by younger generations away from owning things in favor of sharing them with others within their community or relying one a service that provides what they need, when they need it. 
 
-NOwnership is especially attractive for younger generations because it’s more sustainable and economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and fits well into overcrowded or even cramped lifestyles. 
+It's especially attractive for younger generations because foregoing the ownership of objects is more sustainable and economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and coexists well with overcrowded or even cramped urban dwellings.
 
-This might be why the sharing model works so well in cities and urban environments. Citizens already deal with a lack of space and resources – e.g. apartment space, parking spaces, higher rent, expensive appliances, tools or vehicles – so having the option to save money while still getting the things they need makes a lot of economic sense.
+This might be why the sharing model works so well in cities and urban environments. Citizens already deal with a lack of space and resources – e.g. apartment space, parking spaces, higher rent, expensive appliances, tools or vehicles – so having the option to save money while still getting the things one needs makes a lot of economic sense.
 
 ## Millennials and younger generations don’t want to own cars
 
@@ -53,19 +53,21 @@ There are considerable costs that go into car ownership: fuel, maintenance, taxe
 
 On average, those surveyed underestimated the total costs of owning a car by €221 ($240) per month. That amounts to 52% of the actual costs – meaning that the real, total cost is almost double that what people think it is.
 
+> "25 years from now, car sharing will be the norm, and car ownership an anomaly.”
+
 ## The impact of car ownership and vehicle sharing on the environment
 
-Owning a car doesn’t only have a financial cost, but an environmental one as well.
+Owning a car isn't just a financial burden, it has an immense impact on the environment as well.
 
 [Recent findings](https://www.iea.org/reports/transport-energy-and-co2) from the International Energy Agency reveal that transportation is currently the biggest producer of energy-related CO₂ emissions at 24%, or 8 billion tons of CO₂. Nearly 75% of those transport emissions come from road vehicles.
 
-The emissions from road vehicles are high because a significant amount of commuters still rely on their privately owned cars to get to work. A [reported](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/pendler1.html) 70% of Germans still use a car for their commutes – even though nearly 28% of daily commutes are under 5km, and nearly 50% are under 10km, as the [same report](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/pendler1.html) revealed.
+These values are so high because a significant amount of commuters still rely on their privately owned cars to get to work. A [reported](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/pendler1.html) 70% of Germans still use a car for their commutes – even though nearly 28% of daily commutes are under 5km, and nearly 50% are under 10km, as the [same report](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/pendler1.html) revealed.
 
-It may be disappointing to see how many people still rely on the outdated car ownership model, even though it no longer makes much financial and environmental sense. The tides are turning, however, and vehicle sharing is growing as a viable alternative to car ownership that can also have a positive impact on the environment and on urban landscapes.
+It may be disappointing to see how many people still rely on the outdated car ownership model, even though it no longer makes much financial and environmental sense. **The tides are turning**, however, and vehicle sharing is growing as a viable alternative to car ownership that can also have a positive impact on the environment and on urban landscapes.
 
-One solution is eliminating the need for parking spaces. An [MIT study](http://senseable.mit.edu/unparking/) estimates that vehicle sharing can reduce parking spaces in cities by 86%, freeing up valuable areas for green projects for citizens. And on the sustainability front, [the combination](https://www.linkedin.com/feed/update/urn:li:activity:6803287639601496064) of car sharing, public transport and bike sharing could save up to 3,500 tons of CO₂ per day alone in Germany.
+One big benefit of NOwnership and car sharing is that it eliminates the need for parking spaces. An [MIT study](http://senseable.mit.edu/unparking/) estimates that vehicle sharing can reduce parking spaces in cities by 86%, freeing up valuable areas for green projects for citizens. And on the sustainability front, [the combination](https://www.linkedin.com/feed/update/urn:li:activity:6803287639601496064) of car sharing, public transport and bike sharing could save up to 3,500 tons of CO₂ per day alone in Germany.
 
-## Vehicle sharing as the future of mobility
+## Vehicle sharing is the future of mobility
 
 As the EU Green Deal aims for the reduction of carbon emissions [by 55% by 2030](https://www.weforum.org/agenda/2021/04/future-of-transport-sustainable-development-goals/), cities and commuters should look increasingly towards shared mobility as a proven way to reach their own sustainability goals.
 
