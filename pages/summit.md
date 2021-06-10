@@ -14,99 +14,45 @@ lang-ref: summit
 lang: en
 share_image: ""
 speakers:
-  - first_name: Gunnar 
-    last_name: Froh
-    job_title: CEO & Co-Founder
-    company: Wunder Mobility
-    speaker_photo: "/uploads/2019/05/10/gunnar.png"
-    company_logo: "/uploads/global/wunder-logo-2020.svg"
-    bio: ""
-    linkedin: "https://linkedin.com/in/"
   - first_name: Cristoph 
     last_name: Wolff
     job_title: Global Head of Mobility and Member of the Executive Committee 
     company: World Economic Forum
-    speaker_photo: "uploads/global/wms2021/speakers/WEF-Christoph-Wolff-2020 1.png"
+    speaker_photo: "/uploads/global/wms2021/speakers/WEF-Christoph-Wolff-2020 1.png"
     linkedin:
   - first_name: Oliver 
     last_name: Reppert
     job_title: CEO
     company: SHARE NOW
-    speaker_photo: "uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
-    linkedin:
+    speaker_photo: "/uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
+    linkedin: "https://www.linkedin.com/in/olivier-reppert-56617611/"
   - first_name: Thomas Juul 
     last_name: Heltborg
     job_title: Group CEO
     company: GreenMobility
-    speaker_photo: "uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
-    linkedin:
+    speaker_photo: "/uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
+    linkedin: "https://www.linkedin.com/in/thomasheltborgjuul/"
+  - first_name: Gunnar 
+    last_name: Froh
+    job_title: CEO & Co-Founder
+    company: Wunder Mobility
+    speaker_photo: "/uploads/global/careers/gunnar.png"
+    company_logo: "/uploads/global/wunder-logo-2020.svg"
+    bio: ""
+    linkedin: "https://www.linkedin.com/in/gunnarfroh/"
   - first_name: Valerian 
     last_name: Seither
     job_title: Co-founder & CEO
     company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:  
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
-  - first_name: Valerian 
-    last_name: Seither
-    job_title: Co-founder & CEO
-    company: emmy
-    speaker_photo: "uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
-    linkedin:
+    speaker_photo: "/uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press 1.png"
+    linkedin: "https://www.linkedin.com/in/valerian-p-a-seither-a6636574/"
 faqs:
   - question: Who is WMS’21 for?
     answer: WMS’21 is an event for mobility industry professionals. It’s where founders, entrepreneurs, C-Level executives, investors, politicians, and journalists meet to navigate the current state of mobility and to pave the path for the next phase of sustainable transportation.
   - question: When and where is WMS’21 taking place?
     answer: "WMS’21 is taking place over one and half days on October 11 and October 12, 2021. The event will be in the Maritime Museum in Hamburg, Germany.<br><br>
 
-    Internationale Maritime Museum Hamburg<br>
+    International Maritime Museum Hamburg<br>
     Koreastrasse 1<br>
     20457 Hamburg<br>
     Germany"
