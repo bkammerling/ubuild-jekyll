@@ -50,7 +50,7 @@
           <div class="plyr__video-embed" id="player">
             <iframe
               class="lazy"
-              src="https://player.vimeo.com/video/555575866?background=1&title=0&byline=0&portrait=0&autoplay=1&muted=1"
+              src="{{ page.intro_video_link }}"
               frameborder="0"
               webkitallowfullscreen
               mozallowfullscreen
@@ -419,6 +419,7 @@
         </div>
         {% for media_partner in page.media_partners %}
         <div class="col-md-4">
+          <a href="{{ media_partner.url }}" target="_blank">
           <img
             src="{{ media_partner.logo }}"
             class="mx-auto d-block"
@@ -426,6 +427,7 @@
             data-aos="fade-in"
             data-aos-easing="apple-easing"
           />
+        </a>
         </div>
         {% endfor %}
       </div>
@@ -658,7 +660,7 @@
       <div class="row my-5 py-5" id="podcast-logos">
         <div class="col-md-4 offset-md-1">
           <h2 class="mb-5" data-aos="fade-in" data-aos-easing="apple-easing">
-            Listen wherever you get your podcasts
+            Listen to mobility’s leading voices on the go
           </h2>
           <a
             href="https://open.spotify.com/show/5pgbmfQMrXBHw5LIaHt2TX?si=Ys6vOQdTTsODSMENRmcILg"

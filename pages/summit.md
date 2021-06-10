@@ -5,7 +5,7 @@ description:
   This one-and-a-half day event connects industry leaders within the mobility
   ecosystem. During WMS, the biggest players, policymakers, visionaries and more come
   together for an exchange of insights and ideas.
-date: "2021-06-04T23:00:00.000+00:00"
+date: "2021-06-11T23:00:00.000+00:00"
 component_scripts:
   - clientCarousel.js
 permalink: "/summit/"
@@ -13,6 +13,7 @@ version: hp
 lang-ref: summit
 lang: en
 share_image: ""
+intro_video_link: "https://player.vimeo.com/video/555575866?background=1&title=0&byline=0&portrait=0&autoplay=1&muted=1"
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
   - first_name: Cristoph 
@@ -35,7 +36,7 @@ speakers:
     linkedin: "https://www.linkedin.com/in/thomasheltborgjuul/"
   - first_name: Gunnar 
     last_name: Froh
-    job_title: CEO & Co-Founder
+    job_title: Founder & CEO
     company: Wunder Mobility
     speaker_photo: "/uploads/global/careers/gunnar.png"
     company_logo: "/uploads/global/wunder-logo-2020.svg"
@@ -96,14 +97,14 @@ menu:
     identifier: item_TVWQMxx
 sponsors:
   - logo: "/uploads/global/wms2021/sponsors/pwc_logo.png"
-    url: "https://pwc.com"
+    url: "https://www.pwc.com/"
 media_partners:
   - logo: "/uploads/global/wms2021/sponsors/background_logo.png"
-    url: 
+    url: "https://background.tagesspiegel.de/"
   - logo: "/uploads/global/wms2021/sponsors/automobil_logo.png"
-    url:
+    url: "https://www.automobil-industrie.vogel.de/"
   - logo: "/uploads/global/wms2021/sponsors/next_mobility_logo.png"
-    url:
+    url: "https://www.next-mobility.de/"
   - logo: "/uploads/global/wms2021/sponsors/intellicarde_logo.png"
-    url:
+    url: "https://intellicar.de/"
 ---
