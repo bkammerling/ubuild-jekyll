@@ -13,6 +13,7 @@ version: hp
 lang-ref: summit
 lang: en
 share_image: ""
+agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
   - first_name: Cristoph 
     last_name: Wolff
