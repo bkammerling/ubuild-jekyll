@@ -1,0 +1,811 @@
+<main id="wms2021-main">
+  <section id="apply" class="bg-black fixed-bottom m-0">
+    <div class="container-fluid px-4 py-3">
+      <div class="row align-items-center justify-content-between">
+        <p class="mr-2 mb-0">Apply for exclusive WMS'21 tickets</p>
+        <button
+          class="btn btn-outline-light"
+          data-target="#wmsModal"
+          data-toggle="modal"
+        >
+          Apply to attend
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="countdown" class="bg-black sticky-top">
+    <div class="container-fluid px-4">
+      <div class="row align-items-center">
+        <div class="col-md-4 timer-container">
+          <div id="timer"></div>
+        </div>
+        <div class="col-md-4 date-container">
+          <p class="text-center m-0">
+            October 11
+            <img
+              class="mx-2"
+              src="uploads/global/wms2021/arrow-right.svg"
+              alt=""
+            />
+            12 | Hamburg, Germany
+          </p>
+        </div>
+        <div class="col-md-4 justify-content-end apply-container">
+          <p class="mr-2 mb-0">Apply for exclusive WMS'21 tickets</p>
+          <button
+            class="btn btn-outline-light"
+            data-target="#wmsModal"
+            data-toggle="modal"
+          >
+            Apply to attend
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="intro-video" class="mt-0">
+    <div class="container-fluid px-0">
+      <div class="row">
+        <div class="col-12">
+          <div class="plyr__video-embed" id="player">
+            <iframe
+              class="lazy"
+              src="{{ page.intro_video_link }}"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+              allow="autoplay"
+              muted
+              volume="0"
+            ></iframe>
+          </div>
+        </div>
+        </div>
+        <div class="row mt-5 pt-5">
+          <div class="col justify-content-center">
+            <a href="#dates" class="d-block mx-auto"
+              ><img
+                src="/uploads/global/wms2021/arrow-down.svg"
+                alt=""
+                class="mx-auto d-block"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="dates">
+    <div class="container">
+      <div class="row">
+        <div class="col" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <img
+            src="uploads/global/wms2021/WMS21_Logo.gif"
+            alt=""
+            class="w-100"
+          />
+        </div>
+      </div>
+      <div class="row align-items-center my-5 pb-5 text-white">
+        <div class="col">
+          <p class="text-center" data-aos="fade-in"
+          data-aos-easing="apple-easing">jointly presented by</p>
+          <img
+            src="/uploads/global/wms2021/wunder-wef.svg"
+            alt=""
+            class="d-block mx-auto"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-white">
+        <div class="col-12">
+          <p class="my-5 text-center" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            The Wunder Mobility Summit 2021 is where industry experts, thought
+            leaders, and policymakers come together to set the course for the
+            future of new mobility. Already in its third edition, this event
+            will provide guests with exclusive insights into growth
+            opportunities, market trends, and sustainability practices through a
+            series of panel discussions and networking sessions.
+          </p>
+        </div>
+      </div>
+      <div class="row text-white text-center justify-content-center">
+        <div class="col-md-4" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-medium">350</h4>
+          <p>selected attendees</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-medium">30</h4>
+          <p>speakers</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-medium">1</h4>
+          <p>iconic venue</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="speakers">
+    <div class="container">
+      <h2 class="headline-medium mb-5" data-aos="fade-in"
+      data-aos-easing="apple-easing">Our 2021 Panelists & Speakers</h2>
+      <div class="row">
+        {% for speaker in page.speakers %}
+          {% if forloop.length <= 12 %}
+            {% include block-wms-2021-speaker.html %}
+          {% else %}
+            {% if forloop.index <= 12 %}
+              {% include block-wms-2021-speaker.html %}
+            {% endif %}
+            {% if forloop.index == 13 %}
+              <div class="col-12 my-3">
+                <button class="btn btn-outline-light mx-auto d-block" data-target="#more-speakers" data-toggle="collapse">Discover more speakers</button>
+              </div>
+              <div class="collapse w-100 mt-3" id="more-speakers">
+            {% endif %}
+            {% if forloop.index >= 13 %}
+              {% include block-wms-2021-speaker.html %}
+            {% if forloop.last %}
+            </div>
+            {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section id="timeline">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-lg-4 pt-3">
+          <h2 data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            Exclusive <br />
+            Vibrant <br />
+            Inspiring
+          </h2>
+        </div>
+        <div class="col-lg-2 pt-3" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-medium font-weight-light">
+            11.10.<svg
+              class="ml-3"
+              width="31"
+              height="15"
+              viewBox="0 0 31 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23.4565 0.298304L30.6681 6.77983C31.1106 7.17757 31.1106 7.82243 30.6681 8.22017L23.4565 14.7017C23.0139 15.0994 22.2964 15.0994 21.8539 14.7017C21.4113 14.304 21.4113 13.6591 21.8539 13.2614L27.131 8.51847H1.1332C0.507351 8.51847 0 8.06249 0 7.5C0 6.93751 0.507351 6.48153 1.1332 6.48153H27.131L21.8539 1.73864C21.4113 1.3409 21.4113 0.696043 21.8539 0.298304C22.2964 -0.0994348 23.0139 -0.0994348 23.4565 0.298304Z"
+                fill="white"
+              />
+            </svg>
+          </h4>
+        </div>
+        <div class="col-lg-6 border-left pl-5 pt-3">
+          <h4 class="headline-medium font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">Kick-Off</h4>
+          <p class="font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">8.00 PM: Mix & Mingle</p>
+          <p class="mb-5" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            Since there hasn’t been much in-person networking in the last two
+            years, we’ll start off easy. Arrive in town the night before Summit
+            Day for an exclusive kick-off party and get to know fellow WMS
+            guests over drinks and music.
+          </p>
+        </div>
+        <div class="col-lg-2 offset-lg-4">
+          <h4 class="headline-medium font-weight-light" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            12.10.<svg
+              class="ml-3"
+              width="31"
+              height="15"
+              viewBox="0 0 31 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23.4565 0.298304L30.6681 6.77983C31.1106 7.17757 31.1106 7.82243 30.6681 8.22017L23.4565 14.7017C23.0139 15.0994 22.2964 15.0994 21.8539 14.7017C21.4113 14.304 21.4113 13.6591 21.8539 13.2614L27.131 8.51847H1.1332C0.507351 8.51847 0 8.06249 0 7.5C0 6.93751 0.507351 6.48153 1.1332 6.48153H27.131L21.8539 1.73864C21.4113 1.3409 21.4113 0.696043 21.8539 0.298304C22.2964 -0.0994348 23.0139 -0.0994348 23.4565 0.298304Z"
+                fill="white"
+              />
+            </svg>
+          </h4>
+        </div>
+        <div class="col-lg-6 border-left pl-5">
+          <h4 class="headline-medium font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">Summit Day</h4>
+          <p class="font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">9.00 AM: Let’s Get Started</p>
+          <p class="mb-5" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            With a hand-selected group of industry experts and thought leaders,
+            we want to foster connection and conversation above all else. Be
+            prepared for a thought-provoking, participation-driven program
+            packed with insightful discussions, networking, workshops, test
+            drives, and fantastic food, drinks, and entertainment.
+          </p>
+        </div>
+        <div class="offset-lg-6 pl-5 border-left">
+          <h4 class="headline-medium font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">Dinner & Party</h4>
+          <p class="font-weight-bold" data-aos="fade-in"
+          data-aos-easing="apple-easing">5.30 PM Until Late: The Grand Finale</p>
+          <p class="mb-3" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            WMS'21 isn’t just about listening and learning, it’s also about
+            engaging with others. Is there a better way to end a day of activity
+            than to sit down and dine with newly formed connections? Get a
+            chance to reflect over fine dining and cocktails - or dance the
+            night away at our closing party.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agenda">
+    <div class="container-fluid text-white">
+      <h2 class="headline-medium" data-aos="fade-in"
+      data-aos-easing="apple-easing">What to expect at this year's event</h2>
+      <div class="row mt-5">
+        <div class="mb-5 col-lg-4 col-sm-6 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div class="h-100 p-4 border">
+            <h4 class="headline-medium">Conference</h4>
+            <hr />
+            <p class="mb-4">
+              Inspirational speakers share their knowledge in lively panel
+              discussions.
+            </p>
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/conference.png');
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div class="h-100 p-4 border">
+            <h4 class="headline-medium">Tech Playground</h4>
+            <hr />
+            <p class="mb-4">
+              Guests can play around with and be inspired by new technology.
+            </p>
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/tech_playground.png');
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div class="h-100 p-4 border">
+            <h4 class="headline-medium">Test Drive</h4>
+            <hr />
+            <p class="mb-4">
+              Guests have the chance to test out all types of new mobility
+              firsthand.
+            </p>
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/test_drive.png');
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div class="h-100 p-4 border">
+            <h4 class="headline-medium">Active Matchmaking</h4>
+            <hr />
+            <p class="mb-4">
+              We facilitate 1:1 meetings between guests who want to meet each
+              other.
+            </p>
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/active_matchmaking.png');
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div class="h-100 p-4 border">
+            <h4 class="headline-medium">Networking & Party</h4>
+            <hr />
+            <p class="mb-4">
+              A collaborative, memorable environment and networking breaks.
+            </p>
+            <div
+              class="img-container"
+              style="
+                background-image: url('/uploads/global/wms2021/agenda/network.png');
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-5 agenda-container" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <div
+            class="h-100 p-4 border d-flex flex-column justify-content-between"
+          >
+            <h4 class="headline-medium">Not your average summit</h4>
+            <a
+            target="_blank"
+              href="{{ page.agenda_file }}"
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-white
+              "
+            >
+              <p>
+                Discover the <br />
+                complete agenda
+              </p>
+              <svg
+                width="57"
+                height="57"
+                viewBox="0 0 57 57"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 28C13.4477 28 13 28.4477 13 29C13 29.5523 13.4477 30 14 30V28ZM40.7071 29.7071C41.0976 29.3166 41.0976 28.6834 40.7071 28.2929L34.3431 21.9289C33.9526 21.5384 33.3195 21.5384 32.9289 21.9289C32.5384 22.3195 32.5384 22.9526 32.9289 23.3431L38.5858 29L32.9289 34.6569C32.5384 35.0474 32.5384 35.6805 32.9289 36.0711C33.3195 36.4616 33.9526 36.4616 34.3431 36.0711L40.7071 29.7071ZM14 30H40V28H14V30Z"
+                  fill="white"
+                />
+                <circle
+                  cx="28.5"
+                  cy="28.5"
+                  r="27.5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sponsors" class="py-5">
+    <div class="container text-white">
+      <div class="row justify-content-around">
+        <div class="col-12">
+          <h3 class="text-center headline-medium mb-5" data-aos="fade-in"
+          data-aos-easing="apple-easing">Sponsors</h3>
+        </div>
+        {% for sponsor in page.sponsors %}
+        <div class="col-md-4 mb-5" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <a href="{{ sponsor.url}}" target="_blank">
+          <img
+            src="{{ sponsor.logo }}"
+            alt=""
+            class="mb-5 mx-auto d-block"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </a>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-12">
+          <h3 class="headline-medium text-center mb-5" data-aos="fade-in"
+          data-aos-easing="apple-easing">Media Partners & Supporters</h3>
+        </div>
+        {% for media_partner in page.media_partners %}
+        <div class="col-md-4">
+          <a href="{{ media_partner.url }}" target="_blank">
+          <img
+            src="{{ media_partner.logo }}"
+            class="mx-auto d-block"
+            alt=""
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="block block-hero-hp" id="hero">
+    <div class="hero-banner">
+      <div class="video-banner">
+        <video
+          autoplay
+          playsinline
+          loop
+          muted
+          poster="uploads/global/wms2021/relive_wms19.png"
+          class="video-banner__video"
+          id="videoBg"
+        >
+          <source
+            src="uploads/global/wms2021/relive_wms19.png"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="hero-banner__inner-content">
+            <div class="hero-banner__title-wrapper">
+              <h2 class="headline-small">Relive</h2>
+              <h1 class="headline-large">WMS'19</h1>
+              <a
+                class="gt-headercta text-link white-text with-play gt-videoplay"
+                href="https://vimeo.com/375405380"
+                target="_blank"
+                data-toggle="modal"
+                data-target="#filmModal"
+                >Watch the 2019 Video</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="wms19">
+    <div class="container">
+      <div class="row text-white mb-5 description">
+        <div class="col-md-6">
+          <h2 class="headline-medium" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            WMS’19 caught <br />
+            global attention
+          </h2>
+        </div>
+        <div class="col-md-6" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-small">120+</h4>
+          <p class="mb-4">Accounts live-tweeting about the event</p>
+          <h4 class="headline-small">420k</h4>
+          <p>People reached via #WMS19</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            data-src="/uploads/global/wms2021/wms19/car.png"
+            data-srcset="/uploads/global/wms2021/wms19/car@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+          <img
+            data-src="/uploads/global/wms2021/wms19/crowd.png"
+            data-srcset="/uploads/global/wms2021/wms19/crowd@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            data-src="/uploads/global/wms2021/wms19/buggy.png"
+            data-srcset="/uploads/global/wms2021/wms19/buggy@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+          <img
+            data-src="/uploads/global/wms2021/wms19/dj.png"
+            data-srcset="/uploads/global/wms2021/wms19/dj@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            data-src="/uploads/global/wms2021/wms19/forum.png"
+            data-srcset="/uploads/global/wms2021/wms19/forum@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+          <img
+            data-src="/uploads/global/wms2021/wms19/mixer.png"
+            data-srcset="/uploads/global/wms2021/wms19/mixer@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </div>
+      </div>
+      <div class="row mt-5 text-white">
+        <div class="col-12">
+          <h2 class="headline-medium text-center" data-aos="fade-in"
+          data-aos-easing="apple-easing">Highlights of WMS'19</h2>
+        </div>
+      </div>
+      <div class="row mb-5 py-5 border-bottom text-white text-center">
+        <div class="col-md-3 col-6 mb-5" data-aos="fade-in"
+        data-aos-easing="apple-easing">
+          <h4 class="headline-medium mb-2">46%</h4>
+          <p>C-Level</p>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="headline-medium mb-2" data-aos="fade-in"
+          data-aos-easing="apple-easing">25%</h4>
+          <p>Startup Founders</p>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="headline-medium mb-2" data-aos="fade-in"
+          data-aos-easing="apple-easing">7%</h4>
+          <p>Investors</p>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="headline-medium mb-2" data-aos="fade-in"
+          data-aos-easing="apple-easing">22%</h4>
+          <p>Mobility Experts</p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <img
+            data-src="/uploads/global/wms2021/attendees.png"
+            data-srcset="/uploads/global/wms2021/attendees@2x.png 2x"
+            alt=""
+            class="w-100"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-white text-center">
+          <p data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            Mobility Startups · Policy Makers · OEMs · Public Transport · Mobile
+            & Telecommunications · Tier 1 Suppliers · Tech Companies · Utility
+            Providers · Consultancies · Insurance Companies
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="faq">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="headline-medium text-center" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            Frequently Asked Questions WMS'21
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          {% for faq in page.faqs %}
+          <div id="accordion" data-aos="fade-in"
+          data-aos-easing="apple-easing">
+            <div class="card">
+              <div class="card-header" id="heading{{ forloop.index }}">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapse{{ forloop.index }}"
+                    {% if forloop.index == 1 %}
+                    aria-expanded="true"
+                    {% endif %}
+                    aria-controls="collapse{{ forloop.index }}"
+                  >
+                    <span>{{ faq.question }}</span>
+                    <img
+                      src="uploads/global/wms2021/arrow-down.svg"
+                      alt=""
+                      class="h-100"
+                    />
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapse{{ forloop.index }}"
+                class="collapse {% if forloop.index == 1 %}show{% endif %}"
+                aria-labelledby="heading{{ forloop.index }}"
+                data-parent="#accordion"
+              >
+                <div class="card-body mb-3">{{ faq.answer }}</div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+  </section>
+  <section id="podcast" class="bg-white">
+    <div class="container">
+      <div class="row my-5 py-5" id="podcast-logos">
+        <div class="col-md-4 offset-md-1">
+          <h2 class="mb-5" data-aos="fade-in" data-aos-easing="apple-easing">
+            Listen to mobility’s leading voices on the go
+          </h2>
+          <a
+            href="https://open.spotify.com/show/5pgbmfQMrXBHw5LIaHt2TX?si=Ys6vOQdTTsODSMENRmcILg"
+            target="_blank"
+            class="btn btn-dark mb-5 mb-md-0"
+            data-aos="fade-in"
+            data-aos-easing="apple-easing"
+            >Tune in</a
+          >
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <a
+              href="https://open.spotify.com/show/5pgbmfQMrXBHw5LIaHt2TX?si=Ys6vOQdTTsODSMENRmcILg"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/spotify-sq.png"
+                data-srcset="/uploads/global/podcast/logos/spotify@2x.png 2x"
+                alt="Spotify logo"
+            /></a>
+            <a
+              href="https://podcasts.apple.com/de/podcast/wunder-mobility-podcast/id1529125144?l=en"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/apple-podcast-sq.png"
+                data-srcset="/uploads/global/podcast/logos/apple-podcast@2x.png 2x"
+                alt="Apple podcast logo"
+            /></a>
+            <a
+              href="https://music.amazon.de/podcasts/89522706-3fe2-4bdf-80e9-1206c5afeae5/Wunder-Mobility-Podcast"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/amazon-music-sq.png"
+                data-srcset="/uploads/global/podcast/logos/amazon-music@2x.png 2x"
+                alt="Amazon Music logo"
+            /></a>
+          </div>
+          <div class="row">
+            <a
+              href="https://podcasts.google.com/feed/aHR0cHM6Ly93dW5kZXJtb2JpbGl0eS5wb2RpZ2VlLmlvL2ZlZWQvYWFj?sa=X&ved=0CAMQ4aUDahcKEwjAypu6zYbtAhUAAAAAHQAAAAAQAg&hl=en-DE"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/google-podcast-sq.png"
+                data-srcset="/uploads/global/podcast/logos/google-podcast@2x.png 2x"
+                alt="Google podcast logo"
+            /></a>
+            <a
+              href="https://wundermobility.podigee.io/"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/podigee-sq.png"
+                data-srcset="/uploads/global/podcast/logos/podigee@2x.png 2x"
+                alt="Podigee logo"
+            /></a>
+            <a
+              href="https://deezer.page.link/Kdj7cUcmQuu65gxa8"
+              target="_blank"
+              class="col"
+              ><img
+                data-src="/uploads/global/podcast/logos/deezer-sq.png"
+                data-srcset="/uploads/global/podcast/logos/deezer@2x.png 2x"
+                alt="Deezer logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Film Modal -->
+
+  <div
+    class="modal fade filmmodal"
+    id="filmModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="WMS film modal"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="plyr__video-embed" id="player">
+            <iframe
+              class="lazy"
+              src="https://player.vimeo.com/video/375405380?title=0&byline=0&portrait=0"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include block-wms-modal.html %}
+</main>
+<!-- Countdown Timer -->
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Oct 11, 2021 09:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function () {
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    document.getElementById("timer").innerHTML =
+      "<strong>" +
+      days +
+      "</strong> days <strong>" +
+      hours +
+      "</strong> hours <strong>" +
+      minutes +
+      "</strong> minutes until <strong>WMS'21</strong> 🎉";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("timer").innerHTML = "It's Time";
+    }
+  }, 1000);
+</script>
