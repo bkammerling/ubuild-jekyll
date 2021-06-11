@@ -44,7 +44,6 @@ fields:
   - custom-content
   - picture-slider
   - image-content-block
-  - 3-col-image-text-grid
   - navigation-header
   - navigation-header-w-button
   - simple-header
@@ -61,10 +60,119 @@ fields:
   - 4-column-footer
   - speakers
   - photo-gallery
-  - block-from-right
   - icon-heading-cards
   - custom-block
   - columns
+- name: agenda_file
+  type: file
+  config:
+    maxSize: 64
+  label: Agenda File
+  description: PDF of the agenda
+- name: intro_video_link
+  type: text
+  config:
+    required: false
+  label: Intro Video Link
+  description: Vimeo embedded url
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: first_name
+    type: text
+    config:
+      required: false
+    label: First Name
+  - name: last_name
+    type: text
+    config:
+      required: false
+    label: Last name
+  - name: job_title
+    type: text
+    config:
+      required: false
+    label: Job title
+  - name: company
+    type: text
+    config:
+      required: false
+    label: Company
+  - name: speaker_photo
+    type: file
+    config:
+      maxSize: 64
+    label: Speaker photo
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Speakers
+- name: faqs
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: false
+    label: Question
+  - name: answer
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Answer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: FAQs
+- name: sponsors
+  type: field_group_list
+  fields:
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Company/corporate website of the sponsor
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sponsors
+- name: media_partners
+  type: field_group_list
+  fields:
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Remember to add "https://"
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Media partners
 pages:
 - pages/about-us.md
 - pages/autotech.md
