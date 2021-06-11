@@ -69,12 +69,14 @@ fields:
     maxSize: 64
   label: Agenda File
   description: PDF of the agenda
-- name: intro_video_link
+- name: intro_video_id
   type: text
   config:
     required: false
-  label: Intro Video Link
-  description: Vimeo embedded url
+  label: Intro Video ID
+  description: 'Take the numbers from the vimeo link and paste here. EG from: https://vimeo.com/561712427,
+    take out "561712427" and paste here without punctuation, spaces, or quotation
+    marks.'
 - name: speakers
   type: field_group_list
   fields:
