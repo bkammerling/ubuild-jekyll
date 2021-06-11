@@ -11,7 +11,7 @@ permalink: "/summit/"
 version: hp
 lang-ref: summit
 lang: en
-share_image: ''
+share_image: "/uploads/2021/06/11/wms21_share_img.png"
 intro_video_link: https://player.vimeo.com/video/561712427?background=1&title=0&byline=0&portrait=0&autoplay=1&muted=1
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
