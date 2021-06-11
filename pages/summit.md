@@ -107,5 +107,6 @@ media_partners:
   url: https://www.next-mobility.de/
 - logo: "/uploads/global/wms2021/sponsors/intellicarde_logo.png"
   url: https://intellicar.de/
+intro_video_id: "561712427"
 
 ---
