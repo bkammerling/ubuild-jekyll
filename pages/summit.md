@@ -15,6 +15,12 @@ share_image: "/uploads/2021/06/11/wms21_share_img.png"
 intro_video_id: "561712427"
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
+- first_name: Jana
+  last_name: Bartels
+  job_title: Business Owner Vehicles
+  company: Wunder Mobility
+  speaker_photo: "/uploads/2021/06/14/jana2.jpeg"
+  linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
 - first_name: Cristoph
   last_name: Wolff
   job_title: Global Head of Mobility and Member of the Executive Committee
@@ -33,6 +39,19 @@ speakers:
   company: GreenMobility
   speaker_photo: "/uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
   linkedin: https://www.linkedin.com/in/thomasheltborgjuul/
+- first_name: Timo
+  last_name: Buetefisch
+  job_title: Co-founder & CEO
+  company: 'Cooltra '
+  speaker_photo: "/uploads/2021/06/14/press_cooltra-management-hor-bw_print_timo_dsc_8339.jpeg"
+  linkedin: https://www.linkedin.com/in/timo-buetefisch-874162/
+- first_name: Valerian
+  last_name: Seither
+  job_title: Co-founder & CEO
+  company: emmy
+  speaker_photo: "/uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press
+    1.png"
+  linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
 - first_name: Gunnar
   last_name: Froh
   job_title: Founder & CEO
@@ -41,13 +60,6 @@ speakers:
   company_logo: "/uploads/global/wunder-logo-2020.svg"
   bio: ''
   linkedin: https://www.linkedin.com/in/gunnarfroh/
-- first_name: Valerian
-  last_name: Seither
-  job_title: Co-founder & CEO
-  company: emmy
-  speaker_photo: "/uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press
-    1.png"
-  linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
 faqs:
 - question: Who is WMS’21 for?
   answer: WMS’21 is an event for mobility industry professionals. It’s where founders,
