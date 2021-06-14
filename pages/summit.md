@@ -15,12 +15,6 @@ share_image: "/uploads/2021/06/11/wms21_share_img.png"
 intro_video_id: "561712427"
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
-- first_name: Jana
-  last_name: Bartels
-  job_title: Business Owner Vehicles
-  company: Wunder Mobility
-  speaker_photo: "/uploads/2021/06/14/jana2.jpeg"
-  linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
 - first_name: Cristoph
   last_name: Wolff
   job_title: Global Head of Mobility and Member of the Executive Committee
@@ -39,6 +33,12 @@ speakers:
   company: GreenMobility
   speaker_photo: "/uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
   linkedin: https://www.linkedin.com/in/thomasheltborgjuul/
+- first_name: Jana
+  last_name: Bartels
+  job_title: Business Owner Vehicles
+  company: Wunder Mobility
+  speaker_photo: "/uploads/2021/06/14/jana2.jpeg"
+  linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
 - first_name: Timo
   last_name: Buetefisch
   job_title: Co-founder & CEO
