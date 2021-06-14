@@ -33,8 +33,12 @@ page_sections:
   block: footer-1
   content: ''
 share_image: "/uploads/global/podcast/share.jpg"
-hero_episode_embed_url: https://open.spotify.com/embed-podcast/episode/1yxVJdiv6hpLGkNvGJiB9S
+hero_episode_embed_url: https://open.spotify.com/embed/episode/6rnJnf3YU0rTwvXivctYV3
 featured_episodes:
+- image: "/uploads/2021/06/14/webopti_cover-michael_barillerescholz.jpeg"
+  url: https://open.spotify.com/episode/6rnJnf3YU0rTwvXivctYV3?si=LVzlridmQUiCkexwpJe0qQ&dl_branch=1
+  number: "19"
+  title: Michael Barillère-Scholz
 - image: "/uploads/2021/06/08/web_opti_podcast-cover-18-timo-buetefisch.jpeg"
   url: https://open.spotify.com/episode/1yxVJdiv6hpLGkNvGJiB9S?si=AVDyJjV3RhW_ItX-EQqv1g
   number: "18"
