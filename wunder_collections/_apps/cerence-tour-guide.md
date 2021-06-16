@@ -43,10 +43,13 @@ app_details:
   detail_content: <a href="https://www.cerence.com/cerence-products/cloud-services"
     title="Developer Website →">Developer Website →</a>
 - detail_title: ''
-  detail_content: ''
+  detail_content: <a href="http://www.cerence.com" title="Terms of Service →">Terms
+    of Service →</a>
 - detail_title: ''
-  detail_content: ''
-access_needed: []
+  detail_content: <a href="http://www.cerence.com" title="Privacy Policy →">Privacy
+    Policy →</a>
+access_needed:
+- TBD
 getting_started:
 - column_title: Reach out via email
   column_description: Ask for a meeting so we can show you the full product and its
