@@ -43,7 +43,7 @@ In this article, Paula Böcken, transport policy expert at Bernstein Public Poli
 2. Which technologies should be promoted and to what extent?
 3. How should the climate-friendly development of private motorized transport and public transport be financed?
 
-A closer look at the election program and the parties’ most recent positions reveals that they are united by the basic tenor that emissions must be reduced in the long term. However, there are clear differences in terms of implementation and timetable, which are introduced and examined below.
+A closer look at the election program and the parties’ most recent positions reveals that they are united by the basic tenor that emissions must be reduced in the long term. However, there are clear differences in terms of implementation and timetable, which are introduced and examined below. 
 
 ## **How can MIV and public transport be made more environmentally compatible?**
 
