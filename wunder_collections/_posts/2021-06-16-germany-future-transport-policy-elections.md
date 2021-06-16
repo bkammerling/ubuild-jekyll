@@ -43,7 +43,7 @@ In this article, Paula Böcken, transport policy expert at Bernstein Public Poli
 2. Which technologies should be promoted and to what extent?
 3. How should the climate-friendly development of private motorized transport and public transport be financed?
 
-A closer look at the election program and the parties’ most recent positions reveals that they are united by the basic tenor that emissions must be reduced in the long term. However, there are clear differences in terms of implementation and timetable, which are introduced and examined below. 
+A closer look at the election program and the parties’ most recent positions reveals that they are united by the basic tenor that emissions must be reduced in the long term. However, there are clear differences in terms of implementation and timetable, which are introduced and examined below.
 
 ## **How can MIV and public transport be made more environmentally compatible?**
 
@@ -91,11 +91,9 @@ The diesel subsidy is also to be ended and company car taxation "ecologically re
 
 Based on the previous programs and since coalition constellations that include CDU/CSU, Greens, SPD and FDP are the most likely political constellations, the following can be deduced:
 
-1\. The Greens are expected to become part of the governing coalition. This will make coalition negotiations more difficult due to fundamental differences in the pursuit of goals, particularly with the CDU/CSU and FDP. The fundamental question of whether the market or the state should steer will have to be clarified, particularly with regard to issues such as the ramp-up of electromobility.
-
-2 In this context, it will be important to see which party secures the Ministry of Transport. The Greens have a number of high-profile transport politicians, and the issue has played an important role for the party since its founding. The CDU can now also envisage the transport ministry - also because the sister party, the CSU, is no longer said to be very interested after 13 years and increasing difficulties of late.
-
-3 The SPD's plans are increasingly green-oriented, and a traffic light coalition would thus pursue strongly climate protection-oriented goals. The divided state-oriented approach clearly stands in the way of reaching a consensus with the FDP.
+1. The Greens are expected to become part of the governing coalition. This will make coalition negotiations more difficult due to fundamental differences in the pursuit of goals, particularly with the CDU/CSU and FDP. The fundamental question of whether the market or the state should steer will have to be clarified, particularly with regard to issues such as the ramp-up of electromobility.
+2. In this context, it will be important to see which party secures the Ministry of Transport. The Greens have a number of high-profile transport politicians, and the issue has played an important role for the party since its founding. The CDU can now also envisage the transport ministry - also because the sister party, the CSU, is no longer said to be very interested after 13 years and increasing difficulties of late.
+3. The SPD's plans are increasingly green-oriented, and a traffic light coalition would thus pursue strongly climate protection-oriented goals. The divided state-oriented approach clearly stands in the way of reaching a consensus with the FDP.
 
 The issue of climate protection holds great potential in the transport sector. While all parties have very similar long-term goals in mind, implementing these and determining the timetable will be the biggest challenge of the coalition negotiations.
 
