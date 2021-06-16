@@ -33,7 +33,7 @@ hidden: true
 include_case_study: false
 
 ---
-[_Read this article in German._]()
+[_Read this article in German._](https://bernstein-group.com/de/2021/06/16/deutschlands-zukuenftige-verkehrspolitik/)
 
 The German federal election is on the horizon, and for this election cycle the parties have paid particular attention to climate policy and climate protection. A central aspect of climate protection is mobility and transport policy – be it the future of the internal combustion engine, the promotion of alternative drive systems, car-free inner cities or mobility concepts for urban and rural areas.
 
