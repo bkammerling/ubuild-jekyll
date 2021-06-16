@@ -27,12 +27,14 @@ excerpt: The German federal election is on the horizon, and for this election cy
   A central aspect of climate protection is mobility and transport policy – be it
   the future of the internal combustion engine, the promotion of alternative drive
   systems, car-free inner cities or mobility concepts for urban and rural areas.
-share_image: "/uploads/2021/06/16/frame-5.jpg"
+share_image: "/uploads/2021/06/16/frame-5-1.jpg"
 sticky: false
 hidden: true
 include_case_study: false
 
 ---
+[_Read this article in German._]()
+
 The German federal election is on the horizon, and for this election cycle the parties have paid particular attention to climate policy and climate protection. A central aspect of climate protection is mobility and transport policy – be it the future of the internal combustion engine, the promotion of alternative drive systems, car-free inner cities or mobility concepts for urban and rural areas.
 
 The transport sector is currently responsible for around 30 percent of total final energy consumption and about one-fifth of greenhouse gas emissions in Germany. This contrasts with increasingly ambitious climate policy goals, which are derived not least from the Paris Climate Agreement.
