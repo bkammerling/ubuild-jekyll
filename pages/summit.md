@@ -124,5 +124,7 @@ media_partners:
   url: https://www.next-mobility.de/
 - logo: "/uploads/global/wms2021/sponsors/intellicarde_logo.png"
   url: https://intellicar.de/
+- logo: "/uploads/2021/06/16/university_st-gallen_logo.png"
+  url: https://imo.unisg.ch/de/home/
 
 ---
