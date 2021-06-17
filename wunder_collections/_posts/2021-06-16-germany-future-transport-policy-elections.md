@@ -29,7 +29,7 @@ excerpt: The German federal election is on the horizon, and for this election cy
   systems, car-free inner cities or mobility concepts for urban and rural areas.
 share_image: "/uploads/2021/06/16/frame-5-1.jpg"
 sticky: false
-hidden: true
+hidden: false
 include_case_study: false
 
 ---
