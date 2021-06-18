@@ -20,7 +20,7 @@ case_study_cta:
   supporting_image: ''
 title: 'Free-Floating vs. Station-Based: Which is the best sharing model for your
   business?'
-publish_date: 2021-06-04 00:00:00 +0000
+publish_date: 2021-06-04T00:00:00.000+00:00
 featured_image: "/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg"
 excerpt: 'Since the boom of vehicle sharing, there’s been one key question that mobility
   companies need to answer before they can launch their services: Should we use a
@@ -77,7 +77,7 @@ All of these points add up to a superior user experience, and in the end, that�
 
 ### **The problems with free-floating vehicles**
 
-Of course free-floating isn’t 100% perfect. Not having your vehicles tied to a station may increase the potential for damage and theft. However, even this pain point can be addressed with modern security systems and locks, which are already part of the future of electric vehicles.
+Of course free-floating isn’t 100% perfect. Not having your vehicles tied to a station may increase the potential for damage and theft. However, even this pain point can be addressed with modern security systems, locks, and superior identity verification, which are already part of the future of electric vehicles.
 
 ## **Free-floating vs. station-based: Which one is better?**
 
