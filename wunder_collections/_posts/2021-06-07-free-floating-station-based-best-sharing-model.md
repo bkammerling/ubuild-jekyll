@@ -21,11 +21,11 @@ case_study_cta:
 title: 'Free-Floating vs. Station-Based: Which is the best sharing model for your
   business?'
 publish_date: 2021-06-04T00:00:00.000+00:00
-featured_image: "/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg"
+featured_image: "/uploads/2021/06/18/anthony-fomin-8ol9rd0bhau-unsplash.jpg"
 excerpt: 'Since the boom of vehicle sharing, there’s been one key question that mobility
   companies need to answer before they can launch their services: Should we use a
   free-floating or a station-based vehicle sharing model?'
-share_image: "/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg"
+share_image: "/uploads/2021/06/18/anthony-fomin-8ol9rd0bhau-unsplash.jpg"
 sticky: false
 hidden: false
 include_case_study: false
@@ -63,7 +63,7 @@ Lastly, since the shared mobility market favors free-floating models, you might 
 
 Contrary to station-based, a free-floating model means that your vehicles are independent of a station and can be placed anywhere. As long as you comply with your city’s regulations for micromobility, your mopeds or kickscooters can be strategically placed in hotspot areas where there is high demand. Users can book and use a vehicle and park it wherever is most convenient for them.
 
-![Free floating kickscooters on a road.](/uploads/2021/05/31/okai-vehicles-bwudakgswsu-unsplash.jpg)
+![](/uploads/2021/06/18/okai-vehicles-kwy_gq3dn8e-unsplash.jpg)
 
 ### **The benefits of free-floating vehicles**
 
