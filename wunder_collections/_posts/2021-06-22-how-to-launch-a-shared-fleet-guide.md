@@ -84,6 +84,8 @@ Now you’ve considered and made a list of all the technological features you wi
 
 Below we’ve outlined some of the pros and cons of outsourcing vs. building a mobility tech platform in-house. Generally speaking, building a platform in-house is a lot more expensive and takes much longer than outsourcing to a provider with a ready-made solution. This is because you would need to go through the entire hiring and vetting process of finding the right team to build what you need, or add workload to your already existing engineering team.
 
+![](/uploads/2021/06/22/vehicle-sharing-model-1.png)
+
 ## Which vehicle is best suited for your business?
 
 Choosing the right vehicle type and model for your mobility business is no small feat. In the world of vehicle sharing, there are a few go-to electric vehicles:
