@@ -20,13 +20,13 @@ case_study_cta:
   supporting_image: ''
 title: Everything You Need to Know to Successfully Launch a Vehicle Sharing Business
 publish_date: 2021-06-30 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/06/22/max-1.jpg"
 excerpt: Launching a new business is no easy feat, especially for industries like
   mobility where market regulations and user preferences can affect your entire business
   strategy. In order to help you navigate the launch of your vehicle sharing business,
   we’ve put together this comprehensive guide outline all of the steps you need to
   keep in mind.
-share_image: ''
+share_image: "/uploads/2021/06/22/max-1.jpg"
 sticky: false
 hidden: true
 include_case_study: false
