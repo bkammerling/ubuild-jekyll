@@ -38,6 +38,8 @@ There are many benefits to vehicle sharing. Not only is it a more sustainable al
 
 Launching a new business is no easy feat, especially for industries like mobility where market regulations and user preferences can affect your entire business strategy. In order to help you navigate the launch of your vehicle sharing business, we’ve put together this comprehensive guide outlining all of the steps you need to keep in mind. It covers everything, from the things you should consider before you shop for vehicles to how to boost your brand as soon as your fleet is ready to hit the streets.
 
+![](/uploads/2021/06/22/max-1.jpg)
+
 ## Getting to know your market and your target user
 
 ### Local laws and regulations
@@ -60,11 +62,34 @@ By far one of the most crucial decisions for your fleet business is whether you 
 
 A free-floating model means that your vehicles are independent of a station and can be placed anywhere. As long as you comply with your city’s micromobility regulations, your vehicles can be strategically placed in hotspots where there is high demand. Users can book, ride and park your vehicles wherever is most convenient to them.
 
-### What is station-based vehicle-sharing?
+**The pros of free-floating vehicle sharing:**
+
+* highest flexibility for users
+* increased accessibility
+* lower user churn rate
+* higher demand
+* easier relocation
+* swappable batteries
+
+**The cons of free-floating vehicle sharing:**
+
+* increased risk of damage or theft
+
+![](/uploads/2021/06/18/okai-vehicles-kwy_gq3dn8e-unsplash.jpg)
+
+### What is station-based vehicle sharing?
 
 Station-based sharing means that users must pick up, park and lock your vehicles in a dedicated station. You can offer several stations within a city, and often it doesn’t matter which station users return a vehicle to. As an example, users could rent a bike in the city center and then later park it at a station that’s closest to their hotel.
 
-![](/uploads/2021/06/22/vehicle-sharing-model.png)
+**The pros of station-based vehicle sharing:**
+
+* increased security and protection from theft
+* longer vehicle life
+
+**The cons of station-based vehicle sharing:**
+
+* less flexibility for users
+* higher churn rate
 
 ## The right mobility software to get your business off the ground
 
@@ -84,7 +109,31 @@ Now you’ve considered and made a list of all the technological features you wi
 
 Below we’ve outlined some of the pros and cons of outsourcing vs. building a mobility tech platform in-house. Generally speaking, building a platform in-house is a lot more expensive and takes much longer than outsourcing to a provider with a ready-made solution. This is because you would need to go through the entire hiring and vetting process of finding the right team to build what you need, or add workload to your already existing engineering team.
 
+**The pros of outsourcing mobility software:**
+
+* save on labor costs
+* faster time to market
+* built by industry veterans
+* peace of mind so you can focus on your business
+* no tech knowledge required
+
+**The cons of outsourcing mobility software:**
+
+* not able to micromanage every step of the process
+* fewer customization options
+
 ![](/uploads/2021/06/22/vehicle-sharing-model-1.png)
+
+**The pros of building mobility software in-house:**
+
+* ability to customize to exact specifications
+* control every part of the workflow
+
+**The cons of building mobility software in-house:**
+
+* quite expensive
+* takes more time than a ready-made solution
+* little to no expertise from industry veterans
 
 ## Which vehicle is best suited for your business?
 
@@ -110,6 +159,8 @@ Instead of trying to piece together several components from different providers 
 ### Tip #3 - Don’t buy vehicles off the rack
 
 A [strong brand identity](https://www.wundermobility.com/vehicles) on your vehicles will help you stand out in a crowded market. You’ll want to be able to [customize everything](https://www.wundermobility.com/vehicles) with your own logo, colors and icons. This includes your branded user app. Are you banking on having a neon color palette to attract tourists in a crowded city center, or are you going after commuters and business people by offering them a sleek, minimalistic look? Whoever your target market might be, customization can be an absolute dealbreaker, so it’s important to take that into consideration when sourcing your vehicles.
+
+![](/uploads/global/fleet/vehicle-3@2x.jpg)
 
 ## Now all that’s left is to get started
 
