@@ -19,6 +19,7 @@ case_study_cta:
   external_url: ''
   supporting_image: ''
 title: Everything You Need to Know to Successfully Launch a Vehicle Sharing Business
+  [Guide]
 publish_date: 2021-06-30 00:00:00 +0000
 featured_image: "/uploads/2021/06/22/max-1.jpg"
 excerpt: Launching a new business is no easy feat, especially for industries like
