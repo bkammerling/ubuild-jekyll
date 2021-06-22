@@ -123,8 +123,6 @@ Below we’ve outlined some of the pros and cons of outsourcing vs. building a m
 * not able to micromanage every step of the process
 * fewer customization options
 
-![](/uploads/2021/06/22/vehicle-sharing-model-1.png)
-
 **The pros of building mobility software in-house:**
 
 * ability to customize to exact specifications
