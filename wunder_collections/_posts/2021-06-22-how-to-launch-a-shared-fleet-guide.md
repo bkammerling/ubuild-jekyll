@@ -64,6 +64,8 @@ A free-floating model means that your vehicles are independent of a station and 
 
 Station-based sharing means that users must pick up, park and lock your vehicles in a dedicated station. You can offer several stations within a city, and often it doesn’t matter which station users return a vehicle to. As an example, users could rent a bike in the city center and then later park it at a station that’s closest to their hotel.
 
+![](/uploads/2021/06/22/vehicle-sharing-model.png)
+
 ## The right mobility software to get your business off the ground
 
 Now that you’ve chosen your business model and gathered key insights into your market and ideal user, it’s time to get down to the nitty gritty.
