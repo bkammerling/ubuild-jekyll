@@ -72,7 +72,7 @@ By launching a shared mobility business, what you’re essentially offering is a
 
 ### Your mobility tech provider should include:
 
-* **A user-friendly, white label app** that users can download in the app store and use to search and book your vehicle. The app should be customizable to your brand, including logo and colors.
+* **A user-friendly, white label app** that users can download in the app store and use to search and book your vehicles. The app should be customizable to your brand, including logo and colors.
 * **An operational dashboard** so that you can track all the details of your fleet, including vehicle status, battery levels, user profiles, and ride history. You should also be able to create marketing services like promotional codes or coupons.
 * **Analytics and reporting** to give you insights into the usage and demand of your fleet, either over time or in real-time. Receiving and acting on these insights will help you [leverage your data effectively](https://www.wundermobility.com/blog/how-to-maximize-your-fleet-and-boost-revenue-with-hyperlocal-data.html) to boost the quality of your fleet service.
 
