@@ -61,7 +61,7 @@ By far one of the most crucial decisions for your fleet business is whether you 
 
 A free-floating model means that your vehicles are independent of a station and can be placed anywhere. As long as you comply with your city’s micromobility regulations, your vehicles can be strategically placed in hotspots where there is high demand. Users can book, ride and park your vehicles wherever is most convenient to them.
 
-###### **The pros of free-floating vehicle sharing:**
+#### **The pros of free-floating vehicle sharing:**
 
 * highest flexibility for users
 * increased accessibility
@@ -70,7 +70,7 @@ A free-floating model means that your vehicles are independent of a station and 
 * easier relocation
 * swappable batteries
 
-###### **The cons of free-floating vehicle sharing:**
+#### **The cons of free-floating vehicle sharing:**
 
 * increased risk of damage or theft
 
@@ -80,12 +80,12 @@ A free-floating model means that your vehicles are independent of a station and 
 
 Station-based sharing means that users must pick up, park and lock your vehicles in a dedicated station. You can offer several stations within a city, and often it doesn’t matter which station users return a vehicle to. As an example, users could rent a bike in the city center and then later park it at a station that’s closest to their hotel.
 
-###### **The pros of station-based vehicle sharing:**
+#### **The pros of station-based vehicle sharing:**
 
 * increased security and protection from theft
 * longer vehicle life
 
-###### **The cons of station-based vehicle sharing:**
+#### **The cons of station-based vehicle sharing:**
 
 * less flexibility for users
 * higher churn rate
@@ -108,7 +108,7 @@ Now you’ve considered and made a list of all the technological features you wi
 
 Below we’ve outlined some of the pros and cons of outsourcing vs. building a mobility tech platform in-house. Generally speaking, building a platform in-house is a lot more expensive and takes much longer than outsourcing to a provider with a ready-made solution. This is because you would need to go through the entire hiring and vetting process of finding the right team to build what you need, or add workload to your already existing engineering team.
 
-###### **The pros of outsourcing mobility software:**
+#### **The pros of outsourcing mobility software:**
 
 * save on labor costs
 * faster time to market
@@ -116,17 +116,19 @@ Below we’ve outlined some of the pros and cons of outsourcing vs. building a m
 * peace of mind so you can focus on your business
 * no tech knowledge required
 
-###### **The cons of outsourcing mobility software:**
+#### **The cons of outsourcing mobility software:**
 
 * not able to micromanage every step of the process
 * fewer customization options
 
-###### **The pros of building mobility software in-house:**
+![](/uploads/2021/06/22/christina-wocintechchat-com-fvgecvtjlbq-unsplash.jpg)
+
+#### **The pros of building mobility software in-house:**
 
 * ability to customize to exact specifications
 * control every part of the workflow
 
-###### **The cons of building mobility software in-house:**
+#### **The cons of building mobility software in-house:**
 
 * quite expensive
 * takes more time than a ready-made solution
