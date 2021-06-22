@@ -20,7 +20,7 @@ speakers:
   job_title: Global Head of Mobility and Member of the Executive Committee
   company: World Economic Forum
   speaker_photo: "/uploads/global/wms2021/speakers/WEF-Christoph-Wolff-2020 1.png"
-  linkedin: ''
+  linkedin: https://www.weforum.org/agenda/authors/christoph-wolff
 - first_name: Oliver
   last_name: Reppert
   job_title: CEO
