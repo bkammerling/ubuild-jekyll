@@ -43,7 +43,7 @@ featured_episodes:
   url: https://open.spotify.com/episode/1yxVJdiv6hpLGkNvGJiB9S?si=AVDyJjV3RhW_ItX-EQqv1g
   number: "18"
   title: Timo Buetefisch
-- image: uploads/global/podcast/episodes/Podcast Cover 16 - Hui Zhang.jpg
+- image: "/uploads/2021/06/23/opti_podcast-cover-16-hui-zhang.jpeg"
   url: https://open.spotify.com/episode/1Mmxjk4lmyF047QrlyHRoL?si=FtSV2djDSN6hzBp2b3yuGQ
   number: "17"
   title: Hui Zhang
