@@ -51,7 +51,7 @@ featured_episodes:
   url: https://open.spotify.com/episode/3jjZiGlT41FYG2d6Ltr0ZW?si=XgN4jAIMSNakjnAIHWGSGQ
   number: "16"
   title: Sandra Philips
-- image: uploads/global/podcast/episodes/Podcast Cover 15 - Olivier Reppert.jpg
+- image: "/uploads/2021/06/23/webopti_oliver_reppert.jpeg"
   url: https://open.spotify.com/episode/6WvHIVbPPYW56cZKiBvg8k?si=XQYHNW-rTRWhAQXwFnkLEA
   number: "15"
   title: Olivier Reppert
