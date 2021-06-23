@@ -9,14 +9,14 @@ featured: false
 preview_gallery:
 - image-video: "/uploads/2021/06/23/cerence_tourguide_2021_v5_300.mp4"
   title: Demo Video
-- image-video: "/uploads/2021/06/16/book_now-nils-lenke.png"
-  title: Option to request booking links
 - image-video: "/uploads/2021/06/16/start_screen-nils-lenke.png"
   title: Start Screen of the app
 - image-video: "/uploads/2021/06/16/select_tour-nils-lenke.png"
   title: Selection of packaged tours
 - image-video: "/uploads/2021/06/16/explore_wiki-nils-lenke.png"
   title: Map view of explore mode
+- image-video: "/uploads/2021/06/16/book_now-nils-lenke.png"
+  title: Option to request booking links
 description: "<p>Cerence Tour Guide is an application that enriches the experience
   of riding an eScooter (or other micro mobility vehicle) by making exploring cities
   and casual rides more interesting and fun! It allows eScooter riders to get all
