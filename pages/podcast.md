@@ -47,7 +47,7 @@ featured_episodes:
   url: https://open.spotify.com/episode/1Mmxjk4lmyF047QrlyHRoL?si=FtSV2djDSN6hzBp2b3yuGQ
   number: "17"
   title: Hui Zhang
-- image: "/uploads/global/podcast/episodes/Podcast Cover 16 - Sandra Philips.jpg"
+- image: "/uploads/2021/06/23/webopti_podcast-cover-17-sandra-philips.jpeg"
   url: https://open.spotify.com/episode/3jjZiGlT41FYG2d6Ltr0ZW?si=XgN4jAIMSNakjnAIHWGSGQ
   number: "16"
   title: Sandra Philips
