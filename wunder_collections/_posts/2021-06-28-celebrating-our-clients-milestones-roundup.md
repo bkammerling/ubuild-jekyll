@@ -20,11 +20,11 @@ case_study_cta:
   supporting_image: ''
 title: Celebrating Our Clients’ Milestones [Roundup]
 publish_date: 2021-06-29 00:00:00 +0000
-featured_image: ''
+featured_image: "/uploads/2021/06/28/frame-1.jpg"
 excerpt: Recently we looked back at the last half year and were so overwhelmed by
   the positive impact that our clients are having in the world of sustainable mobility,
   we decided to round up the news and celebrate in one place.
-share_image: ''
+share_image: "/uploads/2021/06/28/frame-1.jpg"
 sticky: false
 hidden: true
 include_case_study: false
