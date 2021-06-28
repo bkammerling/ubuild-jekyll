@@ -40,7 +40,7 @@ Recently we looked back at the last half year and were so overwhelmed by the pos
 
 ## February
 
-**Sigo reached two amazing milestones**
+[**sigo**](https://sigo.green/) **reached two amazing milestones**
 
 In February it was a two-for-one for our client sigo: Not only did they secure a significant investment, they also reached their crowdfunding goal, proving that shared mobility really is the future of urban transportation. Their shareable cargo bikes are already available in 12 cities across Germany and more growth in the near future.
 
@@ -48,7 +48,7 @@ In February it was a two-for-one for our client sigo: Not only did they secure a
 
 ## March
 
-**We welcomed Zwings, the leading e-scooter sharing operator in the UK onboard**
+**We welcomed** [**Zwings**](https://www.zwings.co.uk/)**, the leading e-scooter sharing operator in the UK onboard**
 
 It was such a thrill to celebrate the successful onboarding of Zwings back in March. Zwings migrated to us from a different platform and since then has already scaled its kickscooter fleet. As the leading electric scooter sharing operator in the UK, Zwings is powering shared mobility in several locations, including Yeovil, Chard, Crewkerne, Gloucester, Cheltenham, Newcastle-Under-Lyme, and Keele’s University Campus, with more to come.
 
@@ -56,25 +56,25 @@ It was such a thrill to celebrate the successful onboarding of Zwings back in Ma
 
 ## April
 
-**emmy expanded its fleet with a new Yadea sharing model**
+[**emmy**](https://emmy-sharing.de/en/) **expanded its fleet with a new Yadea sharing model**
 
-Back in April, our client emmy was at the center of three huge pieces of news: First, we were honored (and still are) to have emmy as one of our Wunder Capital clients, our new subsidiary that is the modern alternative to venture capital. Secondly, emmy significantly expanded its fleet across Germany. On top of all that, emmy was the first to obtain the newly developed sharing-ready version of the G5L, which was born out of our close collaboration with Yadea.
+Back in April, our client emmy was at the center of three huge pieces of news: First, we were honored (and still are) to have emmy as one of our [Wunder Capital](https://techcrunch.com/2021/04/26/wunder-mobilitys-new-lending-business-helps-micromobility-startups-finance-fleets/) clients, our new subsidiary that is the modern alternative to venture capital. Secondly, emmy significantly expanded its fleet across Germany. On top of all that, emmy was the first to obtain the newly developed sharing-ready version of the G5L, which was born out of our close collaboration with Yadea.
 
 ![](/uploads/2021/06/28/314006ae-9919-4f15-bcf8-d28bdc197980.png)
 
-**Gazal launched in Riyadh Front**
+[**Gazal**](https://gazal.app/#section_1) **launched in Riyadh Front**
 
 Also in April, Gazal, one of the premier mobility operators in Saudi Arabia, launched its second operational area in the premier business hub Riyadh Front. With its state-of-the-art software and hardware solutions, Gazal is expected to serve more than 6000 customers within this unique hub. This launch supports the mission of providing affordable, stress-free and sustainable travel for all communities.
 
 ![](/uploads/2021/06/28/5c676903-a152-4a79-8811-67766630a2cd.jpeg)
 
-**Evo went eight times around the world in three years**
+[**Evo**](https://www.evo-energie.de/) **went eight times around the world in three years**
 
 Our client Energieversorgung Oberhausen AG (evo) and its mobility service evo-Sharing recently tracked 320.000km in distance driven with their e-scooters – that equates to eight times around the world! They were one of the first utility providers to initiate their own electric fleet, and since then 10+ more have launched on the Wunder Mobility platform.
 
 ![](/uploads/2021/06/28/05328fe7-c2d6-4a27-a7e4-8779fd43dd98.jpeg)
 
-**E.ON proved that shared mobility is not just for big cities**
+[**E.ON**](https://www.eon.de/de/pk.html) **proved that shared mobility is not just for big cities**
 
 Last but not least for April, our client E.ON, one of the four largest utility providers in Germany, launched a fleet of electric mopeds in Göttingen, a city with just over 100k inhabitants. This was one of many examples proving that wherever they're living, people want to be mobile. And the future of mobility is definitely electric.
 
@@ -82,19 +82,19 @@ Last but not least for April, our client E.ON, one of the four largest utility p
 
 ## May
 
-**Stella Sharing celebrated 5 years on the road**
+[**Stella Sharing**](https://www.stella-sharing.de/) **celebrated 5 years on the road**
 
 May kicked off with celebratory cheers for our client Stella Sharing from Stadtwerke Stuttgart GmbH, celebrating their mopeds’ 5 years on the road. In that time Stella customers have gone quite far: Together they tracked more than 1 million km of driven distance, which equals 25 times around the world.
 
 ![](/uploads/2021/06/28/749c988a-e8bf-8d72-9f3a-9d1dbdc7f843.jpeg)
 
-**Blue Duck launched in Spartanburg**
+[**Blue Duck**](https://www.flyblueduck.com/) **launched in Spartanburg**
 
 The Blue Duck micromobility fleet officially landed in Spartanburg in May, the first city in South Carolina with a legal e-scooter program. This expansion is in line with Blue Duck’s mission of making the Southern U.S. more connected, more mobile, and more sustainable.
 
 ![](/uploads/2021/06/28/6d84dcbd-1b92-fe9e-91c6-20a22b358cf2.jpeg)
 
-**WhipEV is now available in 14 locations across the U.S.**
+[**WhipEV**](https://www.whipev.com/) **is now available in 14 locations across the U.S.**
 
 Our client WhipEV, an electric car-sharing service, is now operational in 14 locations across the U.S. They offer both affordable electric vehicles and luxury models, including Teslas, that residents can reserve, unlock, and drive, from the convenience of their mobile app.
 
@@ -102,23 +102,23 @@ Our client WhipEV, an electric car-sharing service, is now operational in 14 loc
 
 ## June
 
-**Stadtwerke Detmold’s fleet is up and running in Detmold**
+[**Stadtwerke Detmold**](https://www.stadtwerke-detmold.de/E-Mobilitaet)**’s fleet is up and running in Detmold**
 
 We’re seeing more and more utility providers offering their communities shared mobility services with a fleet of electric vehicles. Newest on the list is our client Stadtwerke Detmold, whose fleet has just hit the road, ready for riders who want to flit around town.
 
-**Hobo expanded its reach in Bulgaria**
+[**Hobo**](https://www.hobo.bg/) **expanded its reach in Bulgaria**
 
 The folks over at Hobo have been busy bees, launching in new locations in Bulgaria, one of them the ancient city of Plovidc. Hobo’s micromobility scooters are now available in three cities, offering citizens an eco-friendly alternative to traditional commuting.
 
 ![](/uploads/2021/06/28/1624464311467.gif)
 
-**Another win for Gazal**
+**Another win for** [**Gazal**](https://gazal.app/#section_1)
 
 Gazal put safety first and announced the opening of the Gazal Center in Altahlia Street in Riyadh. This new location is a training center for Gazal riders, offering educational advice, like the importance of wearing a helmet, as well as promoting safety awareness. Micromobility is here to stay and Gazal is ensuring their riders get around safely and securely.
 
 ![](/uploads/2021/06/28/1624277290364.jpeg)
 
-**Zeus expanded internationally with launch in Sweden**
+[**Zeus**](https://zeusscooters.com/) **expanded internationally with launch in Sweden**
 
 Zeus are taking their unique scooters – powered entirely by solar energy – to Sweden and launching soon in the cities of Halmstad and Karlstad. This marks Zeus’ official international expansion, and we see no signs of slowing down.
 
