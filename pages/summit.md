@@ -15,12 +15,12 @@ share_image: "/uploads/2021/06/11/wms21_share_img.png"
 intro_video_id: "561712427"
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
-- first_name: Cristoph
-  last_name: Wolff
-  job_title: Global Head of Mobility and Member of the Executive Committee
+- first_name: 'Maya '
+  last_name: 'Ben Dror '
+  job_title: Lead, Sustainable Automotive and Mobility
   company: World Economic Forum
-  speaker_photo: "/uploads/global/wms2021/speakers/WEF-Christoph-Wolff-2020 1.png"
-  linkedin: https://www.weforum.org/agenda/authors/christoph-wolff
+  speaker_photo: "/uploads/2021/06/28/maya-ben-dror.jpeg"
+  linkedin: https://www.linkedin.com/in/mayakeidar/
 - first_name: Oliver
   last_name: Reppert
   job_title: CEO
