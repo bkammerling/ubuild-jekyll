@@ -113,8 +113,8 @@ page_sections:
   hide_menu: false
   show_poweredby: false
 sponsors:
-- logo: "/uploads/global/wms2021/sponsors/pwc_logo.png"
-  url: https://www.pwc.com/
+- logo: "/uploads/2021/06/28/pwc_logo_mono_outline_white_rgb.jpeg"
+  url: https://www.pwc.de/
 media_partners:
 - logo: "/uploads/global/wms2021/sponsors/background_logo.png"
   url: https://background.tagesspiegel.de/
