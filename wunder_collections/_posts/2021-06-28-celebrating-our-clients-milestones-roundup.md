@@ -26,7 +26,7 @@ excerpt: Recently we looked back at the last half year and were so overwhelmed b
   we decided to round up the news and celebrate in one place.
 share_image: ''
 sticky: false
-hidden: false
+hidden: true
 include_case_study: false
 
 ---
@@ -101,6 +101,12 @@ Our client WhipEV, an electric car-sharing service, is now operational in 14 loc
 ![](/uploads/2021/06/28/4481f3af-b8b8-87f7-0243-1881cab4fca8.png)
 
 ## June
+
+[**Avocargo**](https://en.avocargo.one/)**'s long-awaited launch in Berlin**
+
+Avocargo's unique shared electric cargo bikes take mobility to the next level, allowing people to transport goods, pets and even the odd passenger here and there, without having to rely on cars or having to invest in their own cargo bike. They've recently launched in Berlin to the joy of many who are ready to give up cars as a daily player in their life.
+
+![](/uploads/2021/06/28/avocargo.jpeg)
 
 [**Stadtwerke Detmold**](https://www.stadtwerke-detmold.de/E-Mobilitaet)**’s fleet is up and running in Detmold**
 
