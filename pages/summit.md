@@ -52,6 +52,12 @@ speakers:
   speaker_photo: "/uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press
     1.png"
   linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
+- first_name: Jonas
+  last_name: Seyfferth
+  job_title: 'Director '
+  company: Strategy&, part of the PwC network
+  speaker_photo: "/uploads/2021/06/28/jonas-seyfferth.jpeg"
+  linkedin: https://www.linkedin.com/in/jonas-seyfferth/
 - first_name: Gunnar
   last_name: Froh
   job_title: Founder & CEO
