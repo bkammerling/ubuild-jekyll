@@ -30,8 +30,6 @@ hidden: true
 include_case_study: false
 
 ---
-# Celebrating Our Clients’ Milestones \[Roundup\]
-
 It feels like just yesterday that we were ringing in the new year, the long-awaited 2021. But in fact six months have already come and gone since we popped the champagne and sang auld lang syne. And what an eventful six months it has been – especially for our clients!
 
 At Wunder Mobility we firmly believe in celebrating our clients’ successes. From new launches and expansions to team news and good deeds, we shout-out not just on [social media](https://www.linkedin.com/company/wundermobility/), but in the monthly edition of the [Wunderbar newsletter](https://www.wundermobility.com/newsletter).
@@ -73,12 +71,6 @@ Also in April, Gazal, one of the premier mobility operators in Saudi Arabia, lau
 Our client Energieversorgung Oberhausen AG (evo) and its mobility service evo-Sharing recently tracked 320.000km in distance driven with their e-scooters – that equates to eight times around the world! They were one of the first utility providers to initiate their own electric fleet, and since then 10+ more have launched on the Wunder Mobility platform.
 
 ![](/uploads/2021/06/28/05328fe7-c2d6-4a27-a7e4-8779fd43dd98.jpeg)
-
-[**E.ON**](https://www.eon.de/de/pk.html) **proved that shared mobility is not just for big cities**
-
-Last but not least for April, our client E.ON, one of the four largest utility providers in Germany, launched a fleet of electric mopeds in Göttingen, a city with just over 100k inhabitants. This was one of many examples proving that wherever they're living, people want to be mobile. And the future of mobility is definitely electric.
-
-![](/uploads/2021/06/28/dc74d2bf-0e79-a25d-7bf8-1f6423ef26c7.jpeg)
 
 ## May
 
