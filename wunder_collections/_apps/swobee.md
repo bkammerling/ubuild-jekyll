@@ -25,10 +25,12 @@ description: "<p>Swobee is the e-gas station for micro-moibility.</p><p>Empty ba
 screenshot_details:
 - screenshot: "/uploads/2021/06/02/charing_infrastructure1-kevin-goebel.png"
   title: Charging as a service (CaaS); user swapping ready.
-  screenshot_description: |-
-    The CaaS model offers the possibility for companies e.g. sharing providers (electric scooters and e-kickscooters) to use a Swobbee station exclusively for themselves and use them as a decentralised charging station for their own battery pool. Eliminating the need for expensive warehouses. On a further stage end user swapping can be added.
-
-    The charging process is monitored 24/7. All batteries within a Swobbee station are protected and insured against any risks.
+  screenshot_description: The CaaS model offers the possibility for companies e.g.
+    sharing providers (electric scooters and e-kickscooters) to use a Swobbee station
+    exclusively for themselves and use them as a decentralised charging station for
+    their own battery pool. Eliminating the need for expensive warehouses. On a further
+    stage end user swapping can be added. The charging process is monitored 24/7.
+    All batteries within a Swobbee station are protected and insured against any risks.
 - screenshot: "/uploads/2021/06/02/battery-as-a-service1-kevin-goebel.png"
   title: Battery as a Service (BaaS); full battery service including battery rental,
     replacement, and disposal.
