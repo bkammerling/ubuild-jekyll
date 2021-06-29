@@ -20,11 +20,11 @@ case_study_cta:
   supporting_image: ''
 title: Celebrating Our Clients’ Milestones [Roundup]
 publish_date: 2021-06-29 00:00:00 +0000
-featured_image: "/uploads/2021/06/28/frame-1.jpg"
+featured_image: "/uploads/2021/06/29/frame-1-2.png"
 excerpt: Recently we looked back at the last half year and were so overwhelmed by
   the positive impact that our clients are having in the world of sustainable mobility,
   we decided to round up the news and celebrate in one place.
-share_image: "/uploads/2021/06/28/frame-1.jpg"
+share_image: "/uploads/2021/06/29/frame-1-2.png"
 sticky: false
 hidden: true
 include_case_study: false
@@ -115,3 +115,9 @@ The folks over at Hobo have been busy bees, launching in new locations in Bulgar
 Gazal put safety first and announced the opening of the Gazal Center in Altahlia Street in Riyadh. This new location is a training center for Gazal riders, offering educational advice, like the importance of wearing a helmet, as well as promoting safety awareness. Micromobility is here to stay and Gazal is ensuring their riders get around safely and securely.
 
 ![](/uploads/2021/06/28/1624277290364.jpeg)
+
+## Will you be next on this list?
+
+Looking to launch your own mobility business? Wunder Mobility is your partner for success. With our unique all-in-one platform for mobility – including software, hardware, extensions, and more – we're helping our clients drive the future of sustainable transportation. 
+
+[**Get in touch**](https://www.wundermobility.com/#section-contact) today for a free demo of what we can do for you.
