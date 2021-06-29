@@ -115,9 +115,3 @@ The folks over at Hobo have been busy bees, launching in new locations in Bulgar
 Gazal put safety first and announced the opening of the Gazal Center in Altahlia Street in Riyadh. This new location is a training center for Gazal riders, offering educational advice, like the importance of wearing a helmet, as well as promoting safety awareness. Micromobility is here to stay and Gazal is ensuring their riders get around safely and securely.
 
 ![](/uploads/2021/06/28/1624277290364.jpeg)
-
-[**Zeus**](https://zeusscooters.com/) **expanded internationally with launch in Sweden**
-
-Zeus are taking their unique scooters – powered entirely by solar energy – to Sweden and launching soon in the cities of Halmstad and Karlstad. This marks Zeus’ official international expansion, and we see no signs of slowing down.
-
-![](/uploads/2021/06/28/1617430197641.jpeg)
