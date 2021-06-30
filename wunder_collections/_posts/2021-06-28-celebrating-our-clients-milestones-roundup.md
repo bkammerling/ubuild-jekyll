@@ -104,8 +104,6 @@ Avocargo's unique shared electric cargo bikes take mobility to the next level, a
 
 We’re seeing more and more utility providers offering their communities shared mobility services with a fleet of electric vehicles. Newest on the list is our client Stadtwerke Detmold, whose fleet has just hit the road, ready for riders who want to flit around town.
 
-![](/uploads/2021/06/30/screenshot-2021-06-30-at-11-28-08.png)
-
 [**Hobo**](https://www.hobo.bg/) **expanded its reach in Bulgaria**
 
 The folks over at Hobo have been busy bees, launching in new locations in Bulgaria, one of them the ancient city of Plovidc. Hobo’s micromobility scooters are now available in three cities, offering citizens an eco-friendly alternative to traditional commuting.
