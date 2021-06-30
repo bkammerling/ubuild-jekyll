@@ -26,7 +26,7 @@ excerpt: Recently we looked back at the last half year and were so overwhelmed b
   we decided to round up the news and celebrate in one place.
 share_image: "/uploads/2021/06/29/frame-1-2.png"
 sticky: false
-hidden: true
+hidden: false
 include_case_study: false
 
 ---
