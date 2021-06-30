@@ -56,7 +56,7 @@ It was such a thrill to celebrate the successful onboarding of Zwings back in Ma
 
 [**emmy**](https://emmy-sharing.de/en/) **expanded its fleet with a new Yadea sharing model**
 
-Back in April, our client emmy was at the center of three huge pieces of news: First, we were honored (and still are) to have emmy as one of our [Wunder Capital](https://techcrunch.com/2021/04/26/wunder-mobilitys-new-lending-business-helps-micromobility-startups-finance-fleets/) clients, our new subsidiary that is the modern alternative to venture capital. Secondly, emmy significantly expanded its fleet across Germany. On top of all that, emmy was the first to obtain the newly developed sharing-ready version of the G5L, which was born out of our close collaboration with Yadea.
+Back in April, our client emmy was at the center of three huge pieces of news: First, we were honored (and still are) to have emmy as one of our Wunder Capital clients, our new subsidiary that is the modern alternative to venture capital – read more about it on [TechCrunch](https://techcrunch.com/2021/04/26/wunder-mobilitys-new-lending-business-helps-micromobility-startups-finance-fleets/). Secondly, emmy significantly expanded its fleet across Germany. On top of all that, emmy was the first to obtain the newly developed sharing-ready version of the G5L, which was born out of our close collaboration with Yadea.
 
 ![](/uploads/2021/06/28/314006ae-9919-4f15-bcf8-d28bdc197980.png)
 
@@ -104,6 +104,8 @@ Avocargo's unique shared electric cargo bikes take mobility to the next level, a
 
 We’re seeing more and more utility providers offering their communities shared mobility services with a fleet of electric vehicles. Newest on the list is our client Stadtwerke Detmold, whose fleet has just hit the road, ready for riders who want to flit around town.
 
+![](/uploads/2021/06/30/screenshot-2021-06-30-at-11-28-08.png)
+
 [**Hobo**](https://www.hobo.bg/) **expanded its reach in Bulgaria**
 
 The folks over at Hobo have been busy bees, launching in new locations in Bulgaria, one of them the ancient city of Plovidc. Hobo’s micromobility scooters are now available in three cities, offering citizens an eco-friendly alternative to traditional commuting.
@@ -118,6 +120,6 @@ Gazal put safety first and announced the opening of the Gazal Center in Altahlia
 
 ## Will you be next on this list?
 
-Looking to launch your own mobility business? Wunder Mobility is your partner for success. With our unique all-in-one platform for mobility – including software, hardware, extensions, and more – we're helping our clients drive the future of sustainable transportation. 
+Looking to launch your own mobility business? Wunder Mobility is your partner for success. With our unique all-in-one platform for mobility – including software, hardware, extensions, and more – we're helping our clients drive the future of sustainable transportation.
 
 [**Get in touch**](https://www.wundermobility.com/#section-contact) today for a free demo of what we can do for you.
