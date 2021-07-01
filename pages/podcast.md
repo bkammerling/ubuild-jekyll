@@ -35,6 +35,10 @@ page_sections:
 share_image: "/uploads/global/podcast/share.jpg"
 hero_episode_embed_url: https://open.spotify.com/embed/episode/6rnJnf3YU0rTwvXivctYV3
 featured_episodes:
+- image: "/uploads/2021/07/01/webopti_podcast-cover-20-susan-shaheen.jpeg"
+  url: https://open.spotify.com/embed-podcast/episode/0sJQOtBFjssDqF9dFKEnNs
+  number: "20"
+  title: Susan Shaheen
 - image: "/uploads/2021/06/14/webopti_cover-michael_barillerescholz.jpeg"
   url: https://open.spotify.com/episode/6rnJnf3YU0rTwvXivctYV3?si=LVzlridmQUiCkexwpJe0qQ&dl_branch=1
   number: "19"
