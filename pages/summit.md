@@ -37,7 +37,7 @@ speakers:
   last_name: Bartels
   job_title: Business Owner Vehicles
   company: Wunder Mobility
-  speaker_photo: "/uploads/2021/06/14/jana2.jpeg"
+  speaker_photo: "/uploads/2021/07/02/jana-bartels.png"
   linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
 - first_name: Timo
   last_name: Buetefisch
