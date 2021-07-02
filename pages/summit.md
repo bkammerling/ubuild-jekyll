@@ -123,7 +123,7 @@ sponsors:
   url: https://www.pwc.de/
 media_partners:
 - logo: "/uploads/global/wms2021/sponsors/background_logo.png"
-  url: https://background.tagesspiegel.de/
+  url: https://background-briefing.tagesspiegel.de/wunder-mobility-summit/
 - logo: "/uploads/global/wms2021/sponsors/automobil_logo.png"
   url: https://www.automobil-industrie.vogel.de/
 - logo: "/uploads/global/wms2021/sponsors/next_mobility_logo.png"
