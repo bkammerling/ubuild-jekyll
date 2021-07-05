@@ -35,7 +35,7 @@ Whether you’re a startup looking to make a positive change in the world of tra
 
 There are many benefits to vehicle sharing. Not only is it a more sustainable alternative to [car ownership](https://www.wundermobility.com/blog/sharing-economy-vehicle-sharing-car-ownership) with a positive impact on urban landscapes, it’s also predicted to be the [future ](https://www.weforum.org/agenda/2021/04/future-of-transport-sustainable-development-goals/)of how people move.
 
-Launching a new business is no easy feat, especially for industries like mobility where market regulations and user preferences can affect your entire business strategy. In order to help you navigate the launch of your vehicle sharing business, we’ve put together this comprehensive guide outlining all of the steps you need to keep in mind. It covers everything, from the things you should consider before you shop for vehicles to how to boost your brand as soon as your fleet is ready to hit the streets.
+Launching a new business is no easy feat, especially for industries like mobility where market regulations and user preferences can affect your entire business strategy. In order to help you navigate the launch of your vehicle sharing business, we’ve put together this comprehensive guide outlining all of the steps you need to keep in mind.
 
 ![](/uploads/2021/06/22/max-1.jpg)
 
@@ -104,7 +104,7 @@ By launching a shared mobility business, what you’re essentially offering is a
 
 ### Finding a mobility Software-as-a-Service provider to meet your needs
 
-Now you’ve considered and made a list of all the technological features you will need to launch and operate your fleet. The next question to consider is if you should go about building all of this in-house – that is, hiring a team of engineers who can build the software from scratch – or if you should outsource the entire production to a [mobility Software-as-a-Service provider](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider.html) (also known as MaaS, Mobility-as-a-Service), who can do all the heavy lifting.
+You’ve considered and made a list of all the technological features you will need to launch and operate your fleet. The next question to consider is if you should go about building all of this in-house – that is, hiring a team of engineers who can build the software from scratch – or if you should outsource the entire production to a [mobility Software-as-a-Service provider](https://www.wundermobility.com/blog/5-things-to-look-for-in-a-vehicle-sharing-software-provider.html) (also known as MaaS, Mobility-as-a-Service), who can do all the heavy lifting.
 
 Below we’ve outlined some of the pros and cons of outsourcing vs. building a mobility tech platform in-house. Generally speaking, building a platform in-house is a lot more expensive and takes much longer than outsourcing to a provider with a ready-made solution. This is because you would need to go through the entire hiring and vetting process of finding the right team to build what you need, or add workload to your already existing engineering team.
 
@@ -151,7 +151,7 @@ If you’ve chosen your preferred vehicle and model already, there are still som
 
 A classic mistake is assuming that you will save money if you bypass a good provider and buy directly from an overseas manufacturer. Though nowadays many manufacturers do offer IoT devices with their vehicles, many do not use custom built IoT devices, which more often than not results in poor connectivity. And that in turn means that you and your users cannot connect to your fleet of vehicles. [Ordering a vehicle fleet](https://www.wundermobility.com/blog/video-wunder-vehicles-taking-the-next-step-in-capturing-the-value-chain-of-mobility.html), shipping them to your home country and then having to deal with retrofitting IoT devices onto all of them is actually quite expensive and costs a lot of time.
 
-### Tip #2 - Find a Vehicle Provider who can offer you a complete package
+### Tip #2 - Find a vehicle provider who can offer you a complete package
 
 Instead of trying to piece together several components from different providers on your own, why not save yourself some time and effort by going for a complete package? Look out for mobility tech providers that offer package deals that combine hardware and software capabilities.
 
