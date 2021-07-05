@@ -31,7 +31,7 @@ hidden: false
 include_case_study: false
 
 ---
-Whether you’re a startup looking to make a positive change in the world of transportation or you’re an already established company exploring ways to expand your sustainability portfolio, launching a vehicle sharing business is a proven business model in the [mobility landscape](https://www.wundermobility.com/blog/sharing-economy-vehicle-sharing-car-ownership).
+Whether you’re a startup looking to make a positive change in the world of transportation or you’re an already established company exploring ways to expand your sustainability portfolio, launching a vehicle sharing business is a proven concept in the [mobility landscape](https://www.wundermobility.com/blog/sharing-economy-vehicle-sharing-car-ownership).
 
 There are many benefits to vehicle sharing. Not only is it a more sustainable alternative to [car ownership](https://www.wundermobility.com/blog/sharing-economy-vehicle-sharing-car-ownership) with a positive impact on urban landscapes, it’s also predicted to be the [future ](https://www.weforum.org/agenda/2021/04/future-of-transport-sustainable-development-goals/)of how people move.
 
