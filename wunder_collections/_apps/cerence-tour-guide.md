@@ -63,6 +63,5 @@ getting_started:
     into which Tour Guide would be integrated
 whitepaper_link: https://drive.google.com/file/d/1FBfGLrqKj7_mLgfPMc9QLdFHa9mIp0eA/view?usp=sharing
 video_poster: ''
-published: false
 
 ---
