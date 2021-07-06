@@ -41,11 +41,11 @@ screenshot_details:
     operating and investments costs. '
 - screenshot: "/uploads/2021/06/02/app-dashboard-kevin-goebel.png"
   title: Swobbee App and operator dashboard for smooth swapping operations.
-  screenshot_description: 'Our APpp shows you the location of the nearest Swobbee
-    station, the availability of fully charged batteries, and allows the user to reserve
-    the desired battery. Additionally, the Swobbee app provides valuable insights
-    and analytics which help our customers to optimize their operations and utilize
-    batteries efficiently and sustainably. '
+  screenshot_description: 'Our App shows you the location of the nearest Swobbee station,
+    the availability of fully charged batteries, and allows the user to reserve the
+    desired battery. Additionally, the Swobbee app provides valuable insights and
+    analytics which help our customers to optimize their operations and utilize batteries
+    efficiently and sustainably. '
 app_details:
 - detail_title: ''
   detail_content: "<em>*Additional fees may be charged</em>"
