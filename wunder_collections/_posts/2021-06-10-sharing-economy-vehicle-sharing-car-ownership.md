@@ -29,11 +29,9 @@ hidden: false
 include_case_study: false
 
 ---
-You've heard of the sharing economy: it's a [still growing](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) socio-economic system that traces its rise back to the Great Recession. 
+Chances are you've probably heard of the sharing economy, the [still growing](https://www.pwc.com/hu/en/kiadvanyok/assets/pdf/sharing-economy-en.pdf) socio-economic system that traces its rise back to the Great Recession. Well, millennials have taken the sharing economy to the next level with a movement that [Forbes](https://www.forbes.com/sites/blakemorgan/2019/01/02/nownership-no-problem-an-updated-look-at-why-millennials-value-experiences-over-owning-things/?sh=2405d6f4522f) has dubbed NOwnership.
 
-Well, millennials have taken the sharing economy to the next level with a movement that [Forbes](https://www.forbes.com/sites/blakemorgan/2019/01/02/nownership-no-problem-an-updated-look-at-why-millennials-value-experiences-over-owning-things/?sh=2405d6f4522f) has dubbed NOwnership.
-
-NOwnership – a portmanteau of "no" and "ownership" – is a movement by younger generations away from owning things in favor of sharing them with others within their community, or relying on a service that provides what they need, when they need it.
+NOwnership – a portmanteau of "no" and "ownership" – is a movement by younger generations away from owning things in favor of sharing them within their community, or relying on a service that provides what they need, when they need it.
 
 It's especially attractive for younger generations because foregoing the ownership of objects is more sustainable and economically advantageous. Sharing instead of buying requires fewer financial resources, gives items more usage, and coexists well with overcrowded or even cramped urban dwellings.
 
