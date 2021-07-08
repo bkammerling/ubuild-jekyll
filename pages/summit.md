@@ -45,6 +45,12 @@ speakers:
   company: 'Cooltra '
   speaker_photo: "/uploads/2021/06/14/press_cooltra-management-hor-bw_print_timo_dsc_8339.jpeg"
   linkedin: https://www.linkedin.com/in/timo-buetefisch-874162/
+- first_name: Kalle
+  last_name: Greven
+  job_title: 'Head of New Mobility '
+  company: 'Deutsche Bahn '
+  speaker_photo: "/uploads/2021/07/08/kalle-greven_1.jpeg"
+  linkedin: https://www.linkedin.com/in/kalle-greven-585b313/
 - first_name: Valerian
   last_name: Seither
   job_title: Co-founder & CEO
