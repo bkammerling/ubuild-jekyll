@@ -21,7 +21,7 @@ speakers:
   company: World Economic Forum
   speaker_photo: "/uploads/2021/06/28/maya-ben-dror.jpeg"
   linkedin: https://www.linkedin.com/in/mayakeidar/
-- first_name: Oliver
+- first_name: Olivier
   last_name: Reppert
   job_title: CEO
   company: SHARE NOW
