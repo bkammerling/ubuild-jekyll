@@ -27,6 +27,12 @@ speakers:
   company: SHARE NOW
   speaker_photo: "/uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
   linkedin: https://www.linkedin.com/in/olivier-reppert-56617611/
+- first_name: Nico
+  last_name: Gabriel
+  job_title: Chief Operating Officer
+  company: 'Sixt '
+  speaker_photo: "/uploads/2021/07/09/nico-gabriel_webopti.jpeg"
+  linkedin: https://www.linkedin.com/in/nico-gabriel-55456b92/
 - first_name: Thomas Juul
   last_name: Heltborg
   job_title: Group CEO
@@ -39,18 +45,24 @@ speakers:
   company: Wunder Mobility
   speaker_photo: "/uploads/2021/07/02/jana-bartels.png"
   linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
+- first_name: Jonas
+  last_name: Seyfferth
+  job_title: 'Director '
+  company: Strategy&, part of the PwC network
+  speaker_photo: "/uploads/2021/06/28/jonas-seyfferth.jpeg"
+  linkedin: https://www.linkedin.com/in/jonas-seyfferth/
+- first_name: Kalle
+  last_name: Greven
+  job_title: 'Head of New Mobility '
+  company: 'Deutsche Bahn '
+  speaker_photo: "/uploads/2021/07/08/kalle-greven_1-webopti.jpeg"
+  linkedin: https://www.linkedin.com/in/kalle-greven-585b313/
 - first_name: Timo
   last_name: Buetefisch
   job_title: Co-founder & CEO
   company: 'Cooltra '
   speaker_photo: "/uploads/2021/06/14/press_cooltra-management-hor-bw_print_timo_dsc_8339.jpeg"
   linkedin: https://www.linkedin.com/in/timo-buetefisch-874162/
-- first_name: Kalle
-  last_name: Greven
-  job_title: 'Head of New Mobility '
-  company: 'Deutsche Bahn '
-  speaker_photo: "/uploads/2021/07/08/kalle-greven_1.jpeg"
-  linkedin: https://www.linkedin.com/in/kalle-greven-585b313/
 - first_name: Valerian
   last_name: Seither
   job_title: Co-founder & CEO
@@ -58,12 +70,6 @@ speakers:
   speaker_photo: "/uploads/global/wms2021/speakers/2020_Gruender_Valerian-Seither_Press
     1.png"
   linkedin: https://www.linkedin.com/in/valerian-p-a-seither-a6636574/
-- first_name: Jonas
-  last_name: Seyfferth
-  job_title: 'Director '
-  company: Strategy&, part of the PwC network
-  speaker_photo: "/uploads/2021/06/28/jonas-seyfferth.jpeg"
-  linkedin: https://www.linkedin.com/in/jonas-seyfferth/
 - first_name: Gunnar
   last_name: Froh
   job_title: Founder & CEO
