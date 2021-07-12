@@ -33,8 +33,12 @@ page_sections:
   block: footer-1
   content: ''
 share_image: "/uploads/global/podcast/share.jpg"
-hero_episode_embed_url: https://open.spotify.com/embed-podcast/episode/0sJQOtBFjssDqF9dFKEnNs
+hero_episode_embed_url: https://open.spotify.com/embed-podcast/episode/3stithmz8WoYmepRxTW1Sh
 featured_episodes:
+- image: "/uploads/2021/07/12/webopti_podcast-cover-21-valerian-seither.jpeg"
+  url: https://open.spotify.com/episode/3stithmz8WoYmepRxTW1Sh?si=MXQ6zfcuQ4OEb9TJAU3FHg&dl_branch=1
+  number: "21"
+  title: Valerian Seither
 - image: "/uploads/2021/07/01/webopti_podcast-cover-20-susan-shaheen.jpeg"
   url: https://open.spotify.com/episode/0sJQOtBFjssDqF9dFKEnNs?si=SX5QAqzdQi-G9_efBLVFUw&dl_branch=1
   number: "20"
