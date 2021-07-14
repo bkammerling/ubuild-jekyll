@@ -33,7 +33,7 @@ hidden: true
 include_case_study: false
 
 ---
-_Read this article in German._
+_Read this article in_ [_German_](https://bernstein-group.com/de/2021/07/14/es-sollte-einen-vollen-push-auf-die-zero-emission-electric-vehicles-geben/)_._
 
 When people think of environmentally friendly vehicles, they often think of vehicles powered by electricity. Electromobility, however, isn’t the only viable sustainable mobility alternative. In this interview, [Nikolas Iwan](https://www.linkedin.com/in/nikolasiwan/#), CEO of H2 Mobility, a company aiming to build national network of hydrogen refilling stations in Germany, spoke with our friends over at the Bernstein Group about the potential of hydrogen powered mobility in Germany, what other countries are doing with hydrogen, and the advancements of policies that would propel its growth.
 
