@@ -99,8 +99,8 @@ faqs:
     data-toggle="modal">this form</a>. We will review your application and be in touch
     as soon as possible.
 - question: How much does it cost to attend WMS’21?
-  answer: The cost of attendance for WMS’21 is €900 (excluding fees). All meals and
-    drinks are included in the price. If you apply to attend before 30 July, 2021,
+  answer: The cost of attendance for WMS’21 is €749 (excluding VAT + fees). All meals
+    and drinks are included in the price. If you apply to attend before 30 July, 2021,
     you can benefit from a 25% Early Bird reduction on the regular admission price.
 - question: How can I stay informed about the latest updates from WMS’21?
   answer: 'Follow us on <a href="https://www.linkedin.com/company/wundermobility"
