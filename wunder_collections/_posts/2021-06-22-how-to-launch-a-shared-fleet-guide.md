@@ -1,6 +1,6 @@
 ---
 layout: simple-article
-category: ''
+category: News
 tags:
 - vehicle sharing
 - shared mobility
