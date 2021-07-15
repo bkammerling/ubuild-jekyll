@@ -26,7 +26,7 @@ excerpt: In order to help you navigate the launch of your vehicle sharing busine
   we’ve put together this comprehensive guide outlining all of the steps you need
   to keep in mind.
 share_image: "/uploads/2021/06/22/max-1.jpg"
-sticky: false
+sticky: true
 hidden: false
 include_case_study: false
 

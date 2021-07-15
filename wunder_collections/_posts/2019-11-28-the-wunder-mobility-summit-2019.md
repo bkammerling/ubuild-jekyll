@@ -15,8 +15,9 @@ publish_date: 2019-11-28T00:00:00.000+00:00
 featured_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
 excerpt: Leaders from all across the mobility spectrum come together.
 share_image: "/uploads/2019/11/27/Screenshot 2019-11-27 at 17.53.32.png"
-sticky: true
+sticky: false
 hidden: false
+language: EN
 
 ---
 **The Wunder Mobility Summit 2019 was a massive success!**
