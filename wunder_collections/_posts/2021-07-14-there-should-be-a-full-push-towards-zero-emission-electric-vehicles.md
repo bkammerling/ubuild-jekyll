@@ -29,7 +29,7 @@ excerpt: In this interview, Nikolas Iwan, CEO of H2 Mobility, a company aiming t
   policies that would propel its growth.
 share_image: "/uploads/2021/07/13/frame-28.png"
 sticky: false
-hidden: true
+hidden: false
 include_case_study: false
 
 ---
