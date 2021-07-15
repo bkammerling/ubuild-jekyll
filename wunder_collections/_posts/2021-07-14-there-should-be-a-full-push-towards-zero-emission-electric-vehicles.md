@@ -20,7 +20,7 @@ case_study_cta:
   external_url: ''
   supporting_image: ''
 title: '"There should be a full push towards zero emission electric vehicles."'
-publish_date: 2021-07-15 13:00:00 +0000
+publish_date: 2021-07-15 00:00:00 +0000
 featured_image: "/uploads/2021/07/13/frame-28.png"
 excerpt: In this interview, Nikolas Iwan, CEO of H2 Mobility, a company aiming to
   build national network of hydrogen refilling stations in Germany, spoke with our
