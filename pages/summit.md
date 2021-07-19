@@ -15,6 +15,12 @@ share_image: "/uploads/2021/06/11/wms21_share_img.png"
 intro_video_id: "561712427"
 agenda_file: "/uploads/2021/10/WMS21 - Agenda_Update.pdf"
 speakers:
+- first_name: Dr. Anjes
+  last_name: Tjarks
+  job_title: Senator for Transport and Mobility Change
+  company: City of Hamburg
+  speaker_photo: "/uploads/2021/07/19/anjes-tjarks.jpeg"
+  linkedin: https://www.hamburg.de/senatoren/13952988/lebenslauf-anjes-tjarks/
 - first_name: 'Maya '
   last_name: 'Ben Dror '
   job_title: Lead, Sustainable Automotive and Mobility
