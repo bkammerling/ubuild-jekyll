@@ -27,24 +27,24 @@ speakers:
   company: World Economic Forum
   speaker_photo: "/uploads/2021/06/28/maya-ben-dror.jpeg"
   linkedin: https://www.linkedin.com/in/mayakeidar/
-- first_name: Olivier
-  last_name: Reppert
-  job_title: CEO
-  company: SHARE NOW
-  speaker_photo: "/uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
-  linkedin: https://www.linkedin.com/in/olivier-reppert-56617611/
-- first_name: Nico
-  last_name: Gabriel
-  job_title: Chief Operating Officer
-  company: 'Sixt '
-  speaker_photo: "/uploads/2021/07/09/nico-gabriel_webopti.jpeg"
-  linkedin: https://www.linkedin.com/in/nico-gabriel-55456b92/
 - first_name: Thomas Juul
   last_name: Heltborg
   job_title: Group CEO
   company: GreenMobility
   speaker_photo: "/uploads/global/wms2021/speakers/greenmobilityTHJ-600x600 1.png"
   linkedin: https://www.linkedin.com/in/thomasheltborgjuul/
+- first_name: Nico
+  last_name: Gabriel
+  job_title: Chief Operating Officer
+  company: 'Sixt '
+  speaker_photo: "/uploads/2021/07/09/nico-gabriel_webopti.jpeg"
+  linkedin: https://www.linkedin.com/in/nico-gabriel-55456b92/
+- first_name: Olivier
+  last_name: Reppert
+  job_title: CEO
+  company: SHARE NOW
+  speaker_photo: "/uploads/global/wms2021/speakers/ExtraLarge-SHARENOW_Reppert-1 1.png"
+  linkedin: https://www.linkedin.com/in/olivier-reppert-56617611/
 - first_name: Jana
   last_name: Bartels
   job_title: Business Owner Vehicles
@@ -57,6 +57,12 @@ speakers:
   company: Strategy&, part of the PwC network
   speaker_photo: "/uploads/2021/06/28/jonas-seyfferth.jpeg"
   linkedin: https://www.linkedin.com/in/jonas-seyfferth/
+- first_name: Oliver
+  last_name: Mackprang
+  job_title: CEO
+  company: Miles
+  speaker_photo: "/uploads/2021/07/20/webopti_oliver-mackprang_ceo-miles_1.jpeg"
+  linkedin: https://www.linkedin.com/in/olivermackprang/
 - first_name: Kalle
   last_name: Greven
   job_title: 'Head of New Mobility '
