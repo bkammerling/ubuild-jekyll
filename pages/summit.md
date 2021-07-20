@@ -49,7 +49,7 @@ speakers:
   last_name: Bartels
   job_title: Business Owner Vehicles
   company: Wunder Mobility
-  speaker_photo: "/uploads/2021/07/02/jana-bartels.png"
+  speaker_photo: "/uploads/2021/07/20/jana-bartels-1.png"
   linkedin: https://www.linkedin.com/in/jana-bartels-771393199/
 - first_name: Jonas
   last_name: Seyfferth
@@ -143,7 +143,7 @@ page_sections:
   hide_menu: false
   show_poweredby: false
 sponsors:
-- logo: "/uploads/2021/07/20/miles_logo_black_rgb.png"
+- logo: "/uploads/2021/07/20/miles_logo_white_rgb-1.jpeg"
   url: https://miles-mobility.com/home
 - logo: "/uploads/2021/06/28/pwc_logo_mono_outline_white_rgb.jpeg"
   url: https://www.pwc.de/
