@@ -143,7 +143,7 @@ page_sections:
   hide_menu: false
   show_poweredby: false
 sponsors:
-- logo: "/uploads/2021/07/20/miles_logo_white_rgb-1.jpeg"
+- logo: "/uploads/2021/07/20/miles_logo.png"
   url: https://miles-mobility.com/home
 - logo: "/uploads/2021/06/28/pwc_logo_mono_outline_white_rgb.jpeg"
   url: https://www.pwc.de/
