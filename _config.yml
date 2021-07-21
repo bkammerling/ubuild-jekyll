@@ -3,9 +3,9 @@ title: Wunder Mobility
 author: Wunder Mobility
 email: website@wundermobility.com
 description: Technology to launch and scale shared mobility services; car & scooter sharing, vehicle rentals, carpooling and more. We're accelerating the global transition to sustainable mobility.
-baseurl: "/"
+baseurl: ""
 url: https://www.wundermobility.com
-permalink: "/blog/:title:output_ext"
+permalink: "/blog/:title"
 gtm-code: "GTM-THSMP8S"
 collections:
   articles:
@@ -29,31 +29,31 @@ collections:
     output: true
 collections_dir: wunder_collections
 include:
-- _redirects
+  - _redirects
 exclude:
-- vendor/bundle
-- Gemfile
-- Gemfile.lock
-- node_modules
+  - vendor/bundle
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
 defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
+  - scope:
+      path: ""
+    values:
+      layout: default
 markdown: kramdown
 sass:
   sass_dir: _sass
 pagination:
   enabled: true
-  collection: 'articles'
+  collection: "articles"
   per_page: 6
   sort_reverse: true
 plugins:
-- jekyll-feed
-- jekyll-menus
-- jekyll-sitemap
-- jekyll-minifier
-- jekyll-paginate-v2
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-sitemap
+  - jekyll-minifier
+  - jekyll-paginate-v2
 jekyll-minifier:
   uglifier_args:
     harmony: true
