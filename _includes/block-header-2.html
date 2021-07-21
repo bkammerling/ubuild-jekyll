@@ -6,7 +6,7 @@
   {% assign menu_name = 'wunder-main' %}
 {% endif %}
 {% assign menu = site.data.menus.[menu_name] %}
-<nav class="navbar {% if page.lang-ref != 'careers' %}fixed-top{% endif %} navbar-expand-lg block block-header-2 px-4">
+<nav class="navbar {% unless page.lang-ref == 'careers' or page.lang-ref == 'summit' %}fixed-top{% endunless %} navbar-expand-lg block block-header-2 px-4">
   <div class="container">
     <a class="navbar-brand" href="{{ site.url }}{% unless page.lang == 'en' %}/{{ page.lang }}{% endunless %}">
       <img src="{{ site.data.global.logo }}" alt="{{ site.title }}" class="">

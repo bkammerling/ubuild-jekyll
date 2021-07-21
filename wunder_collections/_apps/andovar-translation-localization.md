@@ -71,6 +71,5 @@ getting_started:
     All projects pass through a multi-stage linguistic process as standard, including translation by subject matter experts and editing by separate senior editors.
 whitepaper_link: https://drive.google.com/file/d/1_VUJm3p3F4Sq7gcZwFEB7qpACEec90t5/view?usp=sharing
 video_poster: ''
-published: false
 
 ---

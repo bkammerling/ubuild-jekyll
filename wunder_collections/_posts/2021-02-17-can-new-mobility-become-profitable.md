@@ -18,8 +18,17 @@ featured_image: "/uploads/2021/02/17/blog-social-share-profitability-1.jpg"
 excerpt: Many new mobility companies struggle with slow growth and high initial investments.
   The idea of profitability almost seems too good to be true. But is it?
 share_image: "/uploads/2021/02/17/blog-social-share-profitability-1.jpg"
-sticky: false
+sticky: true
 hidden: false
+include_case_study: false
+language: EN
+case_study_cta:
+  case_study_name: ''
+  heading: ''
+  body: ''
+  external_url: ''
+  supporting_image: ''
+  cta_text: ''
 
 ---
 _Many new mobility companies struggle with slow growth and high initial investments. The idea of profitability almost seems too good to be true. But is it?_

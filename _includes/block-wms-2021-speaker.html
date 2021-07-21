@@ -1,0 +1,38 @@
+<div
+  class="col-md-3 col-sm-6 pb-3"
+  data-aos="fade-in"
+  data-aos-easing="apple-easing"
+>
+  <div class="speaker-container p-3 h-100">
+    <div class="d-flex flex-column justify-content-between">
+      <p class="headline-small font-weight-bold pb-3">
+        {{ speaker.first_name }}<br />
+        {{ speaker.last_name}}
+      </p>
+      <div class="speaker-description">
+        <p class="mb-0">{{ speaker.job_title }}</p>
+        <p class="mt-0 mb-4">{{ speaker.company }}</p>
+      </div>
+      {% if speaker.linkedin %}
+      <a href="{{ speaker.linkedin }}" target="_blank">
+        {% endif %}
+        <div
+          class="
+            speaker-image
+            {%
+            if
+            speaker.linkedin
+            %}
+            with-linkedin
+            {%
+            endif
+            %}
+          "
+          style="background-image: url('{{ speaker.speaker_photo | relative_url }}');"
+        ></div>
+        {% if speaker.linkedin %}
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

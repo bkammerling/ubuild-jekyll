@@ -1,0 +1,213 @@
+<div
+  class="modal fade wunderform-modal"
+  id="wmsModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="WMS Application modal"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content p-0 form-content">
+      <div class="modal-header bg-dark text-white">
+        <div class="container">
+          <h5 class="modal-title" id="formModalLabel">
+            Apply to attend WMS 2021
+          </h5>
+          <button
+            type="button"
+            class="close text-white font-weight-light"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+      <form
+        id="modal-form"
+        class="ajaxForm contactmodal"
+        enctype="multipart/form-data"
+        accept-charset="UTF-8"
+        action="https://getform.io/f/17ce73e7-6ba4-4f84-af0e-41307fabf6eb"
+        method="POST"
+      >
+        <div class="modal-body">
+          <input
+            type="hidden"
+            name="subject"
+            id="subject-field"
+            value="Apply to Attend WMS 2021"
+          />
+          <input type="hidden" name="country" id="user-country" value="" />
+          <input type="hidden" name="region" id="user-region" value="EN" />
+          <input type="hidden" name="lang" id="site-lang" value="en" />
+          <input type="hidden" name="utm_source" id="utm_source" value="" />
+          <input type="hidden" name="utm_medium" id="utm_medium" value="" />
+          <input type="hidden" name="utm_campaign" id="utm_campaign" value="" />
+          <input type="hidden" name="utm_term" id="utm_term" value="" />
+          <input type="hidden" name="campaign_id" id="campaign_id" value="" />
+          <input type="hidden" name="adgroup_id" id="adgroup_id" value="" />
+          <input type="hidden" name="title_id" id="title_id" value="" />
+          <input type="hidden" name="first_visit" id="first_visit" value="" />
+          <input type="hidden" id="gclid_field" name="gclid_field" value="" />
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="recipient-name" class="form-label"
+                    >First Name *</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control text-input"
+                    id="recipient-name"
+                    name="name"
+                    required
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="job-title" class="form-label">Job title *</label>
+                  <input
+                    type="text"
+                    class="form-control text-input"
+                    id="job-title"
+                    name="job_title"
+                    required
+                    placeholder="Job title"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email *</label>
+                  <input
+                    type="email"
+                    class="form-control text-input"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="your-email@example.com"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="last-name" class="form-label">Last Name *</label>
+                  <input
+                    type="text"
+                    class="form-control text-input"
+                    id="last-name"
+                    name="lastname"
+                    required
+                    placeholder="Last name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="linkedin" class="form-label"
+                    >Linkedin Profile *</label
+                  >
+                  <input
+                    type="url"
+                    class="form-control text-input"
+                    id="linkedin"
+                    name="linkedin"
+                    placeholder="https://linkedin.com/in/your_profile"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="recipient-company" class="form-label"
+                    >Company *</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control text-input"
+                    id="recipient-company"
+                    name="company"
+                    placeholder="Your company"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="form-group mb-3">
+              <label for="message-text" class="form-label">Message</label>
+              <textarea
+                rows="3"
+                class="form-control textarea-input"
+                id="message-text"
+                name="message"
+              ></textarea>
+            </div>
+            <input
+              type="hidden"
+              id="captchaResponse"
+              name="g-recaptcha-response"
+            />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row w-100">
+            <div class="col-lg-8 col-md-7">
+              <div class="form-group mb-3">
+                <div class="custom-control custom-checkbox form-check">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input form-check-input"
+                    id="contactForm"
+                    name="add_to_newsletter"
+                    value="yes"
+                  />
+                  <label
+                    for="contactForm"
+                    class="form-check-label custom-control-label"
+                  >
+                    I agree to receiving marketing materials from Wunder
+                    Mobility.
+                  </label>
+                </div>
+                <div class="custom-control custom-checkbox form-check">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input form-check-input"
+                    id="contact_privacy"
+                    name="privacy_policy"
+                    value="agree"
+                    checked
+                    required
+                  />
+                  <label
+                    for="contact_privacy"
+                    class="form-check-label custom-control-label"
+                  >
+                    I agree to the
+                    <a href="/privacy" target="_blank" class="text-underline"
+                      ><u>Privacy Policy</u></a
+                    >
+                    *
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-4 text-right">
+              <button
+                id="form-submit"
+                class="btn btn-dark"
+                onclick="formSubmit(event)"
+              >
+                Apply Now
+              </button>
+            </div>
+          </div>
+          <div class="success-container row w-100 hidden">
+            <div class="d-flex w-100 align-items-center justify-content-center">
+              <div id="contactModalSuccessAnimation" class="lottie"></div>
+              <p class="form-feedback text-center">
+                Your application has been sent. We'll be in touch!
+              </p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
