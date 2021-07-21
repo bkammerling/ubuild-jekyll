@@ -3,7 +3,7 @@ layout: marketplace-app
 category: Operations Improvement
 title: Swobbee
 icon: "/uploads/2021/06/02/logo_icon_rgb_full-swobbee.png"
-excerpt: Swobbee is a battery swapping infrastructure for micro mobility solutions.
+excerpt: Swobbee is a battery swapping infrastructure for micromobility solutions.
 featured: false
 preview_gallery:
 - image-video: "/uploads/2021/06/02/digitalexpo-kevin-goebel.mp4"
@@ -14,13 +14,13 @@ preview_gallery:
   title: Dashboard & App
 - image-video: "/uploads/2021/06/02/swobbee-station_4-kevin-goebel.png"
   title: Swobbee station
-description: "<p>Swobee is the e-gas station for micro-moibility.</p><p>Empty batteries
-  of e-bikes, e-scooters, e-kickscooters and other light electric vehicles can be
-  swapped for full ones 24/7 at a Swobee station in just a few seconds.</p><p>The
-  Swobbee network is the only open decentralised battery-swapping network for sharing
+description: "<p>Swobbee is the e-gas station for micromobility.</p><p>Empty batteries
+  of e-bikes, e-scooters, e-kickscooters, and other light electric vehicles can be
+  swapped for full ones 24/7 at a Swobbee station in just a few seconds.</p><p>The
+  Swobbee network is the only open decentralized battery-swapping network for sharing
   and last-mile logistic providers. With our services, we guarantee our customers
   the constant availability of charged batteries wherever they go.</p><p>Our software
-  analytics supports them to optimise operations and reduce costs.</p><p>With Swobbee
+  analytics supports them to optimize operations and reduce costs.</p><p>With Swobbee
   our customers can focus on what matters the most - moving forward!</p>"
 screenshot_details:
 - screenshot: "/uploads/2021/06/02/charing_infrastructure1-kevin-goebel.png"
@@ -43,9 +43,9 @@ screenshot_details:
   title: Swobbee App and operator dashboard for smooth swapping operations.
   screenshot_description: 'Our App shows you the location of the nearest Swobbee station,
     the availability of fully charged batteries, and allows the user to reserve the
-    desired battery. Additionally, the Swobbee app provides valuable insights and
-    analytics which help our customers to optimize their operations and utilize batteries
-    efficiently and sustainably. '
+    desired battery. Additionally, the Swobbee dashboard provides valuable insights
+    and analytics which help our customers to optimize their operations and utilize
+    batteries efficiently and sustainably. '
 app_details:
 - detail_title: ''
   detail_content: "<em>*Additional fees may be charged</em>"
