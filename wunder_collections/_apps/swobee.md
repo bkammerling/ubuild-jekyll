@@ -72,6 +72,5 @@ getting_started:
   column_description: 'Welcome on board. You can officially start swapping your batteries. '
 whitepaper_link: ''
 video_poster: ''
-published: false
 
 ---
