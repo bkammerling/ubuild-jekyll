@@ -1,7 +1,7 @@
 ---
 layout: marketplace-app
 category: Integrations (API)
-title: Connected Insurance
+title: Connected Insurance (fka apfie)
 icon: "/uploads/2021/07/22/ci-transpareent.png"
 excerpt: We provide affordable connected insurance solutions for shared-mobility fleets.
 featured: false
