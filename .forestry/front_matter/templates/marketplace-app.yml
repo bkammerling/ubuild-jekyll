@@ -185,7 +185,6 @@ pages:
 - wunder_collections/_apps/adjust.md
 - wunder_collections/_apps/andovar-translation-localization.md
 - wunder_collections/_apps/apaya.md
-- wunder_collections/_apps/apfie.md
 - wunder_collections/_apps/asana.md
 - wunder_collections/_apps/ben-fleet-services.md
 - wunder_collections/_apps/braze.md
@@ -193,6 +192,7 @@ pages:
 - wunder_collections/_apps/cerence-tour-guide.md
 - wunder_collections/_apps/cidaas-id-validator.md
 - wunder_collections/_apps/city-dive.md
+- wunder_collections/_apps/connected-insurance.md
 - wunder_collections/_apps/damage-id.md
 - wunder_collections/_apps/drover.md
 - wunder_collections/_apps/eye-net-protect.md
