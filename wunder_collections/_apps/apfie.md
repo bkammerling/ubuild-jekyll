@@ -1,8 +1,8 @@
 ---
 layout: marketplace-app
 category: Integrations (API)
-title: apfie
-icon: "/uploads/2020/11/23/apfie_logo-yarden-peled.png"
+title: Connected Insurance
+icon: "/uploads/2021/07/22/ci-transpareent.png"
 excerpt: We provide affordable connected insurance solutions for shared-mobility fleets.
 featured: false
 preview_gallery:
@@ -36,8 +36,8 @@ app_details:
 - detail_content: "<em>*Additional fees may be charged</em>"
   detail_title: ''
 - detail_title: 'Partner details:'
-  detail_content: <a href="https://www.apfie.com/" title="Developer Website →">Developer
-    Website →</a>
+  detail_content: <a href="https://www.connectedinsurance.ai" title="Developer Website
+    →">Developer Website →</a>
 - detail_title: ''
   detail_content: <a href="https://www.apfie.com/contact-us" title="Terms of Service
     →">Terms of Service →</a>
